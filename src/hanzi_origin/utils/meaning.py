@@ -10,7 +10,7 @@ chrome_options.add_argument("--headless")
 driver = webdriver.Chrome(options=chrome_options)
 
 
-def fetch_ziyi(char: str) -> str:
+def fetch_ziyi(char: str) -> tuple[str, str]:
     """
     Fetch raw 'ziyi' text for a single Chinese character from ccamc.org.
     Returns the full text exactly as presented (no splitting).

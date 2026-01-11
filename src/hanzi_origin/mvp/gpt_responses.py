@@ -1,6 +1,8 @@
 from typing import Any, Optional
 from dotenv import load_dotenv
 
+from src.hanzi_origin.mvp.hanzi_schema import save_hanzi_schema_to_str
+
 load_dotenv()
 
 def call_hanzi_schema(hanzi: str) -> Optional[Any]:
@@ -32,7 +34,7 @@ def call_hanzi_schema(hanzi: str) -> Optional[Any]:
     )
 
     parsed_results = response.output_parsed
-    print(parsed_results)
+    print(save_hanzi_schema_to_str(parsed_results))
 
 
 

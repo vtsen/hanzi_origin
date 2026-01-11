@@ -1,8 +1,9 @@
-# python
 from pathlib import Path
 from typing import List, Dict, Optional
 import json
 import re
+
+MINIMAL_SUBSET = "人上木本明好休信看从来发后干面学国说情河"
 
 
 def _parse_line(line: str) -> Optional[Dict]:
@@ -75,7 +76,7 @@ def save_as_json(data: List[Dict], out: Path) -> None:
         json.dump(data, fh, ensure_ascii=False, indent=2)
 
 
-if __name__ == "__main__":
+def convert():
     project_root = Path(__file__).resolve().parent.parent.parent.parent
     src = project_root / "data" / "chars.txt"
     # https://github.com/lqfeng/ChineseCharacters/blob/master/%E9%80%9A%E7%94%A8%E8%A7%84%E8%8C%83%E6%B1%89%E5%AD%97%E8%A1%A8(2013)%E5%85%A8%E9%83%A8(8105%E5%AD%97)%E5%90%AB%E6%8B%BC%E9%9F%B3%E3%80%81%E7%B9%81%E4%BD%93%E5%AD%97%E3%80%81%E5%BC%82%E4%BD%93%E5%AD%97.txt
@@ -83,3 +84,24 @@ if __name__ == "__main__":
 
     parsed = parse_chars_file(src)
     save_as_json(parsed, dst)
+
+
+def make_subset():
+    """
+    Make a subset of chars.json containing only characters in MINIMAL_SUBSET.
+    """
+    project_root = Path(__file__).resolve().parent.parent.parent.parent
+    src = project_root / "data" / "chars.json"
+    dst = project_root / "data" / "chars_subset.json"
+
+    with src.open("r", encoding="utf-8") as fh:
+        data = json.load(fh)
+
+    subset = [entry for entry in data if entry["char"] in MINIMAL_SUBSET]
+
+    save_as_json(subset, dst)
+
+
+if __name__ == "__main__":
+    # convert()
+    make_subset()

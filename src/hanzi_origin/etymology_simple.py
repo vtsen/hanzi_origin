@@ -28,53 +28,9 @@ class Sense(BaseModel):
         default_factory=list,
         description="例句列表，可为空"
     )
-    traditional_char: str = Field(
-        description="该释义对应的繁体字（可能与简体字相同）"
-    )
-
-
-class EvolutionType(str, Enum):
-    # ===== 语义演变（semantic change）=====
-    SEMANTIC_EXTENSION = "semantic_extension"        # 义项扩展（泛化）
-    SEMANTIC_NARROWING = "semantic_narrowing"         # 义项收缩（特指化）
-    SEMANTIC_SHIFT = "semantic_shift"                 # 义移（中心改变）
-    METAPHOR = "metaphor"                             # 隐喻
-    METONYMY = "metonymy"                             # 转喻
-    SYNECDOCHE = "synecdoche"                          # 提喻
-    PEJORATION = "pejoration"                         # 贬义化
-    AMELIORATION = "amelioration"                     # 褒义化
-
-    # ===== 语法 / 功能演变（grammatical change）=====
-    GRAMMATICALIZATION = "grammaticalization"        # 语法化
-    FUNCTION_WORD_DEVELOPMENT = "function_word"       # 实词 → 虚词
-
-    # ===== 其他 =====
-    CONVERSION = "conversion"                         # 词类活用
-    LOAN_SHIFT = "loan_shift"                          # 假借义演变
-    ANALOGICAL_CHANGE = "analogy"                     # 类推
-    REANALYSIS = "reanalysis"                         # 重新分析
-    UNKNOWN = "unknown"                               # 无法确定
-
-
-class EtymologyEdge(BaseModel):
-    """
-    词源演变图中的一条有向边
-    """
-    source_index: int = Field(
-        ...,
-        description="起点释义的 index"
-    )
-    target_index: int = Field(
-        ...,
-        description="终点释义的 index"
-    )
-    evolution_type: EvolutionType = Field(
-        ...,
-        description="演变类型"
-    )
-    note: Optional[str] = Field(
-        None,
-        description="补充说明（如时代、文献、争议等）"
+    traditional_chars: List[str] = Field(
+        default_factory=list,
+        description="该释义对应的繁体字列表（如果有），可为空"
     )
 
 
@@ -85,10 +41,6 @@ class Etymology(BaseModel):
     senses: List[Sense] = Field(
         ...,
         description="所有释义节点"
-    )
-    edges: List[EtymologyEdge] = Field(
-        default_factory=list,
-        description="演变关系（允许不联通）"
     )
 
 

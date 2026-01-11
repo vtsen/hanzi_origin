@@ -1,14 +1,14 @@
 from typing import Any, Optional
 from dotenv import load_dotenv
 
-from src.hanzi_origin.etymology import save_to_str
+from src.hanzi_origin.etymology_simple import save_to_str
 
 load_dotenv()
 
 def call_etymology(hanzi: str, traditional_chars: list[str]) -> Optional[Any]:
     from openai import OpenAI
     client = OpenAI()
-    from etymology import Etymology
+    from etymology_simple import Etymology
 
     prompt_for_traditional = "\n"
     if traditional_chars:
@@ -29,50 +29,35 @@ def call_etymology(hanzi: str, traditional_chars: list[str]) -> Optional[Any]:
                 You are a professional linguist specializing in Chinese historical semantics and you are given two pieces of information of the character {hanzi}: \n
                 1. A possible initial meaning of the character when it was created long time ago. This piece of information might be inaccurate, so be critical.\n
                 2. A list of entries containing the comtemporary meanings.\n\n
-                Your task is to analyze the senses and etymology of a given Chinese character and output the result strictly in JSON format according to the schema defined below.\n\n
+                Your task is to analyze the senses of a given Chinese character and output the result strictly in JSON format according to the schema defined below.\n\n
                 Note that the meaning in (1) might not correspond to any of the meanings in (2), in which case you should make a separate entry of sense for it; otherwise, merge it to the corresponding sense in (2).\n\n
                 GENERAL PRINCIPLES:\n
                 - Do NOT invent speculative senses. Stick to what is given.\n
                 - Treat each distinct meaning (sense) as a separate node.\n
-                - For sense extraction: no extra, no missing.\n
-                - If there is only one sense (rare), edge list should be empty.\n
+                - No extra, no missing.\n
                 - Use modern linguistic analysis, but ground all claims in attested or widely accepted historical usage.\n
-                - If a relationship between two senses is uncertain, either omit the edge or mark it as UNKNOWN.\n
-                - All senses with the same traditional_char should be either directly or indirectly connected. Make sure you do not leave out senses in the graph, nor hallucinate fake linkage.\n
-                - The etymology structure is a directed acyclic graph (DAG), but disconnected components are allowed.\n\n
                 SCHEMA DESCRIPTION:\n\n
                 The output JSON must contain a single object with the following top-level fields:\n\n
-                1. \"senses\": an array of sense objects. Each sense object represents one distinct meaning.\n\n
+                \"senses\": an array of sense objects. Each sense object represents one distinct meaning.\n\n
                 Each sense object MUST have:\n
                 - \"index\": integer. A unique identifier for this sense. Indices must be stable and used consistently in edges.\n
                 - \"part_of_speech\": string. Examples: \"noun\", \"verb\", \"adjective\", \"function word\", etc.\n
                 - \"meaning\": string. A concise definition of the sense.\n
                 - \"examples\": array of strings. Classical or modern examples illustrating this sense. May be empty if examples are unavailable.\n\n
-                - \"traditional_char\": string. The corresponding traditional character for this sense, which could be the same as simplified.\n\n
-                2. \"edges\": an array of etymology edge objects. Each edge represents a directional semantic or grammatical development between two senses.\n\n
-                Each edge object MUST have:\n
-                - \"source_index\": integer. The index of the earlier or source sense.\n
-                - \"target_index\": integer. The index of the derived or later sense.\n
-                - \"evolution_type\": string. Must be ONE of the following values:\n  - \"semantic_extension\"\n  - \"semantic_narrowing\"\n  - \"semantic_shift\"\n  - \"metaphor\"\n  - \"metonymy\"\n  - \"synecdoche\"\n  - \"pejoration\"\n  - \"amelioration\"\n  - \"grammaticalization\"\n  - \"function_word\"\n  - \"conversion\"\n  - \"loan_shift\"\n  - \"analogy\"\n  - \"reanalysis\"\n  - \"unknown\"\n
-                - \"note\": string or null. Optional clarification such as historical period, mechanism explanation, or scholarly uncertainty.\n\n
+                - \"traditional_chars\": array of strings. Corresponding traditional characters for this sense, if any. May be empty.\n\n
                 IMPORTANT CONSTRAINTS:\n
                 - Output MUST be valid JSON. No comments, no trailing commas.\n
                 - Do NOT include any text outside the JSON object.\n
-                - Prefer metaphor / metonymy / synecdoche when a clear mechanism exists; use semantic_shift only when no specific mechanism can be confidently identified.\n
                 - All values of "meaning" MUST be written in Chinese.\n
                 - All strings in "examples" MUST be written in Chinese (Classical or Modern).\n
-                
-                - ALL senses with the same traditional_char MUST be either directly or indirectly connected. Make sure you do not leave out senses in the edges!\n
-                - ALL senses with the same traditional_char MUST be either directly or indirectly connected. Make sure you do not leave out senses in the edges!\n
-                - ALL senses with the same traditional_char MUST be either directly or indirectly connected. Make sure you do not leave out senses in the edges!\n
-                
+
                 You will be given ONE Chinese character as input. Produce exactly ONE JSON object following the schema above.
                 """
             },
             {
                 "role": "user",
-                "content": f"""What are the senses and the etymology of the Chinese character '{hanzi}'? {prompt_for_traditional}\n
-                Provide your answer in JSON format according to the specified schema.
+                "content": f"""What are the senses of the Chinese character '{hanzi}'? {prompt_for_traditional}\n
+                Provide your answer in JSON format according to the specified schema.\n\n
                 Below are the initial meaning and contemporary meanings:\n{input_info}""",
             },
         ],

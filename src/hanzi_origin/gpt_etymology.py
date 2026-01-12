@@ -10,6 +10,7 @@ def call_etymology(
     traditional_chars: list[str],
     initial_meaning: str,
     contemporary_meanings: str,
+    model: str = "gpt-4o-mini",
 ) -> Optional[Any]:
     from openai import OpenAI
     client = OpenAI()
@@ -23,7 +24,7 @@ def call_etymology(
     input_info = f"Initial Meaning: {initial_meaning}\n\nContemporary Meanings: {contemporary_meanings}"
 
     response = client.responses.parse(
-        model="gpt-4o-mini",
+        model=model,
         input=[
             {
                 "role": "system",
@@ -47,10 +48,10 @@ def call_etymology(
                 1. \"senses\": an array of sense objects. Each sense object represents one distinct meaning.\n\n
                 Each sense object MUST have:\n
                 - \"index\": integer. A unique identifier for this sense. Indices must be stable and used consistently in edges.\n
-                - \"part_of_speech\": string. Examples: \"noun\", \"verb\", \"adjective\", \"function word\", etc.\n
+                - \"part_of_speech\": string. Must be one of the predefined PartOfSpeech enum values, e.g.: \"noun\", \"verb\", \"adjective\", \"measure_word\", etc.\n
                 - \"meaning\": string. A concise definition of the sense.\n
                 - \"examples\": array of strings. Classical or modern examples illustrating this sense. May be empty if examples are unavailable.\n\n
-                - \"traditional_char\": string. The corresponding traditional character for this sense, which could be the same as simplified.\n\n
+                - \"traditional_char\": string. The corresponding traditional character for this sense, which could be the same as simplified. Think carefully to pick.\n\n
                 2. \"formations\": an array of CharacterFormation objects. Each formation object represents the formation of one distinct traditional charactor.\n\n
                 Each formation object MUST have:\n
                 - "formation_type": string. The character formation method, based on the Six Principles (六书) as revised by modern linguistics. Must be one of the predefined formation type enum values (e.g. pictograph, phono_semantic_compound, loan_character, etc.).

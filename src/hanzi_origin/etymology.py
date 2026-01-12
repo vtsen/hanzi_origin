@@ -7,6 +7,32 @@ from pydantic import BaseModel, Field
 from typing import List
 
 
+class PartOfSpeech(str, Enum):
+    # ===== 实词 (lexical words) =====
+    NOUN = "noun"                 # 名词
+    VERB = "verb"                 # 动词
+    ADJECTIVE = "adjective"       # 形容词
+    ADVERB = "adverb"             # 副词
+    NUMERAL = "numeral"           # 数词
+    MEASURE_WORD = "measure_word" # 量词
+
+    # ===== 代词系统 =====
+    PRONOUN = "pronoun"           # 代词
+
+    # ===== 虚词 / 功能词 =====
+    PREPOSITION = "preposition"      # 介词
+    CONJUNCTION = "conjunction"      # 连词
+    PARTICLE = "particle"            # 助词（语气、结构、动态）
+    AUXILIARY = "auxiliary"          # 助动词
+
+    # ===== 特殊与汉语特有类别 =====
+    INTERJECTION = "interjection"    # 叹词
+    ONOMATOPOEIA = "onomatopoeia"    # 拟声词
+
+    # ===== 兜底 =====
+    OTHER = "other"
+
+
 class Sense(BaseModel):
     """
     单一释义节点（图中的一个点）
@@ -15,9 +41,9 @@ class Sense(BaseModel):
         ...,
         description="释义的唯一索引，用于在词源图中引用"
     )
-    part_of_speech: str = Field(
+    part_of_speech: PartOfSpeech = Field(
         ...,
-        description="词性，如：名词、动词、形容词、助词等"
+        description="词性"
     )
     meaning: str = Field(
         ...,

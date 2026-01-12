@@ -9,7 +9,9 @@ from gpt_etymology import call_etymology
 
 def generate_etymology_files(
     input_json: Path | str,
+    model: str = "gpt-4o-mini",
     overwrite: bool = False,
+    max_chars: int = 3,
 ) -> None:
     """
     Read a JSON list (each entry with 'index' and 'char' and optional
@@ -38,6 +40,7 @@ def generate_etymology_files(
     if not isinstance(rows, list):
         raise ValueError("Input JSON must be a list of objects")
 
+    n_successful_chars = 0
     for entry in rows:
         idx = entry.get("index")
         ch = entry.get("char")
@@ -60,7 +63,8 @@ def generate_etymology_files(
             continue
 
         try:
-            result = call_etymology(ch, traditional_chars, initial_meaning, contemporary_meanings)
+            result = call_etymology(ch, traditional_chars, initial_meaning, contemporary_meanings,
+                                    model=model)
         except Exception as exc:
             print(f"error calling etymology for {ch} ({idx}): {exc}", file=sys.stderr)
             continue
@@ -71,8 +75,17 @@ def generate_etymology_files(
             print(f"error saving etymology for {ch} ({idx}) to {out_file}: {exc}", file=sys.stderr)
             continue
 
+        # cap successful count in one call
+        n_successful_chars += 1
+        if n_successful_chars >= max_chars:
+            print(f"reached max_chars={max_chars}, stopping.", file=sys.stderr)
+            break
+
     print(f"wrote etymology files to {out_dir}", file=sys.stderr)
 
 
 if __name__ == '__main__':
-    generate_etymology_files("chars_subset.json")
+    generate_etymology_files("chars.json",
+                             model="gpt-4.1",
+                             max_chars=1000,
+                             )

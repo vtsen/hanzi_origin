@@ -14,6 +14,7 @@ def fetch_ziyi(char: str) -> tuple[str, str]:
     Returns the full text exactly as presented (no splitting).
     """
     driver = webdriver.Chrome(options=chrome_options)
+    driver.set_page_load_timeout(60)  # seconds
     driver.get(f"http://ccamc.org/cjkv.php?cjkv={char}")
 
     # Wait for page to fully load if needed

@@ -1,0 +1,105 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "面积、体积、容量、数量、强度等都不及一般或不及比较对象，与“大”相对",
+      "examples": [
+        "小雨",
+        "矮小",
+        "短小精悍"
+      ],
+      "traditional_char": "小"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "范围窄，程度浅，或性质不重要",
+      "examples": [
+        "小事",
+        "小节",
+        "小题大作"
+      ],
+      "traditional_char": "小"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "时间短",
+      "examples": [
+        "小坐",
+        "小住"
+      ],
+      "traditional_char": "小"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "年幼，排行最末",
+      "examples": [
+        "小孩",
+        "小弟"
+      ],
+      "traditional_char": "小"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "谦辞，用于自谦或表示自己地位低下",
+      "examples": [
+        "小弟",
+        "小可",
+        "小人"
+      ],
+      "traditional_char": "小"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "妾",
+      "examples": [
+        "小房"
+      ],
+      "traditional_char": "小"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "pictograph",
+      "original_sense_index": 0,
+      "note": "甲骨文象沙粒形，表现细微之意，属象形。篆书析为会意，从八从丨，形容细小分散。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由物理‘小’引申为范围、程度等非物理‘小’。早见先秦文献。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "从空间上的小比喻到时间上的短。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由小引申指年幼、排行末。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "自谦用法，由事物‘小’引申为人自谦。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "metonymy",
+      "note": "小房、妾，因身份较低而称‘小’。"
+    }
+  ]
+}

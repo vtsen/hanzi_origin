@@ -1,0 +1,110 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "铸造器物的模具",
+      "examples": [
+        "金文字形，象造器之模范形。"
+      ],
+      "traditional_char": "凡"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "conjunction",
+      "meaning": "所有的；表示概括，全部",
+      "examples": [
+        "凡是合格的人都可以参加。"
+      ],
+      "traditional_char": "凡"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "总共",
+      "examples": [
+        "全书凡二十八卷。"
+      ],
+      "traditional_char": "凡"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "平常的，不出奇的",
+      "examples": [
+        "平凡。凡夫俗子。"
+      ],
+      "traditional_char": "凡"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "人世间（宗教、迷信用语）",
+      "examples": [
+        "凡尘。凡心。"
+      ],
+      "traditional_char": "凡"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "大概，要略；概要",
+      "examples": [
+        "大凡。凡例。发凡。"
+      ],
+      "traditional_char": "凡"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "中国古代乐谱记音符号，相当于简谱“4”",
+      "examples": [],
+      "traditional_char": "凡"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "pictograph",
+      "original_sense_index": 0,
+      "note": "金文象形，形似模范器具之形，用作‘铸模’之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "模范、样本引申为‘总体、全部’，表示概括。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "‘全部’引申为‘总共’。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "由‘概括’进一步引申为‘普通，一般’。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "‘全部’引申为‘概要，要略’之义。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "‘凡’指一般，借指‘人世’与‘超凡’对举。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 6,
+      "evolution_type": "unknown",
+      "note": "‘凡’用作乐谱记音符号，机制未详，疑为音类借用。"
+    }
+  ]
+}

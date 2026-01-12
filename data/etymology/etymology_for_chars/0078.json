@@ -1,0 +1,165 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "人的头顶",
+      "examples": [
+        "天额（即头顶）"
+      ],
+      "traditional_char": "天"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "在地面以上的高空",
+      "examples": [
+        "天空",
+        "天际",
+        "天罡"
+      ],
+      "traditional_char": "天"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "在上面（如书页等的顶部）",
+      "examples": [
+        "天头"
+      ],
+      "traditional_char": "天"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "气候",
+      "examples": [
+        "天气",
+        "天冷"
+      ],
+      "traditional_char": "天"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "季节，时节",
+      "examples": [
+        "冬天"
+      ],
+      "traditional_char": "天"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "日，一昼夜，或专指昼间",
+      "examples": [
+        "今天"
+      ],
+      "traditional_char": "天"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "神仙或他们所住的地方",
+      "examples": [
+        "天上",
+        "天宫"
+      ],
+      "traditional_char": "天"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "noun",
+      "meaning": "自然界",
+      "examples": [
+        "天堑",
+        "天时",
+        "天籁"
+      ],
+      "traditional_char": "天"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "other",
+      "meaning": "古代用于记日或年的字（天干）",
+      "examples": [
+        "天干地支"
+      ],
+      "traditional_char": "天"
+    },
+    {
+      "index": 9,
+      "part_of_speech": "adjective",
+      "meaning": "自然的、生成的",
+      "examples": [
+        "天然",
+        "天性",
+        "天才"
+      ],
+      "traditional_char": "天"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意字，下为人形（大），上为一横表示头部，表示头顶。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "以人头顶比喻在上方的天空，从甲骨文已见。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "从天空引申为物体的顶部，如书页最上处。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "古人以天与气候相关，乃至天气变迁。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "synecdoche",
+      "note": "以表天气转为表季节。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "metonymy",
+      "note": "以天象循环引申为昼夜概念。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 6,
+      "evolution_type": "semantic_shift",
+      "note": "天空引申为神的居所，上天意指神界。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 7,
+      "evolution_type": "semantic_extension",
+      "note": "由天界引申泛指自然界整体。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 8,
+      "evolution_type": "function_word",
+      "note": "用于记年记日的天干符号，来自天的泛指高天、主序的含义。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 9,
+      "evolution_type": "semantic_extension",
+      "note": "从天（高而自然）引申为天然、天生。"
+    }
+  ]
+}

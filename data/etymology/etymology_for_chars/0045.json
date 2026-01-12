@@ -1,0 +1,89 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "measure_word",
+      "meaning": "量词，表示人或事物的单位。",
+      "examples": [
+        "三个人",
+        "五个苹果",
+        "有一个问题"
+      ],
+      "traditional_char": "個"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "单独的，个人的。",
+      "examples": [
+        "个人",
+        "个性",
+        "个位"
+      ],
+      "traditional_char": "個"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "身材或物体的大小。",
+      "examples": [
+        "高个子",
+        "小个子"
+      ],
+      "traditional_char": "個"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "particle",
+      "meaning": "用在动词与补语之间，加强语气。",
+      "examples": [
+        "笑个不停",
+        "吃个饱"
+      ],
+      "traditional_char": "個"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "pronoun",
+      "meaning": "自己（如“自个儿”）。",
+      "examples": [
+        "他自己（他自个儿）",
+        "我自个儿去"
+      ],
+      "traditional_char": "個"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "'個'为形声字，'人'为形旁，'固'为声旁，原本作量词。简体'个'由'個'变形而来。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "量词的单位引申为“单独的”含义。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由‘个人’之义，进一步引申为“身材或物体的大小”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "grammaticalization",
+      "note": "由量词虚化用作语气助词。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由“个人”意义派生出“自己（自个儿）”的用法。"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "停止，终止",
+      "examples": [
+        "学不可以已。",
+        "死而后已。"
+      ],
+      "traditional_char": "已"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "particle",
+      "meaning": "表示事情已经发生",
+      "examples": [
+        "已经",
+        "事已至此",
+        "业已"
+      ],
+      "traditional_char": "已"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adverb",
+      "meaning": "过了一些时间，不多时",
+      "examples": [
+        "已忽不见"
+      ],
+      "traditional_char": "已"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adverb",
+      "meaning": "太，过度",
+      "examples": [
+        "不为已甚"
+      ],
+      "traditional_char": "已"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "other",
+      "meaning": "古同“以”，用作介词或连词",
+      "examples": [],
+      "traditional_char": "已"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "pictograph",
+      "original_sense_index": 0,
+      "note": "象形字，本作蛇形，表示“停止”。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "grammaticalization",
+      "note": "由“停止”的动词语义引申为表示动作状态完成。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "表示某事发生后过了一些时间，仍基于“已然”之义。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "从“终止”引申为“程度到极点”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "古时假借为“以”，纯属音通。"
+    }
+  ]
+}

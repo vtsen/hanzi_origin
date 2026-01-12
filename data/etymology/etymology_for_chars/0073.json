@@ -1,0 +1,84 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "用酒食款待别人，相对而坐共享食物。",
+      "examples": [
+        "乡，古者大飨也。",
+        "《说文》：‘鄉，相向也。’"
+      ],
+      "traditional_char": "鄉"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "泛指小市镇、村落的集体居住地。",
+      "examples": [
+        "乡村",
+        "穷乡僻壤",
+        "古之为政，必因四邻之乡。"
+      ],
+      "traditional_char": "鄉"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "自己生长的地方或祖籍，本乡本土。",
+      "examples": [
+        "家乡",
+        "故乡",
+        "乡井",
+        "少小离家老大回，乡音无改鬓毛衰。"
+      ],
+      "traditional_char": "鄉"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "中国行政区划基层单位，属县或县以下的行政区。",
+      "examples": [
+        "乡政府",
+        "乡镇企业"
+      ],
+      "traditional_char": "乡"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "甲骨文作会意字，像二人相对共食的形状，象征相向共飨。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘鄉’加‘阝’为形声字，声旁‘乡’，意旁‘阝’表地名、区域。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 3,
+      "note": "‘乡’为简化字，以‘乡’字表音、表地，与本义产生分化。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_shift",
+      "note": "西周以后，本义不用，借指聚落社会，由“对坐共食”演变为“居住群体”。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由“集体聚居地”引申为“家乡、本土”等个人归属意义。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "reanalysis",
+      "note": "现代重新规范为行政单位名称，由地域概念专化为区划单位。"
+    }
+  ]
+}

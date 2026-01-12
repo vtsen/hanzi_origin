@@ -1,0 +1,136 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "公正合宜的道理或举动",
+      "examples": [
+        "正义",
+        "义不容辞",
+        "义无反顾",
+        "仗义直言"
+      ],
+      "traditional_char": "義"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "合乎正义或公益的",
+      "examples": [
+        "义举",
+        "义务",
+        "义愤",
+        "见义勇为"
+      ],
+      "traditional_char": "義"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "情谊，友情",
+      "examples": [
+        "义气",
+        "恩义",
+        "义重如山"
+      ],
+      "traditional_char": "義"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "意思，人对事物认识到的内容",
+      "examples": [
+        "意义",
+        "含义",
+        "释义",
+        "微言大义"
+      ],
+      "traditional_char": "義"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "认为亲属的",
+      "examples": [
+        "义父",
+        "义女"
+      ],
+      "traditional_char": "義"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "adjective",
+      "meaning": "人工制造的（人体的部分）",
+      "examples": [
+        "义齿",
+        "义肢"
+      ],
+      "traditional_char": "義"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [],
+      "traditional_char": "義"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "noun",
+      "meaning": "仪，礼仪的意思（“仪”的古字）",
+      "examples": [],
+      "traditional_char": "義"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 7,
+      "note": "“義”由“羊”表意，“我”表声，原本为“仪”的古字，后音义分化。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 7,
+      "target_index": 0,
+      "evolution_type": "semantic_shift",
+      "note": "由“仪、礼仪”抽象引申为“公正合宜的道理”，周秦至汉语义发展"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "名词义向形容词性扩展，用于指代合乎正义的，如“义举”"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由公正之理引申为人与人间的情谊"
+    },
+    {
+      "source_index": 3,
+      "target_index": 0,
+      "evolution_type": "synecdoche",
+      "note": "部分“意义”用来指代整体道理"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "由公正合宜引申至“认为亲属的”关系，表示道义上的亲属"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "metaphor",
+      "note": "由本义引申出“人工制造的”（不是真身而取其名），如义齿"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "reanalysis",
+      "note": "用作姓氏，为后起用法"
+    }
+  ]
+}

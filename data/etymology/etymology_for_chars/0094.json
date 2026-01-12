@@ -1,0 +1,102 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "分别，区分。",
+      "examples": [
+        "区分好坏",
+        "不可不区分轻重"
+      ],
+      "traditional_char": "區"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "地域，地区。",
+      "examples": [
+        "地理区划",
+        "该区气候温暖"
+      ],
+      "traditional_char": "區"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "行政区划单位。",
+      "examples": [
+        "市辖区",
+        "省级自治区"
+      ],
+      "traditional_char": "區"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "微小，细微（用于“区区”）",
+      "examples": [
+        "区区小事",
+        "区区之数"
+      ],
+      "traditional_char": "區"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [
+        "区氏家谱"
+      ],
+      "traditional_char": "區"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "收藏器物的地方。",
+      "examples": [
+        "古人以区藏器",
+        "区中有宝"
+      ],
+      "traditional_char": "區"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 5,
+      "note": "会意字，从品在匚中，表示收藏器物的地方。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 5,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "由收藏之意引申为分别、区分；收藏需分类、区分物品。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由区分引申为被区分的区域，即地区。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_narrowing",
+      "note": "地区之义语义收窄，专指行政区划单位。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "分别引申作微小、细微，多用于‘区区’。"
+    },
+    {
+      "source_index": 5,
+      "target_index": 4,
+      "evolution_type": "unknown",
+      "note": "姓氏用法，来源不明。"
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "头，首，始，大；事物的开端或首要部分",
+      "examples": [
+        "元首",
+        "元年",
+        "元旦",
+        "元帅",
+        "状元"
+      ],
+      "traditional_char": "元"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "基本，根本，构成事物的本原或要素",
+      "examples": [
+        "元素",
+        "元气",
+        "单元",
+        "元音",
+        "元件"
+      ],
+      "traditional_char": "元"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "未知数（代数中用作符号表示的数）",
+      "examples": [
+        "一元二次方程",
+        "二元一次方程"
+      ],
+      "traditional_char": "元"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "中国元代朝代名",
+      "examples": [
+        "元朝",
+        "元曲",
+        "元代"
+      ],
+      "traditional_char": "元"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "元好问",
+        "元稹"
+      ],
+      "traditional_char": "元"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "代“玄”用，古同“玄”，清代因避康熙帝名讳所用",
+      "examples": [
+        "元学"
+      ],
+      "traditional_char": "元"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "同“圆”",
+      "examples": [],
+      "traditional_char": "元"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意字，从一从兀，甲骨文象人形，上横指头部；本义为‘头’、‘首’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘头，首’义引申为‘根本，基本’，汉代已见。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由‘基本’引申为数学术语中‘元’表示‘未知数’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "以‘元’首、新开端之意转指朝代之始，元朝以‘元’为国号。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "conversion",
+      "note": "由通用意义直接成为姓氏，没有特殊语义演变机制。"
+    },
+    {
+      "source_index": 5,
+      "target_index": 0,
+      "evolution_type": "unknown",
+      "note": "‘元’借用作‘玄’，因清代避康熙帝名讳。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "unknown",
+      "note": "‘元’偶用于‘圆’的通假或异体用法，具体关系不明。"
+    }
+  ]
+}

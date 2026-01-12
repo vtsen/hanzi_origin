@@ -1,0 +1,132 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "出，生出，滋长",
+      "examples": [
+        "草木之萌芽",
+        "植物之枝干"
+      ],
+      "traditional_char": "之"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "particle",
+      "meaning": "表示领有、连属关系的助词",
+      "examples": [
+        "赤子之心",
+        "父母之爱"
+      ],
+      "traditional_char": "之"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "particle",
+      "meaning": "表示修饰关系的结构助词",
+      "examples": [
+        "缓兵之计",
+        "不速之客",
+        "莫逆之交"
+      ],
+      "traditional_char": "之"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "particle",
+      "meaning": "用在主谓结构之间，使成为句子成分",
+      "examples": [
+        "大道之行也，天下为公"
+      ],
+      "traditional_char": "之"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "pronoun",
+      "meaning": "代替人或事物的代词",
+      "examples": [
+        "置之度外",
+        "等闲视之"
+      ],
+      "traditional_char": "之"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "pronoun",
+      "meaning": "指示代词，这、那",
+      "examples": [
+        "之二虫，又何知"
+      ],
+      "traditional_char": "之"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "particle",
+      "meaning": "虚用，无所指",
+      "examples": [
+        "久而久之"
+      ],
+      "traditional_char": "之"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "verb",
+      "meaning": "往，到（表示趋向）",
+      "examples": [
+        "吾欲之南海"
+      ],
+      "traditional_char": "之"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意字，象艸过屮，表现植物枝茎萌发之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 7,
+      "evolution_type": "semantic_extension",
+      "note": "从“生出，滋长”扩展为“往，到”，古文用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_shift",
+      "note": "由具体“生长、生成”转为抽象为“指代人或事物”。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "由一般代词扩展为指示代词‘这、那’。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 6,
+      "evolution_type": "semantic_extension",
+      "note": "代词发展为无所指的虚用。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 1,
+      "evolution_type": "grammaticalization",
+      "note": "代词‘之’虚化为助词，用于表示领有、连属关系。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "结构助词的修饰关系，由原本的连属之意而来。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "助词进一步虚化，用于主谓结构之间。"
+    }
+  ]
+}

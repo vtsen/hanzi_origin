@@ -1,0 +1,40 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "日落时分，傍晚，黄昏",
+      "examples": [
+        "夕阳无限好，只是近黄昏。",
+        "黄昏之后，夜色渐浓。"
+      ],
+      "traditional_char": "夕"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "泛指晚上",
+      "examples": [
+        "前夕",
+        "除夕",
+        "一夕谈"
+      ],
+      "traditional_char": "夕"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "simple_indicative",
+      "original_sense_index": 0,
+      "note": "“夕”为指事字，从月半见，表示太阳已落、夜晚将至，初指傍晚时候。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "本义‘黄昏’推广为普通‘晚上’用法，历代文献可见。"
+    }
+  ]
+}

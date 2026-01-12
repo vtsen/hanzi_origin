@@ -1,0 +1,58 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "刀的锋利部分，刀口，刀锋",
+      "examples": [
+        "刀刃",
+        "刃口",
+        "刀有双刃"
+      ],
+      "traditional_char": "刃"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "刀，泛指兵器",
+      "examples": [
+        "利刃",
+        "白刃",
+        "挥刃而上"
+      ],
+      "traditional_char": "刃"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "用刀杀",
+      "examples": [
+        "手刃仇人",
+        "宁自刃",
+        "与人刃我"
+      ],
+      "traditional_char": "刃"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "simple_indicative",
+      "original_sense_index": 0,
+      "note": "小篆形体为刀上加一点，表示刀口所在，本义为‘刀锋’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘刀口’泛称‘刀’整体，见古文与现代使用。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "conversion",
+      "note": "名词转动词，表示‘用刀杀’，多见于文言。"
+    }
+  ]
+}

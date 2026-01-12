@@ -1,0 +1,73 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "小，细，微小的事物或次序最小者；排行最小的人；骰子或骨牌上的“一点”",
+      "examples": [
+        "《說文》曰：‘么，小也。’",
+        "幺叔、幺妹、呼幺喝六"
+      ],
+      "traditional_char": "么"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "用作某些词的后缀，无实义，构成疑问、程度等词",
+      "examples": [
+        "什么、怎么、多么"
+      ],
+      "traditional_char": "麽"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "particle",
+      "meaning": "助词，用于句尾或句中表示语气（疑问、含蓄等）",
+      "examples": [
+        "不让你去么，你又要去。"
+      ],
+      "traditional_char": "麽"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "particle",
+      "meaning": "同“吗”，表疑问语气",
+      "examples": [
+        "你去么？"
+      ],
+      "traditional_char": "么"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "pictograph",
+      "original_sense_index": 0,
+      "note": "‘么’为象形字，象丝线初生、细小的样子，表示‘小’的本义"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "‘麽’为形声字，从‘麻’（意符/声符），后用作词尾或助词"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "grammaticalization",
+      "note": "‘小’引申为轻微，引申作词尾、助词，南北朝后明显"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "grammaticalization",
+      "note": "后缀用法进一步语法化为语气助词，现代汉语中常见"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "‘么’被用作‘吗’的简化音变形式，现代口语发展"
+    }
+  ]
+}

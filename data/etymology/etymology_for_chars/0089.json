@@ -1,0 +1,138 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "去枝的竹子（指光秆竹竿）",
+      "examples": [
+        "支，去其枝竹也。——《说文》"
+      ],
+      "traditional_char": "支"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "撑持，支持，伸出，竖起",
+      "examples": [
+        "支撑",
+        "支援",
+        "体力不支"
+      ],
+      "traditional_char": "支"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "受得住，经得起",
+      "examples": [
+        "乐不可支",
+        "这点重量桌子支不住"
+      ],
+      "traditional_char": "支"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "领款或付款",
+      "examples": [
+        "支付",
+        "支工资"
+      ],
+      "traditional_char": "支"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "调度，指使",
+      "examples": [
+        "支使",
+        "支应",
+        "支着儿"
+      ],
+      "traditional_char": "支"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "附属于总体的一个部分",
+      "examples": [
+        "总支",
+        "支流",
+        "支线",
+        "支离"
+      ],
+      "traditional_char": "支"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "地支，历法中十二个字：子丑寅卯辰巳午未申酉戌亥",
+      "examples": [
+        "地支",
+        "天干地支"
+      ],
+      "traditional_char": "支"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "measure_word",
+      "meaning": "量词，用于细长的物体",
+      "examples": [
+        "一支笔",
+        "三支队伍"
+      ],
+      "traditional_char": "支"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意字，上部为竹之半，下部为又（手），表示手持竹竿。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "以支竿之动作引申为支持、撑持。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "从“支撑”引申为“受得住”。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "因“支撑”动作引申为“支款”，银钱流转上的调度。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "“支使”引申为调度、指使。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "metaphor",
+      "note": "以竹竿为分枝之意，引伸为“分支”，即部分。"
+    },
+    {
+      "source_index": 5,
+      "target_index": 6,
+      "evolution_type": "reanalysis",
+      "note": "“支”作为“地支”专名，历史中重新分析吸收入历法专用语。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 7,
+      "evolution_type": "semantic_extension",
+      "note": "以竹竿为单位，引申为量词用于细长物体。"
+    }
+  ]
+}

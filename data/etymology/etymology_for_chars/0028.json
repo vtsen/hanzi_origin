@@ -1,0 +1,113 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古代统治阶级中次于卿大夫的一个阶层",
+      "examples": [
+        "士族",
+        "士大夫"
+      ],
+      "traditional_char": "士"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "旧时指读书人",
+      "examples": [
+        "士子",
+        "学士",
+        "士民"
+      ],
+      "traditional_char": "士"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "未婚的男子，泛指男子",
+      "examples": [
+        "士女",
+        "壮士"
+      ],
+      "traditional_char": "士"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "对人的美称",
+      "examples": [
+        "志士",
+        "烈士",
+        "女士"
+      ],
+      "traditional_char": "士"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "军衔的一级，在尉以下，亦泛指军人",
+      "examples": [
+        "士兵",
+        "士卒",
+        "上士"
+      ],
+      "traditional_char": "士"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "称某些专业人员",
+      "examples": [
+        "医士",
+        "护士"
+      ],
+      "traditional_char": "士"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [],
+      "traditional_char": "士"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 3,
+      "note": "“士”从一从十，会意，表示男子的美称。在古代用作对男子的赞誉。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 3,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由对男子的美称引申为泛指未婚男子或男子。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "由美称引申为权力阶层中的一个阶级。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_shift",
+      "note": "士阶层后来特指读书人。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由美称用作军人或军衔称号。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "由美称拓展为专业技术人员的称谓。"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "哺乳动物，颈上有鬃，尾生长毛，四肢强健，善跑，供人骑或拉东西",
+      "examples": [
+        "马匹",
+        "骏马",
+        "马到成功",
+        "马首是瞻"
+      ],
+      "traditional_char": "馬"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "大（用于某些合成词中表示大）",
+      "examples": [
+        "马蜂",
+        "马勺"
+      ],
+      "traditional_char": "馬"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [],
+      "traditional_char": "馬"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "pictograph",
+      "original_sense_index": 0,
+      "note": "象形字，早期金文形状描摹马的形象。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "通过以马为大兽，引申为大。用在复合词如“马蜂”，比喻体型大。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "conversion",
+      "note": "动物名转为姓氏的惯常过程。"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "地面上由土石构成的高耸部分，山体。",
+      "examples": [
+        "青山遮不住，毕竟东流去。",
+        "高山仰止。"
+      ],
+      "traditional_char": "山"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "形状像山的物体或结构。",
+      "examples": [
+        "山墙高耸。",
+        "房山两侧。"
+      ],
+      "traditional_char": "山"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "形容声音大而有回响。",
+      "examples": [
+        "山呼万岁。",
+        "山响。"
+      ],
+      "traditional_char": "山"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [
+        "山涛，晋代名士。",
+        "山姓。"
+      ],
+      "traditional_char": "山"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "pictograph",
+      "original_sense_index": 0,
+      "note": "象形字，甲骨文和金文形如三峰并峙，象征山的形状。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "以山的形状比喻其它同样高耸的物体，古今用法均有。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "因山谷回音大，比喻声音高大有回响。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "conversion",
+      "note": "地名、山名演化为姓氏的常用方式，见古籍。"
+    }
+  ]
+}

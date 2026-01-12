@@ -1,0 +1,88 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adverb",
+      "meaning": "过于，程度超过适当限度",
+      "examples": [
+        "太长",
+        "太多",
+        "太晚"
+      ],
+      "traditional_char": "太"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adverb",
+      "meaning": "极端，最；表示程度极高",
+      "examples": [
+        "太甚",
+        "太平"
+      ],
+      "traditional_char": "太"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "高，大（多用于书面或旧语）",
+      "examples": [
+        "太空",
+        "太学"
+      ],
+      "traditional_char": "太"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adverb",
+      "meaning": "很；表示程度高，但较轻",
+      "examples": [
+        "不太好",
+        "这事太合适了"
+      ],
+      "traditional_char": "太"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "身分最高或辈分更高的",
+      "examples": [
+        "太老伯",
+        "太夫人"
+      ],
+      "traditional_char": "太"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "simple_indicative",
+      "original_sense_index": 0,
+      "note": "‘太’字本为指事，在‘大’字下加一横，表示“过于”，显示强调意思。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“过于”引申为“极端，最”，程度的进一步加强。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由“过于”引申出‘高，大’之意，多见于古文或书面语。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "amelioration",
+      "note": "程度副词语气变弱，用于“很”，常见于现代口语。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "由‘过于，高’引申得出地位、辈分上的‘最高/更高’含义。"
+    }
+  ]
+}

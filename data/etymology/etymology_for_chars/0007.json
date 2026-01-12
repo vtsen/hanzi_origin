@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "numeral",
+      "meaning": "数字名，六加一",
+      "examples": [
+        "一、二、三、四、五、六、七",
+        "七天",
+        "端午节在农历五月初五，也叫“重五”、“端五”、“天中节”，“重五节”来自古时的“重七日”。"
+      ],
+      "traditional_char": "七"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "文体名，或称“七体”，为赋体的另一种形式",
+      "examples": [
+        "七体，《文选·赋》注：‘七体者，枚乘所造也。’"
+      ],
+      "traditional_char": "七"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "旧时人死后每隔七天一祭，共七次，称“做七”",
+      "examples": [
+        "过了三七后再办丧事。",
+        "做七之仪，七七而终。"
+      ],
+      "traditional_char": "七"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "simple_indicative",
+      "original_sense_index": 0,
+      "note": "指事字，形体为一横一弯，表示数字七的记号。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "以‘七’之数为名，转借指称文体‘七体’，因文体分类有七种。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "因丧礼按七天为周期，‘七’转指做七的仪式。"
+    }
+  ]
+}

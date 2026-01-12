@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "聚会或招待客人用的大房间",
+      "examples": [
+        "客厅宽敞明亮。",
+        "前厅有许多宾客。"
+      ],
+      "traditional_char": "廳"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "政府机关办事部门",
+      "examples": [
+        "教育厅发布新通知。",
+        "本省有多个行政厅。"
+      ],
+      "traditional_char": "廳"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘厅/廳’为形声字，从广，聽声，表示带屋顶的大房间，为唐代以后增造。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由“大厅”引申为“机构办事部门”，以所在场所指代办公实体，见近现代官制。"
+    }
+  ]
+}

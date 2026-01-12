@@ -1,0 +1,76 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "才能，技能，技术",
+      "examples": [
+        "工艺",
+        "技艺",
+        "文艺",
+        "艺人"
+      ],
+      "traditional_char": "藝"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "艺术（戏剧、曲艺、音乐、美术、建筑、舞蹈、电影、诗和文学等的总称；指富有创造性的方式、方法；形状独特而美观的）",
+      "examples": [
+        "艺术",
+        "艺术品"
+      ],
+      "traditional_char": "藝"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "种植",
+      "examples": [
+        "园艺"
+      ],
+      "traditional_char": "藝"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "准则、法度、限度",
+      "examples": [
+        "贪欲无艺"
+      ],
+      "traditional_char": "藝"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 2,
+      "note": "“藝”从艸，意为种植，与“埶”（发音 yì）为声，最初表示栽种植物的技术。"
+    },
+    {
+      "formation_type": "simple_indicative",
+      "original_sense_index": 2,
+      "note": "简化字“艺”，省去艸头，仅留本义部分，仍指原意‘种植’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 2,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "由'种植'引申为'技能、技术'；古人认为农业技术是主要技能之一。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由'技能'引申为'艺术'等拥有创造性和表现力的活动。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由'技能'引申为'准则、法度、限度'，即技艺需要规则和分寸。"
+    }
+  ]
+}

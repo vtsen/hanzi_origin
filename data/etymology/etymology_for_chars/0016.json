@@ -1,0 +1,38 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "狡猾，无赖",
+      "examples": [
+        "他为人刁滑。",
+        "社会上的刁民。"
+      ],
+      "traditional_char": "刁"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "（刁斗）古代军中用具，白天用来烧饭，夜间击以巡更",
+      "examples": [
+        "刁斗声中人未眠。"
+      ],
+      "traditional_char": "刁"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "simple_indicative",
+      "original_sense_index": 1,
+      "note": "‘刁’本义为形声兼会意字，古表示曲钩之物，后用于军中盛饭器具。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "metaphor",
+      "note": "由刁斗形状曲折，转喻为性格狡猾、多机变，汉以后流行。"
+    }
+  ]
+}

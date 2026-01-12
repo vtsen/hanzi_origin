@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "numeral",
+      "meaning": "数名，一加一，二。",
+      "examples": [
+        "二月",
+        "二人同行",
+        "一加一等于二"
+      ],
+      "traditional_char": "二"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "双，两个，成对的。",
+      "examples": [
+        "独一无二"
+      ],
+      "traditional_char": "二"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "other",
+      "meaning": "两样，别的。",
+      "examples": [
+        "二话不说",
+        "不二价"
+      ],
+      "traditional_char": "二"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "simple_indicative",
+      "original_sense_index": 0,
+      "note": "由两横画并列，象征两根或两个，表示数字2，是原始记数符号。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由数名二引申为“成双、两个”，汉语惯用法，汉代已见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由数字二引申为“别的、两样”，沿用至现代口语与习语。"
+    }
+  ]
+}

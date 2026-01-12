@@ -1,0 +1,84 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "依山崖建造的宽大房屋",
+      "examples": [
+        "古人依山而居，筑广以避风雨。"
+      ],
+      "traditional_char": "广"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "面积、范围宽阔，与“狭”相对",
+      "examples": [
+        "宽广",
+        "广义",
+        "广厦"
+      ],
+      "traditional_char": "廣"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "多，大量",
+      "examples": [
+        "大庭广众"
+      ],
+      "traditional_char": "廣"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "扩大，扩充",
+      "examples": [
+        "推广",
+        "广开言路"
+      ],
+      "traditional_char": "廣"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "庵，山中小屋，用于人名",
+      "examples": [
+        "广安（人名）"
+      ],
+      "traditional_char": "广"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "pictograph",
+      "original_sense_index": 0,
+      "note": "“广”字早期象形，上部表示屋顶，描写依山建造的房屋。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "“廣”为形声字，从广，黄声，表示宽大、广阔的意思。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由宽大房屋的概念引申为面积宽阔，用于描述空间、范围。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "“广”由表示范围宽阔，引申为数量多。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "grammaticalization",
+      "note": "由形容词“广”引申为动词，指扩展、扩充。"
+    }
+  ]
+}

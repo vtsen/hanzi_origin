@@ -1,0 +1,72 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "女性，女人；与“男”相对，泛指未婚女子，现通指妇女",
+      "examples": [
+        "女子",
+        "女人",
+        "妇女",
+        "少女"
+      ],
+      "traditional_char": "女"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "指女儿作为某人的妻子（古用法）",
+      "examples": [
+        "某为之女",
+        "女以配士"
+      ],
+      "traditional_char": "女"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "星名，二十八宿之一，亦称“婺女”、“须女”",
+      "examples": [
+        "女宿",
+        "婺女星"
+      ],
+      "traditional_char": "女"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "pronoun",
+      "meaning": "古同“汝”，你",
+      "examples": [
+        "女实一左耳",
+        "女兄弟"
+      ],
+      "traditional_char": "女"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "pictograph",
+      "original_sense_index": 0,
+      "note": "甲骨文象敛手跪坐之人，表示女性形象。本义为‘女性’。"
+    },
+    {
+      "formation_type": "loan_character",
+      "original_sense_index": 3,
+      "note": "‘女’假借为‘汝’（你），此为音近假借。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由女性泛指，引申为女儿作为妻子的称呼，属古义。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "用女性之名借指星宿，属天文学命名的转喻。"
+    }
+  ]
+}

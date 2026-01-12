@@ -1,0 +1,70 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adverb",
+      "meaning": "用在动词、形容词及其他词前，表示否定。",
+      "examples": [
+        "不去",
+        "不多",
+        "不法"
+      ],
+      "traditional_char": "不"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adverb",
+      "meaning": "单独使用，作否定性的回答。",
+      "examples": [
+        "—你知道这件事吗？—不。"
+      ],
+      "traditional_char": "不"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "particle",
+      "meaning": "用在句末表示疑问。",
+      "examples": [
+        "他现在身体好不？"
+      ],
+      "traditional_char": "不"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "古同“否”，不如此，不然。",
+      "examples": [
+        "不然",
+        "不如"
+      ],
+      "traditional_char": "不"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "simple_indicative",
+      "original_sense_index": 0,
+      "note": "“不”字古文字象草木花苞，乃表“否定”之意的指事字。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "grammaticalization",
+      "note": "由否定副词转为独立作答，古今常见语法化现象。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "grammaticalization",
+      "note": "否定副词语气虚化，用于句末表疑问。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "由否定义泛化为“不是、不然”等判别性形容词义，周秦以来用法。"
+    }
+  ]
+}

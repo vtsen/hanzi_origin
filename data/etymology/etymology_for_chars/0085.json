@@ -1,0 +1,98 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "捆绑，缠束。",
+      "examples": [
+        "扎辫子",
+        "扎腿"
+      ],
+      "traditional_char": "紮"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "把儿；一捆。",
+      "examples": [
+        "一扎线"
+      ],
+      "traditional_char": "紮"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "刺。",
+      "examples": [
+        "扎针",
+        "扎花"
+      ],
+      "traditional_char": "扎"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "驻扎，安营。",
+      "examples": [
+        "扎营"
+      ],
+      "traditional_char": "扎"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "钻入（水中）等。",
+      "examples": [
+        "扎猛子"
+      ],
+      "traditional_char": "扎"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "勉强支持（方言）。",
+      "examples": [
+        "扎挣"
+      ],
+      "traditional_char": "扎"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘紮’为形声字，从糸，乍声，原表捆绑之义。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 2,
+      "note": "‘扎’为形声字，从扌，乍声，表刺入之义，后为简化字兼写。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "捆绑动作引申为一把一束之量词用法。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "刺入本义引申为军队驻扎（插入占据地点）。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "刺之动作喻钻入水中等情景。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 5,
+      "evolution_type": "unknown",
+      "note": "方言‘扎挣’，与刺动作相关性存疑，具体语源不详。"
+    }
+  ]
+}

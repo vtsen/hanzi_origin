@@ -1,0 +1,81 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "射箭或发弹丸的器具",
+      "examples": [
+        "弓箭",
+        "弓弩",
+        "飞鸟尽，良弓藏"
+      ],
+      "traditional_char": "弓"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "像弓的器具或形态",
+      "examples": [
+        "胡琴弓子",
+        "弓鞋"
+      ],
+      "traditional_char": "弓"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "旧时丈量地亩用的器具和计算单位",
+      "examples": [],
+      "traditional_char": "弓"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "弯曲",
+      "examples": [
+        "弓身"
+      ],
+      "traditional_char": "弓"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [],
+      "traditional_char": "弓"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "pictograph",
+      "original_sense_index": 0,
+      "note": "象形字，甲骨文形状像张开的弓，表现弓背与弦，是表示射箭器具的本义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "因形状相似而引申为类似弓的器具或弯曲的形态。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "丈量地亩的器具因形状像弓得名。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由弓形进一步引申为弯曲的动作。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "function_word",
+      "note": "用作姓氏，起源不详，可能由原器具名转化。"
+    }
+  ]
+}

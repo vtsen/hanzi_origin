@@ -1,0 +1,57 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "能制造和使用工具进行劳动、并能运用语言进行交际的高等动物，即人类。",
+      "examples": [
+        "人类",
+        "人类社会",
+        "古今人事"
+      ],
+      "traditional_char": "人"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "pronoun",
+      "meaning": "别人，他人。",
+      "examples": [
+        "人为刀俎，我为鱼肉",
+        "待人热诚",
+        "防人之心不可无"
+      ],
+      "traditional_char": "人"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "人的品质、性情、名誉。",
+      "examples": [
+        "丢人",
+        "文如其人"
+      ],
+      "traditional_char": "人"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "pictograph",
+      "original_sense_index": 0,
+      "note": "甲骨文象侧面站立的人形，本义为人类。‘人’部首亦作象形用。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘人类’引申为‘他人’，历代文献普遍有此用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "以‘人’指人的品格、性情等抽象属性。"
+    }
+  ]
+}

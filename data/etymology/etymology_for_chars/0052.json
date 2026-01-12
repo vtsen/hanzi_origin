@@ -1,0 +1,89 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "追赶上，抓住",
+      "examples": [
+        "追兵及之",
+        "及而执之"
+      ],
+      "traditional_char": "及"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "从后头跟上",
+      "examples": [
+        "来得及",
+        "赶不及"
+      ],
+      "traditional_char": "及"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "达到",
+      "examples": [
+        "及格",
+        "普及",
+        "及第"
+      ],
+      "traditional_char": "及"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "preposition",
+      "meaning": "趁着，乘",
+      "examples": [
+        "及时",
+        "及早",
+        "及锋而试"
+      ],
+      "traditional_char": "及"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "conjunction",
+      "meaning": "和，跟",
+      "examples": [
+        "阳光、空气及水",
+        "以及"
+      ],
+      "traditional_char": "及"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "从人，从手，会意表示后者追上并抓住前者，指“追赶上，抓住”。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由具体“抓住”引申为泛指跟上，应为早期用法发展。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "“跟上”进一步引申为“达到，及于（某标准、目的地）”。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "grammaticalization",
+      "note": "动词“及”虚化用作介词，表示“趁着，乘”。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 4,
+      "evolution_type": "grammaticalization",
+      "note": "由“达到”泛化成连接词，表示并列关系“和，跟”，用作连词。"
+    }
+  ]
+}

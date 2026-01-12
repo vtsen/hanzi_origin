@@ -1,0 +1,149 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "棚舍，简易的房屋或临时搭盖之处",
+      "examples": [
+        "枳篱茅厂共桑麻。"
+      ],
+      "traditional_char": "厂"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "用机械制造生产资料或生活资料的工场",
+      "examples": [
+        "工厂里机器轰鸣。"
+      ],
+      "traditional_char": "厂"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "有空地方可以存货或进行加工的地方",
+      "examples": [
+        "煤厂",
+        "修理厂"
+      ],
+      "traditional_char": "厂"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "明代的特务机关",
+      "examples": [
+        "东厂",
+        "西厂"
+      ],
+      "traditional_char": "厂"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "山边岩石突出覆盖处，人可居住的地方",
+      "examples": [
+        "栖厂于山石之间。"
+      ],
+      "traditional_char": "厂"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "同“庵”，多用于人名",
+      "examples": [],
+      "traditional_char": "厂"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "用机械制造生产资料或生活资料的工场（用作“廠”）",
+      "examples": [
+        "工廠"
+      ],
+      "traditional_char": "廠"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "noun",
+      "meaning": "有空地方可以存货或进行加工的地方（用作“廠”）",
+      "examples": [
+        "廠房",
+        "煤廠"
+      ],
+      "traditional_char": "廠"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "noun",
+      "meaning": "明代的特务机关（用作“廠”）",
+      "examples": [
+        "東廠",
+        "西廠"
+      ],
+      "traditional_char": "廠"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从广，敞声，本指棚舍。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 6,
+      "note": "廠为“厂”的衍生繁体形式，结构内含广、敞，仍为形声字，用于近代及现代的工厂义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由最初的棚舍、房屋义扩展到进行生产的场所。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "棚舍义引申至存货、加工作业的地方。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "明代特务机关因设于厂屋，故名‘厂’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "棚舍的本义，比喻岩石下可居住的覆盖处。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "unknown",
+      "note": "作人名用义，与“庵”意义接近，机制不详。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 6,
+      "evolution_type": "analogy",
+      "note": "简体“厂”与繁体“廠”在“工厂”义上相互类推替用。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 7,
+      "evolution_type": "analogy",
+      "note": "简体“厂”与繁体“廠”在存货加工义上相互类推替用。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 8,
+      "evolution_type": "analogy",
+      "note": "明代特务机关义同理迁移至繁体“廠”。"
+    }
+  ]
+}

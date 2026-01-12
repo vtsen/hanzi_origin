@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "交错，交叉",
+      "examples": [
+        "两路交叉",
+        "叉腰而立"
+      ],
+      "traditional_char": "叉"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "两头或一头分歧便于扎取的器具",
+      "examples": [
+        "吃饭用叉子",
+        "餐具中的刀叉"
+      ],
+      "traditional_char": "叉"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "挡住，堵塞住，互相卡住",
+      "examples": [
+        "一辆车叉在路口",
+        "门被木棍叉住"
+      ],
+      "traditional_char": "叉"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "分开，张开",
+      "examples": [
+        "叉开两腿",
+        "把手指叉开"
+      ],
+      "traditional_char": "叉"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "simple_indicative",
+      "original_sense_index": 0,
+      "note": "指事字。小篆形体为‘又’表示手，上加一点表示分开，指两手交错或交叉之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "器具形似交错之形，用形象说明用途；出现时间较晚。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由交错引申为相互卡住、挡住。现代常用。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由交叉引申为分开张开，多用于动作、身体部位。"
+    }
+  ]
+}

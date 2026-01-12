@@ -1,0 +1,68 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "纺锤（纺织工具）",
+      "examples": [
+        "甲骨文中“专”表示手持纺锤纺织。"
+      ],
+      "traditional_char": "專"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "单纯、独一、专注于一件事",
+      "examples": [
+        "专心致志",
+        "专长"
+      ],
+      "traditional_char": "專"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "独自掌握、占有",
+      "examples": [
+        "专利",
+        "专车",
+        "专断"
+      ],
+      "traditional_char": "專"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [],
+      "traditional_char": "專"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“專”最初为会意兼形声字，左‘寸’（手）右‘叀’（声符兼表丝线），本义为纺锤。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由纺锤旋转专注，转喻为专一、专注，见战国文献。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由“专注于一件事”扩展为“独占、独揽”。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "function_word",
+      "note": "以专作姓，源自专注或祖先官职，历代有姓氏用例。"
+    }
+  ]
+}

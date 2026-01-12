@@ -1,0 +1,102 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "蝎子",
+      "examples": [
+        "甲骨文中“萬”象蝎形，指蝎子。"
+      ],
+      "traditional_char": "萬"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "numeral",
+      "meaning": "数目，十个一千",
+      "examples": [
+        "万户侯",
+        "万里长城"
+      ],
+      "traditional_char": "萬"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "喻极多",
+      "examples": [
+        "万物",
+        "万方",
+        "日理万机",
+        "气象万千"
+      ],
+      "traditional_char": "萬"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adverb",
+      "meaning": "极，很，绝对",
+      "examples": [
+        "万万不可",
+        "万幸"
+      ],
+      "traditional_char": "萬"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "万先生"
+      ],
+      "traditional_char": "萬"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "〔万俟〕原为中国古代鲜卑族部落名，后为复姓",
+      "examples": [
+        "万俟卨"
+      ],
+      "traditional_char": "萬"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "pictograph",
+      "original_sense_index": 0,
+      "note": "甲骨文为蝎子形，是蝎的象形。从“万”到“萬”简化，但本义为蝎。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_shift",
+      "note": "后期将“萬”本义借用于表示大数，商周时期已有此用法。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由具体数目推广为泛指极多的事物。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "synecdoche",
+      "note": "以“极多”进而泛化作程度副词用法，形容极其、绝对。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "conversion",
+      "note": "数词用作姓氏表示。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "unknown",
+      "note": "“万俟”为鲜卑族复姓，取用汉字“万”表音为主，用字机制待考。"
+    }
+  ]
+}

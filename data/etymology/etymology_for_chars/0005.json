@@ -1,0 +1,95 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "钉子",
+      "examples": [],
+      "traditional_char": "丁"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "天干的第四位，用作顺序第四的代称",
+      "examples": [
+        "丁是丁，卯是卯。"
+      ],
+      "traditional_char": "丁"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "成年男子",
+      "examples": [
+        "家有三丁。"
+      ],
+      "traditional_char": "丁"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "人口",
+      "examples": [
+        "丁口兴旺。"
+      ],
+      "traditional_char": "丁"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "从事某种劳动的人",
+      "examples": [
+        "园丁。"
+      ],
+      "traditional_char": "丁"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "onomatopoeia",
+      "meaning": "〔丁丁〕象声词，形容伐木、下棋、弹琴的声音",
+      "examples": [
+        "丁丁之声。"
+      ],
+      "traditional_char": "丁"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "pictograph",
+      "original_sense_index": 0,
+      "note": "金文象钉头形，小篆象侧视钉，属象形字。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由钉子形象引申为天干第四位，古人以钉象征序列中的一分。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "以钉之坚硬比喻成年男子之强壮有力。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由表示成年男子引申为人口总数。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由成年男子引申为从事某种劳动的人。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "metaphor",
+      "note": "以钉击之声类比为敲打、弹奏等动作声音。"
+    }
+  ]
+}

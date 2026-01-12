@@ -1,0 +1,86 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "小或矮的桌子",
+      "examples": [
+        "茶几",
+        "床头放了一张小几"
+      ],
+      "traditional_char": "几"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "将近，差一点",
+      "examples": [
+        "几乎",
+        "几至崩溃"
+      ],
+      "traditional_char": "几"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "苗头，端倪",
+      "examples": [
+        "知几其神乎",
+        "事有几矣"
+      ],
+      "traditional_char": "几"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "pronoun",
+      "meaning": "询问数量多少的疑问词",
+      "examples": [
+        "几个人？",
+        "你有几本书？"
+      ],
+      "traditional_char": "幾"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "numeral",
+      "meaning": "表示不定的数目",
+      "examples": [
+        "几百人",
+        "几本书"
+      ],
+      "traditional_char": "幾"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "pictograph",
+      "original_sense_index": 0,
+      "note": "‘几’字为象形字，表示有靠背的座具。甲骨文形似带靠背的小桌或坐具。"
+    },
+    {
+      "formation_type": "loan_character",
+      "original_sense_index": 3,
+      "note": "‘幾’本作发问词，后借为数量词。形声，‘幺’表声。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "古人以坐具接近地面引申为‘接近’、‘将近’之意。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由‘几’作为物体之端缘，引申为‘苗头，端倪’。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由疑问数量衍生为表示不确定的数目。"
+    }
+  ]
+}

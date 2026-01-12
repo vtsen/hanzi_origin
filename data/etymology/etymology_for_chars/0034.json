@@ -1,0 +1,109 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "给予，赐予。",
+      "examples": [
+        "与人方便，自己方便。",
+        "与君共勉。"
+      ],
+      "traditional_char": "與"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "preposition",
+      "meaning": "和，跟（表示并列关系）。",
+      "examples": [
+        "正确与错误。",
+        "生死与共。"
+      ],
+      "traditional_char": "與"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "交往，友好，结交。",
+      "examples": [
+        "相与为友。",
+        "与国。"
+      ],
+      "traditional_char": "與"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "conjunction",
+      "meaning": "用于“与其”中，表示选择或比较。",
+      "examples": [
+        "与其这样，不如另寻他法。",
+        "与其临渊羡鱼，不如退而结网。"
+      ],
+      "traditional_char": "與"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "参与，参加。",
+      "examples": [
+        "参与讨论。",
+        "与会人员。"
+      ],
+      "traditional_char": "與"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "particle",
+      "meaning": "助词，表示疑问，相当于“欤”。",
+      "examples": [
+        "可与？",
+        "是与非。"
+      ],
+      "traditional_char": "與"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意字，以“勺”表示持物，以“舁”表示抬举，共同表示赐予、给予。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从“给予”扩展为“和、跟”等并列或联系义，汉代广泛用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "从施予引申为与人交往，从互赠到交往。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "grammaticalization",
+      "note": "用作连词“与其”，功能语法化，常见于古中文献。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由“给予”引申指“参与”，见于近现代汉语。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "function_word",
+      "note": "与作为比较连词来源于并列连用的“与”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "reanalysis",
+      "note": "“与”用作语气助词，见于文言文，相当于“欤”。语法化。"
+    }
+  ]
+}

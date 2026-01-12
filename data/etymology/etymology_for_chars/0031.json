@@ -1,0 +1,64 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "中国市制长度单位，一尺的十分之一。",
+      "examples": [
+        "一尺等于十寸。",
+        "三寸金莲。"
+      ],
+      "traditional_char": "寸"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "距离手腕一寸的地方，中医切脉部位，又称“寸口”。",
+      "examples": [
+        "医者以寸口诊脉。"
+      ],
+      "traditional_char": "寸"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "短小（用于抽象或具体事物）。",
+      "examples": [
+        "寸土必争。",
+        "寸步难行。",
+        "一寸光阴一寸金。"
+      ],
+      "traditional_char": "寸"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [
+        "寸步（人名）。"
+      ],
+      "traditional_char": "寸"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "simple_indicative",
+      "original_sense_index": 1,
+      "note": "“寸”为指事字，从“又”（手），下有“一”，表示距手腕一寸之处，原指脉诊部位。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "古代以脉诊部位长度为单位，引申为长度单位。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由长度单位‘寸’引申为‘短小’。"
+    }
+  ]
+}

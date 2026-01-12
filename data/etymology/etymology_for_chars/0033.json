@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "中国市制长度单位，十尺。",
+      "examples": [
+        "万丈高楼",
+        "地厚三丈"
+      ],
+      "traditional_char": "丈"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "测量长度和面积。",
+      "examples": [
+        "丈量土地",
+        "丈余高"
+      ],
+      "traditional_char": "丈"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "对老年男子的尊称。",
+      "examples": [
+        "丈人",
+        "老丈"
+      ],
+      "traditional_char": "丈"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "simple_indicative",
+      "original_sense_index": 0,
+      "note": "上为一指，下为人，表示用手指表示分寸，用于指代长度单位。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "conversion",
+      "note": "由表示长度单位，引申为测量长度的动作。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "以“丈”为量词引申，尊称德高望重的老年男子，后用于岳父。"
+    }
+  ]
+}

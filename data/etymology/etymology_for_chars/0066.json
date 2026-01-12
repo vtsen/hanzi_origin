@@ -1,0 +1,83 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adverb",
+      "meaning": "表示同样、并行的意思",
+      "examples": [
+        "你去，我也去。"
+      ],
+      "traditional_char": "也"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adverb",
+      "meaning": "在否定句里表示语气的加强",
+      "examples": [
+        "一点儿也不错。"
+      ],
+      "traditional_char": "也"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "conjunction",
+      "meaning": "在复句中表转折意",
+      "examples": [
+        "虽然你不说，我也能猜个八九不离十。"
+      ],
+      "traditional_char": "也"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "particle",
+      "meaning": "文言语气助词（表判断、疑问、停顿、形容词尾）",
+      "examples": [
+        "人生自古谁无死，留取丹心照汗青也。",
+        "子非鱼，安知鱼之乐也？"
+      ],
+      "traditional_char": "也"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adverb",
+      "meaning": "表示容忍或承认某种情况",
+      "examples": [
+        "也罢。"
+      ],
+      "traditional_char": "也"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "simple_indicative",
+      "original_sense_index": 3,
+      "note": "“也”为指事字，本义作文言语气助词，甲骨文形似女性生殖器，后用作虚词，用于句末表判断或停顿。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 3,
+      "target_index": 0,
+      "evolution_type": "grammaticalization",
+      "note": "由语气助词引申为现代副词，表同样、并行。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“也”表同样，语法化为对否定加重语气。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由“也”表同样，引申为复句中转折的意思。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由副词“也”进一步用于容忍、承认情况。"
+    }
+  ]
+}

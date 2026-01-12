@@ -1,0 +1,122 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "树木（树类植物的统称）",
+      "examples": [
+        "乔木",
+        "灌木",
+        "树木"
+      ],
+      "traditional_char": "木"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "木材、木头、木制品",
+      "examples": [
+        "木材",
+        "木器",
+        "木匠",
+        "木刻"
+      ],
+      "traditional_char": "木"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "棺材",
+      "examples": [
+        "棺木"
+      ],
+      "traditional_char": "木"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "质朴，朴实",
+      "examples": [
+        "木讷"
+      ],
+      "traditional_char": "木"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "呆板、迟钝",
+      "examples": [
+        "木鸡"
+      ],
+      "traditional_char": "木"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "adjective",
+      "meaning": "感觉不灵敏，失去知觉",
+      "examples": [
+        "麻木"
+      ],
+      "traditional_char": "木"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "中国古代乐器八音之一，指木制乐器",
+      "examples": [],
+      "traditional_char": "木"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [],
+      "traditional_char": "木"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "pictograph",
+      "original_sense_index": 0,
+      "note": "甲骨文字形，象树木形，上为枝叶，下为树根。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从树木本义扩展为其材料或用其制品。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "以材料代表用木头制作的物件（如棺材）。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "以树木之质朴、天然喻为人的质朴。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由质朴引申为呆笨、迟钝。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "metaphor",
+      "note": "以木无知觉喻人的麻木、失去知觉。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 6,
+      "evolution_type": "metonymy",
+      "note": "木料代表古代木制乐器。"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "pronoun",
+      "meaning": "自己，本人自身。",
+      "examples": [
+        "知己知彼，百战不殆。",
+        "反求诸己。",
+        "己所不欲，勿施于人。"
+      ],
+      "traditional_char": "己"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "天干第六位，用作顺序第六的代称。",
+      "examples": [
+        "甲乙丙丁戊己。",
+        "己酉年。"
+      ],
+      "traditional_char": "己"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "simple_indicative",
+      "original_sense_index": 0,
+      "note": "象形或指事，本意为“自身、躯体弯曲之象”，后引申为自己。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "用自身作序以指天干第六位，即用本义代指顺序上的第六。"
+    }
+  ]
+}

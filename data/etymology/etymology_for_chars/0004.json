@@ -1,0 +1,57 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "numeral",
+      "meaning": "数名，九加一",
+      "examples": [
+        "十天",
+        "十个人",
+        "十元钱"
+      ],
+      "traditional_char": "十"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "numeral",
+      "meaning": "表示多、久",
+      "examples": [
+        "十室九空",
+        "十之八九"
+      ],
+      "traditional_char": "十"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "表示达到顶点",
+      "examples": [
+        "十足",
+        "十成",
+        "十成十"
+      ],
+      "traditional_char": "十"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "simple_indicative",
+      "original_sense_index": 0,
+      "note": "指事字。甲骨文象用一根树枝代表十，后演变为一横一竖，表示“十”这个数目。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由具体数目延伸表示“多”和“久”，先秦已见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由满数引申为“达到极点、完全”，主要用于形容程度。"
+    }
+  ]
+}

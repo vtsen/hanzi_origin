@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "树木或物体的分叉处",
+      "examples": [
+        "树丫",
+        "丫杈"
+      ],
+      "traditional_char": "丫"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "形状像树枝分叉的东西",
+      "examples": [
+        "脚丫子"
+      ],
+      "traditional_char": "丫"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "古代女孩子头上梳的双髻，也借指女孩子、丫鬟",
+      "examples": [
+        "丫头",
+        "丫鬟"
+      ],
+      "traditional_char": "丫"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "pictograph",
+      "original_sense_index": 0,
+      "note": "象形字，形似木枝分叉之状。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "因形状相似，用于其他类似分叉的事物。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "女童发髻形状像树枝分叉，引申为丫头、丫鬟。"
+    }
+  ]
+}

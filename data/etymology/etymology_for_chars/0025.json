@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "缺损，减少。",
+      "examples": [
+        "亏本经营",
+        "损兵亏将"
+      ],
+      "traditional_char": "虧"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "对不起，辜负。",
+      "examples": [
+        "我可没亏你",
+        "实在亏了他"
+      ],
+      "traditional_char": "虧"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adverb",
+      "meaning": "幸而，侥幸，多亏。",
+      "examples": [
+        "多亏你提醒我",
+        "亏得及时补救"
+      ],
+      "traditional_char": "虧"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "（用作讽刺）表示讥讽。",
+      "examples": [
+        "亏你说得出来",
+        "亏你还好意思"
+      ],
+      "traditional_char": "虧"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从亏，亏声，本义为气损，即减损。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由缺损引申为对他人不公；古今汉语均有用例。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由缺损延伸为险些损失，故侥幸未损失；常用于口语。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "由缺损引申为“你还好意思（做出这种事情）”，含讥讽成分。"
+    }
+  ]
+}

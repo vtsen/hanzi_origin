@@ -1,0 +1,105 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "用刀把物品分成若干部分",
+      "examples": [
+        "切菜",
+        "切肉",
+        "把纸切开"
+      ],
+      "traditional_char": "切"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "雕琢加工骨角玉石等，引申为互相研究，吸取长处",
+      "examples": [
+        "切磋",
+        "～～琢磨"
+      ],
+      "traditional_char": "切"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "密合，贴近",
+      "examples": [
+        "切当",
+        "切肤之痛",
+        "切己"
+      ],
+      "traditional_char": "切"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "紧急",
+      "examples": [
+        "急切",
+        "迫切"
+      ],
+      "traditional_char": "切"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "实在，真诚",
+      "examples": [
+        "切忌",
+        "恳切"
+      ],
+      "traditional_char": "切"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "汉字注音方法，反切",
+      "examples": [
+        "反切",
+        "切语"
+      ],
+      "traditional_char": "切"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从刀，七声，本义为用刀把物品分成若干部分"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从分割加工引伸为玉石等材料的雕琢加工，再比喻为互相研究"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由物理上的贴切、合缝，引申为密合、贴近"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由贴近引申为事态紧迫、临近"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "紧急强调主观态度，引申为实在、真切"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "metonymy",
+      "note": "分割之义引申为以分音方式注音，成为反切法之‘切’"
+    }
+  ]
+}

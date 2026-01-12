@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "肾脏产生并从体内排出的液体排泄物，小便。",
+      "examples": [
+        "尿液",
+        "尿布",
+        "尿肥",
+        "尿素"
+      ],
+      "traditional_char": "尿"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "排出小便。",
+      "examples": [
+        "尿尿"
+      ],
+      "traditional_char": "尿"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "小便，特指名词用法（suī，方言或文言常用）。",
+      "examples": [
+        "尿脬",
+        "尿泡"
+      ],
+      "traditional_char": "尿"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从尸，表示与排泄相关，尧声，本指小便。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "conversion",
+      "note": "名词动用，由小便引申为排小便。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "analogy",
+      "note": "文读音（suī）作名词，保留或加重名词性质。"
+    }
+  ]
+}

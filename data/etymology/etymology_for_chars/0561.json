@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "向人询问，调查",
+      "examples": [
+        "采访记者",
+        "访求真相"
+      ],
+      "traditional_char": "訪"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "探问，看望",
+      "examples": [
+        "探亲访友",
+        "访视长者"
+      ],
+      "traditional_char": "訪"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从言，方声；原本指言语上广泛征询意见，属于言义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由抽象的询问、调查引申为实地探问、拜访他人；汉代用法已有扩展。"
+    }
+  ]
+}

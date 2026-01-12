@@ -1,0 +1,75 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "憎恨，嫉妒",
+      "examples": [
+        "猜忌",
+        "忌才",
+        "忌贤妒能"
+      ],
+      "traditional_char": "忌"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "害怕，畏惧",
+      "examples": [
+        "顾忌",
+        "肆无忌惮"
+      ],
+      "traditional_char": "忌"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "禁戒",
+      "examples": [
+        "忌戒",
+        "忌食",
+        "忌讳",
+        "禁忌"
+      ],
+      "traditional_char": "忌"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "父母或祖先死亡的日子，迷信指不吉利的日子",
+      "examples": [
+        "忌日",
+        "忌辰",
+        "生忌"
+      ],
+      "traditional_char": "忌"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从心，己声，表示内心的憎恨或嫉妒。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由憎恨、嫉妒引申为对某事物有所顾忌，怀有畏惧心理。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由畏惧引申为对某物、某事有所禁戒。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "由禁戒的动作转为禁忌日，用以指不吉利的日子。"
+    }
+  ]
+}

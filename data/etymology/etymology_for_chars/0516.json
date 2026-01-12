@@ -1,0 +1,82 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adverb",
+      "meaning": "也，表示同样、也是",
+      "examples": [
+        "亦无不可",
+        "亦步亦趋"
+      ],
+      "traditional_char": "亦"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adverb",
+      "meaning": "又，再，又一次",
+      "examples": [
+        "先君何罪？其嗣亦何罪？"
+      ],
+      "traditional_char": "亦"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adverb",
+      "meaning": "不过，只是",
+      "examples": [
+        "王亦不好土也，何患无士？"
+      ],
+      "traditional_char": "亦"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adverb",
+      "meaning": "用以加强或委婉语气",
+      "examples": [
+        "呜呼，亦盛矣哉！",
+        "学而时习之，不亦说乎？"
+      ],
+      "traditional_char": "亦"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [],
+      "traditional_char": "亦"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "simple_indicative",
+      "original_sense_index": 0,
+      "note": "‘亦’为会意兼指事字，古文字象两叠物或并进之形，表‘同样’、‘也’义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘也、同样’引申为‘又’表示递进关系，见先秦文献。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_narrowing",
+      "note": "限定语境下表示‘不过、只是’，为对比弱化义。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "加强或委婉语气由‘也’引申用法，多见于书面语。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "conversion",
+      "note": "‘亦’字后用为姓氏，属名词化现象。"
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古代城市中的道路",
+      "examples": [
+        "市有术，术有井。"
+      ],
+      "traditional_char": "術"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "技艺、技能",
+      "examples": [
+        "技术",
+        "武术",
+        "不学无术"
+      ],
+      "traditional_char": "術"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "方法、手段",
+      "examples": [
+        "战术",
+        "权术",
+        "心术"
+      ],
+      "traditional_char": "術"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "黏高粱",
+      "examples": [
+        "黏粟称术，一名秫。"
+      ],
+      "traditional_char": "術"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "多年生草本植物，根状茎可入药（如白术、苍术）",
+      "examples": [
+        "白术、苍术，皆为药用植物。"
+      ],
+      "traditional_char": "術"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从行（道路），术声，最初表示城市中的道路。"
+    },
+    {
+      "formation_type": "loan_character",
+      "original_sense_index": 3,
+      "note": "古读为“shú”，假借为‘秫’（黏高粱）之用。"
+    },
+    {
+      "formation_type": "loan_character",
+      "original_sense_index": 4,
+      "note": "借用表示药用草本植物（如白术、苍术）。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "道路引申为世间行为的“技艺”，《说文解字》以城市中的道路比喻为技艺、技能。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由‘技艺’进一步引伸为‘方法、手段’。"
+    }
+  ]
+}

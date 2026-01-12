@@ -1,0 +1,91 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "高举，向上举起",
+      "examples": [
+        "扬手",
+        "扬帆",
+        "扬眉吐气"
+      ],
+      "traditional_char": "揚"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "簸动，向上播散（物体或液体）",
+      "examples": [
+        "扬水",
+        "扬场",
+        "扬汤止沸"
+      ],
+      "traditional_char": "揚"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "在空中飘动",
+      "examples": [
+        "飘扬",
+        "旗帜高高扬起"
+      ],
+      "traditional_char": "揚"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "称颂，传播",
+      "examples": [
+        "扬名",
+        "颂扬",
+        "扬威",
+        "扬言"
+      ],
+      "traditional_char": "揚"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "扬子江",
+        "扬老师"
+      ],
+      "traditional_char": "揚"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从手，昜声，本义为高举。部分学者视作会意兼形声。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“高举”引申为“簸动、向上播散”，如扬水。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "举高引申为空中飘动，如旗帜高举即为飘扬。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "高举引申为“宣扬、传播”，即声名等被高举。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "function_word",
+      "note": "用作姓氏，已失本义，仅作符号。"
+    }
+  ]
+}

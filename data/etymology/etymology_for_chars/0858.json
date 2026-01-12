@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "淘洗，清洗。",
+      "examples": [
+        "裁汰",
+        "删汰",
+        "淘汰"
+      ],
+      "traditional_char": "汰"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "奢侈，过分。",
+      "examples": [
+        "汰侈"
+      ],
+      "traditional_char": "汰"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘汰’为形声字，从水，台声。本义与水有关，指淘洗。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由淘洗中去除冗余、剩下精华，引申为行为上的奢侈、过分。"
+    }
+  ]
+}

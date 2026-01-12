@@ -1,0 +1,114 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "小土山",
+      "examples": [
+        "沙丘",
+        "土丘",
+        "远望见一丘冈"
+      ],
+      "traditional_char": "丘"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "像小土山一样凸起的",
+      "examples": [
+        "丘疹"
+      ],
+      "traditional_char": "丘"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "坟墓，尤其指大的坟墓",
+      "examples": [
+        "丘墓",
+        "丘垄"
+      ],
+      "traditional_char": "丘"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "measure_word",
+      "meaning": "用于量水田，一丘指田间用田塍隔开的水田",
+      "examples": [
+        "一丘十亩大的田"
+      ],
+      "traditional_char": "丘"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "众人聚居的地方",
+      "examples": [
+        "丘民"
+      ],
+      "traditional_char": "丘"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "用砖石封闭有尸体的棺材",
+      "examples": [],
+      "traditional_char": "丘"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "other",
+      "meaning": "姓氏",
+      "examples": [
+        "丘处机",
+        "丘成桐"
+      ],
+      "traditional_char": "丘"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "甲骨文字形，象地上并立的两个小土峰，会意兼指事，本义为小土山。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由“小土山”形状引申为任何像小土山一样凸起的事物。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "古人多以土丘筑墓，故以丘泛指坟墓。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "水田呈小土丘状分坎，转指水田计量单位。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "人群聚居地常有土丘，地名由地形得名。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 5,
+      "evolution_type": "metonymy",
+      "note": "墓葬概念进一步扩展到棺椁之意。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "function_word",
+      "note": "地名用作氏族称谓，转为姓氏。"
+    }
+  ]
+}

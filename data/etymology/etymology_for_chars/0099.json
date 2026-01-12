@@ -1,0 +1,72 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "measure_word",
+      "meaning": "计算布帛长度的单位，四丈为一匹；也指整卷的绸或布。",
+      "examples": [
+        "一匹布",
+        "买了两匹绸子"
+      ],
+      "traditional_char": "匹"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "measure_word",
+      "meaning": "用作量词，指马、骡等。",
+      "examples": [
+        "一匹马",
+        "两匹骡子"
+      ],
+      "traditional_char": "匹"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "单独的人，泛指平常人或指无学识、无智谋的人。",
+      "examples": [
+        "国家兴亡，匹夫有责",
+        "匹夫无罪，怀璧其罪",
+        "匹夫之勇"
+      ],
+      "traditional_char": "匹"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "相当、相敌、比得上。",
+      "examples": [
+        "匹敌",
+        "匹配"
+      ],
+      "traditional_char": "匹"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "本字会意，金文象山崖凹凸比喻布的折皱，原指量布的单位。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由布的计量单位引申为用于马、骡等计量单位，语义接近。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "由单量的‘匹’引申为‘单独的人’，转指个体。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "conversion",
+      "note": "从‘单独的人’作名词引申为‘相当，比得上’之动词用法，如‘匹敌’，表现双方对等。"
+    }
+  ]
+}

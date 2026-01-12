@@ -1,0 +1,86 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "朝廷，君主受朝问政之处",
+      "examples": [
+        "乃设九宾于廷。",
+        "廷见相如。"
+      ],
+      "traditional_char": "廷"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "官署，地方官理事的公堂",
+      "examples": [
+        "廷中吏无所不狎侮。",
+        "皆诣县廷言请。"
+      ],
+      "traditional_char": "廷"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "堂前或院子，后作“庭”",
+      "examples": [
+        "子有廷内。",
+        "张武军于荧廷。",
+        "满堂盈廷。"
+      ],
+      "traditional_char": "廷"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "朝位，位置",
+      "examples": [
+        "奇与正，恒不同廷。"
+      ],
+      "traditional_char": "廷"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "公正，平正（旧时用于官号“廷尉”）",
+      "examples": [
+        "廷尉，秦官。颜师古注：‘廷，平也。'"
+      ],
+      "traditional_char": "廷"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从‘廴’，表延展，引申为朝廷聚集之地；‘壬’表声。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由中央朝廷扩展至一般官署，汉代以降"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由朝廷引申为聚集空间，后专指院落，‘庭’为分化字"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "朝位、位置，源自朝廷布局"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "synecdoche",
+      "note": "以公平之地指公平之意，用于官号（如‘廷尉’），东汉释义"
+    }
+  ]
+}

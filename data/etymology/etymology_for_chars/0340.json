@@ -1,0 +1,88 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "通达事理，聪明，有极高智慧",
+      "examples": [
+        "圣人无常师。",
+        "能为圣者，必达事理。"
+      ],
+      "traditional_char": "聖"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "拥有最高道德和智慧的人",
+      "examples": [
+        "孔子被尊为圣人。",
+        "圣哲垂范。"
+      ],
+      "traditional_char": "聖"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "最崇高的，对神明或宗教事物的尊称",
+      "examples": [
+        "神圣不可侵犯。",
+        "圣地。",
+        "圣经。"
+      ],
+      "traditional_char": "聖"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "用于封建社会对帝王的美化称呼",
+      "examples": [
+        "圣上降旨。",
+        "圣明天子。"
+      ],
+      "traditional_char": "聖"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "在某学问或技艺上有特别高成就的人",
+      "examples": [
+        "棋圣。",
+        "医圣。"
+      ],
+      "traditional_char": "聖"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从耳，呈声，甲骨文字形表示善于用耳与口，表示通达事理。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由形容词“通达事理”引申为极具智慧和道德的人，语义外延扩大。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由“圣人”引申为最崇高、与神相关的称呼，常用于宗教场合。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "以“圣人”泛指帝王，通过美化、尊称引申。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由“最具智慧的人”引申到在学术或技艺领域极为高明者。"
+    }
+  ]
+}

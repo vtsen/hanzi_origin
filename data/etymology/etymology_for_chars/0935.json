@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "马毛色不纯，夹杂杂色",
+      "examples": [
+        "其马驳色。",
+        "马驳而杂。"
+      ],
+      "traditional_char": "駁"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "颜色不纯，夹杂别的颜色",
+      "examples": [
+        "斑驳陆离",
+        "衣服颜色斑驳"
+      ],
+      "traditional_char": "駁"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "说出理由否定别人的意见",
+      "examples": [
+        "批驳谬论",
+        "反驳对方的观点"
+      ],
+      "traditional_char": "駁"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "分载转运货物的小船",
+      "examples": [
+        "驳船停在码头。",
+        "货物需要驳运。"
+      ],
+      "traditional_char": "駁"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "“駁”会意字，从“马”表示和马有关，从“爻”表示杂色，甲骨文即见。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由专指马毛杂色泛化为一般颜色夹杂不纯。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由颜色杂乱比喻为言论不统一，进而引申为否定、反驳。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "船只装卸杂乱相互转运，与‘杂’之意相关，转指分载船只。"
+    }
+  ]
+}

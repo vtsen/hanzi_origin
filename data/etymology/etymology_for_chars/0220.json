@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "天干的第五位，用于纪年、纪日等。",
+      "examples": [
+        "戊申晦，五鼓，与子颖坐观日亭，待日出。",
+        "周共和九年为戊辰年",
+        "吉日维戊"
+      ],
+      "traditional_char": "戊"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "方位中的中央（古以十干配五方，戊居中）。",
+      "examples": [
+        "五六者，天地之中合。",
+        "戊，中宫也。"
+      ],
+      "traditional_char": "戊"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "五行中的“土”，因戊属中央，代指土。",
+      "examples": [
+        "戊己，指一旬中的戊日和己日，古以十干配五方，戊己属中央，于五行属土。",
+        "戊土也。"
+      ],
+      "traditional_char": "戊"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "夜间五更的第五更，戊夜，拂晓。",
+      "examples": [
+        "戊夜五更天；拂晓的时候。"
+      ],
+      "traditional_char": "戊"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "pictograph",
+      "original_sense_index": 1,
+      "note": "象形，早期甲骨文似为相拘之形，象六甲五龙相拘，有学者认为本义为‘中宫’（中心之宫）。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "由“中央”之意扩展为天干第五位（居中）"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "以中央代表“五行”中的土，由位置引申为属性"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由天干纪时，引申为夜间第五时辰（五更）"
+    }
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "地球，大地。",
+      "examples": [
+        "地球是人类的家园。",
+        "天地玄黄。"
+      ],
+      "traditional_char": "地"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "地球的部分或区域。",
+      "examples": [
+        "此地无银三百两。",
+        "地壳运动。"
+      ],
+      "traditional_char": "地"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "地表，陆地（区别于海洋、江河等）。",
+      "examples": [
+        "地下水丰富。",
+        "回到陆地。"
+      ],
+      "traditional_char": "地"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "土壤，耕地。",
+      "examples": [
+        "田地肥沃。",
+        "地政管理。"
+      ],
+      "traditional_char": "地"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "铺设的平面，地板。",
+      "examples": [
+        "地板光滑。",
+        "铺地毯。"
+      ],
+      "traditional_char": "地"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "所在空间或区域的位置、地点。",
+      "examples": [
+        "目的地。",
+        "地标建筑。"
+      ],
+      "traditional_char": "地"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "人在社会关系中所处的位置。",
+      "examples": [
+        "易地而处。",
+        "提升地位。"
+      ],
+      "traditional_char": "地"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "noun",
+      "meaning": "抽象领域、范畴。",
+      "examples": [
+        "见地高远。",
+        "心地善良。"
+      ],
+      "traditional_char": "地"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "noun",
+      "meaning": "底子，基础。",
+      "examples": [
+        "质地优良。",
+        "底地结实。"
+      ],
+      "traditional_char": "地"
+    },
+    {
+      "index": 9,
+      "part_of_speech": "particle",
+      "meaning": "结构助词，用在词或词组之后，连接修饰语和谓语。",
+      "examples": [
+        "慢慢地走。",
+        "高兴地笑。"
+      ],
+      "traditional_char": "地"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从土，‘也’为声，表大地、地面之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从整体大地扩展为地球的部分或区域。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_narrowing",
+      "note": "从地球范围缩小为地表、陆地。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "由地表指代土壤、耕地。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "将地面引申为铺设的平面，如地板。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "metonymy",
+      "note": "由地球（区域）转指空间或区域的位置。"
+    },
+    {
+      "source_index": 5,
+      "target_index": 6,
+      "evolution_type": "metaphor",
+      "note": "由空间位置转喻为社会位置。"
+    },
+    {
+      "source_index": 5,
+      "target_index": 7,
+      "evolution_type": "metaphor",
+      "note": "由空间及领域意义发展为抽象领域。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 8,
+      "evolution_type": "metaphor",
+      "note": "地面、基础引申为“底子、基础”之意。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 9,
+      "evolution_type": "grammaticalization",
+      "note": "“地”从地表位移意义引申为修饰性结构助词。"
+    }
+  ]
+}

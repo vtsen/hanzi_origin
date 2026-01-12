@@ -1,0 +1,57 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "遥远，距离长",
+      "examples": [
+        "辽远",
+        "辽阔",
+        "地势辽远"
+      ],
+      "traditional_char": "遼"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "中国古代朝代名：辽朝",
+      "examples": [
+        "金灭辽",
+        "辽代文物"
+      ],
+      "traditional_char": "遼"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "中国辽宁省的简称",
+      "examples": [
+        "辽沈",
+        "辽省",
+        "辽河流域"
+      ],
+      "traditional_char": "遼"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从辵（辶）表行走、远行，尞为声符，原表示遥远。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "辽国以地名“辽”为名，地以遥远宽广著称。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "辽宁省简称“辽”，因地接辽河，以辽地为名。"
+    }
+  ]
+}

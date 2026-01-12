@@ -1,0 +1,72 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "君主，国家的最高统治者",
+      "examples": [
+        "君主",
+        "国君",
+        "君上"
+      ],
+      "traditional_char": "君"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "古代的封号，如商君、平原君、信陵君、长安君",
+      "examples": [
+        "商君",
+        "平原君",
+        "信陵君"
+      ],
+      "traditional_char": "君"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "对对方的尊称，如张君、诸君",
+      "examples": [
+        "张君",
+        "诸君"
+      ],
+      "traditional_char": "君"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "品行好的人，正人君子",
+      "examples": [
+        "正人君子"
+      ],
+      "traditional_char": "君"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意字，从尹（主管、治理），从口（命令出口），表示治理和发布命令的最高执政者。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由君主身份扩展为用于贵族和封号，一般指代有统治权力的人。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "amelioration",
+      "note": "对人尊称，表达敬意，由权威身份的提升泛化为尊敬对方。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由原为君主身份象征扩展为指代品德高尚的人，如“正人君子”。"
+    }
+  ]
+}

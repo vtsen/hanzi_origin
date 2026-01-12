@@ -1,0 +1,60 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "雇用，受雇用",
+      "examples": [
+        "雇佣工人",
+        "佣耕"
+      ],
+      "traditional_char": "傭"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "受雇用的人",
+      "examples": [
+        "女佣",
+        "他家有一个佣人"
+      ],
+      "traditional_char": "傭"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "买卖东西时，给中间人的报酬",
+      "examples": [
+        "佣金",
+        "他因介绍生意获得佣金"
+      ],
+      "traditional_char": "佣"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘傭’形声字，从‘人’得义，从‘庸’得声，最初表示‘雇用’之意。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 2,
+      "note": "‘佣’为‘傭’之简化，亦为形声字，后来引申有‘佣金’等义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "conversion",
+      "note": "由‘雇用（动词）’到‘受雇者（名词）’转化，东汉以后用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由‘雇用’的行为引申为‘居中介绍收取报酬’，后用于商业佣金，宋元以后。"
+    }
+  ]
+}

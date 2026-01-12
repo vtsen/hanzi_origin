@@ -1,0 +1,90 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "高，高大",
+      "examples": [
+        "乔木",
+        "乔松",
+        "乔岳"
+      ],
+      "traditional_char": "喬"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "梓树，乔梓（一种树名）",
+      "examples": [
+        "乔梓"
+      ],
+      "traditional_char": "喬"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "假装，做作",
+      "examples": [
+        "乔装打扮",
+        "乔装改扮"
+      ],
+      "traditional_char": "乔"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "无赖或狡诈之人",
+      "examples": [
+        "乔才"
+      ],
+      "traditional_char": "乔"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "乔布斯"
+      ],
+      "traditional_char": "乔"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "从“夭”和“高”省写，表示高大，与“高”有关，属于会意字，古文作“喬”。"
+    },
+    {
+      "formation_type": "loan_character",
+      "original_sense_index": 2,
+      "note": "简化字“乔”后来兼表与“喬”同音的“假装、无赖”等义，属于假借。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "高大之木，晋升为专指某种高大的树。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由“高”“突出”引申为“做作、假装”，语义比喻。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "由假装、作态引申为无赖狡诈之人。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "function_word",
+      "note": "地名转用为姓氏，常见汉姓构成方式。"
+    }
+  ]
+}

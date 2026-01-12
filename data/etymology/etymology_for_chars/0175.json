@@ -1,0 +1,81 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "中国市制长度单位，一尺等于十寸。",
+      "examples": [
+        "三尺讲台",
+        "寸有所长，尺有所短"
+      ],
+      "traditional_char": "尺"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "量长度的器具，如竹尺。",
+      "examples": [
+        "拿出一把竹尺",
+        "以铁尺量物"
+      ],
+      "traditional_char": "尺"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "像尺的东西（多指长条形、狭长的物体）。",
+      "examples": [
+        "戒尺",
+        "仿尺"
+      ],
+      "traditional_char": "尺"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "形容微少或短小。",
+      "examples": [
+        "尺布",
+        "咫尺天涯"
+      ],
+      "traditional_char": "尺"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "中国古代乐谱的记音符号，相当于简谱的“2”。",
+      "examples": [
+        "宫商角徵羽中的尺作为记音",
+        "古琴谱用尺标记音高"
+      ],
+      "traditional_char": "尺"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "simple_indicative",
+      "original_sense_index": 0,
+      "note": "小篆从尸、从乙，表示以人体部位为长度标准，是十寸。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "以长度单位之名转指测量长度的工具，自汉代已见。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "表示具有尺形状或作尺用途的物品，常见于器物命名。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "尺用于表示小、短，由原义引申。"
+    }
+  ]
+}

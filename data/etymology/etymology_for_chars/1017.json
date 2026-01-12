@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "弯曲，不正。",
+      "examples": [
+        "其道枉而不直。",
+        "枉己正人"
+      ],
+      "traditional_char": "枉"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "冤屈，冤枉。",
+      "examples": [
+        "枉死",
+        "含冤受枉"
+      ],
+      "traditional_char": "枉"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "屈就（用于对方，含敬意）。",
+      "examples": [
+        "枉驾",
+        "枉顾"
+      ],
+      "traditional_char": "枉"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adverb",
+      "meaning": "徒然，白白地。",
+      "examples": [
+        "枉然",
+        "枉费心机"
+      ],
+      "traditional_char": "枉"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从木，王声。本义为弯曲，‘木’表意义，‘王’表声音。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "行为‘不正’引申喻为‘冤屈’之事，语义比喻，先秦已有。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由‘弯曲，屈’引申为‘屈就’，用于敬辞，出现于后世文献。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由‘不正’引申为‘徒然、白费’，表示没有正果，语义延伸。"
+    }
+  ]
+}

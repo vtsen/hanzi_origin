@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "称呼母亲。",
+      "examples": [
+        "妈妈，我回来了。",
+        "吾母慈爱。"
+      ],
+      "traditional_char": "媽"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "对女性长辈的称呼，如“大妈”、“姑妈”。",
+      "examples": [
+        "大妈，您吃饭了吗？",
+        "姑妈来看我们了。"
+      ],
+      "traditional_char": "媽"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "旧时连着姓称中、老年仆妇，如“刘妈”、“鲁妈”。",
+      "examples": [
+        "刘妈是我们家的老仆妇。",
+        "鲁妈每天早起打扫。"
+      ],
+      "traditional_char": "媽"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从女，马声，表示称呼母亲。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由称呼母亲扩展为对女性长辈的称呼。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "进一步引申为对年长仆妇的称呼。"
+    }
+  ]
+}

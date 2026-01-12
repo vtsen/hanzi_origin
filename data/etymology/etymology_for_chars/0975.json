@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "用力推、挤；抵住某物以产生阻挡之力",
+      "examples": [
+        "抵挡敌人进攻。",
+        "两腿抵住箱子。"
+      ],
+      "traditional_char": "抵"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "顶撞、冲突、发生矛盾",
+      "examples": [
+        "抵触上级意见。",
+        "两人言语抵触。"
+      ],
+      "traditional_char": "抵"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "代替、顶替、以物相当",
+      "examples": [
+        "用金钱抵押房产。",
+        "以物抵偿债务。"
+      ],
+      "traditional_char": "抵"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "到达（某地）",
+      "examples": [
+        "抵京述职。",
+        "抵达目的地。"
+      ],
+      "traditional_char": "抵"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从手，氐声。本义为挤、推，手作动作，氐为声旁。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由“用力推”引申为人与人之间言语、立场的顶撞，语义比喻延伸。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由“抵住、顶住”引申为用物品顶替、相当于某物，属于抽象语义扩展。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "由动作“推到·抵至”转为“到达”义，用相关动作转指结果。"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "苔藓类隐花植物，根、茎、叶区别不明显，多生长于阴湿的地方，也称青苔、地衣等。",
+      "examples": [
+        "苔深不能扫，落叶秋风早。——李白《长干行》",
+        "宾阶绿钱满，客位紫苔生。——沈约《冬节后至丞相第诣世子车中作》",
+        "春水轻波浸绿苔。——毛文锡《浣溪沙》"
+      ],
+      "traditional_char": "苔"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "舌苔，指舌头表面的垢腻，由衰死的上皮细胞和黏液等形成，中医学上通过其颜色观察诊断病症。",
+      "examples": [
+        "医生观察舌苔的颜色。",
+        "舌苔厚白而腻，多为寒湿内盛。"
+      ],
+      "traditional_char": "苔"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从艸，台声，本义为苔藓类植物。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "借指舌头上的白腻物似苔藓，故名舌苔。"
+    }
+  ]
+}

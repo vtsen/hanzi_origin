@@ -1,0 +1,133 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "particle",
+      "meaning": "文言助词，用于句末表示动作已完成、事情已然发生，相当于“了”。",
+      "examples": [
+        "骨尽矣，而两狼之并驱如故。",
+        "有颜回者好学，不迁怒，不贰过，不幸短命死矣。"
+      ],
+      "traditional_char": "矣"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "particle",
+      "meaning": "文言助词，表示推测、将然，说明事情将要实现。",
+      "examples": [
+        "孔子曰：‘诺，吾将仕矣。’",
+        "天雨，子将败矣。"
+      ],
+      "traditional_char": "矣"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "particle",
+      "meaning": "文言助词，表示肯定、判断，相当于“也”。",
+      "examples": [
+        "虽曰未学，吾必谓之学矣。",
+        "吾老矣。"
+      ],
+      "traditional_char": "矣"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "particle",
+      "meaning": "文言助词，用于命令，表示命令语气，相当于“吧”。",
+      "examples": [
+        "王许我，汝可疾去矣。"
+      ],
+      "traditional_char": "矣"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "particle",
+      "meaning": "文言助词，表示感叹，相当于“啊”。",
+      "examples": [
+        "甚矣，吾衰也！",
+        "大矣哉。"
+      ],
+      "traditional_char": "矣"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "particle",
+      "meaning": "文言助词，用于句末表示停顿，引起下文，相当于“也”。",
+      "examples": [
+        "汉之广矣，不可泳思。",
+        "江之永矣，不可方思。"
+      ],
+      "traditional_char": "矣"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "particle",
+      "meaning": "文言助词，表示限制或语句的结束，相当于“耳”。",
+      "examples": [
+        "献公之子九人，唯君在矣。"
+      ],
+      "traditional_char": "矣"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "particle",
+      "meaning": "文言助词，与疑问词结合，表示疑问、反问、推测，相当于“了”、“呢”、“乎”。",
+      "examples": [
+        "危而不持，颠而不扶，则将焉用彼相矣？",
+        "德何如，则可以王矣？"
+      ],
+      "traditional_char": "矣"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从矢，以声。‘矢’表义，迅速果断，“以”表声，表示已然、完成语气。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由表示已然语气扩展为将然或推测语气。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "表示已然进一步泛化为肯定、判断等语气。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "语气词用于命令语境，语法功能扩展。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由已然语气词发展为感叹语气。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "grammaticalization",
+      "note": "语气词引入句末停顿，引起下文，语法功能演化。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "semantic_narrowing",
+      "note": "由已然、结束意发展为专门表示句末的限制、收尾。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 7,
+      "evolution_type": "semantic_extension",
+      "note": "与疑问词结合表示疑问、反问等多种语气。"
+    }
+  ]
+}

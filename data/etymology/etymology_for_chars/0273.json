@@ -1,0 +1,93 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "particle",
+      "meaning": "用在人称、指人的名词或代词后，表示复数",
+      "examples": [
+        "我们去上学。",
+        "他们已经来了。",
+        "孩子们在玩耍。"
+      ],
+      "traditional_char": "們"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "particle",
+      "meaning": "用于具体人名后，表示“等人”、“之辈”",
+      "examples": [
+        "蔡京们著数高，治元祐党只一章疏便尽行遣了。",
+        "艾奇逊们的欺骗做法在中国还有一层薄薄的社会基础。"
+      ],
+      "traditional_char": "們"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "particle",
+      "meaning": "用于指示代词后，相当于“这(么)”、“那(么)”的“么”",
+      "examples": [
+        "受他这们闲气做甚么！",
+        "弄做这们个师父出来也！",
+        "那一個不是從小讀著路先生的制藝，到後來才有這們大的經濟！"
+      ],
+      "traditional_char": "們"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "particle",
+      "meaning": "“麼”的变音字，用作副词性后缀，表示方式",
+      "examples": [
+        "这们睡，闷死我也。"
+      ],
+      "traditional_char": "們"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "particle",
+      "meaning": "“們”的简化字，用法同上，用于现代标准汉语书写",
+      "examples": [
+        "我们爱学习。",
+        "他们非常高兴。"
+      ],
+      "traditional_char": "们"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“們”形声字，从人，门声，本义为复数词尾，用于人和代词后。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 4,
+      "note": "“们”为“們”的简化字，从人，门声，‘门’以‘們’中‘門’简化为‘门’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由复数用法扩展到具体人名后，表示“等人”、“之辈”，见宋明时期文献。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "conversion",
+      "note": "由复数后缀转为指示代词后缀，形成“这们、那们”等，宋元用例。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "由复数后缀通过音近借为“么”的一种方言变体用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "reanalysis",
+      "note": "现代简化字“们”由“們”重组而成，20世纪简化字运动。"
+    }
+  ]
+}

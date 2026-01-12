@@ -1,0 +1,40 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adverb",
+      "meaning": "只，不过，才。",
+      "examples": [
+        "仅此而已。",
+        "仅有一人。",
+        "仅仅如此。"
+      ],
+      "traditional_char": "僅"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adverb",
+      "meaning": "将近，几乎。",
+      "examples": [
+        "士卒仅万人。",
+        "仅及格。"
+      ],
+      "traditional_char": "僅"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘僅’为形声字，从人，堇声，初指‘只、不过’之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘只、不过’引申为‘将近、几乎’，多见于近现代。"
+    }
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "割，分开。",
+      "examples": [
+        "列，分解也。——《说文》",
+        "列，分也。——《广雅》"
+      ],
+      "traditional_char": "列"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "排成的行、队形。",
+      "examples": [
+        "队列整齐。",
+        "罗列众议。"
+      ],
+      "traditional_char": "列"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "许多、各，表示多方或众多方面。",
+      "examples": [
+        "列位",
+        "列强",
+        "列传"
+      ],
+      "traditional_char": "列"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "摆出、陈列。",
+      "examples": [
+        "列举事实",
+        "列队欢迎"
+      ],
+      "traditional_char": "列"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "安排到某类事务之中，列入。",
+      "examples": [
+        "列席会议",
+        "列名榜首"
+      ],
+      "traditional_char": "列"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "measure_word",
+      "meaning": "用于排成行列的事物。",
+      "examples": [
+        "一列火车",
+        "三列大军"
+      ],
+      "traditional_char": "列"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "类别。",
+      "examples": [
+        "不在此列"
+      ],
+      "traditional_char": "列"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "noun",
+      "meaning": "姓。",
+      "examples": [
+        "列御寇"
+      ],
+      "traditional_char": "列"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "adjective",
+      "meaning": "猛然、猛烈（古同“烈”）。",
+      "examples": [
+        "列风（猛烈的风）"
+      ],
+      "traditional_char": "列"
+    },
+    {
+      "index": 9,
+      "part_of_speech": "verb",
+      "meaning": "分裂、裂开（古同“裂”）。",
+      "examples": [
+        "列土（分割疆土）"
+      ],
+      "traditional_char": "列"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从刀，表示与刀割分相关，音符‘歺’表音。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 9,
+      "evolution_type": "semantic_extension",
+      "note": "古义‘割、分’引申为‘裂开’。用法古今皆见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘分开’引申为‘排列’，即排成一行。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "‘分开’引申为‘摆出、陈列’。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "synecdoche",
+      "note": "行列中的众多，引申为各、众。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "function_word",
+      "note": "‘列’从名词发展为用于计量排成行列的量词。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "排列、安置事务，引申为‘安排到某类之中’。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 6,
+      "evolution_type": "metonymy",
+      "note": "‘行列’转指成‘类别’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 7,
+      "evolution_type": "unknown",
+      "note": "‘列’用为姓，具体渊源未可考。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 8,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "‘列’假借为‘烈’，文献古用，义‘猛烈’。"
+    }
+  ]
+}

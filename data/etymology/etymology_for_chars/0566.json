@@ -1,0 +1,114 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "完毕，结束",
+      "examples": [
+        "用尽",
+        "说不尽",
+        "事已尽"
+      ],
+      "traditional_char": "盡"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "达到极端，极致",
+      "examples": [
+        "山穷水尽",
+        "尽情",
+        "自尽"
+      ],
+      "traditional_char": "盡"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "全部用出，竭力做到",
+      "examples": [
+        "尽心",
+        "尽力",
+        "尽职",
+        "尽忠",
+        "尽责",
+        "人尽其才"
+      ],
+      "traditional_char": "盡"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adverb",
+      "meaning": "都，全，全然",
+      "examples": [
+        "尽然",
+        "尽是白的",
+        "尽收眼底",
+        "尽释前嫌"
+      ],
+      "traditional_char": "盡"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "极，最",
+      "examples": [
+        "尽底下"
+      ],
+      "traditional_char": "儘"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "力求达到最大限度",
+      "examples": [
+        "尽量",
+        "尽管"
+      ],
+      "traditional_char": "儘"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "盡为形声字，从皿，聿声，本义为完毕、结束。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 4,
+      "note": "儘为形声字，从人，盡声，表示到极、最的意思。后借用于副词。"
+    },
+    {
+      "formation_type": "loan_character",
+      "original_sense_index": 0,
+      "note": "简化字‘尽’兼收‘盡’和‘儘’二字之义，含义合流。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从完毕引申为极致，见于先秦文献"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由“全部用完”引申为“竭力做到”"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "形容全部，语法位置变化成副词"
+    },
+    {
+      "source_index": 4,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "从“最、极”引申为力求最大限度"
+    }
+  ]
+}

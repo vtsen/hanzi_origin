@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "中心，正当中",
+      "examples": [
+        "中央",
+        "中流砥柱在江之央"
+      ],
+      "traditional_char": "央"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "恳求，乞求",
+      "examples": [
+        "央求",
+        "我再三央他帮忙"
+      ],
+      "traditional_char": "央"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "尽，完了",
+      "examples": [
+        "夜未央",
+        "事未央"
+      ],
+      "traditional_char": "央"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "小篆字形从大，在冂（物体）中，表示“中心”的意思。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_shift",
+      "note": "由‘中心’意义引申为请求别人（为事的中心），语法和语义用途拓展，晋以后形成。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由‘中心’引申为‘事物的末端/结束’，如‘夜未央’表示夜晚还未到尽头。"
+    }
+  ]
+}

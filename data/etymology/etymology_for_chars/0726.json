@@ -1,0 +1,57 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "种植蔬菜、花果、树木的地方",
+      "examples": [
+        "菜园",
+        "果园",
+        "园丁"
+      ],
+      "traditional_char": "園"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "供人游玩、娱乐的公共场所（原指别墅游息之所）",
+      "examples": [
+        "公园",
+        "圆明园",
+        "游园"
+      ],
+      "traditional_char": "園"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "旧指帝王、王公贵族的墓地",
+      "examples": [
+        "园陵",
+        "园庙"
+      ],
+      "traditional_char": "園"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，“囗”表意指围绕之地，“袁”表音，本义为种植蔬菜果木的地方。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由私人种植地扩展为供人游玩休息之所，后泛指公共娱乐场所。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "因帝王墓地常为大范围园林形制，借称为“园”。"
+    }
+  ]
+}

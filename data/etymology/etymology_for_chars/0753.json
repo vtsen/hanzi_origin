@@ -1,0 +1,52 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "地面高低不平的样子",
+      "examples": [
+        "崎岖的山路难以行走。"
+      ],
+      "traditional_char": "嶇"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "道路险阻不平",
+      "examples": [
+        "道路崎岖，行人步履维艰。"
+      ],
+      "traditional_char": "嶇"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "山势峻险",
+      "examples": [
+        "岖崯难攀。"
+      ],
+      "traditional_char": "嶇"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从山，区声，表示地势高低不平。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由地形高低不平扩展到专指道路险阻。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由高低不平引申至山势险峻。"
+    }
+  ]
+}

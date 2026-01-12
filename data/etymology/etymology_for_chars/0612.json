@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "用手搀扶、支持人或物，使不倒",
+      "examples": [
+        "搀扶老人过马路",
+        "扶正歪倒的花瓶"
+      ],
+      "traditional_char": "扶"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "帮助，援助",
+      "examples": [
+        "扶危济困",
+        "扶助贫苦"
+      ],
+      "traditional_char": "扶"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "用手按着或把持着",
+      "examples": [
+        "扶梯而上",
+        "扶手登车"
+      ],
+      "traditional_char": "扶"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "扶某",
+        "古有扶姓"
+      ],
+      "traditional_char": "扶"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从手，夫声。左边“手”表意，右边“夫”表音，表示用手搀扶的动作。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "从“用手扶持”泛指“用手按着或把持”，意项扩展。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由“用手搀扶”引申为“帮助、援助”，以人体动作隐喻社会或心理帮助。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "conversion",
+      "note": "以动作意义转为姓氏用法，常见于汉字姓氏来源。"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "numeral",
+      "meaning": "数目，二。常用于量词和“个、半、千、万、亿”前。",
+      "examples": [
+        "两个黄鹂",
+        "两本书",
+        "两个人"
+      ],
+      "traditional_char": "兩"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "中国市制重量单位。一市斤为十两（旧制为十六两一斤）；亦为古代银锭的计量单位。",
+      "examples": [
+        "十两",
+        "半斤八两"
+      ],
+      "traditional_char": "兩"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "双方，两边。",
+      "examples": [
+        "两可",
+        "两边",
+        "两败俱伤"
+      ],
+      "traditional_char": "兩"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "numeral",
+      "meaning": "表示不定数目，含有少许、几的意思。",
+      "examples": [
+        "两下子",
+        "两着儿"
+      ],
+      "traditional_char": "兩"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 1,
+      "note": "会意字。本作“兩”，象两物相对并列，中有“一”分开；本义为重量单位“二十四铢为一两”。"
+    },
+    {
+      "formation_type": "loan_character",
+      "original_sense_index": 0,
+      "note": "“两”后借用作表示数字‘二’的专用形式，简化自“兩”。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "由重量单位‘两’引申为‘二’，因古代一两即为两物之合。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "‘两’数用以指涉‘双方、两边’，以两个对象代指两方面。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由确切数‘二’引申为泛指不定的少数数量。"
+    }
+  ]
+}

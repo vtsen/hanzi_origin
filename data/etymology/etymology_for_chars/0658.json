@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "后退，退却",
+      "examples": [
+        "望而却步",
+        "敌军已经退却"
+      ],
+      "traditional_char": "卻"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "退还，不接受",
+      "examples": [
+        "盛情难却",
+        "却之不恭"
+      ],
+      "traditional_char": "卻"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adverb",
+      "meaning": "表示转折",
+      "examples": [
+        "我来了，他却走了",
+        "他很聪明，却很谦虚"
+      ],
+      "traditional_char": "卻"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "去掉，除去",
+      "examples": [
+        "失却",
+        "了却心事"
+      ],
+      "traditional_char": "卻"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从卩，谷声。本义为退，‘卩’表示与身体动作（退步）有关。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“退”引申为“退还、不受”；见于古汉语。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "grammaticalization",
+      "note": "由动作“退”发展为副词用法，表示转折。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由“退”引申为“去掉”、“除去”的意义。"
+    }
+  ]
+}

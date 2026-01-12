@@ -1,0 +1,101 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古代一种前顶较高并有帷幕的车，供大夫以上乘坐",
+      "examples": [
+        "轩车",
+        "轩冕"
+      ],
+      "traditional_char": "軒"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "有窗的长廊或小屋",
+      "examples": [
+        "游廊轩榭"
+      ],
+      "traditional_char": "軒"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "门、窗、楼板或栏杆等建筑部件",
+      "examples": [
+        "窗轩",
+        "门轩"
+      ],
+      "traditional_char": "軒"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "高、高敞",
+      "examples": [
+        "轩敞",
+        "轩昂"
+      ],
+      "traditional_char": "軒"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "轩辕：传说中的上古帝王黄帝的称号，或为车辕、古星名、复姓",
+      "examples": [
+        "轩辕皇帝",
+        "轩辕氏"
+      ],
+      "traditional_char": "軒"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "轩姓"
+      ],
+      "traditional_char": "軒"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从车，干声，本义为有帷幕的贵族车。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由古车‘轩’外部形制引申为有窗的小屋或长廊，先秦两汉已见。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "小屋或长廊进一步泛指建筑物中的门、窗等部件。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "古代轩车车前高，引申为高敞、轩昂的形容。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "用于‘轩辕’，古代帝王号、车辕名，后用作星名、姓氏。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "轩辕作为氏族，后衍生为复姓及单姓‘轩’。"
+    }
+  ]
+}

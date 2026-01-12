@@ -1,0 +1,57 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "用在词或短语之后，表示“人”、“事”或“物”",
+      "examples": [
+        "读者",
+        "作者",
+        "来者不善",
+        "过来者"
+      ],
+      "traditional_char": "者"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "particle",
+      "meaning": "古代判断句的语气助词，常用于主语后停顿，表明判断关系",
+      "examples": [
+        "陈胜者，阳城人也。",
+        "贤者能善其身。"
+      ],
+      "traditional_char": "者"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "pronoun",
+      "meaning": "这，此（主要用于古文诗词）",
+      "examples": [
+        "者番归来",
+        "者边走"
+      ],
+      "traditional_char": "者"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "simple_indicative",
+      "original_sense_index": 2,
+      "note": "指事字，古文用于表示“这，此”，《说文解字》作‘别事词’，意近‘这’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 2,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "由指示词‘这’扩展为指人、指事、指物的后置成分，多用于书面语。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 1,
+      "evolution_type": "grammaticalization",
+      "note": "从指示代词演化为句末语气助词，用于判断句结构，见于先秦至汉代。"
+    }
+  ]
+}

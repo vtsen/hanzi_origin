@@ -1,0 +1,87 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "漂浮在水面上",
+      "examples": [
+        "泛舟湖上",
+        "叶子随波而泛"
+      ],
+      "traditional_char": "泛"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "透出（多用于颜色、光等）",
+      "examples": [
+        "脸上泛出红晕",
+        "水面泛起微光"
+      ],
+      "traditional_char": "泛"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "浮浅、不切实",
+      "examples": [
+        "浮泛之交",
+        "泛泛而谈"
+      ],
+      "traditional_char": "泛"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "普遍的、一般的",
+      "examples": [
+        "泛论",
+        "泛指"
+      ],
+      "traditional_char": "泛"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "水向四处漫流",
+      "examples": [
+        "河水泛溢",
+        "江水泛滥"
+      ],
+      "traditional_char": "泛"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，乏声，表示水面漂浮，本义为漂浮。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "从漂浮扩展为水漫流；已见于古汉语中。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "以漂浮为喻，引申为色彩、光等外表浮现。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由“漂浮不定”引申为“浮浅不实”。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由“不切实”进一步引申为“不特指，普遍”。"
+    }
+  ]
+}

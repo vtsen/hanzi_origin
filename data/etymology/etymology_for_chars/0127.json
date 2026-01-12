@@ -1,0 +1,154 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "两点之间距离大，空间或时间上的“长”，与“短”相对。",
+      "examples": [
+        "长城",
+        "长江",
+        "夜长梦多",
+        "长短"
+      ],
+      "traditional_char": "長"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "长度、距离。",
+      "examples": [
+        "长度",
+        "身长三尺"
+      ],
+      "traditional_char": "長"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "优点，专长。",
+      "examples": [
+        "各有所长",
+        "特长"
+      ],
+      "traditional_char": "長"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "生长，成长。",
+      "examples": [
+        "青草长了",
+        "长大成人"
+      ],
+      "traditional_char": "長"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "增加，增长。",
+      "examples": [
+        "长知识",
+        "增加收入，长工资"
+      ],
+      "traditional_char": "長"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "排行第一的（如长子）、年纪最大的、辈分最高的。",
+      "examples": [
+        "长子",
+        "长兄",
+        "长孙"
+      ],
+      "traditional_char": "長"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "辈分高、年纪大的人。",
+      "examples": [
+        "长辈",
+        "长者"
+      ],
+      "traditional_char": "長"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "noun",
+      "meaning": "领导人，负责人。",
+      "examples": [
+        "部长",
+        "校长"
+      ],
+      "traditional_char": "長"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "verb",
+      "meaning": "在某方面表现突出，擅长。",
+      "examples": [
+        "他长于写作",
+        "长于管理"
+      ],
+      "traditional_char": "長"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "pictograph",
+      "original_sense_index": 0,
+      "note": "甲骨文字形为人披长发，象征两点之间距离大之意，原为表空间意义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_narrowing",
+      "note": "从形容词“长”的抽象量化，发展为表示具体的“长度”等名词用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由空间距离大，引申为植物等生长，物体变长的动作。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由‘生长’进一步引申为增长、增加的动词意义。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "从空间‘长’引申为优点、特长，指有所突出。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 8,
+      "evolution_type": "conversion",
+      "note": "由名词‘特长’引申为表示‘擅长于某事’的动词用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "metaphor",
+      "note": "从‘长’引申为排序、年纪、辈分上为首，即‘长子’等。"
+    },
+    {
+      "source_index": 5,
+      "target_index": 6,
+      "evolution_type": "semantic_extension",
+      "note": "由排行第一的抽象引申为年长、辈分高的人。"
+    },
+    {
+      "source_index": 6,
+      "target_index": 7,
+      "evolution_type": "semantic_extension",
+      "note": "由年长、辈分高的人进而用于泛指领导人或负责人。"
+    }
+  ]
+}

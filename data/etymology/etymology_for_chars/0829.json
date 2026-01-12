@@ -1,0 +1,38 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "中国市制土地面积单位，一亩等于六十平方丈。十五亩等于一公亩。",
+      "examples": [
+        "他有十亩地。",
+        "一亩三分田。"
+      ],
+      "traditional_char": "畝"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "田中高处，垄。",
+      "examples": [
+        "居于畎亩之中。"
+      ],
+      "traditional_char": "畝"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "“畝”形声字，从田，母声。本指田中高起的田垄。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "由“田中高垄”引申为田地的计量单位，见古代土地制度变化。"
+    }
+  ]
+}

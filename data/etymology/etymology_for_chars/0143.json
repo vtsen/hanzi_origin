@@ -1,0 +1,74 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "思考，思虑",
+      "examples": [
+        "仑，思也。——《说文》"
+      ],
+      "traditional_char": "侖"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "自我反省，检讨",
+      "examples": [
+        "浙江令人自反省者，曰肚里仑一仑。——《新方言·释言》"
+      ],
+      "traditional_char": "侖"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "条理，伦次，逻辑顺序",
+      "examples": [
+        "条理、伦次。",
+        "logical reasons, logical order"
+      ],
+      "traditional_char": "侖"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "（地名用字）见“昆仑”",
+      "examples": [
+        "昆仑山",
+        "昆仑丘"
+      ],
+      "traditional_char": "侖"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "侖为形声字，从人，仑声，初以‘思’为本义。"
+    },
+    {
+      "formation_type": "simple_indicative",
+      "original_sense_index": 0,
+      "note": "仑为侖的简化字，后用为‘思’义，为表音兼略具指事性质。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘思考’扩展为‘自我反省’，宋元以后方言用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由‘思考’引申为‘条理、逻辑顺序’，见于古籍与现代用法。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "‘昆仑’等地名借用‘条理、结构’的义，属转喻。"
+    }
+  ]
+}

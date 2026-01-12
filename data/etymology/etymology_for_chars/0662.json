@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "土地荒废，长满杂草",
+      "examples": [
+        "荒芜",
+        "芜城"
+      ],
+      "traditional_char": "蕪"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "杂草丛生的地方",
+      "examples": [
+        "平芜"
+      ],
+      "traditional_char": "蕪"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "（比喻）杂乱，无条理（多指文辞）",
+      "examples": [
+        "芜杂",
+        "芜词",
+        "芜劣"
+      ],
+      "traditional_char": "蕪"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从艸，无声，本义为土地荒废长草；艸表意，无表声。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "土地状况引申为指具体长满杂草之地。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由土地荒芜比喻文辞杂乱，自古多见。"
+    }
+  ]
+}

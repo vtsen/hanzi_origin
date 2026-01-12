@@ -1,0 +1,119 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "分离，分开",
+      "examples": [
+        "别离",
+        "分别",
+        "告别"
+      ],
+      "traditional_char": "別"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "差别，不同",
+      "examples": [
+        "霄壤之别",
+        "高低有别"
+      ],
+      "traditional_char": "別"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "分类，划分",
+      "examples": [
+        "类别",
+        "分门别类"
+      ],
+      "traditional_char": "別"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "另外的，其他的",
+      "examples": [
+        "别墅",
+        "别人",
+        "别开生面"
+      ],
+      "traditional_char": "別"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "卡住，插住，绷住",
+      "examples": [
+        "别针",
+        "别花"
+      ],
+      "traditional_char": "別"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "auxiliary",
+      "meaning": "不要，不准",
+      "examples": [
+        "别动",
+        "别说话"
+      ],
+      "traditional_char": "別"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "adjective",
+      "meaning": "（性情）别扭，不顺心，不投合",
+      "examples": [
+        "别扭"
+      ],
+      "traditional_char": "彆"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意字，从冎（剔骨）和刀，表示以刀分解、分离。"
+    },
+    {
+      "formation_type": "loan_character",
+      "original_sense_index": 6,
+      "note": "‘彆’本作‘别’的异体，后专用于‘别扭’等义，疑为借用或讹变体。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "分离引申为事物间的差别，常用在对比关系。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由分离发展为对事物进行分类、划分。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "分离进一步引申为“另外的”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_shift",
+      "note": "由“分开”发展出卡住、插入使分开的意思。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "grammaticalization",
+      "note": "动词“分离”虚化为禁止、劝阻用法，如“别动”。"
+    }
+  ]
+}

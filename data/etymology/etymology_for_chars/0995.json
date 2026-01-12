@@ -1,0 +1,127 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "弯曲使断，折断",
+      "examples": [
+        "拗莲作寸丝难绝。",
+        "拗矢，折矛，拖戟。",
+        "焦皮里面窜出一道白气，是两半个白面的馒头。"
+      ],
+      "traditional_char": "拗"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "转折；弯转",
+      "examples": [
+        "他将头仰起，摇着，向后面拗过去，拗过去。",
+        "山转灘正拗，灘吼风又作。"
+      ],
+      "traditional_char": "拗"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "不顺，不顺从；违反",
+      "examples": [
+        "世路终难拗。",
+        "王法终究是不可拗的。",
+        "段太公也不敢拗他。"
+      ],
+      "traditional_char": "拗"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "不顺口，诗文平仄不合常格",
+      "examples": [
+        "没有比这个再拗口，再难记的了。",
+        "拗律，拗救。"
+      ],
+      "traditional_char": "拗"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "撬，扳，扭，拗开",
+      "examples": [
+        "铁石拗不开。",
+        "装着卓别林的姿势，连膝踝都拗得发痛。"
+      ],
+      "traditional_char": "拗"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "adjective",
+      "meaning": "固执，不驯顺，倔强",
+      "examples": [
+        "脾气很拗。",
+        "他性子越来拗了。"
+      ],
+      "traditional_char": "拗"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "抑制",
+      "examples": [
+        "拗怒而少息。",
+        "拗怒。"
+      ],
+      "traditional_char": "拗"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从手，幼声。本义为用手折断，手为意符，‘幼’为声符。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由折断引申为弯转、转折。已有东汉用例。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "从“折断”引申为“撬、扳”等徒手改变形态之义。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "从“折断、曲折不顺”转为“不顺从、违逆”，唐代诗文已见。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "由“不顺”引申为“拗口”，尤用于诗文格律不顺。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "semantic_shift",
+      "note": "形容词化，指性情或人的“固执、倔强”，例见宋元。"
+    },
+    {
+      "source_index": 5,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "由“固执”指人的行为，不顺从、违逆常规。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "semantic_extension",
+      "note": "用于“抑制”义，后世多见，语源或有转喻成分。"
+    }
+  ]
+}

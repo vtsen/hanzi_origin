@@ -1,0 +1,43 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "重量单位，公制一吨等于1000公斤",
+      "examples": [
+        "一辆卡车载重5吨。",
+        "我国去年生产钢材数千万吨。"
+      ],
+      "traditional_char": "噸"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "计算船只容积的单位，一吨等于2.83立方米（合100立方英尺）",
+      "examples": [
+        "这艘货轮排水量3万吨。"
+      ],
+      "traditional_char": "噸"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "噸为形声字，从口，屯声，最初借指重量单位（吨）。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "吨为简化字，由噸简化而成，结构同属形声字。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "因重量单位引申为容量单位，因贸易、航运等领域实际用途而生。"
+    }
+  ]
+}

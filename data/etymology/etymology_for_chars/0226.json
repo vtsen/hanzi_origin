@@ -1,0 +1,102 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "在交通要道设置的检查或收税的地方",
+      "examples": [
+        "关卡",
+        "卡子"
+      ],
+      "traditional_char": "卡"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "夹东西的器具",
+      "examples": [
+        "发卡",
+        "领带卡"
+      ],
+      "traditional_char": "卡"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "夹在中间，堵塞",
+      "examples": [
+        "卡壳",
+        "鱼刺卡在嗓子里"
+      ],
+      "traditional_char": "卡"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "用手的虎口紧紧按住",
+      "examples": [
+        "卡脖子"
+      ],
+      "traditional_char": "卡"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "把人阻挡住",
+      "examples": [
+        "卡住敌人的退路"
+      ],
+      "traditional_char": "卡"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "机械工程的专用工具",
+      "examples": [
+        "卡钳",
+        "卡尺",
+        "卡规"
+      ],
+      "traditional_char": "卡"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "卡为形声字，从上从下，卡为声。本义疑为关卡处，后用于多义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由关卡的夹阻之意比喻为夹持之器具。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "conversion",
+      "note": "由名词‘夹具’转为动词‘夹住’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "由‘关卡’阻挡义引申为用手虎口按住。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由具体动作引申为阻挡他人去路。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "夹持器义扩展为机械类专用工具。"
+    }
+  ]
+}

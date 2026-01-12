@@ -1,0 +1,60 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "停留、歇息或居住",
+      "examples": [
+        "居住",
+        "住宿",
+        "住户",
+        "住在北京",
+        "他住下了"
+      ],
+      "traditional_char": "住"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "停止、止住、歇下",
+      "examples": [
+        "住手",
+        "雨住了",
+        "走住"
+      ],
+      "traditional_char": "住"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "other",
+      "meaning": "作动词补语，表示动作稳定、牢固、停顿或力量达到",
+      "examples": [
+        "站住",
+        "他愣住了",
+        "支持不住了"
+      ],
+      "traditional_char": "住"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，“人”作意符表人的活动，“主”作声符；本义为停留、居住"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“停留”引申至“停止、止住”；汉代以后广泛见用"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "grammaticalization",
+      "note": "由动词“止住”虚化为补语用法；现代汉语语法发展"
+    }
+  ]
+}

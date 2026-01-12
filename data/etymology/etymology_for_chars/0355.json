@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古代官署名",
+      "examples": [
+        "太常寺",
+        "鸿胪寺"
+      ],
+      "traditional_char": "寺"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "佛教出家人居住的地方",
+      "examples": [
+        "佛寺",
+        "寺观"
+      ],
+      "traditional_char": "寺"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "伊斯兰教徒礼拜、讲经的地方",
+      "examples": [
+        "清真寺"
+      ],
+      "traditional_char": "寺"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从寸，之声。“寸”与法度、官府有关，初指官署。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_shift",
+      "note": "汉魏时期佛教传入中国后，原官署名的“寺”借指佛教僧侣居住地。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "后用于泛指其他宗教礼拜场所，清真寺即例。"
+    }
+  ]
+}

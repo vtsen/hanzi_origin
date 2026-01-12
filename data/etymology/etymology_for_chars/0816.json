@@ -1,0 +1,123 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "植物的细长枝条",
+      "examples": [
+        "柳条儿",
+        "枝条"
+      ],
+      "traditional_char": "條"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "条状物；泛称条形的东西",
+      "examples": [
+        "铁条",
+        "金条",
+        "面条儿"
+      ],
+      "traditional_char": "條"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "细长的形状",
+      "examples": [
+        "条形",
+        "条纹",
+        "条案"
+      ],
+      "traditional_char": "條"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "项目，分项目的内容",
+      "examples": [
+        "条例",
+        "条文",
+        "条令"
+      ],
+      "traditional_char": "條"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "层次，秩序",
+      "examples": [
+        "条理",
+        "条贯",
+        "有条不紊"
+      ],
+      "traditional_char": "條"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "measure_word",
+      "meaning": "量词，用于细长的物品等",
+      "examples": [
+        "一条鱼",
+        "三条河",
+        "五条道路"
+      ],
+      "traditional_char": "條"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "挑取",
+      "examples": [
+        "蚕月条叠"
+      ],
+      "traditional_char": "條"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘條’为形声字，从木，攸声，本义为树枝。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由植物的枝条扩展为一切细长条状物。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "从条状物泛化为细长形状的定义，用于描述抽象的“条形”、“条纹”等。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "用条状物的并列比喻事物的分类、分项，因此有了“条文”、“条例”的用法。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "分项目引申为层次、秩序的意义，如‘条理’。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "grammaticalization",
+      "note": "由名词转化为量词，表示细长类别的计量单位。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 6,
+      "evolution_type": "unknown",
+      "note": "用作动词‘挑取’，为少见用法，意义关系不详。"
+    }
+  ]
+}

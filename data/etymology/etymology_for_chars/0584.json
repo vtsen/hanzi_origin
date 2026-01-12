@@ -1,0 +1,84 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "一种兵器",
+      "examples": [],
+      "traditional_char": "戲"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "玩耍；嬉戏",
+      "examples": [
+        "儿童嬉戏",
+        "游戏玩耍"
+      ],
+      "traditional_char": "戲"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "嘲弄；开玩笑",
+      "examples": [
+        "戏言",
+        "戏弄他人"
+      ],
+      "traditional_char": "戲"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "戏剧、表演或杂技",
+      "examples": [
+        "一出戏",
+        "看戏",
+        "皮影戏"
+      ],
+      "traditional_char": "戲"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "interjection",
+      "meaning": "于戏，表示感叹之词",
+      "examples": [
+        "呜呼哀哉，于戏！"
+      ],
+      "traditional_char": "戲"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从戈，虚声，本义为兵器，后引申为游戏等义"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "兵器模拟游戏武斗，引申为玩耍、嬉戏，用于古代嬉戏、舞戈"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "玩耍引申为戏弄、开玩笑，类似以嬉戏待人"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "玩耍发展为表演、戏剧等娱人场合"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "unknown",
+      "note": "‘于戏’感叹用法源流不详，可能为假借或特殊语法演变"
+    }
+  ]
+}

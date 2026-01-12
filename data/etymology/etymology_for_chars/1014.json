@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "植物体上生枝长叶开花的部分，有输送植物体内养料的作用，是植物的中轴。",
+      "examples": [
+        "花有茎叶。",
+        "植物的茎能输送水分。"
+      ],
+      "traditional_char": "莖"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "measure_word",
+      "meaning": "用于长条形的东西的量词。",
+      "examples": [
+        "几茎小草。",
+        "数茎白发。"
+      ],
+      "traditional_char": "莖"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从艸，巠声，表示植物的主干。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "grammaticalization",
+      "note": "由表示植物主干名词引申为量词，表示长条状之物。一般认为形成于中古以后。"
+    }
+  ]
+}

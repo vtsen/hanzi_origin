@@ -1,0 +1,86 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "水名，即汉水，长江主要支流之一",
+      "examples": [
+        "汉水发源于陕西境内，流经湖北入长江。"
+      ],
+      "traditional_char": "漢"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "天上的银河",
+      "examples": [
+        "银汉迢迢暗度。",
+        "气冲霄汉。"
+      ],
+      "traditional_char": "漢"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "成年男子，男子汉",
+      "examples": [
+        "男儿当自强，做个大汉。",
+        "老汉"
+      ],
+      "traditional_char": "漢"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "中国人数最多的民族，即汉族，或指其成员",
+      "examples": [
+        "汉族是中国的主体民族。",
+        "汉人"
+      ],
+      "traditional_char": "漢"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "中国古代王朝名，即汉代",
+      "examples": [
+        "汉代历史悠久。",
+        "汉隶"
+      ],
+      "traditional_char": "漢"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，难声，表示与水有关的专名，指汉水。‘漢’为古体，‘汉’为简化字。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "以汉水比喻天河，诗歌中以宽广之水借指银河。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "以地名指代政权、朝代，因汉水流域地区建立汉王朝而得名。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "以汉代代指形成于该时期的主要族群，‘汉族’得名于汉王朝。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由‘汉族’引申为‘男子汉’，泛指成年男子。"
+    }
+  ]
+}

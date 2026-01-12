@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "头部倾斜、不正。",
+      "examples": [
+        "头顷向右。"
+      ],
+      "traditional_char": "頃"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "中国市制田地面积单位（等于一百亩）。",
+      "examples": [
+        "一顷良田。",
+        "碧波万顷。"
+      ],
+      "traditional_char": "頃"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "短时间，一会儿。",
+      "examples": [
+        "顷刻。",
+        "有顷。",
+        "俄顷。"
+      ],
+      "traditional_char": "頃"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adverb",
+      "meaning": "刚刚，不久以前。",
+      "examples": [
+        "顷闻。",
+        "顷接来信。"
+      ],
+      "traditional_char": "頃"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "从匕、页会意，表示头部倾斜或不正。‘匕’表排列或不正，‘页’为头。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "古时以头向某方向倾表地形倾侧，引申为田地面积单位。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由动作一瞬间倾斜，引申为时间很短。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由短时间扩展为‘刚刚、不久前’。"
+    }
+  ]
+}

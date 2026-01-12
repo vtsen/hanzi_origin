@@ -1,0 +1,105 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "前进，向前或向上移动或发展，与“退”相对",
+      "examples": [
+        "前进",
+        "上进",
+        "跃进",
+        "进退"
+      ],
+      "traditional_char": "進"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "进入，入内，往里去",
+      "examples": [
+        "进见",
+        "进谒",
+        "进屋"
+      ],
+      "traditional_char": "進"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "吃，喝",
+      "examples": [
+        "进食",
+        "滴水未进"
+      ],
+      "traditional_char": "進"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "收入、买入",
+      "examples": [
+        "进账",
+        "进货"
+      ],
+      "traditional_char": "進"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "奉上，呈上",
+      "examples": [
+        "进言",
+        "进献"
+      ],
+      "traditional_char": "進"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "旧式房院的层次",
+      "examples": [
+        "这所宅子是两进院"
+      ],
+      "traditional_char": "進"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意字，从“隹”与“止”组合，寓意鸟脚不能后退，只能前进，表示‘前进’本义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从‘向前’引申为‘进入’。汉代已见此用法。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "吃喝时也有“入口”之意，用‘进’表示‘吃喝’。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "‘进入’引申为‘买进、收入’等。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "‘进去’、‘送进去’进而用于‘奉上’、‘呈上’。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "院落结构，‘进’指层次，源自‘进入’。"
+    }
+  ]
+}

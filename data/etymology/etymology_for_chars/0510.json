@@ -1,0 +1,58 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "高大有力，强壮",
+      "examples": [
+        "强壮",
+        "壮士",
+        "兵强马壮"
+      ],
+      "traditional_char": "壯"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "增强勇气和力量",
+      "examples": [
+        "壮胆",
+        "壮行",
+        "以壮声势"
+      ],
+      "traditional_char": "壯"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "中国的少数民族名称",
+      "examples": [
+        "壮族",
+        "壮锦",
+        "壮歌"
+      ],
+      "traditional_char": "壯"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从士，爿声，表示人高大结实。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由形容外表高大强健，转为抽象意义的增强（勇气、气势等）用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "unknown",
+      "note": "‘壮族’中的‘壮’源自音译民族名称，词义关系不明。"
+    }
+  ]
+}

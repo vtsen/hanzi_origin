@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "覆盖在肩背上",
+      "examples": [
+        "披星戴月",
+        "披头散发"
+      ],
+      "traditional_char": "披"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "穿戴",
+      "examples": [
+        "披挂",
+        "披甲上阵"
+      ],
+      "traditional_char": "披"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "打开，散开",
+      "examples": [
+        "披阅文件",
+        "披襟怀抱"
+      ],
+      "traditional_char": "披"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "劈开，裂开",
+      "examples": [
+        "竹竿披了",
+        "披荆斩棘"
+      ],
+      "traditional_char": "披"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从扌（手），皮声。最初表示用手把东西覆盖在身上，与“披在肩背”有关。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由覆盖引申为广义的穿戴，古今用法皆有。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由覆盖发展为“打开、散开”，如披开衣襟。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "由“打开、散开”用作“劈开、裂开”，具体到裂解事物。"
+    }
+  ]
+}

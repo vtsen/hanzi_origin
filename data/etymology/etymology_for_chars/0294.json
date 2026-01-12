@@ -1,0 +1,156 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "居住",
+      "examples": [
+        "穴居野处",
+        "安土重处"
+      ],
+      "traditional_char": "處"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "存在，置身",
+      "examples": [
+        "设身处地",
+        "处心积虑",
+        "处世"
+      ],
+      "traditional_char": "處"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "跟别人一起生活，交往",
+      "examples": [
+        "融洽相处",
+        "他与人为善，善于相处"
+      ],
+      "traditional_char": "處"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "决定，决断",
+      "examples": [
+        "处置",
+        "处理问题",
+        "断然处决"
+      ],
+      "traditional_char": "處"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "对犯错误或有罪的人给予惩戒",
+      "examples": [
+        "处罚",
+        "处决"
+      ],
+      "traditional_char": "處"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "停止，隐退",
+      "examples": [
+        "处暑",
+        "隐处"
+      ],
+      "traditional_char": "處"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "地方",
+      "examples": [
+        "处所",
+        "远处",
+        "此处"
+      ],
+      "traditional_char": "處"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "noun",
+      "meaning": "点，部分",
+      "examples": [
+        "长处",
+        "好处",
+        "劣处"
+      ],
+      "traditional_char": "處"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "noun",
+      "meaning": "机关、单位里的部门",
+      "examples": [
+        "办事处",
+        "筹备处",
+        "后勤处"
+      ],
+      "traditional_char": "處"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 5,
+      "note": "本字从夂从几，古作“处”，本义为中止、停止。后加“虍”作声旁成形声字“處”。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 5,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "由“停止”引申为“居住”或“停留某地”。春秋战国时期已见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“居住”进一步扩展为“存在、处身于某地”"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由“处身”进一步引申为“与人交往相处”"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "置身于事，进而有“处理、决定”之意"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "决断、处理进一步专指惩戒、处罚"
+    },
+    {
+      "source_index": 5,
+      "target_index": 6,
+      "evolution_type": "conversion",
+      "note": "停止或隐退之地，自然作为名词“地方”"
+    },
+    {
+      "source_index": 6,
+      "target_index": 7,
+      "evolution_type": "metonymy",
+      "note": "地方转喻为事物的某点、某部分（如长处、好处）"
+    },
+    {
+      "source_index": 6,
+      "target_index": 8,
+      "evolution_type": "metonymy",
+      "note": "由“处所”引申为机关或部门"
+    }
+  ]
+}

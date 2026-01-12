@@ -1,0 +1,135 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "接到，接受",
+      "examples": [
+        "收到信件",
+        "收发文件"
+      ],
+      "traditional_char": "收"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "藏或放置妥当",
+      "examples": [
+        "把书收起来",
+        "收好钥匙"
+      ],
+      "traditional_char": "收"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "割断成熟的农作物",
+      "examples": [
+        "收麦子",
+        "秋收"
+      ],
+      "traditional_char": "收"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "招回",
+      "examples": [
+        "收兵回营",
+        "收港"
+      ],
+      "traditional_char": "收"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "聚，合拢",
+      "examples": [
+        "收容人员",
+        "收集资料"
+      ],
+      "traditional_char": "收"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "结束",
+      "examples": [
+        "收尾工作",
+        "收盘"
+      ],
+      "traditional_char": "收"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "逮捕，拘押",
+      "examples": [
+        "收监",
+        "收押犯人"
+      ],
+      "traditional_char": "收"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "verb",
+      "meaning": "约束，控制（感情或行动）",
+      "examples": [
+        "收束情绪",
+        "收心准备考试"
+      ],
+      "traditional_char": "收"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 4,
+      "note": "形声字，从攴（持杖以止），收声，原义为聚集、合拢。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 4,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "由“聚、合拢”引申为“接受、接收”。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“聚、合拢”发展为“藏或放置妥当”。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由“聚”引申为“收割农作物至一起”。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "“招回”即将分散之兵聚拢。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "合拢有合于终结之意，引申为“结束”。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 6,
+      "evolution_type": "metonymy",
+      "note": "逮捕即合聚、收押犯人。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 7,
+      "evolution_type": "metaphor",
+      "note": "“收束、控制”比喻将分散的心思收拢。"
+    }
+  ]
+}

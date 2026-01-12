@@ -1,0 +1,102 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "代表数目的符号",
+      "examples": [
+        "码子",
+        "号码",
+        "页码",
+        "价码"
+      ],
+      "traditional_char": "碼"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "计算数量的用具，如筹码、砝码",
+      "examples": [
+        "筹码",
+        "砝码"
+      ],
+      "traditional_char": "碼"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "指一件事或一类的事",
+      "examples": [
+        "这是两码事"
+      ],
+      "traditional_char": "碼"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "英美制长度单位，一码等于0.9144米",
+      "examples": [
+        "一尺等于三分之一码"
+      ],
+      "traditional_char": "碼"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "堆叠、堆放",
+      "examples": [
+        "码垛",
+        "码放"
+      ],
+      "traditional_char": "碼"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "古同“玛”，指玛瑙",
+      "examples": [
+        "码碯"
+      ],
+      "traditional_char": "碼"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "“碼”为形声字，从石，马声，初指筹码等计算和称量之器。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "metonymy",
+      "note": "由表示具体计算工具的“筹码”等，引申为数量符号，汉代后。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由表示可以计算的物体，引申指类事、件事，近现代口语。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由度量衡物品，引申为‘码’为长度单位，晚清以后。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "conversion",
+      "note": "从名词“码”变为动词“堆叠”，近现代。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "‘码’假借为‘玛’，表示玛瑙，古音相近。"
+    }
+  ]
+}

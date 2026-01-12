@@ -1,0 +1,68 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "清晨，天亮，破晓时分",
+      "examples": [
+        "通宵达旦",
+        "枕戈待旦"
+      ],
+      "traditional_char": "旦"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "某一天，常指特定的一天；或农历的初一日、特定重要的日子",
+      "examples": [
+        "元旦",
+        "旦日"
+      ],
+      "traditional_char": "旦"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "中国传统戏剧中扮演女性角色的角色名称",
+      "examples": [
+        "花旦",
+        "老旦"
+      ],
+      "traditional_char": "旦"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "纤度单位，九千米纤维重一克为一旦",
+      "examples": [],
+      "traditional_char": "旦"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "simple_indicative",
+      "original_sense_index": 0,
+      "note": "甲骨文字形，表示太阳刚从地平线上升起，‘日’下有‘一’，示地平线；本义为天亮、破晓。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由早晨时间段引申为某一天、特定重要的日子，如元旦、旦日；见于汉代用法。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "“旦”以代表女性人物（源自特定日子的仪式相关角色）；见于宋元戏曲称谓。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "reanalysis",
+      "note": "纤度单位用‘旦’属近现代新用法，由原‘日、天’意义借音定名。"
+    }
+  ]
+}

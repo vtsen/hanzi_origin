@@ -1,0 +1,82 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "不好的，恶劣的，与“好”相对",
+      "examples": [
+        "坏人",
+        "坏习惯"
+      ],
+      "traditional_char": "壞"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "东西受了损伤，被毁",
+      "examples": [
+        "破坏",
+        "坏了"
+      ],
+      "traditional_char": "壞"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "坏主意",
+      "examples": [
+        "使坏"
+      ],
+      "traditional_char": "壞"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adverb",
+      "meaning": "用在某些动词或形容词后，表示程度深",
+      "examples": [
+        "忙坏了",
+        "累坏了"
+      ],
+      "traditional_char": "壞"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "未烧过的砖瓦、陶器",
+      "examples": [],
+      "traditional_char": "坏"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“壞”为形声字，从土，褱声，本意为倒塌、损毁，和建筑物相关。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 4,
+      "note": "“坏”为形声字，从土，不声，意为未烧过的砖瓦、陶器，为和现代简化字沿袭不同源。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“恶劣、不好”引申为“受损、毁坏”，语义扩展，先秦至今。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由实际受损引申为“坏主意”，比喻意义，唐宋以来。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "grammaticalization",
+      "note": "损坏的结果语法化为“程度深”的副词用法，现代汉语。"
+    }
+  ]
+}

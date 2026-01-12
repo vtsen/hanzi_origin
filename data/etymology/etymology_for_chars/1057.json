@@ -1,0 +1,70 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "许多车辆一起行驶所发出的巨大声响",
+      "examples": [
+        "群车轰然奔驰"
+      ],
+      "traditional_char": "轟"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "形容大的声响，如爆炸、雷鸣等",
+      "examples": [
+        "轰鸣",
+        "雷声轰响"
+      ],
+      "traditional_char": "轟"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "用大炮或炸弹等猛烈攻击或破坏",
+      "examples": [
+        "炮轰敌军阵地",
+        "轰炸城市"
+      ],
+      "traditional_char": "轟"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "驱逐，赶走",
+      "examples": [
+        "把他轰出去",
+        "轰走捣乱分子"
+      ],
+      "traditional_char": "轟"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意字，从三车，表示多车并行发出的声音，暗示喧闹。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由具体车辆发声扩展为泛指巨大声响。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "声响引申到制造声响的行为，如炮击、爆炸。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "用巨响喻赶走、驱逐的行为，如以声音作用推离。"
+    }
+  ]
+}

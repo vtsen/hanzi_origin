@@ -1,0 +1,104 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "地名，春秋时期陈国国都，今河南省淮阳县一带。",
+      "examples": [
+        "陈地",
+        "古陈邑",
+        "春秋五霸之一有陈国"
+      ],
+      "traditional_char": "陳"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "中国南朝最末的王朝名（陈朝）。",
+      "examples": [
+        "南朝陈",
+        "陈亡隋兴"
+      ],
+      "traditional_char": "陳"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [
+        "陈先生",
+        "陈氏族谱"
+      ],
+      "traditional_char": "陳"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "排列，摆设。",
+      "examples": [
+        "陈列商品",
+        "兵马陈于阵"
+      ],
+      "traditional_char": "陳"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "述说，表达。",
+      "examples": [
+        "陈述理由",
+        "详加陈说"
+      ],
+      "traditional_char": "陳"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "adjective",
+      "meaning": "旧的，时间久的。",
+      "examples": [
+        "陈旧观念",
+        "陈醋"
+      ],
+      "traditional_char": "陳"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字：从“阜”（表示与地形、城邑相关），“申”作声符，原指地名。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "以原陈国为南朝陈的国号，因陈国地名转为朝代名，见于南北朝时期。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "以国名或地名为姓氏，为古汉姓氏常见流变。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "“陈”有排列、布阵之意，春秋战国即有用，或因排列军队于陈地，语源学尚存争议。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由“排列”扩展为“逐条叙述、陈说”。常见于文书用语系统发展。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 5,
+      "evolution_type": "metaphor",
+      "note": "由“排列之物多已久、旧”，引申为“陈旧”，出现于汉代文献。"
+    }
+  ]
+}

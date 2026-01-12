@@ -1,0 +1,133 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "兄弟中排行第一的人",
+      "examples": [
+        "伯仲之间",
+        "长兄为伯"
+      ],
+      "traditional_char": "伯"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "父亲的哥哥，伯父",
+      "examples": [
+        "伯伯",
+        "伯父",
+        "伯母"
+      ],
+      "traditional_char": "伯"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "对父辈戚友的尊称",
+      "examples": [
+        "世伯",
+        "老伯"
+      ],
+      "traditional_char": "伯"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "封建制度中五等爵位的第三等，伯爵",
+      "examples": [
+        "赐爵为伯",
+        "伯爵"
+      ],
+      "traditional_char": "伯"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "对有卓越成就及表率者的尊称",
+      "examples": [
+        "海内文章伯"
+      ],
+      "traditional_char": "伯"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "伯乐"
+      ],
+      "traditional_char": "伯"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "丈夫的大哥（大伯子）",
+      "examples": [
+        "大伯子"
+      ],
+      "traditional_char": "伯"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "noun",
+      "meaning": "古同“霸”，古代诸侯联盟的首领",
+      "examples": [
+        "五伯",
+        "霸主亦称为伯"
+      ],
+      "traditional_char": "伯"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从人，白声，表示排行第一的人。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由兄弟排行第一扩展指父亲的哥哥，家族辈分演化。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "对父辈戚友的尊称，为敬称的扩展。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "排行第一引申为地位尊贵，引申为爵位名。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "爵位代表表率，引申为对成就高者的尊称。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "semantic_extension",
+      "note": "在婚姻关系中用以指丈夫的大哥。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "conversion",
+      "note": "排行第一、尊称等意义转用为姓氏。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 7,
+      "evolution_type": "semantic_extension",
+      "note": "由爵位伯引申为霸主、诸侯盟主之意。"
+    }
+  ]
+}

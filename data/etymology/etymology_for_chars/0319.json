@@ -1,0 +1,70 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "教导，教诲",
+      "examples": [
+        "训蒙",
+        "训迪",
+        "教训"
+      ],
+      "traditional_char": "訓"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "可以作为法则的话",
+      "examples": [
+        "家训"
+      ],
+      "traditional_char": "訓"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "典式，法则",
+      "examples": [
+        "不足为训"
+      ],
+      "traditional_char": "訓"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "解释词的意义",
+      "examples": [
+        "训诂",
+        "训读"
+      ],
+      "traditional_char": "訓"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从言，川声，表示与言语（训导、教诲）有关。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从动词转用为表可作为行为准则的话语，语义扩大，较早见于家训用法。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由“训”指具体的言辞扩展为抽象的制度或法则。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由教导的‘训’引申为字词讲解的‘训’（训诂）。"
+    }
+  ]
+}

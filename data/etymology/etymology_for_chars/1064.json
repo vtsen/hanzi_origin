@@ -1,0 +1,91 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "preposition",
+      "meaning": "不是，不，没有",
+      "examples": [
+        "非礼勿视",
+        "此事非我所愿",
+        "啼笑皆非",
+        "非同小可"
+      ],
+      "traditional_char": "非"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "过错，错误",
+      "examples": [
+        "痛改前非",
+        "文过饰非",
+        "习非成是"
+      ],
+      "traditional_char": "非"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "责怪，反对",
+      "examples": [
+        "非难",
+        "非议",
+        "无可厚非"
+      ],
+      "traditional_char": "非"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "conjunction",
+      "meaning": "与“不”呼应，表示必须（有时后面没有“不”字）",
+      "examples": [
+        "我非看这本书不可"
+      ],
+      "traditional_char": "非"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "非洲的简称",
+      "examples": [
+        "东非",
+        "西非",
+        "北非"
+      ],
+      "traditional_char": "非"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "simple_indicative",
+      "original_sense_index": 0,
+      "note": "指事造字。“非”象两翅相背，表示违背、本义为不合，与现代否定义接近。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“不是”引申为“过错、错误”；汉代用法渐普及。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由“不是”引申为反对、责难的动词义，后用作“非难”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "grammaticalization",
+      "note": "“非”与“不”连用，虚化为连词，表示“必须”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "音译外来地名，现代简称“非洲”为“非”，属借用。"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "乞求，请求。",
+      "examples": [
+        "邹君海滨，以所辑黄花冈烈士事略丐序于予。",
+        "不强丐。"
+      ],
+      "traditional_char": "丐"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "给予，施舍。",
+      "examples": [
+        "沾丐后人多矣。",
+        "尽取善绘，匄诸宫人。"
+      ],
+      "traditional_char": "丐"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "免除，宽免。",
+      "examples": [
+        "诏以州镇十一水旱，丐其田租。"
+      ],
+      "traditional_char": "丐"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "乞讨（向人要饭）。",
+      "examples": [
+        "因山野立浮屠老子像，以其诳丐渔利。",
+        "游丐道路以食师仁。"
+      ],
+      "traditional_char": "丐"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "乞丐，以乞讨为生的人。",
+      "examples": [
+        "宅隶佣丐，皆得上父母丘墓。",
+        "群丐环叩乞钱。"
+      ],
+      "traditional_char": "丐"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "simple_indicative",
+      "original_sense_index": 0,
+      "note": "‘丐’初作‘匄’，象人持物乞求。本义为乞求。‘丐’为‘匄’的简化异体。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由‘乞求’引申为‘乞讨’（行为）"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "conversion",
+      "note": "由动词‘乞讨’转为表示‘乞丐’（名词）"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_shift",
+      "note": "由‘向人乞求’转为‘给予、施舍’"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由‘乞求’引申为‘免除’（请求免除、宽免）"
+    }
+  ]
+}

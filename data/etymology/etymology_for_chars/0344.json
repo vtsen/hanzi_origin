@@ -1,0 +1,70 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "三股的绳子",
+      "examples": [
+        "以三丝为绳，曰‘纠’。"
+      ],
+      "traditional_char": "糾"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "缠绕，纠缠",
+      "examples": [
+        "纠缠不清",
+        "两线相纠"
+      ],
+      "traditional_char": "糾"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "矫正，纠正",
+      "examples": [
+        "纠正错误",
+        "纠偏"
+      ],
+      "traditional_char": "糾"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "集合，指集结或组织（含贬义）",
+      "examples": [
+        "纠合一伙",
+        "纠众闹事"
+      ],
+      "traditional_char": "糾"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从糸（表示与线绳有关）丩声，表示三股绳子的本义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由三股绳子引申为一般的缠绕、搅在一起。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由缠绕引申为纠正（把错乱缠绕的事矫正）。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由缠绕引申为把人聚合、纠集在一起。"
+    }
+  ]
+}

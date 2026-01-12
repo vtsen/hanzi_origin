@@ -1,0 +1,78 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "个人的，自己的，与“公”相对",
+      "examples": [
+        "私人",
+        "私有",
+        "私见",
+        "私仇",
+        "私情",
+        "私营",
+        "私欲"
+      ],
+      "traditional_char": "私"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "不公开的，秘密而又不合法的",
+      "examples": [
+        "私自",
+        "私刑",
+        "私货",
+        "走私",
+        "私生子"
+      ],
+      "traditional_char": "私"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adverb",
+      "meaning": "暗地里，秘密地",
+      "examples": [
+        "私议",
+        "私奔",
+        "隐私",
+        "窃窃私语"
+      ],
+      "traditional_char": "私"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "禾，庄稼",
+      "examples": [],
+      "traditional_char": "私"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 3,
+      "note": "形声字，从禾，表示禾（谷物类），‘厶’为声符。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 3,
+      "target_index": 0,
+      "evolution_type": "semantic_shift",
+      "note": "由表示‘禾’的本义转化为‘自有’（因禾归个人所有），语义发展模糊，汉代已无本义。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘个人的’引申为‘不公开的，秘密不合法的’。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由‘秘密’引申为‘暗地里，秘密地’的副词。"
+    }
+  ]
+}

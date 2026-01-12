@@ -1,0 +1,102 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "两墙相合之缝，交界、接合之处",
+      "examples": [
+        "天际",
+        "地际",
+        "无边无际"
+      ],
+      "traditional_char": "際"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "彼此之间，关系",
+      "examples": [
+        "人际关系",
+        "校际互助"
+      ],
+      "traditional_char": "際"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "时候，时机",
+      "examples": [
+        "值此生死存亡之际"
+      ],
+      "traditional_char": "際"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "交接，接近",
+      "examples": [
+        "善于交际"
+      ],
+      "traditional_char": "際"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "遭遇，遇见（多指好的）",
+      "examples": [
+        "际遇",
+        "喜际盛会"
+      ],
+      "traditional_char": "際"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "中间，里边",
+      "examples": [
+        "胸际",
+        "脑际"
+      ],
+      "traditional_char": "際"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从阜表地界或边界，‘祭’作声符，初指两墙相合之缝或交界之处。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由具体的交界处引申为抽象的人际、物际等彼此之间的关系。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "以空间交界喻为时间的交界或特定时候。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "conversion",
+      "note": "由名词转为动词，表示交接、接近的动作。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由交接、相遇之意引申为遇见、遭遇。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "由边界、交界进一步引申为事物的中间、内部交界所。"
+    }
+  ]
+}

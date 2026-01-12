@@ -1,0 +1,85 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "计算，核算，数数。",
+      "examples": [
+        "计时",
+        "计量",
+        "计日程功"
+      ],
+      "traditional_char": "計"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "测量或核算度数、时间、温度等的仪器。",
+      "examples": [
+        "晴雨计",
+        "湿度计"
+      ],
+      "traditional_char": "計"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "主意，策略，计策。",
+      "examples": [
+        "计策",
+        "计谋"
+      ],
+      "traditional_char": "計"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "谋划，打算。",
+      "examples": [
+        "计划",
+        "计议"
+      ],
+      "traditional_char": "計"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "other",
+      "meaning": "姓氏。",
+      "examples": [],
+      "traditional_char": "計"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意字，从“言”表示与言语、数数相关，从“十”表示数目，最初表示计算、数数之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由计算引申为计量工具的名称，属现代汉语词义发展。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "“计算”引申为“计策”，通过将计算过程比喻为谋划主意。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由“计算”义引申为“谋划，打算”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "unknown",
+      "note": "计用作姓氏，来源不明，可能为用字转用现象。"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "医生通过望、闻、问、切等方式察看病人的身体情况以判定疾病。",
+      "examples": [
+        "诊脉",
+        "门诊",
+        "诊断"
+      ],
+      "traditional_char": "診"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "察看、验证（泛指仔细察看、审查）。",
+      "examples": [
+        "匠石觉而诊其梦"
+      ],
+      "traditional_char": "診"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从言，桭声。本义为医生给病人诊察，古今皆用。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由具体医疗行为扩展为一般审查、察看的意思，汉代已见。"
+    }
+  ]
+}

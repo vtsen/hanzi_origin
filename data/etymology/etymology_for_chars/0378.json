@@ -1,0 +1,135 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "黄花木，一种树木名。",
+      "examples": [
+        "权，木名。——《说文》"
+      ],
+      "traditional_char": "權"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "职责范围内支配和指挥的力量，如权力。",
+      "examples": [
+        "政权",
+        "权力",
+        "权威",
+        "权贵",
+        "权柄",
+        "权势",
+        "生杀予夺之权"
+      ],
+      "traditional_char": "權"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "有利的形势，有利的条件。",
+      "examples": [
+        "主动权",
+        "掌握权"
+      ],
+      "traditional_char": "權"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "秤锤。",
+      "examples": [
+        "权衡"
+      ],
+      "traditional_char": "權"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "衡量，估计。",
+      "examples": [
+        "权其轻重"
+      ],
+      "traditional_char": "權"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "变通，不依常规的办法或策略。",
+      "examples": [
+        "权变",
+        "权谋",
+        "权术",
+        "智必知权。——《荀子·王制》"
+      ],
+      "traditional_char": "權"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "adverb",
+      "meaning": "暂且，姑且。",
+      "examples": [
+        "权且"
+      ],
+      "traditional_char": "權"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [],
+      "traditional_char": "權"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从木，雚声，表示黄花树木。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "以树木制秤锤，权指秤锤，出现于先秦时期。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由秤锤可“权衡”引申为衡量、估计。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由权衡引申为支配、决定之权力（衡量社会事务如衡物）。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由衡量引申为形势、主动权。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "由衡量引申为权变、谋略（灵活变化）。"
+    },
+    {
+      "source_index": 5,
+      "target_index": 6,
+      "evolution_type": "semantic_extension",
+      "note": "由权变进一步引申为权且、暂且。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 7,
+      "evolution_type": "unknown",
+      "note": "姓氏由木名或后世衍生，机制不明，常见状况。"
+    }
+  ]
+}

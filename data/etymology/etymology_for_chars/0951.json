@@ -1,0 +1,206 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "外衣",
+      "examples": [
+        "古人穿皮衣，毛朝外面，故称为表。"
+      ],
+      "traditional_char": "表"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "外部，外面，外貌",
+      "examples": [
+        "表面",
+        "外表",
+        "仪表"
+      ],
+      "traditional_char": "表"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "显示，表达",
+      "examples": [
+        "表明",
+        "表示",
+        "表情",
+        "表态"
+      ],
+      "traditional_char": "表"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "中医指用药物把感受的风寒发散出来",
+      "examples": [
+        "表汗",
+        "发表"
+      ],
+      "traditional_char": "表"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "分类分项记录事物的文件",
+      "examples": [
+        "表格",
+        "表册",
+        "报表"
+      ],
+      "traditional_char": "表"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "计时间的器具（如手表、怀表）",
+      "examples": [
+        "手表",
+        "怀表"
+      ],
+      "traditional_char": "錶"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "计量某种量的器具",
+      "examples": [
+        "电表",
+        "水表"
+      ],
+      "traditional_char": "表"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "noun",
+      "meaning": "标志，榜样",
+      "examples": [
+        "表率",
+        "为人师表"
+      ],
+      "traditional_char": "表"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "noun",
+      "meaning": "称呼父亲或祖父的姊妹、母亲或祖母的兄弟姊妹生的子女，用来表示亲属关系",
+      "examples": [
+        "表亲",
+        "表兄弟"
+      ],
+      "traditional_char": "表"
+    },
+    {
+      "index": 9,
+      "part_of_speech": "noun",
+      "meaning": "测量的标尺",
+      "examples": [
+        "表尺",
+        "圭表"
+      ],
+      "traditional_char": "表"
+    },
+    {
+      "index": 10,
+      "part_of_speech": "noun",
+      "meaning": "封建时代称臣子给君主的奏章",
+      "examples": [
+        "表章",
+        "出师表"
+      ],
+      "traditional_char": "表"
+    },
+    {
+      "index": 11,
+      "part_of_speech": "noun",
+      "meaning": "树梢",
+      "examples": [
+        "林表"
+      ],
+      "traditional_char": "表"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "从衣从毛，表示皮衣外层有毛；会意字，古义为外衣。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 5,
+      "note": "‘錶’为‘表’的声旁，‘金’表义，指计时器具，近现代造字。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "本义‘外衣’引申为‘外部、外面’"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "外部可见，转为‘显示、表达’"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "中医‘表里’对举，‘表’指体表，由‘外部’引申"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "记录外在情况的表格，为‘外部’的记录"
+    },
+    {
+      "source_index": 1,
+      "target_index": 6,
+      "evolution_type": "semantic_extension",
+      "note": "表为反映某种状态的器具。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 7,
+      "evolution_type": "metaphor",
+      "note": "表象、外显者引申为‘标志、榜样’"
+    },
+    {
+      "source_index": 1,
+      "target_index": 8,
+      "evolution_type": "metonymy",
+      "note": "表、里用比亲属关系，‘表’为母系旁系亲族"
+    },
+    {
+      "source_index": 1,
+      "target_index": 9,
+      "evolution_type": "semantic_extension",
+      "note": "表为标尺、工具，量度外部"
+    },
+    {
+      "source_index": 4,
+      "target_index": 10,
+      "evolution_type": "semantic_extension",
+      "note": "‘表’为分类陈述的文书，引申为给君主的奏章"
+    },
+    {
+      "source_index": 1,
+      "target_index": 11,
+      "evolution_type": "semantic_extension",
+      "note": "引申为‘树梢’，林的外部"
+    },
+    {
+      "source_index": 6,
+      "target_index": 5,
+      "evolution_type": "reanalysis",
+      "note": "‘计量器具’中抽象出专指‘计时器具’，借新造字‘錶’表之"
+    }
+  ]
+}

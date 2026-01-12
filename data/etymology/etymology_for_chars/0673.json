@@ -1,0 +1,69 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "去皮的灯心草，用于做灯心或药用。",
+      "examples": [
+        "灯芯（芯，去皮的灯心草）"
+      ],
+      "traditional_char": "芯"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "物体的中心部分。",
+      "examples": [
+        "岩芯",
+        "矿芯"
+      ],
+      "traditional_char": "芯"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "装在器物中的捻子，如蜡烛或灯的灯芯。",
+      "examples": [
+        "蜡芯儿",
+        "引芯"
+      ],
+      "traditional_char": "芯"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "蛇和羊的舌头。",
+      "examples": [
+        "芯子"
+      ],
+      "traditional_char": "芯"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，‘艹’表意指草木，‘心’表声；本指去皮的灯心草。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由灯心草引申为事物中心部分, 延伸义出现于近代。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "本义为灯心草，引申为灯或蜡烛等器物中间的捻子。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由灯芯喻指蛇或羊的舌头，因外形相似。"
+    }
+  ]
+}

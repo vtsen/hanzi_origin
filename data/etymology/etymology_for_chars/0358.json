@@ -1,0 +1,103 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "试验，测验",
+      "examples": [
+        "考试",
+        "考查"
+      ],
+      "traditional_char": "考"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "检查，查核",
+      "examples": [
+        "考察",
+        "稽考",
+        "考核"
+      ],
+      "traditional_char": "考"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "推求，研究",
+      "examples": [
+        "考古",
+        "考据",
+        "考证"
+      ],
+      "traditional_char": "考"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "老，年纪大",
+      "examples": [
+        "寿考"
+      ],
+      "traditional_char": "考"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "已故的父亲",
+      "examples": [
+        "先考",
+        "如丧考妣"
+      ],
+      "traditional_char": "考"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "击，敲",
+      "examples": [
+        "而陋者乃以斧斤考击而求之"
+      ],
+      "traditional_char": "考"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 5,
+      "note": "形声字，从老，丂声，本义为击打、敲击。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 5,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "古时击打木杖为老人仪式，引申为年老。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "semantic_shift",
+      "note": "由年老引申指年老的父亲，后专指已故之父。"
+    },
+    {
+      "source_index": 5,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "由击、敲引申为考验、试验。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由试验引申为检查、查核。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由查核进一步引申为推求、研究等学术考证之意。"
+    }
+  ]
+}

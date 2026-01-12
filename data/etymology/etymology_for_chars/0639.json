@@ -1,0 +1,103 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "坑穴，地面低陷不平的地方",
+      "examples": [
+        "坎井之蛙",
+        "路上有个大坎"
+      ],
+      "traditional_char": "坎"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "自然形成或人工修筑的台阶、土埂等",
+      "examples": [
+        "田坎",
+        "土坎"
+      ],
+      "traditional_char": "坎"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "八卦之一，代表水",
+      "examples": [
+        "坎为水，居北方",
+        "坎卦"
+      ],
+      "traditional_char": "坎"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "指最紧要的地方或时机，当口儿",
+      "examples": [
+        "话说到坎上",
+        "到了关键的坎"
+      ],
+      "traditional_char": "坎"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "指坏运气或被迫的处境",
+      "examples": [
+        "今年是他的坎儿",
+        "人生有不少坎"
+      ],
+      "traditional_char": "坎"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "同“槛”，门槛",
+      "examples": [
+        "门坎",
+        "门的坎"
+      ],
+      "traditional_char": "坎"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从土（表示与地面相关），欠作声符，初义为坑、穴"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "地面低陷引申为由地形形成或人工修筑的台阶、土埂"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "阴阳八卦中取‘陷落’比喻水，故坎卦代表水"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由‘坑’引申为关键之处、障碍口"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由关键处引申为人生困境、坏运气"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "借音通“槛”，意同门槛"
+    }
+  ]
+}

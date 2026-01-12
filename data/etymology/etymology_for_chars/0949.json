@@ -1,0 +1,58 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "显露，出现。",
+      "examples": [
+        "事实终于真相大现。",
+        "天边现出彩虹。"
+      ],
+      "traditional_char": "現"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "实有的，当时就有的。",
+      "examples": [
+        "现金",
+        "现货",
+        "现款"
+      ],
+      "traditional_char": "現"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "目前的，当时的。",
+      "examples": [
+        "现今",
+        "现在",
+        "现时",
+        "现代"
+      ],
+      "traditional_char": "現"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "现/現为形声字，从玉，‘见’声，原意为“出现”。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“出现、显露”引申为“当时实有的、可以看到的”。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由“实有的”进一步引申为“目前的、当前的”。"
+    }
+  ]
+}

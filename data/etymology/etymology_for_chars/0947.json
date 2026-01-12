@@ -1,0 +1,110 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "深绿色或浅蓝色",
+      "examples": [
+        "青绿",
+        "青葱",
+        "青山绿水",
+        "万古长青"
+      ],
+      "traditional_char": "青"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "绿色的植物或事物",
+      "examples": [
+        "踏青",
+        "青黄不接"
+      ],
+      "traditional_char": "青"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "靛蓝色",
+      "examples": [
+        "靛青",
+        "青紫",
+        "青出于蓝而胜于蓝"
+      ],
+      "traditional_char": "青"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "黑色",
+      "examples": [
+        "青布",
+        "青线",
+        "青衫",
+        "青衣"
+      ],
+      "traditional_char": "青"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "比喻年轻",
+      "examples": [
+        "青年",
+        "青春",
+        "青工"
+      ],
+      "traditional_char": "青"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "竹简、竹制书简",
+      "examples": [
+        "青简",
+        "青史",
+        "永垂青史"
+      ],
+      "traditional_char": "青"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意，从生、丹，本义为蓝色，金文形体上部为‘生’下部为‘丹’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由颜色转指绿色的植物或事物，用色代物。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "从青色拓展至靛蓝色等相近色。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "古时‘青’色包括黑色的用法，色彩涵盖范围扩大。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "由青色比喻年轻青春，多用于形容人。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "metonymy",
+      "note": "用青色竹子借指竹简，后泛指文献。"
+    }
+  ]
+}

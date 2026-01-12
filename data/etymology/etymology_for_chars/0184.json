@@ -1,0 +1,41 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "pronoun",
+      "meaning": "我，余，自指之代词",
+      "examples": [
+        "予智自雄",
+        "予取予求"
+      ],
+      "traditional_char": "予"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "给予，赐给",
+      "examples": [
+        "予以",
+        "赐予",
+        "赋予",
+        "生杀予夺"
+      ],
+      "traditional_char": "予"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "loan_character",
+      "original_sense_index": 0,
+      "note": "“予”本作自指代词（余），为假借用法，后用于动词“给予”"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "假借本义，自指‘我’引申为‘给予’，古已见于先秦"
+    }
+  ]
+}

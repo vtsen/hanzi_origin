@@ -1,0 +1,136 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "弯转，不直，与“直”相对。",
+      "examples": [
+        "弯曲",
+        "曲折",
+        "曲肱而枕"
+      ],
+      "traditional_char": "曲"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "弯曲的地方。",
+      "examples": [
+        "河曲"
+      ],
+      "traditional_char": "曲"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "不公正，不合理。",
+      "examples": [
+        "曲说",
+        "曲解"
+      ],
+      "traditional_char": "曲"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "偏僻的地方。",
+      "examples": [
+        "乡曲"
+      ],
+      "traditional_char": "曲"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [],
+      "traditional_char": "曲"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "酿酒或制酱时引起发醇的东西，即“酒曲”“曲霉”。",
+      "examples": [
+        "酒曲",
+        "曲霉"
+      ],
+      "traditional_char": "麯"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "能唱的文词，一种艺术形式。",
+      "examples": [
+        "曲艺",
+        "曲话"
+      ],
+      "traditional_char": "曲"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "noun",
+      "meaning": "歌的乐调。",
+      "examples": [
+        "曲调",
+        "曲谱"
+      ],
+      "traditional_char": "曲"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "“曲”为象形兼指事字，古文字像两弯曲之物，上下结构，表示弯曲之意。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 5,
+      "note": "“麯”形声字，从麥，屈声，本义为酿造酒曲。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘弯转’引申为‘弯曲的地方’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由‘弯曲不直’用作‘不公正，不合理’。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "从‘弯曲的地方’引申为‘偏僻的地方’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "unknown",
+      "note": "姓氏，多由本义发展，具体方式不明。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "metaphor",
+      "note": "由‘弯曲’引申为‘文词有曲折可歌’的艺术形式。"
+    },
+    {
+      "source_index": 6,
+      "target_index": 7,
+      "evolution_type": "semantic_extension",
+      "note": "从‘曲’为表演文词，引申为‘歌的乐调’。"
+    },
+    {
+      "source_index": 5,
+      "target_index": 0,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "“麯”后被借作‘曲（弯曲）’，并归并简化为曲。"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "饿，感到肚子空或缺乏食物的状态",
+      "examples": [
+        "饥饿",
+        "饥民",
+        "画饼充饥",
+        "饥寒交迫",
+        "饥不择食"
+      ],
+      "traditional_char": "飢"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "庄稼收成不好或没有收成，灾荒",
+      "examples": [
+        "饥荒",
+        "饥馑"
+      ],
+      "traditional_char": "饑"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "‘饑’为早期正字，形声字，从食，幾声，初指荒年、五谷无收之灾。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘飢’为后起异体（或俗体），形声字，从食，几声，泛指饥饿。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "由指灾荒之年（缺粮）引申为个体‘饿’的状态，汉代以来通用。"
+    }
+  ]
+}

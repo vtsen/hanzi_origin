@@ -1,0 +1,86 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "物体振动时能引起听觉的波，声音，声响",
+      "examples": [
+        "鸟鸣有声",
+        "声音传到远处"
+      ],
+      "traditional_char": "聲"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "消息，音讯",
+      "examples": [
+        "音信不通，无声无息"
+      ],
+      "traditional_char": "聲"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "宣布，让人知道，扬言，宣称",
+      "examples": [
+        "声明主权",
+        "声泪俱下",
+        "声明"
+      ],
+      "traditional_char": "聲"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "名誉",
+      "examples": [
+        "名声在外"
+      ],
+      "traditional_char": "聲"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "音乐、歌舞（多指古代）",
+      "examples": [
+        "声色犬马",
+        "伎乐之声"
+      ],
+      "traditional_char": "聲"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“聲”为形声字，从耳，殸声，‘耳’表意指听觉，‘殸’表音。最初用指物体振动发出的声音。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "声音引申为消息、音讯，古今皆有例。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "grammaticalization",
+      "note": "由名词“声音”虚化为动词“宣称”，产生转换。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "通过声音传播，引申为“名誉”，汉代已有此义。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_narrowing",
+      "note": "从一般声音专指音乐、歌舞，专有用法。"
+    }
+  ]
+}

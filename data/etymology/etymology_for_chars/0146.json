@@ -1,0 +1,183 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "把整体分成若干部分，或区划开。",
+      "examples": [
+        "把大饼分开。",
+        "划分区域。"
+      ],
+      "traditional_char": "分"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "由整体中取出或产生出一部分；分给或分出。",
+      "examples": [
+        "分发礼物。",
+        "分忧解难。"
+      ],
+      "traditional_char": "分"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "从机构或体系中分立出来的部分。",
+      "examples": [
+        "分公司。",
+        "分会成立。"
+      ],
+      "traditional_char": "分"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "分散、离开、解体。",
+      "examples": [
+        "分裂成两个集团。",
+        "分离多年。"
+      ],
+      "traditional_char": "分"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "辨别、区分。",
+      "examples": [
+        "区分好坏。",
+        "分清是非。"
+      ],
+      "traditional_char": "分"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "区划成的部分。",
+      "examples": [
+        "三分之一。",
+        "分为小组。"
+      ],
+      "traditional_char": "分"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "一半，尤指二分之一。",
+      "examples": [
+        "春分。",
+        "秋分。"
+      ],
+      "traditional_char": "分"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "noun",
+      "meaning": "名位、职责、权利的限度或本分。",
+      "examples": [
+        "身分。",
+        "尽分守责。",
+        "分内之事。"
+      ],
+      "traditional_char": "分"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "noun",
+      "meaning": "构成事物的不同物质、成分或因素。",
+      "examples": [
+        "成分。",
+        "情分。",
+        "天分。"
+      ],
+      "traditional_char": "分"
+    },
+    {
+      "index": 9,
+      "part_of_speech": "verb",
+      "meaning": "料想，认为（古义）。",
+      "examples": [
+        "自分已死久矣。"
+      ],
+      "traditional_char": "分"
+    },
+    {
+      "index": 10,
+      "part_of_speech": "noun",
+      "meaning": "同“份”，指一定阶层、集团或具有某种特征的人。",
+      "examples": [
+        "知识分子。"
+      ],
+      "traditional_char": "分"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意字，从八从刀，表示用刀分开为两部分。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从“分开”为“分出、分给”，语义拓展，早期使用已见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "整体分割，进一步指机构分出部分，属类别语义拓展。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "从分开引申为分散、离开。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "物体分开引申为辨别事物的界限。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "动作引申为被分后的部分。"
+    },
+    {
+      "source_index": 5,
+      "target_index": 6,
+      "evolution_type": "semantic_narrowing",
+      "note": "分为若干部分，专指一半。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 7,
+      "evolution_type": "metaphor",
+      "note": "分开的界限引申为职责、名位的限度。"
+    },
+    {
+      "source_index": 5,
+      "target_index": 8,
+      "evolution_type": "semantic_extension",
+      "note": "部分之义引申为成分、物质因素等。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 9,
+      "evolution_type": "semantic_shift",
+      "note": "“料想”用法从本义推导，古义，具体机制尚有争议。"
+    },
+    {
+      "source_index": 5,
+      "target_index": 10,
+      "evolution_type": "semantic_extension",
+      "note": "“分”为分属、份额的意思引申，知识分子即属于某一类。"
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "以劳动群众为主体的社会基本成员，平民，百姓，与君、官对称。",
+      "examples": [
+        "黎民百姓",
+        "民以食为天",
+        "为民请命"
+      ],
+      "traditional_char": "民"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "指人或人群。",
+      "examples": [
+        "居民",
+        "民族"
+      ],
+      "traditional_char": "民"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "劳动大众的、非官方的。",
+      "examples": [
+        "民歌",
+        "民间"
+      ],
+      "traditional_char": "民"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "某族的人。",
+      "examples": [
+        "汉民",
+        "回民"
+      ],
+      "traditional_char": "民"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "从事不同职业的人。",
+      "examples": [
+        "农民",
+        "渔民"
+      ],
+      "traditional_char": "民"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "adjective",
+      "meaning": "非军事的；民用的。",
+      "examples": [
+        "民品",
+        "民航"
+      ],
+      "traditional_char": "民"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "other",
+      "meaning": "同“苠”。",
+      "examples": [],
+      "traditional_char": "民"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "simple_indicative",
+      "original_sense_index": 0,
+      "note": "指事字，古文从母，象征生育众多；本义为平民百姓。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由特指平民百姓扩展为泛指人群。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由平民的社会阶层属性引申为“民间、非官方”的含义。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_narrowing",
+      "note": "由人群扩展到指特定族群成员。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "泛指到从事某种职业的人。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "由“民间”属性引申到“非军事的”含义。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "‘民’假借为‘苠’字用，见于部分文献。"
+    }
+  ]
+}

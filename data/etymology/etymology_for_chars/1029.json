@@ -1,0 +1,77 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "架木造屋，建筑房屋。",
+      "examples": [
+        "以木构屋。",
+        "庙宇皆以梁柱构之。"
+      ],
+      "traditional_char": "冓"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "结成，组合，造作。",
+      "examples": [
+        "构造文字。",
+        "构思篇章。",
+        "虚构故事。"
+      ],
+      "traditional_char": "構"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "作品（指文章、文学、艺术品等）。",
+      "examples": [
+        "佳构。",
+        "此为他平生之构。"
+      ],
+      "traditional_char": "構"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "构树，一种落叶乔木。",
+      "examples": [
+        "构皮可为纸。",
+        "村边多种构。"
+      ],
+      "traditional_char": "構"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "‘冓’金文象两屋架相对，中用木相连，为会意字，表示架木造屋。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "‘構’从木，冓声，表示与木相关的组合、造作，引申而来。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“架木造屋”引申为“组合、造作”，形式与本义相关，见先秦文献。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由‘构’作“造作”引申为“作品”，即所造之物。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "本作动词，后为植物名，因其木可用作建造，义项分化。"
+    }
+  ]
+}

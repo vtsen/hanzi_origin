@@ -1,0 +1,161 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "返回原处或恢复原状",
+      "examples": [
+        "衣锦还乡",
+        "返老还童"
+      ],
+      "traditional_char": "還"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "回报别人对自己的行动",
+      "examples": [
+        "还手",
+        "还击"
+      ],
+      "traditional_char": "還"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "偿付、归还",
+      "examples": [
+        "归还",
+        "偿还"
+      ],
+      "traditional_char": "還"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "环绕（古义）",
+      "examples": [
+        "还，行也。《说文》",
+        "还，旋也。"
+      ],
+      "traditional_char": "還"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "还某"
+      ],
+      "traditional_char": "還"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "adverb",
+      "meaning": "依然，仍然",
+      "examples": [
+        "这本书还没有看完。"
+      ],
+      "traditional_char": "還"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "adverb",
+      "meaning": "更加",
+      "examples": [
+        "今天比昨天还冷。"
+      ],
+      "traditional_char": "還"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "adverb",
+      "meaning": "再，又",
+      "examples": [
+        "锻炼身体，还要注意休息。"
+      ],
+      "traditional_char": "還"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "adverb",
+      "meaning": "尚，勉强过得去",
+      "examples": [
+        "身体还好。"
+      ],
+      "traditional_char": "還"
+    },
+    {
+      "index": 9,
+      "part_of_speech": "adverb",
+      "meaning": "尚且",
+      "examples": [
+        "他还搬不动，何况我呢？"
+      ],
+      "traditional_char": "還"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从辵（与行走相关），瞏声，初义为返回。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由“返回”引申为“回报别人行动”；相关性在先秦已见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "从返回原物或归至原处，引申为“偿还”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "古义作‘环绕’，与“返回”活动路径相关联。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "unknown",
+      "note": "用作姓氏，来源机制不详。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "grammaticalization",
+      "note": "从“再次返回”语境虚化为“仍然、依然”，中古已体现。"
+    },
+    {
+      "source_index": 5,
+      "target_index": 6,
+      "evolution_type": "semantic_extension",
+      "note": "从“仍然”虚词进一步被用作“更加”，语法功能增强。"
+    },
+    {
+      "source_index": 5,
+      "target_index": 7,
+      "evolution_type": "semantic_extension",
+      "note": "“还”用作表示“再、又”，表递进关系，口语常见。"
+    },
+    {
+      "source_index": 5,
+      "target_index": 8,
+      "evolution_type": "semantic_extension",
+      "note": "“还”引申为“尚、勉强过得去”，语气色彩减弱。"
+    },
+    {
+      "source_index": 5,
+      "target_index": 9,
+      "evolution_type": "semantic_extension",
+      "note": "“还”引申为“尚且”，用于比拟关系。"
+    }
+  ]
+}

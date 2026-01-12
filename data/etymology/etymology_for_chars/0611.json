@@ -1,0 +1,107 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "运行，转动，移动。",
+      "examples": [
+        "日月运行。",
+        "列车正在运行。",
+        "机器运转。",
+        "地球绕太阳运转。"
+      ],
+      "traditional_char": "運"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "搬运，运输。",
+      "examples": [
+        "运输物资。",
+        "用卡车运送。",
+        "水路运输方便。"
+      ],
+      "traditional_char": "運"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "使用，使用某种方式、技巧或力量。",
+      "examples": [
+        "运用策略。",
+        "运算能力。",
+        "运笔如飞。",
+        "善于运筹。"
+      ],
+      "traditional_char": "運"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "命运，遭遇，个人或国家的吉凶祸福。",
+      "examples": [
+        "好运气。",
+        "命运多舛。",
+        "国运昌盛。"
+      ],
+      "traditional_char": "運"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "南北距离的计量单位，古同“员”，后指地理南北之距。",
+      "examples": [
+        "广运百里。"
+      ],
+      "traditional_char": "運"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [
+        "运尊是我的朋友。"
+      ],
+      "traditional_char": "運"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从‘辵’（行走）表义，‘军’表声；本义为移动、运行、转动。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘移动、运行’引申为‘搬运、运输’，可见于先秦至汉语文献。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "‘运行、移动’引申为‘运用（使方式/力量流转）’，语义比喻发展。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "‘运行、事物转动’喻为‘命运’，指人事之循环与变迁。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_narrowing",
+      "note": "从一般移动之义，专指地理距离，后用于‘南北之距’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "conversion",
+      "note": "由动词抽象转为姓氏用法。"
+    }
+  ]
+}

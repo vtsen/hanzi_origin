@@ -1,0 +1,100 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "莲藕的茎，荷梗。",
+      "examples": [
+        "荷，芙蕖，其莖茄。——《爾雅》",
+        "蔕倒茄於藻井。——《文選·張衡〈西京賦〉》"
+      ],
+      "traditional_char": "茄"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "通“荷”，指荷花或相关事物。",
+      "examples": [
+        "衿芰茄之綠衣兮。——《漢書·揚雄傳上》"
+      ],
+      "traditional_char": "茄"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "古地名、古国名（今安徽省风阳县西近淮水的小邑）。",
+      "examples": [
+        "楚子使薳射城州屈，復茄人焉。——《左傳·昭公二十五年》"
+      ],
+      "traditional_char": "茄"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "茄子，一年生草本植物，花紫色，果实可食。",
+      "examples": [
+        "茄，一名落蘇。——《本草》",
+        "別茄披蔥。——《王褒·僮約》"
+      ],
+      "traditional_char": "茄"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "番茄，一年生草本植物，花黄色，果实圆形可食，亦称“西红柿”。",
+      "examples": [
+        "番茄，果实红色、黄色，可食。",
+        "番茄红了。"
+      ],
+      "traditional_char": "茄"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "用于外来词的音译：雪茄。",
+      "examples": [
+        "抽雪茄。"
+      ],
+      "traditional_char": "茄"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从艸（表植物），加声。本义为荷梗（荷花的茎）。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由荷梗引申为荷花或相关事物，东汉至六朝时期用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "unknown",
+      "note": "用作古地名、国名，具体机制不详。春秋时期地名借用。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "后期转用于表示新引进的植物“茄子”。明清以后常见。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由“茄子”类推到“番茄”，指另一种蔬菜。现代汉语。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 5,
+      "evolution_type": "function_word",
+      "note": "后用作外来词音译的构词成分，如“雪茄”。现代用法。"
+    }
+  ]
+}

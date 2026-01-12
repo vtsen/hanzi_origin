@@ -1,0 +1,57 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "味美，美味",
+      "examples": [
+        "甘旨",
+        "旨酒"
+      ],
+      "traditional_char": "旨"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "意义，目的",
+      "examples": [
+        "宗旨",
+        "意旨",
+        "要旨"
+      ],
+      "traditional_char": "旨"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "封建时代称帝王的命令",
+      "examples": [
+        "奉旨",
+        "旨意",
+        "上旨"
+      ],
+      "traditional_char": "旨"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从甘，匕声。甲骨文为会意字，上‘匕’下‘口’表用匙入口，表示美味。今字‘旨’由‘甘’表义兼音，‘匕’表声。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "美味引申为事物的美好、值得追求，引申为意义、目的，汉代已见。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "意旨、主旨转用为帝王所下命令（意图）之意。用于封建专制时代官方用语。"
+    }
+  ]
+}

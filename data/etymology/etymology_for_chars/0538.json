@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "中国长江的专称",
+      "examples": [
+        "大江东去，浪淘尽，千古风流人物。",
+        "江汉朝宗于海。"
+      ],
+      "traditional_char": "江"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "大河的通称",
+      "examples": [
+        "江山如画。",
+        "江河奔流。"
+      ],
+      "traditional_char": "江"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "江泽民",
+        "江雪"
+      ],
+      "traditional_char": "江"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，工声，原指长江，表音兼表意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "先秦至汉，专指长江扩展为泛指所有大河。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "conversion",
+      "note": "后世以江字作为姓氏，见于《百家姓》。"
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "把食物等送进口中咽下，或依靠某种事物生活",
+      "examples": [
+        "吃饭",
+        "吃药",
+        "吃斋"
+      ],
+      "traditional_char": "吃"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "消灭、除掉（多用于军事或棋类）",
+      "examples": [
+        "吃掉敌人一个连",
+        "象棋里吃子"
+      ],
+      "traditional_char": "吃"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "吸入，吸取",
+      "examples": [
+        "吃烟"
+      ],
+      "traditional_char": "吃"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "感受，遭受",
+      "examples": [
+        "吃惊",
+        "吃亏",
+        "吃紧",
+        "吃一堑，长一智"
+      ],
+      "traditional_char": "吃"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "挨，承受（常用于负面情形）",
+      "examples": [
+        "吃官司"
+      ],
+      "traditional_char": "吃"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "承受，支持",
+      "examples": [
+        "吃不消"
+      ],
+      "traditional_char": "吃"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "船身入水的深度",
+      "examples": [
+        "吃水深浅"
+      ],
+      "traditional_char": "吃"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "particle",
+      "meaning": "被（用作被动助词）",
+      "examples": [
+        "吃那厮砍了一刀"
+      ],
+      "traditional_char": "吃"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "verb",
+      "meaning": "说话结巴",
+      "examples": [
+        "口吃"
+      ],
+      "traditional_char": "吃"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从口，契声，原指“吃东西”，今简化自“喫”。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由吃东西引申为“吸入”，如“吃烟”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由“吃东西”引申为“消灭棋子、敌人”等。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由摄取引申为“感受、遭受”某事。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "semantic_shift",
+      "note": "由“感受、遭受”具体化为“挨、承受法律处罚”等。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "由承受具体扩展为一般承受、支持。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "metaphor",
+      "note": "由摄入引申为“船体入水的深度”量度。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 7,
+      "evolution_type": "grammaticalization",
+      "note": "动词“吃”转用为被动态助词。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 8,
+      "evolution_type": "metaphor",
+      "note": "由进食阻碍引申为说话不流利。"
+    }
+  ]
+}

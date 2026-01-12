@@ -1,0 +1,104 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "对付，处置",
+      "examples": [
+        "唯无形者，无可奈也。（《淮南子·兵略训》）",
+        "谁奈离愁得，村醪或可尊。"
+      ],
+      "traditional_char": "奈"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "pronoun",
+      "meaning": "如何，怎样",
+      "examples": [
+        "奈何去社稷也？（《礼记·曲礼下》）",
+        "诸侯不从，奈何？",
+        "无奈何也。",
+        "无可奈何。"
+      ],
+      "traditional_char": "奈"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adverb",
+      "meaning": "怎奈、无奈的省文，用于转折句，表示原因",
+      "examples": [
+        "此地奈无城郭，又无险阴。"
+      ],
+      "traditional_char": "奈"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "忍受，经得起；通“耐”",
+      "examples": [
+        "斟酌姮娥寡，天寒奈九秋。",
+        "花缺伤难缀，莺喧奈细听。"
+      ],
+      "traditional_char": "奈"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "果名，通“柰”",
+      "examples": [
+        "枇杷橪柿，亭奈厚朴。",
+        "《史记·司马相如列传》作“柰”。"
+      ],
+      "traditional_char": "奈"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "particle",
+      "meaning": "语气助词",
+      "examples": [
+        "大师遥见：坐地不定害涩奈，覷着鶯鶯，眼去眉来。",
+        "澀奈：羞澀。‘奈’，語助詞。有時也寫作‘澀耐’。"
+      ],
+      "traditional_char": "奈"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "unknown",
+      "original_sense_index": 4,
+      "note": "“奈”疑为会意或形声，最初用作果名（即“柰”）；有学者认为与木部“柰”同源，字形发展复杂，早期或指一种果实。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 4,
+      "target_index": 0,
+      "evolution_type": "semantic_shift",
+      "note": "果名（实体）假借为“对付、处置”的抽象义，战国及两汉时期已广见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由“对付、处置”引申为“如何、怎样”，强调客观无策。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "grammaticalization",
+      "note": "从疑问代词用法进一步虚化为副词用法，常见于转折句中。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "reanalysis",
+      "note": "“奈”通“耐”，经过音同及义项重合，表示“忍受”，魏晋南北朝以后常见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "grammaticalization",
+      "note": "进一步虚化为语助词，元曲白话用法，语气色彩。"
+    }
+  ]
+}

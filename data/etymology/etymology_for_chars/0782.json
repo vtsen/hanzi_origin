@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "pronoun",
+      "meaning": "称对方，多称指一个人，有时也指称若干人",
+      "examples": [
+        "你好吗？",
+        "你们来了。"
+      ],
+      "traditional_char": "你"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "pronoun",
+      "meaning": "泛指任何人",
+      "examples": [
+        "你死我活",
+        "做人要像你这样"
+      ],
+      "traditional_char": "你"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从“人”表义，“尔”表音，本义为称呼说话的对方。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由特指对方扩展为泛指任何人，常见于现代汉语。"
+    }
+  ]
+}

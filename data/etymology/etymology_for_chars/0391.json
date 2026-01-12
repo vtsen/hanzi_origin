@@ -1,0 +1,88 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "生存，存在",
+      "examples": [
+        "存亡",
+        "生存",
+        "存在"
+      ],
+      "traditional_char": "存"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "保留，留下",
+      "examples": [
+        "保存",
+        "留存",
+        "存照",
+        "去伪存真"
+      ],
+      "traditional_char": "存"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "寄放",
+      "examples": [
+        "寄存"
+      ],
+      "traditional_char": "存"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "停聚（水等）",
+      "examples": [
+        "存水"
+      ],
+      "traditional_char": "存"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "怀有，怀着（某种情感、想法）",
+      "examples": [
+        "存心",
+        "不存任何奢望"
+      ],
+      "traditional_char": "存"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘存’为形声字，从子，才声，本义为生存、存在。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由存在发展出保存、留下之义，见于汉代文献。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "保存进一步指将东西寄放以保留，用法见近现代汉语。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由存在引申为物理意义上的停聚，常用于水等。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "将‘生存、存在’的抽象意义比喻为心中有某种情感、想法，常见于文言及现代汉语。"
+    }
+  ]
+}

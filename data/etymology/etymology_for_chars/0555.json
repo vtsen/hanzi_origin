@@ -1,0 +1,83 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "谣言，虚假的言语。",
+      "examples": [
+        "讹言惑众。",
+        "勿听讹言。"
+      ],
+      "traditional_char": "訛"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "错误，差错。",
+      "examples": [
+        "讹误难免。",
+        "讹字。"
+      ],
+      "traditional_char": "訛"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "敲诈，假借理由强索财物。",
+      "examples": [
+        "讹诈路人。",
+        "被人讹了一笔钱。"
+      ],
+      "traditional_char": "訛"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "感化，变化。",
+      "examples": [
+        "岁月迁讹。"
+      ],
+      "traditional_char": "訛"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "野火烧。",
+      "examples": [],
+      "traditional_char": "訛"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从言，化声，本作‘譌’，本义为谣言。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘虚假言语’引申为‘错误’用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由‘谣言’假言行为转喻为‘讹诈’行为。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由‘真假变化’引申为‘感化，变化’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "unknown",
+      "note": "‘野火烧’义缺乏明确联系，类型不确定。"
+    }
+  ]
+}

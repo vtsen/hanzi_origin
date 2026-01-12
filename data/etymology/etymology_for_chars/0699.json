@@ -1,0 +1,88 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "成群，结伴，成对",
+      "examples": [
+        "鹿丽而行",
+        "丽，附也。——《说文》"
+      ],
+      "traditional_char": "麗"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "好看，美丽，漂亮",
+      "examples": [
+        "秀丽",
+        "风和日丽",
+        "明丽"
+      ],
+      "traditional_char": "麗"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "附着，贴近",
+      "examples": [
+        "附丽于物",
+        "草木丽于土"
+      ],
+      "traditional_char": "麗"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "（高丽）朝鲜古代的一个王朝名称",
+      "examples": [
+        "高丽王朝",
+        "高丽瓷器"
+      ],
+      "traditional_char": "麗"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "遭遇（多指灾祸）",
+      "examples": [
+        "丽于难",
+        "乃有丽焉——《国语·晋语》"
+      ],
+      "traditional_char": "麗"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，本作‘丽’，从鹿，丽声，后增‘鹿’旁作‘麗’，本义为成群、结伴。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由成对成群（和谐美）引申为美丽、漂亮，汉代已见"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由成对、结伴再引申为依附、附着，早期文献有据"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "unknown",
+      "note": "用作高丽国名，由本义转化，具体机制不明"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "unknown",
+      "note": "古同“罹”，‘遭遇’之义，疑为假借或转义，机制不明"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "评议，评论（本义）",
+      "examples": [
+        "二论相订，是非乃见。"
+      ],
+      "traditional_char": "訂"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "改正，修改",
+      "examples": [
+        "考订",
+        "修订",
+        "订正"
+      ],
+      "traditional_char": "訂"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "约定，立契约",
+      "examples": [
+        "订购",
+        "订立",
+        "订约"
+      ],
+      "traditional_char": "訂"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "用线、铁丝、书钉把书页、纸张连在一起",
+      "examples": [
+        "装订"
+      ],
+      "traditional_char": "訂"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "制定（计划等）",
+      "examples": [
+        "订计划"
+      ],
+      "traditional_char": "訂"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从言，丁声。‘言’表示与言语、议论相关，‘丁’表声，原意为评议。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“评议”拓展为“修改、考正”; 先秦至汉代。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "评议、商定引申为‘约定’；汉魏以降。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由‘约定’转喻为‘用钉连结’，形象比喻；近现代普及。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "评论、议定引申为‘制定’（计划等）；近现代用法。"
+    }
+  ]
+}

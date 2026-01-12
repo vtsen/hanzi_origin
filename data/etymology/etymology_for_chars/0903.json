@@ -1,0 +1,57 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "从肛门排出的臭气",
+      "examples": [
+        "放屁",
+        "屁滚尿流",
+        "一声不吭，连个屁都不敢放"
+      ],
+      "traditional_char": "屁"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "小，没有作用的东西",
+      "examples": [
+        "顶个屁",
+        "你算个屁",
+        "这点钱算个屁"
+      ],
+      "traditional_char": "屁"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "胡说，没有道理的话",
+      "examples": [
+        "这简直是屁话",
+        "你说的是屁"
+      ],
+      "traditional_char": "屁"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从尸，卑声。最初表示从肛门排出的臭气，后转义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由具体的‘臭气’引申为‘没有价值的东西’，近现代用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "'屁'引申指代‘胡说、没有道理的话’，近现代俗用。"
+    }
+  ]
+}

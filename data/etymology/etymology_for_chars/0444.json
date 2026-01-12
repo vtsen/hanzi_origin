@@ -1,0 +1,176 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "收成，五谷成熟的一年（年成）",
+      "examples": [
+        "年成丰收",
+        "荒年"
+      ],
+      "traditional_char": "年"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "地球绕太阳一周的时间",
+      "examples": [
+        "一年",
+        "三年五载"
+      ],
+      "traditional_char": "年"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "每年的；与年度相关的事物",
+      "examples": [
+        "年会",
+        "年鉴",
+        "年利",
+        "年薪"
+      ],
+      "traditional_char": "年"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "一年的开始，元旦（年节）",
+      "examples": [
+        "新年",
+        "年节"
+      ],
+      "traditional_char": "年"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "与年节有关的用品",
+      "examples": [
+        "年画",
+        "年礼",
+        "年货"
+      ],
+      "traditional_char": "年"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "时期，时代",
+      "examples": [
+        "近年来",
+        "年华",
+        "年号",
+        "年限",
+        "年深日久"
+      ],
+      "traditional_char": "年"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "岁数",
+      "examples": [
+        "年纪",
+        "年事",
+        "年高",
+        "年轮"
+      ],
+      "traditional_char": "年"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "noun",
+      "meaning": "人生阶段",
+      "examples": [
+        "幼年",
+        "童年",
+        "青年",
+        "壮年",
+        "中年",
+        "老年"
+      ],
+      "traditional_char": "年"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "noun",
+      "meaning": "科举时代同年考中者的互称",
+      "examples": [
+        "年兄",
+        "年谊"
+      ],
+      "traditional_char": "年"
+    },
+    {
+      "index": 9,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [],
+      "traditional_char": "年"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "小篆字形从禾，千声；甲骨文为人负禾，表示五谷成熟之年成"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由农业收成引申为地球绕太阳一周的时间单位"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "指涉与每年度相关的事物"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "特指年度开始的节日"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "泛指年节相关用品"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "从具体时间单位泛化为时期、时代"
+    },
+    {
+      "source_index": 1,
+      "target_index": 6,
+      "evolution_type": "semantic_extension",
+      "note": "表示年龄、岁数"
+    },
+    {
+      "source_index": 6,
+      "target_index": 7,
+      "evolution_type": "semantic_extension",
+      "note": "从年龄引申为人生分期"
+    },
+    {
+      "source_index": 1,
+      "target_index": 8,
+      "evolution_type": "metonymy",
+      "note": "以同一年中考取进士的人互相称呼"
+    },
+    {
+      "source_index": 1,
+      "target_index": 9,
+      "evolution_type": "unknown",
+      "note": "姓氏用法，演变机制不明"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "胸膛，胸部。",
+      "examples": [
+        "匈，膺也。——《说文》",
+        "项羽大怒，伏弩射中汉王，汉王伤匈。——《史记》",
+        "其于匈中曾不蔕蒂。——《汉书·司马相如列传》"
+      ],
+      "traditional_char": "匈"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "心胸，胸怀。",
+      "examples": [
+        "吾素刚急，有匈中气，不可不顺也。——《资治通鉴》",
+        "皆虚其匈以听其上。——《管子·任法》"
+      ],
+      "traditional_char": "匈"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "喧闹、纷乱的样子（多用于叠词“匈匈”）。",
+      "examples": [
+        "天下匈匈。——《汉书·高帝纪》",
+        "君子不为小人之匈匈也，而辍其行。——《荀子·天论》"
+      ],
+      "traditional_char": "匈"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "匈奴，中国古代北方民族之一，亦泛称北方少数民族。",
+      "examples": [
+        "又匈虏一败，或当惧而修德。——《旧唐书》",
+        "他知道汉匈老百姓的心愿是什么。——曹禺《王昭君》"
+      ],
+      "traditional_char": "匈"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从勹（包，表示包裹形体），声旁为“凶”，本义为胸膛。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由身体部位胸膛引申为心胸、胸怀，用于抽象心理状态，见于先秦至汉。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由胸部喧闹鼓动，引申为喧闹纷乱的样子，见于先秦、两汉文献。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "以部位名称“匈”代指北方民族“匈奴”，因古人以身体部位名词借指部族，具体机制见汉代史料。"
+    }
+  ]
+}

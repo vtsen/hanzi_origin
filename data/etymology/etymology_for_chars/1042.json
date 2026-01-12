@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "以货物或财物换取金钱，与“买”相对。",
+      "examples": [
+        "他去市场卖菜。",
+        "小贩在街上卖水果。"
+      ],
+      "traditional_char": "賣"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "出卖国家、民族或别人的利益。",
+      "examples": [
+        "卖国求荣。",
+        "卖友求荣。"
+      ],
+      "traditional_char": "賣"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "尽最大努力去做某事。",
+      "examples": [
+        "卖力表演。",
+        "他很卖命地工作。"
+      ],
+      "traditional_char": "賣"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "通过表现、炫耀自己以引起注意。",
+      "examples": [
+        "卖弄风情。",
+        "他总爱卖乖。"
+      ],
+      "traditional_char": "賣"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "小篆从“出”与“买”组成，表示卖出财物。传统字形为“賣”。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由“把货换钱”引申为“出卖他人或利益”，意涵变为贬义。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "“卖”本义为出让，继而比喻为极力使出自己的力气。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "“卖”本义为售卖，借指炫耀、显示自己以博取注意。"
+    }
+  ]
+}

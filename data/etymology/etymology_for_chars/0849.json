@@ -1,0 +1,107 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "分开，分割",
+      "examples": [
+        "判牛",
+        "判为两段"
+      ],
+      "traditional_char": "判"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "区别，分辨，断定",
+      "examples": [
+        "判明",
+        "判断",
+        "判别"
+      ],
+      "traditional_char": "判"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "分开，截然不同",
+      "examples": [
+        "判然",
+        "判若两人",
+        "判若鸿沟"
+      ],
+      "traditional_char": "判"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "评定，做出评价",
+      "examples": [
+        "裁判",
+        "谈判",
+        "判卷子"
+      ],
+      "traditional_char": "判"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "司法机关对案件的裁决",
+      "examples": [
+        "判词",
+        "判决",
+        "判案"
+      ],
+      "traditional_char": "判"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "古代官名",
+      "examples": [
+        "判官",
+        "通判"
+      ],
+      "traditional_char": "判"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声兼会意字，从刀（表示切分），‘半’为声兼表意，表达分割之义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由具体的分割引申为抽象的区分、判断，见中古文献。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "‘分开’原义进一步发展为描述状态明显分离，引申为形容词。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "区分、断定引申为裁决、评定他人。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "‘裁定、评定’发展为专指法律判决之意。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 5,
+      "evolution_type": "metonymy",
+      "note": "由判决引申为执行判决或相关官员之称。"
+    }
+  ]
+}

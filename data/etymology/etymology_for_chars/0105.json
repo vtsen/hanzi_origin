@@ -1,0 +1,137 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "并列，并排，靠近（两人或事物在空间上并排或紧挨）",
+      "examples": [
+        "比肩而行",
+        "鳞次栉比",
+        "比邻"
+      ],
+      "traditional_char": "比"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "较量高低、长短、好坏等，进行比较",
+      "examples": [
+        "比赛",
+        "比附",
+        "对比",
+        "评比"
+      ],
+      "traditional_char": "比"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "能够相匹，比得上",
+      "examples": [
+        "今非昔比",
+        "无与伦比"
+      ],
+      "traditional_char": "比"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "比赛双方胜负或得分的对比（数值关系）",
+      "examples": [
+        "三比二"
+      ],
+      "traditional_char": "比"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "两个数字之间的倍数、分数等数学关系（比例）",
+      "examples": [
+        "比例",
+        "比值"
+      ],
+      "traditional_char": "比"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "譬喻，摹拟，用于比拟或文学修辞手法",
+      "examples": [
+        "比如",
+        "比方",
+        "比喻",
+        "比兴"
+      ],
+      "traditional_char": "比"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "preposition",
+      "meaning": "及，等到",
+      "examples": [
+        "比及"
+      ],
+      "traditional_char": "比"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "conjunction",
+      "meaning": "和，亲近",
+      "examples": [
+        "比顺"
+      ],
+      "traditional_char": "比"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意。由两个‘匕’并列组成，象征两人并肩而行，表达并排、靠近之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从空间上并列引申为事物间的比较，汉代已普遍用作比拟、对照。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由‘比较’进一步引申为‘能够相匹’。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "‘比赛’涵义产生‘赛果对比’的名词用法。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由‘比较’引申至数量的对比关系，产生数学意义的‘比例’。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "metaphor",
+      "note": "比较—>譬喻、比喻、文学修辞中的类比。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "semantic_shift",
+      "note": "古义‘靠近’在“及、等到”中转为引申义，于古汉语中常见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 7,
+      "evolution_type": "semantic_extension",
+      "note": "‘靠近’进一步引申为‘亲近、和’，用于‘比顺’等合成词。"
+    }
+  ]
+}

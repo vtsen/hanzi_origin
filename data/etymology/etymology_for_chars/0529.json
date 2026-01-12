@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "猛冲，突然进入。",
+      "examples": [
+        "闯进屋子",
+        "猛然闯入"
+      ],
+      "traditional_char": "闖"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "历练，经历困难或冒险。",
+      "examples": [
+        "闯练社会",
+        "到外地去闯一闯"
+      ],
+      "traditional_char": "闖"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "为达到目的而积极奔走。",
+      "examples": [
+        "闯荡江湖",
+        "四处闯荡"
+      ],
+      "traditional_char": "闖"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "招惹（多指不好的事情）。",
+      "examples": [
+        "闯祸",
+        "他又闯事了"
+      ],
+      "traditional_char": "闖"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意字，从‘门’与‘马’；象征马冲门而入，表示突然进入。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“猛冲”引申为“经历、历练”，如闯社会。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由广义“经历闯练”引申为“为目的奔走、闯荡”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由“猛冲”引申至“鲁莽导致招惹祸事”。"
+    }
+  ]
+}

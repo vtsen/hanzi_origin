@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "东方，日出的方向",
+      "examples": [
+        "东风",
+        "东边日出西边雨"
+      ],
+      "traditional_char": "東"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "主人，主事者（古代主位在东）",
+      "examples": [
+        "房东",
+        "作东"
+      ],
+      "traditional_char": "東"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "东郭先生"
+      ],
+      "traditional_char": "東"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意字，象征太阳（日）出现在树木（木）之间，表示日出的方向即东方"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "古时主位在东，引申为主人。社交语境逐渐普及，汉代已见"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "地名或方位用作姓氏，周代以后见姓东"
+    }
+  ]
+}

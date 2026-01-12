@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "谷类植物的统称",
+      "examples": [
+        "禾苗",
+        "禾本科"
+      ],
+      "traditional_char": "禾"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "古代指粟（谷子）",
+      "examples": [
+        "五谷之属，稷为禾",
+        "禾，嘉谷也。《说文》"
+      ],
+      "traditional_char": "禾"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "pictograph",
+      "original_sense_index": 0,
+      "note": "象形字，甲骨文字形如垂穗植物，表示谷类作物的总称。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_narrowing",
+      "note": "在古代语境中，‘禾’由泛指所有谷类作物转为专指粟（谷子）。"
+    }
+  ]
+}

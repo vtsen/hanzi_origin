@@ -1,0 +1,100 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "努力工作，做工。",
+      "examples": [
+        "努力劳动",
+        "劳动人民"
+      ],
+      "traditional_char": "勞"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "人类创造物质或精神财富的活动。",
+      "examples": [
+        "体力劳动",
+        "按劳分配"
+      ],
+      "traditional_char": "勞"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "劳动者的简称。",
+      "examples": [
+        "劳工",
+        "劳资"
+      ],
+      "traditional_char": "勞"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "辛苦，辛勤。",
+      "examples": [
+        "劳苦",
+        "劳碌"
+      ],
+      "traditional_char": "勞"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "用言语或实物慰问。",
+      "examples": [
+        "慰劳",
+        "劳军"
+      ],
+      "traditional_char": "勞"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [],
+      "traditional_char": "勞"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意：‘焱’（火光）、‘冖’（屋）、‘力’（用力），表示夜间努力工作。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由具体夜间劳动，引申为一般劳动活动。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "synecdoche",
+      "note": "以劳动者指代劳动本身的参与者。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由劳动引申为劳动过程中的辛苦、劳累。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_shift",
+      "note": "由劳动引申为慰问劳作者的行为。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "unknown",
+      "note": "姓氏用法，来源机制不详，或为用字传承。"
+    }
+  ]
+}

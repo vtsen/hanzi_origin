@@ -1,0 +1,41 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "用口或鼻将气体吸入体内",
+      "examples": [
+        "吸气",
+        "呼吸",
+        "吸烟"
+      ],
+      "traditional_char": "吸"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "引取、摄取液体、气体、信息等进入体内或集体",
+      "examples": [
+        "吸引",
+        "吸附",
+        "植物吸水"
+      ],
+      "traditional_char": "吸"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从口，及声，表示吸气入体。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由吸气的动作推广至一切引取、摄取的含义，古今皆有。"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "埋葬死人筑起的土堆",
+      "examples": [
+        "祖坟",
+        "坟墓"
+      ],
+      "traditional_char": "墳"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "水边高地",
+      "examples": [
+        "汶坟"
+      ],
+      "traditional_char": "墳"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "大（多用于书面或古文）",
+      "examples": [
+        "坟首",
+        "坟烛"
+      ],
+      "traditional_char": "墳"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "古代的典籍",
+      "examples": [
+        "坟典",
+        "坟籍"
+      ],
+      "traditional_char": "墳"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 2,
+      "note": "形声字，从土，贲声。本义为“广大”（大防），后转指高大之处或高地。"
+    },
+    {
+      "formation_type": "loan_character",
+      "original_sense_index": 0,
+      "note": "‘坟’假借为埋葬死人的土堆，见于后世文献，并通用于‘墳’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 2,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“大”引申为指地势高大的地方，常见于古地名，有先秦用例。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "metonymy",
+      "note": "水边高地常用作埋葬场所，引申为坟墓。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "古籍大量储藏，喻为“广大”，引申为典籍。"
+    }
+  ]
+}

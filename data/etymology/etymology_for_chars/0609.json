@@ -1,0 +1,53 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "背离；不遵守；相反",
+      "examples": [
+        "违背",
+        "违反",
+        "违章",
+        "事与愿违"
+      ],
+      "traditional_char": "違"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "分别；离别；不见面",
+      "examples": [
+        "久违"
+      ],
+      "traditional_char": "違"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "过失；邪恶的行为",
+      "examples": [],
+      "traditional_char": "違"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从辵，韦声。本义为“离开，背离”，音义结合。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“背离”引申为“离别，不见面”等意思，汉语常见语义拓展。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由“背离”引申为“过失，邪恶”，指行为违背正道。"
+    }
+  ]
+}

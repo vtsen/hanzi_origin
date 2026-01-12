@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "避忌，有顾忌不敢说或不愿说",
+      "examples": [
+        "讳言其事",
+        "直言不讳"
+      ],
+      "traditional_char": "諱"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "古时称死去的皇帝或尊长的名字",
+      "examples": [
+        "名讳不可犯",
+        "避父讳"
+      ],
+      "traditional_char": "諱"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从言，韦声，表示避忌相关的言语行为。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_narrowing",
+      "note": "由泛指避忌、隐讳之意，专指对皇帝、尊长的名字忌讳，汉代以后形成专用语。"
+    }
+  ]
+}

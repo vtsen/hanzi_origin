@@ -1,0 +1,57 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "兄弟排行第二者",
+      "examples": [
+        "仲兄",
+        "仲弟"
+      ],
+      "traditional_char": "仲"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "居于当中的（用于时令、序列等）",
+      "examples": [
+        "仲春",
+        "仲夏",
+        "仲秋",
+        "仲冬"
+      ],
+      "traditional_char": "仲"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "仲卿",
+        "仲氏"
+      ],
+      "traditional_char": "仲"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从人，中声，表示兄弟排行第二；甲骨文、金文作“中”，本作排行之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由兄弟排行二引申为“居中”、“在中间”（如月令）。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "conversion",
+      "note": "排行名称向姓氏转换，古今皆有。"
+    }
+  ]
+}

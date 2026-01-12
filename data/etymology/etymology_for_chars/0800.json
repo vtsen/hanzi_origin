@@ -1,0 +1,62 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "把东西含在嘴里，不吐出也不咽下。",
+      "examples": [
+        "含一口水",
+        "含英咀华",
+        "含饴弄孙"
+      ],
+      "traditional_char": "含"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "藏在里面，包容在里面。",
+      "examples": [
+        "包含",
+        "含义",
+        "含量",
+        "含苞",
+        "含蕴",
+        "含混",
+        "含垢纳污"
+      ],
+      "traditional_char": "含"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "怀有某种感情或意思，不完全表露出来。",
+      "examples": [
+        "含怒",
+        "含羞",
+        "含情"
+      ],
+      "traditional_char": "含"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从口，今声，本义是把东西含在嘴里。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由嘴里包藏之意发展为泛指内部包容，语义扩大，早见于先秦文献。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由包容实物引申为包容感情或意念，不外显，语义抽象化。"
+    }
+  ]
+}

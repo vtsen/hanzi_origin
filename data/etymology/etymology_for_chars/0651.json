@@ -1,0 +1,102 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "意愿、志向，心之所向，未表露出来的长远而大的打算",
+      "examples": [
+        "志愿",
+        "志气",
+        "志趣",
+        "志士",
+        "志学"
+      ],
+      "traditional_char": "志"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "记在心里，铭记",
+      "examples": [
+        "志喜",
+        "志哀",
+        "永志不忘"
+      ],
+      "traditional_char": "志"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "记载的文字、著作",
+      "examples": [
+        "杂志",
+        "志怪"
+      ],
+      "traditional_char": "誌"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "记号，标记",
+      "examples": [
+        "标志"
+      ],
+      "traditional_char": "誌"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "measure_word",
+      "meaning": "用于量长短、轻重、多少的器具",
+      "examples": [
+        "用碗志志",
+        "志子"
+      ],
+      "traditional_char": "誌"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [],
+      "traditional_char": "志"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从心，士声，表意为心之所向的志向和愿望。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 2,
+      "note": "繁体“誌”亦为形声字，从言，志声，后用以表示记载、记号等意义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由志向引申为将志向或情感铭记于心。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "从铭记引申为记录、写作，形成“誌”之义。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由记载引申为作为记号。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由记号义引申为作量词用，见于方言。"
+    }
+  ]
+}

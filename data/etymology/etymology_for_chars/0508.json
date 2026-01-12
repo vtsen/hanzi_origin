@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "争夺，互不相让以获得某物。",
+      "examples": [
+        "两国为领土而争。",
+        "兄弟争财。"
+      ],
+      "traditional_char": "爭"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "力求实现某种目标。",
+      "examples": [
+        "争取胜利。",
+        "大家争气。"
+      ],
+      "traditional_char": "爭"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "（方言）差，欠。",
+      "examples": [
+        "总数还争多少？"
+      ],
+      "traditional_char": "爭"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adverb",
+      "meaning": "怎么，如何（多用于诗词中）。",
+      "examples": [
+        "争奈（怎奈）。",
+        "争不（怎不）。",
+        "争知。"
+      ],
+      "traditional_char": "爭"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "金文会意，上为“爪”，下为“又”，象两手争夺一物，表示争夺之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由具体争夺引申为竞逐实现目标，见《汉书》用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "由争夺引申为不足、差额，方言义，具体机制不详。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "如何、怎么的用法，诗词中见，机制或因语法化，不详。"
+    }
+  ]
+}

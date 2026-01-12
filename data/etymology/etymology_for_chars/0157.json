@@ -1,0 +1,100 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "乌鸦，一种黑色的鸟。",
+      "examples": [
+        "乌鸦反哺",
+        "乌飞兔走",
+        "乌合之众"
+      ],
+      "traditional_char": "烏"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "黑色的。",
+      "examples": [
+        "乌云密布",
+        "乌亮的头发"
+      ],
+      "traditional_char": "烏"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adverb",
+      "meaning": "无，没有。",
+      "examples": [
+        "化为乌有"
+      ],
+      "traditional_char": "烏"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "pronoun",
+      "meaning": "哪，何（疑问词）。",
+      "examples": [
+        "乌足道哉？"
+      ],
+      "traditional_char": "烏"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "interjection",
+      "meaning": "古同“呜”，表示叹息。",
+      "examples": [
+        "乌乎，盛哉！"
+      ],
+      "traditional_char": "烏"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [
+        "乌桓"
+      ],
+      "traditional_char": "烏"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "pictograph",
+      "original_sense_index": 0,
+      "note": "象形，本为描绘乌鸦之形，形体像鸟，繁体为“烏”，下部像鸟，头上有点指其黑色。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "因乌鸦羽毛黑色，引申指黑色属性，周代文献已见。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "黑色引申为无、没有，如黑暗不可见。用于“乌有”等成语。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "unknown",
+      "note": "疑问代词“乌”用法由来不明，文献多见于先秦。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "“乌”通“呜”用作叹词，属假借用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "以“乌”为姓氏，由动植名转为姓氏常见。"
+    }
+  ]
+}

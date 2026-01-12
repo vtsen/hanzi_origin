@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "小口地吃；稍微吃一点。",
+      "examples": [
+        "噍咀芝英兮叽琼华。",
+        "进禨（叽）进羞。"
+      ],
+      "traditional_char": "嘰"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "悲叹，哀叹。",
+      "examples": [
+        "纣为象箸而箕子叽。"
+      ],
+      "traditional_char": "嘰"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "onomatopoeia",
+      "meaning": "形容小声说话或小鸟叫等清脆、细碎的声音。",
+      "examples": [
+        "两人叽咕了半天，不知在说什么。",
+        "小鸟叽叽叫。"
+      ],
+      "traditional_char": "嘰"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从口，幾声，形声字，本义为小食。叽为嘰的简化字，口旁表示与口有关，‘幾’表音。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由‘小食’引申为‘悲叹’，可能因‘气短声微’引起此义，见于先秦文献。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由小口吃东西的细碎动作，比喻声音细碎、小声的状态，转为象声词用法。"
+    }
+  ]
+}

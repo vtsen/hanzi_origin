@@ -1,0 +1,51 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "以前，从前",
+      "examples": [
+        "今昔对比",
+        "昔人已乘黄鹤去"
+      ],
+      "traditional_char": "昔"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "干肉",
+      "examples": [
+        "昔，干肉也。——《说文》"
+      ],
+      "traditional_char": "昔"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "夜，古同“夕”",
+      "examples": [],
+      "traditional_char": "昔"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "pictograph",
+      "original_sense_index": 1,
+      "note": "象形字，形体为日下肉，表示把肉放在日下晒成干肉。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "由“干肉”引申为“过去”，因干肉常为储存之物，语源学观点。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "unknown",
+      "note": "古文字用作“夕”，学界对‘昔’假借为夜之解释存在争议。"
+    }
+  ]
+}

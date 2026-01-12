@@ -1,0 +1,116 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "pronoun",
+      "meaning": "我",
+      "examples": [
+        "余将老",
+        "余尝为之歌"
+      ],
+      "traditional_char": "余"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "剩下的，多出来的部分",
+      "examples": [
+        "剩余",
+        "余粮",
+        "余兴",
+        "节余"
+      ],
+      "traditional_char": "餘"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "numeral",
+      "meaning": "十、百、千等整数后的零数",
+      "examples": [
+        "十余人",
+        "百余件"
+      ],
+      "traditional_char": "餘"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "后，后面",
+      "examples": [
+        "劳动之余，欢歌笑语"
+      ],
+      "traditional_char": "餘"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "农历四月的别称",
+      "examples": [],
+      "traditional_char": "餘"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [],
+      "traditional_char": "余"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "adjective",
+      "meaning": "饱足（本义）",
+      "examples": [],
+      "traditional_char": "餘"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 6,
+      "note": "“餘”为形声字，从食，余声，原意为饱足。"
+    },
+    {
+      "formation_type": "loan_character",
+      "original_sense_index": 0,
+      "note": "“余”后被借为第一人称代词，最早见于古文献，如《尚书》。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 6,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘饱足’引申为‘剩余’。汉代以降用法。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "‘剩余’之义进一步用于零散数字上的剩数。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "‘剩下’引申为“后、后面”。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "“四月”别称，源于‘余’为剩下、过后的月份。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "unknown",
+      "note": "姓氏用法，来源机制不详，可能源自‘饱足’或‘剩余’之象。"
+    },
+    {
+      "source_index": 6,
+      "target_index": 0,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "‘余’为‘餘’的通假字，后被借作第一人称代词。"
+    }
+  ]
+}

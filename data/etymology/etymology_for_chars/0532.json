@@ -1,0 +1,157 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "门闩；堵门用的横木或器具",
+      "examples": [
+        "门以关闭之。",
+        "设关以守门。"
+      ],
+      "traditional_char": "關"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "闭合，关闭",
+      "examples": [
+        "关门",
+        "关灯",
+        "关张"
+      ],
+      "traditional_char": "關"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "拘禁，囚禁",
+      "examples": [
+        "关押犯人",
+        "被关了三天"
+      ],
+      "traditional_char": "關"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "城门或重要交通处设以防守的据点",
+      "examples": [
+        "山海关",
+        "嘉峪关",
+        "关卡",
+        "险关难守"
+      ],
+      "traditional_char": "關"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "征收进出口税的官署",
+      "examples": [
+        "海关",
+        "过关纳税"
+      ],
+      "traditional_char": "關"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "重要的转折处或不易通过的时期",
+      "examples": [
+        "年关",
+        "难关",
+        "渡过难关"
+      ],
+      "traditional_char": "關"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "牵涉、涉及、关联",
+      "examples": [
+        "有关",
+        "关心",
+        "关乎",
+        "关涉"
+      ],
+      "traditional_char": "關"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "verb",
+      "meaning": "发给或支领薪饷",
+      "examples": [
+        "关饷",
+        "支关饷"
+      ],
+      "traditional_char": "關"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "关羽",
+        "关云长"
+      ],
+      "traditional_char": "關"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "pictograph",
+      "original_sense_index": 0,
+      "note": "金文作象形字，门内设有门闩，表现‘关’的本义。小篆后繁化为形声字。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由门闩引申为‘关闭’之意，用汉至今。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "门被关闭，引申为‘把人关押’，唐宋以来常见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "设施门闩之要塞引申为‘关口’，已见先秦。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "由关口引申为‘海关’等征税场所，明清后突显。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 5,
+      "evolution_type": "metaphor",
+      "note": "关卡作为障碍/要点比喻为人生‘难关’，自古有之。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 6,
+      "evolution_type": "metaphor",
+      "note": "关卡有联系控制作用，引申为‘牵连/关联’，汉以后常用。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 7,
+      "evolution_type": "metonymy",
+      "note": "由关卡征税机构引申为支领薪饷‘关饷’，多用于明清。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 8,
+      "evolution_type": "conversion",
+      "note": "门闩、关口等地望用作姓氏，用于人名。"
+    }
+  ]
+}

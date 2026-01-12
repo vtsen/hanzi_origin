@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "交给，给予",
+      "examples": [
+        "付钱",
+        "托付",
+        "付诸东流"
+      ],
+      "traditional_char": "付"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "measure_word",
+      "meaning": "中药剂量的量词（亦作“服”），指一剂中药",
+      "examples": [
+        "一付药"
+      ],
+      "traditional_char": "付"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "从“人”表示与人有关，从“寸”表示与手的动作，本义为以手交给他人。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "conversion",
+      "note": "由动词“交付”引申为量词，用于表示中药的剂量。"
+    }
+  ]
+}

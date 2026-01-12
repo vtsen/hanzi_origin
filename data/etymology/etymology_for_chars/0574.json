@@ -1,0 +1,86 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "为了便于上下，用砖石砌成的或就山势凿成的梯形的道，台阶。",
+      "examples": [
+        "登上台阶",
+        "阶下囚",
+        "阶除"
+      ],
+      "traditional_char": "階"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "等级，层次，如官阶、军阶、音阶。",
+      "examples": [
+        "官阶",
+        "军阶",
+        "社会阶层"
+      ],
+      "traditional_char": "階"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "凭借，依附。",
+      "examples": [
+        "阶缘"
+      ],
+      "traditional_char": "階"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "由来，起因。",
+      "examples": [
+        "阶祸"
+      ],
+      "traditional_char": "階"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "途径，阶段。",
+      "examples": [
+        "阶段"
+      ],
+      "traditional_char": "階"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从阜，表示与地形高低上下相关，‘皆’作声旁，本义为台阶。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由物理的台阶比喻为等级、层次，出现于古代官制、社会结构中。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "由等级引申为阶段、途径，表示事务发展的不同层面。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由登台阶需凭借台阶引申为凭借、依附，义项多见于书面语。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由台阶作为上下的根据，引申为事物的由来、起因，多为书面语用法。"
+    }
+  ]
+}

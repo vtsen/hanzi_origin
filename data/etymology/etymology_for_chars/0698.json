@@ -1,0 +1,121 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "酒，古代以谷物或水果发酵制成的饮料。",
+      "examples": [
+        "八月黍成，可为酎酒。",
+        "酉，就也。"
+      ],
+      "traditional_char": "酉"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "酒器，盛酒的容器。",
+      "examples": [
+        "酉，卣也。",
+        "十二辰之借，酉，卣也。"
+      ],
+      "traditional_char": "酉"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "地支的第十位，属鸡，亦用以记年、月、日、时。",
+      "examples": [
+        "太岁在酉曰作噩。",
+        "农历乙酉年。",
+        "酉时（下午五点至七点）"
+      ],
+      "traditional_char": "酉"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "十二生肖之一，属鸡。",
+      "examples": [
+        "酉，鸡也。",
+        "‘子午卯酉’四生肖是必须躲避的。"
+      ],
+      "traditional_char": "酉"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "指小酉山等地名或与之相关的地理概念。",
+      "examples": [
+        "酉穴（指小酉山石穴）",
+        "酉阳（今湖南省沅陵县西北）"
+      ],
+      "traditional_char": "酉"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "蓄水的池塘。",
+      "examples": [
+        "瀦水溉曰酉。",
+        "下酉猶濡上酉枯。"
+      ],
+      "traditional_char": "酉"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "adjective",
+      "meaning": "成熟，老，事物收敛之意。",
+      "examples": [
+        "酉者，老也。",
+        "酉者，飽也。",
+        "酉，成熟也。"
+      ],
+      "traditional_char": "酉"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "pictograph",
+      "original_sense_index": 0,
+      "note": "象形字，金文作酒坛形，表示酒或盛酒器皿，表征发酵饮料本义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "盛装酒的器皿，用器代内容，发生于先秦。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "metaphor",
+      "note": "由酒发酵及酒成熟，引申为事物成熟、老，古籍如《白虎通》《淮南子》有明证。"
+    },
+    {
+      "source_index": 6,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "以万物成熟、老的时间点（秋八月）来指代时节，进而作为地支、时间节点用字。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "地支与十二生肖配属，酉与鸡对应，约定成俗，汉代已见。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "地支之名转用于地名，或以地支方向命名地理实体，典籍所见多有。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "由秋收引申至蓄水池塘，语义范围扩展，可能出于地方方言或特殊用法，宋代文献可见。"
+    }
+  ]
+}

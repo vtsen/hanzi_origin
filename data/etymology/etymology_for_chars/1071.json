@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "哺乳动物，毛黄褐色，有黑色条纹，性凶猛，力大。通称“老虎”。",
+      "examples": [
+        "虎口脱险",
+        "老虎吃人"
+      ],
+      "traditional_char": "虎"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "（喻）勇猛或威武的人，可以指勇猛、威武等抽象概念。",
+      "examples": [
+        "虎将",
+        "虎劲",
+        "虎威"
+      ],
+      "traditional_char": "虎"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "威吓，恐吓（古同“唬”）。",
+      "examples": [
+        "虎人以威",
+        "虎之以兵"
+      ],
+      "traditional_char": "虎"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "琥珀，古同“琥”。",
+      "examples": [
+        "虎，琥也。——《说文》"
+      ],
+      "traditional_char": "虎"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "pictograph",
+      "original_sense_index": 0,
+      "note": "金文象虎形，以虎牙、虎纹为特征，属象形字。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "以老虎象征勇猛威武之人或气势，常见于战场、人物品评。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由虎的形象引申为威吓、恐吓之意，后通“唬”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "因读音相近与“琥”借用，表示琥珀。《说文》《玉篇》有记载。"
+    }
+  ]
+}

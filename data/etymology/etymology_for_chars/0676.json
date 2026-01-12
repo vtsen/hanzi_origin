@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "芭蕉（一种多年生草本植物，叶宽大，果实类似香蕉）",
+      "examples": [
+        "芭蕉叶大如席。",
+        "乘兴书芭叶，闲来入豆房。"
+      ],
+      "traditional_char": "芭"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "香草名（古书记载的一种香草）",
+      "examples": [
+        "传芭兮代舞。",
+        "芭，巫所持香草名也。"
+      ],
+      "traditional_char": "芭"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "竹类植物（有刺的竹子，今多作“篱笆”）",
+      "examples": [
+        "芭犁（编竹为屏障）。",
+        "芭篱（用竹或草编成的遮挡物）。"
+      ],
+      "traditional_char": "芭"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "花（“葩”的通假字）",
+      "examples": [
+        "桐芭始生，貌拂拂然也。",
+        "芭，同‘葩’。"
+      ],
+      "traditional_char": "芭"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "‘艹’表意，‘巴’表声，最早指一种香草，形声字。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "由原指香草扩展至芭蕉，因植物形态相近，汉晋以后明显。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "泛指竹类、用于篱笆等植物，语义外延扩大，使用于竹制器物。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "reanalysis",
+      "note": "与‘葩’音近，由音转义作‘花’，属通假用法，出现在古文中。"
+    }
+  ]
+}

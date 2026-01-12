@@ -1,0 +1,52 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "草木茂盛而美丽",
+      "examples": [
+        "桃之夭夭"
+      ],
+      "traditional_char": "夭"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "颜色和悦的样子",
+      "examples": [
+        "夭夭如也"
+      ],
+      "traditional_char": "夭"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "未成年的人死去",
+      "examples": [
+        "夭折"
+      ],
+      "traditional_char": "夭"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "simple_indicative",
+      "original_sense_index": 0,
+      "note": "《说文》：‘夭，曲也’，形采天覆地之象；初意指草木茂盛之态，有美而弯曲之义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由草木茂盛之意引申为颜色和悦的样子，多用于描述外表美丽。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "以植物早夭比喻人未成年早死。先秦用为死亡义即源于草木未及成熟而枯，作‘夭折’。"
+    }
+  ]
+}

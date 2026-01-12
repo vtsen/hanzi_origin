@@ -1,0 +1,151 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "王田，天子所直辖的土地及其周边郊外区域，后泛指京城周围五百里之地",
+      "examples": [
+        "五百里甸服。《书·禹贡》",
+        "千里之内曰甸。《礼记·王制》",
+        "郊外曰甸，百里之外，二百里之内。《周礼·天官·大宰》"
+      ],
+      "traditional_char": "甸"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "田野，原野",
+      "examples": [
+        "潮平见楚甸，天际望维扬。——唐·刘希夷《江南曲》",
+        "杂英满芳甸。——南朝齐·谢朓《晚登三山还望京邑》"
+      ],
+      "traditional_char": "甸"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "田野的出产物，如布帛珍品、谷物等",
+      "examples": [
+        "纳货贝于君，则曰纳甸于有司。《礼记·少仪》",
+        "甸粟而纳之三宫。《谷梁传·桓公十四年》"
+      ],
+      "traditional_char": "甸"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "古代管理田事或柴薪的官名，如甸人、甸师",
+      "examples": [
+        "甸人，掌郊野之官。《礼·文王世子》",
+        "甸师，古代管理田事的官。《周礼·天官》",
+        "甸人，古代管理柴薪的官。《仪礼·燕礼》"
+      ],
+      "traditional_char": "甸"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "古代用于放牧、田猎、徵赋划分的土地单位，四丘为甸，每甸出兵车一乘",
+      "examples": [
+        "四丘为甸。《周礼·地官·小司徒》",
+        "四丘六十四井曰甸。《礼记·郊特牲》"
+      ],
+      "traditional_char": "甸"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "治理，管理",
+      "examples": [
+        "维禹甸之。《诗·小雅·信南山》",
+        "俊民甸四方。《书·多士》"
+      ],
+      "traditional_char": "甸"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "挺立",
+      "examples": [
+        "天甸其道，地杝其绪。《太玄·图》"
+      ],
+      "traditional_char": "甸"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "verb",
+      "meaning": "打猎（同“畋”），田猎",
+      "examples": [
+        "凡甸，冠弁服。《周礼·春官·司服》",
+        "若大甸，则帅有司而饁兽于郊。《周礼·春官·小宗伯》"
+      ],
+      "traditional_char": "甸"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "noun",
+      "meaning": "大车（借音用法）、古田亩区划单位（同“乘”）",
+      "examples": [
+        "良夫乘衷甸两牡。《左传·哀公十七年》"
+      ],
+      "traditional_char": "甸"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从田，包省声，田亦为声符，合指王田，表示天子的直辖区域。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "本义为王田，后泛指京郊原野，地理空间扩大。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由田野引申为田野出产物，物产代田野。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "由田野领域衍生指管理对应领域的官名。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由王田引申为用于征赋与放牧田猎的划分单位。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "semantic_shift",
+      "note": "由田地管理转为一般‘治理’意。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 6,
+      "evolution_type": "unknown",
+      "note": "‘挺’义出自古文，出自田野空间状态的引申，具体机制尚存争议。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 7,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "借音通‘田/畋’，表示打猎田猎，后逐渐固定用法。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 8,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "借音通‘乘’，表示车或田亩区划单位，二者古时可通。"
+    }
+  ]
+}

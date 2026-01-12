@@ -1,0 +1,150 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "该，当，理应如此。",
+      "examples": [
+        "应当",
+        "应有尽有",
+        "应分"
+      ],
+      "traditional_char": "應"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "回答，回应。",
+      "examples": [
+        "答应",
+        "喊他不应",
+        "应承"
+      ],
+      "traditional_char": "應"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "随，即，顺从。",
+      "examples": [
+        "桓督诸将周旋赴讨，应皆平定"
+      ],
+      "traditional_char": "應"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [],
+      "traditional_char": "應"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "回答或随声相和。",
+      "examples": [
+        "应答",
+        "呼应",
+        "应对",
+        "应和"
+      ],
+      "traditional_char": "應"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "接受，允许，答应要求。",
+      "examples": [
+        "应邀",
+        "应聘",
+        "应考"
+      ],
+      "traditional_char": "應"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "顺合，适合。",
+      "examples": [
+        "顺应",
+        "适应",
+        "应机",
+        "应景",
+        "应时"
+      ],
+      "traditional_char": "應"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "verb",
+      "meaning": "对待，处理。",
+      "examples": [
+        "应付",
+        "应变",
+        "应酬"
+      ],
+      "traditional_char": "應"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "noun",
+      "meaning": "（化学或生理学）反应。",
+      "examples": [
+        "化学反应",
+        "条件反应"
+      ],
+      "traditional_char": "應"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "“應”为形声字，声旁‘鹰’（今作‘翳’或‘彡’），义从‘心’，表示心灵感应、回应。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由“回应”引申为“应声相和”，汉魏以降广泛用法。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "由“应答”引申为接受、允诺，古今皆有用例。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "“回应”到“随，即”，语义上表示紧随之意。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 6,
+      "evolution_type": "semantic_extension",
+      "note": "顺从、随即引申为“顺合，适合”，早在宋元文献可见。"
+    },
+    {
+      "source_index": 6,
+      "target_index": 7,
+      "evolution_type": "semantic_extension",
+      "note": "“适应”、“顺合”语义扩展到“处理，应付”，语法功能增强。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 8,
+      "evolution_type": "metaphor",
+      "note": "由“应答”转喻为事物对外界刺激的反应，近现代发展。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_shift",
+      "note": "从“理应、应用当如此”到“直接回应”，古籍中有交错用法。"
+    }
+  ]
+}

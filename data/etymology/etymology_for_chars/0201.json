@@ -1,0 +1,131 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "抓住，把着",
+      "examples": [
+        "扒车",
+        "扒墙头儿"
+      ],
+      "traditional_char": "扒"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "刨开，挖",
+      "examples": [
+        "扒坑",
+        "扒堤"
+      ],
+      "traditional_char": "扒"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "剥，脱",
+      "examples": [
+        "扒皮",
+        "扒掉伪装"
+      ],
+      "traditional_char": "扒"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "拔",
+      "examples": [
+        "勿剪勿扒"
+      ],
+      "traditional_char": "扒"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "拨动",
+      "examples": [
+        "扒拉",
+        "扒开草棵"
+      ],
+      "traditional_char": "扒"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "用耙搂，聚拢",
+      "examples": [
+        "扒草"
+      ],
+      "traditional_char": "扒"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "搔，抓",
+      "examples": [
+        "扒痒"
+      ],
+      "traditional_char": "扒"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "verb",
+      "meaning": "炖烂，煨烂",
+      "examples": [
+        "扒羊肉"
+      ],
+      "traditional_char": "扒"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "形声字，扌表意，巴表声，最初与‘刨开，挖’相关。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "由‘刨开，挖’引申为用手抓住把着，动作相关。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "从‘挖’引申为剥脱含义。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "从‘挖’发展为拔除。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "‘拨动’为动作扩展义。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "‘用耙搂，聚拢’动作与挖类似。"
+    },
+    {
+      "source_index": 5,
+      "target_index": 7,
+      "evolution_type": "metonymy",
+      "note": "‘扒羊肉’为动作引申，表示炖煮至易扒拉。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "metonymy",
+      "note": "从‘抓住’引至‘搔，抓’。"
+    }
+  ]
+}

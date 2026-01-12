@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "车两轮之间的距离，古代标准为八尺，后泛指车轮留下的痕迹，车辙。",
+      "examples": [
+        "车轨相离八尺。",
+        "车辙之迹，即古人所称轨。"
+      ],
+      "traditional_char": "軌"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "一定的路线、路线痕迹。",
+      "examples": [
+        "轨迹",
+        "偏离轨道"
+      ],
+      "traditional_char": "軌"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "应遵循的规范、法度、准则。",
+      "examples": [
+        "轨度",
+        "步入正轨",
+        "轨范"
+      ],
+      "traditional_char": "軌"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字。从车，九声，表示与车相关，‘九’兼作声旁，本义是车两轮之间的距离。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由表示车轮间距离，引申为车辙或移动所形成的路线。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由路线、轨迹转喻为规律、规范，用以指社会行为的法度与标准。"
+    }
+  ]
+}

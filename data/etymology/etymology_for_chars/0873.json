@@ -1,0 +1,106 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "思念，想念",
+      "examples": [
+        "怀念故乡",
+        "缅怀先烈",
+        "怀古"
+      ],
+      "traditional_char": "懷"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "包藏，包含（如怀胎、怀才）",
+      "examples": [
+        "心怀鬼胎",
+        "怀才不遇",
+        "胸怀壮志"
+      ],
+      "traditional_char": "懷"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "胸前，胸口（可指身体部位或衣服部位）",
+      "examples": [
+        "抱在怀里",
+        "藏书于怀"
+      ],
+      "traditional_char": "懷"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "心意，志向",
+      "examples": [
+        "耿耿于怀",
+        "正中下怀",
+        "胸怀广阔"
+      ],
+      "traditional_char": "懷"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "安抚，使安定",
+      "examples": [
+        "怀柔",
+        "怀德以安民"
+      ],
+      "traditional_char": "懷"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "归向，使归附",
+      "examples": [
+        "怀敌附远",
+        "怀柔远人"
+      ],
+      "traditional_char": "懷"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从心，褱声，表示由内心思念、想念之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“思念”引申为包藏、内含，体现包含于内心之物。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "从“包藏”引申为具体藏于胸前的部位。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由具体“包藏”再引申为抽象的心意、志向。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由思念、怀想发展为安抚、怀柔之意，多见于古文。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "由“安抚”引申为“使归附、归向”之意，多用于对人或族群。"
+    }
+  ]
+}

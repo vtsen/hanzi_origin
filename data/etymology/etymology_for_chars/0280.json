@@ -1,0 +1,91 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "吐气，呼气。",
+      "examples": [
+        "乎，吐气也。",
+        "甲骨文初用于“呼吸”之义。"
+      ],
+      "traditional_char": "乎"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "呼唤，召唤。",
+      "examples": [
+        "王乎史虢生册令颂。",
+        "呼号乎。"
+      ],
+      "traditional_char": "乎"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "particle",
+      "meaning": "句末语气词，表示疑问、反问、感叹、祈使、推测、停顿、商榷、肯定等多种语气。",
+      "examples": [
+        "汝识之乎？",
+        "中庸之为德也，其至矣乎！",
+        "长铗归来乎！",
+        "学有难易乎。"
+      ],
+      "traditional_char": "乎"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "preposition",
+      "meaning": "介词，相当于“于”，表示处所、对象、原因、准则、比较等。",
+      "examples": [
+        "浴乎沂，风乎舞雩。",
+        "德荡乎名，知出乎争。",
+        "楚人生乎楚，长乎楚。"
+      ],
+      "traditional_char": "乎"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "auxiliary",
+      "meaning": "用于形容词或副词后作后缀，无实际语义，但使语气舒缓或形成书面色彩。",
+      "examples": [
+        "巍巍乎其有成功也。",
+        "郁郁乎文哉！",
+        "热乎乎的。"
+      ],
+      "traditional_char": "乎"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意字，上部象声音上扬，下部象舒气之形，表示吐气。“乎”为“呼”之本字，后分化。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "“吐气”引申为“呼唤、召唤”，取呼声意，先秦可见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "grammaticalization",
+      "note": "由呼气、发声引申为句末语气词，表达疑问、感叹等。汉语语法化现象。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "grammaticalization",
+      "note": "从语气词功能进一步语法化为介词“于、在”等，春秋战国之后通用。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 4,
+      "evolution_type": "grammaticalization",
+      "note": "由语气助词功能延伸作形容词或副词的后缀，用于修饰词尾。"
+    }
+  ]
+}

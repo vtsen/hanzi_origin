@@ -1,0 +1,87 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "木星的名称，岁星。",
+      "examples": [
+        "岁星，天官书。",
+        "岁在乙卯。"
+      ],
+      "traditional_char": "歲"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "年，一年的时间单位。",
+      "examples": [
+        "岁月如梭。",
+        "新年伊始，万象更新。"
+      ],
+      "traditional_char": "歲"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "一年的收成，年景。",
+      "examples": [
+        "岁凶则民饥。",
+        "歉岁之时。"
+      ],
+      "traditional_char": "歲"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "年龄。",
+      "examples": [
+        "年岁渐长。",
+        "周岁。"
+      ],
+      "traditional_char": "歲"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "指时间，光阴。",
+      "examples": [
+        "岁月悠悠。",
+        "流年似水。"
+      ],
+      "traditional_char": "歲"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“歲”为形声字，从“步”表意（表示运行、经历）、“戌”表声，最初指木星的称谓。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "以木星绕天一周为一年，由星名转指年，战国以来通用。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由“年”引申为一年的收成，汉代文献可见。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由“年”进一步指年龄，用于计算人寿。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由“年”广泛引申为时光、光阴。"
+    }
+  ]
+}

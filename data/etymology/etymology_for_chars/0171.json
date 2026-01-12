@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "分辨，识别",
+      "examples": [
+        "认生",
+        "认得",
+        "辨认"
+      ],
+      "traditional_char": "認"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "表示同意，承认",
+      "examples": [
+        "认可",
+        "认账"
+      ],
+      "traditional_char": "認"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "与本来无关系的人建立某种关系",
+      "examples": [
+        "认亲",
+        "认干爹"
+      ],
+      "traditional_char": "認"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "承认失败、错误等（多用于口语）",
+      "examples": [
+        "这事没办成，我认了。"
+      ],
+      "traditional_char": "認"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从言，忍声，表示‘认识、辨明’之义。‘言’为意符，‘忍’为声符。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘分辨、识别’引申为‘同意、承认’，常见于抽象层面的拓展。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由辨识关系，引申为与人建立社会关系。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由‘承认’进一步引申为‘认输’‘认错’等口头用法。"
+    }
+  ]
+}

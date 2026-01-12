@@ -1,0 +1,198 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "拖长声音大声呼叫",
+      "examples": [
+        "呼号",
+        "号叫"
+      ],
+      "traditional_char": "號"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "大声哭泣",
+      "examples": [
+        "哀号",
+        "号丧",
+        "号啕大哭"
+      ],
+      "traditional_char": "號"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "名称",
+      "examples": [
+        "字号",
+        "国号",
+        "年号"
+      ],
+      "traditional_char": "號"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "别号，外号",
+      "examples": [
+        "青莲居士是李白的号"
+      ],
+      "traditional_char": "號"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "记号，标志",
+      "examples": [
+        "信号",
+        "暗号"
+      ],
+      "traditional_char": "號"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "排定的次序或等级",
+      "examples": [
+        "编号",
+        "号码"
+      ],
+      "traditional_char": "號"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "扬言，宣称",
+      "examples": [
+        "号称"
+      ],
+      "traditional_char": "號"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "noun",
+      "meaning": "指某种人员（如‘病号’）",
+      "examples": [
+        "病号",
+        "伤号"
+      ],
+      "traditional_char": "號"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "verb",
+      "meaning": "标上记号",
+      "examples": [
+        "号房子",
+        "把这件东西号上"
+      ],
+      "traditional_char": "號"
+    },
+    {
+      "index": 9,
+      "part_of_speech": "noun",
+      "meaning": "号令，命令",
+      "examples": [
+        "发号施令",
+        "号召"
+      ],
+      "traditional_char": "號"
+    },
+    {
+      "index": 10,
+      "part_of_speech": "noun",
+      "meaning": "军队或乐队用的西式喇叭",
+      "examples": [
+        "吹号",
+        "号兵"
+      ],
+      "traditional_char": "號"
+    },
+    {
+      "index": 11,
+      "part_of_speech": "numeral",
+      "meaning": "量词，用于人数",
+      "examples": [
+        "昨天去了几十号人"
+      ],
+      "traditional_char": "號"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘號’为会意兼形声字，‘号’古字，上部为‘口’表示叫喊，下部为‘虎’兼表声，表示大声呼叫"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由大声呼叫引申为大声哭泣，早期文献中用法已见"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "名称如同呼叫出的标志，转指‘名号’"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_narrowing",
+      "note": "由一般名称专指别号、外号"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "由声音的呼叫转为记号，作为信息标志"
+    },
+    {
+      "source_index": 4,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "由记号义引申为顺序、等级的编号"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "semantic_extension",
+      "note": "大声呼叫引申为扬言、公开宣称"
+    },
+    {
+      "source_index": 0,
+      "target_index": 7,
+      "evolution_type": "metonymy",
+      "note": "声称、点名引申为某种被称呼的人"
+    },
+    {
+      "source_index": 4,
+      "target_index": 8,
+      "evolution_type": "function_word",
+      "note": "由‘记号’进一步动用，表示‘标上记号’"
+    },
+    {
+      "source_index": 0,
+      "target_index": 9,
+      "evolution_type": "semantic_extension",
+      "note": "由呼叫、号召引申为号令、命令"
+    },
+    {
+      "source_index": 0,
+      "target_index": 10,
+      "evolution_type": "metonymy",
+      "note": "由发出号令的声音转指乐队/军中的西式喇叭"
+    },
+    {
+      "source_index": 5,
+      "target_index": 11,
+      "evolution_type": "function_word",
+      "note": "编号义动用为量词，人之顺序编号"
+    }
+  ]
+}

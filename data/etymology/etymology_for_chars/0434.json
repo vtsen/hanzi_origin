@@ -1,0 +1,44 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "小岛",
+      "examples": [
+        "岛屿",
+        "海中有屿"
+      ],
+      "traditional_char": "屿"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "小岛",
+      "examples": [
+        "岛嶼",
+        "孤嶼远望"
+      ],
+      "traditional_char": "嶼"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "屿为形声字，从山，与声，表示小岛。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "嶼为形声字，从山，與声，表小岛，与屿为异体。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "reanalysis",
+      "note": "简化字改革将‘嶼’简化为‘屿’，二者意义一致，可相互转换。"
+    }
+  ]
+}

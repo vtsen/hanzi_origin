@@ -1,0 +1,86 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "一种猿类动物",
+      "examples": [
+        "猶又似猴而大，尾长。——《说文》"
+      ],
+      "traditional_char": "猶"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adverb",
+      "meaning": "相似，如同",
+      "examples": [
+        "过犹不及",
+        "犹如往昔"
+      ],
+      "traditional_char": "猶"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adverb",
+      "meaning": "尚且",
+      "examples": [
+        "犹且如此",
+        "困兽犹斗"
+      ],
+      "traditional_char": "猶"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "迟疑，踌躇不决（用于‘犹豫’、‘犹疑’）",
+      "examples": [
+        "犹豫不决",
+        "犹疑未定"
+      ],
+      "traditional_char": "猶"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adverb",
+      "meaning": "仍然，还",
+      "examples": [
+        "记忆犹新",
+        "旧情犹在"
+      ],
+      "traditional_char": "猶"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从犬，酋声，最初表示一种猿类动物。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由猿类行为比喻相似，如同，见于先秦文献。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由“相似”引申为仍然、尚且，多见于文言文。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由“相似”义引申为内心踌躇、摇摆未决（犹豫，犹疑）。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由“尚且”进一步发展为“仍然、还”，用于表达持续状态。"
+    }
+  ]
+}

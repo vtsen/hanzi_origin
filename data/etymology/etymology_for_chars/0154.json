@@ -1,0 +1,159 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "空气流动的自然现象，尤指空气水平流动",
+      "examples": [
+        "风向",
+        "风速",
+        "风级"
+      ],
+      "traditional_char": "風"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "像风一样迅速、普遍",
+      "examples": [
+        "风潮",
+        "风驰电掣"
+      ],
+      "traditional_char": "風"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "社会上长期形成的礼节、习俗",
+      "examples": [
+        "风气",
+        "风习",
+        "风物",
+        "风尚"
+      ],
+      "traditional_char": "風"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "消息、传闻、风声",
+      "examples": [
+        "风传",
+        "闻风而动"
+      ],
+      "traditional_char": "風"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "表现在外的景象、态度、举止以及文艺作品特色",
+      "examples": [
+        "风景",
+        "风度",
+        "风格",
+        "风骨",
+        "风致",
+        "风采",
+        "风骚"
+      ],
+      "traditional_char": "風"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "民歌、歌谣（特指《诗经》中的“国风”）",
+      "examples": [
+        "国风",
+        "采风"
+      ],
+      "traditional_char": "風"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "中医学指某些病症",
+      "examples": [
+        "风瘫",
+        "风湿"
+      ],
+      "traditional_char": "風"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [],
+      "traditional_char": "風"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "verb",
+      "meaning": "讽刺，批评（古义，同“讽”）",
+      "examples": [],
+      "traditional_char": "風"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从虫，凡声，本指空气流动，后简化为‘风’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "以风之迅速普遍，比喻事物发展迅猛，古今皆有"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由自然之风引申为社会气氛、风俗"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "以风传递速度比喻消息流传"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "由风为外在环境，延伸为人的仪表、文艺风格"
+    },
+    {
+      "source_index": 2,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "社会风气进一步引申为个人品格和文艺风格"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "metaphor",
+      "note": "‘风’为民间流行之意，引申指民歌"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "metaphor",
+      "note": "中医以风为致病邪气，古已有之"
+    },
+    {
+      "source_index": 0,
+      "target_index": 7,
+      "evolution_type": "unknown",
+      "note": "用作姓氏，语源不明"
+    },
+    {
+      "source_index": 0,
+      "target_index": 8,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "古作‘讽’的通假用法，因音近借用"
+    }
+  ]
+}

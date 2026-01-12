@@ -1,0 +1,43 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "投掷、扔出、丢弃",
+      "examples": [
+        "抛掷",
+        "抛撒",
+        "抛洒",
+        "抛售"
+      ],
+      "traditional_char": "拋"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "舍弃、丢下、不再保留",
+      "examples": [
+        "抛弃",
+        "抛荒",
+        "抛却",
+        "抛头露面"
+      ],
+      "traditional_char": "拋"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从手，包声。本义为投掷、丢弃。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由具体动作引申为舍弃、丢下，用于抽象事物，秦汉以后见用。"
+    }
+  ]
+}

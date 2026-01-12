@@ -1,0 +1,104 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "抬起腿来跨步、前行",
+      "examples": [
+        "迈步向前",
+        "大步迈进",
+        "一步一迈"
+      ],
+      "traditional_char": "邁"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "远行；行走很远的路程",
+      "examples": [
+        "远迈重洋",
+        "千里之行，始于足下"
+      ],
+      "traditional_char": "邁"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "年老；高龄",
+      "examples": [
+        "老迈",
+        "年迈体弱"
+      ],
+      "traditional_char": "邁"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "豪放，不拘小节",
+      "examples": [
+        "性格豪迈",
+        "气度豪迈"
+      ],
+      "traditional_char": "邁"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "超过，胜过",
+      "examples": [
+        "后来者居上，青出于蓝而胜于蓝，可迈前辈",
+        "三王可迈，五帝可越"
+      ],
+      "traditional_char": "邁"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "英里，亦用作公里的口语量词",
+      "examples": [
+        "时速100迈",
+        "一小时行驶80迈"
+      ],
+      "traditional_char": "邁"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "形声字，从辵，夲声，本义为远行，‘辶’表运动、行走，夲表音。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_narrowing",
+      "note": "由广义的远行发展为狭义的迈步（抬腿跨步），语义收缩。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由‘迈步、前行’转喻为‘年老’，即生命已行至远处，年龄增长。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "‘远行’引申为‘豪放、不拘小节’，比喻人的性格、气度。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "‘远行’引申为‘超过、超越’，意指跨越距离至更高的层次。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "function_word",
+      "note": "‘迈’用作距离单位‘英里’，与行走、移动的距离相关。"
+    }
+  ]
+}

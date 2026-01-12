@@ -1,0 +1,87 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "芥菜，一年或二年生草本植物，种子黄色，味辛辣，可作调味品。",
+      "examples": [
+        "脍，春用葱，秋用芥。——《礼记·内则》",
+        "比得芥菜子大小的官职，值得恁地逞能。——《智取生辰纲》",
+        "〔芥菜〕亦作“盖菜”。"
+      ],
+      "traditional_char": "芥"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "小草。",
+      "examples": [
+        "芥为之舟。——《庄子·逍遥游》",
+        "子孙视之不甚惜，举以予人，如弃草芥。——《六国论》"
+      ],
+      "traditional_char": "芥"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "细微、轻贱的事物，比喻极小的东西。",
+      "examples": [
+        "遂于蒿莱中侧听徐行，似寻针芥。——《聊斋志异·促织》",
+        "以纤芥之疾也。——黄宗羲《原臣》"
+      ],
+      "traditional_char": "芥"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "梗塞物，比喻心中怨恨、不快。",
+      "examples": [
+        "恨无乖崖老，一洗芥蒂胸。——苏轼《送路都曹》",
+        "一切皆是闲言闲语，政府闻之已熟，岂有一焉能芥其胸者。——梁启超"
+      ],
+      "traditional_char": "芥"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "（方言）芥菜的变种，叶大多皱纹，叶脉显著，可食。亦作“盖菜”。",
+      "examples": [
+        "〔芥菜〕一年生草本植物，芥菜的变种，叶大，表面多皱纹，叶脉显著，可食。亦作“盖菜”。"
+      ],
+      "traditional_char": "芥"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从艸，介声，本义指芥菜。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_narrowing",
+      "note": "芥菜的变种，地域和品种分化，用作方言亦作“盖菜”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由芥菜引申为一般小草。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "小草比喻极细微、轻贱之物。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "极细微之物引申为内心细小的梗塞或芥蒂。"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "缝织衣物引线用的一种细长的工具",
+      "examples": [
+        "针线活",
+        "针脚细密",
+        "她用针缝衣服"
+      ],
+      "traditional_char": "針"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "细长像针的东西",
+      "examples": [
+        "松针",
+        "指南针的时针",
+        "钢针"
+      ],
+      "traditional_char": "針"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "用针扎治病",
+      "examples": [
+        "针灸疗法",
+        "医生给他针灸"
+      ],
+      "traditional_char": "針"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "注射用的器具和药物",
+      "examples": [
+        "打针",
+        "针头",
+        "吃药不如打针快"
+      ],
+      "traditional_char": "針"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“針”为形声字，从金，咸声；本义为缝衣的用具，金属制。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由专指缝衣用具，引申为一切细长如针的物体。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "以针作为医疗用具，代表针灸治疗方法。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "形似针的注射器材，借指注射及其用具。"
+    }
+  ]
+}

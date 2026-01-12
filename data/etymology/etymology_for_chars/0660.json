@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "以强力使对方欲去而不得，强行夺取",
+      "examples": [
+        "强劫其财",
+        "劫掠为生"
+      ],
+      "traditional_char": "劫"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "用威胁、压迫的手段使人顺从或受制",
+      "examples": [
+        "劫持人质",
+        "遭他人劫制"
+      ],
+      "traditional_char": "劫"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "灾难，特别指佛教意义上的劫数",
+      "examples": [
+        "浩劫之后",
+        "劫难重重",
+        "劫后余生"
+      ],
+      "traditional_char": "劫"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意字，从力，表示以武力制止他人离去，表示用强力胁持。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘以强力强取’引申为‘威逼挟制’的动作。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "抽象化为灾难，特别为佛教义中的‘劫数’。"
+    }
+  ]
+}

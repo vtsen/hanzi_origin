@@ -1,0 +1,58 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "水势很大，向上涌腾。",
+      "examples": [
+        "波涛汹涌",
+        "大江动我前，汹若溟渤宽。",
+        "填其汹渊，毋使水清。"
+      ],
+      "traditional_char": "洶"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "形容声音大，喧扰。",
+      "examples": [
+        "飘风来之汹汹。",
+        "议论汹汹",
+        "气势汹汹"
+      ],
+      "traditional_char": "洶"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "形容纷扰或气势盛大，多含贬义。",
+      "examples": [
+        "天下汹汹",
+        "来势汹汹",
+        "汹怖"
+      ],
+      "traditional_char": "洶"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，匈声，本义为水涌腾，指水势盛。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由水流涌动声势引申为声音大、喧扰，用典见《尚书大传》。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由水势盛引申为形容人的气势、社会情势等盛大或纷扰，经常用于含贬义的语境。"
+    }
+  ]
+}

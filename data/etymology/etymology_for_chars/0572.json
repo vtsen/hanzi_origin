@@ -1,0 +1,197 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "山的南面或水的北面",
+      "examples": [
+        "洛阳在洛河之北，故名洛阳。",
+        "衡阳在衡山之南。"
+      ],
+      "traditional_char": "陽"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "中国古代哲学认为宇宙中通贯所有物质的两大对立面之一，与“阴”相对",
+      "examples": [
+        "阴阳二气。",
+        "一阴一阳谓之道。"
+      ],
+      "traditional_char": "陽"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "太阳",
+      "examples": [
+        "阳光明媚。",
+        "向阳而生。"
+      ],
+      "traditional_char": "陽"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "明亮",
+      "examples": [
+        "屋内阳明。"
+      ],
+      "traditional_char": "陽"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "温暖",
+      "examples": [
+        "阳春白雪。"
+      ],
+      "traditional_char": "陽"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "adjective",
+      "meaning": "外露的，明显的",
+      "examples": [
+        "阳奉阴违。",
+        "阳沟。"
+      ],
+      "traditional_char": "陽"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "adjective",
+      "meaning": "凸出的",
+      "examples": [
+        "阳文图章。"
+      ],
+      "traditional_char": "陽"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "noun",
+      "meaning": "关于活人的",
+      "examples": [
+        "阳间。",
+        "阳宅。"
+      ],
+      "traditional_char": "陽"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "adjective",
+      "meaning": "带正电的",
+      "examples": [
+        "阳极。",
+        "阳离子。"
+      ],
+      "traditional_char": "陽"
+    },
+    {
+      "index": 9,
+      "part_of_speech": "noun",
+      "meaning": "男性生殖器",
+      "examples": [
+        "阳痿。"
+      ],
+      "traditional_char": "陽"
+    },
+    {
+      "index": 10,
+      "part_of_speech": "verb",
+      "meaning": "假装（通“佯”）",
+      "examples": [],
+      "traditional_char": "陽"
+    },
+    {
+      "index": 11,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "阳某。"
+      ],
+      "traditional_char": "陽"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从阜，表示与地形相关，昜表音，初指山的南面或水的北面。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "山南水北常受日照，转指太阳。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "山南水北向阳，日照多，转义为明亮。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "日照多则温暖，由地理意义引出‘温暖’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "metaphor",
+      "note": "因阳面突出，凸出用于“阳文”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "阴阳观念扩展自地理方位哲学，山南（阳）与山北（阴）对立，后泛指宇宙两极。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "metaphor",
+      "note": "由哲学‘阳’引申为外露、明显，与‘阴’（隐蔽）相对。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 8,
+      "evolution_type": "metaphor",
+      "note": "现代物理用语借用‘阳’表达带正电，与‘阴’对比。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 7,
+      "evolution_type": "metaphor",
+      "note": "古代‘阳’指人世间、活人世界，对比“阴间”。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 9,
+      "evolution_type": "metonymy",
+      "note": "‘阳’与男性对应，引申为男性生殖器。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "太阳有温暖之意。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "synecdoche",
+      "note": "‘明亮’可引申为‘温暖’。"
+    },
+    {
+      "source_index": 10,
+      "target_index": 1,
+      "evolution_type": "reanalysis",
+      "note": "古与‘佯’通用，后意义分化。"
+    }
+  ]
+}

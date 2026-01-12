@@ -1,0 +1,63 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "武器，兵器",
+      "examples": [
+        "兵器",
+        "兵不血刃"
+      ],
+      "traditional_char": "兵"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "战士，军队",
+      "examples": [
+        "兵士",
+        "兵卒",
+        "兵丁",
+        "兵戎相见"
+      ],
+      "traditional_char": "兵"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "与军事或战争有关的事物的统称",
+      "examples": [
+        "兵法",
+        "兵家",
+        "兵机",
+        "兵衅",
+        "兵书",
+        "兵谏",
+        "兵荒马乱",
+        "兵贵神速"
+      ],
+      "traditional_char": "兵"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "从廾持斤，象双手持兵器之形，会意字，表示武器。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由兵器指代持武器的战士或集体，西周至春秋已见。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由军队人物扩大泛指与军事、战争相关的各类事物，用法较晚，多见于先秦、汉以后。"
+    }
+  ]
+}

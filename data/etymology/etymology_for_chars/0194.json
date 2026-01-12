@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "祭祀用的祭台；地神",
+      "examples": [
+        "乃命祝丐示牺牲，以告于神。"
+      ],
+      "traditional_char": "示"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "表明、指出、显示",
+      "examples": [
+        "示意",
+        "示警",
+        "请示",
+        "示众"
+      ],
+      "traditional_char": "示"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "对来信的敬称（用于书信中指对方的函件）",
+      "examples": [
+        "承赐示，谨谢",
+        "大作奉示"
+      ],
+      "traditional_char": "示"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意。从上、“二”、三竖象征祭台或上天，甲骨文象祭台形。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“祭祀、祭台”引申为“显示、表明”，由于祭祀本是向神明或祖先表达意愿。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "amelioration",
+      "note": "书信用法为敬辞，表示尊敬对方来信，由表明、显示义演变而来。"
+    }
+  ]
+}

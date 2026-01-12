@@ -1,0 +1,80 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "两山之间狭长而有出口的低地，往往有流水道",
+      "examples": [
+        "山谷",
+        "河谷",
+        "身处幽谷"
+      ],
+      "traditional_char": "谷"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "困境，进退维谷，形容处境艰难",
+      "examples": [
+        "进退维谷"
+      ],
+      "traditional_char": "谷"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "庄稼和粮食的总称",
+      "examples": [
+        "五谷丰登",
+        "百谷"
+      ],
+      "traditional_char": "穀"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "粟的别称，或指稻的子实",
+      "examples": [
+        "谷物",
+        "谷米",
+        "稻谷"
+      ],
+      "traditional_char": "穀"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "谷先生"
+      ],
+      "traditional_char": "谷"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "“谷”字为会意字，上部象水流、下部象谷口，古文字形。当初专指山间水流出口或低地。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 2,
+      "note": "“穀”为形声字，从“禾”，谷声，本义为谷物或粟米，后泛指粮食。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由实际的山谷引申比喻为困境，见于先秦时期。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_narrowing",
+      "note": "由粮食总称缩小化为粟米或稻谷的专称。"
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "理丝，将散乱的丝理顺",
+      "examples": [
+        "妇人理丝为织，此曰乱丝。"
+      ],
+      "traditional_char": "亂"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "没有秩序，杂乱",
+      "examples": [
+        "凌乱",
+        "混乱",
+        "乱七八糟"
+      ],
+      "traditional_char": "亂"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "社会动荡，战争，武装骚扰",
+      "examples": [
+        "政乱",
+        "乱世",
+        "平乱"
+      ],
+      "traditional_char": "亂"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "混淆，弄乱伦理或常理",
+      "examples": [
+        "乱伦",
+        "败常乱俗"
+      ],
+      "traditional_char": "亂"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "任意，随便做某事",
+      "examples": [
+        "乱吃",
+        "乱跑"
+      ],
+      "traditional_char": "亂"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "男女关系不正当",
+      "examples": [
+        "淫乱"
+      ],
+      "traditional_char": "亂"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "横渡（水流），渡过水流",
+      "examples": [
+        "乱流"
+      ],
+      "traditional_char": "亂"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "verb",
+      "meaning": "治理，整治",
+      "examples": [
+        "乱臣"
+      ],
+      "traditional_char": "亂"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "noun",
+      "meaning": "古代乐曲结尾或辞赋总括部分",
+      "examples": [
+        "乱曰：‘大道之行也，天下为公’"
+      ],
+      "traditional_char": "亂"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "上下两手整理丝的象形，会意字，反映初义为理丝。传统字形为亂。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从理顺丝的动作引申为丝线杂乱，再泛化为事物整体的无序。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由事物无序比喻社会动荡、战乱局势，战国及汉以降普及。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由杂乱引申为伦理道德被混淆，史见‘乱伦’。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "无序引申为任意妄为，随意行为。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 5,
+      "evolution_type": "semantic_narrowing",
+      "note": "伦理关系混乱下具体指向男女关系不正当。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 6,
+      "evolution_type": "metonymy",
+      "note": "‘乱流’本指水乱，转指横渡水流。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 7,
+      "evolution_type": "semantic_extension",
+      "note": "原意理丝，后引申为治理、整治秩序。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 8,
+      "evolution_type": "metonymy",
+      "note": "乐章材料繁复无序，因而置于末章总结段落称‘乱’。"
+    }
+  ]
+}

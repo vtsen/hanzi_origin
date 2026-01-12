@@ -1,0 +1,59 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "心脏，人体或动物体内主管血液循环的器官",
+      "examples": [
+        "心跳",
+        "心脏病",
+        "心律"
+      ],
+      "traditional_char": "心"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "中央，事物的中心、枢纽或主要部分",
+      "examples": [
+        "市中心",
+        "问题的核心",
+        "心腹之地"
+      ],
+      "traditional_char": "心"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "思想、感情、心理等内在精神活动的统称",
+      "examples": [
+        "心理",
+        "衷心",
+        "心扉",
+        "心旷神怡"
+      ],
+      "traditional_char": "心"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "pictograph",
+      "original_sense_index": 0,
+      "note": "象形字，甲骨文形如心脏，外围勾画为心脏外形。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "以心脏为中心，引申为事物的中心或枢纽。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "古人视心脏为思想和感情的所在，由此转喻精神和心理。"
+    }
+  ]
+}

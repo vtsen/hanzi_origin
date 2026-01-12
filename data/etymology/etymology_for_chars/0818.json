@@ -1,0 +1,70 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "雌性生殖细胞，卵子。",
+      "examples": [
+        "卵子",
+        "卵巢"
+      ],
+      "traditional_char": "卵"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "动物的蛋（尤指带壳的蛋）。",
+      "examples": [
+        "卵生",
+        "鱼卵",
+        "鸟卵"
+      ],
+      "traditional_char": "卵"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "昆虫学上指受精卵，即发育的第一阶段。",
+      "examples": [
+        "昆虫的卵经过孵化变为幼虫。"
+      ],
+      "traditional_char": "卵"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "男子睾丸的俗称。",
+      "examples": [
+        "挨了一脚，卵都疼了。"
+      ],
+      "traditional_char": "卵"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "pictograph",
+      "original_sense_index": 0,
+      "note": "小篆作象形，形似卵子，意为雌性生殖细胞。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从雌性生殖细胞引申为动物产下的蛋，多指带壳的蛋。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_narrowing",
+      "note": "在昆虫学领域，指受精后可发育为新个体的阶段。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由蛋的形状比喻男性睾丸，属俗称用法。"
+    }
+  ]
+}

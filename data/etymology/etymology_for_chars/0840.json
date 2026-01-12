@@ -1,0 +1,120 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "东西墙",
+      "examples": [
+        "序，即东西墙。——《说文》"
+      ],
+      "traditional_char": "序"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "次第、顺序",
+      "examples": [
+        "顺序",
+        "秩序",
+        "工序",
+        "程序",
+        "序数"
+      ],
+      "traditional_char": "序"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "排列次第",
+      "examples": [
+        "序列",
+        "序次"
+      ],
+      "traditional_char": "序"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "开头的，在正式内容之前的文字或部分",
+      "examples": [
+        "序言",
+        "序曲",
+        "序幕",
+        "序论"
+      ],
+      "traditional_char": "序"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "古代指送别赠言的文字",
+      "examples": [
+        "赠序"
+      ],
+      "traditional_char": "序"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "指季节",
+      "examples": [
+        "四序"
+      ],
+      "traditional_char": "序"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "古代地方办的学校",
+      "examples": [
+        "庠序"
+      ],
+      "traditional_char": "序"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从“广”表示与建筑物相关、“予”声，本义为东西墙。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由“东西墙”引申为划分空间的次第、秩序，见汉代用例。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "conversion",
+      "note": "从名词“顺序”转为动词“排列次第”。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "顺序、开头，引申为文章的前言、开头部分。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "前言、文字的开头扩展为赠别用的序文，汉魏见用。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "metaphor",
+      "note": "事物的顺序，进一步引申为四季更替的顺序。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "metaphor",
+      "note": "东西墙为庠序结构部分，借指学校。"
+    }
+  ]
+}

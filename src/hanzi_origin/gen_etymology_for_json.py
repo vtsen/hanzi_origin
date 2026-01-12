@@ -87,5 +87,5 @@ def generate_etymology_files(
 if __name__ == '__main__':
     generate_etymology_files("chars.json",
                              model="gpt-4.1",
-                             max_chars=1000,
+                             max_chars=5000,
                              )

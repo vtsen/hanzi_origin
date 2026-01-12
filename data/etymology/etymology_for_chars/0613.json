@@ -1,0 +1,68 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "用手轻轻地按或摩擦。",
+      "examples": [
+        "抚摸",
+        "抚琴",
+        "抚今追昔"
+      ],
+      "traditional_char": "撫"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "安慰、慰问。",
+      "examples": [
+        "抚慰",
+        "抚恤"
+      ],
+      "traditional_char": "撫"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "扶持，保护或养育。",
+      "examples": [
+        "抚养成人"
+      ],
+      "traditional_char": "撫"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "用手拍（同“拊”）。",
+      "examples": [],
+      "traditional_char": "撫"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘撫/抚’为形声字，从手，无声，表示手的动作，与抚摩相关。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由抚摩引申为以抚慰人心，见于早期文献。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由安慰、慰问延伸为抚育、保护。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "reanalysis",
+      "note": "与“拊”混用，语义混合，自汉代后常见。"
+    }
+  ]
+}

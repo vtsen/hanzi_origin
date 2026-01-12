@@ -1,0 +1,100 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古代的一种礼帽，即“冕”",
+      "examples": [
+        "天子之冕十二旒。",
+        "冠冕堂皇"
+      ],
+      "traditional_char": "免"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "免除，去掉",
+      "examples": [
+        "免税",
+        "免职",
+        "免检"
+      ],
+      "traditional_char": "免"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "避免，不被涉及",
+      "examples": [
+        "避免",
+        "难以幸免",
+        "免疫"
+      ],
+      "traditional_char": "免"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adverb",
+      "meaning": "不可，不要（用作禁止语气）",
+      "examples": [
+        "闲人免进"
+      ],
+      "traditional_char": "免"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "勉励（古义，通“勉”）",
+      "examples": [
+        "免力从事"
+      ],
+      "traditional_char": "免"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "分娩（古义，通“娩”）",
+      "examples": [],
+      "traditional_char": "免"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "下为“人”形，上部像冠冕形，表示“冕”的本字，属于会意字。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "假借为“免除、去掉”义，《说文》已有。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由“免除”引申为“避免，不受影响”。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "grammaticalization",
+      "note": "动词“免”用作禁令副词，近现代用法。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "通“勉”，本为通假用法，见于古籍。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "通“娩”，本为通假用法，见于古籍。"
+    }
+  ]
+}

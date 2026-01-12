@@ -1,0 +1,107 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "废弃的房屋",
+      "examples": [
+        "《说文》：困，废屋也。"
+      ],
+      "traditional_char": "困"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "陷在艰难痛苦或无法摆脱的环境中",
+      "examples": [
+        "困厄",
+        "困守孤城"
+      ],
+      "traditional_char": "困"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "穷苦、艰难",
+      "examples": [
+        "困苦",
+        "家境困难"
+      ],
+      "traditional_char": "困"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "包围",
+      "examples": [
+        "围困",
+        "困守"
+      ],
+      "traditional_char": "困"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "疲乏",
+      "examples": [
+        "困乏",
+        "困倦"
+      ],
+      "traditional_char": "睏"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "想睡，睡觉",
+      "examples": [
+        "困觉",
+        "夜困人静"
+      ],
+      "traditional_char": "睏"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意字，从囗表示四壁，木表室内的树木，指废弃的房屋。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 4,
+      "note": "“睏”从目，困声，表示因疲劳而欲睡，与睡眠相关。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "从废弃的小屋比喻陷于困境，先秦已见。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_narrowing",
+      "note": "由广义的困境狭化为专指经济穷苦状态，语义范围变窄。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由被困境引申为被包围，困守城邑等。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_shift",
+      "note": "废弃寂静的状态引申为疲乏，古今语义变迁。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "疲劳进一步引申为想睡与睡觉（动作）。"
+    }
+  ]
+}

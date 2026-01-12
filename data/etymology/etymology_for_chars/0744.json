@@ -1,0 +1,105 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "合拢嘴唇用力呼气",
+      "examples": [
+        "吹气球",
+        "吹灯",
+        "吹灰之力"
+      ],
+      "traditional_char": "吹"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "用口发声或用风使乐器响起（引申为吹奏乐器）",
+      "examples": [
+        "吹鼓手",
+        "吹笛子",
+        "吹唢呐"
+      ],
+      "traditional_char": "吹"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "说大话，夸耀自己",
+      "examples": [
+        "不要吹牛",
+        "他很会吹"
+      ],
+      "traditional_char": "吹"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "类似吹的动作，如风吹动事物",
+      "examples": [
+        "风吹草动",
+        "吹拂"
+      ],
+      "traditional_char": "吹"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "事情失败、告吹",
+      "examples": [
+        "计划又吹了",
+        "谈判吹台"
+      ],
+      "traditional_char": "吹"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "消息流传、鼓动宣传",
+      "examples": [
+        "鼓吹革命",
+        "四处吹风"
+      ],
+      "traditional_char": "吹"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意字，从“口”表示用口发声，与“欠”表示出气有关，表合唇呼气之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从单纯呼气引申为吹奏乐器，见于古籍中乐器吹奏用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "从口中呼气到一般风的吹动动作，是外延扩展。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由吹奏乐器声大，引申为说大话、夸张，比喻性演变。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "由风吹导致灭亡、消失，比喻事情失败或告吹。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "metaphor",
+      "note": "呼气传播，引申为消息、舆论、宣传的传递、鼓动作用。"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "曲折，绕远",
+      "examples": [
+        "道路迂回曲折",
+        "他走了一条迂缓的小路"
+      ],
+      "traditional_char": "迂"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "言行或见解陈旧不合时宜",
+      "examples": [
+        "他的观点十分迂腐",
+        "此人迂气太重",
+        "书生就怕太迂"
+      ],
+      "traditional_char": "迂"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从辶（行走、道路），于声，本义为曲折绕远"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "古人以道路曲折绕远喻为思想或言行不合时宜（比喻义），见晚古用法"
+    }
+  ]
+}

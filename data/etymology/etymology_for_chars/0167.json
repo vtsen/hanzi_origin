@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "回想，想念",
+      "examples": [
+        "追忆往事",
+        "回忆童年"
+      ],
+      "traditional_char": "憶"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "记得，记住",
+      "examples": [
+        "记忆犹新",
+        "他还能忆起小时候的事情"
+      ],
+      "traditional_char": "憶"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从心，意声；“憶”为本字，表示思念、回想，与初义一致。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由思念、回想，引申为记住、记得之意，见于汉代文献用法。"
+    }
+  ]
+}

@@ -1,0 +1,193 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "一年四季中的一季，季节。",
+      "examples": [
+        "四时如春",
+        "时序更迭"
+      ],
+      "traditional_char": "時"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "时间的过程，事物发展的连续过程。",
+      "examples": [
+        "时间就是金钱",
+        "时不我与"
+      ],
+      "traditional_char": "時"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "较长的时间段，时代。",
+      "examples": [
+        "现代社会是信息时代",
+        "古时风貌"
+      ],
+      "traditional_char": "時"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "一段时间，时期。",
+      "examples": [
+        "光阴似箭",
+        "时光荏苒"
+      ],
+      "traditional_char": "時"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "现在的，当前的。",
+      "examples": [
+        "当时",
+        "时下流行"
+      ],
+      "traditional_char": "時"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "adverb",
+      "meaning": "经常、常常。",
+      "examples": [
+        "时常来往",
+        "学而时习之"
+      ],
+      "traditional_char": "時"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "古代记时单位，一昼夜的十二分之一，即“时辰”。",
+      "examples": [
+        "午时三刻",
+        "子时已过"
+      ],
+      "traditional_char": "時"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "noun",
+      "meaning": "现代记时单位，一昼夜的二十四分之一，小时。",
+      "examples": [
+        "一小时",
+        "时钟"
+      ],
+      "traditional_char": "時"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "noun",
+      "meaning": "某一具体的时刻。",
+      "examples": [
+        "按时到达",
+        "关键时刻"
+      ],
+      "traditional_char": "時"
+    },
+    {
+      "index": 9,
+      "part_of_speech": "adverb",
+      "meaning": "有时候，不定时。",
+      "examples": [
+        "时而晴，时而雨",
+        "时阴时晴"
+      ],
+      "traditional_char": "時"
+    },
+    {
+      "index": 10,
+      "part_of_speech": "noun",
+      "meaning": "时机，机会。",
+      "examples": [
+        "抓住时机",
+        "待时而动"
+      ],
+      "traditional_char": "時"
+    },
+    {
+      "index": 11,
+      "part_of_speech": "other",
+      "meaning": "姓氏。",
+      "examples": [
+        "时迁",
+        "时明"
+      ],
+      "traditional_char": "時"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“時”/“时”为形声字，从日，寺声，表示与季节、时间相关。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由季节扩展为时间的广义过程，先秦已见"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "从时间过程引申为时代，东汉以降常见"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "从泛指时间过程转为具体的一段时间，汉代起"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "conversion",
+      "note": "由表示时间的名词转为形容词表示“当前的”"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "grammaticalization",
+      "note": "由表示时间转为副词，表示“经常”"
+    },
+    {
+      "source_index": 1,
+      "target_index": 6,
+      "evolution_type": "semantic_narrowing",
+      "note": "特别指古代时辰制度"
+    },
+    {
+      "source_index": 1,
+      "target_index": 7,
+      "evolution_type": "semantic_narrowing",
+      "note": "现代特指小时，受西方计时法影响，近现代形成"
+    },
+    {
+      "source_index": 1,
+      "target_index": 8,
+      "evolution_type": "semantic_narrowing",
+      "note": "指向某一具体的时间点"
+    },
+    {
+      "source_index": 1,
+      "target_index": 9,
+      "evolution_type": "grammaticalization",
+      "note": "由“有时”意义转为副词用法“时而”"
+    },
+    {
+      "source_index": 1,
+      "target_index": 10,
+      "evolution_type": "metaphor",
+      "note": "时间比喻为机遇或合适的时机，先秦已有"
+    }
+  ]
+}

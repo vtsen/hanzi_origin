@@ -1,0 +1,232 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "交付，送出",
+      "examples": [
+        "分发物资",
+        "批发商品"
+      ],
+      "traditional_char": "發"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "放，射（如放箭、发射子弹）",
+      "examples": [
+        "发射导弹",
+        "百发百中"
+      ],
+      "traditional_char": "發"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "表达，阐述",
+      "examples": [
+        "发表意见",
+        "阐发真理"
+      ],
+      "traditional_char": "發"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "散开，分散",
+      "examples": [
+        "发散思维",
+        "焕发光彩"
+      ],
+      "traditional_char": "發"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "开展，扩大",
+      "examples": [
+        "发展经济",
+        "发扬传统美德"
+      ],
+      "traditional_char": "發"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "打开，揭露",
+      "examples": [
+        "发掘宝藏",
+        "发现新大陆"
+      ],
+      "traditional_char": "發"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "产生，出现",
+      "examples": [
+        "发生变化",
+        "发愤图强"
+      ],
+      "traditional_char": "發"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "verb",
+      "meaning": "食物因发酵或水浸而膨胀",
+      "examples": [
+        "发面",
+        "豆子泡水发了"
+      ],
+      "traditional_char": "發"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "verb",
+      "meaning": "显现，显出",
+      "examples": [
+        "发病",
+        "发抖",
+        "发憷"
+      ],
+      "traditional_char": "發"
+    },
+    {
+      "index": 9,
+      "part_of_speech": "verb",
+      "meaning": "开始动作",
+      "examples": [
+        "发动汽车",
+        "发起进攻"
+      ],
+      "traditional_char": "發"
+    },
+    {
+      "index": 10,
+      "part_of_speech": "verb",
+      "meaning": "引起，开启",
+      "examples": [
+        "启发灵感",
+        "发人深省"
+      ],
+      "traditional_char": "發"
+    },
+    {
+      "index": 11,
+      "part_of_speech": "verb",
+      "meaning": "公布，宣布",
+      "examples": [
+        "发布通知",
+        "发表声明"
+      ],
+      "traditional_char": "發"
+    },
+    {
+      "index": 12,
+      "part_of_speech": "measure_word",
+      "meaning": "量词，用于枪弹、炮弹",
+      "examples": [
+        "开了一发子弹",
+        "三发炮弹"
+      ],
+      "traditional_char": "發"
+    },
+    {
+      "index": 13,
+      "part_of_speech": "noun",
+      "meaning": "人的头发，头部毛发",
+      "examples": [
+        "头发",
+        "鬓发",
+        "怒发冲冠"
+      ],
+      "traditional_char": "髮"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "‘發’为形声字，从殳，癶声，初义为放箭。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 13,
+      "note": "‘髮’为形声字，从髟，發声，专指头发，后借‘發’之音。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "由放射扩展为送出、交付。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "放射比喻为表达、阐述。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由发射义引申为分散、散开等。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "散开进一步引申为发展扩大之义。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "放射动作引申为打开、揭露。"
+    },
+    {
+      "source_index": 5,
+      "target_index": 6,
+      "evolution_type": "semantic_extension",
+      "note": "揭露动作引申为产生、出现。"
+    },
+    {
+      "source_index": 6,
+      "target_index": 7,
+      "evolution_type": "metaphor",
+      "note": "产生、出现引申为食物膨胀。"
+    },
+    {
+      "source_index": 6,
+      "target_index": 8,
+      "evolution_type": "semantic_extension",
+      "note": "产生、出现引申为显现。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 9,
+      "evolution_type": "semantic_extension",
+      "note": "放箭启动动作，引申为开始动作。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 10,
+      "evolution_type": "semantic_extension",
+      "note": "引申为引起、开启。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 11,
+      "evolution_type": "semantic_extension",
+      "note": "放出引申为发布、宣布。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 12,
+      "evolution_type": "function_word",
+      "note": "用动作次数表量，泛化为量词。"
+    }
+  ]
+}

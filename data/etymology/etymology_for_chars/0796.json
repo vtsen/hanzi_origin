@@ -1,0 +1,57 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "刺绣，用针线在丝织品上织花纹。",
+      "examples": [],
+      "traditional_char": "希"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "稀少，数量很少。",
+      "examples": [
+        "希少",
+        "希罕",
+        "希奇",
+        "希有",
+        "希世"
+      ],
+      "traditional_char": "希"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "盼望，希望得到。",
+      "examples": [
+        "希望",
+        "希冀",
+        "希图",
+        "希求"
+      ],
+      "traditional_char": "希"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意字，从‘巾’表示丝织品，从‘爻’像针线交错，表示刺绣。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_shift",
+      "note": "从刺绣细密难见，引申为稀少，见古汉语用例。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "由稀少引申为希望得到，因稀罕之物常为人所希望。"
+    }
+  ]
+}

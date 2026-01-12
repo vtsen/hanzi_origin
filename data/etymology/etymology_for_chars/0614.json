@@ -1,0 +1,88 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "用于祭祀、誓师等古代大典的土和石筑高台",
+      "examples": [
+        "天坛",
+        "地坛",
+        "登坛拜将"
+      ],
+      "traditional_char": "壇"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "用土堆成的平台",
+      "examples": [
+        "花坛"
+      ],
+      "traditional_char": "壇"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "僧道进行宗教活动的场所",
+      "examples": [
+        "神坛",
+        "法坛"
+      ],
+      "traditional_char": "壇"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "文艺界、体育界或舆论阵地",
+      "examples": [
+        "艺坛",
+        "文坛",
+        "球坛",
+        "论坛"
+      ],
+      "traditional_char": "壇"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "口小肚大的陶器，如坛子、水坛",
+      "examples": [
+        "水坛",
+        "坛子"
+      ],
+      "traditional_char": "罎"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "壇为形声字，从土，亶声，表示用土修筑的平台，用于祭祀、会盟等。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 4,
+      "note": "罎为形声字，从缶，亶声，指一种口小肚大的陶器。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由祭祀高台引申为一般用土堆的平台，见于古今。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "用于宗教仪式场所，古代佛道教吸收“坛”作法事的地方。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由实物高台喻指文艺、体育等领域或阵地，近现代产生。"
+    }
+  ]
+}

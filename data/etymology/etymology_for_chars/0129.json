@@ -1,0 +1,77 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "numeral",
+      "meaning": "十；十的倍数或分数。",
+      "examples": [
+        "什百",
+        "什一",
+        "什袭珍藏"
+      ],
+      "traditional_char": "什"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "各种，各样的。",
+      "examples": [
+        "什锦",
+        "什物"
+      ],
+      "traditional_char": "什"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "诗篇（多用于‘篇什’、‘雅什’等成语）。",
+      "examples": [
+        "篇什",
+        "雅什"
+      ],
+      "traditional_char": "什"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "pronoun",
+      "meaning": "表示疑问或指不确定的事物，多用于“什么”一词中。",
+      "examples": [
+        "什么人？",
+        "没什么问题"
+      ],
+      "traditional_char": "什"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "会意兼形声字，从人，十声，原指“十个人一组”，即十。"
+    },
+    {
+      "formation_type": "loan_character",
+      "original_sense_index": 3,
+      "note": "‘什’假借为代词用，表示疑问或泛指事物，多见于口语。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“十”为多，引申为“各种，各样”。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由“各种”引申为“诗篇”（多指各种诗文总集的篇目）。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "‘什’借为‘什么’的疑问代词用法，用作口语。"
+    }
+  ]
+}

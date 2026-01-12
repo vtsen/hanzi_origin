@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "修补破损的衣物等，使其完整。",
+      "examples": [
+        "缝补衣服",
+        "亡羊补牢"
+      ],
+      "traditional_char": "補"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "充实、补充不足之处或添上所缺。",
+      "examples": [
+        "补习",
+        "补充",
+        "弥补"
+      ],
+      "traditional_char": "補"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "益处、好处。",
+      "examples": [
+        "于事无补",
+        "不无小补"
+      ],
+      "traditional_char": "補"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从衣，甫声，最早表示补衣物。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由补衣物推广至任何修补、充实不全之物。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "由补充引申为带来益处的意思，常见于否定表达。"
+    }
+  ]
+}

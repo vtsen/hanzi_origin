@@ -1,0 +1,77 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "改变，改换",
+      "examples": [
+        "更正",
+        "更生",
+        "更衣",
+        "更定",
+        "更张"
+      ],
+      "traditional_char": "更"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "经历",
+      "examples": [
+        "少不更事"
+      ],
+      "traditional_char": "更"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "旧时夜间计时单位，一夜分为五更",
+      "examples": [
+        "更夫",
+        "更鼓",
+        "更漏",
+        "更时",
+        "更阑"
+      ],
+      "traditional_char": "更"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adverb",
+      "meaning": "更加，再",
+      "examples": [
+        "更加",
+        "更好",
+        "更上一层楼"
+      ],
+      "traditional_char": "更"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从攴，丙声。本义为“改变”。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由改变引申为“经历变迁”，见于先秦用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "原指交替变化，引申指“夜间时段轮替”，用于更点制度。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "引申为程度递增，即“更加”，可见于汉代以后。"
+    }
+  ]
+}

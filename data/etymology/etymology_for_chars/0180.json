@@ -1,0 +1,70 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "从高处掉下来；坠落。",
+      "examples": [
+        "飞鸟队地而下。"
+      ],
+      "traditional_char": "隊"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "排得整齐的行列。",
+      "examples": [
+        "队列整齐。",
+        "两队学生。"
+      ],
+      "traditional_char": "隊"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "具有某种性质的集体。",
+      "examples": [
+        "工作队。",
+        "代表队。"
+      ],
+      "traditional_char": "隊"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "measure_word",
+      "meaning": "量词，用于成队的人或团体。",
+      "examples": [
+        "一队大学生。",
+        "三队消防员。"
+      ],
+      "traditional_char": "隊"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从阜，兑声。本义为坠落。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_shift",
+      "note": "由“坠落”引申为“列队”，古今间义项演化不完全明确，近代固定于“队列”。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由“列队”进一步泛化为具有某种共同属性的集体。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "conversion",
+      "note": "词性转变，由名词引申为量词用法。"
+    }
+  ]
+}

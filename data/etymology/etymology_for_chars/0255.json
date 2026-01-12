@@ -1,0 +1,119 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "贪婪，贪得无厌（同“饕”）",
+      "examples": [
+        "岂横叨天功以为己力乎？——《后汉书·卢植传》",
+        "好经大事，变更易常，以挂功名，谓之叨。——《庄子·渔父》"
+      ],
+      "traditional_char": "叨"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "承受、蒙受（常为谦词，如‘叨光’‘叨扰’）",
+      "examples": [
+        "臣以弱才，叨窃非据，亲秉旄钺以厉三军。——诸葛亮《街亭之败戮马谡上疏》",
+        "叨光",
+        "叨扰"
+      ],
+      "traditional_char": "叨"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "过分，滥（引申义）",
+      "examples": [
+        "濫叨功名彌天罪。——元·高文秀《澠池會》",
+        "叨名（虚有其名）"
+      ],
+      "traditional_char": "叨"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "食（多指贪吃）",
+      "examples": [
+        "叨食",
+        "水宿风叨，跋涉程途。"
+      ],
+      "traditional_char": "叨"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "残忍",
+      "examples": [
+        "父豫为南郡太守，以贪叨诛死。——《后汉书·党锢传·岑晊》"
+      ],
+      "traditional_char": "叨"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "话多，饶舌，唠叨",
+      "examples": [
+        "唠叨",
+        "叨缕（叨叨缕缕，说话啰嗦冗长）",
+        "叨咕"
+      ],
+      "traditional_char": "叨"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "adjective",
+      "meaning": "（方言）临死前气息急促的样子",
+      "examples": [
+        "等他爬起来一看呀，小兔子正在叨气儿呢，胸脯里的心跳得一撞一撞的。——杨朔《春子姑娘》"
+      ],
+      "traditional_char": "叨"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘叨’为形声字，从口，刀声。本义为‘贪’或‘多得’，后读音分化并义项派生。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "amelioration",
+      "note": "由‘贪婪’引申为‘承受’、‘谦受’，作为谦词用，语气色彩缓和。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由‘贪婪’义引申为‘过分、滥’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "因贪而引申为‘多食’，即‘食’义。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由‘贪’引申为‘残’（有贪得无厌导致残忍之意）。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "semantic_shift",
+      "note": "‘贪’本义字形音引发‘多言’义，语音词义类推演变。"
+    },
+    {
+      "source_index": 5,
+      "target_index": 6,
+      "evolution_type": "semantic_extension",
+      "note": "方言中由‘多言’延伸为‘临死时气息急促’的形容。"
+    }
+  ]
+}

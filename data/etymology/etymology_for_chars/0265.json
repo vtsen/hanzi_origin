@@ -1,0 +1,121 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "丢失，失掉",
+      "examples": [
+        "遗失",
+        "收复失地",
+        "流离失所"
+      ],
+      "traditional_char": "失"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "违背（约定、信义等）",
+      "examples": [
+        "失约",
+        "失信"
+      ],
+      "traditional_char": "失"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "找不着，迷失",
+      "examples": [
+        "迷失方向"
+      ],
+      "traditional_char": "失"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "没有掌握住（言语、职责等）",
+      "examples": [
+        "失言",
+        "失职",
+        "失调"
+      ],
+      "traditional_char": "失"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "没有达到（希望、意愿等）",
+      "examples": [
+        "失望",
+        "失意"
+      ],
+      "traditional_char": "失"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "错误，过失",
+      "examples": [
+        "失误",
+        "失策",
+        "过失",
+        "失之毫厘，谬以千里"
+      ],
+      "traditional_char": "失"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "改变常态（如失色）",
+      "examples": [
+        "惊慌失色"
+      ],
+      "traditional_char": "失"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从手，乙声，本义为丢失、失掉。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "从具体的丢失引申为违背约定。见先秦、两汉用例。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "从具体失掉引申为迷失方向。中古用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "从失掉引申为失去对言语、职责等的掌控。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "从失掉实体引申为未达成抽象目标（希望、意愿）。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "metaphor",
+      "note": "从失掉引申为犯错误、过失。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "semantic_extension",
+      "note": "从失掉引申为心理或生理状态的变化（如失色）。"
+    }
+  ]
+}

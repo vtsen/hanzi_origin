@@ -1,0 +1,143 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "圆形，圆的东西",
+      "examples": [
+        "团扇",
+        "团脐",
+        "明月如团"
+      ],
+      "traditional_char": "團"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "结成球形的东西",
+      "examples": [
+        "汤团",
+        "饭团"
+      ],
+      "traditional_char": "糰"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "揉拢成球形",
+      "examples": [
+        "团煤球",
+        "团雪球"
+      ],
+      "traditional_char": "團"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "会合，聚集，使集体在一起",
+      "examples": [
+        "团聚",
+        "团圆",
+        "一家团坐"
+      ],
+      "traditional_char": "團"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "工作或活动的集体组织",
+      "examples": [
+        "团体",
+        "团伙",
+        "集团"
+      ],
+      "traditional_char": "團"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "军队编制单位（营的上一级）",
+      "examples": [
+        "一个团",
+        "团长"
+      ],
+      "traditional_char": "團"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "旧时乡一级政权机关",
+      "examples": [
+        "团练",
+        "团丁"
+      ],
+      "traditional_char": "團"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "measure_word",
+      "meaning": "用于成团的东西的量词",
+      "examples": [
+        "一团槽",
+        "三团棉花"
+      ],
+      "traditional_char": "團"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "團为形声字，从囗表形，专表声，本义为圆形。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "糰为形声字，从米表义，与团/團的‘球状物’义更相关。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "‘圆形’义引申为‘球形的具体物体’，见于形状相似。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "conversion",
+      "note": "由‘圆形’引申作动词‘揉成圆形’。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "‘会合’转义为‘组织集体’，历史语境见于官制沿革。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 5,
+      "evolution_type": "semantic_narrowing",
+      "note": "‘组织’义狭化专用于军队编制。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 6,
+      "evolution_type": "semantic_narrowing",
+      "note": "‘组织’义在清末民初用于地方政权机关。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "以物理‘围拢成圆’喻人‘聚会于一处’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 7,
+      "evolution_type": "function_word",
+      "note": "由名词指‘团状物’，引申为量词。"
+    }
+  ]
+}

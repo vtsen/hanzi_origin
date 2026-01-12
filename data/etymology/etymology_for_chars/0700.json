@@ -1,0 +1,60 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "治病",
+      "examples": [
+        "医生在医院里医治病人。",
+        "医者仁心。"
+      ],
+      "traditional_char": "醫"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "治病的人",
+      "examples": [
+        "医生每天都要接诊很多病人。",
+        "好医生难得。"
+      ],
+      "traditional_char": "醫"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "治病的科学",
+      "examples": [
+        "他在大学学医。",
+        "现代医学取得了重大进展。"
+      ],
+      "traditional_char": "醫"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“醫”字，从“殹”（形声，表示治病时的动作或声音）和“酉”（古用于医疗之酒），表达与治病相关，最初指治病之人或行为。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“医”是“醫”的简化字，源于“匚”和“矢”，原意为盛弓弩矢之器，但现代沿用“醫”义，表示治病。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "conversion",
+      "note": "动词“治病”转为指“治病的人”，古今皆有用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "从“治病”行为扩展为“治病的科学”，见于近现代。"
+    }
+  ]
+}

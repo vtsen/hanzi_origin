@@ -1,0 +1,66 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "狗发疯，后亦指人精神失常",
+      "examples": [
+        "狂犬",
+        "疯狂",
+        "癫狂",
+        "发狂",
+        "狂人"
+      ],
+      "traditional_char": "狂"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "纵情任性或放荡骄恣的态度",
+      "examples": [
+        "轻狂",
+        "狂妄",
+        "狂吠",
+        "狂乱",
+        "狂野",
+        "狂躁",
+        "狂恣",
+        "狂草"
+      ],
+      "traditional_char": "狂"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "气势猛烈，超出常度",
+      "examples": [
+        "狂风",
+        "狂飙",
+        "狂热",
+        "力挽狂澜"
+      ],
+      "traditional_char": "狂"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“犭”表示与动物（狗）有关，王为声符，狭义本义为狗发疯。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由动物疯癫转喻为人的行为举止极端或放纵，文学用法延伸，汉代即有。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由放纵不羁进一步比喻事物气势猛烈、超乎常度。"
+    }
+  ]
+}

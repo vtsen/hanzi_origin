@@ -1,0 +1,91 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "门打开的样子，指门开着",
+      "examples": [
+        "卯，本义为门开着。",
+        "象形字，象两扇门打开。"
+      ],
+      "traditional_char": "卯"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "地支的第四位，属兔，并用于十二生肖、纪年、纪月、纪时（早晨五时至七时）",
+      "examples": [
+        "地支有十二，次序为子、丑、寅、卯等。",
+        "卯年、卯月、卯时。",
+        "卯兔也。——《论衡·物势》"
+      ],
+      "traditional_char": "卯"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "旧时官署点名、报到的时间和活动（因官署常在卯时开始办公）",
+      "examples": [
+        "点卯",
+        "画卯",
+        "卯册（旧时官署中的名册）",
+        "画了卯，早些个归来吃饭。——《水浒传》"
+      ],
+      "traditional_char": "卯"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "木器上安榫头的孔眼",
+      "examples": [
+        "卯眼",
+        "卯榫",
+        "卯不对榫。"
+      ],
+      "traditional_char": "卯"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "期限（如清代催征钱粮的分期追比等）",
+      "examples": [
+        "比卯（分期追比）",
+        "把那第几卯，第几名，一切都抄了来。——《二十年目睹之怪现状》"
+      ],
+      "traditional_char": "卯"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "pictograph",
+      "original_sense_index": 0,
+      "note": "《说文解字》称象两扇门打开之形，本为象形字。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由门开之象引申为二月天门，阳气冒出，二月为万物萌发生机，故作为地支和“卯”时的象征。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "因官署以卯时为上班、点名时间，引申为点卯、画卯等行业用语。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "“卯”作为时辰，分为若干阶段，用于比卯（分期）的时间单位。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "门开有缝，类似器物榫卯结构中“卯”眼的形状与功能。"
+    }
+  ]
+}

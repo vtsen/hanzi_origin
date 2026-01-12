@@ -1,0 +1,124 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "高兴，愉快，痛快",
+      "examples": [
+        "快乐",
+        "快意人生",
+        "痛快淋漓"
+      ],
+      "traditional_char": "快"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "速度大，动作迅速，与“慢”相对",
+      "examples": [
+        "快车",
+        "快步流星",
+        "快递",
+        "行动很快"
+      ],
+      "traditional_char": "快"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "赶紧，迅速地做某事",
+      "examples": [
+        "赶快",
+        "快走",
+        "快跑"
+      ],
+      "traditional_char": "快"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adverb",
+      "meaning": "将要，就要，接近某一状态",
+      "examples": [
+        "天快黑了",
+        "快下雨了"
+      ],
+      "traditional_char": "快"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "灵敏，反应敏捷",
+      "examples": [
+        "头脑快",
+        "手快眼快"
+      ],
+      "traditional_char": "快"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "adjective",
+      "meaning": "锐利，锋利（刀刃等）",
+      "examples": [
+        "这把刀很快",
+        "剪刀快"
+      ],
+      "traditional_char": "快"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "adjective",
+      "meaning": "爽利，直爽，干脆",
+      "examples": [
+        "爽快",
+        "心直口快",
+        "快人快语"
+      ],
+      "traditional_char": "快"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从心，夬（guài）声，本义为高兴、痛快，表人心情畅快。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由情感的畅快引申为动作的迅速，见于语义转喻。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "grammaticalization",
+      "note": "由形容词“快”速度发展为动词“赶快”，结构转变。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由速度快引申为“将要到来”的状态。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "由动作快引申为反应灵敏。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "semantic_shift",
+      "note": "由动作快引申到刀刃锋利，速度感相关。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 6,
+      "evolution_type": "metaphor",
+      "note": "由动作快引申为性格爽利、直爽。"
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "平坦的空地，多指农家翻晒粮食及脱粒的地方",
+      "examples": [
+        "打谷场",
+        "场院"
+      ],
+      "traditional_char": "場"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "measure_word",
+      "meaning": "量词，指一事起迄的经过",
+      "examples": [
+        "下一场雨",
+        "打一场仗"
+      ],
+      "traditional_char": "場"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "市集，集市",
+      "examples": [
+        "赶场",
+        "集场"
+      ],
+      "traditional_char": "場"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "处所，许多人聚集或活动的地方",
+      "examples": [
+        "操场",
+        "广场",
+        "场子"
+      ],
+      "traditional_char": "場"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "measure_word",
+      "meaning": "用于文娱体育活动的量词",
+      "examples": [
+        "一场电影",
+        "一场比赛"
+      ],
+      "traditional_char": "場"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "比赛地、舞台",
+      "examples": [
+        "上场",
+        "下场",
+        "粉墨登场"
+      ],
+      "traditional_char": "場"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "戏剧作品和戏剧演出中因场景变化或人物上下场而划分的段落",
+      "examples": [
+        "三幕五场",
+        "此剧第二场"
+      ],
+      "traditional_char": "場"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "noun",
+      "meaning": "物质存在的一种特殊形式，如电场、磁场",
+      "examples": [
+        "电场",
+        "磁场"
+      ],
+      "traditional_char": "場"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从土，昜声。本义为平坦的空地。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "grammaticalization",
+      "note": "从具体地点引申为对事件经过的计量单位，用作量词。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由平地引申为人群交易的集市。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由平地引申为聚会或活动的公共空间。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "grammaticalization",
+      "note": "处所引申为文娱体育活动的计量。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "处所进一步用作舞台、比赛空间。"
+    },
+    {
+      "source_index": 5,
+      "target_index": 6,
+      "evolution_type": "semantic_extension",
+      "note": "舞台空间引申为戏剧演出中的段落。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 7,
+      "evolution_type": "metaphor",
+      "note": "抽象化，处所/空间隐喻为物理学的'场'。"
+    }
+  ]
+}

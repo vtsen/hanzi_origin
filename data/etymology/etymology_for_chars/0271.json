@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "更迭，代替",
+      "examples": [
+        "新故相推，日生不滞，各以其时，顺序自然，无所增损，谓之代。",
+        "代人立功"
+      ],
+      "traditional_char": "代"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "历史上划分的时期",
+      "examples": [
+        "近代历史",
+        "新旧时代交替"
+      ],
+      "traditional_char": "代"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "世系的辈分",
+      "examples": [
+        "祖孙三代",
+        "隔代教育"
+      ],
+      "traditional_char": "代"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "代姓",
+        "代先生"
+      ],
+      "traditional_char": "代"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从人，弋声，表示更迭、代替之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由更迭、交替引申为历史时间的更替。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由更替引申为家族世系的更迭。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "unknown",
+      "note": "用作姓氏，路径未详。"
+    }
+  ]
+}

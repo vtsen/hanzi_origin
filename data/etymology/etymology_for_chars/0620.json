@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "抵挡，抵抗",
+      "examples": [
+        "拒守城门",
+        "以兵拒敌"
+      ],
+      "traditional_char": "拒"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "不接受，拒绝",
+      "examples": [
+        "拒绝邀请",
+        "来者不拒"
+      ],
+      "traditional_char": "拒"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "方阵（古同“矩”）",
+      "examples": [
+        "布拒以拒敌"
+      ],
+      "traditional_char": "拒"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从手，巨声，本义为用手抵御、抵挡"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从“抵挡”引申为“拒绝接受”，历代文献均有体现"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "unknown",
+      "note": "古代‘拒’作为方阵，含义与原义有联系但机制存争议"
+    }
+  ]
+}

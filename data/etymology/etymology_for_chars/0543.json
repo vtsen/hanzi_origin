@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "急迫，慌张",
+      "examples": [
+        "事起仓卒，心甚忙。",
+        "来者甚忙。"
+      ],
+      "traditional_char": "忙"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "事情多，没空闲",
+      "examples": [
+        "最近很忙，没有时间。",
+        "手忙脚乱。"
+      ],
+      "traditional_char": "忙"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "急速地做某事",
+      "examples": [
+        "忙于工作。",
+        "大家忙着收割。"
+      ],
+      "traditional_char": "忙"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "旧时田赋分期征收的时期名",
+      "examples": [
+        "上忙、下忙。",
+        "又值收秋之忙。"
+      ],
+      "traditional_char": "忙"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从心，亡声；本义指心情急迫、慌张。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由急迫状态引申为事务繁多，没空闲。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由心情急迫引申为急速地做事情。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "以农业生产中忙碌时期转指相关的田赋征收时间。"
+    }
+  ]
+}

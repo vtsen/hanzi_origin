@@ -1,0 +1,112 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "收进，收入，放入。",
+      "examples": [
+        "出口转内销，收入国家。",
+        "藏污纳垢"
+      ],
+      "traditional_char": "納"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "接受他人意见、建议等。",
+      "examples": [
+        "采纳",
+        "笑纳",
+        "虚心纳谏"
+      ],
+      "traditional_char": "納"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "享受（多指好运或福利）。",
+      "examples": [
+        "纳福",
+        "纳凉"
+      ],
+      "traditional_char": "納"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "缴付（如税款等）。",
+      "examples": [
+        "纳税"
+      ],
+      "traditional_char": "納"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "缝补，补缀，现多指密密地缝制。",
+      "examples": [
+        "纳鞋底"
+      ],
+      "traditional_char": "納"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [],
+      "traditional_char": "納"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "丝被水浸湿。",
+      "examples": [],
+      "traditional_char": "納"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 6,
+      "note": "形声字，从糸，内声，表示丝被水浸湿的状态。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 6,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "古义为丝被水浸湿，引申为让物体进入某处，如收纳。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由“收入”转为“接受意见”等抽象意义。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由“收入”引申为“享受到（福、凉）”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "收入引申到缴纳（款项进入官方）。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_shift",
+      "note": "由“收入”转为“缝补”，指用线把布料‘容纳’在一起。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "conversion",
+      "note": "动词‘纳’转为姓氏。"
+    }
+  ]
+}

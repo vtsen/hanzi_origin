@@ -1,0 +1,118 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "走近去吃东西",
+      "examples": [
+        "甲骨文作坐人形面对食器，表示靠近食物去吃的动作"
+      ],
+      "traditional_char": "即"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "靠近，接近",
+      "examples": [
+        "不即不离"
+      ],
+      "traditional_char": "即"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "到，开始从事",
+      "examples": [
+        "即位"
+      ],
+      "traditional_char": "即"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adverb",
+      "meaning": "就，便，立刻",
+      "examples": [
+        "黎明即起",
+        "即刻"
+      ],
+      "traditional_char": "即"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adverb",
+      "meaning": "当时，当地",
+      "examples": [
+        "即日",
+        "即席",
+        "即景",
+        "在即"
+      ],
+      "traditional_char": "即"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "conjunction",
+      "meaning": "假如，倘若",
+      "examples": [
+        "即使",
+        "即便",
+        "即令"
+      ],
+      "traditional_char": "即"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "就是",
+      "examples": [
+        "知识即力量"
+      ],
+      "traditional_char": "即"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "甲骨文为食器与坐人形会意，表示接近食物去吃，后部件‘卩’为人形之讹化。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“走近去吃”泛指为“接近、靠近”"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由“靠近”引申为“到、就位”"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由“靠近”引申为“立刻、就”"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "由“靠近”引申为相关的时间、地点：当时、当地"
+    },
+    {
+      "source_index": 4,
+      "target_index": 5,
+      "evolution_type": "grammaticalization",
+      "note": "在虚词用法中，进一步虚化为“假如、即使”"
+    },
+    {
+      "source_index": 1,
+      "target_index": 6,
+      "evolution_type": "semantic_shift",
+      "note": "“接近”转为判同、等同的“就是”用法"
+    }
+  ]
+}

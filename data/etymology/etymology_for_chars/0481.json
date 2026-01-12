@@ -1,0 +1,69 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "像，相像",
+      "examples": [
+        "事似其故。",
+        "貌似其父。"
+      ],
+      "traditional_char": "似"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "好像，表示不确定",
+      "examples": [
+        "似乎",
+        "似应如此"
+      ],
+      "traditional_char": "似"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adverb",
+      "meaning": "比较，更为……（表示比较或递进）",
+      "examples": [
+        "一个高似一个"
+      ],
+      "traditional_char": "似"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "与某种情况或事物相似",
+      "examples": [
+        "乐得什么似的"
+      ],
+      "traditional_char": "似"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从人，以声，表示‘像、相似’之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由具体的‘像’扩展表示‘好像’的不确定。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由‘像’引申为‘比较，更为’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由动词‘像’引申为形容词‘相似’。"
+    }
+  ]
+}

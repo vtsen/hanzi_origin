@@ -1,0 +1,53 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "满足，吃饱",
+      "examples": [
+        "民以食为天，饥而求食，厌而知足。"
+      ],
+      "traditional_char": "厭"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "讨厌，憎恶，对某事物感到不喜欢或反感",
+      "examples": [
+        "我很厌恶这种做法。",
+        "学而不厌。"
+      ],
+      "traditional_char": "厌"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "满足（多用于贬义，如贪得无厌）",
+      "examples": [
+        "贪得无厌。"
+      ],
+      "traditional_char": "厌"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘厭’为形声字，从‘厂’（山崖）作意符，‘猒’为声符。最初意为‘吃饱’、‘满足’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "‘满足’引申为贪欲无止境；常见于成语‘贪得无厌’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_shift",
+      "note": "‘吃饱’（满足）意引申变化为对事物过量后产生厌恶之感，出现‘憎恶’的新义。"
+    }
+  ]
+}

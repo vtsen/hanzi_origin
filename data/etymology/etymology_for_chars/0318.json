@@ -1,0 +1,103 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "仪式，礼节，如婚礼、丧礼等",
+      "examples": [
+        "婚礼隆重举行。",
+        "丧礼简单朴素。"
+      ],
+      "traditional_char": "禮"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "行为准则，尤其是符合社会或统治阶级利益的规范",
+      "examples": [
+        "克己复礼。",
+        "礼教森严。"
+      ],
+      "traditional_char": "禮"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "尊敬的态度或动作",
+      "examples": [
+        "礼让三先。",
+        "礼貌待人。"
+      ],
+      "traditional_char": "禮"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "赠送的礼物",
+      "examples": [
+        "礼物",
+        "献礼",
+        "贺礼"
+      ],
+      "traditional_char": "禮"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "古籍名，《礼记》的简称",
+      "examples": [
+        "读《礼》以明治。"
+      ],
+      "traditional_char": "禮"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "other",
+      "meaning": "姓氏",
+      "examples": [
+        "礼先生",
+        "礼家后人"
+      ],
+      "traditional_char": "禮"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“禮”从示表祭祀，从豊表示行礼的器具，并兼作声符，本义为祭神仪式。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "古代仪式义扩展为行为规范义，先见于先秦。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "仪式引申为尊敬的动作或态度，常见于礼仪性动作。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "由仪式中交换礼物的行为，指代为礼物本身。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "synecdoche",
+      "note": "以所记载礼节的书名之简称用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "unknown",
+      "note": "姓氏一般由字转化，具体机制不详。"
+    }
+  ]
+}

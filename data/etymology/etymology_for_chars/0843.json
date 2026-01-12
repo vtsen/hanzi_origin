@@ -1,0 +1,68 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "熔化金属，冶炼金属。",
+      "examples": [
+        "冶炼钢铁",
+        "冶铸铜器"
+      ],
+      "traditional_char": "冶"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "形容装扮妖艳、艳丽（含贬义）。",
+      "examples": [
+        "冶容",
+        "妖冶"
+      ],
+      "traditional_char": "冶"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "古同“野”，郊外游玩。",
+      "examples": [
+        "冶游",
+        "与友冶游江畔"
+      ],
+      "traditional_char": "冶"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [],
+      "traditional_char": "冶"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从冫表意（熔化、液态），台表声，本指熔炼金属。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由冶炼金属引申为修饰、打扮艳丽，形容外表光鲜。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "unknown",
+      "note": "古文中与‘野’通用，具体演变机制存疑。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "conversion",
+      "note": "由动词或地名转化为姓氏用法。"
+    }
+  ]
+}

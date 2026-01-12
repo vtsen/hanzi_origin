@@ -1,0 +1,103 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "母亲，妈妈，娘",
+      "examples": [
+        "慈母手中线，游子身上衣",
+        "母亲节"
+      ],
+      "traditional_char": "母"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "对女性长辈的称呼，如姑母、舅母",
+      "examples": [
+        "舅母",
+        "姑母"
+      ],
+      "traditional_char": "母"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "雌性的，与“公”相对",
+      "examples": [
+        "母鸡",
+        "母牛"
+      ],
+      "traditional_char": "母"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "事物据以产生出来的，如母国、母校",
+      "examples": [
+        "母国",
+        "母校"
+      ],
+      "traditional_char": "母"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "一套东西中间可以包含其他部分的，如螺丝母、子母扣",
+      "examples": [
+        "螺丝母",
+        "子母扣"
+      ],
+      "traditional_char": "母"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "母亲河",
+        "母姓"
+      ],
+      "traditional_char": "母"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "pictograph",
+      "original_sense_index": 0,
+      "note": "甲骨文字形象女性有乳之形，表示母亲，本义为母亲。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "母亲衍生为对女性长辈的尊称，泛指年长女性。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "母亲分化出生育、雌性之义，用于雌性动物，与‘公’对举。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "以‘母亲’喻事物之所出、所本，由人推及无生命事物，常用于母国、母校等。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "比喻能包容、为其他事物基础者，如螺丝母、子母扣。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "unknown",
+      "note": "‘母’用于姓氏，具体用法与起源不详，或与母系社会有关。"
+    }
+  ]
+}

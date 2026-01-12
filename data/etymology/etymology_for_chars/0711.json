@@ -1,0 +1,121 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "盐碱地，盐池。",
+      "examples": [
+        "卤田不可耕。",
+        "卤隗之地。"
+      ],
+      "traditional_char": "鹵"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "制盐时剩下的黑色汁液，味苦有毒。亦称“盐卤”、“苦汁”。",
+      "examples": [
+        "食盐用卤水提取。"
+      ],
+      "traditional_char": "鹵"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "浓汁（用酱油、香料等煮成的汁）。",
+      "examples": [
+        "卤汁",
+        "卤肉饭"
+      ],
+      "traditional_char": "滷"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "用五香咸水或酱油等浓汁制作食品。",
+      "examples": [
+        "卤蛋",
+        "卤豆腐"
+      ],
+      "traditional_char": "滷"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "粗鲁，鲁莽。",
+      "examples": [
+        "为人卤莽。"
+      ],
+      "traditional_char": "鹵"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "古同“橹”，大盾。",
+      "examples": [
+        "持卤为盾。"
+      ],
+      "traditional_char": "鹵"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "掠夺，抢夺（古同“掳”）。",
+      "examples": [
+        "卤掠",
+        "卤获"
+      ],
+      "traditional_char": "鹵"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "pictograph",
+      "original_sense_index": 0,
+      "note": "象形字，甲骨文字形象盐池。本义为盐碱地，传统字为“鹵”。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 2,
+      "note": "“滷”为形声字，‘氵’表意，‘鹵’表声，表示与水有关的卤汁，用于调味料。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_narrowing",
+      "note": "盐池之卤水；由广义地盐至具体之盐卤。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由盐卤引申为各种浓汁（多指烹饪用）。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "conversion",
+      "note": "由名词‘卤汁’转化为动词‘卤制食品’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "unknown",
+      "note": "与鲁莽的‘鲁’通用，语源关系不详。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "unknown",
+      "note": "与‘橹’（大盾）通用，借音或形转义，关系不明确。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "unknown",
+      "note": "与‘掳’通用，语音借用，关系不详。"
+    }
+  ]
+}

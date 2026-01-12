@@ -1,0 +1,154 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "外面，外部，与“内”、“里”相对",
+      "examples": [
+        "外边",
+        "里应外合"
+      ],
+      "traditional_char": "外"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "不是自己这方面的，外来的",
+      "examples": [
+        "外国",
+        "外地",
+        "外星人"
+      ],
+      "traditional_char": "外"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "指外国",
+      "examples": [
+        "外域",
+        "外宾",
+        "外商"
+      ],
+      "traditional_char": "外"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "称母亲、姐妹或女儿方面的亲戚",
+      "examples": [
+        "外公",
+        "外婆",
+        "外甥"
+      ],
+      "traditional_char": "外"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "称岳父母",
+      "examples": [
+        "外父",
+        "外姑"
+      ],
+      "traditional_char": "外"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "称丈夫，或非婚生之子",
+      "examples": [
+        "外子"
+      ],
+      "traditional_char": "外"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "adjective",
+      "meaning": "关系疏远的",
+      "examples": [
+        "外人"
+      ],
+      "traditional_char": "外"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "adjective",
+      "meaning": "非正式的，指正式的以外",
+      "examples": [
+        "外号",
+        "外史",
+        "外传"
+      ],
+      "traditional_char": "外"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "noun",
+      "meaning": "传统戏剧角色名，如外旦、外末、外净",
+      "examples": [
+        "外旦",
+        "外末",
+        "外净"
+      ],
+      "traditional_char": "外"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意字，从夕从卜，古代多在白天占卜，夜间占卜常与边疆事务相关，表达边疆、外部之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“外部”引申为非本方，外来的事物或人。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_narrowing",
+      "note": "对“外来的”进一步具体指外国、域外。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "从本家到外家，用“外”称呼外戚。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "synecdoche",
+      "note": "外家延伸以称岳父母。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 5,
+      "evolution_type": "unknown",
+      "note": "“外子”作为丈夫称呼，具体演变机制不详。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 6,
+      "evolution_type": "semantic_extension",
+      "note": "由外来引申为关系疏远的人。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 7,
+      "evolution_type": "semantic_extension",
+      "note": "“外”指非正式，正史以外、正名之外。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 8,
+      "evolution_type": "semantic_extension",
+      "note": "戏剧角色“外”，原义外部，引申为剧中外在人物。"
+    }
+  ]
+}

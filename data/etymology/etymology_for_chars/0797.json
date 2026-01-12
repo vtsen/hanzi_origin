@@ -1,0 +1,184 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "盘膝而坐，臀部着地或物而歇息，这是古人止息的方式，本义。",
+      "examples": [
+        "席地而坐",
+        "坐禅",
+        "盘膝而坐"
+      ],
+      "traditional_char": "坐"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "乘，搭乘交通工具。",
+      "examples": [
+        "坐车",
+        "坐船",
+        "你明天坐火车还是坐汽车？"
+      ],
+      "traditional_char": "坐"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "坚守某地，引申为常驻、不动。",
+      "examples": [
+        "楚人坐其北门",
+        "坐庄"
+      ],
+      "traditional_char": "坐"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "建筑物的位置、坐向。",
+      "examples": [
+        "此房坐北朝南",
+        "坐落于山脚"
+      ],
+      "traditional_char": "坐"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "把锅、壶等放在火上。",
+      "examples": [
+        "坐锅烧水"
+      ],
+      "traditional_char": "坐"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "物体向后施压力。",
+      "examples": [
+        "房顶往后坐"
+      ],
+      "traditional_char": "坐"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "preposition",
+      "meaning": "因，由于。",
+      "examples": [
+        "停车坐爱枫林晚",
+        "坐此获罪"
+      ],
+      "traditional_char": "坐"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "adverb",
+      "meaning": "空，徒然；无故，自然；遂，即将；深，正（恰好），用作副词。",
+      "examples": [
+        "胡为坐自苦",
+        "坐见渔舟两两归"
+      ],
+      "traditional_char": "坐"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "verb",
+      "meaning": "定罪，归罪、判罪。",
+      "examples": [
+        "连坐",
+        "反坐",
+        "坐赃"
+      ],
+      "traditional_char": "坐"
+    },
+    {
+      "index": 9,
+      "part_of_speech": "verb",
+      "meaning": "瓜果等植物结实。",
+      "examples": [
+        "坐瓜",
+        "坐果"
+      ],
+      "traditional_char": "坐"
+    },
+    {
+      "index": 10,
+      "part_of_speech": "noun",
+      "meaning": "同“座”，座位、席位。",
+      "examples": [
+        "嘉宾满坐",
+        "设坐以待"
+      ],
+      "traditional_char": "坐"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意字，上为‘人’象两人并坐，下为‘土’指地面，表示两人坐于地上。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由坐于物上的‘坐’引申为‘乘’交通工具，汉代已见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由“停留不动”引申为坚守、常驻。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由静止、位于一处引申为建筑物位置或坐向。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "由人的‘坐’引申至物件放置于火上。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "semantic_shift",
+      "note": "从静止引申为施加压力。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "grammaticalization",
+      "note": "由动作‘坐’引申为介词‘因，由于’的用法，见于唐诗等。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 7,
+      "evolution_type": "grammaticalization",
+      "note": "由动作词“坐”引申为副词用法，表达徒然、无故等抽象含义。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 8,
+      "evolution_type": "semantic_extension",
+      "note": "由“静止”‘被限制自由’引申为‘定罪’义，秦汉已见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 9,
+      "evolution_type": "metonymy",
+      "note": "由‘坐下’引申为瓜果结实，似作物坐于地。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 10,
+      "evolution_type": "semantic_narrowing",
+      "note": "由动作引申为座位、席位，后作‘座’专指。"
+    }
+  ]
+}

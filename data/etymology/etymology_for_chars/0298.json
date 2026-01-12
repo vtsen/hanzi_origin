@@ -1,0 +1,184 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "用纸、布或其他薄片把东西裹起来",
+      "examples": [
+        "包饺子",
+        "用纸包糖果"
+      ],
+      "traditional_char": "包"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "包好了的东西",
+      "examples": [
+        "邮包",
+        "背包"
+      ],
+      "traditional_char": "包"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "装东西的袋",
+      "examples": [
+        "书包",
+        "皮包"
+      ],
+      "traditional_char": "包"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "容纳在内，总括在一起",
+      "examples": [
+        "包括",
+        "包含",
+        "包容"
+      ],
+      "traditional_char": "包"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "总揽，负全责",
+      "examples": [
+        "包揽全部事务",
+        "包销"
+      ],
+      "traditional_char": "包"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "保证",
+      "examples": [
+        "包赔",
+        "包在我身上"
+      ],
+      "traditional_char": "包"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "adjective",
+      "meaning": "约定的，专用的",
+      "examples": [
+        "包饭",
+        "包工"
+      ],
+      "traditional_char": "包"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "verb",
+      "meaning": "围困、围绕",
+      "examples": [
+        "包围",
+        "包剿"
+      ],
+      "traditional_char": "包"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "noun",
+      "meaning": "一种带馅的蒸熟的面食",
+      "examples": [
+        "包子",
+        "糖包儿"
+      ],
+      "traditional_char": "包"
+    },
+    {
+      "index": 9,
+      "part_of_speech": "noun",
+      "meaning": "身体上肿起的疙瘩或包块",
+      "examples": [
+        "脓包",
+        "头上长了个包"
+      ],
+      "traditional_char": "包"
+    },
+    {
+      "index": 10,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "包拯",
+        "包氏家族"
+      ],
+      "traditional_char": "包"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "小篆字形由“勹”与“巳”会意，表示用物裹着尚未成形之物，表示包裹之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_shift",
+      "note": "由包裹动作用作名词，表示包好的物品。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_narrowing",
+      "note": "由包指包好的东西，引申为装东西的袋。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由包裹物体引申为容纳、总括抽象事务。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "从包容延伸为总揽、负责。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "从包揽事务引申为承担保证的责任。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 6,
+      "evolution_type": "semantic_extension",
+      "note": "负责包揽引申为专用、约定。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 7,
+      "evolution_type": "metaphor",
+      "note": "包裹原意引申为包围。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 8,
+      "evolution_type": "semantic_extension",
+      "note": "将馅裹于面制成包子的食品。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 9,
+      "evolution_type": "metaphor",
+      "note": "鼓起如物被包裹，引申为身体包块。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 10,
+      "evolution_type": "unknown",
+      "note": "以物为姓，具体转化原因不详。"
+    }
+  ]
+}

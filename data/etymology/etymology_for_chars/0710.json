@@ -1,0 +1,119 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "行走",
+      "examples": [
+        "步行",
+        "闲步",
+        "固步自封",
+        "徒步"
+      ],
+      "traditional_char": "步"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "追随，踏着别人的足迹走",
+      "examples": [
+        "步韵",
+        "步其后尘",
+        "步武前贤"
+      ],
+      "traditional_char": "步"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "行走时两脚的距离",
+      "examples": [
+        "寸步难行",
+        "步测"
+      ],
+      "traditional_char": "步"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "事情进行的程序、阶段、程度",
+      "examples": [
+        "初步",
+        "步骤"
+      ],
+      "traditional_char": "步"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "中国旧制长度单位，一步等于五尺",
+      "examples": [],
+      "traditional_char": "步"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "古同“埠”，地名用字",
+      "examples": [
+        "舟山步云",
+        "步头镇"
+      ],
+      "traditional_char": "步"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "步骘",
+        "步非烟"
+      ],
+      "traditional_char": "步"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "由两只脚的象形符号重叠，表示两脚交替行走，属会意字。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由基本意义“行走”引申为“追随、跟随他人步伐”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "从“行走”引申为“行走时两脚的距离”。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "从“步”为两脚间距离，引申为长度单位。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "“步”由“行走”引申为事情的步骤或阶段。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "unknown",
+      "note": "“步”通于“埠”，用作地名，机制不详。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "function_word",
+      "note": "用作姓氏的转换。"
+    }
+  ]
+}

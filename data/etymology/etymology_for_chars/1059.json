@@ -1,0 +1,177 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "迁徙；流亡",
+      "examples": [
+        "老弱转乎沟壑"
+      ],
+      "traditional_char": "轉"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "不直接的，中间再经过别人或别的地方；传递",
+      "examples": [
+        "转送",
+        "转达",
+        "转发",
+        "转运",
+        "周转"
+      ],
+      "traditional_char": "轉"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "改换方向",
+      "examples": [
+        "转弯",
+        "向左转"
+      ],
+      "traditional_char": "轉"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "改变位置",
+      "examples": [
+        "转移"
+      ],
+      "traditional_char": "轉"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "改变形势、情况",
+      "examples": [
+        "转败为胜",
+        "天气转晴",
+        "病情好转"
+      ],
+      "traditional_char": "轉"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "旋转",
+      "examples": [
+        "车轮飞转"
+      ],
+      "traditional_char": "轉"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "使旋转",
+      "examples": [
+        "转动地球仪"
+      ],
+      "traditional_char": "轉"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "verb",
+      "meaning": "围绕着一个中心运动",
+      "examples": [
+        "绕着太阳转"
+      ],
+      "traditional_char": "轉"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "measure_word",
+      "meaning": "旋转一圈为一转（量词）",
+      "examples": [
+        "绕了几十转"
+      ],
+      "traditional_char": "轉"
+    },
+    {
+      "index": 9,
+      "part_of_speech": "measure_word",
+      "meaning": "古代勋位每升一级称“一转”（量词）",
+      "examples": [
+        "策勋十二转，赏赐百千强"
+      ],
+      "traditional_char": "轉"
+    },
+    {
+      "index": 10,
+      "part_of_speech": "verb",
+      "meaning": "转文：指说话或写文章时有意不用通俗易懂的词句，而使用文言文词语以显高雅",
+      "examples": [],
+      "traditional_char": "轉"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "形声字，从车，专声，表示转运、传递。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_shift",
+      "note": "由“传递”义引申为“迁徙、流亡”，见早期文献。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "传递、流动引申为方向的改变。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "方向的转换引申为位置的变化。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "位置的改变引申为情势、状态的改变。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 5,
+      "evolution_type": "semantic_shift",
+      "note": "方向改变和旋转动作紧密相关，语义转化。"
+    },
+    {
+      "source_index": 5,
+      "target_index": 6,
+      "evolution_type": "function_word",
+      "note": "从动作转为使动用法（使旋转）。"
+    },
+    {
+      "source_index": 5,
+      "target_index": 7,
+      "evolution_type": "semantic_extension",
+      "note": "旋转引申为围绕中心运动。"
+    },
+    {
+      "source_index": 5,
+      "target_index": 8,
+      "evolution_type": "grammaticalization",
+      "note": "动作名词化，表示“旋转一圈”为量词。"
+    },
+    {
+      "source_index": 8,
+      "target_index": 9,
+      "evolution_type": "metaphor",
+      "note": "以“转”量词比喻官职的晋升。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 10,
+      "evolution_type": "metaphor",
+      "note": "“转”作文风曲折的引申义，表现为间接表达。"
+    }
+  ]
+}

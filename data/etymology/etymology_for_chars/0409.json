@@ -1,0 +1,108 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古代田猎用的长柄小网，亦指用长柄网捕取禽兽的器具",
+      "examples": [
+        "鸳鸯于飞，毕之罗之"
+      ],
+      "traditional_char": "畢"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "古代丧祭时穿牲体的横木",
+      "examples": [],
+      "traditional_char": "畢"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "星名，二十八宿之一",
+      "examples": [],
+      "traditional_char": "畢"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "完结，结束",
+      "examples": [
+        "礼毕",
+        "毕业"
+      ],
+      "traditional_char": "畢"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "完全，全部",
+      "examples": [
+        "毕肖",
+        "凶相毕露"
+      ],
+      "traditional_char": "畢"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "adverb",
+      "meaning": "究竟，到底",
+      "examples": [
+        "毕竟"
+      ],
+      "traditional_char": "畢"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [],
+      "traditional_char": "畢"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意，甲骨文象网与柄，意为打猎用的长柄网。现代多见作‘畢’、‘毕’两体。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由捕猎收网引申为完结，汉代已见。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "从‘完结’拓展为‘全部’、‘完全’。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "‘毕竟’，副词性用法，近现代形成。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "同形器物名移指丧祭横木，古籍所见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "因形象或命名传说转用于星名。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "function_word",
+      "note": "物名称转为姓氏，见于古代。"
+    }
+  ]
+}

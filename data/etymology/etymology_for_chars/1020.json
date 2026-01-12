@@ -1,0 +1,41 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "盛酒、水、茶等的器皿",
+      "examples": [
+        "杯子",
+        "杯盘狼藉",
+        "杯中物"
+      ],
+      "traditional_char": "杯"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "杯状的锦标（奖杯、奖品）",
+      "examples": [
+        "奖杯",
+        "杯赛",
+        "夺杯"
+      ],
+      "traditional_char": "杯"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从木，不声，表示用木头制成的盛水或酒的器皿。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "将“杯”器皿形状引申为锦标或奖品，如“奖杯”；发生于现代体育比赛普及后。"
+    }
+  ]
+}

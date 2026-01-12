@@ -1,0 +1,103 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "年岁，生命",
+      "examples": [
+        "寿命",
+        "寿终",
+        "延年益寿"
+      ],
+      "traditional_char": "壽"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "活得长久，长寿之意",
+      "examples": [
+        "寿考",
+        "寿民",
+        "寿星"
+      ],
+      "traditional_char": "壽"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "生日",
+      "examples": [
+        "寿辰",
+        "寿礼",
+        "寿筵"
+      ],
+      "traditional_char": "壽"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "祝愿人长寿",
+      "examples": [
+        "起为太上皇寿"
+      ],
+      "traditional_char": "壽"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "为死后作准备，或死后才用的东西",
+      "examples": [
+        "寿衣",
+        "寿穴",
+        "寿材"
+      ],
+      "traditional_char": "壽"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [],
+      "traditional_char": "壽"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "壽（寿）为声符‘老’与‘寸’结合，本义为寿命，与长命有关。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从指一般生命到特指长寿，语义扩大，早期即已见。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "以‘寿’泛指生日，取其长寿寓意，用于过寿之日。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "conversion",
+      "note": "由名词引申为动词，表示祝寿。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "semantic_shift",
+      "note": "后借指与死亡相关事物，含延伸/委婉色彩，晚出。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "unknown",
+      "note": "‘寿’作姓，起源不明，或以本义为氏。"
+    }
+  ]
+}

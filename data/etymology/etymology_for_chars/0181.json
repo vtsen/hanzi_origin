@@ -1,0 +1,72 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "办理，处理事务。",
+      "examples": [
+        "办事",
+        "办公"
+      ],
+      "traditional_char": "辦"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "处分或处罚。",
+      "examples": [
+        "惩办",
+        "法办",
+        "首恶必办"
+      ],
+      "traditional_char": "辦"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "置备、购置。",
+      "examples": [
+        "办货",
+        "办置"
+      ],
+      "traditional_char": "辦"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "创设、设立。",
+      "examples": [
+        "创办",
+        "兴办"
+      ],
+      "traditional_char": "辦"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从力，辡声，表示努力治理、处理。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从一般办理事务引申为处罚处分，有司法领域专指。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "从办理引申为置办、筹备物品，扩展属常见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "‘办理’意义进一步扩展，指创设、设立新的事物或机构。"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "鱼尾。",
+      "examples": [
+        "鱼枕谓之丁，鱼肠谓之乙，鱼尾谓之丙。"
+      ],
+      "traditional_char": "丙"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "天干的第三位，用作顺序第三的代称。",
+      "examples": [
+        "甲乙丙丁。",
+        "丙班。"
+      ],
+      "traditional_char": "丙"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "火的代称（五行中“丙”、“丁”属火）。",
+      "examples": [
+        "付丙（把信件等烧掉）。"
+      ],
+      "traditional_char": "丙"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "pictograph",
+      "original_sense_index": 0,
+      "note": "象形字，原以形表鱼尾。《说文》亦作此解，甲骨文如鱼尾。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "天干名称源自以鱼尾等象形符号作记次符号，先秦用作序数。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "天干地支与五行配属，‘丙’代表火，见于后世阴阳五行说。"
+    }
+  ]
+}

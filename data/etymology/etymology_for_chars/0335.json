@@ -1,0 +1,130 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "增多，使数量变多。",
+      "examples": [
+        "增加人数",
+        "追加奖金",
+        "加倍努力"
+      ],
+      "traditional_char": "加"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "把本来没有的添加上去。",
+      "examples": [
+        "加注解",
+        "加冕"
+      ],
+      "traditional_char": "加"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "把几个数合起来的算法（加法）。",
+      "examples": [
+        "加法",
+        "一加一等于二"
+      ],
+      "traditional_char": "加"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "施加某种动作。",
+      "examples": [
+        "加以惩罚",
+        "不加考虑"
+      ],
+      "traditional_char": "加"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "使程度变高。",
+      "examples": [
+        "加工",
+        "加剧",
+        "加强防护"
+      ],
+      "traditional_char": "加"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "超过。",
+      "examples": [
+        "加人一等"
+      ],
+      "traditional_char": "加"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [],
+      "traditional_char": "加"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "verb",
+      "meaning": "添枝加叶，说假话、虚报。",
+      "examples": [],
+      "traditional_char": "加"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 7,
+      "note": "会意字，从力，从口。表示‘加枝添叶，虚报’意，后义转为增添。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 7,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "由‘添枝加叶’引申为‘增多’"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从‘增多’具体化为‘添加本无之物’"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "‘加’的动作延伸为数学运算‘加法’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "引申为‘施加某种动作’"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由‘增多’引申为‘程度提高’"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "‘加’进一步引申为‘超过’他人"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "unknown",
+      "note": "地名、姓氏意义多源自音转或用法转变，具体机制不明。"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "阴险，虚伪，狡诈",
+      "examples": [
+        "奸人",
+        "奸狡",
+        "奸佞",
+        "奸雄",
+        "奸智"
+      ],
+      "traditional_char": "奸"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "不忠于国家或自己一方的人",
+      "examples": [
+        "奸细",
+        "内奸"
+      ],
+      "traditional_char": "奸"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "男女发生不正当的性行为",
+      "examples": [
+        "奸淫",
+        "强奸",
+        "通奸"
+      ],
+      "traditional_char": "奸"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意字，从三女，表示与女性有关的心术不正或阴险之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由形容性格阴险虚伪，扩展为指不忠之人。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由心术不正引申为男女不正当的性关系行为。"
+    }
+  ]
+}

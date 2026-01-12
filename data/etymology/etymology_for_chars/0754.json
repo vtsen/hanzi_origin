@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "高起的土坡，山冈",
+      "examples": [
+        "景阳岗",
+        "此地多岗峦起伏"
+      ],
+      "traditional_char": "崗"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "平面上凸起的一长道",
+      "examples": [
+        "村头有一道土岗"
+      ],
+      "traditional_char": "崗"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "守卫的位置，哨位",
+      "examples": [
+        "门岗",
+        "站岗",
+        "岗哨"
+      ],
+      "traditional_char": "崗"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "职位，岗位",
+      "examples": [
+        "岗位职责",
+        "工作岗位"
+      ],
+      "traditional_char": "崗"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 2,
+      "note": "形声字，从山，冈声，最初指守卫或哨位。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由高起的土坡延伸为一般的凸起长道。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由地理高地比喻为军事哨位，多见于古代军防地理设置。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由具体哨位引申到一般职位或岗位。"
+    }
+  ]
+}

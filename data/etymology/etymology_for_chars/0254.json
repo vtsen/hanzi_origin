@@ -1,0 +1,41 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "敲打，击打。",
+      "examples": [
+        "叩门",
+        "叩击",
+        "叩问"
+      ],
+      "traditional_char": "叩"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "行礼时以头触地，表示恭敬（磕头）。",
+      "examples": [
+        "叩首",
+        "叩拜",
+        "叩见"
+      ],
+      "traditional_char": "叩"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘叩’为形声字，从口，句声。本义为敲击，‘口’表意引申与言语请求相关，历史上与‘敂’关系密切。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由实际敲击引申至行礼时以头碰地，以示恭敬，汉至魏晋已见此用法。"
+    }
+  ]
+}

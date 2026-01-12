@@ -1,0 +1,123 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "大的山陵，大土山，山坡，山下，水边，弯曲处，角落",
+      "examples": [
+        "阿，大陵也。一曰曲阜也。——《说文》",
+        "流自眺夫衡阿兮。——张衡《思玄赋》",
+        "丙午，天子饮于河水之阿。——《穆天子传》",
+        "四阿重屋。——《周礼·考工记》",
+        "若有人兮山之阿。——《楚辞·山鬼》"
+      ],
+      "traditional_char": "阿"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "名词词头，常加在亲属名、人名前，表示亲昵",
+      "examples": [
+        "阿母谓阿女：‘适得府君书，明日来迎汝。’——《孔雀东南飞》",
+        "阿爹、阿爷、阿弟、阿姊"
+      ],
+      "traditional_char": "阿"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "细缯，古代一种轻细的丝织品",
+      "examples": [
+        "衣阿锡，曳齐纨。——《淮南子·修务》",
+        "曳阿锡。——《汉书·礼乐志》"
+      ],
+      "traditional_char": "阿"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "迎合，曲从，偏袒",
+      "examples": [
+        "弗谏而阿之。——《国语·周语》",
+        "阿郑君之心。——《吕氏春秋·长见》",
+        "其阿取容者，则因公褒举，以报私惠。——《后汉书·杨震传》",
+        "行叩诚而不阿兮。——《楚辞·逢纷》"
+      ],
+      "traditional_char": "阿"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "interjection",
+      "meaning": "感叹词，表示各种感情（如惊讶）",
+      "examples": [
+        "阿，你怎的这样客气起来!——鲁迅《呐喊·故乡》",
+        "阿了一声。——《儿女英雄传》"
+      ],
+      "traditional_char": "阿"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "particle",
+      "meaning": "语气词，用于句首、句中、句末，表疑问、肯定、呼唤等语气（后作“啊”）",
+      "examples": [
+        "阿见子敬，尚使人不得已。——《世说新语》",
+        "阿，你可怎生来做的个一视同仁。——《儒林外史》"
+      ],
+      "traditional_char": "阿"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "adverb",
+      "meaning": "（方言）可，是否。用在问句中，加强语气",
+      "examples": [
+        "你阿看见赵大跌勒井里仔钱二去下石？（你可看见赵大掉进井里钱二去扔石头了吗？）"
+      ],
+      "traditional_char": "阿"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从阜，表山丘、地形，可声，最早指大的山陵、大土山，后义分化。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "以地名“东阿”出产细缯，地名称呼转指丝织品，汉代已见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "grammaticalization",
+      "note": "原地貌名转为人名、亲属称谓的词头，魏晋以后普遍，见古书广泛用作发语词。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "山坡/弯曲地势引申为“曲从”，再成“迎合”“偏袒”，《国语》《汉书》均有用。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "function_word",
+      "note": "原为地貌类词，部分语气虚化后用于句中、句首等，成现代的语气词‘阿’/‘啊’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "function_word",
+      "note": "由语气词义虚化出感叹词义，多见于现代白话。"
+    },
+    {
+      "source_index": 5,
+      "target_index": 6,
+      "evolution_type": "semantic_shift",
+      "note": "语气词词义地方化后发展出“可，是否”的方言副词功能，用于句型加强。"
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "投掷、抛、扔（多指有目标地扔出去）",
+      "examples": [
+        "投篮",
+        "投弹",
+        "手投矢"
+      ],
+      "traditional_char": "投"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "跳进去（多指跳入水中、陷阱等）",
+      "examples": [
+        "投河",
+        "自投罗网"
+      ],
+      "traditional_char": "投"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "放进去，送进去",
+      "examples": [
+        "投入",
+        "投资",
+        "投标"
+      ],
+      "traditional_char": "投"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "走向，进入（投宿、投靠等）",
+      "examples": [
+        "投宿",
+        "投奔",
+        "投降",
+        "投师",
+        "投诉"
+      ],
+      "traditional_char": "投"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "发向（如“投射”、“投影”）",
+      "examples": [
+        "投射",
+        "投影"
+      ],
+      "traditional_char": "投"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "寄送，递送",
+      "examples": [
+        "投递",
+        "投稿"
+      ],
+      "traditional_char": "投"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "结合，合",
+      "examples": [
+        "投合",
+        "意气相投"
+      ],
+      "traditional_char": "投"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "other",
+      "meaning": "临近，在……以前",
+      "examples": [
+        "投明",
+        "投暮"
+      ],
+      "traditional_char": "投"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意字，从“手”表示手动作，从“殳”表示武器、投掷行为，原义为手持兵器而投掷。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由投掷动作进一步引申为跳入（如身体投入）"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "投掷原有动作引申为“投入、送入”"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "由物理投掷转为发射如光、影等抽象用法"
+    },
+    {
+      "source_index": 2,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "由投入引申为递送、寄送"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "从投入引申为进入、投奔、投靠"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "metaphor",
+      "note": "从投入动作转为抽象的相合、结合"
+    },
+    {
+      "source_index": 7,
+      "target_index": 0,
+      "evolution_type": "unknown",
+      "note": "“投明”、“投暮”的语源关系不详，疑为专用扩展"
+    }
+  ]
+}

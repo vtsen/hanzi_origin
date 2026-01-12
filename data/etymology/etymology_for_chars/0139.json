@@ -1,0 +1,101 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "翻转，颠倒",
+      "examples": [
+        "反手",
+        "反复"
+      ],
+      "traditional_char": "反"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "翻转的，颠倒的，与“正”相对",
+      "examples": [
+        "正反两方面的经验",
+        "物极必反"
+      ],
+      "traditional_char": "反"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "抵制，背叛，抗拒",
+      "examples": [
+        "反霸"
+      ],
+      "traditional_char": "反"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "和原来的不同，和预感的不同",
+      "examples": [
+        "反常"
+      ],
+      "traditional_char": "反"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "回击，回过头来",
+      "examples": [
+        "反驳",
+        "反攻",
+        "反思"
+      ],
+      "traditional_char": "反"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "类推",
+      "examples": [
+        "举一反三"
+      ],
+      "traditional_char": "反"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "pictograph",
+      "original_sense_index": 0,
+      "note": "甲骨文象手翻转之形，从“又”手形和“厂”山崖形，表手心翻转动作。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "conversion",
+      "note": "由动作'翻转'转化成描述状态的形容词，用作反义。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由物理翻转引申为对立、抵制、背叛等行为，多见于春秋战国。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由翻转引申为与常理、原状不同。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "由翻动作引申为回击、回头反问等。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "analogy",
+      "note": "由翻转动作类比为类推思维。"
+    }
+  ]
+}

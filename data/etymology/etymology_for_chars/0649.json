@@ -1,0 +1,40 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "保护，使不受侵犯和损害",
+      "examples": [
+        "保护环境",
+        "护卫国家",
+        "护士照顾病人"
+      ],
+      "traditional_char": "護"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "掩蔽，包庇",
+      "examples": [
+        "护短",
+        "庇护亲友"
+      ],
+      "traditional_char": "護"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从言，蒦声，表示‘保护’之义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘保护’引申为‘包庇、掩饰他人过失’。"
+    }
+  ]
+}

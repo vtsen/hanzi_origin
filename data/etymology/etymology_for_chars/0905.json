@@ -1,0 +1,117 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "人或动物身体后部突出的部分，即尾巴",
+      "examples": [
+        "鸟有长尾。",
+        "狗摇尾巴。"
+      ],
+      "traditional_char": "尾"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "末端，事物的最后部分",
+      "examples": [
+        "排尾",
+        "结尾",
+        "虎头蛇尾"
+      ],
+      "traditional_char": "尾"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "在后面跟随、紧跟",
+      "examples": [
+        "尾随",
+        "尾追"
+      ],
+      "traditional_char": "尾"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "measure_word",
+      "meaning": "量词，指鱼，尾数单位",
+      "examples": [
+        "三尾鱼"
+      ],
+      "traditional_char": "尾"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "星宿名，二十八宿之一",
+      "examples": [
+        "参商魁尾"
+      ],
+      "traditional_char": "尾"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "马尾巴上的毛",
+      "examples": [
+        "马尾罗",
+        "马尾儿提豆腐"
+      ],
+      "traditional_char": "尾"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "蟋蟀等尾部的针状物",
+      "examples": [
+        "三尾儿（雌蟋蟀）"
+      ],
+      "traditional_char": "尾"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意字，从‘尸’表示人体，与‘毛’共同表达“有毛的末端”，指人或动物的尾巴。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "尾部引申为末端，早见于古汉语。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "以尾随作为在后面跟随的动词用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "尾引申为鱼的量词，取其物理特征。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "以尾喻星宿排列之末，二十八宿之一得名。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "semantic_narrowing",
+      "note": "特指马尾巴上的毛。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "semantic_narrowing",
+      "note": "专指某些昆虫（如蟋蟀）尾部的针状物。"
+    }
+  ]
+}

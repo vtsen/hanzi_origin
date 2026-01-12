@@ -1,0 +1,97 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "竹木、金属制成的呈条形、可打入他物的器具",
+      "examples": [
+        "钉子",
+        "斩钉截铁"
+      ],
+      "traditional_char": "釘"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "把钉或楔子打入他物，将东西固定或组合起来",
+      "examples": [
+        "钉马掌",
+        "钉箱子"
+      ],
+      "traditional_char": "釘"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "缝缀（如纽扣）",
+      "examples": [
+        "钉钮扣"
+      ],
+      "traditional_char": "釘"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "紧跟、盯住不放松",
+      "examples": [
+        "钉梢"
+      ],
+      "traditional_char": "釘"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "督促，催问",
+      "examples": [
+        "钉问"
+      ],
+      "traditional_char": "釘"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "炼饼黄金",
+      "examples": [],
+      "traditional_char": "釘"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 5,
+      "note": "形声字，从金，丁声，原指炼饼黄金，后义分化。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 5,
+      "target_index": 0,
+      "evolution_type": "semantic_shift",
+      "note": "由炼饼黄金转为泛指条形金属，后专指钉子。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "conversion",
+      "note": "由名词钉子作动词，表示钉制行为。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由钉入引申为缝缀。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由实际钉固引申为行动上的紧跟。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "由钉紧义引申为催促义。"
+    }
+  ]
+}

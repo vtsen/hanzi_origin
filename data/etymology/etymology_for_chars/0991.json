@@ -1,0 +1,87 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "用手指或棍棒等推动或挑动",
+      "examples": [
+        "拨动琴弦",
+        "把钟拨准了"
+      ],
+      "traditional_char": "撥"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "分给、分发",
+      "examples": [
+        "拨款",
+        "拨粮",
+        "拨付经费"
+      ],
+      "traditional_char": "撥"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "治理，整治（本义）",
+      "examples": [
+        "拨乱反正"
+      ],
+      "traditional_char": "撥"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "掉转方向",
+      "examples": [
+        "拨转船头",
+        "拨转马头"
+      ],
+      "traditional_char": "撥"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "measure_word",
+      "meaning": "用于成批的、分组的人或物的量词",
+      "examples": [
+        "来了一拨人",
+        "分成两拨儿"
+      ],
+      "traditional_char": "撥"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 2,
+      "note": "形声字，从手，发声，表示治理。‘手’表意，‘发’表声。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 2,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "由‘治理’引申为行为动作如推动、挑动。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "推动引申为‘分拨、分配给’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "推动引申为‘掉转方向’。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "grammaticalization",
+      "note": "分发引申为成批的量词用法。"
+    }
+  ]
+}

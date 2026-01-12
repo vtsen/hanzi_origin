@@ -1,0 +1,135 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "用轮子或机器压过、碾压。",
+      "examples": [
+        "轧场",
+        "轧轹"
+      ],
+      "traditional_char": "軋"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "排挤、倾轧，在组织内部排除异己。",
+      "examples": [
+        "倾轧"
+      ],
+      "traditional_char": "軋"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "onomatopoeia",
+      "meaning": "机器运作时发出的轧轧声。",
+      "examples": [
+        "机声轧轧"
+      ],
+      "traditional_char": "軋"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [],
+      "traditional_char": "軋"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "用机器把钢坯压制成钢材。",
+      "examples": [
+        "轧钢"
+      ],
+      "traditional_char": "軋"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "挤；拥挤。",
+      "examples": [
+        "人多轧在一起"
+      ],
+      "traditional_char": "軋"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "结交（朋友）。",
+      "examples": [
+        "轧朋友得小心"
+      ],
+      "traditional_char": "軋"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "verb",
+      "meaning": "结算，核对账目。",
+      "examples": [
+        "轧账"
+      ],
+      "traditional_char": "軋"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "verb",
+      "meaning": "观察，揣测。",
+      "examples": [
+        "轧苗头"
+      ],
+      "traditional_char": "軋"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从车，乚声，表示轮子压过物体的动作。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "从物理辗压引申为人际关系的排挤。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "conversion",
+      "note": "拟轮子、机器碾动时的声音。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_narrowing",
+      "note": "专指用机器压制钢铁制品，近现代言。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "metaphor",
+      "note": "由'辗压'意引申为人群拥挤。"
+    },
+    {
+      "source_index": 5,
+      "target_index": 6,
+      "evolution_type": "metonymy",
+      "note": "由'挤'引申出人与人之间交往的行为。"
+    },
+    {
+      "source_index": 6,
+      "target_index": 7,
+      "evolution_type": "semantic_shift",
+      "note": "由'交往'转义为经济上的'核对账目'，现代用法。"
+    },
+    {
+      "source_index": 7,
+      "target_index": 8,
+      "evolution_type": "semantic_extension",
+      "note": "由'核对'引申为'观察、揣测'。"
+    }
+  ]
+}

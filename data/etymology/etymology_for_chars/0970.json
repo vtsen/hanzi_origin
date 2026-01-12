@@ -1,0 +1,119 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "用手掌打、拍击。",
+      "examples": [
+        "拍击。",
+        "拍掌。",
+        "拍抚。",
+        "拍案叫绝。"
+      ],
+      "traditional_char": "拍"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "浪涛冲击、撞击。",
+      "examples": [
+        "波浪拍岸。"
+      ],
+      "traditional_char": "拍"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "用以拍打的器具。",
+      "examples": [
+        "蚊拍。",
+        "拍子。"
+      ],
+      "traditional_char": "拍"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "乐曲的节奏单位。",
+      "examples": [
+        "拍节。",
+        "一首歌有四拍。"
+      ],
+      "traditional_char": "拍"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "用设备进行摄影。",
+      "examples": [
+        "拍摄。",
+        "拍片子。"
+      ],
+      "traditional_char": "拍"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "发出（如发布、发送）。",
+      "examples": [
+        "拍发。",
+        "拍电报。"
+      ],
+      "traditional_char": "拍"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "阿谀奉承，巴结。",
+      "examples": [
+        "拍马屁。"
+      ],
+      "traditional_char": "拍"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从手，白声。本义是用手掌击打，手表意，白表声。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "用‘拍击’引申为波浪等事物的冲击，多见于文学或书面语。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "指称用来拍打的器物。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "因拍手等动作常用于打节拍，由动作引申至音乐节奏单位。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由‘拍’的动作延伸至摄影器材触发快门之‘拍’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "引申为发出、传递某物，如电报等有“发送”含义。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "metaphor",
+      "note": "由‘拍击’动作，转为比喻阿谀奉承行为，如‘拍马屁’。"
+    }
+  ]
+}

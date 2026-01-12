@@ -1,0 +1,85 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "国家、国都（本义，古读yù）",
+      "examples": [
+        "或，国也。从囗，从戈，以戈守国，象形。——《说文解字》"
+      ],
+      "traditional_char": "或"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adverb",
+      "meaning": "也许，有时，表示不确定",
+      "examples": [
+        "或许他能来。",
+        "人生处一世，去若朝露，何久自苦如此！且夫天地之间，物各有主，苟非吾之所有，虽一毫而莫取。——《史记·陈涉世家》"
+      ],
+      "traditional_char": "或"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "pronoun",
+      "meaning": "有人，某人，有的人",
+      "examples": [
+        "或告之曰。——《左传·成公十六年》",
+        "或谓济南泉多及数百。——明·刘基《郁离子·千里马篇》"
+      ],
+      "traditional_char": "或"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "conjunction",
+      "meaning": "用于连词，连接并列成分、表选择关系",
+      "examples": [
+        "或大或小。",
+        "好雨知时节，当春乃发生。随风潜入夜，润物细无声。——杜甫《春夜喜雨》"
+      ],
+      "traditional_char": "或"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adverb",
+      "meaning": "稍微",
+      "examples": [
+        "不可或缓，不可或忽。"
+      ],
+      "traditional_char": "或"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意字，从‘囗’（城）与‘戈’组成，表示以戈守国，原指国家。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由‘国家’泛化引申为‘某一类人’，后用于指‘有人’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_shift",
+      "note": "本义消失后，假借为表达‘不定、也许’的副词。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "grammaticalization",
+      "note": "由表示不定副词，演化为选择连词，多用于复句连接。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "表不定副词的用法进一步发展为程度的轻微、稍微，用于‘不可或缓’等。"
+    }
+  ]
+}

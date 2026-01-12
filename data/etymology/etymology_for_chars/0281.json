@@ -1,0 +1,61 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "聚集、许多事物凑在一起的事物或状态",
+      "examples": [
+        "草丛",
+        "丛生",
+        "丛林",
+        "丛聚",
+        "人丛"
+      ],
+      "traditional_char": "叢"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "聚在一起的（人或物）",
+      "examples": [
+        "为丛驱雀",
+        "丛刊",
+        "丛祠"
+      ],
+      "traditional_char": "叢"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [],
+      "traditional_char": "叢"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "叢：从丵，丵为形，取聚合之意，会意兼形声，最初指聚集的草木。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "丛为叢的简化字，同源异体，结构同理。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由聚集的实体名词转为聚集状态的形容用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "conversion",
+      "note": "由事物名转为姓氏用法。"
+    }
+  ]
+}

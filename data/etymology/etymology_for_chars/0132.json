@@ -1,0 +1,108 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "变化，改变",
+      "examples": [
+        "变化",
+        "分化",
+        "教化",
+        "融化",
+        "僵化",
+        "潜移默化",
+        "化干戈为玉帛"
+      ],
+      "traditional_char": "化"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "佛教、道教募捐财物",
+      "examples": [
+        "化缘",
+        "化斋"
+      ],
+      "traditional_char": "化"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "particle",
+      "meaning": "附加于名词或形容词后，表示变成某种性质或状态",
+      "examples": [
+        "绿化",
+        "自动化",
+        "现代化",
+        "丑化"
+      ],
+      "traditional_char": "化"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "习俗，风气",
+      "examples": [
+        "有伤风化",
+        "移风易化"
+      ],
+      "traditional_char": "化"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "化学的简称",
+      "examples": [
+        "化工",
+        "化纤",
+        "化肥"
+      ],
+      "traditional_char": "化"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "同“花”，植物的繁殖器官",
+      "examples": [],
+      "traditional_char": "化"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "甲骨文作会意字，象两人相对而背，一正一反，表示事物相互改变。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "grammaticalization",
+      "note": "由“变化”抽象化为后缀词缀，用于表示‘转变成……状态’。汉代已见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "佛教用语，‘变化’引申为‘化缘’、‘化斋’等募捐活动。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由‘变化’引申为‘习俗、风气’，古已有之，如‘移风易化’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "synecdoche",
+      "note": "‘化学’简称‘化’，取‘变化’之意，现代才有。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "‘化’假借为‘花’，见古籍音近义转，属假借字。"
+    }
+  ]
+}

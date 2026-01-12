@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "捕鸟用的长柄小网",
+      "examples": [
+        "罕，长柄小网以获鸟。——《说文解字》"
+      ],
+      "traditional_char": "罕"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "稀少",
+      "examples": [
+        "罕见",
+        "稀罕",
+        "人迹罕至",
+        "罕世之宝"
+      ],
+      "traditional_char": "罕"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "罕姓在中国少有分布。"
+      ],
+      "traditional_char": "罕"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "小篆字形从“网”表意，“干”表声，古作“爳”，本指捕鸟用长柄小网。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由稀疏的小网，引申为稀少，见于古汉语语义发展。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "function_word",
+      "note": "以器物名称转为姓氏，常见于汉字姓氏来源。"
+    }
+  ]
+}

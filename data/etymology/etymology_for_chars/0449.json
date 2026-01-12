@@ -1,0 +1,81 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "人口腔内辨别滋味、协助咀嚼和发音的器官",
+      "examples": [
+        "舌头",
+        "伸出舌头"
+      ],
+      "traditional_char": "舌"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "语言或辩论的代称",
+      "examples": [
+        "唇枪舌剑",
+        "舌战群儒"
+      ],
+      "traditional_char": "舌"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "形状像舌头的物体部分",
+      "examples": [
+        "帽舌",
+        "火舌"
+      ],
+      "traditional_char": "舌"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "铃或释中作锤的部分",
+      "examples": [],
+      "traditional_char": "舌"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "箭靶上下左右伸出的部分",
+      "examples": [],
+      "traditional_char": "舌"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意字，从口从干，表示舌头。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "以舌头代语言或争辩，古今皆见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "因形似舌头而引申指形状像舌头的东西。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "synecdoche",
+      "note": "铃或释中锤部的形象部分如舌头，局部代整体。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "箭靶突出部分形状如舌头，比喻用法。"
+    }
+  ]
+}

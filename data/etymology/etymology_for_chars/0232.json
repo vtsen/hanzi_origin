@@ -1,0 +1,84 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "鸟名，萑，鸱鸟类。",
+      "examples": [],
+      "traditional_char": "舊"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "过时的，与“新”相对。",
+      "examples": [
+        "旧式",
+        "旧俗"
+      ],
+      "traditional_char": "舊"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "东西因经过长时间而变了样子。",
+      "examples": [
+        "旧衣服",
+        "旧书"
+      ],
+      "traditional_char": "舊"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "原先曾有过的，过去很长时间的。",
+      "examples": [
+        "旧居",
+        "旧友"
+      ],
+      "traditional_char": "舊"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "有交情的人，交情。",
+      "examples": [
+        "故旧",
+        "念旧"
+      ],
+      "traditional_char": "舊"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，上部“萑”为意符，指代鸟类，下部“臼”为声符。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_shift",
+      "note": "由专指鸟类名引申为‘过时的’。可能因同音假借。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由‘过时的’泛指因时间流逝而陈旧、变样。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由‘过时的’引申为‘原先曾有过的，过去很长时间的’。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "从‘旧友’引申为有交情的人或交情。"
+    }
+  ]
+}

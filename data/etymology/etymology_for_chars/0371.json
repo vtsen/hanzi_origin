@@ -1,0 +1,149 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "拱手，作揖，双手合抱。",
+      "examples": [
+        "共，拱手也。《说文解字》",
+        "众共进退。——《左传》"
+      ],
+      "traditional_char": "共"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "共同的性质、属性或事物。",
+      "examples": [
+        "共性",
+        "共同"
+      ],
+      "traditional_char": "共"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "彼此一起承担、拥有或使用。",
+      "examples": [
+        "患难与共",
+        "休戚与共"
+      ],
+      "traditional_char": "共"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adverb",
+      "meaning": "一起，一齐。",
+      "examples": [
+        "共鸣",
+        "共勉"
+      ],
+      "traditional_char": "共"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "总数，合计。",
+      "examples": [
+        "共计",
+        "总共"
+      ],
+      "traditional_char": "共"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "conjunction",
+      "meaning": "与，和（连接并列成分）。",
+      "examples": [
+        "落霞与孤鹜齐飞，秋水共长天一色。"
+      ],
+      "traditional_char": "共"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "“共产党”的简称。",
+      "examples": [
+        "共青团",
+        "共军"
+      ],
+      "traditional_char": "共"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "adjective",
+      "meaning": "恭敬，有礼貌。",
+      "examples": [
+        "古文有“共事”意为恭敬地服侍"
+      ],
+      "traditional_char": "共"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "verb",
+      "meaning": "供奉，供给。",
+      "examples": [
+        "古共，供奉之意。",
+        "共食共饮"
+      ],
+      "traditional_char": "共"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "loan_character",
+      "original_sense_index": 0,
+      "note": "本为“拱”之本字，象形双手作揖，后借用为众多意义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 7,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "“共”本“拱”，后通“恭”，出现表恭敬义，语音假借。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 8,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "古通“供”，供奉、供给，因音近假借。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "拱手作揖需多人共举，引申为“一齐”。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "从“一起”进一步引申为“共同承担、拥有”。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "共同拥有引申为共同的属性、性质。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "合起来一齐，也可引申为“合计、总计”。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 5,
+      "evolution_type": "grammaticalization",
+      "note": "“一起”语法化为连词用法“和、与”。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 6,
+      "evolution_type": "metonymy",
+      "note": "“共同”属性引申为代表“共产党”。"
+    }
+  ]
+}

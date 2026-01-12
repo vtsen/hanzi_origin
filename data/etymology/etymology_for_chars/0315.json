@@ -1,0 +1,118 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "声讨；宣布罪状并予以征伐或谴责",
+      "examples": [
+        "声讨叛逆",
+        "群臣共讨之"
+      ],
+      "traditional_char": "討"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "查究，进行调查或处治",
+      "examples": [
+        "检讨自己的错误",
+        "自我检讨"
+      ],
+      "traditional_char": "討"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "研究，推求",
+      "examples": [
+        "研讨新技术",
+        "探讨人生"
+      ],
+      "traditional_char": "討"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "索取，讨还",
+      "examples": [
+        "讨还债款",
+        "讨饭"
+      ],
+      "traditional_char": "討"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "请求，恳求",
+      "examples": [
+        "讨教老师",
+        "讨饶"
+      ],
+      "traditional_char": "討"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "惹，使对方产生某种感情",
+      "examples": [
+        "讨厌",
+        "讨人喜欢"
+      ],
+      "traditional_char": "討"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "娶，结婚",
+      "examples": [
+        "讨老婆"
+      ],
+      "traditional_char": "討"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意字，从言、寸。言表示言论，寸表示法度，本义为声讨。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从声讨引申为查究、处治，已见中古文献。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由追究罪责发展为学术上的研究、推求。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "征伐、讨伐转为讨取、索取，有以“求”的比喻用法。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由索取引申为请求、恳求。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 5,
+      "evolution_type": "metaphor",
+      "note": "因向别人求取、求情，转化为“惹（感情）”意。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 6,
+      "evolution_type": "metaphor",
+      "note": "由请求转为娶亲时“请求婚配”，语义转变。"
+    }
+  ]
+}

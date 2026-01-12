@@ -1,0 +1,114 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "李树，一种落叶小乔木，春天开白色花，果实称“李子”",
+      "examples": [
+        "北山有李。——《诗·小雅·南山有台》",
+        "夭夭桃李花，灼灼有辉光。——阮籍《咏怀》"
+      ],
+      "traditional_char": "李"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "李子，李树的果实，可食用",
+      "examples": [
+        "投我以桃，报之以李。——《诗·大雅·抑》",
+        "沉朱李于寒水。——曹丕《与朝歌令吴质书》"
+      ],
+      "traditional_char": "李"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "李花，李树开出的花",
+      "examples": [
+        "华如桃李。——《诗·召南·何彼禬矣》"
+      ],
+      "traditional_char": "李"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "李园，指种植李树的园子",
+      "examples": [],
+      "traditional_char": "李"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "古代法官的通称，通“理”",
+      "examples": [
+        "皋陶为李。——《管子·法法》",
+        "李者，法官之称。——颜师古注《汉书》"
+      ],
+      "traditional_char": "李"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "星名，指角宿二或其他特定星名",
+      "examples": [
+        "熒惑為李。——《史记·天官书》"
+      ],
+      "traditional_char": "李"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "李白和杜甫合称李杜",
+        "李唐指唐代李姓皇族"
+      ],
+      "traditional_char": "李"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从木，子声，表示李树本义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "synecdoche",
+      "note": "树名转指其果实，先秦普遍用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "synecdoche",
+      "note": "树名泛指其花，常见修辞演变。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "树名转指种植李树的园子，语义扩大。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "semantic_extension",
+      "note": "以树名为氏，常见自古以物为姓现象。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "metaphor",
+      "note": "以植物名比拟天空中的星宿，见于古代天文学。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "‘李’借为‘理’，即法官名，属通假字用法。"
+    }
+  ]
+}

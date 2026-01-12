@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "拦截河流的工程建筑物，如堤坝、水坝。",
+      "examples": [
+        "拦河坝",
+        "修一座大坝",
+        "堤坝"
+      ],
+      "traditional_char": "壩"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "用于加固堤防、河工险要处的特殊建筑物。",
+      "examples": [
+        "河工险要处建坝以固防"
+      ],
+      "traditional_char": "壩"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "平地，多用于地名中。",
+      "examples": [
+        "雁门坝",
+        "坝上草原"
+      ],
+      "traditional_char": "壩"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "（方言）沙滩，沙洲。",
+      "examples": [
+        "小孩在坝上玩耍",
+        "江边有个大坝"
+      ],
+      "traditional_char": "壩"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "《壩》为形声字，从土，霸声，表示堤坝、拦水之意。‘坝’和‘垻’为简化或异体字。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_narrowing",
+      "note": "指代专门用于险要处或巩固堤防的坝体。《壩》本义发展出专指。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "因坝地通常为堤防附近较平坦，转借泛指平地或地名。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "拦水形成的沙滩、沙洲也称‘坝’；地貌相关连。"
+    }
+  ]
+}

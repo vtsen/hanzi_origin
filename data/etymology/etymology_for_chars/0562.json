@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "辞别，特指长别或永别",
+      "examples": [
+        "永诀",
+        "诀别"
+      ],
+      "traditional_char": "訣"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "高明的方法",
+      "examples": [
+        "秘诀",
+        "诀窍"
+      ],
+      "traditional_char": "訣"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "用便于记忆的词句表述的要点、口诀",
+      "examples": [
+        "口诀"
+      ],
+      "traditional_char": "訣"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从言，夬声，本义为辞别。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由“诀别”引申为传授分别之法，再发展为指特定高明的方法。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由高明的方法进一步引申为表达方法的口诀。"
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "脚，人或动物用于行走的肢体末端部分",
+      "examples": [
+        "足下",
+        "失足",
+        "举足轻重",
+        "画蛇添足"
+      ],
+      "traditional_char": "足"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "器物下部的支撑部分",
+      "examples": [
+        "鼎足",
+        "碗足"
+      ],
+      "traditional_char": "足"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "充分，满足，够量",
+      "examples": [
+        "足月",
+        "足见",
+        "足智多谋"
+      ],
+      "traditional_char": "足"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "完全，全部",
+      "examples": [
+        "足以",
+        "足色"
+      ],
+      "traditional_char": "足"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "值得，够得上",
+      "examples": [
+        "不足为凭",
+        "微不足道"
+      ],
+      "traditional_char": "足"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "增益、增加",
+      "examples": [
+        "以昼足夜"
+      ],
+      "traditional_char": "足"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意字，上部象膝，下部‘止’象脚，表示脚的整体。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "将人脚之‘足’比喻为器物的支撑部分。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "脚可支撑身体，引申为‘足够’、‘充分’。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "‘充分’引申为‘完全’。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由‘充足’引申为‘值得、够得上’。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "由‘充足’引申为‘增益、增加’。"
+    }
+  ]
+}

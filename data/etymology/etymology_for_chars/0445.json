@@ -1,0 +1,77 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "赤心木，一种中心为红色的木材。",
+      "examples": [
+        "小篆字形，从木，一在其中，指出赤心木。"
+      ],
+      "traditional_char": "朱"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "红色；鲜红色。",
+      "examples": [
+        "朱红。",
+        "朱批。",
+        "朱笔。",
+        "朱门。"
+      ],
+      "traditional_char": "朱"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "矿物名，即朱砂（辰砂），用于中医镇静剂等。",
+      "examples": [
+        "朱砂。",
+        "朱墨。"
+      ],
+      "traditional_char": "朱"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [
+        "朱自清。",
+        "朱元璋。"
+      ],
+      "traditional_char": "朱"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "simple_indicative",
+      "original_sense_index": 0,
+      "note": "指事。小篆“朱”本义为赤心木，形声结合‘木’与‘一’指中心为红色。"
+    },
+    {
+      "formation_type": "loan_character",
+      "original_sense_index": 0,
+      "note": "“硃”为‘朱’的俗体或借用体，多用于矿物名，实际同源。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由指赤心木引申为红色，早见《说文解字》后的用法。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由红色引作红色矿物‘朱砂’，因矿物颜色得名。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "conversion",
+      "note": "红色、吉祥色转用为姓氏，用色名为氏习见。"
+    }
+  ]
+}

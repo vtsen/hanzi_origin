@@ -1,0 +1,72 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "蚕丝，丝绸。",
+      "examples": [
+        "今也纯，俭，吾从众。",
+        "纯，丝也。——《说文》"
+      ],
+      "traditional_char": "純"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "专一不杂，纯粹。",
+      "examples": [
+        "纯金",
+        "纯铜",
+        "品行纯正"
+      ],
+      "traditional_char": "純"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "美好朴实，品德高尚。",
+      "examples": [
+        "纯朴",
+        "纯洁",
+        "纯厚"
+      ],
+      "traditional_char": "純"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "大，极大。",
+      "examples": [
+        "纯嘏"
+      ],
+      "traditional_char": "純"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从糸（表示与丝有关，义符），屯声（声符），本义为蚕丝。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "以丝无杂质喻事物单一纯正，汉代已见。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由事物纯粹引申为品德纯美。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "“纯”引申为“极大”，用于叠加强调，如“纯嘏”。"
+    }
+  ]
+}

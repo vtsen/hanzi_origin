@@ -1,0 +1,154 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "吐出，呕吐。",
+      "examples": [
+        "太祖崩，褚号泣欧血。",
+        "吉馭吏耆酒，數逋蕩，嘗從吉出，醉欧丞相車上。"
+      ],
+      "traditional_char": "歐"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "殴打，击打。",
+      "examples": [
+        "良愕然，欲欧之。",
+        "女因佯狂，擲冠於地，母怒，欧之。"
+      ],
+      "traditional_char": "歐"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "歌唱，歌颂。",
+      "examples": [
+        "百姓欧歌。",
+        "齐歌曰欧，吴歌曰歈。"
+      ],
+      "traditional_char": "歐"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "驱赶，疾行。",
+      "examples": [
+        "或导之以德教，或欧之以法令。",
+        "则疾欧疾战，此宿败之师也。"
+      ],
+      "traditional_char": "歐"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "角落，房屋的角落。",
+      "examples": [
+        "欧隅。"
+      ],
+      "traditional_char": "歐"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "古越族的一支或其地名（欧越）。",
+      "examples": [
+        "欧人（古越族的一支）；欧越（古越人聚居之地）"
+      ],
+      "traditional_char": "歐"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [
+        "歐陽，複姓。",
+        "歐冶子，古善鑄劍者。"
+      ],
+      "traditional_char": "歐"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "noun",
+      "meaning": "欧洲的简称，世界七大洲之一。",
+      "examples": [
+        "欧美国家",
+        "欧人（欧洲人）"
+      ],
+      "traditional_char": "歐"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "noun",
+      "meaning": "电学单位“欧姆”的简称。",
+      "examples": [
+        "10欧的电阻",
+        "欧姆表"
+      ],
+      "traditional_char": "欧"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "歐（欧）从欠，區声，最初指呕吐之意。"
+    },
+    {
+      "formation_type": "simple_indicative",
+      "original_sense_index": 8,
+      "note": "现代欧：欧姆（Ohm）的简称，借音造字，用于计量单位名称，简化字‘欧’专做此用。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_shift",
+      "note": "由‘呕吐’到‘击打’意义转变，或因音近混淆。东汉已有通用，见《汉书》用例。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "‘欧’借音通‘讴’，用于歌唱。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "‘欧’借音通‘敺’，意为驱逐。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "‘歐’借音通‘區’，指房屋角落。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "借音通‘瓯’，为地名与族名用。"
+    },
+    {
+      "source_index": 5,
+      "target_index": 6,
+      "evolution_type": "semantic_extension",
+      "note": "源自地名‘欧’，引申为姓氏。"
+    },
+    {
+      "source_index": 5,
+      "target_index": 7,
+      "evolution_type": "semantic_extension",
+      "note": "由‘瓯’地名、古民族名，现代专指欧洲。"
+    },
+    {
+      "source_index": 7,
+      "target_index": 8,
+      "evolution_type": "metonymy",
+      "note": "‘欧洲’简称‘欧’，现代引申为欧姆（Ohm）的简称。"
+    }
+  ]
+}

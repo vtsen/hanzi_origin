@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "煮熟的谷类食品",
+      "examples": [
+        "大米饭",
+        "白饭"
+      ],
+      "traditional_char": "飯"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "泛指人每天定时分次吃的食物",
+      "examples": [
+        "早饭",
+        "饭菜",
+        "饭馆",
+        "饭量"
+      ],
+      "traditional_char": "飯"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "吃饭，或给人饭吃",
+      "examples": [
+        "饭疏食饮水，曲肱而枕之，乐亦在其中矣"
+      ],
+      "traditional_char": "飯"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "喂牲畜",
+      "examples": [
+        "饭牛"
+      ],
+      "traditional_char": "飯"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 2,
+      "note": "形声字，从“食”，反声，最初表“吃饭”的动作。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 2,
+      "target_index": 0,
+      "evolution_type": "metonymy",
+      "note": "由“吃饭”动作转指熟谷类食品。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“煮熟的谷类食品”泛指每日所食的各类食物。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "“饭”作动词引申指喂养牲畜。"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "液体或含水分的东西遇冷凝结",
+      "examples": [
+        "水冻成冰",
+        "湖面冻住了"
+      ],
+      "traditional_char": "凍"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "汤汁凝成的胶体",
+      "examples": [
+        "鱼冻",
+        "肉冻"
+      ],
+      "traditional_char": "凍"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "感到寒冷或受到寒冷",
+      "examples": [
+        "冻得发抖",
+        "冻伤"
+      ],
+      "traditional_char": "凍"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从仌表示与冰相关，‘东’为声符，原指液体遇冷凝结为冰。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "从液体结冰引申为汤汁凝成胶体的状态，主要见于饮食等领域。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由液体凝结引申出人或物感到严寒或受到寒冷的状态。"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "把水从上面浇下，灌溉。",
+      "examples": [
+        "沃田",
+        "沃盥",
+        "如汤沃雪"
+      ],
+      "traditional_char": "沃"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "土地肥沃，物产丰富。",
+      "examples": [
+        "沃土",
+        "沃野",
+        "沃壤",
+        "肥沃"
+      ],
+      "traditional_char": "沃"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "光盛，丰美。",
+      "examples": [
+        "～～",
+        "光采沃然"
+      ],
+      "traditional_char": "沃"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [
+        "沃氏"
+      ],
+      "traditional_char": "沃"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，夭声，表示把水浇下或灌溉。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由灌溉引申为土地肥沃，多用于描述物产丰富的土地。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由土地肥美比喻为光采丰盛、丰美。"
+    }
+  ]
+}

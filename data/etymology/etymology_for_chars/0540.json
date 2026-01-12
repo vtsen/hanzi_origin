@@ -1,0 +1,101 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "水塘，多指人工挖成的积水处",
+      "examples": [
+        "池子",
+        "水池",
+        "池鱼之殃"
+      ],
+      "traditional_char": "池"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "湖，天然较大的积水处",
+      "examples": [
+        "池盐"
+      ],
+      "traditional_char": "池"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "像池塘的器物、场所",
+      "examples": [
+        "浴池",
+        "花池",
+        "乐池",
+        "舞池"
+      ],
+      "traditional_char": "池"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "护城河",
+      "examples": [
+        "城池",
+        "金城汤池"
+      ],
+      "traditional_char": "池"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "剧场中正厅前部的位置",
+      "examples": [
+        "池座"
+      ],
+      "traditional_char": "池"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "other",
+      "meaning": "姓氏",
+      "examples": [],
+      "traditional_char": "池"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，‘也’为声旁，最初表示停积的水塘。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从人工水塘泛化到天然湖泊，见古代文献。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "因形状或功能相似扩大为类池之物或场所。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "synecdoche",
+      "note": "取水池之专用，代指护城河。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "以形象比拟剧场前部为“池”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "function_word",
+      "note": "用作姓氏，始自春秋。"
+    }
+  ]
+}

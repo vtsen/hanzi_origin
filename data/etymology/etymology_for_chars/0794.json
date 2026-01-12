@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "回归，返回",
+      "examples": [
+        "往返",
+        "返航",
+        "流连忘返"
+      ],
+      "traditional_char": "返"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "归还，退还",
+      "examples": [
+        "返还"
+      ],
+      "traditional_char": "返"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "植物恢复生长变绿",
+      "examples": [
+        "返青"
+      ],
+      "traditional_char": "返"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从辵，‘反’声，本义为回归、返回。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由回归引申为归还、退还，语义拓展见于中古以后。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由返回、回归意义，借代植物经过一段时间后再度生长、变绿。"
+    }
+  ]
+}

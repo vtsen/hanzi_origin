@@ -1,0 +1,70 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "按兄弟排行，第三位的称呼（伯、仲、叔、季）",
+      "examples": [
+        "兄弟伯、仲、叔、季，序列分明。"
+      ],
+      "traditional_char": "叔"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "父亲的弟弟，或与父亲同辈而年纪较小的男子",
+      "examples": [
+        "叔父",
+        "大叔",
+        "三叔"
+      ],
+      "traditional_char": "叔"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "丈夫的弟弟",
+      "examples": [
+        "小叔子",
+        "叔嫂"
+      ],
+      "traditional_char": "叔"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "拾取，收集（古义）",
+      "examples": [
+        "九月叔苴"
+      ],
+      "traditional_char": "叔"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 3,
+      "note": "'叔'为会意兼形声字，从 '又'（手）持 '尗'（象草木茂盛）。本义为‘拾取’。后借用为排行和亲属称谓。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 3,
+      "target_index": 0,
+      "evolution_type": "semantic_shift",
+      "note": "由‘拾取，收集’本义引申为序列中的‘第三’，具体机制存疑，但见于古代兄弟排序用字。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由排行第三的称谓扩展为父亲的弟弟之通称，出现在家族体系演化。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由父系的叔，类比引申为丈夫的弟弟，一般用于妇女称谓体系。"
+    }
+  ]
+}

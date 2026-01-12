@@ -1,0 +1,117 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "抓、提起（衣物等）",
+      "examples": [
+        "抠衣迎接",
+        "使数人抠耳，力掀举之。——《聊斋志异·大力将军》"
+      ],
+      "traditional_char": "摳"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "用手指或细小工具挖、掏",
+      "examples": [
+        "抠眼睛，捻鼻子。——《西游记》",
+        "在地上抠个洞"
+      ],
+      "traditional_char": "摳"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "抓牢、紧紧抓住",
+      "examples": [
+        "两手抠住",
+        "吕布便入，揪倒伍孚。——《三国演义》"
+      ],
+      "traditional_char": "摳"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "雕刻（花边或花纹）",
+      "examples": [
+        "抠镜框的花边"
+      ],
+      "traditional_char": "摳"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "钻研、死板地探究",
+      "examples": [
+        "死抠书本",
+        "挑字眼抠名词"
+      ],
+      "traditional_char": "摳"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "adjective",
+      "meaning": "吝啬，小气",
+      "examples": [
+        "这人真抠",
+        "抠抠缩缩"
+      ],
+      "traditional_char": "摳"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "adjective",
+      "meaning": "（眼睛）凹陷",
+      "examples": [
+        "抠搂（眼珠子深陷在眼眶里）"
+      ],
+      "traditional_char": "摳"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从手，区声，表示用手抓、提起。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由‘抓、提起’扩展为‘抓牢、紧紧抓住’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘抓、提’发展为‘用手指挖、掏’。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "‘用细物挖掏’引申为‘雕刻花边’。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "‘挖掏’引申为‘钻研、死板探究’。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "synecdoche",
+      "note": "‘抠’动作小心吝惜，引申为‘吝啬’。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 6,
+      "evolution_type": "metaphor",
+      "note": "‘挖、掏’比喻眼睛凹陷。"
+    }
+  ]
+}

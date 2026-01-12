@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "屋子宽大而深",
+      "examples": [
+        "堂宇宏敞"
+      ],
+      "traditional_char": "宏"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "广大，博大",
+      "examples": [
+        "宏伟",
+        "宏图",
+        "宏观"
+      ],
+      "traditional_char": "宏"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "宏伟是我的同学。"
+      ],
+      "traditional_char": "宏"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从宀，厷声，最早表示屋子宽大。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "宽大屋子的形象引申比喻为广阔、宏大。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "conversion",
+      "note": "形容词演化作姓氏用。"
+    }
+  ]
+}

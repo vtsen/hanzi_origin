@@ -1,0 +1,87 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "地球最大的天然卫星，月亮。",
+      "examples": [
+        "月亮升起来了。",
+        "月光如水。"
+      ],
+      "traditional_char": "月"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "计时单位，一个月。",
+      "examples": [
+        "一个月有三十天。",
+        "下个月再说吧。"
+      ],
+      "traditional_char": "月"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "每月的，按月的。",
+      "examples": [
+        "月刊出版了。",
+        "月薪提高了。"
+      ],
+      "traditional_char": "月"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "圆的，形状像月亮的。",
+      "examples": [
+        "月饼圆圆的。",
+        "月琴的形状像月亮。"
+      ],
+      "traditional_char": "月"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "妇女产后一个月以内的时间。",
+      "examples": [
+        "坐月子要注意休息。",
+        "刚出月的产妇身体较弱。"
+      ],
+      "traditional_char": "月"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "pictograph",
+      "original_sense_index": 0,
+      "note": "甲骨文象半月形，是象形字，表示月亮。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "以月亮的盈亏周期计量时间，古代用月相变化定义月份。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "grammaticalization",
+      "note": "名词“月”发展为表频率的修饰语，意为每月的。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由月亮的圆形引申为指一切圆形之物。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "以月份表示产妇产后一段时间，特指一个月。"
+    }
+  ]
+}

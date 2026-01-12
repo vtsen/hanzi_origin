@@ -1,0 +1,57 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "早晨，太阳刚出来的时候",
+      "examples": [
+        "清晨即起，未觉已～。",
+        "～晨的阳光洒满大地。"
+      ],
+      "traditional_char": "早"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "时间靠前，发生在一定时间以前",
+      "examples": [
+        "～退",
+        "～逝",
+        "～慧"
+      ],
+      "traditional_char": "早"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adverb",
+      "meaning": "时间在先，从前",
+      "examples": [
+        "～期",
+        "～春",
+        "～已"
+      ],
+      "traditional_char": "早"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "上为“日”，下为“甲”，“甲”象裂开；表示天将破晓、太阳冲破黑暗之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由具体指早晨时间，引申为时间靠前、较早。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由“时间靠前”进一步抽象为“从前、之前”之意。"
+    }
+  ]
+}

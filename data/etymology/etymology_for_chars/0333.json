@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "阶级社会中受压迫、剥削、役使的没有人身自由的人；奴隶；奴仆。",
+      "examples": [
+        "奴隶",
+        "农奴",
+        "奴婢",
+        "奴颜婢膝"
+      ],
+      "traditional_char": "奴"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "像对待奴隶那样地役使或压迫。",
+      "examples": [
+        "奴役",
+        "奴使"
+      ],
+      "traditional_char": "奴"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "使人甘受奴役，丧失斗志地屈从。",
+      "examples": [
+        "奴化"
+      ],
+      "traditional_char": "奴"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意字，从女从又。女表示女性，被奴役者；又表示手，指奴仆被人役使。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "conversion",
+      "note": "名词作动词用，由“奴隶”引申为“像对待奴隶一样地役使”。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "动词进一步引申，表示使人心理上成为奴隶，产生依赖与屈从。"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "土地神，及祭祀土地神的地方或仪式",
+      "examples": [
+        "春社。",
+        "秋社。",
+        "社日。",
+        "社稷。"
+      ],
+      "traditional_char": "社"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "团体或机构",
+      "examples": [
+        "报社。",
+        "合作社。",
+        "学生社团。"
+      ],
+      "traditional_char": "社"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "会意兼形声字，从示（土地神的神祇），土声；本义为土地神或祭祀土地神的场所。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由古代同一村落的人联合祭社，社遂引申为乡里团体、组织，进而泛指团体或机构。"
+    }
+  ]
+}

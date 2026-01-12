@@ -1,0 +1,72 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "养牲畜的圈",
+      "examples": [
+        "亡羊补牢",
+        "虎牢"
+      ],
+      "traditional_char": "牢"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "作为祭品的牲畜，特指祭祀用牛、羊、猪",
+      "examples": [
+        "太牢",
+        "少牢"
+      ],
+      "traditional_char": "牢"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "监禁犯人的地方",
+      "examples": [
+        "监牢",
+        "坐牢"
+      ],
+      "traditional_char": "牢"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "结实，坚固，牢靠",
+      "examples": [
+        "牢固",
+        "牢不可破",
+        "牢稳"
+      ],
+      "traditional_char": "牢"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "甲骨文内有“牛”，外作圈形，形表牛圈，指饲养牲畜的圈栏。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "牲畜饲养圈引申指被圈之牲畜，后特指祭祀用的牛羊猪。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "从关牲畜之圈引申为关人之处，表监禁场所。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "牲畜圈结实稳固，引申为形容物体、事物坚固牢靠。"
+    }
+  ]
+}

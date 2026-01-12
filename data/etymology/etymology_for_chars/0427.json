@@ -1,0 +1,102 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "聚集、集合处",
+      "examples": [
+        "《说文解字》：“同，集合也。”"
+      ],
+      "traditional_char": "同"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "相同，一样，没有差异",
+      "examples": [
+        "相同",
+        "同一（统一）",
+        "同年"
+      ],
+      "traditional_char": "同"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adverb",
+      "meaning": "共同，一起（从事某事）",
+      "examples": [
+        "共同行动",
+        "同学",
+        "同舟共济"
+      ],
+      "traditional_char": "同"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "preposition",
+      "meaning": "和，跟",
+      "examples": [
+        "同父异母",
+        "与君同"
+      ],
+      "traditional_char": "同"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "同姓"
+      ],
+      "traditional_char": "同"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "other",
+      "meaning": "〔胡同〕见“胡”，用作音用字",
+      "examples": [
+        "胡同（tòng）"
+      ],
+      "traditional_char": "同"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "从‘冃’表覆盖、重复义，‘口’表众口聚合，意为聚集、集合；为会意字。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_shift",
+      "note": "从‘集合’之义转为指‘一样’，汉代文献即见此义。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由‘一样’引申为‘共同，一起’（共事、同行）。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "grammaticalization",
+      "note": "由联合、副词义进一步虚化为介词‘和’。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "conversion",
+      "note": "由形容词转为姓氏用法，常见于汉族姓氏发展规律。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "‘同’假借为‘胡同’（tòng）的用音，见现代汉语。"
+    }
+  ]
+}

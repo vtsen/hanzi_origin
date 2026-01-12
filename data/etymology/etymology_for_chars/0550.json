@@ -1,0 +1,87 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "说，谈话",
+      "examples": [
+        "讲话",
+        "他们在讲故事"
+      ],
+      "traditional_char": "講"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "把事情和道理说出来，讲解",
+      "examples": [
+        "讲学",
+        "讲演",
+        "讲师"
+      ],
+      "traditional_char": "講"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "注重某一方面，并设法使它实现",
+      "examples": [
+        "讲求",
+        "讲团结"
+      ],
+      "traditional_char": "講"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "和解",
+      "examples": [
+        "秦未与魏讲也"
+      ],
+      "traditional_char": "講"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "商量，商议",
+      "examples": [
+        "讲价儿",
+        "讲条件"
+      ],
+      "traditional_char": "講"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 3,
+      "note": "形声字，从言，冓声，最初表示‘和解’"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "和解一词语义扩展为商议、商量"
+    },
+    {
+      "source_index": 3,
+      "target_index": 0,
+      "evolution_type": "semantic_shift",
+      "note": "古义‘和解’转变为一般‘说、谈’"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘说、谈’引申为‘讲解、表达道理’"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "从‘说’转为‘重视并设法实现’"
+    }
+  ]
+}

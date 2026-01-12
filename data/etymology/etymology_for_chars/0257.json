@@ -1,0 +1,57 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "因忧闷悲痛而呼出长气，叹息。",
+      "examples": [
+        "长吁短叹",
+        "悲叹",
+        "他听后不禁叹息。"
+      ],
+      "traditional_char": "嘆"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "因高兴、兴奋、激动而发出长声，表达赞赏或敬佩。",
+      "examples": [
+        "赞叹",
+        "叹服",
+        "叹观止矣"
+      ],
+      "traditional_char": "嘆"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "吟咏、咏唱。",
+      "examples": [
+        "咏叹",
+        "一唱三叹"
+      ],
+      "traditional_char": "嘆"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "嘆为形声字，从欠或口，難声，本义为叹息，与出气有关。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由悲痛呼气扩展至表达赞赏、敬佩，出现于后世用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由呼气、叹息进一步引申为吟咏、咏唱。"
+    }
+  ]
+}

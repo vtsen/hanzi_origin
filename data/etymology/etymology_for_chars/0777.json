@@ -1,0 +1,190 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "起身，起来。",
+      "examples": [
+        "作而起行。",
+        "作，起也。——《说文》"
+      ],
+      "traditional_char": "作"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "兴起，发起。",
+      "examples": [
+        "振作精神。",
+        "枪声大作。"
+      ],
+      "traditional_char": "作"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "从事，劳动，做工。",
+      "examples": [
+        "工作。",
+        "作业。",
+        "作息。"
+      ],
+      "traditional_char": "作"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "举行，进行某事。",
+      "examples": [
+        "作别。",
+        "作乱。",
+        "作案。",
+        "作战。"
+      ],
+      "traditional_char": "作"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "制造，表现，做出某种（多指贬义）行为。",
+      "examples": [
+        "作恶。",
+        "作弊。",
+        "作梗。",
+        "作祟。",
+        "作态。"
+      ],
+      "traditional_char": "作"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "当成，充当。",
+      "examples": [
+        "作罢。",
+        "作保。",
+        "作伐。",
+        "作壁上观。"
+      ],
+      "traditional_char": "作"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "创造，创作（包括写作、作曲等）。",
+      "examples": [
+        "创作。",
+        "写作。",
+        "作曲。",
+        "作者。"
+      ],
+      "traditional_char": "作"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "noun",
+      "meaning": "文艺方面的成品、作品。",
+      "examples": [
+        "作品。",
+        "不朽之作。"
+      ],
+      "traditional_char": "作"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "verb",
+      "meaning": "同“做”。",
+      "examples": [],
+      "traditional_char": "作"
+    },
+    {
+      "index": 9,
+      "part_of_speech": "noun",
+      "meaning": "旧时手工业制造加工的场所。",
+      "examples": [
+        "作坊。"
+      ],
+      "traditional_char": "作"
+    },
+    {
+      "index": 10,
+      "part_of_speech": "verb",
+      "meaning": "从事某种活动。",
+      "examples": [
+        "作揖。",
+        "作弄。",
+        "作死。"
+      ],
+      "traditional_char": "作"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意字，从人，从乍，表示人起身的动作。甲骨文字形像人衣领初作。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘起身’引申为‘兴起、发起’，已见先秦。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由‘兴起’引出‘开始做事、劳动’的意义。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "从‘做事’引申为‘举行、进行’。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "‘做工’一义引申为‘制造、表现出行为’。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 5,
+      "evolution_type": "conversion",
+      "note": "‘做’的动作可作‘充当’、‘当作’讲。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 6,
+      "evolution_type": "semantic_extension",
+      "note": "‘做’进一步引申为‘创造、创作’。"
+    },
+    {
+      "source_index": 6,
+      "target_index": 7,
+      "evolution_type": "conversion",
+      "note": "动作为‘创作’，其成果即为‘作品’。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 8,
+      "evolution_type": "reanalysis",
+      "note": "与“做”音义混同，因口语分化。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 9,
+      "evolution_type": "metonymy",
+      "note": "‘作’指‘从事’，引申为‘工作的场所’。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 10,
+      "evolution_type": "semantic_extension",
+      "note": "‘从事’泛化为‘做活动’。"
+    }
+  ]
+}

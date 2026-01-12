@@ -1,0 +1,103 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "草木的根",
+      "examples": [
+        "无本之木",
+        "本草"
+      ],
+      "traditional_char": "本"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "事物的根源，与“末”相对",
+      "examples": [
+        "本末倒置",
+        "根本"
+      ],
+      "traditional_char": "本"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "草的茎，树的干",
+      "examples": [
+        "草本植物"
+      ],
+      "traditional_char": "本"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "中心的，主要的",
+      "examples": [
+        "本部",
+        "本体"
+      ],
+      "traditional_char": "本"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adverb",
+      "meaning": "原来",
+      "examples": [
+        "本来",
+        "本领"
+      ],
+      "traditional_char": "本"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "pronoun",
+      "meaning": "自己这方面的",
+      "examples": [
+        "本国",
+        "本身",
+        "本位"
+      ],
+      "traditional_char": "本"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "simple_indicative",
+      "original_sense_index": 0,
+      "note": "“本”字为指事字，小篆形体在“木”下加一横，表示树木的根部，突出根的意义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由植物的根引申为事物的根源，汉代已见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "从植物的根扩展到整个靠近根部的茎干或树干，《说文解字》有记载。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "从根源引申为主要或中心，主要成分。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "从根源、原点引申为“原来”，先前的状态。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 5,
+      "evolution_type": "metonymy",
+      "note": "由“主要的/自己的”引出“自身、本方”，晋唐之后常见。"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "告诉，通知他人信息。",
+      "examples": [
+        "告知大家明天放假。",
+        "奔走相告。"
+      ],
+      "traditional_char": "告"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "向司法机关控告、检举。",
+      "examples": [
+        "告发敌特分子。",
+        "告状。"
+      ],
+      "traditional_char": "告"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "表明，请求。",
+      "examples": [
+        "告老还乡。",
+        "自告奋勇。"
+      ],
+      "traditional_char": "告"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "宣布、表示某种情况出现或发生。",
+      "examples": [
+        "公告失物招领。",
+        "告竭。"
+      ],
+      "traditional_char": "告"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意字，从口从牛，甲骨文牛头朝下似示威，意为报告或上报，和本义通知相关。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由一般告知发展为司法控诉，用于法律场域。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "从通知义扩展为陈述或表明并附带请求。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "从通知发展为正式宣布某事。"
+    }
+  ]
+}

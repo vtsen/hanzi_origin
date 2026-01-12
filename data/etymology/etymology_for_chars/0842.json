@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "舍去，扔掉，抛弃",
+      "examples": [
+        "抛弃",
+        "遗弃",
+        "弃权"
+      ],
+      "traditional_char": "棄"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "在闹市处死并弃尸（弃市）",
+      "examples": [
+        "弃市"
+      ],
+      "traditional_char": "棄"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "去世，死亡的婉辞（弃世、弃养）",
+      "examples": [
+        "弃世",
+        "弃养"
+      ],
+      "traditional_char": "棄"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意字：甲骨文为上婴孩、下手、簸箕，表示把逆产儿扔掉，意为舍去、抛弃。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘舍弃’引申为‘弃市’，即在闹市执行死刑并暴尸。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "‘弃养’‘弃世’为原意‘舍弃’的引申，委婉表示死亡。"
+    }
+  ]
+}

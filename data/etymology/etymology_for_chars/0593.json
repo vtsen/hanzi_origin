@@ -1,0 +1,167 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "绳子，细绳",
+      "examples": [
+        "以约束物",
+        "书以为约"
+      ],
+      "traditional_char": "約"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "拘束，限制",
+      "examples": [
+        "约法三章",
+        "自我约束"
+      ],
+      "traditional_char": "約"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "共同议定的条款，契约",
+      "examples": [
+        "合同条约",
+        "立约为凭"
+      ],
+      "traditional_char": "約"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "事先说定，约定",
+      "examples": [
+        "约会",
+        "约见"
+      ],
+      "traditional_char": "約"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "邀请",
+      "examples": [
+        "约请朋友",
+        "约集同窗"
+      ],
+      "traditional_char": "約"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "adjective",
+      "meaning": "节俭",
+      "examples": [
+        "节约粮食",
+        "俭约自持"
+      ],
+      "traditional_char": "約"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "adjective",
+      "meaning": "简要，简单",
+      "examples": [
+        "简约",
+        "由博返约"
+      ],
+      "traditional_char": "約"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "adverb",
+      "meaning": "大略，大致",
+      "examples": [
+        "约计五千人",
+        "约略而谈"
+      ],
+      "traditional_char": "約"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "verb",
+      "meaning": "用公因数去除分子和分母使分数简化",
+      "examples": [
+        "把4/6约成2/3",
+        "分数约分"
+      ],
+      "traditional_char": "約"
+    },
+    {
+      "index": 9,
+      "part_of_speech": "verb",
+      "meaning": "用秤称东西",
+      "examples": [
+        "约一下重量",
+        "把米约一约"
+      ],
+      "traditional_char": "約"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从糸，表示细绳、缠束，“勺”作声符。指绳索，约束之意为引申。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由实物“绳索”的束缚引申为“约束、限制”。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由“约束”引申为大家共同遵守的规则、条款。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "条款须事先拟定，引申为“事先说定”。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由“约定”引申为“邀请”。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "metaphor",
+      "note": "约束自身行为，引申出“节俭”意义。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 6,
+      "evolution_type": "metaphor",
+      "note": "限制、简化，引申为“简要、简单”。"
+    },
+    {
+      "source_index": 6,
+      "target_index": 7,
+      "evolution_type": "semantic_extension",
+      "note": "由“简要”进一步引申为“大略、大致”。"
+    },
+    {
+      "source_index": 6,
+      "target_index": 8,
+      "evolution_type": "metaphor",
+      "note": "由“简化、简要”引申为数学上“约分”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 9,
+      "evolution_type": "unknown",
+      "note": "“用秤称”义可能与纤绳、捆束及计量相关，语源上存在不确定性。"
+    }
+  ]
+}

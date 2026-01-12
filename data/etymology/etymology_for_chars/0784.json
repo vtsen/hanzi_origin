@@ -1,0 +1,116 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "官吏在朝廷上站立的位置",
+      "examples": [
+        "诸侯列位而朝",
+        "官员分位而立"
+      ],
+      "traditional_char": "位"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "所处的地方、位置",
+      "examples": [
+        "座位",
+        "部位",
+        "位于"
+      ],
+      "traditional_char": "位"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "地位，职位高低",
+      "examples": [
+        "地位",
+        "职位",
+        "名位"
+      ],
+      "traditional_char": "位"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "君主的地位",
+      "examples": [
+        "即位",
+        "篡位"
+      ],
+      "traditional_char": "位"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "数字中某一数码所占的位置",
+      "examples": [
+        "个位",
+        "十位",
+        "百位数"
+      ],
+      "traditional_char": "位"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "measure_word",
+      "meaning": "量词，用于人，表尊重",
+      "examples": [
+        "几位客人",
+        "诸位来宾"
+      ],
+      "traditional_char": "位"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "other",
+      "meaning": "姓氏",
+      "examples": [
+        "位志刚",
+        "位立新"
+      ],
+      "traditional_char": "位"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘位’为形声字，从人，立声；本义为官吏在朝廷所占的位置。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由朝廷官员站立之处，扩展为一般的位置、所处地方。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "空间位置转喻为社会地位或职位，汉代已见。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_narrowing",
+      "note": "职务地位具体化为君主的尊位。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "从空间位置引申为数字排列中的位置。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "grammaticalization",
+      "note": "空间位置抽象化，用作量词，尊重人。"
+    }
+  ]
+}

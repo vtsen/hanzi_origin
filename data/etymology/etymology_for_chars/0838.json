@@ -1,0 +1,121 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "温度低，与“热”相对",
+      "examples": [
+        "冷天",
+        "冷藏",
+        "冷冻",
+        "冷飕飕"
+      ],
+      "traditional_char": "冷"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "寂静，不热闹",
+      "examples": [
+        "冷落",
+        "冷寂",
+        "冷静",
+        "冷清"
+      ],
+      "traditional_char": "冷"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "生僻，少见的",
+      "examples": [
+        "冷僻",
+        "冷字"
+      ],
+      "traditional_char": "冷"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "不热情，不温和",
+      "examples": [
+        "冷遇",
+        "冷淡",
+        "冷峻",
+        "冷漠",
+        "冷嘲热讽",
+        "冷若冰霜",
+        "冷酷无情"
+      ],
+      "traditional_char": "冷"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "不受欢迎的，没有人过问的",
+      "examples": [
+        "冷货",
+        "冷门儿"
+      ],
+      "traditional_char": "冷"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "adjective",
+      "meaning": "突然，意料以外的",
+      "examples": [
+        "冷然",
+        "冷不防",
+        "冷枪",
+        "冷战"
+      ],
+      "traditional_char": "冷"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [],
+      "traditional_char": "冷"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从仌为形旁，令为声旁，初指凉、寒冷之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由物理寒冷引申为气氛或场合的冷清、寂静"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由寒冷引申为态度冷淡、不温和"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "metaphor",
+      "note": "由环境突然变冷，引申为突然而来"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由冷僻事物不常被关注，引申为少见"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "由不受欢迎如寒冷，被冷落之意"
+    }
+  ]
+}

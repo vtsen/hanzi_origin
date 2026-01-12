@@ -1,0 +1,75 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "迁移，换地方，如机关、住所等另换地点。",
+      "examples": [
+        "迁居",
+        "迁移",
+        "公司已迁至新址。"
+      ],
+      "traditional_char": "遷"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "变动，转变（广义上的转移、变化）。",
+      "examples": [
+        "变迁",
+        "迁延",
+        "迁就",
+        "迁怒"
+      ],
+      "traditional_char": "遷"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "贬谪，放逐到外地。",
+      "examples": [
+        "迁谪",
+        "迁客",
+        "苏轼曾被迁于黄州。"
+      ],
+      "traditional_char": "遷"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "调动官职，特指升职。",
+      "examples": [
+        "升迁",
+        "仕途多迁"
+      ],
+      "traditional_char": "遷"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从‘辵’表移动，‘千’表声又兼有表意（向上移动），本义是向高处迁移。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由具体的迁移引申为泛指事物的变化或转移，出现时间较早。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "官员远迁（迁移）用作贬谪、放逐的委婉说法，汉代已有此用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "原指调动后迁升，多见于古代官职系统，语义引申自原义。"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "供人睡卧的家具",
+      "examples": [
+        "木床",
+        "睡在床上"
+      ],
+      "traditional_char": "床"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "像床的东西（如车床、机床、河床等）",
+      "examples": [
+        "车床",
+        "机床",
+        "河床"
+      ],
+      "traditional_char": "床"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "measure_word",
+      "meaning": "量词，用于被褥等",
+      "examples": [
+        "两床被",
+        "三床褥子"
+      ],
+      "traditional_char": "床"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "井上围栏",
+      "examples": [
+        "后园凿井银作床，金瓶素绠汲寒浆"
+      ],
+      "traditional_char": "床"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从木，爿（表示发音）声，原指供人坐卧的家具。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "因形状或功能类似，扩展指类似‘床’结构的物品，如‘车床’、‘河床’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "grammaticalization",
+      "note": "由具体家具引申为量词，用于被褥等，语法化用法见于近现代汉语。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "以‘床’表示井上的围栏，指构造上的围挡。"
+    }
+  ]
+}

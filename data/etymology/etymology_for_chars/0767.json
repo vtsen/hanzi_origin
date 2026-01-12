@@ -1,0 +1,67 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "pronoun",
+      "meaning": "指特定范围内的任何一个或一组",
+      "examples": [
+        "每人一票",
+        "每次活动"
+      ],
+      "traditional_char": "每"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adverb",
+      "meaning": "指特定范围内逐一出现的任何一次",
+      "examples": [
+        "每战必胜",
+        "每况愈下"
+      ],
+      "traditional_char": "每"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "conjunction",
+      "meaning": "虽然",
+      "examples": [
+        "每有良朋，况也永叹"
+      ],
+      "traditional_char": "每"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "particle",
+      "meaning": "古同“们”，宋元代口语中作复数助词",
+      "examples": [],
+      "traditional_char": "每"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "左“母”表意，右“每”或作为声符，本义为‘每一个’，六书属形声字。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由泛指到每次、每件具体场合的扩展。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "古汉语中引申为“虽然”，书面少见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "宋元口语中用作复数助词，功能变化。"
+    }
+  ]
+}

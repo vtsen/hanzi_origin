@@ -1,0 +1,67 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "用力掐着，抓住",
+      "examples": [
+        "扼杀",
+        "力能扼虎"
+      ],
+      "traditional_char": "扼"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "抓要点，简要",
+      "examples": [
+        "扼要"
+      ],
+      "traditional_char": "扼"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "把守，控制",
+      "examples": [
+        "扼制",
+        "扼喉拊背"
+      ],
+      "traditional_char": "扼"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "牛马等拉东西时架在脖子上的器具（同“轭”）",
+      "examples": [],
+      "traditional_char": "扼"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从手，厄声，表示用手抓住或掐住。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由“抓住”引申为“抓住要点”，比喻义。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由“抓住”引申为“把守、控制”，为控制权要之意。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "后借指“轭”，由于其功能是固定、限制牲畜脖子，与“掐住”相关。"
+    }
+  ]
+}

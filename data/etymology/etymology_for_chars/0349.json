@@ -1,0 +1,103 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "法度，规矩",
+      "examples": [
+        "无所遵式。",
+        "以式为度。"
+      ],
+      "traditional_char": "式"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "物体外形的样子，样式",
+      "examples": [
+        "样式新颖。",
+        "式样不同。"
+      ],
+      "traditional_char": "式"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "特定的规格、标准",
+      "examples": [
+        "格式统一。",
+        "程式化。"
+      ],
+      "traditional_char": "式"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "典礼，仪式",
+      "examples": [
+        "开幕式隆重举行。",
+        "阅兵式壮观。"
+      ],
+      "traditional_char": "式"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "自然科学中表示规律关系的一组符号，公式",
+      "examples": [
+        "数学式可以推导结果。",
+        "分子式。"
+      ],
+      "traditional_char": "式"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "一种语法范畴，表示说话者对所说事情的主观态度",
+      "examples": [
+        "叙述式句子。",
+        "命令式表达。"
+      ],
+      "traditional_char": "式"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从工，弋声，‘工’表示规矩之意，‘弋’为声旁，表达‘法度’、‘规矩’最早含义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从‘法度、规矩’推广到‘样式、形状’，汉代已见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "从‘法度’进一步引申为‘规格、标准’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由‘规矩、法度’引申到‘有特定内容的仪式’。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "由‘规格、标准’比喻为‘科学或数学上的公式’。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 5,
+      "evolution_type": "metaphor",
+      "note": "由‘规格、类型’比喻到‘语法范畴中的句式’。"
+    }
+  ]
+}

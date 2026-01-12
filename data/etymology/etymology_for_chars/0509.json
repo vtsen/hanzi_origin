@@ -1,0 +1,120 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "脸上表现出来的神气、样子",
+      "examples": [
+        "脸色苍白",
+        "色厉内荏"
+      ],
+      "traditional_char": "色"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "通过视觉对物体所见的光产生的印象",
+      "examples": [
+        "颜色",
+        "色彩鲜艳"
+      ],
+      "traditional_char": "色"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "情景，景象",
+      "examples": [
+        "景色宜人",
+        "行色匆匆"
+      ],
+      "traditional_char": "色"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "种类",
+      "examples": [
+        "各色用品",
+        "百色百样"
+      ],
+      "traditional_char": "色"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "品质，质量",
+      "examples": [
+        "音色",
+        "成色",
+        "足色纹银"
+      ],
+      "traditional_char": "色"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "妇女美貌",
+      "examples": [
+        "姿色",
+        "色艺双全"
+      ],
+      "traditional_char": "色"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "情欲",
+      "examples": [
+        "色情",
+        "好色"
+      ],
+      "traditional_char": "色"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意字。甲骨文作人仰承他人之脸色，本义为脸色，后由形声字形定型。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由脸色本义引申为颜色，由脸部神色之丰富引申。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由颜色引申为景物的情景、景象，指具有色彩的环境。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由各种颜色引申为种类。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "由物理上的颜色属性比喻到品质、质量层次，如音色、成色。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "由脸色、容貌引申为美貌，专指女子。"
+    },
+    {
+      "source_index": 5,
+      "target_index": 6,
+      "evolution_type": "metonymy",
+      "note": "由女性美貌引申为情欲、性欲。"
+    }
+  ]
+}

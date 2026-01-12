@@ -1,0 +1,117 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "没有烧过的砖瓦、陶器等制品",
+      "examples": [
+        "土坯",
+        "砖坯",
+        "瓦坯",
+        "打坯",
+        "脱坯",
+        "夫造化者，既以我为坯矣，将无所违矣。"
+      ],
+      "traditional_char": "坯"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "特指用土制成未烧的砖块（土坯）",
+      "examples": [
+        "一间破坯屋",
+        "土墙是用坯砌的"
+      ],
+      "traditional_char": "坯"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "泛指未完成的半成品",
+      "examples": [
+        "钢坯",
+        "坯布",
+        "毛坯",
+        "面坯儿",
+        "线坯子",
+        "坯模",
+        "坯璞",
+        "坯冶",
+        "坯陶",
+        "坯销",
+        "坯素"
+      ],
+      "traditional_char": "坯"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "用以指未成年的人，有轻贱之意",
+      "examples": [
+        "好坯子",
+        "到了相当的年纪，便将她配人。能够这样，她虽然被撳在丫头坯里，却还算不幸中之幸哩。",
+        "(骂她)讨打坯！"
+      ],
+      "traditional_char": "坯"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "山丘的一重，亦作“坏”，见古籍用法",
+      "examples": [
+        "山：三袭，陟；再成，英；一成，坯。",
+        "坯者，当作坏。《说文》云：“丘，再成也。”"
+      ],
+      "traditional_char": "坯"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "方言，形容块、堆，常形容胖大的身形",
+      "examples": [
+        "那坯胖身子就泡得像个鱼膘。",
+        "只有一位先生在打盹，肥肥的一大坯伏在桌子上，还打着鼾。"
+      ],
+      "traditional_char": "坯"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从土，褱声，最早指未烧的陶器、砖瓦制品。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_narrowing",
+      "note": "原泛指未烧制土器，后特指土制未烧砖块。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由具体的陶土半成品义推广为任何半成品的通用词。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由“未完成成品”引申讽指未成年、未成熟的人，含轻贱义。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "unknown",
+      "note": "古书中用作‘坏’与山丘义，音通疑为异文或通假，具体关系不明，待考。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "metaphor",
+      "note": "由‘块状土制物’喻引为北方方言表示‘块、堆’，可形容人身形。"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "宽广而平坦",
+      "examples": [
+        "平坦的道路",
+        "地势坦荡"
+      ],
+      "traditional_char": "坦"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "心地平静、没有隐瞒，开诚布公",
+      "examples": [
+        "坦白自己的想法",
+        "他为人坦诚"
+      ],
+      "traditional_char": "坦"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "女婿的简称（坦腹之交的‘坦’所指）",
+      "examples": [
+        "坦床",
+        "令坦"
+      ],
+      "traditional_char": "坦"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从土，旦声，表达宽广平坦之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由地势平坦转喻为为人平和、心地坦荡，语义转化常见于先秦。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由‘坦腹’为平放腹部的友好之姿，后引申为女婿之称。"
+    }
+  ]
+}

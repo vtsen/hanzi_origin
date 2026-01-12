@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "击打，捶击，尤其指用手或器械打人",
+      "examples": [
+        "后数复殴伤郎。——《汉书·梁王襄传》",
+        "或至相殴。——清·纪昀《阅微草堂笔记》",
+        "殴伤",
+        "殴打"
+      ],
+      "traditional_char": "毆"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "气恼，恼怒。同“怄”",
+      "examples": [
+        "杨志骂道：“这畜生不殴死俺，只是打便了。”——《水浒传》"
+      ],
+      "traditional_char": "毆"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "驱赶，驱使。同“驱”",
+      "examples": [
+        "以弓矢殴乌鸢。——《唐石经《周礼·夏官·射乌氏》",
+        "今殴民而归之农，皆著于本。——《汉书·食货志上》"
+      ],
+      "traditional_char": "毆"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "呕，呕吐（通“呕”）",
+      "examples": [
+        "殴血"
+      ],
+      "traditional_char": "毆"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从殳（表示击打），区声，指用器械击打或打人，是其本义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "击打引申为心中受伤，转为气恼，引申义见于明清文学。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由“击打”动作，语用转为“驱赶、驱使”，古籍多作此用。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "由“毆/殴”借音用于“呕”的意思，属假借用法，多见于方言及书面语。"
+    }
+  ]
+}

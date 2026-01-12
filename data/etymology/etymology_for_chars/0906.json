@@ -1,0 +1,65 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "慢慢走，行动缓慢。",
+      "examples": [
+        "步履迟迟。"
+      ],
+      "traditional_char": "遲"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "慢，缓，不快。",
+      "examples": [
+        "迟缓",
+        "迟钝",
+        "反应迟慢"
+      ],
+      "traditional_char": "遲"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "时间晚。",
+      "examples": [
+        "迟到",
+        "推迟",
+        "延迟"
+      ],
+      "traditional_char": "遲"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [
+        "迟浩田"
+      ],
+      "traditional_char": "遲"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从辶，音义兼取于‘犀’（或‘侈’），表示缓慢行走。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由表示慢慢走扩展为一般意义的‘慢’。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由行动迟缓引申为‘时间晚’。"
+    }
+  ]
+}

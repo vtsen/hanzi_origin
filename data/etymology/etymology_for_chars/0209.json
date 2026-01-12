@@ -1,0 +1,206 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "竹子或草木茎分枝长叶的部分",
+      "examples": [
+        "竹节",
+        "节外生枝"
+      ],
+      "traditional_char": "節"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "物体的分段或两段之间连接的部分",
+      "examples": [
+        "关节",
+        "两节车厢"
+      ],
+      "traditional_char": "節"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "段落，事项",
+      "examples": [
+        "节目",
+        "分节"
+      ],
+      "traditional_char": "節"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "中国历法把一年分为二十四段，每段开始的名称",
+      "examples": [
+        "节气",
+        "节令"
+      ],
+      "traditional_char": "節"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "纪念日或庆祝宴乐的日子",
+      "examples": [
+        "节日",
+        "国庆节"
+      ],
+      "traditional_char": "節"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "礼度",
+      "examples": [
+        "礼节",
+        "仪节"
+      ],
+      "traditional_char": "節"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "音调高低缓急的限度",
+      "examples": [
+        "节奏",
+        "节拍"
+      ],
+      "traditional_char": "節"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "noun",
+      "meaning": "操守，品德",
+      "examples": [
+        "节操",
+        "晚节不保"
+      ],
+      "traditional_char": "節"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "verb",
+      "meaning": "省减，限制",
+      "examples": [
+        "节省",
+        "节制",
+        "开源节流"
+      ],
+      "traditional_char": "節"
+    },
+    {
+      "index": 9,
+      "part_of_speech": "verb",
+      "meaning": "略去，简略",
+      "examples": [
+        "节选",
+        "节录"
+      ],
+      "traditional_char": "節"
+    },
+    {
+      "index": 10,
+      "part_of_speech": "noun",
+      "meaning": "古代出使外国所待的凭证",
+      "examples": [
+        "符节",
+        "使节"
+      ],
+      "traditional_char": "節"
+    },
+    {
+      "index": 11,
+      "part_of_speech": "noun",
+      "meaning": "（口语）指关键的环节或时机",
+      "examples": [
+        "节骨眼儿"
+      ],
+      "traditional_char": "節"
+    },
+    {
+      "index": 12,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [],
+      "traditional_char": "節"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“節”为形声字，从竹，即声，古本义为竹节"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由竹节引申为物体的一段或分段，早见于器物与骨骼结构"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "将‘分段’之意引申至段落或事项"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "用作时间上的分段，形成‘节气’之意"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "semantic_shift",
+      "note": "节日来源于历法节点，逐步转义为庆祝、纪念日"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "metaphor",
+      "note": "由物理结构之‘节’转喻为做人处事的法度、礼度"
+    },
+    {
+      "source_index": 5,
+      "target_index": 7,
+      "evolution_type": "semantic_extension",
+      "note": "由礼度进一步指品德操守"
+    },
+    {
+      "source_index": 1,
+      "target_index": 6,
+      "evolution_type": "metaphor",
+      "note": "由段落转为音乐、节奏上的分段与规律"
+    },
+    {
+      "source_index": 1,
+      "target_index": 8,
+      "evolution_type": "semantic_extension",
+      "note": "‘节’有分段、收紧之意，引申为节省、限制"
+    },
+    {
+      "source_index": 1,
+      "target_index": 9,
+      "evolution_type": "semantic_extension",
+      "note": "分段进一步扩义为‘省略’、‘简略’"
+    },
+    {
+      "source_index": 1,
+      "target_index": 10,
+      "evolution_type": "metonymy",
+      "note": "因古代使臣持‘节’为凭证，‘节’借指信物本身"
+    },
+    {
+      "source_index": 1,
+      "target_index": 11,
+      "evolution_type": "synecdoche",
+      "note": "‘节骨眼儿’以节为代表紧要关头、关键环节"
+    }
+  ]
+}

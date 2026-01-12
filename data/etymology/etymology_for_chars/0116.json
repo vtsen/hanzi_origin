@@ -1,0 +1,69 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "里面，与“外”相对的空间或位置",
+      "examples": [
+        "内部",
+        "内外有别",
+        "内阁"
+      ],
+      "traditional_char": "內"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "称妻子或妻子家族的亲属",
+      "examples": [
+        "内人",
+        "内亲",
+        "内弟"
+      ],
+      "traditional_char": "內"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "亲近、内部的（与外相对）",
+      "examples": [
+        "内君子而外小人"
+      ],
+      "traditional_char": "內"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "收入，接受（为“纳”的古义）",
+      "examples": [],
+      "traditional_char": "內"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "“內”由“冂”表示范围、“人”或“入”表示进入，指物体的里面。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由指内部空间引申为“家内”，进而指妻子或妻族，汉代以后见"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由内外空间对比引申为亲近、内部成员，语义延伸"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "“內”假借表示“纳”，见于古文，用法较早但后续逐渐分化为“纳”"
+    }
+  ]
+}

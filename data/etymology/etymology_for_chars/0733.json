@@ -1,0 +1,58 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "男性，男人，阳性的人",
+      "examples": [
+        "男人",
+        "男孩",
+        "男女性别",
+        "男女平等"
+      ],
+      "traditional_char": "男"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "儿子",
+      "examples": [
+        "长男",
+        "二男",
+        "膝下无男"
+      ],
+      "traditional_char": "男"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "古代五等爵位中的第五等爵位",
+      "examples": [
+        "男爵",
+        "五等爵其最下者为男"
+      ],
+      "traditional_char": "男"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意字，从田从力，表示男子在田间劳作，表达“男人”之义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "以“男性”喻指“儿子”，古今皆见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "以“男”作爵名，五等爵的最下等，出自周制。"
+    }
+  ]
+}

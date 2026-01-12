@@ -1,0 +1,41 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "对犯罪的处罚，包括各类惩罚措施。",
+      "examples": [
+        "刑罚",
+        "刑法",
+        "执刑"
+      ],
+      "traditional_char": "刑"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "对犯人的体罚，专指肉体惩罚。",
+      "examples": [
+        "受刑",
+        "刑讯",
+        "刑具"
+      ],
+      "traditional_char": "刑"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“刑”由“刂”（刀）为意符，表惩罚、割等含义，“开”为声符。初造意为“对犯罪的处罚”，相关于刀的使用。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_narrowing",
+      "note": "部分刑罚具体指向体罚，语义收窄演变而来。"
+    }
+  ]
+}

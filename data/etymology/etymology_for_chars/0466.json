@@ -1,0 +1,72 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "measure_word",
+      "meaning": "用于个体事物的量词",
+      "examples": [
+        "一件事",
+        "三件衣服"
+      ],
+      "traditional_char": "件"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "可以一一计算的事物",
+      "examples": [
+        "零件儿",
+        "案件"
+      ],
+      "traditional_char": "件"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "不平常的大事情",
+      "examples": [
+        "重大事件",
+        "奇闻轶件"
+      ],
+      "traditional_char": "件"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "文书证明之类的文件",
+      "examples": [
+        "文件",
+        "来件",
+        "证件"
+      ],
+      "traditional_char": "件"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "形声字，“亻”表义，指人或与人有关的事物；“牛”表声。最初用于可以计数的个体物品。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "grammaticalization",
+      "note": "由“可计数的事物”引申为量词用法，汉语语法中量词常由此类型名词演变。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_narrowing",
+      "note": "由“可计数的事物”进一步专指“不平常的大事情”，语义变窄。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_narrowing",
+      "note": "由“可计数的事物”发展为专指文书或证明之类的具体事物。"
+    }
+  ]
+}

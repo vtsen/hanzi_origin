@@ -1,0 +1,101 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "脊椎骨，脊梁骨。本义为人体或动物的背部脊骨。",
+      "examples": [
+        "吕，脊骨也。——《说文》",
+        "尻髋脊膂腰背吕。——《急就篇》"
+      ],
+      "traditional_char": "呂"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "中国古代音乐十二律中的阴律，有六种，总称‘六吕’。",
+      "examples": [
+        "律有十二，阳六为律，阴六为吕。——《汉书·律历志》",
+        "奏黄钟，歌大吕，奏姑洗，歌南吕，奏夷则，歌小吕。——《周礼》"
+      ],
+      "traditional_char": "呂"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [
+        "吕仙（吕洞宾）",
+        "吕望（周朝开国功臣姜子牙）"
+      ],
+      "traditional_char": "呂"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "中国古代国名，吕国，地在今河南南阳西，春秋时为楚所灭。",
+      "examples": [
+        "氏曰有吕。——《国语·周语下》"
+      ],
+      "traditional_char": "呂"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "通‘旅’。客舍，客店。",
+      "examples": [
+        "自今以来，叚门逆吕，赘婿后父，勿令为户，勿鼠田宇。——睡虎地秦墓竹简《为吏之道》"
+      ],
+      "traditional_char": "呂"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "古地名，如吕县、吕州。",
+      "examples": [
+        "吕县，春秋宋邑，在今江苏省铜山县东南",
+        "吕州，春秋晋邑，在今山西省霍县西南"
+      ],
+      "traditional_char": "呂"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "pictograph",
+      "original_sense_index": 0,
+      "note": "象形字。甲骨文字形象脊骨形，后引申为膂。形体结构表现脊骨状态。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "古代音律‘吕’，与脊骨中空状、管形相关，可能因管状乐器与脊骨外形类比而得名。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "以脊骨为特征的族人或家族由身体部位意引申为姓氏。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "以族氏为地名，吕国以族名命名。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "吕国灭亡后，其地及相关地名沿用‘吕’为称。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "‘吕’通假‘旅’，用作“客舍”，属通假字用法。"
+    }
+  ]
+}

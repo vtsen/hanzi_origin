@@ -1,0 +1,97 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "植物的营养器官之一，如草木的叶子",
+      "examples": [
+        "树叶",
+        "菜叶",
+        "叶落归根",
+        "一叶知秋"
+      ],
+      "traditional_char": "葉"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "像叶子的东西",
+      "examples": [
+        "铁叶",
+        "百叶窗"
+      ],
+      "traditional_char": "葉"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "页面，书页（通“页”）",
+      "examples": [],
+      "traditional_char": "葉"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "世代，时期",
+      "examples": [
+        "初叶",
+        "末叶"
+      ],
+      "traditional_char": "葉"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [],
+      "traditional_char": "葉"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "和洽，协调",
+      "examples": [
+        "叶韵"
+      ],
+      "traditional_char": "叶"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘葉’为形声字，从艸，枽声，表示草木之叶为本义。"
+    },
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 5,
+      "note": "‘叶’本为‘协’的本字，会意，从十从口，表示协调、合。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由植物叶子的形状引申至类似叶形的物品。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "因古时以树叶作书写材料，引申为‘页’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "树叶一片片比喻世代、时期。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "function_word",
+      "note": "以‘叶’为姓，取字为氏的常见途径。"
+    }
+  ]
+}

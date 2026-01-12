@@ -1,0 +1,53 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "厕所，大便或小便的地方",
+      "examples": [
+        "厠所",
+        "厕身于茅厕"
+      ],
+      "traditional_char": "厠"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "参与，插身其中",
+      "examples": [
+        "厕身于某项事业"
+      ],
+      "traditional_char": "厠"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "古同“侧”，旁边",
+      "examples": [
+        "厕，旁也。——《广韵》"
+      ],
+      "traditional_char": "厠"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从厂义旁、则声，本义为厕所，与居住或房屋相关。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由“厕”指具体场所，引申为参与、混杂其中，出现于文献中较晚。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "由厕所、藏身之地，引申为“旁”、“侧”，“厕”假借为“侧”。"
+    }
+  ]
+}

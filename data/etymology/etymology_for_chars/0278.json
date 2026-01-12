@@ -1,0 +1,131 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "驱逐，使退去",
+      "examples": [
+        "斥退",
+        "把叛徒斥出门外"
+      ],
+      "traditional_char": "斥"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "责备，训斥",
+      "examples": [
+        "斥责",
+        "怒斥",
+        "训斥"
+      ],
+      "traditional_char": "斥"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "指，指出",
+      "examples": [
+        "斥谬",
+        "驳斥"
+      ],
+      "traditional_char": "斥"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "开拓疆土，扩展（多用于古文）",
+      "examples": [
+        "开地斥境"
+      ],
+      "traditional_char": "斥"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "多，广（多用于古文）",
+      "examples": [
+        "充斥"
+      ],
+      "traditional_char": "斥"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "侦察敌情的士兵，侦察，伺望",
+      "examples": [
+        "斥候"
+      ],
+      "traditional_char": "斥"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "盐碱地",
+      "examples": [
+        "斥卤"
+      ],
+      "traditional_char": "斥"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "noun",
+      "meaning": "古同“尺”，指尺蠖（一种昆虫）",
+      "examples": [
+        "尺蠖屈伸以求进"
+      ],
+      "traditional_char": "斥"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从广表房屋，屰声，表驱逐、逆行而出之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "驱逐引申为言语上将人排斥、训斥，语义借喻。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "从驱逐引申为指出，与排除、明示相关。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "驱逐引申为开拓、扩展疆土。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "开拓疆土引申为形容多、广。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "驱逐、警戒引申为侦察、巡查。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "semantic_shift",
+      "note": "盐碱地边缘之意，象征排斥土地的用处，后用作盐碱地专名。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 7,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "古同“尺”，系音近假借，无字义联系。"
+    }
+  ]
+}

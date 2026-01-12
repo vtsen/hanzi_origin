@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "土块，泥土块。",
+      "examples": [
+        "坷垃",
+        "地里有许多坷。"
+      ],
+      "traditional_char": "坷"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "（地势、路面等）不平的样子；坎坷不平。",
+      "examples": [
+        "坎坷",
+        "人生多坎坷。"
+      ],
+      "traditional_char": "坷"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "古亭名，指梁国宁陵的坷亭。",
+      "examples": [
+        "梁国宁陵有坷亭。"
+      ],
+      "traditional_char": "坷"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "形声字，从土，可声，最早本义为坎坷不平。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "metonymy",
+      "note": "由‘不平的地面’引申为‘土块’。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "以地势不平命名亭名，属地名借用。"
+    }
+  ]
+}

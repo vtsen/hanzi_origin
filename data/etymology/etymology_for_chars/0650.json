@@ -1,0 +1,41 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "坚硬的外皮，如蛋壳、果壳等。",
+      "examples": [
+        "鸡蛋壳儿",
+        "核桃壳",
+        "炮弹壳"
+      ],
+      "traditional_char": "殻"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "具有包覆作用的外层、表层，如甲壳、地壳，也泛指外在的壳状物或层。",
+      "examples": [
+        "甲壳",
+        "地壳",
+        "金蝉脱壳"
+      ],
+      "traditional_char": "殻"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "'殻'为形声字，从殳，客声，本指坚硬的外壳。‘壳’为简体。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由具体的物体外皮凡指扩展为泛指包覆的外层或壳状物。"
+    }
+  ]
+}

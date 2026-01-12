@@ -1,0 +1,85 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "小草",
+      "examples": [
+        "苛草生于野"
+      ],
+      "traditional_char": "苛"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "过于严厉",
+      "examples": [
+        "苛刻",
+        "苛责"
+      ],
+      "traditional_char": "苛"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "繁重、使人难以忍受",
+      "examples": [
+        "苛捐杂税",
+        "苛重"
+      ],
+      "traditional_char": "苛"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "具有腐蚀性的（如化学品）",
+      "examples": [
+        "苛性钠",
+        "苛性"
+      ],
+      "traditional_char": "苛"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "谴责，责问（古同“诃”）",
+      "examples": [
+        "苛责"
+      ],
+      "traditional_char": "苛"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从‘艹’表示草木类，‘可’为声旁，表示小草。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由小草微细引申为要求严苛，汉代以降逐步固定。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由严厉引申为繁重难忍，多指制度、税赋等。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由‘过于严厉’引申至‘腐蚀性’，用于化学名词。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "unknown",
+      "note": "‘苛’古通‘诃’，训责问，用法转变关联不详。"
+    }
+  ]
+}

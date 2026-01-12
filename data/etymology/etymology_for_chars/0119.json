@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "地支的第七位，属马",
+      "examples": [
+        "属马为午",
+        "十二地支：子丑寅卯辰巳午未申酉戌亥"
+      ],
+      "traditional_char": "午"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "用于计时，白天十一点到一点",
+      "examples": [
+        "午时三刻",
+        "中午吃饭"
+      ],
+      "traditional_char": "午"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "（古同“忤”、“迕”）逆，背",
+      "examples": [
+        "其言午我心",
+        "勿午于道"
+      ],
+      "traditional_char": "午"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "pictograph",
+      "original_sense_index": 0,
+      "note": "象形，古文像御马之索，后假借为地支用字。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "地支午用以计时，约指正午，中古以来通用。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "unknown",
+      "note": "“午”假借为“忤/迕”，具体借用机制不详，战国至汉代文献可证。"
+    }
+  ]
+}

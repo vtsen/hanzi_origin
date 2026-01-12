@@ -1,0 +1,53 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "江河定期的涨水，如汛期、汛情。",
+      "examples": [
+        "长江进入汛期。",
+        "防汛抗洪。"
+      ],
+      "traditional_char": "汛"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "洒，清扫，如汛扫。",
+      "examples": [
+        "他每天负责汛扫庭院。"
+      ],
+      "traditional_char": "汛"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "清代兵制，千总、把总、外委所统率的绿营兵称“汛”，其驻防巡逻的地区称“汛地”。",
+      "examples": [
+        "他在城东汛地当兵。"
+      ],
+      "traditional_char": "汛"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，讯声。本义指江河的定期涨水。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由水涨引申为清洗、洒扫，过程涉及语义扩展。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "‘汛’假借“讯”用，表示清代兵制相关术语，源于音近用法。"
+    }
+  ]
+}

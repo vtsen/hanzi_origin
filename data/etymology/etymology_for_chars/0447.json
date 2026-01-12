@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "遗失，失去物品。",
+      "examples": [
+        "丢失文件",
+        "把书丢在路上"
+      ],
+      "traditional_char": "丟"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "抛弃，放下或扔掉某物。",
+      "examples": [
+        "丢弃旧衣服",
+        "丢盔卸甲"
+      ],
+      "traditional_char": "丟"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘丟’为形声字，从去声，丢为声，意为遗失、失落。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由失去发展为主动地抛弃、扔掉，明清以后口语化用法增强。"
+    }
+  ]
+}

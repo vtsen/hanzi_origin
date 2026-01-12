@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "停止，停住不动",
+      "examples": [
+        "止步",
+        "列队止"
+      ],
+      "traditional_char": "止"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "拦阻，使停止",
+      "examples": [
+        "止痛",
+        "禁止"
+      ],
+      "traditional_char": "止"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adverb",
+      "meaning": "仅，仅有，只",
+      "examples": [
+        "止有此数",
+        "不止一回"
+      ],
+      "traditional_char": "止"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "脚趾，脚",
+      "examples": [
+        "古之止，今之足也",
+        "止于趾"
+      ],
+      "traditional_char": "止"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "pictograph",
+      "original_sense_index": 3,
+      "note": "象形，本义为脚或脚趾，字形像一只脚。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 3,
+      "target_index": 0,
+      "evolution_type": "metonymy",
+      "note": "从“脚”引申为脚部的动作，即“停止、停下”，约上古晚期至先秦。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从“自己停止”扩展为“使他人停止”，见于古今汉语。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "用于副词，表示“仅、只”，属用法引申，常见于古文。"
+    }
+  ]
+}

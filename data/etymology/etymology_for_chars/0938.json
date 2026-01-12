@@ -1,0 +1,41 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "以植物纤维制成的薄片，用于书写、印刷、包装等。",
+      "examples": [
+        "纸张",
+        "宣纸",
+        "白纸黑字",
+        "洛阳纸贵"
+      ],
+      "traditional_char": "紙"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "measure_word",
+      "meaning": "用于书信、文件等的张数，一张纸。",
+      "examples": [
+        "一纸空文",
+        "再下两纸通知"
+      ],
+      "traditional_char": "紙"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从糸，氏声。糸表材料与纤维有关，氏表音。最初指由丝绵等制成的写画材料。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "conversion",
+      "note": "名词“纸”引申为量词“纸”，用于统计信件等的张数，用法见清朝以后。"
+    }
+  ]
+}

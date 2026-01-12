@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "汝水，河流名，今中国河南省境内的汝河",
+      "examples": [
+        "汝水在河南省。",
+        "昔有汝水。"
+      ],
+      "traditional_char": "汝"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "pronoun",
+      "meaning": "你，第二人称代词",
+      "examples": [
+        "汝辈",
+        "汝将何经",
+        "汝等",
+        "汝曹"
+      ],
+      "traditional_char": "汝"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "汝姓在《百家姓》中有记载。"
+      ],
+      "traditional_char": "汝"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，女声，最初表示汝水之名。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "地名代指地名所在之地的人，后引申为第二人称，战国以来用法。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "conversion",
+      "note": "由“你”为姓氏用，姓氏来源多为地名或代词。"
+    }
+  ]
+}

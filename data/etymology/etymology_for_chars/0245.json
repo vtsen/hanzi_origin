@@ -1,0 +1,129 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "原因，理由",
+      "examples": [
+        "原因由他引起。",
+        "原由",
+        "事由"
+      ],
+      "traditional_char": "由"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "preposition",
+      "meaning": "自，从",
+      "examples": [
+        "由表及里",
+        "由左至右",
+        "由衷"
+      ],
+      "traditional_char": "由"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "顺随，归属，依从",
+      "examples": [
+        "信马由缰",
+        "由不得",
+        "听之由之"
+      ],
+      "traditional_char": "由"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "经过，经历",
+      "examples": [
+        "必由之路",
+        "由来已久"
+      ],
+      "traditional_char": "由"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "preposition",
+      "meaning": "凭借",
+      "examples": [
+        "由此可知",
+        "由经验得出"
+      ],
+      "traditional_char": "由"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "adverb",
+      "meaning": "古同“犹”，尚且，还",
+      "examples": [
+        "由未可知"
+      ],
+      "traditional_char": "由"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "adverb",
+      "meaning": "古同“犹”，好像，犹如",
+      "examples": [
+        "由鹿为马"
+      ],
+      "traditional_char": "由"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "由氏"
+      ],
+      "traditional_char": "由"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "pictograph",
+      "original_sense_index": 3,
+      "note": "甲骨文形似植物的枝茎贯穿土地，表示‘穿通、通过’之意，是象形字，古义为“穿通出入”，与“经过”义相关。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 3,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "‘经过、通过’义扩展为‘自、从’。常见语法演变路径。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "‘经过’引申为‘凭借’，即倚赖的路径。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "metonymy",
+      "note": "‘自、从（来源地）’转为‘原因’，即事情的起点。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "‘通过、顺从渠道’转为‘顺随、归属’。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 5,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "古作‘犹’，因声近假借，用作‘尚且、还’。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 6,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "古作‘犹’，用作‘好像，犹如’。"
+    }
+  ]
+}

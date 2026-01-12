@@ -1,0 +1,58 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "古代的，历史久远的，与“今”相对",
+      "examples": [
+        "古代",
+        "古稀",
+        "古典",
+        "古风",
+        "人生七十古来稀"
+      ],
+      "traditional_char": "古"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "古体诗的简称",
+      "examples": [
+        "五古",
+        "七古"
+      ],
+      "traditional_char": "古"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "古先生",
+        "古女士"
+      ],
+      "traditional_char": "古"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意字，“十”表顶部，“口”为基体，组合表示年代久远（古代）。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "古代诗体称为“古”，由“古代”引申而来。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "conversion",
+      "note": "以“古”为姓，源于古人以地名、词义为姓的习惯。"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "深青绿色，深绿色",
+      "examples": [
+        "苍松翠柏",
+        "苍翠欲滴",
+        "苍天"
+      ],
+      "traditional_char": "蒼"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "灰白色，灰白的样子（尤指年老或枯槁）",
+      "examples": [
+        "苍白",
+        "老者须发皆苍",
+        "苍老",
+        "苍劲有力"
+      ],
+      "traditional_char": "蒼"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "苍某",
+        "著名历史人物苍氏"
+      ],
+      "traditional_char": "蒼"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从艸，仓声；本义为草的颜色，即深青或深绿色。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由深青绿色扩展为灰白色，可能因植物变老后由青变灰白色。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "unknown",
+      "note": "由本义引申为姓氏，起源关联不详。"
+    }
+  ]
+}

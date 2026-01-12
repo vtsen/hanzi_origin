@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "pronoun",
+      "meaning": "我，指说话人自身",
+      "examples": [
+        "吾身",
+        "吾国",
+        "吾辈"
+      ],
+      "traditional_char": "吾"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "吾姓之氏"
+      ],
+      "traditional_char": "吾"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "古同“御”，抵御",
+      "examples": [
+        "以一治一，吾之以吾也——《说文》"
+      ],
+      "traditional_char": "吾"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从口，五声，本义为第一人称“我”。“五”为声符。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "conversion",
+      "note": "由代词转用为姓氏；常见用法演变。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "unknown",
+      "note": "“吾”通“御”，但具体转化机制不明，或为古代文献中通假用法。"
+    }
+  ]
+}

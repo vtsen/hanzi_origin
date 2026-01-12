@@ -1,0 +1,145 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "责备，谴责",
+      "examples": [
+        "二世使人让章邯"
+      ],
+      "traditional_char": "讓"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "不争，尽着旁人",
+      "examples": [
+        "谦让",
+        "让步",
+        "让位"
+      ],
+      "traditional_char": "讓"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "请",
+      "examples": [
+        "让茶",
+        "请让"
+      ],
+      "traditional_char": "讓"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "许，使",
+      "examples": [
+        "不让他来"
+      ],
+      "traditional_char": "讓"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "任凭",
+      "examples": [
+        "让他闹去"
+      ],
+      "traditional_char": "讓"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "被（用作被动结构）",
+      "examples": [
+        "让雨淋了"
+      ],
+      "traditional_char": "讓"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "索取一定代价，把东西给人",
+      "examples": [
+        "出让",
+        "转让"
+      ],
+      "traditional_char": "讓"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "verb",
+      "meaning": "闪避",
+      "examples": [
+        "让开",
+        "当仁不让"
+      ],
+      "traditional_char": "讓"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "verb",
+      "meaning": "古同“攘”，侵夺",
+      "examples": [],
+      "traditional_char": "讓"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从言，襄声，初本义为责备。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "责备引申为通过言语表达不满后退让。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "不争引申为礼貌表达请。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "退让转为许可、允许。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "许使引申为任凭。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 5,
+      "evolution_type": "grammaticalization",
+      "note": "使动转为被动。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 6,
+      "evolution_type": "semantic_extension",
+      "note": "不争延伸为转让物品所有权。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 7,
+      "evolution_type": "semantic_extension",
+      "note": "不争引申为主动让开、避让。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 8,
+      "evolution_type": "semantic_shift",
+      "note": "早期与“攘”音近，义通，表示侵夺。"
+    }
+  ]
+}

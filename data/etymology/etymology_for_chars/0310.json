@@ -1,0 +1,229 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "人或动物身体最上部或最前部，即头部",
+      "examples": [
+        "头骨",
+        "头脑",
+        "头脸"
+      ],
+      "traditional_char": "頭"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "头发或发型",
+      "examples": [
+        "留头",
+        "剃头"
+      ],
+      "traditional_char": "頭"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "物体的顶端、前端部分",
+      "examples": [
+        "山头",
+        "笔头",
+        "两头尖"
+      ],
+      "traditional_char": "頭"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "事情的起点或端绪",
+      "examples": [
+        "从头儿说起",
+        "头绪"
+      ],
+      "traditional_char": "頭"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "物体的残余部分",
+      "examples": [
+        "布头儿"
+      ],
+      "traditional_char": "頭"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "adverb",
+      "meaning": "以前，在前面",
+      "examples": [
+        "头三天"
+      ],
+      "traditional_char": "頭"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "adjective",
+      "meaning": "次序在前，第一",
+      "examples": [
+        "头等",
+        "头生"
+      ],
+      "traditional_char": "頭"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "noun",
+      "meaning": "首领，领导者",
+      "examples": [
+        "头子",
+        "头目"
+      ],
+      "traditional_char": "頭"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "noun",
+      "meaning": "方面",
+      "examples": [
+        "他们是一头的"
+      ],
+      "traditional_char": "頭"
+    },
+    {
+      "index": 9,
+      "part_of_speech": "verb",
+      "meaning": "接近，临近某事",
+      "examples": [
+        "头睡觉先洗脸"
+      ],
+      "traditional_char": "頭"
+    },
+    {
+      "index": 10,
+      "part_of_speech": "measure_word",
+      "meaning": "量词，多用于牲畜",
+      "examples": [
+        "一头牛"
+      ],
+      "traditional_char": "頭"
+    },
+    {
+      "index": 11,
+      "part_of_speech": "numeral",
+      "meaning": "表示约计或不定数量的词",
+      "examples": [
+        "三头五百"
+      ],
+      "traditional_char": "頭"
+    },
+    {
+      "index": 12,
+      "part_of_speech": "other",
+      "meaning": "名词后缀，用于名词词根、动词词根或形容词词根后",
+      "examples": [
+        "木头",
+        "念头",
+        "甜头儿"
+      ],
+      "traditional_char": "頭"
+    },
+    {
+      "index": 13,
+      "part_of_speech": "other",
+      "meaning": "方位词后缀",
+      "examples": [
+        "上头",
+        "里头",
+        "后头"
+      ],
+      "traditional_char": "頭"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字。从页（意符，表示头部），豆为声符，首义为人的头部。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "头部引申为指头发及发型，古今通用。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "人体头部比喻为物体的顶端或前端。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "身体的最前部比喻事情的起点。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "顶端引申为残余部分，如一头一尾，物的头部即剩余物。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "metaphor",
+      "note": "最前部比喻时间上的“以前”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "semantic_extension",
+      "note": "前部引申为“排名第一”的形容用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 7,
+      "evolution_type": "metonymy",
+      "note": "头作为人的首领，引申为领导者。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 8,
+      "evolution_type": "unknown",
+      "note": "“头”作方面用法，可能由分支、方位引申，语源路径不详。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 9,
+      "evolution_type": "semantic_extension",
+      "note": "头本为前，引申为临近某事。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 10,
+      "evolution_type": "grammaticalization",
+      "note": "头用作量词，原指牲畜的头部转义为计数单位。"
+    },
+    {
+      "source_index": 10,
+      "target_index": 11,
+      "evolution_type": "semantic_extension",
+      "note": "量词义引申为约计或不定数字。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 12,
+      "evolution_type": "function_word",
+      "note": "顶端、末端引申为事物后缀组成派生名词动词形容词。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 13,
+      "evolution_type": "function_word",
+      "note": "从“顶端”义发展为部分方位词的后缀。"
+    }
+  ]
+}

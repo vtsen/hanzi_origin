@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "丝织品或物体表面的条理、花纹。",
+      "examples": [
+        "这块布的纹理很细致。",
+        "水面有波纹。"
+      ],
+      "traditional_char": "紋"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "器物上的裂痕。",
+      "examples": [
+        "这个碗上有一道纹。",
+        "打破砂锅纹到底。"
+      ],
+      "traditional_char": "紋"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从糸，文声。本义为丝织物上的花纹。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从条理、花纹之义引申为物体表面的裂痕，多用于器物。"
+    }
+  ]
+}

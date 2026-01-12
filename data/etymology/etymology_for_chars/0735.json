@@ -1,0 +1,70 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "叫嚷，大声喧哗。",
+      "examples": [
+        "大家在街上大声吵。",
+        "小孩在房间里吵个不停。"
+      ],
+      "traditional_char": "吵"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "争吵，彼此口角。",
+      "examples": [
+        "两人因为小事而吵。",
+        "他们在吵嘴。"
+      ],
+      "traditional_char": "吵"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "声音杂乱，令人心烦。",
+      "examples": [
+        "外面很吵。",
+        "这里太吵了，我听不清。"
+      ],
+      "traditional_char": "吵"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "other",
+      "meaning": "叠音用法，表示非常吵闹，如“吵吵”。",
+      "examples": [
+        "孩子们吵吵闹闹。"
+      ],
+      "traditional_char": "吵"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从口，少声，表示叫嚷之声。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由单纯的叫嚷扩展为争吵、口角的含义。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "动词转为形容词，表示环境嘈杂。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "analogy",
+      "note": "叠音形式作修饰，形容非常吵闹。"
+    }
+  ]
+}

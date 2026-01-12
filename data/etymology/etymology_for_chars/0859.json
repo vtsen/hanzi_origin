@@ -1,0 +1,69 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "液体一滴一滴地落下",
+      "examples": [
+        "呕心沥血",
+        "滴水穿石"
+      ],
+      "traditional_char": "瀝"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "滤，漉",
+      "examples": [
+        "沥酒"
+      ],
+      "traditional_char": "瀝"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "液体的点滴",
+      "examples": [
+        "余沥",
+        "沥液"
+      ],
+      "traditional_char": "瀝"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "踩着石头过河",
+      "examples": [
+        ""
+      ],
+      "traditional_char": "瀝"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 3,
+      "note": "形声字，从水，歷声。本指踩石头渡水。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 3,
+      "target_index": 0,
+      "evolution_type": "semantic_shift",
+      "note": "由踩石过河时水滴下的动作引申为液体滴落，约先秦至汉。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由液体滴落引申为过滤、沥出。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "由动作引申为液体的名词。"
+    }
+  ]
+}

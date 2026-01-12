@@ -1,0 +1,59 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "叹息，发出叹息的声音。",
+      "examples": [
+        "长吁短叹",
+        "他忍不住吁了口气。"
+      ],
+      "traditional_char": "吁"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "interjection",
+      "meaning": "叹词，表示惊讶或疑问。",
+      "examples": [
+        "吁，是何言欤？"
+      ],
+      "traditional_char": "吁"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "为某种要求而呼喊、呼吁。",
+      "examples": [
+        "呼吁大家支持",
+        "吁天诉苦"
+      ],
+      "traditional_char": "籲"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "吁由‘口’表意，‘于’表音，表示叹息的声音。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 2,
+      "note": "籲为‘糹’表意，‘吁’表音，本义作大声呼喊，后简化为‘吁’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "grammaticalization",
+      "note": "由动词变为感叹词，见于古汉语。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由叹息的动作推广到呼喊号召之意，‘籲’常用以专指呼喊请求。"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "将丝、棉、麻、毛等纤维制成纱或线",
+      "examples": [
+        "纺纱",
+        "纺线",
+        "毛纺"
+      ],
+      "traditional_char": "紡"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "一种比绸子稀而轻薄的丝织品",
+      "examples": [
+        "纺绸",
+        "杭纺"
+      ],
+      "traditional_char": "紡"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘紡’为形声字，从糸，方声，本义为将丝麻纤维制成纱或线。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由纺织动作转指其制成的某类丝织品。"
+    }
+  ]
+}

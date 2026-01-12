@@ -1,0 +1,100 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "动物形状，犬的样子（本义）",
+      "examples": [],
+      "traditional_char": "狀"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "样子，形状，外形",
+      "examples": [
+        "奇形怪状",
+        "状貌"
+      ],
+      "traditional_char": "狀"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "情况，情形",
+      "examples": [
+        "病状",
+        "现状"
+      ],
+      "traditional_char": "狀"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "对事件的叙述或描写的话",
+      "examples": [
+        "状语",
+        "状其事"
+      ],
+      "traditional_char": "狀"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "旧时叙述事件的文书",
+      "examples": [
+        "诉状",
+        "供状"
+      ],
+      "traditional_char": "狀"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "特定格式的凭证、文本",
+      "examples": [
+        "奖状",
+        "委任状"
+      ],
+      "traditional_char": "狀"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从犬，爿声，表示犬的形体。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘犬的形状’引申为一般物体的‘形状’。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由‘形状’引申为‘情况、情形’。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由具体情形引申为对事件的叙述或描述。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由‘叙述的话’引申为‘叙述事件的文书’。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "由‘叙述事件的文书’引申为‘特定格式的凭证’。"
+    }
+  ]
+}

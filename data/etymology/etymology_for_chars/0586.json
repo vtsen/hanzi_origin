@@ -1,0 +1,115 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "观察，看，仔细察看",
+      "examples": [
+        "观看",
+        "观察",
+        "观赏",
+        "观感"
+      ],
+      "traditional_char": "觀"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "看见的景象、样子",
+      "examples": [
+        "大观",
+        "奇观",
+        "观瞻"
+      ],
+      "traditional_char": "觀"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "对事物的看法、认识",
+      "examples": [
+        "观点",
+        "观念",
+        "主观",
+        "客观",
+        "世界观"
+      ],
+      "traditional_char": "觀"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "道教的庙宇",
+      "examples": [
+        "白云观",
+        "紫阳观"
+      ],
+      "traditional_char": "觀"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "古代宫门前的两座高台",
+      "examples": [
+        "宫门观阙"
+      ],
+      "traditional_char": "觀"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "高台、楼台",
+      "examples": [
+        "台观",
+        "楼观"
+      ],
+      "traditional_char": "觀"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [],
+      "traditional_char": "觀"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从见，雚声，表示仔细察看之义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由动作转为所观察到的事物、景象。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由'看'引申为'对事物的看法'，形成抽象意义。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "由观看、观视之地，引申为道教庙宇。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "特指古代宫门前双阙，大体由观察高处引出。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "从宫门前的观扩展为一般意义上的高台、楼台。"
+    }
+  ]
+}

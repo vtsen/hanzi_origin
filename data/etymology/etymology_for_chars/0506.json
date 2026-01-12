@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "pronoun",
+      "meaning": "每一个，分别的个体",
+      "examples": [
+        "各有千秋",
+        "各自为政",
+        "各尽所能"
+      ],
+      "traditional_char": "各"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "pronoun",
+      "meaning": "自己（用于“自各儿/自个儿”）",
+      "examples": [
+        "自各儿努力",
+        "靠自各儿生活"
+      ],
+      "traditional_char": "各"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "特别，特殊（方言用法）",
+      "examples": [
+        "这个人真各"
+      ],
+      "traditional_char": "各"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘各’字形由“夂”表意（脚步），“口”表音，最初表示“分别”；属于形声字。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_shift",
+      "note": "由表示‘每一个’引申为‘自己’，用作口语和方言。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由‘分别’引申出‘特别’（方言），现代汉语用法。"
+    }
+  ]
+}

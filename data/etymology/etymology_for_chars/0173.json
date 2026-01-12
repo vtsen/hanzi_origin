@@ -1,0 +1,67 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "讽刺，挖苦",
+      "examples": [
+        "他用言语讥笑别人。",
+        "冷讥热嘲"
+      ],
+      "traditional_char": "譏"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "查问，察问",
+      "examples": [
+        "讥察其行"
+      ],
+      "traditional_char": "譏"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "指责，非议",
+      "examples": [
+        "讥议时政",
+        "讥弹失德"
+      ],
+      "traditional_char": "譏"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "规劝",
+      "examples": [],
+      "traditional_char": "譏"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从言，幾声。本义为旁敲侧击地批评，即讽刺挖苦。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由讽刺挖苦发展为指责非议，已见于古籍。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由指责发展为规劝义，汉晋时期有用例。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_shift",
+      "note": "表示讥之时也可兼有问察含义，用义发展较早。"
+    }
+  ]
+}

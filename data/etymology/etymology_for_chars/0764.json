@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "头顶无发，山无树木，树木无枝叶",
+      "examples": [
+        "秃头",
+        "秃山",
+        "秃树"
+      ],
+      "traditional_char": "禿"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "鸟羽毛脱落，物体失去尖端",
+      "examples": [
+        "秃鹫",
+        "秃笔",
+        "秃针"
+      ],
+      "traditional_char": "禿"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "不圆满、不周全",
+      "examples": [
+        "文章的开头写得有点秃。"
+      ],
+      "traditional_char": "禿"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "pictograph",
+      "original_sense_index": 0,
+      "note": "象形字，由人形和禾粟象形组合，表示头上无发的形象。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "以人体无发之意引申到鸟类无羽及物体失去末端，自古汉语常见。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由具体缺失（羽毛、尖端）转喻为抽象不圆满，多用于近现代。"
+    }
+  ]
+}

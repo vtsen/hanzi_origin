@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "肋骨，位于胸部两侧的骨头。",
+      "examples": [
+        "肋骨折断",
+        "两肋插刀"
+      ],
+      "traditional_char": "肋"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "像肋骨一样的东西，如构件中的支撑部分。",
+      "examples": [
+        "肋木",
+        "铁肋"
+      ],
+      "traditional_char": "肋"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "（肋脦）衣服宽大而不整齐。",
+      "examples": [
+        "衣服肋脦，仪表不整"
+      ],
+      "traditional_char": "肋"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从肉，力声，本义为肋骨，强调与肉有关的身体部位。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由具体的肋骨转喻为类似肋骨的结构，古今皆有用例。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "unknown",
+      "note": "‘肋脦’义与本义关系可能为借义，具体语义演变未明，或为方言用法。"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "估算，推测价格或数量",
+      "examples": [
+        "估价",
+        "我来估一估"
+      ],
+      "traditional_char": "估"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "商人（古同“贾”）",
+      "examples": [
+        "小估",
+        "大估"
+      ],
+      "traditional_char": "估"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "出售旧衣服或原料较次的新衣服（用于“估衣”）",
+      "examples": [
+        "估衣铺"
+      ],
+      "traditional_char": "估"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从人，古声。初指物价的估算。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由‘估价/估算’引申为‘从事估价的人’即商人。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "‘估’用于‘估衣’，表示对品质粗劣商品的称呼，来源于旧货估过价钱。"
+    }
+  ]
+}

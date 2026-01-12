@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "乳房",
+      "examples": [
+        "奶房",
+        "母亲的奶"
+      ],
+      "traditional_char": "奶"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "乳汁",
+      "examples": [
+        "牛奶",
+        "羊奶",
+        "用奶喂养婴儿"
+      ],
+      "traditional_char": "奶"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "用乳房给孩子喂奶",
+      "examples": [
+        "奶孩子",
+        "母亲正在奶婴儿"
+      ],
+      "traditional_char": "奶"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从女，乃声，初义为乳房。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由乳房转指乳汁，见中古及现代用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "conversion",
+      "note": "由名词作动词，指哺乳行为。"
+    }
+  ]
+}

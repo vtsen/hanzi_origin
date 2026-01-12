@@ -1,0 +1,99 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "刑刀，古代刑具，引申指大罪",
+      "examples": [
+        "《说文》：『辛，罪也。以刑刀断也。』"
+      ],
+      "traditional_char": "辛"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "辣的味道",
+      "examples": [
+        "辛辣",
+        "五辛"
+      ],
+      "traditional_char": "辛"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "劳苦，艰难",
+      "examples": [
+        "辛苦",
+        "辛劳"
+      ],
+      "traditional_char": "辛"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "悲伤",
+      "examples": [
+        "辛酸"
+      ],
+      "traditional_char": "辛"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "天干的第八位，用作序数词",
+      "examples": [
+        "辛亥革命"
+      ],
+      "traditional_char": "辛"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "辛弃疾"
+      ],
+      "traditional_char": "辛"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "pictograph",
+      "original_sense_index": 0,
+      "note": "甲骨文字形象刑刀，表示大罪，与处罚相关。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由刑刀带来刺痛延伸为辣的感觉。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "辣常与痛楚相关，引申为劳苦艰难。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "艰难与痛苦常伴，引申为悲伤。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_shift",
+      "note": "天干用字多取象征意义，由工具名转为序数用字，具体机制不详，见于商周时期。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "unknown",
+      "note": "用作姓氏，机制不详。"
+    }
+  ]
+}

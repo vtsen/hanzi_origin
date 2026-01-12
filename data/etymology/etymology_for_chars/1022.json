@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "一种收藏东西用的家具，通常为长方形，有盖或有门，如柜子、柜橱、电视柜等。",
+      "examples": [
+        "书柜里满是书。",
+        "把衣服放进柜子里。"
+      ],
+      "traditional_char": "櫃"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "掌柜、商店老板或掌管商店的人。",
+      "examples": [
+        "他是这家店的掌柜。",
+        "请问掌柜有空吗？"
+      ],
+      "traditional_char": "櫃"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "〔柜柳〕一种落叶乔木，羽状复叶，小叶长椭圆形，枝条韧性好，可以编筐。",
+      "examples": [
+        "路两边种满了柜柳。",
+        "柜柳枝可以编筐。"
+      ],
+      "traditional_char": "櫃"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从木，匮声，初指用木制成的储藏家具。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "商铺用柜指掌管柜台的人，店主称掌柜。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "unknown",
+      "note": "“柜柳”为借用，具体语音或文化关联未明。"
+    }
+  ]
+}

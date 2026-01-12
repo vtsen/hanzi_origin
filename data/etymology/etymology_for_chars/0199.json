@@ -1,0 +1,121 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "击打，拍打",
+      "examples": [
+        "扑打",
+        "扑蝇",
+        "轻扑"
+      ],
+      "traditional_char": "撲"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "拍打用的工具",
+      "examples": [
+        "粉扑",
+        "用扑扑脸"
+      ],
+      "traditional_char": "撲"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "冲，迅速靠近",
+      "examples": [
+        "扑灭",
+        "扑救",
+        "往前扑"
+      ],
+      "traditional_char": "撲"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "搏击，互相冲突",
+      "examples": [
+        "相扑",
+        "二人互扑"
+      ],
+      "traditional_char": "撲"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "跌倒",
+      "examples": [
+        "扑地而倒",
+        "一扑就摔"
+      ],
+      "traditional_char": "撲"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "伏在物体上",
+      "examples": [
+        "扑在桌上",
+        "他扑着看书"
+      ],
+      "traditional_char": "撲"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "杖，戒尺，古代刑具",
+      "examples": [
+        "用扑加刑",
+        "扑刑"
+      ],
+      "traditional_char": "撲"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，左“扌”表意，右“卜”表音，表示击打之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由“击打”动作引申指用来击打的器具"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "“击打”动作比喻迅速冲向"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "击打引申为相互搏击、冲突"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "动作之猛，引申为跌倒于地"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "动作之贴近，引申为伏于物体上"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "metonymy",
+      "note": "击打之物被称为扑，引申为刑具"
+    }
+  ]
+}

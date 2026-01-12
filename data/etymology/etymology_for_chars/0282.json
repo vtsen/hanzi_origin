@@ -1,0 +1,156 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "命令、发布的指示",
+      "examples": [
+        "命令",
+        "法令",
+        "朝令夕改"
+      ],
+      "traditional_char": "令"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "古代官名，县一级的长官",
+      "examples": [
+        "县令",
+        "令尹",
+        "尚书令"
+      ],
+      "traditional_char": "令"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "使，使得",
+      "examples": [
+        "令人兴奋",
+        "令人发笑"
+      ],
+      "traditional_char": "令"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "时节",
+      "examples": [
+        "时令",
+        "节令"
+      ],
+      "traditional_char": "令"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "美好，善",
+      "examples": [
+        "令名",
+        "令辰",
+        "令闻"
+      ],
+      "traditional_char": "令"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "敬辞，用于对方亲属等",
+      "examples": [
+        "令尊",
+        "令堂",
+        "令岳",
+        "令郎",
+        "令爱"
+      ],
+      "traditional_char": "令"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "短的词调、散曲中用的曲调名",
+      "examples": [
+        "小令",
+        "如梦令"
+      ],
+      "traditional_char": "令"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "measure_word",
+      "meaning": "印刷用的原张平版纸五百张为一令",
+      "examples": [
+        "一令纸",
+        "纸数五令"
+      ],
+      "traditional_char": "令"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "noun",
+      "meaning": "古地名，在今山西省临猗县一带及复姓用法",
+      "examples": [
+        "令狐"
+      ],
+      "traditional_char": "令"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "从“集”从“人”会意，表示集众传令，古文字形证可见命令之义为本义"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "命令的发布者与命令本身密切相关，古时官职因职责得名"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "grammaticalization",
+      "note": "由“发命令”引申为“使，让”等使动关系"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "命令有时效，喻为四时节令，汉代已见"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "amelioration",
+      "note": "对命令、官名褒义化，引申为美好、善"
+    },
+    {
+      "source_index": 4,
+      "target_index": 5,
+      "evolution_type": "function_word",
+      "note": "美好之意作敬称，演化为敬辞用法"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "semantic_shift",
+      "note": "由命令简要文句引申为短小曲调名，元明散曲开始"
+    },
+    {
+      "source_index": 0,
+      "target_index": 7,
+      "evolution_type": "semantic_shift",
+      "note": "“令”为计算单位，后专指纸张量词，近代用法"
+    },
+    {
+      "source_index": 8,
+      "target_index": 8,
+      "evolution_type": "unknown",
+      "note": "地名和复姓或为假借用法，历史机制不详"
+    }
+  ]
+}

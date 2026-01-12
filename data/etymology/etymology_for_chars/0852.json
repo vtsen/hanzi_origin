@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "光彩鲜明，耀眼，明亮",
+      "examples": [
+        "灿若晨星",
+        "阳光灿烂",
+        "山楼黑无月，渔火灿星点。"
+      ],
+      "traditional_char": "燦"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "色彩鲜艳，鲜明",
+      "examples": [
+        "裘带文章燦，壶歌礼乐嫻。",
+        "西风篱菊燦秋花，落日枫林噪晚鸦。"
+      ],
+      "traditional_char": "燦"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "明白，清楚",
+      "examples": [
+        "灿然有条理而不乱。",
+        "及观公解，则终始贯穿通为一义，灿有条理而不乱。"
+      ],
+      "traditional_char": "燦"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从火，粲声，描述光彩鲜明、本义为明亮。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由描述光亮扩展至色彩鲜艳，古今皆见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "明亮喻意为思想或道理明白清晰。"
+    }
+  ]
+}

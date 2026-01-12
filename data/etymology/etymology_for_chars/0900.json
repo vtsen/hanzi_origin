@@ -1,0 +1,134 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "巫师，通神者",
+      "examples": [
+        "巫觋为灵。"
+      ],
+      "traditional_char": "靈"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "有效验，有灵验",
+      "examples": [
+        "这药很灵。",
+        "祈福灵验。"
+      ],
+      "traditional_char": "靈"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "聪明，不呆滞",
+      "examples": [
+        "他很机灵。",
+        "小孩很灵慧。"
+      ],
+      "traditional_char": "靈"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "敏捷、巧妙的心理活动",
+      "examples": [
+        "灵机一动。",
+        "灵感闪现。"
+      ],
+      "traditional_char": "靈"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "精神、非物质的本体",
+      "examples": [
+        "英灵不灭。",
+        "心灵纯洁。"
+      ],
+      "traditional_char": "靈"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "神或神仙",
+      "examples": [
+        "神灵庇佑。",
+        "天灵感应。"
+      ],
+      "traditional_char": "靈"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "adjective",
+      "meaning": "反应敏捷，动作迅速",
+      "examples": [
+        "动作很灵便。",
+        "眼睛很灵。"
+      ],
+      "traditional_char": "靈"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "noun",
+      "meaning": "关于死人的魂魄或尸体",
+      "examples": [
+        "幽灵出没。",
+        "灵柩安放。"
+      ],
+      "traditional_char": "靈"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从巫，靈声，原指巫师。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "巫师（灵）可引申为‘神’及‘神仙’。"
+    },
+    {
+      "source_index": 5,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由神灵之意引申为‘灵验’（神迹显现）。"
+    },
+    {
+      "source_index": 5,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "神灵引申为‘精神’、‘灵魂’。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 7,
+      "evolution_type": "semantic_extension",
+      "note": "精神、灵魂再引申为死者魂魄。"
+    },
+    {
+      "source_index": 5,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "神灵的敏锐，喻为人的聪明。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "聪明进一步引申为心理活动敏捷机巧。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 6,
+      "evolution_type": "semantic_extension",
+      "note": "聪明也可表反应或动作敏捷。"
+    }
+  ]
+}

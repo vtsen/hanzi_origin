@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "起始，开端，开始的部分",
+      "examples": [
+        "初始",
+        "正月初一",
+        "初稿",
+        "初试"
+      ],
+      "traditional_char": "初"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "原来的，最初的状况",
+      "examples": [
+        "和好如初",
+        "初衷"
+      ],
+      "traditional_char": "初"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [],
+      "traditional_char": "初"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意字，从“刀”与“衣”，表示用刀裁衣，引申为起始、开端。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“起始”进一步引申为“原本、最初”的含义。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "function_word",
+      "note": "用作姓氏，常见汉字作为姓的转用过程，具体机制不明。"
+    }
+  ]
+}

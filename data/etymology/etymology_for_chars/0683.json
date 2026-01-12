@@ -1,0 +1,70 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "扶着走路的棍子",
+      "examples": [
+        "手杖",
+        "拐杖"
+      ],
+      "traditional_char": "杖"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "泛指棍棒",
+      "examples": [
+        "擀面杖",
+        "禅杖"
+      ],
+      "traditional_char": "杖"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "古代刑罚之一，用棍打",
+      "examples": [
+        "杖脊",
+        "受杖"
+      ],
+      "traditional_char": "杖"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "古同“仗”，恃，凭倚",
+      "examples": [
+        "杖义而行"
+      ],
+      "traditional_char": "杖"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从木，丈声；本义指‘扶着走路的棍子’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由特指扶助用的棍子扩展为泛指棍棒，相关用例见后代文献。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "用棍处罚，引申指刑罚中的‘杖刑’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由名词‘杖’引申为动词‘凭恃、依靠’，古与‘仗’通。"
+    }
+  ]
+}

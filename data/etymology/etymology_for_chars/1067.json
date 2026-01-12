@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "同意，答应，情愿",
+      "examples": [
+        "他肯帮助我。",
+        "首肯"
+      ],
+      "traditional_char": "肯"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "骨头上附着的肉",
+      "examples": [
+        "中肯",
+        "肯綮"
+      ],
+      "traditional_char": "肯"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "‘肯’字从‘止’（足），‘月’（肉），本义指骨头上有肉的部分，属形声字。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "metaphor",
+      "note": "由骨头上附着的肉比喻内心认可或接受，语义上由实指转为抽象意愿、同意。"
+    }
+  ]
+}

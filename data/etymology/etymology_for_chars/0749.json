@@ -1,0 +1,53 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "野兽大声叫",
+      "examples": [
+        "狮子在山林中大声吼叫。"
+      ],
+      "traditional_char": "吼"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "人在激怒时大声呼喊",
+      "examples": [
+        "他愤怒地吼了一声。"
+      ],
+      "traditional_char": "吼"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "风、汽笛、大炮等发出巨大的声响",
+      "examples": [
+        "汽笛长吼。",
+        "大炮吼鸣。"
+      ],
+      "traditional_char": "吼"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从“口”表示与发声有关，“孔”为声旁，古本指猛兽大叫。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "类比野兽大叫，引申为人激怒时的呼喊。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "以猛兽吼叫为喻，比喻物体发出巨大响声。"
+    }
+  ]
+}

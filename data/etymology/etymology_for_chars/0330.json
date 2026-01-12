@@ -1,0 +1,215 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "生长出来，长出",
+      "examples": [
+        "草木出于山中。"
+      ],
+      "traditional_char": "出"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "从里面到外面",
+      "examples": [
+        "出门",
+        "出访",
+        "初出茅庐"
+      ],
+      "traditional_char": "出"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "往外拿，支付",
+      "examples": [
+        "出力",
+        "出钱",
+        "入不敷出"
+      ],
+      "traditional_char": "出"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "离开",
+      "examples": [
+        "出发",
+        "出轨",
+        "出嫁"
+      ],
+      "traditional_char": "出"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "产生，产出",
+      "examples": [
+        "出产",
+        "出品",
+        "出人才"
+      ],
+      "traditional_char": "出"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "发生（事件、情况）",
+      "examples": [
+        "出事",
+        "出乱子"
+      ],
+      "traditional_char": "出"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "显露",
+      "examples": [
+        "出名",
+        "出现"
+      ],
+      "traditional_char": "出"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "verb",
+      "meaning": "超过",
+      "examples": [
+        "出色",
+        "出类拔萃"
+      ],
+      "traditional_char": "出"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "verb",
+      "meaning": "来到（某场合）",
+      "examples": [
+        "出席",
+        "出勤"
+      ],
+      "traditional_char": "出"
+    },
+    {
+      "index": 9,
+      "part_of_speech": "noun",
+      "meaning": "引文、典故的出处",
+      "examples": [
+        "语出《孟子》"
+      ],
+      "traditional_char": "出"
+    },
+    {
+      "index": 10,
+      "part_of_speech": "verb",
+      "meaning": "显得量多",
+      "examples": [
+        "这米出饭"
+      ],
+      "traditional_char": "出"
+    },
+    {
+      "index": 11,
+      "part_of_speech": "particle",
+      "meaning": "用在动词后表趋向或结果",
+      "examples": [
+        "提出问题",
+        "拿出办法"
+      ],
+      "traditional_char": "出"
+    },
+    {
+      "index": 12,
+      "part_of_speech": "noun",
+      "meaning": "戏曲的一个独立剧目",
+      "examples": [
+        "一出好戏",
+        "这出很精彩"
+      ],
+      "traditional_char": "齣"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "pictograph",
+      "original_sense_index": 0,
+      "note": "象形，表示草木从地上生长出来的形状，上下两个“山”象地，代表出之意。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 12,
+      "note": "‘齣’为会意兼形声字，从‘出’，‘齒’声，本作戏曲一回用于区别‘出’的多义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由‘长出’引申为‘产出、产生’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘生长而出’引申为‘从里面到外面’。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "‘出’由空间外出引申为‘支付、拿出’。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "‘出’由空间外出引申为‘离开’。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "‘产生’进一步引申为‘事件发生’。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 9,
+      "evolution_type": "metaphor",
+      "note": "由‘出’具体动作比喻为‘出处、来源’。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 6,
+      "evolution_type": "semantic_extension",
+      "note": "‘出’引申为‘显露’。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 7,
+      "evolution_type": "metaphor",
+      "note": "空间意象‘出于（众）上’引申为‘超过’。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 8,
+      "evolution_type": "semantic_extension",
+      "note": "由‘到外面’引申为‘来到某场合’。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 10,
+      "evolution_type": "semantic_extension",
+      "note": "由‘产出’引申为‘产量多’。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 11,
+      "evolution_type": "grammaticalization",
+      "note": "‘出’后缀动词表趋向、结果。"
+    }
+  ]
+}

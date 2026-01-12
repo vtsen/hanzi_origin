@@ -1,0 +1,41 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "放松、松懈、解除（如弓弦、纪律、精神等）",
+      "examples": [
+        "松弛",
+        "废弛",
+        "弛缓",
+        "弛张",
+        "弛惰"
+      ],
+      "traditional_char": "弛"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "延缓，推迟",
+      "examples": [
+        "弛期"
+      ],
+      "traditional_char": "弛"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从弓，‘也’声，本义是放松弓弦。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由放松引申至延缓时间，见于较晚用法，语义发展过程中产生。"
+    }
+  ]
+}

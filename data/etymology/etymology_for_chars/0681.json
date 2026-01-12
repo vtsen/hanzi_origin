@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "木料，泛指一切原料或资料",
+      "examples": [
+        "木材",
+        "材料",
+        "就地取材"
+      ],
+      "traditional_char": "材"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "能力，资质",
+      "examples": [
+        "人才",
+        "材干",
+        "大材小用"
+      ],
+      "traditional_char": "材"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "棺木",
+      "examples": [
+        "寿材"
+      ],
+      "traditional_char": "材"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从木，才声。本义为木材、木料。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "以“木材”为喻，引申为“人才、能力”，汉代开始文献可考。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "棺木多为木制，用“材”称呼棺木。"
+    }
+  ]
+}

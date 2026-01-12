@@ -1,0 +1,57 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "缺少，短缺",
+      "examples": [
+        "人手不乏。",
+        "贫乏。",
+        "乏味。"
+      ],
+      "traditional_char": "乏"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "疲倦，疲劳",
+      "examples": [
+        "疲乏。",
+        "乏困。",
+        "乏力。"
+      ],
+      "traditional_char": "乏"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "无能，无用",
+      "examples": [
+        "乏气。",
+        "乏煤。"
+      ],
+      "traditional_char": "乏"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "simple_indicative",
+      "original_sense_index": 0,
+      "note": "‘乏’为会意兼指事字，象征两人左右排列，意指分散、力量薄弱，表示‘缺乏’之义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由‘缺乏’引申为‘体力缺少’即‘疲倦’之意。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由‘缺少’引申为‘无能、无用’，即‘能力缺乏’。"
+    }
+  ]
+}

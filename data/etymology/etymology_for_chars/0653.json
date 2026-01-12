@@ -1,0 +1,99 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "用手拧，转动体部或物体的一部分",
+      "examples": [
+        "扭过脸来",
+        "扭头"
+      ],
+      "traditional_char": "扭"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "拧断",
+      "examples": [
+        "强扭的瓜不甜"
+      ],
+      "traditional_char": "扭"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "拧伤（身体部位）",
+      "examples": [
+        "扭了腰"
+      ],
+      "traditional_char": "扭"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "身体摇摆转动",
+      "examples": [
+        "扭动",
+        "扭秧歌"
+      ],
+      "traditional_char": "扭"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "揪住（某物或某人）",
+      "examples": [
+        "扭打"
+      ],
+      "traditional_char": "扭"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "违拗，不服从",
+      "examples": [
+        "胳臂扭不过大腿"
+      ],
+      "traditional_char": "扭"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从手，丑声，表示用手拧转。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由一般转动作引申为彻底拧断物体，古今皆有。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由拧动作引申为拧伤身体部位。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由手拧的动作引申到肢体整体的摇摆转动。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "由用手扭动作，引申为抓住揪住。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "metaphor",
+      "note": "由物理拧动作比喻为意见不服从、抵触。"
+    }
+  ]
+}

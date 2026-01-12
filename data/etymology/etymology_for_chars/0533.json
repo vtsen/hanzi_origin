@@ -1,0 +1,57 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "谷类或其他植物子实去了皮的名称。",
+      "examples": [
+        "大米",
+        "小米",
+        "稻米",
+        "米珠薪桂"
+      ],
+      "traditional_char": "米"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "国际长度单位，一米等于三市尺。",
+      "examples": [
+        "一米长",
+        "米为长度单位"
+      ],
+      "traditional_char": "米"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [
+        "米芾",
+        "米姓"
+      ],
+      "traditional_char": "米"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "pictograph",
+      "original_sense_index": 0,
+      "note": "象形，甲骨文字形，象米粒琐碎纵横之状，表示稻米脱壳后的子实。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "近现代以‘米’代表长度单位，多取意于测量标度单位（源于引进公制时以‘meter’译为‘米’）。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "conversion",
+      "note": "用作姓氏，属普通名词用作姓的转换。"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "平等，匀称，调和。",
+      "examples": [
+        "势均力敌",
+        "平衡"
+      ],
+      "traditional_char": "均"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adverb",
+      "meaning": "皆，都，全体。",
+      "examples": [
+        "老少均安",
+        "三人均到"
+      ],
+      "traditional_char": "均"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "汉代计量单位，一均等于二千五百石。",
+      "examples": [],
+      "traditional_char": "均"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "和谐的声音；古同“韵”。",
+      "examples": [],
+      "traditional_char": "均"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "〔均钟〕古代乐器名。",
+      "examples": [
+        "均钟"
+      ],
+      "traditional_char": "均"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "古同“钧”，造瓦器的转轮。",
+      "examples": [],
+      "traditional_char": "均"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从土，匀声，‘匀’亦兼表义，意为土地分配均平。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘平等’引申为‘皆、都’用法，表示全体无差别。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由‘平、匀’引申为汉代度量衡名，表示单位均等。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "‘均’转指和谐的声音，近于‘韵’，语义发生转移。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由‘和谐之声’引申为乐器名‘均钟’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "‘均’假借为‘钧’，指造瓦器的转轮。"
+    }
+  ]
+}

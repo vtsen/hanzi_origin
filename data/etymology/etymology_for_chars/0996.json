@@ -1,0 +1,136 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "簸箕，一种用来簸扬谷物的器具。",
+      "examples": [
+        "甲骨文“其”形象簸箕。"
+      ],
+      "traditional_char": "其"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "pronoun",
+      "meaning": "第三人称代词，表示“他（她）、他们（她们）、它（们）”或“他（她）的、他们（她们）的、它（们）的”。",
+      "examples": [
+        "各得其所。",
+        "莫名其妙。",
+        "三缄其口。",
+        "自食其果。"
+      ],
+      "traditional_char": "其"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "pronoun",
+      "meaning": "指示代词，表示“那、那个、那些”。",
+      "examples": [
+        "其余",
+        "其人",
+        "其次",
+        "名副其实"
+      ],
+      "traditional_char": "其"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "pronoun",
+      "meaning": "所指之处、其中。",
+      "examples": [
+        "其一",
+        "其二",
+        "其中"
+      ],
+      "traditional_char": "其"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "conjunction",
+      "meaning": "连词，表示“如果、假使”。",
+      "examples": [
+        "其如是，熟能御之？"
+      ],
+      "traditional_char": "其"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "particle",
+      "meaning": "助词，用于表示揣测、反诘、命令、劝勉等语气。",
+      "examples": [
+        "其如土石何？"
+      ],
+      "traditional_char": "其"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "particle",
+      "meaning": "词尾，用在副词后，表大概、推测。",
+      "examples": [
+        "极其快乐",
+        "大概其"
+      ],
+      "traditional_char": "其"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "noun",
+      "meaning": "姓氏，如郦食其。",
+      "examples": [
+        "郦食其"
+      ],
+      "traditional_char": "其"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "本作象形字，形如簸箕，后加“丌”作声符为形声字，代表簸箕之义，后假借作代词等。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "先秦时期以“其”假借为第三人称代词。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由第三人称扩大为“那、那个、那些”的指示之意。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由指称物体进一步指代空间中的特定部分。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "grammaticalization",
+      "note": "用作连词，表示假设关系。语法化用法，自先秦流行。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "grammaticalization",
+      "note": "由代词语法化为语气助词。"
+    },
+    {
+      "source_index": 5,
+      "target_index": 6,
+      "evolution_type": "function_word",
+      "note": "助词再功能化，用作副词性词尾表大概之义。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 7,
+      "evolution_type": "unknown",
+      "note": "作姓氏用的形成机制不详，或与借用作为人名有关。"
+    }
+  ]
+}

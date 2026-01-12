@@ -1,0 +1,124 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "举办，发动",
+      "examples": [
+        "兴办工厂",
+        "发动战争"
+      ],
+      "traditional_char": "興"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "起来，起身",
+      "examples": [
+        "夙兴夜寐"
+      ],
+      "traditional_char": "興"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "旺盛，繁荣",
+      "examples": [
+        "兴盛",
+        "复兴"
+      ],
+      "traditional_char": "興"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "流行，盛行",
+      "examples": [
+        "时兴打卡"
+      ],
+      "traditional_char": "興"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "准许",
+      "examples": [
+        "不兴胡闹"
+      ],
+      "traditional_char": "興"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "adverb",
+      "meaning": "或许",
+      "examples": [
+        "兴许"
+      ],
+      "traditional_char": "興"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "兴某"
+      ],
+      "traditional_char": "興"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "noun",
+      "meaning": "对事物感觉喜爱的情绪",
+      "examples": [
+        "兴趣",
+        "兴致勃勃"
+      ],
+      "traditional_char": "興"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 1,
+      "note": "“興”会意字，从舁（共举），从同（同力），表示一同将事物举起，有兴起、起来之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "由‘起来’引申为‘举办、发动’，因为举办大事常需动员。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "‘起来’引申为‘旺盛、繁荣’，因事物兴起则发展盛旺。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由‘旺盛’引申为‘流行、盛行’，流行指广泛且旺盛。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "reanalysis",
+      "note": "‘兴’作‘准许’用，原出于‘流行、施行’，再转化为‘准许’新用法。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 5,
+      "evolution_type": "semantic_shift",
+      "note": "由‘准许’语气虚化，作‘或许’解释，口语词。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 7,
+      "evolution_type": "metaphor",
+      "note": "由‘兴起’引申为情绪‘勃发’，即对事物感觉喜爱。"
+    }
+  ]
+}

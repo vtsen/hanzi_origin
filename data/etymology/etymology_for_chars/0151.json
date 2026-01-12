@@ -1,0 +1,57 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古代宗族的分支称号；区别于“姓”之分支单位，后多与“姓”混用。",
+      "examples": [
+        "姓氏",
+        "李氏",
+        "周氏"
+      ],
+      "traditional_char": "氏"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "对帝王、贵族、名人等的尊称或后缀用法。",
+      "examples": [
+        "神农氏",
+        "太史氏",
+        "摄氏温度"
+      ],
+      "traditional_char": "氏"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "用作地名、词组的附加成分，无实义（如“阏氏”、“月氏”中的氏）。",
+      "examples": [
+        "阏氏",
+        "月氏"
+      ],
+      "traditional_char": "氏"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "pictograph",
+      "original_sense_index": 0,
+      "note": "甲骨文象形，为支撑物体的形象。本字表示“宗族系统的称号”，即分支之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "宗族分支称号用作帝王贵族或名人后缀，尊称用法，周秦汉时已见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "词组成分化，原意弱化为专名附加（如“月氏”、“阏氏”）。"
+    }
+  ]
+}

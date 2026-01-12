@@ -1,0 +1,52 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "用钱财交换物品，与“卖”相对。",
+      "examples": [
+        "买东西",
+        "买卖",
+        "买办"
+      ],
+      "traditional_char": "買"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "引申为招致（多指坏事）。",
+      "examples": [
+        "买祸"
+      ],
+      "traditional_char": "買"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [],
+      "traditional_char": "買"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "‘買’为会意字，从网，从贝，表示用贝财通过网购入物品。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "‘买进’引申为‘招致’，多用于抽象、特别是负面事物，见于中古汉语。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "conversion",
+      "note": "名词化为姓氏，用作姓氏时无实际义。"
+    }
+  ]
+}

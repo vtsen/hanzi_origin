@@ -1,0 +1,120 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "拉开弓。",
+      "examples": [
+        "引而不发",
+        "引弓射箭"
+      ],
+      "traditional_char": "引"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "拉，伸。",
+      "examples": [
+        "引力",
+        "引颈",
+        "引吭高歌"
+      ],
+      "traditional_char": "引"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "引导，带领，招来。",
+      "examples": [
+        "引见",
+        "引导",
+        "抛砖引玉"
+      ],
+      "traditional_char": "引"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "引用，拿来做证据。",
+      "examples": [
+        "引文",
+        "引用",
+        "援引"
+      ],
+      "traditional_char": "引"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "退却，后退。",
+      "examples": [
+        "引退",
+        "引避"
+      ],
+      "traditional_char": "引"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "numeral",
+      "meaning": "旧时长度单位，一引等于十丈。",
+      "examples": [
+        "一引为十丈"
+      ],
+      "traditional_char": "引"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "古代柩车的绳索。",
+      "examples": [
+        "发引"
+      ],
+      "traditional_char": "引"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意，从弓，‘丨’象箭，表示拉弓之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由特指拉弓，推广为一般的拉、伸。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由动作“拉”引申为带领、招来。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由“拉”引申为引用、引证。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "“拉”在军事行动中引为后退。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "metonymy",
+      "note": "以动作“引”为长度标准单位。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 6,
+      "evolution_type": "metonymy",
+      "note": "以“拉”的工具指代棺车牵拉所用之绳。"
+    }
+  ]
+}

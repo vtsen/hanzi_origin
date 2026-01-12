@@ -1,0 +1,99 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "祭奠死者或对遇丧者表达慰问",
+      "examples": [
+        "吊丧",
+        "吊唁"
+      ],
+      "traditional_char": "弔"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "慰问遭遇不幸的人",
+      "examples": [
+        "形影相吊"
+      ],
+      "traditional_char": "弔"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "悬挂，吊起",
+      "examples": [
+        "吊灯",
+        "上吊"
+      ],
+      "traditional_char": "弔"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "把毛皮缀在衣服表面",
+      "examples": [
+        "吊皮袄"
+      ],
+      "traditional_char": "弔"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "提取，收回",
+      "examples": [
+        "吊销执照"
+      ],
+      "traditional_char": "弔"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "中国旧时钱币单位，一吊等于一千个制钱",
+      "examples": [
+        "一吊铜钱"
+      ],
+      "traditional_char": "弔"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意，从人，从弋，象人持弋之形，本义为悼念死者。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由专指吊丧扩展为一般性的慰问；汉代已见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "由丧葬场景（尸体悬挂、安置）引申为一般的悬挂动作。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "将衣物悬挂装饰引申为缀饰义。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "由吊起引申为提取、收回，多见于现代用法。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 5,
+      "evolution_type": "metaphor",
+      "note": "古代钱币用绳穿系后悬挂，数量单位谓‘吊’。"
+    }
+  ]
+}

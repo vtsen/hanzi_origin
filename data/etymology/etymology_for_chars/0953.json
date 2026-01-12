@@ -1,0 +1,132 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "涂；涂抹，涂敷。",
+      "examples": [
+        "涂抹",
+        "抹粉",
+        "抹黑",
+        "抹子"
+      ],
+      "traditional_char": "抹"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "用手或工具揩拭、擦拭。",
+      "examples": [
+        "哭天抹泪",
+        "抹桌子"
+      ],
+      "traditional_char": "抹"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "去除，勾掉，取消。",
+      "examples": [
+        "抹煞"
+      ],
+      "traditional_char": "抹"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "轻微的痕迹或色彩。",
+      "examples": [
+        "林梢一抹青如画",
+        "一抹余晖"
+      ],
+      "traditional_char": "抹"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "把和好的泥或灰涂上并弄平。",
+      "examples": [
+        "抹墙",
+        "抹石灰"
+      ],
+      "traditional_char": "抹"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "紧贴着绕过。",
+      "examples": [
+        "抹头",
+        "抹身"
+      ],
+      "traditional_char": "抹"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "用手指轻按，是奏弦乐器的一种指法。",
+      "examples": [],
+      "traditional_char": "抹"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "verb",
+      "meaning": "按着向下移动或除去（含比喻义）。",
+      "examples": [
+        "抹不下脸来"
+      ],
+      "traditional_char": "抹"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从手，末声，表示用手进行涂抹、搽敷的动作。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从“涂、抹”泛化为“擦、拭”，见于用手的动作关联。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 7,
+      "evolution_type": "metaphor",
+      "note": "由原意“擦拭”引申为“脸面上无法抹去”，比喻心理状态。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由“抹去涂抹的东西”引申为“取消、去除”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "synecdoche",
+      "note": "部分代整体，由“抹涂”引出“一抹痕迹”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_narrowing",
+      "note": "专指“涂上泥灰并弄平”，常用于建筑。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 5,
+      "evolution_type": "semantic_shift",
+      "note": "由“贴紧泥灰”动作引申为“紧靠着绕过”。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 6,
+      "evolution_type": "metaphor",
+      "note": "“轻按”动作由擦拭联系到弹弦乐指法。"
+    }
+  ]
+}

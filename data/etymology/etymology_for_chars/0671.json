@@ -1,0 +1,104 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "紧密，没有空隙",
+      "examples": [
+        "严密",
+        "严紧"
+      ],
+      "traditional_char": "嚴"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "不放松，认真，严格",
+      "examples": [
+        "严格",
+        "严肃",
+        "威严",
+        "严正"
+      ],
+      "traditional_char": "嚴"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "郑重，庄重",
+      "examples": [
+        "庄严",
+        "尊严"
+      ],
+      "traditional_char": "嚴"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "厉害的，苛刻的",
+      "examples": [
+        "严厉",
+        "严苛"
+      ],
+      "traditional_char": "嚴"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "重大的，严重的",
+      "examples": [
+        "严重"
+      ],
+      "traditional_char": "嚴"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "严复",
+        "严歌苓"
+      ],
+      "traditional_char": "嚴"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘嚴’为形声字，‘敢’为声旁，‘口’为形旁，初表示密闭、无空隙。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由‘紧密、没有空隙’引申为‘严格、不放松’，形容行为态度。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "从‘严格’进一步发展为‘庄重、郑重’。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由‘严格’引申为‘厉害、苛刻’。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由‘严格’引申为‘严重、重大’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "function_word",
+      "note": "用作姓氏，无实际语义关联，仅为用字扩展。"
+    }
+  ]
+}

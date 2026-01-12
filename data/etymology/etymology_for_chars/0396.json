@@ -1,0 +1,134 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "丧失；失掉。",
+      "examples": [
+        "本义：丧失。",
+        "彼将有夺乎哉。（《孟子》）"
+      ],
+      "traditional_char": "奪"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "抢夺，强行取走。",
+      "examples": [
+        "抢夺财物",
+        "巧取豪夺",
+        "掠夺"
+      ],
+      "traditional_char": "奪"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "争先取得（如胜利、第一名等）。",
+      "examples": [
+        "夺得最后胜利",
+        "夺魁",
+        "夺冠"
+      ],
+      "traditional_char": "奪"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "冲开（门、障碍等）。",
+      "examples": [
+        "夺门而出"
+      ],
+      "traditional_char": "奪"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "剥夺、削除（权利、资格等）。",
+      "examples": [
+        "剥夺公权",
+        "褫夺",
+        "夺志"
+      ],
+      "traditional_char": "奪"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "使晃动，使目眩。",
+      "examples": [
+        "光彩夺目"
+      ],
+      "traditional_char": "奪"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "决定如何处理（裁决、裁定）。",
+      "examples": [
+        "请予裁夺"
+      ],
+      "traditional_char": "奪"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "verb",
+      "meaning": "遗漏（文字等）。",
+      "examples": [
+        "第八行夺一字"
+      ],
+      "traditional_char": "奪"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意字，上为振翅之鸟，下为手，表现将要失脱之意，对应‘丧失’本义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘丧失’扩展为‘被强行夺取’，语义扩大。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由‘强行取走’引申为‘争先取得’。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由‘强行取走’引申为‘冲开（门）’。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由‘强行取得’到‘剥夺、削除’。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "metaphor",
+      "note": "由‘强行夺走’比喻光彩耀眼，使人目眩。"
+    },
+    {
+      "source_index": 6,
+      "target_index": 1,
+      "evolution_type": "unknown",
+      "note": "‘裁夺’义与‘强取’义关系不明，或涉及语法化，保守标记未知。"
+    },
+    {
+      "source_index": 7,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "‘遗漏（字）’为‘失掉’的引申用法。"
+    }
+  ]
+}

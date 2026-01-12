@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "interjection",
+      "meaning": "叹词，表示惊疑。",
+      "examples": [
+        "呀！你流血了。"
+      ],
+      "traditional_char": "呀"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "onomatopoeia",
+      "meaning": "象声词，形容摩擦转动的声音。",
+      "examples": [
+        "两扇大门呀的一声打开了。"
+      ],
+      "traditional_char": "呀"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "particle",
+      "meaning": "助词。表示疑问、感叹、祈使等语气。",
+      "examples": [
+        "别见怪呀！",
+        "你快回去呀！",
+        "你怎么不回家呀！"
+      ],
+      "traditional_char": "呀"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘呀’为形声字，从口，牙声，本作感叹词表示惊疑。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "grammaticalization",
+      "note": "由感叹用法发展为语气助词，常见于近现代汉语。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "感叹性拟声，后用于模仿门等摩擦转动声。"
+    }
+  ]
+}

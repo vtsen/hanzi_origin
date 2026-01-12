@@ -1,0 +1,60 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "使火熄灭",
+      "examples": [
+        "熄灭了蜡烛。",
+        "火光已灭。"
+      ],
+      "traditional_char": "滅"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "消失，丧失，毁灭",
+      "examples": [
+        "灭亡",
+        "不可磨灭",
+        "灭口"
+      ],
+      "traditional_char": "滅"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "被水淹没",
+      "examples": [
+        "灭顶之灾"
+      ],
+      "traditional_char": "滅"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘滅’为形声字，从水，威声，表示使火熄灭。"
+    },
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "简化字‘灭’为会意字，从‘一’从‘火’，‘一’表示覆盖火上，表示火被扑灭。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由使火熄灭推广至一般指消失或毁灭，用于抽象意义。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "通过与水的关系引申出‘被水淹没’的意义，常见于复合词。"
+    }
+  ]
+}

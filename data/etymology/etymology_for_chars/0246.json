@@ -1,0 +1,84 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "particle",
+      "meaning": "句末语气词。",
+      "examples": [
+        "言必信，行必果，只。"
+      ],
+      "traditional_char": "只"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "measure_word",
+      "meaning": "量词，用于禽兽等：一只鸡。",
+      "examples": [
+        "一只鸭子。"
+      ],
+      "traditional_char": "隻"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "单独的，极少的。",
+      "examples": [
+        "只身一人。",
+        "片纸只字。"
+      ],
+      "traditional_char": "隻"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adverb",
+      "meaning": "仅仅，惟一。",
+      "examples": [
+        "只是如此。",
+        "我只要一个苹果。"
+      ],
+      "traditional_char": "只"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adverb",
+      "meaning": "表示限于某个范围。",
+      "examples": [
+        "只顾玩，不学习。",
+        "只见树木，不见森林。"
+      ],
+      "traditional_char": "只"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "simple_indicative",
+      "original_sense_index": 0,
+      "note": "‘只’本为指事字，小篆形上部为“口”，下二点象征气息下行，用作句末语气词。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "‘隻’形从隹，古音借声，用于表示独立的禽兽单位，为量词。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "由语气词义发展为副词‘仅仅’义，早见于中古文献。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "副词‘仅’义基础上进一步引申为‘限于某范围’之义。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由量词‘隻’义引申为‘单独、极少’之形容词义。"
+    }
+  ]
+}

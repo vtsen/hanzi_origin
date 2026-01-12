@@ -1,0 +1,131 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "陆地上有轮子的交通工具",
+      "examples": [
+        "火车",
+        "车驾",
+        "车裂",
+        "前车之鉴"
+      ],
+      "traditional_char": "車"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "用轮轴来转动的器具",
+      "examples": [
+        "纺车",
+        "水车"
+      ],
+      "traditional_char": "車"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "用水车打水",
+      "examples": [
+        "车水"
+      ],
+      "traditional_char": "車"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "旋床或其他机器",
+      "examples": [
+        "车床"
+      ],
+      "traditional_char": "車"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "用旋床加工工件",
+      "examples": [
+        "车零件"
+      ],
+      "traditional_char": "車"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "转动身体（方言）",
+      "examples": [
+        "车身",
+        "车过头来"
+      ],
+      "traditional_char": "車"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [],
+      "traditional_char": "車"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "noun",
+      "meaning": "象棋棋子之一",
+      "examples": [
+        "车横炮进",
+        "红车出动"
+      ],
+      "traditional_char": "車"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "pictograph",
+      "original_sense_index": 0,
+      "note": "象形字，古文字形象车辆，有轮与轭之分，表示有轮子的陆地交通工具。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由车的发展，泛指以轮转动的器具。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "conversion",
+      "note": "器具义转为操作动词，用车取水。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "进一步扩展，指代带旋转功能的机械装置。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "conversion",
+      "note": "由机器名转为使用该机器的动作，用车床加工。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "轮转之义口语化，用于方言中表示转动身体。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "unknown",
+      "note": "由实物义转为姓氏，具体机制不明。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 7,
+      "evolution_type": "metaphor",
+      "note": "象棋“车”以威力大、行动快类比战场车辆。"
+    }
+  ]
+}

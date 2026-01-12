@@ -1,0 +1,73 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "田间用于排水或灌溉的小水道",
+      "examples": [
+        "水沟",
+        "田间有沟以引水"
+      ],
+      "traditional_char": "溝"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "一般的沟渠、水道或狭长的凹陷地形",
+      "examples": [
+        "山沟",
+        "沟渠",
+        "路旁有沟"
+      ],
+      "traditional_char": "溝"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "像沟一样的东西，如车轮压出的痕迹、瓦沟、交通沟等",
+      "examples": [
+        "车沟",
+        "瓦沟",
+        "交通沟"
+      ],
+      "traditional_char": "溝"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "沟通，使两方通达",
+      "examples": [
+        "沟通文化",
+        "双方需要多沟通"
+      ],
+      "traditional_char": "溝"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，冓声，最初指田间的排水小水道。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由专指田间水道泛化为泛指各种水道、沟渠，见于先秦至汉。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "通过形象转喻，称其他具有凹槽、线状结构的物体为“沟”。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由水沟引申为交流、连接，现代汉语常用意义。"
+    }
+  ]
+}

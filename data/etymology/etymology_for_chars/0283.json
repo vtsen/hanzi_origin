@@ -1,0 +1,120 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "使用，采用",
+      "examples": [
+        "用心学习",
+        "善用其力",
+        "用兵如神"
+      ],
+      "traditional_char": "用"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "可供使用的物品",
+      "examples": [
+        "日用品",
+        "军用品"
+      ],
+      "traditional_char": "用"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "进餐（多作敬辞）",
+      "examples": [
+        "请用饭",
+        "用膳"
+      ],
+      "traditional_char": "用"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "花费的钱财",
+      "examples": [
+        "费用",
+        "用资"
+      ],
+      "traditional_char": "用"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "物质或行为所产生的效果",
+      "examples": [
+        "功用",
+        "有用之人"
+      ],
+      "traditional_char": "用"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "需要",
+      "examples": [
+        "不用说",
+        "无须用力"
+      ],
+      "traditional_char": "用"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "conjunction",
+      "meaning": "因此，所以",
+      "examples": [
+        "用此为例",
+        "用是之故"
+      ],
+      "traditional_char": "用"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "pictograph",
+      "original_sense_index": 0,
+      "note": "本字为象形，甲骨文象木桶形，意指盛物而为人所用，取“使用”之义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“使用”义引申为“可供使用的物品”；见汉语常用名词结构。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "敬辞，“用饭”以动作指行为对象。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "由“使用”引申为为目的而消耗之物——钱财。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由“使用”义引申为物体或行为的效果或功能。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "semantic_shift",
+      "note": "“需要”义由“用”的主动作宾延伸，主要见于否定结构。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "grammaticalization",
+      "note": "古汉语中“用”虚化为连词，表示“因此、所以”。"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "木工、手艺工匠，有专门技能的人",
+      "examples": [
+        "木匠",
+        "能工巧匠"
+      ],
+      "traditional_char": "匠"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "灵巧巧妙",
+      "examples": [
+        "独具匠心"
+      ],
+      "traditional_char": "匠"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "技艺熟练但平庸板滞之人；工匠气息",
+      "examples": [
+        "匠气"
+      ],
+      "traditional_char": "匠"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "从匚表示盛放工具之器，从斤表示木工斧具，原指木工匠，是会意字。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "以工匠技艺精巧引申为灵巧巧妙，见于“匠心”类表达。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_narrowing",
+      "note": "由本义工匠引申为强调技艺但缺乏创造性的“匠气”，语义变迁明显。"
+    }
+  ]
+}

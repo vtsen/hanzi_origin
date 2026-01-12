@@ -1,0 +1,87 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "地支的第二位，属牛",
+      "examples": [
+        "丑牛",
+        "子丑寅卯"
+      ],
+      "traditional_char": "丑"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "用于计时，指凌晨一点至三点",
+      "examples": [
+        "丑时",
+        "丑夜"
+      ],
+      "traditional_char": "丑"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "传统戏剧中的角色名，如丑角、丑旦",
+      "examples": [
+        "丑角",
+        "他在剧中饰演丑旦"
+      ],
+      "traditional_char": "丑"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "相貌难看",
+      "examples": [
+        "丑陋",
+        "他长得很丑"
+      ],
+      "traditional_char": "醜"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "可厌恶的、可耻的，不光荣的",
+      "examples": [
+        "丑闻",
+        "丑态百出",
+        "跳梁小丑"
+      ],
+      "traditional_char": "醜"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "simple_indicative",
+      "original_sense_index": 0,
+      "note": "本作干支字，为地支专用字，古文作“丑”。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 3,
+      "note": "“醜”从“鬼”表意，取鬼怪丑陋之意，从“酉”表音，形声字。原意为貌丑。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "地支用于计时系统，汉代已见。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由外貌丑陋引申为品行等方面的可恶或可耻。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由外貌“丑”引申为戏剧中滑稽、丑角角色，元明戏曲已见。"
+    }
+  ]
+}

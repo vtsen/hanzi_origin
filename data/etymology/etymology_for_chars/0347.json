@@ -1,0 +1,102 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "蚕吐出的像线的东西，是织绸缎的原料",
+      "examples": [
+        "蚕丝",
+        "丝绸"
+      ],
+      "traditional_char": "絲"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "像丝的东西，如铁丝、菌丝、肉丝等",
+      "examples": [
+        "铁丝",
+        "菌丝",
+        "肉丝"
+      ],
+      "traditional_char": "絲"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "numeral",
+      "meaning": "计量单位名，10忽是1丝，10丝是1毫",
+      "examples": [
+        "一丝不苟"
+      ],
+      "traditional_char": "絲"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "表示极少或极小的量",
+      "examples": [
+        "一丝不差",
+        "一丝笑容"
+      ],
+      "traditional_char": "絲"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "绵长的思绪或感情",
+      "examples": [
+        "情丝",
+        "愁丝"
+      ],
+      "traditional_char": "絲"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "指弦乐器，丝竹等",
+      "examples": [
+        "丝竹之音"
+      ],
+      "traditional_char": "絲"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意字，从二糸，表示许多细丝的样子，表本义为蚕丝。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "因形状相似，从原指蚕丝引申到一切细长如丝的物体。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "以蚕丝之细作为计量单位，表示极小的长度。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由丝为极小单位，引申为极少的量。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "以丝的绵长、联系引申为思绪或感情的绵延。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "metonymy",
+      "note": "以乐器上之丝弦称弦乐器为丝。"
+    }
+  ]
+}

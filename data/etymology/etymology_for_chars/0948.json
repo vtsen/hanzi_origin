@@ -1,0 +1,104 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "债务，欠款",
+      "examples": [
+        "偿还其责",
+        "责无所逃"
+      ],
+      "traditional_char": "責"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "责任，应尽的本分或义务",
+      "examples": [
+        "负责任",
+        "职责所在",
+        "责任重大"
+      ],
+      "traditional_char": "責"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "要求；勒令",
+      "examples": [
+        "责令退还",
+        "提出要求"
+      ],
+      "traditional_char": "責"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "指责，批评过失",
+      "examples": [
+        "斥责错误",
+        "求全责备"
+      ],
+      "traditional_char": "責"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "质问；诘问",
+      "examples": [
+        "责问其故",
+        "责难于君"
+      ],
+      "traditional_char": "責"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "惩罚（旧指鞭打、杖击）",
+      "examples": [
+        "鞭责不从",
+        "杖责背部"
+      ],
+      "traditional_char": "責"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘責’为形声字，从贝，朿声，本义为债务，与金钱、财物相关。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“债务”引申为抽象的“责任”，出现于秦汉以降。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "从“责任”进一步引申为“要求某人承担或完成责任”。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "从“要求”引申为“指责、批评未尽责”。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "“要求”具体化为“质问”。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 5,
+      "evolution_type": "metonymy",
+      "note": "由“责备”引申为“施加具体惩罚的行为”，古时多指鞭打。"
+    }
+  ]
+}

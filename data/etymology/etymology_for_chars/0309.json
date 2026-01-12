@@ -1,0 +1,99 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "盛器，容器。",
+      "examples": [],
+      "traditional_char": "匯"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "河流会合，水流聚集。",
+      "examples": [
+        "江水汇于此。",
+        "百川汇海。"
+      ],
+      "traditional_char": "匯"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "汇款，由一地将款项寄往另一地。",
+      "examples": [
+        "他明天会把钱汇给你。",
+        "国际汇兑。"
+      ],
+      "traditional_char": "匯"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "聚集，聚合，集中。",
+      "examples": [
+        "全国人才汇聚于此。",
+        "资源汇编。"
+      ],
+      "traditional_char": "匯"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "综合，合并。",
+      "examples": [
+        "汇总意见。",
+        "汇编成册。"
+      ],
+      "traditional_char": "匯"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "同类事物的集合（通常用于“彙”字书面/学术场合）。",
+      "examples": [
+        "字彙。",
+        "词彙。"
+      ],
+      "traditional_char": "彙"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从匚，表示盛器；‘淮’为声旁。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 5,
+      "note": "彙，形声字。从彑，表示聚集，‘有’声，本义为同类的集合。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "以盛器聚合物品喻水流聚合，语义转移。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "水流会合比喻钱款会合，近现代语义发展。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "水流聚集引申为人事物的聚集。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由聚合引申为综合、编辑。"
+    }
+  ]
+}

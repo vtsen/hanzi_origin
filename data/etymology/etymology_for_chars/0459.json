@@ -1,0 +1,87 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古代军队的基层编制单位，通常指五人为一组。",
+      "examples": [
+        "一伍（五人组成的一个小组）",
+        "十人为两伍"
+      ],
+      "traditional_char": "伍"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "军队的通称。",
+      "examples": [
+        "入伍",
+        "落伍"
+      ],
+      "traditional_char": "伍"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "同伴，一起行动的人。",
+      "examples": [
+        "羞与为伍",
+        "同流合伍"
+      ],
+      "traditional_char": "伍"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "numeral",
+      "meaning": "‘五’的大写，用于票据、账目等场合。",
+      "examples": [
+        "伍仟元",
+        "伍拾"
+      ],
+      "traditional_char": "伍"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "姓。",
+      "examples": [
+        "伍子胥",
+        "伍姓"
+      ],
+      "traditional_char": "伍"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意字，从‘人’从‘五’，表示五人为一组，是最早的意义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由五人一组的军队单位泛指整个军队。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由集体编制，引申为同伴、同类的人。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "用作为数字‘五’的大写形式，源于‘五人一组’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "unknown",
+      "note": "作为姓氏的用法起源不明，常见于古人名。"
+    }
+  ]
+}

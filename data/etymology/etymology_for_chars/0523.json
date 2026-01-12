@@ -1,0 +1,106 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "排除阻塞物，疏通水道",
+      "examples": [
+        "禹决江疏河",
+        "决渠以导水"
+      ],
+      "traditional_char": "決"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "堤岸被水冲开",
+      "examples": [
+        "决口",
+        "溃决"
+      ],
+      "traditional_char": "決"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "断定，拿定主意",
+      "examples": [
+        "决定",
+        "决断",
+        "计无所决",
+        "犹豫不决"
+      ],
+      "traditional_char": "決"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adverb",
+      "meaning": "一定（用在否定词前）",
+      "examples": [
+        "决不后退",
+        "决无此事"
+      ],
+      "traditional_char": "決"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "决定最后胜败",
+      "examples": [
+        "决战",
+        "决胜",
+        "决赛"
+      ],
+      "traditional_char": "決"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "执行死刑",
+      "examples": [
+        "处决",
+        "枪决"
+      ],
+      "traditional_char": "決"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，夬声，表示疏通水道。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘疏通水道’扩展为‘堤岸被水冲开’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由疏通阻塞引申为‘断定主意’。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "function_word",
+      "note": "‘一定’用作副词，功能转换。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由‘断定’发展为‘决出胜负’的意思。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "从‘断定’引申至‘执行死刑’。"
+    }
+  ]
+}

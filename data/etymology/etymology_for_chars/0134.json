@@ -1,0 +1,62 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古代用作礼物或祭祀的丝织品",
+      "examples": [
+        "天子诸侯，币帛相交。",
+        "币，帛也。——《说文》"
+      ],
+      "traditional_char": "幣"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "钱币，用作交换商品的媒介",
+      "examples": [
+        "货币",
+        "外币",
+        "人民币",
+        "币值"
+      ],
+      "traditional_char": "幣"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "钱币，用作交换商品的媒介（简体字用法）",
+      "examples": [
+        "货币",
+        "人民币"
+      ],
+      "traditional_char": "币"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "幣为形声字，从巾，敝声，表与布帛有关，‘巾’表义‘敝’表音，最初指丝织品。"
+    },
+    {
+      "formation_type": "simple_indicative",
+      "original_sense_index": 2,
+      "note": "币为简化字，本为‘幣’的简化，由‘幣’顶部省略而来，其造字仅指代‘货币’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_shift",
+      "note": "由古代祭祀礼物的布帛引申为钱币，货币，约见于秦汉后。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "reanalysis",
+      "note": "20世纪简化汉字改革，‘币’由‘幣’分化出来直接用于表示钱币义。"
+    }
+  ]
+}

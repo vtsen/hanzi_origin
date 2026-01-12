@@ -1,0 +1,162 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古代军队编制单位，约二千五百人，团或旅的上一级",
+      "examples": [
+        "出师表",
+        "师长"
+      ],
+      "traditional_char": "師"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "军队",
+      "examples": [
+        "会师",
+        "挥师南下"
+      ],
+      "traditional_char": "師"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "教人的人、老师",
+      "examples": [
+        "老师",
+        "恩师",
+        "师生",
+        "师徒"
+      ],
+      "traditional_char": "師"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "擅长某种技术的人",
+      "examples": [
+        "工程师",
+        "医师",
+        "技师"
+      ],
+      "traditional_char": "師"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "效法，模仿",
+      "examples": [
+        "师法古人",
+        "师其技艺"
+      ],
+      "traditional_char": "師"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "榜样",
+      "examples": [
+        "师范",
+        "以师为荣"
+      ],
+      "traditional_char": "師"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "由师徒或师生关系产生的人，如师母、师兄、师妹等",
+      "examples": [
+        "师兄",
+        "师弟",
+        "师妹",
+        "师母"
+      ],
+      "traditional_char": "師"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "noun",
+      "meaning": "对和尚或道士的尊称",
+      "examples": [
+        "法师",
+        "禅师"
+      ],
+      "traditional_char": "師"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "noun",
+      "meaning": "一国的首都",
+      "examples": [
+        "京师"
+      ],
+      "traditional_char": "師"
+    },
+    {
+      "index": 9,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [],
+      "traditional_char": "師"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意字，从币、垖，表示众多兵众。本义为古代军队编制单位。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "synecdoche",
+      "note": "军队编制单位泛指整个军队，古今皆有。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 8,
+      "evolution_type": "metonymy",
+      "note": "军队驻地或首都因军队驻扎而得名，用作地名。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "引申为教导众人的老师，因古代军帅为众人之长。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由教人扩展为各种专门技艺之人。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "老师引申为楷模、榜样。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 4,
+      "evolution_type": "semantic_shift",
+      "note": "由老师引申为效法、模仿，见于‘师法’等短语。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 6,
+      "evolution_type": "semantic_extension",
+      "note": "指由师生或师徒关系产生的称谓。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 7,
+      "evolution_type": "semantic_extension",
+      "note": "对僧道尊称。"
+    }
+  ]
+}

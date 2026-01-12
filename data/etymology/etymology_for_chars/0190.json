@@ -1,0 +1,59 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "温润有光泽的美石，可雕琢成工艺品",
+      "examples": [
+        "玉石",
+        "玉器",
+        "玉玺",
+        "抛砖引玉"
+      ],
+      "traditional_char": "玉"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "美好、高贵，常用作尊称或修饰美好事物、形象",
+      "examples": [
+        "玉泉",
+        "玉液",
+        "玉言",
+        "亭亭玉立",
+        "金玉良言"
+      ],
+      "traditional_char": "玉"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "玉先生"
+      ],
+      "traditional_char": "玉"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "pictograph",
+      "original_sense_index": 0,
+      "note": "‘玉’为象形字，甲骨文字形似串联的美石，描绘玉的形状和本义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由玉石的美好和珍贵引申为美好、高贵的事物和品德，常见于尊称，战国以降用例丰富。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "conversion",
+      "note": "用玉作为姓氏，属于名物转为姓氏的用法，发生于先秦至汉代。"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "onomatopoeia",
+      "meaning": "形容嘴唇或物体开合、拍击、破碎等的声音。",
+      "examples": [
+        "叭的一声，弦断了。",
+        "谁想艾和尚沉不住气，就叭的一枪放了出去。",
+        "叭叭（形容双唇开合或拍击声）",
+        "叭啦（形容玻璃窗振动的声音）"
+      ],
+      "traditional_char": "叭"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "将食物扒入口中。",
+      "examples": [
+        "只三叭两咽，就是一碗。——《金瓶梅词话》"
+      ],
+      "traditional_char": "叭"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "叼；含在口中。",
+      "examples": [
+        "移开叭在口里的旱烟袋。——周立波《牛》"
+      ],
+      "traditional_char": "叭"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "喇叭等口吹乐器的简称。",
+      "examples": [
+        "见“喇叭”"
+      ],
+      "traditional_char": "叭"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘叭’形声字，从口，巴声，本作象声词，用以表示开合响声，兼取‘巴’开口之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由嘴唇开合声引申为将食物扒入口中的动作，比喻人嘴动吃食。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由嘴唇发声的象声转指嘴的动作，如嘴含物。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由象声引申为能发出这种“叭”声的乐器（即喇叭）。"
+    }
+  ]
+}

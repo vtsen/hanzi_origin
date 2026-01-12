@@ -1,0 +1,101 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "窗格花纹",
+      "examples": [],
+      "traditional_char": "爾"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "pronoun",
+      "meaning": "你，你的",
+      "examples": [
+        "尔父",
+        "尔辈",
+        "尔汝之交"
+      ],
+      "traditional_char": "爾"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adverb",
+      "meaning": "如此",
+      "examples": [
+        "偶尔",
+        "不过尔尔"
+      ],
+      "traditional_char": "爾"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "pronoun",
+      "meaning": "那，其（指时间）",
+      "examples": [
+        "尔时",
+        "尔后"
+      ],
+      "traditional_char": "爾"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "particle",
+      "meaning": "而已，罢了",
+      "examples": [
+        "以头抢地尔",
+        "罢尔"
+      ],
+      "traditional_char": "爾"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "particle",
+      "meaning": "词尾，相当于“地”、“然”",
+      "examples": [
+        "卓尔",
+        "率尔"
+      ],
+      "traditional_char": "爾"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "爾为形声字，从爿，尔声，本指窗格花纹。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_shift",
+      "note": "由具体物象意义引申为对人的称呼，先秦时期已见"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由第二人称向泛指、抽象化意义发展"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "由“如此”引申为指代时间、事情"
+    },
+    {
+      "source_index": 2,
+      "target_index": 4,
+      "evolution_type": "grammaticalization",
+      "note": "“如此”意义虚化为副词、语气词，如‘而已’"
+    },
+    {
+      "source_index": 2,
+      "target_index": 5,
+      "evolution_type": "grammaticalization",
+      "note": "由“如此”语义演变为词尾助词"
+    }
+  ]
+}

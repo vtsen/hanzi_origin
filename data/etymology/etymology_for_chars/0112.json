@@ -1,0 +1,136 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "太阳，离地球最近的恒星",
+      "examples": [
+        "日月星辰",
+        "日珥",
+        "日晷"
+      ],
+      "traditional_char": "日"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "白天，与夜相对",
+      "examples": [
+        "日班",
+        "日夜兼程"
+      ],
+      "traditional_char": "日"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "一天，一昼夜",
+      "examples": [
+        "多日不见",
+        "今日",
+        "日程"
+      ],
+      "traditional_char": "日"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "某一天",
+      "examples": [
+        "纪念日",
+        "生日"
+      ],
+      "traditional_char": "日"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "以一天为单位的工作时间",
+      "examples": [
+        "工作日"
+      ],
+      "traditional_char": "日"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "时候，时光",
+      "examples": [
+        "春日",
+        "往日"
+      ],
+      "traditional_char": "日"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "adverb",
+      "meaning": "每天，一天天地",
+      "examples": [
+        "日记",
+        "日益"
+      ],
+      "traditional_char": "日"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "noun",
+      "meaning": "特指‘日本国’",
+      "examples": [
+        "日元",
+        "日企"
+      ],
+      "traditional_char": "日"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "pictograph",
+      "original_sense_index": 0,
+      "note": "象形字，甲骨文和小篆字形象征太阳的圆形和光芒，表示太阳本义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由太阳引申为白天，与夜相对，古汉语已有此用法。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由白天泛指为一天，一昼夜。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_narrowing",
+      "note": "由泛指一天转为指某一天，具体某日。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由一天引申为以一天为单位的工作时间。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "由一天引申为泛指某个时候、时光。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 6,
+      "evolution_type": "grammaticalization",
+      "note": "表示“每天”的副词用法，通过语法化过程形成。"
+    },
+    {
+      "source_index": 7,
+      "target_index": 0,
+      "evolution_type": "unknown",
+      "note": "‘日’指日本为近现代用法，可能源于日本对“日出之国”的自称。"
+    }
+  ]
+}

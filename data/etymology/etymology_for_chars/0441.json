@@ -1,0 +1,66 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "坚硬、坚强，与“柔”相对",
+      "examples": [
+        "刚强不屈",
+        "性格刚直",
+        "铁石心肠，刚烈异常"
+      ],
+      "traditional_char": "剛"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adverb",
+      "meaning": "刚好，恰巧",
+      "examples": [
+        "他刚到家，电话就响了",
+        "考试刚好及格"
+      ],
+      "traditional_char": "剛"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adverb",
+      "meaning": "才；刚才",
+      "examples": [
+        "我刚才去过那里",
+        "火车刚开走"
+      ],
+      "traditional_char": "剛"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "刚先生",
+        "刚书荣"
+      ],
+      "traditional_char": "剛"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，“剛”：从“刀”，表示与坚硬相关，声旁“冈”表音，初指坚硬。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "坚硬引申为事情发生的时刻‘刚好’，时间点如硬块边界。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "‘刚好’再引申为‘刚才’，用于表达事件发生的迫近性。"
+    }
+  ]
+}

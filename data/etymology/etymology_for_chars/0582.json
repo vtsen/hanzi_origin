@@ -1,0 +1,38 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "pronoun",
+      "meaning": "用于女性第三人称；亦用以代称国家，山河，旗帜等，表示敬爱。",
+      "examples": [
+        "她是我的朋友。",
+        "祖国是她的母亲。"
+      ],
+      "traditional_char": "她"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "同“姐”，指姐姐。",
+      "examples": [
+        "她家有三个姐。"
+      ],
+      "traditional_char": "她"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘她’为形声字，从女，‘也’声。本义作女性第三人称代词，是20世纪初为区分‘他’的性别而造的新字。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "analogy",
+      "note": "用音近关系借作‘姐’的意思，现代少见。"
+    }
+  ]
+}

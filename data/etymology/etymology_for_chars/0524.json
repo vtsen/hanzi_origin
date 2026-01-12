@@ -1,0 +1,101 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "猪；豕。",
+      "examples": [
+        "亥，豕也。——《论衡·物势》",
+        "豕与亥相似。——《吕氏春秋·慎行论》"
+      ],
+      "traditional_char": "亥"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "地支的第十二位（亥），用以纪年、纪月、纪日、纪时，对应生肖猪。",
+      "examples": [
+        "十二地支：子丑寅卯辰巳午未申酉戌亥。",
+        "用以纪时：亥时（晚上九点至十一点）。",
+        "太岁在亥曰大淵献。——《尔雅·释天》"
+      ],
+      "traditional_char": "亥"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "草根。",
+      "examples": [
+        "亥，荄也。十月微阳起接盛阴。——《说文·亥部》",
+        "荄，根也。阳气根于下也。——段玉裁注"
+      ],
+      "traditional_char": "亥"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [
+        "晋国有亥唐。见《孟子·万章下》。"
+      ],
+      "traditional_char": "亥"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "市集名，指隔日交易一次的市集（亥市）。",
+      "examples": [
+        "蜀有亥市，亥音皆，言如痎疟，闲日一发也。——《通雅》"
+      ],
+      "traditional_char": "亥"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "other",
+      "meaning": "通“其”，为古音通假字。",
+      "examples": [
+        "忠不利弱子，亥足将入，止容。——《墨子·经说上》"
+      ],
+      "traditional_char": "亥"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "pictograph",
+      "original_sense_index": 0,
+      "note": "象形字，甲骨文字形象猪，易与“豕”混。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从‘猪’义引申为地支名，对应生肖为猪，与古代天干地支配用有关。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "以地支纪日‘亥日’衍生为市集周期名（亥市）。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "unknown",
+      "note": "用作姓氏，起源关系不详。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "假借为‘其’，为古代同音通假现象。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由‘亥’地支十月，十月万物伏藏于根，故引申为‘草根’。"
+    }
+  ]
+}

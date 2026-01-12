@@ -1,0 +1,105 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "用手把玩、欣赏玉器等物件。",
+      "examples": [
+        "以手玩玉",
+        "把玩古物"
+      ],
+      "traditional_char": "玩"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "进行游戏或娱乐活动。",
+      "examples": [
+        "玩耍",
+        "玩笑",
+        "玩具"
+      ],
+      "traditional_char": "玩"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "戏弄、捉弄、搬弄。",
+      "examples": [
+        "玩弄",
+        "玩狎",
+        "玩花招儿"
+      ],
+      "traditional_char": "玩"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "欣赏、观赏（如艺术品、风景等）。",
+      "examples": [
+        "玩赏",
+        "玩味",
+        "瞻玩"
+      ],
+      "traditional_char": "玩"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "可以观赏或把玩的物品，多指古代器物。",
+      "examples": [
+        "古玩"
+      ],
+      "traditional_char": "玩"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "轻视、忽视。",
+      "examples": [
+        "玩忽职守",
+        "玩世不恭"
+      ],
+      "traditional_char": "玩"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从玉，元声，初指以手把玩玉器。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由把玩玉器泛化为欣赏其他事物。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由把玩玉器引申为嬉戏玩耍。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由游戏引申为戏弄、摆弄他人。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由把玩行为引申为可供把玩的对象。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "metaphor",
+      "note": "把重大的事务当作可玩弄之物，比喻为轻视、忽视。"
+    }
+  ]
+}

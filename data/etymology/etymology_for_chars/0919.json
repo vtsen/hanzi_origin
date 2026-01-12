@@ -1,0 +1,61 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "美好，美妙",
+      "examples": [
+        "妙语",
+        "美妙",
+        "妙境",
+        "绝妙",
+        "妙处"
+      ],
+      "traditional_char": "妙"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "神奇，巧妙",
+      "examples": [
+        "巧妙",
+        "妙计",
+        "奥妙",
+        "妙笔生花",
+        "灵丹妙药"
+      ],
+      "traditional_char": "妙"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "妙龄，年轻的年纪（多指少女）",
+      "examples": [
+        "妙年",
+        "妙龄"
+      ],
+      "traditional_char": "妙"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从女，表示与女性有关；从少，表示声音并兼表年少貌美。本义为美好，多用于形容年轻女子。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘美好’引申为‘奇巧神妙’，出现于汉魏之后，形容事物具有神奇、巧妙之意。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_narrowing",
+      "note": "‘美好’原义语境中常指少女，由此专指‘妙龄’、‘妙年’等，见于古汉语。"
+    }
+  ]
+}

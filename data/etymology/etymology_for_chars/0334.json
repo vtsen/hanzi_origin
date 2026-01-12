@@ -1,0 +1,68 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "呼唤，召唤某人前来。",
+      "examples": [
+        "召见",
+        "召集"
+      ],
+      "traditional_char": "召"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "引来，招致（多指不良后果）。",
+      "examples": [
+        "召祸",
+        "召人怨"
+      ],
+      "traditional_char": "召"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "古邑名“邵”的通假字。",
+      "examples": [
+        "召公",
+        "召地"
+      ],
+      "traditional_char": "召"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "other",
+      "meaning": "姓氏。",
+      "examples": [],
+      "traditional_char": "召"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从口，表示与“口语”有关，‘刀’为声符，古义为呼唤。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘呼唤’引申为‘招致’（尤指不利）。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "地名用作姓氏，常见汉姓起源路径。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "unknown",
+      "note": "‘召’古通‘邵’为邑名，实际通假关系及其语源有学界分歧。"
+    }
+  ]
+}

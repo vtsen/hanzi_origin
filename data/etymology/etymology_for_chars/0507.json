@@ -1,0 +1,146 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "数量大，与“少”、“寡”相对",
+      "examples": [
+        "人多",
+        "多年",
+        "多难兴邦"
+      ],
+      "traditional_char": "多"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "数目二以上",
+      "examples": [
+        "多年生草",
+        "多项式"
+      ],
+      "traditional_char": "多"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "有余，超过一定的数目",
+      "examples": [
+        "多余",
+        "一年多"
+      ],
+      "traditional_char": "多"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "过分，不必要",
+      "examples": [
+        "多嘴",
+        "多此一举"
+      ],
+      "traditional_char": "多"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "相差的程度大",
+      "examples": [
+        "好得多"
+      ],
+      "traditional_char": "多"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "interjection",
+      "meaning": "表示惊异、赞叹",
+      "examples": [
+        "多好！"
+      ],
+      "traditional_char": "多"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "adverb",
+      "meaning": "表示某种程度",
+      "examples": [
+        "有多大劲儿使多大劲儿"
+      ],
+      "traditional_char": "多"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "adverb",
+      "meaning": "表疑问",
+      "examples": [
+        "有多大呢？",
+        "多会儿？"
+      ],
+      "traditional_char": "多"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [],
+      "traditional_char": "多"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意字，从二“夕”，表示‘数量大’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_narrowing",
+      "note": "从‘数量大’到‘二以上’的具体化，用于复数。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由‘数量大’扩展至‘超过一定数目’之义。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "从‘数量大’引申为‘过分、不必要’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由‘数量大’引申为‘程度大’。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 5,
+      "evolution_type": "grammaticalization",
+      "note": "由‘程度大’用作感叹词，表示赞叹。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 6,
+      "evolution_type": "grammaticalization",
+      "note": "由‘程度大’用作程度副词，修饰动词。"
+    },
+    {
+      "source_index": 6,
+      "target_index": 7,
+      "evolution_type": "function_word",
+      "note": "程度副词进一步用于疑问句，带有疑问色彩。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 8,
+      "evolution_type": "unknown",
+      "note": "用于姓氏，机制不详，直接用作专有名。"
+    }
+  ]
+}

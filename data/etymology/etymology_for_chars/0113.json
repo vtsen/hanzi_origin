@@ -1,0 +1,139 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "中心；当中，指一定范围内部适中的位置",
+      "examples": [
+        "中心",
+        "房中",
+        "中间"
+      ],
+      "traditional_char": "中"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "中国，特指中国",
+      "examples": [
+        "中文",
+        "中式",
+        "中华"
+      ],
+      "traditional_char": "中"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "性质或等级在两端之间的，中等的",
+      "examples": [
+        "中等",
+        "中级",
+        "中流砥柱"
+      ],
+      "traditional_char": "中"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "preposition",
+      "meaning": "在……之中，表示处于某时、某地、某状态",
+      "examples": [
+        "在研究中",
+        "暗中"
+      ],
+      "traditional_char": "中"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "恰好合上，命中，正好达到目标",
+      "examples": [
+        "中奖",
+        "中选",
+        "中意"
+      ],
+      "traditional_char": "中"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "受到，遭受（多指不利的事物）",
+      "examples": [
+        "中毒",
+        "中计"
+      ],
+      "traditional_char": "中"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "科举考试被录取",
+      "examples": [
+        "中举",
+        "中状元"
+      ],
+      "traditional_char": "中"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "verb",
+      "meaning": "适于，合于",
+      "examples": [
+        "中看",
+        "不中听"
+      ],
+      "traditional_char": "中"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "simple_indicative",
+      "original_sense_index": 0,
+      "note": "甲骨文字形，中央竖杆，指示中心位置，属指事字。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "以地理‘中心’借指‘中国’为国家中心的用法，战国以后。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由‘中心’引申为‘中等’之意，汉代起见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由‘一定范围内部’引申为‘在……之中’，作介词用，语法化。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "从‘中心’引申为‘正中目标’，故有‘命中’之义，古已见。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "由‘正好合上’扩展为‘遭受/受到’（如中毒），语义拓展。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 6,
+      "evolution_type": "metaphor",
+      "note": "由‘命中’引申为‘科举考试及第’，比喻击中目标。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 7,
+      "evolution_type": "semantic_extension",
+      "note": "由‘合乎中心’引申为‘适于、合于’。"
+    }
+  ]
+}

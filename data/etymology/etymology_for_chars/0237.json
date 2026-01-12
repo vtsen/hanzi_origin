@@ -1,0 +1,174 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adverb",
+      "meaning": "尚、还，表示进一层",
+      "examples": [
+        "既高且大",
+        "尚且"
+      ],
+      "traditional_char": "且"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adverb",
+      "meaning": "表示暂时",
+      "examples": [
+        "苟且偷安",
+        "姑且"
+      ],
+      "traditional_char": "且"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adverb",
+      "meaning": "将要、将近",
+      "examples": [
+        "城且拔矣",
+        "年且九十"
+      ],
+      "traditional_char": "且"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "conjunction",
+      "meaning": "一面这样，一面那样",
+      "examples": [
+        "且走且说"
+      ],
+      "traditional_char": "且"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "表示经久",
+      "examples": [
+        "这双鞋且穿呢！"
+      ],
+      "traditional_char": "且"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "particle",
+      "meaning": "文言发语词，用在句首，与“夫”相似",
+      "examples": [
+        "且说下回分解"
+      ],
+      "traditional_char": "且"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [],
+      "traditional_char": "且"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "particle",
+      "meaning": "文言助词，用在句末，与“啊”相似",
+      "examples": [],
+      "traditional_char": "且"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "adjective",
+      "meaning": "多的样子",
+      "examples": [],
+      "traditional_char": "且"
+    },
+    {
+      "index": 9,
+      "part_of_speech": "noun",
+      "meaning": "农历六月的别称",
+      "examples": [],
+      "traditional_char": "且"
+    },
+    {
+      "index": 10,
+      "part_of_speech": "adjective",
+      "meaning": "敬慎的样子",
+      "examples": [
+        "有萋有且"
+      ],
+      "traditional_char": "且"
+    },
+    {
+      "index": 11,
+      "part_of_speech": "verb",
+      "meaning": "古同“趄”，趑趄",
+      "examples": [],
+      "traditional_char": "且"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "pictograph",
+      "original_sense_index": 9,
+      "note": "象形，本指祭器，古时用作祭祀关农时，农历六月别称。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 9,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "由祭祀农时义引申为时间将近、即将到来的含义，进而可用于“进一层”"
+    },
+    {
+      "source_index": 9,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由时间义引申为‘将要’‘将近’"
+    },
+    {
+      "source_index": 2,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "将近、将要进一步引申为‘暂时’"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "grammaticalization",
+      "note": "动趋转作连词结构，表达‘一面……一面……’"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "‘进一层’引申为‘经久’"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "grammaticalization",
+      "note": "虚化为发语词"
+    },
+    {
+      "source_index": 9,
+      "target_index": 10,
+      "evolution_type": "semantic_extension",
+      "note": "由农时义引申为‘敬慎的样子’"
+    },
+    {
+      "source_index": 9,
+      "target_index": 8,
+      "evolution_type": "semantic_extension",
+      "note": "由农时多产转义为‘多的样子’"
+    },
+    {
+      "source_index": 9,
+      "target_index": 7,
+      "evolution_type": "reanalysis",
+      "note": "音近借作句末语气助词"
+    },
+    {
+      "source_index": 9,
+      "target_index": 11,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "假借为‘趄’（趑趄）"
+    }
+  ]
+}

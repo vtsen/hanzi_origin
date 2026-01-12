@@ -1,0 +1,73 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "onomatopoeia",
+      "meaning": "形容东西爆裂或撞击的声音。",
+      "examples": [
+        "吧的一声，笔尖断了。",
+        "吧吧两声枪响。"
+      ],
+      "traditional_char": "吧"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "〈方〉抽烟。",
+      "examples": [
+        "三老爷只顾吧着他的杂拌烟。",
+        "周立波《山那面的人家》：乡长低头吧口烟。"
+      ],
+      "traditional_char": "吧"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "英语 bar 的音译，小酒馆。",
+      "examples": [
+        "酒吧",
+        "他在吧里等你。"
+      ],
+      "traditional_char": "吧"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "particle",
+      "meaning": "语气助词，用在句末或句中，表示请求、建议、同意、推测、假设等语气。",
+      "examples": [
+        "我们走吧！",
+        "好吧，我一定去。",
+        "他说完就走了吧？",
+        "不说吧，也不好。"
+      ],
+      "traditional_char": "吧"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，“口”为形旁，表示与口、声音有关，“巴”为声旁。最初指模拟爆裂声音的象声词。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由“吧”爆裂声引申为吸烟时的吸气声、动作，属方言用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "grammaticalization",
+      "note": "象声词经反复使用及语法化，演变为句末语气助词。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "现代音译词“吧（bar）”借用同音形声字，义项来源于英语借词，属于音译。"
+    }
+  ]
+}

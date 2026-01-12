@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adverb",
+      "meaning": "依然，还，照旧",
+      "examples": [
+        "仍须努力",
+        "仍然",
+        "仍旧"
+      ],
+      "traditional_char": "仍"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "因袭，沿袭",
+      "examples": [
+        "一仍其旧"
+      ],
+      "traditional_char": "仍"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adverb",
+      "meaning": "频繁，重复",
+      "examples": [
+        "频仍",
+        "仍世"
+      ],
+      "traditional_char": "仍"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "形声字，从人，乃声。本义为因袭、依旧，指沿袭旧制。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "从因袭、沿袭义引申为依然、还、照旧的副词用法，古今通用。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由“因袭”引申为重复、频繁，多见于复合词中。"
+    }
+  ]
+}

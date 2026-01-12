@@ -1,0 +1,101 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "从门内偷偷看、窥视。",
+      "examples": [
+        "閃其左右而窺之。"
+      ],
+      "traditional_char": "閃"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "天空中的电光。",
+      "examples": [
+        "打闪。",
+        "雷声大，没下雨，只有闪。"
+      ],
+      "traditional_char": "閃"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "突然地显现或隐现。",
+      "examples": [
+        "闪光。",
+        "闪烁。",
+        "亮光在远处闪了一下。"
+      ],
+      "traditional_char": "閃"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "侧身回避、躲避。",
+      "examples": [
+        "闪身。",
+        "闪让。",
+        "行人迅速地闪到路边。"
+      ],
+      "traditional_char": "閃"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "因动作过猛使筋肉受伤而疼痛。",
+      "examples": [
+        "一急把腰闪了。",
+        "他踢球时把腿闪了。"
+      ],
+      "traditional_char": "閃"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [],
+      "traditional_char": "閃"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "‘閃’会意字，从门，从人，表示人在门内窥视。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由原意“偷看”引申为“躲避、侧身避开”，动作均有隐蔽含义。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由“偷看/隐现”引申为事物的突然显现，带有短暂快速的特征。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "自然界的电光因其‘一闪即逝’，以‘闪’表示雷电之光。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "人体因回避（快速动作）造成扭伤，以‘闪’表示闪伤。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "unknown",
+      "note": "用作姓氏，取自本字，无直接语义联系。"
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "对佛教创始人释迦牟尼或修行圆满者的称呼",
+      "examples": [
+        "佛像",
+        "佛祖",
+        "借花献佛"
+      ],
+      "traditional_char": "佛"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "佛教（宗教名称及相关事物的统称）",
+      "examples": [
+        "佛家",
+        "佛寺",
+        "佛经",
+        "佛龛"
+      ],
+      "traditional_char": "佛"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "同“拂”，指违背、违反",
+      "examples": [
+        "佛逆（拂逆）"
+      ],
+      "traditional_char": "佛"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "同“弼”，辅佐",
+      "examples": [
+        "佛王（辅佐君王）"
+      ],
+      "traditional_char": "佛"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "同“勃”，兴起",
+      "examples": [
+        "佛然勃然"
+      ],
+      "traditional_char": "佛"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "other",
+      "meaning": "〔仿佛〕形似，好像，与“仿”搭配使用",
+      "examples": [
+        "仿佛"
+      ],
+      "traditional_char": "佛"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“佛”形声字，左“亻”表意指人，右“弗”表音；初用于译梵语“佛陀（Buddha）”，意为觉者。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由“佛陀”作为人名，引申泛指相关宗教及事物。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 5,
+      "evolution_type": "unknown",
+      "note": "与“仿”连用，语义有变化，见“仿佛”。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "unknown",
+      "note": "古代“佛”同“拂”，再通“弼”。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 4,
+      "evolution_type": "unknown",
+      "note": "古代“佛”通“勃”。源自声近替用，语义无直接关联。"
+    }
+  ]
+}

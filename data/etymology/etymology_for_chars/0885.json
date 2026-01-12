@@ -1,0 +1,62 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "告发，揭发罪行或过失。",
+      "examples": [
+        "案发后，有人前来证其罪行。"
+      ],
+      "traditional_char": "證"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "证明；用事实或证据来说明事情属实。",
+      "examples": [
+        "证实",
+        "证明",
+        "保证",
+        "作证",
+        "对证"
+      ],
+      "traditional_char": "證"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "凭据，能证明或断定事理的东西。",
+      "examples": [
+        "证据",
+        "凭证",
+        "证书",
+        "出入证",
+        "证章",
+        "有诗为证",
+        "证券"
+      ],
+      "traditional_char": "證"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从言，正声，表“告发”之义。繁体“證”与“证”本一致。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“告发”义引申为广义上的“证明”，汉代已见用法。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "conversion",
+      "note": "由动词“证明”转为名词“证据、凭证”等。"
+    }
+  ]
+}

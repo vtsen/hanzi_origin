@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "俘获，捉住敌人",
+      "examples": [
+        "虏获敌军五百人。",
+        "俘虏归来。"
+      ],
+      "traditional_char": "虜"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "被俘获的人",
+      "examples": [
+        "虏首",
+        "生虏",
+        "俘虏皆釈之。"
+      ],
+      "traditional_char": "虜"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "对中国古代北方外族的贬义称呼",
+      "examples": [
+        "胡虏犯边",
+        "北虏南下"
+      ],
+      "traditional_char": "虜"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字。从力、从毌表示用绳索拘捕，虍作声符。本义为俘获。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "conversion",
+      "note": "动词“俘获”转化为名词“被俘获的人”。汉代已见。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "pejoration",
+      "note": "由“被俘获的人”转用为蔑称异族，语义恶化，魏晋南北朝时期常见。"
+    }
+  ]
+}

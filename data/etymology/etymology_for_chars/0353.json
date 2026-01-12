@@ -1,0 +1,149 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "改变原来位置或脱离静止状态，与“静”相对",
+      "examples": [
+        "波动",
+        "浮动",
+        "门窗动了一下"
+      ],
+      "traditional_char": "動"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "使开始发生",
+      "examples": [
+        "发动",
+        "动工"
+      ],
+      "traditional_char": "動"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "使用",
+      "examples": [
+        "动用",
+        "动武"
+      ],
+      "traditional_char": "動"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "使起作用或变化，使感情起变化",
+      "examples": [
+        "感动",
+        "动人心弦",
+        "娓娓动听"
+      ],
+      "traditional_char": "動"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "吃（多用于否定式）",
+      "examples": [
+        "这几天不动荤腥"
+      ],
+      "traditional_char": "動"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "adjective",
+      "meaning": "非静止的",
+      "examples": [
+        "动画"
+      ],
+      "traditional_char": "動"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "adjective",
+      "meaning": "可变的",
+      "examples": [
+        "动产"
+      ],
+      "traditional_char": "動"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "noun",
+      "meaning": "行为",
+      "examples": [
+        "举动",
+        "动作"
+      ],
+      "traditional_char": "動"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "adverb",
+      "meaning": "常常",
+      "examples": [
+        "动辄得咎"
+      ],
+      "traditional_char": "動"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从力，重声，表示与力量相关的行动、活动。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“移动”引申为“使开始发生”"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由“使开始发生”引申为“使用”"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "动用可引起变化，引申为“使起作用或感情起变化”"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "conversion",
+      "note": "动词转为形容词，表示“非静止的”"
+    },
+    {
+      "source_index": 5,
+      "target_index": 6,
+      "evolution_type": "semantic_extension",
+      "note": "从“活动的”引申为“可变的”"
+    },
+    {
+      "source_index": 0,
+      "target_index": 7,
+      "evolution_type": "conversion",
+      "note": "动词转为名词，表示“行为”"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "用“动”表示“进食”动作"
+    },
+    {
+      "source_index": 0,
+      "target_index": 8,
+      "evolution_type": "grammaticalization",
+      "note": "“动”用作副词，表示频率"
+    }
+  ]
+}

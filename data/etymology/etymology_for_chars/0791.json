@@ -1,0 +1,102 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "走近，接近",
+      "examples": [
+        "近而不见，远而望之。（《荀子》）"
+      ],
+      "traditional_char": "近"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "距离短，与“远”相对",
+      "examples": [
+        "接近",
+        "近水楼台先得月"
+      ],
+      "traditional_char": "近"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "现在以前不久的时间",
+      "examples": [
+        "近来天气转凉",
+        "近代史"
+      ],
+      "traditional_char": "近"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "亲密",
+      "examples": [
+        "亲近",
+        "近亲"
+      ],
+      "traditional_char": "近"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "差别小，差不多",
+      "examples": [
+        "接近于完美",
+        "意义相近"
+      ],
+      "traditional_char": "近"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "adjective",
+      "meaning": "浅显",
+      "examples": [
+        "言近旨远",
+        "他的道理很近"
+      ],
+      "traditional_char": "近"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从辵（与行走相关），斤为声符，最初本义为走近、接近。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_shift",
+      "note": "由动词“走近”引申为距离短的形容词，汉代已见。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由空间的接近引申到时间上‘接近于现在’，魏晋南北朝开始明显。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由物理距离近引申为人与人之间关系亲密，先秦已见。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "由空间的接近引申为程度上的差别小，语义延伸。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "metaphor",
+      "note": "由空间距离近转化为道理浅显，便于接近、易懂。"
+    }
+  ]
+}

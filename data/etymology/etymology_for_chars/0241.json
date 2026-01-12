@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "再三嘱咐，反复叮嘱。",
+      "examples": [
+        "他临行前一直叮嘱我要小心。",
+        "母亲叮咛我要认真学习。"
+      ],
+      "traditional_char": "叮"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "追问，带有催促地询问。",
+      "examples": [
+        "老师叮问作业完成得怎么样了。",
+        "他不断叮问消息。"
+      ],
+      "traditional_char": "叮"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "蚊虫等用针形口器刺吸。",
+      "examples": [
+        "昨天晚上被蚊子叮了一口。",
+        "小虫叮在皮肤上不放。"
+      ],
+      "traditional_char": "叮"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从口，丁声，表示反复用口嘱咐他人。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从反复嘱咐引申为催促地询问，用于语言行为上的延伸。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由反复嘱咐（语言上的刺）比喻引申为虫子的刺吸动作。"
+    }
+  ]
+}

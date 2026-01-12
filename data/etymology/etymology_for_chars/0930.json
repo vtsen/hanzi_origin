@@ -1,0 +1,73 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "奔驰，疾行，快跑",
+      "examples": [
+        "并驾齐驱",
+        "先驱",
+        "前驱"
+      ],
+      "traditional_char": "驅"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "赶牲口，使马等动物向前走或奔跑",
+      "examples": [
+        "驱马",
+        "驱策"
+      ],
+      "traditional_char": "驅"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "赶走，驱逐",
+      "examples": [
+        "驱赶",
+        "驱寒",
+        "驱动"
+      ],
+      "traditional_char": "驅"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "强行、逼迫（如差遣、命令他人做事）",
+      "examples": [
+        "驱使",
+        "驱遣"
+      ],
+      "traditional_char": "驅"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从马，区声，本义为奔驰、疾行。‘马’表义，‘区’表声。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“疾行”引申为“驱赶牲口”的动作，春秋战国时期已见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "本义“奔驰”引申为“驱逐”，即通过动作迫使离开，多见于秦汉以后。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由驾驭、控制马快跑引申为“驱使、强迫”人做事，语义抽象化。"
+    }
+  ]
+}

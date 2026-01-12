@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "pronoun",
+      "meaning": "（古义）你或你的，作为二人称代词使用",
+      "examples": [
+        "而翁归，自与汝复算耳"
+      ],
+      "traditional_char": "而"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "conjunction",
+      "meaning": "连词，表平列、递进、转折、承接、修饰或假设等多种语法关系",
+      "examples": [
+        "多而杂",
+        "似是而非",
+        "侃侃而谈",
+        "人而无信，不知其可"
+      ],
+      "traditional_char": "而"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "preposition",
+      "meaning": "表从……到……的意思",
+      "examples": [
+        "从上而下"
+      ],
+      "traditional_char": "而"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "pictograph",
+      "original_sense_index": 1,
+      "note": "‘而’本为会意或象形，古文字形如人的下巴胡须，《说文解字》作“颊毛也”，后引申为连词。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "古代用于引申为代词‘你’，用法见先秦文献。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "连词功能进一步发展出表‘从……到……’的用法，时代较晚。"
+    }
+  ]
+}

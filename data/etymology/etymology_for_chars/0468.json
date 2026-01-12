@@ -1,0 +1,117 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "皮肉破损处；创伤；受损坏的地方",
+      "examples": [
+        "伤口已经愈合。",
+        "工伤赔偿。"
+      ],
+      "traditional_char": "傷"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "损害；使受损伤",
+      "examples": [
+        "伤了筋骨。",
+        "伤害他人感情。"
+      ],
+      "traditional_char": "傷"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "因某种致病因素而得病",
+      "examples": [
+        "伤风感冒。",
+        "多食伤脾。"
+      ],
+      "traditional_char": "傷"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "因过度而感到厌烦",
+      "examples": [
+        "伤食。"
+      ],
+      "traditional_char": "傷"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "妨碍，影响",
+      "examples": [
+        "无伤大体。"
+      ],
+      "traditional_char": "傷"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "悲哀，感到悲伤",
+      "examples": [
+        "哀伤。",
+        "感伤往事。"
+      ],
+      "traditional_char": "傷"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "得罪，冒犯",
+      "examples": [
+        "开口伤人。",
+        "伤众。"
+      ],
+      "traditional_char": "傷"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从人，塲声；‘伤’、‘傷’同源，最初义为皮肉破损。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由实物受损伤部位引申为一般意义上的损害。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由对人体的损害扩大用于疾病、受外邪等。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "患病致生理受损，引申为因过度产生厌烦。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "‘损害’义派生为‘妨碍’。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "metaphor",
+      "note": "由‘损害身体’喻及‘损害精神’，即‘悲哀’之义。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 6,
+      "evolution_type": "semantic_extension",
+      "note": "‘伤害’引申为‘得罪、冒犯’。"
+    }
+  ]
+}

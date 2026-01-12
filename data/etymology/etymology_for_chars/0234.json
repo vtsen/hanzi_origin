@@ -1,0 +1,150 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "返回，回到原来的地方或本处",
+      "examples": [
+        "归国",
+        "归程"
+      ],
+      "traditional_char": "歸"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "还给，归还",
+      "examples": [
+        "归还",
+        "物归原主"
+      ],
+      "traditional_char": "歸"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "趋向，去往",
+      "examples": [
+        "归附",
+        "众望所归"
+      ],
+      "traditional_char": "歸"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "合并，集中于一类或一地",
+      "examples": [
+        "归并",
+        "归功"
+      ],
+      "traditional_char": "歸"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "由，属于",
+      "examples": [
+        "归我办",
+        "归属"
+      ],
+      "traditional_char": "歸"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "结局",
+      "examples": [
+        "归宿"
+      ],
+      "traditional_char": "歸"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "珠算中一位除数的除法",
+      "examples": [
+        "九归"
+      ],
+      "traditional_char": "歸"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "verb",
+      "meaning": "女子出嫁",
+      "examples": [
+        "之子于归"
+      ],
+      "traditional_char": "歸"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "verb",
+      "meaning": "自首",
+      "examples": [],
+      "traditional_char": "歸"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 7,
+      "note": "“歸”会意，从止，从妇省，原意为女子出嫁，即“归宁”。"
+    },
+    {
+      "formation_type": "simple_indicative",
+      "original_sense_index": 0,
+      "note": "简化字“归”用“且”代替复杂结构，仅表音和省略，语义沿袭传统。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 7,
+      "target_index": 0,
+      "evolution_type": "metaphor",
+      "note": "由女子出嫁引申为返回家园；女子出嫁比喻回归原处。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由返回引申为归还，返还原主。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由返回引申为趋向、去往。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "返回引申为合并、集中。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "合并、集中引申为属于、归属。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "回到终点引申为结局、归宿。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "semantic_extension",
+      "note": "回归原位引申为珠算除法术语。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 8,
+      "evolution_type": "metaphor",
+      "note": "回归本处比喻自首。"
+    }
+  ]
+}

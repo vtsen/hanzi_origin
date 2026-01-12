@@ -1,0 +1,89 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "用桨拨水使船前进",
+      "examples": [
+        "划船",
+        "划桨",
+        "他在江上划艇"
+      ],
+      "traditional_char": "划"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "合算，按利益情况计较是否相宜",
+      "examples": [
+        "这样做很划算",
+        "花钱买这个不划"
+      ],
+      "traditional_char": "划"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "用刀或其它东西把物件分开或从物件上面擦过",
+      "examples": [
+        "他在纸上划了一道",
+        "用刀划开袋子"
+      ],
+      "traditional_char": "劃"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "分开",
+      "examples": [
+        "划界",
+        "划分",
+        "划定边界"
+      ],
+      "traditional_char": "劃"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "设计",
+      "examples": [
+        "筹划",
+        "计划",
+        "策划"
+      ],
+      "traditional_char": "劃"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“划”为形声字，从戈从刀，‘画’声，本义为拨水前进（古作“划”，今与‘劃’混用）"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 2,
+      "note": "“劃”为形声字，从刀从画，意为分割开、用刀划开的动作"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由划桨前进引申为利益计算，现代口语用法"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由用刀划开扩展为一般意义上的分开"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "从空间分开引申为抽象意义上的策划、设计"
+    }
+  ]
+}

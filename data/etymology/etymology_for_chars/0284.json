@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "挥动、抡动、扔出。",
+      "examples": [
+        "甩手",
+        "甩开膀子",
+        "把球甩出去"
+      ],
+      "traditional_char": "甩"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "抛开，摆脱，去除。",
+      "examples": [
+        "甩卖",
+        "把闲话甩掉"
+      ],
+      "traditional_char": "甩"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "（昆虫）产卵。",
+      "examples": [
+        "蚕蛾甩子儿"
+      ],
+      "traditional_char": "甩"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "pictograph",
+      "original_sense_index": 0,
+      "note": "“甩”为象形字，上部象手，下部象支撑物，表示甩动、抡动手臂。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由挥动、扔出引申为抛开、摆脱，见于现代汉语。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由甩出之动作比喻昆虫产卵的行为，现代用法。"
+    }
+  ]
+}

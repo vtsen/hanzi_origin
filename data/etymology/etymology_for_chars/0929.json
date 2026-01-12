@@ -1,0 +1,100 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "织布时用梭穿织的横纱，编织物的横线，与“经”相对",
+      "examples": [
+        "纬线",
+        "纬纱",
+        "经纬"
+      ],
+      "traditional_char": "緯"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "地理学上指在地面上的与赤道平行的线",
+      "examples": [
+        "纬度",
+        "纬线"
+      ],
+      "traditional_char": "緯"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "东西的横路",
+      "examples": [
+        "纬陌"
+      ],
+      "traditional_char": "緯"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "行星的古称",
+      "examples": [
+        "纬星"
+      ],
+      "traditional_char": "緯"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "书名：古七纬（指中国汉代以神学迷信附会儒家经义的书）",
+      "examples": [
+        "七纬"
+      ],
+      "traditional_char": "緯"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "编织",
+      "examples": [
+        "纬萧"
+      ],
+      "traditional_char": "緯"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从糸，韦声，表示用纱线横向编织，本义就是织横纱。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "用织物的横线喻指地理上的平行线。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "用横纱之义，引申为东西向的道路。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "unknown",
+      "note": "由纬的本义引申为行星，具体机制不明。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "凭借纬书名称，取名于原有“纬”名词的象征之义。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "conversion",
+      "note": "名词转为动词，表示“编织”动作。"
+    }
+  ]
+}

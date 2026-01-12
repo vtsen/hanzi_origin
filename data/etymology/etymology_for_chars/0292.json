@@ -1,0 +1,90 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "抵触、违反（规章、法律、禁忌等）",
+      "examples": [
+        "犯法",
+        "犯规",
+        "犯颜",
+        "犯讳"
+      ],
+      "traditional_char": "犯"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "违反法律或规定的人，罪人",
+      "examples": [
+        "罪犯",
+        "犯人"
+      ],
+      "traditional_char": "犯"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "侵害、进攻",
+      "examples": [
+        "侵犯",
+        "侵犯",
+        "秋毫无犯"
+      ],
+      "traditional_char": "犯"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "（疾病、情绪等）发作，触发",
+      "examples": [
+        "犯病",
+        "犯愁",
+        "犯疑"
+      ],
+      "traditional_char": "犯"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "做错事情",
+      "examples": [
+        "犯错误"
+      ],
+      "traditional_char": "犯"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 2,
+      "note": "形声字，从犭（犬）为意符，表示侵犯、进犯之意，‘反’为声符。原意为动物（尤指犬类）进攻。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 2,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "由“进攻、侵犯”扩展为“冒犯、违反”抽象意。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "conversion",
+      "note": "动词转为名词，指违反的人（罪犯）。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由“违反”进一步泛化为“做错事”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由“触犯”引申为某种状态或情感的‘发作’。"
+    }
+  ]
+}

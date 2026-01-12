@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "细小",
+      "examples": [
+        "纤细",
+        "纤尘不染",
+        "纤毫毕现"
+      ],
+      "traditional_char": "纖"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "吝啬",
+      "examples": [
+        "纤啬"
+      ],
+      "traditional_char": "纖"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "拉船前进的绳子",
+      "examples": [
+        "纤夫",
+        "纤绳"
+      ],
+      "traditional_char": "縴"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘纖’形声字，从糸，僉声，表示细丝、细小之意。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 2,
+      "note": "‘縴’形声字，从糸，韆声，古时专指拉船的绳索。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由‘细小’引申为‘吝啬’，语义比喻推演。"
+    }
+  ]
+}

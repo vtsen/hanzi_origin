@@ -1,0 +1,161 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "琅邪郡，古地名。",
+      "examples": [
+        "琅邪王，字亦作琊。"
+      ],
+      "traditional_char": "邪"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "不正当，不正派。",
+      "examples": [
+        "邪恶",
+        "邪念",
+        "邪说"
+      ],
+      "traditional_char": "邪"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "中医指引起疾病的环境因素。",
+      "examples": [
+        "寒邪",
+        "风邪"
+      ],
+      "traditional_char": "邪"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "鬼神给予的灾祸（迷信观念）。",
+      "examples": [
+        "中邪"
+      ],
+      "traditional_char": "邪"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "妖异怪诞。",
+      "examples": [
+        "邪魔",
+        "邪术"
+      ],
+      "traditional_char": "邪"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "adjective",
+      "meaning": "倾斜，斜。",
+      "examples": [
+        "邪视"
+      ],
+      "traditional_char": "邪"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "疑问词，表示疑问。",
+      "examples": [
+        "何邪？"
+      ],
+      "traditional_char": "邪"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "adjective",
+      "meaning": "缓慢，慢。",
+      "examples": [
+        "邪行（慢行）"
+      ],
+      "traditional_char": "邪"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "other",
+      "meaning": "通“餘”，余。",
+      "examples": [
+        "邪粮（余粮）"
+      ],
+      "traditional_char": "邪"
+    },
+    {
+      "index": 9,
+      "part_of_speech": "noun",
+      "meaning": "同“玡”，琅玡山。",
+      "examples": [
+        "琅邪山"
+      ],
+      "traditional_char": "邪"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从邑，牙声，最初指琅邪地名。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_shift",
+      "note": "由地名转为评价人的品行，后世词义发展。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由“不正”引申为“异气致疾”的中医用词。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由“不正”引申为迷信里的灾祸。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "对“不正”含义的进一步引申为怪诞、妖异。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "与“斜”通假，因音近借用表“倾斜”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "古音读同“耶”，疑问词用法，音借。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 7,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "古同“徐”，借用表“缓慢”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 8,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "通“餘”，音近假借，表“余”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 9,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "古同“玡”，特指琅玡山，音近假借。"
+    }
+  ]
+}

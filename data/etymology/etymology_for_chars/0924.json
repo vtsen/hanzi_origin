@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "尽力，用力。",
+      "examples": [
+        "努力工作",
+        "努力学习"
+      ],
+      "traditional_char": "努"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "使（嘴等）往前突出、撅起。",
+      "examples": [
+        "他气得努着嘴",
+        "小孩努嘴撒娇"
+      ],
+      "traditional_char": "努"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "因用力过度而导致身体内部受伤。",
+      "examples": [
+        "别太用力，小心努着。"
+      ],
+      "traditional_char": "努"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从力，表示与力量相关，奴为声符。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由用力引申出嘴部向前使劲的动作，见于后起口语。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "从“用力”引申为“用力过猛导致受伤”，用法变迁出现于现代汉语。"
+    }
+  ]
+}

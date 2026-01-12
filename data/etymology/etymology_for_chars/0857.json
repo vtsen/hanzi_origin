@@ -1,0 +1,97 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "沛水，古地名或水名。",
+      "examples": [
+        "沛水在古代为地名，见于《尚书》。"
+      ],
+      "traditional_char": "沛"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "水势湍急或行动迅速的样子。",
+      "examples": [
+        "沛然莫之能御。",
+        "气象～～。"
+      ],
+      "traditional_char": "沛"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "充盛，丰富的样子。",
+      "examples": [
+        "精力充沛。",
+        "丰沛的雨水。"
+      ],
+      "traditional_char": "沛"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "有水有草的地方。",
+      "examples": [],
+      "traditional_char": "沛"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "跌倒，倾仆。",
+      "examples": [
+        "颠沛流离。"
+      ],
+      "traditional_char": "沛"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "古同“旆”，指旌旗。",
+      "examples": [
+        "白旄黄沛，见于《诗经》。"
+      ],
+      "traditional_char": "沛"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，市声，本义为沛水，表与水相关之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由地名或水名引申为水势湍急。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "水势充沛比喻事物充盛。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "从水势扩展为有水草的地方。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "unknown",
+      "note": "“跌倒、倾仆”与本义的关系不明确，历代用法见于“颠沛流离”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "本字借用为“旆”，即旌旗。"
+    }
+  ]
+}

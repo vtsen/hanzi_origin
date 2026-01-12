@@ -1,0 +1,85 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "地名或姓氏",
+      "examples": [
+        "郁县",
+        "郁氏"
+      ],
+      "traditional_char": "郁"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "草木繁盛、茂密的样子",
+      "examples": [
+        "郁葱",
+        "郁闭"
+      ],
+      "traditional_char": "鬱"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "忧愁、愁闷",
+      "examples": [
+        "郁闷",
+        "郁悒"
+      ],
+      "traditional_char": "鬱"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "文彩显著",
+      "examples": [
+        "郁郁乎文哉"
+      ],
+      "traditional_char": "鬱"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "香气浓厚",
+      "examples": [
+        "馥郁",
+        "郁烈"
+      ],
+      "traditional_char": "鬱"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“郁”为形声字，从邑，有声，本作地名和姓氏。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "“鬱”为形声字，从林，鬱声，表示草木丛生繁盛。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由树木茂密引申为情绪郁结。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由繁盛喻文采多。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "由草木茂密引申为香气浓烈。"
+    }
+  ]
+}

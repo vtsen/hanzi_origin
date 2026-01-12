@@ -1,0 +1,115 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "用肩膀挑，使物品承载于肩上。",
+      "examples": [
+        "担水",
+        "担柴"
+      ],
+      "traditional_char": "擔"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "承当责任或负担。",
+      "examples": [
+        "担负",
+        "担当",
+        "担任",
+        "担待"
+      ],
+      "traditional_char": "擔"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "挑东西的用具，多为竹、木制成。",
+      "examples": [
+        "扁担"
+      ],
+      "traditional_char": "擔"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "一挑所挑的东西。",
+      "examples": [
+        "一担柴",
+        "一担水"
+      ],
+      "traditional_char": "擔"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "measure_word",
+      "meaning": "中国市制重量单位，一担等于一百斤。",
+      "examples": [
+        "买了一担米"
+      ],
+      "traditional_char": "擔"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "measure_word",
+      "meaning": "用作量词，用于成担的东西。",
+      "examples": [
+        "一担水"
+      ],
+      "traditional_char": "擔"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "同“掸”，指掸拂。",
+      "examples": [],
+      "traditional_char": "擔"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从手，詹声，表示用手挑，即用肩挑。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由实际用肩挑物转喻为承担责任，古至今皆见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "挑的行为引申为所用工具。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由动作为单位意义（一次挑的量、挑的东西）。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由‘一担所挑的东西’进一步用为重量单位。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 5,
+      "evolution_type": "reanalysis",
+      "note": "从‘一担所挑的东西’到量词用法，语法化。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "“担”借为“掸”，二者同音而假借，义有分化。"
+    }
+  ]
+}

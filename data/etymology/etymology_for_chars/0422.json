@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "使害怕；威吓。",
+      "examples": [
+        "别吓我。",
+        "挺吓人的。"
+      ],
+      "traditional_char": "嚇"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "威吓的行为或事件，常用于复合词中。",
+      "examples": [
+        "恐吓",
+        "恫吓"
+      ],
+      "traditional_char": "嚇"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "interjection",
+      "meaning": "表示不满或惊讶的感叹词。",
+      "examples": [
+        "吓，太欺负人了！"
+      ],
+      "traditional_char": "嚇"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“嚇”形声字，从口，赫声，表示威吓、使人害怕之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "conversion",
+      "note": "由动词“使害怕”引申为名词“威吓的行为”，用作复合词。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "function_word",
+      "note": "动词“使害怕”进一步语法化，用作感叹词，表达不满或惊讶。"
+    }
+  ]
+}

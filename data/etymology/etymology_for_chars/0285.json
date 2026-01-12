@@ -1,0 +1,106 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "官印、公家或私人的图章、戳记",
+      "examples": [
+        "印章",
+        "印玺",
+        "盖印"
+      ],
+      "traditional_char": "印"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "痕迹",
+      "examples": [
+        "手印",
+        "指印",
+        "留下印子"
+      ],
+      "traditional_char": "印"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "用油墨、染料等把文字或图画留在纸、布等上",
+      "examples": [
+        "印刷",
+        "排印",
+        "印制",
+        "印发"
+      ],
+      "traditional_char": "印"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "彼此符合",
+      "examples": [
+        "印证",
+        "心心相印"
+      ],
+      "traditional_char": "印"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "外界事物反映在脑中所留下的形象",
+      "examples": [
+        "印象"
+      ],
+      "traditional_char": "印"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "印光法师",
+        "印姓"
+      ],
+      "traditional_char": "印"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意：左‘手’，右‘跪人’，表示以手按人在地，使跪拜，引申为官印、符号的权力象征。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "古代印章盖印后留下痕迹，由印章转指痕迹。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由名词‘印章’引出‘加盖印章’等动作，动用为‘盖印、印刷’。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "印刷等动作常留下痕迹，即‘印记’。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "痕迹引申为‘印象’，即事物对人的脑中所留下的形象。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "‘印’有使对齐、符合之意，引申为‘彼此符合’。"
+    }
+  ]
+}

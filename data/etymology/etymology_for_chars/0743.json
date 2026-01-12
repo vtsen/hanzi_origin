@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "嘴唇",
+      "examples": [
+        "吻合",
+        "嘴唇紧闭"
+      ],
+      "traditional_char": "吻"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "用嘴唇接触表喜爱、亲热",
+      "examples": [
+        "接吻",
+        "吻别"
+      ],
+      "traditional_char": "吻"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "动物的嘴",
+      "examples": [
+        "鱼吻宽大",
+        "兽吻突出"
+      ],
+      "traditional_char": "吻"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从口，勿声。初本指“嘴唇”。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "conversion",
+      "note": "由名词“嘴唇”转化为动词“亲吻”"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "从人嘴唇义扩展至动物之嘴"
+    }
+  ]
+}

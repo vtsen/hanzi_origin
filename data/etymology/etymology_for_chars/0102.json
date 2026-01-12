@@ -1,0 +1,77 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "大齿；槽牙，现泛指牙齿。",
+      "examples": [
+        "牙齿",
+        "牙龈",
+        "牙垢"
+      ],
+      "traditional_char": "牙"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "像牙齿形状的东西。",
+      "examples": [
+        "抽屉牙子"
+      ],
+      "traditional_char": "牙"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "象牙。",
+      "examples": [
+        "牙雕"
+      ],
+      "traditional_char": "牙"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "旧时介绍买卖从中取利的人。",
+      "examples": [
+        "牙商",
+        "牙行"
+      ],
+      "traditional_char": "牙"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [],
+      "traditional_char": "牙"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "pictograph",
+      "original_sense_index": 0,
+      "note": "象形，古文字形象上下齿交错，表槽牙本义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "因形似，牙齿之形引申为类似形状的事物。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_narrowing",
+      "note": "由泛指牙齿转为特指象牙，常见于工艺品材料。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "古代畜力买卖，以卖牙立信，后引申为中介人。"
+    }
+  ]
+}

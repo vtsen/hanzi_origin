@@ -1,0 +1,74 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "环绕，四周拦挡起来",
+      "examples": [
+        "围城",
+        "围攻",
+        "突围",
+        "解围"
+      ],
+      "traditional_char": "圍"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "圈起来作拦阻或遮挡的东西",
+      "examples": [
+        "围墙",
+        "围裙",
+        "围巾"
+      ],
+      "traditional_char": "圍"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "四周（外部空间的周边）",
+      "examples": [
+        "外围",
+        "周围"
+      ],
+      "traditional_char": "圍"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "measure_word",
+      "meaning": "两手姆指和食指合拢或两臂合拢的长度单位",
+      "examples": [
+        "腰大十围",
+        "树大五围"
+      ],
+      "traditional_char": "圍"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从囗，韦声，本义为环绕。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "从“环绕”引申为指用来环绕的物体或遮挡物。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "从动作“环绕”引申为“所环绕的周围”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "function_word",
+      "note": "从动作引申为表示合拢长度的量词。"
+    }
+  ]
+}

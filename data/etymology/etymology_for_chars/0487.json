@@ -1,0 +1,119 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "使人或动物失去生命，杀戮。",
+      "examples": [
+        "曹操杀吕伯奢。",
+        "杀敌致果。"
+      ],
+      "traditional_char": "殺"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "战斗，搏斗。",
+      "examples": [
+        "杀出重围。",
+        "两军对垒，杀声震天。"
+      ],
+      "traditional_char": "殺"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "消减，减少。",
+      "examples": [
+        "杀风景。",
+        "大杀价。"
+      ],
+      "traditional_char": "殺"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "药物等刺激身体使感觉疼痛。",
+      "examples": [
+        "肥皂水杀了眼睛。",
+        "辣椒水杀手。"
+      ],
+      "traditional_char": "殺"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "收束、降低，尤指价格。",
+      "examples": [
+        "杀价。",
+        "杀尾。"
+      ],
+      "traditional_char": "殺"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "勒紧，扣紧（如刹车）。",
+      "examples": [
+        "杀车。",
+        "临急杀闸。"
+      ],
+      "traditional_char": "殺"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "particle",
+      "meaning": "用于动词后，表示程度很深。",
+      "examples": [
+        "笑杀人。",
+        "恨杀。"
+      ],
+      "traditional_char": "殺"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘殺’为形声字，从殳，杀声。本义为杀戮，殳为兵器，表示武器杀人。‘杀’为简化字，源自‘殺’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由‘杀戮’引申到‘战斗、搏斗’，多见于古汉语及军事语境。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由‘杀戮’扩展为‘消减、减少’。表示减少到类似消灭、终止的程度。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由‘杀戮’引申为‘刺激身体使感觉疼痛’，喻如受攻击。近现代用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "‘杀’引申为‘收束、降低’，如价格降低至极致，有消减意。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "metaphor",
+      "note": "由‘杀戮’引申为‘勒紧、扣紧’，如刹车，含有突然制止、收紧的动作。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "grammaticalization",
+      "note": "‘杀’由动词用作表示程度的后缀，语义虚化，用于形容动作、情感的极端。"
+    }
+  ]
+}

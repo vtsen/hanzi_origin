@@ -1,0 +1,86 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "呕吐，胃中之物自口中涌出。",
+      "examples": [
+        "呕血。",
+        "一阵恶心想呕。"
+      ],
+      "traditional_char": "嘔"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "恶心，感觉想吐或厌恶。",
+      "examples": [
+        "作呕。",
+        "他的做法让人作呕。"
+      ],
+      "traditional_char": "嘔"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "形容婴儿学语或管弦乐、鸟鸣、摇橹等声音。",
+      "examples": [
+        "呕哑学语。",
+        "呕哑管弦。"
+      ],
+      "traditional_char": "嘔"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "歌颂，歌唱。（古同“讴”）",
+      "examples": [
+        "呕歌。",
+        "呕歌太平。"
+      ],
+      "traditional_char": "嘔"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "生闷气，怄气。（古同“怄”）",
+      "examples": [
+        "两人互相呕气。"
+      ],
+      "traditional_char": "嘔"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从口，区声，本义为呕吐。‘口’意指口腔、与发声或说话有关。‘区’为声旁表音。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“呕吐”引申为“恶心”，表示感到要吐或厌恶。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由物从口中吐出之意，喻声音自口中吐出，用以形容婴儿学语、乐器等声。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由模拟声音引申为“歌唱、歌颂”，古通‘讴’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_shift",
+      "note": "古通‘怄’，指生闷气，意义可能因音通、语义类推而转变。"
+    }
+  ]
+}

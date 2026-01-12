@@ -1,0 +1,58 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "军队作战时布置的局势",
+      "examples": [
+        "阵线",
+        "阵势",
+        "严阵以待"
+      ],
+      "traditional_char": "陣"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "战场",
+      "examples": [
+        "阵地",
+        "阵亡",
+        "冲锋陷阵"
+      ],
+      "traditional_char": "陣"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "measure_word",
+      "meaning": "指事情或动作经过的段落",
+      "examples": [
+        "阵发",
+        "阵痛",
+        "下了一阵雨"
+      ],
+      "traditional_char": "陣"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘陣’为形声字，从阜，表示与地势、地形相关，‘陈’为声，原意指布阵。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由‘布置的军队局势’借指‘战场’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由‘军队布阵’引申为‘一段（气象、动作等）’。"
+    }
+  ]
+}

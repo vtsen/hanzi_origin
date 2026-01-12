@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "pronoun",
+      "meaning": "他、她、那个人。",
+      "examples": [
+        "伊说",
+        "伊人"
+      ],
+      "traditional_char": "伊"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "particle",
+      "meaning": "文言助词，用于句中无实在意义。",
+      "examples": [
+        "下车伊始",
+        "伊谁之力"
+      ],
+      "traditional_char": "伊"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [
+        "伊尹"
+      ],
+      "traditional_char": "伊"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 2,
+      "note": "会意字，从人从尹，最初指伊尹，由人和代表治理的尹构成。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 2,
+      "target_index": 0,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "假借，用‘伊’表示指示代词‘那、他、她’，战国时期广见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "grammaticalization",
+      "note": "‘伊’由代词引申为无实义的文言助词，用于句中填补结构。"
+    }
+  ]
+}

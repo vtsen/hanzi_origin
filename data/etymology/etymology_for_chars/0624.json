@@ -1,0 +1,69 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "用力拉",
+      "examples": [
+        "扯住不放",
+        "牵扯别人"
+      ],
+      "traditional_char": "扯"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "撕破，撕裂",
+      "examples": [
+        "把信扯开"
+      ],
+      "traditional_char": "扯"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "随意谈论，闲聊或说谎",
+      "examples": [
+        "扯谎",
+        "扯闲篇"
+      ],
+      "traditional_char": "扯"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "无原则争论或推诿",
+      "examples": [
+        "扯皮"
+      ],
+      "traditional_char": "扯"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "形声字，从手，奢声，表示用手撕裂；本为“撦”的俗字。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "从“撕裂”引申为“用力拉”，二者动作相关。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "“拉、牵引”的动作引申为“随意谈论”，如拉扯话题。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由随意谈论引申为争论、推诿，多见于口语习惯。"
+    }
+  ]
+}

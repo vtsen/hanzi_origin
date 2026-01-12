@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "由汗腺分泌并由皮肤毛孔排出的液体",
+      "examples": [
+        "汗水",
+        "大汗淋漓",
+        "汗流浃背"
+      ],
+      "traditional_char": "汗"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "出汗，使出汗",
+      "examples": [
+        "汗颜",
+        "汗马功劳",
+        "汗牛充栋"
+      ],
+      "traditional_char": "汗"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "other",
+      "meaning": "用于“可汗”等专用名词中的读音。",
+      "examples": [
+        "可汗"
+      ],
+      "traditional_char": "汗"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，干声；本义为汗液。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "conversion",
+      "note": "名词转动词，后引申为出汗、使出汗等意思。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "unknown",
+      "note": "汗（hán）音有限定用法，主要见于专名如“可汗”，与本义联系不明。"
+    }
+  ]
+}

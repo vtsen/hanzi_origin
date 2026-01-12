@@ -1,0 +1,85 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "庄稼等植物吐穗开花。",
+      "examples": [
+        "麦秀两歧。",
+        "禾苗已秀。"
+      ],
+      "traditional_char": "秀"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "特别优异，才能出众。",
+      "examples": [
+        "优秀",
+        "后起之秀"
+      ],
+      "traditional_char": "秀"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "美丽而不庸俗。",
+      "examples": [
+        "秀丽",
+        "清秀"
+      ],
+      "traditional_char": "秀"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "元明两代对贵族、官僚及富室子弟的称呼。",
+      "examples": [
+        "不郎不秀"
+      ],
+      "traditional_char": "秀"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "茂盛，生长得美好。",
+      "examples": [
+        "佳木秀而繁荫"
+      ],
+      "traditional_char": "秀"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "上为“禾”表示庄稼，下部形象呈现禾穗摇曳，描绘谷物抽穗扬花之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由植物吐穗开花扩展至泛指植物茂盛。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "植物扬花之美引申为人的美丽和俊秀。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "吐穗为庄稼生长发达，引申比喻人的才能突出。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "由才能出众引申为贵族、官僚等身份的称谓。"
+    }
+  ]
+}

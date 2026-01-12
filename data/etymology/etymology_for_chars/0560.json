@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "布置、安排，如摆设、设置。",
+      "examples": [
+        "设宴招待宾客。",
+        "在房间里设一张桌子。"
+      ],
+      "traditional_char": "設"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "筹划，谋划。",
+      "examples": [
+        "设计方案。",
+        "巧设妙计。"
+      ],
+      "traditional_char": "設"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "conjunction",
+      "meaning": "假使，如果。",
+      "examples": [
+        "假设他来不及。",
+        "设若不成，另作打算。"
+      ],
+      "traditional_char": "設"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意字，从言，从殳，表示讲话与持殳(兵器)相关，原意为摆设、陈列。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从‘布置、安排’引申为‘筹划、谋划’，见于先秦至汉代。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "grammaticalization",
+      "note": "从‘筹划’意义转为假设连词用法，语法化过程，两汉及以后文献可见。"
+    }
+  ]
+}

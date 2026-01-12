@@ -1,0 +1,57 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "抵御，对抗力量或压力",
+      "examples": [
+        "抗击侵略",
+        "顽抗到底",
+        "群起而抗之"
+      ],
+      "traditional_char": "抗"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "拒绝，公开反对",
+      "examples": [
+        "抗议无效",
+        "抗命不从",
+        "抗税"
+      ],
+      "traditional_char": "抗"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "势均力敌地对立、对等",
+      "examples": [
+        "抗衡强敌",
+        "两国抗衡"
+      ],
+      "traditional_char": "抗"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从手，亢声。本义为抵御、抵抗。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“抵抗”义引申为“拒绝、公开反对”，汉代以后见用。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由对抗之意引申为“双方势均力敌下的对立”，宋元以后常见。"
+    }
+  ]
+}

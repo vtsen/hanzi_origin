@@ -1,0 +1,105 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "喝，尤其指喝酒。",
+      "examples": [
+        "饮水思源",
+        "饮酒",
+        "饮鸩止渴"
+      ],
+      "traditional_char": "飲"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "可以喝的东西。",
+      "examples": [
+        "冷饮",
+        "饮料",
+        "饮食"
+      ],
+      "traditional_char": "飲"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "中医汤剂的一种类型。",
+      "examples": [
+        "香苏饮",
+        "饮子"
+      ],
+      "traditional_char": "飲"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "中医学指体内水液传输不利停于腹腔或四肢的病症。",
+      "examples": [
+        "痰饮",
+        "悬饮",
+        "溢饮"
+      ],
+      "traditional_char": "飲"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "含忍，忍受。",
+      "examples": [
+        "饮恨",
+        "饮誉"
+      ],
+      "traditional_char": "飲"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "隐没。",
+      "examples": [
+        "饮羽"
+      ],
+      "traditional_char": "飲"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "古文字‘飲’象人伸舌向酒坛取饮之形，属于会意字，左酉表示酒，右人形表示动作。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从“喝”的动作扩展为名词，指代能喝的东西。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "从“喝”引申为中药剂型名，意指可口服的汤剂。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "从喝/液体的动作，引申为中医学体内液体潴留的病症名。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "比喻咽下、忍耐，表示“含忍”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "metaphor",
+      "note": "由喝引申为“隐没”，如‘饮羽’，以入口消失为喻。"
+    }
+  ]
+}

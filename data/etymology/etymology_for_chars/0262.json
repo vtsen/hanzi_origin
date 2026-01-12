@@ -1,0 +1,42 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "numeral",
+      "meaning": "数名，三加一，即“4”，常用于表示数目。",
+      "examples": [
+        "四方",
+        "四边",
+        "四序",
+        "四体",
+        "四库",
+        "四君子"
+      ],
+      "traditional_char": "四"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "中国古代乐谱中的记音符号，相当于简谱中的低音“6”。",
+      "examples": [
+        "工尺谱中用“四”表示低音6。"
+      ],
+      "traditional_char": "四"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘四’为形声字，从囗，似‘儿’声。本义为数词‘4’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "乐谱记音用数字代称音阶，用‘四’指代音级，属于数字意义的引申。"
+    }
+  ]
+}

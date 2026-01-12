@@ -1,0 +1,59 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "种植庄稼，或与种植庄稼相关的事务",
+      "examples": [
+        "农田",
+        "农产",
+        "农垦",
+        "农忙",
+        "农业"
+      ],
+      "traditional_char": "農"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "种庄稼的人",
+      "examples": [
+        "农民",
+        "贫农",
+        "菜农"
+      ],
+      "traditional_char": "農"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "农先生",
+        "农某"
+      ],
+      "traditional_char": "農"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘農’为形声字，上‘曲’表声，下‘辰’（本义为耕具）表意，表示耕田、种植谷物之义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "conversion",
+      "note": "由种庄稼这一活动转指从事此活动的人，古今皆见。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "由‘农’作普通名词转为姓氏用法，历代皆有。"
+    }
+  ]
+}

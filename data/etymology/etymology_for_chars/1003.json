@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "草木繁盛，植物生长旺盛",
+      "examples": [
+        "草木茂盛",
+        "林茂而鸟集"
+      ],
+      "traditional_char": "茂"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "美，有才德",
+      "examples": [
+        "茂士",
+        "茂才"
+      ],
+      "traditional_char": "茂"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "有机化合物，环戊间二烯的简称",
+      "examples": [
+        "茂铁催化剂",
+        "茂的分子结构稳定"
+      ],
+      "traditional_char": "茂"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "勉励，努力（古同“懋”）",
+      "examples": [
+        "茂勉",
+        "君子茂行"
+      ],
+      "traditional_char": "茂"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从艸，戊声，本义为草木繁盛。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由草木繁盛转喻为人才美好，意象的转用。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "利用“环戊二烯”结构与‘戊’关联，借用字形作简称，现代化学用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "unknown",
+      "note": "古作“懋”，意义转移机制不明，或为音近假借。"
+    }
+  ]
+}

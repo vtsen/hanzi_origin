@@ -1,0 +1,180 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "应答，回答他人",
+      "examples": [
+        "无言以对",
+        "答对如流"
+      ],
+      "traditional_char": "對"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "preposition",
+      "meaning": "朝向，对着，方向相向",
+      "examples": [
+        "对面",
+        "对酒当歌"
+      ],
+      "traditional_char": "對"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "看待，应付",
+      "examples": [
+        "对待",
+        "如何对这件事"
+      ],
+      "traditional_char": "對"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "核对，校对，照样检查",
+      "examples": [
+        "校对",
+        "核对账目"
+      ],
+      "traditional_char": "對"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "配合，适合，使相合，投合",
+      "examples": [
+        "对应",
+        "对劲"
+      ],
+      "traditional_char": "對"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "adjective",
+      "meaning": "正确，正常，符合标准",
+      "examples": [
+        "颜色不对",
+        "对还是错"
+      ],
+      "traditional_char": "對"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "一对，成双，配偶，两件为一组",
+      "examples": [
+        "一对鹦鹉",
+        "成双成对"
+      ],
+      "traditional_char": "對"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "noun",
+      "meaning": "互相、彼此相向地状态",
+      "examples": [
+        "对立",
+        "对峙"
+      ],
+      "traditional_char": "對"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "verb",
+      "meaning": "分开，一半",
+      "examples": [
+        "对开"
+      ],
+      "traditional_char": "對"
+    },
+    {
+      "index": 9,
+      "part_of_speech": "verb",
+      "meaning": "搀和（多指液体）",
+      "examples": [
+        "对水"
+      ],
+      "traditional_char": "對"
+    },
+    {
+      "index": 10,
+      "part_of_speech": "measure_word",
+      "meaning": "量词，成双的事物单位",
+      "examples": [
+        "一对耳环"
+      ],
+      "traditional_char": "對"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "‘對’为会意字，从‘口’、‘丵’、‘寸’，本义为应答、答对。‘寸’表示法度、回答有定制。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从“应答”引申为“朝向、相对”，东汉以后明显"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "“对着”进一步引申为“对待某人/事”"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "“面对”引申为“核对、校对”"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "“面对”引申为“适合、配合”"
+    },
+    {
+      "source_index": 4,
+      "target_index": 5,
+      "evolution_type": "semantic_shift",
+      "note": "“适合”进一步语义转变为“正确”"
+    },
+    {
+      "source_index": 1,
+      "target_index": 6,
+      "evolution_type": "synecdoche",
+      "note": "由“双方对立”转为表示“成双”"
+    },
+    {
+      "source_index": 1,
+      "target_index": 7,
+      "evolution_type": "semantic_extension",
+      "note": "“对着”具体化为“双方对峙/对立”"
+    },
+    {
+      "source_index": 6,
+      "target_index": 10,
+      "evolution_type": "grammaticalization",
+      "note": "由“成双”名词转为量词用法"
+    },
+    {
+      "source_index": 6,
+      "target_index": 8,
+      "evolution_type": "metonymy",
+      "note": "成双的东西可对开为两半"
+    },
+    {
+      "source_index": 1,
+      "target_index": 9,
+      "evolution_type": "metaphor",
+      "note": "“合对”引申为搀和（如对水）"
+    }
+  ]
+}

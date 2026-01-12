@@ -1,0 +1,69 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "揣度，猜测。",
+      "examples": [
+        "拟其情而断之。"
+      ],
+      "traditional_char": "擬"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "打算，准备。",
+      "examples": [
+        "拟去信联系。"
+      ],
+      "traditional_char": "擬"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "初步设计、编制或起草。",
+      "examples": [
+        "拟定方案。",
+        "草拟合同。"
+      ],
+      "traditional_char": "擬"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "仿照，模仿。",
+      "examples": [
+        "拟古之作。",
+        "拟人。"
+      ],
+      "traditional_char": "擬"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从手，以声；手表示与动作相关，本义为揣度、猜测。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“揣度、猜测”扩展为“打算、准备”，有推测后酝酿意。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由推测引申为“初步起草、设计”，含有主观构想之意。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "从“起草、设计”再扩展为“仿照”，表现为对现有对象的模仿创作。"
+    }
+  ]
+}

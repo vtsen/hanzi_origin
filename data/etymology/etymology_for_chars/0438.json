@@ -1,0 +1,118 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "回旋，旋转，环绕折转",
+      "examples": [
+        "水在渊中回旋。",
+        "曲径回廊。"
+      ],
+      "traditional_char": "回"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "掉转方向，返还原路，返回",
+      "examples": [
+        "回家。",
+        "回首。",
+        "回顾往事。"
+      ],
+      "traditional_char": "回"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "答复，回复",
+      "examples": [
+        "回信。",
+        "回话。"
+      ],
+      "traditional_char": "回"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "measure_word",
+      "meaning": "次数的量词",
+      "examples": [
+        "两回事。",
+        "这回可好了。"
+      ],
+      "traditional_char": "回"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "小说或戏曲中的段落、章节",
+      "examples": [
+        "且听下回分解。"
+      ],
+      "traditional_char": "回"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "中国少数民族名，回族",
+      "examples": [
+        "回族。",
+        "回教。"
+      ],
+      "traditional_char": "回"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "回某。"
+      ],
+      "traditional_char": "回"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "pictograph",
+      "original_sense_index": 0,
+      "note": "甲骨文象水在池中回旋，外方内圈；本为象形字，今作回。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从原指回旋扩展为转向、返回。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "“返回”引申比喻为“回复、答复”。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "以“回”为返还动作之单位，转为次数量词。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "reanalysis",
+      "note": "以“回”为小说、戏曲段落，用于结构划分。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "unknown",
+      "note": "具体与民族名称的联系存争议，多数认为属音译或借用。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 6,
+      "evolution_type": "unknown",
+      "note": "姓氏用法源流不明，或由民族名、地名等衍生。"
+    }
+  ]
+}

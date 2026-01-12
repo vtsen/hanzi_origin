@@ -1,0 +1,85 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "丑，形貌不正。",
+      "examples": [
+        "亚，丑也。——《说文》"
+      ],
+      "traditional_char": "亞"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "较差，略逊一筹。",
+      "examples": [
+        "他的体力不亚于你。"
+      ],
+      "traditional_char": "亞"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "次一等，第二位。",
+      "examples": [
+        "亚军",
+        "亚圣"
+      ],
+      "traditional_char": "亞"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "（化学）原子价较低的，化合物中少含一个氢原子或氧原子的。",
+      "examples": [
+        "硫酸亚铁",
+        "亚硝酸"
+      ],
+      "traditional_char": "亞"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "指“亚洲”，世界七大洲之一。",
+      "examples": [
+        "东亚",
+        "亚细亚洲"
+      ],
+      "traditional_char": "亞"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "pictograph",
+      "original_sense_index": 0,
+      "note": "小篆像人驼背形，为会意象形字，反映外貌丑陋。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘丑’引申为‘较差’之意，出现于中古汉语。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由‘较差’引申出‘次一等’、‘第二位’的用法。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "在化学领域喻用‘次一等’表示价态较低。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "用‘亚’指‘亚洲’，因‘亚洲’为世界大洲之一，且从‘次一等’引申地域专名。"
+    }
+  ]
+}

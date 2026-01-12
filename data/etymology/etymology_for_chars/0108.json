@@ -1,0 +1,73 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "用陶土烧制的器物的总称",
+      "examples": [
+        "陶瓦",
+        "青瓦",
+        "瓦器"
+      ],
+      "traditional_char": "瓦"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "用陶土烧制的覆盖房顶的建筑材料",
+      "examples": [
+        "屋顶盖瓦",
+        "瓦当",
+        "瓦匠"
+      ],
+      "traditional_char": "瓦"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "电功率单位，等于一焦耳每秒，简称“瓦”",
+      "examples": [
+        "一百瓦灯泡",
+        "输出功率为五千瓦"
+      ],
+      "traditional_char": "瓦"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "覆盖瓦片",
+      "examples": [
+        "等师傅来瓦瓦",
+        "这间房就等瓦瓦了"
+      ],
+      "traditional_char": "瓦"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "pictograph",
+      "original_sense_index": 0,
+      "note": "象形字，形象表现屋顶排列的瓦片或已烧土器；下部类似器皿造型。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_narrowing",
+      "note": "“瓦”由泛指陶土烧制的器物，语义逐步专指为覆盖房顶的瓦片。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "conversion",
+      "note": "名词作动词用，表示“覆盖瓦片”，属于用法转化。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "音译引申，借瓦片之名音用于功率单位“watt”的表记。"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "忧愁，发愁，担心。",
+      "examples": [
+        "忧愤",
+        "忧惧",
+        "杞人忧天"
+      ],
+      "traditional_char": "憂"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "忧虑的事，忧患。",
+      "examples": [
+        "内忧外患",
+        "乐以忘忧",
+        "高枕无忧"
+      ],
+      "traditional_char": "憂"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "父母之丧。",
+      "examples": [
+        "丁忧"
+      ],
+      "traditional_char": "憂"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘憂’为形声字，从心，尤声，表示内心忧愁之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由表示心情的动词扩展为表示忧虑之事的名词。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由忧愁之情引申为父母丧事，特指丧亲之忧。"
+    }
+  ]
+}

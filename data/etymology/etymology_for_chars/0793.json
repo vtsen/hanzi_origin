@@ -1,0 +1,88 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "服兵役，戍守边疆或从军。",
+      "examples": [
+        "从役",
+        "现役"
+      ],
+      "traditional_char": "役"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "战争，战事。",
+      "examples": [
+        "战役"
+      ],
+      "traditional_char": "役"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "服劳力之事，劳役。",
+      "examples": [
+        "劳役",
+        "徭役"
+      ],
+      "traditional_char": "役"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "驱使，役使。",
+      "examples": [
+        "役使",
+        "奴役"
+      ],
+      "traditional_char": "役"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "被役使的人，仆役。",
+      "examples": [
+        "役夫",
+        "役徒",
+        "仆役",
+        "杂役"
+      ],
+      "traditional_char": "役"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意字：上为人，下为殳，表示持兵器戍守或征役人。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由服兵役引申为具体战争或战事，见于先秦至汉。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "从兵役推广到一般劳役，春秋战国以后见用。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "从服兵役引申为‘使唤、驱使’，义流动见于后世。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "conversion",
+      "note": "由动词‘役使’转为被使唤之人（役夫、役徒等），见于中古汉语。"
+    }
+  ]
+}

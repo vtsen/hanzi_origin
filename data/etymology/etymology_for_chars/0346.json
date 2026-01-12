@@ -1,0 +1,57 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "年纪小，初出生的",
+      "examples": [
+        "幼儿",
+        "幼虫",
+        "幼苗",
+        "幼年"
+      ],
+      "traditional_char": "幼"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "小孩儿",
+      "examples": [
+        "幼教",
+        "幼师",
+        "扶老携幼"
+      ],
+      "traditional_char": "幼"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "对儿童加以爱护",
+      "examples": [
+        "幼吾幼，以及人之幼"
+      ],
+      "traditional_char": "幼"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘幼’为形声字，从幺，右声，本义为年幼、年少。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "conversion",
+      "note": "由形容词“年纪小”转为名词“小孩儿”用法，早见于先秦。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由年幼的性质引申出对年幼者给予关爱的行为，周代已有。"
+    }
+  ]
+}

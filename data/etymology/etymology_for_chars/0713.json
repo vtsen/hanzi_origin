@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "相似，像",
+      "examples": [
+        "惟妙惟肖",
+        "神情酷肖",
+        "肖像"
+      ],
+      "traditional_char": "肖"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "衰微",
+      "examples": [
+        "气数已肖",
+        "日肖西山"
+      ],
+      "traditional_char": "肖"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "元代有肖乃台",
+        "肖先生"
+      ],
+      "traditional_char": "肖"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从肉，小声。本义为相似，相像。'肉'表意，指形体，'小'表音。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_shift",
+      "note": "古籍中由‘相像’引申为‘渐进减少’，语义演变较早，机制未详。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "conversion",
+      "note": "由形容词‘相似’转为姓氏用法，汉姓常取字义为美。"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "在法庭上争辨是非曲直，打官司",
+      "examples": [
+        "诉讼",
+        "讼事",
+        "讼案"
+      ],
+      "traditional_char": "訟"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "争辨是非",
+      "examples": [
+        "争讼",
+        "聚讼纷纭"
+      ],
+      "traditional_char": "訟"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "自责",
+      "examples": [
+        "自讼"
+      ],
+      "traditional_char": "訟"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "颂扬，与“颂”同义",
+      "examples": [
+        "讼美",
+        "讼德（即颂德）"
+      ],
+      "traditional_char": "訟"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "形声字，从言，公声。本义为争辩是非。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_narrowing",
+      "note": "语义从一般争辩引申为官方司法争辩，用于法庭。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由对外争辩引申为对自己内心的争辩与自责。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "unknown",
+      "note": "古书中‘讼’通‘颂’，具体语义关联机制不明。"
+    }
+  ]
+}

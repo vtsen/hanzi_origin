@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "用棉麻、化纤等纺成的细缕，可用来捻线或织布",
+      "examples": [
+        "棉纱",
+        "纺纱"
+      ],
+      "traditional_char": "紗"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "稀疏或有小孔的纺织品",
+      "examples": [
+        "羽纱",
+        "窗纱",
+        "纱帽"
+      ],
+      "traditional_char": "紗"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "像纱一样的（用于类比某些物品质地）",
+      "examples": [
+        "铁纱",
+        "塑料纱"
+      ],
+      "traditional_char": "紗"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意字，从糸（丝），从少，表示轻细的丝绢。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由细缕的本义扩展为用其织成的纺织品，汉代已有此用法。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "将纱布的性质比喻应用于其他材质。"
+    }
+  ]
+}

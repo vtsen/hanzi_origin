@@ -1,0 +1,41 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "昆虫的通称",
+      "examples": [
+        "昆虫",
+        "益虫",
+        "雕虫小技"
+      ],
+      "traditional_char": "蟲"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "动物的通称，包括蛇、虎等",
+      "examples": [
+        "大虫（老虎）",
+        "长虫（蛇）",
+        "介虫"
+      ],
+      "traditional_char": "蟲"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "pictograph",
+      "original_sense_index": 0,
+      "note": "甲骨文作蛇形，原为象形字，表示虫类或蛇，后引为昆虫等小动物的通称。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由昆虫类扩展为动物的通称，包括有壳和更大体型的动物，见先秦文献。"
+    }
+  ]
+}

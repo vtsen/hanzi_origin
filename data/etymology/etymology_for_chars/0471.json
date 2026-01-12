@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "文质兼备",
+      "examples": [
+        "其人温文尔雅，举止有彬（份）"
+      ],
+      "traditional_char": "份"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "整体里的一部分",
+      "examples": [
+        "股份",
+        "份额",
+        "一份饭"
+      ],
+      "traditional_char": "份"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "measure_word",
+      "meaning": "用于计数成组、成件的事物",
+      "examples": [
+        "一份报纸",
+        "三份文件"
+      ],
+      "traditional_char": "份"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "measure_word",
+      "meaning": "用在行政区、时间单位等词后表示划分的单位",
+      "examples": [
+        "省份",
+        "月份"
+      ],
+      "traditional_char": "份"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从人，分声，原以“彬”为声读bīn，后借作其他义及音。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_shift",
+      "note": "由‘文质兼备’转义为‘整体中的部分’，义项发生转移，具体机制不详。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "grammaticalization",
+      "note": "由‘部分’名词义发展为用于计数的量词。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "grammaticalization",
+      "note": "同样由‘部分’名词义发展为用于行政区划、时间分划的量词。"
+    }
+  ]
+}

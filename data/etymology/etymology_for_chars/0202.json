@@ -1,0 +1,76 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "功劳、功绩、功业，与“过”相对，指劳动或努力取得的成绩",
+      "examples": [
+        "功勋",
+        "论功行赏",
+        "徒劳无功",
+        "功德无量",
+        "功成不居"
+      ],
+      "traditional_char": "功"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "成就、成效",
+      "examples": [
+        "成功",
+        "事业半功倍",
+        "成功亏一篑"
+      ],
+      "traditional_char": "功"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "（物理学）用力使物体移动的工作量，即力与距离的乘积",
+      "examples": [
+        "功率"
+      ],
+      "traditional_char": "功"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "本领，技艺，能力",
+      "examples": [
+        "功夫",
+        "功底",
+        "功力",
+        "功到自然成"
+      ],
+      "traditional_char": "功"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "从力，工声兼义表，用力做工，引申为功劳、功绩。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从功绩、功劳泛化至成就、成效，隋唐已见。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "reanalysis",
+      "note": "引申为物理学术语，近现代借用。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "由成效转指为实现成效所需的本领和技艺。"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "修饰、打扮身体或面容",
+      "examples": [
+        "化妆",
+        "妆点"
+      ],
+      "traditional_char": "妝"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "供打扮用的物品，演员的衣装服饰",
+      "examples": [
+        "上妆",
+        "卸妆"
+      ],
+      "traditional_char": "妝"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "女子出嫁时陪送的衣物",
+      "examples": [
+        "嫁妆"
+      ],
+      "traditional_char": "妝"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "修饰、打扮的式样",
+      "examples": [
+        "时妆",
+        "古妆"
+      ],
+      "traditional_char": "妝"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从女，爿声，本义为梳妆打扮。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由动作转指所用之物，汉代见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由打扮动作转指出嫁随身衣物，后期发展。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "从动作义引申为式样、风格，出现于后世。"
+    }
+  ]
+}

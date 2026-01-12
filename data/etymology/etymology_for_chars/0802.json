@@ -1,0 +1,70 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "山脉分歧的地方，亦指道路、河流分歧的地方",
+      "examples": [
+        "岔道",
+        "岔子",
+        "大沟小岔"
+      ],
+      "traditional_char": "岔"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "转移话题，未按原来的方向行进而偏到一边",
+      "examples": [
+        "打岔",
+        "走岔了"
+      ],
+      "traditional_char": "岔"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "互相让开或调换",
+      "examples": [
+        "把这两个会的时间岔开"
+      ],
+      "traditional_char": "岔"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "嗓音失常（方言用法）",
+      "examples": [
+        "岔调"
+      ],
+      "traditional_char": "岔"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意字，从“山”从“分”，“分”表示分歧，本义为山脉分岐的地方。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "山路分歧比喻话题或行进路线偏离，义项扩展到抽象事务。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由空间分歧引申为让开、调换的动作。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "从分歧、偏离之意喻声音出现偏差，属方言用法。"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "用两手分别抓住物体的两端，向相反方向用力旋转。",
+      "examples": [
+        "拧毛巾",
+        "把瓶盖拧开"
+      ],
+      "traditional_char": "擰"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "用两个手指扭住皮肉使劲转动。",
+      "examples": [
+        "妈妈拧了他一下",
+        "拧耳朵"
+      ],
+      "traditional_char": "擰"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "扭转，用力旋转物体的一部分。",
+      "examples": [
+        "拧螺丝钉",
+        "把灯泡拧下来了"
+      ],
+      "traditional_char": "擰"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "不顺，相反，别扭。",
+      "examples": [
+        "说话拧",
+        "别让他俩闹拧了"
+      ],
+      "traditional_char": "擰"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "倔强，不驯服，固执。",
+      "examples": [
+        "拧脾气",
+        "他这人挺拧的"
+      ],
+      "traditional_char": "擰"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "形声字，从手，宁声，表示用手指扭转皮肉之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "由指尖扭转扩展为两手扭转物体。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "从用手指扭转皮肉引申为扭物体（如螺丝钉等）。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "从物理扭曲引申为性格、状态上的“别扭”。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "“别扭”进一步引申为性格“倔强、不驯服”。"
+    }
+  ]
+}

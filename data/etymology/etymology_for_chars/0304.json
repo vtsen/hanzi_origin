@@ -1,0 +1,72 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "黑色，指黑中带红的一种颜色",
+      "examples": [
+        "玄青",
+        "玄武"
+      ],
+      "traditional_char": "玄"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "深奥、不容易理解",
+      "examples": [
+        "玄妙",
+        "玄理",
+        "玄奥"
+      ],
+      "traditional_char": "玄"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "深奥的道理，尤指魏晋玄学所说的“玄理”",
+      "examples": [
+        "求玄理",
+        "玄学"
+      ],
+      "traditional_char": "玄"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "虚伪、不真实、不可靠",
+      "examples": [
+        "玄想",
+        "玄虚"
+      ],
+      "traditional_char": "玄"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "pictograph",
+      "original_sense_index": 0,
+      "note": "象形，下端为丝线，上端为系带，原意为染丝用的丝结，表示黑中带红的颜色。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "古人以黑色、深色为幽深不明，引申为深奥难懂。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "从“深奥”引申出作为名词，指“深奥的道理”。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "“深奥不明”进一步引申为“虚无不实”之意。"
+    }
+  ]
+}

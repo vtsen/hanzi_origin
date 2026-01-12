@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "勉力，努力；劝勉他人振作精神",
+      "examples": [
+        "勉励自己",
+        "奖励有功之人",
+        "父母常以言语勉励子女"
+      ],
+      "traditional_char": "勵"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "励志成才，姓励者所用"
+      ],
+      "traditional_char": "勵"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "磨炼，振奋（古同“厉”、“砺”）",
+      "examples": [
+        "砥砺前行",
+        "不断磨练自己的意志"
+      ],
+      "traditional_char": "勵"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从力，厉声，表达‘勉力’之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "本作勉力，后引申为‘磨炼、振奋’，语义扩大，见于古文用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "conversion",
+      "note": "动词义转为姓氏用，常见于汉字姓氏。"
+    }
+  ]
+}

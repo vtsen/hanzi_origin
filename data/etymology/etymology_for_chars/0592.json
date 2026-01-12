@@ -1,0 +1,68 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "（动物等）顺从，服从",
+      "examples": [
+        "桀骛不驯",
+        "驯马"
+      ],
+      "traditional_char": "馴"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "使顺从，使驯服，训练动物",
+      "examples": [
+        "驯化",
+        "驯兽"
+      ],
+      "traditional_char": "馴"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "善良温顺",
+      "examples": [
+        "驯良",
+        "驯和"
+      ],
+      "traditional_char": "馴"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "教诲，训导（古同“训”）",
+      "examples": [],
+      "traditional_char": "馴"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从马，川声；本义指马顺从、驯服。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "conversion",
+      "note": "由形容词“顺从”引申出动词“使顺从”，词性转换，汉代已见此用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由对动物性格的“顺从”扩展到指人性格的“温顺”，意涵扩大。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "后借作“训”（教诲）用，出现于古籍，属于音近假借。"
+    }
+  ]
+}

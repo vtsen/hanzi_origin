@@ -1,0 +1,43 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "用砖石砌成的生火做饭的设备",
+      "examples": [
+        "锅灶",
+        "炉灶"
+      ],
+      "traditional_char": "竈"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "指“灶君”，中国民间在锅灶附近供奉的灶神",
+      "examples": [
+        "祭灶"
+      ],
+      "traditional_char": "灶"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘竈’为形声字，从穴表意（屋内），鼀为声，表示烧饭的设备。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘灶’为‘竈’的简化字，从火从土，表现炉具，声从‘皂’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "因屋内设灶，后专指灶神，见于民间信仰。"
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "拉住，牵住，用力抓住或拢住。",
+      "examples": [
+        "把门扣上",
+        "他用手扣住绳子"
+      ],
+      "traditional_char": "扣"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "衣纽。",
+      "examples": [
+        "风大要把扣扣好",
+        "一粒纽扣"
+      ],
+      "traditional_char": "扣"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "绳结。",
+      "examples": [
+        "打个扣儿",
+        "绳子要系个扣"
+      ],
+      "traditional_char": "扣"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "把器物口朝下放或覆盖东西。",
+      "examples": [
+        "把碗扣在桌上",
+        "用盆扣住菜"
+      ],
+      "traditional_char": "扣"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "相符，符合。",
+      "examples": [
+        "扣题",
+        "这个标准不太扣"
+      ],
+      "traditional_char": "扣"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "强留，扣押。",
+      "examples": [
+        "被扣留在港口",
+        "扣押财产"
+      ],
+      "traditional_char": "扣"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "从中减除。",
+      "examples": [
+        "扣除税款",
+        "工资已经扣发"
+      ],
+      "traditional_char": "扣"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "verb",
+      "meaning": "敲击。",
+      "examples": [
+        "扣门",
+        "扣人心弦"
+      ],
+      "traditional_char": "扣"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从手，口声，表示用手拉住或牵住。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由拉住、牵住引申为衣物上用来扣紧的物件。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由拉住、牵住引申为绳结的意思。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "动作由拉住发展为器物扣放、覆盖。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "由拉住、捆住引申为强留、扣押。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "metaphor",
+      "note": "从拉住引申为在数量上减除。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 7,
+      "evolution_type": "semantic_shift",
+      "note": "由拉牵动作转为敲击动作，两者均为动作类。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "由连接引申为意义或标准相符。"
+    }
+  ]
+}

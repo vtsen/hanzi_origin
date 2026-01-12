@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "祭祀神明或祖先",
+      "examples": [
+        "祭祀祖先",
+        "祀天"
+      ],
+      "traditional_char": "祀"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "古代殷商时期指“年”",
+      "examples": [
+        "十有三祀",
+        "再祀"
+      ],
+      "traditional_char": "祀"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字：从“示”表与祭祀有关, “巳”声；本义为祭祀神明。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "殷商时期以祭祀为纪年单位，由祭祀活动引申为“年”。"
+    }
+  ]
+}

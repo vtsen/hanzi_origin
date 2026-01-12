@@ -1,0 +1,87 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "使东西从口里出来。",
+      "examples": [
+        "吐痰",
+        "吞吐",
+        "吐刚茹柔"
+      ],
+      "traditional_char": "吐"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "放出，露出（如植物、物体等的部分由内部伸展出来）。",
+      "examples": [
+        "高粱吐穗",
+        "吐故纳新"
+      ],
+      "traditional_char": "吐"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "说出（话语等）。",
+      "examples": [
+        "吐话",
+        "一吐为快"
+      ],
+      "traditional_char": "吐"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "内脏里的东西从口里涌出（如呕吐、呕出胃中物）。",
+      "examples": [
+        "呕吐",
+        "上吐下泻"
+      ],
+      "traditional_char": "吐"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "把吞没的东西退出来。",
+      "examples": [
+        "吐还不义之财"
+      ],
+      "traditional_char": "吐"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从口，土声，表示东西从口腔涌出。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从口中出来扩展到一般意义的放出、露出。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "将口中出物比喻为说出话语。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_narrowing",
+      "note": "本义狭化用于呕吐、医学语境。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "把退还物比喻为口中吐出。"
+    }
+  ]
+}

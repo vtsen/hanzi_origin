@@ -1,0 +1,96 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古代乐官名，亦泛指乐师，传说为伶伦所创。",
+      "examples": [
+        "仕于伶官。——《诗·简兮序》",
+        "令伶箫咏歌。——《国语·鲁语》",
+        "伶伦，古乐师，世掌乐官，故号乐官为伶官。"
+      ],
+      "traditional_char": "伶"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "旧时戏曲、表演歌舞的艺人，演员。",
+      "examples": [
+        "教坊优伶。——《北梦琐言》",
+        "及其衰也，数十伶人困之。——《伶官传序》"
+      ],
+      "traditional_char": "伶"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "被役使的人，仆役。",
+      "examples": [
+        "府伶呼唤争先到。——白居易《府斋感怀酬梦得》"
+      ],
+      "traditional_char": "伶"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "机灵，聪明，灵巧。",
+      "examples": [
+        "伶透人（绝对聪明的人）",
+        "伶俏（苗条，美好）"
+      ],
+      "traditional_char": "伶"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "孤独，孤单。",
+      "examples": [
+        "伶俜萦苦辛。——《玉台新咏·古诗为焦仲卿妻作》",
+        "伶丁（孤独的样子）"
+      ],
+      "traditional_char": "伶"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [
+        "汉代有伶徵。"
+      ],
+      "traditional_char": "伶"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从人，令声。本义为乐官，表示与‘人’相关的职业，‘令’作声符。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由古代乐官推广至一般表演歌舞的艺人。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由掌乐之人引申泛指被役使之人。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "因表演艺人多机巧聪明，转用于形容聪明灵巧。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "仆役、下人多孤苦，亦形容孤独的样子。"
+    }
+  ]
+}

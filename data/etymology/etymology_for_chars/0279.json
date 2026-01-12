@@ -1,0 +1,99 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "蔓生植物，属于葫芦科，果实可以食用",
+      "examples": [
+        "西瓜",
+        "冬瓜"
+      ],
+      "traditional_char": "瓜"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "瓜类植物的果实",
+      "examples": [
+        "瓜子儿",
+        "吃瓜"
+      ],
+      "traditional_char": "瓜"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "像切瓜一样分割",
+      "examples": [
+        "瓜分天下"
+      ],
+      "traditional_char": "瓜"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "瓜葛，比喻牵连、关系",
+      "examples": [
+        "此事与你无瓜葛"
+      ],
+      "traditional_char": "瓜"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "瓜代，比喻交替或轮换",
+      "examples": [
+        "如瓜代一般"
+      ],
+      "traditional_char": "瓜"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "瓜李，比喻嫌疑的境地",
+      "examples": [
+        "瓜田不纳履，李下不整冠"
+      ],
+      "traditional_char": "瓜"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "pictograph",
+      "original_sense_index": 0,
+      "note": "小篆字形象藤蔓上结瓜的形状，中间为果实，两侧为瓜蔓。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "synecdoche",
+      "note": "由植物整体指其果实，属于部分代整体的转义。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由切瓜得食引申为将整体分割的意思。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由瓜蔓相连比喻人的牵连或关系。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "由瓜蔓生长接替引申为轮换、交替。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "metonymy",
+      "note": "由瓜果田引申为嫌疑场合，出自‘瓜田不纳履’。"
+    }
+  ]
+}

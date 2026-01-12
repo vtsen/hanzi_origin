@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "达到，到达（用于时间、空间的终点）",
+      "examples": [
+        "起迄",
+        "迄今"
+      ],
+      "traditional_char": "迄"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adverb",
+      "meaning": "始终，一直（常与“未”、“无”连用，表示到现在还没有）",
+      "examples": [
+        "迄未成功",
+        "迄无音信"
+      ],
+      "traditional_char": "迄"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从辵，乞声，本义为“到达、至”"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由表示到达、至的本义，引申为一直到某一点，进而带有始终的含义，多与否定词搭配"
+    }
+  ]
+}

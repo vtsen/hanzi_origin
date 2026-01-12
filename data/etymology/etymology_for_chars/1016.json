@@ -1,0 +1,102 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "多年生草本植物，俗称白茅、茅草，可用作屋顶或药用。",
+      "examples": [
+        "卷我屋上三重茅。",
+        "晝爾于茅。",
+        "藉用白茅。",
+        "白華菅兮，白茅束兮。"
+      ],
+      "traditional_char": "茅"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "茅屋，用茅草盖的简陋居住处。",
+      "examples": [
+        "茅舍",
+        "茅庐",
+        "茅店",
+        "茅茨",
+        "挽之歸我廬， 晴雨注屋茆。"
+      ],
+      "traditional_char": "茅"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "古代天子分封时包土用的白茅，引申为封地、爵位。",
+      "examples": [
+        "尔贡包茅不入。",
+        "茅土",
+        "茅社"
+      ],
+      "traditional_char": "茅"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "通“旄”，以旄牛尾装饰的古代旗帜。",
+      "examples": [
+        "左執茅旌，右執鸞刀，以逆莊王。",
+        "前茅慮無。",
+        "御柩以茅。"
+      ],
+      "traditional_char": "茅"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "古国名，地在今山东金乡县西南。",
+      "examples": [
+        "凡、蔣、邢、茅、胙、祭，周公之胤也。"
+      ],
+      "traditional_char": "茅"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [
+        "秦有茅焦。"
+      ],
+      "traditional_char": "茅"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从艸，矛声，表示一种草本植物（白茅/茅草）。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "以茅草盖屋引申为屋舍，古今皆有例证。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "分封时用白茅裹土，引申为爵位和封地。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "“茅”假借为“旄”（旗帜），本义无关，仅因音近而通用古用。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 5,
+      "evolution_type": "synecdoche",
+      "note": "以国名为氏，古代封国后世以地为姓氏，常见用法。"
+    }
+  ]
+}

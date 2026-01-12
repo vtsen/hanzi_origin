@@ -1,0 +1,86 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "物体燃烧后剩下的东西，火灰。",
+      "examples": [
+        "火灭之后，只剩下一堆灰。",
+        "灰烬冷却。"
+      ],
+      "traditional_char": "灰"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "尘土。",
+      "examples": [
+        "飞沙走石，尘灰弥漫。"
+      ],
+      "traditional_char": "灰"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "特指石灰。",
+      "examples": [
+        "用灰墙粉刷。",
+        "买一袋石灰。"
+      ],
+      "traditional_char": "灰"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "黑白之间的颜色，灰色。",
+      "examples": [
+        "灰色的衣服。",
+        "天空灰蒙蒙的。"
+      ],
+      "traditional_char": "灰"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "指志气消沉、情绪与神色萎靡。",
+      "examples": [
+        "心灰意懒。",
+        "他最近很灰。"
+      ],
+      "traditional_char": "灰"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意字，从手从火，表示火熄后可以用手拿，即火灰。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "灰尘本为燃烧残余细末，后引申为尘土。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_narrowing",
+      "note": "‘灰’中特指石灰一类的用法，语义收窄。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由火灰颜色，比喻为黑白之间的颜色。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "灰色引申为情绪上的‘灰’，即心情消沉。"
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "放开，释放",
+      "examples": [
+        "纵虎归山",
+        "纵火"
+      ],
+      "traditional_char": "縱"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "放任，不加约束",
+      "examples": [
+        "放纵",
+        "纵情"
+      ],
+      "traditional_char": "縱"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "身体猛然向前或向上",
+      "examples": [
+        "纵身一跃"
+      ],
+      "traditional_char": "縱"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "conjunction",
+      "meaning": "即使，纵然",
+      "examples": [
+        "纵然",
+        "纵使"
+      ],
+      "traditional_char": "縱"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "竖直，南北方向，与“横”相对",
+      "examples": [
+        "纵横交错",
+        "纵贯南北"
+      ],
+      "traditional_char": "縱"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "起皱纹",
+      "examples": [
+        "纵花",
+        "这张纸都纵了"
+      ],
+      "traditional_char": "縱"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "连队编制上的“纵队”",
+      "examples": [
+        "前方纵队已出发"
+      ],
+      "traditional_char": "縱"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "adjective",
+      "meaning": "急遽的样子",
+      "examples": [
+        "丧事欲其纵纵尔"
+      ],
+      "traditional_char": "縱"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从糸，表示与丝线有关，声符从，表读音。本义为松缓，即放松束缚。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“放开”扩展为“放任，不加约束”，语义泛化"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "从“放开”引申为身体猛然向前或向上，动作意义上的解放"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "grammaticalization",
+      "note": "由“放开”引申为连词“即使”，经过语法化过程"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "从“放开”引申为‘竖直、纵向’，比喻丝线放直为纵向"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "metaphor",
+      "note": "由抽成皱纹的动作与‘松缓’相关联"
+    },
+    {
+      "source_index": 4,
+      "target_index": 6,
+      "evolution_type": "semantic_extension",
+      "note": "由‘竖直’引申为部队的纵队，沿用纵向排列"
+    },
+    {
+      "source_index": 0,
+      "target_index": 7,
+      "evolution_type": "semantic_shift",
+      "note": "古音旁读引申为‘急遽的样子’，具体语源机制不详"
+    }
+  ]
+}

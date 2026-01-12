@@ -1,0 +1,103 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "苦菜，一种味道苦的野菜。",
+      "examples": [
+        "采苦以食",
+        "《诗经·小雅·鹿鸣》：我有嘉宾，鼓瑟吹笙，吹笙鼓瑟，和乐且湛，采苦以食。"
+      ],
+      "traditional_char": "苦"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "像胆汁或黄连的滋味，味道苦涩，与“甘”相对。",
+      "examples": [
+        "苦瓜",
+        "甘苦与共"
+      ],
+      "traditional_char": "苦"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "感到难受、痛苦，多指精神或处境上的痛苦。",
+      "examples": [
+        "苦闷",
+        "含辛茹苦",
+        "苦海无边"
+      ],
+      "traditional_char": "苦"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "因为某事而感到痛苦或困扰。",
+      "examples": [
+        "苦于奔波",
+        "苦雨连绵"
+      ],
+      "traditional_char": "苦"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adverb",
+      "meaning": "尽力地、用心地（多含辛苦意）。",
+      "examples": [
+        "苦口婆心",
+        "苦劝"
+      ],
+      "traditional_char": "苦"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "使受苦。",
+      "examples": [
+        "那件事可苦了你啦！"
+      ],
+      "traditional_char": "苦"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘苦’为形声字，从艸（与植物有关），古声表音，最初指苦菜。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "以苦菜的味道引申为苦味，发生在先秦时期。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由味觉苦扩展到心理和处境的苦，汉代已见。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "conversion",
+      "note": "由形容词转为动词，表示遭受痛苦或困扰。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 4,
+      "evolution_type": "grammaticalization",
+      "note": "表‘尽力地’之副词用法，由痛苦引出刻苦用法，多见于书面语。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 5,
+      "evolution_type": "conversion",
+      "note": "由‘感到痛苦’转为‘使受苦’的使动用法，现代口语用法。"
+    }
+  ]
+}

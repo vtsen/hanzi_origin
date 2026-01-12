@@ -1,0 +1,57 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "较长的棍状物，如旗杆、桅杆、电线杆等",
+      "examples": [
+        "旗杆",
+        "电线杆",
+        "桅杆"
+      ],
+      "traditional_char": "桿"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "器物上像棍子的细长部分，如秤杆、笔杆儿、杆菌等",
+      "examples": [
+        "秤杆",
+        "笔杆儿",
+        "杆菌"
+      ],
+      "traditional_char": "桿"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "measure_word",
+      "meaning": "量词，用于有杆的器物，如一杆笔、一杆步枪等",
+      "examples": [
+        "一杆笔",
+        "一杆步枪"
+      ],
+      "traditional_char": "桿"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从木，干声，本义指较长的棍；与‘桿’为同源字，后简化为‘杆’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由较长的棍泛指到器物上类似棍状的部分。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "grammaticalization",
+      "note": "名词用作量词，常见于有杆部件的器物。"
+    }
+  ]
+}

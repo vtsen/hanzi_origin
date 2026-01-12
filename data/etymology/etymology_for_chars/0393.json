@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "人头",
+      "examples": [
+        "折首断页",
+        "首与页，古义通用"
+      ],
+      "traditional_char": "頁"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "篇、张，指书、画、纸等的页码、页面",
+      "examples": [
+        "页码",
+        "活页文选"
+      ],
+      "traditional_char": "頁"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "measure_word",
+      "meaning": "量词，纸张（多指单张或双面的印刷品的一面）",
+      "examples": [
+        "一页纸",
+        "这本书共100页"
+      ],
+      "traditional_char": "頁"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "pictograph",
+      "original_sense_index": 0,
+      "note": "象形字，上为‘首’，下为‘人’，表示人头；小篆字形清晰。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由人头引申，借指书画等纸张的单面如‘一头’，书页形象或条目之意。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "grammaticalization",
+      "note": "表示量词，用于纸张单面或双面，现代书籍用法，语法化。"
+    }
+  ]
+}

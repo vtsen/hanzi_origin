@@ -1,0 +1,141 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "汁液、液体",
+      "examples": [
+        "布绞取沈，以和花汁。",
+        "为榆沈。——《礼记·檀弓》",
+        "无备而官办者，犹拾瀋也。"
+      ],
+      "traditional_char": "瀋"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "古国名，西周分封的诸侯国名",
+      "examples": [
+        "伐沈。——《左传·文公三年》"
+      ],
+      "traditional_char": "沈"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "水名，沈水，今沈阳小沈河，辽沈一带",
+      "examples": [
+        "辅威将军臧宫，与公孙述将延岑战于沈水。"
+      ],
+      "traditional_char": "沈"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "沈先生是我的老师。"
+      ],
+      "traditional_char": "沈"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "地名、简称，辽宁省沈阳市的简称",
+      "examples": [
+        "辽沈战役",
+        "沈阳"
+      ],
+      "traditional_char": "沈"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "沉没、下落",
+      "examples": [
+        "豈謂明珠沈於漢水，美玉喪於荊山。",
+        "載沈載浮。——《詩·小雅》",
+        "散木也，以為舟則沈。——《莊子》",
+        "宦海茫茫，窮官自縊；烽煙渺渺，兵艦先沈。"
+      ],
+      "traditional_char": "沈"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "沉溺、沉迷",
+      "examples": [
+        "外之敺騁田獵畢弋，內沈於酒樂，而不顧其國家百姓之政。——《墨子·非命中》",
+        "常民溺於習俗，學者沈於所聞。"
+      ],
+      "traditional_char": "沈"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "adjective",
+      "meaning": "深、分量重、程度深",
+      "examples": [
+        "夫翬翟備色，而翾翥百步，肌豐而力沉也。",
+        "莫飲宜城酒，愁多醉易沈。",
+        "一曲更沈人已靜。"
+      ],
+      "traditional_char": "沈"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“瀋”由“水”表意、“審”表音，本义为汁液（如楡沈），见《说文》。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "“沈”为形声字，“水”旁表意、水相关，“冘”表音，原指地名、国名。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "以“瀋/沈”为汁液引申为地名，如“沈阳”简称。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "synecdoche",
+      "note": "古国名用作姓氏，国为氏族来源。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "以河名指称地名，例：沈水—沈阳"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "地名延用于相关水域。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "地名用作现代地级市简称。"
+    },
+    {
+      "source_index": 5,
+      "target_index": 6,
+      "evolution_type": "metaphor",
+      "note": "由物理下沉喻指沉溺于事物。"
+    },
+    {
+      "source_index": 5,
+      "target_index": 7,
+      "evolution_type": "semantic_extension",
+      "note": "由沉没义引申表示深重、分量重等抽象意义。"
+    }
+  ]
+}

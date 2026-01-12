@@ -1,0 +1,40 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "喉咙，嗓子",
+      "examples": [
+        "引吭高歌",
+        "一时竟无吭可出"
+      ],
+      "traditional_char": "吭"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "出声，发言",
+      "examples": [
+        "吭声",
+        "吭气",
+        "一直一声不吭"
+      ],
+      "traditional_char": "吭"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，“口”表音器官义，旁从“亢”作声旁，原指喉咙。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由指发声之部位（喉咙）引申为出声、发言，用法见近现代汉语。"
+    }
+  ]
+}

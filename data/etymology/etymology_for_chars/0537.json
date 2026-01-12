@@ -1,0 +1,90 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "停积不流的浑浊水",
+      "examples": [
+        "粪污",
+        "血污"
+      ],
+      "traditional_char": "污"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "肮脏，不干净的",
+      "examples": [
+        "污水",
+        "污泥",
+        "污浊"
+      ],
+      "traditional_char": "污"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "肮脏的东西，污渍或污垢",
+      "examples": [
+        "污渍",
+        "污垢"
+      ],
+      "traditional_char": "污"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "不廉洁，贪污",
+      "examples": [
+        "贪污"
+      ],
+      "traditional_char": "污"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "使弄脏，玷污或侮辱",
+      "examples": [
+        "玷污",
+        "污损",
+        "污辱",
+        "污蔑",
+        "污染"
+      ],
+      "traditional_char": "污"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，于声；本义为停积不流的水。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由指浑浊水引申为肮脏、不干净，用于形容其他事物。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "conversion",
+      "note": "形容词转名词，表示肮脏的东西，如污渍、污垢。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "将不干净由具体意义引申为品行上的不廉洁。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "conversion",
+      "note": "由形容词转为动词，表示使肮脏，玷污。"
+    }
+  ]
+}

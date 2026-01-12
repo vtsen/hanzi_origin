@@ -1,0 +1,85 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "父亲",
+      "examples": [
+        "军书十二卷，卷卷有爷名。"
+      ],
+      "traditional_char": "爺"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "祖父",
+      "examples": [
+        "爷爷。",
+        "姥爷。"
+      ],
+      "traditional_char": "爺"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "对长辈或年长男子的敬称",
+      "examples": [
+        "张大爷。"
+      ],
+      "traditional_char": "爺"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "对官僚、财主等的称呼",
+      "examples": [
+        "县太爷。",
+        "少爷。"
+      ],
+      "traditional_char": "爺"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "对佛、神的称呼",
+      "examples": [
+        "财神爷。",
+        "佛爷。"
+      ],
+      "traditional_char": "爺"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从父，耶声，本义为父亲。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“父亲”扩展为“祖父”，亲属称谓体系的递进。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由“祖父”引申为对年长男性的敬称。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由对年长男性的敬称推广为对官僚财主等的称呼。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "对高位尊敬男性的泛化，引申为佛、神的敬称。"
+    }
+  ]
+}

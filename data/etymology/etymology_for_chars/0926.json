@@ -1,0 +1,59 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "力气，力量",
+      "examples": [
+        "费劲",
+        "干劲",
+        "有劲"
+      ],
+      "traditional_char": "勁"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "精神，情绪，兴趣",
+      "examples": [
+        "干活儿起劲儿",
+        "这部电影真没劲"
+      ],
+      "traditional_char": "勁"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "坚强有力",
+      "examples": [
+        "劲敌",
+        "劲旅",
+        "劲拔",
+        "劲松",
+        "疾风知劲草"
+      ],
+      "traditional_char": "勁"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 2,
+      "note": "形声字，从力，坙声。本义为坚强有力，‘力’表意‘坙’表声，传统本义用作形容词。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 2,
+      "target_index": 0,
+      "evolution_type": "conversion",
+      "note": "从‘坚强有力’的形容词义转换为‘力量’名词义，过程可追溯至早期文献，常见于词语扩展。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由‘力量’转喻为‘情绪、精神、兴趣’等抽象强度，口语化过程中完成。"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "劈开，破开（木头等）",
+      "examples": [
+        "析木以为舟"
+      ],
+      "traditional_char": "析"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "分开，分解",
+      "examples": [
+        "分崩离析",
+        "条分缕析"
+      ],
+      "traditional_char": "析"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "分析，解释，辨析",
+      "examples": [
+        "分析问题",
+        "剖析",
+        "析疑",
+        "赏析",
+        "析出"
+      ],
+      "traditional_char": "析"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意字，从木从斤，斤为斧头，表示用斧劈开木头，本义劈开。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由劈开木头引申为一般的分开、分解，汉语古今通用。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由分解、分开引申为抽象意义上的分析、解释。"
+    }
+  ]
+}

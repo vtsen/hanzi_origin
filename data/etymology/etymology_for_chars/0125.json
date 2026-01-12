@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "容量单位，一斗的十分之一。",
+      "examples": [
+        "买米五升。"
+      ],
+      "traditional_char": "升"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "量粮食的器具。",
+      "examples": [
+        "以升量米。"
+      ],
+      "traditional_char": "升"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "向上，高起，提高。",
+      "examples": [
+        "升旗。",
+        "提升。",
+        "升迁。",
+        "升格。"
+      ],
+      "traditional_char": "升"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "pictograph",
+      "original_sense_index": 1,
+      "note": "“升”为象形字，古文像量器之形，用以量粮食。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "由量具之器引申为容量单位，汉代已见。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由容器上举之形，引申为升起、上升等动作。"
+    }
+  ]
+}

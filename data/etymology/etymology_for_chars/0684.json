@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "杏树，一种落叶乔木，叶卵形，花白色或淡红色，果实称“杏”或“杏子”。",
+      "examples": [
+        "杏花村",
+        "墙角数枝杏，凌寒独自开。"
+      ],
+      "traditional_char": "杏"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "杏树的果实，可以食用，味酸甜。",
+      "examples": [
+        "杏儿",
+        "杏子熟了。"
+      ],
+      "traditional_char": "杏"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘杏’为形声字，从木，形声。‘木’表义，指树；‘𠬶’表声。本义为杏树。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "以树代果，树名转用于其果实，常见于植物名用法。"
+    }
+  ]
+}

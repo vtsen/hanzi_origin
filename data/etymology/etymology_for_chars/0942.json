@@ -1,0 +1,88 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "可解的结，用丝线打成的扣结",
+      "examples": [
+        "丝作结为纽。",
+        "打一个纽。"
+      ],
+      "traditional_char": "紐"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "器物上可以提起或系挂的部分",
+      "examples": [
+        "秤纽",
+        "印纽"
+      ],
+      "traditional_char": "紐"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "可以扣合衣物的球状物、片状物或其它形状的东西",
+      "examples": [
+        "纽扣掉了。",
+        "衣服上的纽。"
+      ],
+      "traditional_char": "紐"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "操纵的机键；关键",
+      "examples": [
+        "电纽",
+        "枢纽",
+        "关键纽带"
+      ],
+      "traditional_char": "紐"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "瓜果等刚结的果实",
+      "examples": [
+        "瓜纽儿",
+        "西瓜长出了小纽。"
+      ],
+      "traditional_char": "紐"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从糸（表意，丝线），丑（表声），本义为可解的结。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从'结'扩展为器物上供提挂的部件，因形状与结构类似。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "从'结'引申为衣物的纽扣，因为功能与形态相关。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "以结为比喻，转指操纵的要点或关键。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "以丝打结的初生体，比喻瓜果刚结的果实。"
+    }
+  ]
+}

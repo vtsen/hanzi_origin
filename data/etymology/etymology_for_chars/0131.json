@@ -1,0 +1,60 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "向前跌倒。",
+      "examples": [
+        "仆倒在地",
+        "前仆后继"
+      ],
+      "traditional_char": "仆"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "被人雇佣差遣服务的人，与“主”相对。",
+      "examples": [
+        "仆人",
+        "家中有仆"
+      ],
+      "traditional_char": "僕"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "pronoun",
+      "meaning": "旧时自谦的称“我”。",
+      "examples": [
+        "仆不才，幸得见教",
+        "僕谨上"
+      ],
+      "traditional_char": "僕"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "仆字从人，从菐（声），古文字形象人端畚箕，表供役使役之人，声意结合。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "僕为正体，人数从菐（声），表本义为被役使的人，即仆人，与初义一致。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "function_word",
+      "note": "“僕”本作仆役引申为自谦代词“我”，多见于文言。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_shift",
+      "note": "后由'仆役'引申为扑倒，可能由谦卑卑下形象或音近引发，具体机制未明。"
+    }
+  ]
+}

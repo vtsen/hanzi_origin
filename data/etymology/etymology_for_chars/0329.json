@@ -1,0 +1,89 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "弓声",
+      "examples": [
+        "弘，弓声也。——《说文》"
+      ],
+      "traditional_char": "弘"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "大，广大",
+      "examples": [
+        "弘，大也。——《尔雅》",
+        "诚取善之弘大。——清·刘开《问说》",
+        "士不可以不弘毅，任重而道远。——《论语·泰伯》"
+      ],
+      "traditional_char": "弘"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "宽宏，宽容",
+      "examples": [
+        "弘方（宽宏方正）",
+        "弘宥（宽恕）",
+        "陛下迟迟旧恩，未忍穷法，为弘之大，莫复过此。——《宋书·庾炳之传》"
+      ],
+      "traditional_char": "弘"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "扩大、推广、光大",
+      "examples": [
+        "人能弘道，非道弘人。——《论语·卫灵公》",
+        "弘化（推广教化）"
+      ],
+      "traditional_char": "弘"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "汉有弘恭。",
+        "弘仁，清初画家。",
+        "弘法，日本真言宗开祖。"
+      ],
+      "traditional_char": "弘"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从弓，厶声，表示弓声。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘弓声’引申为‘大’，可能因弓张而宽广、含容。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由‘广大’引申为‘宽宏、宽容’。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由‘大’引申为‘扩大、推广、光大’。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "function_word",
+      "note": "抽象用作姓氏，常见汉字用形容义转为姓。"
+    }
+  ]
+}

@@ -1,0 +1,186 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "头的最上端，物体最上面或最高的部分",
+      "examples": [
+        "头顶",
+        "山顶",
+        "屋顶",
+        "顶点"
+      ],
+      "traditional_char": "頂"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "用头部支承、抵住",
+      "examples": [
+        "顶礼",
+        "顶门立户",
+        "用头顶着球"
+      ],
+      "traditional_char": "頂"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "支撑或抵住（广义，包括用身体的其他部位）",
+      "examples": [
+        "用手顶着门",
+        "种子发芽把土顶起来了"
+      ],
+      "traditional_char": "頂"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adverb",
+      "meaning": "最、极，非常",
+      "examples": [
+        "顶好",
+        "顶大",
+        "顶多"
+      ],
+      "traditional_char": "頂"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "相对着，对着",
+      "examples": [
+        "顶风",
+        "顶头"
+      ],
+      "traditional_char": "頂"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "相当于，等于",
+      "examples": [
+        "一个顶俩",
+        "他顶半个班组"
+      ],
+      "traditional_char": "頂"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "担当，承担",
+      "examples": [
+        "顶班",
+        "我去顶事"
+      ],
+      "traditional_char": "頂"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "verb",
+      "meaning": "代替，替代",
+      "examples": [
+        "顶罪",
+        "冒名顶替"
+      ],
+      "traditional_char": "頂"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "verb",
+      "meaning": "争辩，冲撞",
+      "examples": [
+        "顶嘴",
+        "和父母顶撞"
+      ],
+      "traditional_char": "頂"
+    },
+    {
+      "index": 9,
+      "part_of_speech": "measure_word",
+      "meaning": "用于有顶的事物的量词",
+      "examples": [
+        "一顶帽子",
+        "两顶帐篷"
+      ],
+      "traditional_char": "頂"
+    },
+    {
+      "index": 10,
+      "part_of_speech": "verb",
+      "meaning": "到（某个时间）",
+      "examples": [
+        "昨天顶十二点才到家"
+      ],
+      "traditional_char": "頂"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从“页”（意符，表示头部），“丁”（声符），本义为头顶、最上端。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由“头的最上端”引申为“用头部支承”"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "“用头部支承”扩展为广义的“支撑”"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "“最上端”引申为“最、极、非常”（程度最高）"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "“上端”引申为“相对着、对着”"
+    },
+    {
+      "source_index": 0,
+      "target_index": 9,
+      "evolution_type": "conversion",
+      "note": "名词“顶”转为量词用途，表示“有顶之物”"
+    },
+    {
+      "source_index": 2,
+      "target_index": 5,
+      "evolution_type": "metaphor",
+      "note": "“支撑、抵住”抽象为“相当于”"
+    },
+    {
+      "source_index": 2,
+      "target_index": 6,
+      "evolution_type": "metaphor",
+      "note": "支撑演化为承担责任"
+    },
+    {
+      "source_index": 6,
+      "target_index": 7,
+      "evolution_type": "semantic_extension",
+      "note": "“担当”引申为“代替、替代”"
+    },
+    {
+      "source_index": 2,
+      "target_index": 8,
+      "evolution_type": "metaphor",
+      "note": "“支撑/抵住”引申为“争辩、冲撞”"
+    },
+    {
+      "source_index": 3,
+      "target_index": 10,
+      "evolution_type": "function_word",
+      "note": "程度副词形式发展为动词性虚词，表示“到（某时间）”"
+    }
+  ]
+}

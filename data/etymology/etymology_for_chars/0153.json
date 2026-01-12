@@ -1,0 +1,70 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "打哈欠，因疲倦张口出气",
+      "examples": [
+        "他打了个哈欠。",
+        "困了就会欠。"
+      ],
+      "traditional_char": "欠"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "身体略微向上伸展或仰起",
+      "examples": [
+        "他欠身回答老师的问题。"
+      ],
+      "traditional_char": "欠"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "短少，不足，不够",
+      "examples": [
+        "欠缺",
+        "欠安"
+      ],
+      "traditional_char": "欠"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "借别人物品后未归还或本应给予他人而未给",
+      "examples": [
+        "拖欠工资",
+        "欠账"
+      ],
+      "traditional_char": "欠"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "pictograph",
+      "original_sense_index": 0,
+      "note": "甲骨文象人张口出气打哈欠之形，上为气，下为人。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由打哈欠时身体动作，引申为身体微微上仰。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "从哈欠带来张口、空乏之象，引申为短少、不足。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "从不足引申为拖欠、未归还。"
+    }
+  ]
+}

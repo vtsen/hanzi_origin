@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "搅乱、使混乱",
+      "examples": [
+        "扰乱",
+        "干扰",
+        "骚扰"
+      ],
+      "traditional_char": "擾"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "增添麻烦",
+      "examples": [
+        "打扰",
+        "叨扰",
+        "困扰"
+      ],
+      "traditional_char": "擾"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "驯顺，安定",
+      "examples": [
+        "以佐王安扰邦国"
+      ],
+      "traditional_char": "擾"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "畜养（多指动物）",
+      "examples": [
+        "掌养猛兽而教扰之"
+      ],
+      "traditional_char": "擾"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "擾为形声字，从手，需声，本义是扰乱。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从扰乱引申为给他人添麻烦。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "由“扰乱”引申出“安抚、安定”，古文特殊演变，义项较早。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "原义基础上出现“养育、畜养”之义，为古义发展。"
+    }
+  ]
+}

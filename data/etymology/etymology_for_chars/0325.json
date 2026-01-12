@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "主管，管理，掌控某事物",
+      "examples": [
+        "司法",
+        "司机",
+        "司令"
+      ],
+      "traditional_char": "司"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "官署的名称，政府机关的名称",
+      "examples": [
+        "人事司",
+        "礼宾司"
+      ],
+      "traditional_char": "司"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "视察，考察",
+      "examples": [
+        "司日月之长短"
+      ],
+      "traditional_char": "司"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "司马迁",
+        "司徒"
+      ],
+      "traditional_char": "司"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "simple_indicative",
+      "original_sense_index": 0,
+      "note": "甲骨文为象形与指事结合，表现人用口发号施令，表示‘主管、掌控’之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由主管职能义引申为具体官署名称，古代至今均见用。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由主管发展出‘视察、考察’义，意为对事务具体掌控、监督。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "function_word",
+      "note": "由官职、职掌义转为用作姓氏，多见于复姓或直接取‘司’为姓。"
+    }
+  ]
+}

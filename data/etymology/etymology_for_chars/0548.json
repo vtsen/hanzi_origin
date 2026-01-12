@@ -1,0 +1,134 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "用来记录语言的符号",
+      "examples": [
+        "汉字",
+        "文字",
+        "文字符号"
+      ],
+      "traditional_char": "字"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "文字的不同形式，指书法的派别或种类",
+      "examples": [
+        "篆字",
+        "草字",
+        "颜字"
+      ],
+      "traditional_char": "字"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "书法作品",
+      "examples": [
+        "字画",
+        "字幅"
+      ],
+      "traditional_char": "字"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "字音",
+      "examples": [
+        "字正腔圆"
+      ],
+      "traditional_char": "字"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "人的别名、字号，或商店的名称",
+      "examples": [
+        "表字",
+        "字号"
+      ],
+      "traditional_char": "字"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "合同，契约",
+      "examples": [
+        "字据"
+      ],
+      "traditional_char": "字"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "旧时指女子出嫁",
+      "examples": [
+        "待字闺中"
+      ],
+      "traditional_char": "字"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "verb",
+      "meaning": "生子，生育，乳爱",
+      "examples": [
+        "字乳",
+        "字孕"
+      ],
+      "traditional_char": "字"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 7,
+      "note": "会意兼形声字，从宀表示屋内，从子表示婴儿，意为在屋内生孩子，子也作声旁。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 7,
+      "target_index": 6,
+      "evolution_type": "semantic_narrowing",
+      "note": "“生子”之义引申为仅指女子出嫁，古代用法。"
+    },
+    {
+      "source_index": 7,
+      "target_index": 0,
+      "evolution_type": "metaphor",
+      "note": "“生子”之义，由生育引申为“产生文字”，文字象征从母体诞生；后专指记录语言的符号。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由“字”引申为“字音”，即单个汉字的发音。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从记录语言的符号引申为字体、书体等不同写法。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由字体之义引申为书法作品，尤指书写出来的字画。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "由“名”及“字”分用，字常为本名之外的别名，古人冠名礼习俗。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "metonymy",
+      "note": "“字”又引申为契约文书，借指所写之物。"
+    }
+  ]
+}

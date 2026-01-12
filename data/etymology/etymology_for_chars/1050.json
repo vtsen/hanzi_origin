@@ -1,0 +1,95 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "特殊、稀罕，不常见的",
+      "examples": [
+        "奇闻",
+        "奇迹",
+        "奇观",
+        "奇妙",
+        "奇巧",
+        "奇耻大辱"
+      ],
+      "traditional_char": "奇"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "出人意料的，令人不测的",
+      "examples": [
+        "奇兵",
+        "奇计",
+        "奇袭",
+        "出奇制胜"
+      ],
+      "traditional_char": "奇"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "令人惊异，引以为奇",
+      "examples": [
+        "惊奇",
+        "奇怪",
+        "不足为奇"
+      ],
+      "traditional_char": "奇"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "numeral",
+      "meaning": "数目不成双的，与“偶”相对",
+      "examples": [
+        "奇数",
+        "单奇"
+      ],
+      "traditional_char": "奇"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "零数，余数，积存的财物",
+      "examples": [
+        "奇零",
+        "奇羡",
+        "八分奇"
+      ],
+      "traditional_char": "奇"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“奇”字形从大从可，为形声字，本义为奇特、奇异。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“特殊、稀罕”引申为出人意料、非凡诡异。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由“特殊、稀罕”引申为令人惊异之意。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "古义“奇特”引申为“数目单独、不成双”，与“偶”相对，具体过程有学术争议。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由'奇'为单数引申为零星、余数、积存之意。"
+    }
+  ]
+}

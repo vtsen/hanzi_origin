@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "评论、议论事物的好坏、是非等。",
+      "examples": [
+        "对这部电影进行评价。",
+        "请你来评议一下。"
+      ],
+      "traditional_char": "評"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "判定事物的高下、优劣。",
+      "examples": [
+        "评分比高低。",
+        "专家评定结果。"
+      ],
+      "traditional_char": "評"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从言，平声，‘言’表意，‘平’表音，本义指评论、议论。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由一般的评论、议论活动引申出‘判定高下、优劣’这一义项，两义从古至今均见，评价类动词向定性转化。"
+    }
+  ]
+}

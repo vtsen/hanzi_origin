@@ -1,0 +1,40 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "由液体或固体变化而成的气体（多指物质加热后挥发出来的气体）。",
+      "examples": [
+        "汽化",
+        "汽灯",
+        "汽车"
+      ],
+      "traditional_char": "汽"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "特指水蒸气。",
+      "examples": [
+        "汽船",
+        "汽笛"
+      ],
+      "traditional_char": "汽"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从氵（水）表意，气为声符，表示由液体蒸发而成的气（最初义）。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_narrowing",
+      "note": "原指所有液体或固体变为的气体，后专指水蒸气。"
+    }
+  ]
+}

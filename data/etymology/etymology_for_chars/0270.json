@@ -1,0 +1,72 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "兵器",
+      "examples": [
+        "仪仗",
+        "明火执仗"
+      ],
+      "traditional_char": "仗"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "拿着兵器",
+      "examples": [
+        "仗剑"
+      ],
+      "traditional_char": "仗"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "战争",
+      "examples": [
+        "打仗",
+        "胜仗"
+      ],
+      "traditional_char": "仗"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "凭借，依靠",
+      "examples": [
+        "倚仗",
+        "仰仗",
+        "仗恃",
+        "仗义执言"
+      ],
+      "traditional_char": "仗"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "形声字，从人，丈声，表示“拿着（兵器）”之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "metonymy",
+      "note": "由动作“拿着兵器”引申为“兵器”本身。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "synecdoche",
+      "note": "以持兵器作战之意，引申为战争整体。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由武器为依仗，引申比喻为依靠、凭借。"
+    }
+  ]
+}

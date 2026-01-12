@@ -1,0 +1,90 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "闪电，自然界阴雨天时云层放电产生的强光。",
+      "examples": [
+        "雷电交加",
+        "闪电",
+        "云层中有电"
+      ],
+      "traditional_char": "電"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "利用物理或化学方法获得的一种能源，用于照明、动力、热等。",
+      "examples": [
+        "电力",
+        "发电",
+        "节约用电"
+      ],
+      "traditional_char": "電"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "电报的简称。",
+      "examples": [
+        "发电",
+        "收电",
+        "贺电"
+      ],
+      "traditional_char": "電"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "打电报。",
+      "examples": [
+        "电邀",
+        "电告"
+      ],
+      "traditional_char": "電"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "被电流击中。",
+      "examples": [
+        "电了我一下",
+        "被电击"
+      ],
+      "traditional_char": "電"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从‘雨’表示自然现象，‘申’为声符，原指闪电。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从自然闪电扩展为一般物理学意义上的电能形成于近现代。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "以电能为传递介质，指代与电相关的通讯手段‘电报’。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "grammaticalization",
+      "note": "名词‘电报’动词化，表示‘打电报’。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "从‘电’的物理能量意义引申指被电流击中。"
+    }
+  ]
+}

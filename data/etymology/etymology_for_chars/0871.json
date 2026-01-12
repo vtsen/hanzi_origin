@@ -1,0 +1,84 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "没入水中，沉没。",
+      "examples": [
+        "石沉大海",
+        "沉渣"
+      ],
+      "traditional_char": "沉"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "落下，陷入。",
+      "examples": [
+        "沉陷"
+      ],
+      "traditional_char": "沉"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "重量大，分量重。",
+      "examples": [
+        "沉重"
+      ],
+      "traditional_char": "沉"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "慎重，不轻浮。",
+      "examples": [
+        "沉着"
+      ],
+      "traditional_char": "沉"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "深切长久，程度深。",
+      "examples": [
+        "沉思",
+        "沉吟"
+      ],
+      "traditional_char": "沉"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，冘声，本义为没入水中。甲骨文作牛淹于水，指商代祭祀沉牲。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“没入水中”引申为“落下，陷入”，古今通用。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "物体沉于水，通常因为分量重，故引申为“重量大”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "“沉”引申为“性格稳重、不轻浮”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "“沉”引申为“程度深、长久”，如“沉思”。"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "坚定，有节操",
+      "examples": [
+        "忠贞不渝",
+        "坚贞不屈",
+        "贞士"
+      ],
+      "traditional_char": "貞"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "旧礼教中妇女不改嫁等道德观念",
+      "examples": [
+        "贞女",
+        "贞烈",
+        "贞操"
+      ],
+      "traditional_char": "貞"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "占卜，问卦",
+      "examples": [
+        "贞卜",
+        "卜贞吉凶"
+      ],
+      "traditional_char": "貞"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "古同“桢”，桢干",
+      "examples": [],
+      "traditional_char": "貞"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 2,
+      "note": "形声字，从贝，贞声，本作占卜义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 2,
+      "target_index": 0,
+      "evolution_type": "metaphor",
+      "note": "由占卜问卦引申为坚定不可变，指人品、节操。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_narrowing",
+      "note": "由一般的节操转指妇女贞节。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "unknown",
+      "note": "与“桢”字通用，用作桢干义，具体语义关系待考。"
+    }
+  ]
+}

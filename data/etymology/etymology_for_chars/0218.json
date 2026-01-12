@@ -1,0 +1,118 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "棉、麻及类似化学纤维织成的布料",
+      "examples": [
+        "布匹",
+        "布衣"
+      ],
+      "traditional_char": "布"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "古代的一种钱币",
+      "examples": [
+        "布币"
+      ],
+      "traditional_char": "布"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "宣告，向大众陈述",
+      "examples": [
+        "宣布",
+        "发布",
+        "布告"
+      ],
+      "traditional_char": "布"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "分散到各处，使普及开来",
+      "examples": [
+        "散布",
+        "遍布",
+        "星罗棋布"
+      ],
+      "traditional_char": "布"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "流传，散播",
+      "examples": [
+        "布道",
+        "布施"
+      ],
+      "traditional_char": "布"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "安排，部署",
+      "examples": [
+        "布置",
+        "布局",
+        "布景"
+      ],
+      "traditional_char": "布"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [],
+      "traditional_char": "布"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从巾，父声，表示以麻做成的布匹。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "以布为货币称“布”，因布料作为等价物而引申，见先秦货币。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "如布帛之展延引申为“宣布、发布”，由铺展→公开扩展。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "布料铺开引申为“分布、分散”，形象联想。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由分布引申为使事物流传开来。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "从分布引申为安排、布置。从分散物品到安排布置场景。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "unknown",
+      "note": "用作姓氏，源流不明，通例。"
+    }
+  ]
+}

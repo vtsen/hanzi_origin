@@ -1,0 +1,121 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "君主，帝王（先王）",
+      "examples": [
+        "商之先后",
+        "君后"
+      ],
+      "traditional_char": "后"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "帝王的妻子",
+      "examples": [
+        "皇后",
+        "太后"
+      ],
+      "traditional_char": "後"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "空间在背面，反面，与“前”相对",
+      "examples": [
+        "后窗户",
+        "后面"
+      ],
+      "traditional_char": "後"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adverb",
+      "meaning": "时间较晚，与“先”相对",
+      "examples": [
+        "日后",
+        "后福"
+      ],
+      "traditional_char": "後"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "次序，与“前”相对",
+      "examples": [
+        "后排",
+        "后十名"
+      ],
+      "traditional_char": "後"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "子孙",
+      "examples": [
+        "后嗣",
+        "后裔"
+      ],
+      "traditional_char": "後"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [],
+      "traditional_char": "後"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "‘后’古本字形象坐人发号施令，本义为君主。人+口合意。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "‘後’为后世产生，形声字，从彳，‘后’为声，原指后面引申为顺序、时间等义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由君主，帝王指其配偶，帝王之妻称后。战国后固定。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "unknown",
+      "note": "由“后”指高贵者，引申为背面、后方，具体过程学界尚无定论。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "空间之后引申为时间之后。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 4,
+      "evolution_type": "synecdoche",
+      "note": "空间之次序引申为一般次序。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 5,
+      "evolution_type": "metonymy",
+      "note": "次序较后的引申为后代、子孙。"
+    },
+    {
+      "source_index": 5,
+      "target_index": 6,
+      "evolution_type": "reanalysis",
+      "note": "以‘后’为姓氏，属于专用名词化。"
+    }
+  ]
+}

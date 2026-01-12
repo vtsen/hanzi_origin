@@ -1,0 +1,150 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "用手掌承着东西",
+      "examples": [
+        "两手托着下巴。",
+        "他用手托起花瓶。"
+      ],
+      "traditional_char": "托"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "陪衬，铺垫",
+      "examples": [
+        "烘托气氛。",
+        "用绿叶托红花。"
+      ],
+      "traditional_char": "托"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "承着器物的东西",
+      "examples": [
+        "托盘。",
+        "杯托。"
+      ],
+      "traditional_char": "托"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "暂时寄放、寄托",
+      "examples": [
+        "把孩子托给邻居。",
+        "寄托希望。"
+      ],
+      "traditional_char": "托"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "请求，托付",
+      "examples": [
+        "请托朋友办事。",
+        "托人带话。"
+      ],
+      "traditional_char": "托"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "借故推诿躲避",
+      "examples": [
+        "推托责任。",
+        "他假托身体不适，不来上班。"
+      ],
+      "traditional_char": "托"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "依赖",
+      "examples": [
+        "托庇于他人。",
+        "托福。"
+      ],
+      "traditional_char": "托"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "verb",
+      "meaning": "委任、委托",
+      "examples": [
+        "托付重任。",
+        "委托他办事。"
+      ],
+      "traditional_char": "托"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "noun",
+      "meaning": "压强单位",
+      "examples": [
+        "本实验测得的压力是10托。"
+      ],
+      "traditional_char": "托"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 3,
+      "note": "形声字，从手，乇声，‘乇’本义为寄托。后加‘手’形成‘托’，表示用手承载，引申为寄托等含义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 3,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "由抽象的‘寄托’引申为具体动作‘用手承着’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "conversion",
+      "note": "由动作为名词，指承受器物的东西。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由实际的支托转为抽象的‘陪衬、铺垫’。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "寄托引申为‘求托、请求’。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "由‘托’为‘借口推诿’。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 6,
+      "evolution_type": "semantic_extension",
+      "note": "‘寄托’引申为‘依赖’。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 7,
+      "evolution_type": "semantic_extension",
+      "note": "‘寄托’引申为‘委任、委托’之义。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 8,
+      "evolution_type": "reanalysis",
+      "note": "现代物理单位音译词，源自英语‘tor’。"
+    }
+  ]
+}

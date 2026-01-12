@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "舀出、挹取液体。",
+      "examples": [
+        "抒水而出。",
+        "以器抒之。"
+      ],
+      "traditional_char": "抒"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "发出，表达，倾吐（思想、感情）。",
+      "examples": [
+        "抒情。",
+        "抒发感慨。",
+        "各抒己见。"
+      ],
+      "traditional_char": "抒"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "解除（困苦、忧愁）。",
+      "examples": [
+        "抒困解忧。"
+      ],
+      "traditional_char": "抒"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从手，予声，本义为用手舀取。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由舀出、挹取引申为感情等由内向外倾吐，出自汉代。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "表达感情引申为解除忧苦。与“纾”义通。"
+    }
+  ]
+}

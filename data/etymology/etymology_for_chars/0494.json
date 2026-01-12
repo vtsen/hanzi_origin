@@ -1,0 +1,42 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "伤口，创伤",
+      "examples": [
+        "创伤",
+        "刀创",
+        "身受重创"
+      ],
+      "traditional_char": "創"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "开始，创立，开创",
+      "examples": [
+        "创造",
+        "创业",
+        "开创",
+        "创新"
+      ],
+      "traditional_char": "創"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从刀，仓声；本义为创伤、伤口"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由“破开、创伤”引申为“开创、创造”，意为打开新局面"
+    }
+  ]
+}

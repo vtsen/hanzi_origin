@@ -1,0 +1,53 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "奉献物品给上级，尤指臣下或属国向帝王进献财物等",
+      "examples": [
+        "进贡",
+        "纳贡",
+        "朝贡"
+      ],
+      "traditional_char": "貢"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "封建时代经科举考试被推荐到朝廷或国子监的人",
+      "examples": [
+        "贡生",
+        "举贡"
+      ],
+      "traditional_char": "貢"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [],
+      "traditional_char": "貢"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从贝，工声。贝表示与财物相关，本义即进奉财物。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "贡原指进奉财物，引申为推荐人才，人才视为国家贡品，语义转移在秦汉以降。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "conversion",
+      "note": "以进献者的角色产生姓氏用法，机制在于身份词化。"
+    }
+  ]
+}

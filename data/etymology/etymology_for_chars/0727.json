@@ -1,0 +1,117 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "空旷、开阔",
+      "examples": [
+        "空旷",
+        "旷野",
+        "地旷人稀"
+      ],
+      "traditional_char": "曠"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "心胸开朗，心境阔大",
+      "examples": [
+        "旷达",
+        "心旷神怡"
+      ],
+      "traditional_char": "曠"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "配合的东西之间空隙大",
+      "examples": [
+        "这双鞋穿着太旷了"
+      ],
+      "traditional_char": "曠"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "荒废，耽误（如工作、时间）",
+      "examples": [
+        "旷工",
+        "旷时持久",
+        "旷日经年"
+      ],
+      "traditional_char": "曠"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "长时间所无、罕见",
+      "examples": [
+        "旷代伟人",
+        "盛世旷典",
+        "旷古绝伦"
+      ],
+      "traditional_char": "曠"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [],
+      "traditional_char": "曠"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "adjective",
+      "meaning": "光明，明朗（本义，已属古义）",
+      "examples": [
+        "曠，明也。《说文》"
+      ],
+      "traditional_char": "曠"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 6,
+      "note": "会意兼形声，从日（表光明），广声，古本义为光明明朗。“曠”为正体"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 6,
+      "target_index": 0,
+      "evolution_type": "semantic_shift",
+      "note": "从‘光明、明朗’本义向‘空旷开阔’发展，因明亮视野广阔"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由空间开阔比喻心境开朗"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "空间空旷引申至配合物品的空隙大"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "空旷、阔大进一步引申为时间上稀有、罕见"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "空旷引申为荒废、耽误，如耽误时间、虚度"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "unknown",
+      "note": "以义为姓，义源不详"
+    }
+  ]
+}

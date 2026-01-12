@@ -1,0 +1,44 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "水面上的波纹、微波。",
+      "examples": [
+        "沦漪",
+        "清沦"
+      ],
+      "traditional_char": "淪"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "沉没，陷落，灭亡。",
+      "examples": [
+        "沦落",
+        "沦陷",
+        "沦亡",
+        "沉沦",
+        "沦丧",
+        "沦殁",
+        "沦肌浃髓"
+      ],
+      "traditional_char": "淪"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从“水”表示与水相关，“仑”作声旁，原指水面细小波纹。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘水面波纹’引申为‘沉没、陷落’，因水波消失意味着沉没或消失，汉以后广泛用于抽象意义。"
+    }
+  ]
+}

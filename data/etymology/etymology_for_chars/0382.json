@@ -1,0 +1,72 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adverb",
+      "meaning": "再次，第二次或又一次之意，有时特指第二次，有时泛指多次。",
+      "examples": [
+        "再见",
+        "再衰三竭",
+        "请再说一遍"
+      ],
+      "traditional_char": "再"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adverb",
+      "meaning": "表示重复或持续，多指未发生的动作。",
+      "examples": [
+        "你再考虑一下",
+        "再研究再决定"
+      ],
+      "traditional_char": "再"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adverb",
+      "meaning": "表示更、更加。",
+      "examples": [
+        "再勇敢一点",
+        "再快点"
+      ],
+      "traditional_char": "再"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adverb",
+      "meaning": "表示承接前一个动作。",
+      "examples": [
+        "你去吃饭，再回来",
+        "想清楚了再写"
+      ],
+      "traditional_char": "再"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意字，从一，从“冓”（构的初文）省表“再”，即‘第二次’、‘再一次’之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由具体两次、再次扩展为泛指重复、持续动作，语义扩展已见于先秦。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由表示重复发展为表示“更加”，指程度递增，汉语常见现象。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "grammaticalization",
+      "note": "表示动作承接，为副词用法的语法化，出现于口语与书面语。"
+    }
+  ]
+}

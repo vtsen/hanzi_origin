@@ -1,0 +1,70 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "荷花的别称（亦称芙蓉、芙蕖，属多年生水生草本植物）",
+      "examples": [
+        "芙蓉覆水，秋兰被涯。——《文选·张衡·东京赋》",
+        "荷，芙蕖。——《尔雅·释草》"
+      ],
+      "traditional_char": "芙"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "木芙蓉，落叶灌木，观赏花木，亦称木莲",
+      "examples": [
+        "芙蓉，木莲也。",
+        "色有红白，晚上变深红，供观赏，叶和花均可入药"
+      ],
+      "traditional_char": "芙"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "成都市的别称（芙蓉城）",
+      "examples": [
+        "芙蓉城位于中国西南部，是四川省省会成都市的别称"
+      ],
+      "traditional_char": "芙"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "美女的比喻",
+      "examples": [
+        "集芙蓉以為裳。——《楚辞·离骚》",
+        "芙蓉出水，比喻美女"
+      ],
+      "traditional_char": "芙"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从艸，夫声，原指荷花（芙蓉、芙蕖）的别名。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "芙最初仅指水生芙蓉，后引申为木本观赏花木，植物特征相似。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "以芙蓉代指城市，因成都市别名“芙蓉城”，取美丽之意。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "芙蓉外形美丽，古人以此喻美女，见于诗经和楚辞。"
+    }
+  ]
+}

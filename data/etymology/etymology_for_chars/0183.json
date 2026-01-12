@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "诚信，真实可靠",
+      "examples": [
+        "允恭克让"
+      ],
+      "traditional_char": "允"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "答应，认可",
+      "examples": [
+        "允许",
+        "允诺"
+      ],
+      "traditional_char": "允"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "公平得当",
+      "examples": [
+        "公允",
+        "允当"
+      ],
+      "traditional_char": "允"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意字，上为“以”，下为“儿”，表示信实可靠；甲骨文作此形，表本义为诚信。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由诚信实意引申为答应、认可，可信则可被允许。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由诚信真实再引申为公平得当，有信则公正。"
+    }
+  ]
+}

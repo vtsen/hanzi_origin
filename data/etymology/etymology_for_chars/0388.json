@@ -1,0 +1,108 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "存在，存活，活着",
+      "examples": [
+        "健在",
+        "青春长在"
+      ],
+      "traditional_char": "在"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "处于某处，居于某地",
+      "examples": [
+        "在家",
+        "在位",
+        "在职"
+      ],
+      "traditional_char": "在"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "preposition",
+      "meaning": "关于某方面，指出重点或本质",
+      "examples": [
+        "在于",
+        "在乎",
+        "事在人为"
+      ],
+      "traditional_char": "在"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "auxiliary",
+      "meaning": "表示动作正在进行",
+      "examples": [
+        "他在种地"
+      ],
+      "traditional_char": "在"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "preposition",
+      "meaning": "表示事情的时间、地点、情形、范围等",
+      "examples": [
+        "在逃",
+        "在望",
+        "在握",
+        "在理",
+        "在朝",
+        "在世"
+      ],
+      "traditional_char": "在"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "particle",
+      "meaning": "和“所”连用，表示强调",
+      "examples": [
+        "在所不辞",
+        "无所不在"
+      ],
+      "traditional_char": "在"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从土，才声，本义为草木存在于土中，引申为存在、活着。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从存在引申为存于某地，发生于中古汉语时期。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "grammaticalization",
+      "note": "处于某地发展为介词表示时间、地点等关系，语法化明显。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 3,
+      "evolution_type": "function_word",
+      "note": "表示动作进行的助动用法，现代汉语常用结构。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "“处于”引申为“关于某方面、强调本质”。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 5,
+      "evolution_type": "function_word",
+      "note": "与'所'连用，表示强调的结构化用法。"
+    }
+  ]
+}

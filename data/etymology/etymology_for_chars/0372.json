@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "禾本科植物种子壳上的细刺或针状物",
+      "examples": [
+        "麦芒",
+        "初露锋芒"
+      ],
+      "traditional_char": "芒"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "像芒那样的尖细物，常指光线的尖细部分",
+      "examples": [
+        "光芒",
+        "芒刺在背"
+      ],
+      "traditional_char": "芒"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "多年生草本植物，叶细长有尖，可作绿篱、造纸原料和饲料等",
+      "examples": [
+        "芒草",
+        "牛食芒"
+      ],
+      "traditional_char": "芒"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从艸表示与草木相关，亡为声符，原指谷类或草本植物的针状物。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "“芒”由实物的“针状物”引申为光等尖锐事物，见于先秦文献。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_narrowing",
+      "note": "“芒”由泛指针状物转指特定植物名，为植物名称专用。"
+    }
+  ]
+}

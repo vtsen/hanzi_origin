@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "踩，踏。",
+      "examples": [
+        "甲骨文中“此”作“跐”，有踩踏之义。"
+      ],
+      "traditional_char": "此"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "pronoun",
+      "meaning": "这，这个，与“彼”相对。",
+      "examples": [
+        "此时此刻",
+        "因此",
+        "从此以后"
+      ],
+      "traditional_char": "此"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "pronoun",
+      "meaning": "这里，这儿。",
+      "examples": [
+        "到此为止"
+      ],
+      "traditional_char": "此"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "“此”会意字，从止从人，初为“跐”之本字，表示踩踏。后借为指示代词。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_shift",
+      "note": "古义‘踩踏’用作表示‘此、这个’的指示代词，先秦时期已见。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由‘这个’进一步引申为‘这里’。"
+    }
+  ]
+}

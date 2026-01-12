@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "躺着时垫在头下的东西，如枕头",
+      "examples": [
+        "枕头",
+        "落枕",
+        "枕席"
+      ],
+      "traditional_char": "枕"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "躺着的时候，把头放在枕头上或器物上",
+      "examples": [
+        "枕戈待旦",
+        "枕藉"
+      ],
+      "traditional_char": "枕"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "垫着（泛指垫于物下）",
+      "examples": [
+        "枕木",
+        "枕腕"
+      ],
+      "traditional_char": "枕"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从木，冘声，表示用木制成的垫头之物。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "conversion",
+      "note": "名词动用，表示“以枕为动作”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "从特指头下之物扩展为泛指‘垫物’。"
+    }
+  ]
+}

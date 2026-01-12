@@ -1,0 +1,69 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "合力共举一物",
+      "examples": [
+        "大家一起抬桌子。",
+        "两人抬轿。"
+      ],
+      "traditional_char": "抬"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "举起，提高",
+      "examples": [
+        "抬头看看天。",
+        "请抬手表决。"
+      ],
+      "traditional_char": "抬"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "（方言）争辩，顶嘴（抬杠）",
+      "examples": [
+        "你又和我抬杠。"
+      ],
+      "traditional_char": "抬"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "measure_word",
+      "meaning": "用于两人合力抬起的东西的计量单位",
+      "examples": [
+        "这十抬嫁妆。"
+      ],
+      "traditional_char": "抬"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从“手”表示动作，“台”为声旁，表‘合力共举’之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由合力共举扩展为一般举起、提高的动作为常用。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "grammaticalization",
+      "note": "由动词‘合力共举’语法化为表示数量单位。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "‘抬’由物理动作引申为言语上的对抗、争辩（‘抬杠’）。"
+    }
+  ]
+}

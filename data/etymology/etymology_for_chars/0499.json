@@ -1,0 +1,132 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "高而使人畏惧、危险",
+      "examples": [
+        "危崖之上",
+        "危石"
+      ],
+      "traditional_char": "危"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "不安全、危险",
+      "examples": [
+        "危险",
+        "危机",
+        "危难",
+        "危如累卵"
+      ],
+      "traditional_char": "危"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "损害，威胁",
+      "examples": [
+        "危害",
+        "危及"
+      ],
+      "traditional_char": "危"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "使人惊奇的，耸人听闻",
+      "examples": [
+        "危言耸听"
+      ],
+      "traditional_char": "危"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "端正，正直",
+      "examples": [
+        "正襟危坐",
+        "危言危行"
+      ],
+      "traditional_char": "危"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "指人临死，垂危",
+      "examples": [
+        "病危",
+        "垂危"
+      ],
+      "traditional_char": "危"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "二十八宿之一的星名",
+      "examples": [
+        "危宿"
+      ],
+      "traditional_char": "危"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [],
+      "traditional_char": "危"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "小篆作人立于崖上，表示处高感到危险，属会意字。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由高处感到危险引申为一般危机、不安全。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "从“不安全”引申为造成损害、威胁。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "不安全的言论引申为使人惊奇、耸人听闻。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "高耸正直，引申为端正、正直，常见于书面语。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "由危险引申指病危、垂死；实指危险至极。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "semantic_shift",
+      "note": "星名取其“高”义为名，指天上的高处。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 7,
+      "evolution_type": "semantic_shift",
+      "note": "姓多取于地名、事物或抽象特质，此从“危”引申为姓氏。"
+    }
+  ]
+}

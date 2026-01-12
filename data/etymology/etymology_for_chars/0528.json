@@ -1,0 +1,106 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "询问，不明之事请人解答。",
+      "examples": [
+        "有疑必问",
+        "质问难题",
+        "问答",
+        "询问"
+      ],
+      "traditional_char": "問"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "为表达关心而询问近况。",
+      "examples": [
+        "慰问灾民",
+        "问候亲友",
+        "问长问短"
+      ],
+      "traditional_char": "問"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "审讯，追究责任。",
+      "examples": [
+        "审问犯人",
+        "问案如神",
+        "唯你是问"
+      ],
+      "traditional_char": "問"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "干预，参与管理。",
+      "examples": [
+        "概不过问",
+        "莫问闲事"
+      ],
+      "traditional_char": "問"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "索取，要求他人给予（物品或帮助等）。",
+      "examples": [
+        "我问他借几本书"
+      ],
+      "traditional_char": "問"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [
+        "问先生",
+        "问氏家族"
+      ],
+      "traditional_char": "問"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从口，门声，表“以口问于门内”之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由一般询问引申为表示关心的问候。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由“询问”进一步引申为“审讯、追究”的意思。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "从“询问他事”引申为“干预管理”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "从询问引申为“提出要求”语义。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "conversion",
+      "note": "由动词“问”转化为姓氏用法。"
+    }
+  ]
+}

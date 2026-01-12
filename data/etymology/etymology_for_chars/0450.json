@@ -1,0 +1,70 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "常绿多年生植物，茎有节且中空，质地坚硬，可制器物和建筑材料。",
+      "examples": [
+        "竹子",
+        "竹叶",
+        "竹笋"
+      ],
+      "traditional_char": "竹"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "用竹子制成的管乐器。",
+      "examples": [
+        "金石丝竹"
+      ],
+      "traditional_char": "竹"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "中国古代乐器八音之一，以竹制管乐器为代表。",
+      "examples": [
+        "八音之一曰竹"
+      ],
+      "traditional_char": "竹"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [
+        "竹林",
+        "竹氏"
+      ],
+      "traditional_char": "竹"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "pictograph",
+      "original_sense_index": 0,
+      "note": "象形字，上部像竹叶，下部像竹茎小枝，表本义‘竹子’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "以材料‘竹子’代指其制成的乐器，见于先秦至汉代。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由竹制管乐器泛指为八音之一‘竹’，用以分类乐器。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "以植物‘竹’作为氏族或姓氏，历史用法，中古已见。"
+    }
+  ]
+}

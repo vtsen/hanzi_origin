@@ -1,0 +1,84 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "审问，特指法庭上的讯问或拷问。",
+      "examples": [
+        "审讯",
+        "刑讯",
+        "讯问"
+      ],
+      "traditional_char": "訊"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "消息，信息。",
+      "examples": [
+        "通讯",
+        "音讯",
+        "讯息"
+      ],
+      "traditional_char": "訊"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "告，陈诉。",
+      "examples": [
+        "歌以讯之"
+      ],
+      "traditional_char": "訊"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "古代对俘虏的称谓（西周用法）。",
+      "examples": [
+        "执讯"
+      ],
+      "traditional_char": "訊"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "快速，迅速（古同“迅”）。",
+      "examples": [],
+      "traditional_char": "訊"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，“言”为意符，表示与语言或陈述相关，“卂”作声符，表示读音。最初意为审问。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由审问获得消息，引申为消息、信息。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "从“问”扩展为“告、陈诉”，即诉说、告知。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "古时西周指代被讯问（审问）的人，后指俘虏。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "用作“迅”的通假字，表示迅速。"
+    }
+  ]
+}

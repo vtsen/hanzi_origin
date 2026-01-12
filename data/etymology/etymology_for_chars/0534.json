@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "照明的器具",
+      "examples": [
+        "路灯照亮了街道。",
+        "点灯了。"
+      ],
+      "traditional_char": "燈"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "用于其他用途的发光或发热装置",
+      "examples": [
+        "红绿灯指挥交通。",
+        "指示灯亮了。",
+        "点酒精灯。"
+      ],
+      "traditional_char": "燈"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "装饰用的彩灯",
+      "examples": [
+        "灯节期间挂满彩灯。",
+        "河灯漂流。"
+      ],
+      "traditional_char": "燈"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从火，登声，表示与火有关的照明器具，隶变后写作‘燈’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由专指照明器具扩展为其它用途的发光、发热装置，近现代出现。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "照明器具义进一步引申为装饰性的彩灯，多用于节庆场合。"
+    }
+  ]
+}

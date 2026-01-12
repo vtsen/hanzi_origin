@@ -1,0 +1,87 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "pronoun",
+      "meaning": "疑问代词，用于提出问题，如什么、为什么、哪样、哪里等，也用于反问。",
+      "examples": [
+        "何人？",
+        "何必如此？",
+        "何故？",
+        "何往？",
+        "何乐而不为？"
+      ],
+      "traditional_char": "何"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adverb",
+      "meaning": "表示程度之高，多么。",
+      "examples": [
+        "何其壮哉！"
+      ],
+      "traditional_char": "何"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [
+        "何先生",
+        "何氏"
+      ],
+      "traditional_char": "何"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "古同“呵”，指斥责、呵责。",
+      "examples": [
+        "何咎之有？（古义，见于部分文献）"
+      ],
+      "traditional_char": "何"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "古同“荷”，指担、背负。",
+      "examples": [
+        "何其重也（古义，通“荷”）"
+      ],
+      "traditional_char": "何"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从人，可声，初指疑问代词。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由疑问含义引申为副词表程度，高古汉语已见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "conversion",
+      "note": "疑问代词转为姓氏用法；古今普遍现象。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "假借字用义，古通“呵”，见于文献异读。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "假借作为“荷”，用作动词“担”，通假关系。"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "指引或带领他人前进",
+      "examples": [
+        "领导群众前进",
+        "引导学生学习"
+      ],
+      "traditional_char": "導"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "传送、传导，如传递事物或能量",
+      "examples": [
+        "导热",
+        "电能通过金属丝导向灯泡"
+      ],
+      "traditional_char": "導"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "启发、开导",
+      "examples": [
+        "老师善于开导学生",
+        "因势利导"
+      ],
+      "traditional_char": "導"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从寸，道声；‘寸’与手有关，表示用手带领引导他人。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由“带领”引申为抽象事物如热、能量的传递，用于物理意义，汉代已有。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由具体“引导人”抽象到思想、观念上的带领，宋元时多用于教育领域。"
+    }
+  ]
+}

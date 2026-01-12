@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古代砍伐树木的工具，如斧头。",
+      "examples": [
+        "持斤而伐山。",
+        "斧斤以时入山林。"
+      ],
+      "traditional_char": "斤"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "中国市制重量单位，一斤为十六两或五百克等。",
+      "examples": [
+        "一斤大米。",
+        "两斤苹果。"
+      ],
+      "traditional_char": "斤"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "过分计较琐细事情（多用于成语“斤斤计较”）。",
+      "examples": [
+        "他为小事斤斤计较。"
+      ],
+      "traditional_char": "斤"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "pictograph",
+      "original_sense_index": 0,
+      "note": "“斤”为象形字，甲骨文像斧头形，上横为刃，下为柄。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "古代工具重量标准引申为计量单位"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由计较重量比喻为计较琐事，多见于成语用法"
+    }
+  ]
+}

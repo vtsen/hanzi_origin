@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "快跑，疾走。",
+      "examples": [
+        "他向前奔跑。",
+        "奔腾的马群。"
+      ],
+      "traditional_char": "奔"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "为某目标或方向而赶往，投向。",
+      "examples": [
+        "投奔亲友。",
+        "他都奔六十了。"
+      ],
+      "traditional_char": "奔"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "为某一目的而努力奔走、劳苦从事。",
+      "examples": [
+        "奔命四方。",
+        "为生计奔忙。"
+      ],
+      "traditional_char": "奔"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意字，上为大（人形挥臂），下为三止（象脚步），表示人快跑。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“快跑”引申为朝某方向赶去，见于先秦用例。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由“赶往”为某目的地，引申为为目的而努力劳碌。"
+    }
+  ]
+}

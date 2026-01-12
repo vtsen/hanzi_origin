@@ -1,0 +1,145 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "洗头发。",
+      "examples": [
+        "予发曲局，薄言归沐。",
+        "共王之沐浴。",
+        "沐则心覆。"
+      ],
+      "traditional_char": "沐"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "洗涤，泛指洗浴。",
+      "examples": [
+        "沐兰泽，含若芳。",
+        "洗沐之，为置新缯绮縠衣。"
+      ],
+      "traditional_char": "沐"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "润泽，沾润；受润泽，引申为蒙受恩惠。",
+      "examples": [
+        "京师冬无宿雪，春不燠沐。",
+        "逮奉圣朝，沐浴清化。"
+      ],
+      "traditional_char": "沐"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "芟除，去除枝叶等。",
+      "examples": [
+        "今吾沐涂树之枝，日中无尺寸之阴。"
+      ],
+      "traditional_char": "沐"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "整治，修理。",
+      "examples": [
+        "夫子助之沐椁。"
+      ],
+      "traditional_char": "沐"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "休假日。",
+      "examples": [
+        "三朝国庆毕，休沐还旧邦。",
+        "晚沐卧郊园。"
+      ],
+      "traditional_char": "沐"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "米汁，古人用以洗头。",
+      "examples": [
+        "自伯之东，首如飞蓬。岂无膏沐，谁适为容？"
+      ],
+      "traditional_char": "沐"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "noun",
+      "meaning": "水名，即今山东省弥河。",
+      "examples": [],
+      "traditional_char": "沐"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [
+        "三国魏有沐并。"
+      ],
+      "traditional_char": "沐"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，木声，表示与水有关的动作，最初指洗头发。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“洗头发”泛化为“一般洗涤”，见于《诗经》《文选》等。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "metonymy",
+      "note": "洗头须用米汁，因此“沐”引申为“米汁”。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由洗涤意转喻润泽、受润泽，如“沐恩”。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由“洗涤”引申为“芟除”等清理之义。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "芟除进一步引申为“整治”。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "semantic_shift",
+      "note": "由洗涤、洗浴引申为“洗浴日”，后专指“休假日”，汉晋官制用法。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 7,
+      "evolution_type": "metonymy",
+      "note": "水相关义项，被用为河流名称。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 8,
+      "evolution_type": "conversion",
+      "note": "动词转用作姓氏，用法如《三国志》所载。"
+    }
+  ]
+}

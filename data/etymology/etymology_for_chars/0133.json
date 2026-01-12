@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "深刻的怨恨或敌人",
+      "examples": [
+        "仇敌",
+        "仇恨",
+        "同仇敌忾"
+      ],
+      "traditional_char": "仇"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "匹偶，配偶，伴侣（古义）",
+      "examples": [
+        "古人云：‘言念君兮心则仇。’",
+        "古同“逑”"
+      ],
+      "traditional_char": "仇"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "仇先生",
+        "仇英（明代画家）"
+      ],
+      "traditional_char": "仇"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "形声字，从‘人’表义，‘九’表声，原本表示‘匹偶、配偶’之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_shift",
+      "note": "由‘匹偶、对手’意引申为‘敌对、仇恨’。该意义转变大约在先秦两汉时期开始。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "conversion",
+      "note": "由本义转为姓氏用法，常见汉字用义。"
+    }
+  ]
+}

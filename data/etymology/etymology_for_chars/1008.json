@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古代养禽兽植树木的地方，多指帝王的花园或狩猎园。",
+      "examples": [
+        "鹿苑",
+        "御苑",
+        "苑囿"
+      ],
+      "traditional_char": "苑"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "学术、文艺荟萃的地方。",
+      "examples": [
+        "文苑",
+        "艺苑",
+        "学苑"
+      ],
+      "traditional_char": "苑"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [],
+      "traditional_char": "苑"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从艸，夗声，最初指养禽兽植树木的园林。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "因园林为才艺荟萃之地，比喻学术、文艺聚集。约中古以后出现。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "reanalysis",
+      "note": "地名或官名转化为姓氏。"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "与死人有关的事务或礼仪",
+      "examples": [
+        "丧事",
+        "丧礼",
+        "治丧",
+        "吊丧"
+      ],
+      "traditional_char": "喪"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "丢掉，失去",
+      "examples": [
+        "丧失",
+        "丧生",
+        "丧权辱国",
+        "丧尽天良"
+      ],
+      "traditional_char": "喪"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "情绪低落，精神委靡（比喻）",
+      "examples": [
+        "丧气",
+        "颓丧",
+        "懊丧",
+        "沮丧"
+      ],
+      "traditional_char": "喪"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“喪”为形声字，从“桑”，声符“桑”，意指与死亡和丧礼相关。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由失去亲人（丧事）引申为泛指‘失去’的行为。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "失去勇气或精神，引申为情绪低落。"
+    }
+  ]
+}

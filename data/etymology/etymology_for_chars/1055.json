@@ -1,0 +1,68 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "坟冢",
+      "examples": [
+        "生王之头，曾不若死士之垄也"
+      ],
+      "traditional_char": "壟"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "田地中高起用于分界的埂子",
+      "examples": [
+        "田垄",
+        "垄沟"
+      ],
+      "traditional_char": "壟"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "种植作物的行或行与行之间的间隔地带",
+      "examples": [
+        "宽垄密植"
+      ],
+      "traditional_char": "壟"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "像垄一样的东西",
+      "examples": [
+        "瓦垄"
+      ],
+      "traditional_char": "壟"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从土，龙声。本义为坟冢。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由坟丘形状比喻为田埂，高起之物。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由田埂引申为作物的种植行或空地。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "田垄高起的形态转喻为一般高起物体，如瓦垄。"
+    }
+  ]
+}

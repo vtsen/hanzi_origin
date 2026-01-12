@@ -1,0 +1,73 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "用战车围成的营垒（古义）",
+      "examples": [
+        "军，营也。——《说文》",
+        "陈于四面为军。——《礼记·檀弓》"
+      ],
+      "traditional_char": "軍"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "武装部队，即军队",
+      "examples": [
+        "军威",
+        "行军",
+        "军服",
+        "兵马未动，粮草先行"
+      ],
+      "traditional_char": "軍"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "军队的编制单位，是“师”的上一级",
+      "examples": [
+        "第38军",
+        "某某野战军"
+      ],
+      "traditional_char": "軍"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "（比喻）有组织的集体",
+      "examples": [
+        "劳动大军",
+        "科技大军"
+      ],
+      "traditional_char": "軍"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "“軍”金文为会意字，从车，从勹，表示用战车包围形成营垒。本义为‘军营’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘营垒’、‘军营’扩展指‘军队’整体，西周春秋通用"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_narrowing",
+      "note": "专指军队中的编制单元；近现代军制专用"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由‘军队’喻指有组织的集体，现代常用"
+    }
+  ]
+}

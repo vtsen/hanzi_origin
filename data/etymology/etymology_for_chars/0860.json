@@ -1,0 +1,88 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "极细碎的石粒",
+      "examples": [
+        "沙子",
+        "风沙",
+        "沙丘",
+        "泥沙俱下"
+      ],
+      "traditional_char": "沙"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "像沙子一样细碎的颗粒物或粉末",
+      "examples": [
+        "砂糖",
+        "豆沙",
+        "沙瓤"
+      ],
+      "traditional_char": "沙"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "声音不清脆、不响亮，有沙哑感",
+      "examples": [
+        "声音沙哑"
+      ],
+      "traditional_char": "沙"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "通过摇动使杂质集中好去除",
+      "examples": [
+        "沙米",
+        "沙谷子"
+      ],
+      "traditional_char": "沙"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "沙孟海"
+      ],
+      "traditional_char": "沙"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意字，从“水”与“少”组合，本义指细碎的石粒。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "以沙为喻，引申为一切像沙子那样细碎的颗粒。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由颗粒细碎引申为声音沙哑，比喻声音有杂质、嘶哑。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "与沙有关的行为，引申为通过摇动清除杂物的动作。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "本义作为姓氏用，属于以物为姓的习惯。"
+    }
+  ]
+}

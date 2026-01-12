@@ -1,0 +1,103 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "抱，双臂环绕住。",
+      "examples": [
+        "拥抱",
+        "母亲把孩子拥在怀里。"
+      ],
+      "traditional_char": "擁"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "围着，簇拥。",
+      "examples": [
+        "前呼后拥",
+        "群众把他团团拥住。"
+      ],
+      "traditional_char": "擁"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "推举，爱护。",
+      "examples": [
+        "拥戴",
+        "人民拥护自己的领袖。"
+      ],
+      "traditional_char": "擁"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "聚到一块，挤在一起。",
+      "examples": [
+        "拥挤",
+        "客厅里人们簇拥在一起。"
+      ],
+      "traditional_char": "擁"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "具有，拥有。",
+      "examples": [
+        "拥有",
+        "他拥有人们羡慕的一切。"
+      ],
+      "traditional_char": "擁"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "遮蔽，阻塞。",
+      "examples": [
+        "拥塞",
+        "山林拥蔽道路。"
+      ],
+      "traditional_char": "擁"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从手，雍声，表示用手拥抱。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由双臂环绕（抱）引申为围着、簇拥。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "“围着”发展为“聚到一块、拥挤”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "“拥抱”比喻为推举、爱护。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "从“抱”引申为拥有、具有。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "“拥抱”之势引申为遮蔽、阻塞。"
+    }
+  ]
+}

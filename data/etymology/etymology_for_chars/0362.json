@@ -1,0 +1,52 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "危险，危殆之意，同“岌”。",
+      "examples": [
+        "殆哉圾乎天下。（《庄子·天地》）",
+        "夫舜见瞽叟孰然，此时天下圾乎。（《墨子·非儒下》）"
+      ],
+      "traditional_char": "圾"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "土块。",
+      "examples": [],
+      "traditional_char": "圾"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "垃圾，尘土和被丢弃的东西。",
+      "examples": [
+        "垃圾",
+        "圾碎"
+      ],
+      "traditional_char": "圾"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从土，及声。本作‘危、危险’之意，后义扩展。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘危险’引申为不稳的土块，这在古汉语中常见。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由‘土块’进一步扩展指污秽、弃物，现代多用于‘垃圾’。"
+    }
+  ]
+}

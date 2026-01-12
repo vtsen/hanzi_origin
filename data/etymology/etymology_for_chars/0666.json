@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "一种可食用的水生或湿地草本植物，茎叶可食，用作蔬菜，亦称“水芹”，又有旱芹、药芹等。",
+      "examples": [
+        "言采其芹。——《诗·小雅·采菽》",
+        "菜之美者，云梦之芹。——《吕氏春秋·本味》",
+        "芹菹兔醢。——《周礼·醢人》"
+      ],
+      "traditional_char": "芹"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "谦辞，指自己所献或所赠的微薄之物（如“芹献”）、微薄情意（如“芹意”）。",
+      "examples": [
+        "邀兄到敝斋一饮，不知可纳芹意否？——《红楼梦》"
+      ],
+      "traditional_char": "芹"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "指有才学之士，或贡士，源自“芹藻”的比喻。",
+      "examples": [
+        "芹藻：古代喻贡士或有才学之士"
+      ],
+      "traditional_char": "芹"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“芹”从“艸”表示植物，‘斤’声。最初表示‘楚葵’或今水芹菜，形声字。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "以芹菜为礼物自谦，转指谦辞为“微薄”之意，汉代已见。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由芹的谦辞引申，比喻有才学之士，见于科举及文人用语。"
+    }
+  ]
+}

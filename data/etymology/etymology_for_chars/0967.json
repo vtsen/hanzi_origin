@@ -1,0 +1,70 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "转弯，改变方向",
+      "examples": [
+        "拐弯",
+        "往左拐"
+      ],
+      "traditional_char": "拐"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "欺骗，诱骗",
+      "examples": [
+        "拐骗",
+        "拐卖儿童"
+      ],
+      "traditional_char": "拐"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "走路不稳，跛行",
+      "examples": [
+        "他走路一拐一拐的"
+      ],
+      "traditional_char": "拐"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "行走时帮助支撑身体的棍子，拐杖",
+      "examples": [
+        "拐棍",
+        "双拐"
+      ],
+      "traditional_char": "拐"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从手， ‘夬’声，本义与手的转动、转折有关。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "“转弯”引申为“使人走弯路”，即欺骗，意转引申。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由“转弯”引申为行动不直，走路不正常，表现为一拐一拐。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "“跛行”需借助拐杖，故“拐”引申为拐棍。"
+    }
+  ]
+}

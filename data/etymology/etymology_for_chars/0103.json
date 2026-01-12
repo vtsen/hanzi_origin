@@ -1,0 +1,72 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "艰难，困难",
+      "examples": [
+        "屯蹇不进",
+        "前途屯蹇"
+      ],
+      "traditional_char": "屯"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "聚集，储存",
+      "examples": [
+        "屯粮",
+        "屯积",
+        "兵马云屯"
+      ],
+      "traditional_char": "屯"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "驻军防守",
+      "examples": [
+        "屯兵边境",
+        "关外屯垦"
+      ],
+      "traditional_char": "屯"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "村庄",
+      "examples": [
+        "屯子",
+        "皇姑屯"
+      ],
+      "traditional_char": "屯"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意字，由“屮”表示草木初生，“一”为地，初义为艰难、草木初生艰难之象。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“艰难初生”引申为“聚集、积聚”；古义向动态聚集过渡。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "军队集结“屯”，引申为驻军防守。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "驻军之地演变为村庄义；因屯兵地常发展为定居点。"
+    }
+  ]
+}

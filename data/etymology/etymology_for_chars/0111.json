@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "说，说道",
+      "examples": [
+        "子曰：‘学而时习之。’",
+        "《诗经》曰：‘关关雎鸠。’"
+      ],
+      "traditional_char": "曰"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "称为，是",
+      "examples": [
+        "一曰水，二曰火。",
+        "凡乐辞曰诗。"
+      ],
+      "traditional_char": "曰"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "particle",
+      "meaning": "语助词，无实义",
+      "examples": [
+        "昊天曰明。"
+      ],
+      "traditional_char": "曰"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "simple_indicative",
+      "original_sense_index": 0,
+      "note": "指事字，甲骨文象口，上横表示出声气，表示‘说’的意思。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由‘说出’引申为‘称为’、‘叫做’，古今文献均有使用。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "grammaticalization",
+      "note": "由‘称为’进一步虚化为语助词，无实义，用于书面、诗歌语境。"
+    }
+  ]
+}

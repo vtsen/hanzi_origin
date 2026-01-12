@@ -1,0 +1,72 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "堤坝，阻隔水流的设施",
+      "examples": [
+        "以防止水",
+        "防堤"
+      ],
+      "traditional_char": "防"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "戒备，预先作好应急的准备",
+      "examples": [
+        "防备",
+        "预防",
+        "防患未然"
+      ],
+      "traditional_char": "防"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "守卫，防守",
+      "examples": [
+        "边防",
+        "海防",
+        "防守"
+      ],
+      "traditional_char": "防"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "抵得，相当于",
+      "examples": [
+        "百夫之防"
+      ],
+      "traditional_char": "防"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从阜（表示与土、堤坝相关），方为声旁，表示本义为堤坝。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "春秋战国时期，堤坝比喻防备，意指预先阻隔危险。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由一般防备引申为具体守卫、保卫。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "‘防’进一步用于“抵得，相当于”的抽象意义，多见于古文。"
+    }
+  ]
+}

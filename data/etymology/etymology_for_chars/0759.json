@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "雄性的动物或植物，尤指鸟兽或植物的雄株，与“牝”相对。",
+      "examples": [
+        "牡牛",
+        "牡鹿",
+        "牡丹"
+      ],
+      "traditional_char": "牡"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "锁匙或钥匙。",
+      "examples": [
+        "牡钥"
+      ],
+      "traditional_char": "牡"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "丘陵。",
+      "examples": [
+        "牡山"
+      ],
+      "traditional_char": "牡"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从牛，土声，会意兼形声；甲骨文形态有阳性特征，表雄性动物。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "锁匙为阳，锁为阴，有阴阳配对之喻。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "unknown",
+      "note": "语义联系不详，可能因形或其他象征义。"
+    }
+  ]
+}

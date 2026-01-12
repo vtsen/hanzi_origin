@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "方向，指与“南”相对的一方，一般为地理上的北方",
+      "examples": [
+        "北方",
+        "北极星",
+        "北国",
+        "晨起面北"
+      ],
+      "traditional_char": "北"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "打了败仗向北逃，泛指战败逃走",
+      "examples": [
+        "败北"
+      ],
+      "traditional_char": "北"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "背离，违背，违反（“北”假借为“背”）",
+      "examples": [
+        "北风其凉，雨雪其雱（《诗经·邶风》此为借音用）"
+      ],
+      "traditional_char": "北"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "‘北’从两人背对之形，表示背向、相背，后引申为地理方位中的‘北’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "古时军队战败多向北逃，‘北’由方向引申为逃败。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "‘北’假借‘背’字形用作‘违背’、‘背离’义"
+    }
+  ]
+}

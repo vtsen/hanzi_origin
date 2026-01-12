@@ -1,0 +1,120 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "能够，具备能力",
+      "examples": [
+        "克勤克俭",
+        "克己奉公"
+      ],
+      "traditional_char": "克"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "战胜，攻下",
+      "examples": [
+        "攻克堡垒",
+        "克复失地"
+      ],
+      "traditional_char": "克"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "制伏，制服",
+      "examples": [
+        "克服困难",
+        "以柔克刚",
+        "自克其身"
+      ],
+      "traditional_char": "克"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "严格限定（时间、数量）",
+      "examples": [
+        "克日完成",
+        "克期而至",
+        "克扣工钱"
+      ],
+      "traditional_char": "剋"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "消化（食物等）",
+      "examples": [
+        "克食不下",
+        "病后难克食"
+      ],
+      "traditional_char": "剋"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "numeral",
+      "meaning": "公制重量单位或质量单位，一克等于一公斤的千分之一",
+      "examples": [
+        "五百克",
+        "一克黄金"
+      ],
+      "traditional_char": "克"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "中国西藏地方的容量单位或土地面积单位",
+      "examples": [
+        "一克青稞约二十五市斤",
+        "播种一克种子的土地称为一克地"
+      ],
+      "traditional_char": "克"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "pictograph",
+      "original_sense_index": 0,
+      "note": "甲骨文象人肩负重物之形，表示能够承担责任、胜任"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 3,
+      "note": "‘剋’从刀，表示克制、约束，有切割引申义"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘能够、胜任’引申为‘能够战胜’"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由‘战胜’进一步引申为‘克服、制伏’"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "reanalysis",
+      "note": "借用克的简洁性用于计量单位，现代引申"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "reanalysis",
+      "note": "同量词引申到藏地容量单位，近现代用法"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由‘严格限定、克扣’引申为‘消化’"
+    }
+  ]
+}

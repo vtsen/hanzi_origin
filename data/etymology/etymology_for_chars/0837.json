@@ -1,0 +1,76 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "迎接，遇见。",
+      "examples": [
+        "其友乃往这之。"
+      ],
+      "traditional_char": "這"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "pronoun",
+      "meaning": "指较近的时间、地点或事物，与“那”相对。",
+      "examples": [
+        "这里。",
+        "这个。",
+        "这些。"
+      ],
+      "traditional_char": "這"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "pronoun",
+      "meaning": "说话的当前时间；这时候。",
+      "examples": [
+        "他这就来。"
+      ],
+      "traditional_char": "這"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "pronoun",
+      "meaning": "“这（zhè）一”的合音，用于数量词前，数量不限于一。",
+      "examples": [
+        "这几个。",
+        "这点儿。",
+        "这些年。"
+      ],
+      "traditional_char": "這"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘這’为形声字，从辵，言声。本义为迎接，遇见。"
+    },
+    {
+      "formation_type": "loan_character",
+      "original_sense_index": 1,
+      "note": "‘这’为简化字，由‘這’简化而来，沿用其语义、语用。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_shift",
+      "note": "由‘迎’发展为指近处的人事，语义转变自中古甚至更早。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由空间指代扩展到时间指代，用于当前时刻。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "analogy",
+      "note": "‘这’+数量词的合音，产生量词前的指代形式。"
+    }
+  ]
+}

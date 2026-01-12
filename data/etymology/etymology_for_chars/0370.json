@@ -1,0 +1,68 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "多年生草本植物，地下有肉质球茎，俗称“芋艿”、“芋头”，可食用或药用。",
+      "examples": [
+        "芋艿味美，宜作蔬食。",
+        "乡里多种芋头以备饥荒。"
+      ],
+      "traditional_char": "芋"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "“马铃薯”的别称，常用于“洋芋”。",
+      "examples": [
+        "云南人称土豆为‘洋芋’。"
+      ],
+      "traditional_char": "芋"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "“甘薯”的别称，常用于“山芋”。",
+      "examples": [
+        "山芋味甜，蒸煮皆宜。"
+      ],
+      "traditional_char": "芋"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "“荸荠”的别称，常用于“乌芋”。",
+      "examples": [
+        "乌芋可生食，亦可煮熟。"
+      ],
+      "traditional_char": "芋"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从艸表示植物，于为声符，最初指芋艿类植物。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "近现代地方用语，将‘芋’泛称用于‘马铃薯’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "‘芋’在部分地区转指‘甘薯’，实属名称泛化。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "以‘芋’为‘荸荠’代称，是实物名称移用的结果。"
+    }
+  ]
+}

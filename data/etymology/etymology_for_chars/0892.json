@@ -1,0 +1,167 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "知道；懂得；理解",
+      "examples": [
+        "君子是识。",
+        "壹宥曰不识。",
+        "不识有诸?"
+      ],
+      "traditional_char": "識"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "认识；认得；辨认",
+      "examples": [
+        "儿童相见不相识，笑问客从何处来。",
+        "仲永生五年，未尝识书具。",
+        "莫愁前路无知己，天下谁人不识君!"
+      ],
+      "traditional_char": "識"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "赏识；鉴别价值",
+      "examples": [
+        "林识拔同郡王经于民户之中，卒为民士。",
+        "识举（赏识并举用）"
+      ],
+      "traditional_char": "識"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "辨别，识别",
+      "examples": [
+        "新妇识马声，蹑履相逢迎。",
+        "何用识夫婿?白马从骊驹。"
+      ],
+      "traditional_char": "識"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "知识；见识",
+      "examples": [
+        "非学无以致疑，非问无以广识。",
+        "贾生志大而量小，才有余而识不足也。"
+      ],
+      "traditional_char": "識"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "思想；意识",
+      "examples": [
+        "阮公虽沦迹，识密鉴亦洞。"
+      ],
+      "traditional_char": "識"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "知交，朋友",
+      "examples": [
+        "异乡无旧识，车马到门稀。"
+      ],
+      "traditional_char": "識"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "verb",
+      "meaning": "记住，铭记（同“志”，通用）",
+      "examples": [
+        "默而识之。",
+        "小子识之，苛政猛于虎也。"
+      ],
+      "traditional_char": "識"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "noun",
+      "meaning": "标志，记号",
+      "examples": [
+        "以龙熊鸟雀为识。",
+        "讫无文号旌旗表识，咸怪异之。"
+      ],
+      "traditional_char": "識"
+    },
+    {
+      "index": 9,
+      "part_of_speech": "verb",
+      "meaning": "加标记（做标志）",
+      "examples": [
+        "其间有未便于人情、未安于圣心者，莫不朱黄识之。",
+        "一路采筍，盈握则置路隅，以识来径。"
+      ],
+      "traditional_char": "識"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从言，戠声，表示‘知道，懂得’。言表示与语言、认识相关，戠为声旁。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘知道’扩展为‘认识、认得’；可能因‘懂得’事物而能辨认，东周至汉。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由‘认识’引申为‘赏识、识别人的能力’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由‘知道’扩展为‘辨别’、‘识别’；通过对事物的理解而能区分。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由动词‘知道、理解’名词化为‘知识、见识’，汉代。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "‘知识’扩展为‘思想、意识’，多见佛教用语及文学用法。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 6,
+      "evolution_type": "metonymy",
+      "note": "由‘相认识’引申为‘相知的朋友’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 7,
+      "evolution_type": "semantic_shift",
+      "note": "‘知道’发展为‘记住、铭记’；通‘志’。"
+    },
+    {
+      "source_index": 7,
+      "target_index": 8,
+      "evolution_type": "metonymy",
+      "note": "由‘记住’引申为‘标志、记号’。"
+    },
+    {
+      "source_index": 8,
+      "target_index": 9,
+      "evolution_type": "conversion",
+      "note": "‘标志’名词转化为‘做标记’动词。"
+    }
+  ]
+}

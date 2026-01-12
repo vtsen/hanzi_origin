@@ -1,0 +1,57 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "成团、成疙瘩的东西，多指土块等实物。",
+      "examples": [
+        "土块儿",
+        "石块",
+        "一块泥巴"
+      ],
+      "traditional_char": "塊"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "measure_word",
+      "meaning": "量词，用于块状或某些片状的东西。",
+      "examples": [
+        "一块地",
+        "两块糖",
+        "三块蛋糕"
+      ],
+      "traditional_char": "塊"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "measure_word",
+      "meaning": "量词，用于计量货币，指银元或人民币元。",
+      "examples": [
+        "一块钱",
+        "十块人民币"
+      ],
+      "traditional_char": "塊"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“塊”为形声字，从土，鬼声，表示土块。最早作“凷”属会意，后改为形声。简化为‘块’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "grammaticalization",
+      "note": "由具体名词“土块”等引申为量词，表示有分块形态的物品。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "因货币由银块铸成或以块状物为计数单位，引申为钱币单位用法。"
+    }
+  ]
+}

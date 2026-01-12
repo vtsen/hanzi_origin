@@ -1,0 +1,58 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "险要的地方",
+      "examples": [
+        "马陵道狭，而旁多阻隘。",
+        "因山有阻，守备森严。"
+      ],
+      "traditional_char": "阻"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "拦挡，阻止",
+      "examples": [
+        "阻挡",
+        "阻隔",
+        "劝阻",
+        "阻挠",
+        "阻击"
+      ],
+      "traditional_char": "阻"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "艰难，困难",
+      "examples": [
+        "道阻且长",
+        "前路阻难"
+      ],
+      "traditional_char": "阻"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从“阜”表意，表示与山险、障碍相关；“且”表声，最初表示险要的地方。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由‘险要的地方’引申为‘拦挡’，以地形障碍为例，战国、汉已有用法。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "从‘拦挡’引申为‘艰难’，表示因阻拦而变得困难，属意义扩展。"
+    }
+  ]
+}

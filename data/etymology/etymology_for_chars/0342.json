@@ -1,0 +1,174 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "高平的建筑物或人工高地，如平台、戏台等。",
+      "examples": [
+        "亭台楼阁",
+        "戏台"
+      ],
+      "traditional_char": "臺"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "器物的座子、底座或承载物。",
+      "examples": [
+        "井台",
+        "窗台",
+        "灯台"
+      ],
+      "traditional_char": "臺"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "敬辞，用于称呼对方或与对方有关的事物。",
+      "examples": [
+        "台鉴",
+        "台甫"
+      ],
+      "traditional_char": "臺"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "measure_word",
+      "meaning": "用于机器、设备、戏剧等的量词。",
+      "examples": [
+        "一台电视",
+        "一台戏"
+      ],
+      "traditional_char": "臺"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "台湾省的简称。",
+      "examples": [
+        "台胞",
+        "台币"
+      ],
+      "traditional_char": "臺"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "姓。",
+      "examples": [],
+      "traditional_char": "台"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "桌子、案子。",
+      "examples": [
+        "写字台"
+      ],
+      "traditional_char": "檯"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "noun",
+      "meaning": "发生在太平洋西部热带海洋上的猛烈风暴（台风）。",
+      "examples": [
+        "台风来袭"
+      ],
+      "traditional_char": "颱"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "noun",
+      "meaning": "（台/tāi）山名或地名。",
+      "examples": [
+        "天台山"
+      ],
+      "traditional_char": "台"
+    },
+    {
+      "index": 9,
+      "part_of_speech": "other",
+      "meaning": "喜悦。",
+      "examples": [],
+      "traditional_char": "台"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 9,
+      "note": "小篆形声字，从口，以声，本义为“喜悦”。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "臺为异体字，有高平之台义，结构复杂（上为苔，下为至、口），源自“台”的本字，并加强意符。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 6,
+      "note": "檯，形声字，从木，台声，表示“桌案”。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 7,
+      "note": "颱为合音转借字，从风，台声，专用于“台风”。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 9,
+      "target_index": 0,
+      "evolution_type": "semantic_shift",
+      "note": "汉代以后，由“喜悦”意义转为高平之建筑，比喻高台可观可喜。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“高平建筑”、本体扩展为器物承载物之义。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "amelioration",
+      "note": "作为敬辞，由“高台”象征尊贵演变。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "grammaticalization",
+      "note": "“台”用于表数量，量词化。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "以“台”代指台湾省，地名借用。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "“台”用于姓氏，为实词用名。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 6,
+      "evolution_type": "semantic_extension",
+      "note": "由器物台座衍生为桌案。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 7,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "“台风”一词源自外来词，音译字。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 8,
+      "evolution_type": "semantic_extension",
+      "note": "用作地名、山名。"
+    }
+  ]
+}

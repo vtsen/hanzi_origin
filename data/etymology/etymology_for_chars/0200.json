@@ -1,0 +1,50 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "草的总称",
+      "examples": [
+        "奇花异卉"
+      ],
+      "traditional_char": "卉"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "花",
+      "examples": [
+        "奇卉怪草"
+      ],
+      "traditional_char": "卉"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "other",
+      "meaning": "姓氏",
+      "examples": [],
+      "traditional_char": "卉"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "小篆从三“屮”组成，会意字，表示草木丛生。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由草的总称引申为花，见于后世用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "unknown",
+      "note": "由普通名词引申为姓氏，机制不明。"
+    }
+  ]
+}

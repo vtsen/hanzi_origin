@@ -1,0 +1,136 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "用手臂围住。",
+      "examples": [
+        "拥抱",
+        "抱小孩儿",
+        "合抱",
+        "抱残守缺"
+      ],
+      "traditional_char": "抱"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "围绕，环绕。",
+      "examples": [
+        "山环水抱",
+        "抱厦"
+      ],
+      "traditional_char": "抱"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "胸怀愿望，志向。",
+      "examples": [
+        "抱负"
+      ],
+      "traditional_char": "抱"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "心里存着，怀有（情感、意见等）。",
+      "examples": [
+        "抱怨",
+        "抱恨",
+        "抱歉",
+        "抱憾",
+        "抱病"
+      ],
+      "traditional_char": "抱"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "密合。",
+      "examples": [
+        "衣服抱身儿"
+      ],
+      "traditional_char": "抱"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "把他人的子女收养为自己的子女。",
+      "examples": [
+        "抱养"
+      ],
+      "traditional_char": "抱"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "measure_word",
+      "meaning": "表示两臂合围的量。",
+      "examples": [
+        "一抱草"
+      ],
+      "traditional_char": "抱"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "verb",
+      "meaning": "孵（小鸡、雏鸟等）。",
+      "examples": [
+        "抱窝",
+        "抱小鸡"
+      ],
+      "traditional_char": "抱"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从手，包声。表义部件“手”表示与手的动作有关，“包”作声旁，原指用手臂围住。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "以手臂环抱之动作比喻自然环境的围绕。如“山环水抱”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由实际动作转义为内心怀抱志向（胸怀理想）。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由物理性环抱引申为心理上怀有情感或事物。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由手臂围住引申为物体彼此密合。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "metaphor",
+      "note": "以环抱、持有引申为收养他人子女。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "grammaticalization",
+      "note": "由动作名词化，作为表示合抱量词使用。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 7,
+      "evolution_type": "metaphor",
+      "note": "由用手臂拥抱引申为鸟禽环抱孵卵。"
+    }
+  ]
+}

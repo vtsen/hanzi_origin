@@ -1,0 +1,140 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "工作人员或学习的人",
+      "examples": [
+        "员工",
+        "教员",
+        "演员"
+      ],
+      "traditional_char": "員"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "组织、团体中的成员",
+      "examples": [
+        "成员",
+        "团员",
+        "党员",
+        "会员"
+      ],
+      "traditional_char": "員"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "数量、数额（本义）",
+      "examples": [
+        "员数",
+        "定员"
+      ],
+      "traditional_char": "員"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "周围，四周",
+      "examples": [
+        "幅员辽阔"
+      ],
+      "traditional_char": "員"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "measure_word",
+      "meaning": "量词，指武将等一名",
+      "examples": [
+        "一员猛将"
+      ],
+      "traditional_char": "員"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "增加",
+      "examples": [],
+      "traditional_char": "員"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "particle",
+      "meaning": "表示语气",
+      "examples": [],
+      "traditional_char": "員"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "noun",
+      "meaning": "古人名用字",
+      "examples": [],
+      "traditional_char": "員"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [],
+      "traditional_char": "員"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 2,
+      "note": "“員”小篆作形声字，从贝，口声，最初表数量、数额；甲骨文作会意，俯视鼎口为圆形。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 2,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "由数量扩展为指单位人员，早见秦汉用法"
+    },
+    {
+      "source_index": 2,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由基本数量义引申为团体成员"
+    },
+    {
+      "source_index": 2,
+      "target_index": 4,
+      "evolution_type": "function_word",
+      "note": "数量义进一步转为量词，泛指一人"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由计数引申为范围、周边"
+    },
+    {
+      "source_index": 2,
+      "target_index": 8,
+      "evolution_type": "semantic_shift",
+      "note": "本义用作姓氏"
+    },
+    {
+      "source_index": 2,
+      "target_index": 5,
+      "evolution_type": "semantic_shift",
+      "note": "数量义转为动词‘增加’"
+    },
+    {
+      "source_index": 5,
+      "target_index": 6,
+      "evolution_type": "grammaticalization",
+      "note": "动词‘增加’语法化为语气词"
+    },
+    {
+      "source_index": 2,
+      "target_index": 7,
+      "evolution_type": "unknown",
+      "note": "具体人名用法来源未明"
+    }
+  ]
+}

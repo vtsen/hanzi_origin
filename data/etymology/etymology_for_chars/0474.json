@@ -1,0 +1,58 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "相似，好像",
+      "examples": [
+        "仿像",
+        "二者相仿",
+        "仿佛"
+      ],
+      "traditional_char": "仿"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "效法，模仿，照着做",
+      "examples": [
+        "仿效",
+        "仿古",
+        "仿冒"
+      ],
+      "traditional_char": "仿"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "依照范本书写的字",
+      "examples": [
+        "仿影",
+        "仿书",
+        "仿宋"
+      ],
+      "traditional_char": "仿"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从人，方声，表示人像某物，本义为相似。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "“相似”引申为“模仿、效法”，汉语常见现象。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "从动词“仿（模仿）”发展为名词“仿字、仿本”，属名物化用法。"
+    }
+  ]
+}

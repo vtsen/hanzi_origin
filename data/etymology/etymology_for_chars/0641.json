@@ -1,0 +1,85 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "压，按，向下压制，用力使物降低或不升起。",
+      "examples": [
+        "抑制情绪",
+        "抑扬顿挫",
+        "压抑",
+        "强者抑弱"
+      ],
+      "traditional_char": "抑"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "忧闷，内心郁结不舒畅。",
+      "examples": [
+        "抑郁寡欢",
+        "郁郁抑塞"
+      ],
+      "traditional_char": "抑"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "conjunction",
+      "meaning": "文言连词，表示选择或转折，相当于“或是”、“可是”。",
+      "examples": [
+        "抑或他人",
+        "多则多矣，抑君似鼠"
+      ],
+      "traditional_char": "抑"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "particle",
+      "meaning": "文言发语词，用于句首无实义。",
+      "examples": [
+        "抑齐人不盟，若之何"
+      ],
+      "traditional_char": "抑"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "interjection",
+      "meaning": "古同“噫”，叹词，表示感叹。",
+      "examples": [],
+      "traditional_char": "抑"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“抑”为形声字，从手，邑声，本义为用手压制，向下按。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由动作上的压制引申为情绪的压抑，产生忧郁之意。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "动词意义由“压制”转化为文言中的选择、转折连词用法，具体过程有待进一步考证。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "grammaticalization",
+      "note": "连词进一步虚化，演变为文言发语词。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "unknown",
+      "note": "“抑”通“噫”用作叹词，具体演变机制不详，疑因音近通假。"
+    }
+  ]
+}

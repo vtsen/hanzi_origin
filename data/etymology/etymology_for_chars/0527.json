@@ -1,0 +1,69 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "关门，把门合起来",
+      "examples": [
+        "闭门",
+        "将门闭上"
+      ],
+      "traditional_char": "閉"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "结束，停止（如会议、幕、市场等）",
+      "examples": [
+        "闭会",
+        "闭幕",
+        "闭市"
+      ],
+      "traditional_char": "閉"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "堵塞，不通",
+      "examples": [
+        "闭气",
+        "闭塞"
+      ],
+      "traditional_char": "閉"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [],
+      "traditional_char": "閉"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "‘閉’为会意字，从門，从才。‘才’象征用来关门的木栓，本义为关门。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由关门引申为结束、停止，常见于各类场合。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "门被关则不通，比喻引申为堵塞、闭塞等含义。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "unknown",
+      "note": "作姓氏的由来未详，可能源于地名、官名等。"
+    }
+  ]
+}

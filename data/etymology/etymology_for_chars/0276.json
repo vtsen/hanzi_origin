@@ -1,0 +1,85 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "儿子，小孩。",
+      "examples": [
+        "甲骨文中‘仔’指小孩。"
+      ],
+      "traditional_char": "仔"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "幼小的动物（多指家畜，如小鸡、小猪等）。",
+      "examples": [
+        "小猪仔",
+        "小鸡仔"
+      ],
+      "traditional_char": "仔"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "崽，幼崽。",
+      "examples": [
+        "牛仔",
+        "羊仔"
+      ],
+      "traditional_char": "仔"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "细致，周密。",
+      "examples": [
+        "办事仔细",
+        "心思很仔细"
+      ],
+      "traditional_char": "仔"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "所担负的职务。",
+      "examples": [
+        "仔肩"
+      ],
+      "traditional_char": "仔"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从人从子，子亦声，形声兼会意，本义为小孩。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘小孩’泛化为‘幼小的动物’，古今语义扩展。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "analogy",
+      "note": "‘仔’借用于‘崽’，方言及日常语中常见，义近通用。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "由对儿童办事需仔细引申为‘细致’。具体转化年代不详。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "reanalysis",
+      "note": "‘仔肩’本作‘子肩’，后以‘仔’为借用字，义为‘职务’。"
+    }
+  ]
+}

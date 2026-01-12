@@ -1,0 +1,157 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "闭合，对拢，合拢",
+      "examples": [
+        "合眼",
+        "合抱",
+        "珠连璧合"
+      ],
+      "traditional_char": "合"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "聚集，集合在一起",
+      "examples": [
+        "合力",
+        "合办",
+        "合股",
+        "合资"
+      ],
+      "traditional_char": "合"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "相符，符合，不违背",
+      "examples": [
+        "合格",
+        "合法",
+        "情投意合"
+      ],
+      "traditional_char": "合"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "auxiliary",
+      "meaning": "应该，应当",
+      "examples": [
+        "合该",
+        "合当",
+        "文章合为时而著"
+      ],
+      "traditional_char": "合"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "全体，总共",
+      "examples": [
+        "合家欢乐"
+      ],
+      "traditional_char": "合"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "计，折算",
+      "examples": [
+        "合多少钱"
+      ],
+      "traditional_char": "合"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "中国古代乐谱的记音符号，相当于简谱中的低音“5”",
+      "examples": [],
+      "traditional_char": "合"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "noun",
+      "meaning": "中国市制容量单位，一升的十分之一",
+      "examples": [],
+      "traditional_char": "合"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "noun",
+      "meaning": "旧时量粮食的器具，容量为一合，木或竹制，方形或圆筒形",
+      "examples": [],
+      "traditional_char": "合"
+    },
+    {
+      "index": 9,
+      "part_of_speech": "noun",
+      "meaning": "门小启曰“閤”，引申为房舍名",
+      "examples": [],
+      "traditional_char": "閤"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "“合”会意字，从亼、口，表示三面合拢，中间闭口，表达闭合之意。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 9,
+      "note": "“閤”形声字，从门，合声，本义为门的小开口，后指房舍名。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从合拢引申为聚集，早见于先秦。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由合拢之合，比喻事物间适合、相符。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "grammaticalization",
+      "note": "“合”由实义动词虚化为表应当的助动词。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "部分合为整体，指全体、总共。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "由总共引申为计算、合计。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "unknown",
+      "note": "合作为音乐记谱符号，演变机制未详。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 7,
+      "evolution_type": "semantic_extension",
+      "note": "由“聚合”引申指容量单位。"
+    },
+    {
+      "source_index": 7,
+      "target_index": 8,
+      "evolution_type": "metonymy",
+      "note": "容量单位引申为量器名称。"
+    }
+  ]
+}

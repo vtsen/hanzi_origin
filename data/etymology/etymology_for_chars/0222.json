@@ -1,0 +1,220 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "平坦，不倾斜，无凹凸，像静止的水面一样",
+      "examples": [
+        "平地",
+        "平面",
+        "平原"
+      ],
+      "traditional_char": "平"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "均等，分布一致",
+      "examples": [
+        "平分",
+        "平行",
+        "公平合理"
+      ],
+      "traditional_char": "平"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "高度相同，不相上下",
+      "examples": [
+        "平列",
+        "平局",
+        "平辈"
+      ],
+      "traditional_char": "平"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "安定，安静",
+      "examples": [
+        "平安",
+        "平服"
+      ],
+      "traditional_char": "平"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "镇压，治理",
+      "examples": [
+        "平定"
+      ],
+      "traditional_char": "平"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "抑制（怒气）",
+      "examples": [
+        "他把气平了下去"
+      ],
+      "traditional_char": "平"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "和好，言和",
+      "examples": [
+        "宋人及楚人平"
+      ],
+      "traditional_char": "平"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "adjective",
+      "meaning": "普通的，一般的",
+      "examples": [
+        "平民",
+        "平庸",
+        "平价",
+        "平凡"
+      ],
+      "traditional_char": "平"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "adverb",
+      "meaning": "往常，一向，从来",
+      "examples": [
+        "平生",
+        "平素"
+      ],
+      "traditional_char": "平"
+    },
+    {
+      "index": 9,
+      "part_of_speech": "noun",
+      "meaning": "汉语四声之一：平声",
+      "examples": [
+        "平仄"
+      ],
+      "traditional_char": "平"
+    },
+    {
+      "index": 10,
+      "part_of_speech": "other",
+      "meaning": "姓氏",
+      "examples": [],
+      "traditional_char": "平"
+    },
+    {
+      "index": 11,
+      "part_of_speech": "noun",
+      "meaning": "〔平假名〕日本文所用的草书字母",
+      "examples": [],
+      "traditional_char": "平"
+    },
+    {
+      "index": 12,
+      "part_of_speech": "verb",
+      "meaning": "古同“评”，评议",
+      "examples": [],
+      "traditional_char": "平"
+    },
+    {
+      "index": 13,
+      "part_of_speech": "other",
+      "meaning": "语气平和舒顺",
+      "examples": [],
+      "traditional_char": "平"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "simple_indicative",
+      "original_sense_index": 13,
+      "note": "小篆字形为指事，“于”表示气受阻越过，“八”为分散之意，表达气平和顺畅。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 13,
+      "target_index": 0,
+      "evolution_type": "metaphor",
+      "note": "由语气平和比喻事物表面平坦，出现于早期文献。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由平坦引申为均等、分布一致。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "均等进一步引申为高度相同，不分上下。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 7,
+      "evolution_type": "semantic_extension",
+      "note": "均等引申为普通、一般。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "表面平静引申为安定、安静。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "安定引申为平定、镇压。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 5,
+      "evolution_type": "metaphor",
+      "note": "安定引申为使情绪平静。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 6,
+      "evolution_type": "semantic_extension",
+      "note": "安定进一步引申为和好。"
+    },
+    {
+      "source_index": 7,
+      "target_index": 8,
+      "evolution_type": "semantic_extension",
+      "note": "普通引申为一向、往常。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 9,
+      "evolution_type": "metaphor",
+      "note": "平坦引申为声调平直，用于音韵术语。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 10,
+      "evolution_type": "function_word",
+      "note": "地名、人名转为姓氏，中国古代姓氏常源于地形。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 11,
+      "evolution_type": "metaphor",
+      "note": "平坦、直引申为日本假名的名称。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 12,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "古音通“评”，用作评议。"
+    }
+  ]
+}

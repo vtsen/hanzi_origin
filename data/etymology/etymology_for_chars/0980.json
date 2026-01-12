@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "尘土或扔掉的脏东西（垃圾）的一部分，多用于“垃圾”词中。",
+      "examples": [
+        "他把垃圽物扔进垃圾桶。",
+        "清理院子里的垃圾和垃圽物。"
+      ],
+      "traditional_char": "垃"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "土块，多用于“坷垃”（方言中指土块）。",
+      "examples": [
+        "地里全是大坷垃，得用锄头敲碎。",
+        "泥土松了，没有坷垃。"
+      ],
+      "traditional_char": "垃"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "形声字，从土，立声。原指土块（如‘坷垃’），后引申用于垃圾。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "从方言‘坷垃’（土块）引申到‘垃圾’中“垃”，指杂碎、废弃物。"
+    }
+  ]
+}

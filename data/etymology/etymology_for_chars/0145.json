@@ -1,0 +1,85 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "不吉利、不幸",
+      "examples": [
+        "吉凶未卜",
+        "凶信来至"
+      ],
+      "traditional_char": "兇"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "庄稼收成不好，荒年",
+      "examples": [
+        "凶年饥岁"
+      ],
+      "traditional_char": "兇"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "凶暴，凶恶",
+      "examples": [
+        "凶暴之徒",
+        "面目凶相"
+      ],
+      "traditional_char": "兇"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "杀伤、行凶的人",
+      "examples": [
+        "行凶",
+        "帮凶"
+      ],
+      "traditional_char": "兇"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "猛烈，厉害，过甚",
+      "examples": [
+        "雨凶风狂"
+      ],
+      "traditional_char": "兇"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意字，从儿，象人处于地陷之所，表示不吉利。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "以不吉利引申为庄稼收成不好。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由不吉转指有恶意、恶行。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由不吉演变为具体指作恶杀伤之人。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由凶暴、厉害再引申为猛烈、过甚。"
+    }
+  ]
+}

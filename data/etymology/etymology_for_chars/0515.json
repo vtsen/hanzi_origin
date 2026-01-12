@@ -1,0 +1,62 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "祝贺；庆贺",
+      "examples": [
+        "庆祝新年",
+        "举国同庆",
+        "庆贺生日"
+      ],
+      "traditional_char": "慶"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "可祝贺的事，值得庆祝的事情",
+      "examples": [
+        "国庆",
+        "大庆",
+        "校庆"
+      ],
+      "traditional_char": "慶"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "庆氏",
+        "庆先生"
+      ],
+      "traditional_char": "庆"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意。从文、心、鹿皮，表以心意献鹿皮以示贺礼。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "简化字“庆”，从“庆”省文从“广”，声符简化，仍主要表示庆贺义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从动作扩展为可庆贺的事件名。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "conversion",
+      "note": "原意作为姓氏。"
+    }
+  ]
+}

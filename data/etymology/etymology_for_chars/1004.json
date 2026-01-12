@@ -1,0 +1,103 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "浮萍（一种无根漂浮于水面的水生植物）",
+      "examples": [
+        "苹，无根浮水而生者。——《说文》",
+        "湟潦生苹。——《大戴礼记·夏小正》"
+      ],
+      "traditional_char": "蘋"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "藾蕭、蒿类草本植物",
+      "examples": [
+        "呦呦鹿鸣，食野之苹。——《诗·小雅·鹿鸣》"
+      ],
+      "traditional_char": "蘋"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "苹果树或其果实",
+      "examples": [
+        "苹果味甜或略酸，球形，红色或黄色。"
+      ],
+      "traditional_char": "蘋"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "兵车名，用于作战时自蔽之车",
+      "examples": [
+        "苹车之萃。——《周礼·春官·车仆》"
+      ],
+      "traditional_char": "蘋"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "草丛生的样子，茂盛貌",
+      "examples": [
+        "苹苹（草聚集丛生的样子）"
+      ],
+      "traditional_char": "蘋"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "水流回旋、湍急的样子或水声",
+      "examples": [
+        "争湍苹萦，汨活澎濞。"
+      ],
+      "traditional_char": "苹"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“蘋”为形声字，从艸，平声，原指浮水无根之植物，即浮萍。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 5,
+      "note": "“苹”作“澎”之声借，形声字，从艸，声旁为平，表示水声。疑为形声假借现象。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由浮水植物泛指至泛指水边、湿地草本植物，后专指藾蕭、蒿。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "因植物名词泛化，后来用于指代“苹果”等新引进植物。约近现代语义。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "reanalysis",
+      "note": "“苹车”字形音转用，表‘蔽’义，可能因同音通假。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由植物繁茂，再引申为‘丛生’、‘茂盛’的形容词意义。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "unknown",
+      "note": "“苹”作水声或水流回旋貌，可能因音近或表意假借，但具体机制存疑。"
+    }
+  ]
+}

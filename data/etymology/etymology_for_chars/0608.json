@@ -1,0 +1,100 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "距离长，离得很远",
+      "examples": [
+        "远方",
+        "远道",
+        "遥远"
+      ],
+      "traditional_char": "遠"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "时间长，久远",
+      "examples": [
+        "远古",
+        "长远",
+        "永远"
+      ],
+      "traditional_char": "遠"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "关系疏远，不亲密",
+      "examples": [
+        "远亲",
+        "疏远"
+      ],
+      "traditional_char": "遠"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "深奥，难以理解",
+      "examples": [
+        "言近旨远"
+      ],
+      "traditional_char": "遠"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "回避，避开",
+      "examples": [
+        "近君子，远小人"
+      ],
+      "traditional_char": "遠"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [],
+      "traditional_char": "遠"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从辵，袁声。本义指距离长，与‘近’相对。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "从空间距离转喻为时间距离，见于先秦文献。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "空间距离引申为人际关系的疏远。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "具体距离转喻为意义深奥难及。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_shift",
+      "note": "表示回避、远离，意为主动保持距离。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "conversion",
+      "note": "由形容词义转为姓氏用法。"
+    }
+  ]
+}

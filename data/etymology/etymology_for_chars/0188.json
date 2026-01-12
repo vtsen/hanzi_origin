@@ -1,0 +1,153 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "书写，记录，记载",
+      "examples": [
+        "书之于策。",
+        "罄竹难书。"
+      ],
+      "traditional_char": "書"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "著作的成品，书籍",
+      "examples": [
+        "书籍。",
+        "读万卷书。",
+        "买了一本好书。"
+      ],
+      "traditional_char": "書"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "信件",
+      "examples": [
+        "书信。",
+        "家书抵万金。"
+      ],
+      "traditional_char": "書"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "文件",
+      "examples": [
+        "证书。",
+        "说明书。"
+      ],
+      "traditional_char": "書"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "字或写的字",
+      "examples": [
+        "书法。",
+        "写了几个字在书案上。"
+      ],
+      "traditional_char": "書"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "写文章",
+      "examples": [
+        "大书特书。",
+        "为国家大事书之。"
+      ],
+      "traditional_char": "書"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "字体",
+      "examples": [
+        "草书。",
+        "楷书。",
+        "隶书。"
+      ],
+      "traditional_char": "書"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "noun",
+      "meaning": "《尚书》的简称",
+      "examples": [
+        "读《书》。",
+        "《书》曰：‘天命玄鸟。’"
+      ],
+      "traditional_char": "書"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "noun",
+      "meaning": "曲艺形式的通称",
+      "examples": [
+        "说书。",
+        "听书。"
+      ],
+      "traditional_char": "書"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从聿（与书写有关），者声。本义为‘用笔写字，记载’。隶变后形成‘书’简体。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘写、记载’扩大为‘写出来的成品、书籍’。见先秦用例。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由书写引申为‘用来沟通的信件’。汉代已见用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "由‘写’到‘官方所书写的文件’。见汉代用例。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由‘写’引申为‘字’、‘写出来的字迹’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "semantic_narrowing",
+      "note": "从一般‘书写’特指‘写文章’的行为。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 6,
+      "evolution_type": "semantic_extension",
+      "note": "由‘字’进一步引申为‘字体’。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 7,
+      "evolution_type": "semantic_narrowing",
+      "note": "书为‘书籍’，后特指‘尚书’等经典书名。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 8,
+      "evolution_type": "metonymy",
+      "note": "由‘书籍’引申为‘说书’为代表作品的表演形式。"
+    }
+  ]
+}

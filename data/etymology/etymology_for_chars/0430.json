@@ -1,0 +1,75 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "坐垫，车垫",
+      "examples": [
+        "席为因，垫也。（《说文》）",
+        "坐因而安"
+      ],
+      "traditional_char": "因"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "原因，原由，事物发生前的条件",
+      "examples": [
+        "原因",
+        "病因",
+        "因果"
+      ],
+      "traditional_char": "因"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "理由",
+      "examples": [
+        "因为",
+        "无因无故",
+        "因而"
+      ],
+      "traditional_char": "因"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "preposition",
+      "meaning": "依靠，顺着，沿袭",
+      "examples": [
+        "因势利导",
+        "因循守旧",
+        "因此",
+        "因人而异"
+      ],
+      "traditional_char": "因"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意字，从囗（围）与大，象人坐垫上的形状，为“茵”的本字。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由实物“垫子”引申为“原因”，垫子为承受物之物，比喻事物的根由。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由“原因”进一步泛化为“理由”。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "grammaticalization",
+      "note": "从名词“原因”虚化为表依照、顺着的介词用法。"
+    }
+  ]
+}

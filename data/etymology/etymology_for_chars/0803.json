@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "人或动物体内最大的消化腺，有合成与贮存养料、分泌胆汁、解毒等功能",
+      "examples": [
+        "肝脏",
+        "肝炎"
+      ],
+      "traditional_char": "肝"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "中医学指五脏之一",
+      "examples": [
+        "肝火",
+        "肝气"
+      ],
+      "traditional_char": "肝"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从肉，干声，表示肝脏（本义）"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由解剖生理学的肝脏引申为中医学的五脏之一，古今医学体系差异"
+    }
+  ]
+}

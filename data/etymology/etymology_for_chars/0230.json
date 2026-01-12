@@ -1,0 +1,159 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "盛饭或盛食物的器皿",
+      "examples": [
+        "卢，饭器也。——《说文》"
+      ],
+      "traditional_char": "盧"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "黑色，泛指黑色之物",
+      "examples": [
+        "卢弓一。——《书·文侯之命》",
+        "水黑曰卢，不流曰奴。——《水经注·滱水》"
+      ],
+      "traditional_char": "盧"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "酒家安放盛酒器具的土墩子",
+      "examples": [
+        "乃令文君当卢。——《汉书·司马相如传上》"
+      ],
+      "traditional_char": "盧"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "房屋，简陋的房屋；通“庐”",
+      "examples": [
+        "君卢屋妾。——《荀子·富国》"
+      ],
+      "traditional_char": "盧"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "瞳孔，瞳人",
+      "examples": [
+        "玉女无所眺其清卢兮。——《汉书·扬雄传》"
+      ],
+      "traditional_char": "盧"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "头盖骨，头骨；通“颅”",
+      "examples": [
+        "蹶蹄足以破卢陷匈。——《淮南子·修务》"
+      ],
+      "traditional_char": "盧"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "良犬名，古时以黑色为佳，指猎犬",
+      "examples": [
+        "卢令令，其人美且仁。——《诗·齐风·卢令》",
+        "韩氏之卢，天下疾狗也。——《说苑·善说》"
+      ],
+      "traditional_char": "盧"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "noun",
+      "meaning": "鸬鹚，一种黑色水鸟",
+      "examples": [
+        "箴疵鵁盧，群浮乎其上。——《上林赋》"
+      ],
+      "traditional_char": "盧"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "noun",
+      "meaning": "游戏中掷子全黑之彩名",
+      "examples": [
+        "既而四子俱黑，其一子转跃未定，裕厉声喝之，即成卢焉。——《晋书·刘毅传》"
+      ],
+      "traditional_char": "盧"
+    },
+    {
+      "index": 9,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "卢，姓也。"
+      ],
+      "traditional_char": "盧"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从皿，𧆣（虎）声，表示盛饭的器皿。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "因古代盛饭器常为黑色，故泛指黑色。《说文》《水经注》存在解释。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 6,
+      "evolution_type": "metonymy",
+      "note": "以‘黑色’称呼黑色猎犬，因其色而得名。见《诗》《说苑》。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 7,
+      "evolution_type": "metonymy",
+      "note": "以‘黑色’称呼黑色水鸟鸬鹚，因鸟色得名。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 8,
+      "evolution_type": "metonymy",
+      "note": "黑色引申为游戏中五子全黑之最高彩名。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "由饭器引申为可盛物之墩。‘卢’通‘垆’，见于汉书。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "由器物之盛物抽象引申为盛人物之住所，通‘庐’。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "以黑色指代瞳孔中黑色部分。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "semantic_shift",
+      "note": "黑色相关性引申至头骨之名，通‘颅’。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 9,
+      "evolution_type": "function_word",
+      "note": "黑色物（或器皿、房屋名）引申为氏族或地名，进而用为姓氏。"
+    }
+  ]
+}

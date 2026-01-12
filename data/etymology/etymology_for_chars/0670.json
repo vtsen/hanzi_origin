@@ -1,0 +1,62 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "花草",
+      "examples": [
+        "群芳竞艳",
+        "芳时"
+      ],
+      "traditional_char": "芳"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "花草的香气",
+      "examples": [
+        "芳香",
+        "芬芳"
+      ],
+      "traditional_char": "芳"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "美好（借指品德、名声等）",
+      "examples": [
+        "芳名",
+        "流芳百世",
+        "芳邻"
+      ],
+      "traditional_char": "芳"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从艸，方声，最初表示花草。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "花草用于花草的香气，语义转借。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "香气引申为美好的品德、名声等，古今皆见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "花草美好引申为人名、品德美好等，常用于少女、嘉名。"
+    }
+  ]
+}

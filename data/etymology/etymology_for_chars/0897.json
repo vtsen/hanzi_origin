@@ -1,0 +1,58 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "语言中最小的可以独立运用的单位",
+      "examples": [
+        "词汇",
+        "词组",
+        "词典"
+      ],
+      "traditional_char": "詞"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "言辞，话语，泛指写诗作文的文字",
+      "examples": [
+        "誓词",
+        "歌词",
+        "演讲词"
+      ],
+      "traditional_char": "詞"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "中国诗体的一种，起于南朝，盛行于宋代，用于配乐歌唱，后仅按词牌创作",
+      "examples": [
+        "宋词",
+        "词人",
+        "词谱"
+      ],
+      "traditional_char": "詞"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "形声字，从言，司声。本义为‘言辞’。‘词’古与‘辞’同义，后专指言辞或文词。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_narrowing",
+      "note": "‘言辞’在现代语言学背景下特指‘最小独立运用单位’。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "以‘词’指代特定诗体，是由‘文词’借指文学体裁的转用。"
+    }
+  ]
+}

@@ -1,0 +1,174 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "人或动物的全身；身体。",
+      "examples": [
+        "身体健康",
+        "体重",
+        "体温",
+        "身无完肤"
+      ],
+      "traditional_char": "體"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "身体的一部分。",
+      "examples": [
+        "四体不勤",
+        "五体投地"
+      ],
+      "traditional_char": "體"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "事物的本体或全部。",
+      "examples": [
+        "物体",
+        "主体",
+        "群体"
+      ],
+      "traditional_char": "體"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "物质存在的状态或形状。",
+      "examples": [
+        "固体",
+        "液体",
+        "体积"
+      ],
+      "traditional_char": "體"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "文章或书法的体裁、风格。",
+      "examples": [
+        "字体",
+        "文体",
+        "骈体文"
+      ],
+      "traditional_char": "體"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "事物的格局、体系、制度。",
+      "examples": [
+        "体系",
+        "体制"
+      ],
+      "traditional_char": "體"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "亲身经验、领会。",
+      "examples": [
+        "体会",
+        "体察",
+        "身体力行"
+      ],
+      "traditional_char": "體"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "verb",
+      "meaning": "设身处地为人着想。",
+      "examples": [
+        "体谅",
+        "体贴",
+        "体恤"
+      ],
+      "traditional_char": "體"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "noun",
+      "meaning": "本体，哲学概念，与“用”相对，指根本和内在。",
+      "examples": [
+        "体用",
+        "体用不二"
+      ],
+      "traditional_char": "體"
+    },
+    {
+      "index": 9,
+      "part_of_speech": "noun",
+      "meaning": "家庭成员个人的私藏财物；指亲近、自己的。",
+      "examples": [
+        "体己",
+        "体己话"
+      ],
+      "traditional_char": "體"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "繁体‘體’为形声字，从骨，豊声，本义为身体，简化字‘体’从人从本，‘体’与‘軆’古为异字，后借‘体’为通用形。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_narrowing",
+      "note": "由整体进一步指代身体的部分。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由身体本体引申为事物本体或整体。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由事物整体引申为物质的形态。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "由整体结构引申为文章或书法格式。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "由整体结构再次引申为体系、制度等抽象结构。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "metaphor",
+      "note": "由身体行为引申为亲身体验、实践感受。"
+    },
+    {
+      "source_index": 6,
+      "target_index": 7,
+      "evolution_type": "semantic_extension",
+      "note": "体验他人处境后发展出设身处地为人着想的意思。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 8,
+      "evolution_type": "semantic_narrowing",
+      "note": "哲学范畴发展为“体”所指事物的根本和内在，与‘用’对立。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 9,
+      "evolution_type": "unknown",
+      "note": "‘体己’义的发展机制存争议，或为通假、借义，形义关系不明。"
+    }
+  ]
+}

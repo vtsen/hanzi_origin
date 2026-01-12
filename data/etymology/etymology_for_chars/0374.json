@@ -1,0 +1,98 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "灵芝，一种菌类植物，古时视为瑞草、神草，有多种颜色，常用于药用和仙道传说。",
+      "examples": [
+        "芝，神草也。——《说文》",
+        "芝生于土，土气和则芝草生。——《论衡》",
+        "芝兰生于深林，不以无人而不芸。——《孔子家语》"
+      ],
+      "traditional_char": "芝"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "草的名称，用以喻高尚德行、友情或美好环境，多见于成语或典故中。",
+      "examples": [
+        "芝兰生于深林，不以无人而不芸。",
+        "譬如芝兰玉树。——《世说新语》"
+      ],
+      "traditional_char": "芝"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "形状像蘑菇盖的物品，多指古代车盖、伞盖等。",
+      "examples": [
+        "于是乘舆乃登夫凤皇兮翳华芝。——《汉书·扬雄传》",
+        "芝盖"
+      ],
+      "traditional_char": "芝"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "古州名。",
+      "examples": [],
+      "traditional_char": "芝"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [],
+      "traditional_char": "芝"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "adjective",
+      "meaning": "华丽、美好的样子。",
+      "examples": [
+        "芝颜（美丽的容颜）",
+        "芝宇（尊颜）"
+      ],
+      "traditional_char": "芝"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从艸，之声，会意兼形声，表示灵芝这种神草。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由灵芝（神草）借指高洁品德、友情和环境美好，古代文学典故中广泛使用。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "因灵芝的形状像蘑菇盖，引申为车盖、伞盖等圆盖形物品。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "amelioration",
+      "note": "由灵芝的美丽珍贵，引申为“华美”的形容。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "unknown",
+      "note": "芝为古地名，名称可能因当地多产灵芝或以神草为祥瑞，具体机制不明。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "unknown",
+      "note": "芝为姓氏，取自本义或地名，推测与祥瑞美好含义相关，具体机制不明。"
+    }
+  ]
+}

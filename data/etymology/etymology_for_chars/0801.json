@@ -1,0 +1,70 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "住处接近的人家或户",
+      "examples": [
+        "左邻右舍",
+        "四邻皆和"
+      ],
+      "traditional_char": "鄰"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "接近，附近的",
+      "examples": [
+        "邻国",
+        "邻家",
+        "邻座"
+      ],
+      "traditional_char": "鄰"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "接近，亲近",
+      "examples": [
+        "邻以理者，知也"
+      ],
+      "traditional_char": "鄰"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "古代五家为一邻，五邻为一里的一种基层居民组织单位",
+      "examples": [
+        "古有五家为邻，五邻为里"
+      ],
+      "traditional_char": "鄰"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 3,
+      "note": "形声字，从邑，粦（lìn）声。本义为居民组织单位。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 3,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "由特指的基层居民组织泛化为相邻的人家，用于日常称呼。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "synecdoche",
+      "note": "由居所接近的人家，引申为“接近，附近”的形容词用法。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "形容词“接近”再引为动词“接近，亲近”。"
+    }
+  ]
+}

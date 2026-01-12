@@ -1,0 +1,85 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "兰草、兰花的总称",
+      "examples": [
+        "兰艾同焚",
+        "幽兰在山谷"
+      ],
+      "traditional_char": "蘭"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "木兰（植物名）",
+      "examples": [
+        "木兰之花",
+        "南有嘉木，名曰木兰"
+      ],
+      "traditional_char": "蘭"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "家畜圈（古同“栏”）",
+      "examples": [
+        "置羊于兰而养之"
+      ],
+      "traditional_char": "蘭"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "色彩斑斓（古同“斓”）",
+      "examples": [
+        "石色斑兰"
+      ],
+      "traditional_char": "蘭"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "兰陵笑笑生",
+        "兰先生"
+      ],
+      "traditional_char": "蘭"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从艸，阑声。最初指兰草（泽兰类植物）。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由泽兰类植物泛指至其他如木兰之植物，见古书用法扩展。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "用作“栏”的通假字，义项发生音近借用。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "用作“斓”的通假字，指色彩斑斓。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "植物名称转为姓氏，古今皆有。"
+    }
+  ]
+}

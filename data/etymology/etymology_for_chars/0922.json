@@ -1,0 +1,41 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "阻碍、伤害",
+      "examples": [
+        "不妨一试",
+        "妨碍交通",
+        "无妨",
+        "何妨"
+      ],
+      "traditional_char": "妨"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "（迷信用法）指对人或某事有不利影响",
+      "examples": [
+        "妨主",
+        "妨家"
+      ],
+      "traditional_char": "妨"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从女，方声；原义为伤害、阻碍。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "迷信语境中引申为对人不利的影响，出现于后世俗用。"
+    }
+  ]
+}

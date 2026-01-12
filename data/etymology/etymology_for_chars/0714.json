@@ -1,0 +1,41 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "长时间不下雨，缺少雨水，与“涝”相对",
+      "examples": [
+        "旱季",
+        "旱灾",
+        "干旱"
+      ],
+      "traditional_char": "旱"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "非水田的、无水的、陆地上的，与水无关的",
+      "examples": [
+        "旱田",
+        "旱井",
+        "旱獭"
+      ],
+      "traditional_char": "旱"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从日，干声。本义为久不下雨，即干旱。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“久不下雨，缺水”引申为“陆地上的、无水的”，用来修饰与水无关的事物。"
+    }
+  ]
+}

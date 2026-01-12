@@ -1,0 +1,42 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古代表演歌舞的女子",
+      "examples": [
+        "歌妓",
+        "舞妓",
+        "唐明皇怜爱杨贵妃，常召宫中歌妓伴唱起舞"
+      ],
+      "traditional_char": "妓"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "以卖淫为生的女子",
+      "examples": [
+        "妓女",
+        "娼妓",
+        "妓院",
+        "青楼女子多为妓"
+      ],
+      "traditional_char": "妓"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从女，支声。“女”表义，指女性，“支”表声；本作表演歌舞之女子。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "中古之后，专事歌舞女子往往兼卖淫，词义逐渐扩展至专指卖淫女子。"
+    }
+  ]
+}

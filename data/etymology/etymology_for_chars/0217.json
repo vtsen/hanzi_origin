@@ -1,0 +1,114 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "面向南时，西的一边，与“左”相对",
+      "examples": [
+        "右手",
+        "右边"
+      ],
+      "traditional_char": "右"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "地理上指西方",
+      "examples": [
+        "山右",
+        "江右"
+      ],
+      "traditional_char": "右"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "指政治思想上保守或反动的",
+      "examples": [
+        "右倾",
+        "右派",
+        "右翼"
+      ],
+      "traditional_char": "右"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "古代称等级高的",
+      "examples": [
+        "右族",
+        "右职",
+        "无出其右"
+      ],
+      "traditional_char": "右"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "崇尚，重视",
+      "examples": [
+        "窃以右文兴化，乃致治之所先"
+      ],
+      "traditional_char": "右"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "（古同“侑”）劝酒，劝食",
+      "examples": [],
+      "traditional_char": "右"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "（古同“佑”）帮助，偏袒",
+      "examples": [],
+      "traditional_char": "右"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 6,
+      "note": "从口从又（手），表示用手和口协助他人，本义为‘右助’（帮助）。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 6,
+      "target_index": 5,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "‘右’假借为‘侑’，指劝酒、劝食。汉代用法。"
+    },
+    {
+      "source_index": 6,
+      "target_index": 0,
+      "evolution_type": "semantic_shift",
+      "note": "由‘帮助’义转为身体方位“右边”。可能因协助者多在右侧。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从单纯方位转指西方地域。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由‘右边’引申为思想保守（西方政治色彩影响）。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "古官制中右为高位，引申为等级高。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由正位引申为崇尚、重视。"
+    }
+  ]
+}

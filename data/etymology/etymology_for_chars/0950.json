@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "美玉名，又名火齐珠（多指一种红色玉石或珍珠）",
+      "examples": [
+        "其石则赤玉玫瑰。《司马相如传》",
+        "玫瑰，火齐珠也。"
+      ],
+      "traditional_char": "玫"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "美石名",
+      "examples": [
+        "一曰石之美者。"
+      ],
+      "traditional_char": "玫"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "落叶灌木，枝上有刺，花有紫红色、白色等多种，香味很浓，可做香料，花和根可入药。即玫瑰花。",
+      "examples": [
+        "玫瑰色的花。",
+        "玫瑰，蔷薇属植物名。"
+      ],
+      "traditional_char": "玫"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从玉，文声。本指美玉或珠类，用‘玉’表义，用‘文’表音。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由美玉意义扩展至一切美石；早期文献已见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "以美玉比喻美丽的花卉，后专指玫瑰花。大约汉以后定型。"
+    }
+  ]
+}

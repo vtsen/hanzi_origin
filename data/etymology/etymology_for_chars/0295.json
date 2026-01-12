@@ -1,0 +1,61 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "一年中的第四季，寒冷的季节，即农历十月至十二月。",
+      "examples": [
+        "冬天",
+        "冬季",
+        "今年冬天特别冷。"
+      ],
+      "traditional_char": "冬"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [
+        "冬氏",
+        "冬姓在中国较少见。"
+      ],
+      "traditional_char": "冬"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "onomatopoeia",
+      "meaning": "象声词，敲鼓声。",
+      "examples": [
+        "战鼓鼕鼕。",
+        "鼕鼕作响。"
+      ],
+      "traditional_char": "鼕"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "“冬”会意字，从“夂”，表动作、尾声；下方似冰、象形，合指寒冷与时序终了。用于四季中最后一季。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 2,
+      "note": "“鼕”形声字，从“鼓”作声旁，“冬”作声符，表示敲鼓声。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "conversion",
+      "note": "由表示季节的词转用于姓氏，古今皆有，常见姓氏借用名词地名等。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "“冬”后作声符，用于象声词“鼕”，表示敲鼓声，见于古代拟声用法。"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "遇见，相逢。",
+      "examples": [
+        "半路相迎",
+        "将军亲自迎敌"
+      ],
+      "traditional_char": "迎"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "接待，前往接引。",
+      "examples": [
+        "欢迎",
+        "迎宾",
+        "迎接客人"
+      ],
+      "traditional_char": "迎"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "面对，冲着。",
+      "examples": [
+        "迎风而立",
+        "迎面走来"
+      ],
+      "traditional_char": "迎"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "揣度他人心意而顺应其好。",
+      "examples": [
+        "迎合上意",
+        "逢迎拍马"
+      ],
+      "traditional_char": "迎"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字。从辵表示行走动作，“卬”为声符，本义为遇见、相逢。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由遇见发展为有目的地主动前去接待，战国至汉已见。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由‘接’引申为主动面对或冲着，意指正面相遇。中古时期已见。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由‘主动接’转为揣度他人心意以取悦，语义转移属比喻。"
+    }
+  ]
+}

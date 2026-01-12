@@ -1,0 +1,61 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "快乐，高兴",
+      "examples": [
+        "欢乐",
+        "欢庆",
+        "尽欢而散"
+      ],
+      "traditional_char": "歡"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "喜爱",
+      "examples": [
+        "心欢",
+        "新欢旧识"
+      ],
+      "traditional_char": "歡"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "活跃，起劲，旺盛",
+      "examples": [
+        "欢蹦乱跳",
+        "机器转得真欢"
+      ],
+      "traditional_char": "欢"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘歡’为形声字，从欠，雚声，指喜悦、高兴。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 2,
+      "note": "‘欢’为‘歡’的简化字，结构同样为形声，后承载兴奋、活跃等义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从‘高兴’引申至‘喜爱、所喜爱的人’，常见于诗文。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由‘高兴’泛化为‘活跃、起劲’，现代用法拓展。"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "挥动、挥舞（手臂或器物）",
+      "examples": [
+        "那后生抡着棒又赶入来。",
+        "掄斧劈面砍去，只见金光灿烂，不能伤之。",
+        "我掄着指头算日子。"
+      ],
+      "traditional_char": "掄"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "选择、选拔",
+      "examples": [
+        "抡，择也。《说文》",
+        "君抡贤人之后。",
+        "文部始掄材，终授位。"
+      ],
+      "traditional_char": "掄"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "依次轮流，一次接一个地做事",
+      "examples": [
+        "虽然自己晓得，却抡不到作主。"
+      ],
+      "traditional_char": "掄"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "任意浪费、挥霍家财",
+      "examples": [
+        "万贯家财，禁不住胡抡"
+      ],
+      "traditional_char": "掄"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "形声字，从手，仑声，最初本义为‘选择、选拔’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由‘选择’引申为‘轮流、依序’做事，有逻辑上的扩展。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_shift",
+      "note": "‘选择’义后来出现‘挥动’义，具体演变过程不详，多数学界认为与动作选择有关，但系属语义移变。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "‘挥动’引申为‘肆意挥霍、任意浪费’含义，常见于口语。"
+    }
+  ]
+}

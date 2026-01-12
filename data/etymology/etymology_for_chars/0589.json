@@ -1,0 +1,121 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "粉红色，鲜血的颜色",
+      "examples": [
+        "红色",
+        "红叶",
+        "红灯"
+      ],
+      "traditional_char": "紅"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "象征顺利或受人宠信的人或事物",
+      "examples": [
+        "红人",
+        "走红",
+        "红角儿"
+      ],
+      "traditional_char": "紅"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "喜庆事物",
+      "examples": [
+        "红媒",
+        "红蛋",
+        "红白喜事"
+      ],
+      "traditional_char": "紅"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "象征革命的事物、组织等",
+      "examples": [
+        "红军",
+        "红色政权",
+        "红色根据地"
+      ],
+      "traditional_char": "紅"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "营业的纯利润",
+      "examples": [
+        "红利",
+        "分红"
+      ],
+      "traditional_char": "紅"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "对《红楼梦》研究的学科",
+      "examples": [
+        "红学"
+      ],
+      "traditional_char": "紅"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "古同“工”，指妇女的生产作业，如纺织、缝纫、刺绣等",
+      "examples": [
+        "红女"
+      ],
+      "traditional_char": "紅"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从糸，表示与丝绸有关，‘工’为声符，最初表示粉红色。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "以红色象征吉利、受宠信，由颜色义引申。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "以红色用于喜庆相关事物。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "20世纪红色用以指革命势力、团体。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "商业账目中用红色记利润，借用为盈利之意。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "metonymy",
+      "note": "以《红楼梦》题名色词泛指相关学问。"
+    },
+    {
+      "source_index": 6,
+      "target_index": 0,
+      "evolution_type": "unknown",
+      "note": "本为古‘工’字，后与‘红’通用，关系存疑。"
+    }
+  ]
+}

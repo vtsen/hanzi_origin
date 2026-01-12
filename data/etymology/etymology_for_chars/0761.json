@@ -1,0 +1,40 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "兵器，武器",
+      "examples": [
+        "甲骨文中“我”作兵器用，如“我戎”",
+        "《说文解字》：我，施身自持也。象戈加手。"
+      ],
+      "traditional_char": "我"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "pronoun",
+      "meaning": "第一人称，自称自己，或指自己一方",
+      "examples": [
+        "我爱我的祖国。",
+        "我们都是一家人。",
+        "《诗经·小雅·无羊》：我友于行。"
+      ],
+      "traditional_char": "我"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意字，从‘戈’，象兵器之形，为兵器意，后引申为‘我’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_shift",
+      "note": "由兵器之意转用于第一人称代词，约春秋战国时期开始见于文献。"
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "聚集，合在一起",
+      "examples": [
+        "合拢",
+        "把手拢在一起"
+      ],
+      "traditional_char": "攏"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "凑起，总合",
+      "examples": [
+        "归拢",
+        "拢共",
+        "拢总"
+      ],
+      "traditional_char": "攏"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "靠近，特别指船只靠岸",
+      "examples": [
+        "船拢了岸",
+        "拉拢"
+      ],
+      "traditional_char": "攏"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "使不松散或不离开",
+      "examples": [
+        "收拢",
+        "把孩子拢在怀里",
+        "拢音"
+      ],
+      "traditional_char": "攏"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "用梳子整理头发",
+      "examples": [
+        "拢一拢头发"
+      ],
+      "traditional_char": "攏"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "合上（如嘴等部位）",
+      "examples": [
+        "她笑得嘴都合不拢了"
+      ],
+      "traditional_char": "攏"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字：从手，龙声。本义为聚合、合拢。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“聚合”引申为“总合、凑起”，反映数量或抽象对象的归集。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "从“聚拢”具体化到“靠近、船只靠岸”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "从原义“聚合”延伸出“使不松散、不分离”，侧重动作控制。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "由“聚合”引申为“合拢头发”，用具体行为表示合拢。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "metonymy",
+      "note": "由“合拢”引申为“合上（如嘴等部位）”。"
+    }
+  ]
+}

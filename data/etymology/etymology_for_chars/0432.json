@@ -1,0 +1,73 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "particle",
+      "meaning": "用在句末，表示疑问或反诘的语气",
+      "examples": [
+        "你会写字吗？",
+        "今天下雨了吗？",
+        "难道你不明白吗？"
+      ],
+      "traditional_char": "嗎"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "particle",
+      "meaning": "用在句中停顿处，点出话题，含蓄语气",
+      "examples": [
+        "这本书吗，是新的。",
+        "你说他吗，其实很聪明。"
+      ],
+      "traditional_char": "嗎"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "pronoun",
+      "meaning": "〈方言〉什么",
+      "examples": [
+        "干吗？",
+        "你要吗东西？",
+        "还有吗事？"
+      ],
+      "traditional_char": "嗎"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "〔吗啡〕用鸦片制成的有机化合物",
+      "examples": [
+        "医生给病人注射了一些吗啡。",
+        "滥用吗啡有害健康。"
+      ],
+      "traditional_char": "嗎"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“嗎”从‘口’表声义，‘馬’表音，表疑问语气助词，是形声字。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "语气助词作用从句尾扩展到句中，现代汉语用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "由疑问助词转为方言中表示'什么'的用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "reanalysis",
+      "note": "音译引入，以“吗”为音译'吗啡'的部分字形。"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "pronoun",
+      "meaning": "指较远的时间、地方或事物，与“这”相对",
+      "examples": [
+        "那个人",
+        "那个地方",
+        "那时"
+      ],
+      "traditional_char": "那"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "pronoun",
+      "meaning": "同“哪”，用于疑问，相当于“哪个、哪里”等（中国大陆地区已不用）",
+      "examples": [
+        "那一家？",
+        "那儿去？"
+      ],
+      "traditional_char": "那"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "pronoun",
+      "meaning": "与“一”连读表示数量，但不限于一，如“那五年”",
+      "examples": [
+        "那三天",
+        "那五年"
+      ],
+      "traditional_char": "那"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "那英",
+        "那拉氏"
+      ],
+      "traditional_char": "那"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从邑，⻏（表示邻近之地），那声。最早用于表示距离较远的地方，后发展为指代远指事物之用。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "音借用作疑问代词，见于方言及历史用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "grammaticalization",
+      "note": "与“一”连用时语法化为数量词用法。"
+    }
+  ]
+}

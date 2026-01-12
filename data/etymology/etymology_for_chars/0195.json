@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "敲打，敲击物体",
+      "examples": [
+        "击鼓",
+        "旁敲侧击"
+      ],
+      "traditional_char": "擊"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "攻击，攻打",
+      "examples": [
+        "打击",
+        "击败",
+        "声东击西"
+      ],
+      "traditional_char": "擊"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "碰，接触",
+      "examples": [
+        "目击",
+        "肩摩毂击"
+      ],
+      "traditional_char": "擊"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从手，毄声，表示用手敲打。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由敲打扩展至攻击之意，战国起广泛用作军事术语。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "从敲打引申为普通的碰触或接触，常见于文献表达中。"
+    }
+  ]
+}

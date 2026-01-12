@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "pronoun",
+      "meaning": "表示不定的数量，如：一些，某些。",
+      "examples": [
+        "给我一些水。",
+        "有些人喜欢喝茶。"
+      ],
+      "traditional_char": "些"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "particle",
+      "meaning": "用在形容词后，表示比较的程度。",
+      "examples": [
+        "病轻些了。",
+        "说得慢些。"
+      ],
+      "traditional_char": "些"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "particle",
+      "meaning": "《楚辞》中的句末助词。",
+      "examples": [
+        "日月忽其不淹兮，春与秋其代序些。"
+      ],
+      "traditional_char": "些"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意字，从此、二，表示指示一些、若干的意思。最早义为不定的少量。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "grammaticalization",
+      "note": "由表不定数量发展出表示形容词比较级的语法功能，用于北方方言后被普及。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "function_word",
+      "note": "转化为文言句末助词，见于楚辞，功能变化。"
+    }
+  ]
+}

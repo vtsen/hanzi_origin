@@ -1,0 +1,167 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "数量小的，与“多”相对",
+      "examples": [
+        "人数很少",
+        "少量",
+        "多与少"
+      ],
+      "traditional_char": "少"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "缺，不够",
+      "examples": [
+        "缺少",
+        "东西少一件"
+      ],
+      "traditional_char": "少"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adverb",
+      "meaning": "不经常",
+      "examples": [
+        "少有",
+        "少见"
+      ],
+      "traditional_char": "少"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "短时间",
+      "examples": [
+        "少等",
+        "少候"
+      ],
+      "traditional_char": "少"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "丢，遗失",
+      "examples": [
+        "屋里少了东西"
+      ],
+      "traditional_char": "少"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "轻视",
+      "examples": [
+        "少仲尼之闻",
+        "轻伯夷之义"
+      ],
+      "traditional_char": "少"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "adjective",
+      "meaning": "年纪轻或年轻人",
+      "examples": [
+        "少年",
+        "少女",
+        "少壮"
+      ],
+      "traditional_char": "少"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "noun",
+      "meaning": "古代辅佐长官的副职",
+      "examples": [
+        "少傅",
+        "少保"
+      ],
+      "traditional_char": "少"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "adjective",
+      "meaning": "次级的",
+      "examples": [
+        "少校",
+        "少将"
+      ],
+      "traditional_char": "少"
+    },
+    {
+      "index": 9,
+      "part_of_speech": "noun",
+      "meaning": "姓",
+      "examples": [
+        "少先生"
+      ],
+      "traditional_char": "少"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意字，从小，丿声，表示事物量少。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘数量小’引申为‘缺，不够’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由‘数量小’引申为‘不经常’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "数量少引申为时间短。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "因为‘数量变少’，引申为‘丢失，减少’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "metaphor",
+      "note": "视‘少’为‘轻视’，由数量小引申为看得轻。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "semantic_shift",
+      "note": "原本指东西数量小，引申为年龄小、年纪轻。"
+    },
+    {
+      "source_index": 6,
+      "target_index": 7,
+      "evolution_type": "metonymy",
+      "note": "为官名，指辅佐长官的副职。"
+    },
+    {
+      "source_index": 6,
+      "target_index": 8,
+      "evolution_type": "semantic_extension",
+      "note": "由‘少’（年轻、次等）引申为‘次级’阶别。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 9,
+      "evolution_type": "conversion",
+      "note": "‘少’用作姓氏。"
+    }
+  ]
+}

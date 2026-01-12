@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "不记得，忘记",
+      "examples": [
+        "忘记了昨天的事情。",
+        "我把钥匙忘在家里了。"
+      ],
+      "traditional_char": "忘"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "遗漏，忽略",
+      "examples": [
+        "你忘了一道题没做。",
+        "别忘了带雨伞。"
+      ],
+      "traditional_char": "忘"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从心，亡声；表示与心有关，‘亡’为声旁，原义为忘记。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从“不记得”引申为“遗漏、忽略”，历代文献中常见此用法。"
+    }
+  ]
+}

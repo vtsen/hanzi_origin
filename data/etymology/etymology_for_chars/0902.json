@@ -1,0 +1,72 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "重叠的部分、层状物，如云、峰等的重重叠叠。",
+      "examples": [
+        "层云",
+        "层峰"
+      ],
+      "traditional_char": "層"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adverb",
+      "meaning": "重复地，一次又一次地。",
+      "examples": [
+        "层出不穷"
+      ],
+      "traditional_char": "層"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "级、等次，社会或组织的分级。",
+      "examples": [
+        "层次",
+        "阶层",
+        "上层"
+      ],
+      "traditional_char": "層"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "measure_word",
+      "meaning": "层，表示有重叠、可分步骤或分项的事物，如楼层、忧虑、薄膜等的计量单位。",
+      "examples": [
+        "五层楼",
+        "还有一层顾虑",
+        "一层薄膜"
+      ],
+      "traditional_char": "層"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从尸（屋形）表意，曾表声，原义指楼房、重叠的建筑。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由物理的层叠引申为动作的重复，多见于成语。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由楼层等重叠结构引申为抽象的级别、等级。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "grammaticalization",
+      "note": "从名词实指“层叠的部分”发展为量词用法。"
+    }
+  ]
+}

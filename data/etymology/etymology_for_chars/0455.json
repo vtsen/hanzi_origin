@@ -1,0 +1,105 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "传递、转达、传输。",
+      "examples": [
+        "传递信息",
+        "把信传给他"
+      ],
+      "traditional_char": "傳"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "推广、散布、流布。",
+      "examples": [
+        "宣传",
+        "流传于世",
+        "传名四方"
+      ],
+      "traditional_char": "傳"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "解释经义的著作。",
+      "examples": [
+        "《左传》",
+        "《论语集传》"
+      ],
+      "traditional_char": "傳"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "记载人物生平事迹的文体，如传记。",
+      "examples": [
+        "小传",
+        "自传",
+        "纪传体"
+      ],
+      "traditional_char": "傳"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "以历史和人物故事为中心的文学作品。",
+      "examples": [
+        "《水浒传》",
+        "传奇小说"
+      ],
+      "traditional_char": "傳"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "古代驿站中的房舍，或指驿站所备的马车。",
+      "examples": [
+        "传舍",
+        "传车"
+      ],
+      "traditional_char": "傳"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "傳为形声字，‘亻’表意，‘專’表音，初指传递、传授。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由传递之义引申为广泛传播，如“宣传”、“流传”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "metonymy",
+      "note": "由‘传递’的动作，引申为执行递送事务之处所。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "通过‘传’之举，转指解释、传授经义的文字。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由经文传注扩展为专记人物事迹的文体‘传记’。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由传记发展为以历史或人物为主体的文学作品。"
+    }
+  ]
+}

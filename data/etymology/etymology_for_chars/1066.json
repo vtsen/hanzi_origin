@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "多余的脚趾",
+      "examples": [
+        "古人以“歧”为脚趾有余之意。"
+      ],
+      "traditional_char": "歧"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "岔道，分支的小路",
+      "examples": [
+        "歧途",
+        "歧路亡羊"
+      ],
+      "traditional_char": "歧"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "不同，不一致",
+      "examples": [
+        "歧义",
+        "歧视",
+        "观点歧异"
+      ],
+      "traditional_char": "歧"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从止，支声。本义为多余的脚趾，支表示声旁，‘止’相关于脚。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由‘多余的脚趾’引申为‘分岔的小路’，比喻分支之意。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由‘分岔的小路’进一步比喻‘不同、不一致’。"
+    }
+  ]
+}

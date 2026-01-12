@@ -1,0 +1,69 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "乌龟，一种爬行动物，腹背有硬甲，头尾与四肢能缩入甲中，寿命长。",
+      "examples": [
+        "乌龟慢慢地爬行。",
+        "龟甲可入药。"
+      ],
+      "traditional_char": "龜"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "龟甲，指乌龟的腹甲，可用作药材，也可用于占卜或做货币。",
+      "examples": [
+        "古人用龟甲占卜。",
+        "药材中常用龟甲。"
+      ],
+      "traditional_char": "龜"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "皲，皮肤因干裂而出现的裂纹。",
+      "examples": [
+        "手脚龟裂。"
+      ],
+      "traditional_char": "龜"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "龟兹，中国汉代西域的一个国家，在今新疆库车县一带。",
+      "examples": [
+        "龟兹乐在古代有很高的声誉。"
+      ],
+      "traditional_char": "龜"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "pictograph",
+      "original_sense_index": 0,
+      "note": "甲骨文象形，描绘乌龟形象，龟壳、头、足和尾俱全。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "以动物代表其部位及衍生事物，见商周出土实物和文献。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "因龟壳表面有裂纹，将“龟”用以指皮肤皲裂，约见于后世文献。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "unknown",
+      "note": "地名用字，机制尚难考证，但与“龟兹”国名称相关。"
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "从上面加力，如压住、压碎。",
+      "examples": [
+        "压住箱子",
+        "被石头压住",
+        "泰山压顶"
+      ],
+      "traditional_char": "壓"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "用威力制服、镇服。",
+      "examples": [
+        "镇压暴乱",
+        "压服对手"
+      ],
+      "traditional_char": "壓"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "控制，使稳定，使平静。",
+      "examples": [
+        "压价",
+        "压住阵脚"
+      ],
+      "traditional_char": "壓"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "搁置，不予以处理。",
+      "examples": [
+        "积压文件"
+      ],
+      "traditional_char": "壓"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "逼近。",
+      "examples": [
+        "大兵压境"
+      ],
+      "traditional_char": "壓"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "指赌博时在某一门上下注。",
+      "examples": [
+        "压宝"
+      ],
+      "traditional_char": "壓"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "other",
+      "meaning": "根本，从来（如“压根儿”）。",
+      "examples": [
+        "我压根儿就没听说过"
+      ],
+      "traditional_char": "壓"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "verb",
+      "meaning": "崩坏（最初本义）。",
+      "examples": [],
+      "traditional_char": "壓"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 7,
+      "note": "形声字，从土，厌声，初本指崩坏。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 7,
+      "target_index": 0,
+      "evolution_type": "semantic_shift",
+      "note": "由“崩坏”引申为“从上面加力，致使下方塌陷或受力”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由物理“压”引申为“用威力镇服、制服”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由机械压制引申为“控制、使稳定”之义。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由物理抑制引申为“搁置”概念，如积压。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "压——引申为军队、声势等接近、逼近。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "从“压”作施加行为，转为赌博行为中的下注。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "unknown",
+      "note": "“压根儿”义来源不明，可能为俗语派生。"
+    }
+  ]
+}

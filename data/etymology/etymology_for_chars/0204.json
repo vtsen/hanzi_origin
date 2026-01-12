@@ -1,0 +1,136 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "离开所在的地方到别处",
+      "examples": [
+        "离去",
+        "我去学校",
+        "他已经去了北京"
+      ],
+      "traditional_char": "去"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "距离，差别",
+      "examples": [
+        "相去不远",
+        "彼此去三里路"
+      ],
+      "traditional_char": "去"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "已经过去的（时间）",
+      "examples": [
+        "去年",
+        "去冬今春"
+      ],
+      "traditional_char": "去"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "除掉，减掉",
+      "examples": [
+        "去皮",
+        "去掉杂质",
+        "去势"
+      ],
+      "traditional_char": "去"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "扮演（戏曲中的角色）",
+      "examples": [
+        "他去男主角"
+      ],
+      "traditional_char": "去"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "particle",
+      "meaning": "用在动词后，表示趋向",
+      "examples": [
+        "上去",
+        "跑去"
+      ],
+      "traditional_char": "去"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "particle",
+      "meaning": "用在动词后，表示动作的持续",
+      "examples": [
+        "信步走去",
+        "唱着歌儿走去"
+      ],
+      "traditional_char": "去"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "noun",
+      "meaning": "汉语四声之一：去声",
+      "examples": [
+        "平上去入",
+        "普通话里去声为第四声"
+      ],
+      "traditional_char": "去"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "会意兼形声。从大，凵声，表示人离开洞口或坑坎而去。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "距离感由空间离开意义比喻引申。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由空间离开引申为时间上已经离开（过去）。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "从离开引申为除去、去除某物。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "grammaticalization",
+      "note": "“去”转化为趋向补语。"
+    },
+    {
+      "source_index": 5,
+      "target_index": 6,
+      "evolution_type": "semantic_extension",
+      "note": "由趋向补语进一步泛化为持续用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "“离开”义引申为脱离原位，进而有扮演角色之意。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 7,
+      "evolution_type": "metonymy",
+      "note": "本为“分离”，引申为音韵学用语“去声”。"
+    }
+  ]
+}

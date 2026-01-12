@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "意见，言论",
+      "examples": [
+        "提议",
+        "建言献议"
+      ],
+      "traditional_char": "議"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "讨论，商量",
+      "examples": [
+        "商议国家大事",
+        "会议"
+      ],
+      "traditional_char": "議"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "评论是非，多指责备",
+      "examples": [
+        "恐招物议",
+        "众口议之"
+      ],
+      "traditional_char": "議"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "旧时文体的一种，用以论事说理或陈述意见",
+      "examples": [
+        "奏议",
+        "驳议"
+      ],
+      "traditional_char": "議"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "形声字，从言，义声。本义为讨论、商量。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "由动词“讨论”引申为“讨论的内容”，意见或言论。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "从一般讨论发展到对事进行评论或责备。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "以“意见、言论”转指文体中用来陈述意见的文章。"
+    }
+  ]
+}

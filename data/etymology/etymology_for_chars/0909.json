@@ -1,0 +1,182 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "把弦安在弓上，或开弓、拉开、展开。",
+      "examples": [
+        "张弓搭箭",
+        "张开双臂",
+        "张网以待"
+      ],
+      "traditional_char": "張"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "商店开业。",
+      "examples": [
+        "开张大吉",
+        "新店即将开张"
+      ],
+      "traditional_char": "張"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "拉紧。",
+      "examples": [
+        "紧张",
+        "张力"
+      ],
+      "traditional_char": "張"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "扩大，夸大。",
+      "examples": [
+        "夸张其词",
+        "张扬"
+      ],
+      "traditional_char": "張"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "放纵，无拘束。",
+      "examples": [
+        "嚣张",
+        "乖张"
+      ],
+      "traditional_char": "張"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "料理，应酬。",
+      "examples": [
+        "张罗酒席"
+      ],
+      "traditional_char": "張"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "adjective",
+      "meaning": "惊惶，慌忙。",
+      "examples": [
+        "张惶失措"
+      ],
+      "traditional_char": "張"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "verb",
+      "meaning": "看，望。",
+      "examples": [
+        "张望"
+      ],
+      "traditional_char": "張"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "noun",
+      "meaning": "星名，二十八宿之一。",
+      "examples": [
+        "张宿"
+      ],
+      "traditional_char": "張"
+    },
+    {
+      "index": 9,
+      "part_of_speech": "measure_word",
+      "meaning": "用于纸、桌子、嘴、弓等平展或有张开的事物。",
+      "examples": [
+        "一张纸",
+        "三张桌子",
+        "几张嘴",
+        "两张弓"
+      ],
+      "traditional_char": "張"
+    },
+    {
+      "index": 10,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [
+        "张三",
+        "张先生"
+      ],
+      "traditional_char": "張"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘張’为形声字，从弓，长声。本义为开弓、张开，与弓有关，后引申多义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "从开弓引申为拉紧，表力量紧绷。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "商店开张，取自张开、展开之意，出现于晚期。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由张开进一步引申为扩大、夸大。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由夸大引申无拘束之意。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "metonymy",
+      "note": "引申为张罗，料理、应酬中引伸展开、安排意义。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "metaphor",
+      "note": "由紧张引申为惊惶、慌张形态。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 7,
+      "evolution_type": "metaphor",
+      "note": "张目引申为向外看，故为张望。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 8,
+      "evolution_type": "unknown",
+      "note": "天星名‘张宿’来源关系不明，或与张开的形象关系。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 9,
+      "evolution_type": "function_word",
+      "note": "由张开的动作引申为量词，用于纸等平展物。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 10,
+      "evolution_type": "unknown",
+      "note": "姓氏源流较为复杂，具体机制难以确证。"
+    }
+  ]
+}

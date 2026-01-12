@@ -1,0 +1,95 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "散丝的头绪，丝缕有序的线头",
+      "examples": [
+        "丝缕有纪"
+      ],
+      "traditional_char": "紀"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "记载（如年、事等），记录",
+      "examples": [
+        "纪年",
+        "纪实",
+        "纪传体"
+      ],
+      "traditional_char": "紀"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "记年代的方式，常指周期或历史分期，如一纪（十二年）、世纪（一百年）",
+      "examples": [
+        "一纪",
+        "世纪"
+      ],
+      "traditional_char": "紀"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "地质年代分期的第二级，介于“代”与“世”之间",
+      "examples": [
+        "侏罗纪"
+      ],
+      "traditional_char": "紀"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "法度，规范，纲纪",
+      "examples": [
+        "纪律",
+        "违法乱纪"
+      ],
+      "traditional_char": "紀"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "纪昌"
+      ],
+      "traditional_char": "紀"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从糸（意符），己（声符），本义与丝的头绪有关。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "由丝缕有纪，比喻为人事的法度、纲纪。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由丝缕有头绪转为比喻历史、事件等的记载有条理、有系统。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "从记载引申为记录年代和历史分期。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "从一般分期引申至地质年代的专有用法。"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "区分的标准，标志物。",
+      "examples": [
+        "古字形从八从弋，意为用木杆做标记以作区别。"
+      ],
+      "traditional_char": "必"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adverb",
+      "meaning": "一定，必然。",
+      "examples": [
+        "必定",
+        "必然",
+        "必须",
+        "事必躬亲"
+      ],
+      "traditional_char": "必"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "确定，肯定。",
+      "examples": [
+        "深念远虑兮，胜乃可必。"
+      ],
+      "traditional_char": "必"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "固执，坚持己见。",
+      "examples": [
+        "毋必也。"
+      ],
+      "traditional_char": "必"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "conjunction",
+      "meaning": "果真，假如。",
+      "examples": [
+        "王必无人，臣愿奉璧往使。"
+      ],
+      "traditional_char": "必"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意字，从八（分）从弋（木桩），表示以木杆做标记作区分。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由“标准、标志”引申为“确定、肯定”，汉代已见。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“肯定”进一步引申为“必然，一定”，发生于先秦。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "function_word",
+      "note": "由副词“必然”转为假设连词“果真、假使”，常用在句首/句中加强条件语气。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "由“确定、肯定”引申出“固执、执着”，语义带轻微负面。"
+    }
+  ]
+}

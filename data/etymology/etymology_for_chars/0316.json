@@ -1,0 +1,59 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "用笔作字",
+      "examples": [
+        "写字",
+        "教你怎么写名字",
+        "请在这里写下你的意见"
+      ],
+      "traditional_char": "寫"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "描摹，叙述",
+      "examples": [
+        "写生",
+        "他喜欢写实的画风",
+        "写照社会现实"
+      ],
+      "traditional_char": "寫"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "移置；放置（本义，已废）",
+      "examples": [],
+      "traditional_char": "寫"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 2,
+      "note": "‘寫’为形声字，从宀，舃声，表示移置、放置；后义衍生为写字。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘写’为简化字，由‘寫’简化而来，依旧保留写字的主流义项。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 2,
+      "target_index": 0,
+      "evolution_type": "semantic_shift",
+      "note": "从移置、放置义转指用笔将字移写于纸上。汉魏间已出现。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从写字引申出更广泛的描摹、叙述意义。"
+    }
+  ]
+}

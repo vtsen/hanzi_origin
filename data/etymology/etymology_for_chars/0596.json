@@ -1,0 +1,72 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "车马奔跑，快速前进",
+      "examples": [
+        "风驰电掣",
+        "驰驱",
+        "驰骋"
+      ],
+      "traditional_char": "馳"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "向往，思念",
+      "examples": [
+        "心驰神往",
+        "驰念故人"
+      ],
+      "traditional_char": "馳"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "传播，传扬（名声等）",
+      "examples": [
+        "驰名中外",
+        "驰誉天下"
+      ],
+      "traditional_char": "馳"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "驱车马追逐",
+      "examples": [
+        "公将驰之",
+        "驰逐于野"
+      ],
+      "traditional_char": "馳"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从马，也声，本义为车马疾行。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由车马奔跑引申为心神、思绪奔向远方，隋唐文献常见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "比喻名声迅速传播，汉魏时期常用。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_narrowing",
+      "note": "本义的细化，用于特指驱车马追逐的动作，《左传》有用例。"
+    }
+  ]
+}

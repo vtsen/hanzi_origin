@@ -1,0 +1,90 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "推测吉凶，察看卜兆预测未来。",
+      "examples": [
+        "占卜",
+        "占卦"
+      ],
+      "traditional_char": "占"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [],
+      "traditional_char": "占"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "据有，用强力取得。",
+      "examples": [
+        "霸占",
+        "占据"
+      ],
+      "traditional_char": "占"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "处于某种地位或情势。",
+      "examples": [
+        "占理",
+        "占优势"
+      ],
+      "traditional_char": "占"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "口说，口授。",
+      "examples": [],
+      "traditional_char": "占"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "估计上报，填报。",
+      "examples": [
+        "令民得以律占租"
+      ],
+      "traditional_char": "占"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "从卜从口，会意。表示以口问卜推测吉凶。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由预测结果衍生为对事物的把控，引申为据有。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由据有引申为在某种局面中取得或占据优势。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "古时占带有口头陈述吉凶之意，引申为口说、口授。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "占有上报、申报之意，与预测吉凶中报告卜辞有关，意义引申变化。"
+    }
+  ]
+}

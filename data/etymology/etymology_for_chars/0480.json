@@ -1,0 +1,133 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "北向的窗户",
+      "examples": [
+        "殷人以向为窗，取通气纳光之用"
+      ],
+      "traditional_char": "向"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "preposition",
+      "meaning": "对着，朝着（方位）",
+      "examples": [
+        "向北",
+        "他向我走来"
+      ],
+      "traditional_char": "向"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "目标，志向",
+      "examples": [
+        "方向",
+        "志向"
+      ],
+      "traditional_char": "向"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "偏袒，袒护",
+      "examples": [
+        "偏向",
+        "此人言语常常偏向一方"
+      ],
+      "traditional_char": "向"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "preposition",
+      "meaning": "接近，临近（时间、状态）",
+      "examples": [
+        "向晚",
+        "秋天漠漠向昏黑"
+      ],
+      "traditional_char": "向"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "adverb",
+      "meaning": "从前，过去",
+      "examples": [
+        "向日",
+        "向者"
+      ],
+      "traditional_char": "嚮"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "adverb",
+      "meaning": "一向，从开始到现在",
+      "examples": [
+        "向例",
+        "我向来如此"
+      ],
+      "traditional_char": "嚮"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "向秀",
+        "向敏中"
+      ],
+      "traditional_char": "向"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "pictograph",
+      "original_sense_index": 0,
+      "note": "甲骨文字形像有窗之屋，表示北向的窗户。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 5,
+      "note": "嚮，形声字，从“向”声，增“音”旁，加强语气与新义，多用于时间方面。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由表示北向的窗户引申为朝向、对着某方。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "方向引申为目标、志向，晋唐以后普遍。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "由趋向某一方引申为偏袒某一方。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由空间的趋向引申为接近某时间、状态。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 7,
+      "evolution_type": "unknown",
+      "note": "姓氏用法，古今皆有，具体语源不明。"
+    },
+    {
+      "source_index": 5,
+      "target_index": 6,
+      "evolution_type": "semantic_extension",
+      "note": "由时间上的“过去”泛化为某一状态自古至今。"
+    }
+  ]
+}

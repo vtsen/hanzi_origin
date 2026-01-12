@@ -1,0 +1,170 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "跑，奔跑（本义）",
+      "examples": [
+        "奋不顾身地走。",
+        "走马观花。"
+      ],
+      "traditional_char": "走"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "行走，步行",
+      "examples": [
+        "走路。",
+        "走一步。"
+      ],
+      "traditional_char": "走"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "往来，拜访",
+      "examples": [
+        "走亲戚。",
+        "两家常走动。"
+      ],
+      "traditional_char": "走"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "移动，运动；作某种动作",
+      "examples": [
+        "走向胜利。",
+        "钢笔在纸上走得很快。",
+        "钟表不走了。"
+      ],
+      "traditional_char": "走"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "运送，传递",
+      "examples": [
+        "走信。",
+        "走私。"
+      ],
+      "traditional_char": "走"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "离开，离去",
+      "examples": [
+        "出去就走。",
+        "走开。",
+        "刚走。"
+      ],
+      "traditional_char": "走"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "经过，办理",
+      "examples": [
+        "走账。",
+        "走后门。",
+        "走内线。"
+      ],
+      "traditional_char": "走"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "verb",
+      "meaning": "泄露，超越规定范围",
+      "examples": [
+        "走气。",
+        "走水。"
+      ],
+      "traditional_char": "走"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "verb",
+      "meaning": "失去原状，变形，变样",
+      "examples": [
+        "走形。",
+        "走样。"
+      ],
+      "traditional_char": "走"
+    },
+    {
+      "index": 9,
+      "part_of_speech": "noun",
+      "meaning": "仆人，“我”的谦辞",
+      "examples": [
+        "牛马走。",
+        "太史公走。"
+      ],
+      "traditional_char": "走"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意字，金文字形象人挥臂奔跑，下象人脚，表示奔跑之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“奔跑”扩展为一般意义上的“行走”。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由“行走”引申为“往来、拜访”。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "“行走”引申为“一切移动动作、运动”。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "“移动”引申为“运送、传递”"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "“行走”引申为“离开、离去”"
+    },
+    {
+      "source_index": 1,
+      "target_index": 6,
+      "evolution_type": "metonymy",
+      "note": "“行走”引申为“经过、办理”，例指手续流程。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 7,
+      "evolution_type": "semantic_extension",
+      "note": "“运动”引申为“泄露、超越”。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 8,
+      "evolution_type": "semantic_extension",
+      "note": "“动作/状态变化”引申为“失去原样”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 9,
+      "evolution_type": "semantic_shift",
+      "note": "古代因奔走听命，借指仆人、“我”谦称。"
+    }
+  ]
+}

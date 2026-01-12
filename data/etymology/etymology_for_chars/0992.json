@@ -1,0 +1,40 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "挑选，选取",
+      "examples": [
+        "择善而从",
+        "择优录取",
+        "抉择"
+      ],
+      "traditional_char": "擇"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "口语用法，义同“择”，常用于“择不开”、“择菜”等",
+      "examples": [
+        "择不开",
+        "择菜"
+      ],
+      "traditional_char": "擇"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从手，睪声，表示用手挑选。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "conversion",
+      "note": "从书面、正式语义‘挑选’拓展到口语用法，常用于日常行为。"
+    }
+  ]
+}

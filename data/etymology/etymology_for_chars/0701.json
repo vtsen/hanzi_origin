@@ -1,0 +1,102 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "蛤蚌之类的软体动物",
+      "examples": [
+        "蜃气楼中的“蜃”为辰之本义"
+      ],
+      "traditional_char": "辰"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "地支的第五位，属龙",
+      "examples": [
+        "十二生肖之一为辰龙",
+        "地支顺序：子丑寅卯辰巳"
+      ],
+      "traditional_char": "辰"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "用于记时：上午七点至九点",
+      "examples": [
+        "辰时出门",
+        "古人午前分为卯时和辰时"
+      ],
+      "traditional_char": "辰"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "时日、时分",
+      "examples": [
+        "诞辰",
+        "辰光已晚"
+      ],
+      "traditional_char": "辰"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "日、月、星的总称",
+      "examples": [
+        "星辰",
+        "北辰高悬"
+      ],
+      "traditional_char": "辰"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "古同“晨”，清早",
+      "examples": [
+        "夙夜在公，夙辰为劳",
+        "晨曦初照"
+      ],
+      "traditional_char": "辰"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "pictograph",
+      "original_sense_index": 0,
+      "note": "金文象形，像蚌壳，中间有闭合孔道，原指蛤蚌等软体动物"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "先秦时期用作地支名称，属于假借"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "地支用于记时，由地支的顺序推广"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "地支用于泛指时日泛化"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "地支与天体、星辰有历法联系，出现星辰之意"
+    },
+    {
+      "source_index": 3,
+      "target_index": 5,
+      "evolution_type": "semantic_shift",
+      "note": "“辰”音近“晨”，部分古籍中通用，指清早"
+    }
+  ]
+}

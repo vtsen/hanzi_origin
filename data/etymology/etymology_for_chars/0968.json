@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "牵引，拉，拽",
+      "examples": [
+        "拖车",
+        "拖船",
+        "拖儿带女"
+      ],
+      "traditional_char": "拖"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "耷拉着",
+      "examples": [
+        "拖着辫子"
+      ],
+      "traditional_char": "拖"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "延长时间",
+      "examples": [
+        "拖延",
+        "拖欠",
+        "拖债"
+      ],
+      "traditional_char": "拖"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从手，沓声；古作“拕”，本义为牵引、拉。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由牵引、拉引申为耷拉着，多用于物体下垂的形象。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "从拉延动作比喻时间的延长，用于抽象意义。"
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "打开，开启。",
+      "examples": [
+        "启门",
+        "启封"
+      ],
+      "traditional_char": "啓"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "开始，开端。",
+      "examples": [
+        "启用",
+        "启程",
+        "启运"
+      ],
+      "traditional_char": "啓"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "开导，启发。",
+      "examples": [
+        "启迪",
+        "启蒙",
+        "启示",
+        "承上启下"
+      ],
+      "traditional_char": "啓"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "陈述，禀告。",
+      "examples": [
+        "启事"
+      ],
+      "traditional_char": "啓"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "书信。",
+      "examples": [
+        "书启",
+        "小启"
+      ],
+      "traditional_char": "啓"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意字，从户、从又，表示用手开门；金文或加‘攴’、‘口’，反映开启门户的动作。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由打开发展为开始，因开启常引申为事物的起始。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由打开现实之门转为开导他人心智，为常见认知隐喻。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "打开口陈述本意，转用于禀告、陈述事宜。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "陈述发展为书信专称，泛指禀告之书。"
+    }
+  ]
+}

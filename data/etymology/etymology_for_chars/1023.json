@@ -1,0 +1,117 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "树干，树木的主干部分",
+      "examples": [
+        "遵彼汝坟，伐其条枚。",
+        "枚，枝干也。可为杖。——《说文》"
+      ],
+      "traditional_char": "枚"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "（古）马鞭",
+      "examples": [
+        "还于东门中，以枚数阖。——《左传·襄公十八年》"
+      ],
+      "traditional_char": "枚"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "古代军中为防止士卒喧哗，士兵咬在口中的用具，形如筷子",
+      "examples": [
+        "军士衔枚，夜登芒山，未明击之。——《北史》",
+        "勿士行枚。——《诗·豳风·东山》"
+      ],
+      "traditional_char": "枚"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "门钉、门上装饰圆凸物",
+      "examples": [
+        "以枚数阖。——《左传》",
+        "钟带谓之篆，篆间谓之枚。——《周礼·考工记·鳧氏》"
+      ],
+      "traditional_char": "枚"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "measure_word",
+      "meaning": "量词，用于细小的事物，相当于“个”，“件”",
+      "examples": [
+        "六枚都使升空法，云端里面各翻腾。——《西游记》",
+        "有五铢钱百余枚。"
+      ],
+      "traditional_char": "枚"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "adverb",
+      "meaning": "一一，逐个",
+      "examples": [
+        "不胜枚举。",
+        "枚卜（一一占卜）；枚列（一一列举）；枚别（一一分辨）；枚进（一一进献）"
+      ],
+      "traditional_char": "枚"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "汉有枚乘。见《汉书》本传。"
+      ],
+      "traditional_char": "枚"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意字，从木，从攴，表示树木的干，攴有劈打之意，表示取得树干。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "树干引申为木制品，进一步专指马鞭（常以木为杆）。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "树干或木材所制之物，引申为军中咬于口中的禁止喧哗器具。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "由木棒之用，引申为门上凸起装饰（如门钉、钟乳）。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "木制器物逐渐泛化为对条状、小物的计数，成为量词。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 5,
+      "evolution_type": "metonymy",
+      "note": "“逐个”计数，量词用法发展为副词表示“逐一”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "conversion",
+      "note": "由树干义转为姓氏用法，常见于汉姓来源。"
+    }
+  ]
+}

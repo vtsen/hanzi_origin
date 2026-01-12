@@ -1,0 +1,78 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "到达某地，从别处来到某地。",
+      "examples": [
+        "到达终点。",
+        "车到站了。"
+      ],
+      "traditional_char": "到"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "前往某处，去。",
+      "examples": [
+        "到群众中去。",
+        "到外面看看。"
+      ],
+      "traditional_char": "到"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "周全，面面俱到。",
+      "examples": [
+        "考虑得很到。",
+        "面面俱到。"
+      ],
+      "traditional_char": "到"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "成功，实现目标。",
+      "examples": [
+        "得到了。",
+        "事情办到了。"
+      ],
+      "traditional_char": "到"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [],
+      "traditional_char": "到"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从‘至’表意，‘刀’表声，本义是到达某地。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从‘到达’引申为‘前往’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "从‘到达’引申为‘涉及全面’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由‘到达’引申为‘目标达成’。"
+    }
+  ]
+}

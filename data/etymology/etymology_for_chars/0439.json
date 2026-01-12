@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "还师时奏功的乐曲，胜利归来的乐章",
+      "examples": [
+        "还师振旅乐也。（《说文解字》）"
+      ],
+      "traditional_char": "豈"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "安乐，和乐",
+      "examples": [
+        "王在在镐，岂乐饮酒。（《诗·小雅·鱼藻》）",
+        "既见君子，孔燕岂弟。（《诗·小雅·蓼萧》）"
+      ],
+      "traditional_char": "豈"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adverb",
+      "meaning": "难道，哪里，表示反诘，语气词",
+      "examples": [
+        "岂敢反乎？（《史记·项羽本纪》）",
+        "岂非计久长。（《战国策·赵策》）",
+        "岂有意乎。（《战国策·燕策》）",
+        "其實我豈不知道這老頭子是劊子手扮的！（鲁迅）"
+      ],
+      "traditional_char": "豈"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从壴省声、微声，壴指陈列乐器，表示凯旋乐，本义为还师之乐。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "胜利凯旋的乐（本义）引申为欢乐、安乐之意，较早见于先秦诗经语境。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "reanalysis",
+      "note": "本义‘胜利之乐’和‘欢乐’之义被借用为语气词，虚化为反诘等副词，出现中古汉语时期。"
+    }
+  ]
+}

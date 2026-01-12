@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "姐姐，指比自己年长的姊妹",
+      "examples": [
+        "姊妹情深",
+        "大姊"
+      ],
+      "traditional_char": "姊"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "同辈女性朋友之间亲昵的称呼",
+      "examples": [
+        "她们是多年的姊妹",
+        "姊妹花"
+      ],
+      "traditional_char": "姊"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "女为形，且为声，表示女性；本义为姐姐。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由“亲姐姐”引申为同辈女性朋友间的亲昵称呼，常见于民间及口语。"
+    }
+  ]
+}

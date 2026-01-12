@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "烧，炙，烤的意思。",
+      "examples": [
+        "灼伤",
+        "灼热",
+        "焦灼"
+      ],
+      "traditional_char": "灼"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "鲜明，明亮。",
+      "examples": [
+        "灼灼",
+        "灼然",
+        "灼亮"
+      ],
+      "traditional_char": "灼"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "明白透彻。",
+      "examples": [
+        "真知灼见"
+      ],
+      "traditional_char": "灼"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从火表示与火相关，‘勺’为声旁，表声音。初义为‘烧’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由火烧产生光亮，引申为鲜明、明亮。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "鲜明、明亮比喻为见识透彻。"
+    }
+  ]
+}

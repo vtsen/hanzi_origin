@@ -1,0 +1,72 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "植物主干上分出来的茎条",
+      "examples": [
+        "树枝",
+        "竹枝",
+        "枝柯"
+      ],
+      "traditional_char": "枝"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "measure_word",
+      "meaning": "量词，指杆形的物体",
+      "examples": [
+        "一枝铅笔",
+        "三枝玫瑰"
+      ],
+      "traditional_char": "枝"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "（古义）分支、支持",
+      "examples": [
+        "典籍中‘枝分’作“支分”义",
+        "不可枝梧"
+      ],
+      "traditional_char": "枝"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "（古义）岔，分岔",
+      "examples": [
+        "枝道（即歧道）",
+        "道有枝岐"
+      ],
+      "traditional_char": "枝"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从木，支声。表示树木分出的茎条。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "树枝形状引申为杆状量词，用于类似形状物体。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "树枝分出主干，引申为分支、支持等抽象义，早期义与“支”通。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "“枝”同“歧”，都有关分岔、道路分支之意，语音义转。"
+    }
+  ]
+}

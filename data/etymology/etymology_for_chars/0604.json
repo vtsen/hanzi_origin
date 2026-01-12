@@ -1,0 +1,113 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "实体，有具体存在的物体",
+      "examples": [
+        "形体",
+        "形骸",
+        "形单影只"
+      ],
+      "traditional_char": "形"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "样子，外貌",
+      "examples": [
+        "形状",
+        "地形",
+        "形态"
+      ],
+      "traditional_char": "形"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "表现，显现出来",
+      "examples": [
+        "形诸笔墨",
+        "喜形于色"
+      ],
+      "traditional_char": "形"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "对照，比较",
+      "examples": [
+        "相形见绌"
+      ],
+      "traditional_char": "形"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "状况，地势",
+      "examples": [
+        "形势"
+      ],
+      "traditional_char": "形"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "古同“型”，模子",
+      "examples": [],
+      "traditional_char": "形"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "古同“刑”，刑罚",
+      "examples": [],
+      "traditional_char": "形"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "“形”为会意字，从彡，从开（止），表示形体或轮廓，有‘具体实体’的本义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘实体’引申为‘样子’、‘外貌’。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "grammaticalization",
+      "note": "‘样子’抽象为‘表现’、‘显现’。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "analogy",
+      "note": "由‘样子’衍生为‘对照’、‘比较’。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "由‘样子’引申为‘状况、地势’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "‘实体’引申为‘模子’（古同‘型’）。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "‘形’假借作‘刑’（刑罚）。"
+    }
+  ]
+}

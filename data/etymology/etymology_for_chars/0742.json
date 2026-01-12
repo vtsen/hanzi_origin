@@ -1,0 +1,83 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "水或食物进入气管引起不适或咳嗽而突然喷出。",
+      "examples": [
+        "喝水呛着了。"
+      ],
+      "traditional_char": "嗆"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "咳嗽。",
+      "examples": [
+        "他呛了一下，咳了出来。"
+      ],
+      "traditional_char": "嗆"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "鸟食。",
+      "examples": [
+        "给鸟添呛。"
+      ],
+      "traditional_char": "嗆"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "愚蠢的样子。",
+      "examples": [
+        "呛哼。"
+      ],
+      "traditional_char": "嗆"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "有刺激性的气味使鼻、嗓等器官感到不舒服。",
+      "examples": [
+        "这菜太呛人了。",
+        "空气里有呛鼻的味道。"
+      ],
+      "traditional_char": "嗆"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘嗆’为形声字，从口，枪声，声旁表音，口旁表与呼吸、咳有关。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由水食入气管引起的动作推广为一般咳嗽。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "鸟食‘呛’来源于鸟食入喉易致呛咳。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "形容人呆滞愚蠢，来源于被呛时呆滞的样子。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由呛水引起不适感引申为气味刺激带来不适。"
+    }
+  ]
+}

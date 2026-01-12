@@ -1,5 +1,5 @@
-import requests
 import re
+import random
 from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
@@ -7,18 +7,17 @@ from selenium.webdriver.chrome.options import Options
 chrome_options = Options()
 chrome_options.add_argument("--headless")
 
-driver = webdriver.Chrome(options=chrome_options)
-
 
 def fetch_ziyi(char: str) -> tuple[str, str]:
     """
     Fetch raw 'ziyi' text for a single Chinese character from ccamc.org.
     Returns the full text exactly as presented (no splitting).
     """
+    driver = webdriver.Chrome(options=chrome_options)
     driver.get(f"http://ccamc.org/cjkv.php?cjkv={char}")
 
     # Wait for page to fully load if needed
-    driver.implicitly_wait(2)
+    driver.implicitly_wait(5 + random.randint(0, 3))
 
     soup = BeautifulSoup(driver.page_source, "html.parser")
 
@@ -64,4 +63,4 @@ def get_contemporary_meanings(soup: BeautifulSoup) -> str:
 
 
 if __name__ == "__main__":
-    print(fetch_ziyi("有"))
+    print(fetch_ziyi("上"))

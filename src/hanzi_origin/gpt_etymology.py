@@ -5,7 +5,12 @@ from src.hanzi_origin.etymology import save_to_str
 
 load_dotenv()
 
-def call_etymology(hanzi: str, traditional_chars: list[str]) -> Optional[Any]:
+def call_etymology(
+    hanzi: str,
+    traditional_chars: list[str],
+    initial_meaning: str,
+    contemporary_meanings: str,
+) -> Optional[Any]:
     from openai import OpenAI
     client = OpenAI()
     from etymology import Etymology
@@ -13,15 +18,12 @@ def call_etymology(hanzi: str, traditional_chars: list[str]) -> Optional[Any]:
     prompt_for_traditional = "\n"
     if traditional_chars:
         trad_list_str = ", ".join(traditional_chars)
-        prompt_for_traditional += f"""Note that the character has the following traditional forms: {trad_list_str} which may have separate etymology chains."""
+        prompt_for_traditional += f"""Note that the character additionally has the following traditional forms: {trad_list_str} which may have separate etymology chains."""
 
-    # Prepare input information
-    from utils.meaning import fetch_ziyi
-    initial_meaning, contemporary_meanings = fetch_ziyi(hanzi)
     input_info = f"Initial Meaning: {initial_meaning}\n\nContemporary Meanings: {contemporary_meanings}"
 
     response = client.responses.parse(
-        model="gpt-4o",
+        model="gpt-4o-mini",
         input=[
             {
                 "role": "system",
@@ -37,7 +39,7 @@ def call_etymology(hanzi: str, traditional_chars: list[str]) -> Optional[Any]:
                 - The initial meaning typically corresponds an item in the contemporary meaning list, if so, do not separately list. Otherwise, if it does not correspond to any of the meanings in (2), then make a separate entry of sense for it.\n\n
                 - If there is only one sense (rare), edge list should be empty.\n
                 - Use modern linguistic analysis, but ground all claims in attested or widely accepted historical usage.\n
-                - If a relationship between two senses is uncertain, either omit the edge or mark it as UNKNOWN.\n
+                - If a relationship between two senses is uncertain, you are encouraged to mark its evolution_type as UNKNOWN.\n
                 - All senses with the same traditional_char should be either directly or indirectly connected. Make sure you do not leave out senses in the graph, nor hallucinate fake linkage.\n
                 - The etymology structure is a directed acyclic graph (DAG), but disconnected components are allowed.\n\n
                 SCHEMA DESCRIPTION:\n\n
@@ -53,13 +55,13 @@ def call_etymology(hanzi: str, traditional_chars: list[str]) -> Optional[Any]:
                 Each formation object MUST have:\n
                 - "formation_type": string. The character formation method, based on the Six Principles (六书) as revised by modern linguistics. Must be one of the predefined formation type enum values (e.g. pictograph, phono_semantic_compound, loan_character, etc.).
                 - "original_sense_index": integer. The index of the sense that represents the original meaning at the time of character creation. This value must correspond to exactly one sense index defined in the senses array.
-                - "note": string or null. Optional explanatory notes on the character’s formation, such as component analysis, historical evidence, or scholarly uncertainty.
+                - "note": string. Explanatory notes on the character’s formation, such as component analysis, historical evidence, or scholarly uncertainty.. Keep it short but cannot be empty!\n
                 3. \"edges\": an array of etymology edge objects. Each edge represents a directional semantic or grammatical development between two senses.\n\n
                 Each edge object MUST have:\n
                 - \"source_index\": integer. The index of the earlier or source sense.\n
                 - \"target_index\": integer. The index of the derived or later sense.\n
                 - \"evolution_type\": string. Must be ONE of the following values:\n  - \"semantic_extension\"\n  - \"semantic_narrowing\"\n  - \"semantic_shift\"\n  - \"metaphor\"\n  - \"metonymy\"\n  - \"synecdoche\"\n  - \"pejoration\"\n  - \"amelioration\"\n  - \"grammaticalization\"\n  - \"function_word\"\n  - \"conversion\"\n  - \"loan_shift\"\n  - \"analogy\"\n  - \"reanalysis\"\n  - \"unknown\"\n
-                - \"note\": string or null. Optional clarification such as historical period, mechanism explanation, or scholarly uncertainty.\n\n
+                - \"note\": string. Clarification such as historical period, mechanism explanation, or scholarly uncertainty. Keep it short but cannot be empty!\n\n
                 IMPORTANT CONSTRAINTS:\n
                 - Output MUST be valid JSON. No comments, no trailing commas.\n
                 - Do NOT include any text outside the JSON object.\n
@@ -72,6 +74,8 @@ def call_etymology(hanzi: str, traditional_chars: list[str]) -> Optional[Any]:
                 - ALL senses with the same traditional_char MUST be either directly or indirectly connected. Make sure you do not leave out senses in the edges!\n
                 - ALL senses with the same traditional_char MUST be either directly or indirectly connected. Make sure you do not leave out senses in the edges!\n
                 - ALL senses with the same traditional_char MUST be either directly or indirectly connected. Make sure you do not leave out senses in the edges!\n
+                
+                - If a relationship between two senses is uncertain, you are encouraged to mark its evolution_type as UNKNOWN.\n
                 
                 You will be given ONE Chinese character as input. Produce exactly ONE JSON object following the schema above.
                 """
@@ -87,12 +91,18 @@ def call_etymology(hanzi: str, traditional_chars: list[str]) -> Optional[Any]:
     )
 
     parsed_results = response.output_parsed
-    print(save_to_str(parsed_results))
-
+    return parsed_results
 
 
 if __name__ == "__main__":
-    # call_etymology("面", ["面", "麵"])
-    # call_etymology("人", [])
-    call_etymology("国", ["國"])
-    # call_etymology("我", [])
+    # hanzi, traditional_chars = "面", ["面", "麵"]
+    hanzi, traditional_chars = "人", []
+    # hanzi, traditional_chars = "国", ["國"]
+    # hanzi, traditional_chars = "我", []
+
+    # Prepare input information
+    from utils.meaning import fetch_ziyi
+    initial_meaning, contemporary_meanings = fetch_ziyi(hanzi)
+
+    results = call_etymology(hanzi, traditional_chars, initial_meaning, contemporary_meanings)
+    print(save_to_str(results))

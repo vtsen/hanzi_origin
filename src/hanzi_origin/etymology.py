@@ -4,7 +4,7 @@ from typing import Any
 
 import json
 from pydantic import BaseModel, Field
-from typing import List, Optional
+from typing import List
 
 
 class Sense(BaseModel):
@@ -59,8 +59,7 @@ class CharacterFormation(BaseModel):
         ...,
         description="该字最初造字时所对应的本意，对应 senses 中的某一个 index"
     )
-    note: str | None = Field(
-        None,
+    note: str = Field(
         description="关于造字过程的补充说明，如部件分析、学界争议等"
     )
 
@@ -104,8 +103,7 @@ class EtymologyEdge(BaseModel):
         ...,
         description="演变类型"
     )
-    note: Optional[str] = Field(
-        None,
+    note: str = Field(
         description="补充说明（如时代、文献、争议等）"
     )
 

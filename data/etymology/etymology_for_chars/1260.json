@@ -1,0 +1,40 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "积水的洼地，水池，池塘",
+      "examples": [
+        "池沼",
+        "沼地",
+        "沼泽"
+      ],
+      "traditional_char": "沼"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "沼气，指甲烷（一种由沼泽地分解有机物产生的气体）",
+      "examples": [
+        "沼气是一种可燃气体。",
+        "利用沼气发电。"
+      ],
+      "traditional_char": "沼"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，召声。水表义，召表音，本义为积水的洼地。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由沼泽地延伸指因沼泽而产出的气体，现代化学概念。"
+    }
+  ]
+}

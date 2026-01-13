@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "贪吃，专爱吃好的",
+      "examples": [
+        "他很馋，一见好吃的就流口水。",
+        "嘴馋难耐。"
+      ],
+      "traditional_char": "饞"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "贪，羡慕（多指对食物以外的事物）",
+      "examples": [
+        "眼馋别人的玩具。",
+        "他看到别人的手机很馋。"
+      ],
+      "traditional_char": "饞"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从食，毚声；‘食’表与饮食相关，‘毚’表音，原意为贪吃。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由指贪吃引申为泛指贪、羡慕，出现于后世用法。"
+    }
+  ]
+}

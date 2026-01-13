@@ -1,0 +1,125 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "细末状的物质，尤指米、谷物、豆类研磨成的细末",
+      "examples": [
+        "米粉",
+        "花粉",
+        "药粉",
+        "面粉",
+        "粉尘"
+      ],
+      "traditional_char": "粉"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "专指化妆用的粉末",
+      "examples": [
+        "香粉",
+        "扑粉",
+        "粉黛"
+      ],
+      "traditional_char": "粉"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "用粉末状涂料进行涂刷或装饰",
+      "examples": [
+        "粉饰",
+        "粉刷墙壁"
+      ],
+      "traditional_char": "粉"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "使破碎或成为粉末",
+      "examples": [
+        "粉身碎骨"
+      ],
+      "traditional_char": "粉"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "白色的或呈粉末状的（多用于修饰物体的颜色或质地）",
+      "examples": [
+        "粉墙",
+        "粉蝶",
+        "粉笔"
+      ],
+      "traditional_char": "粉"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "用豆粉或其他粉类制成的食品",
+      "examples": [
+        "粉皮",
+        "米粉",
+        "凉粉",
+        "粉芡"
+      ],
+      "traditional_char": "粉"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "adjective",
+      "meaning": "浅红色",
+      "examples": [
+        "粉色",
+        "粉花"
+      ],
+      "traditional_char": "粉"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "会意兼形声字，从米，分声，本义为米类等谷物的细末。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_narrowing",
+      "note": "指用于化妆的特定粉末，突出一种专属性。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "conversion",
+      "note": "由名作动，以粉末作涂刷之用。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "conversion",
+      "note": "由粉末本义引申为使物变为粉末。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "从粉末白色、细腻质感比喻为白色或粉状。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "metonymy",
+      "note": "用“粉”指代由粉制成的食品。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "metaphor",
+      "note": "由粉类、化妆品的色调引申为浅红色。"
+    }
+  ]
+}

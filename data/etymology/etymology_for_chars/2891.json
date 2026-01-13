@@ -1,0 +1,59 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "察看并监管、监督。",
+      "examples": [
+        "监督",
+        "督察",
+        "督导",
+        "他负责督办该工程。"
+      ],
+      "traditional_char": "督"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "责罚、责备。",
+      "examples": [
+        "督责",
+        "督过"
+      ],
+      "traditional_char": "督"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "古代将官名，指军事或行政监督官职。",
+      "examples": [
+        "都督",
+        "提督",
+        "总督",
+        "督抚"
+      ],
+      "traditional_char": "督"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从目表监督察看之意，叔声，表示读音。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由监督引申为对失误进行责备，多见于较早文献。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由表示监督职能引申为具体官名，汉魏以后广泛见于史书。"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "常绿乔木，茎直立不分枝，叶大，可制器具，通称“棕树”。",
+      "examples": [
+        "棕榈生南方，叶大如扇。"
+      ],
+      "traditional_char": "棕"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "棕榈叶鞘的纤维，常用作绳索、刷帚、编织品等材料。",
+      "examples": [
+        "用棕毛做成的绳子很结实。",
+        "棕帚是一种常见的扫帚。"
+      ],
+      "traditional_char": "棕"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "哺乳动物，体大，毛棕褐色。亦称“马熊”、“罴”、“人熊”。",
+      "examples": [
+        "棕熊生活在森林和山地地区。"
+      ],
+      "traditional_char": "棕"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从木，宗声。最初表示棕榈树。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "以树代指其所产纤维，用于材料意义。古今常见。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "因棕毛颜色而借指毛色为棕褐色的熊，用于动物命名。"
+    }
+  ]
+}

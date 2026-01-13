@@ -1,0 +1,91 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "匹敌；相当；能力相等",
+      "examples": [
+        "势均力敌",
+        "匹敌",
+        "敌手"
+      ],
+      "traditional_char": "敵"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "有利害冲突不能相容者；对立的一方",
+      "examples": [
+        "敌人",
+        "敌方",
+        "敌寇"
+      ],
+      "traditional_char": "敵"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "对手，特指战争或敌对中的敌人",
+      "examples": [
+        "敌后",
+        "敌情",
+        "敌酋",
+        "敌特"
+      ],
+      "traditional_char": "敵"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "抵挡，抗衡",
+      "examples": [
+        "寡不敌众",
+        "克敌制胜"
+      ],
+      "traditional_char": "敵"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "仇视，抱有敌意",
+      "examples": [
+        "敌意",
+        "诸侯敌王所忾"
+      ],
+      "traditional_char": "敵"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从攴（表示打击），啇声，表示匹敌、对等之义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“匹敌、对等”引申为与自己对立的另一方，即“敌人”。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_narrowing",
+      "note": "“敌人”义细化为战争、敌对中特指一方。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "“匹敌”引申为“抵挡、抗衡”。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "“对立者”进一步发展为“仇视、抱有敌意”。"
+    }
+  ]
+}

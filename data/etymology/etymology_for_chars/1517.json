@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "用木材隔绝空气高温烧制而成的黑色燃料，常称为木炭。",
+      "examples": [
+        "木炭",
+        "炭火",
+        "以炭取暖"
+      ],
+      "traditional_char": "炭"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "像炭一样的东西，如特定食物加工后色泽深黑者。",
+      "examples": [
+        "山楂炭"
+      ],
+      "traditional_char": "炭"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "煤，作为燃料使用的石炭、焦炭、泥炭等。",
+      "examples": [
+        "石炭",
+        "焦炭",
+        "泥炭"
+      ],
+      "traditional_char": "炭"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从火，‘岸’省声，表示木炭。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "analogy",
+      "note": "因颜色和形态类似，某些制品称为‘炭’，如山楂炭等，语义类推。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "指称范围从木炭扩展到石炭、焦炭等其他燃料。"
+    }
+  ]
+}

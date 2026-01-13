@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "靠着、依靠",
+      "examples": [
+        "依靠大树",
+        "归依祖国"
+      ],
+      "traditional_char": "依"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "按照，依据",
+      "examples": [
+        "依照规定",
+        "依旧原样"
+      ],
+      "traditional_char": "依"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "顺从，答应",
+      "examples": [
+        "依从父母的要求",
+        "依允你的请求"
+      ],
+      "traditional_char": "依"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "亲密的样子，形容依恋、贴近",
+      "examples": [
+        "有依其士",
+        "依偎在一起"
+      ],
+      "traditional_char": "依"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从人，衣声，甲骨文字形为人在衣中；本义‘靠着’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘靠着’引申为‘按照，依据’，语义扩展。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由‘依靠’引申为‘顺从，答应’他人意愿。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由‘依靠’进一步描绘‘亲密依恋’的状态。"
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "原因，缘由",
+      "examples": [
+        "原故",
+        "缘故",
+        "无故而怒"
+      ],
+      "traditional_char": "故"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "意外的事情，事故",
+      "examples": [
+        "事故",
+        "变故",
+        "发生故障"
+      ],
+      "traditional_char": "故"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "有心，存心；故意",
+      "examples": [
+        "故意",
+        "明知故犯",
+        "故杀"
+      ],
+      "traditional_char": "故"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "老的，过去的，旧的，原有的",
+      "examples": [
+        "故人",
+        "故乡",
+        "故园",
+        "故事",
+        "故国",
+        "故土",
+        "故纸堆"
+      ],
+      "traditional_char": "故"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "朋友，交情，友情",
+      "examples": [
+        "亲故",
+        "沾亲带故"
+      ],
+      "traditional_char": "故"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "（人）死亡",
+      "examples": [
+        "病故",
+        "故去"
+      ],
+      "traditional_char": "故"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "conjunction",
+      "meaning": "所以，因此",
+      "examples": [
+        "故此",
+        "故而",
+        "日出而作，日入而息，故天未及也。"
+      ],
+      "traditional_char": "故"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "other",
+      "meaning": "古同“顾”，反而",
+      "examples": [],
+      "traditional_char": "故"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从攴取‘役使、缘由’之意，‘古’声，原指事物发生的原因。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由原因引申为意外之事、事故，汉代已见用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由表示原因发展为‘有心为之’，表示主观存心。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "原因、已发生之事引申为‘旧的、过去的’。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "通过 ‘故人’ 表示‘朋友’，旧交，古代引申用法。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "metonymy",
+      "note": "‘事故’进一步表示‘死亡’，如‘病故’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "grammaticalization",
+      "note": "‘原因’用作连接词，转为‘所以，因此’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 7,
+      "evolution_type": "unknown",
+      "note": "古同‘顾’，反而，此用法较为孤立，来源可能为音近假借。"
+    }
+  ]
+}

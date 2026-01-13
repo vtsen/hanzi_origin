@@ -1,0 +1,59 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "不重视，疏忽，忽略。",
+      "examples": [
+        "忽视",
+        "疏忽",
+        "忽略",
+        "玩忽职守"
+      ],
+      "traditional_char": "忽"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adverb",
+      "meaning": "迅速，突然。",
+      "examples": [
+        "忽而",
+        "忽然",
+        "忽地",
+        "忽高忽低"
+      ],
+      "traditional_char": "忽"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "长度和重量的单位（十忽为一丝，十丝为一毫），多指极细微之物。",
+      "examples": [
+        "忽微",
+        "微忽其微"
+      ],
+      "traditional_char": "忽"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从心，勿声，表示不重视、忽略之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“不重视、忽略”引申为“突然、迅速”，魏晋以降常见。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "以“忽”表示极微小之量，取其一瞬即逝、极小之意，后用于度量单位。"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "用以削平或取物的器具，如铁铲、铲子。",
+      "examples": [
+        "铁铲",
+        "用铲子挖土"
+      ],
+      "traditional_char": "鏟"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "用铲或锹把东西撮取或清除。",
+      "examples": [
+        "铲煤",
+        "铲草",
+        "铲除杂草"
+      ],
+      "traditional_char": "鏟"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从金，产声。本义为削平或取物的铁器。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "conversion",
+      "note": "由表示器具的名词引申为用该器具进行动作的动词。"
+    }
+  ]
+}

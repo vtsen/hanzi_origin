@@ -1,0 +1,97 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "大声斥责、怒斥。",
+      "examples": [
+        "呵斥",
+        "呵责"
+      ],
+      "traditional_char": "呵"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "用口气呼出、出气。",
+      "examples": [
+        "呵冻",
+        "一气呵成"
+      ],
+      "traditional_char": "呵"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "onomatopoeia",
+      "meaning": "形容笑声。",
+      "examples": [
+        "呵呵"
+      ],
+      "traditional_char": "呵"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "interjection",
+      "meaning": "叹词，表示惊讶或提醒注意。",
+      "examples": [
+        "呵，真不得了！"
+      ],
+      "traditional_char": "呵"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "particle",
+      "meaning": "同“啊”，语气词。",
+      "examples": [],
+      "traditional_char": "呵"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "地名，如“呵叻”，泰国地名。",
+      "examples": [
+        "呵叻"
+      ],
+      "traditional_char": "呵"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从口，可声，表示与口语、斥责有关，为形声字，最初本义为怒斥。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从怒斥引申为出气动作，因为大声呼喝与出气相关。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由出气声转喻为笑声，两者皆由口发出，声音相似。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "笑声进而用作叹词用于表达情感或提醒。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "叹词的使用进一步泛化为语气词（同“啊”）。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "unknown",
+      "note": "地名用法从本义借音，语义关联不明，可能为借用。"
+    }
+  ]
+}

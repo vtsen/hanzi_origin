@@ -1,0 +1,42 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "汁，流质，能流动、有一定体积但无一定形状的物质（液体）",
+      "examples": [
+        "液体",
+        "液汁",
+        "血液",
+        "精液",
+        "溶液",
+        "津液"
+      ],
+      "traditional_char": "液"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "澄清后的液体",
+      "examples": [
+        "凡为弓，冬析干而春液角"
+      ],
+      "traditional_char": "液"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，夜声。本义指汁、流质，即液体。‘水’表意，‘夜’表声。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_narrowing",
+      "note": "由一般流质义，狭义化为指澄清的液体，用于特殊文献或情境。"
+    }
+  ]
+}

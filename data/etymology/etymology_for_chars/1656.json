@@ -1,0 +1,57 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "用爆炸物使物体突然破裂或炸开",
+      "examples": [
+        "炸山",
+        "爆炸",
+        "炸弹"
+      ],
+      "traditional_char": "炸"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "（拟声）爆炸产生巨响，引申为突然情绪爆发",
+      "examples": [
+        "他一听就炸了",
+        "大厅里一声炸响"
+      ],
+      "traditional_char": "炸"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "把食物放在热油中煎炸至熟",
+      "examples": [
+        "炸鱼",
+        "炸糕",
+        "油炸食品"
+      ],
+      "traditional_char": "炸"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从火，乍声。乍作声旁，表音，火表义，初造时与爆裂有关。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘爆裂’引申为‘情绪爆发’，多见于现代口语。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由‘爆破’引伸为‘热油爆沸’的动作，比拟声势。"
+    }
+  ]
+}

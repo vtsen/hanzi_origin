@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "忧愁的样子，内心感到悲伤",
+      "examples": [
+        "忧心悄悄",
+        "悄然落泪"
+      ],
+      "traditional_char": "悄"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "寂静无声，环境安静没有声音",
+      "examples": [
+        "悄然无声",
+        "悄寂",
+        "悄静"
+      ],
+      "traditional_char": "悄"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adverb",
+      "meaning": "没有声音地，动作不让人察觉",
+      "examples": [
+        "静悄悄",
+        "深夜静悄悄"
+      ],
+      "traditional_char": "悄"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从心，肖声，表达心中忧愁、情绪相关的意思。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由内心忧愁引申为环境寂静、无声，多为文学或修辞性转化，较早见于古文。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由形容环境寂静引申为动作悄无声息地进行，主要出现于近现代汉语。"
+    }
+  ]
+}

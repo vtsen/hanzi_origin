@@ -1,0 +1,66 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "私下小声说话，低语。",
+      "examples": [
+        "他们在角落里嘀咕。",
+        "两个人嘀嘀咕咕，不知在说些什么。"
+      ],
+      "traditional_char": "嘀"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "猜疑，犹豫不定。",
+      "examples": [
+        "他心里一直嘀咕这件事。"
+      ],
+      "traditional_char": "嘀"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "onomatopoeia",
+      "meaning": "象声词，形容钟表等发出的声音，如“嘀嗒”。",
+      "examples": [
+        "嘀嗒，嘀嗒，时钟走个不停。"
+      ],
+      "traditional_char": "嘀"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "“謫”的俗字。（表示贬斥、责备）",
+      "examples": [],
+      "traditional_char": "嘀"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 3,
+      "note": "形声字，从言，啻声。最初为“謫”的通俗写法，用作责备、贬斥义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 3,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "由“责备”义，后形声转用作象声词，后世多用作拟声。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 0,
+      "evolution_type": "metonymy",
+      "note": "由“嘀”为象声，形容低声说话，拟声转生动词。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由低声私语引申为猜疑、犹豫意。"
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "用上下牙对住、压碎或夹住东西。",
+      "examples": [
+        "咬啮",
+        "咬噬",
+        "咬紧牙关"
+      ],
+      "traditional_char": "咬"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "钳子等夹住或螺丝齿轮等卡住。",
+      "examples": [
+        "咬合",
+        "咬住扣"
+      ],
+      "traditional_char": "咬"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "（喻）话说定了不再改变，或指受责难或审讯时诬陷无关的人。",
+      "examples": [
+        "一口咬定",
+        "乱咬好人"
+      ],
+      "traditional_char": "咬"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "动物叫，特指狗叫。",
+      "examples": [
+        "鸡叫狗咬"
+      ],
+      "traditional_char": "咬"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "正确地读字音，或过分计较字句意义。",
+      "examples": [
+        "咬字儿",
+        "咬文嚼字"
+      ],
+      "traditional_char": "咬"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "追赶进逼，紧追不舍。",
+      "examples": [
+        "双方比分咬得很紧"
+      ],
+      "traditional_char": "咬"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从口，交声，本义为用牙齿夹住或压碎。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由牙齿夹住引申为工具夹住或齿轮卡住。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由夹住动作比喻死咬不放或诬陷。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "因狗以牙齿咬人为特点引申为狗叫。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "由咬的动作引申为咬字音或计较字句。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "metaphor",
+      "note": "由咬住不放引申为紧追不舍。"
+    }
+  ]
+}

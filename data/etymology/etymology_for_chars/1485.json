@@ -1,0 +1,88 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "头上的装饰品",
+      "examples": [
+        "《说文》：显，头上饰也。"
+      ],
+      "traditional_char": "顯"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "明显，容易被看到或察觉",
+      "examples": [
+        "明显",
+        "显著"
+      ],
+      "traditional_char": "顯"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "表现、显露出来",
+      "examples": [
+        "显露",
+        "显示",
+        "显山露水"
+      ],
+      "traditional_char": "顯"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "有名望或有权势的",
+      "examples": [
+        "显贵",
+        "显赫",
+        "显要"
+      ],
+      "traditional_char": "顯"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "敬辞，称呼先人，如已故父母",
+      "examples": [
+        "显考",
+        "显妣"
+      ],
+      "traditional_char": "顯"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意字，从页（头），从显，形声兼意，指头上的装饰物。‘页’表示头的部位，‘显’为声旁。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "头上的装饰品容易被人看到，转喻为明显、易见。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "conversion",
+      "note": "形容词‘明显’派生为动词‘显现出来’。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由‘明显’引申为‘有名望、有权势’，因其人地位突出显眼。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "function_word",
+      "note": "‘明显’发展为敬辞，用于已故双亲，突出尊崇、显著之意。"
+    }
+  ]
+}

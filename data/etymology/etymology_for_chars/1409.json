@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "某些昆虫的幼虫在变成蛹之前吐丝做成的壳",
+      "examples": [
+        "蚕茧",
+        "茧壳",
+        "蚕吐丝成茧"
+      ],
+      "traditional_char": "繭"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "比喻物体包裹或壳状物",
+      "examples": [
+        "心如茧封",
+        "情感之茧"
+      ],
+      "traditional_char": "繭"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "皮肤因摩擦等原因变硬、变厚形成的厚皮",
+      "examples": [
+        "手上起了茧",
+        "脚茧"
+      ],
+      "traditional_char": "繭"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "繭为形声字，从糸，戔声。表昆虫之丝壳。简化字茧以“艹”代“糸”保留声旁。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "从昆虫茧壳引申为任何包裹或壳状物。古今皆有用例见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由茧壳的坚硬、保护层喻为人体因摩擦形成的厚皮。见宋以后扩义。"
+    }
+  ]
+}

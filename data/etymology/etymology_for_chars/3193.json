@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "整理（将东西理顺、理好）",
+      "examples": [
+        "撩理衣服",
+        "撩理头发"
+      ],
+      "traditional_char": "撩"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "掀起（如把盖着的东西揭开、举起）",
+      "examples": [
+        "撩起衣襟",
+        "撩起头发"
+      ],
+      "traditional_char": "撩"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "用手舀着洒水",
+      "examples": [
+        "先撩水后扫地"
+      ],
+      "traditional_char": "撩"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "挑弄，引逗",
+      "examples": [
+        "春色撩人",
+        "撩拨",
+        "撩乱"
+      ],
+      "traditional_char": "撩"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从手，尞声，表示用手整理、理顺。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“整理”扩展为“掀起”，因整理时伴随有揭起动作。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由“掀起”引申为“用手舀着洒水”，动作类似。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由“掀起”动作引申为“挑弄、引逗”，以比喻情感或情绪被“掀起”。"
+    }
+  ]
+}

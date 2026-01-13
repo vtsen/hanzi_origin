@@ -1,0 +1,104 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "良马，骏马，品种优良的马。",
+      "examples": [
+        "天子八骏。",
+        "东市买骏马。",
+        "王都观阙双巍巍，腾蹋众骏事鞍鞿。"
+      ],
+      "traditional_char": "駿"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "迅速，速度快。",
+      "examples": [
+        "骏奔走在庙。",
+        "驥足虽駿，纆牵忌长。"
+      ],
+      "traditional_char": "駿"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "高大，巨大。",
+      "examples": [
+        "骏，大也。",
+        "崧高维岳，骏极于天。",
+        "骏命不易。"
+      ],
+      "traditional_char": "駿"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "长，长久。",
+      "examples": [
+        "浩浩昊天，不骏其德。"
+      ],
+      "traditional_char": "駿"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "通“峻”，高峻、严峻。",
+      "examples": [
+        "笔力劲骏，心手相应。",
+        "骏极于天。"
+      ],
+      "traditional_char": "駿"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "adjective",
+      "meaning": "通“俊”，才智出众，英俊。",
+      "examples": [
+        "诽骏疑杰兮，固庸态也。",
+        "两公天下骏，无地与腾骧。"
+      ],
+      "traditional_char": "駿"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从马，夋声。形声字，本义为良马。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由良马引申为速度快，比喻迅速，见《诗经》等古文。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "良马体魄强壮，引申为高大、巨大。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "高大进一步引申为长、长久，用于诗文修饰抽象事物。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "高大引申为高峻、严峻，用于地势、性格等。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "metaphor",
+      "note": "由良马引申，比喻人品卓绝、才智超群，通“俊”。"
+    }
+  ]
+}

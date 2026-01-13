@@ -1,0 +1,40 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "车垫子，泛指铺垫的东西，如垫子、褥子、毯子等",
+      "examples": [
+        "茵褥",
+        "茵席",
+        "铺茵设席"
+      ],
+      "traditional_char": "茵"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "铺垫状的草地，形容草茂密如垫子",
+      "examples": [
+        "绿草如茵",
+        "芳草茵茵"
+      ],
+      "traditional_char": "茵"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从艸，因声。本义为车垫，‘艸’表植物质垫物，‘因’为声符。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "以垫子为喻，引申指草地茂盛如毯。在古汉语以实物比喻自然景观常见。"
+    }
+  ]
+}

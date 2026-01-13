@@ -1,0 +1,40 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "收藏东西的地洞或坑",
+      "examples": [
+        "地窖",
+        "窖穴",
+        "酒窖"
+      ],
+      "traditional_char": "窖"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "把东西藏在地窖里",
+      "examples": [
+        "窖藏",
+        "窖白菜"
+      ],
+      "traditional_char": "窖"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从穴，告声，“穴”指洞穴相关，本义为方形地窖。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "conversion",
+      "note": "名词作动词用，表将物品存放于地窖。"
+    }
+  ]
+}

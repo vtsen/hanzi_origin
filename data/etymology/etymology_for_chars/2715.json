@@ -1,0 +1,74 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "人或动物体内中空的部分",
+      "examples": [
+        "体腔",
+        "胸腔",
+        "满腔热血"
+      ],
+      "traditional_char": "腔"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "器物中空的部分",
+      "examples": [
+        "炉腔",
+        "管腔"
+      ],
+      "traditional_char": "腔"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "乐曲的调子",
+      "examples": [
+        "唱腔",
+        "梆子腔",
+        "京剧唱腔"
+      ],
+      "traditional_char": "腔"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "说话的声音或语调",
+      "examples": [
+        "京腔",
+        "开腔",
+        "拿腔拿调"
+      ],
+      "traditional_char": "腔"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从“月”（表示与肉体有关），“空”声，本义为体内的空处。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "人体中空部分引申比喻为器物的中空部分，用以描述相似结构。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "器物中空发声引申为音乐的声腔、调子。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由乐曲调子进一步引申为说话的声音、语调，语音色彩。"
+    }
+  ]
+}

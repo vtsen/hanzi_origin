@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "洗澡，用水清洗身体",
+      "examples": [
+        "沐浴",
+        "浴室",
+        "浴缸"
+      ],
+      "traditional_char": "浴"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "浸在（液体）中，常指抽象意义上的经历，如“浴血”",
+      "examples": [
+        "浴血奋战"
+      ],
+      "traditional_char": "浴"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，谷声。本义为洗澡。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由实际洗浴引申为沉浸、经历（如浴血），形成抽象用法。"
+    }
+  ]
+}

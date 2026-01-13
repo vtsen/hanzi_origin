@@ -1,0 +1,92 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "虎叫的声音；猛兽怒吼声。",
+      "examples": [
+        "唬，虎声也。从口虎。——《说文》",
+        "唬声震天。"
+      ],
+      "traditional_char": "唬"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "鸟鸣声。",
+      "examples": [
+        "唬，鸟啼也。"
+      ],
+      "traditional_char": "唬"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "吓唬；用言语或动作使人害怕、恐惧。",
+      "examples": [
+        "你别唬人。",
+        "镇唬他们，似乎又太无情了。",
+        "唬得目瞪口呆。——《红楼梦》"
+      ],
+      "traditional_char": "唬"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "蒙混，欺骗；虚张声势以误导或蒙哄。",
+      "examples": [
+        "唬弄（糊弄，欺骗；蒙混）。",
+        "用流言唬人。"
+      ],
+      "traditional_char": "唬"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "呼号，大声呼喊。",
+      "examples": [
+        "通‘号’：俯哭谁诉？卬唬焉告？"
+      ],
+      "traditional_char": "唬"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从口，虎声。‘口’表发声，‘虎’兼表意和声；本指虎的吼叫声。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "虎声威猛，转指以言语或动作威吓他人。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由虚张声势吓人，引申为夸大事实以蒙混、欺骗。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "吓唬人的手段常与欺骗、蒙混相关，用法相互渗透。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "analogy",
+      "note": "由猛兽声音比拟鸟鸣，用于表述类似的动物叫声。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "动物吼叫转用于人的呼号、大声呼喊。"
+    }
+  ]
+}

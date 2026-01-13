@@ -1,0 +1,236 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "住宅，住所，屋子",
+      "examples": [
+        "可以家焉",
+        "归家"
+      ],
+      "traditional_char": "家"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "家庭，共同生活的亲属及其所住的地方",
+      "examples": [
+        "家人",
+        "家园",
+        "家庭",
+        "回家"
+      ],
+      "traditional_char": "家"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "家乡，出生、成长的地方",
+      "examples": [
+        "老家",
+        "回家过年"
+      ],
+      "traditional_char": "家"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "称对方的尊长、亲属",
+      "examples": [
+        "家父",
+        "家母",
+        "家祖"
+      ],
+      "traditional_char": "家"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "家养的（禽兽），非野生",
+      "examples": [
+        "家畜",
+        "家禽"
+      ],
+      "traditional_char": "家"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "职业之家、拥有某身份或行当的家庭",
+      "examples": [
+        "酒家",
+        "农家",
+        "商家"
+      ],
+      "traditional_char": "家"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "精于某种专业的人，专家",
+      "examples": [
+        "科学家",
+        "作家",
+        "艺术家"
+      ],
+      "traditional_char": "家"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "noun",
+      "meaning": "学术流派",
+      "examples": [
+        "法家",
+        "儒家",
+        "道家",
+        "诸子百家"
+      ],
+      "traditional_char": "家"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "measure_word",
+      "meaning": "用于家庭、企业数量单位",
+      "examples": [
+        "一家人",
+        "三家公司"
+      ],
+      "traditional_char": "家"
+    },
+    {
+      "index": 9,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "家传",
+        "家姓"
+      ],
+      "traditional_char": "家"
+    },
+    {
+      "index": 10,
+      "part_of_speech": "noun",
+      "meaning": "与“价”同，作为词尾用，表示时间或程度",
+      "examples": [
+        "整天家",
+        "成年家"
+      ],
+      "traditional_char": "家"
+    },
+    {
+      "index": 11,
+      "part_of_speech": "noun",
+      "meaning": "表示一类人的词尾，用于老人、妇女等的后面",
+      "examples": [
+        "老人家",
+        "姑娘家"
+      ],
+      "traditional_char": "家"
+    },
+    {
+      "index": 12,
+      "part_of_speech": "noun",
+      "meaning": "用在男人名字或排行后，指他的妻子",
+      "examples": [
+        "水生家"
+      ],
+      "traditional_char": "家"
+    },
+    {
+      "index": 13,
+      "part_of_speech": "noun",
+      "meaning": "家具，用于“傢俱”等词中（仅限于‘傢’用法）",
+      "examples": [
+        "傢俱",
+        "木傢"
+      ],
+      "traditional_char": "傢"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "“宀”表示屋子，“豕”表示猪，合指有房有猪处为‘家’；本义为住所。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 13,
+      "note": "‘傢’从‘亻’（表人）旁，从‘家’声，本指家具，后用于‘家具’的‘傢’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从‘住所’引申为家庭整体，包括亲属。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "家庭所居之地引申为出生地、故乡。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "从‘家庭’引申为称对方亲属。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "屋养之物引申，表示家养禽兽。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "由家庭引申为经营某行当的人家。"
+    },
+    {
+      "source_index": 5,
+      "target_index": 6,
+      "evolution_type": "metonymy",
+      "note": "由‘人家’指向‘此行当的专家’。"
+    },
+    {
+      "source_index": 5,
+      "target_index": 7,
+      "evolution_type": "semantic_extension",
+      "note": "由务某行当引申到学术流派。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 8,
+      "evolution_type": "grammaticalization",
+      "note": "‘家’虚化为表示单位的量词。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 9,
+      "evolution_type": "unknown",
+      "note": "作为姓氏，来源不详。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 10,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "‘家’借表示‘价’，作为词尾用。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 11,
+      "evolution_type": "grammaticalization",
+      "note": "‘家’虚化为表示一类人的词尾。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 12,
+      "evolution_type": "grammaticalization",
+      "note": "用作男子名后，指其妻的习惯称呼。"
+    }
+  ]
+}

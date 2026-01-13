@@ -1,0 +1,40 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "用以饮食、读书、写字等用途的家具——桌子。",
+      "examples": [
+        "书桌",
+        "餐桌",
+        "他坐在桌旁。"
+      ],
+      "traditional_char": "桌"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "measure_word",
+      "meaning": "作为量词，指一桌（桌上的一批或一组人/物）。",
+      "examples": [
+        "三桌客人",
+        "五桌酒席"
+      ],
+      "traditional_char": "桌"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“桌”为形声字，从木，卓声，表示用木制成且高大直立之物，后特指桌子。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "grammaticalization",
+      "note": "由具体实物“桌子”引申为量词，结构单位。"
+    }
+  ]
+}

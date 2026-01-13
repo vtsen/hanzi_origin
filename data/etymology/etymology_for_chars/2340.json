@@ -1,0 +1,40 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "迁移，搬动住所或位置。",
+      "examples": [
+        "迁徙",
+        "徙居",
+        "人民被迫徙于他乡。"
+      ],
+      "traditional_char": "徙"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "古代将罪犯流放到边远地区的刑罚。",
+      "examples": [
+        "徙边",
+        "因犯重罪而受徙之刑。"
+      ],
+      "traditional_char": "徙"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从辵表示与行走有关，止为声旁，古本义为‘迁移’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_narrowing",
+      "note": "‘迁移’义引申专指作为刑罚的‘流放’，多见于古代律令语境。"
+    }
+  ]
+}

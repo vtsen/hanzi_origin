@@ -1,0 +1,38 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "坐着打瞌睡，眼睑下垂",
+      "examples": [
+        "困倦之极，不觉睡于席上。"
+      ],
+      "traditional_char": "睡"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "闭目安息，大脑皮质处于休息状态",
+      "examples": [
+        "每天要睡八小时觉。",
+        "入睡之后，梦境开始。"
+      ],
+      "traditional_char": "睡"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从目，垂声。本义为眼睑下垂、打瞌睡。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由打瞌睡的动作扩展到普遍意义上的睡眠，古今皆有体现。"
+    }
+  ]
+}

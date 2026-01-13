@@ -1,0 +1,101 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "生出，生长",
+      "examples": [
+        "滋生",
+        "滋芽",
+        "潜滋暗长"
+      ],
+      "traditional_char": "滋"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "增益，增加",
+      "examples": [
+        "滋养",
+        "滋补",
+        "滋阴"
+      ],
+      "traditional_char": "滋"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "汁液，润泽",
+      "examples": [
+        "滋润"
+      ],
+      "traditional_char": "滋"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "味道",
+      "examples": [
+        "滋味"
+      ],
+      "traditional_char": "滋"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "喷射（水）",
+      "examples": [
+        "往外滋水"
+      ],
+      "traditional_char": "滋"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "adjective",
+      "meaning": "浑浊",
+      "examples": [
+        "何故使吾水滋？"
+      ],
+      "traditional_char": "滋"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，“氵”表意，与水、滋润相关，“兹”表声，最初表示生长、滋生。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“生出”引申为“增多”和“增加养分”，汉代以后常见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由生长引申为生成汁液或润泽之物。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由“润泽”引申为“味道”，用于食物中。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_shift",
+      "note": "由“生出”转为表示喷射出水或液体。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 5,
+      "evolution_type": "semantic_shift",
+      "note": "由“汁液”发展为“水浊”，例见古文。"
+    }
+  ]
+}

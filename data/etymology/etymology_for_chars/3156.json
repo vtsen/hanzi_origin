@@ -1,0 +1,86 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "仆倒，向前倒下。",
+      "examples": [
+        "仆而弊于地。"
+      ],
+      "traditional_char": "弊"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "欺诈、蒙骗等坏事。",
+      "examples": [
+        "营私舞弊",
+        "作奸犯弊"
+      ],
+      "traditional_char": "弊"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "害处，与“利”相对。",
+      "examples": [
+        "利弊得失",
+        "弊端难除"
+      ],
+      "traditional_char": "弊"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "疲困，衰败。",
+      "examples": [
+        "身心交弊",
+        "弊病日深"
+      ],
+      "traditional_char": "弊"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "隐蔽，遮蔽（古同“蔽”）。",
+      "examples": [
+        "蔽日弊天",
+        "弊障未除"
+      ],
+      "traditional_char": "弊"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，本作“獘”，从犬敝声，犬指被扑倒或咬倒。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由‘仆倒’引申为‘疲困、衰败’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由‘倒下’引申为道德沦丧、作坏事。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由‘倒下/坏’引申为‘害处’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_shift",
+      "note": "少数文献中通‘蔽’，用作遮蔽，属于通假与语音替换扩展。"
+    }
+  ]
+}

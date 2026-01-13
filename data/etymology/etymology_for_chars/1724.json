@@ -1,0 +1,93 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "宫殿正门内的小墙，照壁。",
+      "examples": [
+        "屏，殿门外墙曰屏，帝王家所用。",
+        "宫中有屏以蔽视。"
+      ],
+      "traditional_char": "屏"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "遮挡物，如屏风、屏障。",
+      "examples": [
+        "屏风",
+        "屏障",
+        "屏蔽",
+        "屏藩",
+        "屏翰"
+      ],
+      "traditional_char": "屏"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "字画的条幅，通常为四幅或八幅为一组。",
+      "examples": [
+        "四扇屏",
+        "画屏"
+      ],
+      "traditional_char": "屏"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "除去，排除。",
+      "examples": [
+        "屏除",
+        "屏弃",
+        "屏斥",
+        "屏退"
+      ],
+      "traditional_char": "屏"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "抑止（呼吸）。",
+      "examples": [
+        "屏气",
+        "屏息",
+        "屏声"
+      ],
+      "traditional_char": "屏"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从“尸”（由“广”演变，表房屋）为意旁，“并”为声旁，表示宫门内小墙，本义为“照壁”。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "本义“宫门小墙”引申为一般遮挡物；常见于先秦至汉以后。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "因遮挡物多装饰字画，引申为“画屏”等条幅之用，属实物转称。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "遮挡引申为“除去、排除”等动作义；语义扩展，具体遮挡泛化为抽象排除。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "遮挡引申为“抑止（呼吸）”，本为物理阻隔，转喻生理压抑。"
+    }
+  ]
+}

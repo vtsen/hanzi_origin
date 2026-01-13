@@ -1,0 +1,86 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "火烟向上冒",
+      "examples": [
+        "烟熏火燎",
+        "炉火熏天"
+      ],
+      "traditional_char": "熏"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "气味或烟气接触物品，引申为长期接触对品行、习惯的影响",
+      "examples": [
+        "熏染",
+        "熏陶",
+        "腊肉用烟熏制"
+      ],
+      "traditional_char": "熏"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "气味刺激人",
+      "examples": [
+        "臭气熏人"
+      ],
+      "traditional_char": "熏"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "暖和",
+      "examples": [
+        "熏风",
+        "和风熏人"
+      ],
+      "traditional_char": "熏"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "（煤气）使人窒息中毒",
+      "examples": [
+        "煤气熏死了人"
+      ],
+      "traditional_char": "熏"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "金文形体，上部象烟气从烟囱冒出，下为火。本义为火烟向上冒。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由火烟冒出引申为烟气或气味接触，进一步引申为品行习惯被影响。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由火烟冒出转为气味刺激人，多含贬义。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由火烟带来暖意引申为‘暖和’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由烟对人影响进一步延伸为煤气熏人致中毒。"
+    }
+  ]
+}

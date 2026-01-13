@@ -1,0 +1,52 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "一种薄而软的丝织品。",
+      "examples": [
+        "纺绸。",
+        "绸缎。"
+      ],
+      "traditional_char": "綢"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "束缚，缠绕。",
+      "examples": [
+        "迨天之未阴雨，彻彼桑土，绸缪牖户。",
+        "情意绸缪。"
+      ],
+      "traditional_char": "綢"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "致密。（古同“稠”）",
+      "examples": [],
+      "traditional_char": "綢"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "形声字，从糸（丝），周声，本义为缠绕。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "由“缠绕”义引申为能缠绕的丝织品。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "致密义为事物缠绕紧密，比喻之用。"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "大水，暴涨的水流",
+      "examples": [
+        "洪水泛滥",
+        "山洪暴发"
+      ],
+      "traditional_char": "洪"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "巨大的，广大的",
+      "examples": [
+        "洪大",
+        "洪福齐天",
+        "声音洪亮"
+      ],
+      "traditional_char": "洪"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "洪秀全",
+        "洪家"
+      ],
+      "traditional_char": "洪"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘洪’为形声字，从水，共声。本义为大水。‘水’表意，‘共’表声。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由具体的大水引申为巨大的、广大的，一般认为属于语义扩展。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "conversion",
+      "note": "由‘洪’的本义引申为姓氏用法，中国古代以各种自然现象为姓较常见。"
+    }
+  ]
+}

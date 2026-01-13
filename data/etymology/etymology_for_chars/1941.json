@@ -1,0 +1,154 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "登上，升上（本义）",
+      "examples": [
+        "乘木而上",
+        "学而时习之，不亦说乎？有朋自远方来，不亦乐乎？人不知而不愠，不亦君子乎？——《论语》"
+      ],
+      "traditional_char": "乘"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "骑、坐（交通工具）",
+      "examples": [
+        "乘马",
+        "乘车",
+        "乘飞机去北京"
+      ],
+      "traditional_char": "乘"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "趁着，利用（机会等）",
+      "examples": [
+        "乘机",
+        "乘便",
+        "乘兴而来"
+      ],
+      "traditional_char": "乘"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "算术运算中的“相乘”",
+      "examples": [
+        "乘法",
+        "2乘3等于6"
+      ],
+      "traditional_char": "乘"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "佛教的教派或教法",
+      "examples": [
+        "大乘",
+        "小乘",
+        "上乘佛法"
+      ],
+      "traditional_char": "乘"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "乘政",
+        "乘氏"
+      ],
+      "traditional_char": "乘"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "古代称兵车，四马一车为一乘",
+      "examples": [
+        "千乘之国",
+        "乘舆"
+      ],
+      "traditional_char": "乘"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "numeral",
+      "meaning": "古代称“四”为乘",
+      "examples": [
+        "乘矢",
+        "乘壶"
+      ],
+      "traditional_char": "乘"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "noun",
+      "meaning": "晋国史书名，后泛指史书",
+      "examples": [
+        "史乘",
+        "野乘"
+      ],
+      "traditional_char": "乘"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意字，从'大'（人）从'木'，表示人登上木（树），表“登，上”之义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“登上”引申为“上（马、车等）”进而发展为“乘坐、骑”。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由“乘坐”转为“把握机会”，如乘势而上。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 6,
+      "evolution_type": "semantic_narrowing",
+      "note": "由“乘坐”交通工具引申专指古代兵车单位。"
+    },
+    {
+      "source_index": 6,
+      "target_index": 7,
+      "evolution_type": "metonymy",
+      "note": "以“兵车四马为一乘”进而代表“四”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "“登、合”意引申为数的倍增操作，逻辑为“数上加数”。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "佛教用“乘”比喻“交通工具”，引申为“教法”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "unknown",
+      "note": "作为姓氏，来源不详，或与本义无关。"
+    },
+    {
+      "source_index": 6,
+      "target_index": 8,
+      "evolution_type": "metaphor",
+      "note": "由“兵车”转指“史书”，比喻其承载历史。"
+    }
+  ]
+}

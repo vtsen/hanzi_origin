@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "一种按时发冷发烧的急性传染病，疟疾，简称疟，是由疟原虫引起，经蚊媒传播。",
+      "examples": [
+        "他患了疟疾。",
+        "疟蚊是传播疟疾的媒介。"
+      ],
+      "traditional_char": "瘧"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "疟疾的通称，通常用于口语，如“发疟子”、“打摆子”。",
+      "examples": [
+        "他又发疟子了。",
+        "得了疟子以后要及时治疗。"
+      ],
+      "traditional_char": "瘧"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从疒（表示疾病），虐作声旁，原指疟疾这类疾病。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由对疟疾的正式称呼扩展为口语中的通称，如“疟子”。"
+    }
+  ]
+}

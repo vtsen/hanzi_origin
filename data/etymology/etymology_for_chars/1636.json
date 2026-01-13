@@ -1,0 +1,101 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "听见",
+      "examples": [
+        "闻鸡起舞",
+        "闻过则喜",
+        "博闻强记"
+      ],
+      "traditional_char": "聞"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "消息，听见的事情",
+      "examples": [
+        "新闻",
+        "传闻",
+        "见闻"
+      ],
+      "traditional_char": "聞"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "有名望的，出名",
+      "examples": [
+        "闻人",
+        "闻达"
+      ],
+      "traditional_char": "聞"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "名声",
+      "examples": [
+        "令闻",
+        "丑闻"
+      ],
+      "traditional_char": "聞"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "嗅，用鼻子闻气味",
+      "examples": [
+        "你闻闻这是什么味儿？"
+      ],
+      "traditional_char": "聞"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [],
+      "traditional_char": "聞"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从耳，门声，表示用耳朵在门旁侧听，初义为‘听见’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘听见’引申为‘听见的事情、消息’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由‘听见’引申为‘被听见的人’，即‘有名望的’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "由‘听见’引申为‘名声’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_shift",
+      "note": "语义转指‘嗅’，闻嗅皆为感官感知，汉语中因声母相近语义转变。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "function_word",
+      "note": "用作姓氏，多源于以字为姓的习惯用法。"
+    }
+  ]
+}

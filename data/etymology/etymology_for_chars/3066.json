@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "向往，敬仰，羡慕",
+      "examples": [
+        "羡慕贤才",
+        "仰慕英雄",
+        "景慕已久"
+      ],
+      "traditional_char": "慕"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "思念，依恋",
+      "examples": [
+        "游子思慕故乡",
+        "长夜思慕亲人"
+      ],
+      "traditional_char": "慕"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "慕姓起源于北方",
+        "慕容氏的一部分简化为慕姓"
+      ],
+      "traditional_char": "慕"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "形声字，从心，莫声，表示与心有关的情感动作，本义为思念、依恋。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "由思念之情扩展为向往、敬仰等积极情感。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "conversion",
+      "note": "由动词用作姓氏，通常姓氏来源于感情色彩的易记易用词。"
+    }
+  ]
+}

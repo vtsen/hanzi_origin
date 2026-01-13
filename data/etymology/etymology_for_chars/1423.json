@@ -1,0 +1,93 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "可以治病的东西，药物，药材。",
+      "examples": [
+        "中药、西药、补药、药到病除"
+      ],
+      "traditional_char": "藥"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "有特定作用的化学品（如火药、炸药、杀虫药等）。",
+      "examples": [
+        "火药、炸药、杀虫药"
+      ],
+      "traditional_char": "藥"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "用药物救治。",
+      "examples": [
+        "不可救药"
+      ],
+      "traditional_char": "藥"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "用药物毒死。",
+      "examples": [
+        "药老鼠"
+      ],
+      "traditional_char": "藥"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "古同“约”，缠绕、束缚。",
+      "examples": [],
+      "traditional_char": "藥"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "白芷（一种草名）。",
+      "examples": [],
+      "traditional_char": "藥"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从艸，乐声。艸表示与植物有关，乐表声音兼表音。本义为治病用的草药。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从具体的治病药物扩展到一切有特定作用的化学品，如火药。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "grammaticalization",
+      "note": "名词作动词，引申为用药救治。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "药本为治病之物，转用于致死为“毒药”，再动用为用药毒死。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "semantic_narrowing",
+      "note": "由泛指药物专指白芷这种草药。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "unknown",
+      "note": "古同“约”，义或为通假，具体机制不明。"
+    }
+  ]
+}

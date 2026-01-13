@@ -1,0 +1,102 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "追赶，尽早或及时到达",
+      "examples": [
+        "赶超",
+        "赶集",
+        "赶先进"
+      ],
+      "traditional_char": "趕"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "从速行动，快做",
+      "examples": [
+        "赶快",
+        "赶路",
+        "赶任务"
+      ],
+      "traditional_char": "趕"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "驱逐，驱使",
+      "examples": [
+        "赶羊",
+        "驱赶"
+      ],
+      "traditional_char": "趕"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "等到（某个时候）",
+      "examples": [
+        "赶明儿"
+      ],
+      "traditional_char": "趕"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "遇到（某种情形或机会）",
+      "examples": [
+        "正赶上"
+      ],
+      "traditional_char": "趕"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "兽类翘起尾巴奔跑",
+      "examples": [
+        "举尾走也。——《说文》"
+      ],
+      "traditional_char": "趕"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 5,
+      "note": "形声字，从走，旱声。本义为兽类翘尾奔跑。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 5,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "由动物奔跑引申为较广的“追赶、赶上”义，汉代已见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从“赶上、追赶”引申为“赶快、加速做”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "从“追赶”进一步引申为“驱逐、驱使”，东汉文献可见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "由“赶（到某处）”引申为“等到（某时）”，利用动作达到时间。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "由“赶（到某处）”引申为“遇到（某种情形或机会）”。"
+    }
+  ]
+}

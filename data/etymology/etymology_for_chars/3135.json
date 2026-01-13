@@ -1,0 +1,151 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "鱼名，一种产自貉国的鱼",
+      "examples": [],
+      "traditional_char": "鮮"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "新鲜的，不陈旧的，不干枯的",
+      "examples": [
+        "新鲜水果",
+        "鲜花盛开",
+        "这些蔬菜很新鲜"
+      ],
+      "traditional_char": "鮮"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "（味道）美好，鲜美",
+      "examples": [
+        "鲜美的汤",
+        "味道很鲜",
+        "鲜甜可口"
+      ],
+      "traditional_char": "鮮"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "有光彩，明亮，色彩艳丽",
+      "examples": [
+        "颜色鲜明",
+        "灯光鲜亮",
+        "衣服鲜艳"
+      ],
+      "traditional_char": "鮮"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "味美的食物",
+      "examples": [
+        "品尝美鲜",
+        "时令之鲜"
+      ],
+      "traditional_char": "鮮"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "特指鱼虾等水产食物，海鲜",
+      "examples": [
+        "海鲜大餐",
+        "新鲜鱼鲜"
+      ],
+      "traditional_char": "鮮"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "古代中国北方民族名，鲜卑",
+      "examples": [
+        "鲜卑族",
+        "契丹与鲜卑"
+      ],
+      "traditional_char": "鮮"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "鲜于",
+        "鲜氏"
+      ],
+      "traditional_char": "鮮"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "adjective",
+      "meaning": "少，很少",
+      "examples": [
+        "鲜为人知",
+        "屡见不鲜"
+      ],
+      "traditional_char": "鮮"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意字，从鱼从羊，初指鱼名，后引申义丰富。‘鱼’表类别，‘羊’表味美。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由特定味美的鱼名称，转为表示味道鲜美。战国-汉代。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘味美’引申为‘新鲜’、‘不陈’。中古以后民间口语普及。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 4,
+      "evolution_type": "semantic_narrowing",
+      "note": "从‘味美’转向专指‘味美的食物’。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 5,
+      "evolution_type": "semantic_narrowing",
+      "note": "进一步专指‘鱼虾等水产食物’。现代用法。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "味美让人愉悦，引申为色彩明亮有光彩。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "unknown",
+      "note": "作为民族名‘鲜卑’之‘鲜’，具体语源关系不明。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 7,
+      "evolution_type": "unknown",
+      "note": "用作姓氏，专指化用，语源未详。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 8,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "‘鲜’作为‘xiǎn’时表‘少’，古为借用。见古籍多用。"
+    }
+  ]
+}

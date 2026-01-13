@@ -1,0 +1,57 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "温度高，皮肤接触温度高的物体感觉疼痛",
+      "examples": [
+        "烫手",
+        "烫嘴"
+      ],
+      "traditional_char": "燙"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "用热的物体使另外的物体起变化",
+      "examples": [
+        "烫酒",
+        "烫衣服",
+        "烫金",
+        "烫伤"
+      ],
+      "traditional_char": "燙"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "特指“烫发”",
+      "examples": [
+        "电烫",
+        "冷烫"
+      ],
+      "traditional_char": "燙"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘燙’是形声字，火为意符，汤为声符，本意与热、烫相关，表面高温。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "conversion",
+      "note": "温度高延伸为加热行为，属于形容词转动词。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "用热改变形态（如头发）产生新名词‘烫（发）’，以动作代表结果。"
+    }
+  ]
+}

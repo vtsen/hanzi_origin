@@ -1,0 +1,53 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "蜻蜓。常用於詞語「蜻蜓」。",
+      "examples": [
+        "池塘邊有許多蜻蜓飛舞。",
+        "蜓翼輕薄。"
+      ],
+      "traditional_char": "蜓"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "壁虎。常用於詞語「蝘蜓」。",
+      "examples": [
+        "牆上有一隻蝘蜓。"
+      ],
+      "traditional_char": "蜓"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "蟬類、螇螰等昆蟲的名稱。常用於「蜓蚞」。",
+      "examples": [
+        "《爾雅·釋蟲》：蜓蚞，螇螰。"
+      ],
+      "traditional_char": "蜓"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从虫，廷聲。表昆虫类别，古音與定义相关。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "昆虫名称泛用，指涉蜻蜓外的其他类似昆虫（如蟬类）。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "形象转指，因壁虎形态或动作与蜻蜓有相似而得名。"
+    }
+  ]
+}

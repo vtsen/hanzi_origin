@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "interjection",
+      "meaning": "打招呼时用的叹词。",
+      "examples": [
+        "喂，您是哪位？",
+        "喂，你听得见吗？"
+      ],
+      "traditional_char": "喂"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "把食物送进人嘴里。",
+      "examples": [
+        "母亲在喂婴儿。",
+        "喂奶是一件辛苦的事。"
+      ],
+      "traditional_char": "喂"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "给动物吃东西，饲养。",
+      "examples": [
+        "他在喂马。",
+        "喂鱼是我的工作。"
+      ],
+      "traditional_char": "喂"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 2,
+      "note": "形声字，“口”为意旁，表示与嘴或声音相关，“畏”为声旁，初指给动物喂食。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 2,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由给动物喂食扩展至给人喂食，形成泛用。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 0,
+      "evolution_type": "metaphor",
+      "note": "由“喂食”引申为“出声呼唤”，用于打招呼，有学者认为为拟声用法。"
+    }
+  ]
+}

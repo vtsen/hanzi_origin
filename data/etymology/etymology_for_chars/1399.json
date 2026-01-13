@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "pronoun",
+      "meaning": "代替不明确指出的人、地、事、物等",
+      "examples": [
+        "某人",
+        "某地",
+        "某事",
+        "某国"
+      ],
+      "traditional_char": "某"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "pronoun",
+      "meaning": "自称，代替“我”或自己的姓名",
+      "examples": [
+        "某姓李",
+        "某自愧不如"
+      ],
+      "traditional_char": "某"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "梅树或梅果（古义）",
+      "examples": [],
+      "traditional_char": "某"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "pictograph",
+      "original_sense_index": 2,
+      "note": "金文为象形字，上木下果实，为“梅”的象形，后假借为代词"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 2,
+      "target_index": 0,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "古时由“梅”之专有名词假借为代词，不指明对象"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由泛指不特定的人扩展用作自谦自称"
+    }
+  ]
+}

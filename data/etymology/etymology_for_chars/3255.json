@@ -1,0 +1,123 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "写字绘画用的黑色颜料。",
+      "examples": [
+        "一锭墨",
+        "墨汁",
+        "墨盒"
+      ],
+      "traditional_char": "墨"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "书画用的各色颜料。",
+      "examples": [
+        "墨水",
+        "油墨"
+      ],
+      "traditional_char": "墨"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "黑色或接近于黑色的。",
+      "examples": [
+        "墨黑",
+        "墨绿",
+        "墨晶"
+      ],
+      "traditional_char": "墨"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "指古代在脸上刺字并涂墨的刑罚（墨刑）。",
+      "examples": [
+        "墨刑",
+        "墨面"
+      ],
+      "traditional_char": "墨"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "贪污，指贪官污吏。",
+      "examples": [
+        "贪墨",
+        "墨吏"
+      ],
+      "traditional_char": "墨"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [],
+      "traditional_char": "墨"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "古同“默”，沉默不语。",
+      "examples": [
+        "墨然无语"
+      ],
+      "traditional_char": "墨"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“墨”会意兼形声，从土、从黑，黑亦声，表示黑色颜料，为最初本义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从专指黑色颜料扩展到泛指各种颜料。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由墨引申为黑色或接近黑色的意思。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "墨刑中的“墨”表示涂抹的黑色，相关词义间存在转喻关系。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "因墨常用在刑罚中涂抹，被用作刑罚的名称。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "unknown",
+      "note": "由墨引申出贪污义，词源关系不详，有待考证。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "conversion",
+      "note": "名词用作姓氏。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "古代“墨”“默”通用，表示沉默。"
+    }
+  ]
+}

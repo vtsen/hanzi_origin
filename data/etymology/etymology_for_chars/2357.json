@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "干肉，肉经腌制晒干后制作的熟食。",
+      "examples": [
+        "鹿脯",
+        "兔脯"
+      ],
+      "traditional_char": "脯"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "经过蜜渍晾干的水果制品。",
+      "examples": [
+        "果脯",
+        "杏脯"
+      ],
+      "traditional_char": "脯"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从肉，甫声。最初表示干肉一类食品。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由指干肉类食物扩展比喻用于蜜渍水果干，因其形态、制作方法类似。"
+    }
+  ]
+}

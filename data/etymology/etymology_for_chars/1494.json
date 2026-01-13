@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "人和脊椎动物体内贮藏和消化食物的器官",
+      "examples": [
+        "胃液",
+        "胃口",
+        "胃脏"
+      ],
+      "traditional_char": "胃"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "星宿名，二十八宿之一",
+      "examples": [
+        "胃宿位于东方苍龙七宿之一"
+      ],
+      "traditional_char": "胃"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "下部为“肉”表意，上部为“田”作声旁，表示与肉体器官相关，最初指胃脏。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "古人以人体器官命名星宿，星宿名来源于器官之名。"
+    }
+  ]
+}

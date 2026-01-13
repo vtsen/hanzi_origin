@@ -1,0 +1,70 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "瞳仁不正，斜视",
+      "examples": [
+        "睐，目瞳子不正也。《说文》",
+        "力代反，目不正"
+      ],
+      "traditional_char": "睞"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "旁视，斜着看",
+      "examples": [
+        "明眸善睐。——《洛神赋》",
+        "瞵悍目以旁睞。"
+      ],
+      "traditional_char": "睞"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "眺望，向远处看",
+      "examples": [
+        "极目睐左阔，回顾眺右狭。",
+        "必历鉴周睐，求与己宜。"
+      ],
+      "traditional_char": "睞"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "眼旁、眼边",
+      "examples": [
+        "啅于其睐。——《长寿县君田氏墓志铭》"
+      ],
+      "traditional_char": "睞"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从目，來声，表示眼睛、视线相关含义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从“瞳仁不正”引申为“斜视”，《说文》《广韵》均有说明。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由“旁视”扩大为“眺望”，见南朝宋谢灵运等用法。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "用眼睛斜视，引申为眼旁部位之称。"
+    }
+  ]
+}

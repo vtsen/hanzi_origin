@@ -1,0 +1,73 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "顺着，照着某物的边走或做事",
+      "examples": [
+        "沿岸行走",
+        "沿线修建",
+        "沿街叫卖"
+      ],
+      "traditional_char": "沿"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "因袭、依照（旧例）相传",
+      "examples": [
+        "沿袭旧制",
+        "沿用旧法"
+      ],
+      "traditional_char": "沿"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "边，边缘",
+      "examples": [
+        "坑沿",
+        "河沿",
+        "边沿"
+      ],
+      "traditional_char": "沿"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "在衣物或其他物品的边上加一道边",
+      "examples": [
+        "沿个边",
+        "衣服沿边"
+      ],
+      "traditional_char": "沿"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，侌声，最初意为顺着水流或水边而行。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由“顺着边走”转为直接指“边”，唐宋时期常见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "“顺着、照着”引申为“因袭”某事，古今常见引申。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "“边”引申为“在边上加一道边”，近现代用法。"
+    }
+  ]
+}

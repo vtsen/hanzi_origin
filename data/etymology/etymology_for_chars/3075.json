@@ -1,0 +1,114 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "晒太阳；曝晒。",
+      "examples": [
+        "《说文解字》：‘熙，曝也。’"
+      ],
+      "traditional_char": "熙"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "光明。",
+      "examples": [
+        "熙熙，光明的样子。",
+        "阳光熙熙。"
+      ],
+      "traditional_char": "熙"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "兴盛；兴起。",
+      "examples": [
+        "盛世熙熙。"
+      ],
+      "traditional_char": "熙"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "和乐、安乐。",
+      "examples": [
+        "熙怡（和乐安适）。",
+        "熙笑。"
+      ],
+      "traditional_char": "熙"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "福气、吉祥（古同“禧”）。",
+      "examples": [
+        "熙事（吉事）。"
+      ],
+      "traditional_char": "熙"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "adjective",
+      "meaning": "形容人来人往、喧闹纷杂的样子。",
+      "examples": [
+        "熙熙攘攘。"
+      ],
+      "traditional_char": "熙"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "嬉戏（古同“嬉”）。",
+      "examples": [
+        "以熙戏於庭。"
+      ],
+      "traditional_char": "熙"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从火，巸声，本义为曝晒、晒太阳。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由曝晒引申为光线充足，故有光明之意。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "光明比喻世道兴盛。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "光明象征和乐、安乐。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "synecdoche",
+      "note": "由光明、熙熙之貌引申为热闹、人多。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "和乐、幸福再引申为福气、吉祥。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 6,
+      "evolution_type": "semantic_shift",
+      "note": "‘熙’古作‘嬉’，与嬉戏义音近而义通。"
+    }
+  ]
+}

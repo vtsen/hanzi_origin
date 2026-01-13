@@ -1,0 +1,70 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "用指甲按或夹住、捏住物体，常有按压、夹断之意",
+      "examples": [
+        "她用手轻轻掐了一下自己的胳膊。",
+        "他把花掐下来。"
+      ],
+      "traditional_char": "掐"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "割断，截去",
+      "examples": [
+        "把头掐掉。",
+        "把根掐断。"
+      ],
+      "traditional_char": "掐"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "用手的虎口及手指紧紧握住",
+      "examples": [
+        "一把掐住脖子。"
+      ],
+      "traditional_char": "掐"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "measure_word",
+      "meaning": "两手指尖相对握着的东西的数量单位",
+      "examples": [
+        "一掐儿花生米。",
+        "他拿了一掐草。"
+      ],
+      "traditional_char": "掐"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从手，挟声，初指用手指压、捏之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘用指甲按’引申为‘割断、截去’之意。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "具体指虎口及手指握住之动作，细化原义。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "grammaticalization",
+      "note": "由动作义转为数量单位用法。"
+    }
+  ]
+}

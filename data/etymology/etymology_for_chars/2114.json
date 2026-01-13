@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "背地议论、指责、非议他人",
+      "examples": [
+        "至于怨诽之多，则固前知其如此也。",
+        "诽，谤也。——《说文》"
+      ],
+      "traditional_char": "誹"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "毁谤，捏造事实中伤他人",
+      "examples": [
+        "经诽誉。——《淮南子·本经》",
+        "贤者诽。——《吕氏春秋·决胜》"
+      ],
+      "traditional_char": "誹"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "腹诽，心中责难或非议（而不公开表达）",
+      "examples": [
+        "见令不便，不入言而腹诽。——《史记·平准书》",
+        "腹诽心谤。"
+      ],
+      "traditional_char": "誹"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从言，非声；‘言’表义，‘非’表声，兼有部分表义成分，表示背地议论或指责。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由一般的背地议论义扩展为更具毁谤、捏造事实中伤的贬义用法，战国至汉以来皆有二义。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由公开的议论指责扩展到仅在心中、不公开表达的‘腹诽’、‘心诽’等义。"
+    }
+  ]
+}

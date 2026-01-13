@@ -1,0 +1,98 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "关闭门户用的直木（门闩）",
+      "examples": [],
+      "traditional_char": "植"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "栽种（植物）",
+      "examples": [
+        "植树造林",
+        "种植小麦"
+      ],
+      "traditional_char": "植"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "树立，建立",
+      "examples": [
+        "植立信念",
+        "植志"
+      ],
+      "traditional_char": "植"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "竖起（如：竖直耳朵）",
+      "examples": [
+        "植耳倾听"
+      ],
+      "traditional_char": "植"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "植物的总称，如花草树木等",
+      "examples": [
+        "植物学",
+        "植物园"
+      ],
+      "traditional_char": "植"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "古代军中监督工事的官职",
+      "examples": [
+        "华元为植，巡功。"
+      ],
+      "traditional_char": "植"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从木，直声，表示门上竖放的一根木头。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由门闩为竖直之物引申为‘竖起’。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "‘竖起’引申为‘树立、建立’，多用于抽象事物。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "门闩为植木，引申为‘栽种’。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "synecdoche",
+      "note": "由‘种植’植物引申为植物的总称。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "semantic_shift",
+      "note": "‘植’作为官名，含义转变，具体机理不详，古代兵制专用。"
+    }
+  ]
+}

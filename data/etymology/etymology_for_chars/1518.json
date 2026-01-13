@@ -1,0 +1,42 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "两山夹着的水道",
+      "examples": [
+        "三门峡",
+        "海峡",
+        "台湾海峡"
+      ],
+      "traditional_char": "峽"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "两山之间的狭长谷地",
+      "examples": [
+        "峡谷",
+        "瞿塘峡",
+        "巫峡",
+        "西陵峡"
+      ],
+      "traditional_char": "峽"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从山，夹声，原指两山夹着的水道。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由专指两山夹水的河道，扩大为泛指两山之间的谷地。"
+    }
+  ]
+}

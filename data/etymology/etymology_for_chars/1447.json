@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "用土坯烧制而成的建筑材料",
+      "examples": [
+        "砖坯",
+        "砖瓦"
+      ],
+      "traditional_char": "磚"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "形状像砖的东西",
+      "examples": [
+        "茶砖",
+        "冰砖"
+      ],
+      "traditional_char": "磚"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘磚’为形声字，从石，专声，表义为用石质或泥土烧制的块状物。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由原指建材的砖，借指外形类似于砖的其他物体。"
+    }
+  ]
+}

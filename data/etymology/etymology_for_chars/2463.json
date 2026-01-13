@@ -1,0 +1,86 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "包头巾，妇女用以包头的巾帕。",
+      "examples": [
+        "首取帛为袱，体用衾自裹。——元·方回文",
+        "袱头（包头发的巾帕。即头巾）"
+      ],
+      "traditional_char": "襆"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "用来包裹、覆盖衣物或物品的布单。",
+      "examples": [
+        "取一箱袱来。",
+        "那黛玉还要往下写时，觉得渾身火熱，面上作燒，走至鏡臺，揭起錦袱一照，只見腮上通紅。——《紅樓夢》",
+        "外末扮边军一，背黄袱一，插令箭同驰马上。——清 李漁 《奈何天•籌餉》"
+      ],
+      "traditional_char": "襆"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "包裹，用布单包起来的包。",
+      "examples": [
+        "包袱驼（驼在马上的包裹）",
+        "袱被（用布巾卷捆衣被）"
+      ],
+      "traditional_char": "襆"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "比喻思想上的负担，使行动受到牵制的障碍。",
+      "examples": [
+        "他心里有包袱，做事畏手畏脚。"
+      ],
+      "traditional_char": "襆"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "（曲艺）笑料，特指相声中要抖出来让人发笑的话。",
+      "examples": [
+        "把笑料说出来称“抖包袱”。"
+      ],
+      "traditional_char": "襆"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“袱”/“襆”形声字，从衣，声旁为复（表示读音），本义为包头的布巾，与本部件相关。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由包头用巾引申为一般用于包裹、覆盖衣物的布单。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由用于包裹的布引申为包裹本身。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由包裹物体喻指思想上的负担。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "由‘包袱’本身引申为相声曲艺中包藏住笑料待抖出的内容。"
+    }
+  ]
+}

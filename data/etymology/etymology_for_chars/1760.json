@@ -1,0 +1,102 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "身白鬣（鬃）毛黑的马。",
+      "examples": [
+        "白马朱鬣骆。——《广雅》",
+        "驾彼四骆。——《诗·小雅·四牡》",
+        "夏后氏骆马黑鬣。——《礼记·明唐位》"
+      ],
+      "traditional_char": "駱"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "骆驼，一种背有肉峰、能驮负重物在沙漠中远行的哺乳动物。",
+      "examples": [
+        "骆驼坐（佛家语，指两膝相并如骆驼而蹲踞）",
+        "贩骆驼"
+      ],
+      "traditional_char": "駱"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [
+        "三国吴有骆统。",
+        "欧骆王"
+      ],
+      "traditional_char": "駱"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "古代族名“骆越”。",
+      "examples": [
+        "陀因此以兵威边，财物赂遗闽越、西瓯、骆，役属焉。——《史记·南越列传》"
+      ],
+      "traditional_char": "駱"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "古地名，汉代县名。",
+      "examples": [
+        "汉置，治所在今内蒙古自治区呼和浩特市境内。"
+      ],
+      "traditional_char": "駱"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "通“络”。连接不断，络绎不绝。",
+      "examples": [
+        "骆驿道路。——《汉书·王莽传下》",
+        "骆驿不绝"
+      ],
+      "traditional_char": "駱"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从马，各声。表意部首为马，表示与马相关，本义为身白鬣毛黑的马。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由身躯颜色特征相近的马类比到毛色类似的骆驼。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "conversion",
+      "note": "由动物名转用为姓氏。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "conversion",
+      "note": "由动物名转为古代部族名。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "conversion",
+      "note": "由部族名转用为地名。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "reanalysis",
+      "note": "与“络”通假，出现‘骆驿不绝’等用法。"
+    }
+  ]
+}

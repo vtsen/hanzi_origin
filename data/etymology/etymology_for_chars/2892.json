@@ -1,0 +1,82 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "皱眉",
+      "examples": [
+        "频眉而止"
+      ],
+      "traditional_char": "頻"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adverb",
+      "meaning": "屡次，连续",
+      "examples": [
+        "频繁",
+        "频率",
+        "捷报频传"
+      ],
+      "traditional_char": "頻"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "危急",
+      "examples": [
+        "国步斯频"
+      ],
+      "traditional_char": "頻"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "并列",
+      "examples": [
+        "群神频行"
+      ],
+      "traditional_char": "頻"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "other",
+      "meaning": "同“濒”，水边地",
+      "examples": [],
+      "traditional_char": "頻"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意字，从“步”表示止步，从“页”表示眉头，合意为皱眉。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_shift",
+      "note": "由皱眉引申为动作频繁反复，后作“屡次、连续”义，约中古至今。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "频繁多变引申为局势危急或多变，语境限定。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "由频繁引申为众多事物并列。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "unknown",
+      "note": "古作‘濒’，多为通借，具体语源不详。"
+    }
+  ]
+}

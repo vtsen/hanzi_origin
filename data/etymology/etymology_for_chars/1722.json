@@ -1,0 +1,86 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "帐幕，幄帐。",
+      "examples": [
+        "军中设屋以避风雨。"
+      ],
+      "traditional_char": "屋"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "房或房间（房屋）。",
+      "examples": [
+        "屋子",
+        "房屋",
+        "屋宇"
+      ],
+      "traditional_char": "屋"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "家庭，家。",
+      "examples": [
+        "如屋里",
+        "他乡为屋。"
+      ],
+      "traditional_char": "屋"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "车盖，覆盖物。",
+      "examples": [
+        "黄屋",
+        "屋社"
+      ],
+      "traditional_char": "屋"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "古代井田的区划名，一屋合三百亩。",
+      "examples": [
+        "一屋三百亩。"
+      ],
+      "traditional_char": "屋"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意字。从“尸”表房屋，与居住有关，“至”表示到达，指人到帐幕、屋下居住之意。最初指“帐幕”，后泛指房屋。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从帐幕（遮蔽场所）引申为房屋，汉代以后定型。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "以住房代指家庭，古今皆有用法。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "由房屋引申为覆盖物或车盖，形象转用。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "semantic_shift",
+      "note": "房屋转用为土地区划单位名，见于古代井田制。"
+    }
+  ]
+}

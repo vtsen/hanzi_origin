@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "粟的优良品种的总称",
+      "examples": [
+        "一枕黄粱",
+        "粱种"
+      ],
+      "traditional_char": "粱"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "高粱，一年生草本植物，子实红褐色，可食用，也可酿酒、制淀粉",
+      "examples": [
+        "高粱熟了",
+        "蜀黍是高粱的别称"
+      ],
+      "traditional_char": "粱"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "精美的主食，美味的饭菜",
+      "examples": [
+        "膏粱子弟",
+        "膏粱美味",
+        "粱肉丰盛"
+      ],
+      "traditional_char": "粱"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从米，梁声，表示优良粟类的谷实。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_narrowing",
+      "note": "高粱作为优良粟类的主要代表，逐渐特指这种作物。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由粱作物泛指精美主食、上等饭菜，属于事物到制品的转指。"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "盛放东西或洗涤用具，通常为圆形，口大底小，比盘深的器皿",
+      "examples": [
+        "洗脸盆",
+        "花盆",
+        "澡盆"
+      ],
+      "traditional_char": "盆"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "中央凹入如盆状的事物或地形",
+      "examples": [
+        "盆地",
+        "骨盆"
+      ],
+      "traditional_char": "盆"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从皿，分声。皿为语义部件，表示器皿之义，分表示读音，初造用于盛物或洗涤器具。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由具体器皿的形状类比到形状类似器皿的其他事物或地形，语义转移见于较早文献。"
+    }
+  ]
+}

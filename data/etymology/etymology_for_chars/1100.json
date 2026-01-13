@@ -1,0 +1,89 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "鸟叫，禽鸟发出叫声",
+      "examples": [
+        "鸟鸣山更幽",
+        "鹂鸣翠柳"
+      ],
+      "traditional_char": "鳴"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "动物或昆虫发出叫声",
+      "examples": [
+        "夜半虫鸣",
+        "猿鸣三声"
+      ],
+      "traditional_char": "鳴"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "发出响声，使发出声音",
+      "examples": [
+        "掌声鸣起",
+        "鸣奏乐章",
+        "孤掌难鸣"
+      ],
+      "traditional_char": "鳴"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "声明，发表意见或情感",
+      "examples": [
+        "鸣谢亲友",
+        "鸣冤叫屈",
+        "百家争鸣"
+      ],
+      "traditional_char": "鳴"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "闻名，著称",
+      "examples": [
+        "以文鸣江东",
+        "一鸣惊人"
+      ],
+      "traditional_char": "鳴"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "‘鳴’会意字，从口，从鸟，表示鸟发声，古文字形一目了然。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从鸟叫扩展到其他动物、昆虫鸣叫，先秦时期已见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由原本动物发声引申为一般物体出声。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "发声比喻为表达主张、声明，见于古汉语。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "“鸣”引申为出名、闻名，因表达被外界所知，汉代以降较常见。"
+    }
+  ]
+}

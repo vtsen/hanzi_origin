@@ -1,0 +1,41 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "对人无礼，态度傲慢或轻视，怠慢。",
+      "examples": [
+        "傲慢。",
+        "怠慢。",
+        "轻慢。"
+      ],
+      "traditional_char": "慢"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "缓慢，动作或速度不快。",
+      "examples": [
+        "慢车。",
+        "动作迟慢。",
+        "慢性子。"
+      ],
+      "traditional_char": "慢"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从心，曼声，意指心态轻慢、无礼。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由态度轻慢引申为动作或速度上的缓慢，古今都见。"
+    }
+  ]
+}

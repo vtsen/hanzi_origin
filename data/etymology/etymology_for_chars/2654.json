@@ -1,0 +1,43 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "补偿损失",
+      "examples": [
+        "赔偿",
+        "赔款",
+        "赔礼",
+        "赔罪",
+        "赔不是"
+      ],
+      "traditional_char": "賠"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "亏损，与“赚”相对",
+      "examples": [
+        "赔本",
+        "赔钱",
+        "赔了夫人又折兵"
+      ],
+      "traditional_char": "賠"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从贝，咅声，贝表财物，表示与财富、补偿有关，本义为补偿损失。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“补偿”引申为因补偿等导致亏损，用于商业等场合。"
+    }
+  ]
+}

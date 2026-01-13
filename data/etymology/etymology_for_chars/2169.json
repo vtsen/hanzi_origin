@@ -1,0 +1,81 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "焉鸟，一种鸟名",
+      "examples": [],
+      "traditional_char": "焉"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "pronoun",
+      "meaning": "相当于“于是”“其中”",
+      "examples": [
+        "心不在焉",
+        "不复出焉"
+      ],
+      "traditional_char": "焉"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "conjunction",
+      "meaning": "乃，才，表示转折或结果",
+      "examples": [
+        "必知乱之所自起，焉能治之"
+      ],
+      "traditional_char": "焉"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "pronoun",
+      "meaning": "文言疑问词，哪里，怎么",
+      "examples": [
+        "且焉置土石"
+      ],
+      "traditional_char": "焉"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "particle",
+      "meaning": "文言助词，无实义",
+      "examples": [
+        "又何戚焉"
+      ],
+      "traditional_char": "焉"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "pictograph",
+      "original_sense_index": 0,
+      "note": "小篆字形像鸟，象形，表示焉鸟。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_shift",
+      "note": "由鸟名假借作代词，用于指代地点、事物，古代常见。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "grammaticalization",
+      "note": "由于指代关系，演变为转折连接词‘乃，才’。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由‘于是’引申为疑问代词‘哪里’、‘怎么’。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "grammaticalization",
+      "note": "进一步虚化，演变为语气助词。"
+    }
+  ]
+}

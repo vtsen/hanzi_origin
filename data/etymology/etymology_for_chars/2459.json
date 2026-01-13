@@ -1,0 +1,62 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "考虑、计划，制定计策。",
+      "examples": [
+        "出谋划策",
+        "计谋"
+      ],
+      "traditional_char": "謀"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "设法寻求（多用于谋取某种利益或事物）。",
+      "examples": [
+        "谋求幸福",
+        "谋生"
+      ],
+      "traditional_char": "謀"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "商议、讨论。",
+      "examples": [
+        "谋议",
+        "不谋而合"
+      ],
+      "traditional_char": "謀"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [],
+      "traditional_char": "謀"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从言，某声。本义即为考虑、谋划。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从计划、计策的本义扩展到谋取、寻求，古今通用。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "从“考虑、计划”引申为“商议、讨论”，表示多人共同谋划之意。"
+    }
+  ]
+}

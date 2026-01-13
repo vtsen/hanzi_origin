@@ -1,0 +1,42 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "使布帛等物着色，把东西放在颜料中使其变色",
+      "examples": [
+        "印染布料",
+        "染色",
+        "染坊"
+      ],
+      "traditional_char": "染"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "感染疾病、沾上坏习惯或接触到不好的事物",
+      "examples": [
+        "染病",
+        "传染",
+        "沾染恶习",
+        "一尘不染"
+      ],
+      "traditional_char": "染"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，杂声；一说会意，从木、水、九，指加工植物染料于水，反复浸染。本义为使物着色。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由‘着色’引申为‘沾染、感染’，大约见于汉魏以后文献。"
+    }
+  ]
+}

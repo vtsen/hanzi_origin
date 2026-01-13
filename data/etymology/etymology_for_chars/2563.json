@@ -1,0 +1,69 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "物体上的条状突起，或不同方向的两个平面相连接的部分，常用于描述几何体的边。",
+      "examples": [
+        "棱角",
+        "瓦棱",
+        "三棱镜"
+      ],
+      "traditional_char": "棱"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "神灵之威，威势。",
+      "examples": [
+        "威棱"
+      ],
+      "traditional_char": "棱"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "other",
+      "meaning": "〔不棱登〕为口语赘词，用于某些形容词后，含厌恶意。",
+      "examples": [
+        "傻棱棱登"
+      ],
+      "traditional_char": "棱"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "〔穆棱〕，地名，在中国黑龙江省。",
+      "examples": [
+        "穆棱市"
+      ],
+      "traditional_char": "棱"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从木，夌声，原指有四角的木，后泛指有稜的物体。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "条状突起引申为神灵的威势，比喻坚硬、尖锐、突出。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "unknown",
+      "note": "“不棱登”的“棱”来源不明，系口语赘词，演变过程不清。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "地名多借用原有名词，穆棱以附近地形突起得名。"
+    }
+  ]
+}

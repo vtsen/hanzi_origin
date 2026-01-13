@@ -1,0 +1,40 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "提出精华或汁液后剩下的残余物，渣滓。",
+      "examples": [
+        "豆腐渣",
+        "茶渣",
+        "渣滓"
+      ],
+      "traditional_char": "渣"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "碎屑、小的残片。",
+      "examples": [
+        "干粮渣儿",
+        "面包渣"
+      ],
+      "traditional_char": "渣"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，查声。本义指渣滓、提炼后剩下的残余部分。'水'表意味与液体或汁液有关。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由特指提炼、萃取后遗余物引申为一般的碎屑。"
+    }
+  ]
+}

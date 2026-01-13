@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "使赶快行动；督促某人完成某事。",
+      "examples": [
+        "催促他快点完成作业。",
+        "父母催我起床。"
+      ],
+      "traditional_char": "催"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "使事物发展、产生、变化加快。",
+      "examples": [
+        "催化反应。",
+        "药物可以催眠。"
+      ],
+      "traditional_char": "催"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘催’为形声字，从人，崔声。本指催促、督促，现多用于相关动作。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由督促人的行为引申为加快事物发展的动作，主要在近现代使用。"
+    }
+  ]
+}

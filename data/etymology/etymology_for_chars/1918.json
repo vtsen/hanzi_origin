@@ -1,0 +1,86 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "免去，解除（职务）",
+      "examples": [
+        "罢官",
+        "罢免"
+      ],
+      "traditional_char": "罷"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "停止，中止，结束",
+      "examples": [
+        "罢休",
+        "罢工",
+        "罢笔"
+      ],
+      "traditional_char": "罷"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "结束，做完",
+      "examples": [
+        "吃罢饭"
+      ],
+      "traditional_char": "罷"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "particle",
+      "meaning": "用作“吧”，表示商量或请求等语气",
+      "examples": [
+        "走罢",
+        "我们走罢"
+      ],
+      "traditional_char": "罷"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "疲劳，劳累（古义）",
+      "examples": [
+        "民亦劳止，汔可小康，惠此中国，以绥四方，罢（疲）不堪以也"
+      ],
+      "traditional_char": "罷"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意字，从网从能，表示用网捕捉有能力者，引申为‘罢官’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘免去官职’引申为‘停止，中止’。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由‘停止’进一步引申为‘结束，做完’。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "grammaticalization",
+      "note": "由动词‘停止’进一步语法化为语气助词‘罢’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "‘罢’借作‘疲’用，表示‘劳累’。"
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "口小不能容，或口歪不正。",
+      "examples": [],
+      "traditional_char": "哨"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "巡逻、警戒防守的岗位或人员。",
+      "examples": [
+        "岗哨",
+        "放哨",
+        "哨兵"
+      ],
+      "traditional_char": "哨"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "古代军队的编制单位。",
+      "examples": [
+        "百人为一哨"
+      ],
+      "traditional_char": "哨"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "一种用嘴吹的小笛子。",
+      "examples": [
+        "口哨",
+        "哨子"
+      ],
+      "traditional_char": "哨"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "用口吹出的高尖音。",
+      "examples": [
+        "他吹了个哨儿"
+      ],
+      "traditional_char": "哨"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "鸟叫。",
+      "examples": [
+        "清晨树上鸟儿哨"
+      ],
+      "traditional_char": "哨"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从口，肖声。本义与口相关，后转为声响义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由表口部特征引申为口发声响气体之物，即小笛。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "由物名引申为其所发出的声音。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 5,
+      "evolution_type": "metaphor",
+      "note": "由人吹口哨的声音比喻为鸟叫声。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "以口哨声通知的守卫职能，引申为岗位/人员。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由岗位引申为军队编制名。"
+    }
+  ]
+}

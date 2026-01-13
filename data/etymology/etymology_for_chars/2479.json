@@ -1,0 +1,83 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "高，高起",
+      "examples": [
+        "隆起",
+        "隆准"
+      ],
+      "traditional_char": "隆"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "盛大，厚，程度深",
+      "examples": [
+        "隆冬",
+        "隆重"
+      ],
+      "traditional_char": "隆"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "兴盛",
+      "examples": [
+        "兴隆",
+        "隆盛"
+      ],
+      "traditional_char": "隆"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "尊崇",
+      "examples": [
+        "隆师"
+      ],
+      "traditional_char": "隆"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [],
+      "traditional_char": "隆"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从生，降省声。本义为高，右边‘降’为声符，左边‘生’表意义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由‘高’引申为‘盛大、厚重’，高大的事物常与盛大、隆重相关。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "从‘盛大’引申为‘兴盛’。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "由‘盛大、隆重’用于‘尊崇’之意。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "function_word",
+      "note": "地名、姓氏用字，多由本义直接转为专名，无实际语义联系。"
+    }
+  ]
+}

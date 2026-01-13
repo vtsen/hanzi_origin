@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "愚钝，不聪慧。",
+      "examples": [
+        "痴愚",
+        "痴钝",
+        "白痴"
+      ],
+      "traditional_char": "痴"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "精神失常，疯癫。",
+      "examples": [
+        "发痴",
+        "痴癫"
+      ],
+      "traditional_char": "痴"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "沉迷，极度迷恋。",
+      "examples": [
+        "痴心",
+        "痴情"
+      ],
+      "traditional_char": "痴"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adverb",
+      "meaning": "谦辞，白白地（指没有用处或成果）。",
+      "examples": [
+        "痴长三岁"
+      ],
+      "traditional_char": "痴"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从疒（病），疑声。本义指愚钝或不聪慧，与患病相关。（疒表病，疑表声）"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由愚钝引申为精神失常，古今文献多有体现。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由愚钝引申为沉迷，比喻迷恋时的糊涂和失态。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "“痴长”为谦辞，表示白白地、没有功劳地年长，为本义的语用演变。"
+    }
+  ]
+}

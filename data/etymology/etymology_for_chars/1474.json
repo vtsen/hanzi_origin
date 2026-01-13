@@ -1,0 +1,153 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "察看，观察。",
+      "examples": [
+        "省视其草。",
+        "吾日三省吾身。"
+      ],
+      "traditional_char": "省"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "检查，反思。",
+      "examples": [
+        "反省。",
+        "吾日三省吾身。"
+      ],
+      "traditional_char": "省"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "知觉，觉悟。",
+      "examples": [
+        "省悟。",
+        "发人深省。"
+      ],
+      "traditional_char": "省"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "看望父母、尊亲。",
+      "examples": [
+        "省亲。",
+        "省视。"
+      ],
+      "traditional_char": "省"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "中国地方行政区域名。",
+      "examples": [
+        "省份。",
+        "省会。"
+      ],
+      "traditional_char": "省"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "古代中央或地方官署名。",
+      "examples": [
+        "中书省。",
+        "尚书省。"
+      ],
+      "traditional_char": "省"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "古代称王宫禁地。",
+      "examples": [
+        "省中。",
+        "省闼。"
+      ],
+      "traditional_char": "省"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "verb",
+      "meaning": "节约，俭省。",
+      "examples": [
+        "省钱。",
+        "省事。",
+        "省吃俭用。"
+      ],
+      "traditional_char": "省"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "verb",
+      "meaning": "简易，减免。",
+      "examples": [
+        "省略。",
+        "省称。",
+        "省写。"
+      ],
+      "traditional_char": "省"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意，从眉省，从屮，甲骨文象眼睛观察草，表示察看之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由察看引申为自我检查、反思，先秦已见。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由自省引申为觉悟、领悟之义。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "从察看引申为巡视、看望亲人。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "由察看、管理引申为官署之义，汉魏已见。"
+    },
+    {
+      "source_index": 5,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由官署引申为现在的地方行政区名。"
+    },
+    {
+      "source_index": 5,
+      "target_index": 6,
+      "evolution_type": "semantic_extension",
+      "note": "古代宫禁内的官署，引申为王宫禁地之名。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 7,
+      "evolution_type": "semantic_shift",
+      "note": "由察看、消减引申为节约、俭省。"
+    },
+    {
+      "source_index": 7,
+      "target_index": 8,
+      "evolution_type": "semantic_extension",
+      "note": "由节约进一步引申为精简、减免。"
+    }
+  ]
+}

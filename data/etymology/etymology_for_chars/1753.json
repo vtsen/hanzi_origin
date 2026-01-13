@@ -1,0 +1,72 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "鸟兽身上的柔毛",
+      "examples": [
+        "羽绒服",
+        "鸭绒被"
+      ],
+      "traditional_char": "絨"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "棉、丝或毛制成的上面有一层细毛的纺织品",
+      "examples": [
+        "绒布",
+        "绒毯",
+        "丝绒"
+      ],
+      "traditional_char": "絨"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "细布",
+      "examples": [
+        "细绒",
+        "绒衣"
+      ],
+      "traditional_char": "絨"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "刺绣用的细丝",
+      "examples": [
+        "红绿绒儿",
+        "绒线"
+      ],
+      "traditional_char": "絨"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从糸，戎声，本义为鸟兽身上的柔毛。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由动物身上的柔毛引申为以各类纤维模仿毛类的纺织品，至近现代。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_narrowing",
+      "note": "从泛指带绒毛的纺织品发展到专指细布，约近现代用法。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "由材料范畴转指细丝，常见于刺绣用语。"
+    }
+  ]
+}

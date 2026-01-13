@@ -1,0 +1,82 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "尊重，有礼貌地对待",
+      "examples": [
+        "尊敬长者",
+        "敬爱老师",
+        "恭敬不如从命"
+      ],
+      "traditional_char": "敬"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "表示敬意的礼物",
+      "examples": [
+        "献上寿敬",
+        "送上一份喜敬"
+      ],
+      "traditional_char": "敬"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "有礼貌地送上去",
+      "examples": [
+        "敬酒三杯",
+        "敬香"
+      ],
+      "traditional_char": "敬"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "谨慎，不怠慢",
+      "examples": [
+        "慎始敬终",
+        "敬慎小心"
+      ],
+      "traditional_char": "敬"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "姓",
+      "examples": [
+        "敬先生",
+        "敬氏家族"
+      ],
+      "traditional_char": "敬"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意字，从攴（敲打/持杖），从苟，意为内外皆恭，兼有肃敬和急切之意"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "以表示敬意转指敬意的礼物"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由敬重引申为礼貌地奉上实物"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "从恭敬引申为审慎、端肃"
+    }
+  ]
+}

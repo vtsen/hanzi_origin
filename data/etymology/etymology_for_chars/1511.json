@@ -1,0 +1,118 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "张口，张大口。",
+      "examples": [
+        "诗·小雅·巷伯：“哆兮侈兮，成是南箕。”",
+        "韩愈《病中赠张十八》：“夜阑纵捭阖，哆口疏眉厖。”",
+        "清 王韬《淞滨瑣话•卢双月》：“手指口哆，若中有所解。”"
+      ],
+      "traditional_char": "哆"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "放纵，放荡。",
+      "examples": [
+        "《法言·吾子》：“述正道而稍邪哆者有矣，未有述邪哆而稍正也。”",
+        "哆侈：放纵。"
+      ],
+      "traditional_char": "哆"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "分散，离散。",
+      "examples": [
+        "《穀梁传·僖四年》：“哆然外齐侯也。”",
+        "唐 韩愈《元和圣德诗》：“群星从坐，错落侈侈。”参见“哆然”。"
+      ],
+      "traditional_char": "哆"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "形容敲击声（象声词）。",
+      "examples": [
+        "《儿女英雄传》：“把两只小脚儿点的脚踏儿哆哆哆的乱响。”"
+      ],
+      "traditional_char": "哆"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "发抖，战栗。",
+      "examples": [
+        "冷得打哆嗦。",
+        "哆唆：哆哩哆嗦。颤动；发抖。"
+      ],
+      "traditional_char": "哆"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "说话喋喋不休。",
+      "examples": [
+        "哆哆（喋喋。说话没完没了）。"
+      ],
+      "traditional_char": "哆"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "adjective",
+      "meaning": "嘴唇松弛下垂的样子。",
+      "examples": [
+        "脣下垂貌。",
+        "张口貌。"
+      ],
+      "traditional_char": "哆"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从口，多声。形声字，本义为张口。多作声符，‘口’表义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "semantic_extension",
+      "note": "由‘张口’引申为‘嘴唇松弛下垂’的样子。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由张口比喻为放纵、放荡。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由嘴张开比喻事物分散、离散。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "敲击声形象似开合之口，故为象声。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "颤抖时人常张口，故转指发抖、战栗。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "metaphor",
+      "note": "口不停张合，比喻喋喋不休。"
+    }
+  ]
+}

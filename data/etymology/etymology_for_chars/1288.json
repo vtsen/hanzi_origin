@@ -1,0 +1,40 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "用有节奏和韵律的语言表达思想感情的文学体裁，即诗歌。",
+      "examples": [
+        "吟诗作对",
+        "现代诗",
+        "古诗十九首"
+      ],
+      "traditional_char": "詩"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "中国古代典籍《诗经》的简称。",
+      "examples": [
+        "《诗》三百篇",
+        "《诗》、《书》、《礼》、《易》、《春秋》谓之五经"
+      ],
+      "traditional_char": "詩"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从言，寺声。本义为诗歌。‘言’表意，‘寺’表音。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "古代典籍常以体裁名指其代表性著作，这里由‘诗歌’指《诗经》。"
+    }
+  ]
+}

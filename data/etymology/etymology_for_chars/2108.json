@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "拜访、谒见、会见",
+      "examples": [
+        "造请诸公，不避寒暑"
+      ],
+      "traditional_char": "請"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "请求、要求",
+      "examples": [
+        "请命",
+        "请假",
+        "请愿"
+      ],
+      "traditional_char": "請"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "敬辞，请人做某事",
+      "examples": [
+        "请进",
+        "请坐"
+      ],
+      "traditional_char": "請"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "延聘、邀请、约人来",
+      "examples": [
+        "请客",
+        "邀请"
+      ],
+      "traditional_char": "請"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从言，青声，‘请/請’本义为拜访、谒见。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由拜访引申为请求，见于先秦、汉语古文。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "grammaticalization",
+      "note": "请求之意进一步语法化，转为客气表达。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "从请求义引申至延聘、邀请。"
+    }
+  ]
+}

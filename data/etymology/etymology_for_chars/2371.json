@@ -1,0 +1,65 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "以酒肉等供品供奉神灵、祖先等，表示尊敬或祈求保佑的仪式行为，即祭祀。",
+      "examples": [
+        "祭天",
+        "祭祖",
+        "祭灶"
+      ],
+      "traditional_char": "祭"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "对死者表示追悼、敬意的仪式。",
+      "examples": [
+        "祭奠",
+        "祭礼",
+        "祭灵",
+        "祭典",
+        "祭扫"
+      ],
+      "traditional_char": "祭"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "运用（多用于法宝或特殊手段）。",
+      "examples": [
+        "祭起一件法宝"
+      ],
+      "traditional_char": "祭"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "other",
+      "meaning": "姓氏。",
+      "examples": [],
+      "traditional_char": "祭"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "左侧为肉作祭品，右侧为手和祭桌形，指以手持肉在祭桌上祭祀神灵，属于会意字。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由祭祀神鬼之仪延伸为祭奠死者之礼，见于先秦及两汉。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "将祭祀行为比喻为‘祭起法宝’，为近现代口语用法，表示动用、发动。"
+    }
+  ]
+}

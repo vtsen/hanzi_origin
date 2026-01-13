@@ -1,0 +1,87 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "高大，高峻的样子。",
+      "examples": [
+        "南山崔崔。",
+        "高山崔巍兮。",
+        "大山崔，百卉殖。"
+      ],
+      "traditional_char": "崔"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "（用于地名、山名）山体高大或有石头的土山。",
+      "examples": [
+        "崔巍土山之戴石者。",
+        "石戴土谓之崔嵬。"
+      ],
+      "traditional_char": "崔"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "（文学用法）形容动貌或迅速，或虚度、蹉跎。",
+      "examples": [
+        "崔乎其不得已乎！",
+        "崔颓（凋败，指光阴虚度）。"
+      ],
+      "traditional_char": "崔"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "春秋时齐国的地名，在今山东省章丘县西北。",
+      "examples": [
+        "成请老于崔，崔子许之。"
+      ],
+      "traditional_char": "崔"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [
+        "崔莺莺。",
+        "崔氏家族。"
+      ],
+      "traditional_char": "崔"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从山，隹声，初义为高大；“山”表意，“隹”表声，本义与山的高峻相关。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "本义高大之意引申为地名、山名的高大和带石头的土山，用于具体地形描述。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "高大引申为气势高亢，由形容外形高大比喻为情状之壮大、动貌及时间虚度等文学用法。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "地理特征词用作地名，齐国邑名因地形高大得名。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "地名转为姓氏，古人以采邑为姓，崔为姓氏即源于崔地。"
+    }
+  ]
+}

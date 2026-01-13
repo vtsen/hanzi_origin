@@ -1,0 +1,109 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "高举，举起（物）",
+      "examples": [
+        "揭竿而起",
+        "揭手高呼"
+      ],
+      "traditional_char": "揭"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "把盖在上面的东西拿起，或将粘合着的东西分开",
+      "examples": [
+        "揭锅",
+        "揭开盖子"
+      ],
+      "traditional_char": "揭"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "使隐瞒的事物显露",
+      "examples": [
+        "揭露真相",
+        "揭穿骗局",
+        "揭发腐败"
+      ],
+      "traditional_char": "揭"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "标示，设置标记",
+      "examples": [
+        "揭橥",
+        "揭示公告"
+      ],
+      "traditional_char": "揭"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "扛，持",
+      "examples": [
+        "揭枪而行"
+      ],
+      "traditional_char": "揭"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "提起衣裳以便涉水",
+      "examples": [
+        "揭衣涉水"
+      ],
+      "traditional_char": "揭"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [],
+      "traditional_char": "揭"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从手，曷声，本义为高举。手表动作，曷表音。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“高举”引申为揭起盖子或分开粘合之物，强调‘举起’的动作。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "从揭开实物引申比喻为揭示隐秘之事，汉以后常见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由高举动作引申为标示、张贴、树立标志。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由高举动作引申为‘扛、持’，多用以兵器等。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "由高举手部引申为提起衣裳以便涉水。"
+    }
+  ]
+}

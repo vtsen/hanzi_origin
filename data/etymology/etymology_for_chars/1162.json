@@ -1,0 +1,52 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "他，对方",
+      "examples": [
+        "知己知彼",
+        "彼此"
+      ],
+      "traditional_char": "彼"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "pronoun",
+      "meaning": "那，那个",
+      "examples": [
+        "彼岸",
+        "此起彼伏"
+      ],
+      "traditional_char": "彼"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "流行、传播，施加（本义，已废）",
+      "examples": [],
+      "traditional_char": "彼"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 2,
+      "note": "形声字，从彳，皮声。'彳'表行动，引申为流行、传播。本义已废。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 2,
+      "target_index": 1,
+      "evolution_type": "semantic_shift",
+      "note": "由表示施加、传播的动词，转为指远方、那一边的代词。汉代已见。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "metonymy",
+      "note": "由指远方、那一个，转为表示对方、他。今义常用。"
+    }
+  ]
+}

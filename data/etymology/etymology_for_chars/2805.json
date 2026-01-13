@@ -1,0 +1,58 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "阻隔、遮断",
+      "examples": [
+        "隔断",
+        "隔绝",
+        "阻隔"
+      ],
+      "traditional_char": "隔"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "中间有距离分开",
+      "examples": [
+        "隔墙有耳",
+        "隔壁",
+        "隔岸观火"
+      ],
+      "traditional_char": "隔"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "思想感情有距离或障碍",
+      "examples": [
+        "隔阂",
+        "隔膜",
+        "隔心"
+      ],
+      "traditional_char": "隔"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从“阜”表地势相关，鬲为声符，原意为阻碍、遮断。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "本义扩展为空间上的分隔，有具体距离。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "从空间分隔引申为思想、感情等抽象障碍。"
+    }
+  ]
+}

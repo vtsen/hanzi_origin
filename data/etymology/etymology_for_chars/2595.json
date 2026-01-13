@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "破开，开了缝",
+      "examples": [
+        "衣服裂开了",
+        "冰面裂纹"
+      ],
+      "traditional_char": "裂"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "分裂成几部分",
+      "examples": [
+        "分裂",
+        "破裂"
+      ],
+      "traditional_char": "裂"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "物体的两部分向两旁分开",
+      "examples": [
+        "裂着怀"
+      ],
+      "traditional_char": "裂"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘裂’为形声字，从衣，列声，表示衣物破开。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由具体的破开扩展为分裂、破裂等抽象用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "由裂开引申为两部分向两旁分开。"
+    }
+  ]
+}

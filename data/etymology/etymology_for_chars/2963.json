@@ -1,0 +1,69 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "汤勺，长柄大头的调羹",
+      "examples": [
+        "《说文解字》：“魁，大斗也。”"
+      ],
+      "traditional_char": "魁"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "为首的人，首领，第一位",
+      "examples": [
+        "魁首",
+        "罪魁祸首"
+      ],
+      "traditional_char": "魁"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "北斗星中的第一星，或指北斗前四星合称",
+      "examples": [
+        "魁星"
+      ],
+      "traditional_char": "魁"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "高大，魁梧",
+      "examples": [
+        "身魁力壮",
+        "魁伟"
+      ],
+      "traditional_char": "魁"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从斗，表示勺子形状；鬼为声符，表音。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由“大勺”比喻为首位、首领，因勺把突出、抢先。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "以北斗斗柄形象比拟勺，斗首为“魁”，指北斗前四星。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "“大首大柄”形象，转指人高大或健壮。"
+    }
+  ]
+}

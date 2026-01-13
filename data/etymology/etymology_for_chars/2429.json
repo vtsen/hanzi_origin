@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "水道或河沟中沉积的泥沙",
+      "examples": [
+        "河中多有淤泥。",
+        "清理淤泥。"
+      ],
+      "traditional_char": "淤"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "水道因泥沙而被阻塞",
+      "examples": [
+        "河道淤塞。",
+        "港口淤积。"
+      ],
+      "traditional_char": "淤"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "瘀，即体内淤血",
+      "examples": [
+        "内有瘀血。",
+        "皮下淤青。"
+      ],
+      "traditional_char": "淤"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，於声，表示水中沉积的泥沙。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由名词“淤泥”扩展为“淤塞”等动词用法，汉语常见现象。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由水中淤泥喻指血液淤积的状态，转指瘀血。"
+    }
+  ]
+}

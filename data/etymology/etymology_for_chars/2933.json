@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "捕鱼或养禽用的竹笼",
+      "examples": [
+        "鸡罩",
+        "鸭罩"
+      ],
+      "traditional_char": "罩"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "覆盖物、罩子",
+      "examples": [
+        "灯罩",
+        "防尘罩"
+      ],
+      "traditional_char": "罩"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "覆盖在物体上",
+      "examples": [
+        "用布罩住",
+        "罩上一层纱"
+      ],
+      "traditional_char": "罩"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从网，卓声，表示捕鱼用的竹笼。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由捕鱼笼转喻为各种具有覆盖功能的器具。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "conversion",
+      "note": "由名词“罩”引申为动词“覆盖”。"
+    }
+  ]
+}

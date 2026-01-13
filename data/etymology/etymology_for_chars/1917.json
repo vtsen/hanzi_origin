@@ -1,0 +1,98 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "怂恿，挑动别人去做坏事",
+      "examples": [
+        "唆使",
+        "调唆",
+        "教唆",
+        "怎禁猪八戒气不忿，在旁漏八分儿唆嘴道“师父，说起这个女子，他是此间农妇，…却怎么栽他是个妖怪?”——《西游记》"
+      ],
+      "traditional_char": "唆"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "用嘴吮吸",
+      "examples": [
+        "吃剩的桃核他也舍不得扔，又用嘴唆了一遍"
+      ],
+      "traditional_char": "唆"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "喷（液体等），像‘噀’",
+      "examples": [
+        "被先生咬破中指，向西唆了，狂风起，楚兵三人都在阵中。——《七国春秋平话》"
+      ],
+      "traditional_char": "唆"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "咬，将口靠近咬啮",
+      "examples": [
+        "吴妈重复又唆着耳根叮嘱了她一番话。——方光焘《疟疾》"
+      ],
+      "traditional_char": "唆"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "小儿相应（幼儿学语应答之声）",
+      "examples": [
+        "㗻唆，小儿相应声"
+      ],
+      "traditional_char": "唆"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "俊言，妄言（与‘誜’同）",
+      "examples": [],
+      "traditional_char": "唆"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘唆’为形声字，口为形，‘莎’为声，本义为怂恿、教唆，属形声兼意会。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由口舌动作引申为吸吮，因动嘴行为具相似性，俗语与方言均有用法。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由吸吮扩展为喷射动作，两者在口腔动作上相关。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由用嘴吸吮进一步泛化为用嘴咬，尤其在方言用法中。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "unknown",
+      "note": "小儿相应义与本义关系存争议，可能由同音或口舌声引申而来，难以确定具体演变。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "unknown",
+      "note": "‘俊言、妄言’义或由‘教唆多言’之意引申，具体机制不详。"
+    }
+  ]
+}

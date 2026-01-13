@@ -1,0 +1,68 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "城市中无正当职业而以乞讨或偷窃为生的流氓游民（如“瘪三”中的“瘪”）",
+      "examples": [
+        "他成了个瘪三，经常混迹街头。"
+      ],
+      "traditional_char": "癟"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "处境窘迫的人（如“瘪子”指生活困难者）",
+      "examples": [
+        "他最近作瘪子了，日子很难过。"
+      ],
+      "traditional_char": "癟"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "秕子（一种瘪掉的稻谷，谷粒不饱满，不成熟）",
+      "examples": [
+        "田里捡到些瘪子。"
+      ],
+      "traditional_char": "癟"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "不饱满，凹下，干瘪，干枯",
+      "examples": [
+        "他脸瘦瘪了。",
+        "这颗花生是瘪的。"
+      ],
+      "traditional_char": "癟"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 3,
+      "note": "形声字，从疒，敝声。‘疒’表病患、空虚，‘敝’表读音，初指不饱满、凹陷。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 3,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "以物理上的瘪比喻人的处境窘迫。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "用干瘪描述不饱满的谷粒，即秕子。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_narrowing",
+      "note": "词义由泛指处境窘迫收缩为指社会底层游民群体。"
+    }
+  ]
+}

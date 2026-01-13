@@ -1,0 +1,72 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "中国古代对南方各族的泛称；旧时也泛指四方的少数民族",
+      "examples": [
+        "蛮荒之地",
+        "四夷蛮貊",
+        "南蛮"
+      ],
+      "traditional_char": "蠻"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "粗野，凶恶，不通情理",
+      "examples": [
+        "野蛮",
+        "蛮横不讲理"
+      ],
+      "traditional_char": "蠻"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "愣，强悍",
+      "examples": [
+        "一味蛮干",
+        "干得蛮"
+      ],
+      "traditional_char": "蠻"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adverb",
+      "meaning": "很，非常（方言用法）",
+      "examples": [
+        "蛮好",
+        "蛮漂亮"
+      ],
+      "traditional_char": "蠻"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "蠻（蛮）从虫，曼声；形声字，初指南方民族，因“虫”表示南方、荒蛮地带的象征。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由泛指南方或异族，转指为粗野、野蛮等特质，汉晋以后用法。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "“粗野”语义扩展为“愣，强悍”，用以形容性格和行为风格。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "grammaticalization",
+      "note": "由形容词转为副词用法，方言中意为“很”。现代汉语北方方言常见。"
+    }
+  ]
+}

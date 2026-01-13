@@ -1,0 +1,64 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "太阳落山时，黄昏时分。",
+      "examples": [
+        "晚霞映红了天空。",
+        "黄昏时分，院子里很安静。"
+      ],
+      "traditional_char": "晚"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "某一时期的后段，时间靠后的阶段。",
+      "examples": [
+        "晚年安乐。",
+        "来到得晚了。"
+      ],
+      "traditional_char": "晚"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "后来的，后辈的。",
+      "examples": [
+        "晚生请教。",
+        "前贤后辈，代有才人出。"
+      ],
+      "traditional_char": "晚"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [
+        "晚先生很有学问。"
+      ],
+      "traditional_char": "晚"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘晚’为形声字，从‘日’表意，‘免’表声，最初指黄昏时分。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由具体一天的黄昏时段推广指更广义的时间后段。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "从时间晚引申为晚辈、后来的人。"
+    }
+  ]
+}

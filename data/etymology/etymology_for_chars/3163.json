@@ -1,0 +1,104 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "浮在水面或液体上，随水流、风或气流移动",
+      "examples": [
+        "血流漂杵。",
+        "波漂菰米沉云黑。",
+        "浮萍漂流。"
+      ],
+      "traditional_char": "漂"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "流浪、漂泊，生活不定，东奔西走",
+      "examples": [
+        "今漂沦憔悴，转徙江湖间。",
+        "漂泊他乡。"
+      ],
+      "traditional_char": "漂"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "用水冲去杂质、清洗",
+      "examples": [
+        "漂母洗衣。",
+        "把衣服漂干净。"
+      ],
+      "traditional_char": "漂"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "用化学药剂使纤维或纺织品变白",
+      "examples": [
+        "漂白布匹。",
+        "漂染衣物。"
+      ],
+      "traditional_char": "漂"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "好看，漂亮",
+      "examples": [
+        "长得漂亮。",
+        "这件事办得漂亮。"
+      ],
+      "traditional_char": "漂"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "事情或账目等落空，未成",
+      "examples": [
+        "那事漂了。",
+        "账目漂下来。"
+      ],
+      "traditional_char": "漂"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，票声，本义为漂浮、漂流。水表示语义，票表示语音。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "从在水上漂流引申为人生漂泊不定，见于东汉以降文献。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由漂浮、冲流引申为用水冲洗、漂去杂质，见《史记》用例。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "“漂洗”发展出使用化学品漂白，近现代意义。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_shift",
+      "note": "“漂”口语中的“好看”义，源于“明亮、洁净”引申，现代方言及口语。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "semantic_shift",
+      "note": "“漂”作“落空”，现代方言义，意义关系较远，具体机制存疑。"
+    }
+  ]
+}

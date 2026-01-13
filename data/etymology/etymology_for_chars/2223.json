@@ -1,0 +1,100 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "某些植物的枝或茎",
+      "examples": [
+        "菜梗子",
+        "花梗"
+      ],
+      "traditional_char": "梗"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "直，挺立",
+      "examples": [
+        "梗着脖子"
+      ],
+      "traditional_char": "梗"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "正直，直爽",
+      "examples": [
+        "梗直"
+      ],
+      "traditional_char": "梗"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "阻塞，妨碍",
+      "examples": [
+        "梗塞",
+        "梗阻",
+        "心肌梗死"
+      ],
+      "traditional_char": "梗"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "大致的轮廓，概要",
+      "examples": [
+        "梗概"
+      ],
+      "traditional_char": "梗"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "有刺的草木，如刺榆",
+      "examples": [
+        "梗榆"
+      ],
+      "traditional_char": "梗"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从木，更声，初本为某种树或枝茎之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由植物茎干直的特征引申为‘挺立’。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由‘挺立’引申为‘为人正直、直爽’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "以植物的茎比喻为障碍，转为‘阻塞’之意。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "以梗为主干，引申为‘大概、概要’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "semantic_narrowing",
+      "note": "从一般枝茎专指有刺的草木。"
+    }
+  ]
+}

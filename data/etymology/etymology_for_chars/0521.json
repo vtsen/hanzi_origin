@@ -1,0 +1,134 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "临时驻扎和住宿，行旅所居之处",
+      "examples": [
+        "旅次",
+        "舟次",
+        "次所"
+      ],
+      "traditional_char": "次"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "等第，顺序",
+      "examples": [
+        "次第",
+        "次序",
+        "名次"
+      ],
+      "traditional_char": "次"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "第二",
+      "examples": [
+        "次日",
+        "次子",
+        "次等"
+      ],
+      "traditional_char": "次"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "质量、品质较差的",
+      "examples": [
+        "次品",
+        "次货"
+      ],
+      "traditional_char": "次"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "化学上指酸根或化合物中少含两个氧原子的",
+      "examples": [
+        "次氯酸"
+      ],
+      "traditional_char": "次"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "中间的位置或处所",
+      "examples": [
+        "胸次"
+      ],
+      "traditional_char": "次"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "measure_word",
+      "meaning": "回，次数",
+      "examples": [
+        "次数",
+        "初次",
+        "三番五次"
+      ],
+      "traditional_char": "次"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [],
+      "traditional_char": "次"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从欠，二声，本义与住宿有关。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由驻扎地点，引申为顺序、等第，汉代已见。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_narrowing",
+      "note": "由泛指顺序，专指第二位，顺序中第二的意思。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "amelioration",
+      "note": "由等第，引申为品质较差，次一等。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "化学中用于表示比正氧化态略低，指‘较次一级’。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "metonymy",
+      "note": "顺序转为空间位置含义，中间位置。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 6,
+      "evolution_type": "grammaticalization",
+      "note": "顺序义转为表示次数的量词。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 7,
+      "evolution_type": "unknown",
+      "note": "由本义直接用作姓氏，具体机制不可考。"
+    }
+  ]
+}

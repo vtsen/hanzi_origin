@@ -1,0 +1,165 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "帽子",
+      "examples": [
+        "冠冒不整",
+        "古代贵族戴冒"
+      ],
+      "traditional_char": "冒"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "冒襄",
+        "冒广生"
+      ],
+      "traditional_char": "冒"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "向外透或往上升",
+      "examples": [
+        "冒烟",
+        "水汽往外冒"
+      ],
+      "traditional_char": "冒"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "不顾（恶劣的环境或危险等），顶着",
+      "examples": [
+        "冒雨前行",
+        "冒险"
+      ],
+      "traditional_char": "冒"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "不加小心，鲁莽，冲撞",
+      "examples": [
+        "冒进",
+        "冒昧"
+      ],
+      "traditional_char": "冒"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "用假的充当真的，假托",
+      "examples": [
+        "冒名顶替",
+        "冒充"
+      ],
+      "traditional_char": "冒"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "覆盖",
+      "examples": [
+        "以铁板冒之",
+        "冒雪"
+      ],
+      "traditional_char": "冒"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "verb",
+      "meaning": "贪污",
+      "examples": [
+        "冒于货贿",
+        "徇情冒法"
+      ],
+      "traditional_char": "冒"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "noun",
+      "meaning": "古同“瑁”，玳瑁",
+      "examples": [
+        "冒甲（玳瑁制甲）"
+      ],
+      "traditional_char": "冒"
+    },
+    {
+      "index": 9,
+      "part_of_speech": "noun",
+      "meaning": "〔冒顿〕中国汉初匈奴族的一个君主名",
+      "examples": [
+        "冒顿单于"
+      ],
+      "traditional_char": "冒"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "小篆形体，上为帽、下为目，表示帽子的形状及其覆盖眼睛，属会意构形"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "semantic_extension",
+      "note": "由帽子引申为覆盖之意，见于文献“冒之”。"
+    },
+    {
+      "source_index": 6,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由覆盖引申为东西向外冒出、透出的形象，形象比喻。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由气体上升、突破比喻为不顾障碍、冒着危险。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由冒险进一步引出鲁莽、冲撞之意。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 5,
+      "evolution_type": "semantic_shift",
+      "note": "从冒险、僭越进一步转为用假的充真的行为。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由物名转为姓氏用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 7,
+      "evolution_type": "semantic_shift",
+      "note": "从覆盖引申为侵吞、贪污，见于古籍用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 8,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "‘冒’假借用于‘瑁’，通用借音。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 9,
+      "evolution_type": "function_word",
+      "note": "用作人名，如冒顿，其中‘冒’为音译。"
+    }
+  ]
+}

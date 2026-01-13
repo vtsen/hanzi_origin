@@ -1,0 +1,99 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "稠密，空隙小，与“稀”、“疏”相对",
+      "examples": [
+        "密集",
+        "密布",
+        "密林",
+        "密封",
+        "密匝匝"
+      ],
+      "traditional_char": "密"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "关系亲近，感情好",
+      "examples": [
+        "密友",
+        "密亲"
+      ],
+      "traditional_char": "密"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "不公开的事物或秘密消息",
+      "examples": [
+        "秘密",
+        "密谋",
+        "密电",
+        "密信",
+        "密报"
+      ],
+      "traditional_char": "密"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "精细，细致",
+      "examples": [
+        "精密",
+        "细密",
+        "致密",
+        "密实"
+      ],
+      "traditional_char": "密"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [],
+      "traditional_char": "密"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "形状象堂屋的山（本义，古义）",
+      "examples": [],
+      "traditional_char": "密"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 5,
+      "note": "形声字，从山，宓声，表示形状如屋的山。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 5,
+      "target_index": 0,
+      "evolution_type": "metaphor",
+      "note": "由形象密集的山引申为稠密，语源学上常见的比喻。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由物理的密集引申为关系亲密，常用隐喻。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由稠密难以渗透，引申为不公开、秘密，有遮蔽之意。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由稠密进一步引申为精细、细致。"
+    }
+  ]
+}

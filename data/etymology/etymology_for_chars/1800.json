@@ -1,0 +1,53 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "numeral",
+      "meaning": "“八”的大写，用于票据、会计等场合以防止篡改。",
+      "examples": [
+        "壹、贰、叁、肆、伍、陆、柒、捌、玖、拾"
+      ],
+      "traditional_char": "捌"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "古同“扒”，指破裂、分开。",
+      "examples": [
+        "其门捌裂",
+        "捌开两物"
+      ],
+      "traditional_char": "捌"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "古代一种聚拢谷物的没有齿的耙。",
+      "examples": [
+        "农夫持捌聚谷"
+      ],
+      "traditional_char": "捌"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "形声字，从手，‘八’声。本义与‘扒’相关，表示分开、破裂。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "因工具本义与分开谷物相关联，古代借用指没有齿可分开的农具。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "后作为‘八’的大写用字，仅取其音，常见于近现代。"
+    }
+  ]
+}

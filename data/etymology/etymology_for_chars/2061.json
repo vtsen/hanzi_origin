@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "照明用具，古代为火把，后泛指包裹蜡油、点燃取光的物品，如蜡烛。",
+      "examples": [
+        "点燃蜡烛",
+        "火炬如烛",
+        "花烛",
+        "烛台"
+      ],
+      "traditional_char": "燭"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "洞察，明察。",
+      "examples": [
+        "洞烛其奸",
+        "烛理明辞"
+      ],
+      "traditional_char": "燭"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "灯泡亮度单位的通俗称呼，如“十五烛的灯泡”。",
+      "examples": [
+        "新换了一个十五烛的灯泡"
+      ],
+      "traditional_char": "燭"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘燭’为形声字，从火，蜀声，本义为火炬，后以蜡烛为主。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由照明引申为明察事物，意为眼光如烛一般照亮事理。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由实体照明工具名称，泛指照明强度单位，多用于灯泡民间俗称。"
+    }
+  ]
+}

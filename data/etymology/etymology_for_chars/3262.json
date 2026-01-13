@@ -1,0 +1,81 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "黍胶，用黍米制成的粘合剂，古代用以粘履。",
+      "examples": [],
+      "traditional_char": "黎"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "众多，百姓，众民。",
+      "examples": [
+        "黎民百姓",
+        "黎庶"
+      ],
+      "traditional_char": "黎"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "黑色（古通“黧”）。",
+      "examples": [
+        "面色黧黑"
+      ],
+      "traditional_char": "黎"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "古国名。",
+      "examples": [
+        "黎国"
+      ],
+      "traditional_char": "黎"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [
+        "黎明"
+      ],
+      "traditional_char": "黎"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从“黍”表意，表示和黍米有关，“利”省声，表读音，最初表示黍胶。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由黍胶引申为众多，可能因黏结众物，战国、汉代开始出现此意。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "unknown",
+      "note": "古国名的用法源头不明，可能与地名、物产相关。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "function_word",
+      "note": "地名、部族、职业转为姓氏的常规路径，约先秦时期。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "古作“黧”时取黑色义，因与“黧”混用形成通假。"
+    }
+  ]
+}

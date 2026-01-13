@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "黄连木，一种落叶乔木。",
+      "examples": [
+        "楷，木名。——《说文》",
+        "楷，黄连木也。"
+      ],
+      "traditional_char": "楷"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "法式，模范，典范。",
+      "examples": [
+        "以身作则，堪为楷模。",
+        "为人楷范。"
+      ],
+      "traditional_char": "楷"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "汉字书体之一，楷书。",
+      "examples": [
+        "正楷书写。",
+        "小楷精美。"
+      ],
+      "traditional_char": "楷"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从木，皆声，最初指树名黄连木。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "因楷树枝干正直，引申比喻为法度、模范。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由“规范、法式”进一步引申为“书法书体的名称”。"
+    }
+  ]
+}

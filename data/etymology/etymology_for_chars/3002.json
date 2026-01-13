@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "仁爱和善，慈爱。",
+      "examples": [
+        "慈爱",
+        "慈善",
+        "慈眉善目"
+      ],
+      "traditional_char": "慈"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "母亲，多用于称自己的母亲。",
+      "examples": [
+        "家慈",
+        "慈颜",
+        "慈命"
+      ],
+      "traditional_char": "慈"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "孝敬奉养父母。",
+      "examples": [
+        "孝子慈孙"
+      ],
+      "traditional_char": "慈"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从心，兹声，本义为仁爱和善。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "以“慈爱”引申称呼母亲，因母亲多富有慈爱之心。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "由“慈爱”引申为孝敬奉养父母，强调对父母的亲切关爱。"
+    }
+  ]
+}

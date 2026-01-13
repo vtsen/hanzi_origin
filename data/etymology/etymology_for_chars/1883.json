@@ -1,0 +1,99 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "监督，察看，督促",
+      "examples": [
+        "监视",
+        "监控",
+        "监察",
+        "监护",
+        "监考"
+      ],
+      "traditional_char": "監"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "牢狱，监牢",
+      "examples": [
+        "监狱",
+        "监押",
+        "监禁",
+        "坐监"
+      ],
+      "traditional_char": "監"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "古代官名或官府名",
+      "examples": [
+        "太监",
+        "国子监",
+        "钦天监",
+        "监生"
+      ],
+      "traditional_char": "監"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "古代的镜子，照面用的器皿",
+      "examples": [
+        "古人以水为镜，监其面色"
+      ],
+      "traditional_char": "監"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "借鉴，参考",
+      "examples": [
+        "监于古则可知兴替"
+      ],
+      "traditional_char": "監"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [],
+      "traditional_char": "監"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "“監”会意，本义为监督察看，甲骨文形象为人以目俯视器皿中的水，以水为镜，具有视察含义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由行监督职责的处所转指为关押犯人的场所，用作“牢狱”。汉以后常见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "监督者或监察机关的名称引申为官名或官府名，表示行使监督、检查的机构或人员。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "由照见（镜）引申为借鉴、参考，即“以他人之镜为监”。成语“以人为鉴”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "synecdoche",
+      "note": "由用水为镜监督自身面容，器皿之义转为镜子本身。"
+    }
+  ]
+}

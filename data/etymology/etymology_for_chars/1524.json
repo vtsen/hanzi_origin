@@ -1,0 +1,108 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "藏在暗处，不公开的。",
+      "examples": [
+        "幽会",
+        "幽居",
+        "幽愤",
+        "幽咽"
+      ],
+      "traditional_char": "幽"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "地方偏僻安静且光线昏暗。",
+      "examples": [
+        "幽谷",
+        "幽静",
+        "幽暗"
+      ],
+      "traditional_char": "幽"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "沉静而安闲。",
+      "examples": [
+        "幽闲",
+        "幽趣",
+        "幽婉"
+      ],
+      "traditional_char": "幽"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "囚禁，禁闭。",
+      "examples": [
+        "幽禁",
+        "幽闭",
+        "幽囚"
+      ],
+      "traditional_char": "幽"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "迷信指阴间、鬼魂世界。",
+      "examples": [
+        "幽灵",
+        "幽魂"
+      ],
+      "traditional_char": "幽"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "古地名，幽州。",
+      "examples": [
+        "幽州",
+        "幽燕"
+      ],
+      "traditional_char": "幽"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘幽’由两个‘幺’和‘山’组成，取藏于山中之意，形声字，声旁‘幺’表示音，意旁‘山’呈现隐蔽的概念。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“隐藏”引申为环境幽深、光线昏暗，偏僻静谧。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由环境幽静比喻人的性格沉静安闲。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "“隐藏、不公开”引申为把人囚禁在不见光处。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "由幽暗之处引申为鬼魂所在的阴间形象。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "metonymy",
+      "note": "用‘幽’指称古地名“幽州”，以地理特征为名。"
+    }
+  ]
+}

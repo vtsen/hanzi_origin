@@ -1,0 +1,41 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "乡下聚居的处所，村庄",
+      "examples": [
+        "村子",
+        "村民",
+        "村塾"
+      ],
+      "traditional_char": "村"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "粗野、不文雅",
+      "examples": [
+        "村话",
+        "村气",
+        "村俗"
+      ],
+      "traditional_char": "村"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从邑，屯声，表示乡村聚落之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由‘村庄’引申为‘粗野’，因农村常被视为不如城市文雅。"
+    }
+  ]
+}

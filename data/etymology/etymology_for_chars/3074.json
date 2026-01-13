@@ -1,0 +1,57 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "和气，和善",
+      "examples": [
+        "和蔼可亲",
+        "蔼然",
+        "藹藹如春风"
+      ],
+      "traditional_char": "藹"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "果实、树木繁茂的样子",
+      "examples": [
+        "林木蔼蔼",
+        "草木藹然"
+      ],
+      "traditional_char": "藹"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "云气；气雾（古同“霭”）",
+      "examples": [
+        "烟蔼",
+        "暮蔼沉沉",
+        "雾蔼云集"
+      ],
+      "traditional_char": "藹"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 2,
+      "note": "'藹'为形声字，从艹，矣声，本指云气，形容形态弥漫扩散；后引申为和气、繁茂等义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 2,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由云气弥漫引申为草木繁茂，形态相似。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 0,
+      "evolution_type": "metaphor",
+      "note": "由云气温润平和引申为人的性情和气。"
+    }
+  ]
+}

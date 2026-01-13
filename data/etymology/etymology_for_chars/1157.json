@@ -1,0 +1,89 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "抵押物、抵押；用作人质",
+      "examples": [
+        "以子为质。",
+        "质于敌者。"
+      ],
+      "traditional_char": "質"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "本体，本性；实体",
+      "examples": [
+        "物质。",
+        "本质。",
+        "流质。",
+        "性质。"
+      ],
+      "traditional_char": "質"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "朴素，单纯",
+      "examples": [
+        "质朴。",
+        "质直。"
+      ],
+      "traditional_char": "質"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "问明，辨别，责问",
+      "examples": [
+        "质问。",
+        "质疑。",
+        "对质。"
+      ],
+      "traditional_char": "質"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "礼物（同“贽”）",
+      "examples": [
+        "行质以见长者。"
+      ],
+      "traditional_char": "質"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从贝，斦声，贝与财富、抵押相关，初本义为抵押（人质、质押）"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由质押实物引申为事物的本体、本质，或许与‘实体’之意相关"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由‘本体、本性’进一步引申为‘纯朴’"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由“抵押、对质”引申为“对质、问责”，属于行为抽象化"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_shift",
+      "note": "由人质引申为礼见时所持之信物，某时期与‘贽’通用"
+    }
+  ]
+}

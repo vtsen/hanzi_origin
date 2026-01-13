@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "有特殊气味的蔬菜，指葱、蒜、韭、薤等，佛教称为“五荤”",
+      "examples": [
+        "五荤六素",
+        "佛门弟子戒食荤"
+      ],
+      "traditional_char": "葷"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "肉类食物，与素相对",
+      "examples": [
+        "荤菜",
+        "吃荤",
+        "荤素搭配"
+      ],
+      "traditional_char": "葷"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "形容语言粗俗、低级",
+      "examples": [
+        "他说了不少荤话",
+        "带荤字"
+      ],
+      "traditional_char": "葷"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从艹（草），表示与植物有关，‘军’为声旁，原指有辛辣气味的蔬菜。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由辛辣蔬菜引申为一般荤食，即肉类，与素食对应，早见宋代佛教语境。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由‘荤’指有刺激性的食物引申为刺激性的粗俗语言，见近现代口语。"
+    }
+  ]
+}

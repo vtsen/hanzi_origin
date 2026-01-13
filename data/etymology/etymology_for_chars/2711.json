@@ -1,0 +1,67 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "鸟、兽的总称",
+      "examples": [
+        "五禽戏",
+        "禽兽"
+      ],
+      "traditional_char": "禽"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "特指鸟类",
+      "examples": [
+        "家禽",
+        "飞禽走兽"
+      ],
+      "traditional_char": "禽"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "古通“擒”，捉拿，捕获",
+      "examples": [
+        "不禽二毛"
+      ],
+      "traditional_char": "禽"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [],
+      "traditional_char": "禽"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "pictograph",
+      "original_sense_index": 0,
+      "note": "象形字，上从隹，下有“氏”作兽足，本指鸟兽之总名。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_narrowing",
+      "note": "由鸟兽总称狭化为只指鸟类，常见于后世用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "古作‘擒’，借用为捉拿、捕获之意，出现在古文中。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "conversion",
+      "note": "由本义演变为姓氏用法，为常见的名词转姓氏。"
+    }
+  ]
+}

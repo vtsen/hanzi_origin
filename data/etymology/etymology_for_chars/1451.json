@@ -1,0 +1,60 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "细碎的石粒，沙子。",
+      "examples": [
+        "砂粒",
+        "砂轮",
+        "砂石",
+        "南朝宋鲍照《蕪城賦》：“孤蓬自振，惊砂坐飞。”"
+      ],
+      "traditional_char": "砂"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "泛指细碎如砂的物质。",
+      "examples": [
+        "砂糖",
+        "砂纸",
+        "砂锅",
+        "型砂"
+      ],
+      "traditional_char": "砂"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "朱砂、丹砂等矿物名；道家炼丹用物。",
+      "examples": [
+        "丹砂",
+        "苏轼《辨道歌》：“一丹休别内外砂，长修久餌须升遐。”",
+        "贾敬係道教中吞金服砂"
+      ],
+      "traditional_char": "砂"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘砂’为形声字，从石，少声，本意指细碎石粒。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由具体的细碎石粒引申为任何细碎如砂的物质。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "以多种砂类矿物中最著名的朱砂、丹砂为代表，特指该类矿物。"
+    }
+  ]
+}

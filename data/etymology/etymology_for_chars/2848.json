@@ -1,0 +1,115 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "劳苦，辛苦，不辞劳苦",
+      "examples": [
+        "勤劳",
+        "勤苦"
+      ],
+      "traditional_char": "勤"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "做事尽力，不偷懒，勤奋",
+      "examples": [
+        "勤奋学习",
+        "勤快"
+      ],
+      "traditional_char": "勤"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adverb",
+      "meaning": "经常，频繁",
+      "examples": [
+        "来往很勤",
+        "勤密"
+      ],
+      "traditional_char": "勤"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "上班，事务",
+      "examples": [
+        "出勤",
+        "后勤",
+        "勤务"
+      ],
+      "traditional_char": "勤"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "担心，忧虑",
+      "examples": [
+        "勤恤"
+      ],
+      "traditional_char": "勤"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "帮助（多用于古文）",
+      "examples": [
+        "勤王"
+      ],
+      "traditional_char": "勤"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "other",
+      "meaning": "姓氏",
+      "examples": [],
+      "traditional_char": "勤"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从力，堇声，本义指劳苦、辛劳。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由劳苦引申为做事尽力、不偷懒，义项扩展。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由勤奋引申为频繁、经常做的动作。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "由勤奋用于事务，引申为上班或事务。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由辛劳引申为心力劳累，即担心忧虑。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "metonymy",
+      "note": "由尽力引申为帮助（为君王尽心尽力）。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "conversion",
+      "note": "由本义转化为姓氏用法，为典型名词化。"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "供人上下攀登的器具或设备",
+      "examples": [
+        "爬楼梯",
+        "木梯",
+        "云梯"
+      ],
+      "traditional_char": "梯"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "形状或作用像梯子的事物，如梯田、梯级、梯形、梯队",
+      "examples": [
+        "梯田",
+        "梯队",
+        "梯级",
+        "梯形"
+      ],
+      "traditional_char": "梯"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从木，弟声，表示攀登用具，木质为主要材料。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由攀登器具本义，比喻形状或结构层级如梯者。"
+    }
+  ]
+}

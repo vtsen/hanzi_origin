@@ -1,0 +1,40 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "衣服套在胳膊上的部分",
+      "examples": [
+        "袖口",
+        "长袖善舞",
+        "挽袖而起"
+      ],
+      "traditional_char": "袖"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "把东西藏在袖子里",
+      "examples": [
+        "袖藏利刃",
+        "袖手旁观"
+      ],
+      "traditional_char": "袖"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从衣，由声，初为衣袖之义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由衣服部位引申为动作‘将物藏于衣袖’，用在动词用法。"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "鸟类翅膀平直，不扇动而盘旋飞翔。",
+      "examples": [
+        "滑翔",
+        "翱翔在空中"
+      ],
+      "traditional_char": "翔"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "详细而确实（用于“翔实”）。",
+      "examples": [
+        "资料翔实",
+        "记载翔实"
+      ],
+      "traditional_char": "翔"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从羽（表示与飞行有关），羊为声符，本义为鸟类平直翅膀盘旋飞行。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由盘旋飞行引申为周全翔实，多见于书面语中。"
+    }
+  ]
+}

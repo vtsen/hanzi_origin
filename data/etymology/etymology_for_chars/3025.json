@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "堵塞，阻隔或填满空隙",
+      "examples": [
+        "堵塞漏洞",
+        "闭塞道路"
+      ],
+      "traditional_char": "塞"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "堵住器物口的东西",
+      "examples": [
+        "活塞",
+        "塞子"
+      ],
+      "traditional_char": "塞"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "边塞，边境上重要的关口或地域",
+      "examples": [
+        "要塞",
+        "边塞",
+        "塞外"
+      ],
+      "traditional_char": "塞"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从土，塞（声），本义为阻隔、堵住，与空隙相关。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "conversion",
+      "note": "名词化用，表示用于堵塞的具体物体。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由“阻隔、堵”的本义，引申为边境的险要关口。"
+    }
+  ]
+}

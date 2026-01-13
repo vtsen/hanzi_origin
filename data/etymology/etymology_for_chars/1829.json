@@ -1,0 +1,123 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "过失，罪过，不好的行为",
+      "examples": [
+        "善有善报，恶有恶报。",
+        "恶贯满盈"
+      ],
+      "traditional_char": "惡"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "不好，丑陋，劣质",
+      "examples": [
+        "恶劣",
+        "恶名远扬"
+      ],
+      "traditional_char": "惡"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "凶狠，凶恶",
+      "examples": [
+        "恶霸",
+        "险恶"
+      ],
+      "traditional_char": "惡"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "讨厌，憎恨",
+      "examples": [
+        "可恶",
+        "厌恶",
+        "好恶分明"
+      ],
+      "traditional_char": "惡"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "（噁）觉得想呕吐",
+      "examples": [
+        "恶心想吐",
+        "他看到那东西就觉得恶心"
+      ],
+      "traditional_char": "噁"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "other",
+      "meaning": "古同“乌”，疑问词，哪，何",
+      "examples": [
+        "恶，得闻此乎？"
+      ],
+      "traditional_char": "惡"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "interjection",
+      "meaning": "文言叹词，表示惊讶",
+      "examples": [
+        "恶，是何言也！"
+      ],
+      "traditional_char": "惡"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从心，亚声。本义为过失。‘心’表意义，‘亚’表音。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 4,
+      "note": "噁为‘恶’的分化字，带口旁，表与呕吐、口部感觉相关。形声兼意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘过失’扩展为‘不好、丑陋’，汉代已见"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由‘过失’引申为‘凶狠、凶恶’，语义强化"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "从名词转为动词，表示‘憎恨、厌恶’，中古已见"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "semantic_shift",
+      "note": "‘恶’在表达主观厌恶时，形成表示生理‘恶心’的新字‘噁’"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "unknown",
+      "note": "‘恶’作为疑问词，声近假借，具体机制不详"
+    },
+    {
+      "source_index": 5,
+      "target_index": 6,
+      "evolution_type": "grammaticalization",
+      "note": "疑问词进一步虚化为语气词，用于表示惊讶"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "色彩鲜明，鲜艳，艳丽",
+      "examples": [
+        "艳丽",
+        "鲜艳",
+        "百花争艳"
+      ],
+      "traditional_char": "艷"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "羡慕",
+      "examples": [
+        "艳羡"
+      ],
+      "traditional_char": "艷"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "美丽，亦指美女",
+      "examples": [
+        "吴娃与越艳，窈窕夸铅红"
+      ],
+      "traditional_char": "艷"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "关于爱情方面的，情爱艳事",
+      "examples": [
+        "艳事",
+        "艳诗",
+        "艳史"
+      ],
+      "traditional_char": "艷"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "从豐从色，会意，指丰盈色彩，表示艳丽、鲜明的颜色。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由色彩鲜艳引申为美丽，对人美貌的比喻。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由鲜艳引申为情爱、爱情相关之事，多为文学用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_shift",
+      "note": "从鲜艳美好引申为令人羡慕，用于羡慕、美好的事物。"
+    }
+  ]
+}

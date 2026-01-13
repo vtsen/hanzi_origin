@@ -1,0 +1,113 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "农具名，铁铲。",
+      "examples": [],
+      "traditional_char": "錢"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "货币，泛指钱币、钱财。",
+      "examples": [
+        "拿出一枚铜钱。",
+        "金钱能买到很多东西。"
+      ],
+      "traditional_char": "錢"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "费用。",
+      "examples": [
+        "这趟车钱你出了没有？"
+      ],
+      "traditional_char": "錢"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "财物。",
+      "examples": [
+        "有钱有势。"
+      ],
+      "traditional_char": "錢"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "圆形像钱的东西。",
+      "examples": [
+        "榆钱",
+        "荷钱"
+      ],
+      "traditional_char": "錢"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "measure_word",
+      "meaning": "中国市制重量单位，一两的十分之一。",
+      "examples": [
+        "五钱银子。"
+      ],
+      "traditional_char": "錢"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [
+        "钱穆",
+        "钱钟书"
+      ],
+      "traditional_char": "錢"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从金，戔声，戔表示音，‘金’表义，早期指铁铲等金属农具。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "以铁铲等农具作为货币，遂引申为钱币的意思。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "货币引申指各类费用。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由货币进而泛指财物。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "因钱币形状而用于指称类似钱的圆形物。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "reanalysis",
+      "note": "货币的重量属性引入度量衡系统，成为重量单位名。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 6,
+      "evolution_type": "conversion",
+      "note": "由物转为姓氏用法。"
+    }
+  ]
+}

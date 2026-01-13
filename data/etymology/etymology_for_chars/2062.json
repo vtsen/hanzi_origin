@@ -1,0 +1,108 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "物质燃烧时产生的气体",
+      "examples": [
+        "冒烟",
+        "硝烟",
+        "烟囱"
+      ],
+      "traditional_char": "煙"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "像烟一样的（如雾、霞等）",
+      "examples": [
+        "烟霞",
+        "烟霭",
+        "烟岚"
+      ],
+      "traditional_char": "煙"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "烟气刺激使眼睛流泪或睁不开",
+      "examples": [
+        "烟了眼睛"
+      ],
+      "traditional_char": "煙"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "一年生草本植物，即烟草",
+      "examples": [
+        "烟草",
+        "烟叶"
+      ],
+      "traditional_char": "煙"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "用烟草制成的制品，如香烟、卷烟",
+      "examples": [
+        "香烟",
+        "卷烟",
+        "纸烟",
+        "烟蒂"
+      ],
+      "traditional_char": "煙"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "指鸦片及其制品",
+      "examples": [
+        "大烟",
+        "烟灯",
+        "烟枪",
+        "烟馆"
+      ],
+      "traditional_char": "煙"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从火，因声，表示因燃烧而产生的气体，是“烟”的最初义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由实指烟气引申为像烟一样的自然现象。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由烟气本体转指被烟气熏到的动作。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "以产生烟的植物指“烟草”，19世纪后普及。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "由烟草转指其制成品，如香烟。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "metonymy",
+      "note": "近现代以“烟”指鸦片，因鸦片吸食时亦生烟。"
+    }
+  ]
+}

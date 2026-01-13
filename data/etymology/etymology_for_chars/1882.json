@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "思考，谋划",
+      "examples": [
+        "深思熟虑",
+        "人无远虑，必有近忧"
+      ],
+      "traditional_char": "慮"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "担忧，忧虑",
+      "examples": [
+        "忧虑重重",
+        "不足为虑"
+      ],
+      "traditional_char": "慮"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从思，虍声。最初以“思考，谋划”为本义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "自“思考”扩展为“担忧”，常因思索而忧虑。"
+    }
+  ]
+}

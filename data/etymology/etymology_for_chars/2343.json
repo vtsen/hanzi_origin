@@ -1,0 +1,172 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "盛放物品的扁而浅的用具，如盘子。",
+      "examples": [
+        "茶盘",
+        "菜盘",
+        "托盘"
+      ],
+      "traditional_char": "盤"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "形状像盘或有盘的功用的物体。",
+      "examples": [
+        "字盘",
+        "棋盘",
+        "算盘",
+        "磨盘"
+      ],
+      "traditional_char": "盤"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "回旋，回绕，屈曲。",
+      "examples": [
+        "盘旋",
+        "盘桓",
+        "盘曲",
+        "盘根错节"
+      ],
+      "traditional_char": "盤"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "垒，砌。",
+      "examples": [
+        "盘灶",
+        "盘炕"
+      ],
+      "traditional_char": "盤"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "仔细查究，盘查。",
+      "examples": [
+        "盘问",
+        "盘驳",
+        "盘察",
+        "盘查",
+        "盘货",
+        "盘算"
+      ],
+      "traditional_char": "盤"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "市场上成交的价格。",
+      "examples": [
+        "开盘",
+        "收盘"
+      ],
+      "traditional_char": "盤"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "转让（工商企业）。",
+      "examples": [
+        "出盘",
+        "招盘",
+        "受盘"
+      ],
+      "traditional_char": "盤"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "verb",
+      "meaning": "搬运（多用于商贸领域）。",
+      "examples": [
+        "盘运"
+      ],
+      "traditional_char": "盤"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "measure_word",
+      "meaning": "量词，用于盘装的物品。",
+      "examples": [
+        "一盘磨"
+      ],
+      "traditional_char": "盤"
+    },
+    {
+      "index": 9,
+      "part_of_speech": "noun",
+      "meaning": "姓。",
+      "examples": [],
+      "traditional_char": "盤"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从皿，般声。本义为浅而敞口盛物的盘子，“皿”为器皿之义，“般”作声旁。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由本义盘子扩展到形状像盘或有盘功能的事物。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "形状扁圆引申为动作的盘绕、曲折，古今皆有用例。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "从盘子的形状、堆叠动作引申为垒砌。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "由盘旋反复动作引申为仔细查究、细查。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "metonymy",
+      "note": "由盘形物如算盘引申为“市场价格”之用。"
+    },
+    {
+      "source_index": 5,
+      "target_index": 6,
+      "evolution_type": "semantic_extension",
+      "note": "市场术语中从价格引申为企业买卖、转让。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 7,
+      "evolution_type": "unknown",
+      "note": "“盘运”在商贸语境，与盘形或“搬运”关系不明，处理为未知关系。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 8,
+      "evolution_type": "function_word",
+      "note": "盘由具体物体转用为量词。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 9,
+      "evolution_type": "conversion",
+      "note": "由器名转为姓氏用。"
+    }
+  ]
+}

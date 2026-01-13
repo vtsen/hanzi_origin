@@ -1,0 +1,84 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "水面上升，水量增加",
+      "examples": [
+        "涨潮",
+        "河水暴涨"
+      ],
+      "traditional_char": "漲"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "价格提高",
+      "examples": [
+        "涨价",
+        "物价飞涨"
+      ],
+      "traditional_char": "漲"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "体积增大，多用于物体因吸水或其他原因鼓大",
+      "examples": [
+        "豆子泡涨了"
+      ],
+      "traditional_char": "漲"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "（脸）因激动、羞愧等变红",
+      "examples": [
+        "他涨红了脸"
+      ],
+      "traditional_char": "漲"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "多出来，溢出",
+      "examples": [
+        "涨出十块钱"
+      ],
+      "traditional_char": "漲"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘漲’为形声字，从水，张声，表示水上升之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由水面上升比喻价格上升，见于近现代口语。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由水体积递增引申至物体体积递增。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "物体因液体进入而胀大，引申为脸因情绪变化而发红（鼓胀）。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "体积增加引申为溢出、超出。"
+    }
+  ]
+}

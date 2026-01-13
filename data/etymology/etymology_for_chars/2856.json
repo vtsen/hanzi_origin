@@ -1,0 +1,57 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "积聚，储藏，保存",
+      "examples": [
+        "蓄水",
+        "积蓄",
+        "储蓄",
+        "兼收并蓄"
+      ],
+      "traditional_char": "蓄"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "存于心中（如志向、怨恨等）",
+      "examples": [
+        "蓄志",
+        "蓄怨",
+        "蓄意"
+      ],
+      "traditional_char": "蓄"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "等待",
+      "examples": [
+        "孰谓时之可蓄？"
+      ],
+      "traditional_char": "蓄"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从艸，畜声，表积聚、储藏之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "从外在的积聚、储藏引申为内心情感、志向的积聚。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由积聚、准备引申为等待时机的意思，见于文言。"
+    }
+  ]
+}

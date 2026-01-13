@@ -1,0 +1,37 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "来回地走动",
+      "examples": [
+        "他在那里徘徊了很久。"
+      ],
+      "traditional_char": "徘"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "犹豫不决，心绪不定",
+      "examples": [
+        "左右徘徊，不知所措。"
+      ],
+      "traditional_char": "徘"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从彳，表示行动，非作声旁，初义为往返小步行走。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由“来回走动”喻义转为“犹豫不决”，比喻内心摇摆。"
+    }
+  ]
+}

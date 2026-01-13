@@ -1,0 +1,103 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "脚的后部，踵",
+      "examples": [
+        "脚后跟",
+        "走路脚跟着地"
+      ],
+      "traditional_char": "跟"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "鞋袜的后部",
+      "examples": [
+        "高跟鞋",
+        "袜后跟儿破了"
+      ],
+      "traditional_char": "跟"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "随在后面，紧接着",
+      "examples": [
+        "跟随老师",
+        "跟踪目标"
+      ],
+      "traditional_char": "跟"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "赶，及",
+      "examples": [
+        "跟不上班",
+        "他跑得太快，我跟不上"
+      ],
+      "traditional_char": "跟"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "preposition",
+      "meaning": "和，同",
+      "examples": [
+        "我跟他在一起工作",
+        "跟朋友出去玩"
+      ],
+      "traditional_char": "跟"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "preposition",
+      "meaning": "对，向",
+      "examples": [
+        "我已经跟他说了",
+        "跟父母请安"
+      ],
+      "traditional_char": "跟"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从足表示与脚有关，艮为声旁。本义为脚后跟。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由脚后跟借指鞋袜的后部。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "脚后跟引申为跟随、紧跟在后之意。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由跟随引申为赶上、及的意思。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 4,
+      "evolution_type": "grammaticalization",
+      "note": "跟随关系进一步虚化为表示并同行动的介词。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "跟随的对象引申表示动作的目标，即“对、向”。"
+    }
+  ]
+}

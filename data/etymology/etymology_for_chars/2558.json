@@ -1,0 +1,91 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "井上的围栏、井垣",
+      "examples": [
+        "韩，井垣也。——《说文》"
+      ],
+      "traditional_char": "韓"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "中国周代诸侯国名，在今河南省中部、山西省东南部",
+      "examples": [
+        "《韩奕》，尹吉甫美宣王也。",
+        "韩，姬姓之国也。——《毛传》"
+      ],
+      "traditional_char": "韓"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "战国七雄之一，后为秦所灭，地处今山西省东南和河南省中部一带",
+      "examples": [
+        "国亡，韩非死。——《史记·韩非列传》"
+      ],
+      "traditional_char": "韓"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "1897—1910年朝鲜的国名，今多指朝鲜半岛南部的“大韩民国”",
+      "examples": [
+        "大韩民国",
+        "韩流"
+      ],
+      "traditional_char": "韓"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "韩信",
+        "韩愈",
+        "韩世忠"
+      ],
+      "traditional_char": "韓"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从“韦”取义，表围绕、环绕之物为义，以“倝”为声；本义指井垣。"
+    },
+    {
+      "formation_type": "loan_character",
+      "original_sense_index": 1,
+      "note": "因古国之名与井垣同音，假借用作国名。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "利用音近假借以指代周代诸侯国名。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "春秋后期，到战国时期该地国号直接延续发展，仍用“韩”。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "朝鲜近现代国名“大韩”等沿用“韩”作简称。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "以国名为姓，来源于古代封国的后裔或地名。"
+    }
+  ]
+}

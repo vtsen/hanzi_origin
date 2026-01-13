@@ -1,0 +1,44 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "喉咙，咽部和喉部的统称",
+      "examples": [
+        "咙，喉也。——《说文》",
+        "亢，鸟嚨。——《尔雅·释鸟》",
+        "泉癭我嚨。"
+      ],
+      "traditional_char": "嚨"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "“嚨”的简化字，用于同上义",
+      "examples": [
+        "喉咙、咙胡"
+      ],
+      "traditional_char": "咙"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘嚨’为形声字，从口，龍声，表示与口和发声有关。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "‘咙’为‘嚨’的简化字，保留同样的音与义，从口，龙声。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "reanalysis",
+      "note": "‘咙’为‘嚨’的简化字，形体简化，语义相同用于现代书写系统。"
+    }
+  ]
+}

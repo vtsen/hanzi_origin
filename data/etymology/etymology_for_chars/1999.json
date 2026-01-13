@@ -1,0 +1,38 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "肚子上脐带脱落的痕迹，即肚脐。",
+      "examples": [
+        "肚脐",
+        "腹有脐"
+      ],
+      "traditional_char": "臍"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "指螃蟹腹部下面的甲壳，如尖脐（雄性）、团脐（雌性）。",
+      "examples": [
+        "螃蟹有尖脐和团脐之分"
+      ],
+      "traditional_char": "臍"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘臍’形声字，从肉，齐声，本义指肚脐。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "因形似肚脐，转指螃蟹腹部的甲壳。用类比原有意义。"
+    }
+  ]
+}

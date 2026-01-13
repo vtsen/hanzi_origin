@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "懒惰，不勤快",
+      "examples": [
+        "他很懒，不喜欢做事。",
+        "懒汉"
+      ],
+      "traditional_char": "懶"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "疲倦，无力气",
+      "examples": [
+        "浑身酸懒",
+        "伸懒腰"
+      ],
+      "traditional_char": "懶"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从心，赖声，表心态；本义为懒惰。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由懒惰引申为因懒而导致的没有力气、疲倦之意，古今皆有使用。"
+    }
+  ]
+}

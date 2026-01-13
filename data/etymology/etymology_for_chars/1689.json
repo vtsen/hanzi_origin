@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "忧虑，担忧",
+      "examples": [
+        "恤恤（忧虑的样子）"
+      ],
+      "traditional_char": "恤"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "对他人表示同情或怜悯",
+      "examples": [
+        "体恤",
+        "恤刑"
+      ],
+      "traditional_char": "恤"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "救济；给予救助",
+      "examples": [
+        "抚恤",
+        "恤金"
+      ],
+      "traditional_char": "恤"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从心，血声；本义为忧虑，心中多思，与‘心’有关。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由自身忧虑引申为对他人的忧虑与同情，有文献证明语义发展。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由同情引申为付诸实际救济救助，古今通用。"
+    }
+  ]
+}

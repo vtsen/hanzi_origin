@@ -1,0 +1,109 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "眼睛受伤红肿，看不清楚",
+      "examples": [
+        "目蔑不可辨也",
+        "蔑然视之"
+      ],
+      "traditional_char": "蔑"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "没有，无",
+      "examples": [
+        "蔑以复加",
+        "蔑无知己"
+      ],
+      "traditional_char": "蔑"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "小，轻视",
+      "examples": [
+        "轻蔑",
+        "蔑视"
+      ],
+      "traditional_char": "蔑"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "灭，消灭",
+      "examples": [
+        "蔑杀其民人",
+        "蔑迹"
+      ],
+      "traditional_char": "蔑"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "涂染，污蔑",
+      "examples": [
+        "污蔑",
+        "诬蔑",
+        "蔑血（衊血）"
+      ],
+      "traditional_char": "蔑"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "用血涂抹祭器",
+      "examples": [
+        "衊罃",
+        "乃衊鼎象"
+      ],
+      "traditional_char": "衊"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "‘蔑’为会意字，从艸从戍，艸表示与眼相关，戍象形补充眼受伤无神之义"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 5,
+      "note": "‘衊’为形声字，从血，蔑声，用于表示涂血相关行为"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由眼睛无神引申为“无、没有”，出自抽象化用法"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由眼无神引申为对人或物的轻视、小看"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "由无神、无生气转为‘消灭’、‘灭绝’，意象转变"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_shift",
+      "note": "由目受损涂抹的意象，引出‘涂染、污蔑’之义"
+    },
+    {
+      "source_index": 4,
+      "target_index": 5,
+      "evolution_type": "semantic_narrowing",
+      "note": "蔑引申为污蔑，之后‘衊’专指用血涂器的特定祭祀行为"
+    }
+  ]
+}

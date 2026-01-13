@@ -1,0 +1,57 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "嫌疑，可疑之处",
+      "examples": [
+        "避嫌",
+        "涉嫌",
+        "生嫌"
+      ],
+      "traditional_char": "嫌"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "厌恶，不满意",
+      "examples": [
+        "嫌弃",
+        "嫌恶",
+        "讨人嫌"
+      ],
+      "traditional_char": "嫌"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "怨恨，由猜疑而产生的仇怨",
+      "examples": [
+        "嫌隙",
+        "尽释前嫌"
+      ],
+      "traditional_char": "嫌"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从女，兼声，本义为疑惑、怀疑。'女'表意，兼表声。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_shift",
+      "note": "由“疑”引申为“因不信任或不满意而厌恶”；汉代出现。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由“猜疑”进一步引申为“怨恨、仇隙”；见于后起文献。"
+    }
+  ]
+}

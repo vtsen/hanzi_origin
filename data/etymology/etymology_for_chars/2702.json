@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "四路相通的大道，通常指城市中宽阔的街道",
+      "examples": [
+        "大街小巷",
+        "街道"
+      ],
+      "traditional_char": "街"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "两旁有房屋和商店的道路，城市中供人车通行的较宽阔道路",
+      "examples": [
+        "街市繁华",
+        "街坊邻居"
+      ],
+      "traditional_char": "街"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "集市，交易的地方（多见于方言）",
+      "examples": [
+        "赶街",
+        "乡下的集市也叫街"
+      ],
+      "traditional_char": "街"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从行，圭声。小篆象纵横相交的十字路，表示大道。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_narrowing",
+      "note": "由泛指大道演变为城市中较宽阔道路的专指。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由街道引申为街道上可以交易的集市之意，多见于方言。"
+    }
+  ]
+}

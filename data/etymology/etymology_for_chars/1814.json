@@ -1,0 +1,38 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "灰尘；微尘。",
+      "examples": [
+        "尘埃落定",
+        "天地一体而尘埃在焉。"
+      ],
+      "traditional_char": "埃"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "公制长度单位，等于一亿分之一厘米（10^{-8}厘米），常用于表示光波的波长及其他微小长度。",
+      "examples": [
+        "这束光的波长为5000埃。"
+      ],
+      "traditional_char": "埃"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从土，AI声。本义为‘灰尘’，‘土’表义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "以‘极细微的尘埃’比喻‘极小的长度单位’。此单位源自翻译Angstrom音译。"
+    }
+  ]
+}

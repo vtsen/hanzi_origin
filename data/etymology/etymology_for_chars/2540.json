@@ -1,0 +1,69 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "用手来回擦或搓",
+      "examples": [
+        "揉擦",
+        "揉搓",
+        "揉眼睛"
+      ],
+      "traditional_char": "揉"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "团弄（将物体揉合成团）",
+      "examples": [
+        "揉面",
+        "揉泥球"
+      ],
+      "traditional_char": "揉"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "使木弯曲",
+      "examples": [
+        "揉轮",
+        "揉木为耒"
+      ],
+      "traditional_char": "揉"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "使降顺，古同“柔”",
+      "examples": [],
+      "traditional_char": "揉"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 2,
+      "note": "形声字，从手，柔声。最初表示使木材弯曲之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 2,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "由使木弯曲之意引申为一般用手搓揉、按压等动作。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由揉搓进一步引申为团弄，用力揉成团的动作。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "弯曲木材引申为使人屈服、柔顺，产生顺从义。"
+    }
+  ]
+}

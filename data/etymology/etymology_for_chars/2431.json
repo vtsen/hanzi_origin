@@ -1,0 +1,44 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "液体中沉积下来的泥滓或渣滓",
+      "examples": [
+        "沉淀",
+        "积淀"
+      ],
+      "traditional_char": "澱"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "浅的湖泊",
+      "examples": [
+        "白洋淀",
+        "荷花淀"
+      ],
+      "traditional_char": "淀"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘澱’为形声字，从水，殿声，本义为液体沉积下的杂质或泥滓。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "‘淀’为‘澱’的简化字，原用于表示浅湖。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由液体沉积的‘澱’引申比喻浅湖泊，因湖底常有淤泥沉积。"
+    }
+  ]
+}

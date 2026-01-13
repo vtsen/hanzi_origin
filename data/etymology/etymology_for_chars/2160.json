@@ -1,0 +1,57 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "两手托举、承接。",
+      "examples": [
+        "捧心",
+        "捧日",
+        "捧读",
+        "捧腹大笑"
+      ],
+      "traditional_char": "捧"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "measure_word",
+      "meaning": "用双手能托起的量。",
+      "examples": [
+        "一捧红枣"
+      ],
+      "traditional_char": "捧"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "奉承或代人吹嘘。",
+      "examples": [
+        "捧场",
+        "吹捧",
+        "捧哏"
+      ],
+      "traditional_char": "捧"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从手，奉声，原意为两手承托。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "conversion",
+      "note": "作为动词“用双手承托”转换为量词用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由“用双手承托”比喻为奉承他人或为他人吹嘘。"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "无节制地饮酒，因饮酒过度而行为放纵、失控。",
+      "examples": [
+        "我用沈酗于酒，用乱败厥德于下。",
+        "下邳周丘，无行酗酒。",
+        "酗淫自恣，前后告喻，曾无悛改。"
+      ],
+      "traditional_char": "酗"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "因酒醉而大发脾气，酒后发怒，撒酒疯。",
+      "examples": [
+        "弟弼，好酒而酗。",
+        "酗是酒怒。",
+        "西风酗了一夜的酒，醉得颠头跌脑。"
+      ],
+      "traditional_char": "酗"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从酉（表示与酒相关）和凶声，表示无节制饮酒。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由无节制饮酒引申为酒后发怒、撒酒疯，早见于《书·微子》与《三国志》用法。"
+    }
+  ]
+}

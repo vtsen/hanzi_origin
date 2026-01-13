@@ -1,0 +1,119 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "使东西着火；点燃或者焚毁物品。",
+      "examples": [
+        "焚烧垃圾。",
+        "大火烧毁了房屋。"
+      ],
+      "traditional_char": "燒"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "用火或高温使物体发生变化或加热。",
+      "examples": [
+        "烧水。",
+        "烧饭。",
+        "烧焊金属。"
+      ],
+      "traditional_char": "燒"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "用火加热的烹饪方法。",
+      "examples": [
+        "红烧肉。",
+        "烧鸡。"
+      ],
+      "traditional_char": "燒"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "形容人体体温升高。",
+      "examples": [
+        "发烧。",
+        "高烧不退。"
+      ],
+      "traditional_char": "燒"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "经烘烤制成的饼类食品。",
+      "examples": [
+        "烧饼。",
+        "火烧。"
+      ],
+      "traditional_char": "燒"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "一种烈性白酒。",
+      "examples": [
+        "烧酒。",
+        "高粱烧。"
+      ],
+      "traditional_char": "燒"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "指肥料过多导致植物枯萎、死亡。",
+      "examples": [
+        "肥料使用过多容易烧苗。"
+      ],
+      "traditional_char": "燒"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从火，尧声；本义为“使物着火”。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由引申义，用火使物体发生物理或化学变化。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_narrowing",
+      "note": "从广义加热引申为专门的烹饪手法—烧菜。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "以火热状对应发热、体温升高。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "用加热方法称呼食物成品，如烧饼。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "metonymy",
+      "note": "以烧制过程称烈酒名，如烧酒。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 6,
+      "evolution_type": "metaphor",
+      "note": "形象化为因热而枯萎，指肥料伤苗。"
+    }
+  ]
+}

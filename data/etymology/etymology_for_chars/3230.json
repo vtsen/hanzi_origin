@@ -1,0 +1,40 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "云或云层",
+      "examples": [
+        "云霄",
+        "霄汉"
+      ],
+      "traditional_char": "霄"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "天空",
+      "examples": [
+        "九霄",
+        "重霄",
+        "霄壤"
+      ],
+      "traditional_char": "霄"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从雨，肖声，最早义为云或云层。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由云层的概念引申为整个天空，汉代已见。"
+    }
+  ]
+}

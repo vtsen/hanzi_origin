@@ -1,0 +1,62 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "研磨，碾碎成细末",
+      "examples": [
+        "擂成细末",
+        "擂药"
+      ],
+      "traditional_char": "擂"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "打，敲击（多指鼓）",
+      "examples": [
+        "擂鼓",
+        "自吹自擂"
+      ],
+      "traditional_char": "擂"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "比武时用来搭建的台子",
+      "examples": [
+        "打擂台",
+        "摆擂台"
+      ],
+      "traditional_char": "擂"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "（韩语借用）一种农具，擂木，用于碎土",
+      "examples": [],
+      "traditional_char": "擂"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从手，雷声，初指用手研磨，声符为“雷”。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由研磨的捶打动作比喻为敲击、打鼓等行为。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由“打鼓、比武”引申为比武所用的台子。"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "尽力，献出",
+      "examples": [
+        "效死",
+        "效忠"
+      ],
+      "traditional_char": "效"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "仿效，模仿",
+      "examples": [
+        "仿效",
+        "上行下效",
+        "效尤"
+      ],
+      "traditional_char": "效"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "效果，功用，成果",
+      "examples": [
+        "成效",
+        "效果",
+        "功效",
+        "有效"
+      ],
+      "traditional_char": "效"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从攴（致力），‘交’为声，最初表示‘尽力、献出’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘尽力’引申为‘学习他人、仿效’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由‘尽力’引申为‘作用、功用’。"
+    }
+  ]
+}

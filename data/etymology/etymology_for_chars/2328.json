@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "用木头、泥土等制成的仿人像（木偶、偶像）",
+      "examples": [
+        "木偶戏",
+        "偶像"
+      ],
+      "traditional_char": "偶"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "成对的事物，双，与“奇”相对",
+      "examples": [
+        "偶数",
+        "对偶"
+      ],
+      "traditional_char": "偶"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adverb",
+      "meaning": "事情无一定发生而恰好发生，偶然",
+      "examples": [
+        "偶尔",
+        "偶感"
+      ],
+      "traditional_char": "偶"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "配偶，夫妻中的一方（指丈夫或妻子）",
+      "examples": [
+        "佳偶",
+        "配偶"
+      ],
+      "traditional_char": "偶"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从人，禺声，本义为仿人形制成的木偶。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由“偶”为仿人之物，引申为成对的人或事物，见于先秦。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "由‘成对’引申为‘不确定发生’，用以表示巧合、偶然，语法化为副词，用于近现代。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "由对偶、成双，引申为夫妻、配偶之意，用于古汉语。"
+    }
+  ]
+}

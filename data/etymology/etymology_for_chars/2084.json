@@ -1,0 +1,60 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "大波，如海面或江河上起伏的水波。",
+      "examples": [
+        "波浪",
+        "海浪",
+        "风浪"
+      ],
+      "traditional_char": "浪"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "像波浪一样起伏不定的事物或状态（多用于比喻）。",
+      "examples": [
+        "麦浪",
+        "声浪",
+        "高潮低～"
+      ],
+      "traditional_char": "浪"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "没有约束，放纵不羁，生活作风不检点。",
+      "examples": [
+        "放浪",
+        "流浪",
+        "浪费",
+        "浪迹天涯",
+        "浪人"
+      ],
+      "traditional_char": "浪"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘浪’为形声字，从“氵”（表水），“良”声，原指大水波浪。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "以水波起伏之意比喻其他事物的起伏。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由水波无拘无束引申为人的行为放纵、无拘束。《诗经》已现‘放浪形骸’之说。"
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "高兴，快乐",
+      "examples": [
+        "欢喜",
+        "喜悦",
+        "欣喜若狂",
+        "喜气洋洋"
+      ],
+      "traditional_char": "喜"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "可以庆祝的事，尤指婚事",
+      "examples": [
+        "喜事",
+        "喜糖",
+        "喜联",
+        "喜报"
+      ],
+      "traditional_char": "喜"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "妇女怀孕",
+      "examples": [
+        "她有喜了",
+        "害喜"
+      ],
+      "traditional_char": "喜"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "爱好，喜欢",
+      "examples": [
+        "喜爱",
+        "喜好",
+        "喜欢"
+      ],
+      "traditional_char": "喜"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "适于（多用于“喜光植物”等生物习性）",
+      "examples": [
+        "喜光植物",
+        "海带喜荤"
+      ],
+      "traditional_char": "喜"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "喜立明"
+      ],
+      "traditional_char": "喜"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "“喜”上为“鼓”，下为“口”，表示敲鼓而发出欢声，表示高兴、快乐。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "以“高兴、快乐”之情指代可庆贺的事件，尤其婚事，早见于汉代。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "“有喜”用可庆事转指妇女怀孕，语义转移见于日常俗语。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由“高兴、快乐”引申为“爱好、喜欢”，情感向好物倾斜。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由“喜欢”引申为“适于”，类比生物对某种环境的“喜欢”。"
+    }
+  ]
+}

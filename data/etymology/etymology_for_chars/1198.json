@@ -1,0 +1,57 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "犬，狗科的哺乳动物，家养或野生，嗅觉灵敏，常被用于看门或狩猎。",
+      "examples": [
+        "养狗",
+        "看门狗",
+        "走狗"
+      ],
+      "traditional_char": "狗"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "比喻坏人、爪牙，用作贬义。",
+      "examples": [
+        "走狗",
+        "狗腿子",
+        "狗仗人势"
+      ],
+      "traditional_char": "狗"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "贬义或鄙视的用语，用于形容不好的行为、品质或事物。",
+      "examples": [
+        "狗盗",
+        "狗尾续貂"
+      ],
+      "traditional_char": "狗"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从犬，句声，表示小犬；‘犬’表意，‘句’表声。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "以狗善于听命于主人的特性，比喻为帮凶、爪牙；见于古代文献。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "pejoration",
+      "note": "‘狗’因文化中的负面联想被用于贬义，用以形容不好的事物或行为。"
+    }
+  ]
+}

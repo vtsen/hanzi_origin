@@ -1,0 +1,83 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "雄鸡爪子后面突出像脚趾的部分",
+      "examples": [
+        "雄鸡有一距可自卫。"
+      ],
+      "traditional_char": "距"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "相隔的空间和时间，距离",
+      "examples": [
+        "相距数里。",
+        "株距一米。"
+      ],
+      "traditional_char": "距"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "抵抗，抗拒（古同“拒”）",
+      "examples": [
+        "不距强敌。"
+      ],
+      "traditional_char": "距"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "大（古同“巨”）",
+      "examples": [
+        "距人千里。"
+      ],
+      "traditional_char": "距"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "particle",
+      "meaning": "岂，表示反问（古同“讵”）",
+      "examples": [
+        "距能无悔乎？"
+      ],
+      "traditional_char": "距"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从足，巨声，表示鸡爪，含足之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "以鸡距之突出喻两物之间的间隔，古代即有。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "用'距'通‘拒’，为音近借用，出现于文献中。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "用'距'通‘巨’，仅音借用于表“大”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "用'距'通‘讵’，仅音借作反问助词。"
+    }
+  ]
+}

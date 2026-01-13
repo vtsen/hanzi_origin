@@ -1,0 +1,75 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "（水）过满而向外流",
+      "examples": [
+        "河水漫出河床",
+        "洪水漫流"
+      ],
+      "traditional_char": "漫"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "（水）淹没",
+      "examples": [
+        "大水漫过桥面",
+        "田地被水漫没"
+      ],
+      "traditional_char": "漫"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "满、遍，到处都是",
+      "examples": [
+        "迷漫",
+        "漫山遍野"
+      ],
+      "traditional_char": "漫"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "没有限制、没有约束、随意",
+      "examples": [
+        "散漫",
+        "漫谈",
+        "漫步",
+        "漫不经心",
+        "漫骂",
+        "漫长"
+      ],
+      "traditional_char": "漫"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，曼声；本义为水过满而向外流。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘水流出’引申为‘淹没’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由‘水流遍’引申为‘遍及、满’。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "从‘遍及’比喻到‘无拘无束、随意’。"
+    }
+  ]
+}

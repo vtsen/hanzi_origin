@@ -1,0 +1,85 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "水边高起的陆地，河岸、岸边",
+      "examples": [
+        "渡江登岸",
+        "两岸猿声啼不住"
+      ],
+      "traditional_char": "岸"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "高大、魁伟",
+      "examples": [
+        "伟岸",
+        "魁岸"
+      ],
+      "traditional_char": "岸"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "高傲，傲慢",
+      "examples": [
+        "傲岸",
+        "岸然"
+      ],
+      "traditional_char": "岸"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "other",
+      "meaning": "头饰高戴，前额外露",
+      "examples": [
+        "岸帻"
+      ],
+      "traditional_char": "岸"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "古同“犴”，乡间牢狱",
+      "examples": [
+        "押至岸中"
+      ],
+      "traditional_char": "岸"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从山、厂，干声，厂为山崖之义，本义为水边高起的地方。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由地形高大引申为人或物体高大。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "高大之形引申为性格上高傲。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "由高大之形引申指头饰高戴、前额外露。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "“岸”假借用作“犴”，即乡间牢狱，仅为用音。"
+    }
+  ]
+}

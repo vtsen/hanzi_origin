@@ -1,0 +1,132 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "大海，海洋，靠近大陆比洋小的水域。",
+      "examples": [
+        "五湖四海",
+        "海洋",
+        "海岸"
+      ],
+      "traditional_char": "海"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "用于湖泊名称（如青海、中南海）。",
+      "examples": [
+        "青海",
+        "中南海"
+      ],
+      "traditional_char": "海"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "容量大的器皿，巨大的。",
+      "examples": [
+        "海碗",
+        "海涵",
+        "夸下海口"
+      ],
+      "traditional_char": "海"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "比喻数量多的人、事物像海一样。",
+      "examples": [
+        "人山人海",
+        "火海"
+      ],
+      "traditional_char": "海"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adverb",
+      "meaning": "形容漫无目标地进行某事。",
+      "examples": [
+        "海骂",
+        "海找"
+      ],
+      "traditional_char": "海"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "adjective",
+      "meaning": "古代指从外国来的。",
+      "examples": [
+        "海棠"
+      ],
+      "traditional_char": "海"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "特指中国上海。",
+      "examples": [
+        "海派"
+      ],
+      "traditional_char": "海"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [],
+      "traditional_char": "海"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，每声，表示大海、海洋之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由大海比喻用作某些湖泊名称。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由大海的广大，引申为容量大的器皿或巨大的意思。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由大海浩瀚，引申为数量多如海。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由数量众多、广泛，引申为漫无目的地，分散地。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "metonymy",
+      "note": "古时远方来物称海，指从外国来的。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "metonymy",
+      "note": "“海”特指上海，因地名取用。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 7,
+      "evolution_type": "unknown",
+      "note": "由常用字转为姓氏，用法沿袭。"
+    }
+  ]
+}

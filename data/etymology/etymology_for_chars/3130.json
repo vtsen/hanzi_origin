@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "迷信传说中的精怪，常指山林、物体等化成的妖怪或鬼怪",
+      "examples": [
+        "木魅山鬼，野鼠城狐，风嗥雨啸，昏见晨趋。",
+        "鬼魅"
+      ],
+      "traditional_char": "魅"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "鬼怪，泛指能够迷惑人的神异之物或妖怪",
+      "examples": [
+        "魑魅",
+        "螭魅罔两，莫能逢之。"
+      ],
+      "traditional_char": "魅"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "吸引人的力量，多用于“魅力”一词",
+      "examples": [
+        "她有很强的个人魅力。",
+        "这种文化有特殊的魅力。"
+      ],
+      "traditional_char": "魅"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "迷惑，媚惑",
+      "examples": [
+        "然内怀容媚谄魅，非大丈夫之节也。",
+        "为妖所魅，始如梦魇。"
+      ],
+      "traditional_char": "魅"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从鬼，未声；会意形声字，初指山林精怪之意，见于《说文》。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从专指物老成精的精怪扩展到泛指各种鬼怪、妖异之物。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由精怪迷惑人，借喻为动作‘迷惑’。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由‘迷惑’引申为吸引、迷人的力量，现代用法如‘魅力’。"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "用棍、棒、刀、枪等戳刺。",
+      "examples": [
+        "他用棍子捅了捅土堆。",
+        "别用刀捅人。"
+      ],
+      "traditional_char": "捅"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "碰，触动。",
+      "examples": [
+        "纸真薄，一捅就破。"
+      ],
+      "traditional_char": "捅"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "揭露（把问题、内幕等公开出来）。",
+      "examples": [
+        "把问题全捅出来了。"
+      ],
+      "traditional_char": "捅"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从手，甬声，最初表示用手引或招引动作。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "“戳刺”动作引申为一般的“碰、触动”，近现代用法扩展。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "“戳刺”喻为揭露、曝光问题，现代比喻用法。"
+    }
+  ]
+}

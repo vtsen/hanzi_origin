@@ -1,0 +1,40 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "减低，降低（如官职、价值等）",
+      "examples": [
+        "贬值",
+        "贬职"
+      ],
+      "traditional_char": "貶"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "给予低的评价，贬抑，批评",
+      "examples": [
+        "贬低",
+        "贬义",
+        "褒贬"
+      ],
+      "traditional_char": "貶"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从“贝”表义，指财物、价值相关，“乏”表声，本义为“减损、减少”；“貶”与“贬”异体。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由“降低（价值、官职）”引申为对人物或行为作负面评价，先见于中古文献。"
+    }
+  ]
+}

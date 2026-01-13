@@ -1,0 +1,109 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "呼吸时进出的气息",
+      "examples": [
+        "鼻息",
+        "喘息",
+        "叹息",
+        "瞬息万变"
+      ],
+      "traditional_char": "息"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "停止，休息，歇息",
+      "examples": [
+        "休息",
+        "歇息",
+        "息怒",
+        "息兵",
+        "息事宁人"
+      ],
+      "traditional_char": "息"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "繁殖，滋生",
+      "examples": [
+        "休养生息",
+        "滋息"
+      ],
+      "traditional_char": "息"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "消息，音信",
+      "examples": [
+        "消息",
+        "消息灵通",
+        "信息"
+      ],
+      "traditional_char": "息"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "儿女，子女",
+      "examples": [
+        "子息"
+      ],
+      "traditional_char": "息"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "利息，借贷的钱所生的钱",
+      "examples": [
+        "利息",
+        "月息",
+        "息率"
+      ],
+      "traditional_char": "息"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "会意兼形声字；从心，从自，自兼表声；本义为‘呼吸’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘呼吸’引申为‘歇息’，因休息时呼吸平稳，东汉以后常见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由气息引申为生命繁衍、繁殖。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由‘气息’借喻为音信，如‘消息’，见中古文献。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "由‘繁殖’转指‘后代、子女’，古文子息。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 5,
+      "evolution_type": "metaphor",
+      "note": "由‘生息’（繁衍）比喻财息（利息）。"
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "揉直箭杆的器具",
+      "examples": [
+        "矫以直矢。"
+      ],
+      "traditional_char": "矯"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "纠正，把弯曲的弄直",
+      "examples": [
+        "矫正",
+        "矫形",
+        "矫治",
+        "矫枉过正"
+      ],
+      "traditional_char": "矯"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "假托（谎称奉命）",
+      "examples": [
+        "矫命",
+        "矫诏",
+        "矫虔"
+      ],
+      "traditional_char": "矯"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "强壮，勇武，出众",
+      "examples": [
+        "矫健",
+        "矫捷",
+        "矫矫"
+      ],
+      "traditional_char": "矯"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [],
+      "traditional_char": "矯"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "adjective",
+      "meaning": "（方言）强词夺理，无理取闹",
+      "examples": [
+        "这个人太矫情"
+      ],
+      "traditional_char": "矯"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从‘矢’（义符，箭），‘乔’（声符），本指揉直箭杆的器具。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由具体器物名扩展为‘正曲使直’抽象义。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由‘纠正’转喻为‘假称奉命’，意为‘扭曲事实’。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由‘使正’联想到‘矫健’（强直、刚强之意），抽象引申。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "conversion",
+      "note": "由动词义转为姓氏用。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "semantic_shift",
+      "note": "方言用法，原‘矫’意抽转为‘强词夺理’，具体机制不明，可能为引申贬义。"
+    }
+  ]
+}

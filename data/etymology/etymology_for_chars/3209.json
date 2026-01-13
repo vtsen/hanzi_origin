@@ -1,0 +1,119 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "生麻，指未经过浸泡处理的麻类植物。",
+      "examples": [
+        "覆之以蕉。——《列子·周穆王》",
+        "蕉麻苦雨生壞也或作䵲蕉𦅃"
+      ],
+      "traditional_char": "蕉"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "由蕉麻纤维所织成的布，麻布。",
+      "examples": [
+        "蕉葛（蕉布）",
+        "蕉衣（麻布制的衣服）"
+      ],
+      "traditional_char": "蕉"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "芭蕉、香蕉等芭蕉科的大型草本植物或通称，亦指这些植物的叶子。",
+      "examples": [
+        "香蕉",
+        "蕉叶（芭蕉叶）"
+      ],
+      "traditional_char": "蕉"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "柴、柴草；古文中“樵”的通假字。",
+      "examples": [
+        "覆之以蕉。——《列子》。殷敬顺释文：“蕉，与樵同。”",
+        "蕉，薪樵也。（高诱注）"
+      ],
+      "traditional_char": "蕉"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "枯黑、枯槁；与“焦”通。",
+      "examples": [
+        "蕉，黑也。——《博雅》",
+        "班固荅賓戲朝為榮華夕而焦瘁"
+      ],
+      "traditional_char": "蕉"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "草芥、草屑。",
+      "examples": [
+        "死者以国量乎泽若蕉——《庄子·人间世》",
+        "蕉，草芥也。（向注）"
+      ],
+      "traditional_char": "蕉"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "卑贱、枯瘁、憔悴的人或状态，亦作蕉萃。",
+      "examples": [
+        "无弃蕉萃。——《左传·成公九年》",
+        "唐人诗：为报故人顦顇尽，字异义同。"
+      ],
+      "traditional_char": "蕉"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从艸，焦声。最早指生麻（未沤的麻），表植物，属艸部。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由生麻泛指用其纤维织成的麻布，古代词例已见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由生麻引申为具有大叶、可用以制麻的芭蕉等芭蕉科植物。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "古文通假，用同音‘樵’表柴草、薪柴意，注释有记载。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "同音借‘焦’义，表示枯槁、枯黑。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "由植物、纤维意扩展为草芥、草屑之意。"
+    },
+    {
+      "source_index": 5,
+      "target_index": 6,
+      "evolution_type": "metaphor",
+      "note": "由微贱的草芥比喻为卑贱、憔悴之人，‘蕉萃’等词即用此类修辞。"
+    }
+  ]
+}

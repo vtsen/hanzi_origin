@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "戴在头上的遮盖物，用以保护或装饰头部，如帽子、草帽、军帽等。",
+      "examples": [
+        "我戴了一顶新帽子。",
+        "士兵都戴着军帽。"
+      ],
+      "traditional_char": "帽"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "套在物体顶端起保护或装饰作用的罩盖，如笔帽、螺丝帽等。",
+      "examples": [
+        "笔帽丢了。",
+        "请把螺丝帽拧紧。"
+      ],
+      "traditional_char": "帽"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从巾，冒声。巾表示与头部织物相关，冒表示发音和‘覆盖’之意。最初指戴在头上的帽子。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由头上所戴的帽子义比喻引申为套在顶端的物体，如笔帽、螺丝帽。"
+    }
+  ]
+}

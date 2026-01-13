@@ -1,0 +1,41 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "用刀切断、截下或划分。",
+      "examples": [
+        "割让",
+        "割地",
+        "割断",
+        "割舍",
+        "割鸡焉用牛刀"
+      ],
+      "traditional_char": "割"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "灾害，祸害。",
+      "examples": [
+        "天降割于我家"
+      ],
+      "traditional_char": "割"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从“刀”表示与刀有关，‘害’为声旁，最早义为用刀分解骨肉。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由用刀割裂引申为灾害带来割裂、伤害，见于古文。"
+    }
+  ]
+}

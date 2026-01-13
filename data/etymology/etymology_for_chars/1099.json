@@ -1,0 +1,80 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "往外出气，与“吸”相对。",
+      "examples": [
+        "深呼吸。",
+        "大口呼气。"
+      ],
+      "traditional_char": "呼"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "喊，大声发出声音。",
+      "examples": [
+        "呼喊。",
+        "呼吁。",
+        "呼声四起。"
+      ],
+      "traditional_char": "呼"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "唤，叫。",
+      "examples": [
+        "呼唤亲人。",
+        "呼朋引类。",
+        "呼叫救命。"
+      ],
+      "traditional_char": "呼"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "onomatopoeia",
+      "meaning": "象声词，形容快速动作等的声音。",
+      "examples": [
+        "呼地跳起来。",
+        "风呼呼作响。"
+      ],
+      "traditional_char": "呼"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [],
+      "traditional_char": "呼"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从口，‘乎’为声，表示出气之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由出气引申为大声呼喊，呼气时口发声。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由喊发展为呼唤、叫的意思。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "呼气声音拟声化，用作象声词。"
+    }
+  ]
+}

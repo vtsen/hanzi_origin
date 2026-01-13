@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "落叶乔木或灌木，枝条柔韧，叶狭长，常见的有垂柳、旱柳、杞柳等",
+      "examples": [
+        "垂柳依依",
+        "柳絮飞扬"
+      ],
+      "traditional_char": "柳"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "二十八宿之一的星名",
+      "examples": [
+        "柳宿为东方苍龙七宿之一"
+      ],
+      "traditional_char": "柳"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "柳永",
+        "柳宗元"
+      ],
+      "traditional_char": "柳"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从木，丣声，本指柳树。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "以柳树名借作星宿名，因二十八宿多用动植物名。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "以柳为姓源于以植物名作氏族名的习俗。"
+    }
+  ]
+}

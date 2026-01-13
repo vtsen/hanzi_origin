@@ -1,0 +1,117 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "野草",
+      "examples": [
+        "蔡，草也。——《说文》",
+        "蔡莽螫刺，昆虫毒噬。——左思《魏都赋》"
+      ],
+      "traditional_char": "蔡"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "周代诸侯国名（蔡国），在今河南省上蔡县、新蔡县一带",
+      "examples": [
+        "臧文仲居蔡。——《论语·公冶长》",
+        "文王子叔度封于汝南上蔡为侯。——《说文通训定声》"
+      ],
+      "traditional_char": "蔡"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "占卜用的大龟",
+      "examples": [
+        "且致大蔡也。——《左传·襄公二十三年》",
+        "卜晴将问蔡。——唐 韩愈 孟郊 《秋雨联句》"
+      ],
+      "traditional_char": "蔡"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "杀，减，减少",
+      "examples": [
+        "三百里夷，二百里蔡。——《书·禹贡》",
+        "蔡之言杀，减杀其赋。——郑玄注"
+      ],
+      "traditional_char": "蔡"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "古州名（地区/山名）",
+      "examples": [
+        "隋大业二年置。治所在上蔡。",
+        "蔡蒙旅平。——《书·禹贡》"
+      ],
+      "traditional_char": "蔡"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "姓蔡。——《史记·蔡泽列传》"
+      ],
+      "traditional_char": "蔡"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "流放",
+      "examples": [
+        "周公杀管叔而蔡蔡叔。——《左传·昭元年》"
+      ],
+      "traditional_char": "蔡"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从艸，祭声；本义为野草。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "周代采邑多以自然地名（如地草丛生）为名，借用地名为国名。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "占卜所用之大龟常采于野地，借野草为地称，转指龟。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "因地名来源于草丛，古州、山名多沿用地名。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "由国名引申为姓氏，得姓于国。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 6,
+      "evolution_type": "semantic_extension",
+      "note": "‘蔡’作为流放地，进而引申为流放动词用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "‘蔡’通‘杀’、‘减’，疑与赋税减免和地名的职能有关，用作动词。"
+    }
+  ]
+}

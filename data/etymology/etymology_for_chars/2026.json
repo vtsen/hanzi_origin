@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "疾病，病状",
+      "examples": [
+        "病症",
+        "症状",
+        "症候",
+        "对症下药",
+        "不治之症"
+      ],
+      "traditional_char": "症"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "腹内结块的病",
+      "examples": [
+        "癥结",
+        "癥瘕"
+      ],
+      "traditional_char": "癥"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "比喻问题难解决的关键",
+      "examples": [
+        "找到问题的癥结"
+      ],
+      "traditional_char": "癥"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘症’为形声字，从疒，征声，本意为疾病或病状。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "‘癥’为形声字，从疒，登声，原指腹内结块的病。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由腹内结块喻指问题的关键或难点，用比喻转义。"
+    }
+  ]
+}

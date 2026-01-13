@@ -1,0 +1,97 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "关于银钱、货物出入的记载，账目",
+      "examples": [
+        "每年造僧账二本，其一本奏闻，一本申祠部。",
+        "账略",
+        "记账"
+      ],
+      "traditional_char": "賬"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "账簿，记录账目的册子",
+      "examples": [
+        "账箱",
+        "账本",
+        "账簿",
+        "账册"
+      ],
+      "traditional_char": "賬"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "债务，欠别人的钱或物",
+      "examples": [
+        "欠账",
+        "还账",
+        "拉账"
+      ],
+      "traditional_char": "賬"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "泛指主意、事情",
+      "examples": [
+        "他还有别的账要算。",
+        "凤嬸子 那样刚强，瑞大叔还想他的账！"
+      ],
+      "traditional_char": "賬"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "“账”的简化字形式，同“賬”",
+      "examples": [
+        "卖账",
+        "认账",
+        "记账"
+      ],
+      "traditional_char": "账"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“賬”为形声字，从贝，长声，贝表财物，长表示读音，古义即为记载财物出入。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 4,
+      "note": "“账”为“賬”的简化字，结构同属形声，义同“賬”。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "记账的册子由账目的本义引申而来，约在中古汉语时已成立。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "“账”作为财物收支记录，引申为尚未偿还的财物，出现债务义。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "记账本义扩大到抽象的主意、事情，比喻用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "analogy",
+      "note": "“账”由“賬”简化而来，现代汉字统一。"
+    }
+  ]
+}

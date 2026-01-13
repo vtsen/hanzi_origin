@@ -1,0 +1,120 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "环形或环状的物体",
+      "examples": [
+        "花圈",
+        "圆圈"
+      ],
+      "traditional_char": "圈"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "周，周围一圈：一个循环的过程或一轮",
+      "examples": [
+        "跑了一圈儿"
+      ],
+      "traditional_char": "圈"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "范围、领域",
+      "examples": [
+        "势力圈",
+        "朋友圈"
+      ],
+      "traditional_char": "圈"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "画环形记号",
+      "examples": [
+        "圈阅",
+        "圈点",
+        "圈定"
+      ],
+      "traditional_char": "圈"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "划定界限，围住",
+      "examples": [
+        "圈地",
+        "圈闭"
+      ],
+      "traditional_char": "圈"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "养家畜的围栏、棚舍（本义）",
+      "examples": [
+        "猪圈",
+        "圈舍",
+        "圈养"
+      ],
+      "traditional_char": "圈"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "关闭、关押",
+      "examples": [
+        "把鸡圈起来",
+        "他已被圈在监狱里"
+      ],
+      "traditional_char": "圈"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 5,
+      "note": "形声字，从囗表围，卷为声，最初指养家畜的围栏。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 5,
+      "target_index": 6,
+      "evolution_type": "semantic_extension",
+      "note": "由关家畜之意推广为一般‘关闭、关押’。"
+    },
+    {
+      "source_index": 5,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由围动物推广到一般‘围住、划界’。"
+    },
+    {
+      "source_index": 5,
+      "target_index": 0,
+      "evolution_type": "metonymy",
+      "note": "由关圈产生的环形结构转为指称‘环形物’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘实物的圈’转为‘一圈（循环、路径）’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由‘环形’引申为‘范围、领域’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "conversion",
+      "note": "‘环形物’再作动词，表示‘画圈’。"
+    }
+  ]
+}

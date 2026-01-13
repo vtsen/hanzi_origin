@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "酸枣树，茎上多刺；泛指有刺的苗木",
+      "examples": [
+        "荆棘满地",
+        "棘手难行"
+      ],
+      "traditional_char": "棘"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "针形的刺；比喻物体上的尖刺",
+      "examples": [
+        "棘皮动物"
+      ],
+      "traditional_char": "棘"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "古同“戟”，一种兵器名",
+      "examples": [
+        "左持棘，右执盾",
+        "棘矛对阵"
+      ],
+      "traditional_char": "棘"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意字，从二‘朿’并排，表示矮小丛生多刺的酸枣树。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由指带刺的灌木引申为刺状物体，用于体表的尖刺。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "因兵器形似棘刺，故以‘棘’指称戟类兵器。"
+    }
+  ]
+}

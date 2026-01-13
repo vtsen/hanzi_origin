@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "田间东西方向的道路，泛指田间小路",
+      "examples": [
+        "阡陌交通",
+        "陌上花开"
+      ],
+      "traditional_char": "陌"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "市中的街道",
+      "examples": [
+        "街陌",
+        "市井街陌"
+      ],
+      "traditional_char": "陌"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "生疏，不熟悉",
+      "examples": [
+        "陌生",
+        "视同陌路"
+      ],
+      "traditional_char": "陌"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从阜，表示与地形或道路有关；百为声符，初本意为田间小路。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "田间道路义扩展为城市中的街道，见于中古及后代文献。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由‘街道’引申为人与人之间生疏如街上陌路，后用于‘不熟悉’。"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "雕刻、加工玉石",
+      "examples": [
+        "玉不琢，不成器。",
+        "雕琢玉石。"
+      ],
+      "traditional_char": "琢"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "比喻推敲、斟酌，刻意修饰（多指写作）",
+      "examples": [
+        "雕琢句子",
+        "琢磨诗句",
+        "～～之风不可长"
+      ],
+      "traditional_char": "琢"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "思考，仔细思索（主要用于“琢磨”一词）",
+      "examples": [
+        "他的话我琢磨了很久，不明白什么意思。"
+      ],
+      "traditional_char": "琢"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从“玉”表义，“豖”表声，最初指雕刻玉石。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由雕刻玉石引申比喻为对文字、思想的推敲修饰；出现于先秦及汉代文献。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由对文字修饰进一步泛化为一般意义的思索、考虑，多用于“琢磨”。"
+    }
+  ]
+}

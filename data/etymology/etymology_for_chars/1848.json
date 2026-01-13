@@ -1,0 +1,87 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "果实中坚硬并包含果仁的部分",
+      "examples": [
+        "桃核",
+        "杏核"
+      ],
+      "traditional_char": "核"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "像核的东西，如细胞核、原子核等",
+      "examples": [
+        "核细胞",
+        "原子核",
+        "核酸"
+      ],
+      "traditional_char": "核"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "仔细地对照、考察",
+      "examples": [
+        "核查",
+        "核定",
+        "核算"
+      ],
+      "traditional_char": "核"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "翔实正确",
+      "examples": [
+        "其文直，其事核"
+      ],
+      "traditional_char": "核"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "果核（口语方言音）",
+      "examples": [
+        "杏核儿"
+      ],
+      "traditional_char": "核"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从木，亥声，表示果核。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由具体果实的核借喻为类似中心或核心的事物。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "考查、核实原指检查果核，引申为核查事物真伪。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由核查之动词引申出翔实正确的形容词义。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "reanalysis",
+      "note": "口语方言音读（hú）与本义果核同源。"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "恭敬，谨慎有礼的样子",
+      "examples": [
+        "肃立",
+        "肃然起敬"
+      ],
+      "traditional_char": "肅"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "严正，认真，庄重",
+      "examples": [
+        "严肃",
+        "肃静",
+        "肃穆"
+      ],
+      "traditional_char": "肅"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "躬身作揖，行迎揖之礼",
+      "examples": [
+        "肃客"
+      ],
+      "traditional_char": "肅"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "萎缩，使凋零",
+      "examples": [
+        "肃杀"
+      ],
+      "traditional_char": "肅"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "‘肅’为会意字，小篆形体表现人恭谨而畏惧的姿态，表示恭敬、肃穆之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "自“恭敬”引申为“严正、庄重”，汉代以后普遍。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "恭敬的态度引申为具体的恭敬行为，即作揖，见古代礼仪。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由“严肃、静穆”转喻自然界肃杀气象，先秦典籍开始。"
+    }
+  ]
+}

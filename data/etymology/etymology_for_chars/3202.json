@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "冲打，碰击",
+      "examples": [
+        "撞钟",
+        "撞车",
+        "撞击"
+      ],
+      "traditional_char": "撞"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "碰见，无意中遇到",
+      "examples": [
+        "撞见"
+      ],
+      "traditional_char": "撞"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "试探，探试",
+      "examples": [
+        "撞大运"
+      ],
+      "traditional_char": "撞"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从手表动作，童为声，初指“撞击”。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由物理上相撞，引申为人与人意外遇见。常见于中古以后。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由碰撞引申为试探性地‘碰’机会，多为近现代用法。"
+    }
+  ]
+}

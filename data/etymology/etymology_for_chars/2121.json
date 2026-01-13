@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "昏暗，幽暗",
+      "examples": [
+        "幽冥",
+        "晦冥"
+      ],
+      "traditional_char": "冥"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "深奥，深沉",
+      "examples": [
+        "冥思苦想",
+        "冥心自省"
+      ],
+      "traditional_char": "冥"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "糊涂，愚昧",
+      "examples": [
+        "冥顽不灵"
+      ],
+      "traditional_char": "冥"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "迷信中指人死后进入的世界，即阴间",
+      "examples": [
+        "冥界",
+        "冥府",
+        "冥婚"
+      ],
+      "traditional_char": "冥"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意字，从日，从六，冖声，表示太阳将落未落、天色昏暗，本义为昏暗。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由物理上的昏暗引申为思想或事理的深奥不明。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由环境昏暗引申为智慧愚昧、认知模糊。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由昏暗引申为亡灵世界（冥界、冥府）的意象，历史用法见先秦。"
+    }
+  ]
+}

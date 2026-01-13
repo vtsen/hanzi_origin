@@ -1,0 +1,59 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "捕鱼用的竹制鱼栏、鱼栅。",
+      "examples": [
+        "列竹于海澨曰沪。——唐·陆龟蒙《渔具》诗序",
+        "潮生鱼沪短，风起鸭船斜。——陆游《村舍》"
+      ],
+      "traditional_char": "滬"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "松江下游水域，古称“沪渎”。",
+      "examples": [
+        "〔沪渎〕古代称松江的下游，在今中国上海市。"
+      ],
+      "traditional_char": "滬"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "上海的别称。",
+      "examples": [
+        "仅资沪关税项，实不足以赡军。——《清会典事例•户部•厘税》",
+        "兼士拟于廿七日动身向沪，不赴粤。——鲁迅《两地书》"
+      ],
+      "traditional_char": "滬"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“滬”形声字，从水，户声。最初指捕鱼用的竹栅。"
+    },
+    {
+      "formation_type": "loan_character",
+      "original_sense_index": 0,
+      "note": "“沪”为“滬”的简化字，承袭原字本义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "以捕鱼设施名称转指设施所在的松江下游水域。汉宋之间已见。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "地名进一步转指该区域（上海）的别称，明清以降流行。"
+    }
+  ]
+}

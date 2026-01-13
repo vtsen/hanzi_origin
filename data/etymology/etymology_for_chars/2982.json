@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "杀害，致死（同“杀”）。",
+      "examples": [
+        "煞人如麻。",
+        "煞敌千万。"
+      ],
+      "traditional_char": "煞"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "寺庙（同“刹”）。",
+      "examples": [
+        "古煞林立于城郊。"
+      ],
+      "traditional_char": "煞"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adverb",
+      "meaning": "极，非常。",
+      "examples": [
+        "急煞。",
+        "煞是好看。"
+      ],
+      "traditional_char": "煞"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "迷信所称凶神、恶煞或凶气。",
+      "examples": [
+        "煞气。",
+        "凶煞。",
+        "凶神恶煞。"
+      ],
+      "traditional_char": "煞"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从火，音指‘杀’。原义为杀，后引申。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "音同‘刹’，古代有借用。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由‘杀’引申为程度极大，强调。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由‘杀’引申为能致害的凶神、煞气等含义。"
+    }
+  ]
+}

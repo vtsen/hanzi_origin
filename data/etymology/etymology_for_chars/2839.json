@@ -1,0 +1,40 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "用手提着、带着。",
+      "examples": [
+        "携手同行",
+        "扶老携幼",
+        "携带物品"
+      ],
+      "traditional_char": "攜"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "分离，背离。",
+      "examples": [
+        "携离",
+        "携贰"
+      ],
+      "traditional_char": "攜"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从手，隽声。本义为‘用手提着’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘带、提’引申为‘分离、背离’，表示关系上的分开，汉语古义发展而来。"
+    }
+  ]
+}

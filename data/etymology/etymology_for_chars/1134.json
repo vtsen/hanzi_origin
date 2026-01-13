@@ -1,0 +1,80 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "禾把，禾束。",
+      "examples": [
+        "秉，禾束也。——《说文》"
+      ],
+      "traditional_char": "秉"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "拿着，持。",
+      "examples": [
+        "秉烛夜游。",
+        "秉笔直书。"
+      ],
+      "traditional_char": "秉"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "掌握、主持。",
+      "examples": [
+        "秉公办理。",
+        "秉正无私。"
+      ],
+      "traditional_char": "秉"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "古代容量单位，一秉合十六斛。",
+      "examples": [],
+      "traditional_char": "秉"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "other",
+      "meaning": "姓。",
+      "examples": [],
+      "traditional_char": "秉"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "从禾从又，会意字，象手持禾束。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由禾束可持，转为“持、拿”义。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由“持”引申为“掌握、主持”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "以禾束为容量单位，成为计量词。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_shift",
+      "note": "用作姓氏，常见转移。"
+    }
+  ]
+}

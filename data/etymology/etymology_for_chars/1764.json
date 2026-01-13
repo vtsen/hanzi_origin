@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "马受惊，受惊奔逃",
+      "examples": [
+        "马骇奔逸",
+        "马骇其前"
+      ],
+      "traditional_char": "駭"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "惊惧，使害怕",
+      "examples": [
+        "骇人听闻",
+        "骇然失色",
+        "惊涛骇浪"
+      ],
+      "traditional_char": "駭"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "惊起，散开（多指群体）",
+      "examples": [
+        "鸟兽骇散"
+      ],
+      "traditional_char": "駭"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从马，亥声，本义为马受惊。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由马受惊，比喻让人惊惧，汉代已见抽象用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由马惊起引申为一般事物惊起、散开。"
+    }
+  ]
+}

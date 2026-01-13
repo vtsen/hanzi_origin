@@ -1,0 +1,70 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "手指弯曲卷握起来的手，拳头。",
+      "examples": [
+        "紧握成拳",
+        "他一拳打出去"
+      ],
+      "traditional_char": "拳"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "徒手进行的武术形式。",
+      "examples": [
+        "太极拳",
+        "拳术高明"
+      ],
+      "traditional_char": "拳"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "肢体弯曲，蜷曲起来。",
+      "examples": [
+        "拳曲手指",
+        "拳起腿来"
+      ],
+      "traditional_char": "拳"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "measure_word",
+      "meaning": "用于“拳头”打人的动作次数。",
+      "examples": [
+        "打了他几拳"
+      ],
+      "traditional_char": "拳"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从手，卷声，本义为弯曲卷握的手。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由拳头引申为徒手武术形式，见于汉以后。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由手指卷握，拓展为肢体弯曲动作。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "grammaticalization",
+      "note": "由名词“拳”发展为动作量词。"
+    }
+  ]
+}

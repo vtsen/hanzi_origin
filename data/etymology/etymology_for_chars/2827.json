@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古代作为凭证的玉器",
+      "examples": [
+        "瑞玉",
+        "天子执瑞以命诸侯"
+      ],
+      "traditional_char": "瑞"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "吉祥的征兆或事物",
+      "examples": [
+        "瑞气",
+        "瑞雨",
+        "瑞芝",
+        "祥瑞"
+      ],
+      "traditional_char": "瑞"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "other",
+      "meaning": "姓氏",
+      "examples": [],
+      "traditional_char": "瑞"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从玉，耑声，表示玉制信物，后延伸吉祥含义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由玉制凭证引申为吉祥的征兆，古人视瑞玉为吉祥象征。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "conversion",
+      "note": "后作为姓氏使用，由名物转为姓。"
+    }
+  ]
+}

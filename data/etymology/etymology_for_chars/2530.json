@@ -1,0 +1,72 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "拉，引，牵引",
+      "examples": [
+        "攀援",
+        "援之以手"
+      ],
+      "traditional_char": "援"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "帮助，救助",
+      "examples": [
+        "支援",
+        "援军",
+        "孤立无援"
+      ],
+      "traditional_char": "援"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "引用，用作根据",
+      "examples": [
+        "援用",
+        "援引",
+        "援据"
+      ],
+      "traditional_char": "援"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "执，持，拿起",
+      "examples": [
+        "援笔而书"
+      ],
+      "traditional_char": "援"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从手，爰声，表示用手拉引。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由‘拉、牵引’转而引申为‘帮助、救助’，因援手即援助。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "从‘拉、引’语义引申为‘引用、援引’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "从‘牵引’引申出‘执、持、拿起’。"
+    }
+  ]
+}

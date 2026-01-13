@@ -1,0 +1,53 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "一种金属元素，银白色，质软，富延展性",
+      "examples": [
+        "锡矿",
+        "锡纸",
+        "锡箔"
+      ],
+      "traditional_char": "錫"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "赏赐，赐予",
+      "examples": [
+        "锡命",
+        "锡赉"
+      ],
+      "traditional_char": "錫"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [],
+      "traditional_char": "錫"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "‘錫’为形声字，金为形，易为声，最初本义为赐予。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_shift",
+      "note": "后代借用‘錫’表示金属锡，五代至宋后定型。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "conversion",
+      "note": "用作姓氏，来源于本义。"
+    }
+  ]
+}

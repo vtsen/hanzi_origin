@@ -1,0 +1,178 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "捆绑，束缚，将物体绑定在一起",
+      "examples": [
+        "绷带",
+        "床绷"
+      ],
+      "traditional_char": "綳"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "张紧，拉紧，使物体变得紧绷",
+      "examples": [
+        "绷紧",
+        "小褂紧绷在身上"
+      ],
+      "traditional_char": "綳"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "中间用藤皮、棕绳等物绷紧的竹木框，常用作床架等",
+      "examples": [
+        "床绷",
+        "绣绷"
+      ],
+      "traditional_char": "綳"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "一种缝纫方法，粗缝或临时固定",
+      "examples": [
+        "绷被头"
+      ],
+      "traditional_char": "綳"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "包扎，缠绕包裹",
+      "examples": [
+        "绷带"
+      ],
+      "traditional_char": "綳"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "（物体）猛然弹起、弹出",
+      "examples": [
+        "绷簧",
+        "绷弓子"
+      ],
+      "traditional_char": "綳"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "勉强支持，死撑局面",
+      "examples": [
+        "绷场面"
+      ],
+      "traditional_char": "綳"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "verb",
+      "meaning": "（方言）骗财物",
+      "examples": [
+        "坑人绷拐骗"
+      ],
+      "traditional_char": "綳"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "verb",
+      "meaning": "板着脸，强忍表情",
+      "examples": [
+        "绷劲",
+        "绷着脸"
+      ],
+      "traditional_char": "綳"
+    },
+    {
+      "index": 9,
+      "part_of_speech": "verb",
+      "meaning": "裂开，多指瓷器等因受力猛然分裂",
+      "examples": [
+        "绷瓷儿"
+      ],
+      "traditional_char": "綳"
+    },
+    {
+      "index": 10,
+      "part_of_speech": "adverb",
+      "meaning": "方言，用于形容词前，表示“很”",
+      "examples": [
+        "绷硬",
+        "绷亮"
+      ],
+      "traditional_char": "綳"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从糸（表与织物相关），朋声，表示结扎捆绑之义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由束缚引申为拉紧、张紧，强调紧密程度。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "馆物因用绷紧结构得名，名称转指器物。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由捆绑引申为缝纫中粗缝或临时固定。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由束缚进一步细化为包扎、缠绕。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "metaphor",
+      "note": "由拉紧到物体因张力反弹，形成弹出之义。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 6,
+      "evolution_type": "metaphor",
+      "note": "紧拉引申为人强撑局面。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 7,
+      "evolution_type": "unknown",
+      "note": "“绷”作“骗”缺乏明确语义机制。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 8,
+      "evolution_type": "metaphor",
+      "note": "拉紧引申为神情紧绷、强忍表情。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 9,
+      "evolution_type": "semantic_shift",
+      "note": "本义拉紧，因受力导致物体断裂。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 10,
+      "evolution_type": "function_word",
+      "note": "语法化用为加强语气的副词。"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "顺便给别人带东西",
+      "examples": [
+        "请你帮我捎个信。",
+        "你路过的时候给我捎点东西吧。"
+      ],
+      "traditional_char": "捎"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "掠拂",
+      "examples": [
+        "风捎鲪滴难开幌。"
+      ],
+      "traditional_char": "捎"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "芟除",
+      "examples": [
+        "拔剑捎罗网。"
+      ],
+      "traditional_char": "捎"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "稍微向后倒退（多指骡马等）",
+      "examples": [
+        "那匹骡子往后捎了一下。"
+      ],
+      "traditional_char": "捎"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "退",
+      "examples": [
+        "捎色。"
+      ],
+      "traditional_char": "捎"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 2,
+      "note": "形声字，从“手”表动作，与“肖”借声，初义为芟除、选取。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 2,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "由芟除、选取引申为带去、带走，后顺便为他人携带。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由选择、掠取引申为掠拂、掠过。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "“芟除”动作相关，后来指骡马等略微倒退的动作，用在shào音。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "动物向后倒退动作引申为一般的“退”义，东北方言用法。"
+    }
+  ]
+}

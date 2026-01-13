@@ -1,0 +1,52 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "鸟和昆虫等用来飞行的器官",
+      "examples": [
+        "翅膀",
+        "插翅难飞"
+      ],
+      "traditional_char": "翅"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "翘出像翅的东西",
+      "examples": [
+        "纱帽翅",
+        "翅果"
+      ],
+      "traditional_char": "翅"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "conjunction",
+      "meaning": "古同“啻”，但，只",
+      "examples": [],
+      "traditional_char": "翅"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从羽，支声，意指鸟类、昆虫的翅膀。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由原指鸟虫翅膀，引申为形状类似翅膀之物。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "作为通假字用，借用“翅”表示“啻”（但、只）之音。"
+    }
+  ]
+}

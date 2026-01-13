@@ -1,0 +1,72 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "猛禽，尤指体型较大的鹰类，又称“鹫”。",
+      "examples": [
+        "雕悍",
+        "一箭双雕"
+      ],
+      "traditional_char": "雕"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "刻竹、木、玉、石、金属等物，制作成器物或图案。",
+      "examples": [
+        "木雕",
+        "浮雕",
+        "玉雕",
+        "雕版",
+        "雕龙"
+      ],
+      "traditional_char": "雕"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "有彩绘或装饰的。",
+      "examples": [
+        "雕弓",
+        "雕鞍",
+        "雕青"
+      ],
+      "traditional_char": "雕"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "同“凋”，凋零，衰落。",
+      "examples": [],
+      "traditional_char": "雕"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从“隹”表示与鸟类有关，‘周’为声旁，最初指猛禽。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "猛禽喙爪锐利，动作敏捷，形容雕刻物如雕鸟般精美，形象生动；东汉《说文》已见此用。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由‘雕刻’引申为‘有雕饰、装饰’。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 0,
+      "evolution_type": "unknown",
+      "note": "‘雕’与‘凋’古时通用，此用法属于借用或语音近似造成的意义转移，具体演变路径不明。"
+    }
+  ]
+}

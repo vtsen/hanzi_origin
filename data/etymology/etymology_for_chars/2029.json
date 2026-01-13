@@ -1,0 +1,76 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "屋舍，常指书房、学舍、饭店或商店",
+      "examples": [
+        "书斋",
+        "聊斋",
+        "荣宝斋"
+      ],
+      "traditional_char": "齋"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "（祭祀前或举行典礼前）清心洁身，斋戒",
+      "examples": [
+        "封斋",
+        "把斋",
+        "斋戒",
+        "斋坛",
+        "斋会",
+        "斋果"
+      ],
+      "traditional_char": "齋"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "佛教、道教等教徒、道徒吃的素食",
+      "examples": [
+        "斋饭",
+        "斋堂",
+        "吃斋"
+      ],
+      "traditional_char": "齋"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "舍饭给僧人吃",
+      "examples": [
+        "斋僧"
+      ],
+      "traditional_char": "齋"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "形声字，从示，斎声。本义为斋戒，即祭祀前清洁身心。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由祭祀前斋戒引申为宗教素食。出现于佛教传播后。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "由吃素食引申出施舍素食予僧人。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "斋戒场所、房屋，进一步泛指书房等屋舍。"
+    }
+  ]
+}

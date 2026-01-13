@@ -1,0 +1,38 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "哺乳动物，形状与猫相似，毛皮可制衣物。亦称“狸子”、“狸猫”、“山猫”、“豹猫”。",
+      "examples": [
+        "狸猫换太子",
+        "山中有狸"
+      ],
+      "traditional_char": "狸"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "即“貉”。",
+      "examples": [
+        "貉与狸皆为野兽名"
+      ],
+      "traditional_char": "狸"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从豸，里声。‘豸’表示长脊类动物，‘里’表声。最初专指狸猫一类野兽。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "古时‘狸’有时泛指貉、狸等类似动物，出现泛化用法。"
+    }
+  ]
+}

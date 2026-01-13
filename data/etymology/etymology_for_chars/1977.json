@@ -1,0 +1,161 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "富裕，富足",
+      "examples": [
+        "殷实",
+        "殷富"
+      ],
+      "traditional_char": "殷"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "深厚，恳切",
+      "examples": [
+        "情谊甚殷",
+        "殷切"
+      ],
+      "traditional_char": "殷"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "众，多",
+      "examples": [
+        "士与女，殷其盈矣",
+        "殷众"
+      ],
+      "traditional_char": "殷"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "盛，大",
+      "examples": [
+        "殷祭",
+        "殷勤"
+      ],
+      "traditional_char": "殷"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "中国商代后期的代号（盘庚迁殷始称）",
+      "examples": [
+        "殷墟",
+        "殷商"
+      ],
+      "traditional_char": "殷"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "姓",
+      "examples": [
+        "殷先生",
+        "殷家"
+      ],
+      "traditional_char": "殷"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "adjective",
+      "meaning": "黑红色",
+      "examples": [
+        "殷红"
+      ],
+      "traditional_char": "殷"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "noun",
+      "meaning": "雷声",
+      "examples": [
+        "殷其雷，在南山之阳"
+      ],
+      "traditional_char": "殷"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "verb",
+      "meaning": "震动",
+      "examples": [
+        "熊咆龙吟殷岩泉"
+      ],
+      "traditional_char": "殷"
+    },
+    {
+      "index": 9,
+      "part_of_speech": "noun",
+      "meaning": "盛乐（古义）",
+      "examples": [],
+      "traditional_char": "殷"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 9,
+      "note": "会意字，从“殷”（表示盛大）与“殳”（表示击打、表示舞乐），古义为盛乐。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 9,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "从盛乐引申为盛、大。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "从“盛、大”引申为“众、多”。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 0,
+      "evolution_type": "metaphor",
+      "note": "由“盛大”比喻物资丰富，引申为“富裕”。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由“盛大”比喻情谊“深厚、恳切”。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "以“殷”引申为朝代名，因地名/国名用字。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 5,
+      "evolution_type": "metonymy",
+      "note": "由国名引为姓氏。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 6,
+      "evolution_type": "semantic_shift",
+      "note": "盛大常用于祭祀典礼，祭祀用血色浓厚，引申为黑红色。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 7,
+      "evolution_type": "metaphor",
+      "note": "以“盛大”引申为盛大的自然声音，引申为“雷声”。"
+    },
+    {
+      "source_index": 7,
+      "target_index": 8,
+      "evolution_type": "semantic_extension",
+      "note": "由“雷声”引申为大地震动。"
+    }
+  ]
+}

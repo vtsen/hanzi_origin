@@ -1,0 +1,73 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "百辆车；分行列的车",
+      "examples": [
+        "车辈而行",
+        "一辈之车"
+      ],
+      "traditional_char": "輩"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "家族的世代，或泛指人际关系中的先后次第",
+      "examples": [
+        "长辈",
+        "后辈",
+        "各辈分明"
+      ],
+      "traditional_char": "輩"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "同一类或同一群体的人",
+      "examples": [
+        "吾辈不才",
+        "无能之辈",
+        "新一辈"
+      ],
+      "traditional_char": "輩"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "人的一生，毕生",
+      "examples": [
+        "我这一辈子没遇到过",
+        "他这一辈子都在农村"
+      ],
+      "traditional_char": "輩"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从车，非声；本义为‘百辆车’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由车排列成行进而比喻人伦世代有序，见于中古汉语。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由‘世代’引申为‘同类的人’。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "‘世代’进而泛指‘一生’。"
+    }
+  ]
+}

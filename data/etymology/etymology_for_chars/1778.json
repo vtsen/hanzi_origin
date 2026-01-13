@@ -1,0 +1,83 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "难劈开的囫囵木头",
+      "examples": [],
+      "traditional_char": "頑"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "愚钝，不聪明",
+      "examples": [
+        "愚顽",
+        "冥顽不灵"
+      ],
+      "traditional_char": "頑"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "不容易变化或动摇，顽固",
+      "examples": [
+        "顽固",
+        "顽强",
+        "刁顽",
+        "负隅顽抗"
+      ],
+      "traditional_char": "頑"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "淘气，胡闹",
+      "examples": [
+        "顽皮",
+        "顽童"
+      ],
+      "traditional_char": "頑"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "玩耍，玩弄（同“玩”）",
+      "examples": [],
+      "traditional_char": "頑"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从页，元声，表示难劈开的木块，与“顽”/“頑”的坚硬性质相关。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由难劈开的木头引申为不易变化、不动摇，顽固。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由物理顽固喻指人思想上的愚钝。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "由“顽固”比喻为调皮、不听劝。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "unknown",
+      "note": "“顽”通“玩”，可能因儿童玩耍和顽皮关联，机制不明。"
+    }
+  ]
+}

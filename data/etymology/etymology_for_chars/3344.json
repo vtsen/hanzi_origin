@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "马、牛、猪、羊等动物足趾前部的角质保护物",
+      "examples": [
+        "牛蹄",
+        "马蹄"
+      ],
+      "traditional_char": "蹄"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "有角质保护物的脚",
+      "examples": [
+        "蹄子着地",
+        "猪蹄"
+      ],
+      "traditional_char": "蹄"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从足（意符），是，ń声。最早指蹄类动物足趾角质保护物。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由指蹄的角质覆盖物扩展为整个有蹄动物的脚。"
+    }
+  ]
+}

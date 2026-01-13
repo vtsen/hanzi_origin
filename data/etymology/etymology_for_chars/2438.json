@@ -1,0 +1,90 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "因外界事物所引起的各种心理状态，如喜怒哀乐等。",
+      "examples": [
+        "感情。",
+        "情绪。",
+        "性情。"
+      ],
+      "traditional_char": "情"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "男女之间相爱的心理状态及相关事物。",
+      "examples": [
+        "爱情。",
+        "情人。",
+        "殉情。"
+      ],
+      "traditional_char": "情"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "对异性的欲望、性欲。",
+      "examples": [
+        "情欲。",
+        "发情期。"
+      ],
+      "traditional_char": "情"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "私人的情意、意愿。",
+      "examples": [
+        "情面。",
+        "说情。"
+      ],
+      "traditional_char": "情"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "情况、状况。",
+      "examples": [
+        "实情。",
+        "事情。",
+        "国情。"
+      ],
+      "traditional_char": "情"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从‘心’表意，‘青’表音，本义为感情。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_narrowing",
+      "note": "由广义的感情具体指向男女之间的爱情。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由爱情进一步转指性欲。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "情感引申为私人情意、个人意愿。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "由内心状态转指情形、情况。"
+    }
+  ]
+}

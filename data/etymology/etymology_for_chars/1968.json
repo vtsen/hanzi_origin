@@ -1,0 +1,41 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "疲乏，劳累。",
+      "examples": [
+        "疲倦",
+        "倦怠",
+        "倦容"
+      ],
+      "traditional_char": "倦"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "对某种活动失去兴趣，厌恶。",
+      "examples": [
+        "厌倦",
+        "倦游",
+        "倦飞"
+      ],
+      "traditional_char": "倦"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从人，卷声，表示身体疲劳。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由生理上的疲劳，引申为心理上的厌倦，多出现于先秦至汉代文献。"
+    }
+  ]
+}

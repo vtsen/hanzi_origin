@@ -1,0 +1,57 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "防守用的栅栏、木栅。",
+      "examples": [
+        "寨子",
+        "鹿寨"
+      ],
+      "traditional_char": "寨"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "旧时驻兵的营地或军事据点。",
+      "examples": [
+        "营寨",
+        "安营扎寨",
+        "山寨",
+        "寨主"
+      ],
+      "traditional_char": "寨"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "村庄，尤指少数民族村落。",
+      "examples": [
+        "村寨",
+        "苗寨"
+      ],
+      "traditional_char": "寨"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从木，赛声；本义为防卫用的木栅。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由“防守的木栅”转指设防的军事营地，汉魏六朝起用。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由“防守营地”泛指一般村庄，尤其用于少数民族村落。"
+    }
+  ]
+}

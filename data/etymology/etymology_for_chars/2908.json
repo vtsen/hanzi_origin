@@ -1,0 +1,57 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "休息，停止活动以恢复精力",
+      "examples": [
+        "歇息片刻",
+        "安歇",
+        "歇凉"
+      ],
+      "traditional_char": "歇"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "停止，中断某个活动",
+      "examples": [
+        "歇业",
+        "歇工",
+        "停歇"
+      ],
+      "traditional_char": "歇"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "很短的一段时间",
+      "examples": [
+        "过了一歇",
+        "等一歇再说"
+      ],
+      "traditional_char": "歇"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从欠与曷，欠表气息、歇息有关，曷表音。本义为休息。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "休息引申为停止某项活动，用于现代如歇业、歇工等表达。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "歇作动词本义引申为名词，指休息的那个时间段。"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "赤脚踩地；用脚踏地",
+      "examples": [
+        "攬裳踱，跣把絲織履，故交白足露。"
+      ],
+      "traditional_char": "踱"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "慢慢地走，慢步行走",
+      "examples": [
+        "鲁智深离了僧房，信步踱出山门外。",
+        "他在這個上下四方都是土的房間裏踱了十多步。"
+      ],
+      "traditional_char": "踱"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "方言，形容痴呆，呆笨",
+      "examples": [
+        "花彩雲見王太史獃頭踱腦的不甚內行。"
+      ],
+      "traditional_char": "踱"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "忽前忽退，不按顺序移动（与跮踱、躇等义相近）",
+      "examples": [
+        "跮踱，乍前乍却。",
+        "與“躇”同，越級，不按階次。"
+      ],
+      "traditional_char": "踱"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从足，音符度，表示用脚踩地，‘足’示意动作与脚相关，‘度’为声旁。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘赤足踏地’引申为‘慢慢地走’，动作从单一动作扩展为一种步态。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由‘用脚踩地’引申为‘乍前乍却，不按顺序移动’，强调动作的不定。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "‘踱’本指慢步走，引申为‘痴呆，呆笨’，因步态迟缓形容人的状态。"
+    }
+  ]
+}

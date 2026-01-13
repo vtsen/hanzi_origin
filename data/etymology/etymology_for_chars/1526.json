@@ -1,0 +1,40 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "不锋利，不快",
+      "examples": [
+        "这把刀真钝。",
+        "成败利钝。"
+      ],
+      "traditional_char": "鈍"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "笨，不灵活",
+      "examples": [
+        "迟钝",
+        "愚钝",
+        "拙嘴钝舌"
+      ],
+      "traditional_char": "鈍"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从金，屯声，表示与金属工具相关，最初指不锋利。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由“器物不锋利”引申比喻为“头脑不灵活”，汉代已有此用法。"
+    }
+  ]
+}

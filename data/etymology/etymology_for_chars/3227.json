@@ -1,0 +1,82 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "英美制重量单位，一磅合0.45359237公斤。",
+      "examples": [
+        "他买了一磅苹果。"
+      ],
+      "traditional_char": "磅"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "用金属制成，底座上有承重金属板的台秤。",
+      "examples": [
+        "使用磅来称重。"
+      ],
+      "traditional_char": "磅"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "广大无边，如“气势磅礴”。",
+      "examples": [
+        "气势磅礴。"
+      ],
+      "traditional_char": "磅"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "扩展，充满，如“热情磅礴”。",
+      "examples": [
+        "热情磅礴。"
+      ],
+      "traditional_char": "磅"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "在证券、外汇等市场上，表示价格涨落的单位（磅音）。",
+      "examples": [
+        "市场磅音波动明显。"
+      ],
+      "traditional_char": "磅"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "‘磅’是形声字，从石，旁声。初指大的秤，后引申为重量单位。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "由称重工具引申为称重单位。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由实体之大，引申为气势等无形事物的宏大。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由形容广大无边引申为充满、扩展。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "semantic_shift",
+      "note": "由计量引申为价格波动单位，形成新的术语用法。"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "中国黄河的专称。",
+      "examples": [
+        "黄河之水天上来，奔流到海不复回。",
+        "河防"
+      ],
+      "traditional_char": "河"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "一般水道的通称。",
+      "examples": [
+        "河道",
+        "河流",
+        "河沟"
+      ],
+      "traditional_char": "河"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "银河（银河系）的别称。",
+      "examples": [
+        "天河",
+        "河汉清且浅"
+      ],
+      "traditional_char": "河"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，可声，最初专指黄河。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由特指黄河扩展为泛指所有河流，发生于中古汉语时期。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "比喻天空中如同大河一样的银河，常见于诗文。"
+    }
+  ]
+}

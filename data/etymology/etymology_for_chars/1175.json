@@ -1,0 +1,105 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "分泌奶的器官，如乳房。",
+      "examples": [
+        "乳房",
+        "乳峰"
+      ],
+      "traditional_char": "乳"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "乳房中分泌出来的白色甜汁，即乳汁。",
+      "examples": [
+        "哺乳",
+        "乳母",
+        "乳臭未干"
+      ],
+      "traditional_char": "乳"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "像乳汁的东西。",
+      "examples": [
+        "豆乳",
+        "乳胶",
+        "乳腐"
+      ],
+      "traditional_char": "乳"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "像乳头的突出处。",
+      "examples": [
+        "钟乳",
+        "钟乳石"
+      ],
+      "traditional_char": "乳"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "生育，繁殖。",
+      "examples": [
+        "孳乳"
+      ],
+      "traditional_char": "乳"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "adjective",
+      "meaning": "初生的、幼小的。",
+      "examples": [
+        "乳燕",
+        "乳牙",
+        "乳名"
+      ],
+      "traditional_char": "乳"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘乳’为形声字，从孚，象乳头形，声；本义指哺乳动物分泌奶的器官，原指乳头。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由分泌乳汁的器官转指所分泌的乳汁，古已见。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "因色泽、质地类似乳汁，借指其他白色液体或胶体。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "因形状突出，借指钟乳石等突起物。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "本指生乳，后泛指生育、繁殖，多用于书面语或合成词。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "乳汁为初生幼儿所食，引申为“幼小、新生”。"
+    }
+  ]
+}

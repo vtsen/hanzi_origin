@@ -1,0 +1,52 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "去，到（某处）",
+      "examples": [
+        "往来无白丁。",
+        "勇往直前。"
+      ],
+      "traditional_char": "往"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "过去（的时间、事情）",
+      "examples": [
+        "往昔凛然。",
+        "以往多年。"
+      ],
+      "traditional_char": "往"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "通“望”，看，望向",
+      "examples": [],
+      "traditional_char": "往"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意字，从“止”（脚，行动）与“土”合，表示从某地出发走向别处，原本义为‘到、去’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘去’引申为‘过去’之义，汉代以来文献可见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "‘往’假借为‘望’，二者音近，见于部分古籍。"
+    }
+  ]
+}

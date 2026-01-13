@@ -1,0 +1,102 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "追逐，追赶。",
+      "examples": [
+        "花底山蜂远趁人",
+        "他快步向前趁"
+      ],
+      "traditional_char": "趁"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "利用（时间、机会等）。",
+      "examples": [
+        "趁早",
+        "趁机",
+        "趁势",
+        "趁火打劫"
+      ],
+      "traditional_char": "趁"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "搭乘（交通工具）。",
+      "examples": [
+        "趁车",
+        "趁船"
+      ],
+      "traditional_char": "趁"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "往，赴（某地）。",
+      "examples": [
+        "趁墟",
+        "趁熟"
+      ],
+      "traditional_char": "趁"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "富有。",
+      "examples": [
+        "趁钱",
+        "趁几身衣服"
+      ],
+      "traditional_char": "趁"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "（古义）适合，恰当，通“称”。",
+      "examples": [],
+      "traditional_char": "趁"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘趁’为形声字，从走，『朁』声。本义为追逐、追赶。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由追赶引申为抓住时机，多见于中古后。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "追赶的动作引申为搭乘交通工具。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由追赶进一步泛化为前往、赴。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 1,
+      "evolution_type": "unknown",
+      "note": "‘趁’表富有的义项与利用、乘机义有关，联系模糊。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "semantic_shift",
+      "note": "由追赶义到适合（称），属语音通假和义项漂移，见于古文。"
+    }
+  ]
+}

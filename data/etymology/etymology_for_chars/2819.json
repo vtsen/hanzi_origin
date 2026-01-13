@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "结合，订立（如缔交、缔约、缔盟等）",
+      "examples": [
+        "两国缔结了盟约。",
+        "缔交友邦。"
+      ],
+      "traditional_char": "締"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "创立（如缔构、缔造、缔结等）",
+      "examples": [
+        "他缔造了一个新王朝。",
+        "缔构伟业。"
+      ],
+      "traditional_char": "締"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "禁止，约束（如取缔）",
+      "examples": [
+        "警方取缔了非法组织。",
+        "对赌博活动进行取缔。"
+      ],
+      "traditional_char": "締"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从糸为意符，帝为声符，本义为‘结在一起’，与丝缠系有关。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘结合’意引申为‘创立’，如缔造事物。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "由‘结合、订立’发展出‘条约、规定’的约束或禁止含义，见于‘取缔’。"
+    }
+  ]
+}

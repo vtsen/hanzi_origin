@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "measure_word",
+      "meaning": "用于植物的量词，表示一株、一棵等植物个体。",
+      "examples": [
+        "一棵大白菜",
+        "两棵卷心菜",
+        "一棵树"
+      ],
+      "traditional_char": "棵"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "某些植物的茎或本体。",
+      "examples": [
+        "棵秆",
+        "棵子"
+      ],
+      "traditional_char": "棵"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "方言，指砍削枝条。",
+      "examples": [
+        "成林树儿不用棵，棵棵打打节巴多"
+      ],
+      "traditional_char": "棵"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "形声字，从木，果声。本义为植物的茎或本体，后引申为量词，用于表示植物个体。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "grammaticalization",
+      "note": "植物本体的名词用法通过语法化发展为植物量词，用于计数。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由植物本体的含义引申出砍削枝条的方言动词用法，机制和地区存在学术分歧。"
+    }
+  ]
+}

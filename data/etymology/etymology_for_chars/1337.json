@@ -1,0 +1,90 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "白绢",
+      "examples": [
+        "江平如练",
+        "素练"
+      ],
+      "traditional_char": "練"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "把生丝、麻或布帛煮熟，使之柔软洁白",
+      "examples": [
+        "练漂",
+        "以清水练其麻"
+      ],
+      "traditional_char": "練"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "反复学习，多次操作",
+      "examples": [
+        "练习",
+        "练功",
+        "练笔"
+      ],
+      "traditional_char": "練"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "经验多，精熟",
+      "examples": [
+        "老练",
+        "熟练",
+        "干练",
+        "练达"
+      ],
+      "traditional_char": "練"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "练先生",
+        "练姓"
+      ],
+      "traditional_char": "練"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "形声字。从糸，柬声。本义为煮丝使其洁白柔软，字形与丝类操作有关，柬表音。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "metonymy",
+      "note": "由动作‘煮丝’指代结果‘白绢’。见古代文献语境。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "从‘反复处理使丝洁白’引申为‘反复练习’。过程类比。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由多次练习引申为‘经验多，精熟’。含义层递。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "function_word",
+      "note": "‘练’作为姓氏，源自名物用字，常见取材方式。历史延用。"
+    }
+  ]
+}

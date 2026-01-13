@@ -1,0 +1,41 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "接近地面的水蒸气，遇冷凝结后飘浮在空气中的小水点",
+      "examples": [
+        "雾气弥漫",
+        "晨雾",
+        "大雾天气"
+      ],
+      "traditional_char": "霧"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "像雾的东西",
+      "examples": [
+        "烟雾缭绕",
+        "喷雾器",
+        "雾剂"
+      ],
+      "traditional_char": "霧"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘霧’为形声字，从雨，務声，表示与气象现象雨水相关，初指天然雾气。简化字‘雾’承自‘霧’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由天然雾气引申为一切类似雾的物质或现象，常见于文言和现代汉语。"
+    }
+  ]
+}

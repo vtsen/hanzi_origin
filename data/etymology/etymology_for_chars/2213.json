@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "萤火虫，昆虫，黄褐色，尾部有发光器。",
+      "examples": [
+        "草间有萤飞。",
+        "夏夜萤光点点。"
+      ],
+      "traditional_char": "螢"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "萤石，一种矿物，具有玻璃光泽，受光或受热后常能变色，亦称“氟石”。",
+      "examples": [
+        "萤石常用于装饰品。",
+        "萤石有多种颜色。"
+      ],
+      "traditional_char": "螢"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "螢为形声字，虫为意符，营(yíng)为声符，最初指能发光的昆虫（萤火虫）。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "因萤火虫发光，后借指有玻璃光泽、能发光变色的矿物。"
+    }
+  ]
+}

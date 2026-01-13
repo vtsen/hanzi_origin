@@ -1,0 +1,42 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "具有共同特征的事物集合，种类。",
+      "examples": [
+        "种类",
+        "类别",
+        "分门别类",
+        "人才分为许多类"
+      ],
+      "traditional_char": "類"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "相似的，好像的。",
+      "examples": [
+        "类似",
+        "类同",
+        "他俩性格很类"
+      ],
+      "traditional_char": "類"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘類’为形声字，从‘犬’表义，指犬种多且近似；‘頪’（lèi）表音。本义即种类。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘种类’之义扩展为‘相似、类似’之形容义，汉代已见。"
+    }
+  ]
+}

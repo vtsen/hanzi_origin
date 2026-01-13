@@ -1,0 +1,89 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "打土墙用的夹板",
+      "examples": [
+        "版筑"
+      ],
+      "traditional_char": "版"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "上面有文字或图形的用木板或金属等制成供印刷用的东西",
+      "examples": [
+        "木版书",
+        "活字版",
+        "底版",
+        "修版"
+      ],
+      "traditional_char": "版"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "印刷物排印一次及相关的事物",
+      "examples": [
+        "排版",
+        "再版",
+        "版本",
+        "出版",
+        "版权"
+      ],
+      "traditional_char": "版"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "报纸的一面",
+      "examples": [
+        "头版头条"
+      ],
+      "traditional_char": "版"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "户籍；国家的疆域地图",
+      "examples": [
+        "版图"
+      ],
+      "traditional_char": "版"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从“片”表意，‘反’表声，初指打土墙时所用的夹板。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由夹板拓展为带有文字或图形的印刷用板，因早期印刷亦用木板。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由作为实物的印版演化为排印和相关事物的称呼。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "报纸印刷用的版延伸为报纸某一页面的含义。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "古代政府用“版”造册登记户籍与疆域，引申至户籍与版图。"
+    }
+  ]
+}

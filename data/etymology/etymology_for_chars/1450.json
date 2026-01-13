@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "台阶",
+      "examples": [
+        "雕栏玉砌",
+        "玉砌雕阶"
+      ],
+      "traditional_char": "砌"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "用砖石等材料并用泥灰粘合而建造",
+      "examples": [
+        "砌墙",
+        "堆砌辞藻"
+      ],
+      "traditional_char": "砌"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "元曲戏曲舞台上所用简单布景和特制器物",
+      "examples": [
+        "砌末",
+        "切末"
+      ],
+      "traditional_char": "砌"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从石，切声，本义为台阶，意为石制台阶。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“台阶”泛指到以砖石垒砌修建，属于意义的扩展，汉代以后见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由“台阶”引申为舞台道具场景，元曲术语，意义扩展。"
+    }
+  ]
+}

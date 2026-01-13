@@ -1,0 +1,83 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古代设在路旁的有顶建筑物，供路人休息或住宿。",
+      "examples": [
+        "长亭外，古道边，芳草碧连天。"
+      ],
+      "traditional_char": "亭"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "有顶无墙，供休息用的建筑物，多建于路旁或花园中，如凉亭、牡丹亭。",
+      "examples": [
+        "他在花园的凉亭里休息。"
+      ],
+      "traditional_char": "亭"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "简易的小型建筑，如书亭、邮亭、岗亭等。",
+      "examples": [
+        "警察在岗亭里执勤。",
+        "路口有一个书亭。"
+      ],
+      "traditional_char": "亭"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "适中，均匀。",
+      "examples": [
+        "亭匀（体态匀称）。"
+      ],
+      "traditional_char": "亭"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "正，当，如正午。",
+      "examples": [
+        "亭午（中午）。"
+      ],
+      "traditional_char": "亭"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘亭’为形声字，从高省，丁声，初为路旁供歇息的建筑。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由古代路旁亭屋泛指各种休息用的无墙顶棚建筑。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "从“有顶建筑”推广至各种简易的小型房屋。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "亭屋建造匀称，引申为适中、均匀之义，用于形容体态等。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "亭中多设于中间，派生“正、中”义，形成‘亭午’。"
+    }
+  ]
+}

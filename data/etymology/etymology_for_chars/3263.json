@@ -1,0 +1,57 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "谷类植物的茎秆",
+      "examples": [
+        "稻稿",
+        "稿秆",
+        "以稿荐卧"
+      ],
+      "traditional_char": "稿"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "文字、图画的草稿或底稿",
+      "examples": [
+        "讲稿",
+        "文稿",
+        "他已经写好初稿"
+      ],
+      "traditional_char": "稿"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "比喻预先考虑或计划",
+      "examples": [
+        "毫无稿件",
+        "早有讲稿"
+      ],
+      "traditional_char": "稿"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从禾，高声，表示禾的茎秆。左边禾表义，右边高表音。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "以禾秆为初步、草率之物，比喻初稿、底稿之意，见于文书用语。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "从具体的文稿引申为预先计划、准备的意思。"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "小路、步行道路，也泛指道路、途径等",
+      "examples": [
+        "径道",
+        "山径",
+        "途径",
+        "大相径庭"
+      ],
+      "traditional_char": "徑"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "直接、直捷，未加曲折",
+      "examples": [
+        "径直",
+        "径流",
+        "径自"
+      ],
+      "traditional_char": "徑"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "数学上指连接圆心和圆周的直线",
+      "examples": [
+        "直径"
+      ],
+      "traditional_char": "徑"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从彳表示与道路相关，巠作声符，本义为步行的小路。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由“笔直小路”比喻为“直接、直捷”，古已有之。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由“直”的意思扩展为圆的直径专用术语，大约出现在近现代数学语境中。"
+    }
+  ]
+}

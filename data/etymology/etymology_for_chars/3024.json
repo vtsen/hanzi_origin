@@ -1,0 +1,53 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "称赞，赞美。",
+      "examples": [
+        "交口称誉",
+        "毁誉参半"
+      ],
+      "traditional_char": "譽"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "名声，声誉。",
+      "examples": [
+        "荣誉",
+        "名誉",
+        "信誉"
+      ],
+      "traditional_char": "譽"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "古同“豫”，欢乐。",
+      "examples": [],
+      "traditional_char": "譽"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从言，舆声，本义为‘称赞、赞美’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "conversion",
+      "note": "由称赞动词义转为抽象名词‘声誉’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "unknown",
+      "note": "与‘豫’通用，多见于古籍，具体语义联系不详。"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "围绕，缠绕",
+      "examples": [
+        "藤蔓缠树",
+        "用绳子缠在一起"
+      ],
+      "traditional_char": "纏"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "搅扰，牵绊",
+      "examples": [
+        "琐事缠身",
+        "病痛缠绵"
+      ],
+      "traditional_char": "纏"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "应付，对付（多指难以摆脱）",
+      "examples": [
+        "这个人真难缠",
+        "问题太多，很难缠"
+      ],
+      "traditional_char": "纏"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从糸，廛声；糸表示与丝线有关，'缠绕'为本义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由物理缠绕引申为情感或事务上的牵绊、搅扰，早见于文献。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "从事物/情感难以解脱引申为人或事难以对付。"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "水清澈而深。",
+      "examples": [
+        "潇湘",
+        "江水潇潇"
+      ],
+      "traditional_char": "瀟"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "（行动举止）自然大方，不呆板，不拘束。",
+      "examples": [
+        "潇洒",
+        "举止潇洒"
+      ],
+      "traditional_char": "瀟"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "形容风雨暴疾的样子或小雨。",
+      "examples": [
+        "风雨潇潇",
+        "潇潇细雨"
+      ],
+      "traditional_char": "瀟"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，萧声，表示水深而清。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "以水清深引申描述风雨、小雨的清新、淡雅、缠绵。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由水的自然清澈引申为人的举止自然大方。"
+    }
+  ]
+}

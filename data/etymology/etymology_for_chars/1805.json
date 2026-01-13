@@ -1,0 +1,72 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "摧折，折断。",
+      "examples": [
+        "挫骨扬灰",
+        "强弩之末，势不能挫"
+      ],
+      "traditional_char": "挫"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "使不顺利，使失败。",
+      "examples": [
+        "挫败",
+        "挫折",
+        "多次挫败敌军阴谋"
+      ],
+      "traditional_char": "挫"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "按下，使音调降低。",
+      "examples": [
+        "抑扬顿挫",
+        "声音抑挫低沉"
+      ],
+      "traditional_char": "挫"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "other",
+      "meaning": "书法用笔的一种。",
+      "examples": [
+        "横画要用挫法",
+        "起笔宜顿挫"
+      ],
+      "traditional_char": "挫"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从手，坐声，表示用手折断、摧折。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“折断”引申为“使人或事不顺利、失败”，见古代文献语义扩展。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由物理上的“折断”比喻音调下压、转折。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "从摧折之意引申至书法用笔方法，形容笔锋的转折变化。"
+    }
+  ]
+}

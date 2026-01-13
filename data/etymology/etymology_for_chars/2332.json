@@ -1,0 +1,41 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "卖出，将物品出卖给他人",
+      "examples": [
+        "售货",
+        "出售",
+        "售票",
+        "零售"
+      ],
+      "traditional_char": "售"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "施展（计谋、才能等）",
+      "examples": [
+        "以售其奸",
+        "其计不售"
+      ],
+      "traditional_char": "售"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从口，雔声，本义为‘卖出’。口表与说话、交易相关，雔表声。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由‘卖出’引申为‘施展（计谋等）’，如同将计谋“卖出”或“展示”给人。"
+    }
+  ]
+}

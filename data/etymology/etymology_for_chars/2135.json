@@ -1,0 +1,57 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "大土山",
+      "examples": [
+        "山陵",
+        "丘陵",
+        "陵谷迁变"
+      ],
+      "traditional_char": "陵"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "高大的坟墓",
+      "examples": [
+        "陵园",
+        "陵墓",
+        "陵寝"
+      ],
+      "traditional_char": "陵"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "侵犯，欺侮（古同“凌”用法）",
+      "examples": [
+        "欺陵",
+        "侮陵"
+      ],
+      "traditional_char": "陵"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从阜表土山地势，夌为声旁。本义为“大土山”。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "古代高大坟墓多建于丘陵之上，后用“陵”指高大坟墓。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "受近音字“凌”影响，引申为“侵犯、欺侮”用法，汉魏时期已出现。"
+    }
+  ]
+}

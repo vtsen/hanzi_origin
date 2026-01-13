@@ -1,0 +1,138 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "用不同的材料加以调和或配置，如混合、配制等。",
+      "examples": [
+        "配药",
+        "配色",
+        "配餐"
+      ],
+      "traditional_char": "配"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "两性结合成为夫妻或繁殖后代。",
+      "examples": [
+        "配偶",
+        "配种"
+      ],
+      "traditional_char": "配"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "相互分工合作或使成组配合使用。",
+      "examples": [
+        "配合",
+        "配器"
+      ],
+      "traditional_char": "配"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "按一定计划分派、安排、分配。",
+      "examples": [
+        "配备",
+        "配置",
+        "分配"
+      ],
+      "traditional_char": "配"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "把缺少的补足，使成套或完整。",
+      "examples": [
+        "配套",
+        "配乐",
+        "装配"
+      ],
+      "traditional_char": "配"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "衬托、陪衬。",
+      "examples": [
+        "配搭",
+        "配角",
+        "红花配绿叶"
+      ],
+      "traditional_char": "配"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "称得上、够得上。",
+      "examples": [
+        "配得上"
+      ],
+      "traditional_char": "配"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "verb",
+      "meaning": "古代指把犯人发配到边远地区服刑充军。",
+      "examples": [
+        "发配",
+        "刺配"
+      ],
+      "traditional_char": "配"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从酉，己声（或妃省声）；本义为调和不同的酒以成色。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由调和扩展为配合、成组协作。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由调和引申为配置、分派。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "调和、补足，使完整，为配套之意。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由调和引申为两性结合、匹配（配偶）。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "metaphor",
+      "note": "由调和引申为衬托、陪衬。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "semantic_extension",
+      "note": "由配合引申为“够得上、匹配”。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 7,
+      "evolution_type": "semantic_shift",
+      "note": "由配置、分派引申为古代发配罪人。"
+    }
+  ]
+}

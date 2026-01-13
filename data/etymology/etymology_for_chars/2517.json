@@ -1,0 +1,90 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "越过，高出",
+      "examples": [
+        "高超",
+        "超越",
+        "超过",
+        "超出"
+      ],
+      "traditional_char": "超"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "跳上，跨过",
+      "examples": [
+        "挟泰山以超北海",
+        "一跃而超",
+        "鱼能超水面"
+      ],
+      "traditional_char": "超"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "在一定范围以外",
+      "examples": [
+        "超自然",
+        "超音速",
+        "超导现象"
+      ],
+      "traditional_char": "超"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "遥远",
+      "examples": [
+        "超遥",
+        "超忽"
+      ],
+      "traditional_char": "超"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "怅惘的样子",
+      "examples": [
+        "武侯超然不对"
+      ],
+      "traditional_char": "超"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "形声字，从走，召声，表示跳上、越过的动作。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "从《跳上，跨过》引申为一般的‘越过，高出’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由‘越过，高出’扩展至‘在范围之外’。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由超越范围衍生出‘遥远’。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "由‘遥远’引申为‘怅惘的样子’。"
+    }
+  ]
+}

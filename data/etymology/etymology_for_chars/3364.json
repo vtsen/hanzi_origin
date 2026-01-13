@@ -1,0 +1,40 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "体积或长度增大，鼓胀，肿胀。",
+      "examples": [
+        "膨胀",
+        "气球膨大",
+        "通货膨胀"
+      ],
+      "traditional_char": "膨"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "肚子胀大或鼓胀的样子。",
+      "examples": [
+        "膨脝",
+        "豕腹脹膨脝"
+      ],
+      "traditional_char": "膨"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从肉（表示与身体有关），彭声，原指身体特别是肚子的胀大，引申为一般的膨胀。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_narrowing",
+      "note": "由一般膨胀引申为特指肚子胃部等部位的鼓胀，汉至中古。"
+    }
+  ]
+}

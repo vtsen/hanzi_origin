@@ -1,0 +1,57 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "像鱼或生肉的气味",
+      "examples": [
+        "腥气",
+        "血腥",
+        "腥膻",
+        "腥秽",
+        "腥臭",
+        "腥风血雨"
+      ],
+      "traditional_char": "腥"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "鱼或肉一类的食品，荤腥",
+      "examples": [
+        "荤腥"
+      ],
+      "traditional_char": "腥"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "生肉",
+      "examples": [
+        "君赐腥，必熟而蔫之"
+      ],
+      "traditional_char": "腥"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从“肉”表义，表示与肉相关；“星”表音。最初指有鱼或生肉气味。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "从表示气味到用作食品类别，因鱼肉等食品常带腥味。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_narrowing",
+      "note": "从泛指鱼肉等食品收窄为生肉，见于古文。"
+    }
+  ]
+}

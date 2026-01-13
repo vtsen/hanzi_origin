@@ -1,0 +1,104 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "周代诸侯国名，位于今河南新郑一带",
+      "examples": [
+        "郑穆公使视客馆。（《左传·僖公三十三年》）",
+        "至于南郑。（《穆天子传》）"
+      ],
+      "traditional_char": "鄭"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "春秋战国时郑国的民间音乐，后泛指与雅乐相对的俗乐，甚至为淫靡之音",
+      "examples": [
+        "改华服以就紫，变雅音而入郑。（《惟皇诫德赋》）",
+        "诗声俱郑，自此阶矣。（《文心雕龙•乐府》）"
+      ],
+      "traditional_char": "鄭"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "郑成功",
+        "郑和"
+      ],
+      "traditional_char": "鄭"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "郑重；慎重",
+      "examples": [
+        "郑重其事。",
+        "非皇天所以郑重降符命之意。（《汉书·王莽传》）"
+      ],
+      "traditional_char": "鄭"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "隋末短暂政权“郑国”，王世充所建",
+      "examples": [
+        "既而废侗于别宫，僭即皇帝位，建元曰开明，国号郑。（《隋书•王世充传》）"
+      ],
+      "traditional_char": "鄭"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "“鄭”的简化字",
+      "examples": [],
+      "traditional_char": "郑"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从邑，奠声，表示与地名、邦域相关；最初用作周代诸侯国之名。"
+    },
+    {
+      "formation_type": "loan_character",
+      "original_sense_index": 5,
+      "note": "简化字“郑”，由“鄭”简化，现代通用。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由郑国引申为郑国的音乐，后泛指俗乐或淫靡之音。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "以国名作为姓氏的来源，常见于中国古姓氏的发展。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由郑国之重而引申为郑重、慎重之意，见于《广雅》。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "后世政权沿用古国名“郑”作为国号，属借用历史用名。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "reanalysis",
+      "note": "“郑”为“鄭”的简化字，取用形旁简化的新字形。"
+    }
+  ]
+}

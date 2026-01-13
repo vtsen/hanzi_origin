@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "葡萄植物，即落叶藤本植物，果实圆形或椭圆形，可食或酿酒。",
+      "examples": [
+        "葡萄藤",
+        "一串葡萄"
+      ],
+      "traditional_char": "葡"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "葡萄的果实或形状类似葡萄的物品。",
+      "examples": [
+        "葡萄干",
+        "葡萄球菌"
+      ],
+      "traditional_char": "葡"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "完备、齐备。",
+      "examples": [
+        "備，齊備也。（《說文》用作“備”）"
+      ],
+      "traditional_char": "葡"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "loan_character",
+      "original_sense_index": 2,
+      "note": "本字从艹，古作‘𤰈’，本为‘備’的异体，后借用表‘葡萄’植物名。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 2,
+      "target_index": 0,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "中古时期，此字作为发音近似的外来植物名‘葡萄’的借字，演变为现代义。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "葡萄（植物）之意引申为其果实及形状相似者。"
+    }
+  ]
+}

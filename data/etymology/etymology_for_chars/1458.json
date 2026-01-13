@@ -1,0 +1,43 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "拉，引领向前。",
+      "examples": [
+        "牵牛",
+        "牵引",
+        "牵头",
+        "牵着孩子过马路"
+      ],
+      "traditional_char": "牽"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "关连，带累。",
+      "examples": [
+        "牵连",
+        "牵强",
+        "一事牵动全身",
+        "意惹情牵"
+      ],
+      "traditional_char": "牽"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从牛，冖象牵牛之绳，玄声，原义为拉牛前行。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由具体的拉（如牵牛）引申为抽象的牵连、带累，汉代已见。"
+    }
+  ]
+}

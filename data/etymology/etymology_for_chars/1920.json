@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "山名，指四川的峨眉山。",
+      "examples": [
+        "峨眉山高插云霄。",
+        "峨嵋山下少人行。"
+      ],
+      "traditional_char": "峨"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "高大、陡峭。",
+      "examples": [
+        "巍峨的高山。",
+        "峨冠博带。"
+      ],
+      "traditional_char": "峨"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "形声字，从山，阿声。本义为高大，形容山高，也用于形容物体高大。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_narrowing",
+      "note": "由高大引申为特指高大的峨眉山。"
+    }
+  ]
+}

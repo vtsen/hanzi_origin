@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adverb",
+      "meaning": "义同“惟”，表示只有、但、只是。",
+      "examples": [
+        "唯物论",
+        "唯心论"
+      ],
+      "traditional_char": "唯"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "interjection",
+      "meaning": "答应、应答的声音，常表示谦卑或顺从。",
+      "examples": [
+        "唯唯",
+        "唯唯诺诺"
+      ],
+      "traditional_char": "唯"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adverb",
+      "meaning": "鱼成群而随行的样子。",
+      "examples": [
+        "其鱼唯唯"
+      ],
+      "traditional_char": "唯"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "形声字，口为意符，隹表音，初作应答声。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "由应答声引申为表示限定、只的副词用法，早在先秦已见。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由应答声引申为象声词，描述鱼群群随行如顺应人召唤的样子。"
+    }
+  ]
+}

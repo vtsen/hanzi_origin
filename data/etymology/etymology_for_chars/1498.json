@@ -1,0 +1,40 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "节肢动物，身上有壳，腹部有很多环节。生活在水里，种类很多。",
+      "examples": [
+        "虾皮",
+        "虾米",
+        "虾子",
+        "虾兵蟹将"
+      ],
+      "traditional_char": "蝦"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "蛤蟆的通称，多用于“虾蟆”或“蛤蟆”一词。",
+      "examples": [
+        "青蛙和虾蟆都是两栖动物。"
+      ],
+      "traditional_char": "蝦"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“蝦”为形声字，从虫，叚声，最初指一种甲壳类水生动物。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "“虾蟆”作“蛤蟆”用，为对两栖动物的习惯性称谓转用。"
+    }
+  ]
+}

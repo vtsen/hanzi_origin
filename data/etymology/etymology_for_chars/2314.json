@@ -1,0 +1,40 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "耕地用的农具",
+      "examples": [
+        "木犁",
+        "犁铧",
+        "犁头"
+      ],
+      "traditional_char": "犁"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "用犁耕地",
+      "examples": [
+        "犁地",
+        "犁庭扫闾"
+      ],
+      "traditional_char": "犁"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从牛，利声，表示用于牛耕的农具。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "conversion",
+      "note": "名词作动词用，即用农具犁进行耕作，形成动词意义。"
+    }
+  ]
+}

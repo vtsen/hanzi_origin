@@ -1,0 +1,53 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "哺乳动物，体大，尾短，四肢粗短，能直立行走，也会攀树，如棕熊、黑熊等。",
+      "examples": [
+        "熊出没注意。",
+        "狗熊是黑熊的一种。"
+      ],
+      "traditional_char": "熊"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "斥责、责骂（方言用法）。",
+      "examples": [
+        "他被教练熊了一顿。"
+      ],
+      "traditional_char": "熊"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [
+        "熊先生是我的老师。"
+      ],
+      "traditional_char": "熊"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从“能”，炎省声。本义为动物熊，表示动物名。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "因动物熊给人笨重、粗鲁、厉害感，转指斥责、责骂他人（方言用法）。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "conversion",
+      "note": "以动物名称作为姓氏，属于名词性转用。"
+    }
+  ]
+}

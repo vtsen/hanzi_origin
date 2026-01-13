@@ -1,0 +1,107 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "寄居、迁居外地的人，住在异国他乡者",
+      "examples": [
+        "旅客",
+        "客死他乡",
+        "客居海外"
+      ],
+      "traditional_char": "客"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "外来的人，与“主”相对",
+      "examples": [
+        "宾客",
+        "会客",
+        "不速之客"
+      ],
+      "traditional_char": "客"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "服务行业的服务对象，顾客",
+      "examples": [
+        "顾客",
+        "乘客",
+        "客户"
+      ],
+      "traditional_char": "客"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "指奔走各地从事某种活动的人，如说客、政客、侠客",
+      "examples": [
+        "说客",
+        "政客",
+        "侠客"
+      ],
+      "traditional_char": "客"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "在人的意识之外独立存在的（如“客观”）",
+      "examples": [
+        "客观",
+        "客体"
+      ],
+      "traditional_char": "客"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "measure_word",
+      "meaning": "用于论份出售的食品、饮料",
+      "examples": [
+        "一客冰淇淋",
+        "两客羊肉"
+      ],
+      "traditional_char": "客"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从宀表示与家有关，各为声符，最初表示寄居、旅居之义"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由寄居之人引申为外来的人，古今皆有，两者常有重叠"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由“来访之人”引申为“被接待或服务的对象”"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "以“游客”等含义转为“从事某类活动的人”（如说客、政客等）"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "“客”与“主”对立，引申为“客体”，即在主体意识之外独立存在"
+    },
+    {
+      "source_index": 2,
+      "target_index": 5,
+      "evolution_type": "conversion",
+      "note": "名词转作量词，主要用于近现代口语"
+    }
+  ]
+}

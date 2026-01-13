@@ -1,0 +1,136 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "人和动物的视觉器官",
+      "examples": [
+        "眼睛",
+        "眼底",
+        "眼色",
+        "眼神"
+      ],
+      "traditional_char": "眼"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "见识，对事物的看法",
+      "examples": [
+        "眼光远大",
+        "眼界开阔"
+      ],
+      "traditional_char": "眼"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "孔洞，窟窿",
+      "examples": [
+        "针眼儿",
+        "泉眼",
+        "炮眼"
+      ],
+      "traditional_char": "眼"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "关节，要点",
+      "examples": [
+        "节骨眼儿",
+        "字眼儿"
+      ],
+      "traditional_char": "眼"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "戏曲中的节拍",
+      "examples": [
+        "一板三眼"
+      ],
+      "traditional_char": "眼"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "当前，眼前",
+      "examples": [
+        "眼前利益",
+        "眼下"
+      ],
+      "traditional_char": "眼"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "measure_word",
+      "meaning": "量词，用于井等 (如“一眼井”)",
+      "examples": [
+        "一眼井"
+      ],
+      "traditional_char": "眼"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "noun",
+      "meaning": "围棋术语，一方子中所留的空儿，在这个空儿中对方不能下成活棋",
+      "examples": [
+        "棋有二眼",
+        "做眼"
+      ],
+      "traditional_char": "眼"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从目，艮声，表示眼珠、本义为视觉器官"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由视觉器官引申为对事物的见识、眼光，常用隐喻"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由眼作为视觉开口，引申为小孔、洞之义"
+    },
+    {
+      "source_index": 2,
+      "target_index": 6,
+      "evolution_type": "conversion",
+      "note": "由名词“孔洞”类引申为量词用法，多用于井等"
+    },
+    {
+      "source_index": 2,
+      "target_index": 7,
+      "evolution_type": "metaphor",
+      "note": "由孔洞之义比喻围棋中活棋的空子"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "眼作为紧要部位，引申为关节、要点"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "由要点、节点进一步引申为戏曲节拍"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "metonymy",
+      "note": "以‘眼’表示当前、眼前之事，属于部分代整体"
+    }
+  ]
+}

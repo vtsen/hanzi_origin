@@ -1,0 +1,86 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "高低不平、崎岖不平的样子，多形容山路、地势。",
+      "examples": [
+        "崎岖，倾侧也。——《广雅》",
+        "山路崎岖难行。",
+        "上平衍而旷荡，下蒙蘢而崎岖。——张衡《南都赋》"
+      ],
+      "traditional_char": "崎"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "险峻、陡峭，多形容山峰、地形不易攀登。",
+      "examples": [
+        "磐石险峻，倾崎崖隤。——《高唐赋》",
+        "山路崎峻难行。"
+      ],
+      "traditional_char": "崎"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "曲折的河岸、岸边。",
+      "examples": [
+        "崎，曲岸。——《广韵·平微》"
+      ],
+      "traditional_char": "崎"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "地名用字，如“陭氏阪”，指古地名。",
+      "examples": [
+        "上党陭氏阪也。——《集韵·平支》"
+      ],
+      "traditional_char": "崎"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "不安、倾斜貌。",
+      "examples": [
+        "方不中矩，员不副规；抑左扬右，望之若崎。——《晋书·卫瓘传》",
+        "不安貌，见‘崎錡’。"
+      ],
+      "traditional_char": "崎"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从山，奇声。本义为“崎岖不平”，‘山’表义，‘奇’表音。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由泛指高低不平，引申为山势险峻之义，常见于描述山峰、山路。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由地势高低不平转喻为曲折的河岸、岸边。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "由地势不平引申为人的状态、物体状态的不安定、倾斜。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "function_word",
+      "note": "作为古地名用字，是取本义描述当地地貌的特征。"
+    }
+  ]
+}

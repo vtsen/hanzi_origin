@@ -1,0 +1,57 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "用力将水、液体等倒出或洒开。",
+      "examples": [
+        "泼水成冰",
+        "他一气之下把水泼了出去",
+        "泼墨山水画"
+      ],
+      "traditional_char": "潑"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "粗野，蛮横，不讲理。",
+      "examples": [
+        "她性格泼辣",
+        "她越来越泼皮",
+        "这个人很泼"
+      ],
+      "traditional_char": "潑"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "有魄力，有胆量（褒）。",
+      "examples": [
+        "他做起事来很泼",
+        "领导非常泼辣"
+      ],
+      "traditional_char": "潑"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，发声，表示水流外洒。‘潑’为正体。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由猛力泼洒水引申为性格粗野、放纵，多见于宋元以后。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "amelioration",
+      "note": "由负面‘泼辣’语义发展出正面的‘有魄力’含义，近现代用法。"
+    }
+  ]
+}

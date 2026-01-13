@@ -1,0 +1,46 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "真诚，诚恳，态度诚实而坦率",
+      "examples": [
+        "诚恳",
+        "恳切",
+        "恳谈"
+      ],
+      "traditional_char": "懇"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "请求，恳求",
+      "examples": [
+        "恳求",
+        "恳请",
+        "哀恳再三"
+      ],
+      "traditional_char": "懇"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘懇’为形声字，从心，‘艮’声，表示内心真诚。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘恳’为‘懇’的简化字，结构同理，表示内心真诚。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从形容词“真诚”引申为动词“诚恳地请求”，语义拓展见于古今汉语。"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "波涛撞击发出的声音和动作",
+      "examples": [
+        "澎濞水声。",
+        "洶湧澎湃。"
+      ],
+      "traditional_char": "澎"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "水溅，液体飞溅",
+      "examples": [
+        "澎了一身水。",
+        "水从堤堰上澎出来，嘩嘩嘩的有如瀑布。"
+      ],
+      "traditional_char": "澎"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "迸发，突然爆发",
+      "examples": [
+        "澎出几句闲话。",
+        "热情澎湃的诗篇。"
+      ],
+      "traditional_char": "澎"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "古地名，县名，在东海",
+      "examples": [
+        "澎，县名，在东海。——《集韵》"
+      ],
+      "traditional_char": "澎"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "水名",
+      "examples": [
+        "澎濞水声别作洴滂。",
+        "澎湖"
+      ],
+      "traditional_char": "澎"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字；从水，彭声。表达波浪冲击水面或物体的声音或动作。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由波浪冲击动作引申为一般水液溅起。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由水波的冲击延伸为情绪、言语等的突然爆发。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "用波涛之声或形象命名具体水体。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "地名源自动植物或地形特征；由水名转为地名。"
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "一年生草本植物，俗称藜，嫩苗可食，为古人常食的野菜。",
+      "examples": [
+        "南山有台，北山有莱。",
+        "莱，蔓华也。——《说文》"
+      ],
+      "traditional_char": "萊"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "郊外轮休的田地，荒地。",
+      "examples": [
+        "而辨其夫家人民田莱之数。——《周礼》",
+        "田卒污莱。——《诗·小雅·十月之交》"
+      ],
+      "traditional_char": "萊"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "长满杂草，田野荒芜。",
+      "examples": [
+        "田卒污莱。——《诗·小雅·十月之交》",
+        "莱五十亩。——《周礼·遂人》"
+      ],
+      "traditional_char": "萊"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "除草，清除野草。",
+      "examples": [
+        "若大田猎，则莱山田之野。——《周礼·地官·山虞》"
+      ],
+      "traditional_char": "萊"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "古国名，今山东黄县东南有莱子城即古莱国旧址。",
+      "examples": [
+        "齐侯灭莱，莱恃谋也。——《左传·襄公六年》"
+      ],
+      "traditional_char": "萊"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [
+        "莱驹为右。——《左传·僖公三十三年》"
+      ],
+      "traditional_char": "萊"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "萝卜的别称（莱菔）。",
+      "examples": [
+        "莱菔：萝卜的别名。"
+      ],
+      "traditional_char": "萊"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从艸，来声，指草名（藜），最初用以表示此义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由草丛引申为长满野草的田地或荒地。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "conversion",
+      "note": "名词转为动词，表示田野长满杂草。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "conversion",
+      "note": "由表示杂草丛生引申为“除草”之动词义。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "semantic_extension",
+      "note": "由主要蔬菜名扩展为“萝卜”的别称。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "由荒地产生地名/国名。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "地名转为姓氏用。"
+    }
+  ]
+}

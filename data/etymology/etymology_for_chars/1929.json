@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "夹东西的金属用具，如老虎钳、平口钳等",
+      "examples": [
+        "老虎钳",
+        "钳子是夹紧物品的工具"
+      ],
+      "traditional_char": "鉗"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "夹住，限制，约束",
+      "examples": [
+        "钳制舆论",
+        "敌人钳住了我们的退路"
+      ],
+      "traditional_char": "鉗"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从金，甘声，表示用金属制成的夹具。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "conversion",
+      "note": "由名词‘夹具’引申为动词‘夹住、限制’，名物转动。"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "高大的房屋，特指帝王所居和朝会的地方，或供奉神佛的地方",
+      "examples": [
+        "金銮殿",
+        "大雄宝殿",
+        "宫殿"
+      ],
+      "traditional_char": "殿"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "对亲王或太子的敬称（如“殿下”）",
+      "examples": [
+        "殿下，请用膳",
+        "太子殿下"
+      ],
+      "traditional_char": "殿"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "在最后，作殿后、压阵之意",
+      "examples": [
+        "殿后",
+        "殿军"
+      ],
+      "traditional_char": "殿"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "击声（原始本义）",
+      "examples": [],
+      "traditional_char": "殿"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 3,
+      "note": "形声字，从殳，真声。本义为击声，后义借扩大。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 3,
+      "target_index": 0,
+      "evolution_type": "semantic_shift",
+      "note": "由“击声”引申为高大建筑物，可能因巨大建筑声响或声势浩大，汉代以后。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "以“殿”作为居所，引申为居所之主人的尊称，如殿下。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由“殿”在宫殿顺序最后，引申作“最后、殿后”的用法。"
+    }
+  ]
+}

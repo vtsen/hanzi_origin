@@ -1,0 +1,40 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "驾车时套在牲口后部的皮带",
+      "examples": [
+        "马絆，驾牲口时用于束缚马足的皮带。"
+      ],
+      "traditional_char": "絆"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "行走时被别的东西挡住或缠住；比喻束缚、牵制",
+      "examples": [
+        "绊倒",
+        "被树枝绊住了脚",
+        "羁绊",
+        "绊手绊脚"
+      ],
+      "traditional_char": "絆"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从糸，半声。'糸'表与绳索有关，'半'为声符，初指驾车用的束缚带。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由具体束缚牲口的带子，引申为一般的阻碍或牵制动作及比喻义，用于束缚人的行为与自由。"
+    }
+  ]
+}

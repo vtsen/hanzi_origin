@@ -1,0 +1,75 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "大腿，自胯至膝盖的部分",
+      "examples": [
+        "股骨",
+        "股肱之臣"
+      ],
+      "traditional_char": "股"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "事物的分支或一部分（如资金、部门等）",
+      "examples": [
+        "股东",
+        "股份",
+        "分成几股",
+        "机关的各股"
+      ],
+      "traditional_char": "股"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "中国古代称不等腰三角形构成直角的较长的边",
+      "examples": [
+        "勾股定理",
+        "股边"
+      ],
+      "traditional_char": "股"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "measure_word",
+      "meaning": "量词，用于成条的事物、气味、力气等",
+      "examples": [
+        "七股大水",
+        "一股香味",
+        "拧成一股劲",
+        "一小股敌军"
+      ],
+      "traditional_char": "股"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从肉，殳声，表示大腿，与肉有关。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由大腿分支之意，喻事物的分支、份额，汉代已见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "因几何中直角三角形的‘股’形似大腿，古人借用。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "grammaticalization",
+      "note": "由‘份’引申为量词，各类条状、气味、力气等；清代已见用法。"
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "打手势叫人来",
+      "examples": [
+        "招手上车",
+        "招唤"
+      ],
+      "traditional_char": "招"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "用公开的方式使人来",
+      "examples": [
+        "招聘",
+        "招贤",
+        "招收",
+        "招兵买马"
+      ],
+      "traditional_char": "招"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "应接：招待宾客",
+      "examples": [
+        "招待宾客"
+      ],
+      "traditional_char": "招"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "引来，导致",
+      "examples": [
+        "招惹",
+        "招致",
+        "招引",
+        "招揽"
+      ],
+      "traditional_char": "招"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "承认自己的罪行",
+      "examples": [
+        "招供",
+        "招认",
+        "不打自招"
+      ],
+      "traditional_char": "招"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "other",
+      "meaning": "同“着”",
+      "examples": [],
+      "traditional_char": "招"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "摇动（故意张大声势，引人注意）",
+      "examples": [
+        "招摇过市"
+      ],
+      "traditional_char": "招"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意，从手，召声，表示用手作势召唤人的意思。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从原始“打手势叫人来”引申为“用公开方式使人来”，如招聘。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "招手召来宾客，引申为“应接宾客”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由“召人”引申为“一切引来”，如“招惹”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_shift",
+      "note": "承认自己的罪行原本为招供，即把事情招出来，有承认、表白的意思。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "unknown",
+      "note": "“招”作“着”用法，关联较为模糊不明，可能为方言或假借。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "semantic_extension",
+      "note": "“招摇”本指摆动手势吸引注意，亦由原意引申而来。"
+    }
+  ]
+}

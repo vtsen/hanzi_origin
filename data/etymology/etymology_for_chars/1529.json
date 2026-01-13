@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "经过精炼的铁和碳的合金，含碳量0.15～1.7%，坚硬富弹性，工业重要原料。",
+      "examples": [
+        "钢板",
+        "钢铁",
+        "钢笔"
+      ],
+      "traditional_char": "鋼"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "用力摩擦刀于布、皮、石等物上，使刀锋更利。",
+      "examples": [
+        "把刀钢一钢"
+      ],
+      "traditional_char": "鋼"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "在刀口上加钢，重新打造，使锋利。",
+      "examples": [
+        "这口铡刀该钢了"
+      ],
+      "traditional_char": "鋼"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从金，冈声，表达金属‘钢’的本义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "conversion",
+      "note": "由作为材料‘钢’的名词本义转化为制刀过程中‘磨刀’的动词义，已见近现代用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "conversion",
+      "note": "“加钢”作为使刀锋利的动词，由材料义衍生，现代口语用法。"
+    }
+  ]
+}

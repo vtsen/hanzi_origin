@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "寄居，寄住于他人处或外地",
+      "examples": [
+        "他旅居他乡，寓于朋友家。",
+        "寓公"
+      ],
+      "traditional_char": "寓"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "住所，住的地方",
+      "examples": [
+        "客寓",
+        "公寓"
+      ],
+      "traditional_char": "寓"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "寄托，借某事物表达思想或情感",
+      "examples": [
+        "诗中寓意深远。",
+        "寓言"
+      ],
+      "traditional_char": "寓"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从宀表房屋，禺为声旁，最初表示寄居他人之屋。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由寄居动作引申为寄居的处所。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由具体寄居引申为思想、情感的寄托。"
+    }
+  ]
+}

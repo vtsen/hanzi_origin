@@ -1,0 +1,89 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "气势大，力量大；勇敢有力",
+      "examples": [
+        "猛将",
+        "勇猛",
+        "猛士"
+      ],
+      "traditional_char": "猛"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adverb",
+      "meaning": "突然；忽然",
+      "examples": [
+        "猛然",
+        "猛省",
+        "猛可",
+        "猛不防"
+      ],
+      "traditional_char": "猛"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "严厉",
+      "examples": [
+        "宽以济猛"
+      ],
+      "traditional_char": "猛"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "凶暴；悍戾",
+      "examples": [
+        "猛兽",
+        "猛禽",
+        "猛戾"
+      ],
+      "traditional_char": "猛"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "古代长毛象类哺乳动物",
+      "examples": [
+        "猛犸"
+      ],
+      "traditional_char": "猛"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，‘犭’表意，指动物，‘孟’为声旁，本义为动物的勇猛；现代学界多认为原意为‘气势大，力量大’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由‘力大、气势大’转为‘动作突然猛烈’，形成副词义。多见于近现代汉语。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "勇猛引申为对待事物非常严厉，见于古汉语及成语用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由‘勇猛’引申为‘凶暴’，常用于描述凶恶的动物或性格。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "用以称呼一种古代体型巨大、力量威猛的哺乳动物‘猛犸’，以其性格特征命名。"
+    }
+  ]
+}

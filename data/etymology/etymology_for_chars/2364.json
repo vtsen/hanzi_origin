@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "怀疑、忌恨。",
+      "examples": [
+        "猜忌",
+        "互相猜疑"
+      ],
+      "traditional_char": "猜"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "推测，推想。",
+      "examples": [
+        "猜测",
+        "猜想",
+        "你猜猜他是谁？"
+      ],
+      "traditional_char": "猜"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "猜拳（一种饮酒时助兴的游戏）。",
+      "examples": [
+        "我们来猜拳决定。"
+      ],
+      "traditional_char": "猜"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从犬，青声。‘犬’表意，语义与动物相关，‘青’表声，最初指疑忌、忌恨。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘怀疑、忌恨’引申为‘推测、推想’，见于中古及近现代用法。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由‘猜测’引申为‘猜拳’这类取胜靠推测对方动作的游戏，明清后常见。"
+    }
+  ]
+}

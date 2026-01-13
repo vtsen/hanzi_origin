@@ -1,0 +1,99 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古代一条江河的名称",
+      "examples": [],
+      "traditional_char": "洋"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "比海更大的水域",
+      "examples": [
+        "海洋"
+      ],
+      "traditional_char": "洋"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "广大，众多，丰盛",
+      "examples": [
+        "洋溢",
+        "洋洋"
+      ],
+      "traditional_char": "洋"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "外国的，外国来的",
+      "examples": [
+        "洋人",
+        "洋货",
+        "洋为中用"
+      ],
+      "traditional_char": "洋"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "指现代化的（区别于“土”）",
+      "examples": [
+        "土洋结合"
+      ],
+      "traditional_char": "洋"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "银元",
+      "examples": [
+        "大洋",
+        "洋钱"
+      ],
+      "traditional_char": "洋"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，羊声，表示古代水名。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从专指古水名扩展为大型水域，出现于先秦及汉代文献。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "以水面广大引申为广阔、丰盛。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "由海外、对外之意转指外国及其事物，近代出现。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由“外国的”引申为“现代化的”含义，与“土”相对。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 5,
+      "evolution_type": "metonymy",
+      "note": "因“洋钱”为外国流通的钱币，遂以‘洋’指银元。"
+    }
+  ]
+}

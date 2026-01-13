@@ -1,0 +1,86 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "从表面到底或外面到里面距离小的，与“深”相对",
+      "examples": [
+        "水很浅",
+        "浅海"
+      ],
+      "traditional_char": "淺"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "时间短，距离近",
+      "examples": [
+        "年代浅"
+      ],
+      "traditional_char": "淺"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "程度不深，理解或认识不深",
+      "examples": [
+        "浅见",
+        "浅薄"
+      ],
+      "traditional_char": "淺"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "颜色淡薄",
+      "examples": [
+        "浅红",
+        "颜色很浅"
+      ],
+      "traditional_char": "淺"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "onomatopoeia",
+      "meaning": "流水声",
+      "examples": [
+        "浅浅",
+        "溪水浅浅"
+      ],
+      "traditional_char": "淺"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘淺’为形声字，从‘水’表示与水有关，‘戔’表示声符，初义为水浅。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由空间距离小引申为时间或距离短"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由水浅比喻程度或理解不深"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "水色淡薄引申为颜色淡"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "unknown",
+      "note": "用作流水声拟声，具体关联不明"
+    }
+  ]
+}

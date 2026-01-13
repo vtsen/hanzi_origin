@@ -1,0 +1,84 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "混合，夹杂。",
+      "examples": [
+        "掺水",
+        "掺杂"
+      ],
+      "traditional_char": "摻"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "形容女子手纤美。",
+      "examples": [
+        "掺掺女手"
+      ],
+      "traditional_char": "摻"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "古代一种鼓曲。",
+      "examples": [
+        "渔阳掺挝"
+      ],
+      "traditional_char": "摻"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "持，握。",
+      "examples": [
+        "掺手"
+      ],
+      "traditional_char": "摻"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "抢（前），争先。",
+      "examples": [
+        "掺先",
+        "掺越"
+      ],
+      "traditional_char": "摻"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从扌，音兼表意为‘夹杂之意’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "由‘混合’引申为‘持/握’，以手作掺入混合。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "从‘混合’暗含插入，引申为‘抢前’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "‘掺掺’纤美，形容手柔软如交错混合。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "unknown",
+      "note": "‘掺挝’用法来源不明，或与鼓曲节奏混杂有关。"
+    }
+  ]
+}

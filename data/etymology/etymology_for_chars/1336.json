@@ -1,0 +1,77 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "用丝、棉、麻、金属等制成的细长可以任意曲折的东西",
+      "examples": [
+        "丝线",
+        "棉线",
+        "线圈",
+        "线材",
+        "线绳"
+      ],
+      "traditional_char": "線"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "几何学上指一个点任意移动所构成的图形",
+      "examples": [
+        "直线",
+        "曲线",
+        "线条"
+      ],
+      "traditional_char": "線"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "像线的东西，如光线、视线等",
+      "examples": [
+        "光线",
+        "视线",
+        "生命线",
+        "战线",
+        "线索"
+      ],
+      "traditional_char": "線"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "measure_word",
+      "meaning": "用于抽象事物，数词限用“一”，表示极少",
+      "examples": [
+        "一线希望"
+      ],
+      "traditional_char": "線"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从糸，戔声，表示用棉麻丝毛等材料拈成的细缕。本作‘線’，简化为‘线’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "从物理细缕线条意义引申为数学中的抽象线条。汉语近现代数学语境。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "比喻为具有线状形态或延展性的事物或概念，如光线、视线等。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "grammaticalization",
+      "note": "由具象线状事物，转为数量词用于表示极少的抽象概念如‘一线希望’。"
+    }
+  ]
+}

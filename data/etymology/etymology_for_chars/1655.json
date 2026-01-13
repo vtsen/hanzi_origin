@@ -1,0 +1,40 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "用火烧制或用加热等方法使物质纯净、坚韧、浓缩",
+      "examples": [
+        "炼钢",
+        "炼油",
+        "炼乳"
+      ],
+      "traditional_char": "煉"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "用心琢磨使精练",
+      "examples": [
+        "炼字",
+        "炼句"
+      ],
+      "traditional_char": "煉"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从火，柬声，表示用火使物质精纯。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由物理加热提纯之义比喻为思想、语言等精神层面的锤炼。"
+    }
+  ]
+}

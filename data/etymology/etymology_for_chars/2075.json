@@ -1,0 +1,137 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "涂水，指古代水名。",
+      "examples": [
+        "涂水之上。"
+      ],
+      "traditional_char": "涂"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "使颜色、油漆等附着在物体表面。",
+      "examples": [
+        "涂饰",
+        "涂漆"
+      ],
+      "traditional_char": "塗"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "乱写，随意写字或图画。",
+      "examples": [
+        "涂鸦"
+      ],
+      "traditional_char": "塗"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "用笔抹上或抹去。",
+      "examples": [
+        "涂改",
+        "涂窜",
+        "涂乙"
+      ],
+      "traditional_char": "塗"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "泥泞之地，泥淖。",
+      "examples": [
+        "涂炭"
+      ],
+      "traditional_char": "塗"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "河流或海流夹带泥沙在地势较平的地方沉积而成的浅海滩。",
+      "examples": [
+        "海涂",
+        "滩涂"
+      ],
+      "traditional_char": "塗"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "同“途”，道路。",
+      "examples": [
+        "道涂",
+        "穷途末路（穷涂末路）"
+      ],
+      "traditional_char": "塗"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "other",
+      "meaning": "姓氏。",
+      "examples": [
+        "涂某"
+      ],
+      "traditional_char": "涂"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“涂”从水，余声，本指涂水，声符和意符结合。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "“塗”为“涂”的异体字，从土，余声，本用于引申义时通用；语音与“涂”同。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "水流泥泞引申为泥泞之地，常用于古文。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "泥泞进一步具体化为特指河滩、海涂等形成物。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "“涂”借为“途”，因音近而假借。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 7,
+      "evolution_type": "unknown",
+      "note": "用作姓氏，源流不详。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由水涂布物体，引申为涂抹。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "涂抹引申为乱涂乱写。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "涂抹进一步引申为用笔抹上或抹去。"
+    }
+  ]
+}

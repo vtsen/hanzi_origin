@@ -1,0 +1,134 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "到，去某地",
+      "examples": [
+        "造访",
+        "造庙"
+      ],
+      "traditional_char": "造"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "制作，做",
+      "examples": [
+        "制造",
+        "创造",
+        "建造"
+      ],
+      "traditional_char": "造"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "编造，虚构",
+      "examples": [
+        "胡编乱造",
+        "捏造"
+      ],
+      "traditional_char": "造"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "成就",
+      "examples": [
+        "造诣"
+      ],
+      "traditional_char": "造"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "培养",
+      "examples": [
+        "造就人才"
+      ],
+      "traditional_char": "造"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "（法院中）两方面当事人，原告与被告",
+      "examples": [
+        "甲造",
+        "乙造",
+        "两造"
+      ],
+      "traditional_char": "造"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "（农作物的）种植收获周期",
+      "examples": [
+        "一年两造",
+        "晚造"
+      ],
+      "traditional_char": "造"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "noun",
+      "meaning": "时代，年代",
+      "examples": [
+        "末造"
+      ],
+      "traditional_char": "造"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从辵表示行动，与‘告’为声符，本义为到、去。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由到、去引申为制作、做，古代‘造’有‘作’意。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由‘制作’引申为‘编造，虚构’，如‘胡编乱造’。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "‘制作’引申为‘成就’，如‘造诣’。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "‘制作’引申为‘培养’，如‘造就’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "reanalysis",
+      "note": "‘到、去’作为原义，引申为相对两方面的人，原为‘到’的一方，后引申为两造之称。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "metaphor",
+      "note": "‘到’转为作物生长过程的阶段，指周期。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 7,
+      "evolution_type": "metaphor",
+      "note": "‘到’引申为时代、年代，表示时间的阶段。"
+    }
+  ]
+}

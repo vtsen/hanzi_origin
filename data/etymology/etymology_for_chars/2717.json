@@ -1,0 +1,86 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "愚钝，蠢笨",
+      "examples": [
+        "鲁莽",
+        "愚鲁"
+      ],
+      "traditional_char": "魯"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "周代诸侯国名，在今山东省西南部",
+      "examples": [
+        "鲁国",
+        "孔子生于鲁"
+      ],
+      "traditional_char": "魯"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "山东省的别称",
+      "examples": [
+        "鲁菜",
+        "齐鲁大地"
+      ],
+      "traditional_char": "魯"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "鲁迅",
+        "鲁肃"
+      ],
+      "traditional_char": "魯"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "鱼味美，嘉（本义）",
+      "examples": [
+        "甲骨文以鱼为器，象征美味"
+      ],
+      "traditional_char": "魯"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 4,
+      "note": "会意。甲骨文从鱼从口，意为鱼美味，原为美味之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 4,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "以美味鱼产为地理特征，后用作国名，见春秋时期。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "鲁国地名后泛指今山东的别称。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由邦名转为姓氏，见《百家姓》。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "metaphor",
+      "note": "因鲁人朴直，被后人引申为愚拙、粗鲁，见先秦文献。"
+    }
+  ]
+}

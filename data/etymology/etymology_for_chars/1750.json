@@ -1,0 +1,76 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "树木初生柔嫩，可以屈曲",
+      "examples": [
+        "柔荑",
+        "柔条"
+      ],
+      "traditional_char": "柔"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "软，不硬",
+      "examples": [
+        "柔软",
+        "柔韧",
+        "柔嫩",
+        "柔滑"
+      ],
+      "traditional_char": "柔"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "软弱，刚的反义",
+      "examples": [
+        "柔懦",
+        "柔弱",
+        "刚柔相济"
+      ],
+      "traditional_char": "柔"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "温和",
+      "examples": [
+        "柔顺",
+        "柔和",
+        "柔曼",
+        "柔情"
+      ],
+      "traditional_char": "柔"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从木，矛声。‘木’表义，意为树木初生易弯曲。‘矛’表音。本义指年轻柔嫩、可屈曲的树木。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "初指树木可曲引申为一般事物柔软。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由柔软引申为性格或意志软弱，与‘刚’相对。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由物理柔软引申为性格温和。"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "骆驼这种动物",
+      "examples": [
+        "双峰驼生活在沙漠地带。",
+        "驼峰储存脂肪。"
+      ],
+      "traditional_char": "駝"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "形容背部高起像骆驼背，一般指驼背",
+      "examples": [
+        "他年老驼背。",
+        "因病成了驼子。"
+      ],
+      "traditional_char": "駝"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从马，它声，指与马类相关的动物，原指骆驼。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "因驼峰高起，比喻人的背部隆起为驼背，用于形容词义扩展。出现在中古及以后。"
+    }
+  ]
+}

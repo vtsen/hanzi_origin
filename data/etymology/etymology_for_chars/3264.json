@@ -1,0 +1,41 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "种植谷物，农作物的耕作。",
+      "examples": [
+        "不稼不穑。——《诗·魏风·伐檀》",
+        "良农能稼而不能穑。——《史记·孔子世家》",
+        "后稷教民稼穑，树艺五谷。——《孟子·滕文公上》"
+      ],
+      "traditional_char": "稼"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "谷物、庄稼，田野中的粮食作物。",
+      "examples": [
+        "九月筑城圃，十月纳禾稼。——《诗·豳风·七月》",
+        "稼生于野，而藏于仓。——《吕氏春秋》",
+        "主人东皋上，时稼绕茅屋。——唐·王维《宿郑州》"
+      ],
+      "traditional_char": "稼"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从禾，家声，表示与禾相关的种植活动。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由表示耕种行为扩展为被耕种出的作物，汉代前已有此义。"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "搔、抓挠。",
+      "examples": [
+        "爬痒。",
+        "爬搔。"
+      ],
+      "traditional_char": "爬"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "用手和脚一齐着地走路，或虫类行走。",
+      "examples": [
+        "爬行。",
+        "小孩在地上爬。",
+        "蛇在草里爬。"
+      ],
+      "traditional_char": "爬"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "攀登，攀爬。",
+      "examples": [
+        "爬山。",
+        "往上爬。",
+        "爬升。"
+      ],
+      "traditional_char": "爬"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从爪（表示手爪动作），巴作声符，本义为搔、抓挠。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“用手搔挠”引申为“用手和脚并用地移动、行走”，见于动物行为描写。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由“趴地爬行”进一步引申为向上攀登等动作，现代汉语多用于攀爬。"
+    }
+  ]
+}

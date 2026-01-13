@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "醒悟；明白。",
+      "examples": [
+        "觉今是而昨非。",
+        "悔不当初觉悟。"
+      ],
+      "traditional_char": "覺"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "感知，感受，对刺激有反应的知觉。",
+      "examples": [
+        "触觉、视觉、知觉、感觉。",
+        "对外界事物的感觉。"
+      ],
+      "traditional_char": "覺"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "睡眠（从入睡到醒来）。",
+      "examples": [
+        "午觉、睡觉、睡了一大觉。",
+        "小憩一觉。"
+      ],
+      "traditional_char": "覺"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从见，学省声。本义为‘醒悟、明白’。‘见’表义，‘学’表声。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从‘醒悟、明白’扩展到‘感知、感受’，意为对外界刺激有反应。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "‘醒悟’与‘睡眠’形成对比，语义转化为‘睡眠’（由睡而醒）。"
+    }
+  ]
+}

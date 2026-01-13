@@ -1,0 +1,70 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "常绿灌木“茉莉”或其花，香气芳香，常用于制作花茶。",
+      "examples": [
+        "茉莉花",
+        "院中栽满了茉莉。"
+      ],
+      "traditional_char": "莉"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [
+        "莉某",
+        "莉家世代居此。"
+      ],
+      "traditional_char": "莉"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "用于人名。",
+      "examples": [
+        "王莉",
+        "张莉莉"
+      ],
+      "traditional_char": "莉"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "一种草名（具体所指已佚）。",
+      "examples": [
+        "芘莉，織荆障。"
+      ],
+      "traditional_char": "莉"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 3,
+      "note": "形声字，从艹，利声。最初表示草名。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 3,
+      "target_index": 0,
+      "evolution_type": "semantic_shift",
+      "note": "后用以指专指‘茉莉’一植物。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "conversion",
+      "note": "植物名转用作人名。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "conversion",
+      "note": "植物名转为姓氏用法。"
+    }
+  ]
+}

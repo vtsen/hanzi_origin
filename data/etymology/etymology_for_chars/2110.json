@@ -1,0 +1,97 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "众，许多",
+      "examples": [
+        "诸位",
+        "诸君",
+        "诸侯"
+      ],
+      "traditional_char": "諸"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "conjunction",
+      "meaning": "“之于”或“之乎”的合音",
+      "examples": [
+        "投诸渤海之尾"
+      ],
+      "traditional_char": "諸"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "pronoun",
+      "meaning": "犹“之”",
+      "examples": [
+        "能事诸乎？"
+      ],
+      "traditional_char": "諸"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "preposition",
+      "meaning": "犹“于”",
+      "examples": [
+        "宋人事资章甫适诸越"
+      ],
+      "traditional_char": "諸"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "particle",
+      "meaning": "语助，无实在意义",
+      "examples": [
+        "日居月诸，照临下土"
+      ],
+      "traditional_char": "諸"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [],
+      "traditional_char": "諸"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘諸’从言，者声，本义为“众、许多”。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "grammaticalization",
+      "note": "中古时期，“诸”用于‘之于’等连用，来源于本义众多引申为综摄归属。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "由“之于”合音引申为单独‘之’的用法。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "由‘之于’音转功能，语法地位转为“于”。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "grammaticalization",
+      "note": "进一步虚化为语助词，无实际义。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "conversion",
+      "note": "以“诸”为氏，取本义为姓。"
+    }
+  ]
+}

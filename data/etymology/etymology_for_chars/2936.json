@@ -1,0 +1,103 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "镀金、银，涂饰；用金属镶嵌。",
+      "examples": [
+        "错金银器皿",
+        "错彩镂金"
+      ],
+      "traditional_char": "錯"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "用来打磨玉石的石头。",
+      "examples": [
+        "它山之石，可以为错。"
+      ],
+      "traditional_char": "錯"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "打磨玉石。",
+      "examples": [
+        "攻错"
+      ],
+      "traditional_char": "錯"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "交叉，交错。",
+      "examples": [
+        "交错",
+        "错综复杂"
+      ],
+      "traditional_char": "錯"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "岔开，错过。",
+      "examples": [
+        "错开",
+        "错过机会"
+      ],
+      "traditional_char": "錯"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "adjective",
+      "meaning": "不正确，错误。",
+      "examples": [
+        "错误",
+        "差错",
+        "过错",
+        "错觉"
+      ],
+      "traditional_char": "錯"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘錯’为形声字，从金，昔声，表示与金属相关的涂饰、镶嵌。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由金属工艺扩展为玉石工具。先秦时期已见。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "function_word",
+      "note": "“错”为打磨石的工具，转指打磨玉石的动作。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由金属镶嵌的多层、交错义引申为排列交错。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由交叉引申为分开、岔开。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 5,
+      "evolution_type": "metaphor",
+      "note": "交错、错乱引申为错误、不正确。"
+    }
+  ]
+}

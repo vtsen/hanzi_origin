@@ -1,0 +1,57 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "水自下而上冒出。",
+      "examples": [
+        "涌泉",
+        "泪如泉涌",
+        "江水奔涌"
+      ],
+      "traditional_char": "湧"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "像水一样大量出现或迸发。",
+      "examples": [
+        "涌现",
+        "风起云涌",
+        "观众纷纷涌入会场"
+      ],
+      "traditional_char": "湧"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "河汊，河流的分支（方言用法）。",
+      "examples": [
+        "这个地方是个涌（chōng）",
+        "船靠在河涌边"
+      ],
+      "traditional_char": "湧"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，甬声，表示水向上冒。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由水涌出比喻大量或迅速出现，义项扩展，早见《文选》等。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "unknown",
+      "note": "“河汊”义为方言用法，具体演变关系不明。"
+    }
+  ]
+}

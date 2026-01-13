@@ -1,0 +1,135 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "商量，讨论，磋商。",
+      "examples": [
+        "我们一起商讨对策。",
+        "磋商合作事宜。"
+      ],
+      "traditional_char": "商"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "买卖，生意。",
+      "examples": [
+        "商业兴旺。",
+        "开设商店。"
+      ],
+      "traditional_char": "商"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "做买卖的人，商人。",
+      "examples": [
+        "商人云集。",
+        "贾而好商。"
+      ],
+      "traditional_char": "商"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "数学上指除法运算中的得数（商数）。",
+      "examples": [
+        "八除以二的商是四。",
+        "求这个算式的商。"
+      ],
+      "traditional_char": "商"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "中国朝代名，商朝。",
+      "examples": [
+        "商汤灭夏，建商朝。",
+        "殷商兴盛时期。"
+      ],
+      "traditional_char": "商"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "中国古代五音之一，相当于简谱“2”。",
+      "examples": [
+        "五音：宫、商、角、徵、羽。",
+        "清歌一曲商音扬。"
+      ],
+      "traditional_char": "商"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "二十八宿之一，即“心宿”的别名。",
+      "examples": [
+        "商宿高悬。",
+        "二十八宿中的商。"
+      ],
+      "traditional_char": "商"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [
+        "商鞅变法。",
+        "商纣王。"
+      ],
+      "traditional_char": "商"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从“阩”（高举）作意符，章作声符，初义为计算、估量、议定。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由“商议、谈判”转为“买卖、商业”的核心环节，语义转移发生于商周及其后。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由“商业”扩展为“商人”，见于古汉语。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "从原有“计算、估量”语义，衍生出数学用法的‘除法得数’。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 5,
+      "evolution_type": "unknown",
+      "note": "“商代”与五音中的“商”有音近等联系，具体语源关系尚无定论。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "unknown",
+      "note": "“商”作为朝代名，来自部族名称；与“商议”义间关系未明。"
+    },
+    {
+      "source_index": 5,
+      "target_index": 6,
+      "evolution_type": "semantic_extension",
+      "note": "五音‘商’进一步用作星宿名。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 7,
+      "evolution_type": "conversion",
+      "note": "以‘商’朝之名作姓氏，为常见中文姓氏形成路径。"
+    }
+  ]
+}

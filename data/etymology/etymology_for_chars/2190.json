@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "挖，刨开（通常指用工具进行掘土、掘井等行为）",
+      "examples": [
+        "掘土",
+        "掘井",
+        "发掘文物"
+      ],
+      "traditional_char": "掘"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "兴起，高起（同“崛”）",
+      "examples": [
+        "新势力掘起"
+      ],
+      "traditional_char": "掘"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "性格刚强，不屈（同“倔”）",
+      "examples": [
+        "性情掘强（倔强）"
+      ],
+      "traditional_char": "掘"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从手，屈声，表示用手挖掘；本义即为‘挖’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "‘掘’假借为‘崛’，用作‘兴起’义，义项分化于中古。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "‘掘’假借为‘倔’，指性格倔强，因语音相近，文字通用。"
+    }
+  ]
+}

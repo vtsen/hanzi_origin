@@ -1,0 +1,121 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "洗涤，清洗衣物或器具",
+      "examples": [
+        "洗荡",
+        "涤荡"
+      ],
+      "traditional_char": "蕩"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "清除，扫除干净",
+      "examples": [
+        "荡除",
+        "扫荡",
+        "倾家荡产"
+      ],
+      "traditional_char": "蕩"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "摇动，使东西来回晃动",
+      "examples": [
+        "荡漾",
+        "摇荡",
+        "荡桨"
+      ],
+      "traditional_char": "蕩"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "行为放纵，不受约束",
+      "examples": [
+        "荡妇",
+        "放荡",
+        "浪荡",
+        "狂荡"
+      ],
+      "traditional_char": "蕩"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "四处游走，漫无目的地走动",
+      "examples": [
+        "游荡",
+        "逛荡"
+      ],
+      "traditional_char": "蕩"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "adjective",
+      "meaning": "广大平坦的样子",
+      "examples": [
+        "浩荡"
+      ],
+      "traditional_char": "蕩"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "浅水湖，多指湖泊名",
+      "examples": [
+        "芦花荡"
+      ],
+      "traditional_char": "蕩"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "会意兼形声，从皿、汤声，‘汤’本指热水，引申为洗涤，本义为洗涤。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由洗涤引申为彻底清除；古今多用。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "洗涤时水的摆动，喻为摇动物体、波浪等。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由物理上的摇荡引申为精神/行为的放荡不羁，文献可见先秦已有。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "由水平面水流摆动引申为人四处游走。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "由水面浩渺、摇曳，引申为广大平坦的样子。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 6,
+      "evolution_type": "metonymy",
+      "note": "以水体的摇荡为特征，转名指浅水湖名。"
+    }
+  ]
+}

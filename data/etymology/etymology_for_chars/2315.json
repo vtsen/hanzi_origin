@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "田中多杂草，荒芜",
+      "examples": [
+        "田地秽而不治。",
+        "野秽无人耕。"
+      ],
+      "traditional_char": "穢"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "肮脏，不洁净",
+      "examples": [
+        "污秽不堪。",
+        "室内甚秽。"
+      ],
+      "traditional_char": "穢"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "丑恶的，有伤风化的",
+      "examples": [
+        "秽行败德。",
+        "秽语不堪入耳。"
+      ],
+      "traditional_char": "穢"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从禾，岁声，本义指田地荒芜，多杂草之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由田地杂草、荒芜之意比喻为污秽、不洁净。汉代已见。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由“肮脏”的具体意义扩展到“丑恶、有伤风化”。见现代及晚古汉语。"
+    }
+  ]
+}

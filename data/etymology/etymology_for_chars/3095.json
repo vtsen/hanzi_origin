@@ -1,0 +1,70 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "等待，停留等待时机或条件",
+      "examples": [
+        "需，遇雨止也。——《说文》",
+        "有事需而待之。"
+      ],
+      "traditional_char": "需"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "需要，必须用到",
+      "examples": [
+        "如果你需帮助，请告诉我。",
+        "这些工具我们急需。"
+      ],
+      "traditional_char": "需"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "必需品，所需要的财物、物资",
+      "examples": [
+        "军需未备，难以出征。",
+        "保障民需。"
+      ],
+      "traditional_char": "需"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "迟疑，犹豫不决",
+      "examples": [
+        "事无需疑。"
+      ],
+      "traditional_char": "需"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从雨，需声。‘需’本义为遇雨等待，有雨停留之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由等待引申为对某物的需要，等待某物到来。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "conversion",
+      "note": "动词转为名词，表示所需的具体物品或物资。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "由“等待”发展为内心犹豫、迟疑，语义变化。"
+    }
+  ]
+}

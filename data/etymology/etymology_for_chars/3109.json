@@ -1,0 +1,38 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "昆虫，雄性腹部有发声器，叫声响亮，也称“知了”",
+      "examples": [
+        "蝉鸣声声",
+        "金蝉脱壳"
+      ],
+      "traditional_char": "蟬"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "古代一种薄纱，因薄如蝉翼而得名",
+      "examples": [
+        "蝉纱薄如蝉翼"
+      ],
+      "traditional_char": "蟬"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从虫，单声，表示与虫类有关，本义为昆虫蝉。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "以蝉翼之薄比喻纱帛之薄，形成对纱的称呼。"
+    }
+  ]
+}

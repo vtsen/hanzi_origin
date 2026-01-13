@@ -1,0 +1,70 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "蓑衣，用以遮雨的草制衣物",
+      "examples": [
+        "披衰而行"
+      ],
+      "traditional_char": "衰"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "事物由盛转衰，变得微弱、衰弱",
+      "examples": [
+        "国家衰落",
+        "兴衰成败",
+        "他已衰老"
+      ],
+      "traditional_char": "衰"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "等次，等级，等差",
+      "examples": [
+        "等衰有别",
+        "分为上衰、中衰、下衰"
+      ],
+      "traditional_char": "衰"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "丧服之一，指“缞”，丧服中的粗麻衣",
+      "examples": [
+        "三年之丧，衰麻不完"
+      ],
+      "traditional_char": "衰"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意。从“衣”，表示衣物，从“冄”，象草茸状，合指草衣；最初表示蓑衣。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由草衣稀疏、单薄引申为衰弱、减弱之意，东汉以后常见此义。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "“衰”用于排序、等第，可能由事物优劣、盛衰的比较转变而来，义项变化见于古籍。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "因蓑衣为麻布所制，与丧服缞麻性质相近，遂通用；古文献有记载。"
+    }
+  ]
+}

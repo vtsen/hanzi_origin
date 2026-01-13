@@ -1,0 +1,101 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "看；注视",
+      "examples": [
+        "视力",
+        "视而不见",
+        "注视"
+      ],
+      "traditional_char": "視"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "亲自察看、巡查",
+      "examples": [
+        "视事",
+        "视察"
+      ],
+      "traditional_char": "視"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "看待，对待",
+      "examples": [
+        "等闲视之",
+        "藐视",
+        "重视"
+      ],
+      "traditional_char": "視"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "看望，探望",
+      "examples": [
+        "探视",
+        "省视"
+      ],
+      "traditional_char": "視"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "比照，参照",
+      "examples": [
+        "天子之卿受地视侯"
+      ],
+      "traditional_char": "視"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "表明，显示（古同“示”）",
+      "examples": [],
+      "traditional_char": "視"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘視’为形声字，从‘见’（表意，眼睛）和‘示’（表声）结合，原指观看。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由一般看发展为亲自视察、巡视的抽象义。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "从“看”引申为“看待、对待”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "从“看”衍伸为“看望、探望”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "analogy",
+      "note": "由实指的看引申为“比照、参照”，多见于古文。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "semantic_shift",
+      "note": "古代“视”偶用作“示”，本义转为“表明”。此为少见义。"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "中式长衣，指较长的衣服，如袍子、长袍等。常作为外衣或正式服饰。",
+      "examples": [
+        "长袍马褂",
+        "棉袍",
+        "皮袍",
+        "旗袍",
+        "袍泽"
+      ],
+      "traditional_char": "袍"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "衣服的前襟，指衣裳前片的部分。",
+      "examples": [
+        "反袂拭面，涕沾袍"
+      ],
+      "traditional_char": "袍"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“袍”为形声字，从衣，包声，本义为长衣，‘衣’表义，‘包’表音。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "以衣服整体代指部分（前襟），为衣物相关常见转义。"
+    }
+  ]
+}

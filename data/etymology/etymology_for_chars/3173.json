@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "少，数量不多",
+      "examples": [
+        "寡不敌众",
+        "寡恩"
+      ],
+      "traditional_char": "寡"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "淡而无味",
+      "examples": [
+        "寡味",
+        "清汤寡水"
+      ],
+      "traditional_char": "寡"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "妇女死了丈夫",
+      "examples": [
+        "寡妇",
+        "守寡"
+      ],
+      "traditional_char": "寡"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 2,
+      "note": "从“宀”表房屋，从“页”表人，表示独处屋下的人，原指失夫之妇。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 2,
+      "target_index": 0,
+      "evolution_type": "metaphor",
+      "note": "由“丧偶之人缺少配偶”引申为“缺少、数量不多”"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“少”引申为“淡而无味”等抽象意义"
+    }
+  ]
+}

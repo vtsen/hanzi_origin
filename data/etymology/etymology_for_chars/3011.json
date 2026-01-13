@@ -1,0 +1,40 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "水势盛大、弥漫的样子",
+      "examples": [
+        "滔天洪水",
+        "烟波滔滔",
+        "大火滔天"
+      ],
+      "traditional_char": "滔"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "倨慢，态度骄傲轻慢",
+      "examples": [
+        "官不滔",
+        "士不滥，官不滔"
+      ],
+      "traditional_char": "滔"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，舀声，表示与水势有关的本义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由水势浩大转喻人之气势傲慢，用于描述人的态度。"
+    }
+  ]
+}

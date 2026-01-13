@@ -1,0 +1,90 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "边境，区域的边限。",
+      "examples": [
+        "地界",
+        "界石",
+        "界标"
+      ],
+      "traditional_char": "界"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "范围，领域。",
+      "examples": [
+        "眼界",
+        "世界",
+        "自然界"
+      ],
+      "traditional_char": "界"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "按职业或性别等所划分的人群范围。",
+      "examples": [
+        "教育界",
+        "科学界",
+        "各界人士"
+      ],
+      "traditional_char": "界"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "指大自然中动物、植物、矿物等的最大的类别。",
+      "examples": [
+        "无机界",
+        "有机界"
+      ],
+      "traditional_char": "界"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "地层系统分类的最高一级。",
+      "examples": [
+        "寒武纪界",
+        "二叠纪界"
+      ],
+      "traditional_char": "界"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从田，介声。本义为边垂、边境，田地之界限。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由具体空间的边界引申为抽象范畴的范围。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由一般范围引申为社会分工中的群体范围。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由一般范围引申到物质类别的最大分界。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由一般范围引申到地层划分的最高级别。"
+    }
+  ]
+}

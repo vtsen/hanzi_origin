@@ -1,0 +1,59 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "有土地、人民、主权的政体；古代指诸侯所受封的地域，即国家",
+      "examples": [
+        "国家",
+        "国土",
+        "国号",
+        "国策",
+        "保家卫国"
+      ],
+      "traditional_char": "國"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "特指中国本身",
+      "examples": [
+        "国产",
+        "国货",
+        "国粹"
+      ],
+      "traditional_char": "國"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "国强",
+        "国栋"
+      ],
+      "traditional_char": "國"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意。从“囗”表示疆域，与“或”组成，或表音也含兵器守卫之意，反映原意为“国家、邦国”。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_narrowing",
+      "note": "“国”特指中国，出现于近现代，指“我国”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "conversion",
+      "note": "国家概念转用为姓氏，用法早见于古代。"
+    }
+  ]
+}

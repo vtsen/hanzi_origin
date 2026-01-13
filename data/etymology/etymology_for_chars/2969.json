@@ -1,0 +1,70 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "胯上胁下的部分，在身体的中部",
+      "examples": [
+        "腰板儿",
+        "腰杆子",
+        "腰身"
+      ],
+      "traditional_char": "腰"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "东西的中段，中间",
+      "examples": [
+        "半山腰"
+      ],
+      "traditional_char": "腰"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "中间狭小像腰部的地势",
+      "examples": [
+        "海腰",
+        "土腰"
+      ],
+      "traditional_char": "腰"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "裤、裙等围在腰上的部分",
+      "examples": [
+        "裤腰"
+      ],
+      "traditional_char": "腰"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从肉，要声，指人体中部。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "以人体腰为喻，指物体的中段。汉代已见此用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "以人体腰部狭窄形状引申为地势狭小如腰的地方。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "指围在腰部的衣物部分。"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "浸没在水中",
+      "examples": [
+        "水淹",
+        "淹没"
+      ],
+      "traditional_char": "淹"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "（皮肤）被汗液浸湿",
+      "examples": [
+        "胳肢窝被汗淹得又痛又痒"
+      ],
+      "traditional_char": "淹"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "广博、渊博",
+      "examples": [
+        "淹博",
+        "淹雅",
+        "淹贯"
+      ],
+      "traditional_char": "淹"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "滞留、久留",
+      "examples": [
+        "淹留",
+        "久淹",
+        "淹滞",
+        "淹月"
+      ],
+      "traditional_char": "淹"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，“氵”表意（水），“奄”表声，本义指浸没于水之中。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由整体被水浸没扩展到局部被液体（如汗）浸湿。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "以知识渊博如被水淹没为喻，引申为“渊博”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由被水淹没引申为“滞留、久留”，如被阻碍难以前进。"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古代指具有文采的宽丝带，常用于系印或佩玉的绶带。",
+      "examples": [
+        "组缨",
+        "组绶"
+      ],
+      "traditional_char": "組"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "结合，构成（整体）。",
+      "examples": [
+        "组成",
+        "组合",
+        "组织",
+        "组编"
+      ],
+      "traditional_char": "組"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "因工作和学习的需要而结合成的小单位。",
+      "examples": [
+        "互助组",
+        "创作组"
+      ],
+      "traditional_char": "組"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "合成一体的（文艺作品等）。",
+      "examples": [
+        "组诗",
+        "组画",
+        "组曲",
+        "组舞"
+      ],
+      "traditional_char": "組"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "measure_word",
+      "meaning": "量词，用于事物的集体。",
+      "examples": [
+        "两组电池",
+        "三组数据"
+      ],
+      "traditional_char": "組"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从糸，且声，表示丝织品类物，古本义为彩色宽丝带。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由多条丝带集合比喻事物或人组合成整体，东汉末期以后显现。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由动词“结合、构成”引申为所结合成的小单位，现代用法。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "动词义扩展用于描述文艺作品组成整体的性质，20世纪初出现。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "conversion",
+      "note": "由动作“组”引申转化为量词用法，用于计量集体事物，现代汉语。"
+    }
+  ]
+}

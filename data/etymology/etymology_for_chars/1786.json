@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "搬动，挥动",
+      "examples": [
+        "振臂一呼",
+        "振动翅膀"
+      ],
+      "traditional_char": "振"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "奋起，兴起",
+      "examples": [
+        "振奋人心",
+        "振作精神",
+        "振兴中华"
+      ],
+      "traditional_char": "振"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "救济（古同“赈”）",
+      "examples": [
+        "振灾民",
+        "振饥馑"
+      ],
+      "traditional_char": "振"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "威震；使震慑（古同“震”）",
+      "examples": [
+        "威振四方"
+      ],
+      "traditional_char": "振"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 2,
+      "note": "形声字，从手表示动作，与‘辰’声；本义为‘救济’，后义同‘赈’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 2,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "由救济引申为用手搬动、施以动作，义展见于先秦至汉。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由实际挥动手臂，引申为精神上的奋起。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "与‘震’音近义通，部分场合通用，出现威震一义。"
+    }
+  ]
+}

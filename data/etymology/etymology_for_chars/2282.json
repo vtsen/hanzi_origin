@@ -1,0 +1,171 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "绳索，线索，经纬线等纵横交错的丝线之物。",
+      "examples": [
+        "结累成绳",
+        "纍如绳索"
+      ],
+      "traditional_char": "纍"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "连续、重叠、堆积。",
+      "examples": [
+        "累积",
+        "日积月累",
+        "连篇累牍"
+      ],
+      "traditional_char": "累"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "一起计算（多次累计）或照原数递增。",
+      "examples": [
+        "累进税"
+      ],
+      "traditional_char": "累"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "连带，牵连，因果相及。",
+      "examples": [
+        "牵累",
+        "拖累",
+        "累及"
+      ],
+      "traditional_char": "累"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "疲乏，劳累。",
+      "examples": [
+        "劳累",
+        "累乏"
+      ],
+      "traditional_char": "累"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "使疲劳。",
+      "examples": [
+        "不要再累着自己",
+        "跑步很累人"
+      ],
+      "traditional_char": "累"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "成串、成行地连接起来，连续排列。",
+      "examples": [
+        "果实累累",
+        "果实～～"
+      ],
+      "traditional_char": "累"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "adjective",
+      "meaning": "颓丧、萎靡的样子。",
+      "examples": [
+        "累若丧家之犬"
+      ],
+      "traditional_char": "累"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "adjective",
+      "meaning": "多余，重复，赘余。",
+      "examples": [
+        "文字累赘",
+        "负重登高，不胜累赘"
+      ],
+      "traditional_char": "累"
+    },
+    {
+      "index": 9,
+      "part_of_speech": "noun",
+      "meaning": "使人感到多余或麻烦的东西。",
+      "examples": [
+        "这些都是累赘"
+      ],
+      "traditional_char": "累"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘纍’为本字，形声字，从糸，畾声，和丝线、绳索有关。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "‘累’为简化字或俗体，承袭‘纍’原音并扩展为连续、堆积等引申义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由丝线绳索纵横交错喻为事物的叠加、连接和积累。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由连续、堆积引申为累加、递增等抽象动作。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "堆积、牵连扩展为连带责任之意。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 6,
+      "evolution_type": "semantic_extension",
+      "note": "连续、重叠进而表达‘成串排列’。"
+    },
+    {
+      "source_index": 6,
+      "target_index": 7,
+      "evolution_type": "metaphor",
+      "note": "连续成串引申为形容人的状态颓丧、萎靡。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 8,
+      "evolution_type": "semantic_extension",
+      "note": "重叠、堆积之意引申为多余、重复、不简洁。"
+    },
+    {
+      "source_index": 8,
+      "target_index": 9,
+      "evolution_type": "semantic_extension",
+      "note": "多余进一步名词化表示累赘之物。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "堆积、负担转为指人的身体感到疲劳。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 5,
+      "evolution_type": "conversion",
+      "note": "由形容词‘疲劳’转为动词‘使疲劳’。"
+    }
+  ]
+}

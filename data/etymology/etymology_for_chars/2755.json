@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "水势辽远、广大。",
+      "examples": [
+        "浩渺无垠",
+        "渺邈无际"
+      ],
+      "traditional_char": "渺"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "微小；细微。",
+      "examples": [
+        "渺小",
+        "渺不足道"
+      ],
+      "traditional_char": "渺"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "模糊、看不清楚的样子。",
+      "examples": [
+        "渺茫",
+        "渺无人迹"
+      ],
+      "traditional_char": "渺"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，‘眇’声，初指水势辽远。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "‘遥远’引申为‘细小、不显著’，古已有之。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由水辽远而难以分辨，引申为‘模糊，看不清楚’。"
+    }
+  ]
+}

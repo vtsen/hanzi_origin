@@ -1,0 +1,40 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "房屋围墙以内的空地，庭院，院子",
+      "examples": [
+        "院子里有一棵大树。",
+        "庭院深深深几许。"
+      ],
+      "traditional_char": "院"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "某些机关、学校和公共场所名称",
+      "examples": [
+        "法院",
+        "医院",
+        "剧院"
+      ],
+      "traditional_char": "院"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从“阜”表示与土、建筑相关，“完”作声旁，本义为庭院、院子。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "以“院”为机关、场所等建筑单位的总称，见于后世。"
+    }
+  ]
+}

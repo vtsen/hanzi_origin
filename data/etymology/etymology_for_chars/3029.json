@@ -1,0 +1,88 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "睡觉，卧倒休息",
+      "examples": [
+        "安寝",
+        "寝不安席",
+        "寝室"
+      ],
+      "traditional_char": "寢"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "睡觉的地方，卧室",
+      "examples": [
+        "就寝",
+        "寝宫",
+        "寝车"
+      ],
+      "traditional_char": "寢"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "皇家宗庙后殿或帝王的坟墓",
+      "examples": [
+        "寝庙",
+        "陵寝"
+      ],
+      "traditional_char": "寢"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "停止，平息",
+      "examples": [
+        "其议遂寝",
+        "事寝"
+      ],
+      "traditional_char": "寢"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "面貌难看",
+      "examples": [
+        "貌寝"
+      ],
+      "traditional_char": "寢"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从宀表示与房舍相关，'侵'为声旁，初义为‘睡觉’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘睡觉’引申为‘睡觉的地方’。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由‘卧室’引申为‘宗庙后殿、帝王坟墓’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "以‘休息、平静’喻‘停止、平息’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "unknown",
+      "note": "‘寝’表‘貌寝’，具体引申机制不明，或属旁通借用。"
+    }
+  ]
+}

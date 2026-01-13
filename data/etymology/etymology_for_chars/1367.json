@@ -1,0 +1,94 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "拿着，握住。",
+      "examples": [
+        "持笔",
+        "持枪",
+        "持牢"
+      ],
+      "traditional_char": "持"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "遵守不变。",
+      "examples": [
+        "坚持",
+        "持久",
+        "持操",
+        "持之以恒"
+      ],
+      "traditional_char": "持"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "主张，掌管。",
+      "examples": [
+        "主持",
+        "持平",
+        "持国",
+        "持重",
+        "持之有故"
+      ],
+      "traditional_char": "持"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "对待，处理。",
+      "examples": [
+        "持身",
+        "持盈",
+        "持胜"
+      ],
+      "traditional_char": "持"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "扶助。",
+      "examples": [
+        "支持",
+        "撑持"
+      ],
+      "traditional_char": "持"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从手，寺声。‘手’表示动作，本义为用手拿着。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由“手持不放”引申为“坚守不变”，汉代已见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由“手中掌控”引申为“主张、掌管”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "用拿着、掌控来表示“对待、处理”，语义转移明确。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由“持物”再引申为“扶助他人、维持”。"
+    }
+  ]
+}

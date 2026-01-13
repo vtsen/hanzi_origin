@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "耕作土地",
+      "examples": [
+        "佃田为生",
+        "佃稼于野"
+      ],
+      "traditional_char": "佃"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "打猎（古同“畋”）",
+      "examples": [
+        "佃猎山林"
+      ],
+      "traditional_char": "佃"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "租种土地的农民",
+      "examples": [
+        "佃户",
+        "佃农",
+        "佃东"
+      ],
+      "traditional_char": "佃"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从人，田声，田兼表义，初指耕作土地。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "conversion",
+      "note": "由“耕作”动词转换为指“租种土地的农民”名词，语法化现象。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由耕作引申为打猎，古与“畋”通用。"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "田地的界限。",
+      "examples": [
+        "田畔而耕",
+        "彼亦劳我，畔田之事。"
+      ],
+      "traditional_char": "畔"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "边缘，边界。",
+      "examples": [
+        "河畔",
+        "湖畔",
+        "桥畔",
+        "耳畔",
+        "枕畔"
+      ],
+      "traditional_char": "畔"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "横暴，跋扈（用于“畔援”、“畔换”一类词中）。",
+      "examples": [
+        "帝谓文王，无然畔援。"
+      ],
+      "traditional_char": "畔"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "叛变，背叛。",
+      "examples": [
+        "古同‘叛’。"
+      ],
+      "traditional_char": "畔"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从‘田’表义，‘半’表音，本义为田界。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "本义为田界，后扩展泛指各种边缘、边界。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由田界不服从中心、突出而引申为横暴、跋扈的行为。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由田界引申为分离、背叛等意思，古同‘叛’。"
+    }
+  ]
+}

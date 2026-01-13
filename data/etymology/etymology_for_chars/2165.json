@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "用手按，压下去",
+      "examples": [
+        "捺手印",
+        "按捺不住"
+      ],
+      "traditional_char": "捺"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "汉字书写中的一种笔画，由上向右斜下",
+      "examples": [
+        "汉字的捺画",
+        "写字时捺要有力"
+      ],
+      "traditional_char": "捺"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从手，奈声，表示用手按下的动作"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "因捺这个动作形状，用来指汉字书法中的捺笔形，拟动作命名"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "许多人同时发声",
+      "examples": [
+        "哄传",
+        "哄动",
+        "众人哄然大笑"
+      ],
+      "traditional_char": "哄"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "吵闹，扰乱",
+      "examples": [
+        "起哄",
+        "哄抢",
+        "哄场"
+      ],
+      "traditional_char": "哄"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "说假话骗人",
+      "examples": [
+        "哄人",
+        "哄弄",
+        "哄骗"
+      ],
+      "traditional_char": "哄"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "用语言或行动逗人喜欢",
+      "examples": [
+        "哄小孩儿",
+        "哄劝",
+        "哄逗"
+      ],
+      "traditional_char": "哄"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从口，共声；本义为许多人同时发声，‘口’表意，‘共’表声。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“许多人同时发声”扩展为“吵闹，扰乱”，因嘈杂声音常引起混乱。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由“多人齐声吵闹”引申为“用言语混淆、欺骗”，以混乱迷惑人。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由“用言语骗人”扩展到“用语言或行动逗人喜欢”，常见于哄小孩时的骗人或逗乐。"
+    }
+  ]
+}

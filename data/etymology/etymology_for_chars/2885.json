@@ -1,0 +1,104 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "降下小雨。",
+      "examples": [
+        "细雨零零。"
+      ],
+      "traditional_char": "零"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "液体下落。",
+      "examples": [
+        "感激涕零。"
+      ],
+      "traditional_char": "零"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "植物凋谢、脱落。",
+      "examples": [
+        "花叶零落。",
+        "凋零。"
+      ],
+      "traditional_char": "零"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "整数以外的尾数；零头。",
+      "examples": [
+        "零数儿。",
+        "整数与零数。"
+      ],
+      "traditional_char": "零"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "细碎的，部分的，和“整”相对。",
+      "examples": [
+        "零碎。",
+        "零售。",
+        "零钱。",
+        "零乱。"
+      ],
+      "traditional_char": "零"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "numeral",
+      "meaning": "整数系统中的一个重要数，小于一切自然数，记为“0”，表示基准或无。",
+      "examples": [
+        "零度。",
+        "零点。",
+        "零和一之间。"
+      ],
+      "traditional_char": "零"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“零”是形声字，从“雨”表示与雨相关，“令”作声旁，原意为下小雨。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由小雨下落引申为液体（如泪水）下落；古今文献均有应用。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "小雨细落隐喻花草等植物的凋谢或脱落。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "零雨细密，比喻细碎、分散。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "从细碎分散引申为数字的零头、非整数部分。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "由零头、剩余，引申至数学意义上的“0”这个数。"
+    }
+  ]
+}

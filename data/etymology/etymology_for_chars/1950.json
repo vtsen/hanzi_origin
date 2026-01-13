@@ -1,0 +1,114 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "通过，穿通",
+      "examples": [
+        "透明",
+        "透镜",
+        "渗透",
+        "穿透"
+      ],
+      "traditional_char": "透"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "通达，彻底明白",
+      "examples": [
+        "透彻",
+        "透辟"
+      ],
+      "traditional_char": "透"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "泄露",
+      "examples": [
+        "透露"
+      ],
+      "traditional_char": "透"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "极度，达到极限",
+      "examples": [
+        "恨透了"
+      ],
+      "traditional_char": "透"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "显露，表现出",
+      "examples": [
+        "这朵花白里透红"
+      ],
+      "traditional_char": "透"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "达到饱满、充分的程度",
+      "examples": [
+        "雨下透了"
+      ],
+      "traditional_char": "透"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "跳，跳跃（本义）",
+      "examples": [],
+      "traditional_char": "透"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 6,
+      "note": "形声字，从辵，秀声，辵表示行走与运动，秀表音，本义为跳跃。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 6,
+      "target_index": 0,
+      "evolution_type": "semantic_shift",
+      "note": "由‘跳跃’引申为‘穿通’，如跳过障碍、通过空间。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘穿通’引申为‘通达’、‘彻底’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由‘穿通’比喻为‘消息泄露’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由‘穿通’引申为‘极度’，表示达到极点。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由‘穿通’引申为‘显露’，指表面可见其下。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "由‘穿通’引申为‘达到充足饱满的程度’。"
+    }
+  ]
+}

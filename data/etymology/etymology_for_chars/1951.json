@@ -1,0 +1,141 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "写字、画图的工具，尤指毛笔及后引申的现代笔类",
+      "examples": [
+        "毛笔",
+        "钢笔",
+        "铅笔",
+        "笔架",
+        "笔胆"
+      ],
+      "traditional_char": "筆"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "汉字中的点、横、竖、撇、捺等构成元素",
+      "examples": [
+        "笔画",
+        "笔顺",
+        "笔形",
+        "笔道"
+      ],
+      "traditional_char": "筆"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "用笔写作的人，代指写作的行为、工作或职业",
+      "examples": [
+        "笔者",
+        "代笔",
+        "笔耕",
+        "笔谈",
+        "笔误",
+        "笔译",
+        "笔战",
+        "笔名"
+      ],
+      "traditional_char": "筆"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "写字、画画、作文的技巧或个人风格",
+      "examples": [
+        "字体",
+        "笔法",
+        "笔力",
+        "文笔",
+        "工笔",
+        "曲笔",
+        "伏笔"
+      ],
+      "traditional_char": "筆"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "像笔一样直的形状",
+      "examples": [
+        "笔直",
+        "笔挺",
+        "笔陡"
+      ],
+      "traditional_char": "筆"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "measure_word",
+      "meaning": "量词，用于钱款等动作、事项（如一笔钱、几笔交易）",
+      "examples": [
+        "一笔钱",
+        "一笔买卖"
+      ],
+      "traditional_char": "筆"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "指散文或文体的一种",
+      "examples": [
+        "随笔",
+        "任彦升工于笔"
+      ],
+      "traditional_char": "筆"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "‘筆’为会意字，从竹，从聿；竹指制笔材料，聿表执笔之意；本义为毛笔。"
+    },
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "简化字‘笔’从竹从毛，仍属会意，指用竹和毛制成的毛笔。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "以‘笔’（书写工具）指称汉字的组成笔画，语义移用见于书法与汉字构造讨论。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "用‘笔’代指写作行为或写作的人，古今常见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由毛笔具体器物引申为写作、绘画等技巧、风格。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "以毛笔外形喻指‘直’（如笔直、笔挺），形态类比。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "grammaticalization",
+      "note": "‘笔’由名词虚化为量词，用于金钱等事务。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 6,
+      "evolution_type": "semantic_extension",
+      "note": "由‘笔’指文风或写作技巧，进一步引作文体名（如散文）。"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "水面起波动、晃动。",
+      "examples": [
+        "湖面微风吹来，水波轻轻荡漾。",
+        "碧水波漾。"
+      ],
+      "traditional_char": "漾"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "液体溢出、浮出。",
+      "examples": [
+        "锅里漾奶了。",
+        "汤水漾出锅外。"
+      ],
+      "traditional_char": "漾"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "“漾濞”，水名（位于云南省），也作地名。",
+      "examples": [
+        "漾濞江水清澈见底。",
+        "漾濞县位于云南。"
+      ],
+      "traditional_char": "漾"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "方言，指较小的湖泊。",
+      "examples": [],
+      "traditional_char": "漾"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，杨声。本义与水面波动相关。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由水面波动引申至液体溢出或流动，属动作表征的引申。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "方言里以水面波动为喻，引申为小湖泊。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由水面波动的表征，转借为地名、水名。"
+    }
+  ]
+}

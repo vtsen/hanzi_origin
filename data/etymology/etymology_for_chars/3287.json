@@ -1,0 +1,87 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "涂抹或粘合使封闭起来。",
+      "examples": [
+        "糊了一层泥。",
+        "糊窗户。"
+      ],
+      "traditional_char": "糊"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "粘合，涂附。",
+      "examples": [
+        "裱糊。",
+        "糊墙。"
+      ],
+      "traditional_char": "糊"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "粥类，糊状、浆状的食物。",
+      "examples": [
+        "糊口。",
+        "面糊。",
+        "辣椒糊。"
+      ],
+      "traditional_char": "糊"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "内容不清晰、混乱。",
+      "examples": [
+        "他太糊涂了。",
+        "糊涂账。"
+      ],
+      "traditional_char": "糊"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "欺骗，蒙混，敷衍。",
+      "examples": [
+        "糊弄。"
+      ],
+      "traditional_char": "糊"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“糊”为形声字，从米，胡声，原指用米面涂抹黏合封闭。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“封闭、涂抹”泛指为一般的粘合、涂附。见古今各时期词例。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由“粘合、涂附”引申为糊状物品，转喻作糊、粥等食物。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由糊附使不明、遮盖，引申为“混乱、不明”。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "由糊附遮掩，引申为“蒙混、欺骗、敷衍”。"
+    }
+  ]
+}

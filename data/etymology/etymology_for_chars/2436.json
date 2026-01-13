@@ -1,0 +1,102 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "架在墙上或柱子上支撑房顶的横木，或泛指水平长条形承重构件",
+      "examples": [
+        "房梁",
+        "栋梁"
+      ],
+      "traditional_char": "梁"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "桥，架在水上的桥梁",
+      "examples": [
+        "桥梁",
+        "津梁"
+      ],
+      "traditional_char": "梁"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "器物、身体或其他物体上中间高起的部分",
+      "examples": [
+        "鼻梁",
+        "山梁",
+        "车梁"
+      ],
+      "traditional_char": "梁"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "中国战国时期魏国迁都大梁后改称梁",
+      "examples": [
+        "大梁"
+      ],
+      "traditional_char": "梁"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "中国南朝之一、五代之一的朝代名",
+      "examples": [
+        "南朝梁",
+        "五代梁"
+      ],
+      "traditional_char": "梁"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        ""
+      ],
+      "traditional_char": "梁"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "形声字，从木从水，刅声，原指用木料在水上造桥"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "由水上木桥扩展为屋内横梁，约在先秦时期出现"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由房屋横梁，比喻器物、身体等高起部分"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "以地名为国名（因魏都大梁而称梁国）"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "由地名进一步用作朝代名"
+    },
+    {
+      "source_index": 4,
+      "target_index": 5,
+      "evolution_type": "conversion",
+      "note": "由朝代名转用为姓氏"
+    }
+  ]
+}

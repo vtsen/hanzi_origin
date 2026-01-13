@@ -1,0 +1,91 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "人的本性、本质或事物固有的性质。",
+      "examples": [
+        "人之初，性本善。",
+        "性格",
+        "本性"
+      ],
+      "traditional_char": "性"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "事物的性质、特性。",
+      "examples": [
+        "属性",
+        "典型性",
+        "开放性"
+      ],
+      "traditional_char": "性"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "男女或雌雄的特质。",
+      "examples": [
+        "性别",
+        "男性",
+        "女性"
+      ],
+      "traditional_char": "性"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "与生物生殖相关的行为或现象。",
+      "examples": [
+        "性交",
+        "性欲",
+        "性爱",
+        "性感"
+      ],
+      "traditional_char": "性"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "语法上区分名词、代词、形容词类别的范畴。",
+      "examples": [
+        "性是语法范畴之一。"
+      ],
+      "traditional_char": "性"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从心，生声，表示与人的本性有关的抽象概念，为形声字。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "本义由人的本性扩展到事物的一般性质，见于先秦至汉语不断扩展用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_narrowing",
+      "note": "具体化到人的性别，本义中‘人的本性’向‘男女特质’转化，约见于先秦末期。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由性别进一步引申为性行为和性欲等生物生殖相关现象，见于中古汉语至现代。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "从‘性质’转化为‘语法范畴’如‘名词的性’，为近现代借用西方语言分类。"
+    }
+  ]
+}

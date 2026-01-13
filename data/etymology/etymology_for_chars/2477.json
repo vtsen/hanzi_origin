@@ -1,0 +1,40 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "鸟、龟、蛇等生的带有硬壳的卵",
+      "examples": [
+        "鸡蛋",
+        "蛇蛋",
+        "蛋白",
+        "蛋黄"
+      ],
+      "traditional_char": "蛋"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "形状像蛋的",
+      "examples": [
+        "脸蛋儿"
+      ],
+      "traditional_char": "蛋"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从虫，旦声。本义指有壳的卵。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由蛋的形状比喻为其他类似形状的事物，用于形容词，近现代用法。"
+    }
+  ]
+}

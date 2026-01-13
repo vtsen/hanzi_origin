@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "安静，没有声音",
+      "examples": [
+        "四野寂无声。",
+        "夜色寂静。"
+      ],
+      "traditional_char": "寂"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "寂寞，孤单无依的状态",
+      "examples": [
+        "孤独寂寞。",
+        "他感到十分寂寞。"
+      ],
+      "traditional_char": "寂"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "佛教指灭度，超脱生死的状态",
+      "examples": [
+        "涅槃寂灭。"
+      ],
+      "traditional_char": "寂"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从“宀”表示与家、屋内相关，‘叔’为声符，本义为“安静无声”。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "安静无声引申至内心的孤独寂寞，自先秦文献即有用例。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "在佛教语境中用“寂灭”表达涅槃无声、永静之意，汉魏六朝时形成。"
+    }
+  ]
+}

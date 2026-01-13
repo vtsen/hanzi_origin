@@ -1,0 +1,76 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "秩序，次序",
+      "examples": [
+        "尊卑有叙。",
+        "不分叙列。"
+      ],
+      "traditional_char": "敍"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "述说，叙述",
+      "examples": [
+        "有话慢慢叙。",
+        "叙旧情。"
+      ],
+      "traditional_char": "敍"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "评议等级次第，分级进用",
+      "examples": [
+        "叙功受奖",
+        "叙擢有序"
+      ],
+      "traditional_char": "敍"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "other",
+      "meaning": "同“序”（通假，包括厅堂、序言等义）",
+      "examples": [
+        "学堂设叙。",
+        "叙言以引章。"
+      ],
+      "traditional_char": "序"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘叙’（古作‘敍’、‘叙’）为形声字，从攴，余声，本义为‘秩序，次序’。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 3,
+      "note": "‘序’为形声字，从广，予声，本义为厅堂，引申同为‘次第’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘秩序，次序’引申为‘论述、叙述’；以次而述。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由‘次序’引申为‘评议等级，分等进用’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "‘叙’通‘序’，后来常作为‘序’的通用字。"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "长度小，与“长”相对",
+      "examples": [
+        "路途太短，不足以跋涉。",
+        "短兵相接。"
+      ],
+      "traditional_char": "短"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "缺少，欠缺",
+      "examples": [
+        "人手短缺，难以完成任务。",
+        "资金短少。"
+      ],
+      "traditional_char": "短"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "缺点",
+      "examples": [
+        "取长补短。",
+        "他有很多优点，也有一些短处。"
+      ],
+      "traditional_char": "短"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从矢，豆声。本义为长度小，用箭矢之短作标准。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "长度短引申为数量、程度上的缺少，语义扩展，见先秦用例。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "从“缺少”引申为“缺点”，常用语固定搭配，汉代已见。"
+    }
+  ]
+}

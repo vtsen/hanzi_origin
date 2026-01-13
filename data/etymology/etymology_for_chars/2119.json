@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "吉凶的预兆",
+      "examples": [
+        "祥麟",
+        "祥云",
+        "不祥"
+      ],
+      "traditional_char": "祥"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "吉利，吉祥",
+      "examples": [
+        "祥和",
+        "吉祥",
+        "祥瑞"
+      ],
+      "traditional_char": "祥"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [],
+      "traditional_char": "祥"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从示，羊声。'示'表示与祭祀、预兆等相关，'羊'为声旁，原指吉凶的预兆。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_narrowing",
+      "note": "古义为吉凶预兆，后多指吉祥一面，语义收窄。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "conversion",
+      "note": "由名词转为姓氏用法，常见于汉字姓氏演变。"
+    }
+  ]
+}

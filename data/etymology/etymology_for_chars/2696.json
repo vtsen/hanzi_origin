@@ -1,0 +1,40 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "靠近，依附在旁边",
+      "examples": [
+        "依山傍水",
+        "他傍着墙站着"
+      ],
+      "traditional_char": "傍"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "临近（某一时间）",
+      "examples": [
+        "傍晚",
+        "傍黑",
+        "傍亮"
+      ],
+      "traditional_char": "傍"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从亻，旁声。表示靠在一旁之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "从空间的'靠近'比喻到时间的'临近'，见于近现代汉语。"
+    }
+  ]
+}

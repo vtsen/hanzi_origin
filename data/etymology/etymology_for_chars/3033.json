@@ -1,0 +1,89 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "幸福、吉祥、好运气，与“祸”相对",
+      "examples": [
+        "福气",
+        "享福",
+        "祝福",
+        "造福",
+        "福利",
+        "福音"
+      ],
+      "traditional_char": "福"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "旧时妇女行礼的姿势",
+      "examples": [
+        "万福"
+      ],
+      "traditional_char": "福"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "祭神所用的酒肉等祭品",
+      "examples": [
+        "福食",
+        "福酒",
+        "福物"
+      ],
+      "traditional_char": "福"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "保佑、庇佑",
+      "examples": [
+        "福佑",
+        "福荫",
+        "小信未孚，神弗福也"
+      ],
+      "traditional_char": "福"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [],
+      "traditional_char": "福"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从“示”表与神有关，“畐”表音并兼含富足之意，表示福气、吉祥。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由幸福吉祥之意引申为神灵赐予福气，引申为保佑。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "吉祥引申为祭祀神灵时用于祈福的祭品。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "以“福”的祝愿、幸运之意转用于妇女行礼姿势命名。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "function_word",
+      "note": "“福”用作姓氏，源自吉祥之含义。"
+    }
+  ]
+}

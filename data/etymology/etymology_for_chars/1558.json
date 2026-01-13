@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "借出或借入财物",
+      "examples": [
+        "贷款",
+        "借贷",
+        "他向银行申请贷款"
+      ],
+      "traditional_char": "貸"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "推卸（责任等）给别人",
+      "examples": [
+        "责无旁贷",
+        "无人可贷"
+      ],
+      "traditional_char": "貸"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "宽恕，饶恕",
+      "examples": [
+        "严惩不贷",
+        "不可贷之以辞"
+      ],
+      "traditional_char": "貸"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从‘贝’表示与财物有关，‘代’为声符，初义为施予、给予。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由金钱借贷引申为将责任等推卸于人，见于先秦典籍。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由财物宽予引申为宽恕、饶恕，属于抽象意义扩展。"
+    }
+  ]
+}

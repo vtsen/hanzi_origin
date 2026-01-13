@@ -1,0 +1,69 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "用力往下扔",
+      "examples": [
+        "把帽子摔在床上",
+        "摔打"
+      ],
+      "traditional_char": "摔"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "很快地掉下",
+      "examples": [
+        "别摔下来"
+      ],
+      "traditional_char": "摔"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "因掉下而破坏",
+      "examples": [
+        "把碗摔碎了"
+      ],
+      "traditional_char": "摔"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "跌跤",
+      "examples": [
+        "摔倒",
+        "摔跤"
+      ],
+      "traditional_char": "摔"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从手，率声，本义为用手用力扔下。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由使物体用力扔下引申为物体自身很快掉下。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "从跌落动作引申为因跌落而损坏。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "从物体掉下引申为人因跌而倒。"
+    }
+  ]
+}

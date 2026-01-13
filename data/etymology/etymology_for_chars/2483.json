@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "柔顺，温和",
+      "examples": [
+        "婉顺",
+        "委婉"
+      ],
+      "traditional_char": "婉"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "美好，柔美",
+      "examples": [
+        "婉丽",
+        "婉约"
+      ],
+      "traditional_char": "婉"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "（说话或表达）曲折含蓄",
+      "examples": [
+        "婉辞",
+        "婉转"
+      ],
+      "traditional_char": "婉"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从女，宛声，‘女’表义指女性或柔顺，‘宛’表声，最初本义为柔顺。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘柔顺、温和’引申为‘美好、柔美’，常形容气质或外表。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "用‘柔顺’比喻表达方式上的温和曲折，常用于言辞表达。"
+    }
+  ]
+}

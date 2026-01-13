@@ -1,0 +1,116 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "日光，阳光",
+      "examples": [
+        "景，日光也。——《说文》",
+        "景行维贤。——《诗经》"
+      ],
+      "traditional_char": "景"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "风景，景色，环境的风光",
+      "examples": [
+        "风景这边独好。",
+        "景色怡人。"
+      ],
+      "traditional_char": "景"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "情况，状况",
+      "examples": [
+        "景象万千。",
+        "年景不好。"
+      ],
+      "traditional_char": "景"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "敬仰，佩服",
+      "examples": [
+        "景仰先贤。",
+        "景慕盛德。"
+      ],
+      "traditional_char": "景"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "高大",
+      "examples": [
+        "景行（形容道路宽广高大，也借指品德高大）。",
+        "景山。"
+      ],
+      "traditional_char": "景"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [],
+      "traditional_char": "景"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "影子，古同“影”",
+      "examples": [
+        "景，影也。",
+        "景从日。"
+      ],
+      "traditional_char": "景"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从日表示阳光义，京为声符，形声字。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "古以日光引申为风光环境，如景色。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "以外在景色引申为事物的状态、情况。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由日光高远引申为高大之义，多见于文献。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由美好景色喻指人格高尚而被景仰。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "reanalysis",
+      "note": "用作姓氏，常见古代人物传承。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "古书中“景”通“影”用，属于借音转义。"
+    }
+  ]
+}

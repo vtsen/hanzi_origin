@@ -1,0 +1,96 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "常绿灌木，叶长椭圆形，有锯齿，经加工制为饮料；亦指该植物的叶、花、果等相关产物。",
+      "examples": [
+        "茶树",
+        "茶农"
+      ],
+      "traditional_char": "茶"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "特指制成饮料的茶叶。",
+      "examples": [
+        "绿茶",
+        "红茶",
+        "花茶",
+        "沱茶",
+        "龙井茶",
+        "乌龙茶"
+      ],
+      "traditional_char": "茶"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "用茶叶沏成的饮料。",
+      "examples": [
+        "茶水",
+        "茶饭",
+        "茶点",
+        "茶话会",
+        "茶博士",
+        "茶余饭后"
+      ],
+      "traditional_char": "茶"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "泛指用植物制成的饮料。",
+      "examples": [
+        "茶汤",
+        "面茶",
+        "果茶"
+      ],
+      "traditional_char": "茶"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "特指茶点（常伴随茶水饮用的点心）。",
+      "examples": [
+        "早茶",
+        "晚茶"
+      ],
+      "traditional_char": "茶"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，“艹”表意，指与草木有关之物；“余”表声，最初表示茶树及其产物。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_narrowing",
+      "note": "由泛指植物收缩为特指茶叶，见于隋唐以后饮茶普及。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "以茶叶代指冲泡而成的饮品，用例早见唐代。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由茶饮扩展为一般植物饮料，如果茶、面茶，多见于近现代。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "以饮茶之名称转指茶点，即伴随茶饮食用之食物。"
+    }
+  ]
+}

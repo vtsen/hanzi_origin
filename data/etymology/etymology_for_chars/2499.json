@@ -1,0 +1,58 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "缝补、接缝，如将东西缝合在一起。",
+      "examples": [
+        "补缀",
+        "缀上几针"
+      ],
+      "traditional_char": "綴"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "连接，使断续的东西连贯起来。",
+      "examples": [
+        "连缀",
+        "缀文",
+        "缀辞",
+        "缀集",
+        "缀辑",
+        "笔不停缀"
+      ],
+      "traditional_char": "綴"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "装饰，点缀，美化。",
+      "examples": [
+        "点缀"
+      ],
+      "traditional_char": "綴"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从纟，叕声，原意为缝补、缝合布帛之物。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由缝补实物之意推广到抽象事物的连接和组合用法，常见于文辞、思想等的连贯。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由连接之意引申为将事物点缀于整体之上以起装饰作用。"
+    }
+  ]
+}

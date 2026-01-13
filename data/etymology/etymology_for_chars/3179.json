@@ -1,0 +1,40 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "粗布或粗布衣服",
+      "examples": [
+        "短褐",
+        "布衣褐裳"
+      ],
+      "traditional_char": "褐"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "黑黄色",
+      "examples": [
+        "褐煤",
+        "褐藻",
+        "褐色"
+      ],
+      "traditional_char": "褐"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从衣，曷声，表示用粗麻织成的衣物，后引申为泛指粗布衣；‘褐’的本义即为粗布衣服。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由粗布衣物常为黑黄色，借指颜色，汉及以后已见。"
+    }
+  ]
+}

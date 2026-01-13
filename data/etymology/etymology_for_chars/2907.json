@@ -1,0 +1,72 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "在神前发誓，结约结盟",
+      "examples": [
+        "歃血为盟",
+        "盟誓",
+        "联盟"
+      ],
+      "traditional_char": "盟"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "结拜兄弟",
+      "examples": [
+        "盟兄",
+        "盟弟"
+      ],
+      "traditional_char": "盟"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "内蒙古自治区的行政单位",
+      "examples": [
+        "锡林郭勒盟",
+        "阿拉善盟"
+      ],
+      "traditional_char": "盟"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "发誓",
+      "examples": [
+        "盟誓",
+        "山盟海誓"
+      ],
+      "traditional_char": "盟"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意字，下为盘盂，中有牛耳，体现古代歃血为盟的场景。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由结盟义引申指结拜兄弟，含契约与誓言意味。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "借结盟聚会之义，转指联盟行政单位。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_narrowing",
+      "note": "由结盟义狭义化为单纯发誓。"
+    }
+  ]
+}

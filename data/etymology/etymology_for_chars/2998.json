@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "旅行或军用的干粮，军粮。",
+      "examples": [
+        "军队行军途中需备足粮。",
+        "干粮不济，难以远行。"
+      ],
+      "traditional_char": "糧"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "可食用的谷类、豆类等粮食。",
+      "examples": [
+        "粮食丰收。",
+        "粮仓满溢。"
+      ],
+      "traditional_char": "糧"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "作为农业税收缴纳的谷物。",
+      "examples": [
+        "缴纳公粮。",
+        "地租以粮食折算。"
+      ],
+      "traditional_char": "糧"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从米，量声，表示与米粮相关，最早指行军干粮。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从专指军中干粮扩展为一般可食用的谷类和豆类。战国及汉以后。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由粮食之意转为指缴纳作为农业税的粮食。唐宋以来常见。"
+    }
+  ]
+}

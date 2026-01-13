@@ -1,0 +1,42 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "把食物放在锅里用油搅拌加热至熟（煎炒或火干）。",
+      "examples": [
+        "炒菜",
+        "炒米",
+        "炒面",
+        "炒冷饭"
+      ],
+      "traditional_char": "炒"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "倒买倒卖，通过买进卖出谋取差价。",
+      "examples": [
+        "炒黄鱼",
+        "炒地皮",
+        "炒买炒卖"
+      ],
+      "traditional_char": "炒"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从火，少声，表示用火加热、煎炒之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由搅拌翻动食物引申为不断买进卖出以获利，明清至近现代用法。"
+    }
+  ]
+}

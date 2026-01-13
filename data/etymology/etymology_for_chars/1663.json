@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "干净，清洁",
+      "examples": [
+        "清洁",
+        "整洁",
+        "纯洁",
+        "洁具"
+      ],
+      "traditional_char": "潔"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "廉明，不贪污，或指人的品德高尚",
+      "examples": [
+        "廉洁",
+        "洁身自好"
+      ],
+      "traditional_char": "潔"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "河流名，古地名，用作河名时本音为jí",
+      "examples": [
+        "《山海经》：‘洁水出焉，东流注于渤海。’"
+      ],
+      "traditional_char": "洁"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "洁（潔）：形声字，从水，絜声，表示与水相关的清洁义。"
+    },
+    {
+      "formation_type": "loan_character",
+      "original_sense_index": 2,
+      "note": "‘洁’本为河流名，与‘潔’不同，后代转用为‘潔’的简体。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由物理上的清洁引申为品德上的廉洁，自先秦至现代广泛用法。"
+    }
+  ]
+}

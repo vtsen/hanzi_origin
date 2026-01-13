@@ -1,0 +1,62 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "文质兼备，文雅朴实兼具的样子",
+      "examples": [
+        "文质彬彬。《论语·雍也》",
+        "孝哀彬彬。《汉书·系传下》"
+      ],
+      "traditional_char": "彬"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "文采鲜明、富于文采",
+      "examples": [
+        "至于一时人才，公所奖拔而布列者，亦彬然毕见于公之诗。《〈钤山堂诗集〉序》",
+        "文益彬然，崔駰、马融、张衡尤为称首。《文学源流•总论》"
+      ],
+      "traditional_char": "彬"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "文雅有礼，举止得体",
+      "examples": [
+        "诸公这才礼貌彬然的谦让起来。《霜叶红似二月花》",
+        "彬彬有礼"
+      ],
+      "traditional_char": "彬"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [],
+      "traditional_char": "彬"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从彡，焚省声，本义为文质兼备的样子。彡表示文采，焚省声兼表音。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘文质兼备’引申为‘文采鲜明’。汉魏六朝文学语境。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "文质兼备引申为人的性格、举止文雅有礼。"
+    }
+  ]
+}

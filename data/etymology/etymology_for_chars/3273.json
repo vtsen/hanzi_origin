@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "船的总称，泛指各种船只。",
+      "examples": [
+        "浮飛舟之萬艘兮，建干將之銛戈。",
+        "爾來盜賊往往有，劫殺賈客沉其艘。"
+      ],
+      "traditional_char": "艘"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "海中大船。",
+      "examples": [
+        "艘，海大舡也。——《艺文类聚》"
+      ],
+      "traditional_char": "艘"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "measure_word",
+      "meaning": "用于船只计数的量词。",
+      "examples": [
+        "三艘轮船。",
+        "乃取蒙冲斗舰十艘，载燥荻枯柴，灌油其中。"
+      ],
+      "traditional_char": "艘"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从舟，叟声，表示船的总称。本义与最早造字相关。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_narrowing",
+      "note": "由泛指一切船只，部分文献中专指海中大船。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "grammaticalization",
+      "note": "本为名词，后借作量词用于船只计数。"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "密集，数量多且分布紧密",
+      "examples": [
+        "稠密",
+        "稠人广众"
+      ],
+      "traditional_char": "稠"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "浓厚，黏稠（用于液体或糊状物）",
+      "examples": [
+        "稠粥"
+      ],
+      "traditional_char": "稠"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从禾，周声，最初指禾多而密。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由形容禾多而密，转喻到液体、糊状物的浓厚、黏稠。"
+    }
+  ]
+}

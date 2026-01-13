@@ -1,0 +1,68 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "隐藏实情，不让别人知道",
+      "examples": [
+        "隐瞒",
+        "瞒天过海"
+      ],
+      "traditional_char": "瞞"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "贪爱酒色的样子",
+      "examples": [
+        "～～"
+      ],
+      "traditional_char": "瞞"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "闭目的样子",
+      "examples": [
+        "闭目养神，其人瞒然"
+      ],
+      "traditional_char": "瞞"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "惭愧的样子",
+      "examples": [
+        "其人见师至，瞒然而起"
+      ],
+      "traditional_char": "瞞"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 2,
+      "note": "形声字，‘目’为意旁表与眼有关，‘免’为声旁；本义为闭目貌。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 2,
+      "target_index": 0,
+      "evolution_type": "metaphor",
+      "note": "由闭目不见引申为故意隐藏实情，不让别人知道。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 1,
+      "evolution_type": "unknown",
+      "note": "‘贪爱酒色的样子’源自闭目貌，语义联系不详，或表沉溺状态。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "unknown",
+      "note": "‘惭愧的样子’可能喻指羞愧低目，具体演变过程不详。"
+    }
+  ]
+}

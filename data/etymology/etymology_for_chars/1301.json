@@ -1,0 +1,99 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "细致周密，完备不遗漏，与“略”相对。",
+      "examples": [
+        "详细",
+        "周详",
+        "语焉不详"
+      ],
+      "traditional_char": "詳"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "清楚地知道，明察。",
+      "examples": [
+        "内容不详"
+      ],
+      "traditional_char": "詳"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "说明，细说。",
+      "examples": [
+        "内详"
+      ],
+      "traditional_char": "詳"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "审慎，处理事物公正小心。",
+      "examples": [
+        "详平",
+        "详刑"
+      ],
+      "traditional_char": "詳"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "旧时一种下级官员呈报上级的公文。",
+      "examples": [
+        "上详",
+        "详文"
+      ],
+      "traditional_char": "詳"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "假装，佯作。",
+      "examples": [],
+      "traditional_char": "詳"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 3,
+      "note": "形声字，从言，羊声，本义为审理、审慎。‘言’表意义，‘羊’表声音。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 3,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "由“审慎，审理”引申为“细致周密”，同为认真、全面的处理。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“细致周密”进一步引申为“明察、清楚知道”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由“细致周密”引申为“详细说明、细说”。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "以“详审公正”的审理，借指具体审查的文书。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 5,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "‘詳’古通‘佯’，用于“假装”的意思，属于假借现象。"
+    }
+  ]
+}

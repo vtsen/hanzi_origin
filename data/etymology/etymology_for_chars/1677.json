@@ -1,0 +1,53 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "水清澈",
+      "examples": [
+        "浏溧",
+        "浏滥"
+      ],
+      "traditional_char": "瀏"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "明朗，明亮",
+      "examples": [
+        "诗缘情而绮靡，赋体物而瀏亮"
+      ],
+      "traditional_char": "瀏"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "大略地看，浏览",
+      "examples": [
+        "浏览"
+      ],
+      "traditional_char": "瀏"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘瀏’为形声字，左‘氵’表意（水），右‘留’表声，最初表示水流清澈。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由水清澈比喻为心情或环境明朗。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由水清澈引申为视线浏览，有扫视之意。"
+    }
+  ]
+}

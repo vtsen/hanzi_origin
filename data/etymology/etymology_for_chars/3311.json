@@ -1,0 +1,84 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "用刀斧或强力破开；分割；分开",
+      "examples": [
+        "劈柴",
+        "劈成两半",
+        "把菜帮儿劈下来"
+      ],
+      "traditional_char": "劈"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "雷电击坏或击毙",
+      "examples": [
+        "天打雷劈"
+      ],
+      "traditional_char": "劈"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "腿或手指等过分叉开",
+      "examples": [
+        "劈叉"
+      ],
+      "traditional_char": "劈"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "两个斜面合成的纵截面呈三角形的简单机械",
+      "examples": [
+        "刀的刃属于这一类劈"
+      ],
+      "traditional_char": "劈"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "preposition",
+      "meaning": "冲着，正对着",
+      "examples": [
+        "劈头盖脑"
+      ],
+      "traditional_char": "劈"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从刀，‘辟’为声符，意为用刀破开，分割。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "比喻雷电如同利器撕裂，见于后起义项。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由“分开”引申为腿或手指极度分开的动作。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由“用刀破开”扩展指称实现劈开功能的工具（简单机械）。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "“劈”引申为正面面对，大量用在成语短语中。"
+    }
+  ]
+}

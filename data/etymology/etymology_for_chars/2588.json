@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "大屋子",
+      "examples": [
+        "高楼大厦",
+        "广厦千万间"
+      ],
+      "traditional_char": "廈"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "房子后面的突出的部分",
+      "examples": [
+        "前廊后厦"
+      ],
+      "traditional_char": "廈"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "厦门，地名，在中国福建省",
+      "examples": [
+        "我来自厦门。",
+        "厦门是一个美丽的城市。"
+      ],
+      "traditional_char": "廈"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从广，夏声，本义为大屋子。广表示房屋结构，夏表示声旁且含“大”义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_narrowing",
+      "note": "由“大屋子”义，特指房屋的突出部分，见于后世建筑分化。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由“大屋子”引申为地名厦门，因地名取自本地建筑或地理特色。"
+    }
+  ]
+}

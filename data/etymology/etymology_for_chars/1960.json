@@ -1,0 +1,122 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "竖立的东西躺下来",
+      "examples": [
+        "墙倒了。",
+        "摔倒。",
+        "打倒。"
+      ],
+      "traditional_char": "倒"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "对调，转移，更换，改换",
+      "examples": [
+        "倒手。",
+        "倒换。",
+        "倒仓。"
+      ],
+      "traditional_char": "倒"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "位置上下前后翻转",
+      "examples": [
+        "倒立。",
+        "倒挂。",
+        "倒影。"
+      ],
+      "traditional_char": "倒"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "把容器反转或倾斜使里面的东西出来",
+      "examples": [
+        "倒水。",
+        "倒茶。"
+      ],
+      "traditional_char": "倒"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adverb",
+      "meaning": "反过来，相反地",
+      "examples": [
+        "反攻倒算。",
+        "倒行逆施。",
+        "倒贴。"
+      ],
+      "traditional_char": "倒"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "向后，往后退",
+      "examples": [
+        "倒退。",
+        "倒车。"
+      ],
+      "traditional_char": "倒"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "adverb",
+      "meaning": "却",
+      "examples": [
+        "东西倒不坏，就是旧了点。"
+      ],
+      "traditional_char": "倒"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从“人”表示意义，与“到”谐声，初本义为“倒下”。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从物体倒下引申为“变换、对调”，出现于中古用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "从倒下引申为“翻转”，指上下前后的颠倒。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "从“翻转”动作引申至“使容器翻转以倒出内容”。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "倒置→反过来（抽象用法）。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "翻转引申为“向后、后退”。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 6,
+      "evolution_type": "semantic_extension",
+      "note": "“倒”作副词，表转折语气，现代白话用法。"
+    }
+  ]
+}

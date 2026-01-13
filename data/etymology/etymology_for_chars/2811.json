@@ -1,0 +1,84 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "爱，喜爱；亲近并倾心于人或事物",
+      "examples": [
+        "媚兹一人。——《诗·大雅·下武》",
+        "思媚周姜。——《诗·大雅·思齐》",
+        "我既媚君姿，君亦悦我颜。"
+      ],
+      "traditional_char": "媚"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "逢迎，讨好，谄媚，取悦于人",
+      "examples": [
+        "欲媚上官。",
+        "若是乃能媚于神。——《国语·周语》",
+        "人服媚之如是。——《左传·宣公三年》"
+      ],
+      "traditional_char": "媚"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "美好可爱；姿态婀娜，令人喜爱",
+      "examples": [
+        "石韫玉而山辉，水怀珠而川媚。——陆机《文赋》",
+        "绿筱媚清涟。——谢灵运《过始宁墅》",
+        "明媚的春光"
+      ],
+      "traditional_char": "媚"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "具诱惑力、具有吸引人的魅力，常用于形容妖艳、迷人的状态",
+      "examples": [
+        "迴眸一笑百媚生。——白居易《长恨歌》",
+        "狐媚不能欺。——《列子·方命》",
+        "妖媚"
+      ],
+      "traditional_char": "媚"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "古地名（齐国西界三邑之一）",
+      "examples": [
+        "齐侯致禚媚杏于卫。——《左传·定公九年》"
+      ],
+      "traditional_char": "媚"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从女，眉声。'女'表女字旁，本义指以目媚人，引申为爱、喜爱。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“喜爱”引申为“取悦”或“讨好他人”，先秦两汉已有。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由“爱、可爱”进一步引申为形容外貌或景物美好可爱。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "由“美好、可爱”发展为“具有吸引力、诱惑力”，多见于描写妖艳、迷人。"
+    }
+  ]
+}

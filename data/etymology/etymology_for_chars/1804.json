@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "拾取，捡东西。",
+      "examples": [
+        "他在路上捡到一枚硬币。",
+        "请把地上的垃圾捡起来。"
+      ],
+      "traditional_char": "撿"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "查验，检查。（古同“检”）",
+      "examples": [
+        "捡查行李。",
+        "捡点货物。"
+      ],
+      "traditional_char": "撿"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从手，佥声，表示用手拾取东西，原指用手拱取。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "“拾取”义通过动作细致，引申为“查验、检查”，与“检”通用。"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "雨后天空中出现的彩色圆弧，包含红、橙、黄、绿、蓝、靛、紫七种颜色。",
+      "examples": [
+        "天边出现了一道美丽的虹。",
+        "虹霓交辉。"
+      ],
+      "traditional_char": "虹"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "桥，因桥形似长虹而得名，多指中国古代的木拱桥。",
+      "examples": [
+        "虹桥卧波。",
+        "断虹残雪。"
+      ],
+      "traditional_char": "虹"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从虫，工声。本义指天上的虹。‘虫’与天象关联，‘工’表声。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "桥因造型如长虹，借用‘虹’形容结构。最晚自唐宋以来常见。"
+    }
+  ]
+}

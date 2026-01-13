@@ -1,0 +1,122 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "色彩，各种颜色交织",
+      "examples": [
+        "彩虹",
+        "彩霞",
+        "彩绘",
+        "彩灯",
+        "五彩缤纷"
+      ],
+      "traditional_char": "彩"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "彩色的绸子",
+      "examples": [
+        "剪彩"
+      ],
+      "traditional_char": "彩"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "赌博或竞赛中赢得的奖金、奖品",
+      "examples": [
+        "彩金",
+        "彩票",
+        "得彩"
+      ],
+      "traditional_char": "彩"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "夸奖、赞誉的欢呼声",
+      "examples": [
+        "喝彩"
+      ],
+      "traditional_char": "彩"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "花样，美好、出色的成分，文章的才华",
+      "examples": [
+        "丰富多彩",
+        "文彩"
+      ],
+      "traditional_char": "彩"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "（喻）战士受伤流的血",
+      "examples": [
+        "挂彩",
+        "彩口"
+      ],
+      "traditional_char": "彩"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "彩金，指黄金等贵重物品作为奖励",
+      "examples": [
+        "彩金",
+        "彩券",
+        "中彩"
+      ],
+      "traditional_char": "彩"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 4,
+      "note": "形声字。从彡（表文饰、色彩），采声。原指文章才华、文采。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 4,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "文采、文章才华引申为色彩、图案；《说文解字》有相关记载。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "色彩引申为带彩色的绸子。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "色彩用于比赛标志，进而转指竞赛中的奖品或奖金。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 6,
+      "evolution_type": "semantic_narrowing",
+      "note": "奖品奖金进一步狭化为贵重物品彩金的含义。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "reanalysis",
+      "note": "色彩绚丽引起人的喝彩，语义重分析后引申为赞誉之声。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "metaphor",
+      "note": "色彩丰富喻指流血后的斑斓，引申为战士所受的伤。"
+    }
+  ]
+}

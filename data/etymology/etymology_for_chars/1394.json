@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "用工具使物体中出现空洞或坑；掘或挖掘。",
+      "examples": [
+        "挖掘地下水",
+        "挖墙脚"
+      ],
+      "traditional_char": "挖"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "用手或工具抓破或剥离某物表面。",
+      "examples": [
+        "把墙皮挖破了",
+        "他把伤口挖开"
+      ],
+      "traditional_char": "挖"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从手，穵声，表示以手动作挖掘之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从“掘”引申为用手或工具抓破、剥离，义项扩展于较晚汉语层。"
+    }
+  ]
+}

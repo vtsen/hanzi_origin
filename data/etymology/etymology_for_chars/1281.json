@@ -1,0 +1,70 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "在政府担任职务的人；官员或官吏。",
+      "examples": [
+        "官吏",
+        "为官一任，造福一方。"
+      ],
+      "traditional_char": "官"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "属于国家的或公家的。",
+      "examples": [
+        "官方",
+        "官办",
+        "官府"
+      ],
+      "traditional_char": "官"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "生物体上有特定机能的部分。",
+      "examples": [
+        "感官",
+        "五官",
+        "官能"
+      ],
+      "traditional_char": "官"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [],
+      "traditional_char": "官"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意字，从“宀”表示屋宇之上，有“冖”覆盖众，象征治理众人之人，即官吏的本义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘官员’引申为‘属于国家的、公家的’用法，秦汉以后常见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "以‘官’比喻人体行使职能的部分，意为‘有职能的部位’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "reanalysis",
+      "note": "用作姓氏，来源于官职名号；多见于先秦姓氏演化。"
+    }
+  ]
+}

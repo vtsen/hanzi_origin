@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "鸟停歇、歇宿在树上。",
+      "examples": [
+        "鸟栖于林。",
+        "宜栖之深林。"
+      ],
+      "traditional_char": "棲"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "居留，停留（多指人或动物的居处或留居）。",
+      "examples": [
+        "栖身。",
+        "栖息。",
+        "栖止。",
+        "栖遁。"
+      ],
+      "traditional_char": "棲"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "形容不安定（用于“栖栖”）。",
+      "examples": [
+        "栖栖皇皇。"
+      ],
+      "traditional_char": "棲"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "忙碌不安，奔波（用于“栖遑”或“栖皇”）。",
+      "examples": [
+        "栖遑不安。"
+      ],
+      "traditional_char": "棲"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从木，妻声，表示鸟在树木上歇息。‘栖’本是‘棲’的简化字，原始含义为鸟宿于树。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由鸟歇息引申为人或动物的居留、停留，汉代以后见于文献。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "人的安身之地引申为内心状态，‘栖栖’形容心神不宁，晋代文献有见。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "不安定状态进一步引申为忙碌奔波，通常用于‘栖遑’、‘栖皇’等表达。"
+    }
+  ]
+}

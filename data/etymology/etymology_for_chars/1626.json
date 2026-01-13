@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "病名，通常指精神病，患者神经错乱，精神失常。",
+      "examples": [
+        "他得了疯病。",
+        "疯癫。"
+      ],
+      "traditional_char": "瘋"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "言行狂妄，举止失常。",
+      "examples": [
+        "疯言疯语。",
+        "他疯了一样地大笑。"
+      ],
+      "traditional_char": "瘋"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "（农作物）生长旺盛而不结果实。",
+      "examples": [
+        "小麦长疯了。",
+        "番茄枝叶疯长却没结果。"
+      ],
+      "traditional_char": "瘋"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从疒，表示疾病；风为声符，最初指‘头风病’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "精神错乱引申为言行狂妄。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由精神失常喻物生长反常。"
+    }
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "水名，指特定的水体或河流名。",
+      "examples": [],
+      "traditional_char": "溜"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "滑行，（往下）滑。",
+      "examples": [
+        "溜冰",
+        "小孩在坡上溜下来"
+      ],
+      "traditional_char": "溜"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "光滑，平滑，无阻碍。",
+      "examples": [
+        "溜圆",
+        "溜光"
+      ],
+      "traditional_char": "溜"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "趁人不见走开。",
+      "examples": [
+        "溜走",
+        "他偷偷地溜了出去"
+      ],
+      "traditional_char": "溜"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "同“熘”，指快速翻炒食物时加调味汁使之包裹。",
+      "examples": [
+        "糖醋溜鱼片",
+        "西红柿鸡蛋溜着吃"
+      ],
+      "traditional_char": "溜"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "迅急的水流。",
+      "examples": [
+        "大溜",
+        "河中有急溜"
+      ],
+      "traditional_char": "溜"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "顺房檐滴下来的水，房顶上流下的水。",
+      "examples": [
+        "檐溜",
+        "房上的溜滴下来"
+      ],
+      "traditional_char": "溜"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "noun",
+      "meaning": "房檐上安的接雨水用的长水槽。",
+      "examples": [
+        "水溜",
+        "他正在修屋檐上的溜"
+      ],
+      "traditional_char": "溜"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "measure_word",
+      "meaning": "量词，指行列、排。",
+      "examples": [
+        "一溜三间房",
+        "一溜小树苗"
+      ],
+      "traditional_char": "溜"
+    },
+    {
+      "index": 9,
+      "part_of_speech": "noun",
+      "meaning": "某一地点附近的地方。",
+      "examples": [
+        "这溜儿的果木树很多",
+        "我们就在这溜儿玩"
+      ],
+      "traditional_char": "溜"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，留声；本义为水名，后由其声旁发展出其他相关词义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "由具体水名引申为急流、泛指急速的水流。"
+    },
+    {
+      "source_index": 5,
+      "target_index": 6,
+      "evolution_type": "semantic_extension",
+      "note": "由水流引申为屋檐滴下的水流。"
+    },
+    {
+      "source_index": 6,
+      "target_index": 7,
+      "evolution_type": "metonymy",
+      "note": "由流下的水转指承接水的设施，即水槽。"
+    },
+    {
+      "source_index": 5,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由水流的滑行为特征，比喻滑行动作。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "滑行动作引申出表面光滑、无阻碍的形容用法。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "形容滑行，进一步比喻人悄悄离开。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "unknown",
+      "note": "与“熘”通用，可能因发音或书写演变。"
+    },
+    {
+      "source_index": 7,
+      "target_index": 8,
+      "evolution_type": "metaphor",
+      "note": "水槽形状引申为量词，形容排列成行。"
+    },
+    {
+      "source_index": 8,
+      "target_index": 9,
+      "evolution_type": "semantic_extension",
+      "note": "量词用法进一步引申为某一地点或区域。"
+    }
+  ]
+}

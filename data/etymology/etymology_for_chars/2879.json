@@ -1,0 +1,57 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "完整的东西破坏成零片或零块",
+      "examples": [
+        "玻璃摔在地上碎了。",
+        "粉碎敌人。",
+        "粉身碎骨"
+      ],
+      "traditional_char": "碎"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "零星，不完整",
+      "examples": [
+        "琐碎",
+        "碎屑",
+        "支离破碎"
+      ],
+      "traditional_char": "碎"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "说话唠叨",
+      "examples": [
+        "嘴碎",
+        "碎语"
+      ],
+      "traditional_char": "碎"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从“石”表意，表示与石块、破裂有关，“卒”表音。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由具体破碎引申为“零星、不完整”。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由“零散、不完整”引申比喻为言语琐碎、唠叨。"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "赠给，给予他人财物。",
+      "examples": [
+        "贻书以告。",
+        "贻我好音。"
+      ],
+      "traditional_char": "貽"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "遗留，留下（多指抽象的事物）。",
+      "examples": [
+        "贻害无穷。",
+        "贻误后人。"
+      ],
+      "traditional_char": "貽"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从贝，台声；‘贝’表财富，‘台’表音。本义为赠送财物。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘赠送’泛化为‘遗留、留下’（可指事物或影响），多见于先秦到现代。"
+    }
+  ]
+}

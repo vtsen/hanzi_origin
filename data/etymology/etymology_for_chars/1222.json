@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "眼睛看不见东西，失明的。",
+      "examples": [
+        "盲人",
+        "盲人瞎马"
+      ],
+      "traditional_char": "盲"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "对事物不能辨认，不明事理或不加深思地行动。",
+      "examples": [
+        "盲从",
+        "盲动",
+        "盲目"
+      ],
+      "traditional_char": "盲"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "探测或观察不到的区域。",
+      "examples": [
+        "盲区"
+      ],
+      "traditional_char": "盲"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从目，亡声，最初表示‘失明’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由‘视觉失明’比喻为‘认知上的不明’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "‘视觉无法覆盖’引申为‘仪器无法探测区域’。"
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "道路；道理",
+      "examples": [
+        "易初本迪兮，君子所鄙。",
+        "惠迪吉，从逆凶。"
+      ],
+      "traditional_char": "迪"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "开导；引导",
+      "examples": [
+        "启迪后人。",
+        "啓迪，开导也。"
+      ],
+      "traditional_char": "迪"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "践行；实行；顺行",
+      "examples": [
+        "允迪厥德，謨明弼諧。",
+        "为国不迪其法。"
+      ],
+      "traditional_char": "迪"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "进，用；进用",
+      "examples": [
+        "弗求弗迪。",
+        "昏棄厥遺王父母弟不迪。"
+      ],
+      "traditional_char": "迪"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "行走，出走，奔走",
+      "examples": [
+        "诏王子出迪。",
+        "直南蛮蠢迪，王师出征。"
+      ],
+      "traditional_char": "迪"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "继承；承袭",
+      "examples": [
+        "汉迪于秦，有因有革。",
+        "其道踳驳，末流迪于刑名。"
+      ],
+      "traditional_char": "迪"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "particle",
+      "meaning": "助词，用于句首或句中，无实义，起调节音节作用",
+      "examples": [
+        "古之人迪惟有夏。",
+        "迪高后丕乃崇降弗祥。"
+      ],
+      "traditional_char": "迪"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从辵，由声，本义为道、道路。‘辵’表行走，道路之义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由道路、道理引申为指引他人走上正道，即开导。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由道路、道理而引申为践行、顺行（行为）。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "从践行、实行引申为进用、进（使进入官职等）。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由道路引申为行走、出走（具体移动）。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "由道、道路引申为‘继承’即走前人的道路。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "grammaticalization",
+      "note": "本作‘道路’，后虚化为语气助词。"
+    }
+  ]
+}

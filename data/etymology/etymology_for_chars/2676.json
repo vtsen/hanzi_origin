@@ -1,0 +1,53 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "禾末，禾秆的末端部分",
+      "examples": [
+        "稻麦之稍，皆可为燃。"
+      ],
+      "traditional_char": "稍"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adverb",
+      "meaning": "略微，有一点",
+      "examples": [
+        "稍微冷一点。",
+        "稍有不慎。"
+      ],
+      "traditional_char": "稍"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "other",
+      "meaning": "军事或体操口令，如“稍息”",
+      "examples": [
+        "立正！——稍息！"
+      ],
+      "traditional_char": "稍"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从禾（表示意义，与禾相关），肖为声符，指禾秆末端。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "禾末为末端，引申为“少量”“略微”义，古今文献均有体现。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "function_word",
+      "note": "‘稍息’作军事或体操口令，从‘暂时停止’意发展而来，用作指令。"
+    }
+  ]
+}

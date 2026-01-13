@@ -1,0 +1,57 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adverb",
+      "meaning": "更，越，加倍之意。",
+      "examples": [
+        "愈甚",
+        "愈加",
+        "愈发",
+        "愈演愈烈"
+      ],
+      "traditional_char": "愈"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "痊愈，病好了。",
+      "examples": [
+        "病愈",
+        "痊愈"
+      ],
+      "traditional_char": "愈"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "较好，胜过。",
+      "examples": [
+        "孰愈",
+        "彼愈于此"
+      ],
+      "traditional_char": "愈"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "‘愈’从心，與声，本义为病愈，后引申出加倍、更等义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "由病情好转引申为状态更进一步，产生‘更、加倍’义。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "由‘更’转为比较‘较好，胜过’之意，常见于书面语。"
+    }
+  ]
+}

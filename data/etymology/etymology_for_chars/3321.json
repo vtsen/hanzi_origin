@@ -1,0 +1,110 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "多年生草本植物，地上有缠绕茎，地下块茎，可用来染棉、麻织品（如薯莨）",
+      "examples": [
+        "薯莨是一种用于染色的植物。"
+      ],
+      "traditional_char": "薯"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "薯莨的果实",
+      "examples": [],
+      "traditional_char": "薯"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "多年生草本植物，茎蔓生，块根为圆柱形，可食（如薯蓣，通称“山药”）",
+      "examples": [
+        "薯蓣可以作为山药食用。"
+      ],
+      "traditional_char": "薯"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "蔓匍匐地面的一年生或多年生草本植物，其块根可食（如甘薯，即红薯、白薯等）",
+      "examples": [
+        "甘薯也叫红薯或地瓜。"
+      ],
+      "traditional_char": "薯"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "甘薯的块根",
+      "examples": [
+        "红薯块根可作主食。"
+      ],
+      "traditional_char": "薯"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "多年生草本植物，地下块茎可食（如马铃薯，即土豆、洋芋等）",
+      "examples": [
+        "马铃薯原产南美洲，今为常见粮食作物。"
+      ],
+      "traditional_char": "薯"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "马铃薯的块茎",
+      "examples": [
+        "土豆块茎可做菜。"
+      ],
+      "traditional_char": "薯"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从艹，者声。本指薯莨等有块根之植物。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由指植物本体转指其果实。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由薯莨类植物泛指其他块根草本植物，如薯蓣。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由薯莨类泛指甘薯类块根植物。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "由植物转指其块根。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "由薯泛指块茎植物，后又指马铃薯。"
+    },
+    {
+      "source_index": 5,
+      "target_index": 6,
+      "evolution_type": "metonymy",
+      "note": "由马铃薯植物转指其块茎。"
+    }
+  ]
+}

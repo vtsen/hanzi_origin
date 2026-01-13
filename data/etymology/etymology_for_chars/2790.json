@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "富饶，丰富，财物充足。",
+      "examples": [
+        "富裕",
+        "宽裕",
+        "充裕"
+      ],
+      "traditional_char": "裕"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "宽绰，从容，不紧张费力。",
+      "examples": [
+        "应付裕如",
+        "生活裕如"
+      ],
+      "traditional_char": "裕"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [
+        "裕姓",
+        "裕先生"
+      ],
+      "traditional_char": "裕"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从衣，谷声。‘衣’表义，表示与衣物、财富有关，‘谷’表音。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由‘富裕’引申为‘从容、宽绰’，比喻心态、处事不紧张。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "conversion",
+      "note": "由形容词‘富裕’转为姓氏用法，通用汉姓。"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "禾类植物名。",
+      "examples": [],
+      "traditional_char": "秦"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "中国周代诸侯国名，位于今陕西省和甘肃省一带。",
+      "examples": [
+        "秦晋之好",
+        "朝秦暮楚"
+      ],
+      "traditional_char": "秦"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "中国朝代名，指统一六国后的秦王朝。",
+      "examples": [
+        "秦代",
+        "秦镜高悬"
+      ],
+      "traditional_char": "秦"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "中国陕西省的别称。",
+      "examples": [],
+      "traditional_char": "秦"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "“秦”会意字，从禾从舂省，表示禾类作物，后假借为国名。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "“秦”由禾名假借为地名、国名。见先秦文献。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "“秦”国后成为统一中国的中央朝代名称。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "以古国地名“秦”指代今陕西地区。"
+    }
+  ]
+}

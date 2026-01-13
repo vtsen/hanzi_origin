@@ -1,0 +1,40 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "翘起、举起。",
+      "examples": [
+        "用杠棒把东西撬起来。"
+      ],
+      "traditional_char": "撬"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "用杠棒或尖利的工具借助支点拨动或挑起东西。",
+      "examples": [
+        "把瓶盖撬开。",
+        "溜门撬锁。",
+        "把这块大石头撬下来运走。",
+        "用撬杠撬开门。"
+      ],
+      "traditional_char": "撬"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从手，毳声。本义为翘起、举起，表示用手使物体一端上翘。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_narrowing",
+      "note": "由一般的翘起、举起，专指用工具挑起、撬动之意，见于后世日常用法。"
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "装刀剑的套子",
+      "examples": [],
+      "traditional_char": "削"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "用刀斜着去掉物体的表层",
+      "examples": [
+        "削苹果皮",
+        "削铅笔"
+      ],
+      "traditional_char": "削"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "打乒乓球时用球拍平而略斜地击球",
+      "examples": [
+        "削球"
+      ],
+      "traditional_char": "削"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "减少；减弱",
+      "examples": [
+        "削减",
+        "削弱"
+      ],
+      "traditional_char": "削"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "除去",
+      "examples": [
+        "削职为民"
+      ],
+      "traditional_char": "削"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "搜刮；掠取",
+      "examples": [
+        "剥削"
+      ],
+      "traditional_char": "削"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "loan_character",
+      "original_sense_index": 0,
+      "note": "本字本义为装刀剑的套子，后借用为动词义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "由本义假借为去除物体表层的动作。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "从用刀削物发展为乒乓球术语，因动作相似。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由‘削去’引申为‘减少’。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "从‘削去’引申为‘除去’。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "metaphor",
+      "note": "由削除、去除，引申为搜刮、掠取财富。"
+    }
+  ]
+}

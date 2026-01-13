@@ -1,0 +1,52 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "分解骨肉，把肉从骨头上刮下来",
+      "examples": [
+        "把骨头上的肉剔干净。"
+      ],
+      "traditional_char": "剔"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "从缝隙或孔洞里往外挑拨东西",
+      "examples": [
+        "剔牙。"
+      ],
+      "traditional_char": "剔"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "把不好的挑出来",
+      "examples": [
+        "剔除。"
+      ],
+      "traditional_char": "剔"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从刀为意符，易为声符，表示用刀分解骨与肉。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由刮肉的动作扩展为从缝隙挑拨其他东西。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由物理上挑拨扩展为抽象意义上挑出不好的部分。"
+    }
+  ]
+}

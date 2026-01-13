@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "中医学病名，指腹泻兼有里急后重、粪便夹有脓血、黏液等症状的疾病，今常指“痢疾”。",
+      "examples": [
+        "凡山水甚强寒，饮之皆令人痢。——曹操《魏武令》",
+        "孝宗尝患痢，众医不效，德寿忧之。"
+      ],
+      "traditional_char": "痢"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "指某些肠道传染病，症状为大便频繁，腹痛，发热，粪便带脓、血和黏液等。",
+      "examples": [
+        "禁口痢、红痢、赤痢、赤白痢等均属此类。"
+      ],
+      "traditional_char": "痢"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "other",
+      "meaning": "见“瘌痢”，多指“瘌痢头”一词，特指头部皮肤病。",
+      "examples": [
+        "瘌痢头",
+        "瘌痢"
+      ],
+      "traditional_char": "痢"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从疒，利声，表示与疾病相关，初指痢疾一类肠道病。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "范畴扩大，由专指痢疾逐渐泛指多种肠道传染病。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "转指带“痢”症状的皮肤病或头部疾病，如“瘌痢头”，用法出现于后世俗语。"
+    }
+  ]
+}

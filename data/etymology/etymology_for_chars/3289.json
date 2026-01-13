@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "气不通，心中闷塞。",
+      "examples": [
+        "他一直憋着气没有发作。",
+        "这屋里太闷，我有点憋得慌。"
+      ],
+      "traditional_char": "憋"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "勉强忍住（言语、情感等）。",
+      "examples": [
+        "他说话总是憋不住。",
+        "他憋了一肚子气。"
+      ],
+      "traditional_char": "憋"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从心，敝声，表示因心情性急或心理不畅而憋闷，‘心’表义，‘敝’表音。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘心中闷塞’引申为‘强忍不发’，两者常见于口语表达。"
+    }
+  ]
+}

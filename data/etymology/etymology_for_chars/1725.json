@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "大便，粪。",
+      "examples": [
+        "牛屎",
+        "人屎",
+        "屎尿"
+      ],
+      "traditional_char": "屎"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "眼、耳分泌的排泄物，如眼屎、耳屎。",
+      "examples": [
+        "眼屎",
+        "耳屎"
+      ],
+      "traditional_char": "屎"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "讽刺、嘲笑某事物低下、不成体统。",
+      "examples": [
+        "屎棋",
+        "屎诗"
+      ],
+      "traditional_char": "屎"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从尸，米声，本义为大便。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "以排泄物泛指眼、耳等人体排出之分泌物，汉语常用类推。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "pejoration",
+      "note": "引申为贬义，比喻低劣、恶劣的事物。"
+    }
+  ]
+}

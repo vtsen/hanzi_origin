@@ -1,0 +1,41 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "水面振荡起伏的现象，波浪",
+      "examples": [
+        "波浪",
+        "波涛",
+        "波光粼粼"
+      ],
+      "traditional_char": "波"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "振动在物质中的传播，如电磁波、光波、声波等",
+      "examples": [
+        "电波",
+        "光波",
+        "超声波"
+      ],
+      "traditional_char": "波"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，皮声，本义即为水面起伏之波浪。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由水面振荡引申为物理学中各种传播振动现象，近现代物理学兴起时出现。"
+    }
+  ]
+}

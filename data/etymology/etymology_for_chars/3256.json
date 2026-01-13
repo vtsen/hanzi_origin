@@ -1,0 +1,167 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "压制，按下、压住。",
+      "examples": [
+        "镇尺",
+        "镇痛"
+      ],
+      "traditional_char": "鎮"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "以武力维持安定，平定、镇压。",
+      "examples": [
+        "镇压",
+        "镇反"
+      ],
+      "traditional_char": "鎮"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "安定、使安定。",
+      "examples": [
+        "镇静",
+        "镇定"
+      ],
+      "traditional_char": "鎮"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "军事上的要地、重要防守点。",
+      "examples": [
+        "边防重镇"
+      ],
+      "traditional_char": "鎮"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "中国县以下的行政区划单位。",
+      "examples": [
+        "乡镇",
+        "镇政府"
+      ],
+      "traditional_char": "鎮"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "较大的集市或村落聚集地。",
+      "examples": [
+        "城镇",
+        "村镇"
+      ],
+      "traditional_char": "鎮"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "使饮料等降温变凉。",
+      "examples": [
+        "冰镇"
+      ],
+      "traditional_char": "鎮"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "noun",
+      "meaning": "一整段时间。",
+      "examples": [
+        "镇日"
+      ],
+      "traditional_char": "鎮"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "adverb",
+      "meaning": "时常。",
+      "examples": [
+        "十年镇相随"
+      ],
+      "traditional_char": "鎮"
+    },
+    {
+      "index": 9,
+      "part_of_speech": "noun",
+      "meaning": "明清两代军队的编制单位。",
+      "examples": [],
+      "traditional_char": "鎮"
+    },
+    {
+      "index": 10,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [],
+      "traditional_char": "鎮"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘鎮’为形声字，从金，真声，本义为压（以重物压住），右边‘真’表声，左为‘金’表示与金属相关。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“压住”引申为用武力压制维持安定。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由“压住”引申为“使安定”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "semantic_extension",
+      "note": "用压制的方式使饮料等变凉，出现“冰镇”之意。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "由“压制”引申为军事要地，用于安定一方局势。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "军事要地进而成为行政区划单位。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "由官办区域意义引申为较大集镇、市集等。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 7,
+      "evolution_type": "metaphor",
+      "note": "镇有贯穿、持续之意，比喻整段时期。"
+    },
+    {
+      "source_index": 7,
+      "target_index": 8,
+      "evolution_type": "semantic_extension",
+      "note": "由表示整段时间转为表示频率‘时常’。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 9,
+      "evolution_type": "semantic_extension",
+      "note": "军事要地引申为军队编制单位。"
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "指派，发号施令",
+      "examples": [
+        "命官",
+        "命令"
+      ],
+      "traditional_char": "命"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "上级对下级的指示",
+      "examples": [
+        "遵命",
+        "奉命",
+        "命令"
+      ],
+      "traditional_char": "命"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "给予（名称等）",
+      "examples": [
+        "命名",
+        "命题",
+        "命意"
+      ],
+      "traditional_char": "命"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "生命，生存能力",
+      "examples": [
+        "生命",
+        "救命",
+        "性命",
+        "拼命"
+      ],
+      "traditional_char": "命"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "命运；天命（迷信认为生来注定的寿命或遭遇）",
+      "examples": [
+        "天命",
+        "命运",
+        "命相"
+      ],
+      "traditional_char": "命"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意字，从“口”与“令”，表示用口发布命令。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_narrowing",
+      "note": "从一般发号施令引申为专指上级对下级的指示。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "从“指派”引申为“给予名称、命题”等。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "生命被比喻为天所赋予的人生‘命令’。古已有‘受命于天’语。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "从‘生命’进一步扩展为‘天命’、‘命运’等抽象含义。"
+    }
+  ]
+}

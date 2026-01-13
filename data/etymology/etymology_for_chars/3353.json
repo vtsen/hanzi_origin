@@ -1,0 +1,38 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "黑色",
+      "examples": [
+        "黔首"
+      ],
+      "traditional_char": "黔"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "中国贵州省的别称",
+      "examples": [
+        "黔剧",
+        "黔驴技穷"
+      ],
+      "traditional_char": "黔"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从黑，今声，本义为黑色。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "贵州古为夜郎地，古人以地名『黔』，据水色深黑，省区因此得名。"
+    }
+  ]
+}

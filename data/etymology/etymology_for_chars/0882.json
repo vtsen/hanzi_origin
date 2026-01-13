@@ -1,0 +1,79 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "完结，终了",
+      "examples": [
+        "山穷水尽",
+        "日暮途穷"
+      ],
+      "traditional_char": "窮"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "达到极点，穷尽究竟",
+      "examples": [
+        "穷目",
+        "穷究",
+        "穷物之理"
+      ],
+      "traditional_char": "窮"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "缺乏财物，贫穷",
+      "examples": [
+        "贫穷",
+        "穷苦",
+        "穷则思变"
+      ],
+      "traditional_char": "窮"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "处境恶劣，困苦",
+      "examples": [
+        "穷困",
+        "穷当益坚",
+        "穷而后工"
+      ],
+      "traditional_char": "窮"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘窮’为形声字，从穴，躬声，表示人身处穴中，无路可走，表示穷尽、终结。"
+    },
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "‘穷’为简化字，会意，力在穴下，表示困窘、无力使出，仍指穷尽。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从‘完结’引申为‘事物发展到极点’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "比喻物质耗尽，对应‘贫穷’。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "从‘贫穷’引申为‘处境困苦’。"
+    }
+  ]
+}

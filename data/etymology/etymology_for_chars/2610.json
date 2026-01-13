@@ -1,0 +1,115 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "手心，手掌部位",
+      "examples": [
+        "掌心",
+        "鼓掌",
+        "反掌而得"
+      ],
+      "traditional_char": "掌"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "脚心，脚底部位",
+      "examples": [
+        "脚掌",
+        "易如反掌"
+      ],
+      "traditional_char": "掌"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "用巴掌打人",
+      "examples": [
+        "掌嘴",
+        "他被老师掌了一下"
+      ],
+      "traditional_char": "掌"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "把握，掌控，主持",
+      "examples": [
+        "掌管",
+        "掌权",
+        "掌柜"
+      ],
+      "traditional_char": "掌"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "鞋底或牲口蹄子的底垫",
+      "examples": [
+        "鞋掌",
+        "马掌儿"
+      ],
+      "traditional_char": "掌"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "历史人物、制度等的故事或传说（掌故）",
+      "examples": [
+        "掌故知识",
+        "掌故丛谈"
+      ],
+      "traditional_char": "掌"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "掌某",
+        "掌先生"
+      ],
+      "traditional_char": "掌"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从手，尚声。本义为手心。‘手’表义，‘尚’表音。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "analogy",
+      "note": "由手掌类比引申为脚掌。古今皆有相应用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由“手掌”为名词，引申为用手掌打人的动作。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "比喻手掌能握持事物，引申为主持、掌控。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "由手掌形状或功能比喻鞋底或马掌。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "unknown",
+      "note": "“掌故”义的来源不明，多认为与主管记事相关。"
+    }
+  ]
+}

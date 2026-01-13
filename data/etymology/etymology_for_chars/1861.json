@@ -1,0 +1,57 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "嘴的边缘红色部分，嘴唇",
+      "examples": [
+        "嘴唇",
+        "唇膏",
+        "唇裂",
+        "唇吻"
+      ],
+      "traditional_char": "唇"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "唇齿，比喻关系密切、共同利害的双方",
+      "examples": [
+        "唇齿之谊",
+        "唇亡齿寒"
+      ],
+      "traditional_char": "唇"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "唇舌，比喻言辞、口才",
+      "examples": [
+        "唇舌",
+        "唇吻（指口才、言辞）"
+      ],
+      "traditional_char": "唇"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从口，辰声，表示嘴的边缘部位（嘴唇）"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "以唇与齿的关系比喻双方关系密切，古已有之"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "以唇与舌的动作转指言谈、口才，常见于书面语"
+    }
+  ]
+}

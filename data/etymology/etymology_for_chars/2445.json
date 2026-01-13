@@ -1,0 +1,75 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "骡马等因为害怕而狂奔起来不受控制",
+      "examples": [
+        "马惊车败",
+        "惊群"
+      ],
+      "traditional_char": "驚"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "害怕，精神受了突然刺激而紧张不安",
+      "examples": [
+        "惊恐",
+        "惊骇",
+        "惊愕",
+        "惊惶失措"
+      ],
+      "traditional_char": "驚"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "震动",
+      "examples": [
+        "惊动",
+        "惊扰",
+        "惊堂木",
+        "打草惊蛇"
+      ],
+      "traditional_char": "驚"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "出人意料的",
+      "examples": [
+        "惊喜",
+        "惊人"
+      ],
+      "traditional_char": "驚"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从马，敬声，表示马因受惊而狂奔。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由表示马受惊推广到人精神上的惊惧。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "精神受刺激的‘震动’比喻引申到普通事务的‘震动’。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "比喻心中震撼为‘出人意料的’，如‘惊喜’。"
+    }
+  ]
+}

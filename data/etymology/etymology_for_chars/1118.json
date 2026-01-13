@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "积存，储存物品或财物。",
+      "examples": [
+        "贮存粮食",
+        "库中贮银"
+      ],
+      "traditional_char": "貯"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "收藏，藏匿财物。",
+      "examples": [
+        "深山贮宝",
+        "贮藏文物"
+      ],
+      "traditional_char": "貯"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从贝，宁声，贝表示与财物相关，宁表音。本义为积存、储存。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“储存”扩展到更泛的“收藏”义，古今沿用。"
+    }
+  ]
+}

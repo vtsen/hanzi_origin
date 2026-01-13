@@ -1,0 +1,53 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "眼皮微微合拢。",
+      "examples": [
+        "笑眯了眼",
+        "眯缝双目"
+      ],
+      "traditional_char": "眯"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "小睡。",
+      "examples": [
+        "眯一会儿"
+      ],
+      "traditional_char": "眯"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "尘土入眼，不能睁开看东西。",
+      "examples": [
+        "让沙子眯了眼睛"
+      ],
+      "traditional_char": "眯"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，形旁为“目”表示与眼睛有关，声旁为“米”或表示音读。最初用于表示眼睛微合。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由眼皮微合引申为闭目休息，现代汉语常用。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由眼睛微闭转指因异物入眼而无法睁眼，用法有所变化。"
+    }
+  ]
+}

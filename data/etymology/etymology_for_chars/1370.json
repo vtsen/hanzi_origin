@@ -1,0 +1,83 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "颈的后部，泛指脖子",
+      "examples": [
+        "颈项",
+        "项链",
+        "项缩",
+        "强项"
+      ],
+      "traditional_char": "項"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "measure_word",
+      "meaning": "分类的条目，用作量词",
+      "examples": [
+        "项目",
+        "事项"
+      ],
+      "traditional_char": "項"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "钱款，经费",
+      "examples": [
+        "款项",
+        "进项",
+        "存项"
+      ],
+      "traditional_char": "項"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "数学中代数式中不用加、减号连接的单式",
+      "examples": [
+        "4ａｘ2是一个项"
+      ],
+      "traditional_char": "項"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "项羽",
+        "项斯"
+      ],
+      "traditional_char": "項"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字。从页（与头部有关）作意符，工作声符，最初表示颈部之义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由脖子的分段引申为条目分类单位，早见于秦汉时期文献。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由“分类条目”引申为款项等具体条目。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由“分类条目”进一步比喻为数学式中的项。"
+    }
+  ]
+}

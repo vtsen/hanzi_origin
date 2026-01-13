@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "没入水中并在水下活动",
+      "examples": [
+        "他能够在水中潜行很久。",
+        "鱼在水里潜游。"
+      ],
+      "traditional_char": "潛"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "隐藏，秘密进行",
+      "examples": [
+        "潜伏",
+        "潜藏",
+        "间谍潜入城市内部。"
+      ],
+      "traditional_char": "潛"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "潜先生",
+        "潜氏家族"
+      ],
+      "traditional_char": "潛"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，水为意符，替为声符，表示与水相关的行为，初本义为在水下活动。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由在水下隐藏活动，引申为秘密、隐藏、暗中进行等抽象含义。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "conversion",
+      "note": "本义作为姓氏使用，无语义演变，仅属专有名词化。"
+    }
+  ]
+}

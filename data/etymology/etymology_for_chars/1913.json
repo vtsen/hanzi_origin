@@ -1,0 +1,52 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "痛苦时发出的声音或呻吟声。",
+      "examples": [
+        "他的伤很重，但没哼一声。"
+      ],
+      "traditional_char": "哼"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "轻声哼唱，随口低声地唱。",
+      "examples": [
+        "他经常哼着小曲。"
+      ],
+      "traditional_char": "哼"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "interjection",
+      "meaning": "表示不满、不屑或不相信的鼻音或声音。",
+      "examples": [
+        "哼，我才不理他！"
+      ],
+      "traditional_char": "哼"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从口，亨声，表示口中发出的声音，最初为表示痛苦呻吟。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "声音的表现由痛苦呻吟扩展为哼唱小曲，用于轻声歌唱。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "借用痛苦或不满发出的声音，引申为表达不满或不屑的鼻音。"
+    }
+  ]
+}

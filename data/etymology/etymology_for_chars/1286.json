@@ -1,0 +1,60 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "按照预定的想法非正式地做，尝试。",
+      "examples": [
+        "试车",
+        "试图",
+        "试航",
+        "试问",
+        "尝试",
+        "试金石"
+      ],
+      "traditional_char": "試"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "考查、测验知识或能力。",
+      "examples": [
+        "考试",
+        "试场",
+        "试卷",
+        "试题",
+        "口试",
+        "笔试"
+      ],
+      "traditional_char": "試"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "用、任用（本义）。",
+      "examples": [],
+      "traditional_char": "試"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 2,
+      "note": "形声字，从言，式声，本义为用、任用。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 2,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "用、任用引申为尝试、实行某事。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "尝试具体化，指考查、测验。"
+    }
+  ]
+}

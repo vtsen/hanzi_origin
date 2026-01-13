@@ -1,0 +1,70 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "布帛的宽度",
+      "examples": [
+        "宽幅",
+        "双幅"
+      ],
+      "traditional_char": "幅"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "泛指事物的宽度",
+      "examples": [
+        "幅度",
+        "振幅"
+      ],
+      "traditional_char": "幅"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "边缘，边界",
+      "examples": [
+        "边幅"
+      ],
+      "traditional_char": "幅"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "measure_word",
+      "meaning": "量词，用于布帛、图画等",
+      "examples": [
+        "一幅画",
+        "三幅布"
+      ],
+      "traditional_char": "幅"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从巾，畐声。‘巾’表与布帛相关，‘畐’兼表音与‘满’之义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由专指布帛宽度推广至一般宽度，语义扩大"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "以宽度引申指向事物的边缘或界限"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "grammaticalization",
+      "note": "由表示宽度的名词转为布、画等的量词用法"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "寻找，查找事物或信息。",
+      "examples": [
+        "搜集资料",
+        "搜寻失物",
+        "搜求真理"
+      ],
+      "traditional_char": "搜"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "检查，特别指通过详细查找来发现或捕捉人或物。",
+      "examples": [
+        "搜查犯罪现场",
+        "搜身",
+        "搜捕逃犯"
+      ],
+      "traditional_char": "搜"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从手，叟声，本义为搜寻、寻找。‘手’表示与手的动作相关，‘叟’为声旁。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘寻找’进一步引申为‘检查、查验’，已见汉代文献。"
+    }
+  ]
+}

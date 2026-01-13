@@ -1,0 +1,41 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "锦鸡、山鸡等鸟类，尤指其长而坚硬的羽毛",
+      "examples": [
+        "翰林之凤",
+        "理翩振翰"
+      ],
+      "traditional_char": "翰"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "毛笔或借指书法、诗文等",
+      "examples": [
+        "翰苑",
+        "翰墨",
+        "翰藻",
+        "修翰寄情"
+      ],
+      "traditional_char": "翰"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从羽，倝声。原指鸟类羽毛，尤其指锦鸡或山鸡的长羽。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由长而坚硬之羽，转指作为书写工具的毛笔及诗文。此用法出现于汉以后。"
+    }
+  ]
+}

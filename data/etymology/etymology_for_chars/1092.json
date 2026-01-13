@@ -1,0 +1,121 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "重要的文献、典籍",
+      "examples": [
+        "引经据典",
+        "经史子集皆为国之大典"
+      ],
+      "traditional_char": "典"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "可以作为标准的书籍",
+      "examples": [
+        "字典",
+        "词典",
+        "这本词典很权威"
+      ],
+      "traditional_char": "典"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "标准，法则",
+      "examples": [
+        "典章",
+        "典制",
+        "典范",
+        "典雅"
+      ],
+      "traditional_char": "典"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "典礼，隆重仪式",
+      "examples": [
+        "盛典",
+        "开幕典礼",
+        "大典"
+      ],
+      "traditional_char": "典"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "主持，主管",
+      "examples": [
+        "典试",
+        "典狱"
+      ],
+      "traditional_char": "典"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "活买活卖，抵押，到期可以赎回",
+      "examples": [
+        "典卖",
+        "典押",
+        "典契"
+      ],
+      "traditional_char": "典"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [],
+      "traditional_char": "典"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "上部为“册”表示文书，下面‘大’表示重要，表示重要的文献。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由总称重要文献泛指为标准性文献。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "将“标准的书”引申为“标准、法则”抽象义。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "以标准的仪式流程，引申为典礼。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "标准、规范引申为管理、主持规范之意。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "semantic_shift",
+      "note": "“典卖”义为古义的借贷、典当行为，脱离原强调文献之义。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "conversion",
+      "note": "由词义转为姓氏。"
+    }
+  ]
+}

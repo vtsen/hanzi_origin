@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "大，巨大",
+      "examples": [
+        "硕果累累",
+        "硕材",
+        "硕大无朋",
+        "硕老"
+      ],
+      "traditional_char": "碩"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "学位名，高于“学士”",
+      "examples": [
+        "硕士研究生",
+        "获得硕士学位"
+      ],
+      "traditional_char": "碩"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "古同“石”，坚固",
+      "examples": [],
+      "traditional_char": "碩"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从页，石声。‘页’指头，‘石’表声，本义为头大。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“巨大”扩展为“硕士”（比喻学业修养深厚），汉代以后"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "unknown",
+      "note": "与‘石’音近，表示坚固，有古文通假现象"
+    }
+  ]
+}

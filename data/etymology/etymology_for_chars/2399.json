@@ -1,0 +1,38 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "羚羊，一种哺乳动物，反刍偶蹄类，毛灰黄色，角细长可入药。",
+      "examples": [
+        "羚羊挂角，难觅踪迹。",
+        "非洲有多种羚羊。"
+      ],
+      "traditional_char": "羚"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "小羊，羔羊。",
+      "examples": [
+        "羚，羊子。——《玉篇》"
+      ],
+      "traditional_char": "羚"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从羊，霝声，最初表示‘羚羊’这种动物。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_narrowing",
+      "note": "古籍中出现‘小羊’用法，后由‘羚羊’泛指至小羊，见于《玉篇》。"
+    }
+  ]
+}

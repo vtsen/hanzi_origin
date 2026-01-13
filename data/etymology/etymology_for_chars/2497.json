@@ -1,0 +1,40 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "衣服缝线脱落而裂开，引申为显露、裂开",
+      "examples": [
+        "衣服绽开了。",
+        "绽裂",
+        "绽放",
+        "皮开肉绽"
+      ],
+      "traditional_char": "綻"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "缝补，缝纫",
+      "examples": [
+        "新衣谁当绽。"
+      ],
+      "traditional_char": "綻"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从糸，定声，表示缝线开裂，与衣服相关。本义即指衣缝线开裂。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "conversion",
+      "note": "由“开裂”引伸为“缝补”，语义反转用法，古汉语用例所见。"
+    }
+  ]
+}

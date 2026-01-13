@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "车箱，车上的盛物部分",
+      "examples": [
+        "驾车箱而行",
+        "楚人有箱而行者"
+      ],
+      "traditional_char": "箱"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "收藏衣物等物品的方形器具，通常有盖",
+      "examples": [
+        "箱子里有很多衣服",
+        "衣箱已经锁好"
+      ],
+      "traditional_char": "箱"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "像箱子的器具，如冰箱、邮箱等",
+      "examples": [
+        "信箱满了",
+        "冰箱需要清理"
+      ],
+      "traditional_char": "箱"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "同“厢”，侧室、侧部",
+      "examples": [
+        "东箱西箱皆有人",
+        "箱房寂静"
+      ],
+      "traditional_char": "箱"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从竹，‘相’声，表与竹制盛物相关，原指车箱。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘车箱’泛指为收纳物品的箱子，多为竹木制；见中古以降。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由传统箱子外延到各种类似形状的现代容器，如冰箱、邮箱，20世纪新发展。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "‘箱’借用于‘厢’义，见清代之前多有通用，属音近通假。"
+    }
+  ]
+}

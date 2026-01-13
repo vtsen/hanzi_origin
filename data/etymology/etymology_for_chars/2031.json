@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "因病、刺激或创伤而起的难受的感觉",
+      "examples": [
+        "头疼",
+        "伤口很疼"
+      ],
+      "traditional_char": "疼"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "喜爱，爱惜",
+      "examples": [
+        "疼爱孩子",
+        "妈妈很疼我"
+      ],
+      "traditional_char": "疼"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从疒，冬声，本义为身体因病或受刺激产生的痛苦感觉。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由身体的痛感喻指心理上的疼爱与爱惜，义项出现于后期白话语境。"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "做，干，办；执行某项事务或活动。",
+      "examples": [
+        "搞建设",
+        "搞研究",
+        "搞生产"
+      ],
+      "traditional_char": "搞"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "弄，使发生（常含不正当或带有贬义的意味）。",
+      "examples": [
+        "搞鬼",
+        "搞小动作"
+      ],
+      "traditional_char": "搞"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从手，高声，意指用手做事。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "原表示单纯做、办，后引申为暗中弄、搞鬼等含贬义用法。"
+    }
+  ]
+}

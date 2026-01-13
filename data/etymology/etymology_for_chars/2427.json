@@ -1,0 +1,65 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "浇灌，用水浇洒土地等",
+      "examples": [
+        "淳而渍之"
+      ],
+      "traditional_char": "淳"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "朴实，敦厚",
+      "examples": [
+        "淳朴",
+        "淳厚",
+        "淳风"
+      ],
+      "traditional_char": "淳"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "成对的、成双的",
+      "examples": [],
+      "traditional_char": "淳"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "古同“醇”，味道纯厚（指酒等）",
+      "examples": [],
+      "traditional_char": "淳"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，享声，本义为‘浇灌’"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由水润物之意，引申为品德的淳厚朴实，见先秦文献"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "unknown",
+      "note": "成对义的派生机制不明，见于部分辞书载"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "‘淳’与‘醇’音近，义可通借指味道醇厚"
+    }
+  ]
+}

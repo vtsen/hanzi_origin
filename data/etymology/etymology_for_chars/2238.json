@@ -1,0 +1,85 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "正房前两侧的房屋（东西廊、侧屋）",
+      "examples": [
+        "东厢房",
+        "西厢房"
+      ],
+      "traditional_char": "廂"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "某一边，方面",
+      "examples": [
+        "这厢",
+        "那厢"
+      ],
+      "traditional_char": "廂"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "靠近城的地区",
+      "examples": [
+        "城厢",
+        "关厢"
+      ],
+      "traditional_char": "廂"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "戏院或影院里分隔出的座位区域",
+      "examples": [
+        "包厢"
+      ],
+      "traditional_char": "廂"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "车辆中容纳人或货物的空间",
+      "examples": [
+        "车厢"
+      ],
+      "traditional_char": "廂"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从厂(表建筑相关), 相(声旁), 本义为东西廊（侧房）。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由厢房引申为某一侧、某一方，空间隐喻。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由房屋之厢引申为城市近郊区域，如“城厢”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由房屋隔间引申为戏院影院的隔间。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由侧房引申为车辆内的隔间空间。"
+    }
+  ]
+}

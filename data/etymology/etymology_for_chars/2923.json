@@ -1,0 +1,67 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "蜗牛，一种软体动物，有螺旋形扁圆的硬壳，头部有两对触角。",
+      "examples": [
+        "墙角有一只蜗牛慢慢爬行。"
+      ],
+      "traditional_char": "蝸"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "蜗居，比喻窄小的住所。",
+      "examples": [
+        "他住在城市边缘的蜗居里。"
+      ],
+      "traditional_char": "蝸"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "蜗螺，一种软体动物，壳如笋状，螺层长，壳顶尖，多生活于湖池中。",
+      "examples": [
+        "湖中生长着许多蜗螺。"
+      ],
+      "traditional_char": "蝸"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "蜗蠃，一种软体动物，壳淡玳瑁色，壳口边缘略翻出，多生活于湖溪中，亦称“螺蛳”。",
+      "examples": [
+        "溪水里有许多蜗蠃。"
+      ],
+      "traditional_char": "蝸"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“蝸”为形声字，从虫，咼声，表示虫类动物，最早指蜗牛。简化字“蜗”与“蝸”构形及本义相同。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由蜗牛壳狭小引申比喻，形成‘蜗居’义。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "‘蜗’义泛指形态或类别相近的软体动物‘蜗螺’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "‘蜗’义泛指类似壳体的软体动物种类‘蜗蠃’。"
+    }
+  ]
+}

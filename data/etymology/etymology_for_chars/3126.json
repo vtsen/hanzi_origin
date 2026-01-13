@@ -1,0 +1,53 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "官员，官职",
+      "examples": [
+        "官僚",
+        "仕为僚佐"
+      ],
+      "traditional_char": "僚"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "同事，尤其指同僚（一起做官的人）",
+      "examples": [
+        "僚友",
+        "僚佐",
+        "幕僚"
+      ],
+      "traditional_char": "僚"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "古代对某种奴隶或差役的称呼",
+      "examples": [],
+      "traditional_char": "僚"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从人，尞声，表示与官员、官职有关的意义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“官员”义扩展为“同僚”，主要见于古代官场语境。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "语义转变为对奴隶或差役的称呼，具体发展过程有待进一步考证。"
+    }
+  ]
+}

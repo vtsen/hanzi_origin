@@ -1,0 +1,95 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "水积聚的地方，如池沼、湿地。",
+      "examples": [
+        "湖泽",
+        "沼泽",
+        "大泽"
+      ],
+      "traditional_char": "澤"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "金属或其他物体发出的光亮，光泽。",
+      "examples": [
+        "光泽",
+        "色泽"
+      ],
+      "traditional_char": "澤"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "恩惠，利益。",
+      "examples": [
+        "恩泽",
+        "泽及枯骨"
+      ],
+      "traditional_char": "澤"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "洗濯，清洗。",
+      "examples": [],
+      "traditional_char": "澤"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "汗衣，内衣。",
+      "examples": [],
+      "traditional_char": "澤"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "解散，分解（古同“释”）。",
+      "examples": [],
+      "traditional_char": "澤"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "“澤”为形声字，从水，睪声，本义为光泽、润泽，既可指水润之地或物体表面之润。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "metonymy",
+      "note": "由表面光泽引申为水湿润聚集之地，古代地名常由此得名。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由物体润泽、光亮引申为恩惠、利益，如同滋润草木。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由水聚集之地引申为用水清洗。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "由洗濯引申至贴身汗衣、内衣，因需常洗濯。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "unknown",
+      "note": "“泽”通“释”，表示解散，此处语音借用，字源关系不明。"
+    }
+  ]
+}

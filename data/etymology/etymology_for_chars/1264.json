@@ -1,0 +1,160 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古水名，治水的地方",
+      "examples": [
+        "治，水名，在山西。",
+        "治水之策。"
+      ],
+      "traditional_char": "治"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "治理水流，整治河道",
+      "examples": [
+        "禹治水有功。",
+        "治河安澜。"
+      ],
+      "traditional_char": "治"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "管理，处理事务",
+      "examples": [
+        "治理国家。",
+        "统一治标。"
+      ],
+      "traditional_char": "治"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "惩办犯错、违法的人",
+      "examples": [
+        "治罪。",
+        "依法治人。"
+      ],
+      "traditional_char": "治"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "医疗疾病",
+      "examples": [
+        "治病救人。",
+        "诊治患者。"
+      ],
+      "traditional_char": "治"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "消灭病虫害",
+      "examples": [
+        "治蝗。",
+        "治虫防病。"
+      ],
+      "traditional_char": "治"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "从事某种学问的研究",
+      "examples": [
+        "治学严谨。",
+        "治史有功。"
+      ],
+      "traditional_char": "治"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "adjective",
+      "meaning": "安定（形容社会状态）",
+      "examples": [
+        "治世。",
+        "天下大治。"
+      ],
+      "traditional_char": "治"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "noun",
+      "meaning": "旧时指地方政府所在地",
+      "examples": [
+        "府治。",
+        "治所设于此地。"
+      ],
+      "traditional_char": "治"
+    },
+    {
+      "index": 9,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "治先生。"
+      ],
+      "traditional_char": "治"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，台声。本义为水名或治水之处，是音近意合的形声构造。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由水名引申为治水、整治水域，古代专指治理水患，见《说文》。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由治理水流的具体行为比喻引申为一般意义上的治理、管理社会。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 7,
+      "evolution_type": "semantic_extension",
+      "note": "由‘治理’引伸出‘社会安定’这一抽象状态。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "‘管理’引申为‘惩办’——对事务的处理和裁决。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "由治理河流，比喻医师治理体内的病理问题。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "由医治扩展到对农田病虫害的防治。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 6,
+      "evolution_type": "semantic_extension",
+      "note": "‘治理事务’引申为‘治学问’，即专注致力于某一学科。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 8,
+      "evolution_type": "metonymy",
+      "note": "‘治理的中心地点’用以指代地方行政中心。"
+    }
+  ]
+}

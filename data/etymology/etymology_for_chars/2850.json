@@ -1,0 +1,51 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "缰绳；缰绳的末端部分（辔首垂下部，即辔革）",
+      "examples": [],
+      "traditional_char": "靶"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "射击或射箭用的目标物",
+      "examples": [
+        "靶场上大家正在射击靶子。",
+        "打靶"
+      ],
+      "traditional_char": "靶"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "供加速器、反应堆等用来轰击和研究的实物样品",
+      "examples": [
+        "加速器实验中通常用金属靶。"
+      ],
+      "traditional_char": "靶"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从革（表与皮革有关），巴声，本指缰绳末端。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "以末端突出部分比喻为目标物，起初用于射击目标。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "“靶”指目标义扩展到科学实验中被轰击的样品。"
+    }
+  ]
+}

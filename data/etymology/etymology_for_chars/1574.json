@@ -1,0 +1,57 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "进入（尤指敌人侵入、外来或有害事物入内）",
+      "examples": [
+        "侵害",
+        "侵略",
+        "侵染",
+        "敌军侵入国境"
+      ],
+      "traditional_char": "侵"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "渐近，逐渐逼近",
+      "examples": [
+        "侵晨",
+        "侵晓",
+        "侵早"
+      ],
+      "traditional_char": "侵"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "荒年，指五谷不生的歉收年",
+      "examples": [
+        "五谷不生，谓之大侵"
+      ],
+      "traditional_char": "侵"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 1,
+      "note": "会意字，从“人”与“手（又）”和“帚”组合，表示人手持扫帚逐步前进，原指渐进。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "metaphor",
+      "note": "由“渐近”引申为敌人或有害事物慢慢进入或侵入。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "‘渐进’意义转化为‘灾害逐步逼近’，古代将歉收年称为“大侵”。"
+    }
+  ]
+}

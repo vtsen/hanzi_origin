@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "狂乱、迷乱的样子",
+      "examples": [
+        "恍惚而迷",
+        "怳然若失"
+      ],
+      "traditional_char": "恍"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adverb",
+      "meaning": "忽然，突然",
+      "examples": [
+        "恍然大悟"
+      ],
+      "traditional_char": "恍"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adverb",
+      "meaning": "仿佛，像是",
+      "examples": [
+        "恍如隔世",
+        "恍惚之间"
+      ],
+      "traditional_char": "恍"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从心，況（怳）为声，本义和古音相关。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_shift",
+      "note": "由‘迷乱’转为‘突然’，见于文学作品中的语境演变。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由‘迷乱’的原义引申出‘好像/仿佛’，汉魏以后常见。"
+    }
+  ]
+}

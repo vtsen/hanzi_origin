@@ -1,0 +1,73 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "管乐器，特指竹制吹奏乐器，后泛指各种吹奏乐器",
+      "examples": [
+        "管乐器",
+        "笛、箫等皆属管"
+      ],
+      "traditional_char": "管"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "圆而细长中空的物体",
+      "examples": [
+        "管道",
+        "气管",
+        "针管",
+        "血管"
+      ],
+      "traditional_char": "管"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "形状像管的电子器件",
+      "examples": [
+        "电子管",
+        "晶体管"
+      ],
+      "traditional_char": "管"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "管理，负责",
+      "examples": [
+        "管理",
+        "他来管这件事"
+      ],
+      "traditional_char": "管"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从竹，官声，表示一种竹制乐器。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由竹制管状乐器引申为任何中空的长条形物体。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "analogy",
+      "note": "现代技术发展，将形状像管的电子器件比喻为‘管’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "古人因乐器中‘管’有分配（管弦）之义，引申为管理、负责。"
+    }
+  ]
+}

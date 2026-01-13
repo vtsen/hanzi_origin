@@ -1,0 +1,68 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "说明，使人了解",
+      "examples": [
+        "晓喻",
+        "喻之以理"
+      ],
+      "traditional_char": "喻"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "比方，譬喻",
+      "examples": [
+        "比喻",
+        "譬喻"
+      ],
+      "traditional_char": "喻"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "明白，了解",
+      "examples": [
+        "不言而喻",
+        "家喻户晓"
+      ],
+      "traditional_char": "喻"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [],
+      "traditional_char": "喻"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从口，俞声，表示与口语表达相关，本义为通知、说明。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "通过‘说明’引申为‘用比喻说明’，形成‘比方’之义。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "原本‘说明’引申为‘明白、了解’，见现代用法‘不言而喻’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "unknown",
+      "note": "转为姓氏用法，常见名词化，机制不详。"
+    }
+  ]
+}

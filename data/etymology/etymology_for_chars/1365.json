@@ -1,0 +1,129 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "借助绳索、钩子等使物体悬在高处或连到另一物体上",
+      "examples": [
+        "把衣服挂在衣架上",
+        "墙上挂着一幅画"
+      ],
+      "traditional_char": "掛"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "钩住，勾连",
+      "examples": [
+        "衣服被钉子挂住了"
+      ],
+      "traditional_char": "掛"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "牵记，牵连，牵累",
+      "examples": [
+        "挂念亲人",
+        "挂连关系"
+      ],
+      "traditional_char": "掛"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "登记，记载",
+      "examples": [
+        "挂号信",
+        "挂失手机"
+      ],
+      "traditional_char": "掛"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "打电话，或放下听筒中止通话",
+      "examples": [
+        "给他挂个电话",
+        "挂断电话"
+      ],
+      "traditional_char": "掛"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "物体表面蒙上或糊着",
+      "examples": [
+        "脸上像挂了一层霜"
+      ],
+      "traditional_char": "掛"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "measure_word",
+      "meaning": "量词，多用于成套或成串的东西",
+      "examples": [
+        "一挂珠子"
+      ],
+      "traditional_char": "掛"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "verb",
+      "meaning": "区别，区分（本义，今罕用）",
+      "examples": [],
+      "traditional_char": "掛"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 7,
+      "note": "形声字，从手，圭声。本义为区别，后引申为悬挂等义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 7,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "由‘区别’引申为‘悬挂’，可能因动作涉及目标区分与分明。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "‘挂’的动作进一步细化为‘钩住’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "从悬挂转喻为心中牵挂。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "登记如同将名挂于榜上。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "电话‘挂’通、‘挂’断为现代技术领域下的比喻用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "metaphor",
+      "note": "物体表面的附着喻为‘挂’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "function_word",
+      "note": "量词义源于一组事物串挂一起。"
+    }
+  ]
+}

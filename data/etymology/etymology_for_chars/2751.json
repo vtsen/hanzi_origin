@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "陆地上聚积的大水体",
+      "examples": [
+        "西湖",
+        "太湖",
+        "湖泊"
+      ],
+      "traditional_char": "湖"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "指中国湖北省和湖南省的合称",
+      "examples": [
+        "两湖地区",
+        "湖广总督"
+      ],
+      "traditional_char": "湖"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "指中国湖州这个地名（今浙江省吴兴县）",
+      "examples": [
+        "湖笔",
+        "湖绉"
+      ],
+      "traditional_char": "湖"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，胡声，表示水体，初用于指陆地上的大水体。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "秦汉以来，以主要地理特征或因大湖而得名，指代湖北、湖南两省。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "以地理特征命名地名，湖州因太湖得名。"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "伤心，哀痛",
+      "examples": [
+        "悲哀",
+        "悲伤",
+        "悲怆",
+        "乐极生悲"
+      ],
+      "traditional_char": "悲"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "怜悯",
+      "examples": [
+        "悲天悯人"
+      ],
+      "traditional_char": "悲"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从心，非声，本义为哀伤、痛心。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘内心哀伤’引申为‘因他人不幸而感到怜悯’。"
+    }
+  ]
+}

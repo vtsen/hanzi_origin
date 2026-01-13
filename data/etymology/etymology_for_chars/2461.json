@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "假话，虚假的言语",
+      "examples": [
+        "他说了一个弥天大谎。",
+        "不要随便编造谎言。"
+      ],
+      "traditional_char": "謊"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "说假话，撒谎",
+      "examples": [
+        "你为什么要谎称自己已经完成？",
+        "他经常谎报年龄。"
+      ],
+      "traditional_char": "謊"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从言，荒声。‘荒’表声，‘言’表义，表示虚假的言语。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "conversion",
+      "note": "从名词“假话”引申为动词“说假话”。中古及现代汉语均有此类词性转化。"
+    }
+  ]
+}

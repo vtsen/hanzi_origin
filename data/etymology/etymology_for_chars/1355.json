@@ -1,0 +1,85 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "一年四季中的第一季，春季。",
+      "examples": [
+        "春江花月夜",
+        "春风又绿江南岸",
+        "春天来了，万物复苏"
+      ],
+      "traditional_char": "春"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "比喻人的年岁、历史时期或史书名，如《春秋》。",
+      "examples": [
+        "青梅竹马，两小无猜，到了春秋鼎盛之年",
+        "《春秋》大义"
+      ],
+      "traditional_char": "春"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "两性间的情欲。",
+      "examples": [
+        "怀春少女",
+        "春心萌动"
+      ],
+      "traditional_char": "春"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "生机、生命力。",
+      "examples": [
+        "大地回春",
+        "满园春色"
+      ],
+      "traditional_char": "春"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "姓。",
+      "examples": [],
+      "traditional_char": "春"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从草（木），表示草木生长，‘屯’作声符，初义为春季。甲骨文形象表现新芽破土之象。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由春季引申为历史时期、年岁或史书名，见于《春秋》等典籍。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "春天为万物生发之时，喻指情欲萌发。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由春季生机勃勃比喻为生机、生命力。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "unknown",
+      "note": "用作姓氏，机制不明，往往与地名、人名相关。"
+    }
+  ]
+}

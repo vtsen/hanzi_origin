@@ -1,0 +1,85 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "屈枉、无故受到指责或处分",
+      "examples": [
+        "伸冤",
+        "鸣冤叫屈",
+        "冤屈"
+      ],
+      "traditional_char": "冤"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "仇恨",
+      "examples": [
+        "冤家",
+        "冤头",
+        "冤孽"
+      ],
+      "traditional_char": "冤"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "欺骗",
+      "examples": [
+        "不许冤人"
+      ],
+      "traditional_char": "冤"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "吃亏，上当",
+      "examples": [
+        "冤大头",
+        "花冤钱"
+      ],
+      "traditional_char": "冤"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "屈缩、不舒展（本义）",
+      "examples": [],
+      "traditional_char": "冤"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 4,
+      "note": "会意字，从兔从冖，表示被覆之兔，形屈而不能伸，原指屈缩不舒展。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 4,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "由“屈缩不舒展”引申为“屈枉、冤屈”，汉代已见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由屈枉引申为人与人之间的仇怨。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "unknown",
+      "note": "“冤”作“欺骗”义，语义联系尚不明确。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由欺骗义引申为“吃亏、上当”。"
+    }
+  ]
+}

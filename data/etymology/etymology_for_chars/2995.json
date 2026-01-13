@@ -1,0 +1,58 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "汉语字音中的元音或元音加收尾音，即声母以外的部分，或声母和介音以外的部分，称“韵母”。也泛指有韵律节奏的文学体裁，如诗、词、歌、赋等。",
+      "examples": [
+        "韵母",
+        "押韵",
+        "韵文",
+        "韵律"
+      ],
+      "traditional_char": "韻"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "和谐而有节奏的声音。",
+      "examples": [
+        "琴韵悠扬",
+        "说话有韵白"
+      ],
+      "traditional_char": "韻"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "风度，风致，情趣，意味。",
+      "examples": [
+        "风韵",
+        "气韵",
+        "韵味"
+      ],
+      "traditional_char": "韻"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "形声字，从音（声符），员（今匀）声，最初本义为和谐悦耳的声音。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_narrowing",
+      "note": "“和谐声音”之义发展为具体指汉语字音中的韵母，用于诗文押韵、韵文等。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由“和谐悦耳的声音”比喻引申为人或事物的风度、风致、意味。"
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "古代烹饪法，用泥包裹食物后用火烧烤。",
+      "examples": [
+        "以泥包物而炙之，曰炮。",
+        "炮炙以为膳。"
+      ],
+      "traditional_char": "炮"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "烧、烤、烙，如“炮炙”、“炮烙”、“炮制”。",
+      "examples": [
+        "炮炙草药。",
+        "炮烙以刑人。"
+      ],
+      "traditional_char": "炮"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "把物品放在器物上烘烤或焙干。",
+      "examples": [
+        "把湿衣服搁在热炕上炮干。"
+      ],
+      "traditional_char": "炮"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "在旺火上急炒（一种烹调方法）。",
+      "examples": [
+        "炮羊肉。"
+      ],
+      "traditional_char": "炮"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "重型武器，例如迫击炮、高射炮、火箭炮等。",
+      "examples": [
+        "炮兵。",
+        "高射炮。"
+      ],
+      "traditional_char": "炮"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "爆竹。",
+      "examples": [
+        "鞭炮。",
+        "花炮。"
+      ],
+      "traditional_char": "炮"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "用于爆破土石等的爆炸装置。",
+      "examples": [
+        "在岩石中打炮眼。"
+      ],
+      "traditional_char": "炮"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从‘火’表义，‘包’表声；原意指古代以泥包裹食物而烧烤的烹饪法。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从特定古代烹饪法引申为一般的烧、烤、烙等。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "从烧烤引申为广义的烘烤或焙干。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "烧烤引申为现代急炒等烹调工艺。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "由火烧烤引申为用火药发射的重型武器。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 5,
+      "evolution_type": "metonymy",
+      "note": "重型武器泛指发出爆炸声的爆竹等。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 6,
+      "evolution_type": "metonymy",
+      "note": "由重型武器引申为爆破装置。"
+    }
+  ]
+}

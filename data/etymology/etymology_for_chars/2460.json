@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "秘密探查军政及经济消息的人，即间谍、细作",
+      "examples": [
+        "间谍活动",
+        "谍报战"
+      ],
+      "traditional_char": "諜"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "古代文书、文牒、谱录，引申为登记的册子",
+      "examples": [
+        "族谍",
+        "名谍"
+      ],
+      "traditional_char": "諜"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "喋喋不休，言语烦琐（通“喋”）",
+      "examples": [
+        "谍谍不已",
+        "言语谍谍"
+      ],
+      "traditional_char": "諜"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从言，枼声；最初本义为间谍、细作。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由“间谍”引申为秘密文书或文牒。两词古时有通用现象。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "因与“喋”同音，后借指言语烦琐，属通假转用。"
+    }
+  ]
+}

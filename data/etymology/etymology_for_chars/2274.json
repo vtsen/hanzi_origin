@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "脚，特指整个脚部",
+      "examples": [
+        "左～右～",
+        "足～以立"
+      ],
+      "traditional_char": "趾"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "脚指头，脚趾",
+      "examples": [
+        "脚～甲",
+        "～骨"
+      ],
+      "traditional_char": "趾"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "踪迹，脚印",
+      "examples": [
+        "庶追芳～",
+        "～迹"
+      ],
+      "traditional_char": "趾"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "地基，地址（古义，同“址”）",
+      "examples": [
+        "奠基～",
+        "基～"
+      ],
+      "traditional_char": "趾"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从足，止声；本义为‘脚’。古文‘趾’专指脚而非脚趾。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_narrowing",
+      "note": "脚的意义后来特指为脚指头。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由脚引申为留下的脚印、踪迹。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "古时‘趾’假借为‘址’，表示地基，变化为地面之意。"
+    }
+  ]
+}

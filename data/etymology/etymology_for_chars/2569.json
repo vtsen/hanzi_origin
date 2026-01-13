@@ -1,0 +1,38 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "有靠背的坐具",
+      "examples": [
+        "椅子",
+        "坐椅",
+        "木椅",
+        "躺椅"
+      ],
+      "traditional_char": "椅"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "落叶乔木，木材可以制器物，亦称‘山桐子’",
+      "examples": [],
+      "traditional_char": "椅"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "形声字，从木，以声，最初指树名（山桐子）"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "metonymy",
+      "note": "由树名转指用该木材制作的坐具，及泛指出坐具"
+    }
+  ]
+}

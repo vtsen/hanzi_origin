@@ -1,0 +1,68 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "传说中夏朝的开国君主名，大禹，治水有功，后被尊为圣王。",
+      "examples": [
+        "尧、舜、禹、汤…皆应运而生者。",
+        "禹、汤被之矣。"
+      ],
+      "traditional_char": "禹"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "舒缓行走的样子。",
+      "examples": [
+        "蟲行緩謂之禹，猶語之舒為餘耳。"
+      ],
+      "traditional_char": "禹"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "虫名。《说文》：“虫也。”",
+      "examples": [
+        "【说文】禹：虫也。"
+      ],
+      "traditional_char": "禹"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [
+        "金代有禹显。"
+      ],
+      "traditional_char": "禹"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "pictograph",
+      "original_sense_index": 2,
+      "note": "本字从厹，象形，本义为虫，古文作𢁰、𥜼。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 2,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由虫行缓慢，引申为舒缓行走之意，见于古训释。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 0,
+      "evolution_type": "semantic_shift",
+      "note": "后以虫名假借为禹王名，成为夏朝君主专名。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "conversion",
+      "note": "王名转为姓氏用法。"
+    }
+  ]
+}

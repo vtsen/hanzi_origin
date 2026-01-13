@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "用火慢慢加热液体，使其浓缩或提取成分，熬煮。",
+      "examples": [
+        "煎药",
+        "煎熬"
+      ],
+      "traditional_char": "煎"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "烹饪方法，把食物放在少量的热油中加热至熟，类似于煎炸。",
+      "examples": [
+        "煎鱼",
+        "煎蛋"
+      ],
+      "traditional_char": "煎"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "measure_word",
+      "meaning": "用于指中药煎取汁液的次数。",
+      "examples": [
+        "头煎",
+        "二煎"
+      ],
+      "traditional_char": "煎"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从火，前声；火表示与加热有关，前作声旁，本义为煎熬。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由慢火加热引申为日常烹饪中‘煎’食物的方法，常见于古今汉语。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由‘煎’熬中药的动作转借为表示煎药次数的量词用法，用于近现代汉语医学语境。"
+    }
+  ]
+}

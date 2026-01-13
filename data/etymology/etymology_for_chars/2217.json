@@ -1,0 +1,62 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "菩萨——佛教用语，指觉悟众生者，多用作佛菩萨一类尊称或专指“菩萨”。",
+      "examples": [
+        "菩萨低眉",
+        "观世音菩萨",
+        "萨般若海",
+        "萨埵"
+      ],
+      "traditional_char": "薩"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "跳神作法的男巫，特指萨满教男性祭司。",
+      "examples": [
+        "萨满祭司",
+        "萨满舞"
+      ],
+      "traditional_char": "薩"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [
+        "萨琦",
+        "萨天锡"
+      ],
+      "traditional_char": "薩"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "薩为形声字，从艸，phonetic component 朔，音近，借表示梵语Bodhisattva音译义。"
+    },
+    {
+      "formation_type": "loan_character",
+      "original_sense_index": 0,
+      "note": "‘萨’为‘薩’的简化字，简化自上。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "因佛教术语‘薩’具宗教意味，后借指通灵的萨满巫师，元明时期见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "conversion",
+      "note": "佛教词薩衍生为中文姓氏，见于明元。"
+    }
+  ]
+}

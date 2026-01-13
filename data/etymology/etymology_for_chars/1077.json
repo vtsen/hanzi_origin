@@ -1,0 +1,106 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "准备饭食或酒席",
+      "examples": [
+        "具膳以待客",
+        "具酒肴"
+      ],
+      "traditional_char": "具"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "器物，器具",
+      "examples": [
+        "器具",
+        "农具",
+        "文具"
+      ],
+      "traditional_char": "具"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "具备，具有",
+      "examples": [
+        "具有独到的眼光",
+        "别具一格"
+      ],
+      "traditional_char": "具"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "备，办（如呈报、署名等）",
+      "examples": [
+        "具名",
+        "具结",
+        "具领"
+      ],
+      "traditional_char": "具"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adverb",
+      "meaning": "全部，都，完全",
+      "examples": [
+        "具陈其事",
+        "具在此地"
+      ],
+      "traditional_char": "具"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "measure_word",
+      "meaning": "量词，用于某些器物、棺材、尸体",
+      "examples": [
+        "一具棺材",
+        "一具尸体",
+        "一具座钟"
+      ],
+      "traditional_char": "具"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意字，上部为“鼎”表器物，下部为双手，表示用双手捧着器物，最初指准备食物或酒席。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“准备饭食”引申为具体的“器具、器物”，早见于先秦文献。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "function_word",
+      "note": "由名词“器具”发展为用作量词，表示“某类器物的单位”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由具体准备饭食引申为泛指具备、具有，秦汉以后用法。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由“具备”进一步指办理、准备手续等抽象用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_shift",
+      "note": "由“准备齐全”引申为副词，表示全部，常用于古汉语。"
+    }
+  ]
+}

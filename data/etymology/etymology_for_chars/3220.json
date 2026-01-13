@@ -1,0 +1,53 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "一年生或二年生草本植物，嫩荚和种子可食，称为‘豌豆’。",
+      "examples": [
+        "豌豆苗柔弱宛宛，故得豌名。",
+        "豌豆，种出西胡。"
+      ],
+      "traditional_char": "豌"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "豌豆的种子，可食用或制淀粉。",
+      "examples": [
+        "豌豆粒可供食用、饲料和製澱粉。"
+      ],
+      "traditional_char": "豌"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "豆飴，一种用豆制成的糖果状食品。",
+      "examples": [
+        "说文：豆飴也。"
+      ],
+      "traditional_char": "豌"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从豆，夗声。形声字，初指豌豆这种植物。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "synecdoche",
+      "note": "以整体（植物）代部分（种子），古今皆然。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由原义豌豆引申为‘豆飴’，以原材料为名。"
+    }
+  ]
+}

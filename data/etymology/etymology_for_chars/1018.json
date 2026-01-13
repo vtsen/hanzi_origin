@@ -1,0 +1,57 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "丛聚的树木或竹子",
+      "examples": [
+        "林木茂盛",
+        "树林"
+      ],
+      "traditional_char": "林"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "聚集在一起的同类的人或事物",
+      "examples": [
+        "书林",
+        "艺林",
+        "碑林",
+        "儒林"
+      ],
+      "traditional_char": "林"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "林则徐",
+        "林黛玉"
+      ],
+      "traditional_char": "林"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意字，由两个“木”组成，表示树木聚集之意，出自甲骨文。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "以许多树木聚集喻同类事物或人物群集，始见于先秦文献。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "unknown",
+      "note": "作为姓氏由地名或居住地转化，具体机制不明。"
+    }
+  ]
+}

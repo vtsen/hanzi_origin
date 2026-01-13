@@ -1,0 +1,74 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "突然冲出，猛然窜出",
+      "examples": [
+        "犬从穴中突出"
+      ],
+      "traditional_char": "突"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adverb",
+      "meaning": "忽然，突然",
+      "examples": [
+        "突然",
+        "突如其来",
+        "突发",
+        "突现"
+      ],
+      "traditional_char": "突"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "超出，冲破，猛冲",
+      "examples": [
+        "突破",
+        "突围",
+        "冲突",
+        "突出重围"
+      ],
+      "traditional_char": "突"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "烟囱",
+      "examples": [
+        "灶突",
+        "曲突徙薪"
+      ],
+      "traditional_char": "突"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意字，从穴从犬，表示犬从洞穴中突然冲出，反映最早的本义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "grammaticalization",
+      "note": "由具体动作转化为抽象的副词用法，表示“忽然”，中古以后常见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由犬突然冲出引申为突破、冲破等广义猛冲。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "以“洞穴突起”的形态形容烟囱，汉代文献已见。"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "泉水涓涓流动的样子",
+      "examples": [
+        "泌之洋洋，可以乐飢。——《诗·陈风·衡门》",
+        "泌，侠流也。——《说文》"
+      ],
+      "traditional_char": "泌"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "水名，如河南省西南部的唐河上游、山东中部的卫鱼河等",
+      "examples": [
+        "泌水，唐河上游的别称。",
+        "泌水，源出肥城县，流入汶水。"
+      ],
+      "traditional_char": "泌"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "液体（如水、汗、乳等）由细小孔隙排出或渗透出来，如分泌、泌尿、泌乳",
+      "examples": [
+        "分泌、泌尿、泌乳",
+        "泌渗（液体从细小的空隙中慢慢地透出）",
+        "額角上泌出汗珠來。——梁斌《紅旗譜》"
+      ],
+      "traditional_char": "泌"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "过滤渣滓",
+      "examples": [
+        "泌糟粕，蒸津液，化其精微。——《靈樞經·營衛生會》"
+      ],
+      "traditional_char": "泌"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从水，必声。本义为泉水涓流之貌，属形声字右部表示读音。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "以泉水的流动状态指代具体的水体名称，用于河流命名。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由泉水涓流之貌，引申为液体分泌、流出状态。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由泌水的流动，引申为在过滤渣滓过程中液体渗出的动作。"
+    }
+  ]
+}

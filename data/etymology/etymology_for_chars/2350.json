@@ -1,0 +1,57 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "收拢，聚集",
+      "examples": [
+        "敛钱",
+        "收敛",
+        "聚敛"
+      ],
+      "traditional_char": "斂"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "征收",
+      "examples": [
+        "横征暴敛"
+      ],
+      "traditional_char": "斂"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "收束，约束",
+      "examples": [
+        "敛迹",
+        "敛手",
+        "敛抑",
+        "收敛"
+      ],
+      "traditional_char": "斂"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从攴表示动作义，佥作声旁，最初指收集、聚集。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“收拢、聚集”引申为“征收”，用于钱财等抽象对象的聚集。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由“收拢、聚集”进一步引申为收束、约束自身等行为。"
+    }
+  ]
+}

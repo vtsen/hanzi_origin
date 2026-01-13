@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "顺着、沿着（道路、轨迹等）行走",
+      "examples": [
+        "循道而行",
+        "循流而下"
+      ],
+      "traditional_char": "循"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "遵守，依照，沿袭（法规、习惯等）",
+      "examples": [
+        "遵循祖训",
+        "循规蹈矩"
+      ],
+      "traditional_char": "循"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "巡视，巡行，与“巡”同",
+      "examples": [
+        "循行其地",
+        "循查边疆"
+      ],
+      "traditional_char": "循"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从“彳”（表示行走），“盾”作声旁，初义为顺着走。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由“顺着道路而行”引申为“遵循规则”，事理类比。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "与“巡”义通假，古代用“循”同“巡”用，表示巡行。"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "柿树，一种落叶乔木，果实可食。",
+      "examples": [
+        "柿子树结满了果实。"
+      ],
+      "traditional_char": "柿"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "柿树的果实，通常指柿子本身。",
+      "examples": [
+        "秋天吃柿子。",
+        "买了十斤柿子。"
+      ],
+      "traditional_char": "柿"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "以柿子的果实加工成的食品，如柿饼、柿霜等。",
+      "examples": [
+        "柿饼很好吃。",
+        "柿霜可入药。"
+      ],
+      "traditional_char": "柿"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从木，市声。一说‘木’表示植物类，‘市’表示读音。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由指树扩展指其果实，常见植物名与果实之间的转喻。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "指果实进一步引申为与果实相关的食品。"
+    }
+  ]
+}

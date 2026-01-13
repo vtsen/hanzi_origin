@@ -1,0 +1,100 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "移植植物，种植。",
+      "examples": [
+        "栽树",
+        "栽花",
+        "栽培"
+      ],
+      "traditional_char": "栽"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "安装或插上（如插绒线、安赃物等）。",
+      "examples": [
+        "栽绒",
+        "栽赃"
+      ],
+      "traditional_char": "栽"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "可以移植的植物的幼苗，秧子。",
+      "examples": [
+        "桃栽",
+        "树栽子"
+      ],
+      "traditional_char": "栽"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "跌倒（动作）。",
+      "examples": [
+        "栽跟头"
+      ],
+      "traditional_char": "栽"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "失败或出丑。",
+      "examples": [
+        "这回又栽了",
+        "他比赛中栽了"
+      ],
+      "traditional_char": "栽"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "筑墙立板（本义）。",
+      "examples": [],
+      "traditional_char": "栽"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 5,
+      "note": "形声字，从木，裁声。本义为筑墙立板。“木”表义，“裁”表声。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 5,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "从筑墙立板引申为栽种（把植物立起来）。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "从栽植引申为指可供栽植的幼苗。"
+    },
+    {
+      "source_index": 5,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从树立板材引申为安上、插上。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由插上、安上动作比喻为跌倒时人的动作。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "从跌倒引申为指失败或出丑。"
+    }
+  ]
+}

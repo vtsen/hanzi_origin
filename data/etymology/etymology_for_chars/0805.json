@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "人或动物的腹部",
+      "examples": [
+        "肚子疼",
+        "牵肠挂肚"
+      ],
+      "traditional_char": "肚"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "器物下面的中心部分",
+      "examples": [
+        "炉肚儿",
+        "壶肚"
+      ],
+      "traditional_char": "肚"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "圆而凸起像肚子的部分",
+      "examples": [
+        "腿肚子",
+        "手指头肚儿"
+      ],
+      "traditional_char": "肚"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "供食用的动物胃",
+      "examples": [
+        "猪肚",
+        "烩肚丝"
+      ],
+      "traditional_char": "肚"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从“肉”表意，表示与身体肉体有关，“土”表声；本义为腹部。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "器物中心部分因形似人或动物的腹部而得名。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "因形状圆而鼓起，像肚子而称‘肚’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_narrowing",
+      "note": "特指动物供食用的胃，原本属于腹部范围。"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "用两股以上细条扭结成一根绳索；扭，拧",
+      "examples": [
+        "以丝绞成绳",
+        "用手绞麻"
+      ],
+      "traditional_char": "絞"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "拧，扭紧，挤压",
+      "examples": [
+        "绞痛",
+        "绞尽脑汁"
+      ],
+      "traditional_char": "絞"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "用绳子把人勒死",
+      "examples": [
+        "绞刑",
+        "绞杀"
+      ],
+      "traditional_char": "絞"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "缠绕",
+      "examples": [
+        "绞缠",
+        "绞结"
+      ],
+      "traditional_char": "絞"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "measure_word",
+      "meaning": "量词，用于纱或毛线等",
+      "examples": [
+        "一绞毛线"
+      ],
+      "traditional_char": "絞"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "会意兼形声字，从糸表示与线丝有关，从交表音并含交缠意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由原意扭结扩展为一般的拧、扭紧、挤压，用法见先秦文献。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由拧、扭紧引申出用绳勒杀之意，历代刑法有应用。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由扭结、缠结义扩展为缠绕。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "function_word",
+      "note": "由绳索实体，引申为量词，专指可扭结成束之物。"
+    }
+  ]
+}

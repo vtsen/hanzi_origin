@@ -1,0 +1,44 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "长圆形，狭长",
+      "examples": [
+        "其方圆锐椭不同，盛水各异，其于灭火钧也。——《淮南子》",
+        "我家铜剑如赤蛇，君家石砚苍璧橢而洼。——苏轼"
+      ],
+      "traditional_char": "橢"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "指长圆形的容器",
+      "examples": [
+        "椭，车笭中椭椭器也。——《说文》",
+        "橢，小桶也，所以盛盐豉。——《急就篇》注"
+      ],
+      "traditional_char": "橢"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "“橢”从木，隋声，形声字，原指长圆形的容器，木器。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“椭”是“橢”的简化字，从木，隋声，音义同出。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "由具体的长圆形容器泛化为形容长圆形、狭长的形状。"
+    }
+  ]
+}

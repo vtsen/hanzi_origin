@@ -1,0 +1,42 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "监禁罪犯的地方",
+      "examples": [
+        "监狱",
+        "越狱",
+        "地狱"
+      ],
+      "traditional_char": "獄"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "罪案，官司",
+      "examples": [
+        "冤狱",
+        "文字狱",
+        "断狱",
+        "狱讼"
+      ],
+      "traditional_char": "獄"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘獄’为形声字，从犬，獄声。本义为关押罪犯之处。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "从关押罪犯之地引申为案件、官司，古已有之。"
+    }
+  ]
+}

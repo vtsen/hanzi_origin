@@ -1,0 +1,74 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "生气，愤怒；发怒，愤愤不平的情绪流露于外。",
+      "examples": [
+        "怒色",
+        "怒视",
+        "怒叱",
+        "怒骂",
+        "恼怒",
+        "息怒"
+      ],
+      "traditional_char": "怒"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "气势盛，形容事物或力量激烈、猛烈。",
+      "examples": [
+        "怒涛",
+        "怒火",
+        "心花怒放"
+      ],
+      "traditional_char": "怒"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "中国少数民族名，主要分布于云南省。",
+      "examples": [
+        "怒族"
+      ],
+      "traditional_char": "怒"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "谴责，表达强烈不满或批评。",
+      "examples": [
+        "若不可教而后怒之"
+      ],
+      "traditional_char": "怒"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从心，奴声。‘心’表示与情感相关，‘奴’提供声旁。最初意指‘发怒’、‘生气’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由表示人的情感激动，引申比喻自然现象或事物猛烈如怒火、怒涛，汉代以后常见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "发怒之义引申为‘谴责’，指表达强烈的不满。用法见古籍如《论语》。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "unknown",
+      "note": "‘怒族’为民族名称，与原义之间联系不明，可能为音译或地名用字，实际族名或河流名称借用‘怒’字。"
+    }
+  ]
+}

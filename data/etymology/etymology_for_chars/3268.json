@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "竹简，古代用来书写文章的竹片。",
+      "examples": [
+        "诸子百家多以篇为卷。"
+      ],
+      "traditional_char": "篇"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "文章、诗词等完整的写作单元。",
+      "examples": [
+        "一篇佳作",
+        "长篇大论"
+      ],
+      "traditional_char": "篇"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "measure_word",
+      "meaning": "量词，用于计数文章、纸张、书页等。",
+      "examples": [
+        "一篇论文",
+        "三篇日记"
+      ],
+      "traditional_char": "篇"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从竹，扁声，表示竹简本义，竹为意符，扁表声。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由竹简实物义引申为书写于其上的文章单元，汉代以后定型。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "grammaticalization",
+      "note": "从表示具体文章单元名词，语法化为量词，明清以来常见。"
+    }
+  ]
+}

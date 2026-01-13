@@ -1,0 +1,131 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "刷马，梳理马毛。",
+      "examples": [
+        "《说文解字》：騷，刷马也。"
+      ],
+      "traditional_char": "騷"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "动乱，扰乱，不安定。",
+      "examples": [
+        "骚乱",
+        "骚扰",
+        "骚动"
+      ],
+      "traditional_char": "騷"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "忧愁，忧愁的情绪。",
+      "examples": [
+        "离骚者，犹离忧也。",
+        "忧愁忧思，谓之骚。"
+      ],
+      "traditional_char": "騷"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "指屈原《离骚》，后泛指诗文。",
+      "examples": [
+        "骚体",
+        "骚人",
+        "骚客"
+      ],
+      "traditional_char": "騷"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "泛指《诗经》和《离骚》，代指古代诗歌或文化。",
+      "examples": [
+        "风骚",
+        "骚坛"
+      ],
+      "traditional_char": "騷"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "adjective",
+      "meaning": "妇女举止轻佻，作风下流。",
+      "examples": [
+        "骚货"
+      ],
+      "traditional_char": "騷"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "adjective",
+      "meaning": "有臊臭味（同“臊”）。",
+      "examples": [],
+      "traditional_char": "騷"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "verb",
+      "meaning": "古通“扫”，尽其所有，全部出动。",
+      "examples": [
+        "大王宜骚淮南之兵。"
+      ],
+      "traditional_char": "騷"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从马，蚤声，本义刷马。‘马’表意，‘蚤’表声。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_shift",
+      "note": "由刷马引申为搅扰、骚动，东汉以后渐用。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由外在动乱，引申为内心忧愁，常见于屈原创作语境。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "《离骚》以‘忧愁’为内容，书名转指具体诗篇。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由屈原作品泛指诗歌、文化。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "从诗文‘风骚’进一步转为女性轻佻，明清以后俗化用法。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 6,
+      "evolution_type": "semantic_shift",
+      "note": "‘骚’音近‘臊’，引申为有臊味，古籍通假。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 7,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "古通‘扫’，音近借用义，典见于先秦典籍。"
+    }
+  ]
+}

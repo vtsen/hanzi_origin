@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "快，迅速",
+      "examples": [
+        "速记",
+        "速写",
+        "神速"
+      ],
+      "traditional_char": "速"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "速度",
+      "examples": [
+        "风速",
+        "加速",
+        "超速"
+      ],
+      "traditional_char": "速"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "邀请，招致",
+      "examples": [
+        "不速之客"
+      ],
+      "traditional_char": "速"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从辵，表示行走与速度相关，’束‘为声符。原意为快速。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "conversion",
+      "note": "形容词‘快’转化为表示‘速度’的名词用法，常见于汉语形容词名词化。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "由‘快’引申为‘邀请、招致’，常见于古汉语用法，具体语义转变机制存争议。"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "节省，不浪费",
+      "examples": [
+        "勤俭持家",
+        "克勤克俭"
+      ],
+      "traditional_char": "儉"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "贫乏，歉收",
+      "examples": [
+        "俭月",
+        "俭岁",
+        "俭腹"
+      ],
+      "traditional_char": "儉"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘儉’为形声字，从人，佥声，表示自我约束、节省。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“节省、不浪费”引申为“贫乏、歉收”，出现于后世日常用语。"
+    }
+  ]
+}

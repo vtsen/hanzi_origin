@@ -1,0 +1,91 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "招待宾客或旅客食宿的房舍",
+      "examples": [
+        "宾馆",
+        "旅馆",
+        "馆舍"
+      ],
+      "traditional_char": "館"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "一个国家在另一个国家外交人员常驻的住所",
+      "examples": [
+        "大使馆",
+        "领事馆"
+      ],
+      "traditional_char": "館"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "某些服务性商店的名称",
+      "examples": [
+        "茶馆",
+        "照相馆"
+      ],
+      "traditional_char": "館"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "一些文化工作场所",
+      "examples": [
+        "报馆",
+        "博物馆",
+        "文化馆",
+        "馆藏"
+      ],
+      "traditional_char": "館"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "旧时指教学的地方",
+      "examples": [
+        "家馆",
+        "蒙馆",
+        "坐馆"
+      ],
+      "traditional_char": "館"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从“食”表义，与饮食住宿有关，“官”表音，初指供宾客食宿的高级客舍。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "住宅功能扩展到外交场所用房，明清以后出现。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由提供住宿食宿的房舍泛指各种服务性场所。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "引申为文化工作和保存机构场所。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "引申为教学的场所（清代及以前俗用）。"
+    }
+  ]
+}

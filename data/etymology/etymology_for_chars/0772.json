@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "辅助，帮助",
+      "examples": [
+        "佐证",
+        "佐餐"
+      ],
+      "traditional_char": "佐"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "处于辅助地位的人",
+      "examples": [
+        "僚佐"
+      ],
+      "traditional_char": "佐"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "劝（如劝食、劝酒）",
+      "examples": [
+        "佐食",
+        "佐酒"
+      ],
+      "traditional_char": "佐"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从人，左声，初义为辅助、帮助。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "conversion",
+      "note": "由动词“帮助”转为指辅助的人，古今皆有。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "“辅助”之义引申为在饮食时劝助他人进食、饮酒，多见于古汉语。"
+    }
+  ]
+}

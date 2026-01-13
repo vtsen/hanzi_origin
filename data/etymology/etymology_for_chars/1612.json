@@ -1,0 +1,52 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "蛀伤；（因虫、腐蚀等）损坏物体。",
+      "examples": [
+        "侵蚀岩石。",
+        "腐蚀金属。",
+        "蠹蚀书卷。"
+      ],
+      "traditional_char": "蝕"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "亏损，亏本。",
+      "examples": [
+        "蚀本生意。"
+      ],
+      "traditional_char": "蝕"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "同“食”，吃。",
+      "examples": [],
+      "traditional_char": "蝕"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从虫，食声，会意带有虫、人，表示虫蛀物。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "从虫蛀损物引申为亏损、亏本，用于经济和抽象事物。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "reanalysis",
+      "note": "因“食”声，古时有通用“食”的情况，音近义假为吃。"
+    }
+  ]
+}

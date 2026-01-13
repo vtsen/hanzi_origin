@@ -1,0 +1,97 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "醋，或像醋一样有特殊气味和味道的物质。",
+      "examples": [
+        "酸菜",
+        "酸梅",
+        "酸奶",
+        "酸枣",
+        "这汤有点酸。"
+      ],
+      "traditional_char": "酸"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "化学上指在水溶液中能产生氢离子的化合物，分为无机酸、有机酸。",
+      "examples": [
+        "硫酸",
+        "碳酸",
+        "盐酸",
+        "硝酸",
+        "酸碱度"
+      ],
+      "traditional_char": "酸"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "讽刺人迂腐，读书人气息浓重。",
+      "examples": [
+        "穷酸",
+        "寒酸"
+      ],
+      "traditional_char": "酸"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "悲痛，伤心。",
+      "examples": [
+        "辛酸",
+        "酸楚",
+        "酸怆",
+        "酸怀",
+        "生活的苦与酸。"
+      ],
+      "traditional_char": "酸"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "因疲劳或疾病引起的微痛而无力的感觉。",
+      "examples": [
+        "腰酸",
+        "腿酸",
+        "酸痛"
+      ],
+      "traditional_char": "酸"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字。从酉，表示与酒及发酵有关，表示味觉，‘夋’为声符。最初指醋。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由醋和酸味的本义，扩展为所有具有酸性、能显现酸味或与酸有关的化学物质。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "以酸味比喻书生气、迂腐，源于传统对文人‘酸’气的评价。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "以酸味象征悲痛或心情的辛苦，常用于情感。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "身体因疲劳或疾病带出的酸痛感，形容像吃酸食后的身体感觉。"
+    }
+  ]
+}

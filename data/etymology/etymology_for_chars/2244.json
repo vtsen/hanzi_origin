@@ -1,0 +1,110 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "明亮，清亮",
+      "examples": [
+        "爽目",
+        "光风霁月，万里晴爽"
+      ],
+      "traditional_char": "爽"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "轻松，利落",
+      "examples": [
+        "清爽",
+        "凉爽",
+        "爽口"
+      ],
+      "traditional_char": "爽"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "痛快，率直",
+      "examples": [
+        "爽朗",
+        "爽快",
+        "爽利",
+        "豪爽",
+        "直爽"
+      ],
+      "traditional_char": "爽"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "差失，违背",
+      "examples": [
+        "爽信",
+        "爽约",
+        "毫厘不爽",
+        "屡试不爽"
+      ],
+      "traditional_char": "爽"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adverb",
+      "meaning": "干脆，索性",
+      "examples": [
+        "爽性"
+      ],
+      "traditional_char": "爽"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "adjective",
+      "meaning": "舒服",
+      "examples": [
+        "爽心",
+        "爽意",
+        "爽适",
+        "身体不爽"
+      ],
+      "traditional_char": "爽"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意字，从两个人夹火，彰显光明之意，甲骨文作人形左右有火，表明本义为明亮、亮。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从“明亮、清亮”引申为轻松、利落，表达感官体验的通感。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "由“轻松、利落”进一步引申为“舒服”，强调身心状态轻快自如。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由“明亮、清亮”比喻人的性格行为明快率直。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "“爽”表示人的性格痛快，引申为“爽性”，即干脆、索性。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "“爽”由“明亮”引申为一种情况不一致，即“违背、差失”，词义发展不甚明朗，多据古用。"
+    }
+  ]
+}

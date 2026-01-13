@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "穿透，穿破物体",
+      "examples": [
+        "子弹穿墙而过。",
+        "穿凿附会"
+      ],
+      "traditional_char": "穿"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "通过，从一端到另一端",
+      "examples": [
+        "穿过隧道",
+        "穿行于人群"
+      ],
+      "traditional_char": "穿"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "穿戴，穿上衣服、鞋袜等",
+      "examples": [
+        "穿衣服",
+        "穿鞋子"
+      ],
+      "traditional_char": "穿"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意字，从穴从牙，表示牙齿在洞穴中，强调穿通的本义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由穿破、穿透引申为‘通过（空间或障碍物）’，汉魏以后通用。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由‘穿通’比喻到‘把身体通过衣服鞋袜的孔隙’，衣服穿在身上。"
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "冰，冰块。",
+      "examples": [
+        "凌锥",
+        "滴水成凌"
+      ],
+      "traditional_char": "凌"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "侵犯，欺压。",
+      "examples": [
+        "欺凌",
+        "凌辱",
+        "恃强凌弱"
+      ],
+      "traditional_char": "凌"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "杂乱，交错。",
+      "examples": [
+        "凌乱",
+        "凌杂"
+      ],
+      "traditional_char": "凌"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "升，高出，居高临下。",
+      "examples": [
+        "凌空",
+        "凌云",
+        "会当凌绝顶，一览众山小"
+      ],
+      "traditional_char": "凌"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "渡过，越过。",
+      "examples": [
+        "虽有江河之险则凌之"
+      ],
+      "traditional_char": "凌"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "迫近，逼近。",
+      "examples": [
+        "凌晨"
+      ],
+      "traditional_char": "凌"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "other",
+      "meaning": "姓氏。",
+      "examples": [],
+      "traditional_char": "凌"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从仌（表示“冰”），夌声，初指冰、冰块。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由冰冷引申为对人冷酷，进一步发展为欺压、侵犯。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "冰割裂、凌乱形态引申为杂乱、交错。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "冰居高临下，形象引申为高出、升起。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "凌冰本有越过冰面含义，引申为泛指越过、渡过。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "由冰近在眼前，比喻时间、空间的迫近。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "conversion",
+      "note": "由本义转为姓氏用法。"
+    }
+  ]
+}

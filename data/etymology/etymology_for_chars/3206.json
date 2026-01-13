@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "听觉，耳朵的听力",
+      "examples": [
+        "失聪",
+        "耳聪"
+      ],
+      "traditional_char": "聰"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "听觉灵敏，听得很清楚",
+      "examples": [
+        "耳聪目明"
+      ],
+      "traditional_char": "聰"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "心思灵敏，聪明，有智慧",
+      "examples": [
+        "聪明",
+        "聪慧",
+        "聪颖"
+      ],
+      "traditional_char": "聰"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从耳，总声，本义为听觉，与耳有关，‘总’作声旁。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从具体的听觉扩展为听觉灵敏，古今皆有用例。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由“听觉灵敏”比喻为“心思灵敏”，常用于智力、才干领域。"
+    }
+  ]
+}

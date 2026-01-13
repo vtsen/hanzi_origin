@@ -1,0 +1,89 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "依附、居住在别人家中。",
+      "examples": [
+        "寄居",
+        "寄食"
+      ],
+      "traditional_char": "寄"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "托付，交付给别人保存或处理。",
+      "examples": [
+        "寄托",
+        "寄存"
+      ],
+      "traditional_char": "寄"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "通过传送，特指用邮局递送。",
+      "examples": [
+        "寄信",
+        "寄钱"
+      ],
+      "traditional_char": "寄"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "认养或认作亲属。",
+      "examples": [
+        "寄父",
+        "寄母",
+        "寄子"
+      ],
+      "traditional_char": "寄"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "寄托、诉说感情或想法。",
+      "examples": [
+        "寄情",
+        "寄怀",
+        "寄意"
+      ],
+      "traditional_char": "寄"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘寄’为形声字，从宀，表示与屋檐、住所有关，‘奇’作声旁，初义为寄居。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由依附、寄居引申为托付事物于他人。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由托付引申为物品等的传递，特指通过邮寄。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "由寄居、依附引申为认作亲属。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "由托付具体事物引申为寄托情感、思想等抽象事物。"
+    }
+  ]
+}

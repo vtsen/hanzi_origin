@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "液体表面形成的许多细泡",
+      "examples": [
+        "泡沫",
+        "水面上的白色泡沫"
+      ],
+      "traditional_char": "沫"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "唾沫，口水",
+      "examples": [
+        "相濡以沫",
+        "嘴角的沫子"
+      ],
+      "traditional_char": "沫"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，末声，表示与水有关的泡沫。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由液体表面的泡沫转指口中的唾沫，早见于先秦文献。"
+    }
+  ]
+}

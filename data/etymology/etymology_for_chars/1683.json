@@ -1,0 +1,85 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "渡口，渡水的地方",
+      "examples": [
+        "津渡",
+        "关津"
+      ],
+      "traditional_char": "津"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "口液，唾液",
+      "examples": [
+        "津液",
+        "津津有味"
+      ],
+      "traditional_char": "津"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "汗水",
+      "examples": [
+        "遍体生津"
+      ],
+      "traditional_char": "津"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "滋润，补益",
+      "examples": [
+        "津润",
+        "津贴"
+      ],
+      "traditional_char": "津"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "中国天津市的简称",
+      "examples": [
+        "京津线"
+      ],
+      "traditional_char": "津"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，聿声；金文早期作会意字，从舟、从淮，本义为渡口。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "以水渡口比喻口腔中的津液，见于先秦文献。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由唾液义引申指汗水，因均属体液。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由津液、滋润之义，发展为滋润、补益的动词义。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "地名用法，取自历史渡口地名，特指天津。"
+    }
+  ]
+}

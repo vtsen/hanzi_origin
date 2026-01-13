@@ -1,0 +1,40 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "强壮，身体健康",
+      "examples": [
+        "他身体很健。",
+        "健康是人生最大的财富。",
+        "他依然健旺。"
+      ],
+      "traditional_char": "健"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "精力旺盛，善于做某事",
+      "examples": [
+        "他健谈。",
+        "他健步如飞。"
+      ],
+      "traditional_char": "健"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从人，建声。本义为强有力。'人'表意，'建'表声。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由形体强壮引申为精力旺盛、善于，语义扩展，汉代以降用法。"
+    }
+  ]
+}

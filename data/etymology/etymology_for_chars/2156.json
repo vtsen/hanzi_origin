@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "玉器相互碰撞所发出的细碎声音，或泛指玉声。",
+      "examples": [
+        "佩玉琐琐，声如环佩。",
+        "玉有琐音。"
+      ],
+      "traditional_char": "瑣"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "细小，零碎，不重要。",
+      "examples": [
+        "琐事纷繁难以尽数。",
+        "繁琐、琐细、琐碎。"
+      ],
+      "traditional_char": "瑣"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "连环或连环形的花纹、器物等。",
+      "examples": [
+        "琐窗透天光。",
+        "委曲如琐。"
+      ],
+      "traditional_char": "瑣"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从玉，‘小’声。本义是玉器互击之细声。‘瑣’为繁体，‘琐’为简化。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由玉声细碎，引申为事物琐碎，多见于汉魏六朝后扩展。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由事物琐碎引申为构成环状、花纹细密的器物或窗格，见于中古以后。"
+    }
+  ]
+}

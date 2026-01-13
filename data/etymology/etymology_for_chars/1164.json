@@ -1,0 +1,108 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "处所、地方",
+      "examples": [
+        "住所",
+        "场所",
+        "哨所"
+      ],
+      "traditional_char": "所"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "机关或办事的地方的名称",
+      "examples": [
+        "研究所",
+        "派出所"
+      ],
+      "traditional_char": "所"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "measure_word",
+      "meaning": "用于房屋等建筑物的量词",
+      "examples": [
+        "一所四合院"
+      ],
+      "traditional_char": "所"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "particle",
+      "meaning": "用在动词前，代表接受动作的事物",
+      "examples": [
+        "所部",
+        "所为",
+        "有所不为"
+      ],
+      "traditional_char": "所"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "particle",
+      "meaning": "与“为”、“被”连用，表示被动",
+      "examples": [
+        "为人所敬",
+        "为所欲为"
+      ],
+      "traditional_char": "所"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [],
+      "traditional_char": "所"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "砍伐木头时的声音",
+      "examples": [],
+      "traditional_char": "所"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 6,
+      "note": "形声字，从斤表示“砍伐”，户为声符，初表示砍伐木头的声音或与砍伐相关的意思。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 6,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "由砍伐木头的地方引申为一般的地方、处所，用法出现在早期汉语。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘处所’泛化为专指具体的机关或相关机构名称。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "function_word",
+      "note": "处所引申为专用于房屋、建筑物计量单位。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "grammaticalization",
+      "note": "由具体处所，引申为放在动词前，代表所受动作的对象。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "function_word",
+      "note": "‘所’与‘为/被’连用表示被动，比单用更抽象、更虚化。"
+    }
+  ]
+}

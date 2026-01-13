@@ -1,0 +1,104 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "套在牲畜头上的带嚼子的笼头",
+      "examples": [
+        "马勒",
+        "给牛上勒"
+      ],
+      "traditional_char": "勒"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "收住缰绳不使动物前进",
+      "examples": [
+        "悬崖勒马",
+        "他正在勒马停下"
+      ],
+      "traditional_char": "勒"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "强制，强迫",
+      "examples": [
+        "勒令",
+        "被勒索"
+      ],
+      "traditional_char": "勒"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "统率，统御",
+      "examples": [
+        "勒兵",
+        "考试勒队"
+      ],
+      "traditional_char": "勒"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "雕刻",
+      "examples": [
+        "勒石",
+        "勒碑",
+        "勒铭"
+      ],
+      "traditional_char": "勒"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "用绳子等捆住或拉紧",
+      "examples": [
+        "勒紧裤腰带",
+        "把绳子勒住门把"
+      ],
+      "traditional_char": "勒"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从“革”（皮革），表与皮革相关，“力”作声符，初义为牲畜的笼头。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由勒头具引申为控制缰绳，汉代已有用法。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "控制动物扩展为强行约束人的行为。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "驾驭牲畜引申为统率部众。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "笼头可压印，后喻雕刻铭文。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "由勒马具体动作转指一切用绳索捆扎、拉紧。"
+    }
+  ]
+}

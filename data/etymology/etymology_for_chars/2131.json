@@ -1,0 +1,119 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "张开，舒展开来",
+      "examples": [
+        "展开双臂",
+        "愁眉不展"
+      ],
+      "traditional_char": "展"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "延缓，放宽期限",
+      "examples": [
+        "展期",
+        "展缓"
+      ],
+      "traditional_char": "展"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "察看，省视",
+      "examples": [
+        "展墓"
+      ],
+      "traditional_char": "展"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "陈列，展示",
+      "examples": [
+        "展品",
+        "展销"
+      ],
+      "traditional_char": "展"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "施行，发挥（能力）",
+      "examples": [
+        "展开行动",
+        "一展宏图"
+      ],
+      "traditional_char": "展"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "古同“辗”，辗转",
+      "examples": [],
+      "traditional_char": "展"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [],
+      "traditional_char": "展"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "verb",
+      "meaning": "转动（本义）",
+      "examples": [],
+      "traditional_char": "展"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 7,
+      "note": "形声字，从尸，詹声，表示假卧人体的动作，最初意为转动。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 7,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "由原本的“转动”引申为“张开、舒展”，表动作展开。战国秦汉文献可见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由“张开”引申为“陈列、展示”。如展品、展览。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "“张开”喻指能力或计策的发挥，汉代以后常见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "“展”为“张开、舒展”引申为“察看、巡视”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“展开”进一步引申为时间上的延展，即“延缓”。"
+    },
+    {
+      "source_index": 7,
+      "target_index": 5,
+      "evolution_type": "conversion",
+      "note": "“展”通“辗”，古籍中互通。"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "木制的钉子或插入物，多指用来固定、关闭或阻止通道的部件",
+      "examples": [
+        "门上装有木栓以防外人进入。",
+        "用栓把门栓上。"
+      ],
+      "traditional_char": "栓"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "器物上可以开关的机件",
+      "examples": [
+        "枪栓",
+        "把栓拉出来再装子弹"
+      ],
+      "traditional_char": "栓"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "塞子或与塞子作用类似的物体，如阻塞液体或气体流通的东西",
+      "examples": [
+        "血栓",
+        "用软木栓堵住瓶口"
+      ],
+      "traditional_char": "栓"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从‘木’表示与木有关，‘全’为声旁，初指木制钉子或插子。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由原本的木钉、插子，语义扩展为用于开关的金属等材质的机械部件，约见于近现代。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由最初的阻塞插物引申泛指塞子及类似功能之物，包括医学等抽象概念。"
+    }
+  ]
+}

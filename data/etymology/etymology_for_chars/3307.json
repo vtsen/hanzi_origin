@@ -1,0 +1,57 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "责备，斥责",
+      "examples": [
+        "谴，谪问也。——《说文》",
+        "闻而谴友。——《孔子家语·五行》",
+        "谴责",
+        "谴让"
+      ],
+      "traditional_char": "譴"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "贬谪，官吏被贬谪、外放",
+      "examples": [
+        "前者，失救泾河老龙，获谴于我皇后帝。——《西游记》",
+        "谴谪"
+      ],
+      "traditional_char": "譴"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "罪过",
+      "examples": [
+        "臣有大谴。——《北史·李彪传》",
+        "除凶致吉。——《后汉书·蔡邕传》"
+      ],
+      "traditional_char": "譴"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从言，遣声，表示责备、斥责之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由责备引申为官吏被责而贬谪，东汉至隋唐常见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由责备引申为应受责备的罪过，属抽象化用法，见于史传。"
+    }
+  ]
+}

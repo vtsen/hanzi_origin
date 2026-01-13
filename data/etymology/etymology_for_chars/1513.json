@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "呼吸器官受刺激而引起的反射动作，急促呼气并发声，以清除呼吸道异物或痰，多为某些疾病的症状。",
+      "examples": [
+        "他因为感冒一直在咳嗽。",
+        "夜间咳嗽使他难以入眠。"
+      ],
+      "traditional_char": "咳"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "interjection",
+      "meaning": "叹词，表示惋惜、后悔、提醒或招呼人注意。",
+      "examples": [
+        "咳！机会又错过了。",
+        "咳，快来看这里！"
+      ],
+      "traditional_char": "咳"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "小儿笑。",
+      "examples": [
+        "曾不以告咳婴之儿。——《史记·扁鹊传》"
+      ],
+      "traditional_char": "咳"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 2,
+      "note": "形声字，从口，亥声。本义为小儿笑，后引申为咳嗽、叹词。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 2,
+      "target_index": 0,
+      "evolution_type": "semantic_shift",
+      "note": "由“小儿笑”的声音感转义为咳嗽声，二者均与口部发声有关，约在先秦至汉代已见。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 1,
+      "evolution_type": "semantic_shift",
+      "note": "由原指小儿笑的发声，引申为叹词和表示呼唤等口头发声，汉至今沿用。"
+    }
+  ]
+}

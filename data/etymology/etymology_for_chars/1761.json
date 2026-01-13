@@ -1,0 +1,89 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "缠绕，捆缚，以丝线盘绕物体",
+      "examples": [
+        "络丝",
+        "络线"
+      ],
+      "traditional_char": "絡"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "像网子那样的东西，如神经或血管的分支网络",
+      "examples": [
+        "经络",
+        "脉络",
+        "网络",
+        "橘络"
+      ],
+      "traditional_char": "絡"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "用网状物兜住或笼罩",
+      "examples": [
+        "笼络"
+      ],
+      "traditional_char": "絡"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "连接，连续，前后相接",
+      "examples": [
+        "络续",
+        "络绎",
+        "联络",
+        "网络"
+      ],
+      "traditional_char": "絡"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "同“缠绕”义，用于口语词",
+      "examples": [
+        "络子（方言用法）"
+      ],
+      "traditional_char": "絡"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从糸，表示与丝或缠绕有关，本义为缠绕、捆缚；各为声符。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“缠绕”之意扩展为“网状物”，常指分支交错成网状的事物。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "引申为用如网状物兜住、笼罩，多见于“笼络”等词。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由缠绕引申为事物连续不断、相互联系的意思。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "function_word",
+      "note": "用于口语词中，保留原始意义；分用老读音。"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "向上托举；举起。",
+      "examples": [
+        "五色祥雲繞碧天，如意金鉤掌上擎。",
+        "婢擎金澡盆盛水，琉璃碗盛澡豆。"
+      ],
+      "traditional_char": "擎"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "支撑；承受。",
+      "examples": [
+        "荷盡已無擎雨蓋，菊殘猶有傲霜枝。",
+        "龍鍾老檜擎。"
+      ],
+      "traditional_char": "擎"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "持、取。",
+      "examples": [
+        "書從稚子擎。",
+        "雲英！擎一甌漿來，郎君要飲。"
+      ],
+      "traditional_char": "擎"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "拱手（將手相合於胸前以示禮敬）。",
+      "examples": [
+        "擎拳（拱手）；擎跽（拱手跪拜）"
+      ],
+      "traditional_char": "擎"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“擎”从手，敬声，本义为向上举起。‘手’（扌）表示与手的动作有关，‘敬’表示读音。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“举起”引申出“支撑、承受”，出现于早期文献。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由“举起”泛化为“持、取”，即泛指用手持物，古今皆有用例。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "由“持”引申为“拱手”，即双手合于胸，相持以示礼。古代用法。"
+    }
+  ]
+}

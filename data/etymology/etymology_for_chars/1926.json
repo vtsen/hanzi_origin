@@ -1,0 +1,87 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "赠送财物，馈赠礼品",
+      "examples": [
+        "因厚赂单于，答其善意。",
+        "割国之锱铢而赂之。"
+      ],
+      "traditional_char": "賂"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "用财物买通公职人员，行贿",
+      "examples": [
+        "六国破灭，非兵不利、战不善，弊在赂秦。",
+        "富者赂数十百金。"
+      ],
+      "traditional_char": "賂"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "赠送的财物和钱财，亦泛指财物",
+      "examples": [
+        "货赂将甚厚。",
+        "家贫，货赂不足以自赎。"
+      ],
+      "traditional_char": "賂"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "割让的土地",
+      "examples": [
+        "秦责赂于魏，魏不与。",
+        "乃割露山这阴五百里以赂之。"
+      ],
+      "traditional_char": "賂"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "通“璐”，美玉",
+      "examples": [
+        "元龟象齿，大赂南金。",
+        "其琛賂则琨瑶之阜，铜锴之垠。"
+      ],
+      "traditional_char": "賂"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从贝（表财物），各为声，表示赠送财物的行为，见小篆《说文解字》。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由普通馈赠发展为带贬义的行贿用法，战国以来逐步形成。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "conversion",
+      "note": "动词“赠送财物”引申为名词“赠送的财物”，早见先秦文献。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "具体的赠送财物引申为赠送土地等无形资产。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "由贵重赠品引申到“美玉”，“賂”假借为“璐”，中古时期形成。"
+    }
+  ]
+}

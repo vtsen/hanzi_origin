@@ -1,0 +1,68 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "搏斗，对打",
+      "examples": [
+        "两军激烈搏斗。",
+        "与敌人肉搏。"
+      ],
+      "traditional_char": "搏"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "拍击，奋力进击",
+      "examples": [
+        "搏击长空。"
+      ],
+      "traditional_char": "搏"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "跳动",
+      "examples": [
+        "脉搏跳动。"
+      ],
+      "traditional_char": "搏"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "捕捉",
+      "examples": [
+        "猛兽搏噬猎物。"
+      ],
+      "traditional_char": "搏"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从手，尃声。最初表示用手对打、搏斗。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由对打引申为奋力进击，包括拍击、攻击等动作。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "搏斗动作引申表示脉搏跳动的状态，比喻血管跳动如同搏动。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由搏斗进一步扩展为用力捕捉。"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "作恶或犯法的行为",
+      "examples": [
+        "犯罪",
+        "认罪",
+        "罪名",
+        "罪恶"
+      ],
+      "traditional_char": "罪"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "过失，把过失归到某人身上",
+      "examples": [
+        "功罪",
+        "罪愆",
+        "罪尤",
+        "归罪于人"
+      ],
+      "traditional_char": "罪"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "刑罚",
+      "examples": [
+        "判罪",
+        "畏罪",
+        "请罪",
+        "待罪"
+      ],
+      "traditional_char": "罪"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "苦难，痛苦",
+      "examples": [
+        "受罪"
+      ],
+      "traditional_char": "罪"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意字，从辛从自，象征罪人被刑具、鼻受苦，表达作恶或犯法的行为。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由犯罪行为引申为一般性的过失"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "以犯罪或罪为名，借指因其而受到的刑罚"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "以犯罪引起的痛苦或苦难"
+    }
+  ]
+}

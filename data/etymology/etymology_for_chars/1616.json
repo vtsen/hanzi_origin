@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "不直，呈曲线状。",
+      "examples": [
+        "道路很弯。",
+        "弯曲的河流。"
+      ],
+      "traditional_char": "彎"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "使变弯曲；拉弓。",
+      "examples": [
+        "弯弓搭箭。",
+        "他把铁丝弯成圆形。"
+      ],
+      "traditional_char": "彎"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "彎为形声字，形旁为弓，声旁为䜌（表示声音），本义为拉弓；简化为弯后结构更为简约。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "从“拉弓使其弯曲”引申为“一切弯曲不直的状态”，语义扩展。"
+    }
+  ]
+}

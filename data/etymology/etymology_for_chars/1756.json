@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "马壮健，骏健有力。",
+      "examples": [
+        "骄马",
+        "驕馬"
+      ],
+      "traditional_char": "驕"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "自满，自高自大，傲慢不服从。",
+      "examples": [
+        "骄傲",
+        "骄矜",
+        "骄横"
+      ],
+      "traditional_char": "驕"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "猛烈，极盛。",
+      "examples": [
+        "骄阳"
+      ],
+      "traditional_char": "驕"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘驕’为形声字，马为意符，乔为声符，本义指马壮健。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "以骏马不驯顺的形象比喻人自满傲慢，早见于文献。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由“傲慢”引申为“猛烈、极盛”，如骄阳，含有张扬、炽烈之意。"
+    }
+  ]
+}

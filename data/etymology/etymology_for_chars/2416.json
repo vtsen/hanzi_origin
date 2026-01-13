@@ -1,0 +1,84 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "水道，特指人工开的河道或水沟",
+      "examples": [
+        "沟渠",
+        "水渠",
+        "渠道"
+      ],
+      "traditional_char": "渠"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "大，将帅，首领",
+      "examples": [
+        "渠帅",
+        "渠魁"
+      ],
+      "traditional_char": "渠"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "pronoun",
+      "meaning": "他，第三人称代词（方言用法）",
+      "examples": [
+        "渠侬",
+        "渠辈"
+      ],
+      "traditional_char": "渠"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "古代车轮的外圈，车辋",
+      "examples": [],
+      "traditional_char": "渠"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "particle",
+      "meaning": "岂，表反问语气（通“讵”）",
+      "examples": [
+        "掾部渠有其人乎？"
+      ],
+      "traditional_char": "渠"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，榘声。本义指水停积或人工开凿的水道。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "因主水者为‘渠’，引申为主要、首领之意，约汉代见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "水流为主，转为称指‘人（第三人称）’，出自楚地方言，后广为流行。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "曲流状如车辋，古书中有以‘渠’指车轮外圈之例。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 0,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "“渠”通“讵”，用于表反问，仅为借用，应与‘水道’本义区分。"
+    }
+  ]
+}

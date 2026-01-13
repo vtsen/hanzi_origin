@@ -1,0 +1,108 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "溶化，散失。",
+      "examples": [
+        "烟消云散",
+        "消融",
+        "消失"
+      ],
+      "traditional_char": "消"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "消除，灭掉，去除。",
+      "examples": [
+        "消除",
+        "消灭",
+        "消毒",
+        "消炎"
+      ],
+      "traditional_char": "消"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "把时间度过去。",
+      "examples": [
+        "消夜",
+        "消夏",
+        "消遣",
+        "消磨"
+      ],
+      "traditional_char": "消"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "减少，损失，耗费。",
+      "examples": [
+        "消耗",
+        "消损",
+        "消退"
+      ],
+      "traditional_char": "消"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "需要。",
+      "examples": [
+        "不消说"
+      ],
+      "traditional_char": "消"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "中医学病名。",
+      "examples": [
+        "消疾",
+        "消渴"
+      ],
+      "traditional_char": "消"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "形声字，从水，肖声。表示消除、消灭的动作，与水的消散特性有关。‘消’的本义即为‘消除’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "metonymy",
+      "note": "由‘消除、灭掉’引申为‘溶化，散失’；‘消’作使事物消失之意。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "‘消除’、‘消散’引申为‘消磨时间’，用于耗尽、度过某过程。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "‘消除’、‘消灭’再引申为减少、损耗或退减物质。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "semantic_shift",
+      "note": "‘消’义在“不消说”中转为‘需要’，从‘耗’、‘损’之意广义引申。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "‘消’用于病名，因‘消耗’体内物质、衰减而得名。"
+    }
+  ]
+}

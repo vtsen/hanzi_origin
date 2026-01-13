@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "树木遮蔽日光所形成的阴影",
+      "examples": [
+        "树荫下很凉快。",
+        "乘着树荫休息。"
+      ],
+      "traditional_char": "蔭"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "庇护、庇荫；封建时代因祖先有功而使子孙得福分或豁免罪责",
+      "examples": [
+        "受祖上余荫。",
+        "因祖上立功得以荫封。"
+      ],
+      "traditional_char": "蔭"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从艸，阴声，表示与植物及遮蔽阴影有关的意义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由树荫引申为庇护、福荫等抽象意义，见于封建时代的用法扩展。"
+    }
+  ]
+}

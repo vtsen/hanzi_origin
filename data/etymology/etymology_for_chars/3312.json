@@ -1,0 +1,116 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "践踏，踩踏（本义）",
+      "examples": [
+        "履霜，坚冰至。（《易经》）"
+      ],
+      "traditional_char": "履"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "鞋子",
+      "examples": [
+        "西装革履",
+        "削足适履"
+      ],
+      "traditional_char": "履"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "走过，经历",
+      "examples": [
+        "履历",
+        "履险如夷",
+        "如履薄冰"
+      ],
+      "traditional_char": "履"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "步伐",
+      "examples": [
+        "步履维艰"
+      ],
+      "traditional_char": "履"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "执行，实行",
+      "examples": [
+        "履行",
+        "履约"
+      ],
+      "traditional_char": "履"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "履带（车轮上的钢质链带）",
+      "examples": [
+        "坦克履带"
+      ],
+      "traditional_char": "履"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "土地，领土",
+      "examples": [
+        "赐我先君履"
+      ],
+      "traditional_char": "履"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "从尸（人形）和彳（与行走相关），会意兼形声，表示脚步践踏之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "践踏（动作）引申为行走、经历之意。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "本指脚踩，后以所踩之物指鞋。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由行走动作引申为步伐。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "由实际步行转喻为执行、实行（如履行职责）。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 6,
+      "evolution_type": "metonymy",
+      "note": "人所踏之地引申为土地、领土。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "metaphor",
+      "note": "鞋子引申为机器的“鞋”——履带（车轮上的钢链）。"
+    }
+  ]
+}

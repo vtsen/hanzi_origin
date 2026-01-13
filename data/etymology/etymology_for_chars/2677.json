@@ -1,0 +1,105 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "称量谷物的器具、度量衡的总称",
+      "examples": [
+        "程器",
+        "以程量粟"
+      ],
+      "traditional_char": "程"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "规矩，法式",
+      "examples": [
+        "程式",
+        "规程",
+        "章程"
+      ],
+      "traditional_char": "程"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "进展、限度",
+      "examples": [
+        "进程",
+        "日程",
+        "过程"
+      ],
+      "traditional_char": "程"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "道路的段落",
+      "examples": [
+        "路程",
+        "行程",
+        "前程"
+      ],
+      "traditional_char": "程"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "衡量，考核",
+      "examples": [
+        "计日程功"
+      ],
+      "traditional_char": "程"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "程颐",
+        "程门立雪"
+      ],
+      "traditional_char": "程"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从禾，呈声。禾表示与谷物度量相关，呈为声旁。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由度量衡器引申为法式规矩，汉代后普遍。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "法式、规范进一步引申为进展、限度之意。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "规矩法度喻为道路分段。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由度量衡引申为考核衡量之用。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "unknown",
+      "note": "作为姓氏，来源不详，或取其本义或制度之意。"
+    }
+  ]
+}

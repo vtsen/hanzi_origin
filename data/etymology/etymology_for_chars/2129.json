@@ -1,0 +1,40 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "去掉外面的皮或其他东西",
+      "examples": [
+        "剥皮",
+        "剥花生"
+      ],
+      "traditional_char": "剝"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "比喻夺取、榨取他人资源（如权力、利益等）",
+      "examples": [
+        "剥夺",
+        "剥削",
+        "生吞活剥"
+      ],
+      "traditional_char": "剝"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "声符‘孚’，意符‘刀’，表示用刀去皮。最初义为去除皮壳。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由物理去皮引申为夺取、榨取利益。早在先秦文献已见比喻用法。"
+    }
+  ]
+}

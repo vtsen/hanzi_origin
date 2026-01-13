@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "到达，达到某一时间或期限",
+      "examples": [
+        "届时",
+        "届期"
+      ],
+      "traditional_char": "屆"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "measure_word",
+      "meaning": "量词，用于定期举行的会议、毕业的班级等，表示次数、期数",
+      "examples": [
+        "第一届",
+        "应届毕业生"
+      ],
+      "traditional_char": "屆"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘屆’为形声字，从尸，臽声，本义为到达。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "grammaticalization",
+      "note": "由‘到达’的动词意义转化而来，作为定期事件的量词用法。"
+    }
+  ]
+}

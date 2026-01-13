@@ -1,0 +1,110 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "光辉灿烂，灯火辉煌",
+      "examples": [
+        "金文作“煌”，本义为灯火辉煌"
+      ],
+      "traditional_char": "皇"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "君主，帝王；亦指神话传说中的神",
+      "examples": [
+        "皇帝",
+        "皇后",
+        "皇宫",
+        "皇权"
+      ],
+      "traditional_char": "皇"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "大，伟大",
+      "examples": [
+        "冠冕堂皇",
+        "皇天后土",
+        "皇皇巨著"
+      ],
+      "traditional_char": "皇"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "对已故父亲的尊称",
+      "examples": [
+        "皇考",
+        "先皇"
+      ],
+      "traditional_char": "皇"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "古同“遑”，空闲、悠闲",
+      "examples": [
+        "无皇暇矣"
+      ],
+      "traditional_char": "皇"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "adjective",
+      "meaning": "古同“惶”，恐惧、惊慌",
+      "examples": [
+        "惶皇不安"
+      ],
+      "traditional_char": "皇"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [],
+      "traditional_char": "皇"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "pictograph",
+      "original_sense_index": 0,
+      "note": "金文象灯火辉煌之形，为“煌”的本字，上部三点象光，中部象灯缸，下为土象灯座，整体为灯火明亮。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由光辉灿烂，引申为盛大、伟大。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "以光辉喻帝王、神明的尊贵与显赫。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "对君王的尊崇用以称呼祖先，尊父亦以‘皇’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "unknown",
+      "note": "‘皇’作‘遑’用，语源关系不详，或有通假，具体机制不明。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "unknown",
+      "note": "‘皇’作‘惶’用，可能为音近通假，具体机制待考。"
+    }
+  ]
+}

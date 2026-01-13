@@ -1,0 +1,58 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "包容，包含",
+      "examples": [
+        "包涵",
+        "内涵",
+        "蕴涵",
+        "涵容"
+      ],
+      "traditional_char": "涵"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "沉，潜（指水中潜行或沉浸）",
+      "examples": [
+        "涵泳",
+        "涵淹",
+        "涵濡"
+      ],
+      "traditional_char": "涵"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "（公路或铁路下面的）通沟渠的管道",
+      "examples": [
+        "涵洞",
+        "桥涵"
+      ],
+      "traditional_char": "涵"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "“涵”为形声字，从水，含声，原指沉入水中或浸润之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "metaphor",
+      "note": "由水中浸润、包容之物义引申为抽象的包容、包含，古今沿用。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "因“涵”多与水流沟道相关，后称用于水流通过的管道结构，多见于现代工程语境。"
+    }
+  ]
+}

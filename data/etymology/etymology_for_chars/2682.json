@@ -1,0 +1,78 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "捣土的杵，古代用来筑墙的工具",
+      "examples": [
+        "项王伐齐，身负板筑，以为士卒先"
+      ],
+      "traditional_char": "築"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "建造，修盖（如修筑、建筑、构筑）",
+      "examples": [
+        "修筑长城",
+        "建筑房屋"
+      ],
+      "traditional_char": "築"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "居室，住所",
+      "examples": [
+        "畏人成小筑，褊性合幽栖"
+      ],
+      "traditional_char": "築"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "古代弦乐器，形似琴，有十三弦，用竹尺打弦发音",
+      "examples": [],
+      "traditional_char": "築"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "中国贵州省贵阳市的别称",
+      "examples": [],
+      "traditional_char": "筑"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从竹（或木），‘筑’为声，表示用木杵捣土筑墙。本义为筑墙用的杵。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 4,
+      "note": "‘筑’作地名为借用义，原字形不变，为音转借用。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由指杵的名词意义引申为进行建筑活动的动词，已见古代用法。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由‘建造’引申为所建之居室，常用作诗文雅称。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "因乐器用竹杵击弦发声，得名‘筑’。取打击之意为器名。"
+    }
+  ]
+}

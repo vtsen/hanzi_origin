@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "用布、竹、苇等做的遮蔽门窗的东西",
+      "examples": [
+        "拉开帘子。",
+        "竹帘轻卷。"
+      ],
+      "traditional_char": "簾"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "商店做标志的旗帜",
+      "examples": [
+        "酒帘高挂。",
+        "沿街悬挂酒帘。"
+      ],
+      "traditional_char": "簾"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘簾’为形声字，从竹，廉声，最初指门帘；与‘帘’简化有关。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "古代遮蔽之物引申为悬挂作标志的旗帜，汉以后用作店铺标识。"
+    }
+  ]
+}

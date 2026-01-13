@@ -1,0 +1,82 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "脂膏因放置过久而变质",
+      "examples": [],
+      "traditional_char": "殖"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "生长繁殖",
+      "examples": [
+        "生殖",
+        "繁殖",
+        "殖民地"
+      ],
+      "traditional_char": "殖"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "种植，种下庄稼",
+      "examples": [
+        "农殖嘉谷"
+      ],
+      "traditional_char": "殖"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "投资获取生利",
+      "examples": [
+        "货殖"
+      ],
+      "traditional_char": "殖"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "尸骨",
+      "examples": [
+        "骨殖"
+      ],
+      "traditional_char": "殖"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从歺（表示与骨头、腐坏相关），直为声符，与脂膏变质之意相关。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_shift",
+      "note": "由脂膏腐坏变为泛指生长繁殖，古汉语语义扩展。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由生长延伸为种植，用于农业上下文。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "用‘生长繁殖’的义象比喻财富增殖。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "由残骨本义转为尸骨之意，形体相关。"
+    }
+  ]
+}

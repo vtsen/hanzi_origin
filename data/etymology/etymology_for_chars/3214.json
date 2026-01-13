@@ -1,0 +1,74 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "一种长方形或正方形的较大的盛东西的器具",
+      "examples": [
+        "水槽",
+        "酒槽",
+        "槽坊"
+      ],
+      "traditional_char": "槽"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "特指用来盛饲料喂牲畜的器具",
+      "examples": [
+        "马槽",
+        "猪食槽",
+        "槽头"
+      ],
+      "traditional_char": "槽"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "槽状的（形容具有槽的形状）",
+      "examples": [
+        "槽钢",
+        "槽铁",
+        "槽牙"
+      ],
+      "traditional_char": "槽"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "两边高起，中间凹下物体的凹下部分",
+      "examples": [
+        "河槽",
+        "凿槽儿"
+      ],
+      "traditional_char": "槽"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "形声字，从木，曹声。本义即特指盛饲料喂牲畜之器。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "由专指畜牲食槽扩展为一般大型盛物器具。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由具体器物形态而转用于具有相似结构形状的事物。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "槽状形态进一步引申为所有两边高中间凹之部分，如河槽。"
+    }
+  ]
+}

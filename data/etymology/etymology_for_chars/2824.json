@@ -1,0 +1,73 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "因由，缘由，原因",
+      "examples": [
+        "缘故",
+        "缘由",
+        "缘何"
+      ],
+      "traditional_char": "緣"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "命中注定的遇合机会或人与人、人与事物之间的联系机会",
+      "examples": [
+        "缘分",
+        "一面之缘",
+        "姻缘",
+        "有缘无分"
+      ],
+      "traditional_char": "緣"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "沿着，顺着",
+      "examples": [
+        "缘法",
+        "缘木求鱼"
+      ],
+      "traditional_char": "緣"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "边，边缘",
+      "examples": [
+        "边缘"
+      ],
+      "traditional_char": "緣"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 3,
+      "note": "‘緣’为形声字，形旁‘糸’表示与线相关，声旁‘彖’。本义为“边缘”，与线在边上的含义有关。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 3,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "从“边缘”引申出“沿着、顺着”之义，因顺边而行。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 0,
+      "evolution_type": "metaphor",
+      "note": "由“沿着”引申为“原因”，语义化为事情的起点、由头。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "原因、缘由进一步引申为人与人之间因由、机会，故为“命中注定的遇合机会”。"
+    }
+  ]
+}

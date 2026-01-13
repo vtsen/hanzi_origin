@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "仰起，抬起（尤指头）",
+      "examples": [
+        "昂首阔步",
+        "昂首"
+      ],
+      "traditional_char": "昂"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "高，贵，地位或价格高",
+      "examples": [
+        "昂贵",
+        "价昂"
+      ],
+      "traditional_char": "昂"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "情绪高昂，精神振奋",
+      "examples": [
+        "昂扬",
+        "高昂",
+        "气昂昂"
+      ],
+      "traditional_char": "昂"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从曰，卬声，初本指抬头仰视。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "古人昂首引申为地位和价值的提升。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "从抬头引申为精神情绪的高涨。"
+    }
+  ]
+}

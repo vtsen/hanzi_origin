@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "财物，钱财",
+      "examples": [
+        "以尔车来，以我贿迁",
+        "多贿多金"
+      ],
+      "traditional_char": "賄"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "赠送财物",
+      "examples": [
+        "厚贿之"
+      ],
+      "traditional_char": "賄"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "用财物贿赂（买通）他人，尤其是公职人员",
+      "examples": [
+        "行贿",
+        "受贿",
+        "贿通"
+      ],
+      "traditional_char": "賄"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从贝表示与财物有关，卒声，初指财物。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_shift",
+      "note": "由表示财物引申为赠送财物，见先秦典籍。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_narrowing",
+      "note": "赠送财物之义具体化为用财物贿赂他人，多用于官场。"
+    }
+  ]
+}

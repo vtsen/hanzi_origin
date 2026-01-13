@@ -1,0 +1,40 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "给予，交给，授予。",
+      "examples": [
+        "授奖",
+        "授旗",
+        "授命"
+      ],
+      "traditional_char": "授"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "教导，传授（知识、技艺等）。",
+      "examples": [
+        "授业",
+        "授人以渔"
+      ],
+      "traditional_char": "授"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声兼会意字，从手，‘受’为声兼意，表示交由他人之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘给予’的本义引申为‘传授知识、技艺’等抽象内容，见于先秦文献后期。"
+    }
+  ]
+}

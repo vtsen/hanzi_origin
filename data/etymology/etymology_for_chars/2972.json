@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "身体部位，指介于胸和骨盆之间的一部分，包括腹壁、腹腔和内脏，俗称“肚子”。",
+      "examples": [
+        "腹部",
+        "腹膜",
+        "腹泻",
+        "腹疾"
+      ],
+      "traditional_char": "腹"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "比喻物体的前部、内部或中部。",
+      "examples": [
+        "腹地",
+        "腹背受敌"
+      ],
+      "traditional_char": "腹"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "厚实坚硬。",
+      "examples": [
+        "冰方盛，水泽腹坚，命取冰。"
+      ],
+      "traditional_char": "腹"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "怀抱，存有（多指情感或思想上的包容）。",
+      "examples": [
+        "出入腹我"
+      ],
+      "traditional_char": "腹"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从“肉”表意，‘复’表音，本义为肚子。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "以身体的腹部引申为地区或物体的内部、中部，常见比喻用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "腹部厚实，引申为厚实坚硬，见于古文。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "腹内可容，转喻为怀抱、包容。"
+    }
+  ]
+}

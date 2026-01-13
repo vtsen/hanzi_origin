@@ -1,0 +1,80 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "憔悴，指面容枯瘦、黄瘦，形容身体因疾病、辛劳、忧愁等变得消瘦、容颜衰败。",
+      "examples": [
+        "颜色憔悴，形容枯槁。",
+        "身憔悴而考旦。",
+        "而日以憔悴。"
+      ],
+      "traditional_char": "憔"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "困苦，指由于艰难困苦而精神萎靡、憔悴。",
+      "examples": [
+        "民之憔于虐政。",
+        "困苦；困顿。",
+        "走得筋舒力尽，憔得眼运头低。"
+      ],
+      "traditional_char": "憔"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "忧愁，烦恼，形容因忧思过度而精神、面容衰败。",
+      "examples": [
+        "人心憔然，莫知所出。",
+        "憔悴忧貌也。",
+        "一会家被春光相恼，越着我展转的添憔。"
+      ],
+      "traditional_char": "憔"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "枯萎，指植物、容颜枯萎、衰败。",
+      "examples": [
+        "枯瘦；枯萎。",
+        "衰败；残败。"
+      ],
+      "traditional_char": "憔"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从心，焦声。心表意，表示与情感状态有关，焦声兼表音。最初表示因忧愁等致面容枯瘦。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由外貌枯瘦（物理憔悴）引申为精神与境遇方面的困苦，始见古汉语文献。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由身体外貌的枯瘦转指因忧思、烦恼而显露憔悴的状态，两者常在文献中并用。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由人之容颜枯瘦转喻事物或植物的枯萎、衰败，形成抽象义。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "忧愁（精神状态）常导致困苦之感，义项在语用中互有转化。"
+    }
+  ]
+}

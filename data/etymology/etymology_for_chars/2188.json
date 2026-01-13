@@ -1,0 +1,93 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "用手摸取、伸手取物，或伸出头、身体等。",
+      "examples": [
+        "探囊取物",
+        "探头探脑",
+        "探身而入"
+      ],
+      "traditional_char": "探"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "寻求，探索未明之事。",
+      "examples": [
+        "探求真理",
+        "探讨问题",
+        "勘探石油",
+        "钻探矿产"
+      ],
+      "traditional_char": "探"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "侦查、打听消息。",
+      "examples": [
+        "探听军情",
+        "探问虚实",
+        "调查探查"
+      ],
+      "traditional_char": "探"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "执行侦查任务的人。",
+      "examples": [
+        "敌探",
+        "密探",
+        "探马"
+      ],
+      "traditional_char": "探"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "访问、看望。",
+      "examples": [
+        "探亲",
+        "探望病人",
+        "探监"
+      ],
+      "traditional_char": "探"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从手，罙声，本义为用手摸取。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由物理‘摸取’引申为对知识和事物的‘探索’。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "‘探索’行为进一步特化为侦查、打听消息。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "conversion",
+      "note": "动词‘探’转为执行该动作的人，即‘探子’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "从‘伸手取物’引申为拜访、看望（如探望、探亲）。"
+    }
+  ]
+}

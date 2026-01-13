@@ -1,0 +1,53 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "鲤鱼，一种鱼类，体侧扁，嘴边有触须，肉可食。",
+      "examples": [
+        "池中有鲤。",
+        "鲤鱼跃龙门。"
+      ],
+      "traditional_char": "鯉"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "受父亲教诲的庭院，引申为父亲的教诲处。",
+      "examples": [
+        "鲤庭之训。"
+      ],
+      "traditional_char": "鯉"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "书信的代称，因古代传递书信以双鲤鱼形系之。",
+      "examples": [
+        "奉鲤致意。"
+      ],
+      "traditional_char": "鯉"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "左“鱼”表义，右“里”表音，为形声字，原指鱼类‘鲤’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "以‘鲤鱼’跃龙门象征子弟受教成功，转指受教之处或父训。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "因传递书信常用双鲤鱼形，‘鲤’引申为信件。"
+    }
+  ]
+}

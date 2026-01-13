@@ -1,0 +1,89 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "瓦器或物体破损、断裂",
+      "examples": [
+        "瓦器毁。",
+        "器物毁坏。"
+      ],
+      "traditional_char": "毀"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "破坏损害",
+      "examples": [
+        "毁灭",
+        "毁害",
+        "毁弃",
+        "销毁"
+      ],
+      "traditional_char": "毀"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "烧掉",
+      "examples": [
+        "烧毁",
+        "焚毁"
+      ],
+      "traditional_char": "毀"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "把旧物改造成其他东西",
+      "examples": [
+        "把旧桌子毁成两个小凳子。"
+      ],
+      "traditional_char": "毀"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "诽谤，说坏话",
+      "examples": [
+        "毁谤",
+        "毁誉",
+        "诋毁"
+      ],
+      "traditional_char": "毀"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从“土”（意符，表与器物破损有关），“攴”声，最早用于指瓦器等物体的缺损。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由指器物破损扩展为泛指一切破坏、损害，汉代及以后。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_narrowing",
+      "note": "泛指破坏进一步具体到用火烧毁，常用于焚烧，明确见于后世用法。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由“破坏”引申为“拆解、改造”，即对旧物体结构的再利用。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "由‘毁坏’进一步比喻为‘毁坏名誉、说人坏话’，汉以后常见。"
+    }
+  ]
+}

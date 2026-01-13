@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "依照原样摹画或绘画",
+      "examples": [
+        "描写山水画",
+        "她在纸上描了一朵花"
+      ],
+      "traditional_char": "描"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "依样摹写、形容或刻画（事物、状态等）",
+      "examples": [
+        "描写他的外貌",
+        "文章生动地描述了场景"
+      ],
+      "traditional_char": "描"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从手表动作，苗为声符，表示摹画动作。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由具体摹画图像转为对事物特征、状态的描绘，语义由具体到抽象，汉代已见。"
+    }
+  ]
+}

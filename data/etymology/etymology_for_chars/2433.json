@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "用水摇动或放在水里摆动以洗净。",
+      "examples": [
+        "把瓶子涮一涮。",
+        "用清水涮锅。"
+      ],
+      "traditional_char": "涮"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "将肉片等在沸水中快速烫过即取出蘸料食用。",
+      "examples": [
+        "我们去吃涮羊肉。",
+        "先把菜涮一下。"
+      ],
+      "traditional_char": "涮"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "耍弄、欺骗（口语用法）。",
+      "examples": [
+        "你别涮我。"
+      ],
+      "traditional_char": "涮"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，刷声，表示水流动清洗之义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由“水洗”引申为“在水中快速烫食物”，转喻形成。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由“快速烫、过”的动作，比喻“耍弄、忽悠”他人，为近现代俗用。"
+    }
+  ]
+}

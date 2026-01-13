@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "幼年丧父或父母双亡的孩子，孤儿。",
+      "examples": [
+        "孤儿寡母",
+        "托孤"
+      ],
+      "traditional_char": "孤"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "单独，无依无靠。",
+      "examples": [
+        "孤单",
+        "孤独",
+        "孤身一人"
+      ],
+      "traditional_char": "孤"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "古代帝王的自称，王侯自谦的称呼。",
+      "examples": [
+        "孤王",
+        "孤家寡人"
+      ],
+      "traditional_char": "孤"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "辜负（“辜”的古写）；负。",
+      "examples": [
+        "此情可待成追忆，只是当时已惘然，悔不孤君意。"
+      ],
+      "traditional_char": "孤"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从子，表示与儿童相关，瓜为声符，最初指幼年丧父的孩子。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "“孤”由指没有父母的孩子，引申为一般孤单无依。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "帝王自称“孤”，取其高处无援，类似‘孤独’之意，先见于战国秦晋等国。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "“孤”古通“辜”，借用作‘辜负’之意，为音近假借字。"
+    }
+  ]
+}

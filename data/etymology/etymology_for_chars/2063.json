@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "把面食等放在烧热的器物上加热使熟",
+      "examples": [
+        "烙饼",
+        "锅贴要两面烙焦"
+      ],
+      "traditional_char": "烙"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "用烧热的器具烫熨物品或在其上留下印记",
+      "examples": [
+        "烙印",
+        "烙衣服",
+        "心头烙下了伤痕"
+      ],
+      "traditional_char": "烙"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "other",
+      "meaning": "〔炮烙〕古代酷刑名，将人放在烧热的铜柱上折磨致死",
+      "examples": [
+        "炮烙之刑",
+        "商纣作炮烙以残害忠良"
+      ],
+      "traditional_char": "烙"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从火，各声，表与火有关的加热动作"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由专指加热食物引申为凡用热器具烫熨、烙印等"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "以施用烙印工具之动作借指用于刑具酷刑"
+    }
+  ]
+}

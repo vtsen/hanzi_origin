@@ -1,0 +1,122 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "用木板或其他材料做的标志、招牌",
+      "examples": [
+        "门牌",
+        "路牌",
+        "牌匾"
+      ],
+      "traditional_char": "牌"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "凭证，如金牌、银牌、腰牌",
+      "examples": [
+        "金牌",
+        "银牌",
+        "腰牌"
+      ],
+      "traditional_char": "牌"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "产品的商标或品牌",
+      "examples": [
+        "名牌货",
+        "大牌"
+      ],
+      "traditional_char": "牌"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "用来遮护身体的物件，如盾牌、挡箭牌",
+      "examples": [
+        "盾牌",
+        "挡箭牌"
+      ],
+      "traditional_char": "牌"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "娱乐或赌博用具，如纸牌、扑克牌、麻将牌",
+      "examples": [
+        "纸牌",
+        "扑克牌",
+        "麻将牌"
+      ],
+      "traditional_char": "牌"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "神主、灵位等祭祀用的木牌",
+      "examples": [
+        "牌位"
+      ],
+      "traditional_char": "牌"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "词、曲的调名，如词牌、曲牌",
+      "examples": [
+        "词牌",
+        "曲牌",
+        "牌子曲"
+      ],
+      "traditional_char": "牌"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从片，卑声。“片”表示扁薄木片，表形，原指题榜、招牌，音旁为“卑”"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由招牌发展为凭证，用带有字样的木片或标志作凭证"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由实体招牌引申为品牌、商标"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由扁平的标志物拓展为保护用的扁平器具"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "以木片为材料制成的娱乐道具，后泛指各类纸牌、麻将牌等"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "扁薄的木板也用于写神主、灵位"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "metaphor",
+      "note": "由实物“招牌”转喻为词曲的名目"
+    }
+  ]
+}

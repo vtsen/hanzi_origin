@@ -1,0 +1,42 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "草木或其他物体因失去水分而干枯",
+      "examples": [
+        "枯树",
+        "干枯",
+        "枯槁",
+        "枯萎",
+        "枯荣"
+      ],
+      "traditional_char": "枯"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "无趣味，无生气，枯燥",
+      "examples": [
+        "枯燥",
+        "枯肠"
+      ],
+      "traditional_char": "枯"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从木，古声，表示植物失去水分而干枯。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由失去水分无生机的状态引申为无趣味、无生气，如“枯燥”。"
+    }
+  ]
+}

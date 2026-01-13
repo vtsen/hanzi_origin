@@ -1,0 +1,87 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古代汉民族自称",
+      "examples": [
+        "有夏",
+        "华夏"
+      ],
+      "traditional_char": "夏"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "一年中的第二个季节，即夏季",
+      "examples": [
+        "夏天炎热",
+        "夏季作物"
+      ],
+      "traditional_char": "夏"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "中国朝代名，即夏朝",
+      "examples": [
+        "夏代兴亡",
+        "夏禹治水"
+      ],
+      "traditional_char": "夏"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "指中国或中华民族",
+      "examples": [
+        "华夏儿女",
+        "夏国"
+      ],
+      "traditional_char": "夏"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "夏明哲",
+        "古有夏侯"
+      ],
+      "traditional_char": "夏"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意，从页、臼、攵，象人形，早期意指古代汉民族的自称。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_narrowing",
+      "note": "先有族称再专指夏朝政权。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由特指定夏朝扩展为泛指中国或中华民族。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_shift",
+      "note": "因夏民族历法，后引申为一年第二季。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由族名用作姓氏，古今皆有。"
+    }
+  ]
+}

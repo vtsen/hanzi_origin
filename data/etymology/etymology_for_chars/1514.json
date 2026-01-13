@@ -1,0 +1,99 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "onomatopoeia",
+      "meaning": "猫叫声或唤猫声的象声词。",
+      "examples": [
+        "小猫咪咪叫。",
+        "咪，咪，过来！"
+      ],
+      "traditional_char": "咪"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "微笑的样子，常用于叠用，如“笑咪咪”。",
+      "examples": [
+        "他笑咪咪地看着我。"
+      ],
+      "traditional_char": "咪"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "法国长度单位“米突”的省称，今作“米”。",
+      "examples": [
+        "一咪是指一米。"
+      ],
+      "traditional_char": "咪"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "onomatopoeia",
+      "meaning": "同“咩”，羊叫声的象声词。",
+      "examples": [
+        "羊儿咪咪叫。"
+      ],
+      "traditional_char": "咪"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "pronoun",
+      "meaning": "方言中指“我”或“我们”。",
+      "examples": [
+        "這東一鋪灘西一鋪灘，叫咪娘兒們怎能給撿奪辦呢？"
+      ],
+      "traditional_char": "咪"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "adverb",
+      "meaning": "方言，别；莫。",
+      "examples": [
+        "咪走！",
+        "咪吵！"
+      ],
+      "traditional_char": "咪"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“咪”从口，米声。本义为象声词，模仿猫叫或呼猫声。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "猫叫时嘴形为微笑状，引申为“笑咪咪”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "因音同“米”，借用为长度单位“米突”的简称。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "unknown",
+      "note": "粤语中“咪”作方言副词“别；莫”，语音借用，语义演化路径不明。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 0,
+      "evolution_type": "analogy",
+      "note": "因两者皆为动物叫声，受象声词类比影响，出现“咪”指羊叫。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "unknown",
+      "note": "方言作“我；我们”，演化机制不明但与口语音变相关。"
+    }
+  ]
+}

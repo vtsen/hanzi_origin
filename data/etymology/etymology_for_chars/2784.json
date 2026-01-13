@@ -1,0 +1,120 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "禽兽或其他动物的巢穴，喻坏人聚居的地方",
+      "examples": [
+        "鸟窝",
+        "贼窝"
+      ],
+      "traditional_char": "窩"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "临时搭成的简陋的小屋",
+      "examples": [
+        "窝棚",
+        "窝铺"
+      ],
+      "traditional_char": "窩"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "喻人体或物体所占的位置",
+      "examples": [
+        "窝子",
+        "挪个窝儿"
+      ],
+      "traditional_char": "窩"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "洼陷的地方",
+      "examples": [
+        "酒窝儿",
+        "心窝儿"
+      ],
+      "traditional_char": "窩"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "弄弯，使曲折",
+      "examples": [
+        "把铁丝窝过来"
+      ],
+      "traditional_char": "窩"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "藏匿犯法的人或东西",
+      "examples": [
+        "窝主",
+        "窝匪",
+        "窝藏"
+      ],
+      "traditional_char": "窩"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "郁积不得发作或发挥",
+      "examples": [
+        "窝火",
+        "窝心",
+        "窝风"
+      ],
+      "traditional_char": "窩"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘窩’（窩）为形声字，从穴，呙声，本义为动物的巢穴。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "以动物巢穴比喻简陋之人居，历史上此用法早见"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "用巢穴引申为人或物体所占的位置"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "从巢穴形状引申为洼陷的地方"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由洼陷之形引申出使物体弯曲、窝起来"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "metonymy",
+      "note": "以贼窝等义拓展出‘窝藏’等动词义"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "metaphor",
+      "note": "巢穴比喻情绪郁积不发"
+    }
+  ]
+}

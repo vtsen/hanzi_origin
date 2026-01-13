@@ -1,0 +1,124 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "本义：支翅鸟",
+      "examples": [
+        "《说文》：“难，支翅鸟也。”"
+      ],
+      "traditional_char": "難"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "不容易，做起来费事",
+      "examples": [
+        "此事难办。",
+        "难题"
+      ],
+      "traditional_char": "難"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "不好（难听、难看）",
+      "examples": [
+        "难听的声音",
+        "难看的样子"
+      ],
+      "traditional_char": "難"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "不大可能办到，使人感到困难",
+      "examples": [
+        "难免",
+        "难为"
+      ],
+      "traditional_char": "難"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "灾祸，困苦",
+      "examples": [
+        "遭难",
+        "受难"
+      ],
+      "traditional_char": "難"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "仇怨",
+      "examples": [
+        "排难解纷"
+      ],
+      "traditional_char": "難"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "诘责，质问",
+      "examples": [
+        "发难",
+        "责难"
+      ],
+      "traditional_char": "難"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "other",
+      "meaning": "古同“傩”",
+      "examples": [],
+      "traditional_char": "難"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从隹，表示与鸟有关，兼作声旁。本义为支翅鸟。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "形声字本义为鸟，后假借表“困难”，为常见假借现象。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由“不容易”引申为“不好”，用法见近现代。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由“不容易”进一步引申为“不大可能办到，使人感到困难”，语义发展。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "由“难”引申为“灾祸、受困”，古汉语常用手法。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "“灾祸、困苦”进一步引申为“仇怨”。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 6,
+      "evolution_type": "semantic_extension",
+      "note": "受“灾难、困苦”词义影响，引申为“诘责、质问”。"
+    }
+  ]
+}

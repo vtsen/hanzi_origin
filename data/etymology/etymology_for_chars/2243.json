@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "用来保护头部的帽子，多用金属制成。",
+      "examples": [
+        "钢盔",
+        "头盔",
+        "士兵们戴着盔甲。"
+      ],
+      "traditional_char": "盔"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "形状像盔或半球形的帽子或物体。",
+      "examples": [
+        "帽盔儿",
+        "盔头"
+      ],
+      "traditional_char": "盔"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "盆子一类的器皿。",
+      "examples": [
+        "瓦盔",
+        "旧时乡村常用瓦盔盛饭。"
+      ],
+      "traditional_char": "盔"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 2,
+      "note": "形声字，从皿表器皿之义，灰为声，本义为钵、瓦盆；后义多引申转化。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 2,
+      "target_index": 0,
+      "evolution_type": "metaphor",
+      "note": "因头盔形似瓦盆等器皿，由器物名称借指护头的头盔。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由专指军用头盔推广至泛指所有形状为盔或半球状的帽子或物体。"
+    }
+  ]
+}

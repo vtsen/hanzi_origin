@@ -1,0 +1,103 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "一种打击乐器，圆柱形，中空，两端蒙皮",
+      "examples": [
+        "鼓乐",
+        "大鼓"
+      ],
+      "traditional_char": "鼓"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "形状、声音或作用像鼓的事物或器官",
+      "examples": [
+        "耳鼓",
+        "石鼓"
+      ],
+      "traditional_char": "鼓"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "敲击、拍打使发出声音",
+      "examples": [
+        "鼓吹",
+        "鼓噪"
+      ],
+      "traditional_char": "鼓"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "发动，使振作起来",
+      "examples": [
+        "鼓励",
+        "鼓动",
+        "鼓舞"
+      ],
+      "traditional_char": "鼓"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "高起，凸出",
+      "examples": [
+        "鼓包",
+        "鼓胀"
+      ],
+      "traditional_char": "鼓"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "古代夜间击鼓以报时，一鼓为一更",
+      "examples": [
+        "三鼓已过"
+      ],
+      "traditional_char": "鼓"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意，甲骨文字形左边为鼓本体，右边为支，表示持槌击鼓，表示打击乐器本义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "因形状、声音等相似引申为耳鼓、石鼓等。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "conversion",
+      "note": "由名词转为动词，指敲击鼓或拍击。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "击鼓可以激励或动员，引申为使振作、鼓励。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "鼓为中空凸起物，引申为高起、鼓胀。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "metonymy",
+      "note": "以鼓指代夜间计时单位。"
+    }
+  ]
+}

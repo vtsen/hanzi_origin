@@ -1,0 +1,165 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "墓道，古墓中运送棺材到墓室的通道",
+      "examples": [
+        "以度为丘隧。——《周礼·冢人》",
+        "猗歟琢石為二碑，一藏幽隧一臨歧。"
+      ],
+      "traditional_char": "隧"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "地道，山中或地下凿成的通路；隧道",
+      "examples": [
+        "君何患焉?若阙地及泉，隧而相见，其谁曰不然?——《左传·隐公元年》",
+        "隧洞"
+      ],
+      "traditional_char": "隧"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "道路，通道（包括城市或门内的路）",
+      "examples": [
+        "大风有隧。——《诗·大雅·桑柔》",
+        "连大车以塞隧。——《左传·襄公十八年》",
+        "出入不当门隧。——《礼记·曲礼上》"
+      ],
+      "traditional_char": "隧"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "人体血气津液等运行的通道",
+      "examples": [
+        "五藏之道，皆出于经隧，以行血气。——《素问》"
+      ],
+      "traditional_char": "隧"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "钟上受敲击而洼下的地方",
+      "examples": [
+        "于上之攠谓之隧。——《周礼》"
+      ],
+      "traditional_char": "隧"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "远郊之地，周代郊外的行政区划，五县为隧",
+      "examples": [
+        "鲁人三郊三隧。——《史记》",
+        "令隧正纳郊保，奔火所。——《左传》"
+      ],
+      "traditional_char": "隧"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "烽火台，边塞设置的守望亭",
+      "examples": [
+        "欲起亭隧。——《汉书·西域传下》",
+        "登障隧而遥望兮，聊须臾以婆娑。——《文选·班彪·北征赋》"
+      ],
+      "traditional_char": "隧"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "verb",
+      "meaning": "旋转",
+      "examples": [
+        "若磨石之隧。——《庄子》",
+        "大风有隧。——《诗·大雅·桑柔》"
+      ],
+      "traditional_char": "隧"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "verb",
+      "meaning": "钻进地道，钻洞",
+      "examples": [
+        "一狼洞其中，意将隧入以攻其后也。——《聊斋志异·狼三则》"
+      ],
+      "traditional_char": "隧"
+    },
+    {
+      "index": 9,
+      "part_of_speech": "verb",
+      "meaning": "通“墜”，落下；掉下",
+      "examples": [
+        "懸垂之類，有時而隧。——《淮南子·說林》",
+        "至共頭而山隧。——《荀子》"
+      ],
+      "traditional_char": "隧"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从阜表示与山地或通道有关，遂为声。本义为墓道，通向墓室的通道。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“墓道”扩展为一般“地道”或“隧道”。战国秦汉就有用法。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "地道、通道意义进一步泛化为“道路”或“通道”。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "道路转喻为人体脉络、气血流通的通道。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "由“道路”义引申为郊外、边远地带及其行政区的名称。"
+    },
+    {
+      "source_index": 5,
+      "target_index": 6,
+      "evolution_type": "semantic_extension",
+      "note": "行政区为军事用途，引申为边塞守望的亭（通“燧”）。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 8,
+      "evolution_type": "conversion",
+      "note": "由“地道”名词转为动词，表示“钻洞”行为。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "道路作为通道，比拟钟上因撞击形成的凹陷区。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 7,
+      "evolution_type": "metaphor",
+      "note": "道的循环、转动喻为事物的旋转运动。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 9,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "“隧”通“墜”，本不相关，后以音通假，现仅见于文言。"
+    }
+  ]
+}

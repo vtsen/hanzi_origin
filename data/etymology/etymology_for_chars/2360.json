@@ -1,0 +1,97 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "离开，脱离原本附着或束缚之物",
+      "examples": [
+        "脱离危险",
+        "挣脱桎梏",
+        "临阵脱逃"
+      ],
+      "traditional_char": "脫"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "遗失，遗漏",
+      "examples": [
+        "脱漏",
+        "脱误",
+        "脱文"
+      ],
+      "traditional_char": "脫"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "取下，除去",
+      "examples": [
+        "脱下衣服",
+        "脱帽致敬",
+        "脱脂奶"
+      ],
+      "traditional_char": "脫"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adverb",
+      "meaning": "倘若，或许",
+      "examples": [
+        "脱有不测",
+        "脱或来迟"
+      ],
+      "traditional_char": "脫"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "轻慢，轻率，不拘礼节",
+      "examples": [
+        "脱略礼法",
+        "举止轻脱"
+      ],
+      "traditional_char": "脫"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [],
+      "traditional_char": "脫"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从肉，兑声，本义为‘肉去皮骨’，表示脱离、分离的动作。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由‘离开’泛指‘除去、取下’，古代已见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由离开义引申为遗漏、遗漏原物。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "由本义引申为‘倘若、或许’，为文言虚词用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由‘脱离、离开约束’引申为‘行为轻率，不拘礼节’。"
+    }
+  ]
+}

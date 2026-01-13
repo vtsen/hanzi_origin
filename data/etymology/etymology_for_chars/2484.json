@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "偏斜，不正",
+      "examples": [
+        "偏颇",
+        "颇覆",
+        "此言甚为颇僻"
+      ],
+      "traditional_char": "頗"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adverb",
+      "meaning": "很，相当地",
+      "examples": [
+        "颇为满意",
+        "颇佳",
+        "颇久"
+      ],
+      "traditional_char": "頗"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [],
+      "traditional_char": "頗"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从页，皮声。页表示头部，形容头偏斜为本义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_shift",
+      "note": "由“偏、偏僻”引申为“相当地”，见于中古及近现代语境。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "conversion",
+      "note": "用作姓氏，属于词类转化，古今皆有。"
+    }
+  ]
+}

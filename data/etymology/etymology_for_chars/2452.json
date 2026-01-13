@@ -1,0 +1,101 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "恭敬，敬畏",
+      "examples": [
+        "夙夜惟寅。——《书·舜典》",
+        "严恭寅畏。——《书·无逸》"
+      ],
+      "traditional_char": "寅"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "地支的第三位，十二生肖属虎之一",
+      "examples": [
+        "寅，地支的第三位。",
+        "十二生肖属虎者为寅。"
+      ],
+      "traditional_char": "寅"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "用以纪时，指凌晨三点至五点",
+      "examples": [
+        "寅时（夜三点至五点）。",
+        "寅不通光，而卯则日出。——《西游记》"
+      ],
+      "traditional_char": "寅"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "用以纪月，夏历正月",
+      "examples": [
+        "寅月，农历正月。",
+        "太岁在寅曰摄提格。——《尔雅·释天》"
+      ],
+      "traditional_char": "寅"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "五行属木",
+      "examples": [
+        "寅，木也。——《论衡》"
+      ],
+      "traditional_char": "寅"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "同僚，对在同一衙门做事者的敬称",
+      "examples": [
+        "寅家（同僚）；寅丈（同僚的尊称）"
+      ],
+      "traditional_char": "寅"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "pictograph",
+      "original_sense_index": 0,
+      "note": "甲骨文字形似矢或仪式动作，后转表恭敬之意，属象形。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "以恭敬之意引申为地支名，因古人将地支配以仪式、时序而用敬字。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "地支名进一步用于时辰名称。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "地支名引申用于纪月法。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "synecdoche",
+      "note": "地支与五行对应，以部分代整体。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "amelioration",
+      "note": "敬意引申为尊称同僚，语义提升。"
+    }
+  ]
+}

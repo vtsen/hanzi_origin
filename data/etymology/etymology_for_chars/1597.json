@@ -1,0 +1,73 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "血管；分布于人和动物身体内的管道",
+      "examples": [
+        "脉络",
+        "脉理"
+      ],
+      "traditional_char": "脈"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "动脉的跳动；脉搏",
+      "examples": [
+        "切脉",
+        "诊脉",
+        "脉象"
+      ],
+      "traditional_char": "脈"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "像血管一样自成系统的事物，如山脉、矿脉、叶脉等",
+      "examples": [
+        "山脉",
+        "矿脉",
+        "叶脉",
+        "文脉"
+      ],
+      "traditional_char": "脈"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "眼神表达情意的样子，含情脉脉",
+      "examples": [
+        "脉脉含情"
+      ],
+      "traditional_char": "脈"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "‘脉’为会意字，从‘月’（肉）表与身体相关，从‘永’表水流之义会意成血管。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由血管之义引申为血管的搏动，即‘脉搏’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "以血管连贯成系统的特性，比喻山脉、矿脉等连绵的地理结构。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "‘脉脉’本为连贯不断之意，引申形容情意连绵不断，用于形容目光含情。"
+    }
+  ]
+}

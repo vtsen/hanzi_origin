@@ -1,0 +1,74 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "不正，倾斜；不是正中位置。",
+      "examples": [
+        "姿势偏斜",
+        "偏远山区",
+        "不偏不倚"
+      ],
+      "traditional_char": "偏"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "不全面，不正确，有所偏向。",
+      "examples": [
+        "偏见",
+        "偏爱",
+        "偏激",
+        "偏听偏信"
+      ],
+      "traditional_char": "偏"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adverb",
+      "meaning": "与愿望、预料或一般情况不相同（多表示意外之意）。",
+      "examples": [
+        "事情偏巧发生在今天",
+        "我叫他别去，他偏去了"
+      ],
+      "traditional_char": "偏"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "谦辞，表示自己（已用过茶饭等）。",
+      "examples": [
+        "我偏过了，您请用",
+        "小生已偏"
+      ],
+      "traditional_char": "偏"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从人，表示与人有关，‘扁’作声旁，表本义‘不正，倾斜’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由具体的‘歪斜’引申为‘意见、态度不正或有倾向性的错误’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由‘偏离正中’引申为‘出乎意料，与常规不同’之义。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "unknown",
+      "note": "‘偏’作谦辞的用法，语源机制不详，或为词义演变引申。"
+    }
+  ]
+}

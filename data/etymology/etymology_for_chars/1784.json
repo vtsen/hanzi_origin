@@ -1,0 +1,52 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "田间稍稍高起的小路",
+      "examples": [
+        "田埂儿"
+      ],
+      "traditional_char": "埂"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "地势高起的长条地方",
+      "examples": [
+        "山埂"
+      ],
+      "traditional_char": "埂"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "用泥土筑起的堤防",
+      "examples": [
+        "埂堰"
+      ],
+      "traditional_char": "埂"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从土，更为声，表示田地中略高的地形。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由田间高起的小路泛化为任何地势高起的长条地方。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "高起的地形再引申为人工筑起的堤防。"
+    }
+  ]
+}

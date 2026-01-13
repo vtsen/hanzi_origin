@@ -1,0 +1,82 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "以手击背",
+      "examples": [],
+      "traditional_char": "挨"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "依次，顺次",
+      "examples": [
+        "挨门逐户"
+      ],
+      "traditional_char": "挨"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "靠近",
+      "examples": [
+        "靠近。肩挨着肩"
+      ],
+      "traditional_char": "挨"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "遭受（打、骂等）",
+      "examples": [
+        "挨打",
+        "挨骂"
+      ],
+      "traditional_char": "挨"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "拖延",
+      "examples": [
+        "挨时间",
+        "挨延"
+      ],
+      "traditional_char": "挨"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从手，矣声。‘手’表示动作，‘矣’表声。本义为以手击背。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由‘以手击背’引申为‘遭受打骂’等，可能为近似动作引申。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由物理接触引申为‘靠近’。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "‘靠近’引申为‘依次、顺次’，如挨个、挨门逐户。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "‘挨’表示被动经受，引申为拖延、拖住时间。"
+    }
+  ]
+}

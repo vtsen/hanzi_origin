@@ -1,0 +1,68 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "一种稻子",
+      "examples": [],
+      "traditional_char": "耗"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "减少，消耗，耗费",
+      "examples": [
+        "耗损",
+        "耗费",
+        "耗资"
+      ],
+      "traditional_char": "耗"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "拖延（时间）",
+      "examples": [
+        "耗时间"
+      ],
+      "traditional_char": "耗"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "音信，消息（常用于噩耗、凶耗等）",
+      "examples": [
+        "噩耗",
+        "凶耗"
+      ],
+      "traditional_char": "耗"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从耒，表示与农作物相关，毛作声符。本义为一种稻子。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_shift",
+      "note": "本义已消失，后由农作物引申为减少、耗损，机制不明。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "从耗费转为表示时间的拖延。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由消耗引申为消息，尤指凶信、丧音。"
+    }
+  ]
+}

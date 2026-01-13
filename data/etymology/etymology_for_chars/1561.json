@@ -1,0 +1,70 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "相貌美好，漂亮",
+      "examples": [
+        "她长得很俏。",
+        "俊俏美丽。"
+      ],
+      "traditional_char": "俏"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "（货物）销路好，价格上涨",
+      "examples": [
+        "这种水果现在很俏。",
+        "俏货。"
+      ],
+      "traditional_char": "俏"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "烹调时为增加滋味、色泽而加上的东西",
+      "examples": [
+        "给菜加点俏头。",
+        "俏点儿香菜。"
+      ],
+      "traditional_char": "俏"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "古同“肖”，相似",
+      "examples": [
+        "面貌俏然。"
+      ],
+      "traditional_char": "俏"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从人，肖声。本义为相貌美好。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由相貌美好引申为商品受欢迎比喻，现代用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "色泽滋味上美好，比喻菜肴配料美味，色香味佳。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "unknown",
+      "note": "‘俏’假借为‘肖’，两字古音近，常互通。"
+    }
+  ]
+}

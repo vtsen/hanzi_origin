@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "人体或动物体表的皮",
+      "examples": [
+        "皮肤",
+        "肌肤",
+        "切肤之痛",
+        "体无完肤"
+      ],
+      "traditional_char": "膚"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "表面、浅薄",
+      "examples": [
+        "肤浅",
+        "肤泛"
+      ],
+      "traditional_char": "膚"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "大、广大（古义）",
+      "examples": [
+        "薄伐猃狁，以奏肤公"
+      ],
+      "traditional_char": "膚"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从“肉”表意，‘盧’省作声符，表示与皮肉有关，最初指人的皮肤。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由具体“皮肤”比喻延伸为“表面、浅薄”，见于后起义项。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "unknown",
+      "note": "古义“广大”与本义关联待考，或为假借用法，具体机制不明。"
+    }
+  ]
+}

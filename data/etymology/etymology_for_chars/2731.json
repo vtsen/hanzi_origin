@@ -1,0 +1,53 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "天花，即痘疮，一种急性传染性疾病，皮肤上出现脓疱。",
+      "examples": [
+        "儿时患过痘疮。",
+        "天花流行时许多人患痘。"
+      ],
+      "traditional_char": "痘"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "牛痘，牛身上的痘疮，用于制疫苗，可防天花。",
+      "examples": [
+        "接种牛痘可以预防天花。"
+      ],
+      "traditional_char": "痘"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "水痘，一种主要发生于儿童的急性传染病，表现为皮疹。",
+      "examples": [
+        "孩子得了水痘，需要休息。"
+      ],
+      "traditional_char": "痘"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从疒（病），豆声，表示病名。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_narrowing",
+      "note": "由泛指天花发展出专指牛痘，用于免疫。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "天花一词泛化用于水痘等皮肤疱疹类传染病，义项扩大。"
+    }
+  ]
+}

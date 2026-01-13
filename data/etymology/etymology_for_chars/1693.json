@@ -1,0 +1,134 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "用双手托起、举起物体。",
+      "examples": [
+        "举头望明月",
+        "举手之劳"
+      ],
+      "traditional_char": "舉"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "动作或行为。",
+      "examples": [
+        "一举一动",
+        "轻而易举"
+      ],
+      "traditional_char": "舉"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "发起或兴办某事。",
+      "examples": [
+        "发动起义",
+        "创举"
+      ],
+      "traditional_char": "舉"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "提出（问题、例子等）。",
+      "examples": [
+        "举要",
+        "举例说明"
+      ],
+      "traditional_char": "舉"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "推选，推荐。",
+      "examples": [
+        "推荐贤能",
+        "推举人才"
+      ],
+      "traditional_char": "舉"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "adjective",
+      "meaning": "全部，全体。",
+      "examples": [
+        "举国上下",
+        "举世闻名"
+      ],
+      "traditional_char": "舉"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "古代科举考试或所取的人。",
+      "examples": [
+        "科举取士",
+        "一举成名"
+      ],
+      "traditional_char": "舉"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "verb",
+      "meaning": "攻克，占领（多指军事意义）。",
+      "examples": [
+        "一战而举鄢、郢"
+      ],
+      "traditional_char": "舉"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "舉为形声字，从手，與声，表示用手托起；本义为双手托物。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由具体动作扩展为泛指一切举动、行为。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由‘举起’引申为‘发起、兴办’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由‘举起’引申为‘提出’（如举要、举例）。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "由托起引申为‘推选、推举’某人。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "由‘举起’引申为‘全部’（全体动作之意）。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 6,
+      "evolution_type": "semantic_extension",
+      "note": "‘举动’之‘举’与科举取士的动作相关，后泛指科举及中举者。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 7,
+      "evolution_type": "semantic_shift",
+      "note": "由‘发起’引申为‘攻克、占领’（主动发起进攻）。"
+    }
+  ]
+}

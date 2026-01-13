@@ -1,0 +1,88 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "接近，逼近。",
+      "examples": [
+        "迫近",
+        "大军迫城下"
+      ],
+      "traditional_char": "迫"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "用强力压制，强逼。",
+      "examples": [
+        "迫害",
+        "压迫",
+        "胁迫",
+        "迫不得已"
+      ],
+      "traditional_char": "迫"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "急促，紧迫。",
+      "examples": [
+        "急迫",
+        "迫切",
+        "迫不及待"
+      ],
+      "traditional_char": "迫"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "狭窄。",
+      "examples": [
+        "地势局迫"
+      ],
+      "traditional_char": "迫"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "〔迫击炮〕一种火炮。",
+      "examples": [
+        "迫击炮是步兵常用的轻型火炮"
+      ],
+      "traditional_char": "迫"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从辵，白声。本义为“逼近”。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“接近”引申为“强力压制”，即利用强力使人无可退避。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由“强逼”引申为“急迫”，多指情势紧急，被逼不可缓。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由“接近”隐喻为“空间狭窄”。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "unknown",
+      "note": "“迫击炮”的“迫”是借用强攻、压迫之意，但具体演化机制不详。"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "水漫出来，溢出。",
+      "examples": [
+        "水益者盈。——《庄子·天下》",
+        "水益则舟行。"
+      ],
+      "traditional_char": "益"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "增加，添多。",
+      "examples": [
+        "益寿延年",
+        "增益"
+      ],
+      "traditional_char": "益"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "好处，利益。",
+      "examples": [
+        "利益",
+        "权益",
+        "受益非浅"
+      ],
+      "traditional_char": "益"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adverb",
+      "meaning": "更加，愈发。",
+      "examples": [
+        "益发",
+        "日益壮大"
+      ],
+      "traditional_char": "益"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意字，从皿、水，象容器里水漫溢，表示‘溢出’之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "‘溢出’引申为‘增加’。先秦及两汉文献可见用法。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由‘增加’转为抽象的‘利益、好处’。东汉以后常见。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "grammaticalization",
+      "note": "动词‘增加’进一步虚化为副词‘更加’。"
+    }
+  ]
+}

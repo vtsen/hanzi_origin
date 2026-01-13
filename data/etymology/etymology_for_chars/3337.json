@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "快，迅速",
+      "examples": [
+        "霍闪",
+        "霍地站起",
+        "霍然转身"
+      ],
+      "traditional_char": "霍"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "onomatopoeia",
+      "meaning": "形容摩擦声、鸟翅振动声、笑声等，或形容快速闪动",
+      "examples": [
+        "～～作响",
+        "～～振翅"
+      ],
+      "traditional_char": "霍"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "霍去病",
+        "霍元甲"
+      ],
+      "traditional_char": "霍"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘霍’为形声字，从隹，郭声，古义为迅速如鸟振翅。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由“迅速”引申为模仿快速闪动或振动声音的象声词。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "reanalysis",
+      "note": "由本义转化为姓氏用字，常见于中国古代地名称氏化现象。"
+    }
+  ]
+}

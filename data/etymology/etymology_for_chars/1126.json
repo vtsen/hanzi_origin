@@ -1,0 +1,57 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "放牧牲畜",
+      "examples": [
+        "放牧牛羊",
+        "牧童",
+        "畜牧",
+        "游牧"
+      ],
+      "traditional_char": "牧"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "治理，管理（人民）",
+      "examples": [
+        "牧民",
+        "以德牧人"
+      ],
+      "traditional_char": "牧"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "古代官名，管理地方的长官",
+      "examples": [
+        "州牧",
+        "荆州牧"
+      ],
+      "traditional_char": "牧"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意字，从牛，从攴，表示持棍放牧牛羊，甲骨文已有。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "以“放牧牲畜”引申为“治理人民”，古代常见的政治隐喻。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由治理行为转指负责治理的地方官名。"
+    }
+  ]
+}

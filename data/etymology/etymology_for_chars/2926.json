@@ -1,0 +1,70 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "蝉、蛇等动物脱下的皮或壳",
+      "examples": [
+        "蛇蜕",
+        "蝉蜕"
+      ],
+      "traditional_char": "蛻"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "蛇、蝉等动物脱皮",
+      "examples": [
+        "蛇蜕皮",
+        "蝉蜕壳"
+      ],
+      "traditional_char": "蛻"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "鸟类换毛",
+      "examples": [
+        "雏鸟蜕羽"
+      ],
+      "traditional_char": "蛻"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "比喻事物的解脱、变化、转变",
+      "examples": [
+        "蜕化",
+        "蜕变"
+      ],
+      "traditional_char": "蛻"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从虫，兑声，表示动物脱皮后的皮壳。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "conversion",
+      "note": "名词作动词用，表示动物脱皮的动作。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由蛇、蝉脱皮扩展到鸟类换羽的动作。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "脱皮引申为变化、解脱等抽象意义。"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "胆囊，动物或人体内消化器官之一。",
+      "examples": [
+        "苦胆",
+        "胆囊",
+        "肝胆相照"
+      ],
+      "traditional_char": "膽"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "勇气，不怕危险的精神。",
+      "examples": [
+        "胆量",
+        "胆气",
+        "壮胆",
+        "胆大妄为"
+      ],
+      "traditional_char": "膽"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "装在器物内部的中空部分（如球胆、暖瓶胆等）。",
+      "examples": [
+        "球胆",
+        "暖瓶胆"
+      ],
+      "traditional_char": "膽"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从肉，詹声，最初指胆囊。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "以胆囊为人体神勇的象征，产生“勇气”义，古汉语中古时期已见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "因胆囊中空，喻指物体内部中空的部分或器物，近现代汉语普遍用法。"
+    }
+  ]
+}

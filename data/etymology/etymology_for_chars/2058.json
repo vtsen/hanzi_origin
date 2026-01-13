@@ -1,0 +1,57 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "用火或蒸气使身体暖和或使物体变热、干燥",
+      "examples": [
+        "烘箱",
+        "烘手",
+        "烘干",
+        "烘烤",
+        "烘焙"
+      ],
+      "traditional_char": "烘"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "烧",
+      "examples": [],
+      "traditional_char": "烘"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "衬托，渲染",
+      "examples": [
+        "烘衬",
+        "烘托",
+        "烘染",
+        "烘云托月"
+      ],
+      "traditional_char": "烘"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "形声字，从火，共声，表与“火”相关的烧、焚烧之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_narrowing",
+      "note": "由一般的“烧”引申为专指用火或蒸气加热、干燥。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由实物加热引申为在文学或艺术中烘托、渲染。"
+    }
+  ]
+}

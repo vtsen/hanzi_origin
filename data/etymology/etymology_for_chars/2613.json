@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "炎热的天气或气候",
+      "examples": [
+        "暑天",
+        "酷暑"
+      ],
+      "traditional_char": "暑"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "中医学中致病的“六淫”之一，指暑气侵袭所致的病因",
+      "examples": [
+        "暑邪入侵",
+        "防暑"
+      ],
+      "traditional_char": "暑"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“暑”从日，者声。本义为炎热天气，形声字，象征炎热与阳光。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "医学领域中从“炎热天气”引申为致病因子，出现在中医理论。"
+    }
+  ]
+}

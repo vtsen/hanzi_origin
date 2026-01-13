@@ -1,0 +1,144 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "把东西放入容器；容纳。",
+      "examples": [
+        "盛饭",
+        "小桶盛不下多少东西"
+      ],
+      "traditional_char": "盛"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "祭器中所盛的黍稷等物。",
+      "examples": [],
+      "traditional_char": "盛"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "兴旺；繁荣。",
+      "examples": [
+        "盛世",
+        "繁盛"
+      ],
+      "traditional_char": "盛"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "炽烈，旺盛。",
+      "examples": [
+        "盛怒",
+        "年轻气盛"
+      ],
+      "traditional_char": "盛"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "丰富，华美。",
+      "examples": [
+        "盛宴",
+        "盛装"
+      ],
+      "traditional_char": "盛"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "adjective",
+      "meaning": "热烈，规模大。",
+      "examples": [
+        "盛典",
+        "盛况"
+      ],
+      "traditional_char": "盛"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "adjective",
+      "meaning": "广泛，程度深。",
+      "examples": [
+        "盛传",
+        "盛行"
+      ],
+      "traditional_char": "盛"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "adjective",
+      "meaning": "深厚（如盛意）。",
+      "examples": [
+        "盛意"
+      ],
+      "traditional_char": "盛"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [],
+      "traditional_char": "盛"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "形声字。从皿，成声。初意指祭器中盛放黍稷。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "由祭品所盛发展为一般有“放入、容纳”的动词义。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "盛装黍稷多，引申为兴旺、繁荣。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由“兴旺”引申为炽烈、旺盛的情感状态。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "由“兴旺”引申为丰富、华美。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 5,
+      "evolution_type": "metaphor",
+      "note": "由“繁荣”引申为规模大、热烈。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 6,
+      "evolution_type": "semantic_extension",
+      "note": "泛指广泛，程度深。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 7,
+      "evolution_type": "semantic_extension",
+      "note": "引申为情意深厚。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 8,
+      "evolution_type": "unknown",
+      "note": "用作姓氏，具体发展机制不明。"
+    }
+  ]
+}

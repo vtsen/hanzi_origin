@@ -1,0 +1,87 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "onomatopoeia",
+      "meaning": "鸟叫声、啁啾声等象声词。",
+      "examples": [
+        "喜鹊喳喳叫。",
+        "隔窗野鹊儿喳喳地叫。——《西厢记》"
+      ],
+      "traditional_char": "喳"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "喧嚷、嘈杂地说话。",
+      "examples": [
+        "沒來由撞着個潑闍黎，亂語胡喳。——明·孟稱舜《死裏逃生》",
+        "休喳，謾思量代筆生花。——明·葉憲祖《鸞鎞記》"
+      ],
+      "traditional_char": "喳"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "interjection",
+      "meaning": "（应诺声）旧时仆役对主人的应答。",
+      "examples": [
+        "只见那家人连声应道：“喳!喳!”回头就去了。——《老残游记》",
+        "随后就听得办公室外有一条沙喉咙高喊着‘王升’，随后就听得几个声音同时应着‘喳’。——茅盾《第一个半天的工作》"
+      ],
+      "traditional_char": "喳"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "particle",
+      "meaning": "句末语气助词。",
+      "examples": [
+        "我们揭开说吧，再添个三五斤，究竟行不行喳？——沙汀《还乡记》",
+        "让我们也来瞄一眼喳！——沙汀《过渡集·母亲》"
+      ],
+      "traditional_char": "喳"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "onomatopoeia",
+      "meaning": "低语、窃窃私语的声音。",
+      "examples": [
+        "嘁嘁喳喳。",
+        "他俩在角落里嘁嘁喳喳地说个不停。"
+      ],
+      "traditional_char": "喳"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从口，查声，表示鸟啁啾、声音震颤。本义为象声。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由鸟叫等自然声音扩大到人类低声私语。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由鸟啼或杂声引申为人群喧嚷之声。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由嘈杂喧嚷引申为下属应诺的高声喊应，表现某种特殊语境下的应答声。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "grammaticalization",
+      "note": "由应答声进一步虚化为句末语气助词。"
+    }
+  ]
+}

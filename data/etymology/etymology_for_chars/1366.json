@@ -1,0 +1,125 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "疆界、田界",
+      "examples": [
+        "封疆",
+        "封域"
+      ],
+      "traditional_char": "封"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "密闭，使跟外面隔绝",
+      "examples": [
+        "封闭",
+        "密封",
+        "封口"
+      ],
+      "traditional_char": "封"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "用来装信、钱等物的纸套",
+      "examples": [
+        "信封",
+        "赏封"
+      ],
+      "traditional_char": "封"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "帝王把土地或爵位给予亲属或臣僚",
+      "examples": [
+        "封侯",
+        "封君",
+        "封拜"
+      ],
+      "traditional_char": "封"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "帝王筑坛祭天",
+      "examples": [
+        "封禅"
+      ],
+      "traditional_char": "封"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "限制",
+      "examples": [
+        "故步自封"
+      ],
+      "traditional_char": "封"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "measure_word",
+      "meaning": "量词，用于装封套的东西",
+      "examples": [
+        "一封信"
+      ],
+      "traditional_char": "封"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [],
+      "traditional_char": "封"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "左为土上树象，右为手（寸），表示以树明确界限。本义为疆界、田界。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "“疆界”引申为分封诸侯、授予疆域，为先秦、秦汉常用义。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "由“分封”引申为帝王特定祭祀活动，历史沿革中汉武帝以后常见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由“设界限、划分”喻为“封闭、隔绝”，为后起义。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "用作装信纸、金钱的封套，因“封闭”引申。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "metaphor",
+      "note": "由“封闭”引申至“限制”，如“故步自封”。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 6,
+      "evolution_type": "conversion",
+      "note": "名词“封”引申为量词用法，如“一封信”。"
+    }
+  ]
+}

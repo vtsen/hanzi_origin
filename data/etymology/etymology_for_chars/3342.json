@@ -1,0 +1,60 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "动物或人的口，用于吃东西或发出声音的器官，也引申为说话的部位",
+      "examples": [
+        "张嘴说话",
+        "嘴巴",
+        "嘴巴很甜"
+      ],
+      "traditional_char": "嘴"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "形状或作用类似于嘴的东西",
+      "examples": [
+        "壶嘴",
+        "山嘴"
+      ],
+      "traditional_char": "嘴"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "猫头鹰等鸟头上的毛角（本义，见古文“觜”）",
+      "examples": [
+        "觜觿（指鸟类的毛角）"
+      ],
+      "traditional_char": "觜"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 2,
+      "note": "‘觜’为形声字，从角，兹声，本义为鸟头毛角"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘嘴’为后起累增字，从口，觜声，表示人的口及其相关引申义"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 2,
+      "target_index": 0,
+      "evolution_type": "semantic_shift",
+      "note": "‘觜’义转指鸟喙，进而借指口器，北方方言及日常语义发展"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由口的功能、形状比喻为物体突出部分或出口，近现代广泛比喻"
+    }
+  ]
+}

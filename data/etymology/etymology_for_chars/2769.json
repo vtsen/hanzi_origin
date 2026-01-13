@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "灌注，灌溉、浇灌田地。",
+      "examples": [
+        "西門豹引漳水溉邺，以富魏之河內。——《史記·河渠書》",
+        "灌田溉園，未若溝渠之沃。——《抱樸子·逸民》",
+        "溉稻滿春疇，鳴渠遶茅屋。——宋·歐陽修《幽谷泉》"
+      ],
+      "traditional_char": "溉"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "洗涤、清洗。",
+      "examples": [
+        "誰能亨魚？溉之釜。——《詩·檜風·匪風》",
+        "器之溉者不寫。——《禮記·曲禮上》",
+        "某之子未得濯溉於祭祀，是以未敢見。——《儀禮·士昏禮》"
+      ],
+      "traditional_char": "溉"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "通“概”，指尊罍等祭器。",
+      "examples": [
+        "泂酌彼行潦，挹彼注兹，可以濯溉。——《詩·大雅·泂酌》"
+      ],
+      "traditional_char": "溉"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "水名。在山东省潍坊市东南，东北流入渤海。",
+      "examples": [
+        "桑犊，覆甑山溉水所出，東北至都昌入海。——《漢書·地理志上》"
+      ],
+      "traditional_char": "溉"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，既声，表示水流注入、灌溉之意，原指灌注。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从“水注入”引申为“洗涤”，古代祭祀器皿灌洗常用此词。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "祭祀用水引申为祭器，出现“溉”通“概”的词义。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "以动作为河流名称，指水流用于灌溉的河流。"
+    }
+  ]
+}

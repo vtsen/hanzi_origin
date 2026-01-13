@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "用粗野或带恶意的话侮辱人",
+      "examples": [
+        "骂人",
+        "被众人辱骂"
+      ],
+      "traditional_char": "駡"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "斥责",
+      "examples": [
+        "他父亲骂他没出息",
+        "老师骂学生"
+      ],
+      "traditional_char": "駡"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字。从吅（喧闹、骂声），马作声符，表示喧闹侮辱，用粗话侮辱人。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由侮辱发展为泛指严厉责备，见于后古汉语。"
+    }
+  ]
+}

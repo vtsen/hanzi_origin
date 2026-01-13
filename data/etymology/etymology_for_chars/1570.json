@@ -1,0 +1,153 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "诚信，诚实不欺骗",
+      "examples": [
+        "言必行，行必果，信也。",
+        "信誓旦旦"
+      ],
+      "traditional_char": "信"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "相信，不怀疑",
+      "examples": [
+        "人无信不立。",
+        "信任朋友"
+      ],
+      "traditional_char": "信"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "崇奉（宗教、主义等）",
+      "examples": [
+        "信仰佛教",
+        "基督教信徒"
+      ],
+      "traditional_char": "信"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "消息，信息",
+      "examples": [
+        "杳无音信",
+        "传来好信"
+      ],
+      "traditional_char": "信"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "书信，信件",
+      "examples": [
+        "写信",
+        "收到了你的信"
+      ],
+      "traditional_char": "信"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "adjective",
+      "meaning": "随便，任意",
+      "examples": [
+        "信手拈来",
+        "信步走去"
+      ],
+      "traditional_char": "信"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "other",
+      "meaning": "同“芯”",
+      "examples": [],
+      "traditional_char": "信"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "信义"
+      ],
+      "traditional_char": "信"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "verb",
+      "meaning": "舒展，伸展（古义，读shēn）",
+      "examples": [
+        "信，舒也。（《说文》）"
+      ],
+      "traditional_char": "信"
+    },
+    {
+      "index": 9,
+      "part_of_speech": "verb",
+      "meaning": "表白（古义，读shēn）",
+      "examples": [],
+      "traditional_char": "信"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意字，从人从言，表示人所言为诚信。‘信’最初表真心诚意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由诚信引申为相信。先秦已现。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由相信引申为宗教崇奉。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "由诚信引申为有效、可靠的信息。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由消息进一步泛指书信。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "semantic_shift",
+      "note": "由不加修饰（真诚）引申为随便、任性用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 7,
+      "evolution_type": "semantic_narrowing",
+      "note": "用作姓氏，源于原始含义。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "unknown",
+      "note": "‘同芯’用法来源不详，可能为借用。"
+    },
+    {
+      "source_index": 8,
+      "target_index": 9,
+      "evolution_type": "semantic_extension",
+      "note": "古今音变后表白用法可能由舒展引申。"
+    }
+  ]
+}

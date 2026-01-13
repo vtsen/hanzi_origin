@@ -1,0 +1,103 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "用作支承的东西（如棚架、书架、衣架等）",
+      "examples": [
+        "书架",
+        "衣架",
+        "搭一架棚子"
+      ],
+      "traditional_char": "架"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "支承，搀扶",
+      "examples": [
+        "架桥",
+        "架不住",
+        "架空"
+      ],
+      "traditional_char": "架"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "（量词）有支柱或机械的东西的计量单位",
+      "examples": [
+        "五架飞机",
+        "三架机床"
+      ],
+      "traditional_char": "架"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "互相殴打，争吵",
+      "examples": [
+        "打架",
+        "劝架"
+      ],
+      "traditional_char": "架"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "捏造，虚构",
+      "examples": [
+        "架词诬控"
+      ],
+      "traditional_char": "架"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "凌驾（古义，同“驾”）",
+      "examples": [
+        "架于他人之上"
+      ],
+      "traditional_char": "架"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从木，加声，表示棚架，有支承之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由具体的支承物引申为支承、支撑的动作。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "grammaticalization",
+      "note": "用于构成计量单位，来源于实体支架的量化应用。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由支撑、搀扶引申为互相对抗、打架。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "由支架用以搭建，引申为“捏造、虚构”之意。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "semantic_shift",
+      "note": "古义同“驾”，用作“凌驾”，含抽象支配之意，可能受“驾”字影响。"
+    }
+  ]
+}

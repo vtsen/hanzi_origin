@@ -1,0 +1,138 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "步行；徒步行走",
+      "examples": [
+        "徒步",
+        "徒涉"
+      ],
+      "traditional_char": "徒"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "空；没有收获、成果",
+      "examples": [
+        "徒手",
+        "徒然"
+      ],
+      "traditional_char": "徒"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adverb",
+      "meaning": "白白地；没有效果地",
+      "examples": [
+        "徒然",
+        "徒劳无益"
+      ],
+      "traditional_char": "徒"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adverb",
+      "meaning": "只；仅仅",
+      "examples": [
+        "家徒四壁"
+      ],
+      "traditional_char": "徒"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "从事学习的人；门徒，弟子",
+      "examples": [
+        "徒弟",
+        "徒工",
+        "学徒",
+        "师徒"
+      ],
+      "traditional_char": "徒"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "同一派系或同一信仰之人",
+      "examples": [
+        "信徒",
+        "教徒",
+        "党徒"
+      ],
+      "traditional_char": "徒"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "人（多指坏人）",
+      "examples": [
+        "匪徒",
+        "暴徒",
+        "赌徒",
+        "叛徒"
+      ],
+      "traditional_char": "徒"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "noun",
+      "meaning": "剥夺犯人自由的刑罚",
+      "examples": [
+        "徒刑"
+      ],
+      "traditional_char": "徒"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "左形右声，彳为行走之形符，余为声符，最初表示步行。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_shift",
+      "note": "从“步行”引申为“空手，无所持”。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "从“空，无所获”引申出“白白地”。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由“空”引申为“仅仅、只”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_shift",
+      "note": "由“步行随行”转义为“随从、弟子等随行之人”。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "从“门徒”扩大泛指为同一派系或信仰的成员。"
+    },
+    {
+      "source_index": 5,
+      "target_index": 6,
+      "evolution_type": "semantic_extension",
+      "note": "再进一步泛指一般之人，后常指坏人。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 7,
+      "evolution_type": "semantic_shift",
+      "note": "因随从押解，‘徒’用于刑罚名称。"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "一头尖锐，可以扎窟窿的工具。",
+      "examples": [
+        "锥子",
+        "针锥",
+        "锥处囊中"
+      ],
+      "traditional_char": "錐"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "像锥子的东西。",
+      "examples": [
+        "毛锥",
+        "改锥"
+      ],
+      "traditional_char": "錐"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "用锥子形的工具钻。",
+      "examples": [
+        "锥探"
+      ],
+      "traditional_char": "錐"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从‘金’表示与金属有关，‘隹’为声旁，表示音读；用于表示尖锐的钻孔工具。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "analogy",
+      "note": "由于形状或功能相似，名称泛指各类尖锐器物。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "conversion",
+      "note": "名词动用，表示用锥形工具进行钻孔等动作。"
+    }
+  ]
+}

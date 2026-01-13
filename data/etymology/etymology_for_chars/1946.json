@@ -1,0 +1,72 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "植物的幼苗，尤指水稻等农作物的初生苗木。",
+      "examples": [
+        "稻秧青翠。",
+        "插秧时节。",
+        "树秧儿。",
+        "育秧田。"
+      ],
+      "traditional_char": "秧"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "某些植物的茎，尤指瓜类、豆类等蔓生植物的茎。",
+      "examples": [
+        "瓜秧爬上了架子。",
+        "拉秧回家。"
+      ],
+      "traditional_char": "秧"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "某些初生的小动物，如鱼苗。",
+      "examples": [
+        "鱼秧子在池塘里游来游去。"
+      ],
+      "traditional_char": "秧"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "种植、栽培、畜养（多用于口语）。",
+      "examples": [
+        "他秧了一池鱼。",
+        "田里秧了很多树。"
+      ],
+      "traditional_char": "秧"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "《说文》形声字，从禾，央声；禾表植物，央为声符，原指植物的幼苗。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "从“幼苗”扩展为瓜类等蔓生植物的茎，因幼苗常表现为细长的苗茎。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由“植物幼苗”引申为“动物的幼体、鱼苗”，因形态相似。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "grammaticalization",
+      "note": "由名词“幼苗”引申为动词“栽种、畜养”，表示进行此动作。"
+    }
+  ]
+}

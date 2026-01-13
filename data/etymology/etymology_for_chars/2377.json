@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "烧煮，烹调食物。",
+      "examples": [
+        "烹调美味",
+        "善烹茶者，可引茶之真味。"
+      ],
+      "traditional_char": "烹"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "用热油略炒后加液体调味品，迅速搅拌的一种烹饪方法。",
+      "examples": [
+        "烹对虾",
+        "此菜宜急火烹之。"
+      ],
+      "traditional_char": "烹"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从火，亨声。本义为烧煮。‘火’表义，‘亨’表音。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_narrowing",
+      "note": "近现代，‘烹’进一步特指某种具体烹饪手法。"
+    }
+  ]
+}

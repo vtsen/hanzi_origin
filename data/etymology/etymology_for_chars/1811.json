@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "用棒等器具舂、砸碎物体",
+      "examples": [
+        "捣米",
+        "捣蒜",
+        "捣药"
+      ],
+      "traditional_char": "搗"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "冲撞，攻击",
+      "examples": [
+        "直捣黄龙",
+        "捣毁敌巢"
+      ],
+      "traditional_char": "搗"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "搅扰，破坏",
+      "examples": [
+        "捣乱",
+        "捣鬼"
+      ],
+      "traditional_char": "搗"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从手，岛声，表示用手操作舂打。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由“用棒舂物”比喻为猛烈攻击，常见于古汉语。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由“用力搅打”转为“搅扰、破坏”，为语义引申。"
+    }
+  ]
+}

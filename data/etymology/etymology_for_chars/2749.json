@@ -1,0 +1,75 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "江河的支流",
+      "examples": [
+        "港汊"
+      ],
+      "traditional_char": "港"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "可以停泊大船的江海口岸",
+      "examples": [
+        "商港",
+        "军港",
+        "港口",
+        "港湾",
+        "港务"
+      ],
+      "traditional_char": "港"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "指“香港”",
+      "examples": [
+        "港府",
+        "港币",
+        "港商"
+      ],
+      "traditional_char": "港"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "（方言）山凹或山沟（多用于地名）",
+      "examples": [
+        "前头港",
+        "上港",
+        "下港"
+      ],
+      "traditional_char": "港"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，巷声，原指江河的分流。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由支流水道泛指到可停泊船只的水边口岸，用于扩展。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "地名“香港”由“港”在“港口”义下的部分采用。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "unknown",
+      "note": "方言用法，可能与原义地貌相关，但发展路径不明。"
+    }
+  ]
+}

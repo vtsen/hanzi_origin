@@ -1,0 +1,101 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "军中约言",
+      "examples": [
+        "该，军中约也。——《说文》"
+      ],
+      "traditional_char": "該"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "完备，齐全",
+      "examples": [
+        "此书内容该备。"
+      ],
+      "traditional_char": "該"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "auxiliary",
+      "meaning": "应当",
+      "examples": [
+        "该你了。",
+        "你该休息了。"
+      ],
+      "traditional_char": "該"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "pronoun",
+      "meaning": "那，指前述的人或事物",
+      "examples": [
+        "该地环境优美。",
+        "该校师资力量强。"
+      ],
+      "traditional_char": "該"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "欠，欠账",
+      "examples": [
+        "他还该我五块钱。",
+        "该账未还。"
+      ],
+      "traditional_char": "該"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "auxiliary",
+      "meaning": "表示肯定或推测",
+      "examples": [
+        "天该下雨了。",
+        "该是他来了。"
+      ],
+      "traditional_char": "該"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从言，亥声，言表与言语相关，亥作声符，最早指军中约言。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由军中约言引申泛指完备、包括一切，古义用法。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "grammaticalization",
+      "note": "“完备”由表实指转为表达应当做某事的语气词。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "“应当”进一步扩展，为推测或肯定语气。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "原“约言”引申作指向前述对象的代词。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "unknown",
+      "note": "“欠账”义源于“约定”关系，但具体语义演化机制不明，或与账务约定有关。"
+    }
+  ]
+}

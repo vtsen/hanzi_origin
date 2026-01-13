@@ -1,0 +1,142 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古代一种弹拨弦乐器，形似古琴，常有二十五或十六根弦，平放演奏。",
+      "examples": [
+        "赵王鼓瑟。",
+        "琴瑟友之。",
+        "请奏瑟。"
+      ],
+      "traditional_char": "瑟"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "瑟发出的乐音。",
+      "examples": [
+        "以琴瑟乐心。",
+        "钧天瑟。"
+      ],
+      "traditional_char": "瑟"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "古水名，即今河南省罗山县的小黄河。",
+      "examples": [],
+      "traditional_char": "瑟"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "庄重严谨、矜持端庄的样子。",
+      "examples": [
+        "瑟兮僩兮，赫兮咺兮。",
+        "康有为《〈日本杂事诗〉序》：“通以瑟，周历大地。”"
+      ],
+      "traditional_char": "瑟"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "众多、茂密的样子。",
+      "examples": [
+        "瑟彼柞棫，民所燎矣。"
+      ],
+      "traditional_char": "瑟"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "adjective",
+      "meaning": "洁净鲜明、明洁的样子。",
+      "examples": [
+        "瑟彼玉瓒，黄流在中。",
+        "水木明瑟。"
+      ],
+      "traditional_char": "瑟"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "碧绿色的宝石名，也指碧绿色。",
+      "examples": [
+        "瑟瑟，珠类。",
+        "程泰之则曰：世所传瑟，瑟皆烧石为之。"
+      ],
+      "traditional_char": "瑟"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "onomatopoeia",
+      "meaning": "形容风声、沙沙作响等轻微的声音。",
+      "examples": [
+        "风瑟瑟，木肅肅。",
+        "凉风萧瑟。"
+      ],
+      "traditional_char": "瑟"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "adjective",
+      "meaning": "颤抖、收缩的样子。",
+      "examples": [
+        "瑟瑟发抖。",
+        "瑟缩。"
+      ],
+      "traditional_char": "瑟"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从珡，必声，表示乐器，用玉器义旁形声兼义符，最初指古代瑟乐器。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由乐器本身引申为其发出的声音，早见《荀子》。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 7,
+      "evolution_type": "metaphor",
+      "note": "用乐器发出的声音比喻风声、沙沙声，见于诗歌等。"
+    },
+    {
+      "source_index": 7,
+      "target_index": 8,
+      "evolution_type": "metaphor",
+      "note": "由风声、沙沙声引申为因寒冷、恐惧等而抖动的状态描写。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "从乐器庄重的外观、弹奏时的姿态，比喻为人的矜持、庄重等性格特征。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "由乐器弦多之意，比喻众多、繁盛。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "metaphor",
+      "note": "由乐器玉饰、整洁之美，比喻明洁、洁净之态。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "semantic_shift",
+      "note": "因玉器义旁，后也指一种碧绿色宝石，或因外观相似所致。"
+    }
+  ]
+}

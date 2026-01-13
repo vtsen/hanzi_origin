@@ -1,0 +1,43 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "小声哭或无声哭泣",
+      "examples": [
+        "抽泣",
+        "哭泣",
+        "涕泣",
+        "泣诉",
+        "泣下如雨"
+      ],
+      "traditional_char": "泣"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "眼泪",
+      "examples": [
+        "饮泣",
+        "泣血",
+        "泣下如雨"
+      ],
+      "traditional_char": "泣"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，立声，表示和水有关的行为，最初指无声或低声地哭。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由动作为泣，转指流下的眼泪，属于行为产物的转喻。"
+    }
+  ]
+}

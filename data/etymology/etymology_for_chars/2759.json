@@ -1,0 +1,70 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "大水冲破堤岸或决口",
+      "examples": [
+        "溃决",
+        "溃堤"
+      ],
+      "traditional_char": "潰"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "队伍或组织溃散、崩溃",
+      "examples": [
+        "崩溃",
+        "溃败",
+        "溃退",
+        "溃不成军"
+      ],
+      "traditional_char": "潰"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "因腐烂而破口（指肌肉、溃疡）",
+      "examples": [
+        "溃烂",
+        "溃疡"
+      ],
+      "traditional_char": "潰"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "尸体腐烂",
+      "examples": [],
+      "traditional_char": "潰"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，贵声，表示水冲破堤岸。本义即为sense 0。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由水冲破堤岸引申为队伍或组织溃散，最早见于先秦用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由水冲破之意引申为溃烂处破口，比喻伤口腐烂后溃开。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由伤口溃烂引申至尸体腐烂破坏，见于医学用法。"
+    }
+  ]
+}

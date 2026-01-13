@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "供游玩休养的住宅以外的房屋",
+      "examples": [
+        "别墅",
+        "他家有一座漂亮的别墅"
+      ],
+      "traditional_char": "墅"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "田野的草房",
+      "examples": [
+        "草墅",
+        "田间有几间草墅"
+      ],
+      "traditional_char": "墅"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "形声字，从土，署声。本指郊外田野的草房。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "由田野草房引申为供游玩休养的独立住宅，见近现代用法。"
+    }
+  ]
+}

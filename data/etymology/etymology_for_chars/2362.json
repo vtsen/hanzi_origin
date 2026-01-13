@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "满足一定的限度",
+      "examples": [
+        "够用",
+        "够数",
+        "够本",
+        "足够"
+      ],
+      "traditional_char": "夠"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "腻，厌烦",
+      "examples": [
+        "听够了"
+      ],
+      "traditional_char": "夠"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "达到，及",
+      "examples": [
+        "够格",
+        "够得着"
+      ],
+      "traditional_char": "夠"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘夠’为形声字，‘句’为声符，‘多’为意符，本义为满足一定数量。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由“满足一定限度”引申为“达到、及”，属于语义扩展。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由“满足一定限度”喻指心理的“厌烦、腻”，为比喻义。"
+    }
+  ]
+}

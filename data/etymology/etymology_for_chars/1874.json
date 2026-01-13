@@ -1,0 +1,133 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "回头看，泛指看",
+      "examples": [
+        "顾眄而自豪",
+        "回顾往昔"
+      ],
+      "traditional_char": "顧"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "照管，注意",
+      "examples": [
+        "兼顾各方利益",
+        "顾及他人感受"
+      ],
+      "traditional_char": "顧"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "商店或服务行业称来买货物或要求服务的（顾客）",
+      "examples": [
+        "主顾常来光顾",
+        "老顾客"
+      ],
+      "traditional_char": "顧"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "拜访",
+      "examples": [
+        "三顾茅庐",
+        "专程前来拜顾"
+      ],
+      "traditional_char": "顧"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "conjunction",
+      "meaning": "文言连词，但、但看",
+      "examples": [
+        "兵不在多，顾用之何如耳"
+      ],
+      "traditional_char": "顧"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "conjunction",
+      "meaning": "文言连词，反而、却",
+      "examples": [
+        "足反居上，首顾居下"
+      ],
+      "traditional_char": "顧"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "古同“雇”，雇佣、酬劳",
+      "examples": [
+        "顾士有功",
+        "以金顾人"
+      ],
+      "traditional_char": "顧"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "noun",
+      "meaning": "姓",
+      "examples": [
+        "顾炎武",
+        "顾恺之"
+      ],
+      "traditional_char": "顧"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从页（表头部），表示与头的动作有关，雇为声旁。本义为‘回头看’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘回头看’引申为注意、照顾他人。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由‘照管、注意’指称宾客，引申为顾客。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由‘关顾’义发展为拜访。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "grammaticalization",
+      "note": "由‘回头看’虚化为连词‘但’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "grammaticalization",
+      "note": "由‘回头看’虚化为连词‘反而、却’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "与‘雇’通用，因声旁雇义转移。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 7,
+      "evolution_type": "conversion",
+      "note": "由意义演变为姓氏。"
+    }
+  ]
+}

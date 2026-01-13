@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "循，顺着走（多用于书面语或古文）",
+      "examples": [
+        "报我不述（《诗经·小雅》）"
+      ],
+      "traditional_char": "述"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "叙述，陈述，表达（思想、话语等）",
+      "examples": [
+        "综述",
+        "论述",
+        "述而不作"
+      ],
+      "traditional_char": "述"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "修纂（著述、编写）",
+      "examples": [
+        "著述",
+        "述评"
+      ],
+      "traditional_char": "述"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从辵（表示行走、顺行），‘术’为声符，最初表示‘循、顺行’之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由‘顺着走’引申为‘顺着事理表达、叙述’。意象迁移，先秦至汉已见用法。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "从‘表达、陈述’进一步引申为‘著述、修纂’。汉代以后常见。"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "围绕都市的高墙，城墙",
+      "examples": [
+        "城墙高耸入云。",
+        "修筑城池，以御外敌。"
+      ],
+      "traditional_char": "城"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "都市，城市",
+      "examples": [
+        "城市繁华。",
+        "城镇居民众多。"
+      ],
+      "traditional_char": "城"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字。从土，表示与土有关；成为声旁，表音，初指筑土为墙。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由“城墙”引申为由城墙围绕的城市，战国汉代广泛见于地理、行政名称。"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "interjection",
+      "meaning": "叹词，表示惊叹、赞美、悲痛、遗憾、惊惧、愤怒或嘲讽等情感。",
+      "examples": [
+        "嘻，善哉！技盖至此乎！（《庄子·养生主》）",
+        "夫子曰：嘻，其甚也。（《礼记·檀弓》）",
+        "嘻！谁要你的臭钱！（宋·司马光《训俭示康》）",
+        "秦王与群臣相视而嘻。（《史记·廉颇蔺相如列传》）"
+      ],
+      "traditional_char": "嘻"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "笑的样子或笑声。",
+      "examples": [
+        "妇子嘻嘻，终吝。（《易·家人》）",
+        "笑嘻嘻地进屋来。",
+        "人嘻鬼嘻，天要之期。（《太玄经·乐》）"
+      ],
+      "traditional_char": "嘻"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "笑，喜笑，也指苦笑、强笑；指咧嘴笑、露笑容。",
+      "examples": [
+        "相视而嘻。（《史记·廉颇蔺相如列传》）",
+        "因嘻笑曰。（《汉书·灌夫传》）",
+        "景公嘻然而笑曰：‘其圣何如？’（《韩诗外传》）",
+        "吾見夫北清之亂，西兵殘殺慘無人理，而南人且日飲酒觀劇以酣以嘻也。"
+      ],
+      "traditional_char": "嘻"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从口，喜声，表叹声。“口”表发声，“喜”表声音和意义，原指叹词。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "自叹词引申为形容笑声或笑的样子，汉代已见用法。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "conversion",
+      "note": "由名词“笑的样子或声音”转化为动词“笑、咧嘴笑”，见于古今典籍。"
+    }
+  ]
+}

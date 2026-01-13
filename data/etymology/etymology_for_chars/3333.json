@@ -1,0 +1,104 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "有秩序，不乱；整齐",
+      "examples": [
+        "队伍整齐。",
+        "房间很整洁。"
+      ],
+      "traditional_char": "整"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "治理，整理，使有条理",
+      "examples": [
+        "整治河道。",
+        "整编队伍。",
+        "整饬纪律。"
+      ],
+      "traditional_char": "整"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "修理，修饰",
+      "examples": [
+        "整形手术。",
+        "把旧车整旧如新。"
+      ],
+      "traditional_char": "整"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "完全无缺，没有零头",
+      "examples": [
+        "整体。",
+        "完整。"
+      ],
+      "traditional_char": "整"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "使人吃苦头，整治（人）",
+      "examples": [
+        "别整人！",
+        "被人整了一回。"
+      ],
+      "traditional_char": "整"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "搞，弄",
+      "examples": [
+        "你在整什么？",
+        "咋整的？"
+      ],
+      "traditional_char": "整"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声会意字，从攴、束、正；正为声旁，攴表示动作，束得约束义，合义为使有秩序、整齐。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“有秩序”引申为“治理、整顿”。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "整理、治理进一步引申至修理、修饰。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "“整齐”引申为“完整无缺”，比喻事物无残缺。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "“治理”具体化为“整治人”，社会语境变化发展。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "“治理”“操作”泛化到一般“搞、弄”的口语用法。"
+    }
+  ]
+}

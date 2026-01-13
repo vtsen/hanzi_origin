@@ -1,0 +1,41 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "用脚踏在物体上",
+      "examples": [
+        "踩了一脚泥。",
+        "踩高跷。",
+        "踩水。"
+      ],
+      "traditional_char": "踩"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "追踪罪犯或案件，调查访问",
+      "examples": [
+        "踩访。",
+        "踩捕。",
+        "踩案。"
+      ],
+      "traditional_char": "踩"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "左‘足’表意，指用脚；右‘采’表音。形声字。本义即指用脚踩踏。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由‘用脚踩（现场）’引申为‘调查、追查’，表达实地调查的动作。"
+    }
+  ]
+}

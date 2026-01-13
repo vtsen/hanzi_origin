@@ -1,0 +1,88 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "缠绕，围绕；环绕；绕道而行",
+      "examples": [
+        "肠纷纭以缭转兮。",
+        "林麓薮泽陂池连乎蜀汉，缭以周墙，四百余里。",
+        "再缭四寸。"
+      ],
+      "traditional_char": "繚"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "用针斜着缝缀，缲边",
+      "examples": [
+        "缭贴边。",
+        "缭衣缝。"
+      ],
+      "traditional_char": "繚"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "（通“撩”）引申为纷乱、挑动",
+      "examples": [
+        "缭乱边愁听不尽。",
+        "烟眼缭人。"
+      ],
+      "traditional_char": "繚"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "用以固定船帆的绳索",
+      "examples": [
+        "帆缭",
+        "缭手"
+      ],
+      "traditional_char": "繚"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "祭祀名（祭肺的一种方式）",
+      "examples": [
+        "八月缭祭。",
+        "缭祭。"
+      ],
+      "traditional_char": "繚"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从糸，尞声，表示与丝缠绕有关。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“缠绕”引申为缝缀、缲边的缠绕动作，汉以降广用。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "由“缠绕”转为“纷乱”，通过动作的引申、音近通假而致。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "由缠绕之动作，引申为“用以缠绕的绳索”，即船帆上的缭。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "祭祀用语，通过祭祀时缠肺的动作，命名为缭祭。"
+    }
+  ]
+}

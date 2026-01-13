@@ -1,0 +1,102 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "摆开，展开。",
+      "examples": [
+        "摊牌",
+        "把问题摊到桌面上"
+      ],
+      "traditional_char": "攤"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "把糊状物倒在锅里做成薄片。",
+      "examples": [
+        "摊鸡蛋",
+        "摊煎饼"
+      ],
+      "traditional_char": "攤"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "摆在地上或用席、板摆设在路旁、广场空地的售货处。",
+      "examples": [
+        "摊子",
+        "摊位",
+        "摊贩"
+      ],
+      "traditional_char": "攤"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "分担。",
+      "examples": [
+        "摊派",
+        "分摊"
+      ],
+      "traditional_char": "攤"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "遇到，碰上。",
+      "examples": [
+        "这事让他摊上了"
+      ],
+      "traditional_char": "攤"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "measure_word",
+      "meaning": "用于摊开的糊状物。",
+      "examples": [
+        "一摊稀泥"
+      ],
+      "traditional_char": "攤"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从手，难声，‘摊/攤’本义为“平铺”，‘手’表意，‘难’表声。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“平铺”引申至“将糊状物摊成薄片”"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由“铺开”动作引申为“摆开出卖货物的地方”"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由“铺开”比喻为“分派、分担”"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "由“事情摊开”引申为“遇到、碰上”"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "conversion",
+      "note": "动词“摊（烹饼）”转为量词用法"
+    }
+  ]
+}

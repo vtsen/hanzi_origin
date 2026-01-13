@@ -1,0 +1,110 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "停留，停止在某一个地方",
+      "examples": [
+        "停留",
+        "留学",
+        "留任",
+        "留步",
+        "驻留"
+      ],
+      "traditional_char": "留"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "注意力放在上面",
+      "examples": [
+        "留心",
+        "留意",
+        "留神"
+      ],
+      "traditional_char": "留"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "不忍舍弃，不忍离去",
+      "examples": [
+        "留连",
+        "留恋"
+      ],
+      "traditional_char": "留"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "不使离开，挽留",
+      "examples": [
+        "留客",
+        "挽留",
+        "拘留"
+      ],
+      "traditional_char": "留"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "接受",
+      "examples": [
+        "收留"
+      ],
+      "traditional_char": "留"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "保存",
+      "examples": [
+        "保留",
+        "留存",
+        "留别",
+        "留念",
+        "留后路"
+      ],
+      "traditional_char": "留"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声兼会意字，从“田”表示停留地方，“丣”作声旁，本义为停留。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "注意力‘停留’在某物上，意由具体转为抽象。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "从具体停留转为情感上‘不舍离开’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "从自身停留引申为使他人停留（不让离开）。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "从停留下来，引申为‘收容、接受’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "从停留，引申为‘保存’。"
+    }
+  ]
+}

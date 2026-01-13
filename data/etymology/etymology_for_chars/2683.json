@@ -1,0 +1,172 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古代的一种马鞭子，头上有尖刺。",
+      "examples": [
+        "策马而行"
+      ],
+      "traditional_char": "策"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "鞭打（用策鞭驱使）",
+      "examples": [
+        "鞭策马匹"
+      ],
+      "traditional_char": "策"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "激励，促进",
+      "examples": [
+        "策动社会变革",
+        "策勉后学"
+      ],
+      "traditional_char": "策"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "古代连编好的竹简",
+      "examples": [
+        "简策记事"
+      ],
+      "traditional_char": "策"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "（帝王）封土、授爵或免官",
+      "examples": [
+        "策封诸侯",
+        "策免大臣"
+      ],
+      "traditional_char": "策"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "古代科举考试的一种文体",
+      "examples": [
+        "策论",
+        "策问"
+      ],
+      "traditional_char": "策"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "杖；拐杖",
+      "examples": [
+        "手持策杖"
+      ],
+      "traditional_char": "策"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "noun",
+      "meaning": "中国古代的计算工具，形状与“筹”相似",
+      "examples": [
+        "以策计数"
+      ],
+      "traditional_char": "策"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "noun",
+      "meaning": "计谋，主意，办法",
+      "examples": [
+        "上策",
+        "无计可策"
+      ],
+      "traditional_char": "策"
+    },
+    {
+      "index": 9,
+      "part_of_speech": "other",
+      "meaning": "书法用字名称，指仰横",
+      "examples": [],
+      "traditional_char": "策"
+    },
+    {
+      "index": 10,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [],
+      "traditional_char": "策"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从竹，朿声，竹指竹制鞭马之具，朿兼表声音与尖刺之义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "conversion",
+      "note": "由名词转为动词，指用策鞭进行鞭打。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由实体鞭打引申为精神刺激鼓励。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "竹鞭与连编竹简均以竹为材，意义扩展。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "由竹简书写材料引申为文体名。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "semantic_extension",
+      "note": "竹鞭可作扶持工具而引申为杖。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 7,
+      "evolution_type": "semantic_extension",
+      "note": "由竹鞭引申为用竹作的计算器具，因形似。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 8,
+      "evolution_type": "metonymy",
+      "note": "竹简中记载谋略，故用策指计谋。"
+    },
+    {
+      "source_index": 8,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "通过谋划、主意与授职策封的关系引申。"
+    },
+    {
+      "source_index": 8,
+      "target_index": 9,
+      "evolution_type": "unknown",
+      "note": "书法术语与原义关联不详，或因形近用名借。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 10,
+      "evolution_type": "semantic_extension",
+      "note": "由物称转为姓氏，为常见用法。"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "扰乱、打扰",
+      "examples": [
+        "阻挠",
+        "挠乱"
+      ],
+      "traditional_char": "撓"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "搅动",
+      "examples": [
+        "使水浊者，鱼挠之",
+        "挠汤"
+      ],
+      "traditional_char": "撓"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "弯曲，比喻屈服",
+      "examples": [
+        "挠曲",
+        "百折不挠",
+        "挠志"
+      ],
+      "traditional_char": "撓"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "搔，轻抓",
+      "examples": [
+        "挠痒",
+        "挠头"
+      ],
+      "traditional_char": "撓"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从手，尧声，原意为扰乱。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“扰乱”引申为“搅动”，两者皆有搅扰之意。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由“扰乱”引申为“弯曲、屈服”，表示不直，喻意志动摇。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "由“扰乱”的动作引申至“搔痒”动作，均指扰动。"
+    }
+  ]
+}

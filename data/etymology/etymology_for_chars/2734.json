@@ -1,0 +1,58 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "疾病或创伤引起的难受的感觉，疼痛",
+      "examples": [
+        "头痛",
+        "肚子痛",
+        "牙痛"
+      ],
+      "traditional_char": "痛"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "悲伤，哀痛",
+      "examples": [
+        "悲痛",
+        "哀痛",
+        "痛哭"
+      ],
+      "traditional_char": "痛"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adverb",
+      "meaning": "尽情地，深切地，彻底地",
+      "examples": [
+        "痛击",
+        "痛悼",
+        "痛快"
+      ],
+      "traditional_char": "痛"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从疒，甬声，疒表示与疾病相关，甬表示读音，最初指身体上的疼痛。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由身体的疼痛比喻引申为精神的悲伤，汉代文献已有使用。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由悲伤等情感的深切，引申为任何事情上的彻底、深刻，晋唐以来普遍用法。"
+    }
+  ]
+}

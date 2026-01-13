@@ -1,0 +1,67 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古代兵器，斧的一种。",
+      "examples": [
+        "执戚而前。"
+      ],
+      "traditional_char": "戚"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "因婚姻或血缘而联成的亲属关系，尤指亲戚。",
+      "examples": [
+        "亲戚朋友。",
+        "外戚权重。"
+      ],
+      "traditional_char": "戚"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "忧愁、悲哀。",
+      "examples": [
+        "戚然若失。",
+        "哀戚。"
+      ],
+      "traditional_char": "戚"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [],
+      "traditional_char": "戚"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从“戉”表示兵器义，尗为声符，原义为古代兵器。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "兵器喻引申为心灵受创，因而有忧愁、悲哀之意。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "unknown",
+      "note": "部分古代姓氏由亲属、官名转化，用法成姓。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由兵器引申为外戚，因权力与家族关系的象征转变。"
+    }
+  ]
+}

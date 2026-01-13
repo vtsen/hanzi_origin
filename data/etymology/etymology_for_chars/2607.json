@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "宽阔，没有遮蔽。",
+      "examples": [
+        "房间很敞亮。",
+        "庭院宽敞。"
+      ],
+      "traditional_char": "敞"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "张开，打开。",
+      "examples": [
+        "敞着大门。",
+        "敞开供应。"
+      ],
+      "traditional_char": "敞"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "畅快，通畅（古同“畅”）。",
+      "examples": [
+        "心情敞快。"
+      ],
+      "traditional_char": "敞"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从攴（表示敲击、治理，表示与房屋或结构有关），尚声，最初表示宽敞、空间开阔。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“空间宽广”引申为“打开、张开”的动作，义项扩展。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由“宽敞”引申为心情、境况的畅快、通畅，有空间感的比喻用法。"
+    }
+  ]
+}

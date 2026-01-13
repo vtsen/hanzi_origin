@@ -1,0 +1,85 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "快步走，奔跑。",
+      "examples": [
+        "趋走",
+        "趋前",
+        "趋进",
+        "趋翔"
+      ],
+      "traditional_char": "趨"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "归向，向某个方向发展。",
+      "examples": [
+        "趋向",
+        "趋势",
+        "大势所趋"
+      ],
+      "traditional_char": "趨"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "追求，追逐。",
+      "examples": [
+        "趋时",
+        "趋利",
+        "趋光性"
+      ],
+      "traditional_char": "趨"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "鹅或蛇伸头咬人。",
+      "examples": [],
+      "traditional_char": "趨"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "催促，急速（古同“促”）。",
+      "examples": [],
+      "traditional_char": "趨"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从走，刍声，表示快步行走的动作。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由“快步走”比喻趋势、方向性，多见于先秦至现代。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "从“快步趋近”引申为“追求、追逐”，义项增加，多见于汉以后。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "比喻动作迅速，如鹅、蛇伸头咬人，古汉语用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "趋借用作“促”，两字古音相近，属于假借用法。"
+    }
+  ]
+}

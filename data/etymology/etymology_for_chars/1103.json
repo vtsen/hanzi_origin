@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "interjection",
+      "meaning": "表示惊怪或出乎意料的感叹词，如“咄咄怪事”。",
+      "examples": [
+        "咄咄怪事。",
+        "咄咄，世岂有此理！"
+      ],
+      "traditional_char": "咄"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "interjection",
+      "meaning": "表示呵叱或斥责的感叹词，如“咄！你这光棍！”",
+      "examples": [
+        "咄！你这光棍！",
+        "咄咄，岂可如此！"
+      ],
+      "traditional_char": "咄"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "形声字，从口，出声，本义为呵叱。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "由表示呵叱引申为表示惊怪的感叹，语气有所缓和。"
+    }
+  ]
+}

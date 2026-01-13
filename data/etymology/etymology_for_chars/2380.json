@@ -1,0 +1,40 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "圆形草屋、茅屋，文人书斋之称",
+      "examples": [
+        "老学庵",
+        "影梅庵"
+      ],
+      "traditional_char": "庵"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "小佛寺，主要指尼姑居住的庙宇",
+      "examples": [
+        "尼姑庵",
+        "庵堂",
+        "庵子"
+      ],
+      "traditional_char": "庵"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从广，奄声。本义为遮蔽之所，与“闇”音义相关。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "草庵、僧舍等建筑引申为佛教尼姑所居的小庙，宋元以来习见"
+    }
+  ]
+}

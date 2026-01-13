@@ -1,0 +1,74 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "肌腱或附着在骨头上的韧带",
+      "examples": [
+        "蹄筋",
+        "筋骨",
+        "筋道"
+      ],
+      "traditional_char": "筋"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "肌肉的俗称",
+      "examples": [
+        "筋肉",
+        "筋力",
+        "筋疲力尽"
+      ],
+      "traditional_char": "筋"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "可见的皮下静脉的俗称",
+      "examples": [
+        "筋脉",
+        "筋络",
+        "青筋暴露"
+      ],
+      "traditional_char": "筋"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "像筋的东西",
+      "examples": [
+        "钢筋",
+        "橡皮筋儿"
+      ],
+      "traditional_char": "筋"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "从肉从力从竹，表示附着在骨上的韧带，与竹子纤维有类比关系。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从狭义的韧带拓展为泛指肌肉，见于日常口语。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "因静脉突出似筋，语义比喻发展。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由本义比喻形状、性质类似韧带的其他条状物，如‘钢筋’。"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "种植菜蔬、花草、瓜果的园地",
+      "examples": [
+        "菜圃",
+        "花圃",
+        "苗圃"
+      ],
+      "traditional_char": "圃"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "种植园圃的人",
+      "examples": [
+        "吾不如老圃"
+      ],
+      "traditional_char": "圃"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从囗表范围，甫为声符，原指无围垣的蔬果园地。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "以园地指代该园地的种植者，用地名转指人。"
+    }
+  ]
+}

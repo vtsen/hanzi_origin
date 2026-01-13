@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "堤坝，防止水流溢出的土筑岸边。",
+      "examples": [
+        "河塘",
+        "海塘",
+        "塘坝"
+      ],
+      "traditional_char": "塘"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "池塘，用于蓄水或养殖鱼、荷等的水池。",
+      "examples": [
+        "鱼塘",
+        "荷塘",
+        "苇塘"
+      ],
+      "traditional_char": "塘"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "室内挖坑用来生火的地方（某些地区方言用法）。",
+      "examples": [
+        "火塘"
+      ],
+      "traditional_char": "塘"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从土，表示与土有关，‘唐’为声符，最初指土筑的堤岸。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由堤岸引申为围水而成的池塘，已见于后世文献。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由户外的池塘比喻到室内生火的坑，语义移植，多见于西南方言区。"
+    }
+  ]
+}

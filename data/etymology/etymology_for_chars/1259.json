@@ -1,0 +1,41 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "液体加热到一定温度时产生气泡并翻滚，变成蒸气。",
+      "examples": [
+        "水沸而腾气。",
+        "沸水",
+        "沸点"
+      ],
+      "traditional_char": "沸"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "波涌、翻滚的样子；比喻情绪高涨或喧闹。",
+      "examples": [
+        "人声鼎沸",
+        "沸腾",
+        "沸郁"
+      ],
+      "traditional_char": "沸"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘沸’为形声字，从水，弗声，原指泉水大量涌出、翻腾的样子。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由液体翻滚扩展比喻到声势、情绪翻腾喧闹等抽象意义。"
+    }
+  ]
+}

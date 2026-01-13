@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "母亲的兄弟，即舅父",
+      "examples": [
+        "舅舅",
+        "舅父",
+        "舅母"
+      ],
+      "traditional_char": "舅"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "妻的兄弟",
+      "examples": [
+        "妻舅"
+      ],
+      "traditional_char": "舅"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "古代称丈夫的父亲",
+      "examples": [
+        "昔者吾舅死于虎",
+        "舅姑"
+      ],
+      "traditional_char": "舅"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "古代帝王称异姓大邦诸侯为“伯舅”，异姓小邦诸侯为“叔舅”；诸侯亦称异姓大夫为“舅”",
+      "examples": [
+        "伯舅",
+        "叔舅"
+      ],
+      "traditional_char": "舅"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从“男”表义，‘臼’表声，本义为母亲的兄弟。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由母之兄弟引申为妻的兄弟，均为姻亲方向延伸。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "古义延伸，用于称丈夫的父亲，婚姻家庭关系的语义扩展。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "亲属名称借指异姓大邦诸侯等，系尊称或借喻用法。"
+    }
+  ]
+}

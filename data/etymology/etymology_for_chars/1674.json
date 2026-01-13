@@ -1,0 +1,104 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "沾湿，浸润",
+      "examples": [
+        "内洽五脏。",
+        "母视荣，即汗洽矣。"
+      ],
+      "traditional_char": "洽"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "合，符合",
+      "examples": [
+        "以洽百礼。",
+        "则无以祖洽于众也。"
+      ],
+      "traditional_char": "洽"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "商量，协商意见",
+      "examples": [
+        "面洽",
+        "洽谈",
+        "洽商"
+      ],
+      "traditional_char": "洽"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "广博，周遍",
+      "examples": [
+        "元元本本，殚见洽闻。",
+        "广见博洽。"
+      ],
+      "traditional_char": "洽"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "和谐，融洽",
+      "examples": [
+        "洽比其邻。",
+        "民之洽也。"
+      ],
+      "traditional_char": "洽"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "古水名（今陕西金水河，又名瀵水）",
+      "examples": [
+        "在洽之阳。",
+        "洽水"
+      ],
+      "traditional_char": "洽"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，合声，表示沾湿、浸润之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由物被沾润引申为普遍、周遍，汉代开始见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "由水滋润引申为人际关系融洽、和谐，诗经即见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "semantic_shift",
+      "note": "原本意指水的沾润，引申为水的专名（河流名）。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由“水渗透合一”的本义，转义为“符合，合”。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由“合”引申为协商、商量，现代用法。"
+    }
+  ]
+}

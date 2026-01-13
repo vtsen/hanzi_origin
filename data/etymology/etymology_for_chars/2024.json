@@ -1,0 +1,156 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "允许，许可",
+      "examples": [
+        "批准",
+        "准许"
+      ],
+      "traditional_char": "準"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "preposition",
+      "meaning": "依照，依据",
+      "examples": [
+        "准此处理",
+        "准规则办事"
+      ],
+      "traditional_char": "準"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "定平直的工具",
+      "examples": [
+        "水准",
+        "准绳"
+      ],
+      "traditional_char": "準"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "法则，可以做为依据的标准",
+      "examples": [
+        "准则",
+        "标准"
+      ],
+      "traditional_char": "準"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "箭靶的中心",
+      "examples": [
+        "准的",
+        "命中准心"
+      ],
+      "traditional_char": "準"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "adjective",
+      "meaning": "正确",
+      "examples": [
+        "准确",
+        "准星",
+        "瞄准"
+      ],
+      "traditional_char": "準"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "adjective",
+      "meaning": "一定，确实",
+      "examples": [
+        "准保",
+        "准定"
+      ],
+      "traditional_char": "準"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "noun",
+      "meaning": "鼻子",
+      "examples": [
+        "隆准"
+      ],
+      "traditional_char": "準"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "adjective",
+      "meaning": "和某类事物差不多，如同，类似",
+      "examples": [
+        "准尉",
+        "准平原"
+      ],
+      "traditional_char": "準"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 2,
+      "note": "準：形声字，从水，隼声。最初本义为水的平直之器。"
+    },
+    {
+      "formation_type": "loan_character",
+      "original_sense_index": 2,
+      "note": "准是準的简化字，后承准的不同读音义，但基本源自準。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "从平直的工具引申为标准、法则，汉代已见。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从标准进一步引申为依据、按照。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "平直工具借指箭靶的中心。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 5,
+      "evolution_type": "metaphor",
+      "note": "水准、标准引申为准确的意思。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 7,
+      "evolution_type": "metaphor",
+      "note": "隆准指高挺的鼻子，《说文》也载‘鼻高曰准’，喻形似水准之器。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 8,
+      "evolution_type": "semantic_extension",
+      "note": "由标准引申为类似、近似。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "由标准转为许可、允许，先以‘符合标准’为引。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 6,
+      "evolution_type": "semantic_extension",
+      "note": "强调标准之确定，引申为一定、确实。"
+    }
+  ]
+}

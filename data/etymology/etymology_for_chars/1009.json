@@ -1,0 +1,53 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "席草，可以用来制作席子或草鞋的草类植物。",
+      "examples": [
+        ""
+      ],
+      "traditional_char": "苞"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "花或果实外面的叶状包裹物，如花苞、苞片。",
+      "examples": [
+        "花苞初绽。",
+        "含苞待放。"
+      ],
+      "traditional_char": "苞"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "形容植物繁茂、旺盛。",
+      "examples": [
+        "竹苞松茂。"
+      ],
+      "traditional_char": "苞"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘苞’为形声字，从艹，包声；最初指‘席草’类植物。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "从指特定草植物，转指其明显特征‘包裹’物，如花苞，中古已见。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由‘花苞繁盛’引申为形容植物茂盛。"
+    }
+  ]
+}

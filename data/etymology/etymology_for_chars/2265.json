@@ -1,0 +1,122 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "郊外，城镇之外的地方",
+      "examples": [
+        "野外",
+        "郊野",
+        "原野"
+      ],
+      "traditional_char": "野"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "界限，范围",
+      "examples": [
+        "分野",
+        "视野"
+      ],
+      "traditional_char": "野"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "不在朝廷的地位，与“朝”相对",
+      "examples": [
+        "朝野",
+        "下野",
+        "野史"
+      ],
+      "traditional_char": "野"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "不讲情理，没有礼貌，粗鲁",
+      "examples": [
+        "野蛮",
+        "粗野"
+      ],
+      "traditional_char": "野"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "巨大而非分的欲望",
+      "examples": [
+        "野心"
+      ],
+      "traditional_char": "野"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "adjective",
+      "meaning": "不受约束，随意",
+      "examples": [
+        "心玩儿野了"
+      ],
+      "traditional_char": "野"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "adjective",
+      "meaning": "不是人工驯养或栽培的（动植物）",
+      "examples": [
+        "野生",
+        "野兽",
+        "野味",
+        "野花",
+        "野菜"
+      ],
+      "traditional_char": "野"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从“里”表示与城邑相关之意，‘予’为声符，原指郊野之地。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "semantic_extension",
+      "note": "由“郊外”引申为“未经人工驯养或栽培”"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由地理空间引申为抽象的“范围”"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "以“野”与“朝”对比，比喻官场之外"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "以郊野之粗放比喻性格粗鲁"
+    },
+    {
+      "source_index": 3,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "由粗野引申为行为不受约束"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "以野外无拘无束，引申为欲望放纵、巨大"
+    }
+  ]
+}

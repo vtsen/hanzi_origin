@@ -1,0 +1,147 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "建有宗庙的大城市、都市",
+      "examples": [
+        "京都",
+        "都市",
+        "国都",
+        "建都"
+      ],
+      "traditional_char": "都"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "国家最高行政机关所在之地，京城",
+      "examples": [
+        "首都",
+        "京都",
+        "国都"
+      ],
+      "traditional_char": "都"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "美好，华美",
+      "examples": [
+        "都丽",
+        "都雅",
+        "雍容闲雅，甚都"
+      ],
+      "traditional_char": "都"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adverb",
+      "meaning": "总、全部",
+      "examples": [
+        "都为一集",
+        "大家都来了"
+      ],
+      "traditional_char": "都"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "居于，担任（高位）",
+      "examples": [
+        "都卿相之位"
+      ],
+      "traditional_char": "都"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "头目、首领（古代用法）",
+      "examples": [],
+      "traditional_char": "都"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [],
+      "traditional_char": "都"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "adverb",
+      "meaning": "全，都，完全",
+      "examples": [
+        "功课学得都不错",
+        "都要"
+      ],
+      "traditional_char": "都"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "particle",
+      "meaning": "加强语气用的虚词",
+      "examples": [
+        "一动都不动"
+      ],
+      "traditional_char": "都"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从邑表义，表示与城市有关，者表音，最初指建有宗庙的大城市。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_narrowing",
+      "note": "由泛指大城市到特指国都、最高行政机构所在之地，汉代已普遍。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由都市之繁华，引申为华美、美好。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "metonymy",
+      "note": "由都市引申为地方的主要负责人或首领，语见古籍。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "semantic_shift",
+      "note": "用作姓氏，具体演变机制不详，常见姓氏现象。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "都为城市，城市为官，故引申为居于（高位）。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 7,
+      "evolution_type": "reanalysis",
+      "note": "由‘总’进一步指‘全部’，口语常见，官话流变。"
+    },
+    {
+      "source_index": 7,
+      "target_index": 8,
+      "evolution_type": "grammaticalization",
+      "note": "由“全、都”作为副词进一步虚化作语气词，用以加强语意，现代汉语现象。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "reanalysis",
+      "note": "“都”由城市→总（城市集合），意为总括。"
+    }
+  ]
+}

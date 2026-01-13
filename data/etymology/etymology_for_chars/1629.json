@@ -1,0 +1,57 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "商议，询问",
+      "examples": [
+        "咨询",
+        "咨问",
+        "咨访",
+        "咨禀"
+      ],
+      "traditional_char": "咨"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "用于同级机关之间的公文",
+      "examples": [
+        "发咨文",
+        "收到公安局的咨文"
+      ],
+      "traditional_char": "咨"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "onomatopoeia",
+      "meaning": "叹气的声音",
+      "examples": [
+        "咨嗟",
+        "咨咨叹气"
+      ],
+      "traditional_char": "咨"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从口，表示与言语相关，次为声符，表音，最初义是商议、征询。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "“商议，询问”的意义，进一步引申为用于此类行为的官方公文，公文意义由政务用语延伸。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "unknown",
+      "note": "“咨”表感叹之声，可能与口部说话引出的象声有联系，但具体发展路径存疑。"
+    }
+  ]
+}

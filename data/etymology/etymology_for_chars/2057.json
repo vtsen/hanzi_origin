@@ -1,0 +1,40 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "把东西放在火的周围使干或使熟",
+      "examples": [
+        "烤面包",
+        "烤肉",
+        "烘烤"
+      ],
+      "traditional_char": "烤"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "挨近火取暖",
+      "examples": [
+        "烤火",
+        "烤一烤手"
+      ],
+      "traditional_char": "烤"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从火，考声，表示与火有关的动作，以“考”为声符，原指用火烘熟或烤干。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“使熟、使干”扩展到“取暖”，机制为动作及火的作用的延伸，约见于近现代。"
+    }
+  ]
+}

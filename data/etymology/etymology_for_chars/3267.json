@@ -1,0 +1,70 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "箭竹，一种竹子的名称。",
+      "examples": [
+        "箭，竹名也。——《说文》"
+      ],
+      "traditional_char": "箭"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "用弓发射的兵器，箭矢。",
+      "examples": [
+        "弓箭",
+        "箭头",
+        "箭在弦上"
+      ],
+      "traditional_char": "箭"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "箭能射到的距离。",
+      "examples": [
+        "一箭之遥",
+        "箭步"
+      ],
+      "traditional_char": "箭"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "形容急速、迅猛。",
+      "examples": [
+        "归心似箭"
+      ],
+      "traditional_char": "箭"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘箭’为形声字，从竹，前声，最初本义指箭竹。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "以‘箭竹’制作的兵器称为‘箭’，先秦即有用法。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "synecdoche",
+      "note": "由实物‘箭’引申为其能够射到的距离。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "用‘箭’的快、直比喻事物急速、迅猛。"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "趋向，走向某个方向或目标。",
+      "examples": [
+        "志趣",
+        "意趣",
+        "旨趣"
+      ],
+      "traditional_char": "趣"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "兴趣，使人感到愉快的情致或意味。",
+      "examples": [
+        "兴趣",
+        "乐趣",
+        "情趣",
+        "雅趣",
+        "妙趣",
+        "趣事",
+        "趣味"
+      ],
+      "traditional_char": "趣"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "催促，急促。",
+      "examples": [
+        "趣使还家",
+        "今趣使发（《后汉书》）"
+      ],
+      "traditional_char": "趣"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 2,
+      "note": "形声字，从走，取声。本义为催促，与“促”通。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 2,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "由催促发展为趋向，有推动、向前的意思。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由趋向引申为心灵对某事的趋向，转为兴趣或意味。"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "击打，敲打",
+      "examples": [
+        "《说文解字》：“肇，击也。”"
+      ],
+      "traditional_char": "肇"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "开始，初始",
+      "examples": [
+        "肇始",
+        "肇端",
+        "肇基",
+        "肇造"
+      ],
+      "traditional_char": "肇"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "引发（多指不好的事情）",
+      "examples": [
+        "肇事",
+        "肇祸"
+      ],
+      "traditional_char": "肇"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从攴，省声，表示击打之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘击’引申为‘开始’，如敲击揭开序幕。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由‘开始’进一步引申为‘引发（多指事件、祸事）’。"
+    }
+  ]
+}

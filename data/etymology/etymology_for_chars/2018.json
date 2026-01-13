@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "饮料，比较浓稠的液体，如豆浆、纸浆、果浆等",
+      "examples": [
+        "豆浆",
+        "果浆",
+        "纸浆"
+      ],
+      "traditional_char": "漿"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "用粉浆或米汤等浸润纱、布、衣物等",
+      "examples": [
+        "浆洗衣服",
+        "将布浆一下"
+      ],
+      "traditional_char": "漿"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "糨糊；黏稠的液体，用于黏结（同“糨”）",
+      "examples": [
+        "糨糊变成浆",
+        "用浆糊粘贴"
+      ],
+      "traditional_char": "漿"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，将声，表示饮料、流质物。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "conversion",
+      "note": "从名词“浓液”引申为动词“用浆液处理纱布”，古今皆见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由饮料、浓液等义延伸为泛指可以用来粘结的“糨糊”类黏稠液体。"
+    }
+  ]
+}

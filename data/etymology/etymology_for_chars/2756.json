@@ -1,0 +1,42 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "潮湿，含水分多，与“干”相对",
+      "examples": [
+        "湿度",
+        "潮湿",
+        "湿润",
+        "空气很湿"
+      ],
+      "traditional_char": "濕"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "中医学指湿气、湿邪等病理概念",
+      "examples": [
+        "湿气",
+        "湿邪",
+        "湿泻"
+      ],
+      "traditional_char": "濕"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘濕’为形声字，从水，显（顯）声，表示潮湿、水分多的含义。‘湿’为其简化字。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "中医理论中从“潮湿”引申为人体、环境中湿气一类病理概念。"
+    }
+  ]
+}

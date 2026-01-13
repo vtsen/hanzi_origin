@@ -1,0 +1,99 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "微细的丝；细丝。",
+      "examples": [
+        "缅，微丝也。——《说文》"
+      ],
+      "traditional_char": "緬"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "遥远，远离的。",
+      "examples": [
+        "举下缅也。——《谷梁传·庄公三年》",
+        "缅然引领南望。——《国语·楚语》"
+      ],
+      "traditional_char": "緬"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "尽，尽情地；彻底地。",
+      "examples": [
+        "冀阙缅其堙尽。——潘岳《西征赋》"
+      ],
+      "traditional_char": "緬"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "思念，怀念。",
+      "examples": [
+        "予實苦懷緬。——杜甫《八哀詩·故秘書少監武功蘇公源明》",
+        "树功缅前秦。——权德舆"
+      ],
+      "traditional_char": "緬"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "拉，挽，卷。",
+      "examples": [
+        "把那佛青粗布衫子的衿子往一旁一緬。——《兒女英雄傳》"
+      ],
+      "traditional_char": "緬"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "缅甸的简称。",
+      "examples": [
+        "问以征缅事宜， 奏对称旨。——《元史·怯烈传》"
+      ],
+      "traditional_char": "緬"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从糸，面声。‘糸’表与丝相关，‘面’兼表声。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "细丝长远引申为遥远，多见于先秦"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "由遥远引申为思念、怀念，有距离便生思念"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "遥远、辽阔引申为广泛、尽的意思"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由丝的可拉、可缠性质引申为“挽、卷”"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "metonymy",
+      "note": "由“遥远”引申为“远方的国名”，即“缅甸”"
+    }
+  ]
+}

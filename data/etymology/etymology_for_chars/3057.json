@@ -1,0 +1,57 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "折断，破坏",
+      "examples": [
+        "摧折",
+        "摧残",
+        "摧眉折腰"
+      ],
+      "traditional_char": "摧"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "挫败，使受挫折",
+      "examples": [
+        "摧败",
+        "摧挫",
+        "摧陷"
+      ],
+      "traditional_char": "摧"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "伤痛，悲伤",
+      "examples": [
+        "摧怆",
+        "摧心"
+      ],
+      "traditional_char": "摧"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从手，‘崔’作声旁，表示用手折断之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从‘折断’引申为‘使人挫败，打击’。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由‘挫败’引申为心理受挫即‘伤痛、悲伤’。"
+    }
+  ]
+}

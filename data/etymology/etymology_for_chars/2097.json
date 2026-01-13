@@ -1,0 +1,120 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "伤害，损害，使受损伤",
+      "examples": [
+        "莫要害人。",
+        "损害健康。",
+        "伤害他人。"
+      ],
+      "traditional_char": "害"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "有损的事物，与“益”相对",
+      "examples": [
+        "害虫",
+        "害鸟"
+      ],
+      "traditional_char": "害"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "引起灾难的人或事物，坏处",
+      "examples": [
+        "为民除害",
+        "灾害",
+        "祸害"
+      ],
+      "traditional_char": "害"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "发生疾病",
+      "examples": [
+        "害眼",
+        "他害病了"
+      ],
+      "traditional_char": "害"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "心理上产生不安定情绪，如害羞、害怕",
+      "examples": [
+        "害羞",
+        "害怕"
+      ],
+      "traditional_char": "害"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "杀死",
+      "examples": [
+        "杀害",
+        "被害"
+      ],
+      "traditional_char": "害"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "妒忌",
+      "examples": [
+        "上官大夫与之同列，争宠而心害其能"
+      ],
+      "traditional_char": "害"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字。从宀，从口，从丰，丰亦声；早期字形相关‘家中言语危害’之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_shift",
+      "note": "动词转作名词，表示有害的事物。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "引申为灾难、坏处。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "由‘伤害’引申为‘生病’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "由‘伤害’抽象引申为心理上的不安。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "‘伤害’进一步引申为‘杀害’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "semantic_extension",
+      "note": "‘伤害’引申为‘妒忌’（心里伤害对方）。"
+    }
+  ]
+}

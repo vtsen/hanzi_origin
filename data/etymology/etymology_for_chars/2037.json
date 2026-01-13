@@ -1,0 +1,127 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "夸大，大话",
+      "examples": [
+        "唐言",
+        "荒唐"
+      ],
+      "traditional_char": "唐"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "夸大，虚夸",
+      "examples": [
+        "荒唐",
+        "唐大无验"
+      ],
+      "traditional_char": "唐"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "空，徒然",
+      "examples": [
+        "功不唐捐"
+      ],
+      "traditional_char": "唐"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "传说中尧所建之国名",
+      "examples": [
+        "唐尧"
+      ],
+      "traditional_char": "唐"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "朝代名（中国历史上的唐朝及其后继短命王朝）",
+      "examples": [
+        "唐代",
+        "唐诗",
+        "唐三彩",
+        "后唐"
+      ],
+      "traditional_char": "唐"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "古代朝堂前或宗庙门前的大道",
+      "examples": [
+        "朝堂之唐道"
+      ],
+      "traditional_char": "唐"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "古同“螗”，指蝉",
+      "examples": [
+        "螗蛉在户"
+      ],
+      "traditional_char": "唐"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "唐代宗",
+        "唐太宗"
+      ],
+      "traditional_char": "唐"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "声符为‘庚’，意符为‘口’，本义为大话，典型形声字。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从名词‘大话’泛化为形容词‘夸大、虚夸’。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "从‘夸大’引申为‘空、徒然’，言之无实。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由传说中国名引申为历史朝代名。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 7,
+      "evolution_type": "conversion",
+      "note": "由朝代名成为姓氏。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 5,
+      "evolution_type": "metonymy",
+      "note": "以朝堂名指称朝堂前的大路。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "unknown",
+      "note": "‘唐’借用为‘蝉’的用法，见于古籍，具体途径不明，或为通假。"
+    }
+  ]
+}

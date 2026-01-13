@@ -1,0 +1,38 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "供作副食品的植物，如蔬菜、野菜等。",
+      "examples": [
+        "白菜、菠菜、野菜",
+        "面有菜色"
+      ],
+      "traditional_char": "菜"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "主食以外的食品，包括肉类、蛋类及其熟食。",
+      "examples": [
+        "名菜、菜牛、菜谱、菜肴"
+      ],
+      "traditional_char": "菜"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从艹，采声。本义为可食用植物（蔬菜）。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "中古及以后，语义由蔬菜扩大到主食以外的所有可食用菜肴。"
+    }
+  ]
+}

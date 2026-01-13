@@ -1,0 +1,41 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "建筑物中起支撑作用的直立构件",
+      "examples": [
+        "屋柱",
+        "柱子",
+        "柱石"
+      ],
+      "traditional_char": "柱"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "形状像柱子的东西或具有重要支撑作用的人或事物",
+      "examples": [
+        "水柱",
+        "顶梁柱",
+        "柱臣"
+      ],
+      "traditional_char": "柱"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从木，主声，表示屋中的支撑木柱。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "因支撑作用引申为形状类似或有同样支撑作用的对象，如“水柱”、“柱臣”。"
+    }
+  ]
+}

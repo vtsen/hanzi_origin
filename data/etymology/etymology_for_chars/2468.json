@@ -1,0 +1,41 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "影射事物或文字的供人猜测的隐语",
+      "examples": [
+        "猜谜",
+        "灯谜",
+        "哑谜",
+        "谜语"
+      ],
+      "traditional_char": "謎"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "还没有弄明白或难以理解的事物",
+      "examples": [
+        "这事直到现在还是一个谜",
+        "谜团"
+      ],
+      "traditional_char": "謎"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从言，迷声，最初指谜语。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "谜语之事难猜，引申为难以理解的事物。"
+    }
+  ]
+}

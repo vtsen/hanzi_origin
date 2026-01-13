@@ -1,0 +1,46 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "鹦鹉，一种能学舌的鸟",
+      "examples": [
+        "～～学舌",
+        "雨细花零鹦语切，愁肠千万结。",
+        "君不见隋朝陇头姥，娇养双鸚嘱新妇。"
+      ],
+      "traditional_char": "鸚"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "鹦鹉的通称（如“鹦哥”）",
+      "examples": [
+        "鹦哥帻",
+        "鹦哥",
+        "金鹦鹉"
+      ],
+      "traditional_char": "鸚"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“鸚”形声字，从鳥，嬰声，最初表示能言的鸟，即鹦鹉。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“鹦”为“鸚”的简化字，从鸟，省声，仍表示鹦鹉一义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由特指鹦鹉到泛指通称“鹦哥”等俗名，语义扩展。"
+    }
+  ]
+}

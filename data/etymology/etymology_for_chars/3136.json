@@ -1,0 +1,70 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "怀疑，不相信，猜测",
+      "examples": [
+        "疑惑",
+        "疑问",
+        "怀疑",
+        "半信半疑",
+        "疑团未解"
+      ],
+      "traditional_char": "疑"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "不能解决的，不能断定的",
+      "examples": [
+        "疑案",
+        "疑难",
+        "疑义",
+        "存疑"
+      ],
+      "traditional_char": "疑"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "安定，止息",
+      "examples": [],
+      "traditional_char": "疑"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "比拟，古同“拟”",
+      "examples": [],
+      "traditional_char": "疑"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从矢，止声；本义为怀疑，造字初意即为心中不信或未确定。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘怀疑’引申为‘不能解决、断定的事物’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "unknown",
+      "note": "‘安定，止息’为古籍少见义，来源和本义的联系不详，标记为未知。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "unknown",
+      "note": "‘比拟’义为古通‘拟’，与本义联系不明，可能为假借。"
+    }
+  ]
+}

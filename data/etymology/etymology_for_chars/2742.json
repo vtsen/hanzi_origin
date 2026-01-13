@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "扫除，清除脏物。",
+      "examples": [
+        "粪除",
+        "勤于粪垢"
+      ],
+      "traditional_char": "糞"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "屎，排泄物。",
+      "examples": [
+        "粪便",
+        "粪坑",
+        "牛粪"
+      ],
+      "traditional_char": "糞"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "施肥，撒粪于田地。",
+      "examples": [
+        "粪田",
+        "粪地"
+      ],
+      "traditional_char": "糞"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "‘糞’为会意字，小篆从‘采’（双手）与‘矢’，表示手持簸箕清除粪便、污秽。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由‘清除’（动词）引申为‘被清除的脏物’，即‘粪便’，东汉已见。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "conversion",
+      "note": "名词‘粪’（屎）转化为施肥之动词用法，即‘施肥’，见于农业用语。"
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "陈列，陈设",
+      "examples": [
+        "肆筵",
+        "肆其事于朝"
+      ],
+      "traditional_char": "肆"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "放纵，任意行事",
+      "examples": [
+        "肆口",
+        "肆虐",
+        "肆意",
+        "放肆",
+        "肆无忌惮"
+      ],
+      "traditional_char": "肆"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "尽，极",
+      "examples": [
+        "肆力",
+        "肆目",
+        "肆勤"
+      ],
+      "traditional_char": "肆"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "（古）处死刑后暴尸示众",
+      "examples": [
+        "肆诸市朝"
+      ],
+      "traditional_char": "肆"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "店铺",
+      "examples": [
+        "市肆",
+        "酒肆",
+        "茶肆"
+      ],
+      "traditional_char": "肆"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "numeral",
+      "meaning": "‘四’的大写",
+      "examples": [
+        "肆拾",
+        "肆佰"
+      ],
+      "traditional_char": "肆"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从聿声，表示‘陈列、摆设’之意，属于形声结构。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由‘陈列、铺张’引申为‘放任、无拘束’，意指扩展行为。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "‘陈列、铺展’本义引申为‘尽、极’，表示扩展到极致。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "指死刑后暴尸示众，视为陈列尸体，以警示众人。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "由‘陈列’引申为‘陈列物品的地方’，即商铺。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "unknown",
+      "note": "‘四’的大写用字，与本义联系不明，或因音近而借用。"
+    }
+  ]
+}

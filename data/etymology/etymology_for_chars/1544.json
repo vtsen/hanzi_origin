@@ -1,0 +1,40 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古代特指用于祭祀的牛、羊、猪等家畜",
+      "examples": [
+        "三牲",
+        "献牲"
+      ],
+      "traditional_char": "牲"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "家畜，泛指饲养的牛、羊、猪等动物",
+      "examples": [
+        "牲口",
+        "牲灵",
+        "牲畜"
+      ],
+      "traditional_char": "牲"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从牛，生声。本义为祭祀用的全牛，后引申为各种家畜。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由祭祀特用家畜义推广至一般家畜义，见于先秦至汉代用法发展。"
+    }
+  ]
+}

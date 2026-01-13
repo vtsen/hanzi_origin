@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "用手托着东西估量轻重",
+      "examples": [
+        "他把袋子掂了掂，觉得不算太重。",
+        "请你掂一掂这个西瓜有多重。"
+      ],
+      "traditional_char": "掂"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "（引申）对事物大致估量、推算",
+      "examples": [
+        "你心里掂量掂量，这事能不能成。",
+        "掂算一下还有多少天到期。"
+      ],
+      "traditional_char": "掂"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从手，店声，表示以手托物估量其轻重。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由用手估量轻重，转为泛指估量、推算事物，出现于近现代汉语。"
+    }
+  ]
+}

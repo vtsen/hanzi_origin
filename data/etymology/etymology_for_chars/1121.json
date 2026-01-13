@@ -1,0 +1,144 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "裁制衣服",
+      "examples": [
+        "制衣",
+        "其母为之制布衣"
+      ],
+      "traditional_char": "制"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "规定；制定规则",
+      "examples": [
+        "制定法律",
+        "制式"
+      ],
+      "traditional_char": "制"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "限定，约束，管束",
+      "examples": [
+        "制止",
+        "节制",
+        "抵制",
+        "专制"
+      ],
+      "traditional_char": "制"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "法规，制度",
+      "examples": [
+        "民主集中制",
+        "公有制"
+      ],
+      "traditional_char": "制"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "依照规定的标准做的",
+      "examples": [
+        "制服",
+        "制钱"
+      ],
+      "traditional_char": "制"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "古代帝王的命令",
+      "examples": [
+        "制诰",
+        "奉制"
+      ],
+      "traditional_char": "制"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "古代指守丧",
+      "examples": [
+        "守制"
+      ],
+      "traditional_char": "制"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "verb",
+      "meaning": "制造，制作",
+      "examples": [
+        "制造",
+        "制作",
+        "制品",
+        "制造业",
+        "制版"
+      ],
+      "traditional_char": "製"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "“制”会意，从衣，从未，表示与衣物裁制有关。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 7,
+      "note": "“製”形声字，从衣，制声，本义为制造衣服，后指一般制造。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由裁制衣物引申为制定规则，常见古今演变。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "从规定引申为对事物进行约束、限制。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "conversion",
+      "note": "动词“制定”转为名词“制度”。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "从规定、标准引申为依照标准制作事物。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "semantic_narrowing",
+      "note": "具体指古代帝王的命令，一种特殊“规定”。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 6,
+      "evolution_type": "semantic_shift",
+      "note": "引申为丧礼中的守丧之制。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 7,
+      "evolution_type": "semantic_extension",
+      "note": "从裁制衣服扩展到一般意义上的‘制造’（对“製”）。"
+    }
+  ]
+}

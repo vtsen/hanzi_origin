@@ -1,0 +1,44 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "撒种，把种子撒在土地上。",
+      "examples": [
+        "春播",
+        "夏播",
+        "播种"
+      ],
+      "traditional_char": "播"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "传播，传布（信息、声音、事物等）。",
+      "examples": [
+        "广播",
+        "播放",
+        "传播",
+        "播音",
+        "播映",
+        "播扬"
+      ],
+      "traditional_char": "播"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从手，番声，表示用手撒种。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由撒种引申为“传播”，如同将信息等像种子一样广泛散布。"
+    }
+  ]
+}

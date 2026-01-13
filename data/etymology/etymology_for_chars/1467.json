@@ -1,0 +1,182 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "人体后面从肩到腰的部分，脊背",
+      "examples": [
+        "他的背很宽。",
+        "背影消失在远方。"
+      ],
+      "traditional_char": "背"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "物体的后面或反面",
+      "examples": [
+        "刀背",
+        "桌子的背面"
+      ],
+      "traditional_char": "背"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "用背部对着",
+      "examples": [
+        "背光",
+        "人心向背"
+      ],
+      "traditional_char": "背"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "向相反的方向",
+      "examples": [
+        "背道而驰",
+        "背地性"
+      ],
+      "traditional_char": "背"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "避开，离开",
+      "examples": [
+        "背井离乡",
+        "背地"
+      ],
+      "traditional_char": "背"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "凭记忆读出",
+      "examples": [
+        "背书",
+        "背诵诗文"
+      ],
+      "traditional_char": "背"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "违反",
+      "examples": [
+        "违背诺言",
+        "背离道义"
+      ],
+      "traditional_char": "背"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "adjective",
+      "meaning": "不顺",
+      "examples": [
+        "背运",
+        "背兴"
+      ],
+      "traditional_char": "背"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "adjective",
+      "meaning": "偏僻",
+      "examples": [
+        "背静"
+      ],
+      "traditional_char": "背"
+    },
+    {
+      "index": 9,
+      "part_of_speech": "adjective",
+      "meaning": "听觉不灵，耳背",
+      "examples": [
+        "老人耳背"
+      ],
+      "traditional_char": "背"
+    },
+    {
+      "index": 10,
+      "part_of_speech": "verb",
+      "meaning": "用背部负载（bēi），背负",
+      "examples": [
+        "背包",
+        "背黑锅",
+        "背负重物"
+      ],
+      "traditional_char": "背"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从肉，北声，表示脊背。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "人体背部的含义扩展到事物的反面、后面。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "conversion",
+      "note": "名词转动词，背部朝向为“背对”。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由背对引申为朝相反方向。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由相反方向引申为背离、离开。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 6,
+      "evolution_type": "metaphor",
+      "note": "“背对”引申为背叛、违反。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 8,
+      "evolution_type": "semantic_extension",
+      "note": "离开的含义引申为偏僻、僻静。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 7,
+      "evolution_type": "metaphor",
+      "note": "“背对”引申为不顺利。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 9,
+      "evolution_type": "reanalysis",
+      "note": "“背对”人与耳朵，转为听觉不灵。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 10,
+      "evolution_type": "conversion",
+      "note": "由名词“背”转为动词“用背负载”。"
+    },
+    {
+      "source_index": 10,
+      "target_index": 5,
+      "evolution_type": "metaphor",
+      "note": "“背负”引申为背诵，像把书负在背上一样。"
+    }
+  ]
+}

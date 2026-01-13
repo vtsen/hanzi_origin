@@ -1,0 +1,41 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "有齿可来回切割木头、金属等的工具",
+      "examples": [
+        "木锯",
+        "钢锯",
+        "电锯"
+      ],
+      "traditional_char": "鋸"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "用锯分割物体",
+      "examples": [
+        "锯树",
+        "锯木头",
+        "锯末"
+      ],
+      "traditional_char": "鋸"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从金，居声。本义为齿形分木工具。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "conversion",
+      "note": "名词作动词，表示用锯进行分割的动作，语法化过程见于中古以降。"
+    }
+  ]
+}

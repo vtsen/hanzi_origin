@@ -1,0 +1,57 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "释放，放走",
+      "examples": [
+        "遣囚出狱",
+        "古人有罪而遣之"
+      ],
+      "traditional_char": "遣"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "派遣，送出去，打发",
+      "examples": [
+        "派遣使者",
+        "遣送归国",
+        "调遣军队"
+      ],
+      "traditional_char": "遣"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "排解，发泄（情绪）",
+      "examples": [
+        "遣怀",
+        "遣兴",
+        "遣闷"
+      ],
+      "traditional_char": "遣"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从‘辵’表示与行走相关，‘堇’为声旁，本义为释放。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "古义‘释放’引申为‘派出、打发’，早在秦汉已用；与人或事物移动相关。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "将‘派遣’转喻为‘排遣情绪’，比喻性的语义发展，见于文学表达。"
+    }
+  ]
+}

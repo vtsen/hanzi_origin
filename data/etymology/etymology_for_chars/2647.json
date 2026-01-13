@@ -1,0 +1,53 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "山谷深邃的样子",
+      "examples": [
+        "嵌然深谷"
+      ],
+      "traditional_char": "嵌"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "把东西填镶在空隙里",
+      "examples": [
+        "嵌入",
+        "镶嵌"
+      ],
+      "traditional_char": "嵌"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "地名，如『赤嵌』在中国台湾省",
+      "examples": [
+        "赤嵌楼"
+      ],
+      "traditional_char": "嵌"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从山，欠声，原指山谷深邃之状。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由山谷深邃形象，引申为把东西填入凹陷处（空隙）"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "以山谷深邃义，指地名赤嵌，因地形得名"
+    }
+  ]
+}

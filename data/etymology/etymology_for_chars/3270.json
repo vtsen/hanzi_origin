@@ -1,0 +1,38 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "身体平卧或横倒。",
+      "examples": [
+        "他躺在床上休息。"
+      ],
+      "traditional_char": "躺"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "器具、车辆等横倒或横置。",
+      "examples": [
+        "躺椅摆在阳台上。",
+        "遇车祸后，车子躺在路边。"
+      ],
+      "traditional_char": "躺"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从身，尚声，本义指人体平卧。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由指人体平卧扩展借喻到器具、车辆等横倒的状态。"
+    }
+  ]
+}

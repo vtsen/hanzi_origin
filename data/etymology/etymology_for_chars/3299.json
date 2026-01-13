@@ -1,0 +1,93 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "水静而清，清澈透明",
+      "examples": [
+        "澄，水清定也。——《集韵》",
+        "水色澄碧。",
+        "澄酒在下。——《礼·礼运》",
+        "明月澄清景。——曹植诗",
+        "千里澄江似练。——王安石"
+      ],
+      "traditional_char": "澄"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "静、宁静",
+      "examples": [
+        "心澄体静。——徐干《中论》",
+        "公退则敛膝澄坐以养心。——方孝儒《静斋记》",
+        "飞遁离俗，澄神定灵。——曹植"
+      ],
+      "traditional_char": "澄"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "使水中杂质沉淀，澄清",
+      "examples": [
+        "皆以杏仁澄之。——宋·陆游《过小孤山大孤山》",
+        "令促具罂缶数百口，澄水。——《三国志·孙静传》"
+      ],
+      "traditional_char": "澄"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "使清明，澄清（比喻澄清混乱，安定）",
+      "examples": [
+        "澄德化之陵迟兮，烈刑罚之峭峻。——《后汉书·冯衍传下》",
+        "帝特擢秉任之，秉锐意澄仕路。——《明史·李秉传》",
+        "自是乃有澄天下之志。——《北齐书·神武帝纪上》"
+      ],
+      "traditional_char": "澄"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "水名（河流、江名等）",
+      "examples": [
+        "澄江",
+        "澄泉",
+        "澄水"
+      ],
+      "traditional_char": "澄"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，登声，本义为水静而清。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "从水静而清引申为心境或环境的宁静。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由水静而清扩展为使水沉淀后的清澈，用做动词。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由澄清水比喻澄清政事或混乱，见于文献。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "用作水名，取其水静清之义，以形容地理实体。"
+    }
+  ]
+}

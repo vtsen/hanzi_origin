@@ -1,0 +1,84 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "平安，安定",
+      "examples": [
+        "泰然处之",
+        "国泰民安"
+      ],
+      "traditional_char": "泰"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "美好，佳",
+      "examples": [
+        "否极泰来"
+      ],
+      "traditional_char": "泰"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adverb",
+      "meaning": "极，非常",
+      "examples": [
+        "泰西"
+      ],
+      "traditional_char": "泰"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "骄纵，傲慢",
+      "examples": [
+        "骄泰",
+        "泰侈"
+      ],
+      "traditional_char": "泰"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "通，通达",
+      "examples": [
+        "天地交泰"
+      ],
+      "traditional_char": "泰"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，‘大’声。最早义指平安、安定。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "amelioration",
+      "note": "由安定引申为美好。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由安定引申为极、非常，有极致安定之意。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "pejoration",
+      "note": "由安定引申为过度安逸而骄纵傲慢。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "本指安泰，引申为通畅之意，如天地交泰。"
+    }
+  ]
+}

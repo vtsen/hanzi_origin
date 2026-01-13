@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "蜈蚣，一种体长多节、多足、能螫人的昆虫。",
+      "examples": [
+        "蜈蚣有很多足，见之令人害怕。",
+        "蜈蚣，背光，黑绿色，足赤腹黄。"
+      ],
+      "traditional_char": "蚣"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "螽斯（即蚣蝑），一种以翅摩擦发音、善跳跃的绿色或褐色昆虫。",
+      "examples": [
+        "螽斯蚣蝑也。",
+        "蚣蝑善于跳跃，以翅摩擦发音。"
+      ],
+      "traditional_char": "蚣"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "地蜈蚣，一种草本植物，因形似蜈蚣而得名。",
+      "examples": [
+        "地蜈蚣，生塍野中，形穗甚长，根叶入药。",
+        "俗呼过路蜈蚣。"
+      ],
+      "traditional_char": "蚣"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "形声字，从虫，公声，最早表‘蚣蝑’（螽斯）意，后泛指蜈蚣等。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_shift",
+      "note": "原指螽斯类昆虫，后泛指蜈蚣属昆虫，类别转移，或受方言影响。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "因植物形状如蜈蚣，借喻为‘地蜈蚣’等植物名。"
+    }
+  ]
+}

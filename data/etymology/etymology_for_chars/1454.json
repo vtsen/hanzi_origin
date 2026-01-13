@@ -1,0 +1,53 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "用刀斧等猛剁，用力劈",
+      "examples": [
+        "砍柴",
+        "砍伐树木"
+      ],
+      "traditional_char": "砍"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "（方言）把东西扔出去",
+      "examples": [
+        "砍砖头给他"
+      ],
+      "traditional_char": "砍"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "（比喻）取缔（某组织）或取消（某项目、条款）",
+      "examples": [
+        "原定的基建项目砍了三分之一。"
+      ],
+      "traditional_char": "砍"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从石表示与石头有关，欠为声符，表示猛劈。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "用“猛劈”的动作比喻将某物猛烈抛出，多见于方言。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由“砍伐”动作引申为整顿、削减项目的比喻用法。"
+    }
+  ]
+}

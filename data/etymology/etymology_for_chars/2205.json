@@ -1,0 +1,41 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "低等植物的一大类，不开花，没有茎和叶子，不含叶绿素，不能自己制造养料，过寄生生活，如细菌、真菌等。",
+      "examples": [
+        "细菌",
+        "真菌",
+        "病菌",
+        "菌肥"
+      ],
+      "traditional_char": "菌"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "即“蕈”，某些种类的蘑菇。",
+      "examples": [
+        "食菌",
+        "毒菌"
+      ],
+      "traditional_char": "菌"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从艹，表示与植物有关；音从囷，表示声旁，最初用于泛指低等类植物。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_narrowing",
+      "note": "后世专指蘑菇等可食用或有毒的大型真菌，语义收窄。"
+    }
+  ]
+}

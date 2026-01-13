@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "金属制成的响器，形象像小钟，常用于提醒、装饰等。",
+      "examples": [
+        "门上挂着一个铜铃。",
+        "电铃响了。"
+      ],
+      "traditional_char": "鈴"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "形状像铃的东西。",
+      "examples": [
+        "哑铃用于锻炼身体。",
+        "棉铃已经成熟。"
+      ],
+      "traditional_char": "鈴"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从金，令声，表示金属响器。‘金’表义，‘令’表声。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由‘金属响器’的本义，转为‘形状像铃的东西’，以形喻事。"
+    }
+  ]
+}

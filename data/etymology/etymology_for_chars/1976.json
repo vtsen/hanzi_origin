@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "慢慢地走，缓步前行",
+      "examples": [
+        "徐步而行",
+        "从容徐进"
+      ],
+      "traditional_char": "徐"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adverb",
+      "meaning": "缓慢地，慢慢地",
+      "examples": [
+        "徐徐升起",
+        "风徐徐吹来"
+      ],
+      "traditional_char": "徐"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "徐先生",
+        "徐悲鸿"
+      ],
+      "traditional_char": "徐"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从彳，表“行走”义，余为声符，原指慢步走。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "conversion",
+      "note": "由动词“慢步走”转为表示方式的副词，意指缓慢地。用法自古文可见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "unknown",
+      "note": "作为姓氏，起源不详，常由原义或地名、部落名演变为姓。"
+    }
+  ]
+}

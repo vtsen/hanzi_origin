@@ -1,0 +1,40 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "用水加热使食物熟化",
+      "examples": [
+        "煮饭",
+        "把蛋煮熟",
+        "烹煮蔬菜"
+      ],
+      "traditional_char": "煮"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "喻指玩味字句或文字",
+      "examples": [
+        "煮字疗饥",
+        "煮字为业"
+      ],
+      "traditional_char": "煮"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从火，者声，本意指水中加热使熟，与火和声符者相关。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "以烹煮比喻琢磨文字，出现于后世文人语境。"
+    }
+  ]
+}

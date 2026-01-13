@@ -1,0 +1,70 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "阻拦；遮蔽；阻止前进。",
+      "examples": [
+        "阻挡洪水",
+        "挡住阳光",
+        "拦挡敌人"
+      ],
+      "traditional_char": "擋"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "排挡，汽车变速装置的一个级别。",
+      "examples": [
+        "挂挡",
+        "换挡"
+      ],
+      "traditional_char": "擋"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "某些仪器和测量装置中表示光、电、热等大小的级别。",
+      "examples": [
+        "把电表调到高挡"
+      ],
+      "traditional_char": "擋"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "〔摒挡〕收拾、整理（见“摒”）。",
+      "examples": [
+        "摒挡家务"
+      ],
+      "traditional_char": "擋"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从手，当声，表示用手阻拦。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "“挡”引申为汽车变速器的“排挡”，取阻隔、分级之意。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由“挡”的遮蔽、分隔含义引申为测量装置的分挡、等级。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "unknown",
+      "note": "“摒挡”义用在家务整理，词源关系不详，可能为借音。"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "北方用砖、坯等砌成的睡觉的台，下面有洞，连通烟囱，可以烧火取暖",
+      "examples": [
+        "他在炕上睡觉。",
+        "农村土炕很暖和。"
+      ],
+      "traditional_char": "炕"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "烤，把物体靠近火边使其干或暖和",
+      "examples": [
+        "把衣服放在火边炕一炕。"
+      ],
+      "traditional_char": "炕"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "形声字，从火，亢声，表示烘干、烤之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "metonymy",
+      "note": "由‘烤’引申为专指用于烤或取暖的建筑结构，地炕。"
+    }
+  ]
+}

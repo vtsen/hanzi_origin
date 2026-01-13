@@ -1,0 +1,106 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "凭依、倚仗",
+      "examples": [
+        "据点",
+        "据险固守"
+      ],
+      "traditional_char": "據"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "占有",
+      "examples": [
+        "窃据",
+        "盘据",
+        "据为己有"
+      ],
+      "traditional_char": "據"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "可以用做证明的事物",
+      "examples": [
+        "字据",
+        "证据",
+        "单据",
+        "论据",
+        "契据",
+        "言之有据"
+      ],
+      "traditional_char": "據"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "preposition",
+      "meaning": "按照",
+      "examples": [
+        "据实",
+        "据称",
+        "依据",
+        "据事直书"
+      ],
+      "traditional_char": "據"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "手靠着；靠着（本义）",
+      "examples": [],
+      "traditional_char": "據"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "拮据，用以指拮据之意的音节字用法",
+      "examples": [
+        "拮据"
+      ],
+      "traditional_char": "據"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 4,
+      "note": "据（據）为形声字，从手，豦声，本义为“用手靠着”或“靠着”。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 4,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "从具体的“靠着”引申为“凭依、倚仗”；见古今语用演变。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由“凭依”引申为通过依仗力量而“占有”某物。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由“凭依”引申为可以依凭的事物，即“证据”等。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "grammaticalization",
+      "note": "由动词用法虚化为介词“按照”。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 5,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "拮据为借音词，与本义无语义联系，仅作音节表音借用。"
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "颈，脖子",
+      "examples": [
+        "引领而望",
+        "项上系领"
+      ],
+      "traditional_char": "領"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "衣服上围绕脖子的部分",
+      "examples": [
+        "衣领",
+        "领口"
+      ],
+      "traditional_char": "領"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "事物的纲要或首要部分",
+      "examples": [
+        "提纲挈领",
+        "要领"
+      ],
+      "traditional_char": "領"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "带，引，率领",
+      "examples": [
+        "带领大家",
+        "率领军队"
+      ],
+      "traditional_char": "領"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "治理，管辖",
+      "examples": [
+        "领土",
+        "领海"
+      ],
+      "traditional_char": "領"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "接受，取得",
+      "examples": [
+        "领奖",
+        "领命"
+      ],
+      "traditional_char": "領"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "了解，明白",
+      "examples": [
+        "领悟",
+        "心领神会"
+      ],
+      "traditional_char": "領"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "measure_word",
+      "meaning": "量词，用于衣服、席、箔等",
+      "examples": [
+        "一领席"
+      ],
+      "traditional_char": "領"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "noun",
+      "meaning": "古同“岭”，指山岭",
+      "examples": [
+        "岭南",
+        "过岭"
+      ],
+      "traditional_char": "領"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从页（表示与头、脖子相关），令为声符，初指颈项部位。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "衣服围绕脖子的部分由脖子引申而来。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由脖子居于上端，引申为事物的提纲、首要部分。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由首要部分引申为带头、率领。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由率领引申为治理、管辖。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "由率领引申为接受、取得如‘领命’‘领奖’。"
+    },
+    {
+      "source_index": 5,
+      "target_index": 6,
+      "evolution_type": "metaphor",
+      "note": "由取得“命令”等引申为领会、明白。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 7,
+      "evolution_type": "reanalysis",
+      "note": "衣服领的结构被用作量词，语法化用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 8,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "‘领’假借为‘岭’，表示山岭。"
+    }
+  ]
+}

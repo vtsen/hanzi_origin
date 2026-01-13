@@ -1,0 +1,89 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "渐渐浸润，浸渍。",
+      "examples": [
+        "淫雨霏霏。",
+        "淫浸渧渧。"
+      ],
+      "traditional_char": "淫"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "过多，过甚。",
+      "examples": [
+        "淫雨连绵。",
+        "淫威。"
+      ],
+      "traditional_char": "淫"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "迷惑，迷乱。",
+      "examples": [
+        "富贵不能淫。"
+      ],
+      "traditional_char": "淫"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "在男女关系上行为不正当，放纵色欲。",
+      "examples": [
+        "奸淫。",
+        "淫荡。",
+        "淫乱。",
+        "淫秽。",
+        "淫猥。"
+      ],
+      "traditional_char": "淫"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "放纵，沉溺（泛指）。",
+      "examples": [
+        "骄奢淫逸。",
+        "淫湎。"
+      ],
+      "traditional_char": "淫"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，侌声，本义为水渐渐浸润。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由水的浸润引申为过多、过甚的状态。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "“浸润”隐喻心志被外物迷惑。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "由水的放纵流动引申为行为上放纵、沉溺。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 3,
+      "evolution_type": "semantic_narrowing",
+      "note": "由一般放纵逐渐专用于色欲上的放纵。"
+    }
+  ]
+}

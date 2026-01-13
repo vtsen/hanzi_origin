@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "效法，钻研知识，获得知识，学习",
+      "examples": [
+        "学而时习之，不亦说乎",
+        "他喜欢学新的技能"
+      ],
+      "traditional_char": "學"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "传授知识的地方，学校",
+      "examples": [
+        "他在学上课",
+        "学校里很安静"
+      ],
+      "traditional_char": "學"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "掌握的知识，学问",
+      "examples": [
+        "有学问的人",
+        "学术研究"
+      ],
+      "traditional_char": "學"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "分门别类的有系统的知识，学科",
+      "examples": [
+        "哲学是重要的学科",
+        "数学习题"
+      ],
+      "traditional_char": "學"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "学/學本作“壆”，象屋下有子，后加‘子’为义符，‘学’为简体；形声字，表示‘儿童在房屋下学习’的本义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由‘学习’引申为‘学习的场所’，汉代已有‘学校’之称。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由‘学习’引申为‘掌握的知识’，古今皆有。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "‘学问’进一步泛化为‘分门别类的有系统知识’。"
+    }
+  ]
+}

@@ -1,0 +1,194 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "去掉阻塞使通畅，疏导，开通",
+      "examples": [
+        "疏通河道",
+        "疏导交通",
+        "浚水以疏其滞"
+      ],
+      "traditional_char": "疏"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "分散",
+      "examples": [
+        "疏散人群",
+        "仗义疏财"
+      ],
+      "traditional_char": "疏"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "事物间距离大，空隙大，与“密”相对",
+      "examples": [
+        "疏密有致",
+        "稀疏",
+        "天网恢恢，疏而不漏"
+      ],
+      "traditional_char": "疏"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "不亲密，关系远的",
+      "examples": [
+        "亲疏远近",
+        "关系疏远"
+      ],
+      "traditional_char": "疏"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "不细密，忽略",
+      "examples": [
+        "疏忽大意",
+        "疏漏"
+      ],
+      "traditional_char": "疏"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "adjective",
+      "meaning": "空虚",
+      "examples": [
+        "志大才疏"
+      ],
+      "traditional_char": "疏"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "adjective",
+      "meaning": "不熟悉",
+      "examples": [
+        "生疏",
+        "彼此疏生"
+      ],
+      "traditional_char": "疏"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "adjective",
+      "meaning": "粗劣",
+      "examples": [
+        "疏食粗衣",
+        "疏粝之食"
+      ],
+      "traditional_char": "疏"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "noun",
+      "meaning": "蔬菜（古同“蔬”）",
+      "examples": [
+        "疏食",
+        "食无肉曰疏"
+      ],
+      "traditional_char": "疏"
+    },
+    {
+      "index": 9,
+      "part_of_speech": "noun",
+      "meaning": "分条说明的文字，如上疏、奏疏、注疏",
+      "examples": [
+        "上疏陈情",
+        "奏疏上达天听",
+        "注疏古籍"
+      ],
+      "traditional_char": "疏"
+    },
+    {
+      "index": 10,
+      "part_of_speech": "noun",
+      "meaning": "僧道忏悔时所焚化的祝告文",
+      "examples": [
+        "焚疏以祈福"
+      ],
+      "traditional_char": "疏"
+    },
+    {
+      "index": 11,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "疏广",
+        "疏受"
+      ],
+      "traditional_char": "疏"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意字，从疋，有通、畅的意义，表示疏导、开通，与原始本义一致。右部‘疋’表示通，左部‘疒’为借用。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘使通畅’引申为‘分散’（如水流疏导使分散）"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "分散进一步引申为‘稀疏’，即物理间隔大"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由空间稀疏喻为人际疏远"
+    },
+    {
+      "source_index": 2,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "由稀疏引申为‘做事不细密、忽略’"
+    },
+    {
+      "source_index": 2,
+      "target_index": 5,
+      "evolution_type": "metaphor",
+      "note": "稀疏进一步转喻为‘空虚’"
+    },
+    {
+      "source_index": 3,
+      "target_index": 6,
+      "evolution_type": "semantic_extension",
+      "note": "人际关系疏远进一步为‘不熟悉’"
+    },
+    {
+      "source_index": 4,
+      "target_index": 7,
+      "evolution_type": "metaphor",
+      "note": "由‘粗疏’引申为‘粗劣’"
+    },
+    {
+      "source_index": 8,
+      "target_index": 7,
+      "evolution_type": "unknown",
+      "note": "‘蔬菜’义古与‘粗食’义混用，具体关系不明"
+    },
+    {
+      "source_index": 1,
+      "target_index": 9,
+      "evolution_type": "metonymy",
+      "note": "分散、条理引申为‘分条说明的文字’"
+    },
+    {
+      "source_index": 9,
+      "target_index": 10,
+      "evolution_type": "semantic_extension",
+      "note": "作为书信、文字义的延伸，用于僧道焚化的祝告文"
+    }
+  ]
+}

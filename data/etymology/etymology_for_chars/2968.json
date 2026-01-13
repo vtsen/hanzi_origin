@@ -1,0 +1,86 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "食物油脂过多，肥腻",
+      "examples": [
+        "油腻",
+        "肥腻",
+        "腻人"
+      ],
+      "traditional_char": "膩"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "光滑，细致",
+      "examples": [
+        "细腻"
+      ],
+      "traditional_char": "膩"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "因过多而产生厌烦的感觉",
+      "examples": [
+        "腻烦",
+        "玩腻了",
+        "腻味"
+      ],
+      "traditional_char": "膩"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "黏，黏糊糊",
+      "examples": [
+        "腻糊"
+      ],
+      "traditional_char": "膩"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "积污，污垢",
+      "examples": [
+        "尘腻"
+      ],
+      "traditional_char": "膩"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从肉，贰声，本义为‘肥’、‘脂多’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由油脂多引申为‘细腻光滑’，常见于形容质地。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由油脂太多令人不舒适，引申为‘因过多而厌烦’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "油脂多时物体容易变黏，引申为‘黏’。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "从‘黏’引申积存污垢之意，指尘垢。"
+    }
+  ]
+}

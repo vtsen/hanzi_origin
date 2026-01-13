@@ -1,0 +1,85 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "腋下，腋窝。",
+      "examples": [
+        "胳谓之腋。——《广雅》",
+        "胳，腋下也。——《说文》"
+      ],
+      "traditional_char": "胳"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "上肢，肩膀以下手腕以上的部分。又称“胳膊”、“臂”。",
+      "examples": [
+        "他的胳膊受伤了。",
+        "伸出胳膊。"
+      ],
+      "traditional_char": "胳"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "牲畜的后胫骨。",
+      "examples": [
+        "介俎、脊、脅、胳、肺。——《仪礼·乡饮酒礼》",
+        "膊、胳也。——郑玄注"
+      ],
+      "traditional_char": "胳"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "腋下与上臂之间的空隙，即胳肢窝。",
+      "examples": [
+        "他的汗从胳肢窝流出来。"
+      ],
+      "traditional_char": "胳"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "用手在别人身上抓挠，使其发痒而笑（多用于“胳肢”一词）。",
+      "examples": [
+        "小孩喜欢互相胳肢。"
+      ],
+      "traditional_char": "胳"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从肉，各声。本义为腋下，与肉体结构有关。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "腋下部位词义拓展指到肩膀以下整段手臂。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "腋下部位进一步指腋下与上臂之间的空隙。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "腋下引申指牲畜与腋部相似位置的后胫骨。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "以抓腋下与发痒有关，进一步用作动词“胳肢”。"
+    }
+  ]
+}

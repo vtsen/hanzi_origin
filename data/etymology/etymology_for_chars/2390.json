@@ -1,0 +1,72 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "终了，完毕",
+      "examples": [
+        "继承先烈未竟的事业",
+        "大事未竟"
+      ],
+      "traditional_char": "竟"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adverb",
+      "meaning": "到底，终于",
+      "examples": [
+        "毕竟",
+        "有志者事竟成"
+      ],
+      "traditional_char": "竟"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adverb",
+      "meaning": "整，从头到尾",
+      "examples": [
+        "竟日",
+        "竟夜"
+      ],
+      "traditional_char": "竟"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adverb",
+      "meaning": "居然，表示出乎意料",
+      "examples": [
+        "竟然",
+        "竟至",
+        "竟自"
+      ],
+      "traditional_char": "竟"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意，从音（音义关联）+从人，表示乐毕、终了之意，见《说文解字》及古文构形。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "‘终了’义发展为‘到底’、‘终于’之副词，汉魏六朝已见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由‘终了’引申为‘始终、整个’的时间副词用法。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "副词‘到底’进一步用于出乎意料/居然之修辞色彩，近中古后流行。"
+    }
+  ]
+}

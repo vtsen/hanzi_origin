@@ -1,0 +1,57 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "扎，束缚，绑扎。",
+      "examples": [
+        "括发",
+        "括约肌"
+      ],
+      "traditional_char": "括"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "包容，包含，全部收纳。",
+      "examples": [
+        "包括",
+        "概括",
+        "总括",
+        "囊括"
+      ],
+      "traditional_char": "括"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "榨取，搜求，搜刮。",
+      "examples": [
+        "搜括",
+        "括取"
+      ],
+      "traditional_char": "括"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从手，舌声，本义指扎束。‘括’右为‘舌’表音，左为‘手’表意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘扎束’引申为‘包容、包含’，属于含义扩展，见于先秦已见用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由‘束缚、扎’引申为搜求、榨取，应用在搜括财物等场合。"
+    }
+  ]
+}

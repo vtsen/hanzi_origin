@@ -1,0 +1,90 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "雷或极快极猛的雷声。",
+      "examples": [
+        "震夷伯之庙",
+        "烨烨震电"
+      ],
+      "traditional_char": "震"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "因雷或巨大力量使物体强烈振动或颤动。",
+      "examples": [
+        "声震遐迩",
+        "震撼",
+        "震荡",
+        "震响"
+      ],
+      "traditional_char": "震"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "地震，自然现象，地壳震动。",
+      "examples": [
+        "地震",
+        "震灾",
+        "余震"
+      ],
+      "traditional_char": "震"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "佛教译名，指中国（主要见于“震旦”一词中）。",
+      "examples": [
+        "震旦"
+      ],
+      "traditional_char": "震"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "因恐惧或情绪强烈而颤动或惊恐。",
+      "examples": [
+        "震骇",
+        "震惊",
+        "震慑"
+      ],
+      "traditional_char": "震"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从“雨”表示与天气现象有关，“辰”作声符，原指疾雷声。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由疾雷的震动引申为其他巨大力量导致的振动。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_narrowing",
+      "note": "专指地壳发生剧烈振动之现象。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "由物理振动比喻到精神或心理上的动摇与惊恐。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "unknown",
+      "note": "佛教译名用法，具体机制存疑，或与地震象征东西文化流通有关。"
+    }
+  ]
+}

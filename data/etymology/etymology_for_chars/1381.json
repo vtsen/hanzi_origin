@@ -1,0 +1,84 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "particle",
+      "meaning": "文言语气词，用于句末，多表示感叹，相当于“啊”。",
+      "examples": [
+        "幸甚至哉。",
+        "美哉，我少年中国。"
+      ],
+      "traditional_char": "哉"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "particle",
+      "meaning": "文言语气词，用于句末，表示疑问、反问、推测、祈使等语气，相当于“吗”、“呢”、“吧”。",
+      "examples": [
+        "安知鸿鹄之志哉？",
+        "我其试哉！",
+        "振振君子，归哉归哉！"
+      ],
+      "traditional_char": "哉"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adverb",
+      "meaning": "开始，始于。",
+      "examples": [
+        "造攻自鸣条，朕哉自亳。",
+        "陈锡哉周。"
+      ],
+      "traditional_char": "哉"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "通“才”，才干。",
+      "examples": [
+        "政乏良哉，明慚则哲。"
+      ],
+      "traditional_char": "哉"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [],
+      "traditional_char": "哉"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从口，𢦒（音载）声；本义为感叹语气词，表语气、间隔。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由感叹用法引申为疑问、反问、推测、祈使等语气。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "本作语气词，后通假引申为“开始、起始”之义，常见于典籍。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "因与“才”音近，出现通假借指才干、能力。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "unknown",
+      "note": "用作姓氏的途径不详，或为地望、祖名转化。"
+    }
+  ]
+}

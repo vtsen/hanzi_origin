@@ -1,0 +1,57 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "货物买卖的铺子",
+      "examples": [
+        "书店",
+        "商店",
+        "小店",
+        "店员"
+      ],
+      "traditional_char": "店"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "提供住宿的旅馆",
+      "examples": [
+        "客店",
+        "旅店"
+      ],
+      "traditional_char": "店"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "栈房，供寄存、歇脚的房屋",
+      "examples": [
+        "栈店",
+        "店舍"
+      ],
+      "traditional_char": "店"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 2,
+      "note": "从广，表示与房屋有关；占为声符，形声字，本义为供存放或歇脚的栈房。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 2,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "由‘栈房’扩展为‘售卖货物的铺子’，多见于先秦及汉代后期。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘栈房’用作‘旅店’，古时出售与住宿常结合，语义泛化。"
+    }
+  ]
+}

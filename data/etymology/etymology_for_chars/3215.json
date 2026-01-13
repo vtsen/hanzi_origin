@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "樱花树，指开白色或粉红色花的一类落叶乔木。",
+      "examples": [
+        "大山樱生于高山之野。",
+        "樱花烂漫如云海。"
+      ],
+      "traditional_char": "櫻"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "樱花，樱树所开的花。",
+      "examples": [
+        "樱花时节雨纷纷。",
+        "赏樱人如织。"
+      ],
+      "traditional_char": "櫻"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "樱桃树，落叶小乔木，开粉红或白色小花并结红色可食的果实。",
+      "examples": [
+        "庭前种有樱桃。",
+        "樱桃熟时，正值暮春。"
+      ],
+      "traditional_char": "櫻"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "樱桃，指可食用的樱桃果实，有时借指如樱桃般红艳的物品。",
+      "examples": [
+        "樱唇一点，巧笑倩兮。",
+        "口如樱桃。"
+      ],
+      "traditional_char": "櫻"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 2,
+      "note": "“櫻”形声字，从木，婴声，初指樱桃树。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "synecdoche",
+      "note": "由樱桃树指其果实，古今常见语义转变。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "synecdoche",
+      "note": "由樱花树指其花，源于对植株和花体的不区分。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "由樱桃树泛指樱花类乔木，约自近现代起。"
+    }
+  ]
+}

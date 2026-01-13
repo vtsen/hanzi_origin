@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "洞穴，土穴。",
+      "examples": [
+        "石窟",
+        "狡兔三窟"
+      ],
+      "traditional_char": "窟"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "人聚集的地方，多指歹徒聚集之所。",
+      "examples": [
+        "匪窟",
+        "魔窟"
+      ],
+      "traditional_char": "窟"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从“穴”表意，表示洞穴，“屈”表声，原本指土穴。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "以‘洞穴’喻指歹徒等聚集之所，见于后起用法。"
+    }
+  ]
+}

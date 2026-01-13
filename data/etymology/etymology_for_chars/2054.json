@@ -1,0 +1,134 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "称量，计量（物体的分量或数量）",
+      "examples": [
+        "料其轻重",
+        "用斗米料之"
+      ],
+      "traditional_char": "料"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "估计，推测",
+      "examples": [
+        "料想",
+        "预料"
+      ],
+      "traditional_char": "料"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "可供制造其他东西的物质",
+      "examples": [
+        "材料",
+        "备料"
+      ],
+      "traditional_char": "料"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "喂牲口用的谷物",
+      "examples": [
+        "饲料",
+        "草料"
+      ],
+      "traditional_char": "料"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "一种熔点较低的玻璃，用来制造器皿或工艺品",
+      "examples": [
+        "料器",
+        "玻璃料"
+      ],
+      "traditional_char": "料"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "烹调时的调味品",
+      "examples": [
+        "调料",
+        "佐料"
+      ],
+      "traditional_char": "料"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "整理，处理",
+      "examples": [
+        "料理家事",
+        "料理后事"
+      ],
+      "traditional_char": "料"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "measure_word",
+      "meaning": "用于中药丸、处方剂量的全份",
+      "examples": [
+        "配一料药"
+      ],
+      "traditional_char": "料"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "从斗，从米，会意，用斗量米以称量。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从实际称量引申为心中估计、推测。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "被称量的实物，引申为原材料。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_narrowing",
+      "note": "专指喂牲口的谷物。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "指原材料的类别之一，即用于制造玻璃器皿的材料。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "指烹调用的调味品等原料。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "semantic_shift",
+      "note": "由称量、计量引申为安排、处理。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 7,
+      "evolution_type": "grammaticalization",
+      "note": "由称量的动作为量词用法。"
+    }
+  ]
+}

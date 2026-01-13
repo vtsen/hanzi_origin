@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "传说中的猛兽名，形状如赤豹，五尾一角，声如击石。",
+      "examples": [
+        "章峨之山有兽焉，状如赤豹，五尾一角，其音如击石，其名曰狰。——《山海经·西山经》"
+      ],
+      "traditional_char": "狰"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "形容面貌或样子凶恶、狰狞。",
+      "examples": [
+        "面目狰狞",
+        "猙獰"
+      ],
+      "traditional_char": "狰"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "“猙”的简化字，用于某些场合替代“猙”。",
+      "examples": [],
+      "traditional_char": "猙"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字；从犬，争声。‘犬’表义，指猛兽，‘争’表音，初指山海经记载的猛兽。"
+    },
+    {
+      "formation_type": "loan_character",
+      "original_sense_index": 2,
+      "note": "“狰”作为“猙”的简化字，属于语音假借。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由传说中的猛兽“狰”形象，引申为形容人或动物凶恶的样子。语义转移见于汉语固定搭配“狰狞”等。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "conversion",
+      "note": "“狰”简化并混用为‘猙’，部分场合直接通用。"
+    }
+  ]
+}

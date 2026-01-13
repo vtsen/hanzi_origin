@@ -1,0 +1,121 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "周密，周到，无疏漏",
+      "examples": [
+        "言之周也",
+        "办理事务需周密安排"
+      ],
+      "traditional_char": "周"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "圈，环绕，一圈",
+      "examples": [
+        "周围",
+        "周转",
+        "周匝"
+      ],
+      "traditional_char": "周"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "普遍，全面，遍及各处",
+      "examples": [
+        "周身",
+        "周游列国"
+      ],
+      "traditional_char": "周"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "周期，时段，一轮循环",
+      "examples": [
+        "周年",
+        "周期",
+        "上周"
+      ],
+      "traditional_char": "周"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "给予，接济",
+      "examples": [
+        "周济亲友"
+      ],
+      "traditional_char": "周"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "中国古代的朝代名",
+      "examples": [
+        "西周",
+        "东周",
+        "后周"
+      ],
+      "traditional_char": "周"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "周恩来",
+        "周瑜"
+      ],
+      "traditional_char": "周"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "甲骨文象田中有物分布稠密，加四点会意稠密、周密之意；或与“口”有关指口才周全，学界有分歧。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由周密、无疏漏引申为环绕一圈，无缺口。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由环绕、圈进一步引申为普遍、全面。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "圆圈引申为周期、循环。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "古义周到、周密引申为体贴、接济他人。"
+    },
+    {
+      "source_index": 5,
+      "target_index": 6,
+      "evolution_type": "unknown",
+      "note": "朝代名用作姓氏，机制不明，但历史常见。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "metonymy",
+      "note": "地理环绕义转指疆域范围，作为朝代名。"
+    }
+  ]
+}

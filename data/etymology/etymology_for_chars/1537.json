@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "盛放东西的圆筒状容器，底小口大，多用陶、瓷、玻璃等制成",
+      "examples": [
+        "水缸",
+        "缸子",
+        "缸里装满了水"
+      ],
+      "traditional_char": "缸"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "用砂子、陶土等混合制成的一种建筑或容器用材料",
+      "examples": [
+        "缸瓦",
+        "缸盆"
+      ],
+      "traditional_char": "缸"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "形状像缸的器物或部件",
+      "examples": [
+        "汽缸",
+        "发动机缸体"
+      ],
+      "traditional_char": "缸"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从缶表意（瓦器），工表声，原指瓦制的长颈容器。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由最初指容器本体引申为容器所用的材料，如‘缸瓦’"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由圆筒容器比喻延伸至形似缸的机械器件，如‘汽缸’"
+    }
+  ]
+}

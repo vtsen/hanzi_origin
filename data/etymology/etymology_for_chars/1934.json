@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "一种金属元素，可用作耐硫酸腐蚀、防丙种射线、蓄电池等的材料。",
+      "examples": [
+        "铅球",
+        "以铅制字",
+        "用铅包皮"
+      ],
+      "traditional_char": "鉛"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "用石墨等制成的书写工具，指铅笔。",
+      "examples": [
+        "他用铅笔画画",
+        "铅椠"
+      ],
+      "traditional_char": "鉛"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "地名，如江西省铅山。",
+      "examples": [
+        "铅山县在江西省东北部"
+      ],
+      "traditional_char": "鉛"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘鉛’为形声字，从金，‘寅’声，最初指金属铅。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "以金属铅作为书写工具材料，后引申指‘铅笔’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "以矿产铅命名地名，如‘铅山’。"
+    }
+  ]
+}

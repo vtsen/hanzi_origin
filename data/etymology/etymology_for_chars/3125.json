@@ -1,0 +1,58 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "车厢，车中装载东西的部分，后泛指车",
+      "examples": [
+        "肩舆",
+        "舆马",
+        "置诸舆隅"
+      ],
+      "traditional_char": "輿"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "古代奴隶中的一个等级，泛指地位低微的人，亦用以指众人",
+      "examples": [
+        "舆台",
+        "舆论",
+        "舆情"
+      ],
+      "traditional_char": "輿"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "疆域，土地；舆图，指地图等",
+      "examples": [
+        "舆地",
+        "舆图",
+        "堪舆"
+      ],
+      "traditional_char": "輿"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从车，舁声。本义指车厢，车体部件。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由搭载众人的舆车引申为众人，地位低微者，多见于先秦、两汉用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "synecdoche",
+      "note": "以“舆”指车，进而代指车所行之地，最终泛称疆域、地图等。"
+    }
+  ]
+}

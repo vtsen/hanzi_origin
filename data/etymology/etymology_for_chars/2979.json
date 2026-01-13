@@ -1,0 +1,53 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "谷类植物穗部的苞片，尤其指禾本科植物小穗基部的颖片",
+      "examples": [
+        "颖果"
+      ],
+      "traditional_char": "穎"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "（事物的）尖端部分",
+      "examples": [
+        "锋颖"
+      ],
+      "traditional_char": "穎"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "聪明、有才能，才智出众",
+      "examples": [
+        "聪颖",
+        "颖悟"
+      ],
+      "traditional_char": "穎"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从禾，顷声；“禾”表示和谷物有关，原指谷穗上的苞片。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由禾穗尖端苞片的意义引申为事物尖端。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "事物尖端有突出之意，引申为人才突出、聪明。"
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "湘江，中国南方著名河流，源自广西，流经湖南注入洞庭湖",
+      "examples": [
+        "湘，湘水也。出零陵阳海山北入江。——《说文》",
+        "沈玉躬兮湘汨。——《楚辞·涉江》",
+        "宁赴湘流，葬于江鱼之腹中。——《楚辞·渔父》"
+      ],
+      "traditional_char": "湘"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "湖南省的简称",
+      "examples": [
+        "湘菜、湘绣、湘剧、湘语",
+        "若南方则自滇黔之间，湘粤之鄙。——康有为《大同书》"
+      ],
+      "traditional_char": "湘"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "指湘江流域的相关山名（如湘山、湘口等）",
+      "examples": [
+        "黄帝南至于江，登熊湘。——《史记·五帝本纪》",
+        "湘山，在长沙益阳县。"
+      ],
+      "traditional_char": "湘"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "古州名、湖名等地名用法",
+      "examples": [
+        "长长沙府吴晋曰湘州。",
+        "湖名：在绍兴府萧山县。"
+      ],
+      "traditional_char": "湘"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "烹煮（通“鬺”）",
+      "examples": [
+        "于以湘之，维锜及釜。——《诗·召南·采蘋》",
+        "朱熹集传：湘，烹也。"
+      ],
+      "traditional_char": "湘"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，相声。表水名，指湘江。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "以湘江为代表，借指湘江流域地域，后专指湖南省，汉以降。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "以湘江周边山岳冠以“湘”字，形成地理专名，先秦开始。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "用湘江流域水、湖、州为湘，地名泛化，东汉及后世。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "“湘”假借作“鬺”，本义为烹煮，见《诗·召南》。"
+    }
+  ]
+}

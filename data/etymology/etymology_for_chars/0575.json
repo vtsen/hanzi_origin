@@ -1,0 +1,208 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "山的北面或水的南面",
+      "examples": [
+        "山阴道上，堤树夹道。",
+        "北山为阴，南山为阳。"
+      ],
+      "traditional_char": "陰"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "中国古代哲学认为宇宙中通贯所有物质的两大对立面之一，与“阳”相对",
+      "examples": [
+        "一阴一阳谓之道。",
+        "阴阳调和。"
+      ],
+      "traditional_char": "陰"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "月亮",
+      "examples": [
+        "太阴星君",
+        "太阴为月。"
+      ],
+      "traditional_char": "陰"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "云层较厚，遮住阳光",
+      "examples": [
+        "阴天",
+        "阴雨连绵"
+      ],
+      "traditional_char": "陰"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "不见阳光，阴暗或背阳的地方",
+      "examples": [
+        "阴面",
+        "阴凉",
+        "山阴"
+      ],
+      "traditional_char": "陰"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "adjective",
+      "meaning": "暗中、不露表面的；暗中的",
+      "examples": [
+        "阴谋",
+        "阴私",
+        "阴通"
+      ],
+      "traditional_char": "陰"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "adjective",
+      "meaning": "险恶，背地捣鬼",
+      "examples": [
+        "阴毒",
+        "阴险"
+      ],
+      "traditional_char": "陰"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "noun",
+      "meaning": "冥间",
+      "examples": [
+        "阴司",
+        "阴曹地府"
+      ],
+      "traditional_char": "陰"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "adjective",
+      "meaning": "带负电的",
+      "examples": [
+        "阴极",
+        "阴离子"
+      ],
+      "traditional_char": "陰"
+    },
+    {
+      "index": 9,
+      "part_of_speech": "adjective",
+      "meaning": "凹进的（如阴文）",
+      "examples": [
+        "阴文图章",
+        "阴识"
+      ],
+      "traditional_char": "陰"
+    },
+    {
+      "index": 10,
+      "part_of_speech": "noun",
+      "meaning": "指时间（光阴）",
+      "examples": [
+        "惜寸阴",
+        "光阴似箭"
+      ],
+      "traditional_char": "陰"
+    },
+    {
+      "index": 11,
+      "part_of_speech": "noun",
+      "meaning": "女性生殖器",
+      "examples": [
+        "阴部",
+        "阴道"
+      ],
+      "traditional_char": "陰"
+    },
+    {
+      "index": 12,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [],
+      "traditional_char": "陰"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘陰’为形声字，从阜（与地形相关），侌为声，表山的北面、水的南面，属地理方位。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "哲学义源自地理阴阳的对立属性，出现在先秦时期。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "从地理含义引申为不见阳光的地方。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由阴暗处引申为天气阴沉。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "“太阴”为月，阴对阳，日月并立，汉代已见。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 8,
+      "evolution_type": "analogy",
+      "note": "现代物理中电性类比阴阳为负正，晚近形成。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 5,
+      "evolution_type": "metaphor",
+      "note": "由阴暗引申为暗中、不公开。"
+    },
+    {
+      "source_index": 5,
+      "target_index": 6,
+      "evolution_type": "semantic_shift",
+      "note": "暗中逐渐带负面含义，表示险恶。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 7,
+      "evolution_type": "metaphor",
+      "note": "阴阳二界，引申为冥间，与阳世相对。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 9,
+      "evolution_type": "metaphor",
+      "note": "由背面、不显处借指凹进（阳文为凸出）。"
+    },
+    {
+      "source_index": 10,
+      "target_index": 1,
+      "evolution_type": "unknown",
+      "note": "‘阴’表时间借指，具体演变关系存疑。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 11,
+      "evolution_type": "metaphor",
+      "note": "古医学、阴阳对性别和部位的象征对应，阴指女性生殖部。"
+    }
+  ]
+}

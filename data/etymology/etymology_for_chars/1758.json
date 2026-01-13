@@ -1,0 +1,129 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "交付，送与",
+      "examples": [
+        "把这本书给你。",
+        "请把信给我。"
+      ],
+      "traditional_char": "給"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "把动作或态度加到对方",
+      "examples": [
+        "给他一顿批评。"
+      ],
+      "traditional_char": "給"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "preposition",
+      "meaning": "替，为（表示受事）",
+      "examples": [
+        "给大家帮忙。"
+      ],
+      "traditional_char": "給"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "preposition",
+      "meaning": "被，表示遭受",
+      "examples": [
+        "房子给火烧掉了。"
+      ],
+      "traditional_char": "給"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "preposition",
+      "meaning": "把，将",
+      "examples": [
+        "请你随手给门送上。"
+      ],
+      "traditional_char": "給"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "供应",
+      "examples": [
+        "供给",
+        "补给"
+      ],
+      "traditional_char": "給"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "adjective",
+      "meaning": "富裕，充足",
+      "examples": [
+        "家给人足。"
+      ],
+      "traditional_char": "給"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "adjective",
+      "meaning": "敏捷",
+      "examples": [
+        "言论给捷。"
+      ],
+      "traditional_char": "給"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 6,
+      "note": "形声字，从糸，合声。本义为‘富裕，充足’，‘糸’表与织物/丰富、细密有关，‘合’表音。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 6,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "‘富裕，充足’引申为‘供应’物资。"
+    },
+    {
+      "source_index": 5,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "‘供应’进一步发展为‘交付，送与’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "‘送与’可延伸出‘把动作加到对方’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "grammaticalization",
+      "note": "‘送与’语法化为介词‘替，为’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "grammaticalization",
+      "note": "‘送与’进一步语法化为‘被，遭受’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "grammaticalization",
+      "note": "‘送与’语法化引申为‘把，将’。"
+    },
+    {
+      "source_index": 6,
+      "target_index": 7,
+      "evolution_type": "metaphor",
+      "note": "‘富裕，充足’意义转喻为‘敏捷’（如手脚充足，则灵活敏捷）。"
+    }
+  ]
+}

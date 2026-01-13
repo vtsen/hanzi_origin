@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "洗全身，沐浴。",
+      "examples": [
+        "洗澡",
+        "浴池中人尽可澡身"
+      ],
+      "traditional_char": "澡"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "引申为洗涤、使清洁，保持节操。",
+      "examples": [
+        "澡雪",
+        "澡身浴德"
+      ],
+      "traditional_char": "澡"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，喿声，本义为洗全身、沐浴。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由实洗延伸为抽象的洗涤、保持节操等意。"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "吃，进食",
+      "examples": [
+        "餐风饮露",
+        "餐饮业"
+      ],
+      "traditional_char": "餐"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "饭食，饭菜",
+      "examples": [
+        "早餐",
+        "快餐",
+        "工作餐"
+      ],
+      "traditional_char": "餐"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "measure_word",
+      "meaning": "指一顿饭的量",
+      "examples": [
+        "一日三餐",
+        "请你吃一餐"
+      ],
+      "traditional_char": "餐"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从“食”表义，“斲（cán）”表声。本义为‘吃’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘吃’引申为‘被吃的食物’；早见于古籍。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "grammaticalization",
+      "note": "‘餐’作为‘饭食’发展为表示‘一顿饭’的量词，见于近现代汉语。"
+    }
+  ]
+}

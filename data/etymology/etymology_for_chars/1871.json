@@ -1,0 +1,86 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "火势猛烈",
+      "examples": [
+        "烈火烧山",
+        "烈焰腾空"
+      ],
+      "traditional_char": "烈"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "引申为猛烈、激烈（如气势、性格、酒等）",
+      "examples": [
+        "烈酒",
+        "烈马",
+        "性格激烈",
+        "战斗非常激烈"
+      ],
+      "traditional_char": "烈"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "刚直，有高贵品行；为正义而死难者",
+      "examples": [
+        "烈女",
+        "壮烈牺牲",
+        "先烈"
+      ],
+      "traditional_char": "烈"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "功业，成就",
+      "examples": [
+        "功烈千秋"
+      ],
+      "traditional_char": "烈"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "古同“列”，行列",
+      "examples": [],
+      "traditional_char": "烈"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从火，列声，表示火势猛烈。下面的‘火’常写作四点。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由描述火势猛烈，引申为一切猛烈、激烈的事物。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "用猛烈之意比喻品格刚直、高尚或为正义牺牲的气节。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "由激烈引申为功业、成就，突出其非凡、显赫。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "‘烈’古作‘列’时借用为‘行列’之意，后与本义无直接语义联系。"
+    }
+  ]
+}

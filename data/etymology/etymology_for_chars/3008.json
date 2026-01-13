@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "水流的起始处，水源，源泉",
+      "examples": [
+        "河源",
+        "泉源",
+        "发源地",
+        "源头"
+      ],
+      "traditional_char": "源"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "事物的起因、根由",
+      "examples": [
+        "来源",
+        "资源",
+        "起源",
+        "策源地"
+      ],
+      "traditional_char": "源"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [],
+      "traditional_char": "源"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字。“源”从水，‘原’为声兼义，原意指水源或泉源。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "以水的发源引申比喻事物的起因、根由。用法汉代即见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "conversion",
+      "note": "以词作姓，专用化，无语义发展，仅用作氏族名。"
+    }
+  ]
+}

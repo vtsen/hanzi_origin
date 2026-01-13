@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "美玉，一种美丽珍贵的玉石",
+      "examples": [
+        "琳珉",
+        "琳琅满目"
+      ],
+      "traditional_char": "琳"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "美玉或玉器发出的清脆悦耳的声音",
+      "examples": [
+        "玉佩琳琅",
+        "琳琅发声"
+      ],
+      "traditional_char": "琳"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "比喻美好珍贵的事物",
+      "examples": [
+        "琳琅满目"
+      ],
+      "traditional_char": "琳"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从玉，林声，表示美玉。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "以玉代指玉器发出的声音，常见于古汉语词义扩展。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "以美玉喻美好珍贵之物，用法见于‘琳琅满目’等成语。"
+    }
+  ]
+}

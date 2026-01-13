@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "宗教或巫术中的密语或有特定效果的言语",
+      "examples": [
+        "念咒语以驱邪避灾",
+        "他口中念念有词地念着咒语"
+      ],
+      "traditional_char": "咒"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "说希望别人遭遇不幸的话，诅咒",
+      "examples": [
+        "他经常被人背后咒骂",
+        "不要随便诅咒别人"
+      ],
+      "traditional_char": "咒"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意字，从口从兄。“兄”原为“祝”之本字，表达通过口进行祝告、祭祀的意思，最初指祝告、祈祷等言语。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由宗教性口头祝告引申为口头诅咒、咒骂，二者本来密切相关，祝愿与诅咒是同一行为的不同方面。"
+    }
+  ]
+}

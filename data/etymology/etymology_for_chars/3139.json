@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "包、缠绕。",
+      "examples": [
+        "把这包糖裹好。",
+        "裹脚。"
+      ],
+      "traditional_char": "裹"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "夹带，混杂。",
+      "examples": [
+        "不该把次货裹进去卖。",
+        "好人坏人裹在一起一时分不清。"
+      ],
+      "traditional_char": "裹"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "（方言）吸（奶）。",
+      "examples": [
+        "小孩生下来就会裹奶。",
+        "奶头被这孩子裹得生疼。"
+      ],
+      "traditional_char": "裹"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从衣，果声，表示包裹、缠绕之义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由包裹之义引申为夹带、混杂。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "以包裹之动作比喻婴儿吸奶动作，方言用法。"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "用竹子製作的管樂器，古代多管並列，今常指一根直吹的洞箫。",
+      "examples": [
+        "箫，参差管乐也。象凤之翼。——《说文》",
+        "若风之过箫。——《淮南子·齐俗》",
+        "秦地吹箫女，湘波鼓瑟妃。——唐·韩愈《梁国惠康公主挽歌》"
+      ],
+      "traditional_char": "簫"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "弓的末端。",
+      "examples": [
+        "右执箫，南扬弓。——《仪礼》",
+        "凡遗人弓者……右手执箫，左手承弣。——《礼记·曲礼上》"
+      ],
+      "traditional_char": "簫"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "小竹，通“篠”。",
+      "examples": [
+        "林箫蔓荆，森槮柞朴。——《文选·马融〈长笛赋〉》",
+        "篠，小竹也。箫与篠通。——李善注《文选》"
+      ],
+      "traditional_char": "簫"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从竹，肃声，表示管乐器。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "因管乐器箫和弓的末端外形相似，转用于弓末。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "reanalysis",
+      "note": "古音混同，与“篠”通用，引申为小竹。"
+    }
+  ]
+}

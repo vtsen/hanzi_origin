@@ -1,0 +1,132 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "哺乳动物，体形似牛，多皱皮，有一角或两角（通称“犀牛”）",
+      "examples": [
+        "黄支国献犀牛。",
+        "南徼外牛，一角在鼻，一角在顶，似豕，从牛，尾声。——《说文》",
+        "犀，似水牛，猪头，大腹，庳脚，脚有三蹄，黑色，三角。——《尔雅》郭注"
+      ],
+      "traditional_char": "犀"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "犀牛的皮，用于盔甲、衣物等防护物",
+      "examples": [
+        "今夫差衣水犀之甲者亿有三千。——《国语·越语》"
+      ],
+      "traditional_char": "犀"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "犀牛角，可制器物或入药",
+      "examples": [
+        "正南以文献为献。——《周书·王会篇》。按，犀角搅汤解诸毒药。",
+        "饰以文犀。——《文选·曹植·七启》"
+      ],
+      "traditional_char": "犀"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "以犀牛角为饰的物品或以犀角为名的器具",
+      "examples": [
+        "带我金犀。——扬雄《法言·孝至》",
+        "露黄斜映鬓边犀。——宋·姜夔《浣溪沙》"
+      ],
+      "traditional_char": "犀"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "形容人发际隆起的骨（额骨特征）",
+      "examples": [
+        "龙犀日角，帝王之表。——《文选·刘孝标〈辩命论〉》"
+      ],
+      "traditional_char": "犀"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "adjective",
+      "meaning": "坚固、锐利",
+      "examples": [
+        "治国之有法术赏罚，犹若陆行之有犀车良马也。——《韩非子·奸劫弑臣》",
+        "矢，金在前，羽在后，故犀而善走。——银雀山汉墓竹简《孙臏兵法·兵情》"
+      ],
+      "traditional_char": "犀"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "瓜类果实的瓠中之子（瓜瓤内的子瓣）",
+      "examples": [
+        "齿如瓠犀。——《诗经·卫风·硕人》"
+      ],
+      "traditional_char": "犀"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "noun",
+      "meaning": "比喻女子洁白整齐的牙齿",
+      "examples": [
+        "巧笑蒨两犀，美目扬双蛾。——《乐府诗集·子夜歌》"
+      ],
+      "traditional_char": "犀"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从牛，尾声；表声音，以‘牛’为意旁，描写一种似牛的有角动物，本义即犀牛。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "以动物犀牛指其皮或其他身体部件，常见名物转指。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "动物本体转指其常用部位——犀角。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "器物以原料命名，如以犀牛角为饰之物。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "拟人手法，用犀牛角形容人额骨隆起。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "metaphor",
+      "note": "以犀牛皮厚坚固，以喻物品或抽象概念的锐利坚固。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "synecdoche",
+      "note": "由犀牛角形状，引申指瓜瓠中子瓣形状。"
+    },
+    {
+      "source_index": 6,
+      "target_index": 7,
+      "evolution_type": "metaphor",
+      "note": "比喻女子牙齿如瓜瓠之子瓣，洁白整齐。"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "用竹木或铁条等做成的阻拦物，如栅栏。",
+      "examples": [
+        "院子外面有一道铁栅。",
+        "栅栏将两块地分隔开来。"
+      ],
+      "traditional_char": "柵"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "多极电子管内靠近阴极的一个电极（如“栅极”中的‘栅’）。",
+      "examples": [
+        "电子管的栅极调控着电子流。"
+      ],
+      "traditional_char": "柵"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "在光学仪器中用于产生光的衍射图像的装置（如“光栅”）。",
+      "examples": [
+        "这种仪器配有精密的光栅。"
+      ],
+      "traditional_char": "柵"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "北京前门外一条热闹街市名大栅栏中的‘栅’（方言音shi）。",
+      "examples": [
+        "大栅栏是北京著名的商业街。"
+      ],
+      "traditional_char": "柵"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "广东地名“上栅”“下栅”中的‘栅’（音cè）。",
+      "examples": [
+        "他家住在上栅。"
+      ],
+      "traditional_char": "柵"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从木，册声。本义为‘栅栏’，即竹木等拦阻之物。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "电子管内部组织形似栅栏，用以阻挡或控制电子流，20世纪电子术语借指。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "光学仪器中的‘光栅’采用与原义相似的结构，移用于科学用语。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "地名‘大栅栏’原指设有栅栏的地方，后专指街市名称。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "广东地名‘上栅’‘下栅’以地理位置有栅栏为名。"
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "系，绾，绑在一起",
+      "examples": [
+        "结绳记事",
+        "结扎",
+        "结网"
+      ],
+      "traditional_char": "結"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "条状物打成的疙瘩",
+      "examples": [
+        "打结",
+        "蝴蝶结"
+      ],
+      "traditional_char": "結"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "聚合，结合在一起",
+      "examples": [
+        "结晶",
+        "结盟",
+        "结交",
+        "结党营私"
+      ],
+      "traditional_char": "結"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "收束，完成，结束",
+      "examples": [
+        "结账",
+        "结局",
+        "结案",
+        "结论",
+        "归根结底"
+      ],
+      "traditional_char": "結"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "一种保证负责的字据",
+      "examples": [
+        "具结"
+      ],
+      "traditional_char": "結"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "植物结出果实",
+      "examples": [
+        "开花结果",
+        "结实"
+      ],
+      "traditional_char": "結"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘結’为形声字，从糸（表示与系绑相关），吉声，最早表示绑纫之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从动作‘系’引申为系成的具体‘结疙瘩’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "动作上系合，引申为使人事物聚合。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "‘系’有收束之意，引申为事物结束、收尾。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "用系绑的行为比喻承诺文据。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "metaphor",
+      "note": "以系合同聚的概念比喻植物部分聚成果实。"
+    }
+  ]
+}

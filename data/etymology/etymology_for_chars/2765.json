@@ -1,0 +1,70 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "渡过水面，从一边到另一边",
+      "examples": [
+        "摆渡",
+        "强渡",
+        "远渡重洋"
+      ],
+      "traditional_char": "渡"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "由此到彼，引申为渡过困难等阻碍",
+      "examples": [
+        "渡过难关"
+      ],
+      "traditional_char": "渡"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "转手，移交",
+      "examples": [
+        "引渡"
+      ],
+      "traditional_char": "渡"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "过河或渡水的地方",
+      "examples": [
+        "渡口",
+        "渡头"
+      ],
+      "traditional_char": "渡"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，度声，表示渡水的动作。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由实际渡水引申为克服障碍等抽象意义。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由“渡水”引申为“转手、移交”（如移交犯人），以“渡”过程比拟。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "从“渡水”的动作名词化，表示“渡口”处所。"
+    }
+  ]
+}

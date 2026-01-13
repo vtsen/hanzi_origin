@@ -1,0 +1,70 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "门槛",
+      "examples": [
+        "门限已高，不得而入。"
+      ],
+      "traditional_char": "限"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "险阻，障碍",
+      "examples": [
+        "关限险要，易守难攻。"
+      ],
+      "traditional_char": "限"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "限定的范围、界限",
+      "examples": [
+        "界限分明。",
+        "权利有其限额。"
+      ],
+      "traditional_char": "限"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "加以限定，规定范围",
+      "examples": [
+        "限期完成。",
+        "限价出售。",
+        "无可限量。"
+      ],
+      "traditional_char": "限"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "形声字，从阜表示地形障碍，艮作声符，本义为险阻、阻隔。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "metonymy",
+      "note": "由“险阻”引申为门槛，因门槛是出入之障碍。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "“险阻”抽象化为界限、范围内的障碍。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "conversion",
+      "note": "由名词“界限”转为动词“限定范围”。"
+    }
+  ]
+}

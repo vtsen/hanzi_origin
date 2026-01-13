@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "动物、植物或矿物所产生的油质，具有可塑性，易熔化，不溶于水，可溶于二硫化碳和苯",
+      "examples": [
+        "石蜡",
+        "蜂蜡"
+      ],
+      "traditional_char": "蠟"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "用蜡做成的制品或相关物品，如蜡烛、蜡笔、蜡纸等",
+      "examples": [
+        "蜡烛",
+        "蜡笔",
+        "蜡人",
+        "蜡纸"
+      ],
+      "traditional_char": "蠟"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "形容颜色黄得像蜡",
+      "examples": [
+        "蜡黄"
+      ],
+      "traditional_char": "蠟"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从虫，‘巤’（liè）声，表示虫类产生的油质。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "蜡作为油质的本义引申为相关制品，从实体到加工物。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "从蜡的颜色比喻为人的脸色或其他颜色。"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "乘坐，使用交通工具运输人或物",
+      "examples": [
+        "载客",
+        "载货",
+        "满载而归"
+      ],
+      "traditional_char": "載"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "充满，满载",
+      "examples": [
+        "怨声载道"
+      ],
+      "traditional_char": "載"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "记录，刊登，描绘",
+      "examples": [
+        "记载",
+        "转载",
+        "连载"
+      ],
+      "traditional_char": "載"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "年，岁",
+      "examples": [
+        "千载难逢",
+        "三年两载"
+      ],
+      "traditional_char": "載"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "conjunction",
+      "meaning": "于是，乃（古文中表同时，动作接续）",
+      "examples": [
+        "载歌载舞"
+      ],
+      "traditional_char": "載"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [],
+      "traditional_char": "載"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，'载'（載）从车，戈声，原指乘坐、运输。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由运输引申为充满。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由运输、装载引申为记录、刊登。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "用一次运输或周期引申为年、岁。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "grammaticalization",
+      "note": "由动词虚化为连接词用于古文。"
+    }
+  ]
+}

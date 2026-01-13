@@ -1,0 +1,69 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "云雨兴起的样子",
+      "examples": [],
+      "traditional_char": "凄"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "寒冷",
+      "examples": [
+        "风雨凄凄",
+        "凄寒交迫"
+      ],
+      "traditional_char": "凄"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "悲伤",
+      "examples": [
+        "凄惨",
+        "凄怆",
+        "凄然泪下"
+      ],
+      "traditional_char": "凄"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "冷落静寂",
+      "examples": [
+        "凄凉",
+        "凄寂"
+      ],
+      "traditional_char": "凄"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，妻声，水表意，表示与水或变化有关。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由云雨兴起，转指风雨寒冷的气候。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由寒冷引申比拟为内心的悲伤。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由外物寒冷转喻为环境的冷落寂静。"
+    }
+  ]
+}

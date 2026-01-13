@@ -1,0 +1,43 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "水流不畅，不通畅，引申为事物流通不畅、凝滞。",
+      "examples": [
+        "停滞",
+        "滞销",
+        "呆滞",
+        "滞留",
+        "滞空",
+        "滞产",
+        "滞下"
+      ],
+      "traditional_char": "滯"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "遗落、落下。",
+      "examples": [
+        "此有滞穗"
+      ],
+      "traditional_char": "滯"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，带声，表示水流不畅为本义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“不流通、不畅”引申出“遗落、落下”之义，用于事物停留、堆积未通，进而有“遗留未带走”之意。"
+    }
+  ]
+}

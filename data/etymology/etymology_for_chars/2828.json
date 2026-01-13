@@ -1,0 +1,40 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "珍奇，奇异，少见而美好",
+      "examples": [
+        "瑰丽",
+        "瑰宝",
+        "瑰奇",
+        "瑰异"
+      ],
+      "traditional_char": "瑰"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "次于玉的石头",
+      "examples": [
+        "其质如玉而非玉，曰瑰。"
+      ],
+      "traditional_char": "瑰"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "‘瑰’为形声字，从王，圭声。本义为次于玉的美石。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "metaphor",
+      "note": "由美石引申为美好、珍奇，用于描述人或事物的奇异卓越。"
+    }
+  ]
+}

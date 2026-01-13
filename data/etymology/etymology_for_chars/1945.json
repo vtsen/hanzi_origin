@@ -1,0 +1,57 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "堆积、聚集",
+      "examples": [
+        "积少成多",
+        "积储",
+        "积怨"
+      ],
+      "traditional_char": "積"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "乘法运算的结果",
+      "examples": [
+        "积数",
+        "乘积",
+        "体积"
+      ],
+      "traditional_char": "積"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "中医指儿童消化不良的疾病",
+      "examples": [
+        "这孩子有积",
+        "捏积"
+      ],
+      "traditional_char": "積"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从禾，责声，意指谷物堆积。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由“堆积、聚集”转喻为“数学上的聚合（乘法结果）”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由“聚集”引申，指体内积存食物，特指病名。"
+    }
+  ]
+}

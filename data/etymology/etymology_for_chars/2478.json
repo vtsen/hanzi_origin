@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "角落，边角处，通常指空间的弯曲处或角落",
+      "examples": [
+        "城隅",
+        "墙隅",
+        "屋隅",
+        "向隅而泣"
+      ],
+      "traditional_char": "隅"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "靠边的地方或边远处，多指地域，如海隅",
+      "examples": [
+        "海隅"
+      ],
+      "traditional_char": "隅"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "接近中午的时候（隅中）",
+      "examples": [
+        "隅中"
+      ],
+      "traditional_char": "隅"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字。从“阜”(表示与地形、土山有关)，“禺”声。本义为山水弯曲的边角处。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由空间“角落”引申为地理上的边远地方；语义扩展，早见先秦"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "角落之意引申为时间的边角，多用作“隅中”即上午接近中午的时段，源自汉代"
+    }
+  ]
+}

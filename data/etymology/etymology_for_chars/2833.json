@@ -1,0 +1,67 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "用手接触或轻轻抚摩",
+      "examples": [
+        "摸他的头。"
+      ],
+      "traditional_char": "摸"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "用手探取、寻找",
+      "examples": [
+        "摸鱼捞虾。"
+      ],
+      "traditional_char": "摸"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "揣测，试探",
+      "examples": [
+        "摸底。摸索。"
+      ],
+      "traditional_char": "摸"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "暗中行进，在认不清的道路上行走",
+      "examples": [
+        "摸哨。摸黑儿。"
+      ],
+      "traditional_char": "摸"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从手，莫声，本义为用手接触或摩擦。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从单纯用手触摸引申为用手寻找、探取。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由用手摸引申为对事物的揣测、试探，这是一种比喻义。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由手寻找引申为在黑暗中探路或行进，比喻性发展。"
+    }
+  ]
+}

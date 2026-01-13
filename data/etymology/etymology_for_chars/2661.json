@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "松土和除草用的农具",
+      "examples": [
+        "锄头",
+        "铁锄"
+      ],
+      "traditional_char": "鋤"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "用锄松土或除草",
+      "examples": [
+        "锄草",
+        "锄地",
+        "锄耘"
+      ],
+      "traditional_char": "鋤"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "铲除、清除（比喻用法）",
+      "examples": [
+        "锄奸"
+      ],
+      "traditional_char": "鋤"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘鋤’为形声字，从金，且声，本义为松土除草用的工具。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "conversion",
+      "note": "名词转化为动词，使用农具进行相应动作。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "从除草动作引申为比喻意义，如‘锄奸’。"
+    }
+  ]
+}

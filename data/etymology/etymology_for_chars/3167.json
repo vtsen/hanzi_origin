@@ -1,0 +1,89 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "水流延长，不断流动。",
+      "examples": [
+        "江水长演。"
+      ],
+      "traditional_char": "演"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "根据事理推广发挥，推理、讲述、扩展。",
+      "examples": [
+        "推演",
+        "讲演",
+        "演绎"
+      ],
+      "traditional_char": "演"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "依照程式练习，反复训练。",
+      "examples": [
+        "演练",
+        "演习",
+        "演武"
+      ],
+      "traditional_char": "演"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "不断变化，演变、进化。",
+      "examples": [
+        "演变",
+        "演化"
+      ],
+      "traditional_char": "演"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "把技艺当众表现出来，表演、展示。",
+      "examples": [
+        "表演",
+        "演奏",
+        "主演"
+      ],
+      "traditional_char": "演"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，寅声，本义为水长流。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由水流延伸比喻为事理的推广和推展，见于中古汉语。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "推广到有体系的练习和展示，多见于近现代。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由事理的延伸而用作事物不断变化，意指发展演变。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由练习进一步引申为将技艺当众表演，出现于近现代。"
+    }
+  ]
+}

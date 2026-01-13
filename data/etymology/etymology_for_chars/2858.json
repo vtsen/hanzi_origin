@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "芙蓉，莲花的别名，也指木芙蓉。",
+      "examples": [
+        "集芙蓉以为裳。（《离骚》）",
+        "芙蓉出水，亦指荷花。"
+      ],
+      "traditional_char": "蓉"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "中国四川省成都市的别称。",
+      "examples": [
+        "蓉城",
+        "他来自蓉城。"
+      ],
+      "traditional_char": "蓉"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "豆类、瓜果等煮熟晒干后磨成粉制成的糕点馅料。",
+      "examples": [
+        "豆蓉",
+        "莲蓉",
+        "椰蓉"
+      ],
+      "traditional_char": "蓉"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从艹，容声。本作‘芙蓉’之‘蓉’，本义为莲花。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "因成都城中多植芙蓉花，因花得城名。五代后蜀定名。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "因馅料色泽、质地细腻如芙蓉花借名，见于糕点馅料使用。"
+    }
+  ]
+}

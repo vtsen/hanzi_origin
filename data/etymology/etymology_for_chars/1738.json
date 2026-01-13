@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "女婿之家，婚姻关系所指的对方家庭",
+      "examples": [
+        "婚姻",
+        "姻家"
+      ],
+      "traditional_char": "姻"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "通过婚姻关系而形成的亲属",
+      "examples": [
+        "姻亲",
+        "联姻"
+      ],
+      "traditional_char": "姻"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "较为间接的亲戚关系",
+      "examples": [
+        "姻故",
+        "姻旧"
+      ],
+      "traditional_char": "姻"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从女，因声，表示婚姻、婚家，强调女性与因（联结）。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由指“女婿家”泛化为经婚姻关系形成的亲属；中古以后已普遍用此义。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由“姻亲”进一步泛化为更广义的间接亲属；多用于书面语。"
+    }
+  ]
+}

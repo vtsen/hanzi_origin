@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "位于颈部前方、与气管相通的器官，是呼吸和发声的重要部分，也称“喉头”。",
+      "examples": [
+        "检查喉部是否有异物",
+        "喉咙疼"
+      ],
+      "traditional_char": "喉"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "喉咙、舌，有时泛指说话的器官（如“喉舌”）。",
+      "examples": [
+        "报纸是人民的喉舌",
+        "以为喉舌之任"
+      ],
+      "traditional_char": "喉"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "比喻险要的地方或咽喉要地。",
+      "examples": [
+        "居庸关乃扼守京城之喉",
+        "此地为川蜀咽喉"
+      ],
+      "traditional_char": "喉"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "古代指国家的重臣，特指御史等谏官（比喻为国家代言人）。",
+      "examples": [
+        "谏官为朝廷之喉",
+        "国家之喉，须忠直之士担任"
+      ],
+      "traditional_char": "喉"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "左“口”表义（与口、声音相关），右“侯”表音。最初指呼吸和发声的咽喉部位。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "喉引申泛指说话的器官，用于“喉舌”等词。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "器官代言之义，比喻重臣或谏官，见于古文。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "喉咙为要道，引申为地理上重要的战略要地。"
+    }
+  ]
+}

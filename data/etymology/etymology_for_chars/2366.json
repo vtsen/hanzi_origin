@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "捕捉禽兽，打猎。",
+      "examples": [
+        "围猎猛兽",
+        "渔猎为生"
+      ],
+      "traditional_char": "獵"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "与打猎相关的。",
+      "examples": [
+        "猎人身手敏捷",
+        "猎枪发响"
+      ],
+      "traditional_char": "獵"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从犬，巤声，表示以犬助捕，本义为打猎。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "conversion",
+      "note": "由动作名词转化为相关属性的形容词，古今皆有用法。"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "照射（指光照在物体上）",
+      "examples": [
+        "阳光映在窗户上。",
+        "清风明月映山林。"
+      ],
+      "traditional_char": "映"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "反照，照射而反映；映托使显现",
+      "examples": [
+        "湖水映出蓝天白云。",
+        "红花映衬着绿叶。",
+        "映雪读书。",
+        "反映群众意见。"
+      ],
+      "traditional_char": "映"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从日，央声，表示光照射（照）。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由照射本义引申为反照、映托等义，用法见于后世文献。"
+    }
+  ]
+}

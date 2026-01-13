@@ -1,0 +1,37 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "惶恐不安的样子",
+      "examples": [
+        "他突然被叫到名字，神色怔忪。"
+      ],
+      "traditional_char": "怔"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "中医指心悸（如“怔忡”）",
+      "examples": [
+        "医生诊断他患有怔忡之症。"
+      ],
+      "traditional_char": "怔"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从心，正声，心表示情感，正为声符，表惶恐不安之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_narrowing",
+      "note": "由‘惶恐不安’的广义转为中医专指‘心悸’的症状，医学专用化。"
+    }
+  ]
+}

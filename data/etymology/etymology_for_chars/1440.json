@@ -1,0 +1,69 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adverb",
+      "meaning": "突然，忽然。",
+      "examples": [
+        "勃然大怒",
+        "勃然而兴"
+      ],
+      "traditional_char": "勃"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "变色或情绪激烈的样子。",
+      "examples": [
+        "勃然作色",
+        "勃腾腾"
+      ],
+      "traditional_char": "勃"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "旺盛，兴起。",
+      "examples": [
+        "勃发",
+        "勃起",
+        "生机勃勃"
+      ],
+      "traditional_char": "勃"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "古同“悖”，违背事理，惑乱糊涂。",
+      "examples": [],
+      "traditional_char": "勃"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从力，孛声，最初表达'突然'，后义多衍生。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“突然”引申为情感、颜色变化猛然发生。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "“突然兴起”引申为“旺盛、兴起”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "古代借音通“悖”，义同'悖'，属于借用。"
+    }
+  ]
+}

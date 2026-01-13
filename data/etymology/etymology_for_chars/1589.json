@@ -1,0 +1,102 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "吃",
+      "examples": [
+        "食肉而霸",
+        "食欲"
+      ],
+      "traditional_char": "食"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "吃的东西，食物",
+      "examples": [
+        "食品",
+        "粮食",
+        "零食",
+        "丰衣足食"
+      ],
+      "traditional_char": "食"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "俸禄",
+      "examples": [
+        "君子谋道不谋食"
+      ],
+      "traditional_char": "食"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "日月亏缺或完全不见的现象",
+      "examples": [
+        "日食",
+        "月食"
+      ],
+      "traditional_char": "食"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "给人东西吃，哺育",
+      "examples": [
+        "食母"
+      ],
+      "traditional_char": "食"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "other",
+      "meaning": "用于人名",
+      "examples": [
+        "郦食其"
+      ],
+      "traditional_char": "食"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "会意兼形声，从“饣”表示与食物相关，“皂”为声符，最初表示饭、饭食，后引申为动词‘吃’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "conversion",
+      "note": "由名词‘食物’转为动词‘吃’，本义即两者互换，古今皆通用。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "以‘食物’借指‘俸禄’（即养生之物），见于先秦、两汉。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "reanalysis",
+      "note": "‘食’在古时也作为‘蚀’的通假字，用于日月被遮蔽之象，后独立为天文用语。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "conversion",
+      "note": "由‘吃’义引申‘哺育、食母’，主要为文言或方言用法。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "unknown",
+      "note": "用于人名的‘食’音读为yì，具体用法与本义关系不明。"
+    }
+  ]
+}

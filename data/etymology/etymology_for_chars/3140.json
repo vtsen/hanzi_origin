@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "用工具或手击打某物。",
+      "examples": [
+        "敲门",
+        "敲打",
+        "敲击"
+      ],
+      "traditional_char": "敲"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "以不正当手段索取财物，勒索。",
+      "examples": [
+        "敲诈"
+      ],
+      "traditional_char": "敲"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "比喻从旁暗示或帮助说话。",
+      "examples": [
+        "敲边鼓",
+        "旁敲侧击"
+      ],
+      "traditional_char": "敲"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从“攴”表示敲打动作，高为声旁，表示发音。初义为敲击、叩打。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "将“敲打”引申为“敲诈”，以打击比喻勒索，义项演变较晚。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "从直接敲打引申为“敲边鼓”“旁敲侧击”，即通过旁敲表达间接说明或帮助。"
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古代一种车名",
+      "examples": [
+        "轻车简从"
+      ],
+      "traditional_char": "輕"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "分量小，与“重”相对",
+      "examples": [
+        "体重很轻",
+        "轻如鸿毛"
+      ],
+      "traditional_char": "輕"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "程度浅，数量少",
+      "examples": [
+        "年轻",
+        "工作轻"
+      ],
+      "traditional_char": "輕"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "用力小",
+      "examples": [
+        "轻声细语",
+        "轻轻地放下"
+      ],
+      "traditional_char": "輕"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "负载少，装备简省",
+      "examples": [
+        "轻装上阵",
+        "轻骑兵"
+      ],
+      "traditional_char": "輕"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "认为容易，不以为重要",
+      "examples": [
+        "轻视困难",
+        "轻蔑他人"
+      ],
+      "traditional_char": "輕"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "adjective",
+      "meaning": "随便，不庄重",
+      "examples": [
+        "轻率行事",
+        "举止轻浮"
+      ],
+      "traditional_char": "輕"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘輕’为形声字，从車，声旁为‘巠’，本义为车名。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由轻车的特点引申为‘分量小’，汉代以后通行。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由‘分量小’继续引申为‘程度浅、数量少’。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "重量小，容易举起，进而引申为‘用力小’。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "‘负载少、装备简省’为重量少的引申。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "metaphor",
+      "note": "把‘分量小’的性质转化为‘认为容易，不以为重要’，常见于抽象意义。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 6,
+      "evolution_type": "metaphor",
+      "note": "‘分量小’引申为‘轻率、不庄重’之意。"
+    }
+  ]
+}

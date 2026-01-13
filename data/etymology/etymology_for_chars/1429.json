@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "房屋的脊檩，屋顶最高处的主梁",
+      "examples": [
+        "栋梁之材",
+        "画栋雕梁",
+        "高栋飞檐"
+      ],
+      "traditional_char": "棟"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "能担负重任的人（比喻义）",
+      "examples": [
+        "国家栋梁",
+        "社稷之栋"
+      ],
+      "traditional_char": "棟"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "measure_word",
+      "meaning": "房屋的量词",
+      "examples": [
+        "一栋房子",
+        "三栋大楼"
+      ],
+      "traditional_char": "棟"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“棟”为形声字，从木，东声，表示房屋的主梁。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "以房屋主梁比喻能担当重任的人，古今常见"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由主梁扩展为整栋房屋，进而作为房屋的量词使用"
+    }
+  ]
+}

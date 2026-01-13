@@ -1,0 +1,68 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古代车轮外旁的直木，用以增加车轮载重支力",
+      "examples": [
+        "车无辅则载重不坚"
+      ],
+      "traditional_char": "輔"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "帮助，佐助",
+      "examples": [
+        "辅佐大臣",
+        "辅导学生"
+      ],
+      "traditional_char": "輔"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "古代指京城附近地区",
+      "examples": [
+        "畿辅之地"
+      ],
+      "traditional_char": "輔"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "人的颊骨",
+      "examples": [
+        "辅车相依"
+      ],
+      "traditional_char": "輔"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从车，甫声。本义为车旁横木。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "车的辅木帮助车轮承重，引申为帮助、佐助—先秦用法即见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "车旁的辅为陪衬，京畿辅指京城旁地区，历史沿袭自本义。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "将车的两侧支撑比作脸颊两侧的骨，语义比喻形成。"
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "流行性急性傳染病，瘟疫。",
+      "examples": [
+        "瘟疫遍地，人心惶惶。",
+        "以五綵絲繫臂，名曰辟兵，令人不病瘟。——《荆楚岁时记》"
+      ],
+      "traditional_char": "瘟"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "災殃、災禍。",
+      "examples": [
+        "他以为阿Q这回可遭了瘟。——鲁迅《阿Q正传》"
+      ],
+      "traditional_char": "瘟"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "染上（瘟疫、急性传染病）。",
+      "examples": [
+        "我只当瘟死两头猪。"
+      ],
+      "traditional_char": "瘟"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "（像得了瘟病似的）呆滯、没有生气。",
+      "examples": [
+        "从此王胡瘟头瘟脑的许多日。——鲁迅《阿Q正传》"
+      ],
+      "traditional_char": "瘟"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "愚笨的、反应迟钝的（含轻蔑）。",
+      "examples": [
+        "你这瘟猪，瘟傢伙，臭蛋！——张天翼《脊背与奶子》"
+      ],
+      "traditional_char": "瘟"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "adjective",
+      "meaning": "沉闷、无趣（多指表演、戏曲等）。",
+      "examples": [
+        "这出戏，情节松，人物也瘟。",
+        "这场戏唱瘟了。"
+      ],
+      "traditional_char": "瘟"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "other",
+      "meaning": "小痛貌、微小不适之状（多见于“瘟瘟”）。",
+      "examples": [
+        "瘟瘟痛皃。"
+      ],
+      "traditional_char": "瘟"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘疒’表示疾病义，‘昷’为声符，整体为形声字，原指流行病、瘟疫。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "conversion",
+      "note": "名词‘瘟疫’转为动词‘染瘟’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "疾病引申为一般灾殃、祸患，古今常见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由身体染疾无生气，比喻人呆滞。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "‘呆滞’进一步用于形容愚笨、迟钝（贬义）。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 5,
+      "evolution_type": "metaphor",
+      "note": "‘呆滞无生气’引申为戏曲表演等沉闷无趣。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "semantic_extension",
+      "note": "由本义‘瘟疫’派生出‘小痛’、‘微小不适’之意，多见于复字用法。"
+    }
+  ]
+}

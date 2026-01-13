@@ -1,0 +1,72 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "刀剑等锐利的尖端部分",
+      "examples": [
+        "刀锋",
+        "剑锋",
+        "锋利"
+      ],
+      "traditional_char": "鋒"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "器物的尖锐部分",
+      "examples": [
+        "笔锋",
+        "针锋相对"
+      ],
+      "traditional_char": "鋒"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "形容言语等的尖锐",
+      "examples": [
+        "话锋",
+        "谈锋"
+      ],
+      "traditional_char": "鋒"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "在前面带头的人或力量",
+      "examples": [
+        "先锋",
+        "前锋"
+      ],
+      "traditional_char": "鋒"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从金表示与金属相关，夆为声符，最初指刀剑的尖端。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "刀剑尖端之义推广至其他器物的尖锐部分。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由物理尖锐转为形容言语等的锋利，比喻义转变。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "取锋芒在前，比喻冲锋在前的人或力量。"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "石榴树，落叶灌木或小乔木，开红花，果实球状，内有很多种子，可食用",
+      "examples": [
+        "石榴五月开花，有红、黄、白三色。",
+        "榴，榴子树也。"
+      ],
+      "traditional_char": "榴"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "榴莲，常绿乔木，叶椭圆形，果有硬刺，可食用",
+      "examples": [
+        "榴莲是著名的热带水果。",
+        "岭南榴莲味极香。"
+      ],
+      "traditional_char": "榴"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "带“榴”字的兵器名，如榴弹、榴霰弹",
+      "examples": [
+        "榴弹炮威力巨大。",
+        "部队使用新型榴霰弹。"
+      ],
+      "traditional_char": "榴"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从木，留声，本义为石榴树名。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "“榴”被用以称呼外型类似的另一种果树——榴莲。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "因榴弹状如石榴果实，故用“榴”指一种弹药。"
+    }
+  ]
+}

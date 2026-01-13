@@ -1,0 +1,72 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "主人在客人祝酒后，再次敬酒以作回应或答礼",
+      "examples": [
+        "主人酬客，以酒相答。"
+      ],
+      "traditional_char": "酬"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "用财物或其他方式报答他人",
+      "examples": [
+        "酬劳",
+        "酬谢",
+        "报酬",
+        "酬金"
+      ],
+      "traditional_char": "酬"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "交际往来，诗文唱和、应答",
+      "examples": [
+        "酬对",
+        "酬和",
+        "酬唱"
+      ],
+      "traditional_char": "酬"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "实现愿望，完成志向",
+      "examples": [
+        "壮志未酬"
+      ],
+      "traditional_char": "酬"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从酉（与酒有关），夀声，本义为以酒回敬、答礼。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由酒席应答引申为用财物等方式回报、答谢。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由酒席中应酬引申为一般交际、诗文应答等。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由具体回报引申为实现志愿、报偿抱负。"
+    }
+  ]
+}

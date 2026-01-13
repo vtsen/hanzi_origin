@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "堆积物，体积或数量聚集在一起的东西，如土堆、杂物堆。",
+      "examples": [
+        "雪堆",
+        "垃圾堆",
+        "他家附近有座土堆"
+      ],
+      "traditional_char": "堆"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "把东西聚集到一起、堆积起来。",
+      "examples": [
+        "把书堆在桌子上",
+        "石头堆成一堵墙"
+      ],
+      "traditional_char": "堆"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "measure_word",
+      "meaning": "用于成堆的事物或成群的人，表示一群、一堆。",
+      "examples": [
+        "一堆人",
+        "一堆苹果"
+      ],
+      "traditional_char": "堆"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从土，隹声，表示土堆或积土。本义为聚土成堆。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "conversion",
+      "note": "从名词“堆积物”发展为表示“堆积”的动词，词类转用。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "grammaticalization",
+      "note": "“堆”由具体堆积之物，引申为量词，如“一堆人”。"
+    }
+  ]
+}

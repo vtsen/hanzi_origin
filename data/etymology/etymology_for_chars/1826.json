@@ -1,0 +1,72 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "莲，芙蕖，水生植物，花叶供观赏，地下茎称藕，子实称莲子",
+      "examples": [
+        "荷花",
+        "荷叶",
+        "采莲南塘秋，莲花过人头"
+      ],
+      "traditional_char": "荷"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "荷包，一种用来佩戴的小囊或盛物袋",
+      "examples": [
+        "母亲做了一个荷包给我",
+        "香囊荷包"
+      ],
+      "traditional_char": "荷"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "食品名，荷包状的点心或食品",
+      "examples": [
+        "豆沙荷包",
+        "桂花荷包"
+      ],
+      "traditional_char": "荷"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "旧时对“激素”的译名，如荷尔蒙",
+      "examples": [
+        "青春期受荷尔蒙影响",
+        "荷尔蒙分泌"
+      ],
+      "traditional_char": "荷"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从艸，何声。本义为水生植物莲，义属植物类。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "因荷花形状美丽，比喻小囊装饰品，形成‘荷包’义。约宋元后。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由‘荷包’实物衍生为同形状食品，现代用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "function_word",
+      "note": "音译‘hormone’时借‘荷’为用，现代借音。"
+    }
+  ]
+}

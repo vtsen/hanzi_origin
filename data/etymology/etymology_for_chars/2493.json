@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "蚕丝结成的片或团，供絮衣被、装墨盒等用",
+      "examples": [
+        "丝绵",
+        "绵被"
+      ],
+      "traditional_char": "綿"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "像丝绵那样柔软或薄弱",
+      "examples": [
+        "绵软",
+        "绵力"
+      ],
+      "traditional_char": "綿"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "像丝绵那样延续不断",
+      "examples": [
+        "绵延",
+        "连绵",
+        "绵长"
+      ],
+      "traditional_char": "綿"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "性情温和",
+      "examples": [
+        "他平时挺绵"
+      ],
+      "traditional_char": "綿"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“綿”会意兼形声，从糸表示‘丝’，“帛”表示物和兼表音，初指精细的新丝绵。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由蚕丝的柔软质感引申为柔软或薄弱的性质，见古今皆有。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由丝绵的连绵不断形象引申为延续不断，用于表达时间或空间的连贯，早见古文。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由柔软、温和进一步引申到性格温顺，多用于人。"
+    }
+  ]
+}

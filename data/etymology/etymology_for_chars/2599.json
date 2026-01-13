@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adverb",
+      "meaning": "不久，短时间",
+      "examples": [
+        "暂时",
+        "暂且",
+        "暂停"
+      ],
+      "traditional_char": "暫"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adverb",
+      "meaning": "猝然，突然",
+      "examples": [
+        "事有暂起"
+      ],
+      "traditional_char": "暫"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adverb",
+      "meaning": "开始，初次",
+      "examples": [
+        "或春苔兮始生，乍秋风兮暂起"
+      ],
+      "traditional_char": "暫"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘暫’为形声字，日为形旁，斩为声旁，表示短暂的时间，与日有关。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘短时间’引申为‘突然’"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由‘突然’引申为‘开始，初次’"
+    }
+  ]
+}

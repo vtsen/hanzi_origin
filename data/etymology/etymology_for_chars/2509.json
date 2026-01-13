@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "能，可以，足以",
+      "examples": [
+        "不堪设想",
+        "堪当重任",
+        "堪以告慰"
+      ],
+      "traditional_char": "堪"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "忍受，能支持",
+      "examples": [
+        "难堪",
+        "疲惫不堪",
+        "狼狈不堪",
+        "不堪一击"
+      ],
+      "traditional_char": "堪"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "地面高起",
+      "examples": [],
+      "traditional_char": "堪"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 2,
+      "note": "形声字，从土，甚声，表示地势高起。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 2,
+      "target_index": 0,
+      "evolution_type": "metaphor",
+      "note": "由‘地面高起’引申为‘能够承担、可以’（比喻物承载能力）。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘能够’拓展为‘能够忍受’之意，时间约在中古、近古期。"
+    }
+  ]
+}

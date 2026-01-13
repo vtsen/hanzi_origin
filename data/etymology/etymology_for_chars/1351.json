@@ -1,0 +1,85 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古代穿钱的绳索（把方孔钱穿在绳子上，每一千个为一贯）",
+      "examples": [
+        "腰缠万贯",
+        "贯朽而不可校"
+      ],
+      "traditional_char": "貫"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "穿，通，连",
+      "examples": [
+        "贯穿",
+        "贯通",
+        "鱼贯而入"
+      ],
+      "traditional_char": "貫"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "古同“惯”，习惯",
+      "examples": [
+        "其贯也久矣"
+      ],
+      "traditional_char": "貫"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "原籍，出生地",
+      "examples": [
+        "籍贯"
+      ],
+      "traditional_char": "貫"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "贯姓"
+      ],
+      "traditional_char": "貫"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "从毌表示穿连之意，从贝表示与财物相关，会意合义表示穿贯钱币的绳子。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由穿钱绳引申为一般意义上的穿、贯通，汉至今用法广见。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "以“贯通、贯连”引申为人的籍贯，籍贯即出生地所贯。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "贯通、熟悉引申为习惯之义，见于古文用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "unknown",
+      "note": "姓氏用法源头不详，或源于本义或地名。"
+    }
+  ]
+}

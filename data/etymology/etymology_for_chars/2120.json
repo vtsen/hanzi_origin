@@ -1,0 +1,121 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "考核；使缴纳赋税",
+      "examples": [
+        "课税",
+        "课役",
+        "国课"
+      ],
+      "traditional_char": "課"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "古代赋税",
+      "examples": [
+        "完粮交课"
+      ],
+      "traditional_char": "課"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "教学阶段",
+      "examples": [
+        "上课",
+        "课时",
+        "间课",
+        "旷课"
+      ],
+      "traditional_char": "課"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "课程，教学科目",
+      "examples": [
+        "课程",
+        "课表",
+        "基础课",
+        "专业课"
+      ],
+      "traditional_char": "課"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "教书讲学或攻读学习",
+      "examples": [
+        "课徒",
+        "课读"
+      ],
+      "traditional_char": "課"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "机关、企业等下设的部门",
+      "examples": [
+        "会计课"
+      ],
+      "traditional_char": "課"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "迷信占卜的方法",
+      "examples": [
+        "起课"
+      ],
+      "traditional_char": "課"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "《说文》形声字，从言，果声，本义为考核、征税。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_narrowing",
+      "note": "动作用于赋税对象之名，‘课’引申为具体的税。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "metonymy",
+      "note": "考核管理引申为负责考核事务的行政部门。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "由考核、分配引申至教学中的阶段、作业等含义，约在宋代以后。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "具体化为科目、课程。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 4,
+      "evolution_type": "conversion",
+      "note": "由名转动，表示教书或学习。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "semantic_extension",
+      "note": "由考核义引申为对未来进行推测的迷信行为。"
+    }
+  ]
+}

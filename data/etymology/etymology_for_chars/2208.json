@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "草名，一种蔓生植物，指葡萄或葡萄类植物。",
+      "examples": [
+        "湖嵌費攜擎，萄苜從大漠。",
+        "栗弋國出名馬、牛、羊、蒲萄、衆果。"
+      ],
+      "traditional_char": "萄"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "葡萄的简称，或指葡萄属的果实。",
+      "examples": [
+        "南方龍眼、荔支寧比西國蒲萄、石蜜乎。",
+        "張騫使西域攜其種還中國，有黑白黃三種，一名馬乳。"
+      ],
+      "traditional_char": "萄"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从艸，匋声。形声字，本义为蔓生的草本植物，特指葡萄。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_narrowing",
+      "note": "原指蔓生草本植物，后专指葡萄及葡萄果实，见西汉以降用法。"
+    }
+  ]
+}

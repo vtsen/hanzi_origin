@@ -1,0 +1,52 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "做买卖，获得盈利，与“赔”相对。",
+      "examples": [
+        "做生意赚了很多钱。"
+      ],
+      "traditional_char": "賺"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "做买卖所获得的利润、收益。",
+      "examples": [
+        "这笔买卖赚头很大。"
+      ],
+      "traditional_char": "賺"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "占便宜，因某种机会而有所得。",
+      "examples": [
+        "这场电影看得真赚。"
+      ],
+      "traditional_char": "賺"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从贝（与钱财有关），兼声，最初指买卖获利。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "conversion",
+      "note": "动词‘赚’转为名词‘赚头’，现代汉语常见现象。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由‘做买卖盈利’扩展为‘占便宜，因机会所得’。"
+    }
+  ]
+}

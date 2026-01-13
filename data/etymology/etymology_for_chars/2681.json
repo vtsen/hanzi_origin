@@ -1,0 +1,166 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "整齐的竹简，古时书写材料。",
+      "examples": [
+        "等，齐也。——《说文》",
+        "令史治簿书，司等简。"
+      ],
+      "traditional_char": "等"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "数量、程度相同，或地位相同。",
+      "examples": [
+        "平等",
+        "等同"
+      ],
+      "traditional_char": "等"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "表示数量或程度的级别。",
+      "examples": [
+        "等级",
+        "等次"
+      ],
+      "traditional_char": "等"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "台阶（级数）的级。",
+      "examples": [
+        "一等台阶",
+        "三等车厢"
+      ],
+      "traditional_char": "等"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "种类。",
+      "examples": [
+        "各等手艺",
+        "这等事情"
+      ],
+      "traditional_char": "等"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "pronoun",
+      "meaning": "表示同一辈份或同类的多数人。",
+      "examples": [
+        "我等",
+        "尔等"
+      ],
+      "traditional_char": "等"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "particle",
+      "meaning": "用于列举未尽，或作列举煞尾。",
+      "examples": [
+        "北京、上海等地",
+        "苹果、香蕉等水果"
+      ],
+      "traditional_char": "等"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "verb",
+      "meaning": "等待，等候。",
+      "examples": [
+        "等候",
+        "等待"
+      ],
+      "traditional_char": "等"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "verb",
+      "meaning": "到某个时候，待到。",
+      "examples": [
+        "等我写完",
+        "等天亮了再出发"
+      ],
+      "traditional_char": "等"
+    },
+    {
+      "index": 9,
+      "part_of_speech": "noun",
+      "meaning": "称量器具，“戥”的通假字。",
+      "examples": [
+        "等子（称）"
+      ],
+      "traditional_char": "等"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "会意兼形声字：从竹，表示与竹简有关；寺，表示读音，并带行政分等之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从简册平齐，引申为事物或人的齐平、同等，汉代已见。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由同等引申为等级、级别，汉以降常见。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "级别、顺序用在“台阶级数”含义上。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "同等、分类，引申为种类。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "用于指一群同等的人，语法化为人称代词。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 6,
+      "evolution_type": "grammaticalization",
+      "note": "由类别义语法化为列举的煞尾助词。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 7,
+      "evolution_type": "semantic_shift",
+      "note": "平齐，引申为时间等候。具体机制有争议，故判为semantic_shift。"
+    },
+    {
+      "source_index": 7,
+      "target_index": 8,
+      "evolution_type": "semantic_extension",
+      "note": "等待动作引申为“到某时、待到”语气用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 9,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "‘等’假借为‘戥’，仅音同而义不同，见于近世俗用。"
+    }
+  ]
+}

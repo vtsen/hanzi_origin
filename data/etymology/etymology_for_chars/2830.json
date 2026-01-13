@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "迷信中指依附于人体且可脱离肉体独立存在的实体，即灵魂。",
+      "examples": [
+        "鬼魂不散",
+        "魂灵出窍"
+      ],
+      "traditional_char": "魂"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "指人的精神或情绪状态。",
+      "examples": [
+        "魂飞魄散",
+        "魂不守舍"
+      ],
+      "traditional_char": "魂"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从鬼，云声，原指灵魂，是古人对精神实体的想象。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由具体的灵魂引申为人的精神或情绪，举例如“魂不守舍”。"
+    }
+  ]
+}

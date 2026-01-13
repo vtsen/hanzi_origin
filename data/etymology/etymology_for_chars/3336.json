@@ -1,0 +1,72 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "从睡眠状态中恢复清醒，或还未入睡。",
+      "examples": [
+        "他刚刚醒来。",
+        "如梦方醒。"
+      ],
+      "traditional_char": "醒"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "酒醉、麻醉或昏迷后神志恢复正常状态。",
+      "examples": [
+        "醒酒。",
+        "他醉了一夜，现在终于醒了。"
+      ],
+      "traditional_char": "醒"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "泛指头脑由迷糊而清楚。",
+      "examples": [
+        "醒悟。",
+        "觉醒。",
+        "猛醒。"
+      ],
+      "traditional_char": "醒"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "明显、清楚。",
+      "examples": [
+        "醒目。",
+        "醒眼。"
+      ],
+      "traditional_char": "醒"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "形声字，从酉（与酒有关）和声符“星”组成，初义为酒醉后神志恢复，即‘酒醒’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "由酒醒扩展到从睡眠状态恢复清醒。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由酒醒泛指一切头脑由迷糊而清楚的状态。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由精神清醒引扩大到事物本身明显、清楚。"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "含在土壤中的一种物质，主要成分为碳酸钠，常用作洗涤剂或中和发面中的酸味。",
+      "examples": [
+        "碱土",
+        "碱荒",
+        "用碱水洗衣服"
+      ],
+      "traditional_char": "鹼"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "化学上指能在水溶液中电离生成氢氧根离子（OH-）的化合物，如氢氧化钠等。",
+      "examples": [
+        "碱金属",
+        "碱式盐",
+        "碱性岩"
+      ],
+      "traditional_char": "鹼"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘碱’为‘鹼’的简化字，‘鹼’为形声字，从‘鹵’（意符，表示与盐类有关），‘咸’声，最初表示碳酸钠及其相关物质。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由指土中的自然碳酸钠，扩展至所有能生成OH-的碱性化合物，属于近现代化学概念引申。"
+    }
+  ]
+}

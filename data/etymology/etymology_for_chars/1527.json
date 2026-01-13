@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "同“抄”，抄写，摘录。",
+      "examples": [
+        "钞书",
+        "摘钞"
+      ],
+      "traditional_char": "鈔"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "纸币，钞票。",
+      "examples": [
+        "现钞",
+        "兑换外钞"
+      ],
+      "traditional_char": "鈔"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘鈔’为形声字，从金，少声，原义为抄写。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由抄写转指古代凭借抄写登记的纸币，后作为纸币之意。"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "用刀刮去毛发。",
+      "examples": [
+        "剃头",
+        "剃须",
+        "剃刀"
+      ],
+      "traditional_char": "剃"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "（佛教）给要出家的人剃去头发，使成为僧尼。",
+      "examples": [
+        "剃度为僧",
+        "他在寺院中被剃度"
+      ],
+      "traditional_char": "剃"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从刂，弟声，本义为用刀刮去毛发。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_narrowing",
+      "note": "佛教语用中专指出家时剃头。"
+    }
+  ]
+}

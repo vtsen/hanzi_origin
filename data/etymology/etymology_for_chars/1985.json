@@ -1,0 +1,40 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "父亲，生父或称谓父亲的词。",
+      "examples": [
+        "爹妈",
+        "我爹",
+        "亲爹"
+      ],
+      "traditional_char": "爹"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "对老人或长者的尊称。",
+      "examples": [
+        "大爹",
+        "老爹"
+      ],
+      "traditional_char": "爹"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从父，表示和父亲有关，多声表读音，最初表示父亲。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由父亲意义扩展为对年长男性的尊称，时间约为近现代口语。"
+    }
+  ]
+}

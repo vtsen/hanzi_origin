@@ -1,0 +1,118 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "写字或绘画时供摹仿的样本，如碑帖、字帖、画帖。",
+      "examples": [
+        "碑帖",
+        "字帖",
+        "画帖"
+      ],
+      "traditional_char": "帖"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "便条、小纸片，用于留言或写简短内容。",
+      "examples": [
+        "字帖儿"
+      ],
+      "traditional_char": "帖"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "邀请客人的纸片。",
+      "examples": [
+        "请帖"
+      ],
+      "traditional_char": "帖"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "写着生辰八字的纸片，多用于婚嫁等场合中交换。",
+      "examples": [
+        "庚帖",
+        "换帖"
+      ],
+      "traditional_char": "帖"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "measure_word",
+      "meaning": "用于若干味中药配合成的一剂药。",
+      "examples": [
+        "一帖中药"
+      ],
+      "traditional_char": "帖"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "adjective",
+      "meaning": "妥当，妥适。",
+      "examples": [
+        "妥帖",
+        "安帖"
+      ],
+      "traditional_char": "帖"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "adjective",
+      "meaning": "顺从，驯服。",
+      "examples": [
+        "服帖",
+        "俯首帖耳"
+      ],
+      "traditional_char": "帖"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [],
+      "traditional_char": "帖"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从巾，占声。表示写在布帛上的字样或文书。‘巾’表材料，‘占’表音。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由写在布帛上的文本扩展为一般的便条、小纸片，语义外延扩大，晋唐间已见。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由一般便条发展出专用于请客的请帖，属功能细化，明清已普遍。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由便条纸片引申出特指婚嫁等场合中交换的庚贴、换贴。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由便条纸片进一步引申为计量纸包药材的量词。"
+    },
+    {
+      "source_index": 5,
+      "target_index": 6,
+      "evolution_type": "semantic_extension",
+      "note": "由妥适（形容人事安定）再引申为形容人顺从、驯服。"
+    }
+  ]
+}

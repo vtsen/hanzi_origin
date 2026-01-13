@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "细听；注意地听取。",
+      "examples": [
+        "聆广乐之九奏兮。——张衡《思玄赋》",
+        "宝玉接过来，一面目视其文，耳聆其歌。——《红楼梦》",
+        "扣而聆之。——宋·苏轼《石钟山记》"
+      ],
+      "traditional_char": "聆"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "听从，倾听并采纳（意见、教训等）。",
+      "examples": [
+        "聆教（聆听教诲）",
+        "聆训（聆听训导）"
+      ],
+      "traditional_char": "聆"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "明了，清楚，理解。",
+      "examples": [
+        "观读之者，晓然若盲之开目，聆然若聋之通耳。——汉·王充《论衡》",
+        "聆聆（明了，清楚）"
+      ],
+      "traditional_char": "聆"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "通“齡”，表示岁数。",
+      "examples": [
+        "文王谓武王曰：‘女何梦矣？’武王对曰：‘梦帝与我九聆。’——《礼记·文王世子》"
+      ],
+      "traditional_char": "聆"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从耳，令声，表示用耳朵细听。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘细听’引申为‘听从’的动作和接受意见等，产生于先秦至两汉时期。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由‘用耳细听’来比喻‘领会、明了’，为认知类转义。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "‘聆’假借为‘齡’，用来表示‘岁数’。出现在《礼记·文王世子》及相关文献。"
+    }
+  ]
+}

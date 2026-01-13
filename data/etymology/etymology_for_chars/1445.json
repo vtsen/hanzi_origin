@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "不正，偏斜",
+      "examples": [
+        "这幅画挂得有点歪。",
+        "门歪了。"
+      ],
+      "traditional_char": "歪"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "不正当，不正派的",
+      "examples": [
+        "这是歪理。",
+        "他总想着搞歪门邪道。"
+      ],
+      "traditional_char": "歪"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "侧卧休息",
+      "examples": [
+        "我歪一会儿。"
+      ],
+      "traditional_char": "歪"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意字，从“不”与“正”组合表示“不正”，即偏斜的本义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由物理不正（偏斜）引申为行为、思想上的不正当。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由姿势偏斜引申为“侧卧休息”，强调动作的不正。"
+    }
+  ]
+}

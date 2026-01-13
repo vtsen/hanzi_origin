@@ -1,0 +1,155 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "称量物体轻重的器具",
+      "examples": [
+        "公平如称",
+        "手执一称以量之"
+      ],
+      "traditional_char": "稱"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "称量（物体的轻重）",
+      "examples": [
+        "称量粮食",
+        "称两银子"
+      ],
+      "traditional_char": "稱"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "叫，叫做",
+      "examples": [
+        "自称",
+        "他称自己为医生"
+      ],
+      "traditional_char": "稱"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "名号，名字",
+      "examples": [
+        "名称",
+        "简称",
+        "职称"
+      ],
+      "traditional_char": "稱"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "说，陈述",
+      "examples": [
+        "声称",
+        "称快",
+        "称病"
+      ],
+      "traditional_char": "稱"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "赞扬",
+      "examples": [
+        "称许",
+        "称颂",
+        "称赞"
+      ],
+      "traditional_char": "稱"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "举起",
+      "examples": [
+        "称兵",
+        "称觞祝寿"
+      ],
+      "traditional_char": "稱"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "adjective",
+      "meaning": "适合，使相配合",
+      "examples": [
+        "称心",
+        "称职",
+        "相称"
+      ],
+      "traditional_char": "稱"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "noun",
+      "meaning": "同“秤”，量器的名称",
+      "examples": [
+        "一杆称",
+        "杆称"
+      ],
+      "traditional_char": "稱"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从禾，爯声，形声字。本表称量器具及称量动作。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由表示量器扩展为“称量”动作，东周至汉已见"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由称量引申为“叫、叫做”，即对人事的“衡量、命名”，东汉已见"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "grammaticalization",
+      "note": "称谓、名号等抽象用法，三国六朝开始"
+    },
+    {
+      "source_index": 2,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由“叫做”发展为“说、陈述”"
+    },
+    {
+      "source_index": 4,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "说，引申为“称赞、赞美”，语气加强"
+    },
+    {
+      "source_index": 1,
+      "target_index": 6,
+      "evolution_type": "metaphor",
+      "note": "由“提起（称量）”转为“举起”"
+    },
+    {
+      "source_index": 1,
+      "target_index": 7,
+      "evolution_type": "metaphor",
+      "note": "称量之义比拟为“相当、适合”，后作形容词修饰"
+    },
+    {
+      "source_index": 0,
+      "target_index": 8,
+      "evolution_type": "semantic_shift",
+      "note": "原作‘称’（器具），后期为避免混淆，多专写作‘秤’。"
+    }
+  ]
+}

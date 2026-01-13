@@ -1,0 +1,74 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "用竹子或金属等做成的一种有孔的器具，可以把细东西漏下去，粗的留下，称“筛子”。",
+      "examples": [
+        "用筛子筛米。",
+        "新买了一个细眼筛。"
+      ],
+      "traditional_char": "篩"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "用筛子过滤、分离物体。",
+      "examples": [
+        "筛米。",
+        "筛盐。"
+      ],
+      "traditional_char": "篩"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "斟酒，热酒。",
+      "examples": [
+        "筛酒劝客。"
+      ],
+      "traditional_char": "篩"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "敲打（如敲锣）。",
+      "examples": [
+        "筛锣打鼓。"
+      ],
+      "traditional_char": "篩"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "篩为形声字，从竹，衰声。‘竹’表示与竹制器具有关，初指用竹制作的有孔器具。"
+    },
+    {
+      "formation_type": "loan_character",
+      "original_sense_index": 0,
+      "note": "‘筛’为简化字，源自‘篩’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "conversion",
+      "note": "由表器具名词转为表示动作的动词用法，古今常见。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "“筛酒”源自使用筛子斟酒，器具动作泛化为酒类相关动作。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "敲打如同筛动物体，有形象转移。"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "从上向下低落或悬挂",
+      "examples": [
+        "垂杨柳",
+        "垂钓",
+        "垂线",
+        "垂泪",
+        "垂头丧气",
+        "垂髫"
+      ],
+      "traditional_char": "垂"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "敬辞，用于上级或长辈施于自己的动作",
+      "examples": [
+        "垂爱",
+        "垂怜",
+        "垂询"
+      ],
+      "traditional_char": "垂"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "传下来，流传于后世",
+      "examples": [
+        "垂范",
+        "永垂不朽"
+      ],
+      "traditional_char": "垂"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "接近，快要发生",
+      "examples": [
+        "垂危",
+        "垂老",
+        "垂成",
+        "功败垂成"
+      ],
+      "traditional_char": "垂"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "边疆（初始本义，已不通用）",
+      "examples": [],
+      "traditional_char": "垂"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 4,
+      "note": "形声字，从土，垂声。本义为边疆，今已不通用。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 4,
+      "target_index": 0,
+      "evolution_type": "semantic_shift",
+      "note": "由边疆之地引申为悬挂、低落之意，有学术争议。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由物体下垂转喻为事物向后延续、传下。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "amelioration",
+      "note": "‘垂’用于尊敬用语，表示上对下的施予，语义变优。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由悬挂将落转喻为事物将近、快要发生。"
+    }
+  ]
+}

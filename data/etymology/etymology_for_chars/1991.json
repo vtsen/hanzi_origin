@@ -1,0 +1,84 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "容貌，仪容",
+      "examples": [],
+      "traditional_char": "頌"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "赞扬",
+      "examples": [
+        "歌颂英雄",
+        "颂扬祖国"
+      ],
+      "traditional_char": "頌"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "以颂扬为内容的文章或诗歌",
+      "examples": [
+        "青春颂",
+        "祖国颂"
+      ],
+      "traditional_char": "頌"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "祝愿",
+      "examples": [
+        "敬颂大安",
+        "祝颂平安"
+      ],
+      "traditional_char": "頌"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "中国周代祭祀时用的舞曲，配曲的歌词",
+      "examples": [
+        "《诗经·周颂》",
+        "周颂、鲁颂、商颂"
+      ],
+      "traditional_char": "頌"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从页，公声，原义为容貌、仪容。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_shift",
+      "note": "由指容貌、仪容转为赞扬，多见于先秦、两汉文献。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由动词赞扬转指以赞扬为内容的诗歌、文章。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "由赞扬转指祝愿，有美好祝颂之意。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 4,
+      "evolution_type": "semantic_narrowing",
+      "note": "由泛指颂诗、颂文转专指周代祭祀之舞曲歌词，见于《诗经》。"
+    }
+  ]
+}

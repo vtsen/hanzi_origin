@@ -1,0 +1,58 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "丝的头绪，丝的线头。",
+      "examples": [],
+      "traditional_char": "統"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "总括，汇总管理。",
+      "examples": [
+        "统一",
+        "统率",
+        "统帅",
+        "统摄",
+        "统考",
+        "统筹"
+      ],
+      "traditional_char": "統"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "事物的连续关系，联系，系统。",
+      "examples": [
+        "系统",
+        "血统",
+        "传统",
+        "体统"
+      ],
+      "traditional_char": "統"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从糸，充声，表示‘丝的头绪’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "以‘丝的头绪’喻事物的汇总与管理，见先秦使用。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "用‘丝线相连’引申为事物间的联系，属比喻。"
+    }
+  ]
+}

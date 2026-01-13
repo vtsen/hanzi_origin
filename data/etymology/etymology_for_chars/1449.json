@@ -1,0 +1,100 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "物体上下两个面的距离",
+      "examples": [
+        "厚度",
+        "纸的厚薄"
+      ],
+      "traditional_char": "厚"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "上下两个面距离较大的，与“薄”相对",
+      "examples": [
+        "厚纸",
+        "厚重"
+      ],
+      "traditional_char": "厚"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "深、重、浓、多",
+      "examples": [
+        "厚望",
+        "积厚德以致远"
+      ],
+      "traditional_char": "厚"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "待人宽厚，不刻薄",
+      "examples": [
+        "厚道",
+        "宽厚"
+      ],
+      "traditional_char": "厚"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "重视、推崇",
+      "examples": [
+        "厚此薄彼",
+        "厚古薄今"
+      ],
+      "traditional_char": "厚"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [],
+      "traditional_char": "厚"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意字，从厂（石山）与日（太阳）合意，表示地壳厚，与“薄”相对。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由厚度名词意义引申为形容词“厚”的性质。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由物理厚度引申为抽象上的深厚、浓重。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由距离大的特性比喻为人格宽大、待人宽厚。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由“分量重”、“重要”引申为重视、推崇。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "unknown",
+      "note": "直接借作姓氏，可能因含义吉利、音形沿用。"
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "回来，返回。",
+      "examples": [
+        "往复",
+        "反复"
+      ],
+      "traditional_char": "復"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "回答，回报。",
+      "examples": [
+        "复命",
+        "复信",
+        "复仇"
+      ],
+      "traditional_char": "復"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "还原，使恢复如前。",
+      "examples": [
+        "复旧",
+        "复婚",
+        "复职",
+        "光复",
+        "复辟"
+      ],
+      "traditional_char": "復"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adverb",
+      "meaning": "再，重来一次。",
+      "examples": [
+        "复习",
+        "复诊",
+        "复审",
+        "复现",
+        "复议"
+      ],
+      "traditional_char": "復"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "许多的，不是单一的；繁杂。",
+      "examples": [
+        "重复",
+        "复杂",
+        "复姓"
+      ],
+      "traditional_char": "複"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘復’为形声字，上‘畐’为声符，兼具‘腹满’之义，‘攵’表示与行走相关，初义为‘返回’。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 4,
+      "note": "‘複’为后起字，从衣，復声，明确用于‘繁多、复杂’等义以区别其他义项。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘复’为‘復’的简化字，承袭全部‘復’原义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "从‘返回’引申为‘回报、答复’，已见先秦用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "从‘返回’引申为‘还原、恢复原状’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "grammaticalization",
+      "note": "作副词，表‘再’、‘重来’，功能词化。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "semantic_narrowing",
+      "note": "‘重复’、‘复杂’等抽象用义，专用‘複’区分，汉以后逐渐分化。"
+    }
+  ]
+}

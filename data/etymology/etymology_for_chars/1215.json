@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "长期生病",
+      "examples": [
+        "久病曰疚。"
+      ],
+      "traditional_char": "疚"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "忧苦，特指因自己过失而造成的内心痛苦",
+      "examples": [
+        "内省不疚。",
+        "负疚。",
+        "愧疚。"
+      ],
+      "traditional_char": "疚"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从疒（病）为意符，久为声符，表示与久病相关。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由身体长期受病引申为内心因自责而痛苦（汉代即见），属病痛之比喻。"
+    }
+  ]
+}

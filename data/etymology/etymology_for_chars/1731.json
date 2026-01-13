@@ -1,0 +1,52 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "从高处掉下，坠落。",
+      "examples": [
+        "星陨如雨"
+      ],
+      "traditional_char": "隕"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "毁坏。",
+      "examples": [
+        "名誉陨落"
+      ],
+      "traditional_char": "隕"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "死亡（古同“殒”）。",
+      "examples": [
+        "英才陨落"
+      ],
+      "traditional_char": "隕"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从阜（金文表示丘陵），员为声符，表达从高处掉下的意思。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由“坠落”引申为“毁坏”，意指事物如从高处落下而破坏。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由“坠落”比喻生命的消逝，故用于“死亡”。"
+    }
+  ]
+}

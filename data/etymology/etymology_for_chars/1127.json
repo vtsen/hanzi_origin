@@ -1,0 +1,58 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "人以外的具体的东西，万物。",
+      "examples": [
+        "生物",
+        "事物",
+        "地大物博",
+        "山川草木皆为物"
+      ],
+      "traditional_char": "物"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "内容，实质。",
+      "examples": [
+        "言之有物",
+        "其言有物"
+      ],
+      "traditional_char": "物"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "指自己以外的人或与自己相对的环境。",
+      "examples": [
+        "待人接物",
+        "物议",
+        "物望所归"
+      ],
+      "traditional_char": "物"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“物”形声字，从牛，勿声。本义为万物、各种东西，牛为主要财物代表，‘勿’表声同时与杂合意义相关。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘具体的东西’引申为‘内容，实质’，语义扩大。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由‘人以外的具体东西’引申为‘自己以外的人或环境’，语义延伸。"
+    }
+  ]
+}

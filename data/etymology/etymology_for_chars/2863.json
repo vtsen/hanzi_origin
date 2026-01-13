@@ -1,0 +1,116 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "禁忌，法律或习惯上不允许做的事",
+      "examples": [
+        "犯禁",
+        "违禁品",
+        "禁忌"
+      ],
+      "traditional_char": "禁"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "禁止，不允许，制止",
+      "examples": [
+        "禁止吸烟",
+        "禁令",
+        "禁赌",
+        "禁锢"
+      ],
+      "traditional_char": "禁"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "忍受，忍住，抵挡",
+      "examples": [
+        "禁受",
+        "禁得住",
+        "禁不起"
+      ],
+      "traditional_char": "禁"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "拘押，关押",
+      "examples": [
+        "囚禁",
+        "监禁",
+        "禁闭"
+      ],
+      "traditional_char": "禁"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "皇帝居住或使用的宫廷、地点",
+      "examples": [
+        "宫禁",
+        "禁苑",
+        "禁卫",
+        "禁军"
+      ],
+      "traditional_char": "禁"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "不能随便通行的地方",
+      "examples": [
+        "禁地",
+        "禁区"
+      ],
+      "traditional_char": "禁"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从示，林声，表示与神祇祭祀有关的禁忌。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由禁忌引申为一般意义的禁止、制止。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "禁止引申为能够忍受、制止自身感情之意。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "从制止引申为关押、拘禁。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 6,
+      "evolution_type": "metonymy",
+      "note": "禁止进入的地方引申为宫禁之意。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "禁止出入的区域，泛指受限制之地。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "metonymy",
+      "note": "由禁忌引申为皇帝或祭祀相关的场所。"
+    }
+  ]
+}

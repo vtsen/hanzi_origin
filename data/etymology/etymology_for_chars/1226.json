@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "百姓，民众，尤指外来的百姓或新徙来之民",
+      "examples": [
+        "氓之蚩蚩，抱布贸丝。",
+        "远方之人，闻君行仁政，愿受一廛而为氓。",
+        "以宽民氓。"
+      ],
+      "traditional_char": "氓"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "（贬义）野民，居于郊野、地位低下的农民或奴隶",
+      "examples": [
+        "奸巧边萌（氓）。",
+        "氓隶（充当隶役的平民）。"
+      ],
+      "traditional_char": "氓"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "（近现代用法）无业游民，或品行恶劣、不务正业、为非作歹的人（多见于“流氓”）",
+      "examples": [
+        "流氓",
+        "见“流氓”。"
+      ],
+      "traditional_char": "氓"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从民，亡声。“民”表义，本指百姓，亡兼具声旁和“流亡”之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_narrowing",
+      "note": "“百姓”一义语义收窄至泛指地位低下或野外农民。中古及先秦文献中可见。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "“野民”之意又以流动、无业等特征指称“流氓”，专指不务正业和不良分子，近现代语境中语义贬化。"
+    }
+  ]
+}

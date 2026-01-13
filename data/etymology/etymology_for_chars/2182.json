@@ -1,0 +1,85 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "抢劫，夺取",
+      "examples": [
+        "掠夺财物",
+        "劫掠"
+      ],
+      "traditional_char": "掠"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "擦过，掠过",
+      "examples": [
+        "浮光掠影",
+        "她的目光掠过窗外"
+      ],
+      "traditional_char": "掠"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "拷打",
+      "examples": [
+        "掠治（古代指拷打审讯）",
+        "牵掠犯人"
+      ],
+      "traditional_char": "掠"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "砍伐",
+      "examples": [
+        "掠林而行"
+      ],
+      "traditional_char": "掠"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "顺手抓取",
+      "examples": [
+        "随手掠起一根棍子"
+      ],
+      "traditional_char": "掠"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从手，京声，表示用手强取，原义为抢劫、夺取。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由“强行夺取”扩展为“顺手抓取”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由夺取引申为审讯时以刑求获得口供。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由“夺取”抽象化为“砍伐、取用林木”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由“夺取”比喻为“擦过、掠过视线”之意。"
+    }
+  ]
+}

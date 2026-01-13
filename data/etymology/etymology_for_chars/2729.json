@@ -1,0 +1,95 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "投掷，用力扔出。",
+      "examples": [],
+      "traditional_char": "敦"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "厚道、忠厚、朴实。",
+      "examples": [
+        "敦厚",
+        "敦朴",
+        "为人敦实"
+      ],
+      "traditional_char": "敦"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "诚心诚意，诚恳。",
+      "examples": [
+        "敦聘",
+        "敦请"
+      ],
+      "traditional_char": "敦"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "督促，劝勉。",
+      "examples": [
+        "敦促",
+        "使虞敦匠"
+      ],
+      "traditional_char": "敦"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "古代盛黍稷的器具。",
+      "examples": [],
+      "traditional_char": "敦"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "other",
+      "meaning": "姓氏。",
+      "examples": [],
+      "traditional_char": "敦"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从攴，表示动作，'享'作声旁表音。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由用力投掷引申为性格厚重有力，语义转移。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由敦厚（性格朴实）引申为诚恳待人。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "敦厚义进一步用于督促、劝导行为。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_shift",
+      "note": "由动作义转为盛器名，机制不确定，或为借用。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "function_word",
+      "note": "古义经人名用作姓氏，无义变化，仅用法转化。"
+    }
+  ]
+}

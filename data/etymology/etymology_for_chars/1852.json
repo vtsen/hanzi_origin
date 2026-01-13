@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "兄长，同父母（或只同父，只同母）或同族同辈而年龄比自己大的男子",
+      "examples": [
+        "哥哥",
+        "大哥"
+      ],
+      "traditional_char": "哥"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "对年龄与自己相仿男子的称呼",
+      "examples": [
+        "张哥",
+        "王二哥"
+      ],
+      "traditional_char": "哥"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "歌，古时“哥”为“歌”之本字",
+      "examples": [
+        "长哥当哭",
+        "楚人悲哥"
+      ],
+      "traditional_char": "哥"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 2,
+      "note": "会意字，从“二”与“可”，表示二人同乐，原指歌唱，为“歌”之古字。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 2,
+      "target_index": 0,
+      "evolution_type": "semantic_shift",
+      "note": "由表示“歌”引申为称呼，古代歌唱多为团体，后指兄长一类人，具体语义发展未详，可能为社会称谓转化。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "兄长的称谓进一步泛化为年纪相近男子的通称，见于近现代口语。"
+    }
+  ]
+}

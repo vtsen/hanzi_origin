@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "急忙，手足无措，不从容。",
+      "examples": [
+        "他一听见消息就慌了。",
+        "慌张地跑来跑去。"
+      ],
+      "traditional_char": "慌"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "心中恐惧，不安宁。",
+      "examples": [
+        "出了事大家都很慌。",
+        "心慌意乱。",
+        "惊慌失措。"
+      ],
+      "traditional_char": "慌"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "表示极度（多用于形容难以忍受）。",
+      "examples": [
+        "热得慌。",
+        "累得慌。"
+      ],
+      "traditional_char": "慌"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从“忄”（心）表意，表与心理状态有关，“荒”表音并兼具失序之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从行为慌乱引申为内心不安，语义延伸，见于中古汉语。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由心理状态进一步泛化，用作程度副词或补语。常见于现代汉语口语。"
+    }
+  ]
+}

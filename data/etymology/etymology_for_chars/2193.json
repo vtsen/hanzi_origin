@@ -1,0 +1,76 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "墙体或建筑物的根基、底座",
+      "examples": [
+        "基石",
+        "基础",
+        "奠基"
+      ],
+      "traditional_char": "基"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "根本的，起始的",
+      "examples": [
+        "基本",
+        "基业",
+        "基层",
+        "基准"
+      ],
+      "traditional_char": "基"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "preposition",
+      "meaning": "根据",
+      "examples": [
+        "基于事实",
+        "分析基于数据"
+      ],
+      "traditional_char": "基"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "化学中分子内作为单位的原子团或基团",
+      "examples": [
+        "氨基",
+        "羧基",
+        "基团",
+        "基态"
+      ],
+      "traditional_char": "基"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从土表示与土地、基础有关，其为声符；本义为墙基或建筑基础。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "基础引申为根本、起始，用于形容词；出现在先秦至汉。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "grammaticalization",
+      "note": "“基本”的“基”发展作抽象“根据”用法，语法化；近现代汉语常见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "基础之义借用到科学术语中，指构成分子的根本成分；为近代借用。"
+    }
+  ]
+}

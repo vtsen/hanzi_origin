@@ -1,0 +1,97 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "用手在下面接受或托着",
+      "examples": [
+        "承重",
+        "承受"
+      ],
+      "traditional_char": "承"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "担当，应允责任或任务",
+      "examples": [
+        "承担",
+        "承包",
+        "承做",
+        "承认"
+      ],
+      "traditional_char": "承"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "受到，蒙受（多指抽象如恩惠）",
+      "examples": [
+        "承蒙",
+        "承恩"
+      ],
+      "traditional_char": "承"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "继续，连接延续",
+      "examples": [
+        "继承",
+        "承平",
+        "承前启后"
+      ],
+      "traditional_char": "承"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "顺从，迎合",
+      "examples": [
+        "奉承",
+        "承颜候色"
+      ],
+      "traditional_char": "承"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [],
+      "traditional_char": "承"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "上为跪人形，下为双手，会意表示用手托着人，指在下面承接。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由具体‘用手托着’引申为‘担当’抽象事物。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由‘接受’之义进一步引申为‘蒙受（抽象事物如恩惠）’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由‘托着’引申为‘继续、承接’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "由‘承接’引申为‘顺从、迎合’别人的意思或动作。"
+    }
+  ]
+}

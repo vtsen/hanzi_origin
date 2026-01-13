@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "一种昆虫，身体有毒刺，多成群居住，有蜜蜂、熊蜂、胡蜂、细腰蜂等。",
+      "examples": [
+        "蜜蜂、胡蜂、熊蜂都属于蜂类。",
+        "蜂蜇人会引起红肿。"
+      ],
+      "traditional_char": "蜂"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "特指“蜜蜂”，即主要采集花蜜、酿蜜的蜂类。",
+      "examples": [
+        "蜂巢",
+        "蜂蜜"
+      ],
+      "traditional_char": "蜂"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "蜂鸟，体形极小、以吸食花蜜为主的鸟类。",
+      "examples": [
+        "蜂鸟是世界上最小的鸟。",
+        "蜂鸟飞行敏捷。"
+      ],
+      "traditional_char": "蜂"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "other",
+      "meaning": "形容众多，像蜂一样聚集。",
+      "examples": [
+        "蜂起",
+        "蜂拥而至"
+      ],
+      "traditional_char": "蜂"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从虫，夆声，本义为昆虫‘蜂’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_narrowing",
+      "note": "由泛指蜂类扩大到特指蜜蜂，古今常见语义收缩。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "蜂鸟因体形小、动作灵巧似蜂，名称比喻借用。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "以蜂群聚集比喻人或事物众多。"
+    }
+  ]
+}

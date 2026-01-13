@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "磁石；能吸引铁、镍等金属的矿石。",
+      "examples": [
+        "磁石可以吸引铁钉。"
+      ],
+      "traditional_char": "磁"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "物体吸引铁、镍等金属的性质，又称磁性。",
+      "examples": [
+        "磁性",
+        "磁力",
+        "磁场"
+      ],
+      "traditional_char": "磁"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "指瓷器，通“瓷”。",
+      "examples": [
+        "磁器",
+        "茶磁"
+      ],
+      "traditional_char": "磁"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从石，兹声。初指有磁性的矿物即磁石。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由具体的磁石引申为磁石的性质。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "“磁”假借表示“瓷”之义，多见于民间或某些方言。"
+    }
+  ]
+}

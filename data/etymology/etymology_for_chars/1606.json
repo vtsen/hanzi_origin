@@ -1,0 +1,84 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "凶恶，残忍",
+      "examples": [
+        "他下手很狠。",
+        "心狠手辣。"
+      ],
+      "traditional_char": "狠"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "勉强地抑制住难过的心情",
+      "examples": [
+        "狠着心把泪止住。"
+      ],
+      "traditional_char": "狠"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adverb",
+      "meaning": "严厉地；狠劲地",
+      "examples": [
+        "狠批他一顿。",
+        "狠抓学习。"
+      ],
+      "traditional_char": "狠"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adverb",
+      "meaning": "全力以赴；极为用力",
+      "examples": [
+        "他学习很用功，干得很狠。"
+      ],
+      "traditional_char": "狠"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adverb",
+      "meaning": "同“很”，程度副词",
+      "examples": [
+        "他很努力。"
+      ],
+      "traditional_char": "狠"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从犬，表意，艮声，表示犬争斗时的凶狠声。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由“凶狠”比喻为强行抑制自身情感，如狠着心。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "凶狠的态度引申为严厉地对待。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由严厉引申为全力以赴、用劲。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "表示程度甚高，逐渐与“很”同音副词相混。"
+    }
+  ]
+}

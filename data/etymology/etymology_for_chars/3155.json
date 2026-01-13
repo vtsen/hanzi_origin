@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "吃不饱，因食物不足而感到饥饿",
+      "examples": [
+        "百姓歉，乏食以济。（古意，食不饱）"
+      ],
+      "traditional_char": "歉"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "收成不好，年成歉收",
+      "examples": [
+        "歉年常为饥荒之本。",
+        "以丰补歉。"
+      ],
+      "traditional_char": "歉"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "觉得对不起，感到内疚",
+      "examples": [
+        "心存歉意。",
+        "深感抱歉。",
+        "道歉是一种礼貌。"
+      ],
+      "traditional_char": "歉"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声。从欠（与张口有关，表示饥乏）、兼声，最初指吃不饱；现代为意符与声符结合构字。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“吃不饱”扩展为“收成不好”，二者均关乎不足或缺少。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由物质上的不足引申为心理上的亏欠，产生“对不起、歉意”。"
+    }
+  ]
+}

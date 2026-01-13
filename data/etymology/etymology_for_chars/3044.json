@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "捆绑，用绳子等物将物体绑住。",
+      "examples": [
+        "绑缚",
+        "手无缚鸡之力"
+      ],
+      "traditional_char": "縛"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "拘束，比喻限制、约束。",
+      "examples": [
+        "束缚",
+        "作茧自缚"
+      ],
+      "traditional_char": "縛"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从糸，尃声，糸表与缠、线有关，尃作声旁，本义为捆绑。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "从实际捆绑扩展为比喻限制、约束，见于先秦、两汉文献。"
+    }
+  ]
+}

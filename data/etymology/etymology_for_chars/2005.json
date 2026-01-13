@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "哺乳动物，形状像狗，性残暴，通常指灰狼等，能伤害人畜。",
+      "examples": [
+        "狼奔豕突",
+        "狼狈为奸"
+      ],
+      "traditional_char": "狼"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "比喻凶恶残暴的人或欲望强烈、狠毒的心思。",
+      "examples": [
+        "狼子野心",
+        "引狼入室"
+      ],
+      "traditional_char": "狼"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从犬，表示与犬科动物有关，‘良’为声旁，初义为动物‘狼’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "通过动物特性转喻为人的性格或品质，见于先秦及后代文献。"
+    }
+  ]
+}

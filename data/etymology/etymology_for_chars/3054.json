@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "用砖石、土等砌成，用于承架房顶或隔开内外的建筑结构，常为房屋、院落或城池的障壁。",
+      "examples": [
+        "城墙",
+        "砖墙",
+        "院墙",
+        "铜墙铁壁"
+      ],
+      "traditional_char": "墻"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "门屏，用于门后屏蔽视线或象征内部。",
+      "examples": [
+        "萧墙",
+        "祸起萧墙"
+      ],
+      "traditional_char": "墻"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "古代出殡时张设在棺材周围的帏帐。",
+      "examples": [],
+      "traditional_char": "墻"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘墻’为形声字，从‘土’（表示与土有关），‘啬’作声符（也含有藏聚之义）。‘墙’为‘墻’的简化字。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由实体的障壁，转指室内的门屏。用法多见于成语‘萧墙’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "以围绕棺材的帏帐比作围墙，表示保护、遮蔽之义。"
+    }
+  ]
+}

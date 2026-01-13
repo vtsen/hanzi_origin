@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "马快跑，泛指迅速。",
+      "examples": [
+        "急驶",
+        "流驶"
+      ],
+      "traditional_char": "駛"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "使行动，开动（多指有发动机的）。",
+      "examples": [
+        "驾驶汽车",
+        "船驶过河面"
+      ],
+      "traditional_char": "駛"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从马，史声，表示马快速奔跑。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由马迅速行进引申为交通工具等的使行动、开动。"
+    }
+  ]
+}

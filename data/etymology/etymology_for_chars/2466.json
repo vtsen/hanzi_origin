@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "告诉；对某人说话或传达信息。",
+      "examples": [
+        "人谓予曰",
+        "无所谓"
+      ],
+      "traditional_char": "謂"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "称呼，叫作。",
+      "examples": [
+        "称谓",
+        "何谓人工呼吸？"
+      ],
+      "traditional_char": "謂"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "谓语，指对主语加以陈述、说明主语所是什么的句子成分。",
+      "examples": [
+        "谓语",
+        "这个句子的谓语是‘去’。"
+      ],
+      "traditional_char": "謂"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "说，表示；表达某种说法或意思。",
+      "examples": [
+        "所谓",
+        "可谓神速"
+      ],
+      "traditional_char": "謂"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从言，胃声，‘言’表意，‘胃’表声，本义为‘告诉’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘告知’扩展为‘称呼、叫作’，早见于先秦文献。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由‘告知’扩展泛指‘说’、‘表达’。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "‘谓’在语法中引申为‘谓语’，用作句法术语。"
+    }
+  ]
+}

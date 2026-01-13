@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "徘徊，不前进，往返来回走动或盘旋",
+      "examples": [
+        "徘徊往来。",
+        "清商随风发，中曲正徘徊。"
+      ],
+      "traditional_char": "徊"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "心中犹豫不决，迟疑不定",
+      "examples": [
+        "徘徊不决。",
+        "徘徊观望。"
+      ],
+      "traditional_char": "徊"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "曲折回旋，上下盘旋（多见于书面或文学用语）",
+      "examples": [
+        "徊翔（盘旋飞行）。",
+        "徊肠伤气。"
+      ],
+      "traditional_char": "徊"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，彳为形旁表行动，怀为声旁表音，最初表徘徊、往返不前之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由往返不前引申为心中犹豫，意动徘徊为心理徘徊。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由徘徊动作义引申为轨迹曲折回旋的动作。"
+    }
+  ]
+}

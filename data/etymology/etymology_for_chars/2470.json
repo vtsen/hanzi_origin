@@ -1,0 +1,59 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "有勇气，有胆量，敢于做某事。",
+      "examples": [
+        "勇敢",
+        "敢闯",
+        "敢作敢为",
+        "敢死队"
+      ],
+      "traditional_char": "敢"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "谦辞，“不敢”的简称，表示冒昧的意思。",
+      "examples": [
+        "敢问",
+        "敢请",
+        "敢烦"
+      ],
+      "traditional_char": "敢"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adverb",
+      "meaning": "方言，表示委婉推测、反问或加强语气。",
+      "examples": [
+        "敢许",
+        "敢怕",
+        "敢是哥哥回来了？"
+      ],
+      "traditional_char": "敢"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从攴，兼声。本义与‘有勇气’相关，攴表示动作或行为，兼为声旁。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从‘有勇气’进一步引申为用作谦辞，表示冒昧。已见于古汉语。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "在方言中产生委婉推测的语气词义。语气功能为近现代演变。"
+    }
+  ]
+}

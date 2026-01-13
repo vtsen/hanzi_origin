@@ -1,0 +1,90 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "进财货以求谒见（以财物助人以求拜见或有所成）",
+      "examples": [
+        "进贽以赞谒。"
+      ],
+      "traditional_char": "贊"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "帮助，辅佐",
+      "examples": [
+        "赞助",
+        "赞划",
+        "赞襄",
+        "赞理",
+        "赞成"
+      ],
+      "traditional_char": "贊"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "主持礼仪",
+      "examples": [
+        "赞礼"
+      ],
+      "traditional_char": "贊"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "夸奖，称扬",
+      "examples": [
+        "赞叹",
+        "赞许",
+        "赞扬",
+        "称赞"
+      ],
+      "traditional_char": "贊"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "一种文体，用于颂扬人物",
+      "examples": [
+        "小赞",
+        "像赞"
+      ],
+      "traditional_char": "贊"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "‘贊’为会意字，上‘先’下‘貝’，表示以财物参与助礼或谒见。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由进财物助礼的本义推广为一般的协助、帮助。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由协助义引申为主持礼仪。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "由“帮助”之意转为称扬、表彰的意思，产生语义转移。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "function_word",
+      "note": "由称扬发展为专门歌颂的文体。"
+    }
+  ]
+}

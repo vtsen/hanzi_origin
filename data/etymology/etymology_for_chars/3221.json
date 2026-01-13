@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "随风飞动、漂浮、摆动",
+      "examples": [
+        "旗帜在空中飘扬。",
+        "白云飘荡在蓝天上。",
+        "柳絮随风飘散。"
+      ],
+      "traditional_char": "飄"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "潇洒自然、与众不同（比喻人的风度、气质等）",
+      "examples": [
+        "他性格飘逸。",
+        "诗风飘逸。"
+      ],
+      "traditional_char": "飄"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "漂泊，流浪，没有固定归属（与“漂泊”通）",
+      "examples": [
+        "他在外飘零多年。",
+        "一生飘泊无定。"
+      ],
+      "traditional_char": "飄"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘飄’形声字，从风，票声，表示随风飘动、漂浮的意思。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由字面意义‘随风飞动’引申为人的风度气质潇洒自由，古今皆见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由飘荡的本义发展为‘漂泊无依’的抽象意义，常见于古典诗文。"
+    }
+  ]
+}

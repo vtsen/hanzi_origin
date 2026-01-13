@@ -1,0 +1,38 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "加热金属后进行锤打以改变其形状——打铁。",
+      "examples": [
+        "锻工",
+        "鍛造"
+      ],
+      "traditional_char": "鍛"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "用锤子锤打（金属或石头）。",
+      "examples": [
+        "取石来锻之"
+      ],
+      "traditional_char": "鍛"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从金，段声，表示打铁相关的动作。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由打铁（金属加工）推广至一般物体（如石头）的锤打，用例出于古文。"
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "棉花的纤维",
+      "examples": [
+        "棉絮",
+        "被絮"
+      ],
+      "traditional_char": "絮"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "古代指丝的纤维，特指熟丝",
+      "examples": [
+        "熟丝絮"
+      ],
+      "traditional_char": "絮"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "像棉絮一样的东西，如花絮、芦絮、柳絮",
+      "examples": [
+        "柳絮",
+        "芦絮",
+        "花絮"
+      ],
+      "traditional_char": "絮"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "在衣被等物里铺棉花、丝绵等",
+      "examples": [
+        "絮被子",
+        "絮棉袄"
+      ],
+      "traditional_char": "絮"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "连续重复，惹人厌烦",
+      "examples": [
+        "絮叨",
+        "絮烦",
+        "絮聒",
+        "絮絮叨叨"
+      ],
+      "traditional_char": "絮"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "形声字，从糸，表示与丝有关，如作声，表读音，原指丝的纤维。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "由“丝的纤维”扩展至棉花的纤维，材料变化，意义扩大。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "因外观相似，抽象为“像絮一样的东西”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "conversion",
+      "note": "由名词“絮”转为动词“铺絮”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "形容话语像絮一样反复、琐碎，引申为“重复啰嗦”。"
+    }
+  ]
+}

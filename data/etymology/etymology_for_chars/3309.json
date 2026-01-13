@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "痴呆，傻气",
+      "examples": [
+        "他是个憨子。",
+        "他有点儿憨。"
+      ],
+      "traditional_char": "憨"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "天真，纯朴",
+      "examples": [
+        "他为人憨厚。",
+        "他的性格很憨实。"
+      ],
+      "traditional_char": "憨"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "憨先生",
+        "憨氏家族"
+      ],
+      "traditional_char": "憨"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从心，敢声；表达与心性有关的“痴呆”本义。《说文》作“戆”。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "amelioration",
+      "note": "由“痴呆、傻气”义向“天真、纯朴”发展，含义由贬义转为褒义或中性。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "conversion",
+      "note": "由性格形容词转为用作姓氏。"
+    }
+  ]
+}

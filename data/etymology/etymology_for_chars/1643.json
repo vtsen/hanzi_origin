@@ -1,0 +1,60 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "水名。姜水，古地名。",
+      "examples": [
+        "姜水出陕西宝鸡。"
+      ],
+      "traditional_char": "姜"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "多年生草本植物，地下茎黄色，味辣，可供调味用，亦可入药。",
+      "examples": [
+        "生姜",
+        "姜汤",
+        "姜丝炒肉"
+      ],
+      "traditional_char": "薑"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [
+        "姜维",
+        "姜太公"
+      ],
+      "traditional_char": "姜"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“姜”字从女，羊声，最早指姜水，为形声字。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "“薑”为姜的本字，从艸，姜声，表示一种植物（姜）。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "古代以姜水为地望，用作氏族或姓氏。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "unknown",
+      "note": "字形和语义历史上曾混用，今以“姜”通“薑”，关系尚有争议。"
+    }
+  ]
+}

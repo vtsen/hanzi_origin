@@ -1,0 +1,80 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古代诸侯国名（周代国名），地在今河南省商丘市一带。",
+      "examples": [
+        "吾在北方闻子为梯，将以攻宋，宋何罪之有？——《墨子·公输》"
+      ],
+      "traditional_char": "宋"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "中国南朝之一，420-479年，刘裕建立的宋朝，建都建康（今江苏南京市）。",
+      "examples": [
+        "史称刘宋。",
+        "宋本（宋代刊刻的书籍）；宋头巾（指祖述宋代的儒士）"
+      ],
+      "traditional_char": "宋"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "中国960-1279年间的重要朝代，由赵匡胤建立，定都汴京（今河南开封），包括北宋和南宋时期。",
+      "examples": [
+        "南宋、北宋、宋代、宋词",
+        "参预新政者，犹唐、宋之‘参知政事’。——梁启超《谭嗣同传》"
+      ],
+      "traditional_char": "宋"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "响度的主观单位，1宋等于听觉阈上40分贝1000赫纯音的响度。",
+      "examples": [],
+      "traditional_char": "宋"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [],
+      "traditional_char": "宋"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "‘宋’从‘宀’（屋）和‘木’，表示屋舍周围有树，指‘居住’或‘国名’。会意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "420-479年刘裕建国借用古国名‘宋’为国号，政权转名。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "960年赵匡胤建国，取古国名‘宋’为国号，历两宋。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由国名转为姓氏，古人以国为氏。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "‘宋’作响度单位为外来音译（拉丁文sonus），与本义无关，仅取音。"
+    }
+  ]
+}

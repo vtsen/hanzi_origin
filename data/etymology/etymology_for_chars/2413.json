@@ -1,0 +1,86 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "用水浇，潵水；被水沾湿。",
+      "examples": [
+        "日晒雨淋",
+        "淋湿衣服"
+      ],
+      "traditional_char": "淋"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "沾湿或流滴（形容状态或过程）。",
+      "examples": [
+        "大汗淋漓",
+        "全身淋漓"
+      ],
+      "traditional_char": "淋"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "畅快（用于书面语中多见）。",
+      "examples": [
+        "淋漓尽致"
+      ],
+      "traditional_char": "淋"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "过滤（用液体经过固体时分离杂质）。",
+      "examples": [
+        "过淋",
+        "用布淋汤"
+      ],
+      "traditional_char": "淋"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "性病名称，即淋病。",
+      "examples": [
+        "患了淋",
+        "淋病患者"
+      ],
+      "traditional_char": "淋"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，林声，表示浇水、被水沾湿等义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“浇、沾湿”引申为水份渗透、流滴的状态。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由“淋漓”形容水流滴，抽象转为形容情感/表现畅快。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由“浇水”引申为液体透过滤物，表示‘过滤’。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "因该病尿液有脓液滴出，形象比喻为‘淋’。"
+    }
+  ]
+}

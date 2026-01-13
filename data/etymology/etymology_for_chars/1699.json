@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "法令，法规",
+      "examples": [
+        "宪章",
+        "宪令",
+        "宪兵"
+      ],
+      "traditional_char": "憲"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "宪法",
+      "examples": [
+        "违宪",
+        "立宪",
+        "制宪"
+      ],
+      "traditional_char": "憲"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "敏捷（初文本义，见说文）",
+      "examples": [],
+      "traditional_char": "憲"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 2,
+      "note": "憲为会意兼形声字，从心从目，害声，本义为“敏捷”。后引申为法令等意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 2,
+      "target_index": 0,
+      "evolution_type": "semantic_shift",
+      "note": "由内在的敏捷、才智引申为规章、法度。见中古发展。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_narrowing",
+      "note": "“宪”由泛指法令专指宪法，现代汉语。"
+    }
+  ]
+}

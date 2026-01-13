@@ -1,0 +1,60 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "低等植物，真菌的一类，常见为丝状或分枝状，生于食物、衣物等表面。",
+      "examples": [
+        "白霉",
+        "青霉",
+        "霉菌",
+        "物品上长满了霉"
+      ],
+      "traditional_char": "黴"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "（食物、衣物等）受潮后长出霉菌。",
+      "examples": [
+        "发霉",
+        "衣服霉了",
+        "霉变",
+        "霉烂"
+      ],
+      "traditional_char": "黴"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "遭遇不顺利，倒运。",
+      "examples": [
+        "倒霉",
+        "最近特别霉",
+        "今天真霉"
+      ],
+      "traditional_char": "黴"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从“雨”表意义（与潮湿有关），“每”表音；初指因潮湿而生的霉菌。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "conversion",
+      "note": "名词作动词用，表示‘生出霉菌’，常见于现代汉语。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由‘霉菌’引申为‘倒霉’、‘不顺利’，暗喻不好的运气如霉菌一般附身，20世纪普及。"
+    }
+  ]
+}

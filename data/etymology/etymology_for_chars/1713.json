@@ -1,0 +1,40 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "供奉祖宗、鬼神或有功德之人的房屋",
+      "examples": [
+        "祠堂",
+        "宗祠",
+        "建祠拜祖"
+      ],
+      "traditional_char": "祠"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "古代春祭，品物简单，多为文辞祭祀",
+      "examples": [
+        "祠有祭也，春祭曰祠。",
+        "岁时祠祀，不废文词。"
+      ],
+      "traditional_char": "祠"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "形声字，从“示”表与宗教、祭祀相关，‘司’为声符，初指春祭。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "从春祭逐渐扩展为举行祭祀活动的场所名，约东汉至魏晋期间。"
+    }
+  ]
+}

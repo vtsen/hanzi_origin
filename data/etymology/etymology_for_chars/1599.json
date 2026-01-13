@@ -1,0 +1,103 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "力量不足而尽力做，勉强为之",
+      "examples": [
+        "丧事不敢不勉。——《论语·子罕》",
+        "曰勉升降以上下兮。——《楚辞·离骚》",
+        "后勉一幸金明，所谓龙舟，非独不登，亦终不观也。——宋·陆游《老学庵笔记》"
+      ],
+      "traditional_char": "勉"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "尽力，努力",
+      "examples": [
+        "尔其勉之。——《左传·昭公二十年》",
+        "愿子勉为寡人治之。——《韩非子·外储说左下》",
+        "勤勉。——常用搭配"
+      ],
+      "traditional_char": "勉"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "劝勉，鼓励",
+      "examples": [
+        "父勉其子，兄勉其弟，妇勉其夫。——《国语·越语》",
+        "勉励。——常用搭配"
+      ],
+      "traditional_char": "勉"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "赶快",
+      "examples": [
+        "子之书甚不善，子勉归矣。——《吕氏春秋·具备》"
+      ],
+      "traditional_char": "勉"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "通“免”。除去，脱掉",
+      "examples": [
+        "乃厚其外交而勉之。——《国语·晋语八》",
+        "七十而无德，虽有微过，亦可以勉矣。——《大戴礼·曾子立事篇》"
+      ],
+      "traditional_char": "勉"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "通“娩”。分娩",
+      "examples": [
+        "阮新妇勉身得雄，甚善。——晋·王献之《阮新妇帖》"
+      ],
+      "traditional_char": "勉"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从力，免声，表示力量不足而强作。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“勉强为之”发展为泛指尽力、努力。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由自身努力引申为劝导他人努力。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由勉强做某事引申为催促赶快做。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "因字形近音通，古时假借为“免”，表示除去、脱掉。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "通“娩”，用作分娩之意，属于假借。"
+    }
+  ]
+}

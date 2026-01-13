@@ -1,0 +1,206 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "草木丛生的地方。",
+      "examples": [
+        "草生为薄。",
+        "野薄荒草。"
+      ],
+      "traditional_char": "薄"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "厚度小。",
+      "examples": [
+        "薄片",
+        "薄饼"
+      ],
+      "traditional_char": "薄"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "冷淡，不热情。",
+      "examples": [
+        "薄待",
+        "冷若冰霜，情意甚薄"
+      ],
+      "traditional_char": "薄"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "味道淡。",
+      "examples": [
+        "薄酒",
+        "羹薄味淡"
+      ],
+      "traditional_char": "薄"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "土地不肥沃。",
+      "examples": [
+        "薄田",
+        "土薄水浅"
+      ],
+      "traditional_char": "薄"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "adjective",
+      "meaning": "轻微，少。",
+      "examples": [
+        "薄礼",
+        "菲薄"
+      ],
+      "traditional_char": "薄"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "adjective",
+      "meaning": "不庄重，不厚道。",
+      "examples": [
+        "薄幸",
+        "薄情寡义"
+      ],
+      "traditional_char": "薄"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "verb",
+      "meaning": "轻视。",
+      "examples": [
+        "厚今薄古",
+        "鄙薄"
+      ],
+      "traditional_char": "薄"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "adjective",
+      "meaning": "不充实，不坚强。",
+      "examples": [
+        "薄弱",
+        "力量单薄"
+      ],
+      "traditional_char": "薄"
+    },
+    {
+      "index": 9,
+      "part_of_speech": "verb",
+      "meaning": "迫近，接近。",
+      "examples": [
+        "薄近",
+        "日薄西山"
+      ],
+      "traditional_char": "薄"
+    },
+    {
+      "index": 10,
+      "part_of_speech": "noun",
+      "meaning": "古同“箔”，帘子。",
+      "examples": [
+        "银薄",
+        "金薄"
+      ],
+      "traditional_char": "薄"
+    },
+    {
+      "index": 11,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [],
+      "traditional_char": "薄"
+    },
+    {
+      "index": 12,
+      "part_of_speech": "noun",
+      "meaning": "[薄荷]，多年生草本植物。",
+      "examples": [
+        "薄荷叶",
+        "薄荷油"
+      ],
+      "traditional_char": "薄"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从芔（草木），溥声，本义为草木丛生之地。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由“草木丛生较稀疏”引申为“厚度小”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "草木稀疏之地引申为“不肥沃的土地”。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "厚度小引申为“味道淡”。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "由“厚度小”引申为数量少。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 8,
+      "evolution_type": "metaphor",
+      "note": "厚度小引申为“不充实、不坚强”。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 10,
+      "evolution_type": "semantic_shift",
+      "note": "薄的材料用作帘子等引申为“箔”。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由“薄”引申为感情冷淡。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 6,
+      "evolution_type": "semantic_extension",
+      "note": "由“冷淡”引申为“不厚道”。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 7,
+      "evolution_type": "metaphor",
+      "note": "厚与薄引申为品性高低，因此薄有“轻视”义。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 9,
+      "evolution_type": "semantic_extension",
+      "note": "“薄”向“迫近”发展，或与“迫”声音近产生类推。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 12,
+      "evolution_type": "semantic_extension",
+      "note": "用作植物名，取其代表性形态（叶片薄）。"
+    }
+  ]
+}

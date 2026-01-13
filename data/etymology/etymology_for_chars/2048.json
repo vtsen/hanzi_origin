@@ -1,0 +1,107 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "在门内考察、清点事物（本义）。",
+      "examples": [
+        "关门而阅",
+        "在门内阅物"
+      ],
+      "traditional_char": "閲"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "看，察看。",
+      "examples": [
+        "阅览",
+        "阅读",
+        "传阅",
+        "批阅"
+      ],
+      "traditional_char": "閱"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "经历。",
+      "examples": [
+        "阅历",
+        "已阅三月"
+      ],
+      "traditional_char": "閱"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "容纳，容许。",
+      "examples": [
+        "我躬不阅"
+      ],
+      "traditional_char": "閱"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "本钱（资金）。",
+      "examples": [
+        "折阅"
+      ],
+      "traditional_char": "閱"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "总聚，汇集。",
+      "examples": [
+        "川阅水以成川"
+      ],
+      "traditional_char": "閱"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“閲”形声字，从门，说省声，表示在门内清点事物。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "“閱”后起繁体，形声字，与“閲”本义对应，后多借为“察看”之义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由本义“在门内考察、清点”引申为一般性的“察看”。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由“察看”比喻为“经历事物”。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "由“察看”引申为“容许、容纳”，多数见于文献固定用法。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "semantic_shift",
+      "note": "“本钱”义，原表示查点钱财，后泛指本钱。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "metaphor",
+      "note": "“总聚”义，水流经过、会合，引申自事物被审阅、集结的动作。"
+    }
+  ]
+}

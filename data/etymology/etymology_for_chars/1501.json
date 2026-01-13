@@ -1,0 +1,74 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "环节动物马蟥，身体细长，有吸盘，吸食血液。",
+      "examples": [
+        "池塘中有许多蚂蟥。"
+      ],
+      "traditional_char": "螞"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "昆虫蚂蚁，多群居，搬运食物。",
+      "examples": [
+        "蚂蚁搬家。",
+        "锅上蚂蚁热。"
+      ],
+      "traditional_char": "螞"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "昆虫蚂螂，即蜻蜓的俗称。",
+      "examples": [
+        "水边有很多蚂螂飞舞。"
+      ],
+      "traditional_char": "螞"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "昆虫蚂蚱，即蝗虫的俗称。",
+      "examples": [
+        "草地上蹦着几只蚂蚱。",
+        "一条线儿拴俩蚂蚱。"
+      ],
+      "traditional_char": "螞"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘螞’形声字，从虫，马声，本指环节动物马蟥。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘蚂’为‘螞’的简化字，形声结构，保存原意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "以‘马蟥’名转类指小型昆虫‘蚂蚁’；方言和民间俗称习惯，早在汉语各地方言见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "‘蚂’在不同昆虫名中成为头部，泛指小型昆虫；如‘蚂螂’即蜻蜓俗称。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "‘蚂’用于组成‘蚂蚱’，指蝗虫的俗称，系民间对小虫统称的习惯。"
+    }
+  ]
+}

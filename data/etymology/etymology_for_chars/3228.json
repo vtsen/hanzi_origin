@@ -1,0 +1,41 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "把东西轧碎或压平的器具",
+      "examples": [
+        "石碾",
+        "汽碾",
+        "碾子"
+      ],
+      "traditional_char": "碾"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "轧碎或压平",
+      "examples": [
+        "碾米",
+        "碾面",
+        "碾压"
+      ],
+      "traditional_char": "碾"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "形声字，从石，展声。最初指用石器等工具轧碎或压平，动词。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "conversion",
+      "note": "动词“碾”名化，指用于碾压的器具。"
+    }
+  ]
+}

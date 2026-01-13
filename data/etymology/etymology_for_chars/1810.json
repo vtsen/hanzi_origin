@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "害怕，畏惧",
+      "examples": [
+        "恐惧",
+        "惊恐",
+        "有恃无恐"
+      ],
+      "traditional_char": "恐"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "威吓，恫吓",
+      "examples": [
+        "恐吓"
+      ],
+      "traditional_char": "恐"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "疑虑，担心",
+      "examples": [
+        "恐怕不能成功",
+        "恐怕来不及"
+      ],
+      "traditional_char": "恐"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从心，巩声。本义为严重害怕，心生畏惧。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_shift",
+      "note": "由主观畏惧扩展为使人恐惧（恫吓）。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由害怕引申为对未来发生某事的疑虑或担心。"
+    }
+  ]
+}

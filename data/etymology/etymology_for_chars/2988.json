@@ -1,0 +1,53 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "中医指由风、寒、湿等引起的肢体疼痛或麻木的病症。",
+      "examples": [
+        "危坐一时，痹不得摇。",
+        "昔偶中风痹，尚不关血气。"
+      ],
+      "traditional_char": "痹"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "气郁闷、气机不畅。",
+      "examples": [
+        "病不愈，气上，发为诸痹。"
+      ],
+      "traditional_char": "痹"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "蔽，阻滞、阻塞。",
+      "examples": [
+        "胃脉……其耎而散者，当病食痹。"
+      ],
+      "traditional_char": "痹"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从疒，表与疾病相关，畀为声符，最初本义为湿病。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "中医中的痹证引申气机不畅为形容词用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "从身体疾病的“阻塞不通”比喻为一般意义上的阻塞与阻滞。"
+    }
+  ]
+}

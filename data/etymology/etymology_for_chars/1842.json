@@ -1,0 +1,45 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "桦木属植物的泛称，落叶乔木或灌木，如白桦、黑桦、小叶桦等，用于建筑、制器具等。",
+      "examples": [
+        "白桦、黑桦、红桦、亮光桦多用于建材。",
+        "樺木生遼東及臨洮、河州西北諸地。",
+        "《魏書·禮志一》：敞等既祭，斬樺木立之……後所立樺木生長成林。"
+      ],
+      "traditional_char": "樺"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "可以用作烛的桦树树皮或木皮（樺皮），称为华烛。",
+      "examples": [
+        "木皮可以為燭。",
+        "以皮卷蠟，可作燭點。"
+      ],
+      "traditional_char": "樺"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字。从木，华声，表示树木名称，最初指桦木属植物（birch）"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "桦为樺的简化字，形声结构，本义不变，今规范作简化字"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "因桦木可制烛，用其皮代指其制品，自古即见，如木皮可为烛"
+    }
+  ]
+}

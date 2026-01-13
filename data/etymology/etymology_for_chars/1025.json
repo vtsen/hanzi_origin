@@ -1,0 +1,103 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "片状的较硬物体，尤指片状木头。",
+      "examples": [
+        "木板",
+        "案板",
+        "板上钉钉"
+      ],
+      "traditional_char": "板"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "诏书。",
+      "examples": [
+        "诏板"
+      ],
+      "traditional_char": "板"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "打节奏的乐器或歌唱节拍。",
+      "examples": [
+        "檀板",
+        "鼓板",
+        "一字一板",
+        "荒腔走板"
+      ],
+      "traditional_char": "板"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "死板，不灵活，少变化。",
+      "examples": [
+        "呆板",
+        "死板"
+      ],
+      "traditional_char": "板"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "坚硬如板，硬得像板子一样。",
+      "examples": [
+        "板结"
+      ],
+      "traditional_char": "板"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "见“老板”，指商店等负责人。",
+      "examples": [
+        "老板",
+        "闆娘"
+      ],
+      "traditional_char": "闆"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘板’为形声字，从木，反声，表示片状木材。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 5,
+      "note": "‘闆’亦为形声字，从門，反声，专用于‘老板’等词。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "源于木板常用于制成诏书载体，故用以指诏书。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "因节拍器用木板制成，引申为节拍乐器。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "本义引申为不灵活、僵硬的性格或风格。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "形容物体特别坚硬的状态，如同板子。"
+    }
+  ]
+}

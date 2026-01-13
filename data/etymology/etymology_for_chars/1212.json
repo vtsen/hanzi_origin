@@ -1,0 +1,138 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "止住；停滞",
+      "examples": [
+        "水流不底。",
+        "底止于斯。"
+      ],
+      "traditional_char": "底"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "最下面的部分",
+      "examples": [
+        "海底",
+        "床底",
+        "箱底"
+      ],
+      "traditional_char": "底"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "末了",
+      "examples": [
+        "年底",
+        "月底",
+        "到底"
+      ],
+      "traditional_char": "底"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "根基，基础，留作根据",
+      "examples": [
+        "底蕴",
+        "底稿",
+        "刨根问底"
+      ],
+      "traditional_char": "底"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "图案的基层",
+      "examples": [
+        "白底蓝花",
+        "以红为底"
+      ],
+      "traditional_char": "底"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "pronoun",
+      "meaning": "何，什么",
+      "examples": [
+        "底事伤感",
+        "底处来的"
+      ],
+      "traditional_char": "底"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "古同“抵”，达到",
+      "examples": [
+        "不底城门",
+        "兵底侵疆"
+      ],
+      "traditional_char": "底"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "particle",
+      "meaning": "同“的”",
+      "examples": [
+        "自家的底事",
+        "我的底书"
+      ],
+      "traditional_char": "底"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从广（屋舍）为形，氐为声，初意为“止住，停滞”，后义发展丰富。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由‘止住、停滞’引申为物体的最下端，如‘水停于底’。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "‘最下面部分’转指事件、时期的末尾，如‘月底’。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "‘最下面部分’引申为事物的根基或根据。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "‘底’作为实体的下层，进一步指图案的基层。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "unknown",
+      "note": "疑由方言或语法化引入‘何，什么’义，具体演变未明。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "reanalysis",
+      "note": "‘底’古义借作‘抵’，疑因音通所致。"
+    },
+    {
+      "source_index": 5,
+      "target_index": 7,
+      "evolution_type": "grammaticalization",
+      "note": "‘底’作‘何’后，逐渐语法化为结构助词‘的’。"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "错误，不正确",
+      "examples": [
+        "错误",
+        "失误",
+        "笔误",
+        "误差"
+      ],
+      "traditional_char": "誤"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "耽搁，延误",
+      "examples": [
+        "耽误",
+        "误事"
+      ],
+      "traditional_char": "誤"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "因自己做错而使受损害",
+      "examples": [
+        "误国",
+        "误人子弟"
+      ],
+      "traditional_char": "誤"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "不是故意而有害于人",
+      "examples": [
+        "误伤"
+      ],
+      "traditional_char": "誤"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘誤’从言，吴声，形声字，本义为错误、不正确。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“错误”义引申为“耽误、延误”，常因做错导致耽搁。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由“错误”义引申为“因自己做错而使受损害”。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由“因自己做错而使受损害”进一步引申为“不是故意而有害于人”。"
+    }
+  ]
+}

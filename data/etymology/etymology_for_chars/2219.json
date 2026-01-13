@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "木枷和镣铐等刑具",
+      "examples": [
+        "械系不能自拔"
+      ],
+      "traditional_char": "械"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "器物、设备、机具",
+      "examples": [
+        "器械",
+        "机械"
+      ],
+      "traditional_char": "械"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "武器",
+      "examples": [
+        "械斗",
+        "军械"
+      ],
+      "traditional_char": "械"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从木，表示材料为木，'戒'为声旁；最初指木制刑具如枷、镣等。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由特指木制刑具扩展为泛指各种器物、机械，约汉魏以后。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "器物之义进一步扩展指代军事武器，与械斗、军械之词相关。"
+    }
+  ]
+}

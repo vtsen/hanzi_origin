@@ -1,0 +1,85 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "旗帜，旗子",
+      "examples": [
+        "常，旗也。——《说文》"
+      ],
+      "traditional_char": "常"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "长久，经久不变",
+      "examples": [
+        "常年",
+        "常驻海外"
+      ],
+      "traditional_char": "常"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adverb",
+      "meaning": "经常，时时，不只一次",
+      "examples": [
+        "常来常往",
+        "时常锻炼"
+      ],
+      "traditional_char": "常"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "普通的，一般的",
+      "examples": [
+        "常识",
+        "常情"
+      ],
+      "traditional_char": "常"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "常某为我同学"
+      ],
+      "traditional_char": "常"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从巾，尚声。巾表示“旗”的意象，尚为声旁。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘旗帜’引申为标志、标准，再转为‘恒久’之意，见于先秦文献。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "grammaticalization",
+      "note": "‘长久’引申为‘经常’，由形容词向副词虚化，用于表示动作发生频率。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "‘恒久’引申为‘普通，一般’，指常态、通常的状态。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "function_word",
+      "note": "取‘常’为姓，语义常见于中国古代姓氏用字。"
+    }
+  ]
+}

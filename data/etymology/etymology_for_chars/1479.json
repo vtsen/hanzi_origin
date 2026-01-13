@@ -1,0 +1,184 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "正，不偏斜，正确",
+      "examples": [
+        "正是",
+        "判是非"
+      ],
+      "traditional_char": "是"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "认为对、承认正确",
+      "examples": [
+        "深是其言",
+        "是古非今"
+      ],
+      "traditional_char": "是"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "判断、解释、表示等同关系",
+      "examples": [
+        "他是工人",
+        "《阿Q正传》的作者是鲁迅"
+      ],
+      "traditional_char": "是"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "表示存在，表状态",
+      "examples": [
+        "满身是汗",
+        "地上是水"
+      ],
+      "traditional_char": "是"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adverb",
+      "meaning": "加重语气，表‘确实’、‘实在’",
+      "examples": [
+        "天气是冷",
+        "他是厉害"
+      ],
+      "traditional_char": "是"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "这；这个",
+      "examples": [
+        "是日",
+        "比比皆是",
+        "是可忍孰不可忍"
+      ],
+      "traditional_char": "是"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "pronoun",
+      "meaning": "任何；所有",
+      "examples": [
+        "凡是",
+        "是活儿他都肯干"
+      ],
+      "traditional_char": "是"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "particle",
+      "meaning": "用作结构助词，把行为对象提前",
+      "examples": [
+        "惟你是问",
+        "惟利是图"
+      ],
+      "traditional_char": "是"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "verb",
+      "meaning": "同意、应承",
+      "examples": [
+        "是，我就去"
+      ],
+      "traditional_char": "是"
+    },
+    {
+      "index": 9,
+      "part_of_speech": "verb",
+      "meaning": "表示适合、正当",
+      "examples": [
+        "来的时候"
+      ],
+      "traditional_char": "是"
+    },
+    {
+      "index": 10,
+      "part_of_speech": "verb",
+      "meaning": "用于问句，表判断",
+      "examples": [
+        "他是走了吗？"
+      ],
+      "traditional_char": "是"
+    },
+    {
+      "index": 11,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "是某，见史书人名"
+      ],
+      "traditional_char": "是"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "小篆从‘日’、‘正’，会意，表示正、正确之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘正’扩展为‘认为对’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由‘正、正确’引申为‘等同、判断’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 9,
+      "evolution_type": "semantic_extension",
+      "note": "由‘正’引申为‘正当、合适’。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "近现代汉语中由‘判断、等同’发展为‘存在’义。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 8,
+      "evolution_type": "function_word",
+      "note": "表示同意、肯定，是判断意义的口语化用法。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 10,
+      "evolution_type": "function_word",
+      "note": "结构助词式用法，源自判断用法。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由‘判断’引申出的强调、加重语气用法。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 7,
+      "evolution_type": "grammaticalization",
+      "note": "发展为结构助词，句法化。"
+    },
+    {
+      "source_index": 5,
+      "target_index": 6,
+      "evolution_type": "semantic_extension",
+      "note": "由‘这’引申为‘任何、所有’。"
+    }
+  ]
+}

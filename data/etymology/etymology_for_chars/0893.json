@@ -1,0 +1,57 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "欺骗，用手段诓骗",
+      "examples": [
+        "欺诈",
+        "诈取",
+        "尔虞我诈",
+        "诈骗"
+      ],
+      "traditional_char": "詐"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "假装（做某事）",
+      "examples": [
+        "诈死",
+        "诈降"
+      ],
+      "traditional_char": "詐"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adverb",
+      "meaning": "突然（古同“乍”）",
+      "examples": [
+        "诈闻于市",
+        "诈至"
+      ],
+      "traditional_char": "詐"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从言，乍声，本义为欺骗，言语有关。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从“欺骗”引申为“假装”，即伪装做某事，多见于文献。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "unknown",
+      "note": "“诈”作为“乍”用，古书中出现，具体语义联系有争议。"
+    }
+  ]
+}

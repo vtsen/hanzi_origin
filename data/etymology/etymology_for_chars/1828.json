@@ -1,0 +1,72 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "上进，提升、进步",
+      "examples": [
+        "晋升",
+        "晋级",
+        "晋谒"
+      ],
+      "traditional_char": "晉"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "中国周代诸侯国名",
+      "examples": [
+        "晋国",
+        "春秋五霸之一晋"
+      ],
+      "traditional_char": "晉"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "中国山西省的别称",
+      "examples": [
+        "晋剧",
+        "晋商"
+      ],
+      "traditional_char": "晉"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "中国朝代名：西晋和东晋",
+      "examples": [
+        "西晋",
+        "东晋"
+      ],
+      "traditional_char": "晉"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "小篆字形会意，从日，本义为追日而进，表示进步。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "以“晋”为国名，表示国家追求上进。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "以古国“晋”泛指山西的别称，因地取名。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "以“晋国”为基础，后用作中国朝代名。"
+    }
+  ]
+}

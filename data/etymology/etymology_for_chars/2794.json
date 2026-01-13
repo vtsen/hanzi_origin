@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "福气，福运",
+      "examples": [
+        "儿已薄禄相，幸复得此妇。"
+      ],
+      "traditional_char": "祿"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "古代官吏的俸给",
+      "examples": [
+        "禄米",
+        "禄位",
+        "禄食",
+        "俸禄",
+        "无功受禄"
+      ],
+      "traditional_char": "祿"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [],
+      "traditional_char": "祿"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从“示”表与祭祀、神明赐福相关，“录”作声旁，最初意为福气、福运。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "古代认为官吏俸禄是天赐的福气，遂由福气义引申为“官员的俸给”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "conversion",
+      "note": "姓氏多取自本字含义，属直接转换，不涉语义变化。"
+    }
+  ]
+}

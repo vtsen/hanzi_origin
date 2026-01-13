@@ -1,0 +1,104 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "冬葵，一年生草本植物，叶大而嫩，古代重要蔬菜，可腌制，可食用，也泛指各类滑菜。",
+      "examples": [
+        "七月亨葵及菽。",
+        "葵，葵菜也。——《说文》",
+        "夏用葵。——《仪礼·士虞礼记》"
+      ],
+      "traditional_char": "葵"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "向日葵，一年生草本植物，茎高大，花常朝向太阳，子可食亦可榨油，通称“葵”。",
+      "examples": [
+        "向日葵花常朝向太阳。",
+        "～花，～心"
+      ],
+      "traditional_char": "葵"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "锦葵，一年生或多年生草本植物，夏季开淡紫或白色花，供观赏。",
+      "examples": [
+        "园中种有锦葵。",
+        "锦葵花盛开"
+      ],
+      "traditional_char": "葵"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "蜀葵，多年生草本植物，花有红、紫、白等色，根入药，又称胡葵、吴葵、一丈红。",
+      "examples": [
+        "蜀葵高大艳丽。",
+        "蜀葵入药"
+      ],
+      "traditional_char": "葵"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "蒲葵，常绿乔木，叶大，多掌状分裂，叶片可制扇、蓑衣等，简称“葵”。",
+      "examples": [
+        "蒲葵扇用于夏日纳凉。",
+        "～扇"
+      ],
+      "traditional_char": "葵"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "揆度，审度；推测（“葵”通“揆”）。",
+      "examples": [
+        "葵，揆也。——《尔雅》",
+        "乐只君子，天子葵之。——《诗·小雅·采菽》"
+      ],
+      "traditional_char": "葵"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从艸，癸声，本指冬葵，草本蔬菜。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由本义冬葵泛指到外形相似的向日葵，晚近附会名目。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "本义蔬菜扩展，泛指同属或类似植物（锦葵）。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由冬葵扩及蜀葵等同属植物。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由草本葵类扩及棕榈科乔木蒲葵，因叶形等相似。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "古籍中以“葵”假借“揆”，音近通用。"
+    }
+  ]
+}

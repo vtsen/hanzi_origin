@@ -1,0 +1,101 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "果实，植物花落后含有种子的部分",
+      "examples": [
+        "果品",
+        "果木",
+        "结果"
+      ],
+      "traditional_char": "果"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "结局，与“因”相对",
+      "examples": [
+        "因果",
+        "成果",
+        "结局是果"
+      ],
+      "traditional_char": "果"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "坚决",
+      "examples": [
+        "果决",
+        "果断"
+      ],
+      "traditional_char": "果"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adverb",
+      "meaning": "确实，真的",
+      "examples": [
+        "果真",
+        "如果"
+      ],
+      "traditional_char": "果"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "充实，饱足",
+      "examples": [
+        "果腹"
+      ],
+      "traditional_char": "果"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [],
+      "traditional_char": "果"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "pictograph",
+      "original_sense_index": 0,
+      "note": "甲骨文象征树上挂果的形状，表示果实，是典型象形字。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "以“果实”为喻，引申为“事情的结果”，古籍先秦即已见。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "由“事情的结果”引申转变为“坚决、决断”，取决于结果之必然性。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由“必然的结果”，引申为“确实，真的”，语气副词用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "果实能充饱肚子，“果腹”指以果实充实肚腹，为转喻。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "reanalysis",
+      "note": "由本义转为用作姓氏，无实际语义演变，乃词汇化。"
+    }
+  ]
+}

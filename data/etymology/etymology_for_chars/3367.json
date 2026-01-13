@@ -1,0 +1,122 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "摩擦，常指用力使物体表面光滑或锐利。",
+      "examples": [
+        "磨刀不误砍柴工",
+        "磨墨",
+        "磨练"
+      ],
+      "traditional_char": "磨"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "阻碍，遇到困难或阻力。",
+      "examples": [
+        "好事多磨",
+        "磨难"
+      ],
+      "traditional_char": "磨"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "消耗，消灭。",
+      "examples": [
+        "磨损",
+        "磨耗",
+        "磨灭"
+      ],
+      "traditional_char": "磨"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "拖延，耗费时间。",
+      "examples": [
+        "磨缠",
+        "磨功夫"
+      ],
+      "traditional_char": "磨"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "粉碎粮食等的工具，多指石磨、电磨等。",
+      "examples": [
+        "石磨",
+        "推磨",
+        "磨盘"
+      ],
+      "traditional_char": "磨"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "用磨将粮食等加工成所需状态。",
+      "examples": [
+        "磨面",
+        "磨米",
+        "磨豆腐"
+      ],
+      "traditional_char": "磨"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "物体在有限空间内掉转方向。",
+      "examples": [
+        "这个胡同太窄，磨不过车来"
+      ],
+      "traditional_char": "磨"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从石，麻声，本义为磨治石器。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由具体摩擦引申为遇到阻碍与困难，用于比喻。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "摩擦引申为消耗、消灭之义。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由反复摩擦比喻事情拖延、耗时。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "conversion",
+      "note": "动词转为加工工具之名词。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 5,
+      "evolution_type": "conversion",
+      "note": "由名词“磨”进一步转为用磨加工粮食的动作。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "metaphor",
+      "note": "由磨动、摩擦动作比喻有限空间内掉转。"
+    }
+  ]
+}

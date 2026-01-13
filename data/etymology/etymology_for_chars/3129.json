@@ -1,0 +1,80 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "指依附形体而存在的精神（阴神）",
+      "examples": [
+        "魂魄",
+        "丢魂落魄",
+        "魂飞魄散"
+      ],
+      "traditional_char": "魄"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "精神，精力",
+      "examples": [
+        "魄力",
+        "气魄",
+        "体魄"
+      ],
+      "traditional_char": "魄"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "（古同“霸”）月始生或将灭时的微光",
+      "examples": [],
+      "traditional_char": "魄"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "（古同“粕”）糟粕",
+      "examples": [],
+      "traditional_char": "魄"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "（古同“珀”）琥珀",
+      "examples": [],
+      "traditional_char": "魄"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从鬼，白声，原指依附于人体的阴神，与“魂”相对。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由阴神、精神义引申为一般精神、精力，用于形容人或事物的气势。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "因“魄”为月之微光，古人以为月之神，转指月始生未满或将尽时的余光。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "‘魄’假借为“粕”，用作糟粕的意思，音近而义假。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "‘魄’又假借为“珀”，指琥珀，因音同而通用。"
+    }
+  ]
+}

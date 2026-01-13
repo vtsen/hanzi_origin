@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "有条理，不混乱的情况，秩序",
+      "examples": [
+        "秩序井然",
+        "重建社会秩序"
+      ],
+      "traditional_char": "秩"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "古代官吏的俸禄",
+      "examples": [
+        "官人益秩，庶人益禄",
+        "增秩进禄"
+      ],
+      "traditional_char": "秩"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "古代官职级别",
+      "examples": [
+        "委之常秩",
+        "贬秩三等"
+      ],
+      "traditional_char": "秩"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "numeral",
+      "meaning": "十年",
+      "examples": [
+        "七秩寿辰",
+        "八秩衰翁"
+      ],
+      "traditional_char": "秩"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从禾，失声，初指禾谷聚集有序，表现聚集、整齐含义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由有序、条理引申为官吏薪俸的等级，俸禄有序。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由秩序引申到官职级别的有序排列。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "古代以十年为一秩，有序地记载年数，岁月排列。"
+    }
+  ]
+}

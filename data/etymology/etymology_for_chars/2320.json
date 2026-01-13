@@ -1,0 +1,72 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "簧管乐器，一般用十三至十九根装有簧的竹管与一个匏制或金属壶形座组合而成，可吹奏和音，是中国传统的重要乐器之一。",
+      "examples": [
+        "我有嘉宾，鼓瑟吹笙。",
+        "陋室有文史，高门有笙竽。",
+        "司事者或笙簫歌唱，或煮茗清谈。"
+      ],
+      "traditional_char": "笙"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "竹席（竹簟），以竹编制而成的垫席，古代吴地称之为笙。",
+      "examples": [
+        "桃笙象簟，韜於筒中。",
+        "吳人謂簟為笙。"
+      ],
+      "traditional_char": "笙"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "细小，微细。",
+      "examples": [
+        "自關而西，秦晋之間，凡細貌謂之笙。",
+        "今稱至微之物曰笙，音如星，重言曰零星。"
+      ],
+      "traditional_char": "笙"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "地名，春秋时鲁国地名，或即“笙瀆”，今山东省荷泽县北。",
+      "examples": [
+        "归父还自晋至笙。",
+        "遂殺子糾于笙瀆。"
+      ],
+      "traditional_char": "笙"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从竹，生声。‘竹’表示与竹制品有关，‘生’兼表音兼含‘生、发生’的意象，指代春天万物生发，用以命名新生的竹制簧乐器。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由竹制乐器‘笙’转指竹编制品‘竹簟’；共同竹材属性下的转称，见于《方言》《吴都赋》。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "因笙音清细、管材细长，引申指‘细小、微细’，属于声音-形象的转喻，古方言所证。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "unknown",
+      "note": "‘笙’作地名用，与乐器意义渊源不明，或地名音转借用，语源机制待考。"
+    }
+  ]
+}

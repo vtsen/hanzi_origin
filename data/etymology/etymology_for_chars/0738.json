@@ -1,0 +1,87 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "大声喊叫、呼喊。",
+      "examples": [
+        "呐声喊，杀将出来。",
+        "摇旗呐喊"
+      ],
+      "traditional_char": "吶"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "interjection",
+      "meaning": "表示提醒或引起注意。",
+      "examples": [
+        "呐，我们可以开始了。",
+        "呐! 多可惜的十二匹战马呵!"
+      ],
+      "traditional_char": "吶"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "说话迟钝、口吃，语言不流畅。",
+      "examples": [
+        "广呐口少言。",
+        "呐者言之疑。",
+        "其言呐呐然，如不出诸其口。"
+      ],
+      "traditional_char": "吶"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "小声说话，低声道出。",
+      "examples": [
+        "只听得差拨口里呐出一句‘高太尉’三个字来。"
+      ],
+      "traditional_char": "吶"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "particle",
+      "meaning": "语气助词，用于句末加强语气，多见于现代口语。",
+      "examples": [
+        "不用算，差老鼻子呐。",
+        "那我们才受不了呐。"
+      ],
+      "traditional_char": "吶"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 2,
+      "note": "“呐”从口，内声，会意兼形声，初指言语迟钝，与“讷”同。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由形容迟钝转为指低声道出，语义延伸。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 0,
+      "evolution_type": "semantic_shift",
+      "note": "后由于读音与喊叫等义联系，义项转变，古今并用。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "grammaticalization",
+      "note": "由具体呼喊的动词虚化为引起注意的感叹词。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "grammaticalization",
+      "note": "由呼喊义抽象化，转为口语中句尾语气词。"
+    }
+  ]
+}

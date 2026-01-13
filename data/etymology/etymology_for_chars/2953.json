@@ -1,0 +1,107 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "署名或押字",
+      "examples": [
+        "签名",
+        "签字",
+        "签收",
+        "签署",
+        "签押"
+      ],
+      "traditional_char": "簽"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "简要地写出意见",
+      "examples": [
+        "签注",
+        "签呈",
+        "签证"
+      ],
+      "traditional_char": "簽"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "用竹木等做成的细棍或片状物",
+      "examples": [
+        "牙签儿"
+      ],
+      "traditional_char": "籤"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "用作标志的纸片或物品",
+      "examples": [
+        "书签",
+        "标签"
+      ],
+      "traditional_char": "籤"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "粗略地缝合",
+      "examples": [],
+      "traditional_char": "籤"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "用于占卜或赌博的细长竹片或细棍",
+      "examples": [
+        "签筒",
+        "求签"
+      ],
+      "traditional_char": "籤"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“簽”形声字，从竹，佥声，本义为署名押字，与书写相关。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 2,
+      "note": "“籤”形声字，从竹，韱声，本指细长竹木制成的棍或片，与器物相关。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 2,
+      "note": "“签”简化自“簽”“籤”，形声字，今兼表“署名”与“细棍”二义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由签名引申为简要批注。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由实体标记（细棍）引申为各种作标志的物品。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 4,
+      "evolution_type": "unknown",
+      "note": "粗缝义起源不明，疑与竹片缝合有关。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "由抽取竹签引申为占卜、赌博用途。"
+    }
+  ]
+}

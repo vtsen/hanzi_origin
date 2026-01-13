@@ -1,0 +1,79 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "实施，进行某种行动",
+      "examples": [
+        "施工",
+        "施政",
+        "实施新政策"
+      ],
+      "traditional_char": "施"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "用上，加以应用",
+      "examples": [
+        "施肥",
+        "施粉"
+      ],
+      "traditional_char": "施"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "给予，赠送",
+      "examples": [
+        "施恩",
+        "施舍",
+        "施礼"
+      ],
+      "traditional_char": "施"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "施耐庵"
+      ],
+      "traditional_char": "施"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "旗帜",
+      "examples": [],
+      "traditional_char": "施"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 4,
+      "note": "形声字，从（表旗帜），‘也’为声，原意为旗帜，后假借为其他义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 4,
+      "target_index": 0,
+      "evolution_type": "semantic_shift",
+      "note": "由“旗帜”转为“施行”，古时旗帜用于指挥施号施令。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“施行”引申为“施用、应用”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由“施行”进一步引申为“给予”。"
+    }
+  ]
+}

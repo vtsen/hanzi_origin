@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "保卫，抵御",
+      "examples": [
+        "捍卫国家",
+        "捍御外侮"
+      ],
+      "traditional_char": "捍"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "古代射者左臂佩戴的皮制袖套",
+      "examples": [
+        "臂加捍以防弦",
+        "射者佩捍"
+      ],
+      "traditional_char": "捍"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "古同“悍”，强悍",
+      "examples": [
+        "捍民难治",
+        "性捍而勇"
+      ],
+      "traditional_char": "捍"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从手，旱声。本义为防守、抵御。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由“防卫”引申为防护用具，即射者护臂的皮套。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "由具体动作引申为人的性格特征（强悍），后通“悍”。"
+    }
+  ]
+}

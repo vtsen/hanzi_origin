@@ -1,0 +1,102 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "说大话，夸张不实的言语。",
+      "examples": [
+        "诞言",
+        "有大诞"
+      ],
+      "traditional_char": "誕"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "欺诈，虚妄，不真实。",
+      "examples": [
+        "怪诞",
+        "诞妄"
+      ],
+      "traditional_char": "誕"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "生育，出生。",
+      "examples": [
+        "诞生",
+        "诞育"
+      ],
+      "traditional_char": "誕"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "生日。",
+      "examples": [
+        "寿诞",
+        "华诞",
+        "圣诞节"
+      ],
+      "traditional_char": "誕"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "放纵，放荡。",
+      "examples": [
+        "放诞"
+      ],
+      "traditional_char": "誕"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "adjective",
+      "meaning": "大，重大。",
+      "examples": [
+        "诞命"
+      ],
+      "traditional_char": "誕"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从言，延声，本义指说大话。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“说大话”引申为“虚妄、欺诈”，汉晋时期已有此义。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "由“说大话”延伸为“大、重大”，含有夸大的色彩。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "从“出生、生育”引申为“生日”。"
+    },
+    {
+      "source_index": 5,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由‘重大’引申为‘生育、出生’——人生大事，语义比喻，先秦至汉。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_shift",
+      "note": "由“说大话”引申至“行为放纵、放荡”，语义有演变过程。"
+    }
+  ]
+}

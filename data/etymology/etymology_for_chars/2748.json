@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "火苗",
+      "examples": [
+        "火焰升腾而起。",
+        "烈焰燃烧"
+      ],
+      "traditional_char": "焰"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "火光",
+      "examples": [
+        "光焰万丈",
+        "火光闪烁"
+      ],
+      "traditional_char": "焰"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从火，臽声，最早本义为火苗，结构兼具表意与表音。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“火苗”引申为“火光”，两者常连用且可以互指。"
+    }
+  ]
+}

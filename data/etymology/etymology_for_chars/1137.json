@@ -1,0 +1,57 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "高大的山，尤指中国古代五大名山。",
+      "examples": [
+        "五岳皆雄",
+        "东岳泰山",
+        "登岳而小天下"
+      ],
+      "traditional_char": "嶽"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "称妻子的父母或妻族的长辈（多用于尊称）。",
+      "examples": [
+        "岳父大人",
+        "岳母",
+        "请问令岳安好？"
+      ],
+      "traditional_char": "嶽"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "姓。",
+      "examples": [
+        "岳飞",
+        "岳云鹏"
+      ],
+      "traditional_char": "嶽"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "古文字象两座高大的山峰形会意，从山从丘，表示高山大岭，后规范为“嶽”，含义为高大山岭。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "古人以岳为高山，引申为崇高，尊敬，借指配偶家长辈。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "conversion",
+      "note": "地名、山名等演变成姓氏的常见现象。"
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "书匣上的标签",
+      "examples": [
+        "检为书匣记名之具。"
+      ],
+      "traditional_char": "檢"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "检查，查验，察看",
+      "examples": [
+        "检査行李",
+        "自我检讨"
+      ],
+      "traditional_char": "檢"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "约束，控制（言行）",
+      "examples": [
+        "检点言行",
+        "失检"
+      ],
+      "traditional_char": "檢"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "古代官名，掌修国史",
+      "examples": [
+        "昔有检官，掌国史。"
+      ],
+      "traditional_char": "檢"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "检先生"
+      ],
+      "traditional_char": "檢"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从木，佥声，表与木制品相关，‘检’最初指书箱标签。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由标签引申为查检、查验（比如根据标签查找、辨认物品）；汉魏以降用法。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由‘查检’具体操作引申为‘检束、约束’，即对行为的检查像查验物品一般；唐宋已见。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "古文官名‘检’，因其掌史书、查验史实而得名；语源转移。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "unknown",
+      "note": "姓氏一般由本字词义或地名派生，具体机制不明。"
+    }
+  ]
+}

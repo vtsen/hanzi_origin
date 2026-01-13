@@ -1,0 +1,108 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "张口呼气。",
+      "examples": [
+        "哈欠",
+        "哈一口气"
+      ],
+      "traditional_char": "哈"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "onomatopoeia",
+      "meaning": "象声词，形容笑声。",
+      "examples": [
+        "哈哈大笑",
+        "打哈哈"
+      ],
+      "traditional_char": "哈"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "弯，伛（如稍微弯腰）。",
+      "examples": [
+        "哈腰"
+      ],
+      "traditional_char": "哈"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "（方言）斥责。",
+      "examples": [
+        "哈他一通"
+      ],
+      "traditional_char": "哈"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [],
+      "traditional_char": "哈"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "〔哈什蚂〕蛙的一种，雌的腹内有脂肪状物质，中医用作补品。",
+      "examples": [],
+      "traditional_char": "哈"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "以唇啜饮。（本义）",
+      "examples": [],
+      "traditional_char": "哈"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 6,
+      "note": "形声字，从口，合声，表示以口喝吸，与“歃”相关。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 6,
+      "target_index": 0,
+      "evolution_type": "semantic_shift",
+      "note": "从以口啜饮转为张口呼气，口部动作的语义演变。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "张口呼气的动作引申为笑声的象声。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "张口呼气动作引申为身体动作，指弯腰。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "unknown",
+      "note": "方言中斥责用法，具体演变路径不确定。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "function_word",
+      "note": "姓氏用法来源不明，可能为语音借用。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "metonymy",
+      "note": "作为动物名的用法，可能出自拟声或转借。"
+    }
+  ]
+}

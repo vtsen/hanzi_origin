@@ -1,0 +1,57 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "民众编创、反映生活的歌。",
+      "examples": [
+        "民谣",
+        "歌谣",
+        "童谣"
+      ],
+      "traditional_char": "謡"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "凭空捏造、不可信的话。",
+      "examples": [
+        "谣言",
+        "造谣",
+        "谣传",
+        "谣诼"
+      ],
+      "traditional_char": "謡"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "古代指不用乐器伴奏的歌唱。",
+      "examples": [
+        "我歌且谣"
+      ],
+      "traditional_char": "謡"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 2,
+      "note": "‘謡’形声字，从言，肴声，本指不用乐器伴奏的歌唱。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 2,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "从指无乐器伴奏的歌，扩展为民间歌谣。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由民众传播的歌引申为民间流传的不实话。"
+    }
+  ]
+}

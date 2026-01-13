@@ -1,0 +1,61 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "能忍受，经得住。",
+      "examples": [
+        "忍耐",
+        "耐久",
+        "这种布很耐磨"
+      ],
+      "traditional_char": "耐"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "古同“奈”，对某种情况无可奈何地处理或承受。",
+      "examples": [
+        "无可奈何",
+        "奈何不得"
+      ],
+      "traditional_char": "耐"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "古代对犯人剃去胡须作为刑罚的行为。",
+      "examples": [
+        "古时剃须之刑，名为耐。",
+        "史载：受耐刑二年。"
+      ],
+      "traditional_char": "耏"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 2,
+      "note": "“耏”会意，从“而”（面颊）和“彡”（毛发），本义为剃去胡须的刑罚。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 2,
+      "note": "“耐”从“而”与“寸”，声符“而”，意指面颊施刑，为会意兼形声改化字。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 2,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "由经受剃须之刑发展为泛指忍受、承受。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_shift",
+      "note": "后由“忍受”义转为与“奈”同义，表示无可奈何地承受。"
+    }
+  ]
+}

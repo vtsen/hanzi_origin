@@ -1,0 +1,67 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "由上往下淋，洒，如浇花。",
+      "examples": [
+        "妈妈在院子里浇花。"
+      ],
+      "traditional_char": "澆"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "灌溉，大量注水于土地。",
+      "examples": [
+        "农民在春天浇地。"
+      ],
+      "traditional_char": "澆"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "把液体倒入模型，如浇铸金属。",
+      "examples": [
+        "工人正在浇筑混凝土。"
+      ],
+      "traditional_char": "澆"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "刻薄，不厚道。",
+      "examples": [
+        "世态炎凉，人情浇薄。"
+      ],
+      "traditional_char": "澆"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "“澆”形声字，从水，尧声。本义为灌溉。简体“浇”承袭此义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "从大规模灌溉推广至用水淋洒。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "液体灌注引申为倒液入模。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "‘浇’本为使湿润，引申为感情淡薄，形容刻薄。"
+    }
+  ]
+}

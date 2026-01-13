@@ -1,0 +1,53 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "发抖，战栗。",
+      "examples": [
+        "他冷得直哆嗦。"
+      ],
+      "traditional_char": "嗦"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "用嘴吸吮或舌头舔条形物。",
+      "examples": [
+        "嗦粉",
+        "嗦面"
+      ],
+      "traditional_char": "嗦"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "说话烦多，罗嗦。",
+      "examples": [
+        "你别再嗦了。"
+      ],
+      "traditional_char": "嗦"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘嗦’为形声字，从口，索声，本义与“哆嗦”的‘嗦’有关。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由“哆嗦”动作联想到用嘴吸吮、舔条状物体的动作，形象上有颤动之态。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由反复吸吮、舔的动作引申为说话重复繁琐，比喻罗嗦。"
+    }
+  ]
+}

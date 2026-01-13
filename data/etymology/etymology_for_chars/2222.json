@@ -1,0 +1,82 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "贪婪，贪图财物或饮食",
+      "examples": [
+        "贪婪无厌。",
+        "众皆竞进而贪婪兮。",
+        "婪酣大肚遭一饱。",
+        "韦执谊，性贪婪诡贼。"
+      ],
+      "traditional_char": "婪"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "卜者诈称吉凶",
+      "examples": [
+        "卜者党相詐验为婪。"
+      ],
+      "traditional_char": "婪"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "不谨慎",
+      "examples": [],
+      "traditional_char": "婪"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "古代宴饮时行酒一巡",
+      "examples": [
+        "婪尾酒",
+        "三杯蓝尾酒酒巡帀为蓝尾"
+      ],
+      "traditional_char": "婪"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "傻，笨",
+      "examples": [],
+      "traditional_char": "婪"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从女，林声，表达女性相关的贪婪之义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "由贪婪之义转为酒宴酒巡，因宴饮贪多得名。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "贪欲之义引申为卜者虚假欺骗求财。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由贪婪引申为做事不谨慎，不自律。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_shift",
+      "note": "从贪婪义在某些语境中转指“傻，笨”。"
+    }
+  ]
+}

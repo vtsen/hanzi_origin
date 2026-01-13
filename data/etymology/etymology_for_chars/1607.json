@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "交换财物，交易",
+      "examples": [
+        "贸易",
+        "财贸"
+      ],
+      "traditional_char": "貿"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "商业活动，贸易行为",
+      "examples": [
+        "外贸",
+        "贸迁"
+      ],
+      "traditional_char": "貿"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "轻率，冒失的样子",
+      "examples": [
+        "贸然而来"
+      ],
+      "traditional_char": "貿"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从贝，卯声。贝表示与财物有关，卯作声符，初义为交换财物。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从原意“交换财物”引申为“商业活动”，汉代已见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由“交换、变动”引申为“轻率、冒失”，表示行动迅速没有深思，多见于文言及修辞用法。"
+    }
+  ]
+}

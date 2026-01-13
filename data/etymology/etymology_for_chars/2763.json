@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "改变，违背，多指感情或态度的改变",
+      "examples": [
+        "忠贞不渝",
+        "生死不渝"
+      ],
+      "traditional_char": "渝"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "中国重庆市的别称，源于嘉陵江的古称“渝水”",
+      "examples": [
+        "渝中区",
+        "渝北区"
+      ],
+      "traditional_char": "渝"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从“水”表意，表示与水有关；“俞”表声。本义指水的变化，引申为改变。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "以“渝水”指代“重庆”地区，后用作地名简称，历史地理发展所致。"
+    }
+  ]
+}

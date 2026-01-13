@@ -1,0 +1,70 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "马名，一种马的名称。",
+      "examples": [],
+      "traditional_char": "驗"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "检查，察看。",
+      "examples": [
+        "验核",
+        "验血",
+        "验光",
+        "验证"
+      ],
+      "traditional_char": "驗"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "效果，有效果的证明。",
+      "examples": [
+        "灵验",
+        "应验",
+        "屡试屡验"
+      ],
+      "traditional_char": "驗"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "证信，凭据。",
+      "examples": [
+        "何以为验？"
+      ],
+      "traditional_char": "驗"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从马，佥声，古本义为马名。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_shift",
+      "note": "由专指马名转为动词“检查”，大约发生在中古时期，机制不明可能为借义。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由动作为“检查”引申出“效果，经检验而有证明”的含义。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "由“检查”引申出“证信、凭据”，即证明手段。"
+    }
+  ]
+}

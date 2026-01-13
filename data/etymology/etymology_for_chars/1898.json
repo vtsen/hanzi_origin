@@ -1,0 +1,38 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "生活在淡水里的一种软体动物，介壳长圆形，表面黑褐色，壳内有珍珠层，有的可以产出珍珠",
+      "examples": [
+        "蚌中有明珠。",
+        "蚌壳"
+      ],
+      "traditional_char": "蚌"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "other",
+      "meaning": "〔蚌埠〕地名，在中国安徽省",
+      "examples": [
+        "安徽省蚌埠市"
+      ],
+      "traditional_char": "蚌"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从虫，丰声，表示一种软体动物（蚌）。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "地名用，因该地以产蚌得名，属于用物名为地名的转喻。"
+    }
+  ]
+}

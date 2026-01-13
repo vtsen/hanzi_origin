@@ -1,0 +1,88 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "可能遭受的灾难或损失",
+      "examples": [
+        "保险可以转移风险。",
+        "冒险是成功的必要条件。"
+      ],
+      "traditional_char": "險"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "可能发生灾难的，危险的",
+      "examples": [
+        "险象环生。",
+        "他处于险境。",
+        "险峰耸立。"
+      ],
+      "traditional_char": "險"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "要隘，不易通过的地方",
+      "examples": [
+        "关中有天险。",
+        "此路有险。"
+      ],
+      "traditional_char": "險"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "存心狠毒，阴险",
+      "examples": [
+        "阴险小人。",
+        "用计险毒。"
+      ],
+      "traditional_char": "險"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adverb",
+      "meaning": "几乎，差一点",
+      "examples": [
+        "险胜对手。",
+        "险些失败。"
+      ],
+      "traditional_char": "險"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 2,
+      "note": "形声字。从“阜”表示与地势有关，“佥”作声符。本义为地势险要，难以通过。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 2,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由地理上的险要引申为一般危险，汉以后常见。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "由形容词“危险”名词化为“危险的事情/风险”，历代文献可见。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "grammaticalization",
+      "note": "危险的状态引申为形容‘差一点’的副词用法，近现代用法。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由外部危险转喻为人的品质阴险，见近古及现代用法。"
+    }
+  ]
+}

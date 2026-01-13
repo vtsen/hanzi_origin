@@ -1,0 +1,75 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "思考，思量。",
+      "examples": [
+        "思惟",
+        "惟度",
+        "惟思"
+      ],
+      "traditional_char": "惟"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "conjunction",
+      "meaning": "但是。",
+      "examples": [
+        "雨虽止，惟路仍甚泥泞。"
+      ],
+      "traditional_char": "惟"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adverb",
+      "meaning": "单，只，唯有。",
+      "examples": [
+        "惟独",
+        "惟一",
+        "惟有",
+        "惟恐",
+        "惟命是从",
+        "惟我独尊"
+      ],
+      "traditional_char": "惟"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "particle",
+      "meaning": "文言助词，用于句首，无实义。",
+      "examples": [
+        "惟妙惟肖",
+        "惟二月既望"
+      ],
+      "traditional_char": "惟"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从心，隹声，表示与思考、思念有关。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由“思考、思量”引申为“只、唯有”，用于加强范围，汉代已见。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“只、唯有”进一步用作转折连词“但是”。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "grammaticalization",
+      "note": "由“唯有、只”进一步虚化为句首文言助词，无实义。"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "眼睛看不见东西，失明。",
+      "examples": [
+        "他是个瞎子。",
+        "黑灯瞎火地走路很危险。"
+      ],
+      "traditional_char": "瞎"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "胡乱，随便，没有根据。",
+      "examples": [
+        "别瞎说。",
+        "他瞎忙了一通。"
+      ],
+      "traditional_char": "瞎"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "炮弹打出去不爆炸。",
+      "examples": [
+        "这是一发瞎炮。"
+      ],
+      "traditional_char": "瞎"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "农作物子粒不饱满。",
+      "examples": [
+        "今年地里出了许多瞎穗。",
+        "这片高粱很多瞎籽。"
+      ],
+      "traditional_char": "瞎"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从目表意，害表声，本义为一目失明。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由失明引申为“乱、无根据”，因为“看不见所以胡乱”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "炮弹瞎指射出不爆，喻‘瞎’像“失去主要功能”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "庄稼的穗或籽不饱满，比喻其“失去本应有的功能”如“失明”。"
+    }
+  ]
+}

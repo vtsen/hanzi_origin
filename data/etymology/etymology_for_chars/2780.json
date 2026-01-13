@@ -1,0 +1,58 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "冷，寒冷，与“暑”相对。",
+      "examples": [
+        "寒冬",
+        "寒气袭人",
+        "寒带",
+        "寒衣"
+      ],
+      "traditional_char": "寒"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "害怕，感到心中发冷。",
+      "examples": [
+        "寒心"
+      ],
+      "traditional_char": "寒"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "穷困，用作贫穷、简陋的谦辞。",
+      "examples": [
+        "寒门",
+        "寒士",
+        "寒舍",
+        "寒窗"
+      ],
+      "traditional_char": "寒"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "“寒”为会意字，上为“宀”表房屋，中有“人”踡曲取暖，旁四‘草’示多，底二横为‘冰’，显示人以草御寒，表达‘冷’的主题。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由气候‘寒冷’引申为内心冷、害怕，多见于情感场景。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由‘寒冷’转喻为贫穷环境的‘冷清’，古代形容贫困。"
+    }
+  ]
+}

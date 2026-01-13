@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "水流旋转形成的中间低洼处；水的旋流。",
+      "examples": [
+        "旋涡",
+        "漩涡",
+        "涡流"
+      ],
+      "traditional_char": "渦"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "形容事物呈涡状或有螺旋形的特征。",
+      "examples": [
+        "酒涡",
+        "涡轮机"
+      ],
+      "traditional_char": "渦"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "地名，用于“涡河”。",
+      "examples": [
+        "涡河发源于河南省，流入安徽省。"
+      ],
+      "traditional_char": "渦"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，氵为意旁，表示水，呙为声旁。最初表示水的旋流。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由水的旋流形态扩展为其他螺旋、旋状事物的形容。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "以‘涡’命名河流，因河流水势旋绕得名，属于地名转用。"
+    }
+  ]
+}

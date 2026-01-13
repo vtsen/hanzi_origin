@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "超越职权，自作主张",
+      "examples": [
+        "擅自行动",
+        "擅离职守"
+      ],
+      "traditional_char": "擅"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "独揽，占有",
+      "examples": [
+        "专擅权力",
+        "擅兵",
+        "擅美"
+      ],
+      "traditional_char": "擅"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "善于，长于",
+      "examples": [
+        "不擅辞令",
+        "他擅长书法"
+      ],
+      "traditional_char": "擅"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "形声字，从手，亶声，表示以手独揽或占有。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "由“独揽、占有”扩展为“超越职权，自作主张”。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由“独揽、专有”进一步引申为“善于、长于”。"
+    }
+  ]
+}

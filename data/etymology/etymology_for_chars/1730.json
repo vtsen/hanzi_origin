@@ -1,0 +1,40 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "小儿，儿童",
+      "examples": [
+        "孩童",
+        "男孩儿",
+        "小孩"
+      ],
+      "traditional_char": "孩"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "子女",
+      "examples": [
+        "有三个孩儿",
+        "母亲疼爱她的孩儿"
+      ],
+      "traditional_char": "孩"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从“子”表意，表示与儿童有关，“亥”表声，初本意为小儿，后专指小孩子。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘小儿，儿童’引申为‘子女’概念，古今均有用法。"
+    }
+  ]
+}

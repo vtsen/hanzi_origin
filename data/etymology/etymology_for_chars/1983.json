@@ -1,0 +1,133 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "用手取，握在手里",
+      "examples": [
+        "拿笔",
+        "拿枪"
+      ],
+      "traditional_char": "拿"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "掌握，把握",
+      "examples": [
+        "拿主意",
+        "拿权",
+        "拿手"
+      ],
+      "traditional_char": "拿"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "挟制，控制",
+      "examples": [
+        "拿捏",
+        "拿大"
+      ],
+      "traditional_char": "拿"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "侵蚀，侵害",
+      "examples": [
+        "让药水拿白了"
+      ],
+      "traditional_char": "拿"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "逮捕，捉",
+      "examples": [
+        "拿获",
+        "擒拿",
+        "拿问"
+      ],
+      "traditional_char": "拿"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "攻下，占领",
+      "examples": [
+        "一定要把敌人的碉堡拿下来"
+      ],
+      "traditional_char": "拿"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "介绍，引出对象，相当于“把”",
+      "examples": [
+        "我拿你当亲人看待"
+      ],
+      "traditional_char": "拿"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "preposition",
+      "meaning": "用以引出所凭借的工具、材料、方法等，相当于“用”",
+      "examples": [
+        "拿笔来写"
+      ],
+      "traditional_char": "拿"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从手，奴声，表示以手握持。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由具体意义“用手取”引申为“把握、掌控”"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由掌握引申为对他人施加控制或挟制"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "“拿”引申为对颜色、物体的作用，产生侵蚀义"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "从“用手取”引申为“逮捕、捉”的动作"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "由取而得，引申为“攻下、占领”"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "grammaticalization",
+      "note": "“拿”用作虚词，引出对象，相当于“把”字"
+    },
+    {
+      "source_index": 0,
+      "target_index": 7,
+      "evolution_type": "grammaticalization",
+      "note": "“拿”引出工具、材料等，功能化为介词"
+    }
+  ]
+}

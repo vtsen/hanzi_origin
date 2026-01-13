@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "不光滑，不滑溜",
+      "examples": [
+        "轮轴发涩",
+        "道路湿滑，不可太涩"
+      ],
+      "traditional_char": "澀"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "使舌头感到不滑润、不舒服的滋味，味道苦涩",
+      "examples": [
+        "这个柿子很涩",
+        "苦涩难咽"
+      ],
+      "traditional_char": "澀"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "文字或言语难以理解、不流畅",
+      "examples": [
+        "文字晦涩",
+        "生涩难懂"
+      ],
+      "traditional_char": "澀"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘澀’为形声字，从水，歰声，‘歰’本义为交错、不滑，后加水旁。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由“物体不滑”引申喻味道不顺口、舌感不滑，常见于食物。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由“物不流畅”引申为文辞语言不流畅、不易理解。"
+    }
+  ]
+}

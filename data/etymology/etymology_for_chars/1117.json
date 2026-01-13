@@ -1,0 +1,41 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "悬赏征求",
+      "examples": [
+        "悬购",
+        "购募"
+      ],
+      "traditional_char": "購"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "买，收买",
+      "examples": [
+        "购买",
+        "购置",
+        "采购",
+        "收购"
+      ],
+      "traditional_char": "購"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从贝，冓声。‘贝’表示与财物有关，‘冓’为声符，本义为悬赏征求。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从‘悬赏征求’引申为‘买、收买’，意指以财物换取所需，汉代以后普及。"
+    }
+  ]
+}

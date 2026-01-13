@@ -1,0 +1,52 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "罪，罪行",
+      "examples": [
+        "无辜",
+        "死有余辜",
+        "辜功"
+      ],
+      "traditional_char": "辜"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "辜负，背弃别人的好意",
+      "examples": [
+        "辜负众望"
+      ],
+      "traditional_char": "辜"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [],
+      "traditional_char": "辜"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从“辛”表示意义，与刑罚有关，“古”作声旁。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由罪行的本义，引申为背弃、对不起之意，见于文献中古义褒贬转化。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "conversion",
+      "note": "由实体名词转为姓氏用法，通见于中国姓氏来源。"
+    }
+  ]
+}

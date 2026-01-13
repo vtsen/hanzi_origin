@@ -1,0 +1,41 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "同父母（或只同父、只同母）而比自己年纪小的女子，即妹妹",
+      "examples": [
+        "兄妹",
+        "弟妹",
+        "我有一个妹妹"
+      ],
+      "traditional_char": "妹"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "对比自己年纪小的同辈女性的称呼",
+      "examples": [
+        "师妹",
+        "表妹",
+        "世妹"
+      ],
+      "traditional_char": "妹"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从女，未声，表示年纪较小的女性，原指妹妹。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由亲属称呼扩展为泛指同辈年纪较小女子的称呼，常见于汉魏以后。"
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "水边，河岸，江岸。",
+      "examples": [
+        "率彼淮浦。",
+        "江浦之橘。",
+        "浦，濒也。"
+      ],
+      "traditional_char": "浦"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "小河流入江海的入口处或江河与支流的汇合处。",
+      "examples": [
+        "至广陵寻亲旧，还遇风，停浦中。",
+        "入漵浦余儃佪兮，迷不知吾所如。",
+        "还为越王禽于三江之浦。"
+      ],
+      "traditional_char": "浦"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "指池、塘、江、河等水面。",
+      "examples": [
+        "浦月（谓江河水中之月）"
+      ],
+      "traditional_char": "浦"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "指人工修建的向江河排水的沟渠、水渠。",
+      "examples": [
+        "循古遗迹，或五里七里而为一纵浦，又七里或十里而为一横塘。"
+      ],
+      "traditional_char": "浦"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "可停泊船只的水湾、港汊。",
+      "examples": [
+        "把船快放入浦里去躲这大风。"
+      ],
+      "traditional_char": "浦"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [
+        "明有浦源。"
+      ],
+      "traditional_char": "浦"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，甫声，表示与水相关的地理位置，最初指水滨、河岸。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "水边、岸边概念扩展为小河流入江海的入口处，后用于江河与支流汇合口。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "水边名词的泛化，被用以指称河流、池塘等水体表面。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "从自然水边引申为人工开挖的排水沟渠。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "以滨水之地（浦）代指可以停船的水湾、港汊，利用地理接近关系。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "function_word",
+      "note": "地名转用为姓氏，见于先秦及两汉地名—姓氏转化常见机制。"
+    }
+  ]
+}

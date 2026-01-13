@@ -1,0 +1,62 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "onomatopoeia",
+      "meaning": "形容昆虫振翅、机器运转等持续的嗡嗡声，如蜜蜂、飞机等发出的声音。",
+      "examples": [
+        "蜜蜂在花丛中嗡嗡地飞。",
+        "只听得身背后猛可里嗡的一声。"
+      ],
+      "traditional_char": "嗡"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "胡琴的一种，京二胡的别称。",
+      "examples": [
+        "老张擅长拉嗡子。"
+      ],
+      "traditional_char": "嗡"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "interjection",
+      "meaning": "表示肯定或应答的语气词，类似于‘嗯’。",
+      "examples": [
+        "我于是连连点头，说道：“嗡，嗡，对啦。”"
+      ],
+      "traditional_char": "嗡"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "other",
+      "meaning": "通过鼻腔发出的含糊不清的声音。",
+      "examples": [
+        "嗡着鼻音，自言自语道：“没到霜降边，天可就彻骨的冷了哩。”"
+      ],
+      "traditional_char": "嗡"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从口，翁声。本义为模拟飞虫等持续嗡嗡声。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "function_word",
+      "note": "由模拟嗡嗡声引申为表达应答或肯定的语气词。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由持续嗡嗡声引申为鼻腔发出含糊不清的声音。"
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "人在水中行动",
+      "examples": [
+        "游泳",
+        "游水"
+      ],
+      "traditional_char": "游"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "不固定，流动",
+      "examples": [
+        "游资",
+        "游牧",
+        "游走",
+        "游学",
+        "游击",
+        "游子"
+      ],
+      "traditional_char": "游"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "河流的一段",
+      "examples": [
+        "上游",
+        "中游",
+        "下游"
+      ],
+      "traditional_char": "游"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "交往，来往",
+      "examples": [
+        "交游"
+      ],
+      "traditional_char": "游"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "从容地行走，游历、游玩",
+      "examples": [
+        "周游",
+        "游历",
+        "游逛",
+        "游兴",
+        "游记",
+        "游说",
+        "游山玩水"
+      ],
+      "traditional_char": "游"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "other",
+      "meaning": "姓氏",
+      "examples": [
+        "游先生",
+        "游女士"
+      ],
+      "traditional_char": "游"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，斿声，本义为人在水中行动。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由水中移动扩展为不固定、流动的状态，常见于对人的形容。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "指涉从水中的行动到水流的一段，语义拓展。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由人在水中穿梭喻为人在社会中交往、往来。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由水中自由移动扩展为从容地走动、游历之意。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "unknown",
+      "note": "作为姓氏，起源不明，或与地名转换有关。"
+    }
+  ]
+}

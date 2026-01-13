@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "哺乳动物，身上有硬刺，昼伏夜出，食昆虫、鼠、蛇等，即刺猬。",
+      "examples": [
+        "矢如猬毛。——宋·司马光《资治通鉴·唐纪》",
+        "獸名。即刺猬。"
+      ],
+      "traditional_char": "猬"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "指猬的毛刺，常用来形容“多而密集”。",
+      "examples": [
+        "蝟列（猬毛竖列。形容多而密）",
+        "猬立（猬毛竖起。多比喻因恐惧而毛发耸起）"
+      ],
+      "traditional_char": "猬"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "以猬毛形容众多、纷乱、密集的事物。",
+      "examples": [
+        "猬合（比喻纷纷集结）",
+        "猬起（喻事变纷起，如猬毛竦竖）"
+      ],
+      "traditional_char": "猬"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘猬’为形声字，犬旁表义，表示动物，畏声表音，原指刺猬，语源可靠。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "synecdoche",
+      "note": "由整体刺猬转指其毛刺，为局部提及，汉至宋皆有用例。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由猬毛之多、密转喻为事物众多密集，历代文献常见。"
+    }
+  ]
+}

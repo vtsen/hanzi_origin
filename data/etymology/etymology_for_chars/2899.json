@@ -1,0 +1,38 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "眼睑边缘的细毛，即睫毛。",
+      "examples": [
+        "目不交睫",
+        "睫毛"
+      ],
+      "traditional_char": "睫"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "眨眼，指闭眼或眼皮合拢。",
+      "examples": [
+        "矢来注眸子而眶不睫"
+      ],
+      "traditional_char": "睫"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从目，疌声，最初表示眼睑边的毛。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_shift",
+      "note": "由表示睫毛引申为眨眼，因睫毛动作与眼睑动作相关。"
+    }
+  ]
+}

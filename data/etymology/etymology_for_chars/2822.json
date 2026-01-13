@@ -1,0 +1,104 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "用细条或带形的东西交叉组织起来，编结。",
+      "examples": [
+        "编结渔网",
+        "编织篮子"
+      ],
+      "traditional_char": "編"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "按一定的原则、规则或次序来组织或排列。",
+      "examples": [
+        "编排节目",
+        "编目"
+      ],
+      "traditional_char": "編"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "把材料加以适当的组织排列而成为书籍、报刊、广播电视节目等。",
+      "examples": [
+        "编写教材",
+        "编辑新闻"
+      ],
+      "traditional_char": "編"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "创作（多指文学、戏剧等）。",
+      "examples": [
+        "编剧",
+        "编导"
+      ],
+      "traditional_char": "編"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "捏造。",
+      "examples": [
+        "编瞎话",
+        "他把这件事编出来的"
+      ],
+      "traditional_char": "編"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "成书的部分、分卷。",
+      "examples": [
+        "正编",
+        "续编",
+        "简编"
+      ],
+      "traditional_char": "編"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从糸，扁声，表示编结，交织成物。本义为交叉编结。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由实际编结，引申为抽象的组织、排列。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由组织排列，引申到书籍材料等的编辑。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "编辑发展为创造（如剧本等）的义项。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "组织、排列引申为虚构、捏造。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 5,
+      "evolution_type": "semantic_shift",
+      "note": "编辑成果名词化，指成书的部分或分卷。"
+    }
+  ]
+}

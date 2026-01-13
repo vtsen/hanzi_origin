@@ -1,0 +1,104 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "睡觉时覆盖身体的东西（被子）",
+      "examples": [
+        "盖上被子。",
+        "棉被柔软。"
+      ],
+      "traditional_char": "被"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "盖，遮覆",
+      "examples": [
+        "被覆苍生。",
+        "泽被后世。"
+      ],
+      "traditional_char": "被"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "遭遇，遭受（不幸等）",
+      "examples": [
+        "被灾。",
+        "被剥削。"
+      ],
+      "traditional_char": "被"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "preposition",
+      "meaning": "介词，表示动作的承受者（受事）",
+      "examples": [
+        "他被老板批评了。",
+        "包裹被快递员送走了。"
+      ],
+      "traditional_char": "被"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "particle",
+      "meaning": "受动态的标志，用于动词前，表示被动",
+      "examples": [
+        "被动。",
+        "被告。",
+        "被批评。"
+      ],
+      "traditional_char": "被"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "同“披”，覆盖",
+      "examples": [
+        "被甲",
+        "被发"
+      ],
+      "traditional_char": "被"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从衣，皮声，初指作为覆盖人体之物（被子）。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由具体覆盖物引申为动词‘覆盖、遮覆’。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由‘覆盖’转喻为‘遭受’（如灾难覆盖人）。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "grammaticalization",
+      "note": "动词‘被’演化为介词，表示受事。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "grammaticalization",
+      "note": "介词进一步虚化为被动态的语法标志。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "reanalysis",
+      "note": "古义通‘披’，由‘覆盖’引发义项变迁。"
+    }
+  ]
+}

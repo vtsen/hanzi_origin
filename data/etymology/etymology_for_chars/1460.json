@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "伤害、毁坏",
+      "examples": [
+        "残害",
+        "摧残"
+      ],
+      "traditional_char": "殘"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "不完全，剩余",
+      "examples": [
+        "残余",
+        "残阳"
+      ],
+      "traditional_char": "殘"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "凶狠、狠毒",
+      "examples": [
+        "残忍",
+        "残酷",
+        "凶残"
+      ],
+      "traditional_char": "殘"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从歹，戋声，“歹”表示与死亡伤害有关，最初本义为伤害。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“伤害”引申为“残缺，不完整，余下”。《左传》已有此义。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由“伤害、毁坏”引申为“性情凶狠毒辣”。"
+    }
+  ]
+}

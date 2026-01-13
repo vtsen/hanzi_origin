@@ -1,0 +1,84 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "方形的盛物竹器，后泛指用竹篾、柳条、荆条等编成的盛东西的器具。",
+      "examples": [
+        "筐子",
+        "载筐及筥。",
+        "老王右手拿着一束散发着清香的梅花，到了门口，左手提着那筐沉甸甸的广柑，一步一步吃力地走去。"
+      ],
+      "traditional_char": "筐"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "（借）小簪。",
+      "examples": [
+        "柱不可以摘齿，筐不可以持屋。"
+      ],
+      "traditional_char": "筐"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "同“匡”，框架，某些限定形状、大小的物件的外框。",
+      "examples": [
+        "大夫不里椁，士不虞筐。"
+      ],
+      "traditional_char": "筐"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "方正、方形。",
+      "examples": [
+        "筐床"
+      ],
+      "traditional_char": "筐"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "盛满，装满。",
+      "examples": [
+        "筐泽泻以豹鞹兮。"
+      ],
+      "traditional_char": "筐"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从竹，匡声。本义为竹制盛物方器。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由名词“筐”引申为“盛满”，语言习惯使器名动用"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "由盛方形物品的器物，引申为形容‘方形’、‘方正’"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "由竹器引申为‘框架’，受‘匡’字影响，实际用字混同"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_shift",
+      "note": "小型盛器用途引申为小簪，现存用法稀见"
+    }
+  ]
+}

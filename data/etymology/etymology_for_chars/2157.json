@@ -1,0 +1,117 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "玉石或事物的纹理、条理、层次",
+      "examples": [
+        "肌理",
+        "条理",
+        "心理"
+      ],
+      "traditional_char": "理"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "事物的规律、道理，是非得失的标准",
+      "examples": [
+        "道理",
+        "无理取闹",
+        "理直气壮"
+      ],
+      "traditional_char": "理"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "自然科学，有时特指“物理学”",
+      "examples": [
+        "理科",
+        "物理",
+        "理疗"
+      ],
+      "traditional_char": "理"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "处理、整理、治理，按规律进行加工",
+      "examples": [
+        "理事",
+        "理财",
+        "管理"
+      ],
+      "traditional_char": "理"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "理睬、对他人的言行做出反应",
+      "examples": [
+        "不理",
+        "理睬"
+      ],
+      "traditional_char": "理"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "古代指狱官、法官",
+      "examples": [
+        "县理",
+        "理官"
+      ],
+      "traditional_char": "理"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "other",
+      "meaning": "姓氏",
+      "examples": [
+        "理学",
+        "理先生"
+      ],
+      "traditional_char": "理"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从玉，里声。本义与玉石有关，后引申为事物条理。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由玉石的条理引申为事情的条理和道理。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由道理、规律进一步指代自然规律和科学学科。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "从玉石加工引申为处理、整理、治理。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由处理事务引申为对言语行为做出反应。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 5,
+      "evolution_type": "metonymy",
+      "note": "狱官、法官的职责是处理、治理案件，由“治理”义转为官职名。"
+    }
+  ]
+}

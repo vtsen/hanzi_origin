@@ -1,0 +1,38 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "黑色的。",
+      "examples": [
+        "皂靴",
+        "不分皂白"
+      ],
+      "traditional_char": "皂"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "古代低级官役，后专指衙门里的差役。",
+      "examples": [
+        "皂隶"
+      ],
+      "traditional_char": "皂"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从白，召声，本义为黑色。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "因古代差役穿黑色衣物，故以“皂”指称差役。"
+    }
+  ]
+}

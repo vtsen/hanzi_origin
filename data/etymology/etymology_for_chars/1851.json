@@ -1,0 +1,104 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "大绳子或大链子",
+      "examples": [
+        "钢索",
+        "拉一根索",
+        "绞索悬挂"
+      ],
+      "traditional_char": "索"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "搜寻，寻求",
+      "examples": [
+        "思索问题",
+        "探索真理",
+        "搜索线索"
+      ],
+      "traditional_char": "索"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "讨取，要",
+      "examples": [
+        "索还债务",
+        "索要报酬",
+        "勒索钱财"
+      ],
+      "traditional_char": "索"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "尽，毫无",
+      "examples": [
+        "索然无味"
+      ],
+      "traditional_char": "索"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "单独",
+      "examples": [
+        "离群索居"
+      ],
+      "traditional_char": "索"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "索尼",
+        "索某"
+      ],
+      "traditional_char": "索"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意。从系从束，表示用绳子束木；初指大绳子或绳索。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由绳索引申为寻求、探索，如拉线求物。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由寻求进一步引申为讨取、要求。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由探求无所得，引申为无趣、无味。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "由一条绳索的孤立，引申为独居。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "unknown",
+      "note": "转用为姓氏，具体路径不明。"
+    }
+  ]
+}

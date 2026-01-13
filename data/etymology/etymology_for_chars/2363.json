@@ -1,0 +1,109 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "逃跑，奔跑",
+      "examples": [
+        "兔起而逸",
+        "逸走上下"
+      ],
+      "traditional_char": "逸"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "散失，失传",
+      "examples": [
+        "逸闻琐事",
+        "逸事",
+        "逸史"
+      ],
+      "traditional_char": "逸"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "安闲，安乐",
+      "examples": [
+        "安逸",
+        "以逸待劳",
+        "逸乐"
+      ],
+      "traditional_char": "逸"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "超脱，超过一般，有卓越风致",
+      "examples": [
+        "超逸",
+        "逸趣",
+        "逸品",
+        "逸致",
+        "逸兴"
+      ],
+      "traditional_char": "逸"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "隐遁之人，隐士",
+      "examples": [
+        "逸士",
+        "逸民"
+      ],
+      "traditional_char": "逸"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "adjective",
+      "meaning": "放荡，不受拘束",
+      "examples": [
+        "逸荡",
+        "飘逸",
+        "骄奢淫逸"
+      ],
+      "traditional_char": "逸"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意字，从辵，表示行走、奔跑之意，从兔，兔善于逃逸，合表逃跑本义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "逃逸引申为文本逸失，先秦已见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "逃脱艰苦引申为安闲安乐，汉代以降用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "逃离尘世之意，引申为隐士之意，魏晋南北朝广见。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "安闲、脱俗进一步引申为超脱、卓越之意。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "脱离约束引申为放纵、不受拘束。"
+    }
+  ]
+}

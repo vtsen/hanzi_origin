@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "庆祝，祝贺他人或表达良好祝愿。",
+      "examples": [
+        "祝贺新婚。",
+        "贺电发去北京。"
+      ],
+      "traditional_char": "賀"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [
+        "贺卫方。",
+        "贺龙。"
+      ],
+      "traditional_char": "賀"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘賀’为形声字，从貝，賀声。本义为‘庆祝，祝贺’。‘貝’表示与物品、礼物有关，‘賀’声兼表义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "conversion",
+      "note": "姓氏用法源自本义引申为姓。历史具体情况未知，属于专名化。"
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "靡曼的乐声、不正之音，淫靡之曲。",
+      "examples": [
+        "哇，谄声也。——《说文》",
+        "中正则雅，多哇则郑。——《法言》",
+        "含情哇而吟咏。——张衡《舞赋》"
+      ],
+      "traditional_char": "哇"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "呕吐；使胃内容物通过口腔吐出。",
+      "examples": [
+        "出而哇之。——《孟子·滕文公下》",
+        "忽觉咽中暴痒，哇有物出。——《聊斋志异》"
+      ],
+      "traditional_char": "哇"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "哭叫、嚎哭或叫喊。",
+      "examples": [
+        "哀哇动梁埃，急觞荡幽默。——谢灵运",
+        "空城坚守已可缚，中使犹作啼儿哇。——王安石"
+      ],
+      "traditional_char": "哇"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "onomatopoeia",
+      "meaning": "象声词，形容哭声、呕吐声，或叫喊声。",
+      "examples": [
+        "小孩哇地一声哭了出来。",
+        "哇的一声，夜游的恶鸟飞过了。——鲁迅《野草·秋夜》"
+      ],
+      "traditional_char": "哇"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "方言：说话。",
+      "examples": [
+        "有什么困难尽管跟我哇。"
+      ],
+      "traditional_char": "哇"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "particle",
+      "meaning": "语气助词，相当于“啊”，用于句末，表感叹、肯定等语气。",
+      "examples": [
+        "你要早这样，多好哇！",
+        "他是个举足轻重的人物哇！"
+      ],
+      "traditional_char": "哇"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从口，圭声，本义为靡曼之乐声，属声旁表音义旁表义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_shift",
+      "note": "由‘淫声’（不正之音）转为形容呕吐声，形声兼具象声含义。时间晚于‘乐声’义。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由‘不正之音’引申为‘哭叫、嚎哭’等嘈杂声音，语义类比。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由‘嚎哭、叫喊’为动词，进一步抽象为象声词描述各种叫喊、呕吐等声响。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "由叫喊转为‘说话’，方言用法，源自声音相关。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 5,
+      "evolution_type": "grammaticalization",
+      "note": "由象声词发展为语气助词，多用于句末表感叹及肯定等。"
+    }
+  ]
+}

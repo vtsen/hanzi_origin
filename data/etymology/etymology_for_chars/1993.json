@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "夹在脊骨两侧的肉。",
+      "examples": [
+        "夾脊肉，或作胰。"
+      ],
+      "traditional_char": "胰"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "人和高等动物体内的腺体之一，即胰腺，位于胃的后下方，能分泌胰液和胰岛素。",
+      "examples": [
+        "胰液。",
+        "胰脂酶。",
+        "胰蛋白酶。",
+        "胰淀粉酶。"
+      ],
+      "traditional_char": "胰"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "猪等动物两个肾脏之间的脂肪。",
+      "examples": [
+        "指猪的两肾之间的脂肪。"
+      ],
+      "traditional_char": "胰"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从“肉”表义，“夷”表声，古指夹脊肉，后泛指胰腺之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_narrowing",
+      "note": "古义为夹脊肉，后指特定的腺体胰腺。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由夹脊肉引申为猪肾之间的脂肪，因部位相关。"
+    }
+  ]
+}

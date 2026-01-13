@@ -1,0 +1,51 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "诡诈，狡猾，善于骗人的",
+      "examples": [
+        "他很狡猾。",
+        "狡辩"
+      ],
+      "traditional_char": "狡"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "多力，壮健",
+      "examples": [
+        "壮狡"
+      ],
+      "traditional_char": "狡"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "小狗",
+      "examples": [],
+      "traditional_char": "狡"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 2,
+      "note": "形声字，从犬表义，交表声，原指小狗。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 2,
+      "target_index": 0,
+      "evolution_type": "metaphor",
+      "note": "由小狗的机敏、狡黠性格引申为诡诈、狡猾。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由小狗健康、有力的形象引申为多力、壮健。"
+    }
+  ]
+}

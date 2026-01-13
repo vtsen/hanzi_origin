@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "藏入土中，将人或物埋入土里",
+      "examples": [
+        "埋葬亲人",
+        "把种子埋进土里"
+      ],
+      "traditional_char": "埋"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "把东西放在坑里用土、雪、落叶等盖上",
+      "examples": [
+        "埋地雷",
+        "用雪把东西埋住"
+      ],
+      "traditional_char": "埋"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "隐藏、掩藏",
+      "examples": [
+        "埋伏",
+        "埋头苦读",
+        "隐姓埋名"
+      ],
+      "traditional_char": "埋"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "因为事情不如意而心存不满、责怪（用于“埋怨”）",
+      "examples": [
+        "不要总是埋怨别人"
+      ],
+      "traditional_char": "埋"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从土，‘里’声。本义为埋进土中，甲骨文作“薶”，象祭祀时将狗埋入坑中形。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由葬入土中扩展为一般把东西埋于土、雪、落叶等下。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "自实指埋入土，借指隐藏、掩盖。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "unknown",
+      "note": "“埋怨”义，与本义联系较远，发展关系未详。"
+    }
+  ]
+}

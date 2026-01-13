@@ -1,0 +1,61 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "按类别或系统编制的表册、文献，如家谱、年谱等",
+      "examples": [
+        "家谱",
+        "年谱",
+        "菜谱",
+        "食谱",
+        "谱系"
+      ],
+      "traditional_char": "譜"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "记录音乐、棋局等的符号或图形，如歌谱、乐谱、棋谱等",
+      "examples": [
+        "歌谱",
+        "乐谱",
+        "棋谱",
+        "画谱"
+      ],
+      "traditional_char": "譜"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "编写歌谱等记谱文献",
+      "examples": [
+        "谱曲",
+        "谱写",
+        "谱制"
+      ],
+      "traditional_char": "譜"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从言，普声，最初义是有关事物分类记载的册籍。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "文化发展后，从分类文献扩展为记载音乐等内容的符号系统。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "conversion",
+      "note": "由名词转化为动词，表示编写、制作各种谱。"
+    }
+  ]
+}

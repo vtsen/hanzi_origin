@@ -1,0 +1,42 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "取暖、做饭或冶炼等用的贮火器具；专指各类炉灶、炉子。",
+      "examples": [
+        "炉子",
+        "炉火",
+        "锅炉",
+        "熔炉",
+        "炉火纯青"
+      ],
+      "traditional_char": "爐"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "古代酒店前放置酒坛的炉形土墩，借指酒店。（与“垆”同）",
+      "examples": [
+        "酒垆",
+        "绿蚁新醅酒，红泥小火炉"
+      ],
+      "traditional_char": "爐"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从火，盧声，本义为贮火器具，爐为正体。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "因酒店前土墩形状似炉，借指酒店，属古代用法。"
+    }
+  ]
+}

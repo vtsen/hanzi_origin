@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "珊瑚，珊瑚虫分泌的石灰质骨骼，常用作装饰或药材，也比喻珍奇之物。",
+      "examples": [
+        "床以珊，帘以水精。",
+        "铁网珊瑚。"
+      ],
+      "traditional_char": "珊"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "onomatopoeia",
+      "meaning": "玉佩撞击的声音，常叠用“珊珊”。",
+      "examples": [
+        "杜甫诗：时闻杂佩声珊珊。",
+        "拂墀声之珊珊。"
+      ],
+      "traditional_char": "珊"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "形容舒缓美好、摇曳多姿的样子，常用于“珊珊”。",
+      "examples": [
+        "李后主词：春意阑珊。",
+        "宋玉《神女赋》：动雾縠以徐步兮，拂墀声之珊珊。"
+      ],
+      "traditional_char": "珊"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“珊”从王（玉），声旁刪，意为珊瑚，取声兼取义，最早指海中之玉石。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "通过珊瑚玉类物品撞击引发玉佩声的想象，叠用表现声音，汉魏时已见。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由玉佩撞击声音引申为形容舒缓美好、姿态优雅的样子，多用于“珊珊”。"
+    }
+  ]
+}

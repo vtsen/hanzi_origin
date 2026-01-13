@@ -1,0 +1,40 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古代盛食物的器具；小勺子，常用于舀汤、饮茶等",
+      "examples": [
+        "汤匙",
+        "茶匙",
+        "以匙取羹"
+      ],
+      "traditional_char": "匙"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "钥匙，开启锁具的工具（如“钥匙”中的“匙”）",
+      "examples": [
+        "钥匙",
+        "门匙"
+      ],
+      "traditional_char": "匙"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从匕，表示与食器相关，“是”作声旁表示读音。最初表示舀取食物的器具。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由小勺舀取、开启事物的功能引申为“钥匙”；大约自中古汉语及宋元以后用作“钥匙”。"
+    }
+  ]
+}

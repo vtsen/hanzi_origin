@@ -1,0 +1,82 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "糕饼，点心类食品",
+      "examples": [
+        "香饵",
+        "果饵"
+      ],
+      "traditional_char": "餌"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "钓鱼用的鱼食，鱼饵",
+      "examples": [
+        "鱼饵",
+        "钓饵"
+      ],
+      "traditional_char": "餌"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "喂食",
+      "examples": [
+        "穷鱼饵奔鲸"
+      ],
+      "traditional_char": "餌"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "引诱",
+      "examples": [
+        "饵敌"
+      ],
+      "traditional_char": "餌"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "古代指牲畜的筋腱",
+      "examples": [],
+      "traditional_char": "餌"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从食，耳声，表糕饼之意，与‘食’相关。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由食品引申为鱼用的食物，因形状或用途相似。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "grammaticalization",
+      "note": "由名词食品转为表示“喂食”之动词。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由鱼饵引申为引诱之意，因诱饵引鱼而生。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "古文中指牲畜筋腱，具体义项有待深入考证。"
+    }
+  ]
+}

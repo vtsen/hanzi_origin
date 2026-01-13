@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "水涌起的样子，形容水势汹涌。",
+      "examples": [
+        "鲸归穴兮渤溢，鳌载山兮低昂。——元稹《有酒》",
+        "渤溢（水涌起的样子）；渤荡（涨潮）"
+      ],
+      "traditional_char": "渤"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "渤海，中国山东半岛与辽东半岛之间的海。",
+      "examples": [
+        "渤海桑田（大海变成桑田，桑田变成大海。比喻世事变化巨大）",
+        "南朝宋鲍照《代陆平原君子有所思行》：穿地类溟渤。"
+      ],
+      "traditional_char": "渤"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "古州名，辽朝时在今长春市附近的渤州。",
+      "examples": [
+        "古称渤州，约在今长春市附近。"
+      ],
+      "traditional_char": "渤"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘渤’从水，孛声。声旁表音，水旁表义，最初指水涌起的样子。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由水涌的状态引申至以水势汹涌著称的渤海。见东汉及史记等文本。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "以渤海之名用于行政区名，借海名作为地名。见辽朝地名沿革。"
+    }
+  ]
+}

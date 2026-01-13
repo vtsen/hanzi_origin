@@ -1,0 +1,109 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "湿润、不干枯，滋养万物。",
+      "examples": [
+        "润泽",
+        "土地湿润",
+        "清风润物细无声"
+      ],
+      "traditional_char": "潤"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "加油或水使之湿润。",
+      "examples": [
+        "润肠",
+        "浸润",
+        "润滑"
+      ],
+      "traditional_char": "潤"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "细腻光滑，有光泽。",
+      "examples": [
+        "珠圆玉润",
+        "光润",
+        "滑润"
+      ],
+      "traditional_char": "潤"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "使有光泽，修饰美化。",
+      "examples": [
+        "润色文章",
+        "润饰",
+        "润稿"
+      ],
+      "traditional_char": "潤"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "利益，分红。",
+      "examples": [
+        "利润",
+        "分润",
+        "有润可得"
+      ],
+      "traditional_char": "潤"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "以财物酬谢或酬劳。",
+      "examples": [
+        "润笔",
+        "稿酬俗称润笔",
+        "润例"
+      ],
+      "traditional_char": "潤"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘潤’为形声字，从水，闰声，表示水流润泽、滋养。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“本身湿润”引申为“使湿润”，见于中古以后日常用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "以湿润引申为细腻光滑之物的光泽，修辞意义明显。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由表面光泽转为对文字等的修饰美化。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "由水润万物引申为获益、润泽，有利益之意。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "由抽象“利益”引申为具体以财物相酬。"
+    }
+  ]
+}

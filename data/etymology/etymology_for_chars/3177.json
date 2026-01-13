@@ -1,0 +1,106 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "说；谈论",
+      "examples": [
+        "夫子何不谭我于王。",
+        "闻得樞密院東有個算命的，开个舖面，谭人祸福，无不奇中。",
+        "鲁迅：欲言者似多，而欲写者则又无有，故止于此，容后更谭。"
+      ],
+      "traditional_char": "譚"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "言论；言语；常态性的说法",
+      "examples": [
+        "此老生之常谭。",
+        "西国创造之谭，摩西最古。",
+        "谭言微中"
+      ],
+      "traditional_char": "譚"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "绵延，延及，连属",
+      "examples": [
+        "不称而祀谭，次祖。",
+        "谭，延也。国败绝祀之事延及次祖。",
+        "参谭"
+      ],
+      "traditional_char": "譚"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "宏大，广大",
+      "examples": [
+        "富恭有本能图，修业居久而谭。",
+        "《广韵》：“谭，大也。”"
+      ],
+      "traditional_char": "譚"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "古国名，春秋时的谭国，在今山东省济南市东龙山镇附近",
+      "examples": [
+        "谭公维私。",
+        "冬十月，齐师灭谭。"
+      ],
+      "traditional_char": "譚"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "南朝宋有谭金。",
+        "谭姓"
+      ],
+      "traditional_char": "譚"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从言，覃声，初以‘说’、‘谈论’为本义，‘覃’提供声旁."
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "conversion",
+      "note": "由动词‘说；谈论’转为名词义‘言论’，常见古汉语现象."
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "从‘说’引申为‘绵延，延及’，可能与‘言谈延展’的隐喻相关."
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "以‘言谈广阔’喻为‘广大、宏大’之义，古训释有据."
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "用作地名和国名，常见由行为动作衍生专名的语言现象."
+    },
+    {
+      "source_index": 4,
+      "target_index": 5,
+      "evolution_type": "metonymy",
+      "note": "从国名直接用作姓氏，汉姓多源自国名."
+    }
+  ]
+}

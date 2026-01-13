@@ -1,0 +1,40 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "互相交换物品或权益",
+      "examples": [
+        "用苹果和你换橘子。",
+        "互通有无，交换所需。"
+      ],
+      "traditional_char": "換"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "更改，变动",
+      "examples": [
+        "换衣服。",
+        "换班。",
+        "换马。"
+      ],
+      "traditional_char": "換"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从手，奂声，本义为互易、交换。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“交换”引申为泛指“更改、变动”；汉中古今皆可见。"
+    }
+  ]
+}

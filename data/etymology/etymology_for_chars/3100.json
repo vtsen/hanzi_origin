@@ -1,0 +1,118 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "小而圆的东西；粒状物",
+      "examples": [
+        "翠叶轻拢豆颗匀。",
+        "燕脂掌中顆，甘露舌頭漿。",
+        "這兒有三粒雀斑，這下面呢，有兩個淡紅的小顆子。"
+      ],
+      "traditional_char": "顆"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "measure_word",
+      "meaning": "用于圆形或粒状的物体",
+      "examples": [
+        "三颗珠子",
+        "北土通呼物一凷改为一颗。",
+        "日啖荔支三百顆，不妨長作嶺南人。"
+      ],
+      "traditional_char": "顆"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "measure_word",
+      "meaning": "用于块状物",
+      "examples": [
+        "与我一顆金印，重八百餘斤。",
+        "假雕印信若干顆。"
+      ],
+      "traditional_char": "顆"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "measure_word",
+      "meaning": "用于植物（棵）",
+      "examples": [
+        "你去把那崖邊柳樹伐四顆來。",
+        "看不見一顆大樹。"
+      ],
+      "traditional_char": "顆"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "measure_word",
+      "meaning": "用于头数，指兽、牲畜的头",
+      "examples": [
+        "有黑狐十餘顆，奔逸而出。"
+      ],
+      "traditional_char": "顆"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "measure_word",
+      "meaning": "用于枪械（支）",
+      "examples": [
+        "拿一顆大槍給趙玉林使喚。"
+      ],
+      "traditional_char": "顆"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "土块（通“堁”）",
+      "examples": [
+        "使其後世曾不得蓬，顆蔽冢而託葬焉。"
+      ],
+      "traditional_char": "顆"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“顆”为形声字，从“页”表示与头、块状物有关，声符“果”，本义为小而圆的东西。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "grammaticalization",
+      "note": "由小而圆之实体物名词义，转为用作量词的过程，见于中古及近代汉语。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "量词扩展用于块状物体，可能出现在中晚唐以后。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "由“颗”计量小圆物转用于植物单位‘棵’。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "由小而圆数量词，引申为计量兽头等‘头数’单位。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "量词义进一步推广至枪械等单位数。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "semantic_extension",
+      "note": "由小块状物引申为土块义，见于汉代文献。"
+    }
+  ]
+}

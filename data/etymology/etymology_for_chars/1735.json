@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "小孩子",
+      "examples": [
+        "娃子",
+        "胖娃娃"
+      ],
+      "traditional_char": "娃"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "美女",
+      "examples": [
+        "娇娃"
+      ],
+      "traditional_char": "娃"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "幼小的动物",
+      "examples": [
+        "猪娃",
+        "羊娃"
+      ],
+      "traditional_char": "娃"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "形声字，从女，圭声，最初表示美女。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "美女意泛化为小孩子，或因稚气、可爱之意。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由指人类幼儿转指幼小的动物，因同属“幼小”类别。"
+    }
+  ]
+}

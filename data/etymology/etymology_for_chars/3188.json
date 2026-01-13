@@ -1,0 +1,102 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "捆束，束缚。",
+      "examples": [
+        "缩版以载"
+      ],
+      "traditional_char": "縮"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "由大变小或由长变短；收缩。",
+      "examples": [
+        "收缩",
+        "压缩",
+        "缩小"
+      ],
+      "traditional_char": "縮"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "向后退，往回收，退缩，畏缩。",
+      "examples": [
+        "退缩",
+        "畏缩",
+        "缩手缩脚"
+      ],
+      "traditional_char": "縮"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "理直，直。",
+      "examples": [
+        "自反而缩，虽千万人，吾往矣"
+      ],
+      "traditional_char": "縮"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "滤酒去渣。",
+      "examples": [
+        "缩酒"
+      ],
+      "traditional_char": "縮"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "多年生草本植物“缩砂密”，其种子称为“砂仁”。",
+      "examples": [
+        "缩砂密",
+        "砂仁"
+      ],
+      "traditional_char": "縮"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从糸，宿声。糸表与捆束相关的丝绳，宿作声符，本义为捆束。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由本义“捆束”引申为收缩、缩小，历代文献多见"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由物理收缩比喻为人的退缩、畏缩"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "“理直”义为古义，具体语境下由“收束自身”转为“自持正直”"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由捆束引申为过滤整理，滤酒义"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "metonymy",
+      "note": "“缩砂密”为名物用法，与束缚状丝联系，具体关联古代用法"
+    }
+  ]
+}

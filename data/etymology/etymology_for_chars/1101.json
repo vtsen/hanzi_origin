@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "曼声长吟；歌唱；有抑扬地唱诵诗文",
+      "examples": [
+        "吟咏诗章",
+        "咏叹调",
+        "歌咏"
+      ],
+      "traditional_char": "詠"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "用诗词等抒发、描写感情或景物",
+      "examples": [
+        "咏史",
+        "咏梅",
+        "咏怀"
+      ],
+      "traditional_char": "詠"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "指代诗词，特别是咏物抒情的诗",
+      "examples": [
+        "佳咏"
+      ],
+      "traditional_char": "詠"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从口，永声，表示与口语、吟唱相关。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由吟唱发展为用诗词抒发情感，多见于文学中。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由咏诗的动作转指其具体作品，即诗词本身。"
+    }
+  ]
+}

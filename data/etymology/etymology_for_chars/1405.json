@@ -1,0 +1,87 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "推举，介绍他人。",
+      "examples": [
+        "推荐人才",
+        "举荐贤士"
+      ],
+      "traditional_char": "薦"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "频繁，屡次。",
+      "examples": [
+        "荐饥",
+        "荐臻"
+      ],
+      "traditional_char": "薦"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "进献、奉献（多指祭祀或馈赠）。",
+      "examples": [
+        "荐新",
+        "荐羞",
+        "荐胙"
+      ],
+      "traditional_char": "薦"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "草本植物。",
+      "examples": [
+        "麋鹿食荐"
+      ],
+      "traditional_char": "薦"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "草席，垫子。",
+      "examples": [
+        "草荐",
+        "棕荐"
+      ],
+      "traditional_char": "薦"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 3,
+      "note": "‘薦’为形声字，从艸，荐声，本义为草，与草相关。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "由草本身引申为用草编织成的草席或垫子，见早期用法。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "席垫常用于祭祀，进而引申为进献、祭献。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "由进献引申为推举、推荐。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "垫物层叠，引申为屡次、频繁之意。"
+    }
+  ]
+}

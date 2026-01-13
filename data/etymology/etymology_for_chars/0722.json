@@ -1,0 +1,76 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "痴呆，傻，愚蠢。",
+      "examples": [
+        "呆子",
+        "呆气",
+        "呆里撒奸",
+        "呆霸王调情遭苦打。——《红楼梦》"
+      ],
+      "traditional_char": "呆"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "不灵活，死板，呆板。",
+      "examples": [
+        "呆板",
+        "呆滞",
+        "样子呆，心里灵"
+      ],
+      "traditional_char": "呆"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "发愣，愣住。",
+      "examples": [
+        "呆若木鸡",
+        "呆挣",
+        "宝玉望着只管发起呆来。——《红楼梦》"
+      ],
+      "traditional_char": "呆"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "停留，暂住，同“待”。",
+      "examples": [
+        "呆在家里",
+        "不能在镇头市呆下去了。——《潘虎》",
+        "多呆些日子，等看过樱花再走吧！"
+      ],
+      "traditional_char": "呆"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘呆’为形声字，从口，带声，最早本义为痴呆、傻貌，与“獃”通。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由痴呆、傻引申为不灵活、死板，用于性格或行为。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由痴呆引申为因惊愕或思虑等原因暂时发愣的状态。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "reanalysis",
+      "note": "‘呆’作‘停留’用，或受‘待’影响，后同音通用，含义出现语法化趋势。"
+    }
+  ]
+}

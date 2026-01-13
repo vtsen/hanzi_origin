@@ -1,0 +1,113 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "车箱",
+      "examples": [
+        "驾车者坐于辑上。"
+      ],
+      "traditional_char": "輯"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "聚集材料，编书",
+      "examples": [
+        "编辑",
+        "辑录",
+        "纂辑"
+      ],
+      "traditional_char": "輯"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "聚集很多材料而成的书刊",
+      "examples": [
+        "这本杂志新出了一辑。"
+      ],
+      "traditional_char": "輯"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "使和睦，和好",
+      "examples": [
+        "辑睦",
+        "邦家辑和"
+      ],
+      "traditional_char": "輯"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "敛，拖着不便脱落",
+      "examples": [],
+      "traditional_char": "輯"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "连缀（同“缉”）",
+      "examples": [
+        "辑绪"
+      ],
+      "traditional_char": "輯"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "古代协调驾车的众马",
+      "examples": [
+        "六马同辑"
+      ],
+      "traditional_char": "輯"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从车，咠声。本义为车箱。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "metonymy",
+      "note": "从车箱引申为协调驾车的众马，见古文。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "车箱汇聚物品，引申为聚集材料编书。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由编书动作为成品书籍之义。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "聚集、整合的动作引申为使人和睦。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "聚合引申为敛、收拢之义。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "由汇聚引申为连缀（与“缉”义同）。"
+    }
+  ]
+}

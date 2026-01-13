@@ -1,0 +1,59 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "interjection",
+      "meaning": "表示轻微的惊异，有时带有玩笑的语气。",
+      "examples": [
+        "哟，你踩我脚了。",
+        "喲！你怎麼這些話喲？"
+      ],
+      "traditional_char": "喲"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "particle",
+      "meaning": "用在句尾表示感叹或祈使的语气。",
+      "examples": [
+        "用力拉哟！",
+        "我們不行喲，還得你老人家操心哪！"
+      ],
+      "traditional_char": "喲"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "particle",
+      "meaning": "用在歌词中作衬字，无实际意义。",
+      "examples": [
+        "呼儿嗨哟！"
+      ],
+      "traditional_char": "喲"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘喲’为形声字，从口，约声，表与惊叹相关的声音。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘哟’为‘喲’的简化字，亦为形声字，从口，约声。‘哟’的所有义项同‘喲’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "grammaticalization",
+      "note": "由叹词转化为语气助词，语法化。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "语气助词进一步用于歌词中，成为衬字。"
+    }
+  ]
+}

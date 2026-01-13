@@ -1,0 +1,159 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "米中的小虫",
+      "examples": [
+        "强，米中虫也。从虫，弘声。——《说文解字》"
+      ],
+      "traditional_char": "強"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "健壮，有力，与“弱”相对",
+      "examples": [
+        "强壮",
+        "年富力强",
+        "富强",
+        "身强体壮"
+      ],
+      "traditional_char": "強"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "程度高、能力强",
+      "examples": [
+        "强烈",
+        "强酸",
+        "强手",
+        "能力强"
+      ],
+      "traditional_char": "強"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "胜过，优越，好",
+      "examples": [
+        "争强好胜",
+        "他比你更强"
+      ],
+      "traditional_char": "強"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "有余，略多于某数",
+      "examples": [
+        "强半（超过一半）",
+        "十强三（十个多三）"
+      ],
+      "traditional_char": "強"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "使用强力，硬性地",
+      "examples": [
+        "强占",
+        "强加",
+        "强攻",
+        "强横",
+        "强梁"
+      ],
+      "traditional_char": "強"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "着重，增加分量",
+      "examples": [
+        "强化",
+        "增强"
+      ],
+      "traditional_char": "強"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "verb",
+      "meaning": "硬要，迫使，尽力",
+      "examples": [
+        "强使",
+        "强迫",
+        "强词夺理",
+        "勉强"
+      ],
+      "traditional_char": "強"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "adjective",
+      "meaning": "固执，强硬不屈",
+      "examples": [
+        "倔强",
+        "强嘴"
+      ],
+      "traditional_char": "強"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从虫，弘声。最初指米中的小虫，后音义分化。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_shift",
+      "note": "由米中小虫引申为有力勇健，东汉以降。具体机制不明。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由“强壮”引申为“程度高”、“能力强”，自然扩展。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由强壮引申为优越、胜过他人，唐宋已见。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "由强大引申为“有余，略多于某数”，比喻手段。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "conversion",
+      "note": "由形容词转为动词，表示“以强力为之”。"
+    },
+    {
+      "source_index": 5,
+      "target_index": 6,
+      "evolution_type": "semantic_extension",
+      "note": "由“强力为之”转为“着重，增强”。"
+    },
+    {
+      "source_index": 5,
+      "target_index": 7,
+      "evolution_type": "semantic_extension",
+      "note": "从“用强力”引申为“强迫”。现代汉语常用。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 8,
+      "evolution_type": "semantic_shift",
+      "note": "由“刚强”转为“固执强硬”，古今皆有例。"
+    }
+  ]
+}

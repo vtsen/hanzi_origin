@@ -1,0 +1,84 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "宰杀牲畜",
+      "examples": [
+        "屠牛",
+        "屠羊为市"
+      ],
+      "traditional_char": "屠"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "大量残杀（引申义）",
+      "examples": [
+        "屠杀",
+        "屠城"
+      ],
+      "traditional_char": "屠"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "宰杀牲畜的人，屠夫",
+      "examples": [
+        "屠户",
+        "屠夫"
+      ],
+      "traditional_char": "屠"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "古书上说的一种草、草庵或古代一种酒名（用于“屠苏”）",
+      "examples": [
+        "屠苏酒",
+        "屠苏草"
+      ],
+      "traditional_char": "屠"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [],
+      "traditional_char": "屠"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从尸，者声。表示宰杀牲畜的动作，‘尸’与人和祭祀相关，‘者’表声。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由宰杀牲畜引申为大规模残杀，语义扩大，汉以后常见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "conversion",
+      "note": "动词转为名词，用于指宰杀牲畜的人（屠夫），汉代文献已见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "unknown",
+      "note": "“屠苏”为合成词，‘屠’单独用时与本义无明显联系，用法来源有争议，缺乏直接语义链。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "function_word",
+      "note": "用作姓氏，语义脱离，常见于中国姓氏由职业或身份转化而来。"
+    }
+  ]
+}

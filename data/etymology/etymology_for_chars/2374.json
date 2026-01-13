@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "聚合，集合到一起",
+      "examples": [
+        "拼凑",
+        "凑钱",
+        "凑数"
+      ],
+      "traditional_char": "湊"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "接近，靠近",
+      "examples": [
+        "凑近",
+        "往前凑"
+      ],
+      "traditional_char": "湊"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "碰上，赶上，正好逢到",
+      "examples": [
+        "凑巧"
+      ],
+      "traditional_char": "湊"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，奏声，表示水流会合之意，后引申为聚合。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由聚合引申为接近、靠近，意指物体趋向一处。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "从‘接近’进一步引申为偶然赶上、碰巧的意思。"
+    }
+  ]
+}

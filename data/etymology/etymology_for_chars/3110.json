@@ -1,0 +1,113 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "particle",
+      "meaning": "语气助词，表示道理显而易见，或强调理所当然。",
+      "examples": [
+        "不会不要紧，边干边学嘛。",
+        "别灰心，这是头一回嘛。",
+        "他不就站在你的对面和你谈话嘛！"
+      ],
+      "traditional_char": "嘛"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "particle",
+      "meaning": "语气助词，用于疑问，表示追问或反问。",
+      "examples": [
+        "你看嘛？小顺子？",
+        "得过口儿嘛。",
+        "孩儿，莫不是俺无分共伊嘛？"
+      ],
+      "traditional_char": "嘛"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "particle",
+      "meaning": "语气助词，表示建议或期望。",
+      "examples": [
+        "你鼻子下长着嘴，讲嘛！"
+      ],
+      "traditional_char": "嘛"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "particle",
+      "meaning": "助词，用于句中停顿，点明下文。",
+      "examples": [
+        "打仗嘛，我还不能自如地往枪膛里装子弹；动员人民嘛，我嘴上只有书本上的枯燥的语言。"
+      ],
+      "traditional_char": "嘛"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "pronoun",
+      "meaning": "方言。代词，什么。",
+      "examples": [
+        "该干嘛的赶紧去干嘛。",
+        "干嘛要半途而废，做好事就要做到底。"
+      ],
+      "traditional_char": "嘛"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "佛教“六字真言”之一。",
+      "examples": [],
+      "traditional_char": "嘛"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "见“喇嘛”。",
+      "examples": [],
+      "traditional_char": "嘛"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘嘛’为口字旁，表语气词，右边‘麻’为声旁，声符表音，语气词义为本义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "语气词用法向疑问语气扩展，常见于会话。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由强调延伸为提建议、期望的语气。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "话中停顿点出下文，语气功能细化。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "conversion",
+      "note": "由语气词演变为方言代词“什么”，部分地区口语现象。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "unknown",
+      "note": "佛教梵语音译，义项来源复杂，与本义直接关系不明。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "unknown",
+      "note": "‘喇嘛’音译用字，直接借自“嘛”表音，义源待考。"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "含脂肪多的，与“瘦”相对",
+      "examples": [
+        "肥肉",
+        "肥胖",
+        "肥硕",
+        "肥马轻裘"
+      ],
+      "traditional_char": "肥"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "土质含养分多的，肥沃",
+      "examples": [
+        "土地肥沃",
+        "田地肥美"
+      ],
+      "traditional_char": "肥"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "能增加田地养分的东西（如粪、豆饼、化肥等）",
+      "examples": [
+        "上肥",
+        "化肥",
+        "肥料",
+        "肥力"
+      ],
+      "traditional_char": "肥"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "使田地增加养分",
+      "examples": [
+        "肥田",
+        "肥地"
+      ],
+      "traditional_char": "肥"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "（衣服、鞋袜等）宽大，与“瘦”相对",
+      "examples": [
+        "衣服肥大",
+        "肥瘦儿"
+      ],
+      "traditional_char": "肥"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意字，从肉，表示与脂肪多有关，最初指肥胖、含脂肪多。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由“脂肪多”引申为“土壤含养分多”，汉代已有。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由“土壤肥沃”而称呼增加土壤养分的事物为“肥”，宋元时期普及。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "conversion",
+      "note": "名词“肥”（肥料）转为动词“肥”（施肥），近现代普遍。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "由“体胖宽大”比喻为衣物宽大，明清以来口语常用。"
+    }
+  ]
+}

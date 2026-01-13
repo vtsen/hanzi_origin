@@ -1,0 +1,117 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "水流翻腾、奔流",
+      "examples": [
+        "大江滚滚东去。"
+      ],
+      "traditional_char": "滾"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "形容急速地翻腾（如风、烟等）",
+      "examples": [
+        "风烟滚滚。"
+      ],
+      "traditional_char": "滾"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "水沸腾，烧开",
+      "examples": [
+        "滚开。",
+        "水已滚沸。"
+      ],
+      "traditional_char": "滾"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "旋转着移动",
+      "examples": [
+        "滚动。",
+        "翻滚。",
+        "后滚翻。"
+      ],
+      "traditional_char": "滾"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "走开，离开（表示斥责）",
+      "examples": [
+        "滚出去！"
+      ],
+      "traditional_char": "滾"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "沿着衣服等边缘缝上布条、带子等",
+      "examples": [
+        "滚边。"
+      ],
+      "traditional_char": "滾"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "adverb",
+      "meaning": "很，极，特别",
+      "examples": [
+        "滚烫。",
+        "滚圆。",
+        "滚瓜流油。"
+      ],
+      "traditional_char": "滾"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘滚’为形声字，从水，衮声。本义为大水奔流貌，‘水’表意，‘衮’表声。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由水奔流转喻为风烟等翻腾，文献多见于后世。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "从水流动比喻到水沸腾。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由水奔流扩展为物体旋转移动。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "semantic_shift",
+      "note": "动作义引申为命令、粗暴驱逐，19世纪以后口语。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "由‘滚动’引申到缝纫方法，因织物缝成圆形卷边。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 6,
+      "evolution_type": "metaphor",
+      "note": "滚动的圆满-引申为程度极高，修饰形容词。"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "接受；承受（他人给予的东西、权利、恩惠等）",
+      "examples": [
+        "接受礼物",
+        "受教",
+        "受托",
+        "受聘",
+        "受益"
+      ],
+      "traditional_char": "受"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "忍受（某种不利的事情或情况）",
+      "examples": [
+        "受苦",
+        "受窘",
+        "受制",
+        "受累"
+      ],
+      "traditional_char": "受"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "遭遇（不良的事情或处境）",
+      "examples": [
+        "受害",
+        "受挫",
+        "受屈",
+        "受辱",
+        "受阻"
+      ],
+      "traditional_char": "受"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "适合；能被某种情形、对象接受",
+      "examples": [
+        "受吃",
+        "受看",
+        "受听",
+        "受使"
+      ],
+      "traditional_char": "受"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意字，两手夹舟表示传递、接受东西，甲骨文有明显形体，原义为接受。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从单纯的接受发展到忍受外界的不利遭遇，发生于上古至中古。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由接受引申为遭遇（多指负面），汉代用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "从“接受”引申为“适合、能被接受”，元明以后普遍。"
+    }
+  ]
+}

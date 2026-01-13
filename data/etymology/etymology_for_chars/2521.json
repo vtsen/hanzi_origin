@@ -1,0 +1,81 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "多，广，大",
+      "examples": [
+        "渊博",
+        "广博",
+        "博大精深",
+        "博爱"
+      ],
+      "traditional_char": "博"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "知道得多，学识渊博",
+      "examples": [
+        "博古通今",
+        "博学"
+      ],
+      "traditional_char": "博"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "用自己的行动获得",
+      "examples": [
+        "博取",
+        "博得",
+        "聊博一笑"
+      ],
+      "traditional_char": "博"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "古代的一种棋戏，后泛指赌博游戏",
+      "examples": [
+        "博奕",
+        "赌博",
+        "聚而为博"
+      ],
+      "traditional_char": "博"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，“尃”表声，“十”表意，表示广大的分布。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“大、广”等意义引申为学识广博。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "“广、大”之意引申出“争取、获得许多”的用法。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由古棋戏或赌博“博”引申出争取得到的意思。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "由“广、大”引申为古棋戏，多人参与，范围广。"
+    }
+  ]
+}

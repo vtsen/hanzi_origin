@@ -1,0 +1,86 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "积聚，蓄藏",
+      "examples": [
+        "蕴藏着丰富的矿产资源。",
+        "他心中蕴藏着巨大的力量。"
+      ],
+      "traditional_char": "蘊"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "包含，含蓄",
+      "examples": [
+        "这篇文章蕴含着深刻的道理。",
+        "她的话语中蕴涵着期望。"
+      ],
+      "traditional_char": "蘊"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "郁结，气体聚集不散",
+      "examples": [
+        "暑气蕴结于室。",
+        "屋内暑气蕴积，使人难耐。"
+      ],
+      "traditional_char": "蘊"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "宽和有涵容、含蓄有余（用于“蕴藉”）",
+      "examples": [
+        "风流蕴藉。",
+        "然少蕴藉，不修威仪，亦以此见轻。"
+      ],
+      "traditional_char": "蘊"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "conjunction",
+      "meaning": "判断中前后两个命题间存在条件关系（用于“蕴涵”中的逻辑用法）",
+      "examples": [
+        "命题A蕴涵命题B，即如果A成立，则B必成立。"
+      ],
+      "traditional_char": "蘊"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从艸，‘尹’为声符，初义为积聚、蓄藏。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由物理的积聚、蓄藏引申为泛指包含、含蓄，见近现代文献用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由蓄藏引申为气体郁结，尤见于“暑气蕴结”等短语。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由蓄藏、蕴涵的抽象意味转喻为人的性格品质，如‘宽和有蕴藏’。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由‘包含’意义进一步发展为逻辑学上的‘蕴涵’，用作逻辑连词。"
+    }
+  ]
+}

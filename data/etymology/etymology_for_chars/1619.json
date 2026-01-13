@@ -1,0 +1,57 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "悲痛，悲伤的",
+      "examples": [
+        "哀痛欲绝",
+        "哀鸣",
+        "哀思",
+        "诗文凄测动人而华丽称哀艳"
+      ],
+      "traditional_char": "哀"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "悼念",
+      "examples": [
+        "默哀",
+        "哀悼逝者"
+      ],
+      "traditional_char": "哀"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "旧时称死去母亲",
+      "examples": [
+        "哀子(母丧而父存)",
+        "古称居父母丧的人"
+      ],
+      "traditional_char": "哀"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从口，衣声，表示悲痛之情。'衣'作声旁，‘口’表与哭泣、发声相关。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "自悲痛之感引申为表达悼念之行为，见于先秦、两汉文献。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由悼念引申，古代称死母之人为‘哀’，此为举出丧母者以事相关。"
+    }
+  ]
+}

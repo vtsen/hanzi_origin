@@ -1,0 +1,75 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "海水因受日月引力定时涨落的现象",
+      "examples": [
+        "涨潮",
+        "退潮",
+        "潮汐",
+        "江潮连海动，海没无边际"
+      ],
+      "traditional_char": "潮"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "像潮水一样涌动起伏的事物或现象，比喻思绪、情感或社会变动等",
+      "examples": [
+        "思潮",
+        "热潮",
+        "心潮澎湃",
+        "新潮"
+      ],
+      "traditional_char": "潮"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "湿润，含有较多水分",
+      "examples": [
+        "潮气",
+        "返潮",
+        "潮湿"
+      ],
+      "traditional_char": "潮"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "（方言）技术不高，手艺差",
+      "examples": [
+        "手艺潮"
+      ],
+      "traditional_char": "潮"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，朝声。本义为海水涨落之现象。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "用海水涨落的起伏比喻思绪、潮流等事物的起伏变化，汉至近现代见用。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由潮水带来湿气，引申为湿润之意，早于唐宋文献出现。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "“潮”在方言中由表示湿，转用于形容技术不高，有贬义色彩，粤语等南方方言常用法。"
+    }
+  ]
+}

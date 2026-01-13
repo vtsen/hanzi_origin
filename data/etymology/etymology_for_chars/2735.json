@@ -1,0 +1,110 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "小孩子",
+      "examples": [
+        "儿童",
+        "童真",
+        "童趣"
+      ],
+      "traditional_char": "童"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "旧时未成年的仆人",
+      "examples": [
+        "书童",
+        "仆童"
+      ],
+      "traditional_char": "童"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "没有结婚的（用于男女）",
+      "examples": [
+        "童男",
+        "童女",
+        "童贞"
+      ],
+      "traditional_char": "童"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "未长成的（尤指动物）",
+      "examples": [
+        "童牛"
+      ],
+      "traditional_char": "童"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "秃，光秃（如山、头部）",
+      "examples": [
+        "童山",
+        "头童齿豁"
+      ],
+      "traditional_char": "童"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "瞳孔（古同“瞳”）",
+      "examples": [
+        "童子（古义作瞳孔）"
+      ],
+      "traditional_char": "童"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "other",
+      "meaning": "姓氏",
+      "examples": [],
+      "traditional_char": "童"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "形声字，从重省声，初义为未成年男仆。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "由未成年仆人扩展为一般小孩子的称呼，早见于先秦。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由未成年扩展出未婚之意，用以修饰‘男’‘女’等，汉代已见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "儿童含义进一步泛化，指未长成的动物，多见于造词。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "未成年孩童头发稀少，引申为秃、光秃，主要用于地貌和头部。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "古文中‘童’假借作‘瞳’，故有此义，见于早期文献，后归正‘瞳’。"
+    }
+  ]
+}

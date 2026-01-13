@@ -1,0 +1,40 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "接近，将要临近某状态或事物",
+      "examples": [
+        "濒危",
+        "濒死",
+        "濒临破产"
+      ],
+      "traditional_char": "瀕"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "靠近水边，临近水域，与“滨”同义",
+      "examples": [
+        "濒海",
+        "濒湖"
+      ],
+      "traditional_char": "瀕"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "瀕形声字，从水，频声。最初用于表示靠近水边的意思。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "由具体的临近水域扩展到泛指接近任何事物或状态，出现于后期文献。"
+    }
+  ]
+}

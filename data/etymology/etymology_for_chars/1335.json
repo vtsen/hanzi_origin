@@ -1,0 +1,40 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "困难，难以办到。",
+      "examples": [
+        "艰难",
+        "艰辛",
+        "艰苦卓绝"
+      ],
+      "traditional_char": "艱"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "指父母丧事。",
+      "examples": [
+        "丁艰",
+        "母艰"
+      ],
+      "traditional_char": "艱"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从艹（艮），艮声，表示与土难治理相关。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由“困难”引申为“父母丧事”，因丧事为人生大难。"
+    }
+  ]
+}

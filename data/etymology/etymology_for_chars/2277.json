@@ -1,0 +1,103 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "疆界，土地",
+      "examples": [
+        "王土之略。",
+        "略地而守。"
+      ],
+      "traditional_char": "略"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "计谋，策略",
+      "examples": [
+        "方略已定。",
+        "智谋与勇略兼备。"
+      ],
+      "traditional_char": "略"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "抢夺，掠夺",
+      "examples": [
+        "攻城略地。",
+        "侵略他国。"
+      ],
+      "traditional_char": "略"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "省略，简化",
+      "examples": [
+        "其余从略。",
+        "省略部分内容。"
+      ],
+      "traditional_char": "略"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "大致，粗略，不详细",
+      "examples": [
+        "大略知道。",
+        "略有所闻。"
+      ],
+      "traditional_char": "略"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "简要的叙述",
+      "examples": [
+        "史略。",
+        "要略。"
+      ],
+      "traditional_char": "略"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从田，各声，表示封疆或土地的界限。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由土地疆界引申为夺取土地，即掠夺，见先秦用法。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "因战争掠地行为需策略，‘略’由军事行动转指计谋。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "策略引申为大致、概要等抽象意思。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由‘大致’引申为‘简化、省略’。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "‘略’指简要之意用于表示‘简要叙述’。"
+    }
+  ]
+}

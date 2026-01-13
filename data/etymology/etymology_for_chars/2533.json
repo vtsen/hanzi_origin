@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "放置；摆放",
+      "examples": [
+        "把书搁在桌上",
+        "请把包搁这里"
+      ],
+      "traditional_char": "擱"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "停滞，停止进展",
+      "examples": [
+        "事情被搁下了",
+        "这项工作暂时搁置"
+      ],
+      "traditional_char": "擱"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "承受，禁受",
+      "examples": [
+        "他搁得住这么多苦",
+        "搁不住揉搓"
+      ],
+      "traditional_char": "擱"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从手，阁声，表现‘放置’的动作"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "‘放置’引申为‘暂时停止进展’，语义扩展，多见于文书语境"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "‘放置’意发展出‘禁受、承受’的意义，具体机制存争议"
+    }
+  ]
+}

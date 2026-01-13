@@ -1,0 +1,57 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "军队得胜归来时所奏的乐曲，胜利之乐。",
+      "examples": [
+        "奏凯而归",
+        "凯歌高奏"
+      ],
+      "traditional_char": "凱"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "和顺，和善，柔和。",
+      "examples": [
+        "凯风自南，吹彼棘薪"
+      ],
+      "traditional_char": "凱"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [],
+      "traditional_char": "凱"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "‘凱’为形声字，从几，豈声。本义为和善、柔和，后引申为凯旋、胜利乐曲。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_shift",
+      "note": "由“和、柔和”引申为与胜利相关的吉祥、音乐（乐曲）含义，秦汉以后普遍使用。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "conversion",
+      "note": "由名词引申为姓氏用法，属于名物转化。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "conversion",
+      "note": "由表性质的字直接用作姓氏，属于名词化应用。"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "浸湿；使沾湿表面",
+      "examples": [
+        "雨水沾衣。",
+        "露水沾草。"
+      ],
+      "traditional_char": "沾"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "因接触而附着上水或其他东西",
+      "examples": [
+        "手沾水。",
+        "沾污。"
+      ],
+      "traditional_char": "沾"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "染上（多指不好的东西）",
+      "examples": [
+        "沾染恶习。",
+        "不良习惯容易沾染。"
+      ],
+      "traditional_char": "沾"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "因关系而获得利益",
+      "examples": [
+        "沾光。",
+        "沾包。"
+      ],
+      "traditional_char": "沾"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，詹声。最初义为用水浸湿。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“浸湿”推广为“因接触而附着上”"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由物理上附着引申为抽象的“染上（坏习惯等）”"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由物理上接触附着引申为社会关系中因关系受益"
+    }
+  ]
+}

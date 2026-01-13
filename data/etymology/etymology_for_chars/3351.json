@@ -1,0 +1,57 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "把东西无代价地送给别人",
+      "examples": [
+        "赠与",
+        "赠礼",
+        "赠言",
+        "赠别",
+        "赠送",
+        "回赠"
+      ],
+      "traditional_char": "贈"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "（古代）皇帝为已死的官员及其亲属加封",
+      "examples": [
+        "追赠"
+      ],
+      "traditional_char": "贈"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "驱除",
+      "examples": [
+        "以赠恶梦"
+      ],
+      "traditional_char": "贈"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从贝，表示与财物有关，曾为声旁，本义为赠送。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "“赠送”义泛化至加封（赠官、赠爵），语义发展见于中古用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "unknown",
+      "note": "“赠”义引申为“驱除”，推测为隐喻或特殊用法，具体机制难以确定。"
+    }
+  ]
+}

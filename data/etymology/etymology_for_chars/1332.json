@@ -1,0 +1,88 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "把车套在牲口身上，使其拉车或农具",
+      "examples": [
+        "驾车",
+        "驾辕"
+      ],
+      "traditional_char": "駕"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "古代车乘的总称，亦特指帝王的车，转指帝王",
+      "examples": [
+        "车驾",
+        "法驾"
+      ],
+      "traditional_char": "駕"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "使开动，操纵（如车辆、机械等）",
+      "examples": [
+        "驾驶",
+        "驾驭"
+      ],
+      "traditional_char": "駕"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "在……上或超出，在上空",
+      "examples": [
+        "驾云",
+        "凌驾"
+      ],
+      "traditional_char": "駕"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "other",
+      "meaning": "对人的敬辞，表示尊敬、礼貌",
+      "examples": [
+        "大驾光临",
+        "尊驾",
+        "劳驾"
+      ],
+      "traditional_char": "駕"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从马，加声，原指以轭加于马以牵车。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“驾马”引申为车乘之总称，尤其是车本身。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由驾车引申为操纵、控制交通工具或器械。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由“驾驶”进一步比喻引申为在空中超越、在其上。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "由帝王车乘转指帝王，再转为对人的敬称。"
+    }
+  ]
+}

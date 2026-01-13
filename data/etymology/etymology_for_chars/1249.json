@@ -1,0 +1,72 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "船只停靠岸边",
+      "examples": [
+        "船泊于岸。",
+        "停泊"
+      ],
+      "traditional_char": "泊"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "停留，暂住",
+      "examples": [
+        "飘泊",
+        "旅人四处漂泊"
+      ],
+      "traditional_char": "泊"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "湖泊，小型水域",
+      "examples": [
+        "湖泊",
+        "水泊",
+        "血泊"
+      ],
+      "traditional_char": "泊"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "安静、淡泊",
+      "examples": [
+        "淡泊",
+        "澹泊明志"
+      ],
+      "traditional_char": "泊"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，白声。本义为船只停靠与水边。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由船只停靠引申为停留或暂居，先秦即有用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "本指停船之处，引申为较大静水之处即“湖泊”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由水面平静，引申为人的心境安静、淡泊。"
+    }
+  ]
+}

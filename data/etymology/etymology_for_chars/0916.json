@@ -1,0 +1,100 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "小土山",
+      "examples": [
+        "附娄，小土山也。——《说文》"
+      ],
+      "traditional_char": "附"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "另外加上，随带着",
+      "examples": [
+        "邮件内有附件。",
+        "附体"
+      ],
+      "traditional_char": "附"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "同意，赞同",
+      "examples": [
+        "随声附和"
+      ],
+      "traditional_char": "附"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "捎带，顺便托带",
+      "examples": [
+        "一男附书至"
+      ],
+      "traditional_char": "附"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "靠近，贴近",
+      "examples": [
+        "附近",
+        "附耳低言"
+      ],
+      "traditional_char": "附"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "依从，归顺",
+      "examples": [
+        "依附",
+        "归附"
+      ],
+      "traditional_char": "附"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从“阜”表示小土山，地势高低相关，以“付”为声旁。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "从地理‘贴近’阜转喻为一般事物靠近。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由靠近引申为追加、附加。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 5,
+      "evolution_type": "metaphor",
+      "note": "贴近引申为依从、归附某人或势力。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由靠近平移到顺便捎带。"
+    },
+    {
+      "source_index": 5,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "依从引申为同意、赞同之意。"
+    }
+  ]
+}

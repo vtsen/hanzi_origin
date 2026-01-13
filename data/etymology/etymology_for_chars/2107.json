@@ -1,0 +1,86 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古代有短脚盛食物的木托盘",
+      "examples": [
+        "举案齐眉"
+      ],
+      "traditional_char": "案"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "长形的桌子或架起来代替桌子用的长木板",
+      "examples": [
+        "书案",
+        "案板",
+        "拍案而起"
+      ],
+      "traditional_char": "案"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "提出计划、方法和建议的文件或记录",
+      "examples": [
+        "议案",
+        "提案",
+        "有案可查"
+      ],
+      "traditional_char": "案"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "事件，特指涉及法律问题的事件",
+      "examples": [
+        "案件",
+        "破案",
+        "案犯"
+      ],
+      "traditional_char": "案"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "同“按”，按压、查考等义",
+      "examples": [],
+      "traditional_char": "案"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从木，安声。‘木’为义符表示与器具有关，‘安’为声符。本义为木制有脚盛食器。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由矮脚托盘泛指为更大的木制台面或桌子，约汉代以后。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "因‘案’作为放置公文的桌子，引申为公文、文件等。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "文件、记录引申为所记录的具体事件，特指法律事件。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "‘案’假借作‘按’，用作动词，表示按压、查考等。"
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "安静、安定，平安",
+      "examples": [
+        "靖冥",
+        "靖默"
+      ],
+      "traditional_char": "靖"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "平定，使秩序安定",
+      "examples": [
+        "绥靖",
+        "靖难"
+      ],
+      "traditional_char": "靖"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "图谋，谋议",
+      "examples": [
+        "实靖夷我邦"
+      ],
+      "traditional_char": "靖"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "恭敬",
+      "examples": [
+        "士处靖，敬老与贵，交不失礼"
+      ],
+      "traditional_char": "靖"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "静止，古同“静”",
+      "examples": [],
+      "traditional_char": "靖"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [],
+      "traditional_char": "靖"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从立，青声，表示安静、安定之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由安静、安定引申为使安定（平定）之意，产生于先秦至汉。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由心态安定引申为为人恭敬，礼貌之意。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_shift",
+      "note": "“靖”古同“静”，静止不动之意，用于古文中。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "unknown",
+      "note": "图谋、谋议用法出自早期文献，具体演变机制尚不明确。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "function_word",
+      "note": "用作姓氏，源于本义。"
+    }
+  ]
+}

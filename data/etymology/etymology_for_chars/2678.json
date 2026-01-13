@@ -1,0 +1,73 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "稀疏，指事物之间距离远、间隔大，与“密”相对。",
+      "examples": [
+        "树木稀疏",
+        "人口稀少"
+      ],
+      "traditional_char": "稀"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "浓度小，含水分多的，与“稠”相对。",
+      "examples": [
+        "稀饭",
+        "稀释"
+      ],
+      "traditional_char": "稀"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "少；数量少。",
+      "examples": [
+        "稀罕",
+        "稀奇",
+        "稀少"
+      ],
+      "traditional_char": "稀"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adverb",
+      "meaning": "用在“烂”、“松”等形容词前，表示程度深。",
+      "examples": [
+        "稀烂",
+        "稀松",
+        "稀碎"
+      ],
+      "traditional_char": "稀"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从禾，表示与禾（粮食作物）有关，‘希’为声旁，古义为稀疏。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘稀疏’引申为‘浓度小’、‘含水多’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由‘稀疏’引申为‘数量少’。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "grammaticalization",
+      "note": "由形容词‘稀’用作副词修饰‘烂’、‘松’等，表示程度。"
+    }
+  ]
+}

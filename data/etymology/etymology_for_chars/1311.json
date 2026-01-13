@@ -1,0 +1,91 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "使弯曲，与“伸”相对",
+      "examples": [
+        "屈膝",
+        "屈曲",
+        "屈指可数"
+      ],
+      "traditional_char": "屈"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "低头，降服",
+      "examples": [
+        "威武不屈",
+        "屈服",
+        "屈从"
+      ],
+      "traditional_char": "屈"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "冤枉，叫人不痛快",
+      "examples": [
+        "委屈",
+        "冤屈",
+        "屈辱",
+        "屈就"
+      ],
+      "traditional_char": "屈"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "理亏，亏心",
+      "examples": [
+        "屈心",
+        "理屈词穷"
+      ],
+      "traditional_char": "屈"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "屈原",
+        "屈姓"
+      ],
+      "traditional_char": "屈"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从尸（人卧之形，表示弯曲），出声。表“弯曲”之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由弯曲引申为屈服、低头，意指“身屈则心服”，汉代已见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由身体弯曲引申为心理上的委屈、冤屈，先秦已见。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "从受委屈引申为理亏、亏心。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "conversion",
+      "note": "以本义作姓氏用法。"
+    }
+  ]
+}

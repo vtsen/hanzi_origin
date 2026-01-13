@@ -1,0 +1,75 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "众多，繁多",
+      "examples": [
+        "庶物",
+        "富庶",
+        "庶绩"
+      ],
+      "traditional_char": "庶"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "平民，百姓",
+      "examples": [
+        "黎庶",
+        "庶民",
+        "庶人"
+      ],
+      "traditional_char": "庶"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "宗法制度下指家族中妾生子女，与“嫡”相对",
+      "examples": [
+        "庶子",
+        "庶母",
+        "庶姓"
+      ],
+      "traditional_char": "庶"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adverb",
+      "meaning": "但愿，或许；推测、表示希望或接近",
+      "examples": [
+        "庶竭驽钝，攘除奸凶",
+        "庶免于难",
+        "庶几"
+      ],
+      "traditional_char": "庶"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "“庶”由“厂”象屋宇、与“灬”象火或众多点，表示物众多。表意合成。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由“众多”引申为“众多的平民百姓”用，早见于先秦。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "由“众多”转指宗法旁支庶出的子女。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "由“多”引申出“但愿、或许”，表示希望或接近某种状态，多用于文言。"
+    }
+  ]
+}

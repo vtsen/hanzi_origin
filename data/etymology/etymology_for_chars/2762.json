@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "波浪相激的声音，或指水势盛大。",
+      "examples": [
+        "洶涌澎湃",
+        "波涛澎湃"
+      ],
+      "traditional_char": "湃"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "用冰镇或用冷水浸泡，使物品变冷。",
+      "examples": [
+        "芳官早托了一杯涼水內新湃的茶來。",
+        "放在這冰盤裏湃着。"
+      ],
+      "traditional_char": "湃"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，拜声。初本指水波相激之声。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由水势汹涌引申为冷水或冰镇，使物冷却，语义扩大。"
+    }
+  ]
+}

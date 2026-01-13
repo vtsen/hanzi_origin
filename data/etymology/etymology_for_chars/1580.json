@@ -1,0 +1,73 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "等，等候",
+      "examples": [
+        "待到山花烂漫时",
+        "拭目以待",
+        "请稍待"
+      ],
+      "traditional_char": "待"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "以某种态度或行为加之于人或事物；对待",
+      "examples": [
+        "善待他人",
+        "招待贵宾",
+        "待人接物"
+      ],
+      "traditional_char": "待"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "auxiliary",
+      "meaning": "将，要（古典戏曲、小说和现代方言）",
+      "examples": [
+        "正待出门，有人来了",
+        "待我归来"
+      ],
+      "traditional_char": "待"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "停留，逗留，迟延",
+      "examples": [
+        "你待一会儿再走",
+        "他在这里待了很久"
+      ],
+      "traditional_char": "待"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从彳表动作、行走，寺为声符；本义为等待、等候。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "从“等候”引申为“以某种态度加之于人或事”；举止对人有等待/应对之意。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "grammaticalization",
+      "note": "“待”由“等候”引申为表达将要的助动用法，古典戏曲常见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "由“等待”引申为“停留、逗留”，现代白话常用。"
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "远望，往远处看",
+      "examples": [
+        "登高望远",
+        "望见远山",
+        "眺望"
+      ],
+      "traditional_char": "望"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "看望，拜访",
+      "examples": [
+        "探望亲友",
+        "拜望长者",
+        "看望老人"
+      ],
+      "traditional_char": "望"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "期望，盼望",
+      "examples": [
+        "期望成功",
+        "令人向往",
+        "欲望"
+      ],
+      "traditional_char": "望"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "名望，威望，有名气",
+      "examples": [
+        "声望很高",
+        "名门望族",
+        "威望极大"
+      ],
+      "traditional_char": "望"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "preposition",
+      "meaning": "朝着，向",
+      "examples": [
+        "望东走",
+        "望南而行"
+      ],
+      "traditional_char": "望"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "农历每月十五日前后，月圆之时",
+      "examples": [
+        "望日",
+        "今夜月正望",
+        "十五为望"
+      ],
+      "traditional_char": "望"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "埋怨，责怪",
+      "examples": [
+        "怨望他人",
+        "无可望"
+      ],
+      "traditional_char": "望"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [],
+      "traditional_char": "望"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意字：上“臣”象眼，下“壬”表示人站立，表示人在地上远望。小篆加“月”表望的对象。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由‘远望’引申为‘看望、拜访’，因去亲友家需要远行。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由‘远望’引申为‘期望、盼望’，因眺望有等待、期盼之意。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "‘期望’之意转为‘声望’，由他人对某人的期望转为社会评价。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "function_word",
+      "note": "动词‘望’引申为介词‘朝、向’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "metonymy",
+      "note": "‘望’用以指农历十五月圆之时，因望月而得名。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 6,
+      "evolution_type": "semantic_shift",
+      "note": "‘期望’转为‘失望、责望’，即希望落空而至埋怨。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 7,
+      "evolution_type": "unknown",
+      "note": "‘望’用作姓氏，机制不详，应源自地望或名望。"
+    }
+  ]
+}

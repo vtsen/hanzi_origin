@@ -1,0 +1,76 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "截断、使长形的物体从中间分开",
+      "examples": [
+        "断裂",
+        "截断电线",
+        "断肠"
+      ],
+      "traditional_char": "斷"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "切断、使不中断、禁绝",
+      "examples": [
+        "断粮",
+        "断水",
+        "断流",
+        "断炊",
+        "断奶"
+      ],
+      "traditional_char": "斷"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "判断、判决",
+      "examples": [
+        "判断",
+        "诊断",
+        "断狱"
+      ],
+      "traditional_char": "斷"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adverb",
+      "meaning": "一定、绝对",
+      "examples": [
+        "断乎不可",
+        "断然施行"
+      ],
+      "traditional_char": "斷"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "‘斷’为会意字，从斤，表示用斧斤分割，从㐅；本义为截断。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由具体物体截断发展为抽象意义上的中断、禁绝。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由“分开、截断”引申为“裁决、判断”；常用于审判裁决。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由断定引申为绝对肯定的副词用法。"
+    }
+  ]
+}

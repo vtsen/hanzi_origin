@@ -1,0 +1,93 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "脱掉，解下",
+      "examples": [
+        "释其缨，解其佩。"
+      ],
+      "traditional_char": "釋"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "解说，说明",
+      "examples": [
+        "解释疑难。",
+        "注释古文。",
+        "释文。",
+        "释义。"
+      ],
+      "traditional_char": "釋"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "消除，消散",
+      "examples": [
+        "释疑。",
+        "释怨。",
+        "涣然冰释。"
+      ],
+      "traditional_char": "釋"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "放开，放下",
+      "examples": [
+        "释放。",
+        "保释。",
+        "手不释卷。"
+      ],
+      "traditional_char": "釋"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "佛教创始人释迦牟尼的简称，后泛指佛教",
+      "examples": [
+        "释教。",
+        "释氏。",
+        "释子。",
+        "释藏。",
+        "释典。"
+      ],
+      "traditional_char": "釋"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从采（有解、辨义）睪声，本义为脱掉、解下（见《说文》与现代字源学分析）"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘解下’引申为‘解释、说明’，汉至魏晋用法"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "‘解下’→‘消除’，如解除疑惑，宋代文献普遍"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "‘解下’引申为‘放开’，如释放对象，东汉以降"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "‘释义、解释’之用，经佛教经籍传播后成‘释迦牟尼’、‘佛教’的简称，魏晋南北朝成为固定用法"
+    }
+  ]
+}

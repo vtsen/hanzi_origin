@@ -1,0 +1,82 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "床前横木",
+      "examples": [
+        "古人睡床前的横木称为杠。"
+      ],
+      "traditional_char": "槓"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "一种较粗的棍子",
+      "examples": [
+        "他手里拿着一根杠子。"
+      ],
+      "traditional_char": "槓"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "在阅读或批改文字中作标记而画的粗直线",
+      "examples": [
+        "老师在作业上画了几条杠。"
+      ],
+      "traditional_char": "槓"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "旗杆",
+      "examples": [
+        "广场上立着高高的旗杠。"
+      ],
+      "traditional_char": "槓"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "小桥",
+      "examples": [
+        "村外有一座小杠。"
+      ],
+      "traditional_char": "槓"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从木，工声，表示床前横木，与木料相关。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从专指床前横木扩展为一般粗棍，‘木’的普遍性。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由横木用作旗杆，历史上木杆用途多。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由木横梁引申为小桥。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由实体木棍比喻为标记的直线，形状相似。"
+    }
+  ]
+}

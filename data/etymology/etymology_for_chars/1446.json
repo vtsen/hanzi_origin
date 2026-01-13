@@ -1,0 +1,52 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "细磨，将固体物品磨成粉末",
+      "examples": [
+        "研墨",
+        "研药"
+      ],
+      "traditional_char": "研"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "深入地探求、钻研",
+      "examples": [
+        "研究",
+        "钻研"
+      ],
+      "traditional_char": "研"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "砚台，磨墨的器具（古同“砚”）",
+      "examples": [],
+      "traditional_char": "研"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从石，幵声，与“细磨”本义相关。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由“细磨”引申为对事物的深入探究，常见于学术等抽象层面。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由“细磨”的动作，转指用于磨墨的器具（即‘砚台’）。古代文献用法。"
+    }
+  ]
+}

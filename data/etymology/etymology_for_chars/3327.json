@@ -1,0 +1,87 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "头顶（人的头部顶部）",
+      "examples": [
+        "华颠",
+        "白发苍苍，满头颠发"
+      ],
+      "traditional_char": "顛"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "最高或最初的部分",
+      "examples": [
+        "山颠",
+        "颠末"
+      ],
+      "traditional_char": "顛"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "倾倒，跌倒",
+      "examples": [
+        "颠倒",
+        "颠沛流离"
+      ],
+      "traditional_char": "顛"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "上下跳动，颠簸",
+      "examples": [
+        "颠簸",
+        "车子颠得很厉害"
+      ],
+      "traditional_char": "顛"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "精神错乱（古同“癫”）",
+      "examples": [
+        "颠狂",
+        "颠疾"
+      ],
+      "traditional_char": "顛"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从“页”（意符，头部），“真”（声符）。本义为头顶。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从“头顶”引申为事物的最高或最初部分，如山颠。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "因为头首先着地，引申为“倾倒、跌倒”之意。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "从“倒下”进一步引申为“颠簸、上下跳动”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "因头部与精神失常相关，古同‘癫’表示精神错乱。"
+    }
+  ]
+}

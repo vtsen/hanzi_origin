@@ -1,0 +1,151 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "液体、如水一般移动",
+      "examples": [
+        "河水向东流。",
+        "血流不止。",
+        "泪流满面。"
+      ],
+      "traditional_char": "流"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "像水一样流动或飘散，泛指事物的不定运动",
+      "examples": [
+        "流转他乡。",
+        "流散失所。"
+      ],
+      "traditional_char": "流"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "传播，扩散",
+      "examples": [
+        "流言四起。",
+        "流传百世。"
+      ],
+      "traditional_char": "流"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "江河等流动的水，水流",
+      "examples": [
+        "急流勇进。",
+        "江流入海。"
+      ],
+      "traditional_char": "流"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "像水流的事物（如气流、电流等）",
+      "examples": [
+        "气流紊乱。",
+        "电流通过导线。"
+      ],
+      "traditional_char": "流"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "向坏的方面转变",
+      "examples": [
+        "流于形式。"
+      ],
+      "traditional_char": "流"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "流放，旧时指把犯人送到边远地区服刑",
+      "examples": [
+        "流放边疆。",
+        "被流配云南。"
+      ],
+      "traditional_char": "流"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "noun",
+      "meaning": "品类、等级",
+      "examples": [
+        "上流社会。",
+        "一流人才。"
+      ],
+      "traditional_char": "流"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "noun",
+      "meaning": "不正派的人；地痞流氓",
+      "examples": [
+        "二流子。",
+        "流氓无赖。"
+      ],
+      "traditional_char": "流"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "‘流’为会意字，从水，从㐬，表示水流动的状态。本义为水流动。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由水的流动引申为事物如水流般移动或飘散。汉代已见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由水流引申为信息、名声等的传播。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_narrowing",
+      "note": "专指江河等水流的名词用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "由水流扩展为如水流状的事物，如气流、电流。近现代形成。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "semantic_shift",
+      "note": "引申为事物向不良方向发展，多为抽象用法。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 6,
+      "evolution_type": "metaphor",
+      "note": "把人像水流一样迁徙，引申为流放。秦汉以降形成。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 7,
+      "evolution_type": "metaphor",
+      "note": "抽象名词化，作为品类、等级的称呼，‘流’音义未变。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 8,
+      "evolution_type": "metaphor",
+      "note": "比喻不正派人士像杂乱之水流，明清流氓词义。"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "胎衣，包裹胎儿的膜",
+      "examples": [
+        "胞衣未脱。"
+      ],
+      "traditional_char": "胞"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "生物体的基本结构和功能单位（细胞）",
+      "examples": [
+        "红细胞",
+        "神经细胞"
+      ],
+      "traditional_char": "胞"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "同父母生的兄弟姐妹或同胞國人",
+      "examples": [
+        "胞兄",
+        "同胞",
+        "胞妹"
+      ],
+      "traditional_char": "胞"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从“肉”，表肉体相关，‘包’表声兼带包裹之义，原指胎衣。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由“包裹身体的膜”喻指生物基本单位细胞，近现代生物学术语。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "比喻引申为血缘关系紧密的同胞兄弟姐妹等。古今用法。"
+    }
+  ]
+}

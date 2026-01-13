@@ -1,0 +1,94 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "鸟的颈部毛羽",
+      "examples": [],
+      "traditional_char": "翁"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "年老的男子",
+      "examples": [
+        "渔翁",
+        "塞翁失马，焉知非福"
+      ],
+      "traditional_char": "翁"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "父亲",
+      "examples": [
+        "家祭无忘告乃翁"
+      ],
+      "traditional_char": "翁"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "丈夫的父亲（公公）",
+      "examples": [
+        "翁姑"
+      ],
+      "traditional_char": "翁"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "妻子的父亲（岳父）",
+      "examples": [
+        "翁婿"
+      ],
+      "traditional_char": "翁"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [],
+      "traditional_char": "翁"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从羽，表示鸟颈上的羽毛；‘公’作声符。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "古时以鸟类颈羽形象比喻人类长者的白发或形貌，产生‘老人’义。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由‘年长男子’泛指为‘父亲’，尤见于古文。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由‘父亲’进一步专指‘丈夫的父亲（公公）’。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "从‘父亲’义引申为‘妻子的父亲（岳父）’。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "reanalysis",
+      "note": "姓氏用法源自对‘翁’作为老年男子称谓的称呼或尊称，后用于氏族名。"
+    }
+  ]
+}

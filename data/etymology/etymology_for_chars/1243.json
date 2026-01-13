@@ -1,0 +1,69 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古水名，沽水。",
+      "examples": [
+        "沽则钜野之水也。——《说文》"
+      ],
+      "traditional_char": "沽"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "买，购买。",
+      "examples": [
+        "沽酒",
+        "沽名钓誉"
+      ],
+      "traditional_char": "沽"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "卖，出售。",
+      "examples": [
+        "待价而沽"
+      ],
+      "traditional_char": "沽"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "天津的别称（沽上、沽头）。",
+      "examples": [
+        "沽上",
+        "沽头"
+      ],
+      "traditional_char": "沽"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，古声，表示河流名称。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "以沽水代表天津地区，地名转称呼。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "unknown",
+      "note": "由水名到“买”的意义，具体机制存疑，疑为假借。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "unknown",
+      "note": "由水名到“卖”的意义，具体机制不明，疑为假借用法。"
+    }
+  ]
+}

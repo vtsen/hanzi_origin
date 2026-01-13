@@ -1,0 +1,38 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "雇佣自己为他人做工",
+      "examples": [
+        "为人赁作"
+      ],
+      "traditional_char": "賃"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "出租或借用财物（多指房屋、车辆等）",
+      "examples": [
+        "租赁房屋",
+        "出赁车辆"
+      ],
+      "traditional_char": "賃"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从贝，任声，贝表财物，与雇佣相关。最初本义为给人做雇工。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“为人做工”引申为“租赁、出租、借用财物”。早在中古已见此用法。"
+    }
+  ]
+}

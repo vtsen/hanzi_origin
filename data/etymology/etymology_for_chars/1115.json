@@ -1,0 +1,40 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "买货出卖（做买卖）。",
+      "examples": [
+        "贩卖",
+        "贩运",
+        "贩私"
+      ],
+      "traditional_char": "販"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "买货物出卖的行商或小商人。",
+      "examples": [
+        "商贩",
+        "摊贩"
+      ],
+      "traditional_char": "販"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从贝，‘反’声。‘贝’指钱币、财物，‘反’为声旁。本义为‘贱买贵卖的人’，即做买卖。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "conversion",
+      "note": "动词‘买卖’转化为表示从业者名词，形成‘做买卖的人’之义。"
+    }
+  ]
+}

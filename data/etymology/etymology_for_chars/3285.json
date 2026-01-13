@@ -1,0 +1,72 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "印堂，额头部位，脸部中央（本义）",
+      "examples": [
+        "面有印堂，乃人之面中最明处。"
+      ],
+      "traditional_char": "顔"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "面容，脸色，脸面",
+      "examples": [
+        "容颜",
+        "开颜",
+        "颜面",
+        "笑逐颜开"
+      ],
+      "traditional_char": "顔"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "色彩",
+      "examples": [
+        "颜料",
+        "五颜六色"
+      ],
+      "traditional_char": "顔"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "颜真卿",
+        "颜渊"
+      ],
+      "traditional_char": "顔"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从“页”表示与头部相关，声旁“彦”，初指面部中央印堂处。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由面部中央引申为整个脸、面容；中古汉语已见。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由面容的颜色比喻为色彩，常见于造色颜料等。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "conversion",
+      "note": "“颜”作为姓氏源于古代族号，多取自地名或祖先名。"
+    }
+  ]
+}

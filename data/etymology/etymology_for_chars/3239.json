@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "声音清脆悠扬，响亮。",
+      "examples": [
+        "歌声嘹亮",
+        "嘹亮的军号声",
+        "嘹朗",
+        "嘹唳（清脆的鸣声）",
+        "嘹乱",
+        "嘹嘈"
+      ],
+      "traditional_char": "嘹"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "动物鸣叫时长而响的声音。",
+      "examples": [
+        "嘹湿姑声，咽源惊溅起。——李贺《昌谷诗》",
+        "嘹唳飞空"
+      ],
+      "traditional_char": "嘹"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "闯荡，奔走（方言用法）。",
+      "examples": [
+        "俺家裏少東無西，可着我走南嘹北。——元 楊顯之《酷寒亭》"
+      ],
+      "traditional_char": "嘹"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "病呼（指因病痛发出的呼喊声）。",
+      "examples": [],
+      "traditional_char": "嘹"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "‘嘹’为形声字，从口，尞声，表示鸣叫之声，原指动物鸣叫的清脆响亮声。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "由具体的动物鸣叫之声，扩展为一般声音清脆悠扬、响亮的形容。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "鸣叫引申为因病痛等发出的呼喊声。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "unknown",
+      "note": "‘闯荡’义与本义联系不详，疑为方言或后起用法。"
+    }
+  ]
+}

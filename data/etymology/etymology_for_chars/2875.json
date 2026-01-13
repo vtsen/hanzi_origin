@@ -1,0 +1,61 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "因受外界事物影响而使心理或情绪发生变化或激起内心感动",
+      "examples": [
+        "感动",
+        "感想",
+        "感召",
+        "触景生感"
+      ],
+      "traditional_char": "感"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "对人家的好意表示谢意",
+      "examples": [
+        "感谢",
+        "感恩",
+        "感激",
+        "感愧"
+      ],
+      "traditional_char": "感"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "感觉，知觉，通过感觉器官产生的对外界事物的认识或反应",
+      "examples": [
+        "感知",
+        "感官",
+        "感性",
+        "感触"
+      ],
+      "traditional_char": "感"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从心，咸声，表示因内心而感动，强调心理或情绪变化。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由内心感动引申为对好意表示谢意，见于后起用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由心理感动类推及知觉、反应，属抽象化扩大。"
+    }
+  ]
+}

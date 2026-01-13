@@ -1,0 +1,87 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "牲口棚，用竹木等材料搭建的棚舍。",
+      "examples": [
+        "马栈",
+        "驿栈",
+        "栈房"
+      ],
+      "traditional_char": "棧"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "储存货物或供旅客住宿的房屋。",
+      "examples": [
+        "货栈",
+        "客栈"
+      ],
+      "traditional_char": "棧"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "竹木编成的遮蔽物或其他用具。",
+      "examples": [
+        "马栈",
+        "栈车"
+      ],
+      "traditional_char": "棧"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "用木料等架设的通道。",
+      "examples": [
+        "栈道",
+        "栈桥"
+      ],
+      "traditional_char": "棧"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "通过，越过。",
+      "examples": [
+        "栈山航海"
+      ],
+      "traditional_char": "棧"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从木，戔声，表示用木材搭建的牲口棚。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "牲口棚的意义扩大到一般供住宿与储物的房屋。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "牲口棚引申为竹木编成的遮蔽物等结构。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由竹木结构，引申为用木料搭设的道路或桥梁。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "grammaticalization",
+      "note": "结构实体名词发展为表示“通过、越过”之动词。"
+    }
+  ]
+}

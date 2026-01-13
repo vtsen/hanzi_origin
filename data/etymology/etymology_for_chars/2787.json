@@ -1,0 +1,40 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "处境困迫，生活困苦",
+      "examples": [
+        "家境窘迫",
+        "生活窘困",
+        "贫穷而不窘"
+      ],
+      "traditional_char": "窘"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "使为难，使难堪",
+      "examples": [
+        "他的提问让我十分窘",
+        "被老师问得很窘"
+      ],
+      "traditional_char": "窘"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从穴，君声。本义指为生活或处境所困窘，‘穴’指与居处或窘迫有关"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘困迫’之义引申为‘使人为难、难堪’，汉语常见心理状态引申"
+    }
+  ]
+}

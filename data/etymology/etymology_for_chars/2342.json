@@ -1,0 +1,102 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "马嚼子。",
+      "examples": [
+        "马失其衔。",
+        "马戴銜辔。"
+      ],
+      "traditional_char": "銜"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "用嘴含，用嘴叼。",
+      "examples": [
+        "燕子衔泥。",
+        "衔枚疾走。"
+      ],
+      "traditional_char": "銜"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "含在心里（多指情感、怨恨或哀伤等）。",
+      "examples": [
+        "衔冤负屈。",
+        "衔恨终生。"
+      ],
+      "traditional_char": "銜"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "接受，奉（多指接受命令）。",
+      "examples": [
+        "衔命而行。"
+      ],
+      "traditional_char": "銜"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "指前后相接。",
+      "examples": [
+        "前后衔接。"
+      ],
+      "traditional_char": "銜"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "职务和级别的名号。",
+      "examples": [
+        "军衔",
+        "官衔",
+        "学衔"
+      ],
+      "traditional_char": "銜"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘銜’为形声字，从金（表“金属”），咸声，本义为马嚼子。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由动物口中衔含马嚼子的行为，引申为一般“用嘴含、叼”"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由实际口中之含，引申为心中怀恨、情感等抽象概念"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "“用嘴接纳”引申为“接受、奉命”"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "“口衔”连接事物，引申为前后连接"
+    },
+    {
+      "source_index": 3,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "接受爵号、名号引申为官阶军衔"
+    }
+  ]
+}

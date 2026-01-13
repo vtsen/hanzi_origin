@@ -1,0 +1,120 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "用言语表达意思，说明，讲解。",
+      "examples": [
+        "说话",
+        "说明",
+        "他向我详细地解说了经过。"
+      ],
+      "traditional_char": "說"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "介绍，撮合（如说合，指从中介绍或调解双方）。",
+      "examples": [
+        "说合",
+        "给人说媒"
+      ],
+      "traditional_char": "說"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "言论，主张，观点。",
+      "examples": [
+        "学说",
+        "有一种新的说法。"
+      ],
+      "traditional_char": "說"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "责备，指斥。",
+      "examples": [
+        "数说",
+        "被父母说了一顿。"
+      ],
+      "traditional_char": "說"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "文体名，如韩愈《师说》。",
+      "examples": [
+        "《师说》",
+        "此文为说体。"
+      ],
+      "traditional_char": "說"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "用话劝说别人，使其听从自己的意见。",
+      "examples": [
+        "游说",
+        "他说服了对方。"
+      ],
+      "traditional_char": "說"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "使高兴，使愉悦（古同“悦”）。",
+      "examples": [
+        "说甚乐甚",
+        "说以使之愿。"
+      ],
+      "traditional_char": "說"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从言，兑声，本义为用言语表述、说明。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "表达引申为代人介绍、撮合，通过言语促成关联。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由‘说明’引申为‘言论、主张’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "‘说明’引申为‘指摘、责备’，常见于‘数说’结构。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "说明、谈论发展为文体名，如‘说体’，古文用例。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "semantic_shift",
+      "note": "从‘说明’发展为‘劝说、说服’，强调使人接受说话者观点。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "semantic_shift",
+      "note": "‘说’假借为‘悦’，原非本义，后出现古文用法。"
+    }
+  ]
+}

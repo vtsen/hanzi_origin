@@ -1,0 +1,108 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "赤色玉，美玉的总称",
+      "examples": [
+        "投我以木瓜，报之以琼琚。——《诗经·卫风·木瓜》",
+        "楚子玉自为琼弁玉缨。——《左传》"
+      ],
+      "traditional_char": "瓊"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "博具，古代类似骰子的用具",
+      "examples": [
+        "行五道而投琼曰搏，不投琼曰塞。——成玄英《庄子注疏》",
+        "所擲頭謂之瓊。瓊有五采。——《后汉书·梁冀传》注"
+      ],
+      "traditional_char": "瓊"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "比喻雪或色泽晶莹如玉之物",
+      "examples": [
+        "雪地里踏着碎琼乱玉。——《水浒传》",
+        "華表瓊千尺，層城玉四圍。——明 王洪《詠雪與寮友同賦》"
+      ],
+      "traditional_char": "瓊"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "比喻美女、美好事物",
+      "examples": [
+        "古原三丈穴，深葬一枝瓊。——唐 元稹《江陵三夢》",
+        "繁萼香瓊亂，殘英絳雪遺。——宋 石延年《紅梅花》"
+      ],
+      "traditional_char": "瓊"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "府名，琼州，今海南省",
+      "examples": [
+        "予琼人也，習知琼府州縣之害。——明 海瑞",
+        "後在琼泮得疾，問新教授，乃南安軍人。——宋 洪邁"
+      ],
+      "traditional_char": "瓊"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "adjective",
+      "meaning": "美好的（事物、品德、诗文等）",
+      "examples": [
+        "琼楼玉宇，高处不胜寒。——苏轼《水调歌头》",
+        "琼章（美好的诗文）"
+      ],
+      "traditional_char": "瓊"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“瓊”形声字，从玉，夐声，本义为赤色玉或美玉。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“琼”为“瓊”的简化字，形声结构，从玉，京声，承袭瓊之本义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "因美玉贵重光滑，转指博具"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由美玉的晶莹比喻雪等晶亮美好之物"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由美玉引申喻美女及美好事物"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "以产美玉之地指代地名"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "由实际意义“美玉”引申为“美好的”抽象意义"
+    }
+  ]
+}

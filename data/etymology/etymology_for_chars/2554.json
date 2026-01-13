@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "多年生草本植物，叶圆筒状，中空，茎叶有辣味，是常用的蔬菜或调味品，兼作药用，品种很多",
+      "examples": [
+        "大葱可以用来做葱油饼。",
+        "小葱拌豆腐。"
+      ],
+      "traditional_char": "蔥"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "〔葱头〕a. 多年生草本植物，地下有扁球形鳞，白色或略带紫红色，可食；b. 这种植物的鳞茎。亦称“洋葱”",
+      "examples": [
+        "葱头可以生吃，也可炒菜。"
+      ],
+      "traditional_char": "蔥"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "青色",
+      "examples": [
+        "葱翠",
+        "葱白",
+        "葱绿",
+        "葱茏"
+      ],
+      "traditional_char": "蔥"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字。从艸，悤声，表示植物名，最初指葱这种蔬菜。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "词义扩展至相关的可食用圆葱形植物及其鳞茎，现代汉语。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "因葱叶的颜色而引申为青色、绿色，见于近现代。"
+    }
+  ]
+}

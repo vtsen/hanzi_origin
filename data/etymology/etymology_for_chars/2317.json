@@ -1,0 +1,58 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "不聪明，愚蠢",
+      "examples": [
+        "笨人",
+        "愚笨",
+        "他很笨"
+      ],
+      "traditional_char": "笨"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "不灵巧，拙劣",
+      "examples": [
+        "嘴笨",
+        "手笨",
+        "笨口拙舌"
+      ],
+      "traditional_char": "笨"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "粗重，费力气的",
+      "examples": [
+        "笨重",
+        "笨活",
+        "粗笨"
+      ],
+      "traditional_char": "笨"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 2,
+      "note": "形声字，从竹，本声，竹子粗重，最早指粗笨重的竹品。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 2,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由‘粗重笨拙’引申为‘动作不灵巧’。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "metaphor",
+      "note": "从‘不灵巧’引申为‘不聪明，愚蠢’。"
+    }
+  ]
+}

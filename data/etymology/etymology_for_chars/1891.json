@@ -1,0 +1,40 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "说话，闲谈，聊天（多用于口语或方言）。",
+      "examples": [
+        "有话慢慢唠。",
+        "吃饭间，乡亲们和我唠些家常。",
+        "唠嗑"
+      ],
+      "traditional_char": "嘮"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "唠叨；说起来没完没了，言语絮叨不清，啰嗦。",
+      "examples": [
+        "她一直唠叨，讲一些鸡毛蒜皮的话。",
+        "唠唠叨叨"
+      ],
+      "traditional_char": "嘮"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "‘嘮’为形声字，从口，劳声。本义为唠叨、话多。简化字‘唠’来源于‘嘮’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_narrowing",
+      "note": "由“唠叨、啰嗦”这一原义，狭义发展为一般性“说话、聊天”，多见于现代方言用法。"
+    }
+  ]
+}

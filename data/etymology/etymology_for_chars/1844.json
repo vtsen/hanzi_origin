@@ -1,0 +1,69 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "落叶小乔木，果实为桃，果皮有绒毛，味甜，可食",
+      "examples": [
+        "桃花依旧笑春风",
+        "世外桃源"
+      ],
+      "traditional_char": "桃"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "形状像桃子的事物",
+      "examples": [
+        "棉桃儿"
+      ],
+      "traditional_char": "桃"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "指核桃",
+      "examples": [
+        "桃仁",
+        "桃酥"
+      ],
+      "traditional_char": "桃"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "桃月自幼聪敏"
+      ],
+      "traditional_char": "桃"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从木，兆声，表示桃树，是典型的形声结构。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由桃的原意引申为形状像桃的事物。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "因核桃的果实与桃相似，而以“桃”指代“核桃”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "unknown",
+      "note": "用作姓氏，具体机制不明，历史上多为由地名、植物等转化。"
+    }
+  ]
+}

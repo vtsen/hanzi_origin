@@ -1,0 +1,105 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "食物烧煮到可吃的程度",
+      "examples": [
+        "饭熟了。"
+      ],
+      "traditional_char": "熟"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "植物的果实或种子长成，特指庄稼可收割或有收成",
+      "examples": [
+        "瓜熟蒂落。",
+        "麦子成熟了。"
+      ],
+      "traditional_char": "熟"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "程度深或完全",
+      "examples": [
+        "熟睡。",
+        "熟思熟虑。"
+      ],
+      "traditional_char": "熟"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "做某种工作时间长了，精通而有经验",
+      "examples": [
+        "熟练。",
+        "熟习。",
+        "熟能生巧。"
+      ],
+      "traditional_char": "熟"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "习惯，常见，知道清楚",
+      "examples": [
+        "熟人。",
+        "熟悉。",
+        "轻车熟路。"
+      ],
+      "traditional_char": "熟"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "adjective",
+      "meaning": "经过加工炼制的",
+      "examples": [
+        "熟铁。",
+        "熟石膏。",
+        "熟石灰。"
+      ],
+      "traditional_char": "熟"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从火，孰声。原义为食物煮熟，多见于后起字‘熟’，早期作‘孰’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由食物煮熟引申为植物果实或种子成熟，约先秦至汉代。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "metaphor",
+      "note": "由食物烹煮熟引申为经过加工炼制。古代加工术语常用，唐宋已见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由物理意义转为抽象‘程度深’的意味，形容精神状态等。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由‘熟’的状态引申为工作手熟精通之意，先秦至汉已见。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由‘熟练’进一步引申为对人或事物熟悉、常见。"
+    }
+  ]
+}

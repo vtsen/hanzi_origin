@@ -1,0 +1,57 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "解下、去除负载（原指卸下马匹身上的装备或使马脱离车辆）",
+      "examples": [
+        "停车解马卸车",
+        "卸马"
+      ],
+      "traditional_char": "卸"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "把东西去掉或拿下来",
+      "examples": [
+        "卸装",
+        "卸妆",
+        "拆卸"
+      ],
+      "traditional_char": "卸"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "解除，推脱（责任等）",
+      "examples": [
+        "卸任",
+        "卸肩",
+        "推卸"
+      ],
+      "traditional_char": "卸"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意字：从卩（人形）、止（停）、午（马），表示解下马的负载。本义为解马卸车。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“解下马的负载”扩展为广义的去掉、拿下。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由去除实物引申为解除责任、推卸责任。"
+    }
+  ]
+}

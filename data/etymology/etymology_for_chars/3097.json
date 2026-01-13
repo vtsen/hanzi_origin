@@ -1,0 +1,72 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "（zhǎn）翻身，辗转反侧，身体翻来覆去。",
+      "examples": [
+        "悠哉悠哉，辗转反侧。——《诗·周南·关雎》",
+        "～～反侧"
+      ],
+      "traditional_char": "輾"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "（zhǎn）反复经过、曲折流转，辗转传达。",
+      "examples": [
+        "辗转传说",
+        "～～传说"
+      ],
+      "traditional_char": "輾"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "（zhǎn）回转，转动。",
+      "examples": [
+        "俯窥辗顾，步步生奇。——《徐霞客游记》",
+        "辗动"
+      ],
+      "traditional_char": "輾"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "（niǎn）用圆形的石器等滚压、碾压，多指石碾等器物压榨加工用途。",
+      "examples": [
+        "夜来城外一尺雪，晓驾炭车辗冰辙。——白居易《卖炭翁》",
+        "石碢轢穀曰輾。——《農政全書》",
+        "中央作臺，植以簨軸，循槽轉輾。"
+      ],
+      "traditional_char": "輾"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 2,
+      "note": "‘輾’以‘車’为意符，‘展’为声符，初用于表示车轮旋转、转动之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 2,
+      "target_index": 0,
+      "evolution_type": "metaphor",
+      "note": "由物理上的转动比喻为人在床上翻动。见《诗经》用法，西周至东周。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由回转、反复之物理动作，转喻为事物经历反复曲折。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "由转动引申为滚压、碾压，器具义（如石碾），隋唐后专指为niǎn音。"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "典当，抵押之意",
+      "examples": [
+        "以财物为贴以取钱"
+      ],
+      "traditional_char": "貼"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "粘贴，把一种东西粘附在另一种东西表面",
+      "examples": [
+        "把邮票贴在信封上",
+        "剪贴画"
+      ],
+      "traditional_char": "貼"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "靠近，紧挨",
+      "examples": [
+        "贴近墙壁",
+        "贴心朋友"
+      ],
+      "traditional_char": "貼"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "添补，补助，补贴（如经济上的补助）",
+      "examples": [
+        "补贴费用",
+        "津贴",
+        "倒贴"
+      ],
+      "traditional_char": "貼"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "戏曲中次要的旦角角色名，简称“贴”",
+      "examples": [
+        "她在剧中饰演贴旦一角"
+      ],
+      "traditional_char": "貼"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从贝，表示和货贝、金钱有关，占声，原本表示典当或抵押。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "补贴义自“典当、补助”经济行为扩展而来，宋元以降渐普及。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_shift",
+      "note": "“贴”由押贴旁物之意，演变为“粘贴”，或有货物贴附典当文牒关系。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "从“粘贴”引申为“靠近、紧挨”，如紧贴表面。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "unknown",
+      "note": "戏曲用法，可能与角色身份、经济相关补贴历史有关，具体机制难考。"
+    }
+  ]
+}

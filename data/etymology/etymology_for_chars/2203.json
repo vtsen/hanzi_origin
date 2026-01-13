@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "植物的芽",
+      "examples": [
+        "草木之萌",
+        "新竹之萌"
+      ],
+      "traditional_char": "萌"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "发芽，开始发生",
+      "examples": [
+        "希望开始萌动",
+        "新芽萌发"
+      ],
+      "traditional_char": "萌"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "古同“氓”，指平民或百姓",
+      "examples": [
+        "负萌而走（《说文》）"
+      ],
+      "traditional_char": "萌"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从艸，明声，本指草木初生的芽。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由名词“芽”引申为动词“发芽，开始发展”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "unknown",
+      "note": "‘萌’假借为‘氓’，疑为音近假借，具体语义演变不明。"
+    }
+  ]
+}

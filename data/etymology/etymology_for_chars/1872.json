@@ -1,0 +1,87 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "斩首，断其首身而死",
+      "examples": [
+        "诛戮殆尽，首皆被殊。"
+      ],
+      "traditional_char": "殊"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "断，绝",
+      "examples": [
+        "殊死。",
+        "其交已殊。"
+      ],
+      "traditional_char": "殊"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "不同",
+      "examples": [
+        "殊途同归。",
+        "悬殊。"
+      ],
+      "traditional_char": "殊"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adverb",
+      "meaning": "特别，很",
+      "examples": [
+        "殊功。",
+        "殊荣。",
+        "殊勋。",
+        "特殊。"
+      ],
+      "traditional_char": "殊"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "超过",
+      "examples": [
+        "母氏年殊七十。"
+      ],
+      "traditional_char": "殊"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从攴（歹，表示和死亡相关），朱声，本义为断首、致死。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“斩首致死”扩展为一般“断绝”。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "从“断绝”引申为“不同”，意指有截然的分界。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由“不同”引申为“特别、很”，表示差异突出。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "从“不同”引申为“超过”，指与他人不同因而超越。"
+    }
+  ]
+}

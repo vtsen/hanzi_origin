@@ -1,0 +1,122 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "饲养动物，培植花草",
+      "examples": [
+        "养牛",
+        "养花",
+        "养殖"
+      ],
+      "traditional_char": "養"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "抚育，供给生活品",
+      "examples": [
+        "养育子女",
+        "赡养父母",
+        "抚养小孩"
+      ],
+      "traditional_char": "養"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "生育，生小孩儿",
+      "examples": [
+        "生养众多"
+      ],
+      "traditional_char": "養"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "抚养的（非亲生的）",
+      "examples": [
+        "养子",
+        "养母",
+        "养父"
+      ],
+      "traditional_char": "養"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "教育，训练",
+      "examples": [
+        "培养人才",
+        "教养良好"
+      ],
+      "traditional_char": "養"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "使身心得到滋补和休息",
+      "examples": [
+        "养病",
+        "养心",
+        "养性",
+        "休养生息"
+      ],
+      "traditional_char": "養"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "保护修补",
+      "examples": [
+        "养路工"
+      ],
+      "traditional_char": "養"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从食，羊声，表示饲养动物的动作。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从饲养动物扩展到抚育、供给生活品，古今皆有"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由抚养引申为生育小孩的说法，多见于古文与方言"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "reanalysis",
+      "note": "“养”作关系名词，表示被抚养关系，现代汉语用法"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "从物质供养比喻到精神或才德的培养、训练"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "由供养、抚养引申为涵养、修养自身身心"
+    },
+    {
+      "source_index": 1,
+      "target_index": 6,
+      "evolution_type": "metonymy",
+      "note": "由供给、修护引申为保护、修补之意"
+    }
+  ]
+}

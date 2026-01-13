@@ -1,0 +1,42 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "胡同，里弄，狭长的街道",
+      "examples": [
+        "小巷",
+        "穷街陋巷",
+        "巷战",
+        "巷陌",
+        "陋巷"
+      ],
+      "traditional_char": "巷"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "矿井中横向挖掘的坑道（巷道）",
+      "examples": [
+        "掘进巷道",
+        "矿井巷道"
+      ],
+      "traditional_char": "巷"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从邑，𢌰（xìang）声，最初表胡同、里弄之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由城市街巷比喻矿井中的坑道，用于近现代采矿术语。"
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "停止，不再使用",
+      "examples": [
+        "废除旧制",
+        "废黜皇帝",
+        "废止法规",
+        "实施而不废"
+      ],
+      "traditional_char": "廢"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "没有用的，失去效用的",
+      "examples": [
+        "废话",
+        "废品",
+        "废墟"
+      ],
+      "traditional_char": "廢"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "没有用的东西",
+      "examples": [
+        "三废",
+        "利用废物"
+      ],
+      "traditional_char": "廢"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "荒芜，衰败",
+      "examples": [
+        "田园荒废",
+        "几经兴废"
+      ],
+      "traditional_char": "廢"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "重伤或杀死某人",
+      "examples": [
+        "废了他"
+      ],
+      "traditional_char": "廢"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "房子倾倒",
+      "examples": [],
+      "traditional_char": "廢"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 5,
+      "note": "形声字，从广（房屋）表意，发为声。最初表“房屋倾倒”之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 5,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "“房子倾倒”引申为“荒芜，衰败”；见中古用法。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 0,
+      "evolution_type": "metaphor",
+      "note": "由田园、事物等废弃不用，比喻为“停止、废除”；常见于制度、官职等。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "conversion",
+      "note": "动词含义转为形容词“无用”。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "conversion",
+      "note": "形容词“无用”进一步名词化，指“无用之物”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "动词“废除”在口语中引申为伤残甚至杀死某人。现代口语现象。"
+    }
+  ]
+}

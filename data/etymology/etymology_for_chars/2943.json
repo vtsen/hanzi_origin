@@ -1,0 +1,72 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "鼎上贯通两耳的横杠",
+      "examples": [
+        "鼎键",
+        "古鼎上有一键贯通两耳"
+      ],
+      "traditional_char": "鍵"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "安装在车轴头上管住车轮或使轴与齿轮等连接固定的零件，一般是用钢制的长方条（亦称“辖”）",
+      "examples": [
+        "关键",
+        "车轮以键固之"
+      ],
+      "traditional_char": "鍵"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "插在门上关锁门户的金属棍子",
+      "examples": [
+        "掌授管键以启闭国门",
+        "门以键闭"
+      ],
+      "traditional_char": "鍵"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "琴或机器上使用时用手按动的部分",
+      "examples": [
+        "键盘",
+        "琴键",
+        "电脑键"
+      ],
+      "traditional_char": "鍵"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从金，建声。本指鼎上的横杠，‘金’表与金属有关，‘建’表声。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由鼎上的横杠引申为金属制的连接或固定零部件。该用法出现在车辆制造与机械结构中。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "从机械性的固定零件进一步引申为固定门户的金属棍子。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "器械固定、启动的金属件比喻为乐器或机械上可以按动的部分，用于现代乐器或机器。"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "蜻蜓，一種四翅細腰，善於飛行的昆蟲，捕食小飛蟲，是益蟲。",
+      "examples": [
+        "蜻蜓點水",
+        "海上之人有好蜻者，每居海上，從蜻游，蜻之至者有百數而不止。——《吕氏春秋·精谕》"
+      ],
+      "traditional_char": "蜻"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "蟋蟀的別名，即蜻蛚。",
+      "examples": [
+        "俯聞蜻蛚吟。——張載詩",
+        "蜻蛚，促織也。——《爾雅·釋蟲》"
+      ],
+      "traditional_char": "蜻"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "蝉屬昆蟲的某些種類別稱，如蜻蜻、蜻蛉。",
+      "examples": [
+        "蟬有文者謂之蜻蜻。——《方言》",
+        "蜻蛉謂之蝍蛉。——《方言》",
+        "一名白宿。——《高誘注》"
+      ],
+      "traditional_char": "蜻"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从虫，青声；表昆虫类，初指蜻蜓。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "以蜻蜓形象或声近用作蟋蟀别名，早期文献见蜻蛚义。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "同属昆虫类，以名称泛指外形相似的蝉属昆虫。"
+    }
+  ]
+}

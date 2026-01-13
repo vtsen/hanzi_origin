@@ -1,0 +1,72 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "高声朗读或背诵，经常用于读诗、经典等，有抑扬顿挫的腔调。",
+      "examples": [
+        "诵读诗文",
+        "背诵",
+        "他能流利地诵《论语》"
+      ],
+      "traditional_char": "誦"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "称述，述说。",
+      "examples": [
+        "为王诵之",
+        "诵其事于众"
+      ],
+      "traditional_char": "誦"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "诗歌，特指可以吟诵的诗篇。",
+      "examples": [
+        "作诵",
+        "三百篇皆可诵"
+      ],
+      "traditional_char": "誦"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "怨谤，怨言。",
+      "examples": [
+        "不闻诵言",
+        "众有诵"
+      ],
+      "traditional_char": "誦"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从言，甬声，表示高声朗读或背诵，为本义。‘言’表示与言语相关，‘甬’作声旁。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由高声朗读引申为称述、述说，见先秦用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由可诵读之物转指诗歌，常见词类转移。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由高声背诵引申为诉说、抱怨，见部分古文例。"
+    }
+  ]
+}

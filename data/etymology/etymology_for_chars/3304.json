@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "前额，指人脸头发以下、眉毛以上的部分，或某些动物头部大致与此相当的部位。",
+      "examples": [
+        "额头",
+        "他汗水顺着额流下来。"
+      ],
+      "traditional_char": "額"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "牌匾，上题字的横匾，如门额、匾额。",
+      "examples": [
+        "门额",
+        "匾额"
+      ],
+      "traditional_char": "額"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "规定的数量、定数。",
+      "examples": [
+        "定额",
+        "超额完成任务"
+      ],
+      "traditional_char": "額"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从页，表示与头相关，‘客’作声旁，最初表示‘额头’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "匾额高悬门楣，形似额头，故用‘额’表示题字的匾额。传统多见于古代门匾用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "数量的‘额’，源于计数时常标于额头上部，或比喻‘顶端’、‘规定之处’，语义抽象化而得。"
+    }
+  ]
+}

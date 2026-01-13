@@ -1,0 +1,72 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "火苗升腾；火势旺盛",
+      "examples": [
+        "炎炎夏日",
+        "烈炎炽热"
+      ],
+      "traditional_char": "炎"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "气候的炎热；比喻人情势利或显赫兴盛",
+      "examples": [
+        "趋炎附势",
+        "炎凉世态",
+        "烈日炎炎"
+      ],
+      "traditional_char": "炎"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "身体部位出现红、肿、热、痛现象的疾病，如炎症",
+      "examples": [
+        "感染引起炎症",
+        "肺炎"
+      ],
+      "traditional_char": "炎"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "传说中的帝王名，炎帝",
+      "examples": [
+        "炎帝与黄帝",
+        "中华炎黄子孙"
+      ],
+      "traditional_char": "炎"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意字，由两个“火”组成，表示火苗重叠升腾之意，象征旺盛的火。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "火势旺盛引申为气候炎热、情势显赫等比喻，使用于先秦及后世。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "以火的灼热、红肿形容人体病变，如炎症，汉代以后普遍使用。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "用“炎”为古代帝王号，指炎帝，是中华民族的象征，源于祝融崇拜等。"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "舍弃，抛弃",
+      "examples": [
+        "捐弃旧习",
+        "捐生取义"
+      ],
+      "traditional_char": "捐"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "献出（财物）以助人或公益",
+      "examples": [
+        "捐资助学",
+        "踊跃捐献"
+      ],
+      "traditional_char": "捐"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "（旧时）献钱可得官职",
+      "examples": [
+        "捐官晋爵"
+      ],
+      "traditional_char": "捐"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "赋税的一种",
+      "examples": [
+        "车捐",
+        "房捐"
+      ],
+      "traditional_char": "捐"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从手，肙声。表示弃置、舍弃的动作。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“舍弃”扩展为“无偿给予（财物）”用义，汉魏晋已见。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "以捐献财物取得官职，因捐赠而得名，清代尤盛。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "捐款、捐献引申为“赋税”，多见于明清赋役制度。"
+    }
+  ]
+}

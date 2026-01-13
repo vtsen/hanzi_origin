@@ -1,0 +1,38 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "刨土的工具。",
+      "examples": [
+        "工人手持镐头挖土。"
+      ],
+      "traditional_char": "鎬"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "西周的国都，在今陕西省长安西北。",
+      "examples": [
+        "镐京",
+        "丰镐"
+      ],
+      "traditional_char": "鎬"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘鎬’为形声字，从金，告声。初造时表示挖土的金属工具。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "以工具名指代地名，因地名得于该地盛产或使用此工具，西周都城即由此得名。"
+    }
+  ]
+}

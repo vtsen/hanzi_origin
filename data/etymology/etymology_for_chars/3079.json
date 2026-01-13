@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "栏杆，横木栏杆。",
+      "examples": [
+        "阁中帝子今何在？槛外长江空自流",
+        "倚栏望远，心随槛外水流长。"
+      ],
+      "traditional_char": "檻"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "围圈、关押兽类或囚犯的栅栏或笼子。",
+      "examples": [
+        "槛车",
+        "虎入于槛"
+      ],
+      "traditional_char": "檻"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "门槛，门下的横木。",
+      "examples": [
+        "门槛",
+        "槛外人"
+      ],
+      "traditional_char": "檻"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "形声字，从木，监声。初本指关押兽、囚的木制笼栅。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "由关押之‘栏’引申为一般栏杆，约东汉以后见。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "将关栏的横木比喻为门下的横木用作‘门槛’。"
+    }
+  ]
+}

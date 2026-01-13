@@ -1,0 +1,138 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "肩臂，上肢近肩之处，亦泛指身体的上部。",
+      "examples": [
+        "膊子（胳膊）；赤膊上阵",
+        "聳膊成山字，埋肩不出頭。",
+        "後脛骨二，膊胳也。",
+        "不升肩臂，臑膊骼。"
+      ],
+      "traditional_char": "膊"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "厚切肉、晒干的肉、脯类。",
+      "examples": [
+        "厚膊，厚切肉也。",
+        "薄脯膊之屋上。",
+        "腷腷膊膊雞初鳴。"
+      ],
+      "traditional_char": "膊"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "分裂尸体、磔刑，暴露肢体于城上。",
+      "examples": [
+        "殺而膊諸城上。",
+        "箴之石之，膊而磔之。",
+        "又誅尚、孝哲、乾祐，殊而膊之。"
+      ],
+      "traditional_char": "膊"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "界域，疆界。",
+      "examples": [
+        "福則有膊，禍則有形。",
+        "膊界埒也。"
+      ],
+      "traditional_char": "膊"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "measure_word",
+      "meaning": "古代用于条状物的量词。",
+      "examples": [
+        "一膊炭熯，掇之則爛指。",
+        "一膊，一挺也。"
+      ],
+      "traditional_char": "膊"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "兄长（方言用法）。",
+      "examples": [
+        "膊兄也荆揚之鄙謂之膊。"
+      ],
+      "traditional_char": "膊"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "用同“脖”——颈部。",
+      "examples": [
+        "那劊子手將一條繩套在他膊項上。",
+        "頭膊子都飛紅了。"
+      ],
+      "traditional_char": "膊"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "verb",
+      "meaning": "晒、暴露，特指晒肉、暴露物品。",
+      "examples": [
+        "膊曝也。",
+        "凡暴肉發人之私披牛羊之五藏謂之膊。"
+      ],
+      "traditional_char": "膊"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "形声字，从肉，尃声。本义为厚切肉、脯；同时肉旁意指肉体相关。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 7,
+      "evolution_type": "semantic_extension",
+      "note": "从肉类到晒、曝原义扩展，因脯肉需晒干而生晒肉义。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "metaphor",
+      "note": "由晒肉、厚肉比喻为人的肩臂部因形态相似，古今皆见。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "从厚肉分切引申为分裂尸体——“磔刑”，即将肉体分裂暴露。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "由断肢/条状物抽象出条状物量词。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "厚肉块之切、分，引申为界域、边界，具体机制古文用法残存。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "synecdoche",
+      "note": "以身体部位指代兄长，此为部分代整体的方言用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "semantic_extension",
+      "note": "从臂部进一步泛化用作颈部“脖”，俗用。"
+    }
+  ]
+}

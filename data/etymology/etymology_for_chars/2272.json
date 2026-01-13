@@ -1,0 +1,82 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "唾聲，唾液发出的声音。",
+      "examples": [
+        "啡，唾声。——《玉篇》"
+      ],
+      "traditional_char": "啡"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "鼾声，睡觉时打呼噜的声音。",
+      "examples": [
+        "啡，睡声。——《集韵》"
+      ],
+      "traditional_char": "啡"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "吹气、吹。",
+      "examples": [
+        "蒲皆切，音排。吹也。——《集韵》"
+      ],
+      "traditional_char": "啡"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "咖啡：植物名，为英语coffee的音译。",
+      "examples": [
+        "咖啡是一种常见的饮品。"
+      ],
+      "traditional_char": "啡"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "吗啡：麻醉药名，为英语morphine的音译。",
+      "examples": [
+        "医生谨慎使用吗啡。"
+      ],
+      "traditional_char": "啡"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从口，非声。最初用于表示唾声等声响。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "synecdoche",
+      "note": "唾声、睡声都与口有关，古书记载常混用，均为气息类声响。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "从唾声意义扩展到一般呼气、吹气的动作。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "近现代用于音译外来词“咖啡”，取其音，不取其本义。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 4,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "同理用于音译“吗啡”。"
+    }
+  ]
+}

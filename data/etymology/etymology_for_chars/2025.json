@@ -1,0 +1,72 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "座位",
+      "examples": [
+        "入座",
+        "在座",
+        "座谈"
+      ],
+      "traditional_char": "座"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "托着器物的东西，底座",
+      "examples": [
+        "底座儿",
+        "灯座"
+      ],
+      "traditional_char": "座"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "星空中的星群，星座",
+      "examples": [
+        "天琴座",
+        "狮子座"
+      ],
+      "traditional_char": "座"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "measure_word",
+      "meaning": "用于较大或固定的物体的量词",
+      "examples": [
+        "一座山",
+        "三座桥"
+      ],
+      "traditional_char": "座"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从广，坐声，表示座位。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由“座位”转指器物的底部承托结构。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "星座以天体排列如座位形状而得名，出现在天文学语境。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "grammaticalization",
+      "note": "“座”由具体名词转化为量词，多用于大型或固定建筑、山等。"
+    }
+  ]
+}

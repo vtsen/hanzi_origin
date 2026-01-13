@@ -1,0 +1,198 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "夜空中发光的天体，星星。",
+      "examples": [
+        "满天星斗",
+        "恒星",
+        "行星",
+        "卫星"
+      ],
+      "traditional_char": "星"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "细小颗粒状物；小点。",
+      "examples": [
+        "火星儿四溅",
+        "星星点点"
+      ],
+      "traditional_char": "星"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "秤等衡器上记数用的小点。",
+      "examples": [
+        "定盘星"
+      ],
+      "traditional_char": "星"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "军官或警官肩章上的徽记，多用来表明级别。",
+      "examples": [
+        "五星将军"
+      ],
+      "traditional_char": "星"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "夜间；用于形容夜色。",
+      "examples": [
+        "星行",
+        "星奔"
+      ],
+      "traditional_char": "星"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "星名，二十八宿之一。",
+      "examples": [
+        "参星",
+        "斗星",
+        "宿星"
+      ],
+      "traditional_char": "星"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "像星一样分布或排列，星罗棋布。",
+      "examples": [
+        "星星点点",
+        "村庄星列"
+      ],
+      "traditional_char": "星"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "noun",
+      "meaning": "比喻新出现的杰出人物。",
+      "examples": [
+        "影星",
+        "歌星",
+        "球星"
+      ],
+      "traditional_char": "星"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "noun",
+      "meaning": "古代妇女面上所饰的花点。",
+      "examples": [
+        "黛眉星点"
+      ],
+      "traditional_char": "星"
+    },
+    {
+      "index": 9,
+      "part_of_speech": "noun",
+      "meaning": "以星象推算吉凶祸福的方术。",
+      "examples": [
+        "星相",
+        "星术"
+      ],
+      "traditional_char": "星"
+    },
+    {
+      "index": 10,
+      "part_of_speech": "noun",
+      "meaning": "原子核物理学上指高能粒子射入核乳胶或云室、气泡室时发现有许多径迹从一点发出的现象。",
+      "examples": [
+        "星状径迹"
+      ],
+      "traditional_char": "星"
+    },
+    {
+      "index": 11,
+      "part_of_speech": "noun",
+      "meaning": "用作衡量宾馆、饭店等等级标准的标志。",
+      "examples": [
+        "五星级饭店"
+      ],
+      "traditional_char": "星"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从“晶”（表意，三日为晶表示天上明亮点状事物），“生”作声符，表示‘天上发光之星体’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由天上的星星比喻到细小颗粒状事物，形似取义。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "称衡器上记号为‘星’，因其小点形似星星。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 6,
+      "evolution_type": "semantic_extension",
+      "note": "由小点或颗粒状转为形容分散排列。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "形状像星的小徽记用于军阶标志。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "借星表示夜晚，多见于古文。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "semantic_narrowing",
+      "note": "天上诸星，转为二十八宿之一的专名。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 7,
+      "evolution_type": "metaphor",
+      "note": "比喻出类拔萃者如天上明星。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 8,
+      "evolution_type": "metaphor",
+      "note": "妇女面上的点如小星，小点形象得名。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 9,
+      "evolution_type": "semantic_extension",
+      "note": "从星星本体转指相关占卜方术。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 10,
+      "evolution_type": "analogy",
+      "note": "物理学新义，径迹如星状而用‘星’称。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 11,
+      "evolution_type": "semantic_extension",
+      "note": "军衔为星，转为服务行业等级评定。"
+    }
+  ]
+}

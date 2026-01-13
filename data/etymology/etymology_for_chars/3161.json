@@ -1,0 +1,86 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "漆树，一种落叶乔木，树皮内含有可提取树脂的液汁",
+      "examples": [
+        "漆树可提取树脂制漆。"
+      ],
+      "traditional_char": "漆"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "漆树皮的黏汁或用其做成的涂料",
+      "examples": [
+        "油漆",
+        "漆器",
+        "漆雕"
+      ],
+      "traditional_char": "漆"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "用漆涂抹物体表面",
+      "examples": [
+        "把门窗漆一下。"
+      ],
+      "traditional_char": "漆"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "黑色的，尤指非常黑暗",
+      "examples": [
+        "漆黑一团",
+        "一团漆黑"
+      ],
+      "traditional_char": "漆"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "漆公",
+        "漆先生"
+      ],
+      "traditional_char": "漆"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，桼声，最初表示漆树或与漆树相关的水液。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由漆树引申为从漆树获得的树脂或制成涂料，古今皆见。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "conversion",
+      "note": "“漆”由名词转为动词，表示用漆涂物体表面。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "以漆多为黑色，转喻“黑色”或极黑暗。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "function_word",
+      "note": "由物名、地名等用作姓氏，用字沿用无语义联系。"
+    }
+  ]
+}

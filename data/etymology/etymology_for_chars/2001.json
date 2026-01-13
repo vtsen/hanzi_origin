@@ -1,0 +1,73 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "脑髓，高等动物神经系统的主要部分，在颅腔内，主管感觉和运动，人脑又是思想记忆等心理活动的器官。",
+      "examples": [
+        "大脑",
+        "脑髓",
+        "脑子",
+        "脑神经"
+      ],
+      "traditional_char": "腦"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "头部、头。",
+      "examples": [
+        "脑袋",
+        "脑壳",
+        "头昏脑胀"
+      ],
+      "traditional_char": "腦"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "形状或颜色像脑髓的东西。",
+      "examples": [
+        "豆腐脑儿"
+      ],
+      "traditional_char": "腦"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "从物体中提炼出的精华部分。",
+      "examples": [
+        "樟脑",
+        "薄荷脑"
+      ],
+      "traditional_char": "腦"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从肉，表示与身体相关，从‘巄’（音近），本义为脑髓。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "synecdoche",
+      "note": "由脑髓泛指为‘头’或‘头部’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "因形状或颜色相似，用‘脑’比喻其他类似之物。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "以脑髓为比喻，指各种物质提炼出的精华。"
+    }
+  ]
+}

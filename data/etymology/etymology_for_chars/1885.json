@@ -1,0 +1,104 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "为政治目的结合起来的团体",
+      "examples": [
+        "中国共产党",
+        "党派",
+        "党章"
+      ],
+      "traditional_char": "黨"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "意见相合或由私人利害关系结成的团体",
+      "examples": [
+        "朋党",
+        "死党",
+        "党羽"
+      ],
+      "traditional_char": "黨"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "指亲族",
+      "examples": [
+        "父党",
+        "母党",
+        "妻党"
+      ],
+      "traditional_char": "黨"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "古代地方组织单位，以五百家为一党",
+      "examples": [
+        "五百家为一党"
+      ],
+      "traditional_char": "黨"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [],
+      "traditional_char": "黨"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "adjective",
+      "meaning": "晦暗不明",
+      "examples": [],
+      "traditional_char": "党"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 5,
+      "note": "简化字“党”为形声字，从儿(人)，尚声，本义为“晦暗不明”。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“黨”为形声字，从黑，尚声，本义相关于“集团”，但古时多贬义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 5,
+      "target_index": 0,
+      "evolution_type": "semantic_shift",
+      "note": "由‘晦暗不明’引申至‘结为小集团’（有贬义），后用于政治团体。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由以政治目的结合的团体引申到一般意见相合或利益集团。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由结党之意转指血缘亲族，古代用以指同宗族群体。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "比喻性地用于指古代地方组织单位‘五百家为一党’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "function_word",
+      "note": "由名词转为姓氏用法，常见音义借用。"
+    }
+  ]
+}

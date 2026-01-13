@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "酒味浓烈，香气浓郁",
+      "examples": [],
+      "traditional_char": "酷"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "残忍、暴虐到极点",
+      "examples": [
+        "酷刑",
+        "酷吏",
+        "残酷"
+      ],
+      "traditional_char": "酷"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "极、甚，程度非常深",
+      "examples": [
+        "酷暑",
+        "酷热",
+        "酷寒",
+        "酷爱"
+      ],
+      "traditional_char": "酷"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从酉，表示与酒有关，声旁为‘告’。本义为酒味浓。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由酒味浓烈比喻性格或行为残暴、极端（残酷），见中古用法发展。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由程度极端引申为一般形容极甚、程度深，现代常见。"
+    }
+  ]
+}

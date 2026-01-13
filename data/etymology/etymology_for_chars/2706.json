@@ -1,0 +1,40 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "轻便的小船",
+      "examples": [
+        "游艇",
+        "汽艇"
+      ],
+      "traditional_char": "艇"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "某些大型船艇的通称，尤指潜水艇、鱼雷艇等",
+      "examples": [
+        "潜水艇",
+        "鱼雷艇",
+        "舰艇"
+      ],
+      "traditional_char": "艇"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从舟，廷声。本义为轻便小船。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由指轻便小船扩展为可指某些较大的船只，现代专用于潜水艇、鱼雷艇等。"
+    }
+  ]
+}

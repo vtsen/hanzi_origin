@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古代指有权势的家庭或门第，如门阀、阀阅。",
+      "examples": [
+        "门阀世家",
+        "阀阅之家"
+      ],
+      "traditional_char": "閥"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "凭借权势造成特殊地位的个人或集团（含贬义），如军阀、财阀、党阀等。",
+      "examples": [
+        "军阀割据",
+        "财阀掌控经济"
+      ],
+      "traditional_char": "閥"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "控制机器流体流量、压力或方向的装置，如截止阀、单向阀等，亦称“阀门”、“活门”。",
+      "examples": [
+        "安全阀",
+        "打开阀门"
+      ],
+      "traditional_char": "閥"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从门，伐声，表意为门外树告功柱，指权贵之家。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由封建门第权贵引申为现代贬义的特殊权势集团。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "门阀为门上的“阻隔、控制”之物，引申为控制流体装置。"
+    }
+  ]
+}

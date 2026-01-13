@@ -1,0 +1,87 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "用力推开、除去",
+      "examples": [
+        "挤而出之",
+        "用手把人挤开"
+      ],
+      "traditional_char": "擠"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "用压力使液体等排出",
+      "examples": [
+        "挤压牙膏",
+        "挤奶"
+      ],
+      "traditional_char": "擠"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "互相推拥，用身体排开人或物",
+      "examples": [
+        "大家一起挤上车",
+        "人太多，挤不进去"
+      ],
+      "traditional_char": "擠"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "排斥、排挤",
+      "examples": [
+        "被同事排挤",
+        "挤占资源"
+      ],
+      "traditional_char": "擠"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "许多人或物紧紧靠在一起，许多事情集中在同一时间",
+      "examples": [
+        "人太多，屋里很挤",
+        "作业都挤在一起要交"
+      ],
+      "traditional_char": "擠"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从手，齐声，表手的动作与发音有关，表示用手推开的动作。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "本义‘用手推开’发展为‘用压力使排出’，如挤压牛奶、液体。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "从‘推开’引申为‘互相推拥’的动作，适用于人群等。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "从身体推拥引申比喻到‘排斥’，常用于社会/关系语境。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "从‘互相推拥’引申到‘许多人或物紧紧靠在一起，事情集中’，突出密集状态。"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "乱跑，逃走，尤指隐藏或逃亡（如敌军、匪徒、野兽等）",
+      "examples": [
+        "流窜各地",
+        "抱头鼠窜"
+      ],
+      "traditional_char": "竄"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "放逐，流放",
+      "examples": [
+        "窜逐贬谪"
+      ],
+      "traditional_char": "竄"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "修改文字，涂改增删",
+      "examples": [
+        "窜改历史",
+        "点窜稿件"
+      ],
+      "traditional_char": "竄"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "‘竄’为会意字，从穴，从鼠，表示老鼠进出洞穴，引申为躲藏、逃跑。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘窜’为简化字，从穴，‘串’声，以形声方式简化‘竄’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "逃遁引申为被流放，古代常以贬谪为‘窜’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由‘乱跑’引申为‘改动’，比喻对文字随意改动。"
+    }
+  ]
+}

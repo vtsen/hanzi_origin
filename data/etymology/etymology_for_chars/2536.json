@@ -1,0 +1,41 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "扰乱；使混乱",
+      "examples": [
+        "搅乱秩序",
+        "不要搅闹",
+        "搅扰别人"
+      ],
+      "traditional_char": "攪"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "搅拌；使混合",
+      "examples": [
+        "搅拌食材",
+        "搅匀牛奶",
+        "把水搅浑"
+      ],
+      "traditional_char": "攪"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从手，觉声，表示用手扰乱。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“扰乱”引申为“使物质混合”，历代用法均有体现。"
+    }
+  ]
+}

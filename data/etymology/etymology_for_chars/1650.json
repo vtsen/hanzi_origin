@@ -1,0 +1,73 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "空间上，人面所向的一面；房屋正门所向的一面，与“后”相对。",
+      "examples": [
+        "前面",
+        "前方",
+        "门前"
+      ],
+      "traditional_char": "前"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "时间上，过去的，往日的，与“后”相对。",
+      "examples": [
+        "以前",
+        "前人",
+        "前此"
+      ],
+      "traditional_char": "前"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "顺序在先的。",
+      "examples": [
+        "前五名",
+        "前排"
+      ],
+      "traditional_char": "前"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "向前行进。",
+      "examples": [
+        "勇往直前",
+        "前进"
+      ],
+      "traditional_char": "前"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 3,
+      "note": "形声字，“止”为声旁，“刂”为意旁，表示向前行进，初义为“前进”。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 3,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "由“向前行进”引申为空间上人的前方，见于先秦文献。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "空间“前”喻为时间“过去”，汉代已见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "空间顺序喻为排列顺序在先。历史文献中常见。"
+    }
+  ]
+}

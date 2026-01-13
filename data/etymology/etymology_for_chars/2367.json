@@ -1,0 +1,53 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "哺乳动物，面呈圆形，脚有利爪，行动敏捷，会捉老鼠。",
+      "examples": [
+        "猫捉老鼠。",
+        "家里养了一只猫。"
+      ],
+      "traditional_char": "貓"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "方言，躲藏。",
+      "examples": [
+        "小偷猫在门后。"
+      ],
+      "traditional_char": "貓"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "〔猫腰〕弯腰。亦称“毛腰”。",
+      "examples": [
+        "他猫着腰走路。"
+      ],
+      "traditional_char": "貓"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘貓’为形声字，形旁‘豸’表示与动物有关，声旁‘苗/猫’表音，最初指猫科动物。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由猫善于隐藏蹲伏引申为‘躲藏’，多见于方言和口语。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "猫动物弯腰伏地、动作灵活，引申为‘弯腰’动作，常见于‘猫腰’。"
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "放松弓弦",
+      "examples": [],
+      "traditional_char": "彌"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "满，遍及",
+      "examples": [
+        "弥满",
+        "弥天"
+      ],
+      "traditional_char": "彌"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "补，弥补、修补",
+      "examples": [
+        "弥补",
+        "弥缝"
+      ],
+      "traditional_char": "彌"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adverb",
+      "meaning": "更加",
+      "examples": [
+        "欲盖弥彰",
+        "弥坚"
+      ],
+      "traditional_char": "彌"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "水满的样子",
+      "examples": [
+        "弥漫"
+      ],
+      "traditional_char": "瀰"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "adjective",
+      "meaning": "久，远，绵延不断",
+      "examples": [
+        "弥亘",
+        "弥留"
+      ],
+      "traditional_char": "彌"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [],
+      "traditional_char": "彌"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "verb",
+      "meaning": "平息，消灭（古同“弭”）",
+      "examples": [],
+      "traditional_char": "彌"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从弓，尔声，表示放松弓弦。彌为本字，最初相关于弓弦动作。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 4,
+      "note": "瀰，形声字，从水，彌声，强调水满、弥漫之义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "从弦放松扩展为“满、遍”的抽象意义；常见于先秦至汉代。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "满或遍引申为“补、修补”的意义。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "满，遍及的抽象化进一步用作程度副词“更加”。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "引申为水到处充满的状态，用瀰专指水漫，唐宋已见。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "从“满、遍及”再引申为“久远、绵延不断”，由空间到时间的转喻。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 6,
+      "evolution_type": "conversion",
+      "note": "地名或特点转为姓氏用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 7,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "古同“弭”，假借义，为平息、消灭。"
+    }
+  ]
+}

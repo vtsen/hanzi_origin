@@ -1,0 +1,85 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "城市中街巷的统称，里巷，多用于街巷名称",
+      "examples": [
+        "长乐坊",
+        "百花坊",
+        "东坊西舍"
+      ],
+      "traditional_char": "坊"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "街市、市中店铺",
+      "examples": [
+        "坊间传闻",
+        "街坊邻里"
+      ],
+      "traditional_char": "坊"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "旧时标榜功德的建筑物，如牌坊、节义坊",
+      "examples": [
+        "贞节坊",
+        "节义坊"
+      ],
+      "traditional_char": "坊"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "小手工业者的工作场所，作坊",
+      "examples": [
+        "铁匠坊",
+        "纸坊"
+      ],
+      "traditional_char": "坊"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "古同“防”，防范",
+      "examples": [],
+      "traditional_char": "坊"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从土，方声。表城市里巷。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“里巷”扩展为街市及店铺"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "以坊为象征建筑，标榜功德"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由城市里巷引申为作坊"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "‘坊’假借为‘防’，用作动词"
+    }
+  ]
+}

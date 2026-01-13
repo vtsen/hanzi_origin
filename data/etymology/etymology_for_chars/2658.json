@@ -1,0 +1,51 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "用金属环节连套而成的索子。",
+      "examples": [
+        "铁链挂在门上。",
+        "项链十分精美。"
+      ],
+      "traditional_char": "鏈"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "计量海洋上距离的长度单位，十分之一海里为一链，合185.2米。",
+      "examples": [
+        "一链约为185.2米。"
+      ],
+      "traditional_char": "鏈"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "铅矿。",
+      "examples": [],
+      "traditional_char": "鏈"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 2,
+      "note": "形声字，从金，连声，最初用以表示铅矿。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 2,
+      "target_index": 0,
+      "evolution_type": "semantic_shift",
+      "note": "由指铅矿转为指链状连结物，来源模糊，或因矿石连结形态促发转义。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "以链条的实体名义借指长度单位，近现代引入。"
+    }
+  ]
+}

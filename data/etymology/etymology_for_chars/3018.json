@@ -1,0 +1,40 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "水边；近水的地方",
+      "examples": [
+        "海滨",
+        "湖滨"
+      ],
+      "traditional_char": "濱"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "靠近（水边）",
+      "examples": [
+        "滨海",
+        "滨湖",
+        "滨江"
+      ],
+      "traditional_char": "濱"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘濱’为形声字，从水，宾声，本义为水边；‘滨’为简化字，承袭‘濱’的构形。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "conversion",
+      "note": "由名词‘水边’转为动词‘靠近水边’，词性转变，见于近现代用法。"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "上臂与前臂相接处向外凸起的部分",
+      "examples": [
+        "胳膊肘儿",
+        "掣肘"
+      ],
+      "traditional_char": "肘"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "指食品的猪腿上半部",
+      "examples": [
+        "猪肘子"
+      ],
+      "traditional_char": "肘"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从肉，寿声。本义指人或动物手臂连接处的肘部。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "因形似人体肘部，借用于指猪腿的上半部。"
+    }
+  ]
+}

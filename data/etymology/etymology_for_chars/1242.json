@@ -1,0 +1,72 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "水流出或排出。",
+      "examples": [
+        "泄水",
+        "泄洪"
+      ],
+      "traditional_char": "泄"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "泄漏，指液体、气体或秘密等流出或露出。",
+      "examples": [
+        "泄露",
+        "泄密",
+        "漏泄"
+      ],
+      "traditional_char": "泄"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "尽情发泄情绪、情感等。",
+      "examples": [
+        "泄愤",
+        "泄恨"
+      ],
+      "traditional_char": "泄"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "～～：形容缓慢散开的样子，或闲散自得、弛缓。",
+      "examples": [
+        "雄雉于飞，～～其羽",
+        "天之方噘，无然～～"
+      ],
+      "traditional_char": "泄"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，世声，最初表示泄水、排水等含义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由水流出扩展至气体、秘密等的泄漏；中古至现代。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由物理泄漏比喻为情绪等抽象事物的发泄。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由水流出联想为动作姿态缓慢、散开的状态，见于古文。"
+    }
+  ]
+}

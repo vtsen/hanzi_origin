@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "山，山脉，如山岭、分水岭、岭脊。",
+      "examples": [
+        "翻过一座高岭便到了。",
+        "五岭逶迤腾细浪。",
+        "分水岭以北的村庄。"
+      ],
+      "traditional_char": "嶺"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "特指中国大庾岭等五岭，如岭南。",
+      "examples": [
+        "岭南气候温和。",
+        "五岭以南称岭外。"
+      ],
+      "traditional_char": "嶺"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "other",
+      "meaning": "〔岭嵤〕山深貌，亦作“岭巆”。",
+      "examples": [
+        "山深岭嵤难以进入。"
+      ],
+      "traditional_char": "嶺"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从山，领声，表示山脉、山道，与本义吻合。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_narrowing",
+      "note": "由泛指山岭到特指中国五岭等著名山岭，地理专名化。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由山岭实体意义转为山深的形容用法。"
+    }
+  ]
+}

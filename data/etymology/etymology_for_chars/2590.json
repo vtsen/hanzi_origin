@@ -1,0 +1,38 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "矿物盐的泛称，如硝石、芒硝等。",
+      "examples": [
+        "硝石可用于制火药。",
+        "芒硝为一种常见的矿物盐。"
+      ],
+      "traditional_char": "硝"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "用朴硝或芒硝加黄米面等处理毛皮，使皮板柔软。",
+      "examples": [
+        "工人们在硝皮子。"
+      ],
+      "traditional_char": "硝"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“硝”为形声字，从石，肖声，原指矿物盐类，后引申用法。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "conversion",
+      "note": "由矿物盐名转为表示使用该物质处理毛皮的动词。"
+    }
+  ]
+}

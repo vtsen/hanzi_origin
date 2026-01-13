@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "雏鸡，即刚孵出的幼小家禽，尤指小鸡。",
+      "examples": [
+        "母鸡带着一群小雏鸡在院子里觅食。",
+        "雏鸡刚破壳而出。"
+      ],
+      "traditional_char": "雛"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "泛指幼小的鸟，包含雏燕、雏凤等。",
+      "examples": [
+        "雏燕初飞。",
+        "雏凤清于老凤声。"
+      ],
+      "traditional_char": "雛"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "比喻幼小的形态或阶段，如“雏形”。",
+      "examples": [
+        "这个计划还只是个雏形。"
+      ],
+      "traditional_char": "雛"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从隹，刍声，最初表‘小鸡’之义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由指小鸡推广至所有鸟类的幼体，汉代后普及。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由实指幼鸟引申比喻为事物初创阶段。"
+    }
+  ]
+}

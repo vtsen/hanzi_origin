@@ -1,0 +1,114 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "屋子，房间，亦指家",
+      "examples": [
+        "居室",
+        "教室",
+        "温室",
+        "引狼入室"
+      ],
+      "traditional_char": "室"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "家，家族",
+      "examples": [
+        "皇室",
+        "名门望室"
+      ],
+      "traditional_char": "室"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "机关团体内部的工作单位",
+      "examples": [
+        "档案室",
+        "办公室"
+      ],
+      "traditional_char": "室"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "古指妻子（亦指为子娶妻或以女嫁人）",
+      "examples": [
+        "妻室",
+        "继室"
+      ],
+      "traditional_char": "室"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "刀剑的鞘",
+      "examples": [],
+      "traditional_char": "室"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "墓穴",
+      "examples": [],
+      "traditional_char": "室"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "星名，二十八宿之一",
+      "examples": [
+        "室宿"
+      ],
+      "traditional_char": "室"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意字，从宀（屋顶），从至（到达），表示“人至屋中止步”，本义为内室。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“屋子”引申指“家、家族”，古今语境均有体现。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "专指机构内部的分房，现代词义发展。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "以家庭的房间代指妻子。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_shift",
+      "note": "“鞘”形似小室，词义转移，具体机制有争议。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "metonymy",
+      "note": "以容纳尸骨的空间称为“室”，墓穴义。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "metaphor",
+      "note": "以“屋室”喻星宿之名。"
+    }
+  ]
+}

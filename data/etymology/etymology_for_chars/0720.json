@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "悬挂，吊挂。",
+      "examples": [
+        "县，悬也。——《说文》",
+        "悬首于木。——《左传》"
+      ],
+      "traditional_char": "縣"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "行政区划单位，旧时属于州、府、道，现由直辖市、地级市、自治州等领导。",
+      "examples": [
+        "县令",
+        "县政府"
+      ],
+      "traditional_char": "縣"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [
+        "县何氏",
+        "县氏族谱"
+      ],
+      "traditional_char": "縣"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意字，从系持倒首，象‘悬挂’之形，本义为悬挂，与‘悬’同源。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "古代有用悬首示众法，后用作行政区名，即‘县’；地域悬隔也有影响。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "reanalysis",
+      "note": "地名或官名转为姓氏，是汉姓形成常见机制。"
+    }
+  ]
+}

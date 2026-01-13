@@ -1,0 +1,52 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "鸟名，即九雇，一种候鸟",
+      "examples": [],
+      "traditional_char": "雇"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "出钱让人为自己做事",
+      "examples": [
+        "雇佣工人",
+        "雇请翻译"
+      ],
+      "traditional_char": "雇"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "租赁交通运输工具",
+      "examples": [
+        "雇车",
+        "雇船"
+      ],
+      "traditional_char": "雇"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从隹，户声。原指九雇鸟，与雇佣无关。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "古时本义失传，借用字形表“雇佣”义，时间约在中古以后。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "从‘雇佣人’扩展到‘租赁交通工具’的用法。"
+    }
+  ]
+}

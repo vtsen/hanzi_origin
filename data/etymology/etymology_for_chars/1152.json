@@ -1,0 +1,120 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "自高自大，盛气凌人",
+      "examples": [
+        "侈兮哆兮。",
+        "侈，掩胁也。——《说文》"
+      ],
+      "traditional_char": "侈"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "奢侈，浪费，用财物过度",
+      "examples": [
+        "四方之国有侈离之德则必灭。——《荀子·王霸》",
+        "以侈自败者多矣。——司马光《训俭示康》"
+      ],
+      "traditional_char": "侈"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "过分，过度",
+      "examples": [
+        "关市之征侈之。——《管子·大匡》",
+        "有名侈于实。"
+      ],
+      "traditional_char": "侈"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "夸大，夸口",
+      "examples": [
+        "侈言无验，虽丽非经。——左思《三都赋序》",
+        "侈口"
+      ],
+      "traditional_char": "侈"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "放纵，无节制",
+      "examples": [
+        "苟无恒心，放辟邪侈，无不为已。——《孟子·梁惠王上》"
+      ],
+      "traditional_char": "侈"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "扩大，张大",
+      "examples": [
+        "侈苑囿之大。——《淮南子·本经训》",
+        "以广侈吴王之心。——《国语·吴语》"
+      ],
+      "traditional_char": "侈"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从人，多声。‘人’表义，指人的姿态态度；‘多’表声，本义为自高自大，态度傲慢。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘自高自大’转指生活、用度上自高自大，为奢华、浪费之义，已见战国文献。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "傲慢、浮夸义延伸为‘过分’，形容超出适度、分寸。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "由自视甚高引申为夸大自言。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "自大放纵约束，引申为‘放纵，无节制’。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "‘过分’义通过‘言语过度’喻为夸口、夸大。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 5,
+      "evolution_type": "metaphor",
+      "note": "‘过度’引申为对事物的‘扩大’。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "semantic_shift",
+      "note": "由‘奢侈浪费’引出行为‘放纵’，语义重叠。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "本义为态度张扬，引申为对物的扩张、张大。"
+    }
+  ]
+}

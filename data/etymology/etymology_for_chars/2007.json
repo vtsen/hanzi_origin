@@ -1,0 +1,53 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "遇见，碰到",
+      "examples": [
+        "久别重逢",
+        "狭路相逢",
+        "每逢佳节倍思亲"
+      ],
+      "traditional_char": "逢"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "迎合，巴结",
+      "examples": [
+        "逢迎上司",
+        "逢君之恶"
+      ],
+      "traditional_char": "逢"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [],
+      "traditional_char": "逢"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从辶（与行走、路有关）和夆声，最初表示遇见、碰到的人或事。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从“遇见”引申为“迎合”，后世用法，多见于文献。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "conversion",
+      "note": "由动词转为姓氏用法，语源明确，但具体起源年代不详。"
+    }
+  ]
+}

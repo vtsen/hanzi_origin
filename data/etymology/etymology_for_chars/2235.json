@@ -1,0 +1,106 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "随风摆动飞扬，如“飘”",
+      "examples": [
+        "柳絮票扬",
+        "轻烟票渺"
+      ],
+      "traditional_char": "票"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "纸币，通货",
+      "examples": [
+        "钞票",
+        "票子",
+        "票额"
+      ],
+      "traditional_char": "票"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "印的或写的凭证",
+      "examples": [
+        "车票",
+        "选票",
+        "股票",
+        "票据",
+        "票证"
+      ],
+      "traditional_char": "票"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "非职业演戏（业余戏曲、演员）",
+      "examples": [
+        "票戏",
+        "票友"
+      ],
+      "traditional_char": "票"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "measure_word",
+      "meaning": "量词，指一批货物",
+      "examples": [
+        "一票货物"
+      ],
+      "traditional_char": "票"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "被匪绑架做抵押的人",
+      "examples": [
+        "绑票儿",
+        "撕票儿"
+      ],
+      "traditional_char": "票"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "“票”会意，左‘覀’表示饰物（羽毛），下‘火’表示火焰，引申为火光飞扬之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "以飘动、飞扬之象比喻流通之物，转指纸币；明清时出现。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由纸币引申为凭证，泛指印刷或书写的各种票据。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "以票据引申为业余演员和戏班入场凭据。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 4,
+      "evolution_type": "conversion",
+      "note": "由名词转为量词，表示一批货物。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 5,
+      "evolution_type": "metaphor",
+      "note": "票据表示人质，绑匪用作索取赎金的凭据。"
+    }
+  ]
+}

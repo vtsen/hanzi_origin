@@ -1,0 +1,146 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "经过，越过",
+      "examples": [
+        "越岭而行",
+        "越墙而过"
+      ],
+      "traditional_char": "越"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "度过，超出",
+      "examples": [
+        "越级",
+        "越位",
+        "越狱"
+      ],
+      "traditional_char": "越"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "声音、情感昂扬",
+      "examples": [
+        "激越",
+        "声音清越"
+      ],
+      "traditional_char": "越"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adverb",
+      "meaning": "更加，程度加深",
+      "examples": [
+        "越发",
+        "越快越好"
+      ],
+      "traditional_char": "越"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "消散",
+      "examples": [
+        "精神劳则越"
+      ],
+      "traditional_char": "越"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "失坠，坠落",
+      "examples": [
+        "射其左，越于车下"
+      ],
+      "traditional_char": "越"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "中国古民族名",
+      "examples": [
+        "百越"
+      ],
+      "traditional_char": "越"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "noun",
+      "meaning": "中国周代诸侯国名，后亦作浙江省东部的别称",
+      "examples": [
+        "越剧",
+        "越凫楚乙"
+      ],
+      "traditional_char": "越"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [],
+      "traditional_char": "越"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从走，戉声，表示跨越、经过之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从本义“越过”引申为“超出、度过”等扩展意义。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由“越过、升腾”引申为声音、情感高昂，见于文学修辞。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "grammaticalization",
+      "note": "由“越过”引申为“更加”的副词用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_shift",
+      "note": "本义引申为“消散”，语义变化历程不详。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "semantic_shift",
+      "note": "由“越过”转为“坠落、失坠”，见于古文。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "metonymy",
+      "note": "从地理动作引申为古民族名。"
+    },
+    {
+      "source_index": 6,
+      "target_index": 7,
+      "evolution_type": "semantic_narrowing",
+      "note": "由泛指民族转至特定国家地名。"
+    },
+    {
+      "source_index": 7,
+      "target_index": 8,
+      "evolution_type": "function_word",
+      "note": "地名再转化为姓氏，常见于汉字演变。"
+    }
+  ]
+}

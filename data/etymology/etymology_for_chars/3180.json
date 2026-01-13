@@ -1,0 +1,85 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "脱落，脱去（如：衣服、毛发、花瓣等）",
+      "examples": [
+        "梅子褪花时，直与黄梅接。",
+        "褪装。",
+        "兔子正褪毛。"
+      ],
+      "traditional_char": "褪"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "颜色消退或消失",
+      "examples": [
+        "褪色。",
+        "颜色褪尽。"
+      ],
+      "traditional_char": "褪"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "使穿着的衣服或套着的东西脱离",
+      "examples": [
+        "把袖子褪下来。"
+      ],
+      "traditional_char": "褪"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "向内退缩而藏起来",
+      "examples": [
+        "把手褪在袖子里。"
+      ],
+      "traditional_char": "褪"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "后退，逃脱",
+      "examples": [
+        "不要遇事就往后褪。"
+      ],
+      "traditional_char": "褪"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从衣，退声，表示脱卸衣物的动作。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由衣物脱落引申为使衣物脱离，近现代语义。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由实物脱落比喻颜色消退。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由外物脱离引申为肢体缩回藏在衣物里。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由去除、脱落引申为后退、退却。"
+    }
+  ]
+}

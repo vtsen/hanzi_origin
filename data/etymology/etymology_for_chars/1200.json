@@ -1,0 +1,72 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "完备，齐全，无所欠缺。",
+      "examples": [
+        "设备完备。",
+        "求全责备。"
+      ],
+      "traditional_char": "備"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "准备，预备，使具备条件。",
+      "examples": [
+        "预备军队。",
+        "筹备会议。",
+        "准备行李。"
+      ],
+      "traditional_char": "備"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "设备，器材。",
+      "examples": [
+        "装置设备。",
+        "军需设备。"
+      ],
+      "traditional_char": "備"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "警惕，小心（本义）。",
+      "examples": [
+        "备，慎也。——《说文》",
+        "备则不虞。"
+      ],
+      "traditional_char": "備"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 3,
+      "note": "形声字，从人，備声，原意为谨慎、警惕。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 3,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从“谨慎、警惕”引申为“预备、准备”。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "由“准备”引申为“具备、完备”。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由“预备”引申为“用于准备的器物”即‘设备’。"
+    }
+  ]
+}

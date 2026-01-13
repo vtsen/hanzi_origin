@@ -1,0 +1,70 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "里巷内的门，亦指里巷",
+      "examples": [
+        "兴于闾阎。",
+        "隐于穷阎漏屋。"
+      ],
+      "traditional_char": "閻"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "（佛教）地狱主宰鬼王，亦称阎王、阎罗王",
+      "examples": [
+        "抹着阎王鼻子",
+        "阎罗王"
+      ],
+      "traditional_char": "閻"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "阎氏出自姬姓。周武王封太伯曾孙仲弈于阎乡，因以为氏。"
+      ],
+      "traditional_char": "閻"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "地名，如春秋晋地",
+      "examples": [
+        "周甘人与晋阎嘉争阎田。",
+        "战于鬼阎。"
+      ],
+      "traditional_char": "閻"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从门，臽声，表示里巷内的门。见《说文解字》，最初含义即为Sense 0。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "地名及人群延伸为幽冥主宰借用，佛教接受后成为阎罗王形象，约东汉以后。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由地名/地标转用作姓氏，见于古代官名及地名化为氏族，周代即有。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "由里巷门、里巷义引为地名用，春秋时期即见。"
+    }
+  ]
+}

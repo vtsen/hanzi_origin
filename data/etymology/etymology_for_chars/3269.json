@@ -1,0 +1,61 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "仰面向后倒下，摔倒在地。",
+      "examples": [
+        "僵尸",
+        "仆僵"
+      ],
+      "traditional_char": "僵"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "身体僵直、不灵活或失去活动能力。",
+      "examples": [
+        "冻僵",
+        "僵硬",
+        "僵直",
+        "僵卧",
+        "僵死",
+        "僵冷",
+        "僵滞"
+      ],
+      "traditional_char": "僵"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "双方相持不下，意见无法调和或僵化。",
+      "examples": [
+        "弄僵",
+        "僵持",
+        "僵局"
+      ],
+      "traditional_char": "僵"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从人，畺声，表示人仰面倒下。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由仰面倒下引申为身体僵直、失去活动能力。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "身体僵直再比喻到事物、局面死板难以调解。"
+    }
+  ]
+}

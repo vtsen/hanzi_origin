@@ -1,0 +1,82 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "柠檬树，常绿小乔木，其果实可制饮料及提取柠檬油。",
+      "examples": [
+        "柠檬叶子清香。"
+      ],
+      "traditional_char": "檸"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "柠檬树的果实，淡黄色，味极酸。",
+      "examples": [
+        "柠檬可以榨汁饮用。"
+      ],
+      "traditional_char": "檸"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "维生素P（柠檬素）。",
+      "examples": [
+        "柠檬素有助于保护血管。"
+      ],
+      "traditional_char": "檸"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "有机化合物，柠檬酸。",
+      "examples": [
+        "柠檬酸广泛用于食品添加剂。"
+      ],
+      "traditional_char": "檸"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "古代木名，指柠、楮或梧桐类树，也作药用。",
+      "examples": [
+        "柠，木皮入酒浸，治风。——《广韵》"
+      ],
+      "traditional_char": "檸"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 4,
+      "note": "‘檸’为形声字，从木，宁声，最初指某种树木，后引申为其它树名及果实。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 4,
+      "target_index": 0,
+      "evolution_type": "semantic_narrowing",
+      "note": "原指多种树木，后专指柠檬树，约近代。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "synecdoche",
+      "note": "由指树泛指其果。现代用法。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "以其果名称提取物维生素。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "以其果引申指柠檬酸。"
+    }
+  ]
+}

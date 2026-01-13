@@ -1,0 +1,87 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "吟咏；有节奏地念诵诗文",
+      "examples": [
+        "日哦招隐诗，月诵归田赋。",
+        "直閤時偷暇，幽懷坐獨哦。",
+        "小坐臨窗把卷哦，湘簾不卷靜垂波。"
+      ],
+      "traditional_char": "哦"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "吟咏，吟诗",
+      "examples": [
+        "吟哦",
+        "哦吟"
+      ],
+      "traditional_char": "哦"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "interjection",
+      "meaning": "叹词，表示疑问、惊奇等",
+      "examples": [
+        "哦!你就是来霞士。",
+        "哦，这不过是南方的一角，却集中了南方的多少生机！"
+      ],
+      "traditional_char": "哦"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "interjection",
+      "meaning": "叹词，表示领会、醒悟或应答",
+      "examples": [
+        "哦，我知道了！",
+        "哦，见了面要叫叔叔好！"
+      ],
+      "traditional_char": "哦"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "interjection",
+      "meaning": "叹词，表示喜悦、惊异或强烈的感情",
+      "examples": [
+        "哦！天哪，这么巧！"
+      ],
+      "traditional_char": "哦"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘哦’为形声字，从口，吾声，本义为吟咏诗文。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "conversion",
+      "note": "由动词‘吟咏’转为名词‘吟咏’之事物，属于动名转换。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "grammaticalization",
+      "note": "吟咏时发出的音转为感叹词，表示疑问、惊奇，时间大致在中古以降。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "感叹词意义扩展为表示领会、醒悟或应答。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "感叹词意义扩展为表达喜悦、惊异或强烈感情。"
+    }
+  ]
+}

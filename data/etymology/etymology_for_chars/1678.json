@@ -1,0 +1,68 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古水名（济水），源于今中国河南省，流经山东省入渤海。",
+      "examples": [
+        "〔济水〕古水名，源于今中国河南省，流经山东省入渤海。"
+      ],
+      "traditional_char": "濟"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "渡水，过河。",
+      "examples": [
+        "同舟共济"
+      ],
+      "traditional_char": "濟"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "对困苦的人加以帮助，救助。",
+      "examples": [
+        "救济",
+        "赈济"
+      ],
+      "traditional_char": "濟"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "补益，有所助益。",
+      "examples": [
+        "无济于事"
+      ],
+      "traditional_char": "濟"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，齐声，最初指济水这一条河流，属于会意兼形声结构。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由具体水名引申为“过河、渡水”，《说文》有记载，汉代已见此义。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "以‘渡’引申为‘帮助、救助’，如“济困扶贫”。义项变化明确，常见于文献。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "从“救助”进一步抽象为“有益、补益”，在成语和书面语中频繁出现。"
+    }
+  ]
+}

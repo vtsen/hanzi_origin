@@ -1,0 +1,103 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "烙饼或做菜用的平底浅锅",
+      "examples": [
+        "饼铛",
+        "折脚铛边煨淡粥"
+      ],
+      "traditional_char": "鐺"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "温器，如三足酒铛、茶铛",
+      "examples": [
+        "酒铛",
+        "茶铛快"
+      ],
+      "traditional_char": "鐺"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "锒铛；锁系囚人的铁索",
+      "examples": [
+        "铛，锒铛也。从金，当声。——《说文》",
+        "见“锒铛”"
+      ],
+      "traditional_char": "鐺"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "女子的耳饰",
+      "examples": [
+        "足履革屣，耳悬金铛。——《北史》"
+      ],
+      "traditional_char": "鐺"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "onomatopoeia",
+      "meaning": "金属撞击的声音",
+      "examples": [
+        "铛铛晓漏",
+        "只听得铛地一声响"
+      ],
+      "traditional_char": "鐺"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "小铜鼓或古兵器名",
+      "examples": [
+        "其小者曰鐺，凡击鼓必先击鐺",
+        "成都把鐺迎住"
+      ],
+      "traditional_char": "鐺"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "other",
+      "meaning": "同“当”字的用法",
+      "examples": [],
+      "traditional_char": "鐺"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 2,
+      "note": "从金，当声。本义为锒铛（锁链），后扩展出其他义。音旁表声，金旁表义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "耳饰因形似铁链，古以借指，见北史等，南北朝后固定。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "铁链撞击发声，喻金属声。中古文献有据。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_narrowing",
+      "note": "由一般的烹饪器皿进一步指较小的温酒、温茶器，宋元之后常见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "metaphor",
+      "note": "因锅形、响声也指小铜鼓或古代兵器名。明清文献常见。"
+    }
+  ]
+}

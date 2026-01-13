@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "马或其他动物发出高而尖锐的叫声",
+      "examples": [
+        "马嘶一声，飞奔而去。",
+        "人喊马嘶。"
+      ],
+      "traditional_char": "嘶"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "声音沙哑、嘶哑",
+      "examples": [
+        "嘶哑",
+        "声嘶力竭"
+      ],
+      "traditional_char": "嘶"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "形声字，从口，斯声，本义为声音沙哑。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "metaphor",
+      "note": "由形容声音沙哑引申为马叫声，因马叫声音高而近似嘶哑。"
+    }
+  ]
+}

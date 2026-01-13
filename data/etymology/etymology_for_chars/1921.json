@@ -1,0 +1,57 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "高而尖的山头",
+      "examples": [
+        "山峰",
+        "峰巅",
+        "高峰",
+        "险峰"
+      ],
+      "traditional_char": "峰"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "形状像山峰的东西",
+      "examples": [
+        "驼峰",
+        "浪峰"
+      ],
+      "traditional_char": "峰"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "最高处，顶点",
+      "examples": [
+        "登峰造极",
+        "峰年"
+      ],
+      "traditional_char": "峰"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从山，夆声，本指高而尖的山顶。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "以山峰之高尖形状喻及类似物体，如驼峰、浪峰。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由山峰之“最高处”意义引申为任何事物之顶点。"
+    }
+  ]
+}

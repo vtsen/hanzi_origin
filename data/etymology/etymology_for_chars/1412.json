@@ -1,0 +1,187 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "长满野草，或无人耕种，荒芜。",
+      "examples": [
+        "荒芜",
+        "荒地",
+        "开荒"
+      ],
+      "traditional_char": "荒"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "年成不好，收成不好，荒年。",
+      "examples": [
+        "灾荒",
+        "荒年",
+        "防荒",
+        "备荒"
+      ],
+      "traditional_char": "荒"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "废弃，不耕作，疏于管理。",
+      "examples": [
+        "荒废",
+        "荒疏",
+        "荒置",
+        "业精于勤，荒于嬉"
+      ],
+      "traditional_char": "荒"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "冷落偏僻。",
+      "examples": [
+        "荒村",
+        "荒郊",
+        "荒落",
+        "荒颓"
+      ],
+      "traditional_char": "荒"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "严重缺乏，不够用。",
+      "examples": [
+        "煤荒"
+      ],
+      "traditional_char": "荒"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "adjective",
+      "meaning": "不实在的，不正确的，荒唐。",
+      "examples": [
+        "荒信",
+        "荒唐"
+      ],
+      "traditional_char": "荒"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "adjective",
+      "meaning": "放纵，迷乱。",
+      "examples": [
+        "荒淫",
+        "荒腆"
+      ],
+      "traditional_char": "荒"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "adjective",
+      "meaning": "远，边远的地方。",
+      "examples": [
+        "荒远",
+        "荒遐",
+        "八荒"
+      ],
+      "traditional_char": "荒"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "verb",
+      "meaning": "扩大。",
+      "examples": [
+        "天作高山大王荒之"
+      ],
+      "traditional_char": "荒"
+    },
+    {
+      "index": 9,
+      "part_of_speech": "verb",
+      "meaning": "包有，占有。",
+      "examples": [
+        "奄有龟蒙，遂荒大东，至于海邦"
+      ],
+      "traditional_char": "荒"
+    },
+    {
+      "index": 10,
+      "part_of_speech": "noun",
+      "meaning": "工业上指没有经过精细加工的毛坯。",
+      "examples": [
+        "荒子"
+      ],
+      "traditional_char": "荒"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从“丱”作形旁，“巟”表声，初指土地荒芜。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由荒芜的土地引申为歉收的年份。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "conversion",
+      "note": "由形容词转为动词，指土地被荒废。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由土地荒芜引申为冷落偏僻之地。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "荒指资源荒芜引申为缺乏。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "metaphor",
+      "note": "由实物荒芜转喻为言论思想的荒谬。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "metaphor",
+      "note": "由实物荒芜转喻为行为放纵迷乱。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 7,
+      "evolution_type": "semantic_extension",
+      "note": "远地多为荒芜之地，故引申为边远。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 8,
+      "evolution_type": "unknown",
+      "note": "“荒”作“扩大”义，多见于古文，引申关系待考。"
+    },
+    {
+      "source_index": 8,
+      "target_index": 9,
+      "evolution_type": "semantic_extension",
+      "note": "由扩大引申为包有，占有。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 10,
+      "evolution_type": "semantic_extension",
+      "note": "工业用语，指未经加工之物，取其“荒芜”“未成”之意。"
+    }
+  ]
+}

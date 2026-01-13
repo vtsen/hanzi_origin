@@ -1,0 +1,68 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "诚信，正直，信实。",
+      "examples": [
+        "谅直",
+        "人之有是四端也，犹其有四体也——《孟子·公孙丑上》"
+      ],
+      "traditional_char": "諒"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "宽恕，原谅。",
+      "examples": [
+        "见谅",
+        "请您体谅我的难处。"
+      ],
+      "traditional_char": "諒"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "推想，推测。",
+      "examples": [
+        "谅必",
+        "谅已上车。"
+      ],
+      "traditional_char": "諒"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "固执，坚持成见。",
+      "examples": [],
+      "traditional_char": "諒"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从言，京声，本义为诚信、信实。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "诚信引申为宽恕他人的过失，通常发生于先秦至汉代。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "信实之义发展为对事合理推想、推测，多见于中古汉语。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "unknown",
+      "note": "固执义起源不详，可能为信念坚定的引申。"
+    }
+  ]
+}

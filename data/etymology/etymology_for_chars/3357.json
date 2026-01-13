@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "用竹、藤、柳条等编成的有提梁的盛物器",
+      "examples": [
+        "竹篮打水一场空",
+        "我买了一个竹篮装水果"
+      ],
+      "traditional_char": "籃"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "篮球运动中作为投球目标的带网铁圈",
+      "examples": [
+        "投篮",
+        "篮球进篮了"
+      ],
+      "traditional_char": "籃"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从竹，‘监’声。本义为竹制或藤制的盛物器。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "20世纪，体育运动中因形似传统篮子，将铁圈投球目标称为‘篮’。"
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "断开、使中断，多指用刀或其他方式把线绳等割断",
+      "examples": [
+        "断绝亲缘",
+        "绝交",
+        "绝丝"
+      ],
+      "traditional_char": "絶"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "断绝、中止（抽象），如关系、希望、继承等",
+      "examples": [
+        "绝种",
+        "绝缘",
+        "绝嗣",
+        "绝情",
+        "断绝"
+      ],
+      "traditional_char": "絶"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "耗尽、完全没有了",
+      "examples": [
+        "绝命",
+        "绝望",
+        "气绝"
+      ],
+      "traditional_char": "絶"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "极、极端，程度极高",
+      "examples": [
+        "绝妙",
+        "绝密",
+        "绝壁",
+        "空前绝后"
+      ],
+      "traditional_char": "絶"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "独特、无与伦比，少有的、没有人能赶上的",
+      "examples": [
+        "绝色",
+        "绝技",
+        "绝伦",
+        "绝唱",
+        "绝代"
+      ],
+      "traditional_char": "絶"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "adverb",
+      "meaning": "绝对，一定，肯定",
+      "examples": [
+        "绝无仅有",
+        "绝对",
+        "绝然"
+      ],
+      "traditional_char": "絶"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "越过（如山水等障碍）",
+      "examples": [
+        "绝江河",
+        "绝壑"
+      ],
+      "traditional_char": "絶"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "noun",
+      "meaning": "旧体诗体裁名，绝句",
+      "examples": [
+        "五绝",
+        "绝句"
+      ],
+      "traditional_char": "絶"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意字，从糸（丝），从刀，从卩，表示用刀断丝。本指用刀将绳线等断开。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由实际断开引申为抽象中断，如关系、血脉等"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由“断绝”进一步引申为彻底耗尽"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "耗尽发展为极端、极其"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "semantic_narrowing",
+      "note": "极端意义基础上发展为独特、少见"
+    },
+    {
+      "source_index": 3,
+      "target_index": 5,
+      "evolution_type": "grammaticalization",
+      "note": "形容词极端意义虚化为副词“绝对”，肯定含义"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "semantic_extension",
+      "note": "由‘断’引申为‘越过障碍，如山水’"
+    },
+    {
+      "source_index": 3,
+      "target_index": 7,
+      "evolution_type": "metonymy",
+      "note": "由‘极’的性质转指诗歌体裁名——绝句，表示诗体短小精绝"
+    }
+  ]
+}

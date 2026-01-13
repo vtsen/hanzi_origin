@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "屋前檐伸出的部分，可避风雨，遮太阳",
+      "examples": [
+        "廊子",
+        "院落的廊檐"
+      ],
+      "traditional_char": "廊"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "庑下，殿下外屋",
+      "examples": [
+        "廊庑",
+        "殿前廊屋"
+      ],
+      "traditional_char": "廊"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "有顶的过道",
+      "examples": [
+        "长廊",
+        "走廊",
+        "画廊"
+      ],
+      "traditional_char": "廊"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "形声字，从广，郎声，表示房屋外侧环绕的建筑。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_narrowing",
+      "note": "指庑下或殿下外屋的意义后来被特指为房屋前檐伸出的部分。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "从殿下外屋引申为一般有顶的过道。"
+    }
+  ]
+}

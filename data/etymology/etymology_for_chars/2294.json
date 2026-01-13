@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "山高而险峻的样子",
+      "examples": [
+        "崭岩峭壁",
+        "嶄然高立"
+      ],
+      "traditional_char": "嶄"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "高出，突出",
+      "examples": [
+        "崭露头角",
+        "人才崭现"
+      ],
+      "traditional_char": "嶄"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "极新，非常新颖",
+      "examples": [
+        "崭新",
+        "一辆崭新的汽车"
+      ],
+      "traditional_char": "嶄"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "古同“巉”，险峻",
+      "examples": [
+        "崭（嶄）岩",
+        "嶄崖"
+      ],
+      "traditional_char": "嶄"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从山，斩声。本指山高而险峻。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由形容山险峻引申为事物突出；比喻能力等脱颖而出。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由突出进一步引申为全新、最新。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "reanalysis",
+      "note": "“崭”音chán，与“巉”字义混用，古籍常见。"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "水名，即淮河，中国主要河流之一，源出河南桐柏山，流经安徽、江苏，入洪泽湖。",
+      "examples": [
+        "江淮河济为四渎。",
+        "导淮自桐柏。",
+        "有酒如淮，有肉如坻。"
+      ],
+      "traditional_char": "淮"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "泛指淮河流域两岸地区。",
+      "examples": [
+        "控引京洛，侧睨淮蔡。",
+        "淮左名都。"
+      ],
+      "traditional_char": "淮"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "汇聚，聚集（水流）。",
+      "examples": [
+        "而淮界其中，导南北之流，而会之以入于海，故谓之淮。淮者，汇也。"
+      ],
+      "traditional_char": "淮"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "大（多用于形容雨水）。",
+      "examples": [
+        "淮雨。——《尚书大传》，注：大雨之名也。"
+      ],
+      "traditional_char": "淮"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [
+        "见《通志•氏族五》"
+      ],
+      "traditional_char": "淮"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从水，隹声，形声字，本义为水名（淮河），构形以表意表声兼有。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由淮河名称扩展指称流域及两岸地区，这种用法常见于地名由河流名派生。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "河流大量水流会聚、引申为'汇聚'义，见明谢肇淛《五杂俎》，表义未见完全分离。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由大河水量丰富引申为形容水量多的“大”，常特指大雨。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "姓氏多源自地名、水名，淮氏取自古水名或地名。"
+    }
+  ]
+}

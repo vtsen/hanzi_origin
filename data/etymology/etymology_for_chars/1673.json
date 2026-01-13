@@ -1,0 +1,104 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "水的支流",
+      "examples": [
+        "九派流中国，冯夷无一息。"
+      ],
+      "traditional_char": "派"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "系统的分支、类别，尤指组织、流派、党派等",
+      "examples": [
+        "各派意见不合。",
+        "学派、党派。"
+      ],
+      "traditional_char": "派"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "作风，气度，风采或面貌",
+      "examples": [
+        "正派",
+        "气派",
+        "派头十足"
+      ],
+      "traditional_char": "派"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "分配、委派、派遣",
+      "examples": [
+        "派驻海外",
+        "委派代表",
+        "派任务"
+      ],
+      "traditional_char": "派"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "指摘，挑出过错",
+      "examples": [
+        "派不是"
+      ],
+      "traditional_char": "派"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "measure_word",
+      "meaning": "量词，表示派别、景象、语言等分组（如“一派胡言”、“两派争论”）",
+      "examples": [
+        "一派胡言",
+        "两派争论不休",
+        "好一派北国风光"
+      ],
+      "traditional_char": "派"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，覈声。本义为水的支流。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由水的分支比喻系统、组织、学说的分支，用于表示群体分化。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "conversion",
+      "note": "由表示种类、分支的名词虚化为量词，用于计分流、派别等。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "组织、群体的属性进一步引申为作风、气度等抽象意义。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "派分、分派之意转化为动作性用法，表示分配、指派任务。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "unknown",
+      "note": "“派”用于指摘他人，语源关系不明，可能为比喻、引申。"
+    }
+  ]
+}

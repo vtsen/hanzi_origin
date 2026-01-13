@@ -1,0 +1,85 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "剖开，裂开。",
+      "examples": [
+        "不坼不副。（《诗·大雅》）"
+      ],
+      "traditional_char": "副"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "第二位的，辅助的，与“正”或“主”相对的。",
+      "examples": [
+        "副职",
+        "副官"
+      ],
+      "traditional_char": "副"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "附带的，次要的。",
+      "examples": [
+        "副业",
+        "副品"
+      ],
+      "traditional_char": "副"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "相配，相称。",
+      "examples": [
+        "名实相副"
+      ],
+      "traditional_char": "副"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "measure_word",
+      "meaning": "量词：一组或一套（如“一副手套”、“一副对联”）；用于形态、神态（如“一副笑脸”）。",
+      "examples": [
+        "一副手套",
+        "一副笑脸"
+      ],
+      "traditional_char": "副"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从刀，畐声。本义为剖开。‘刀’表意，‘畐’表音。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_shift",
+      "note": "由‘分开、剖开’引申为区分等级，次级、辅助之意，约中古汉语已见。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "‘副’从‘辅助’引申为附带、次要。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "‘副’从‘配属’引申为‘相配、相称’。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "grammaticalization",
+      "note": "‘副’从实指‘配套的事物’转化为数量词用法。"
+    }
+  ]
+}

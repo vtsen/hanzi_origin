@@ -1,0 +1,76 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "粘性物质，通常用动物皮角熬制，也包括植物分泌物和人造合成物",
+      "examples": [
+        "胶质",
+        "鳔胶",
+        "乳胶",
+        "万能胶"
+      ],
+      "traditional_char": "膠"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "用橡胶树分泌物制成的有弹性的物质",
+      "examples": [
+        "橡胶",
+        "胶鞋",
+        "胶皮",
+        "胶布"
+      ],
+      "traditional_char": "膠"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "有黏性像胶的",
+      "examples": [
+        "胶泥",
+        "胶水"
+      ],
+      "traditional_char": "膠"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "粘着，粘合",
+      "examples": [
+        "胶合",
+        "胶着",
+        "胶柱鼓瑟"
+      ],
+      "traditional_char": "膠"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从肉，羔声；本义为粘性物质，多用动物皮煮制。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由原指动物胶扩展至橡胶等植物及人工材料，近现代。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "conversion",
+      "note": "名词转为形容词，表示类似胶一样有粘性的性质。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "conversion",
+      "note": "名词转动词，表示胶合、粘着之意。"
+    }
+  ]
+}

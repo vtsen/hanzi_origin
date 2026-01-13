@@ -1,0 +1,116 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "拿，抓在手里",
+      "examples": [
+        "操刀",
+        "操觚",
+        "操管"
+      ],
+      "traditional_char": "操"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "控制、掌握",
+      "examples": [
+        "操舟",
+        "操纵"
+      ],
+      "traditional_char": "操"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "从事，参与某事",
+      "examples": [
+        "操心",
+        "操办",
+        "操作",
+        "操持",
+        "操劳",
+        "操之过急"
+      ],
+      "traditional_char": "操"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "体力的锻炼，军事的训练",
+      "examples": [
+        "操练",
+        "操场",
+        "操演",
+        "上操"
+      ],
+      "traditional_char": "操"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "用某种语言或方言讲话",
+      "examples": [
+        "他操一口闽南音"
+      ],
+      "traditional_char": "操"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "行为，品行",
+      "examples": [
+        "操行",
+        "操守"
+      ],
+      "traditional_char": "操"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "other",
+      "meaning": "姓",
+      "examples": [],
+      "traditional_char": "操"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从手，操（sào）声，本义为拿、握在手中。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由手中持有引申为控制、掌握。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由掌控事物引申为从事相关事务。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由从事（如操练兵士）转为军事体能方面特指。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由操持事物引申为用语言驾驭、讲话。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "由操持引申为人的行为、品行。"
+    }
+  ]
+}

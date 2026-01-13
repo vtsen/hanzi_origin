@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "昆虫名称，翅膀阔大，颜色美丽，静止时四翅竖立，常吸花蜜，亦称“胡蝶”。",
+      "examples": [
+        "蝴蝶飞舞",
+        "彩蝶纷飞",
+        "胡蝶梦中"
+      ],
+      "traditional_char": "蝶"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "人的头骨之一，名为“蝶骨”。",
+      "examples": [
+        "蝶骨受伤",
+        "颅骨包括蝶骨"
+      ],
+      "traditional_char": "蝶"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "一种游泳姿势，形似蝴蝶飞舞，称为“蝶泳”。",
+      "examples": [
+        "他擅长蝶泳。",
+        "蝶泳比赛"
+      ],
+      "traditional_char": "蝶"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从虫，枼声，本义为昆虫‘蝴蝶’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "因人的蝶骨形状酷似蝴蝶而得名，属于形状类比。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "因游泳姿势像蝴蝶展翅飞翔，取‘蝶’名。"
+    }
+  ]
+}

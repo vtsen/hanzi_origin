@@ -1,0 +1,72 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "把空缺的地方塞满或补满",
+      "examples": [
+        "填塞",
+        "填补",
+        "把湖填成陆地"
+      ],
+      "traditional_char": "填"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "在空白表格上按项目填写内容",
+      "examples": [
+        "填表",
+        "请将姓名填在空格内"
+      ],
+      "traditional_char": "填"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "形容声音巨大",
+      "examples": [
+        "填然",
+        "鼓声填然"
+      ],
+      "traditional_char": "填"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "使安定，旧同“镇”",
+      "examples": [
+        "以武填乱",
+        "填安天下"
+      ],
+      "traditional_char": "填"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从土，真声，土表示填塞之义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "把‘填充’意义比喻为将内容写满表格。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "用‘充满’引申为声音充盈而大。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "unknown",
+      "note": "古义作‘镇’，用法来源不明，可能为借用。"
+    }
+  ]
+}

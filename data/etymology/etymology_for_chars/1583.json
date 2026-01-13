@@ -1,0 +1,102 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "法律、法令，法规。",
+      "examples": [
+        "法度之谓律。",
+        "制定新律。"
+      ],
+      "traditional_char": "律"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "规则、规范、规章。",
+      "examples": [
+        "纪律严明。",
+        "定律不可违。"
+      ],
+      "traditional_char": "律"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "约束，规范自己的行为。",
+      "examples": [
+        "律己以严。",
+        "自律。"
+      ],
+      "traditional_char": "律"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "中国古代判定音高、标准的乐器和标准（十二律）。",
+      "examples": [
+        "律吕调和。",
+        "以律定音。"
+      ],
+      "traditional_char": "律"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "旧体诗的一种体裁（律诗）。",
+      "examples": [
+        "五言律诗。",
+        "律诗押韵。"
+      ],
+      "traditional_char": "律"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [
+        "律氏家族。"
+      ],
+      "traditional_char": "律"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从彳（与行有关，表义）＋聿（表声）；最初指法律、法令。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由专指法律的“律”引申为一般性的规则、规章。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "grammaticalization",
+      "note": "从名词“规则”转化为动词“约束”。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "以规范、规则之意，引申为音乐中标准音高、法则。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "以规则的形式转指诗体中规范严密的一种体裁（律诗）。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "function_word",
+      "note": "作为姓氏，源于用职业、身份为姓的习惯。"
+    }
+  ]
+}

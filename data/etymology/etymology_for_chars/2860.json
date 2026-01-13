@@ -1,0 +1,85 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "麻秆，麻的茎秆。",
+      "examples": [
+        "蒸，麻秆也。——《说文》"
+      ],
+      "traditional_char": "蒸"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "热气上升，蒸气。",
+      "examples": [
+        "蒸气缭绕。",
+        "蒸腾而上。"
+      ],
+      "traditional_char": "蒸"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "用水蒸气的热力加热或使熟。",
+      "examples": [
+        "蒸饼",
+        "蒸饺",
+        "蒸笼"
+      ],
+      "traditional_char": "蒸"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "古代用麻秸、竹木制成的火炬。",
+      "examples": [
+        "蒸烛照夜。"
+      ],
+      "traditional_char": "蒸"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "细小的木柴。",
+      "examples": [
+        "拾蒸以薪。"
+      ],
+      "traditional_char": "蒸"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，艹为意旁，表示与植物相关；烝为声旁，指麻秆。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "用麻秆制成火炬，古汉语常见的事物—器用用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "从“麻秆”泛指细小的木柴，属于词义扩展。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "火炬带来的火光热气，与蒸气意象相关，发生意义隐喻转换。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由“蒸气”引申至用蒸气加热和烹饪，为现代常用义。"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "提供、供应（如向有需要的人或处所提供物品）",
+      "examples": [
+        "供应",
+        "供给",
+        "提供",
+        "供需"
+      ],
+      "traditional_char": "供"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "奉献、祭祀用的奉献（向尊贵对象奉上供物）",
+      "examples": [
+        "供养父母",
+        "供奉神明",
+        "献供品"
+      ],
+      "traditional_char": "供"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "祭祀或奉献用的物品",
+      "examples": [
+        "供品",
+        "供桌",
+        "供果",
+        "上供"
+      ],
+      "traditional_char": "供"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "被审问时所述说事实、作口供",
+      "examples": [
+        "口供",
+        "招供",
+        "供状",
+        "供认"
+      ],
+      "traditional_char": "供"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从人，共声，本义为供应、提供。‘人’表意，‘共’表声。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘提供’引申为‘奉献、奉上’，常用于宗教或尊敬对象，东汉以后用法见考。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由‘奉献的动作’指向‘奉献用的物品’，语义换位。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由‘提供’引申为‘提供口头证言’，司法领域专用。"
+    }
+  ]
+}

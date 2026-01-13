@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "生育；生孩子。",
+      "examples": [
+        "生儿育女",
+        "节育"
+      ],
+      "traditional_char": "育"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "养活、抚养孩子或其他生物的早期阶段。",
+      "examples": [
+        "哺育婴儿",
+        "培育作物"
+      ],
+      "traditional_char": "育"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "有目的地教导和训练，使得到全面发展。",
+      "examples": [
+        "德育",
+        "体育",
+        "教育孩子"
+      ],
+      "traditional_char": "育"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意字，上为“母”及装饰，下为倒置的“子”，表示妇女生育，甲骨文形体明显。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从“生孩子”引申到“养活新生儿”，二者常连用。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由抚养的物理照顾，转为精神、智力等方面的培养，教育、训练。"
+    }
+  ]
+}

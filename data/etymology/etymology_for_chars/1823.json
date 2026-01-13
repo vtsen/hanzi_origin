@@ -1,0 +1,87 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "莲子，荷的种子",
+      "examples": [
+        "采莲南塘秋，莲子清如水。",
+        "莲子出于莲房之中"
+      ],
+      "traditional_char": "蓮"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "多年生草本植物，生浅水中，花大且美，叶大，果实称“莲子”",
+      "examples": [
+        "出淤泥而不染，濯清涟而不妖。",
+        "青荷盖绿水，芙蓉披红鲜。"
+      ],
+      "traditional_char": "蓮"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "莲蓬，包含有莲子的花托",
+      "examples": [
+        "采莲蓬以啖其子",
+        "莲房被风吹落水面"
+      ],
+      "traditional_char": "蓮"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "佛像的座位，形状仿莲花",
+      "examples": [
+        "佛坐莲座之上",
+        "普贤菩萨莲台现身"
+      ],
+      "traditional_char": "蓮"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "僧人的居室（借指）",
+      "examples": [
+        "清晨禅师步出莲房",
+        "莲房清净"
+      ],
+      "traditional_char": "蓮"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从艸（表示与草本植物相关），连声，初本指莲子的‘莲’，后扩展为全株荷花"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由莲子之名扩展为莲花全株，见于先秦两汉语料"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "以植物代其部分，莲花指其果实花托"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "莲花形象优美，佛像座位模仿其形故名‘莲座’"
+    },
+    {
+      "source_index": 2,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "以莲蓬为喻，僧人住所因禅修清静被称为‘莲房’"
+    }
+  ]
+}

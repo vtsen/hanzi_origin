@@ -1,0 +1,42 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "一种毛织物",
+      "examples": [
+        "呢子大衣",
+        "毛呢",
+        "呢绒"
+      ],
+      "traditional_char": "呢"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "particle",
+      "meaning": "用在句末的语气词，可表示疑问、确定、进行或停顿等语气",
+      "examples": [
+        "你干什么呢？",
+        "他没来呢。",
+        "我正吃饭呢。",
+        "今年呢，比去年收成好。"
+      ],
+      "traditional_char": "呢"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "“呢”为形声字，左“口”表语气词义相关，右“尼”作声旁；本作语气助词使用。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "“呢”用于毛织品名称，为借用字，近现代。"
+    }
+  ]
+}

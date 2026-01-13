@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "相貌相似，像……的样子",
+      "examples": [
+        "两个孩子越长越像。",
+        "他们兄弟俩很像。"
+      ],
+      "traditional_char": "像"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "比照人物做成的图形，如画、雕、塑等",
+      "examples": [
+        "雕像",
+        "画像",
+        "他的塑像矗立在广场上。"
+      ],
+      "traditional_char": "像"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "preposition",
+      "meaning": "比如，比方",
+      "examples": [
+        "像这样的事是值得注意的。",
+        "像你这样努力，成绩一定会提高。"
+      ],
+      "traditional_char": "像"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“像”为形声字，从‘人’表义，‘象’表声；最初本义为相貌相似。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "从‘相似’引申为‘形象’（人或物的图形），汉代见用。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "grammaticalization",
+      "note": "动词用法抽象为介词‘比如’，语法化过程，近现代形成。"
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "other",
+      "meaning": "耳朵贴于脸颊",
+      "examples": [
+        "《说文·耳部》：耿，耳箸颊也。"
+      ],
+      "traditional_char": "耿"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "光明，明亮",
+      "examples": [
+        "佇子終不來，青燈耿林壑。——宋·王安石《示張秘校》",
+        "跪敷衽以陳辭兮，耿吾既得此中正。——《楚辭·離騷》"
+      ],
+      "traditional_char": "耿"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "刚正不阿，正直，有骨气",
+      "examples": [
+        "少年負壯氣，耿介立衝冠。——徐敬業",
+        "人主不除此五蠹之民，不養耿介之士。——《韩非子·五蠹》"
+      ],
+      "traditional_char": "耿"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "心情不安，悲伤，心存牵挂",
+      "examples": [
+        "耿耿不寐，如有隐忧。——《詩·邶風·柏舟》",
+        "百年從萬事，故國耿難忘。——唐·杜甫《遣悶》"
+      ],
+      "traditional_char": "耿"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "地名、古国名",
+      "examples": [
+        "祖乙遷于耿。——《書·咸有一德》",
+        "滅耿，滅霍。——《左傳·閔元年》"
+      ],
+      "traditional_char": "耿"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "漢耿弇，耿况"
+      ],
+      "traditional_char": "耿"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "adjective",
+      "meaning": "气愤或激动时头面上筋脉突起",
+      "examples": [
+        "余大先生气得两脸紫胀，颈子里的筋都耿出来。——《儒林外史》"
+      ],
+      "traditional_char": "耿"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从耳，烓（或光、火）省声，最初表述耳贴于颊之意，后由声符引申和假借。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由描述耳贴颊之状，形象引申为光明（明亮），由于“烓”作声兼义。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由'光明'转喻为心地光明、正直，古今常用。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "由明亮引申至内心状态，形容心中有牵挂、忧愁不安。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "地名、国名多取字义正面光明蕴意，用作地名。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "metonymy",
+      "note": "用作姓氏，取义光明正大。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 6,
+      "evolution_type": "semantic_extension",
+      "note": "形容筋脉高耸突出，明亮之状比拟筋脉突出的外观。"
+    }
+  ]
+}

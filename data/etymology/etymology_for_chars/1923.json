@@ -1,0 +1,59 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "山高而陡峭",
+      "examples": [
+        "高峻",
+        "险峻",
+        "峻拔",
+        "峻岭"
+      ],
+      "traditional_char": "峻"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "高大（引申为道德、气节等）",
+      "examples": [
+        "峻德",
+        "峻节"
+      ],
+      "traditional_char": "峻"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "严厉苛刻",
+      "examples": [
+        "峻刻",
+        "峻厉",
+        "严峻",
+        "严刑峻法"
+      ],
+      "traditional_char": "峻"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从山，雋声，本义为山高而陡峭。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由山高陡峭引申为高大，常用于道德、气节等抽象概念。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由山势险峻（严峻）引申为态度、措施严厉苛刻。"
+    }
+  ]
+}

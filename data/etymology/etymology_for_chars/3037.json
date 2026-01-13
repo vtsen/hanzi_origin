@@ -1,0 +1,151 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "法律，法度（本义）",
+      "examples": [
+        "大辟",
+        "法辟"
+      ],
+      "traditional_char": "辟"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "君主",
+      "examples": [
+        "复辟",
+        "前辟后继"
+      ],
+      "traditional_char": "辟"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "征召授官，任用（特指君主对人才的征召）",
+      "examples": [
+        "辟召",
+        "辟举",
+        "辟除"
+      ],
+      "traditional_char": "辟"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "躲避，设法避开（古同“避”）",
+      "examples": [
+        "辟邪",
+        "无处可辟"
+      ],
+      "traditional_char": "辟"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "斜视（古同“睥”）",
+      "examples": [
+        "辟睨",
+        "辟视"
+      ],
+      "traditional_char": "辟"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "开发，开拓（主要用于“闢”）",
+      "examples": [
+        "开发",
+        "闢地",
+        "开疆闢土"
+      ],
+      "traditional_char": "闢"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "驳斥，排除",
+      "examples": [
+        "辟谣",
+        "辟邪"
+      ],
+      "traditional_char": "闢"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "adjective",
+      "meaning": "透彻，入微",
+      "examples": [
+        "精辟",
+        "鞭辟入里"
+      ],
+      "traditional_char": "闢"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "noun",
+      "meaning": "刑法，特指死刑（多用于“闢”）",
+      "examples": [
+        "大闢"
+      ],
+      "traditional_char": "闢"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意，从卩、辛、口，表示刑罚、法度。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 5,
+      "note": "‘闢’形声字，从門，辟声，初指‘开门’引申为开拓。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由‘法律’转指‘掌法律者’即‘君主’，早在先秦已有。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由‘君主’引申为‘君主征召授官’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 8,
+      "evolution_type": "semantic_narrowing",
+      "note": "由‘法律’专指‘刑法’、‘死刑’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "与‘避’通假，义项混用，见于古文。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_shift",
+      "note": "‘辟’借为‘睥’，通假发展。"
+    },
+    {
+      "source_index": 5,
+      "target_index": 6,
+      "evolution_type": "semantic_extension",
+      "note": "由‘开拓’引申为‘排除’、‘驳斥’。"
+    },
+    {
+      "source_index": 5,
+      "target_index": 7,
+      "evolution_type": "semantic_extension",
+      "note": "由‘开拓’引申为‘透彻’、‘入微’（深入推究之意）。"
+    }
+  ]
+}

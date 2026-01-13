@@ -1,0 +1,103 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "大水涌流的声音",
+      "examples": [
+        "渾渾水聲"
+      ],
+      "traditional_char": "渾"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "水不清，污浊",
+      "examples": [
+        "浑水摸鱼",
+        "渾濁"
+      ],
+      "traditional_char": "渾"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "糊涂，不明事理（多用于骂人）",
+      "examples": [
+        "浑人",
+        "浑话",
+        "浑蛋",
+        "浑浑噩噩"
+      ],
+      "traditional_char": "渾"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "全部，全然，满",
+      "examples": [
+        "浑身",
+        "浑然",
+        "白头搔更短，浑欲不胜簪"
+      ],
+      "traditional_char": "渾"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "天然的，淳朴的",
+      "examples": [
+        "浑古",
+        "浑朴",
+        "浑厚"
+      ],
+      "traditional_char": "渾"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "other",
+      "meaning": "姓氏",
+      "examples": [],
+      "traditional_char": "渾"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，军声，表示大水涌流的声音。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由水流之声扩展为水体浑浊不清，汉代已见。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由水浑浊用作比喻人的心思糊涂，见中古文献。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "‘浑’用于表示全部整体，由浑然等用法而来。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "形容本色、淳厚，原指自然状态的水，后指性情纯朴。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "unknown",
+      "note": "用作姓氏，机制不详，历史上属于音译、用字习惯。"
+    }
+  ]
+}

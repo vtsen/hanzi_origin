@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "喉咙",
+      "examples": [
+        "嗓子疼",
+        "我嗓子不舒服"
+      ],
+      "traditional_char": "嗓"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "发音器官的声带及发出的声音",
+      "examples": [
+        "哑嗓",
+        "嗓音高亢"
+      ],
+      "traditional_char": "嗓"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从口，桑声，表示与口部发声有关之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘喉咙’本义扩大为指喉咙的发声功能及所发之声。"
+    }
+  ]
+}

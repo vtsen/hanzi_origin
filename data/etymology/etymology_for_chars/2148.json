@@ -1,0 +1,62 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "安乐，舒适（本义，多见于“豫”字）",
+      "examples": [
+        "心旷神怡，志得意豫。",
+        "予豫且硕。"
+      ],
+      "traditional_char": "豫"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "事先、提前，预先进行某事",
+      "examples": [
+        "预习功课。",
+        "预先通知。",
+        "预感到将有大事发生。"
+      ],
+      "traditional_char": "預"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "参与，参加",
+      "examples": [
+        "参与活动。",
+        "干预事务。",
+        "参预会议。"
+      ],
+      "traditional_char": "預"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘豫’为形声字，从象征头部的‘页’（表安舒），‘予’作声符，意指安乐。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "‘預’为形声字，从‘頁’，‘予’声，后用于预先、参与等义，古本义已失。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_shift",
+      "note": "‘豫/預’本义为安乐，后本字义消失，借用于‘预先’，语义发生转变，见中古后期。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "‘预’由‘预先’延伸引申为‘参与’，用法见于近现代。"
+    }
+  ]
+}

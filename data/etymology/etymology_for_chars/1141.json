@@ -1,0 +1,40 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "仗义助人的人",
+      "examples": [
+        "武侠",
+        "游侠",
+        "侠客"
+      ],
+      "traditional_char": "俠"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "仗义的行为",
+      "examples": [
+        "侠义",
+        "有侠的精神"
+      ],
+      "traditional_char": "俠"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "形声字，从人，夹声，原意为‘侠义’，指仗义的行为。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "conversion",
+      "note": "由表属性名词“侠义的行为”引申为施行此行为的人，古今皆有。"
+    }
+  ]
+}

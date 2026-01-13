@@ -1,0 +1,58 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "particle",
+      "meaning": "文言发语词，常用于句首或句中，表示审慎语气或引起下文（与“聿”、“越”、“曰”通用）。",
+      "examples": [
+        "粤三日丁亥。",
+        "尚粤其几，沦神域兮。",
+        "粤以伏羲氏始画八卦。"
+      ],
+      "traditional_char": "粵"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "中国广东省的别称。",
+      "examples": [
+        "粤语",
+        "粤剧",
+        "即以粤之龙眼，闽之荔枝……岁销皆百十万。"
+      ],
+      "traditional_char": "粵"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "旧泛指今广东、广西等地的统称（百粤之地），或古代南方民族名。",
+      "examples": [
+        "使与百粤杂处。",
+        "南取百粤之地，以为桂林、象郡。",
+        "从百粤之兵以佐诸侯，诛暴秦。"
+      ],
+      "traditional_char": "粵"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘粵’为形声字，从‘宀’（或‘宷’/‘聿’），表示语气审慎、引起下文，声旁‘亏’，会意兼形声。古文多用作发语词。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由发语词‘粤’在古文中用来引出与南方民族、地域相关的叙述，后来成为该地名、族名的称呼。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 1,
+      "evolution_type": "semantic_narrowing",
+      "note": "原指‘百粤’地区，后专指广东省，现代语境中多用作广东简称。"
+    }
+  ]
+}

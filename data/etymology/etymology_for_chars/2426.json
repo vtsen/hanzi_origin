@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "用水冲洗，去除杂质",
+      "examples": [
+        "淘米",
+        "淘金"
+      ],
+      "traditional_char": "淘"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "挖浚，从深处舀出泥沙、污物",
+      "examples": [
+        "淘井",
+        "淘缸"
+      ],
+      "traditional_char": "淘"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "耗费（多指精力、精神）",
+      "examples": [
+        "淘神"
+      ],
+      "traditional_char": "淘"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，匋声，表示用水冲洗、去杂质。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由用水冲洗引申为挖浚、舀出泥沙，见于后世用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由洗净引申为消耗，精神力被“淘净”，语义转化。"
+    }
+  ]
+}

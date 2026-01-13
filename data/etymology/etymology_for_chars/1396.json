@@ -1,0 +1,72 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "抛洒，甩出",
+      "examples": [
+        "挥泪",
+        "挥汗如雨"
+      ],
+      "traditional_char": "揮"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "舞动，摇摆",
+      "examples": [
+        "挥手",
+        "挥舞",
+        "挥袂"
+      ],
+      "traditional_char": "揮"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "散发，发出",
+      "examples": [
+        "发挥",
+        "挥斥方遒"
+      ],
+      "traditional_char": "揮"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "指派，命令",
+      "examples": [
+        "指挥",
+        "挥军"
+      ],
+      "traditional_char": "揮"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从手，军声。本义为抛洒、甩出，手的动作，军作声旁。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“甩出”扩展为所有舞动、摇摆手的动作，用于描述手部大幅动作。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由“甩出”抽象引申为情感、气势等的“发散”，古今皆用。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由“摇摆、舞动手势”引申为“发号施令、指挥”，因为指挥动作常以手势表达。"
+    }
+  ]
+}

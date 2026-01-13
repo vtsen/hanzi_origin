@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "用线、绳等盘绕或缠住某物。",
+      "examples": [
+        "缠绕",
+        "绕线"
+      ],
+      "traditional_char": "繞"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "纠缠，使变得复杂或迷糊。",
+      "examples": [
+        "绕嘴",
+        "绕口令"
+      ],
+      "traditional_char": "繞"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "走弯曲或迂回的路。",
+      "examples": [
+        "绕远",
+        "绕道"
+      ],
+      "traditional_char": "繞"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "围着某物转一圈或多圈。",
+      "examples": [
+        "绕场一周",
+        "环绕"
+      ],
+      "traditional_char": "繞"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘繞’为形声字，从糸，尧声，本义为缠束，与线相关。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由实际缠绕之意引申为言语行为上的纠缠、使复杂。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由缠绕引申为道路上的环绕、弯曲行走。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "从缠绕引申为绕着物体进行运动。"
+    }
+  ]
+}

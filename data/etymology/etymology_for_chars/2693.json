@@ -1,0 +1,70 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "军事上防守用的建筑物",
+      "examples": [
+        "碉堡",
+        "堡垒",
+        "桥头堡"
+      ],
+      "traditional_char": "堡"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "古代指土筑的小城",
+      "examples": [
+        "徐嵩、胡空各聚众五千，据险筑堡以自固"
+      ],
+      "traditional_char": "堡"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "有城墙的村镇，泛指村庄（多用于地名）",
+      "examples": [
+        "马家堡",
+        "堡子"
+      ],
+      "traditional_char": "堡"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "古同“铺”，驿站（今用于地名）",
+      "examples": [
+        "十里堡"
+      ],
+      "traditional_char": "堡"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "形声字，从土，保声，本义为土筑的小城。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "由“土筑的小城”引申为军事防守用的建筑物，宋元以后常用。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由小城引申为有防护的村镇，多见于地名。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "reanalysis",
+      "note": "与“铺”音近，后世地名多借用，形成‘堡’为驿站的用法。"
+    }
+  ]
+}

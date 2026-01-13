@@ -1,0 +1,40 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "用勺子舀取或往杯盏中倒饮料",
+      "examples": [
+        "斟茶",
+        "斟酒",
+        "请为客人斟上一杯酒"
+      ],
+      "traditional_char": "斟"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "古代指精美的羹汁",
+      "examples": [
+        "厨人进斟",
+        "取其斟以奉君"
+      ],
+      "traditional_char": "斟"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字。从斗，甚声。本义与‘舀取’有关。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由‘舀取’引申为被舀取之物，即羹汁。见先秦文献用法。"
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "鸟羽有斑纹或文彩的样子",
+      "examples": [
+        "有鶯其羽。——《诗·小雅》",
+        "鶯然有文章。——《毛传》"
+      ],
+      "traditional_char": "鶯"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "黄莺，一种小型雀鸟，羽色黄绿，鸣声婉转。亦称黄鹂",
+      "examples": [
+        "暮春三月，江南草长，杂花生树，群莺乱飞。——南朝梁·丘迟《与陈伯之书》",
+        "千里莺啼绿映红。——唐·杜牧《江南春绝句》"
+      ],
+      "traditional_char": "鶯"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "泛指叫声清脆婉转的鸟类（文学用法，如夜莺、歌鸲等）",
+      "examples": [
+        "夜莺，文学上指“歌鸲”一类叫声清脆婉转的鸟。"
+      ],
+      "traditional_char": "鶯"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "鸟纲莺科的通称，体型较小，常见褐色或暗绿色，鸣声悦耳，是益鸟",
+      "examples": [
+        "～歌燕舞"
+      ],
+      "traditional_char": "鶯"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "春日景物的比喻用法，如“莺花”、“莺啼燕语”",
+      "examples": [
+        "莺花（黄莺和花朵，指春日景物）"
+      ],
+      "traditional_char": "鶯"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘鶯’为形声字，从鳥，熒省声，最早指鸟羽文彩貌。"
+    },
+    {
+      "formation_type": "loan_character",
+      "original_sense_index": 1,
+      "note": "‘莺’为‘鶯’的简化字，后专指黄莺及相关义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由指鸟羽色彩，扩展为特指羽色鲜明的鸟（黄莺）。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由“黄莺”引申为泛指叫声清脆婉转的鸟。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由具体某种鸟扩展为鸟纲莺科的总称。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "由鸟的形象比喻春天的景色。"
+    }
+  ]
+}

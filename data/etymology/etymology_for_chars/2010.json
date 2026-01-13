@@ -1,0 +1,77 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "鸳鸯的简称，一种水鸟，雌雄常在一起，古今常用以比喻夫妻或成对的事物。",
+      "examples": [
+        "鸳，鸳鸯也。——《说文》",
+        "鸳鸯于飞。——《诗·小雅·鸳鸯》",
+        "十年分散天邊鳥，一旦團圓鏡裏鴛。——《警世通言》"
+      ],
+      "traditional_char": "鴛"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "比喻配偶、夫妻。",
+      "examples": [
+        "鸳会阻，夕雨凄飞。——宋·柳永《两同心》",
+        "鸳侣（配偶，夫妻）"
+      ],
+      "traditional_char": "鴛"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "比喻同事、同僚。",
+      "examples": [
+        "鸳班礼绝邻。——明·李东阳《寿琼山邱先生》",
+        "鸳行鹭序（在职官员的名册）"
+      ],
+      "traditional_char": "鴛"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "鴛的简化字形式“鸳”，义同。",
+      "examples": [
+        "鸳侣（现代用法，配偶）",
+        "鸳鸯瓦脊"
+      ],
+      "traditional_char": "鸳"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "鴛为形声字，从鳥，夗声，表意水鸟类之‘鸳鸯’简称。"
+    },
+    {
+      "formation_type": "simple_indicative",
+      "original_sense_index": 3,
+      "note": "鸳为‘鴛’的简化字，简化自鴛，义同。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "以鸳鸯成双成对、形影不离的特性喻夫妻配偶之义，早见于古籍。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "取鸳鸯成偶、对偶之意，引申为同事同僚之比喻。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "reanalysis",
+      "note": "鸳为鴛的简化，字形演变，义同。用简化形体对应原义。"
+    }
+  ]
+}

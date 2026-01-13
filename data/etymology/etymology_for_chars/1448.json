@@ -1,0 +1,87 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "家福；幸福",
+      "examples": [
+        "祠官祝釐。——《汉书·文帝纪》",
+        "上方受釐坐宣室。——《汉书·贾谊传》"
+      ],
+      "traditional_char": "釐"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "极小的数量单位，如长度、重量、面积、利率等的名称",
+      "examples": [
+        "毫厘不爽",
+        "一米等于一百厘米，一厘米等于十毫米，一毫米等于一千微米，一厘为百分之一。"
+      ],
+      "traditional_char": "厘"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "治理，处理，订正，改革，整理，给予",
+      "examples": [
+        "允厘百工，庶绩咸熙。——《书·尧典》",
+        "施行日久，岂一朝所厘?——《后汉书·梁统传》",
+        "厘定"
+      ],
+      "traditional_char": "厘"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "寡妇（通“嫠”）",
+      "examples": [
+        "兄亡则纳厘嫂。——《后汉书·西羌传》"
+      ],
+      "traditional_char": "厘"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "厘金的略称，指征收厘金的机关或税",
+      "examples": [
+        "厘金局（征收厘金的机关。又名厘局）",
+        "厘指（又称厘金，厘金税）"
+      ],
+      "traditional_char": "厘"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从‘里’表示与居住家居相关，‘厘’声，最初义为家福、幸福"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "家福、幸福衍生为治理、赐予等抽象意义，已见《诗经》《尚书》等"
+    },
+    {
+      "source_index": 2,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "治理、整理的意义引申为数量整齐划分，再转为数量单位"
+    },
+    {
+      "source_index": 2,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "治理相关，引申为厘金税的机构或税本身"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "通假‘嫠’，用于‘寡妇’义，仅因语音借用"
+    }
+  ]
+}

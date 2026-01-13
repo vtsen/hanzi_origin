@@ -1,0 +1,57 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "粗大的竹管",
+      "examples": [
+        "竹筒盛水",
+        "用筒取酒"
+      ],
+      "traditional_char": "筒"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "较粗的中空而高的器物",
+      "examples": [
+        "邮筒",
+        "笔筒",
+        "烟筒"
+      ],
+      "traditional_char": "筒"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "衣服等的筒状部分",
+      "examples": [
+        "袖筒儿",
+        "靴筒",
+        "筒裙"
+      ],
+      "traditional_char": "筒"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从竹，‘同’声。原指竹制管状物。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由指竹管扩展为泛指所有中空高形器物，见近现代用法。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由器物形象转喻为服饰等的筒状部分，表现为形状隐喻。"
+    }
+  ]
+}

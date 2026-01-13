@@ -1,0 +1,84 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "储藏文书或财物的地方",
+      "examples": [
+        "府库",
+        "天府"
+      ],
+      "traditional_char": "府"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "旧时封建贵族和官僚的主宅，泛指一般人的住宅",
+      "examples": [
+        "王府",
+        "府邸"
+      ],
+      "traditional_char": "府"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "中国唐代至清代的行政区域名，等级在县和省之间",
+      "examples": [
+        "开封府",
+        "府尹"
+      ],
+      "traditional_char": "府"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "国家行政机关",
+      "examples": [
+        "政府",
+        "官府"
+      ],
+      "traditional_char": "府"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "古同“腑”，脏腑",
+      "examples": [],
+      "traditional_char": "府"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从广，付声，表示与建筑储藏相关，本义为文书或财物的府库。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从储藏文书财物的场所推广为贵族或官僚住所。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由贵族官僚住所进一步用作行政机构所在地，引申为行政区划。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "通过府作为行政机构建筑，引申指整个行政机关。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_shift",
+      "note": "借用“府”用作身体脏腑的名称，古书常混用。"
+    }
+  ]
+}

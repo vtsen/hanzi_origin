@@ -1,0 +1,44 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "声音，有节奏的声",
+      "examples": [
+        "声音",
+        "音乐",
+        "音律",
+        "音色",
+        "音量",
+        "弦外之音"
+      ],
+      "traditional_char": "音"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "消息，信息",
+      "examples": [
+        "音信",
+        "佳音",
+        "音讯"
+      ],
+      "traditional_char": "音"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "simple_indicative",
+      "original_sense_index": 0,
+      "note": "从言含一，表示所发之声，甲骨文与‘言’互用，属于指事字。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由声音引申为传递消息的信息，常见于古今汉语。"
+    }
+  ]
+}

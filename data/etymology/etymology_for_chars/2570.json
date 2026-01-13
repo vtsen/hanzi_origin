@@ -1,0 +1,118 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "花椒（芸香科，落叶灌木或小乔木）的植株，本义。",
+      "examples": [
+        "焚椒兰也。——唐·杜牧《阿房宫赋》",
+        "琴鼓之山，其木多榖柞椒柘。——《山海经·中山经》"
+      ],
+      "traditional_char": "椒"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "花椒的果实，常用于调味或入药。",
+      "examples": [
+        "貽我握椒。——《诗经·陈风·东门之枌》",
+        "芼以椒与橙。——唐·韩愈《初南食貽元十八協律》",
+        "椒盐、椒酒"
+      ],
+      "traditional_char": "椒"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "胡椒的植株及其果实。",
+      "examples": [
+        "胡椒"
+      ],
+      "traditional_char": "椒"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "辣椒、番椒等辣味蔬菜。",
+      "examples": [
+        "朝天椒",
+        "牛角椒"
+      ],
+      "traditional_char": "椒"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "山顶、山头。",
+      "examples": [
+        "釋輿馬於山椒兮。——《汉书·外戚传》",
+        "菊散芳於山椒。——宋·谢庄《月赋》"
+      ],
+      "traditional_char": "椒"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "古地名，春秋时楚国的邑名。",
+      "examples": [
+        "楚子使椒來聘。——《春秋左传》",
+        "春秋有椒舉"
+      ],
+      "traditional_char": "椒"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [
+        "春秋楚有椒舉"
+      ],
+      "traditional_char": "椒"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从木，叔声，表示与树木相关，初指花椒树。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_narrowing",
+      "note": "由指花椒树引申为其果实，先秦已见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "以椒木丛生高处比喻山顶，汉代及后世文献可见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "metonymy",
+      "note": "以地多椒树得名的地名，春秋时代地名用法。"
+    },
+    {
+      "source_index": 5,
+      "target_index": 6,
+      "evolution_type": "metonymy",
+      "note": "以邑为姓，楚姓氏用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由本义花椒及其果实，扩展指代其他有辛辣味的调味果实（胡椒），中古及近代。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "近现代语境中，泛指如辣椒等辛辣蔬菜。"
+    }
+  ]
+}

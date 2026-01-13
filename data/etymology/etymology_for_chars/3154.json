@@ -1,0 +1,72 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "精米，去除杂质后最精纯的米。",
+      "examples": [
+        "粹，精米也。——《说文解字》"
+      ],
+      "traditional_char": "粹"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "纯一，不杂，纯净无杂质。",
+      "examples": [
+        "纯粹",
+        "粹白",
+        "精粹",
+        "粹而不杂。——《荀子·劝学》"
+      ],
+      "traditional_char": "粹"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "精华，最精美、最有价值的部分。",
+      "examples": [
+        "国粹",
+        "文粹",
+        "此皆六经之粹也。——明·王守仁《传习录》"
+      ],
+      "traditional_char": "粹"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "齐全、集聚，聚集。",
+      "examples": [
+        "古同“萃”，齐全，集聚。"
+      ],
+      "traditional_char": "粹"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从米，卒声，本义为精米，表示米的精纯。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由精纯的米引申为纯一不杂，物理意义转为抽象品质。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由纯一不杂进一步抽象为精华、最优秀部分。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "“粹”古作“萃”，因音近假借义为齐全、集聚，见古文用法。"
+    }
+  ]
+}

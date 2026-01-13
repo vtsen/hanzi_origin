@@ -1,0 +1,40 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "水边，泛指边际",
+      "examples": [
+        "生也有涯，而知也无涯。",
+        "涯岸",
+        "涯际"
+      ],
+      "traditional_char": "涯"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "范围，限度",
+      "examples": [
+        "生涯",
+        "涯分"
+      ],
+      "traditional_char": "涯"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，厓声，厓为山边，引申为水边。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由具体的水边、边际引申为抽象的范围、限度，发生在先秦到汉代。"
+    }
+  ]
+}

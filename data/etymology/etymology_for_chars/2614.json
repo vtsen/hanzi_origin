@@ -1,0 +1,69 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adverb",
+      "meaning": "程度上达到极点，无比。",
+      "examples": [
+        "最大",
+        "最高",
+        "最初",
+        "最终",
+        "最为"
+      ],
+      "traditional_char": "最"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "聚集，集合。",
+      "examples": [
+        "忧喜最门"
+      ],
+      "traditional_char": "最"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "合计，总计。",
+      "examples": [
+        "最大将军青凡七出击匈奴"
+      ],
+      "traditional_char": "最"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "冒犯、夺取。",
+      "examples": [],
+      "traditional_char": "最"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 3,
+      "note": "小篆字形从“冃”与“取”组成，表示冒犯、夺取之意，是会意构形。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 3,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由夺取引申为聚集、集合，因动作涉及集中获得。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由聚集引申为合计、总计。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "metaphor",
+      "note": "由聚合引申为程度上的极致，即达到最顶点。"
+    }
+  ]
+}

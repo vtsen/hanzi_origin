@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "撮口作声，打口哨",
+      "examples": [
+        "仰天长啸",
+        "啸歌"
+      ],
+      "traditional_char": "嘯"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "动物拉长声叫",
+      "examples": [
+        "虎啸",
+        "猿啸"
+      ],
+      "traditional_char": "嘯"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "自然界发出的声音",
+      "examples": [
+        "北风呼啸",
+        "海啸"
+      ],
+      "traditional_char": "嘯"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "飞机或子弹掠过时发出的声音",
+      "examples": [
+        "飞机尖啸着冲上蓝天",
+        "炮弹呼啸而过"
+      ],
+      "traditional_char": "嘯"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从口，肃声，表形声，本义为撮口作声、打口哨。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "以人啸声比喻动物拉长的叫声，出现于先秦、两汉。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由动物长啸引申至自然界发出的类似声音，多见于中古以后。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "自然界声音进一步泛化至器物如飞机、炮弹发出的相似声音，始见于近现代。"
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "富足，丰富",
+      "examples": [
+        "家中富饶。",
+        "物产饶沃。"
+      ],
+      "traditional_char": "饒"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "宽恕，免除处罚",
+      "examples": [
+        "饶恕我吧！",
+        "饶命啊！"
+      ],
+      "traditional_char": "饒"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "conjunction",
+      "meaning": "尽管，即使",
+      "examples": [
+        "饶这样，他还不同意。"
+      ],
+      "traditional_char": "饒"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "另外增添",
+      "examples": [
+        "买十饶一。"
+      ],
+      "traditional_char": "饒"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "饶氏。"
+      ],
+      "traditional_char": "饒"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "adjective",
+      "meaning": "饱足（本义）",
+      "examples": [],
+      "traditional_char": "饒"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 5,
+      "note": "形声字，从食，尧声，最初表示“饱足”之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 5,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "由“饱足”引申为“富足、丰富”；常见于先秦文献。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由“物资宽裕”引申为“宽恕、宽容”，语义比喻发展。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由“富足”引申为“另外增添”，即有余可加。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "grammaticalization",
+      "note": "动词“饶”弱化为连接成分，表示“尽管”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "unknown",
+      "note": "用作姓氏，具体来源不明，语义联系待考。"
+    }
+  ]
+}

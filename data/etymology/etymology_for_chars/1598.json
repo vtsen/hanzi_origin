@@ -1,0 +1,73 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "哺乳动物母体内未出生的幼体，胚胎",
+      "examples": [
+        "胎儿",
+        "胚胎",
+        "怀胎十月"
+      ],
+      "traditional_char": "胎"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "事物的开端、根源",
+      "examples": [
+        "祸胎",
+        "病胎"
+      ],
+      "traditional_char": "胎"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "器物制造过程中未完成的粗胚",
+      "examples": [
+        "泥胎",
+        "瓷胎",
+        "铜胎"
+      ],
+      "traditional_char": "胎"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "衬在衣服或被褥面子和里子之间的填充物",
+      "examples": [
+        "棉花胎",
+        "绒胎"
+      ],
+      "traditional_char": "胎"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从“肉”表示与身体或肉体有关，“台”作声旁，本义指未出生的幼体。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "以胎喻事之起始或根源，由具体到抽象，常见于古典与近代文献。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "比喻事物初生或初成的形态，多用于器物制造业。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由器物内部未完成之胚喻为衣物或被褥内部填充物。"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "植物名，菰类，即茭白。",
+      "examples": [
+        "蔣席頗緣。",
+        "背飛鶴子遺瓊蕊，相趁鳧雛入蔣芽。",
+        "搴取荇葉薀頭蔣角，煮之，旁貼蕎麥鍋餅，便是美食。"
+      ],
+      "traditional_char": "蔣"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "古国名，周朝诸侯国之一。",
+      "examples": [
+        "凡 、蔣 、邢 、茅 、胙 、祭 ，周公之胤也。",
+        "蘇峻至于蔣山。"
+      ],
+      "traditional_char": "蔣"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [],
+      "traditional_char": "蔣"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "通“奖”，勉励。",
+      "examples": [
+        "蔣厲。"
+      ],
+      "traditional_char": "蔣"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从艸，将声，本义为植物名‘茭白’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "以植物为地名、国名；国以地得名，东周时有蔣国。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "以国为氏，地名转为姓氏，为古代常见过程。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "unknown",
+      "note": "‘蔣’通‘奖’，为假借用法，具体关系未明。"
+    }
+  ]
+}

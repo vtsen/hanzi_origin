@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "（马）奔跑，跳跃",
+      "examples": [
+        "骏马奔腾",
+        "骏马腾跃"
+      ],
+      "traditional_char": "騰"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "上升，升空，迅速向上运动",
+      "examples": [
+        "腾空而起",
+        "白云腾空"
+      ],
+      "traditional_char": "騰"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "空出来，挪出（空间、地方）",
+      "examples": [
+        "腾个位置",
+        "请腾退房间"
+      ],
+      "traditional_char": "騰"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "particle",
+      "meaning": "作词尾，表示动作的反复连续（轻声）",
+      "examples": [
+        "翻腾",
+        "折腾"
+      ],
+      "traditional_char": "騰"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从马，朕声，表示马奔腾之意，‘马’为意符，‘朕’表声。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由马奔腾跳跃引申为向上升起，多见于先秦至汉文献。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由奔腾动作引申为空间的转移与清空，义项见于中古至近现代。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "grammaticalization",
+      "note": "动作反复的词尾用法由本义抽象衍生，多见于近现代口语。"
+    }
+  ]
+}

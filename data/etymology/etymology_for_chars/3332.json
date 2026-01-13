@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "常绿小乔木，果名橘子。芸香科，树枝多刺，果实可食。",
+      "examples": [
+        "江南多橘，还于江北曰枳。",
+        "扬州厥包橘柚锡贡。",
+        "蜀汉江陵千树橘。"
+      ],
+      "traditional_char": "橘"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "橘子的果实，多汁可食，味酸甜，果皮常作药用。",
+      "examples": [
+        "橘红、橘络皆可为药。",
+        "橘黄色。",
+        "洞庭橘柚千树黄。"
+      ],
+      "traditional_char": "橘"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "月阳名之一，泛指古代以“橘”称阳历月份中在地支乙时的称呼。",
+      "examples": [
+        "月在乙曰橘，谓之月阳。"
+      ],
+      "traditional_char": "橘"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从木，矞声。表与树木相关，古文字作形声结构，初本指橘树。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "synecdoche",
+      "note": "由树名泛指树的果实，部分代整体，早在先秦可见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "因果实色泽、形象或相关意象比喻引申为天文历法名词，见于《尔雅》。"
+    }
+  ]
+}

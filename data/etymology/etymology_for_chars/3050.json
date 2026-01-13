@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "青绿色的玉石",
+      "examples": [
+        "碧玉",
+        "碧玺"
+      ],
+      "traditional_char": "碧"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "青绿色的",
+      "examples": [
+        "碧绿",
+        "碧空如洗"
+      ],
+      "traditional_char": "碧"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从“石”表义指玉石，“白”表声；最初意为青绿色的玉石。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由指青绿色玉石扩展为一般的青绿色，见于先秦至汉代文献。"
+    }
+  ]
+}

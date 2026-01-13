@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "洗，清洗。",
+      "examples": [
+        "洗涤",
+        "涤除尘垢",
+        "涤瑕荡秽"
+      ],
+      "traditional_char": "滌"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "古代养祭牲的房子。",
+      "examples": [
+        "牲生入涤而养之。——《周礼·牲人》"
+      ],
+      "traditional_char": "滌"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "古代指音乐节奏急速。",
+      "examples": [
+        "滌，疾也。——《说文》",
+        "音或滌急而不缓。"
+      ],
+      "traditional_char": "滌"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，条声，本义为洗。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "以‘洗’引申为‘涤养牲所’——祭祀需洁净，涤养老房为使牲洁净。西周时期已见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由‘快速冲洗’喻至‘音乐节奏急速’，《说文》记载，用‘滌’形容快，取其动感。"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "偷盗，偷偷取走别人物品",
+      "examples": [
+        "窃贼",
+        "偷窃",
+        "竊國者侯"
+      ],
+      "traditional_char": "竊"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "用不合法或不合理手段获取",
+      "examples": [
+        "窃国",
+        "窃取政权",
+        "竊位"
+      ],
+      "traditional_char": "竊"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adverb",
+      "meaning": "私自、暗中",
+      "examples": [
+        "窃笑",
+        "窃听",
+        "竊喜"
+      ],
+      "traditional_char": "竊"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "particle",
+      "meaning": "谦辞，自称",
+      "examples": [
+        "窃以为",
+        "窃谓",
+        "竊以为未可"
+      ],
+      "traditional_char": "竊"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意字，从穴、从米，表示虫在穴中偷米吃，古义为偷盗。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由具体偷盗引申至用不合法手段取得，用于比喻。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由“偷”的行为引申为“私自暗中”做某事。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "grammaticalization",
+      "note": "从私下认为进一步引申为谦辞，仅用于自称。"
+    }
+  ]
+}

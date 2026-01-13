@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "奢侈，不节俭，挥霍无度",
+      "examples": [
+        "穷奢极欲",
+        "他的生活十分奢侈。"
+      ],
+      "traditional_char": "奢"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "过分的，超出适度的",
+      "examples": [
+        "奢望",
+        "奢求"
+      ],
+      "traditional_char": "奢"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "夸张，说话夸大其词",
+      "examples": [
+        "奢言",
+        "不可奢谈"
+      ],
+      "traditional_char": "奢"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从『大』表意（指挥霍无度之形），『者』表音，原义为奢侈、不节俭。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由奢侈引申为过分、超过应有程度，多见于近现代汉语。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "认为说话过度如同行为过度，由形容词衍生为动词。"
+    }
+  ]
+}

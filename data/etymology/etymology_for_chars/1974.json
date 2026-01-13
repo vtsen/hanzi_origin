@@ -1,0 +1,52 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "顽强，固执",
+      "examples": [
+        "他为人倔强，不肯服输。"
+      ],
+      "traditional_char": "倔"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "突出",
+      "examples": [
+        "峰峦倔起。"
+      ],
+      "traditional_char": "倔"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "言语粗直，态度不好",
+      "examples": [
+        "那老头真倔，不讲情面。"
+      ],
+      "traditional_char": "倔"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从人，屈声，初意为顽强、固执。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由顽强、固执引申为突出，多见于古汉语。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "顽强、固执之性格延伸为言语粗直、态度不好。"
+    }
+  ]
+}

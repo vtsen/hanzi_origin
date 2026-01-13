@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "讨伐，消灭",
+      "examples": [
+        "剿匪",
+        "征剿",
+        "围剿"
+      ],
+      "traditional_char": "剿"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "使劳累，使百姓辛苦劳作",
+      "examples": [
+        "剿民"
+      ],
+      "traditional_char": "剿"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "以别人的语言文句作为自己的（抄袭）",
+      "examples": [
+        "剿说",
+        "剿袭"
+      ],
+      "traditional_char": "剿"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "形声字，从刀，巢声，原本义为‘劳累’，后引申出其他义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "由‘劳累、使辛勤’引申为劳作对抗，进而表示‘讨伐’。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "unknown",
+      "note": "‘剿’表示‘抄袭’义，机制尚不明确，或与‘劳作’引申有关。"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "叔父的妻子",
+      "examples": [
+        "叔叔和婶婶一起来了。",
+        "家里的婶娘特别和蔼。"
+      ],
+      "traditional_char": "嬸"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "称呼与母亲同辈而年龄较轻的已婚妇女",
+      "examples": [
+        "张大婶",
+        "李婶儿"
+      ],
+      "traditional_char": "嬸"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘嬸’为形声字，从女，审声，最初表叔父之妻。‘婶’为简化字，源自‘嬸’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由叔父之妻称谓扩展为称呼母亲同辈较年轻女性，见于近现代汉语。"
+    }
+  ]
+}

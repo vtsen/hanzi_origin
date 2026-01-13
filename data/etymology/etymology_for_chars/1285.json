@@ -1,0 +1,73 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "充满；内容充实",
+      "examples": [
+        "实心",
+        "充实",
+        "虚实"
+      ],
+      "traditional_char": "實"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "符合客观情况，真实，真诚",
+      "examples": [
+        "实话",
+        "名实相符",
+        "实事求是"
+      ],
+      "traditional_char": "實"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "植物结的果实",
+      "examples": [
+        "果实",
+        "开花结实"
+      ],
+      "traditional_char": "實"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "富足，充裕",
+      "examples": [
+        "殷实",
+        "富实"
+      ],
+      "traditional_char": "實"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 3,
+      "note": "会意字，从宀（屋）与贯（财物），本义为屋内充满财物，表示富足。‘实’为‘實’的简化。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 3,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "富足之意引申为一般充满、内容充实的意思，见于先秦文献。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由充实、无虚假引申为真实、真诚，比喻由实引申为真。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "植物开花后内容充实之物，即果实，由“充实”引申。"
+    }
+  ]
+}

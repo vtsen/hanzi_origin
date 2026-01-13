@@ -1,0 +1,82 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "驾驶车马",
+      "examples": [
+        "御车",
+        "御者",
+        "左御右詔"
+      ],
+      "traditional_char": "御"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "治理，统治",
+      "examples": [
+        "百官御事",
+        "御下",
+        "御众"
+      ],
+      "traditional_char": "御"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "对帝王行为、物品的敬称",
+      "examples": [
+        "御用",
+        "御览",
+        "御旨",
+        "御赐",
+        "御驾亲征"
+      ],
+      "traditional_char": "御"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "抵挡，防止",
+      "examples": [
+        "防御",
+        "御敌",
+        "御寒"
+      ],
+      "traditional_char": "禦"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意字，“行”表示道路，“人”表示握辔之人，中间之“绳索”象征马车缰绳，合意为人在路上驾车。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 3,
+      "note": "“禦”加“阝”旁表意，表示与防守、抵挡有关，多用于“防御”义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由驾驭马车引申为统治、驾驭人群，见于先秦文献。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "amelioration",
+      "note": "因“帝王”统治涵义，引申为帝王相关敬称，封建社会普及。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "由驾御之义发展为抵挡、防止之义，义项见《汉书》、《说文》。"
+    }
+  ]
+}

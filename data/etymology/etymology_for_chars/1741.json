@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "女子名用字，亦作人名的译音字。",
+      "examples": [
+        "如‘娜塔莎’中的‘娜’。"
+      ],
+      "traditional_char": "娜"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "姿态柔美，形容举止、体态美好多姿，多见于“婀娜”、“袅娜”等词。",
+      "examples": [
+        "婀娜多姿",
+        "身段袅娜",
+        "花腰呈嬝娜。——李白",
+        "连笮动嫋娜。——杜甫"
+      ],
+      "traditional_char": "娜"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "形容轻柔、委婉的样子，常叠用为“娜娜”。",
+      "examples": [
+        "舞姿娜娜",
+        "行步娜娜"
+      ],
+      "traditional_char": "娜"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "形声字，从女，那声。本义为姿态柔美、美貌。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "由表示柔美姿态引申为女性名字用字。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由姿态柔美进一步泛化为轻柔、委婉的样子，常用于叠词用法。"
+    }
+  ]
+}

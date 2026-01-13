@@ -1,0 +1,58 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "一种色泽光润的矿石，或指似玻璃的有色泽材料（琉璃）。",
+      "examples": [
+        "雕琉于翠楣。",
+        "移我琉璃榻，出置前牕下。"
+      ],
+      "traditional_char": "琉"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "指涂有彩色釉的瓦，即琉璃瓦。",
+      "examples": [
+        "碧琉瑞烟笼罩。"
+      ],
+      "traditional_char": "琉"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "以透明角质作罩的灯笼。",
+      "examples": [],
+      "traditional_char": "琉"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "古代国名，如“大琉球”、“小琉球”。",
+      "examples": [],
+      "traditional_char": "琉"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从王，丣声，本指有光彩的玉石，属形声字。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "光泽矿石之意扩展为有光彩的釉瓦，自唐宋起常见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "因为灯罩使用类似材料称‘琉’，见明清小说中。"
+    }
+  ]
+}

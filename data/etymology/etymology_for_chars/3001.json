@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "用泥土等做成人、物的形象",
+      "examples": [
+        "塑像",
+        "泥塑木雕",
+        "雕塑"
+      ],
+      "traditional_char": "塑"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "柔软，非流质，可任意变形的性质",
+      "examples": [
+        "塑性",
+        "材料的塑性好"
+      ],
+      "traditional_char": "塑"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "具有可塑性的高分子化合物的统称，经加热加压而形成的，具有一定形状的材料",
+      "examples": [
+        "塑料",
+        "塑料袋"
+      ],
+      "traditional_char": "塑"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从土，朔声；原指用泥土捏塑人或物体像。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由‘塑造’的过程引申出材料本身的变形性质。现代汉语中常见。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由‘塑性（材料特性）’进一步引申为‘塑料’这一名词。20世纪随科学发展出现。"
+    }
+  ]
+}

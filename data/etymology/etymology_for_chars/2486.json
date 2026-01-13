@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "把麻等捻成线或绳",
+      "examples": [
+        "绩麻",
+        "纺绩",
+        "绩火"
+      ],
+      "traditional_char": "績"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "继承、继续",
+      "examples": [
+        "子盍亦远绩禹功而大庇民乎？"
+      ],
+      "traditional_char": "績"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "成果，功业",
+      "examples": [
+        "成绩",
+        "功绩",
+        "战绩"
+      ],
+      "traditional_char": "績"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从糸，责声。本义为搓麻为线。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由搓麻连续引申为‘继承’、‘继续’之意，古籍用法有旁证。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由‘继续’引申为‘功业’、‘成果’，表示事功的累积。"
+    }
+  ]
+}

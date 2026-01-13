@@ -1,0 +1,100 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "平常，不高明",
+      "examples": [
+        "平庸",
+        "庸医",
+        "庸俗",
+        "庸人自扰",
+        "庸主"
+      ],
+      "traditional_char": "庸"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "需要，用到",
+      "examples": [
+        "无庸讳言",
+        "无庸细述"
+      ],
+      "traditional_char": "庸"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "pronoun",
+      "meaning": "岂，如何，怎么（表示疑问或反问）",
+      "examples": [
+        "庸讵"
+      ],
+      "traditional_char": "庸"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "唐代赋税法名",
+      "examples": [
+        "租庸调"
+      ],
+      "traditional_char": "庸"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "功劳，功绩",
+      "examples": [
+        "庸绩"
+      ],
+      "traditional_char": "庸"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "雇佣，受雇",
+      "examples": [],
+      "traditional_char": "庸"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 1,
+      "note": "小篆从用从庚，会意，表示‘需要、用’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_shift",
+      "note": "‘用、需要’义到‘平常’义，意为平常人、没有用处之人，语义转变于后世。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "function_word",
+      "note": "由‘需要’发展为虚词，表反问或疑问。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "‘庸’用作赋税法名，意为‘劳役、服役’，从‘需要’引申。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "‘庸’由‘用、需要’引申为‘功劳’。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "古同‘佣’，借用‘庸’表示‘雇佣’，声音相近。"
+    }
+  ]
+}

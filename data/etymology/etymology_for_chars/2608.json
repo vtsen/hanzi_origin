@@ -1,0 +1,98 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "木名，甘棠、棠梨等落叶乔木，有红白两种，果实可以食用或作砧木。",
+      "examples": [
+        "蔽芾甘棠。——《诗经·召南》",
+        "野棠开尽飘香玉。——李洞《绣岭宫词》"
+      ],
+      "traditional_char": "棠"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "上述植物的果实，亦称“杜梨”。",
+      "examples": [
+        "棠熟时，收种之。——《齐民要术》"
+      ],
+      "traditional_char": "棠"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "通“樘”，车旁横木。",
+      "examples": [
+        "车樘，在车两旁横木。——《释名·释车》"
+      ],
+      "traditional_char": "棠"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "通“塘”，堤岸。",
+      "examples": [
+        "被髮行歌，而游于棠行。——《列子·黄帝》"
+      ],
+      "traditional_char": "棠"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "古地名，春秋时代鲁、齐、楚等地名。",
+      "examples": [
+        "公矢鱼于棠。——《春秋·隐公五年》"
+      ],
+      "traditional_char": "棠"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [
+        "齐大夫棠无咎。——《左传》"
+      ],
+      "traditional_char": "棠"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从木，尚声，表示树木类；本义为乔木名（甘棠、棠梨等）。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "synecdoche",
+      "note": "树名代果，汉魏后普遍出现。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "声近通假，用为车旁横木，见于《释名》。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "声近通假，用为“塘”（堤岸），见于《列子》注。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "地以木名，古地名多以植物名相称。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "semantic_shift",
+      "note": "植物名称转为姓氏，古汉姓多用地名、植物名。"
+    }
+  ]
+}

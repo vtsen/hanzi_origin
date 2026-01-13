@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "招引，使某事物发生或引起他人关注。",
+      "examples": [
+        "招惹是非",
+        "惹祸上身"
+      ],
+      "traditional_char": "惹"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "挑逗，使人生气或感到不快。",
+      "examples": [
+        "惹气",
+        "惹恼"
+      ],
+      "traditional_char": "惹"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从心，若声，表示与情感、感受相关，初义为“招引”。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从‘招引’之义引申到‘挑逗、激怒’等，使人产生情绪反应。"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "用来映照形象的器具",
+      "examples": [
+        "镜子",
+        "镜台",
+        "铜镜",
+        "穿衣镜"
+      ],
+      "traditional_char": "鏡"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "利用光学原理制造的光学器件或仪器",
+      "examples": [
+        "镜片",
+        "眼镜",
+        "显微镜",
+        "望远镜"
+      ],
+      "traditional_char": "鏡"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "监察，借鉴",
+      "examples": [
+        "镜戒",
+        "以人为镜，可以明得失"
+      ],
+      "traditional_char": "鏡"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "照耀",
+      "examples": [
+        "荣镜宇宙"
+      ],
+      "traditional_char": "鏡"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘鏡’为形声字，从金，竟声，表示由金属制成用于照影的器具。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "古代金属镜发展为现代各类光学成像器具及仪器。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "以镜鉴人的意思引申出监察、借鉴的比喻。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由镜的照影功能引申为照耀。"
+    }
+  ]
+}

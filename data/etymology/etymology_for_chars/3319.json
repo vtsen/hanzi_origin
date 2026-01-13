@@ -1,0 +1,102 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "燕子，一种夏季迁徙的益鸟，多在屋檐下筑巢。",
+      "examples": [
+        "燕雀处堂",
+        "喜见双燕归"
+      ],
+      "traditional_char": "燕"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "轻慢，不恭敬。",
+      "examples": [
+        "燕朋逆其师"
+      ],
+      "traditional_char": "燕"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "安闲，安乐。",
+      "examples": [
+        "燕穆",
+        "燕安"
+      ],
+      "traditional_char": "燕"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "宴饮，举行宴会。",
+      "examples": [
+        "高堂燕饮",
+        "宾主同燕"
+      ],
+      "traditional_char": "燕"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "周代诸侯国名，位于今河北、辽宁一带。",
+      "examples": [
+        "燕赵大地",
+        "燕国旧地"
+      ],
+      "traditional_char": "燕"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [
+        "燕昭王",
+        "燕姓"
+      ],
+      "traditional_char": "燕"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "pictograph",
+      "original_sense_index": 0,
+      "note": "甲骨文字形显燕子状，上为头与喙，两侧为翅，尾部为火形，象形指燕子。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "古时以地名取自动植物，燕国以燕鸟为名。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "unknown",
+      "note": "‘轻慢’义，义源不明，疑为同音假借。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "‘安闲’本作‘宴’，后通用，形音接近。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "function_word",
+      "note": "由形容词安乐引申为‘宴饮’之动词。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 5,
+      "evolution_type": "conversion",
+      "note": "地名转为姓氏，为常见汉姓来源之一。"
+    }
+  ]
+}

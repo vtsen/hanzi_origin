@@ -1,0 +1,153 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "约会，约定的时间",
+      "examples": [
+        "有期而会",
+        "与君有约期"
+      ],
+      "traditional_char": "期"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "规定的时间，或一段时间",
+      "examples": [
+        "定期",
+        "限期",
+        "学期",
+        "交货期限"
+      ],
+      "traditional_char": "期"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "measure_word",
+      "meaning": "用于刊物或其他分期的事物的量词",
+      "examples": [
+        "第五期",
+        "本期杂志"
+      ],
+      "traditional_char": "期"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "盼望，希望",
+      "examples": [
+        "期望",
+        "期冀",
+        "期盼",
+        "期待"
+      ],
+      "traditional_char": "期"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "限度，极限",
+      "examples": [
+        "征敛无期，求索无度"
+      ],
+      "traditional_char": "期"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "必定，决定",
+      "examples": [
+        "期死，非勇也"
+      ],
+      "traditional_char": "期"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "人活到一百岁（期颐）",
+      "examples": [
+        "期颐之年"
+      ],
+      "traditional_char": "期"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "noun",
+      "meaning": "地质学上指比“世”更小的年代单位",
+      "examples": [
+        "三叠纪中期",
+        "白垩纪早期"
+      ],
+      "traditional_char": "期"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "noun",
+      "meaning": "一周年，一整月（旧义，作 jī）",
+      "examples": [
+        "期年",
+        "期月",
+        "期服"
+      ],
+      "traditional_char": "期"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘期’为形声字，其由‘其’作声符，‘月’或‘日’作意符，表示与‘时间相关、约定’之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由具体的‘约定时间’推广到一般的‘规定时间，期间’。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "grammaticalization",
+      "note": "由‘期间’名词抽象化用作期数的量词。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 7,
+      "evolution_type": "semantic_extension",
+      "note": "专门用于地质年代单位，含义细化。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "‘限期’进一步引申为‘限度’、‘极限’。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 8,
+      "evolution_type": "semantic_extension",
+      "note": "‘期间’引申为‘期年、期月’，特指一周年，整月，也用于丧服名。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "从‘约会’引申为‘期望’，即等待、盼望某事的到来。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "semantic_shift",
+      "note": "‘必，决定’为古义，可能由‘时间已定’引申，词义转变。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 6,
+      "evolution_type": "synecdoche",
+      "note": "‘期颐’为特定用法，指满百岁，取‘期’为时间单位概念的扩展。"
+    }
+  ]
+}

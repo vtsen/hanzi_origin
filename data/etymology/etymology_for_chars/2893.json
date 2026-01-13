@@ -1,0 +1,41 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "年龄，岁数",
+      "examples": [
+        "年高德劭，享高龄",
+        "他今年七十高龄",
+        "工龄、党龄、军龄"
+      ],
+      "traditional_char": "齡"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "年数（表示参与某项活动或职务的年数）",
+      "examples": [
+        "工龄二十年",
+        "党龄五年",
+        "军龄十年"
+      ],
+      "traditional_char": "齡"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从齿，令声。以齿推断年龄，表示“年龄”的意思。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由指人的年龄推广到泛指某项经历或资历的年数，近现代用法。"
+    }
+  ]
+}

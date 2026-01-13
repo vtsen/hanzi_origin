@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "高峻的山崖",
+      "examples": [
+        "岩壁峭立",
+        "山岩陡峭"
+      ],
+      "traditional_char": "巖"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "构成地壳的石头",
+      "examples": [
+        "岩石坚硬",
+        "地质学家研究各种岩"
+      ],
+      "traditional_char": "巖"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "险要，险峻",
+      "examples": [
+        "岩险难行",
+        "岩邑难攻"
+      ],
+      "traditional_char": "巖"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "山洞",
+      "examples": [
+        "岩居穴处",
+        "中空成岩"
+      ],
+      "traditional_char": "巖"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意字，从山、石构成，表示高峻的山崖，本义为陡峭的石山。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由特指高峻山崖扩展为一般的岩石，汉代及后。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "高峻山崖引申为险要、险峻，汉晋以降用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "山崖上或内部的洞穴称为‘岩’，见于古籍。"
+    }
+  ]
+}

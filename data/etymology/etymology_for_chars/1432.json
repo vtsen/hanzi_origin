@@ -1,0 +1,73 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "常绿乔木，统称柏树，包括侧柏、扁柏等种类, 木质坚硬，可以制作器物。",
+      "examples": [
+        "柏露",
+        "罗汉柏",
+        "柏树苍苍"
+      ],
+      "traditional_char": "柏"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [
+        "柏楠是我的同事。",
+        "三国时有柏皇。",
+        "柏林"
+      ],
+      "traditional_char": "柏"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "德国首都柏林的简称或译名。",
+      "examples": [
+        "柏林是德国的首都。",
+        "他去柏林留学。"
+      ],
+      "traditional_char": "柏"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "同“檗”，即黄檗树。",
+      "examples": [
+        "黄柏",
+        "取柏制药"
+      ],
+      "traditional_char": "柏"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从木，白声，表树木类名词。本义为柏树。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "植物名常用作姓，先秦以来已有地名、人名用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "用柏字音译外国地名，如‘柏林’为 Berlin。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "‘柏’借为‘檗’用，见于药材名，音近而通假。"
+    }
+  ]
+}

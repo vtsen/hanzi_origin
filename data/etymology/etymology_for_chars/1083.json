@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "onomatopoeia",
+      "meaning": "形容鸟叫、肚子叫、刹车声等发出的重复低沉声音",
+      "examples": [
+        "房主人的一大群鸽子咕咕咕地叫。",
+        "肚子却饿得咕咕地响。"
+      ],
+      "traditional_char": "咕"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "小声嘀咕、自言自语或含糊地说话",
+      "examples": [
+        "小孩咕、咕、咕地笑了。",
+        "咕哝：小声说话或自言自语"
+      ],
+      "traditional_char": "咕"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从口，古声；本义为拟声，描述低音发声，如鸟鸣。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由拟声词引申为形容人小声说话或嘀咕，语气低沉含糊，形成动词用法。"
+    }
+  ]
+}

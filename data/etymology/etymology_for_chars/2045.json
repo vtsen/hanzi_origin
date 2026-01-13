@@ -1,0 +1,102 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "左右两侧，物体的侧面部分",
+      "examples": [
+        "旁边",
+        "旁侧",
+        "站在我旁"
+      ],
+      "traditional_char": "旁"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "其他、另外的事物或人",
+      "examples": [
+        "旁人",
+        "旁的话",
+        "旁证"
+      ],
+      "traditional_char": "旁"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "广泛，广博",
+      "examples": [
+        "旁征博引"
+      ],
+      "traditional_char": "旁"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "偏、邪，不正当",
+      "examples": [
+        "旁门左道"
+      ],
+      "traditional_char": "旁"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "汉字结构中的某些组成部分",
+      "examples": [
+        "偏旁",
+        "竖心旁儿"
+      ],
+      "traditional_char": "旁"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "靠近，接近（古同“傍”）",
+      "examples": [
+        "旁水草而居（即傍水草而居）"
+      ],
+      "traditional_char": "旁"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 5,
+      "note": "形声字，从方，旁声。初作“傍”，表示靠近。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 5,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "由靠近引申为两侧、侧面。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由侧面引申为其他、另外。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由“其他”引申为广泛。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由正面以外，引申为不正、偏。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "由字的侧面引申为汉字结构中的一部分。"
+    }
+  ]
+}

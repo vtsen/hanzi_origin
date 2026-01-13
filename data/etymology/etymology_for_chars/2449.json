@@ -1,0 +1,58 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "残酷，狠毒",
+      "examples": [
+        "惨毒",
+        "惨无人道",
+        "惨虐"
+      ],
+      "traditional_char": "慘"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "可悲伤，使人难受",
+      "examples": [
+        "凄惨",
+        "悲惨",
+        "惨剧",
+        "惨景"
+      ],
+      "traditional_char": "慘"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "程度严重",
+      "examples": [
+        "惨重",
+        "惨败"
+      ],
+      "traditional_char": "慘"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从心，参声。本义指内心残酷；心表义，参表声。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘狠毒’引申为‘悲伤难受’，汉及后世文献皆有"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由‘悲伤难受’引申为‘程度严重’，后起义"
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "器物的把儿",
+      "examples": [
+        "刀柄",
+        "勺柄"
+      ],
+      "traditional_char": "柄"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "植物的花、叶或果实与茎连结的部分",
+      "examples": [
+        "叶柄",
+        "花柄"
+      ],
+      "traditional_char": "柄"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "measure_word",
+      "meaning": "用于有柄的物体的量词",
+      "examples": [
+        "一柄伞",
+        "两柄剑"
+      ],
+      "traditional_char": "柄"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "在言行上被人抓住的把柄、把证",
+      "examples": [
+        "把柄",
+        "话柄"
+      ],
+      "traditional_char": "柄"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "执掌（权力）",
+      "examples": [
+        "柄政",
+        "柄国"
+      ],
+      "traditional_char": "柄"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "权力，权柄",
+      "examples": [
+        "国柄",
+        "民柄"
+      ],
+      "traditional_char": "柄"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "根本，基础",
+      "examples": [
+        "谦，德之柄也"
+      ],
+      "traditional_char": "柄"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从木，丙声，本义为器物的把手。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由器物的把手比喻连结植物器官的部分，见《本草纲目》等。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "grammaticalization",
+      "note": "由名词“把手”引伸作有柄物体的量词，见现代汉语。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "把手可为操控之物，引伸为能被人抓住的证据或把柄。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "“握柄”由“操控器物”引喻为执掌事物或权力。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 5,
+      "evolution_type": "conversion",
+      "note": "动词“执掌”之权力，名物化作“权柄”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "synecdoche",
+      "note": "把手为事物根本，引伸为“根本，基础”，见古籍用法。"
+    }
+  ]
+}

@@ -1,0 +1,166 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "分割玉石；分割。",
+      "examples": [
+        "班玉"
+      ],
+      "traditional_char": "班"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "一群人按次序排成的行列。",
+      "examples": [
+        "排班",
+        "按部就班"
+      ],
+      "traditional_char": "班"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "工作或学习的组织。",
+      "examples": [
+        "班组",
+        "班级",
+        "班长"
+      ],
+      "traditional_char": "班"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "军队编制中的基层单位，在“排”以下。",
+      "examples": [
+        "一个班的士兵"
+      ],
+      "traditional_char": "班"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "工作按时间分成的段落，亦指工作场所。",
+      "examples": [
+        "早班",
+        "下班",
+        "值班"
+      ],
+      "traditional_char": "班"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "定时开行的交通工具次数或周期。",
+      "examples": [
+        "班车",
+        "班机",
+        "班期"
+      ],
+      "traditional_char": "班"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "measure_word",
+      "meaning": "用于人群或定时开行的交通运输工具的量词。",
+      "examples": [
+        "这班人真能干",
+        "下一班飞机"
+      ],
+      "traditional_char": "班"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "verb",
+      "meaning": "调回或调动（军队）。",
+      "examples": [
+        "班师",
+        "班兵"
+      ],
+      "traditional_char": "班"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "adjective",
+      "meaning": "杂色（古同“斑”）。",
+      "examples": [
+        "班驳"
+      ],
+      "traditional_char": "班"
+    },
+    {
+      "index": 9,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [
+        "班固"
+      ],
+      "traditional_char": "班"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "从玉、刀，会意字，本义为用刀分割玉。金文形象表现。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "分割、切分引申为“排列”或“分列”。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由排列的队伍引申为单位、组织。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_narrowing",
+      "note": "从一般行列引申为军队单位专用。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "从人的组织引申为分工的工作时间段、场所。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "由序列引申为定时、定次的交通工具。"
+    },
+    {
+      "source_index": 5,
+      "target_index": 6,
+      "evolution_type": "conversion",
+      "note": "名词转为量词用法。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 7,
+      "evolution_type": "semantic_extension",
+      "note": "由军队单位引申为军队调动。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 8,
+      "evolution_type": "semantic_shift",
+      "note": "“班”古作“斑”，形容纹理杂色。汉代及更早见通假用。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 9,
+      "evolution_type": "unknown",
+      "note": "姓氏源流不明，或从‘排列、班列’意借作姓。"
+    }
+  ]
+}

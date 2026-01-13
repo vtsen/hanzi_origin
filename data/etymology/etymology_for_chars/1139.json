@@ -1,0 +1,105 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "命令，吩咐，令某人做事",
+      "examples": [
+        "使我往观之。（《左传》）",
+        "父使子读书。"
+      ],
+      "traditional_char": "使"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "派遣，差遣某人去做事",
+      "examples": [
+        "王使使出邦。（《周易》）",
+        "派他去使外国。"
+      ],
+      "traditional_char": "使"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "奉命办事或出使的人，特指使臣、使者",
+      "examples": [
+        "外交使节",
+        "大使馆",
+        "秦之使者来。"
+      ],
+      "traditional_char": "使"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "使用，利用",
+      "examples": [
+        "使劲",
+        "使钱",
+        "使力"
+      ],
+      "traditional_char": "使"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "让，使得，致使（引申为致使某事发生）",
+      "examples": [
+        "迫使",
+        "这消息使人高兴。"
+      ],
+      "traditional_char": "使"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "conjunction",
+      "meaning": "假如，假设",
+      "examples": [
+        "假使",
+        "即使如此……"
+      ],
+      "traditional_char": "使"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从人，吏声，本义为命令、吩咐，与人的行为相关。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“命令”引申为“派遣、差遣”，早见先秦。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "grammaticalization",
+      "note": "由“派遣”发展为“受派遣的人”，使者、官职称谓演变，汉代常见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由“命令人”引申为“使用某物”，与意动有关。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由“命令”引申为“使得”，即致使、让的意思。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 5,
+      "evolution_type": "grammaticalization",
+      "note": "“使”作为“让、令”的语法化发展，引申为连词“假如”。"
+    }
+  ]
+}

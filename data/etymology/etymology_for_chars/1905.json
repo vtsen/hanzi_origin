@@ -1,0 +1,70 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "particle",
+      "meaning": "助词，表示语气，义同“呢”。",
+      "examples": [
+        "你要去哪儿哩？",
+        "他还没来哩。"
+      ],
+      "traditional_char": "哩"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "particle",
+      "meaning": "助词，表达语气，义同“啦”。",
+      "examples": [
+        "快点哩！",
+        "都做好哩！"
+      ],
+      "traditional_char": "哩"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "长度单位，是英语mile的译名，一哩等于5280英尺，约合1609米。",
+      "examples": [
+        "一马路长一哩。",
+        "他跑了两哩路。"
+      ],
+      "traditional_char": "哩"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adverb",
+      "meaning": "形容零零散散或断断续续的样子，常用于叠用“哩哩啦啦”。",
+      "examples": [
+        "雨下得哩哩啦啦的。"
+      ],
+      "traditional_char": "哩"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“哩”为形声字，口为形，里为声，最初用作语气助词，表示说话语气。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由原本表示语气的助词，语气用法延伸，义近“啦”；见于口语中的语气变化。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "unknown",
+      "note": "语气助词的拟声性质进一步影响，转用于形容零散或断续的声音或状态，多见于口语重叠用法，具体机制尚不明。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "用于翻译英语mile音，属于借音表意，现代借词用法。"
+    }
+  ]
+}

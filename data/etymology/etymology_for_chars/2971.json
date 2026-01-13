@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "面颊的下半部，脸的两旁（亦称“腮帮子”）",
+      "examples": [
+        "腮颊丰满",
+        "腮帮子发红"
+      ],
+      "traditional_char": "腮"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "腮腺：两耳下部的唾液腺",
+      "examples": [
+        "腮腺炎",
+        "腮腺肿大"
+      ],
+      "traditional_char": "腮"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从月(肉)为形旁，思为声旁，最初表示面部的侧下部。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "腮指面颊部，两耳下部的唾液腺因位于腮部而得名腮腺。"
+    }
+  ]
+}

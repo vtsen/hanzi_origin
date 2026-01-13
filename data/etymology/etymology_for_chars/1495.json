@@ -1,0 +1,118 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "价钱高，与“贱”相对",
+      "examples": [
+        "春雨贵如油。"
+      ],
+      "traditional_char": "貴"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "地位高，尊贵",
+      "examples": [
+        "贵族",
+        "贵戚",
+        "贵望"
+      ],
+      "traditional_char": "貴"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "敬辞，称与对方有关的事物",
+      "examples": [
+        "贵国",
+        "贵庚",
+        "贵姓",
+        "贵干"
+      ],
+      "traditional_char": "貴"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "特别好的，重要的，珍贵，尊贵",
+      "examples": [
+        "贵重",
+        "珍贵",
+        "尊贵",
+        "民为贵"
+      ],
+      "traditional_char": "貴"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "值得看重，重视",
+      "examples": [
+        "可贵"
+      ],
+      "traditional_char": "貴"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "指中国贵州省",
+      "examples": [
+        "云贵高原"
+      ],
+      "traditional_char": "貴"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [],
+      "traditional_char": "貴"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从贝，臾声，表示与金钱、财物相关之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "以价格高引申为社会地位高，自先秦时期出现。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "grammaticalization",
+      "note": "尊贵之意引申为敬辞，汉语礼貌用法，语法化转用。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由地位高引申为抽象意义上的重要、珍贵。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "conversion",
+      "note": "形容词贵用作动词，表示值得看重。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "metonymy",
+      "note": "以“贵”为贵州省简称，因地名而成，用于行政区划。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 6,
+      "evolution_type": "unknown",
+      "note": "用作姓氏，具体转化路径未知，常见用词转姓氏现象。"
+    }
+  ]
+}

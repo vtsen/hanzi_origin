@@ -1,0 +1,58 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "追赶，追逐。",
+      "examples": [
+        "追逐野兽。",
+        "角逐。",
+        "追逐名利。"
+      ],
+      "traditional_char": "逐"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "驱赶，使离开。",
+      "examples": [
+        "放逐。",
+        "驱逐出境。",
+        "逐客令。"
+      ],
+      "traditional_char": "逐"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adverb",
+      "meaning": "依次，按照顺序一个接一个。",
+      "examples": [
+        "逐步进行。",
+        "逐年增长。",
+        "逐个排查。"
+      ],
+      "traditional_char": "逐"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意字，从辶（走），从豕，表示人追赶猪等动物的形象，表达‘追赶’之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘追赶’引申为‘驱赶、强迫离开’，《左传》等古文中已见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "原本为追赶，多人相继追逐，引申为事物依次相继。"
+    }
+  ]
+}

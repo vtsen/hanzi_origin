@@ -1,0 +1,136 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "向人认错道歉",
+      "examples": [
+        "谢过",
+        "谢罪",
+        "向老师谢罪"
+      ],
+      "traditional_char": "謝"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "对别人的帮助或赠与表示感激",
+      "examples": [
+        "感谢",
+        "面谢",
+        "致谢",
+        "感谢朋友的帮助"
+      ],
+      "traditional_char": "謝"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "推辞，婉拒",
+      "examples": [
+        "谢绝",
+        "闭门谢客"
+      ],
+      "traditional_char": "謝"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "凋落，衰退",
+      "examples": [
+        "谢顶",
+        "凋谢",
+        "新陈代谢"
+      ],
+      "traditional_char": "謝"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "告知、告诉",
+      "examples": [
+        "使人称谢：‘皇帝敬劳将军。’"
+      ],
+      "traditional_char": "謝"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "逊，不如",
+      "examples": [
+        "锦江何谢曲江池？"
+      ],
+      "traditional_char": "謝"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "古同“榭”，建在台上的房屋",
+      "examples": [
+        "高谢临风"
+      ],
+      "traditional_char": "謝"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "谢安",
+        "谢灵运"
+      ],
+      "traditional_char": "謝"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从言，射声。本义为向人认错道歉，属于言语相关。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "amelioration",
+      "note": "从认错道歉引申为表达感激，语义转好，汉代已见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "synecdoche",
+      "note": "由道歉义发展为推辞、婉拒，意为以辞谢推开，晋代已用。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由谢罪等礼节引申为告知，古汉语用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "用人事上的“谢”比喻植物花草的凋落或衰退，自然现象类比。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 5,
+      "evolution_type": "semantic_shift",
+      "note": "“谢”由告知引申为逊、不如，用于诗文谦让比较。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "unknown",
+      "note": "古同‘榭’，可能系同音假借，义转不明。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 7,
+      "evolution_type": "unknown",
+      "note": "‘谢’作为姓氏，多源于封号等，发展机理难证。"
+    }
+  ]
+}

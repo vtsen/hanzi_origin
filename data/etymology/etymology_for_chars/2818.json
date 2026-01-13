@@ -1,0 +1,90 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "宽松；宽大",
+      "examples": [
+        "衣带宽缓",
+        "其心缓尔"
+      ],
+      "traditional_char": "緩"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "慢，与“急”相对",
+      "examples": [
+        "缓步",
+        "缓行",
+        "行动迟缓"
+      ],
+      "traditional_char": "緩"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "延迟",
+      "examples": [
+        "缓刑",
+        "缓办",
+        "刻不容缓"
+      ],
+      "traditional_char": "緩"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "放松，松弛",
+      "examples": [
+        "缓和",
+        "缓冲",
+        "缓解"
+      ],
+      "traditional_char": "緩"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "苏醒，恢复",
+      "examples": [
+        "缓气",
+        "缓醒"
+      ],
+      "traditional_char": "緩"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从糸（纟）旁表与线织有关，爰表音。本义为宽松。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘宽松’引申为‘动作慢’。战国至汉语中已有此用。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由‘慢’进一步引申为‘延迟’。后用常见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由‘宽松’引申为‘放松’。汉语搭配常见。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "‘放松’状态引申为‘苏醒、恢复’。近现代义。"
+    }
+  ]
+}

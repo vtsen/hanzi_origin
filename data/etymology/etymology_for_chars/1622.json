@@ -1,0 +1,226 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "计量长度的标准或器具，尺码。",
+      "examples": [
+        "度量衡",
+        "刻度"
+      ],
+      "traditional_char": "度"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "计算角度的单位，一圆周角分为360度。",
+      "examples": [
+        "角度",
+        "经度",
+        "纬度"
+      ],
+      "traditional_char": "度"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "温度、湿度、浓度等依照标准划分的单位。",
+      "examples": [
+        "温度",
+        "浓度",
+        "湿度"
+      ],
+      "traditional_char": "度"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "事物所达到的境界或程度。",
+      "examples": [
+        "高度",
+        "宽度",
+        "程序的度"
+      ],
+      "traditional_char": "度"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "法则，应遵行的标准或准则。",
+      "examples": [
+        "制度",
+        "法度",
+        "自有国之大度"
+      ],
+      "traditional_char": "度"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "能容受的限量，度量。",
+      "examples": [
+        "气度",
+        "胸襟有度"
+      ],
+      "traditional_char": "度"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "考虑，打算。",
+      "examples": [
+        "置之度外",
+        "度德量力"
+      ],
+      "traditional_char": "度"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "verb",
+      "meaning": "过，由此到彼；渡过时间或空间。",
+      "examples": [
+        "度日",
+        "度假",
+        "欢度新春"
+      ],
+      "traditional_char": "度"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "measure_word",
+      "meaning": "量词，表示次数。",
+      "examples": [
+        "一度",
+        "数度"
+      ],
+      "traditional_char": "度"
+    },
+    {
+      "index": 9,
+      "part_of_speech": "verb",
+      "meaning": "僧尼道士劝人出家。",
+      "examples": [
+        "剃度",
+        "度人"
+      ],
+      "traditional_char": "度"
+    },
+    {
+      "index": 10,
+      "part_of_speech": "noun",
+      "meaning": "电能的单位，一千瓦小时。",
+      "examples": [
+        "一度电"
+      ],
+      "traditional_char": "度"
+    },
+    {
+      "index": 11,
+      "part_of_speech": "verb",
+      "meaning": "计算，推测。",
+      "examples": [
+        "忖度",
+        "揣度",
+        "审时度势"
+      ],
+      "traditional_char": "度"
+    },
+    {
+      "index": 12,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [],
+      "traditional_char": "度"
+    },
+    {
+      "index": 13,
+      "part_of_speech": "noun",
+      "meaning": "哲学上指一定事物保持自己质的数量界限。",
+      "examples": [
+        "否定之否定中的度"
+      ],
+      "traditional_char": "度"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从又，庶声。“又”表手，用手丈量长度与尺码相关。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从长度的计量扩展到角等其他度量单位。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由长短测量进一步引申为各种物理量的度量单位。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "以度量作为比喻，表示抽象的程度或境界。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "从度量标准引申为法则、准则。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "metaphor",
+      "note": "由具体度量引申为人的气量、容量。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 10,
+      "evolution_type": "semantic_extension",
+      "note": "由长度单位延伸为电能单位。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 13,
+      "evolution_type": "semantic_extension",
+      "note": "引申为哲学上的质与量的界限。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 6,
+      "evolution_type": "metaphor",
+      "note": "由法则引申为考虑、斟酌。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 7,
+      "evolution_type": "semantic_shift",
+      "note": "度量动作、本义为横渡、引申为由此到彼引申义。"
+    },
+    {
+      "source_index": 7,
+      "target_index": 8,
+      "evolution_type": "grammaticalization",
+      "note": "“度”为动词‘渡’转为表示次数的量词。"
+    },
+    {
+      "source_index": 7,
+      "target_index": 9,
+      "evolution_type": "metaphor",
+      "note": "由‘渡过’引申为“度人”，即使人脱离俗世的度脱引申义。"
+    },
+    {
+      "source_index": 6,
+      "target_index": 11,
+      "evolution_type": "semantic_extension",
+      "note": "由‘考虑’引申为‘推测、计算’。"
+    }
+  ]
+}

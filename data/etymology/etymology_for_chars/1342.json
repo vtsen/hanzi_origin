@@ -1,0 +1,69 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "用丝、麻、棉纱、毛线等编成布或衣物。",
+      "examples": [
+        "织布",
+        "编织",
+        "丝织品"
+      ],
+      "traditional_char": "織"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "引申为构成、组织（如抽象事物）。",
+      "examples": [
+        "罗织罪名"
+      ],
+      "traditional_char": "織"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "用染丝织成的锦或彩绸。",
+      "examples": [
+        "织锦",
+        "织文",
+        "织贝"
+      ],
+      "traditional_char": "織"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "古同“帜”，指旗帜。",
+      "examples": [],
+      "traditional_char": "織"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从糸，埴声，最初表示织布。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由织布本义引申为抽象的“构成、组织”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_narrowing",
+      "note": "由织布泛指狭义专指“织成的锦或彩绸”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "古时借用“织”表示“帜”，与旗帜义相关。"
+    }
+  ]
+}

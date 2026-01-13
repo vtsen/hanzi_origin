@@ -1,0 +1,75 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "绿色的金属（铜的古称）",
+      "examples": [
+        "其器用录为之。"
+      ],
+      "traditional_char": "録"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "记载，抄写",
+      "examples": [
+        "录音",
+        "记录",
+        "抄录",
+        "录供"
+      ],
+      "traditional_char": "录"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "记载言行或事物的书册",
+      "examples": [
+        "语录",
+        "目录",
+        "回忆录"
+      ],
+      "traditional_char": "录"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "采取，任用",
+      "examples": [
+        "录取",
+        "收录",
+        "录用",
+        "甄录"
+      ],
+      "traditional_char": "录"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "音符为录，义符为金，形声字，原指绿色金属。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_shift",
+      "note": "自“绿色金属”抽象化为“记录”，原因有学界分歧，可能因青铜器铭刻导致。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由“记载、抄写”引申为“记录下来的书册”。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由“记载”隐喻为“采取、任用”，即把人/事‘录’入某处。"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古代东南沿海少数民族名，主要分布在今福建和浙江南部",
+      "examples": [
+        "閩，東南越也。——《說文》",
+        "辨其邦國、都鄙、四夷、八蠻、七閩、九貉、五戎、六狄之人民。——《周禮·職方式》"
+      ],
+      "traditional_char": "閩"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "中国福建省的别称",
+      "examples": [
+        "公卿將相大抵多江、浙、閩、蜀之人。——宋·陳亮《上孝宗皇帝第一書》",
+        "選自閩禺。——左思《吳都賦》"
+      ],
+      "traditional_char": "閩"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "五代十国之一，古代存在于今福建地区的“闽国”",
+      "examples": [
+        "933年王延鈞在長樂稱帝，國號閩。歷三十七年，後為南唐所滅。",
+        "共歷六主，三十七年。"
+      ],
+      "traditional_char": "閩"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "（闽为閩之简化字）同“閩”",
+      "examples": [],
+      "traditional_char": "闽"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“閩”形声字，从虫，门声，表示古代民族名。"
+    },
+    {
+      "formation_type": "simple_indicative",
+      "original_sense_index": 3,
+      "note": "“闽”为“閩”的简化字，直接对应繁体。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由古民族名泛指民族主要活动区域，转为福建省别称。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由地区名转指为以此地区为中心建立的国家（闽国）。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "民族名直接转指以民族为主建立的国家。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "reanalysis",
+      "note": "“闽”为“閩”的简化字，用法与“閩”通用。"
+    }
+  ]
+}

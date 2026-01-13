@@ -1,0 +1,92 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "帝王祭地的礼仪",
+      "examples": [
+        "封禅",
+        "古者封禅以告太山"
+      ],
+      "traditional_char": "禪"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "帝王让位给他人",
+      "examples": [
+        "禅让",
+        "受禅",
+        "尧舜禅让"
+      ],
+      "traditional_char": "禪"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "事物的更替",
+      "examples": [
+        "王朝禅代",
+        "禅代"
+      ],
+      "traditional_char": "禪"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "佛教的静思修行方法，特指禅宗所主张的修行方式",
+      "examples": [
+        "坐禅",
+        "参禅",
+        "禅心",
+        "禅机"
+      ],
+      "traditional_char": "禪"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "与佛教禅宗相关的事物",
+      "examples": [
+        "禅师",
+        "禅杖",
+        "禅林",
+        "禅堂"
+      ],
+      "traditional_char": "禪"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从示，单声，初义为祭祀之礼，结构表示与神祇相关。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由祭祀礼仪引申为帝王让位仪式，用于上古帝王禅让传承。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由个体帝王让位进一步泛化为事物更迭更代。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "佛教传入后借用本字音译梵语“dhyāna”，表示禅定修行，用字与原义无直接联系，为音译用法。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由禅宗修行引申为与禅宗相关的具体事物、身份和场所。"
+    }
+  ]
+}

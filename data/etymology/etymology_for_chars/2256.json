@@ -1,0 +1,72 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "高大的正房或殿堂，用于祭祀、集会等",
+      "examples": [
+        "礼堂",
+        "堂屋",
+        "大堂"
+      ],
+      "traditional_char": "堂"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "官吏审案或办事的场所",
+      "examples": [
+        "公堂",
+        "过堂"
+      ],
+      "traditional_char": "堂"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "同祖父的亲属关系（如堂兄弟等）",
+      "examples": [
+        "堂兄弟",
+        "堂姐"
+      ],
+      "traditional_char": "堂"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "measure_word",
+      "meaning": "用于课程、家具等的量词",
+      "examples": [
+        "上了一堂课",
+        "一堂家具"
+      ],
+      "traditional_char": "堂"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从土，尚声；“土”表示与建筑物相关，“尚”兼取声和高大的意思，原指高大正房或殿堂"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "高大房屋扩展为官吏审案、办事的场所，汉代开始用作办公空间"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "以居住在同一正房（堂屋）之人指同宗的亲属"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "grammaticalization",
+      "note": "“堂”用作量词，源自动作或事物以“堂”为单位的抽象用法"
+    }
+  ]
+}

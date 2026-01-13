@@ -1,0 +1,59 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "不亮，没有光，与“明”相对；昏暗",
+      "examples": [
+        "黑暗",
+        "阴暗",
+        "暗无天日"
+      ],
+      "traditional_char": "暗"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "不公开的，隐藏不露的",
+      "examples": [
+        "暗藏",
+        "暗号",
+        "暗杀",
+        "暗沟"
+      ],
+      "traditional_char": "暗"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "愚昧，糊涂",
+      "examples": [
+        "暗昧",
+        "暗弱",
+        "兼听则明，偏信则暗"
+      ],
+      "traditional_char": "暗"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从日，音音，中表“光明”之消失；本义为昏暗。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由光线暗转为事情不明、不公开，语义隐喻转化。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由缺乏光线引申为头脑愚昧，认知混沌，语义隐喻。"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "丈夫，特指女子对自己丈夫的称呼。",
+      "examples": [
+        "夫婿",
+        "佳婿如意"
+      ],
+      "traditional_char": "婿"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "女儿、妹妹等晚辈的丈夫；女婿。",
+      "examples": [
+        "女婿",
+        "妹婿",
+        "贤婿"
+      ],
+      "traditional_char": "婿"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字。从女，胥声，表示与女性有关，原指女子称自己的丈夫。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由女子称自己的丈夫扩展为称女儿、妹妹等的丈夫，见于后世用法。"
+    }
+  ]
+}

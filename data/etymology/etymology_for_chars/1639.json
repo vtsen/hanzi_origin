@@ -1,0 +1,100 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古代安装在门上用于防止门自合的长木桩",
+      "examples": [],
+      "traditional_char": "閣"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "用于远眺、游憩、藏书或供佛的楼房一类建筑物",
+      "examples": [
+        "滕王阁",
+        "楼阁林立"
+      ],
+      "traditional_char": "閣"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "女子的卧房",
+      "examples": [
+        "闺阁深深",
+        "出阁"
+      ],
+      "traditional_char": "閣"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "小木屋或木制楼房",
+      "examples": [
+        "阁子",
+        "阁楼"
+      ],
+      "traditional_char": "閣"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "最高行政机关的名称（如内阁）",
+      "examples": [
+        "内阁",
+        "组阁"
+      ],
+      "traditional_char": "閣"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "搁置，停放，停止",
+      "examples": [
+        "阁笔",
+        "阁置不理"
+      ],
+      "traditional_char": "閣"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从门，各声，表“门上木桩”之义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由门上木桩引申为与门、建筑有关的楼阁结构，汉代起始"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "以“楼阁”指代其中女子的卧房"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由大型阁楼泛指小型木屋木楼"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "由楼阁引申为官署、最高行政机关"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "“阁”假借为“搁”的用法，意义由物体阻挡延伸为搁置"
+    }
+  ]
+}

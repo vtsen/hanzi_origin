@@ -1,0 +1,40 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "船上居人或置物的部位，船内隔间。",
+      "examples": [
+        "卧于船舱",
+        "货物放在船舱中"
+      ],
+      "traditional_char": "艙"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "飞机内部的分隔空间或舱室。",
+      "examples": [
+        "客舱",
+        "行李舱",
+        "驾驶舱"
+      ],
+      "traditional_char": "艙"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从舟，仓声，表示船内隔间。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由船舱比喻引申到飞机舱，现代语义扩展。"
+    }
+  ]
+}

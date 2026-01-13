@@ -1,0 +1,57 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "和谐，协调，配合得当",
+      "examples": [
+        "和谐",
+        "谐调",
+        "谐音"
+      ],
+      "traditional_char": "諧"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "滑稽，诙谐，带有趣味性和幽默",
+      "examples": [
+        "诙谐",
+        "谐趣",
+        "谐谑",
+        "亦庄亦谐"
+      ],
+      "traditional_char": "諧"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "商量妥当，办妥",
+      "examples": [
+        "事谐"
+      ],
+      "traditional_char": "諧"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从言，皆声，本义是和谐。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "从事物协调引申为言辞、行为风趣滑稽，古代多见于文学修辞。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由“和谐”引申为“协商妥当”。用法渐见于文书、口语。"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "供奉祭祀祖先的房屋",
+      "examples": [
+        "宗庙",
+        "家庙",
+        "庙堂之器"
+      ],
+      "traditional_char": "廟"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "供奉神佛或历史人物的场所",
+      "examples": [
+        "孔庙",
+        "岳庙",
+        "寺庙"
+      ],
+      "traditional_char": "廟"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "王宫前殿，泛指朝廷",
+      "examples": [
+        "庙堂之上",
+        "庙堂之高"
+      ],
+      "traditional_char": "廟"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "廟为形声字，从广，表示与建筑有关，朝为声符，本义为宗庙。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由祭祀祖先的庙屋引申为供奉神佛及历史人物的场所。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "宗庙在古代为国家象征，借指朝廷或王宫。"
+    }
+  ]
+}

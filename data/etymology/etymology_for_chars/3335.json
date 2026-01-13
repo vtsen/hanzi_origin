@@ -1,0 +1,87 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "瓠瓜的一种，也叫葫芦。",
+      "examples": [
+        "瓢，瓠也。",
+        "經文之瓢，猶言瓠也。"
+      ],
+      "traditional_char": "瓢"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "用漂熟的葫芦对半剖开制成的舀水或盛酒器皿。",
+      "examples": [
+        "剖之以為瓢，則瓠落無所容。",
+        "刺手拔鯨牙，舉瓢酌天漿。"
+      ],
+      "traditional_char": "瓢"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "泛指像瓢形的器物或用其他材料（如木质、螺壳等）做的勺、匙。",
+      "examples": [
+        "今閩廣之地，以鱟魚殼為瓢。",
+        "李榮把出一個瓢來，先傾一瓢，來勸徐寧。"
+      ],
+      "traditional_char": "瓢"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "measure_word",
+      "meaning": "用以计量水、酒的单位，相当于‘勺’。",
+      "examples": [
+        "一瓢水",
+        "二升曰瓢"
+      ],
+      "traditional_char": "瓢"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "形状似瓢的昆虫或植物等。",
+      "examples": [
+        "瓢虫",
+        "瓢儿菜"
+      ],
+      "traditional_char": "瓢"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从瓠省，票声，形声字，最早指葫芦类植物。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由葫芦指称由其制成的瓢形容器，汉代已见此转义。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由葫芦瓢泛指其他材料制的勺形器物，宋明以降常见。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "grammaticalization",
+      "note": "容器名称转为容量计量词，明代文献已见。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "由容器形状转喻为一切形似瓢者，如瓢虫。"
+    }
+  ]
+}

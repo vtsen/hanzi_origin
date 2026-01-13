@@ -1,0 +1,86 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "陷沉，淹没",
+      "examples": [
+        "低洼之地易垫没"
+      ],
+      "traditional_char": "墊"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "衬在底下或铺在上面",
+      "examples": [
+        "把枕头垫高一点",
+        "鞋里垫了鞋垫"
+      ],
+      "traditional_char": "墊"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "用来衬、铺的东西",
+      "examples": [
+        "垫子",
+        "床垫"
+      ],
+      "traditional_char": "墊"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "替人暂付款项",
+      "examples": [
+        "他先垫了路费",
+        "垫付医药费"
+      ],
+      "traditional_char": "墊"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "填补空缺",
+      "examples": [
+        "垫补不足",
+        "最后由经理垫补了亏空"
+      ],
+      "traditional_char": "墊"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从土，执声，表示土地下陷。本义为陷沉、淹没。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "因地陷而需填充，语义扩展为在下方垫东西。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "conversion",
+      "note": "动作“垫”引申为该动作所用的器具。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "由物理填补转喻为空缺的弥补。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "将垫底的动作比作金钱的临时代付。"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "人体内含脂肪多，肥大。",
+      "examples": [
+        "胖子",
+        "他越来越胖了。"
+      ],
+      "traditional_char": "胖"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "安泰舒适，形容人身体或心态宽舒。",
+      "examples": [
+        "心宽体胖"
+      ],
+      "traditional_char": "胖"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "古代祭祀所用半体牲，动物体的一半。",
+      "examples": [
+        "司马升羊右胖。"
+      ],
+      "traditional_char": "胖"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 2,
+      "note": "形声字，从月（肉），半声，本义为祭祀用的半体牲。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 2,
+      "target_index": 0,
+      "evolution_type": "semantic_shift",
+      "note": "由古义‘半体牲’逐渐转变为表示人体肥胖的状态，语义演变过程不完全清晰，但多数学者认为与身体形状有关。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由指身体肥胖引申为心态、状态宽裕舒适。"
+    }
+  ]
+}

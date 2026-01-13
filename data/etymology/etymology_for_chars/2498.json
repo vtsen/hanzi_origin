@@ -1,0 +1,41 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "蓝和黄混合成的颜色，一般草和树叶呈现这种颜色",
+      "examples": [
+        "绿色",
+        "绿叶",
+        "绿草如茵",
+        "绿水青山"
+      ],
+      "traditional_char": "綠"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "other",
+      "meaning": "用作某些名词的定语，义同“绿色”，用于特定名词，如“绿林”、“绿营”",
+      "examples": [
+        "绿林",
+        "绿营"
+      ],
+      "traditional_char": "綠"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，“糸”为形，表示与丝织物相关，“录”为声，最初指绿色的丝织物，引申为绿色。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由颜色义引申为用以指代相关事物（如绿林盗贼、绿营等特指名词用法），汉代以后出现"
+    }
+  ]
+}

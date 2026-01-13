@@ -1,0 +1,72 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "到高处去住",
+      "examples": [
+        "昔人就高以避水患"
+      ],
+      "traditional_char": "就"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "凑近，靠近",
+      "examples": [
+        "就着灯看书",
+        "他就你的位置坐下"
+      ],
+      "traditional_char": "就"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "到，从事，开始进入",
+      "examples": [
+        "就业",
+        "就寝",
+        "就任"
+      ],
+      "traditional_char": "就"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adverb",
+      "meaning": "依照现有情况或趁着当前的便利，顺便",
+      "examples": [
+        "就近",
+        "就便",
+        "就事论事"
+      ],
+      "traditional_char": "就"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意字。从“京”，高处；“尤”，特别。表示到高处去。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_shift",
+      "note": "由原义“到高处去住”转为一般“靠近”，含空间接近。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由“靠近”引申为“到、开始从事某事”。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "从“到”进一步发展为顺顺当前条件，顺便依照。"
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "水名，指古代一条河流的名称。",
+      "examples": [],
+      "traditional_char": "深"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "从表面到底或从外面到里面距离大，与“浅”相对。",
+      "examples": [
+        "深水",
+        "深山",
+        "深海",
+        "深渊"
+      ],
+      "traditional_char": "深"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "从表面到底的距离。",
+      "examples": [
+        "深度",
+        "水深三尺"
+      ],
+      "traditional_char": "深"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "时间久。",
+      "examples": [
+        "深夜",
+        "深秋",
+        "年深日久"
+      ],
+      "traditional_char": "深"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "程度高，感情浓厚。",
+      "examples": [
+        "深思",
+        "深知",
+        "深交",
+        "深造",
+        "深谈",
+        "深省",
+        "深谋远虑"
+      ],
+      "traditional_char": "深"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "adjective",
+      "meaning": "颜色浓。",
+      "examples": [
+        "深色",
+        "深红"
+      ],
+      "traditional_char": "深"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，深声，原指水名。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由特指水名引申为水的深度，后指一般的深浅。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "grammaticalization",
+      "note": "由形容词‘距离大’转为表示‘深’这个名词概念。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "借物理距离大，比喻时间久。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "借‘距离大’引申为程度高、感情浓厚。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "metaphor",
+      "note": "借‘深’引申为颜色浓。"
+    }
+  ]
+}

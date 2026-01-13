@@ -1,0 +1,102 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "证明买卖、抵押、租赁等关系的文书",
+      "examples": [
+        "契约",
+        "房契"
+      ],
+      "traditional_char": "契"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "雕刻、用刀刻",
+      "examples": [
+        "契刻",
+        "契舟求剑"
+      ],
+      "traditional_char": "契"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "刻的文字，指甲骨文",
+      "examples": [
+        "契文",
+        "书契"
+      ],
+      "traditional_char": "契"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "事物转化的关键",
+      "examples": [
+        "契机"
+      ],
+      "traditional_char": "契"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "相合，相投",
+      "examples": [
+        "契合",
+        "默契",
+        "相契"
+      ],
+      "traditional_char": "契"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "古人名，商朝先祖，传说为舜的臣",
+      "examples": [
+        "契助禹治水"
+      ],
+      "traditional_char": "契"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "‘契’从刀、从大，表示用刀刻，大为声符，最初表示雕刻行为。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由‘用刀刻’引申为‘被刻下的文字’，历史上常用来指甲骨文。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 0,
+      "evolution_type": "metonymy",
+      "note": "由‘刻文’指代‘以刻文书写的契约文书’，汉代以后文书常以‘契’称。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "‘刻合’引申为‘契合、相投’，比喻两者像刻合一样完全吻合。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由‘雕刻’引申为‘关键、转折点’，指事物变化的切口。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "unknown",
+      "note": "作为古人名用，或为假借或音近用法，具体关系不详。"
+    }
+  ]
+}

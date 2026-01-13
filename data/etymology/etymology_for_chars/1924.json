@@ -1,0 +1,105 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "残害，伤害",
+      "examples": [
+        "戕贼",
+        "淫侈之俗日日以长，是天下之大贼也"
+      ],
+      "traditional_char": "賊"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "偷东西的人，盗匪",
+      "examples": [
+        "贼人",
+        "盗贼",
+        "贼赃"
+      ],
+      "traditional_char": "賊"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "对人民有危害的人",
+      "examples": [
+        "国贼",
+        "民贼",
+        "工贼",
+        "蟊贼"
+      ],
+      "traditional_char": "賊"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "邪的，不正派的",
+      "examples": [
+        "贼心不死"
+      ],
+      "traditional_char": "賊"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "狡猾",
+      "examples": [
+        "贼溜溜"
+      ],
+      "traditional_char": "賊"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "adverb",
+      "meaning": "很，非常",
+      "examples": [
+        "贼冷",
+        "贼亮",
+        "贼横"
+      ],
+      "traditional_char": "賊"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "会意兼形声；从戈，表示与武器相关；则为声符，古义为损害、残害。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_narrowing",
+      "note": "由‘残害、伤害’具体化为‘偷东西的人、盗匪’；先秦两汉已常用。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由原指‘残害者’，扩展为‘有危害的人’，如‘国贼’。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由‘盗贼’引申作‘邪的、不正派的’，表品质或动机。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "由‘不正派’形容人狡猾，语义转移，现代口语中常用。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 5,
+      "evolution_type": "grammaticalization",
+      "note": "形容词‘狡猾’转为副词‘很’的用法，主要用于北方方言与现代口语。"
+    }
+  ]
+}

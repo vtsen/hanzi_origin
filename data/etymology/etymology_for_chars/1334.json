@@ -1,0 +1,167 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "加入，参与。",
+      "examples": [
+        "参加会议",
+        "参政"
+      ],
+      "traditional_char": "參"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "相间，夹杂。",
+      "examples": [
+        "参半",
+        "参杂"
+      ],
+      "traditional_char": "參"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "检验，参考，查考。",
+      "examples": [
+        "参阅资料",
+        "参照标准"
+      ],
+      "traditional_char": "參"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "探究，领悟（多用于佛禅）。",
+      "examples": [
+        "参悟人生",
+        "参禅"
+      ],
+      "traditional_char": "參"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "下级进见上级。",
+      "examples": [
+        "参见大人",
+        "参拜堂上"
+      ],
+      "traditional_char": "參"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "弹劾，上奏皇帝告状。",
+      "examples": [
+        "参奏大臣",
+        "参劾奸佞"
+      ],
+      "traditional_char": "參"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "星名，二十八宿之一（参星）。",
+      "examples": [
+        "参商两地",
+        "参辰卯酉"
+      ],
+      "traditional_char": "參"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "noun",
+      "meaning": "中药名，多指人参、党参等。",
+      "examples": [
+        "人参补气",
+        "党参益气"
+      ],
+      "traditional_char": "參"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "adjective",
+      "meaning": "长短不齐，错落。",
+      "examples": [
+        "参差不齐",
+        "参错参差"
+      ],
+      "traditional_char": "參"
+    },
+    {
+      "index": 9,
+      "part_of_speech": "numeral",
+      "meaning": "三的大写，古同“叁”。",
+      "examples": [
+        "参位数",
+        "參为数字三"
+      ],
+      "traditional_char": "參"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "loan_character",
+      "original_sense_index": 6,
+      "note": "‘參’本义为星名，后假借为多义。小篆、甲骨文字形多从‘彡’等，象星辰。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 6,
+      "target_index": 0,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "由星名假借用为‘参与’等动词义，战国以后多见。"
+    },
+    {
+      "source_index": 6,
+      "target_index": 7,
+      "evolution_type": "semantic_extension",
+      "note": "因人参形似参星排列，又借用为药名。"
+    },
+    {
+      "source_index": 6,
+      "target_index": 9,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "古作数字‘三’的大写，音近而借。"
+    },
+    {
+      "source_index": 6,
+      "target_index": 8,
+      "evolution_type": "metaphor",
+      "note": "由参星众多、星分错落，引申为‘参差不齐’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "参与引申为相间、夹杂，意涵扩展。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由参与引申为参考、查验等动作。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由参考推至探究、领悟，尤用于禅宗。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_shift",
+      "note": "由参与发展为特指下属朝见上级的行为。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "由参见再引申为上书弹劾，官场用法。"
+    }
+  ]
+}

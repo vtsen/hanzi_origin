@@ -1,0 +1,108 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "推开，脱离；摆脱。",
+      "examples": [
+        "摆脱困境",
+        "摆落杂念"
+      ],
+      "traditional_char": "擺"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "陈列，安放。",
+      "examples": [
+        "摆放书架",
+        "摆设宴席"
+      ],
+      "traditional_char": "擺"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "故意显示。",
+      "examples": [
+        "摆阔",
+        "摆谱儿"
+      ],
+      "traditional_char": "擺"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "处置，随意操纵。",
+      "examples": [
+        "摆布",
+        "摆弄"
+      ],
+      "traditional_char": "擺"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "来回摇动。",
+      "examples": [
+        "摆动身体",
+        "秋千在空中摆动"
+      ],
+      "traditional_char": "擺"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "衣裙的下幅。",
+      "examples": [
+        "长裙的襬分外好看",
+        "衣襬随风飘扬"
+      ],
+      "traditional_char": "襬"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘擺’为形声字，从手，罢声，表示撇开、摆脱之意。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 5,
+      "note": "‘襬’为形声字，从衣，罢声，古作衣服下幅，语义与‘擺’有分化。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘推开’引申为‘陈列、安放’，动作对象变化。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由‘外在动作’比喻为‘显示姿态’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "从‘推开’引申为‘操纵’，强调对对象的掌控。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "推、摇之动，引申为‘来回摇动’。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 5,
+      "evolution_type": "metonymy",
+      "note": "衣裙摆动，引申为‘衣裙的下幅（襬）’。"
+    }
+  ]
+}

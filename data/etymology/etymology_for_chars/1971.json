@@ -1,0 +1,150 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "用弓发箭使中远处目标",
+      "examples": [
+        "后羿射日",
+        "射箭"
+      ],
+      "traditional_char": "射"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "用推力或弹力送出子弹等物体",
+      "examples": [
+        "射击",
+        "扫射",
+        "发射"
+      ],
+      "traditional_char": "射"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "气体或液体等受到压力迅速流出",
+      "examples": [
+        "喷射",
+        "注射"
+      ],
+      "traditional_char": "射"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "放出光、热、电波等",
+      "examples": [
+        "射线",
+        "照射",
+        "辐射",
+        "反射"
+      ],
+      "traditional_char": "射"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "有所指，暗示、影射",
+      "examples": [
+        "暗射",
+        "影射"
+      ],
+      "traditional_char": "射"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "古书上的一种草，根可入药（见“射干”）",
+      "examples": [
+        "射干为药"
+      ],
+      "traditional_char": "射"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "秦至宋代的官名（见“仆射”）",
+      "examples": [
+        "仆射掌官"
+      ],
+      "traditional_char": "射"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "noun",
+      "meaning": "中国古代音乐十二律之一，无射",
+      "examples": [
+        "无射为律"
+      ],
+      "traditional_char": "射"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "noun",
+      "meaning": "春秋时景王所铸钟名（无射钟）",
+      "examples": [
+        "无射钟"
+      ],
+      "traditional_char": "射"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意字，金文字形象弓、箭和手，表示以手拉弓发箭，兼有形声分析但主要为会意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由用弓发箭泛指用推力或弹力发射物体，时间为中古以后。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "以弹射动作比拟气体或液体的快速喷出。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "以物理喷射比拟光、热等无形能量的发出。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "由直线射出引申为言语或行为有针对性、暗指。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "‘射干’为假借字，本无义训转用于植物名，非原生义。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "‘仆射’职官名为假借用法，非原生义。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 7,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "‘无射’（律名）为假借意义，来自本字。"
+    },
+    {
+      "source_index": 7,
+      "target_index": 8,
+      "evolution_type": "metonymy",
+      "note": "由律名指代该名下之钟。"
+    }
+  ]
+}

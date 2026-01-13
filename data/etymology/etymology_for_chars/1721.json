@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "吃完，吃过",
+      "examples": [
+        "既酒既食",
+        "既飽"
+      ],
+      "traditional_char": "既"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adverb",
+      "meaning": "动作已经完成",
+      "examples": [
+        "既往不咎",
+        "既而"
+      ],
+      "traditional_char": "既"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adverb",
+      "meaning": "已经",
+      "examples": [
+        "既成事实",
+        "既定"
+      ],
+      "traditional_char": "既"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "conjunction",
+      "meaning": "常与“且”、“又”连用，表示两者并列",
+      "examples": [
+        "既快又好",
+        "既美且实用"
+      ],
+      "traditional_char": "既"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意字，左边为食器，右边为人形，本义指吃完。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“吃罢”扩展为“一切动作完成”；周秦时期已有此用法。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "grammaticalization",
+      "note": "由描述动作完结到抽象表示“已经”，逐渐虚化。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "function_word",
+      "note": "由副词“已经”进一步虚化用于引并列，成为连接词。"
+    }
+  ]
+}

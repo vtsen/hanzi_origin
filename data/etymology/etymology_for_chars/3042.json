@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "女子结婚，出嫁。",
+      "examples": [
+        "她明年要出嫁。",
+        "再嫁异乡。"
+      ],
+      "traditional_char": "嫁"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "把不同品种的两种植物接在一起，使其变种。",
+      "examples": [
+        "嫁接苹果树。"
+      ],
+      "traditional_char": "嫁"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "把祸害、怨恨转移到别人身上。",
+      "examples": [
+        "嫁祸于人。",
+        "嫁怨。"
+      ],
+      "traditional_char": "嫁"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从女，家声，表示女子出嫁之意。『女』表义，『家』表声。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "指女子出嫁转为植物嫁接，嫁合之意，汉代见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由出嫁引申为推卸、转移不利之物，多见于近现代。"
+    }
+  ]
+}

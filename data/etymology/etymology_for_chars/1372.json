@@ -1,0 +1,51 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "胳膊弯起来挂着东西",
+      "examples": [
+        "她挎着篮子上街。"
+      ],
+      "traditional_char": "挎"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "把东西挂在肩上或挂在腰里",
+      "examples": [
+        "挎包",
+        "挎着照相机。"
+      ],
+      "traditional_char": "挎"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "抠",
+      "examples": [],
+      "traditional_char": "挎"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从手，夸声。表示用手做的动作，初指胳膊弯起来挂东西。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由弯臂挂物引申至用肩或腰挂物。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "unknown",
+      "note": "挎作抠之用，不明，疑为音近通用或方言借用。"
+    }
+  ]
+}

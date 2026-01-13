@@ -1,0 +1,68 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古代祭祀用的毛色纯一的牲畜",
+      "examples": [
+        "牺牲玉帛，弗敢加也，必以信",
+        "牺牛"
+      ],
+      "traditional_char": "犧"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "为祭祀所用的祭品，引申指奉献自身以成全大事（牺牲自己）",
+      "examples": [
+        "为祖国不怕流血牺牲"
+      ],
+      "traditional_char": "犧"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "放弃或损害自己的一部分利益以成全他人或大局",
+      "examples": [
+        "他牺牲自己的休息时间，突击完成了任务"
+      ],
+      "traditional_char": "犧"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "牺牛形酒器（牺尊）",
+      "examples": [
+        "牺尊"
+      ],
+      "traditional_char": "犧"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从牛，羲声，表示毛色纯一的祭祀用牲畜。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由实际祭祀用牲畜，引申为奉献自身成全大义，见先秦、两汉"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "抽象化使用，泛指一般意义上的放弃、成全，现代汉语常见"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "以牺牛形状命名的酒器，‘牺尊’为其专用"
+    }
+  ]
+}

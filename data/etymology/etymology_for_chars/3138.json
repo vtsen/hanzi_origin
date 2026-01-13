@@ -1,0 +1,38 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "蒸制的面食，无馅，通常为圆形或长方形，称为馒头。",
+      "examples": [
+        "吃一个馒头。",
+        "白面馒头"
+      ],
+      "traditional_char": "饅"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "方言指包子。",
+      "examples": [
+        "一个肉馒头。"
+      ],
+      "traditional_char": "饅"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘饅’为形声字，从飠(食)声瞞，‘食’表食物义，‘瞞’表声。‘馒’为简化字，源自‘饅’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "‘馒头’原指无馅蒸食，部分方言中扩展用于有馅包子，近现代现象。"
+    }
+  ]
+}

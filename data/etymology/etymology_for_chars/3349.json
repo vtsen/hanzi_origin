@@ -1,0 +1,58 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "许多鸟或虫子乱叫",
+      "examples": [
+        "鹊噪",
+        "蝉噪",
+        "归鸟晚噪"
+      ],
+      "traditional_char": "噪"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "声音杂乱",
+      "examples": [
+        "噪声",
+        "噪音",
+        "噪聒"
+      ],
+      "traditional_char": "噪"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "许多人大喊大叫，喧哗，鼓动",
+      "examples": [
+        "噪嚷",
+        "噪聚",
+        "声名大噪"
+      ],
+      "traditional_char": "噪"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从口，喿声；本义为鸟群吵闹叫唤。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由动物叫声引申为一般杂乱的声音。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "从杂乱声音借喻到人群喧闹大叫。"
+    }
+  ]
+}

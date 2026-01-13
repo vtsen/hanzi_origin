@@ -1,0 +1,69 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "pronoun",
+      "meaning": "我（第一人称单数）",
+      "examples": [
+        "咱不懂他的话。"
+      ],
+      "traditional_char": "咱"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "pronoun",
+      "meaning": "泛指己方（我或我们）和对方（你或你们）",
+      "examples": [
+        "咱们一起去看戏。",
+        "咱俩说说话。"
+      ],
+      "traditional_char": "咱"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "pronoun",
+      "meaning": "〔咱家〕我，自称之辞（方言用法）",
+      "examples": [
+        "咱家今天不高兴。"
+      ],
+      "traditional_char": "咱"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "other",
+      "meaning": "“早、晚”二字的合音，指时间（方言用法）",
+      "examples": [
+        "多咱回来？",
+        "这咱再说。"
+      ],
+      "traditional_char": "咱"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从口，‘自’声。本义表示‘我’，‘自’兼表音（zán）与小幅表义色彩。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从特指‘我’扩展到泛指己方或双方，多见于北方方言。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_narrowing",
+      "note": "衍生为‘咱家’等自称表达，属于方言专用。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "用音通假借为‘早晚’的合音，完全不同义，方言用法。"
+    }
+  ]
+}

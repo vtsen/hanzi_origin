@@ -1,0 +1,128 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "远行，远赴他地",
+      "examples": [
+        "长征",
+        "征途",
+        "征夫",
+        "征人",
+        "征帆"
+      ],
+      "traditional_char": "征"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "用武力讨伐",
+      "examples": [
+        "征服",
+        "征讨",
+        "征伐",
+        "南征北战",
+        "出征作战"
+      ],
+      "traditional_char": "征"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "召集（多指召集兵士）",
+      "examples": [
+        "征兵",
+        "征募",
+        "征集兵马"
+      ],
+      "traditional_char": "征"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "收集、征收（如赋税、粮食）",
+      "examples": [
+        "征税",
+        "征粮"
+      ],
+      "traditional_char": "征"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "招请、寻求",
+      "examples": [
+        "征求",
+        "征稿",
+        "征婚",
+        "征聘",
+        "征询"
+      ],
+      "traditional_char": "征"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "证明、证验",
+      "examples": [
+        "征引",
+        "信而有征"
+      ],
+      "traditional_char": "徵"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "迹象、特征",
+      "examples": [
+        "特征",
+        "征候"
+      ],
+      "traditional_char": "徵"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从彳（表示行走），正声，甲骨文从彳从足，初义为远行。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 5,
+      "note": "徵为后起，借用与‘征’音通，多指凭证、标志。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由‘远行’引申为‘出兵远征’，进而具‘讨伐’义。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由‘征讨’引申出‘召集兵士’。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由‘征集兵士’扩展为‘征收赋税粮食等’。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "‘召集’进一步引申为‘征求/招请’。"
+    },
+    {
+      "source_index": 5,
+      "target_index": 6,
+      "evolution_type": "semantic_extension",
+      "note": "由‘证验’引申为‘凭据、特征、迹象’。"
+    }
+  ]
+}

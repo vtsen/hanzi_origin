@@ -1,0 +1,58 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "哀痛，感到悲伤、遗憾",
+      "examples": [
+        "可惜",
+        "惋惜",
+        "惜悯"
+      ],
+      "traditional_char": "惜"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "爱护，重视，怜爱或珍视",
+      "examples": [
+        "爱惜",
+        "怜惜",
+        "珍惜"
+      ],
+      "traditional_char": "惜"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "舍不得，吝于付出",
+      "examples": [
+        "吝惜",
+        "惜力",
+        "惜墨如金"
+      ],
+      "traditional_char": "惜"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从心，表示与情感有关，昔为声符，最初本义为哀痛、悲伤。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由哀痛、惋惜情感引申为珍视、怜爱，多见于汉魏以后。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由珍视、爱护进一步引申为舍不得、吝于付出，用于物力情感上。"
+    }
+  ]
+}

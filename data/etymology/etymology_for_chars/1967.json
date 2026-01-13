@@ -1,0 +1,88 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "背弃，背叛。",
+      "examples": [
+        "倍道而亡。",
+        "倍义而行。"
+      ],
+      "traditional_char": "倍"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "背诵。",
+      "examples": [
+        "倍文。",
+        "倍诵诗书。"
+      ],
+      "traditional_char": "倍"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "等于原数的两个或多个（数学中的倍数）。",
+      "examples": [
+        "加倍。",
+        "事倍功半。",
+        "二的五倍是十。"
+      ],
+      "traditional_char": "倍"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "增加，加倍。",
+      "examples": [
+        "焉用亡郑以倍邻？",
+        "倍加。"
+      ],
+      "traditional_char": "倍"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adverb",
+      "meaning": "更加，非常。",
+      "examples": [
+        "每逢佳节倍思亲。",
+        "倍儿精神。"
+      ],
+      "traditional_char": "倍"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字。从人，（tǒu）声。最初作通假，表示“背”，即反、背离。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从“背离”扩展出“背诵”，古代用法相关。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "“背离”引申为“增益”，可能因数量、距离加大的观念。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由“增益”引申为“倍数”，即原数增加若干倍。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "grammaticalization",
+      "note": "“加倍”引申为副词用法“更加，非常”。"
+    }
+  ]
+}

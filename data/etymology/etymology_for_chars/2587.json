@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "厨房，做饭菜的场所",
+      "examples": [
+        "厨房里弥漫着菜香。",
+        "庖厨之事，不足为外人道也。"
+      ],
+      "traditional_char": "廚"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "厨师，烹饪食物的人",
+      "examples": [
+        "他是一名专业的厨师。",
+        "名厨下厨，必有佳肴。"
+      ],
+      "traditional_char": "廚"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "厨具，厨房里用的器具",
+      "examples": [
+        "新买了一套厨具。",
+        "厨具摆放有序。"
+      ],
+      "traditional_char": "廚"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从广（表示房屋），尌声，最初指厨房。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由指厨房引申为厨房工作的人。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由指厨房引申为厨房用的器具。"
+    }
+  ]
+}

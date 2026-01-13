@@ -1,0 +1,106 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "在文书、契约上签名或画记号",
+      "examples": [
+        "签押",
+        "画押",
+        "合同上请你押个手印"
+      ],
+      "traditional_char": "押"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "把财物交给人作保证",
+      "examples": [
+        "押租",
+        "押金",
+        "典押",
+        "把房子押给银行"
+      ],
+      "traditional_char": "押"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "拘留",
+      "examples": [
+        "看押",
+        "拘押",
+        "押禁",
+        "嫌犯被押至看守所"
+      ],
+      "traditional_char": "押"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "跟随看管",
+      "examples": [
+        "押送",
+        "押运",
+        "警察押解犯人",
+        "军队押运物资"
+      ],
+      "traditional_char": "押"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "同“压”，用于“押宝”、“押队”、“押韵”",
+      "examples": [
+        "押宝",
+        "押队",
+        "押韵",
+        "比赛时我押他赢"
+      ],
+      "traditional_char": "押"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "押先生",
+        "押老师"
+      ],
+      "traditional_char": "押"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从手，甲声，本义为在文书上签名或画记号，‘手’表示与手的动作有关，‘甲’表音。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "从文书上画记作为凭证，引申为财物作抵押保证，见中古至今。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "从审核文书、契约引申至对人身自由的限制和管控。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由拘留进一步衍生为实际跟随看管、押送等义。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "用作“压”的近音通假，多见于近现代词如‘押宝’‘押韵’。"
+    }
+  ]
+}

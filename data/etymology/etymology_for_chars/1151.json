@@ -1,0 +1,86 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "财物、商品",
+      "examples": [
+        "货物",
+        "百货商店"
+      ],
+      "traditional_char": "貨"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "钱币",
+      "examples": [
+        "货币",
+        "通货膨胀"
+      ],
+      "traditional_char": "貨"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "卖、贩卖",
+      "examples": [
+        "货殖",
+        "货卖"
+      ],
+      "traditional_char": "貨"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "贿赂",
+      "examples": [
+        "货赂"
+      ],
+      "traditional_char": "貨"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "骂人话，用于戏称人的词",
+      "examples": [
+        "蠢货",
+        "宝货"
+      ],
+      "traditional_char": "貨"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从‘贝’（表财物），‘化’为声，表达财物、商品之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "古代以实物为财，后转指钱币，常见于商品与货币的互指关系中。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "conversion",
+      "note": "由商品名词转为贩卖商品的动词用法，属于词性转变。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "以财物转指行贿，以财物流通引申为贿赂。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_shift",
+      "note": "由商品引申为人的贬称，用以讽刺或玩笑。"
+    }
+  ]
+}

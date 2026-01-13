@@ -1,0 +1,86 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "仁爱、恩惠；好处。",
+      "examples": [
+        "恩惠",
+        "施惠于人",
+        "仁惠",
+        "惠泽"
+      ],
+      "traditional_char": "惠"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "给予他人利益、好处。",
+      "examples": [
+        "惠政",
+        "互惠互利",
+        "惠及远人"
+      ],
+      "traditional_char": "惠"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "other",
+      "meaning": "敬辞，用于称对方给予自己的动作，如赠送、光临等。",
+      "examples": [
+        "惠赠",
+        "惠临",
+        "惠顾",
+        "惠存"
+      ],
+      "traditional_char": "惠"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "聪明，有智慧（古同“慧”）。",
+      "examples": [],
+      "traditional_char": "惠"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [],
+      "traditional_char": "惠"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意字，从‘心’表示仁爱之心，从‘叀’表专心，初义为仁爱。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘恩惠’引申为‘给予他人好处’，语义扩大。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "grammaticalization",
+      "note": "‘惠’用作敬辞，礼貌用语，礼貌用法产生于中古及以后。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "古时‘惠’通‘慧’，引申为聪明，有智慧，见古书用例。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "conversion",
+      "note": "由‘仁爱’具义转为姓氏用法，常见于中国姓氏演变。"
+    }
+  ]
+}

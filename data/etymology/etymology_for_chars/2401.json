@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "回头看，回望",
+      "examples": [
+        "眷而顾之"
+      ],
+      "traditional_char": "眷"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "顾念，爱恋",
+      "examples": [
+        "眷念故乡",
+        "满怀眷恋",
+        "深受关注和眷注"
+      ],
+      "traditional_char": "眷"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "亲属",
+      "examples": [
+        "亲眷",
+        "眷属",
+        "女眷"
+      ],
+      "traditional_char": "眷"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从目，卷声。本义为回头看，与目有关。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘回头看’引申为‘顾念、思念’，春秋战国时期始见用法。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由对亲属的关怀转指‘亲属’本身，汉代用法确定。"
+    }
+  ]
+}

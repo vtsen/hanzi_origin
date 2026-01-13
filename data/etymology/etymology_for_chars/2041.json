@@ -1,0 +1,75 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "直立，立着",
+      "examples": [
+        "站立",
+        "站着不动",
+        "他站在门口"
+      ],
+      "traditional_char": "站"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "停住，保持不动",
+      "examples": [
+        "站住",
+        "站住脚",
+        "敌人站住不前"
+      ],
+      "traditional_char": "站"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "中途停留转运的地方，例如车站、驿站等",
+      "examples": [
+        "车站",
+        "驿站",
+        "火车站"
+      ],
+      "traditional_char": "站"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "分支办事单位",
+      "examples": [
+        "保健站",
+        "防疫站",
+        "供应站"
+      ],
+      "traditional_char": "站"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字：从立，表示与‘立’有关，占声，表示读音。最初表示‘直立’之义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘立’引申为‘停住’。此义始见于近现代。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由‘停住’引申为专门供停留的地方。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "由‘中转处’进一步引申为一般分支单位。"
+    }
+  ]
+}

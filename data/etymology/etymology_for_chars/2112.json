@@ -1,0 +1,92 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "依照文字念出声音，如读书、阅读。",
+      "examples": [
+        "读书",
+        "朗读诗文",
+        "宣读通知"
+      ],
+      "traditional_char": "讀"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "看书，阅览，不一定出声。",
+      "examples": [
+        "速读",
+        "默读小说",
+        "阅读新闻"
+      ],
+      "traditional_char": "讀"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "求学，上学。",
+      "examples": [
+        "走读",
+        "在大学读书",
+        "男儿有志须读书"
+      ],
+      "traditional_char": "讀"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "字的读音，发音方式。",
+      "examples": [
+        "读音",
+        "音读",
+        "这个字有两个读"
+      ],
+      "traditional_char": "讀"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "文章中一句中间念到应暂停的地方，叫‘句读’。",
+      "examples": [
+        "句读",
+        "文章无句读，不成篇",
+        "断句读"
+      ],
+      "traditional_char": "讀"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘讀’为形声字，从言，賣声，‘言’表义，‘賣’表音，本义为依照文字念出声音。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由出声念书推广到安静阅读文字，常见于文人社会，汉代已见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由‘读书’引申为‘上学’、‘受教育’，明清以降普遍。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "由‘读出’引申为‘字的发音’，即‘一个字怎么读’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由朗读时的停顿现象引申为句读的名词用法，古文中常见。"
+    }
+  ]
+}

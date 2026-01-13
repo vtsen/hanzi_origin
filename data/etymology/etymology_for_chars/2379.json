@@ -1,0 +1,129 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "一年生或多年生草本植物（如大麻、苎麻等），其茎皮纤维也称为“麻”，可用于制绳索、布匹等。",
+      "examples": [
+        "麻布",
+        "麻衣",
+        "麻袋"
+      ],
+      "traditional_char": "麻"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "芝麻植物，或其种子制成的调料品。",
+      "examples": [
+        "麻酱",
+        "麻油"
+      ],
+      "traditional_char": "麻"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "形容肢体被压后产生的刺痛、发胀、不舒服的感觉。",
+      "examples": [
+        "腿麻了",
+        "手麻"
+      ],
+      "traditional_char": "麻"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "感觉迟钝或丧失，引申为思想或反应不敏锐。",
+      "examples": [
+        "麻痹",
+        "麻木不仁"
+      ],
+      "traditional_char": "麻"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "面部痘瘢，也用以指物体表面的粗糙。",
+      "examples": [
+        "麻子脸",
+        "这块石头很麻"
+      ],
+      "traditional_char": "麻"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "adjective",
+      "meaning": "带有细小斑点或斑纹的。",
+      "examples": [
+        "麻雀",
+        "麻蝇"
+      ],
+      "traditional_char": "麻"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "adjective",
+      "meaning": "形容杂乱、纷乱。",
+      "examples": [
+        "麻乱",
+        "麻沸"
+      ],
+      "traditional_char": "麻"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [
+        "麻先生"
+      ],
+      "traditional_char": "麻"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "pictograph",
+      "original_sense_index": 0,
+      "note": "上部为草字头表示植物，下部为林，象征麻植物纤维繁茂；古为指麻类植物及其纤维。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由麻类植物泛指到芝麻及制品，用作同类植物的名称。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由植物纤维粗糙、麻刺感，喻及肢体发麻的不适感觉。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由生理发麻引申为感官、思想迟钝等抽象意义。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "由麻皮表面粗糙转喻物体或人的外观粗糙、麻点。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "由局部麻点引申为带有斑点、花纹的性质。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "metaphor",
+      "note": "由植物众多散乱，比喻事物错杂纷乱的状态。"
+    }
+  ]
+}

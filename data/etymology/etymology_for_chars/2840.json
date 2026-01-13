@@ -1,0 +1,41 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "移动，迁移物体的位置",
+      "examples": [
+        "搬动桌子",
+        "搬家",
+        "把箱子搬到楼下"
+      ],
+      "traditional_char": "搬"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "挑拨离间，搬弄是非",
+      "examples": [
+        "搬弄是非",
+        "他喜欢搬唆",
+        "不要在背后搬弄别人"
+      ],
+      "traditional_char": "搬"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从手，般声。本义为用手挪动物体。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由“移动”义，喻指在人际关系中挑拨、搬弄，语义比喻发展。"
+    }
+  ]
+}

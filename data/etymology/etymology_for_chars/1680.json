@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "水中的陆地",
+      "examples": [
+        "江中有洲，名曰沙洲。",
+        "洲渚相连。"
+      ],
+      "traditional_char": "洲"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "大陆及其附属岛屿的总称",
+      "examples": [
+        "亚洲是世界最大的洲。",
+        "七大洲分别是亚洲、非洲、北美洲、南美洲、南极洲、欧洲和大洋洲。"
+      ],
+      "traditional_char": "洲"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，州声。本义为水中的陆地，用以区别于表示行政区划的“州”。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由河流中的沙洲引申为大的陆地块，进一步发展为“大陆及其附属岛屿的总称”。"
+    }
+  ]
+}

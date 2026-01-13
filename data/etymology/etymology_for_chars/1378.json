@@ -1,0 +1,109 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "快走，疾行。",
+      "examples": [
+        "赵，趋赵也。——《说文》",
+        "天子北征，赵行囗舍。——《穆天子传》"
+      ],
+      "traditional_char": "趙"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "古国名。周穆王封造父于赵，后为战国七雄之一，及十六国时“前赵”“后赵”政权之地名。",
+      "examples": [
+        "燕赵（燕赵之地，泛指北方）。",
+        "赵将括。——汉·刘向《列女传》"
+      ],
+      "traditional_char": "趙"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [
+        "赵某",
+        "赵氏孤儿"
+      ],
+      "traditional_char": "趙"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adverb",
+      "meaning": "虚妄不实，胡说（吴地方言）。",
+      "examples": [
+        "妄语曰赵。俗语有七珠八赵，即胡说八道。"
+      ],
+      "traditional_char": "趙"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "刺地，用农具挖刨草（古义，见《诗·周颂》）。",
+      "examples": [
+        "其鎛斯趙，以薅荼蓼。——《诗·周颂》"
+      ],
+      "traditional_char": "趙"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "other",
+      "meaning": "“趙”的简化字。",
+      "examples": [],
+      "traditional_char": "赵"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘趙’从走，肖声，会意兼形声，本义为快走、疾行。"
+    },
+    {
+      "formation_type": "loan_character",
+      "original_sense_index": 5,
+      "note": "‘赵’为‘趙’的简化形式，源于‘趙’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由本义‘快走、疾行’引申为地名，古赵国以骏马驰名。见先秦、两汉用例。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "synecdoche",
+      "note": "古国名用于称族姓，见《史记·赵世家》等。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "由动作‘快走’义引申为‘胡说’（吴方言），具体机制存疑，语音谐转或民间俗用。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_narrowing",
+      "note": "‘快走’义在某些古文文献中表现为‘刺地’‘用农器具动’的动作义，参见《诗经》古训。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "reanalysis",
+      "note": "‘赵’作为‘趙’的简化字，语义完全继承。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 5,
+      "evolution_type": "reanalysis",
+      "note": "姓氏义被‘赵’（简化字）全盘吸收。"
+    }
+  ]
+}

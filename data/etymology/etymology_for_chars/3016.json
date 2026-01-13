@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "（液体）充满而流出来",
+      "examples": [
+        "河水四溢",
+        "泪水溢出",
+        "怒火溢于言表"
+      ],
+      "traditional_char": "溢"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "过分，超过限度",
+      "examples": [
+        "溢美之词",
+        "溢恶",
+        "溢誉"
+      ],
+      "traditional_char": "溢"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "超出，超过预定的数量",
+      "examples": [
+        "溢出此数"
+      ],
+      "traditional_char": "溢"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "古代重量单位（同“镒”）",
+      "examples": [
+        "一溢等于二十两"
+      ],
+      "traditional_char": "溢"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，益声。表示水从器中漫出，表示液体溢出。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "“溢”本意为水满而外流，引申为“过分、超过限度”（如溢美）"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由液体溢出引申为一般性“超出、超过”"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "“溢”假借为古代重量单位“镒”用，音近借用"
+    }
+  ]
+}

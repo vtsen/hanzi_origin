@@ -1,0 +1,105 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古代作战时戴的头盔。",
+      "examples": [
+        "金兜鍪",
+        "战士戴着兜鍪，英勇作战。"
+      ],
+      "traditional_char": "兜"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "口袋，装东西的袋子。",
+      "examples": [
+        "网兜",
+        "把水果放进兜里。"
+      ],
+      "traditional_char": "兜"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "用兜形拢住东西。",
+      "examples": [
+        "用手巾兜着糖果。",
+        "把风用帽子兜住。"
+      ],
+      "traditional_char": "兜"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "环绕，围绕。",
+      "examples": [
+        "兜抄",
+        "兜剿",
+        "在院子里兜圈子。"
+      ],
+      "traditional_char": "兜"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "招揽，推销。",
+      "examples": [
+        "兜售",
+        "兜销",
+        "四处兜揽生意。"
+      ],
+      "traditional_char": "兜"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "承担，包揽下来。",
+      "examples": [
+        "出事我兜着。",
+        "所有责任他都兜了。"
+      ],
+      "traditional_char": "兜"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "pictograph",
+      "original_sense_index": 0,
+      "note": "‘兜’象形，形似包裹头部的遮盖物，初作战盔义，后义扩展。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由头盔覆盖头部，引申为口袋，喻装物之具。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由名词‘口袋’义，发展出‘用袋状物拢住’之动词用法。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由‘包裹、收拢’引申为‘环绕、绕圈’。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "‘拢住’引申为‘招揽’，有聚集意。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 5,
+      "evolution_type": "metaphor",
+      "note": "‘包着’进一步引申为‘承担’、‘包揽’。"
+    }
+  ]
+}

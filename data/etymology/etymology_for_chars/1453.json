@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "写毛笔字时用来研磨墨的工具，通常由石制成，也称砚台",
+      "examples": [
+        "文房四宝之一为砚",
+        "玉砚、端砚、歙砚"
+      ],
+      "traditional_char": "硯"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "旧时指同学，因同窗共用笔砚而得名",
+      "examples": [
+        "同砚",
+        "砚友"
+      ],
+      "traditional_char": "硯"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从石，见声。“石”表示与石器相关，最早指磨墨器具。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由共用砚台引申为同学，语义转用，出现在旧时书院文化。"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "斟酒，倒酒",
+      "examples": [
+        "对酌",
+        "为宾客酌酒"
+      ],
+      "traditional_char": "酌"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "饮酒宴会",
+      "examples": [
+        "便酌",
+        "清酌"
+      ],
+      "traditional_char": "酌"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "考虑，斟酌，权衡",
+      "examples": [
+        "酌情处理",
+        "酌加修改",
+        "酌定"
+      ],
+      "traditional_char": "酌"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，“酉”为意旁，表与酒有关，“勺”为声旁，本义为斟酒。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由“斟酒”引申为“饮酒宴会”，宴饮时常需斟酒。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "“斟酒”引申为“斟酌、考虑”，比喻如同斟酒一般权衡分量，语义转化多见于文言向现代汉语过渡。"
+    }
+  ]
+}

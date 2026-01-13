@@ -1,0 +1,86 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "松树，裸子植物松科植物的统称，一般为常绿乔木，可产松脂、松香等。",
+      "examples": [
+        "松针",
+        "古松",
+        "松脂"
+      ],
+      "traditional_char": "松"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "稀疏、不紧密、不紧靠，和“紧”相对。",
+      "examples": [
+        "捆得太松",
+        "土质松软",
+        "蓬松"
+      ],
+      "traditional_char": "鬆"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "放开，解除束缚。",
+      "examples": [
+        "松手",
+        "松绑",
+        "松心"
+      ],
+      "traditional_char": "鬆"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "用瘦肉或鱼制成的茸毛状或碎末状食品。",
+      "examples": [
+        "肉松",
+        "鱼松"
+      ],
+      "traditional_char": "鬆"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [],
+      "traditional_char": "松"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘松’为形声字，左‘木’表意（指树木），右‘公’表音，最初指松树。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "‘鬆’为形声字，‘糹’表意（指松散状态），‘公’表音，后用作‘稀疏’、‘不紧’等意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由松树针叶稀疏，引申为整体稀疏、松散之意，见于中古已见。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "‘稀疏不紧’进一步发展为‘放开’、‘松开’。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "以‘松散’之状比喻肉丝状、鱼丝状食品。"
+    }
+  ]
+}

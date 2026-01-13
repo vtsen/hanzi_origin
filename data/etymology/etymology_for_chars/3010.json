@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "水流漫出，泛滥。",
+      "examples": [
+        "洪水滥流。",
+        "泛滥成灾。"
+      ],
+      "traditional_char": "濫"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "不加选择或节制地使用或做某事。",
+      "examples": [
+        "滥用职权。",
+        "宁缺勿滥。"
+      ],
+      "traditional_char": "濫"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "浮泛，不切实际，内容不真实。",
+      "examples": [
+        "陈词滥调。",
+        "滥竽充数。"
+      ],
+      "traditional_char": "濫"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，监声，本义指水的泛滥或漫溢。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由水的漫溢引申为行为或事物不加控制地滥用，先秦已见。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "从指行为“滥”引伸至说辞或内容“浮泛不实”，现代汉语常见。"
+    }
+  ]
+}

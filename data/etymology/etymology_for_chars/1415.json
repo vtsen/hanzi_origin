@@ -1,0 +1,85 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "梧桐的别称",
+      "examples": [
+        "庭院种有一株荣。"
+      ],
+      "traditional_char": "榮"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "草木茂盛，繁荣",
+      "examples": [
+        "草木荣枯。",
+        "百业俱荣。"
+      ],
+      "traditional_char": "榮"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "草木的花，亦泛指花",
+      "examples": [
+        "绿叶素荣。"
+      ],
+      "traditional_char": "榮"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "光荣、荣誉，受人敬重的状态",
+      "examples": [
+        "荣誉",
+        "光荣",
+        "荣升"
+      ],
+      "traditional_char": "榮"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "荣毅仁"
+      ],
+      "traditional_char": "榮"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从木，荧省声，本义为梧桐。‘荧’表示读音。古文象两支如火把相互照耀的形状，暗合花穗盛开之象。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘梧桐’生命力旺盛引申为‘草木繁荣’。汉代已见用法。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "指草木生长旺盛时之花，古今皆有。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由植物繁荣喻及人的荣耀、得意，常用于抽象意义，见《论语》《左传》。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "unknown",
+      "note": "荣作为姓氏，来源待考，可能取祥瑞、兴盛之义。"
+    }
+  ]
+}

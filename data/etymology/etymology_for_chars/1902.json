@@ -1,0 +1,53 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "蝌蚪：青蛙、蟾蜍等两栖动物的幼虫，形状头大尾细，生活在水中。",
+      "examples": [
+        "池塘里有许多蝌蚪。",
+        "蚪者，蛙子也。"
+      ],
+      "traditional_char": "蚪"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "比喻像蝌蚪形状的文字，如“蝌蚪文”。",
+      "examples": [
+        "古书有蝌蚪文，形如蚪。"
+      ],
+      "traditional_char": "蚪"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "通“斗”，用于地名，如“蚪峰”。",
+      "examples": [
+        "蚪峰，地名。"
+      ],
+      "traditional_char": "蚪"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘蚪’为形声字，从虫，斗声，最初指蝌蚪，即两栖动物的幼虫。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "因蝌蚪形状引申形似之文字，出现于后代文献。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "‘蚪’通‘斗’，为音近假借，多用于地名等；见于部分地名用法。"
+    }
+  ]
+}

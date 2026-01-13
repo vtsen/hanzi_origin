@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "用布、纸、绸子或其他材料做成的标识，多为长方形或方形。",
+      "examples": [
+        "升起国旗。",
+        "战旗飘扬。"
+      ],
+      "traditional_char": "旗"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "中国清代满族的军队编制和户口编制，也指属于满族的人、事。",
+      "examples": [
+        "八旗子弟。",
+        "旗人身份。"
+      ],
+      "traditional_char": "旗"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "中国内蒙古自治区的一种行政区划，相当于县。",
+      "examples": [
+        "锡林郭勒盟正蓝旗。",
+        "住在鄂托克旗境内。"
+      ],
+      "traditional_char": "旗"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从方表示形体，从其表示音，初指旗帜。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "以旗帜代表清代满族军队、户口编制，始于明末清初。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由清代八旗制度引申为内蒙古行政区划名。"
+    }
+  ]
+}

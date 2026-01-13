@@ -1,0 +1,118 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "灌进去，注入液体或其他物质",
+      "examples": [
+        "大雨如注",
+        "注入湖中"
+      ],
+      "traditional_char": "注"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "（精神、力量）集中于一点",
+      "examples": [
+        "注视对方",
+        "注意安全"
+      ],
+      "traditional_char": "注"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "用文字解释词名",
+      "examples": [
+        "注解诗文",
+        "加以注释"
+      ],
+      "traditional_char": "注"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "用来解释词句的文字",
+      "examples": [
+        "附有注疏",
+        "请看下方注"
+      ],
+      "traditional_char": "注"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "记载，登记",
+      "examples": [
+        "注册新公司",
+        "注销户口"
+      ],
+      "traditional_char": "注"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "赌博时所下金钱财物",
+      "examples": [
+        "下注押宝"
+      ],
+      "traditional_char": "注"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "measure_word",
+      "meaning": "量词，多用于款项或交易",
+      "examples": [
+        "一注彩票",
+        "一注钱"
+      ],
+      "traditional_char": "注"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，主声，表示水流入。本义为灌入、注入。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由‘水流注入’引申为‘精神力量汇聚’；类似流注于一处。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由‘水注入’转为‘加入文字说明’，即信息灌注。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "conversion",
+      "note": "动词‘注’解释文句转为该文字本体，成为名词‘注’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "登记、记载引申为‘数据流入’之义。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "metonymy",
+      "note": "由‘注入’引申至赌资下注，喻金钱流入赌局。"
+    },
+    {
+      "source_index": 5,
+      "target_index": 6,
+      "evolution_type": "conversion",
+      "note": "由名词‘下注’发展为作量词使用，如‘一注’。"
+    }
+  ]
+}

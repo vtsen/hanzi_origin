@@ -1,0 +1,40 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "吃得足够，不饿。",
+      "examples": [
+        "吃得很饱",
+        "吃饱了才有力气干活"
+      ],
+      "traditional_char": "飽"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "充足，充分（引申义）。",
+      "examples": [
+        "饱满",
+        "饱和",
+        "饱览群书"
+      ],
+      "traditional_char": "飽"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从食，包声。本义为“吃足”。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“吃足”比喻引申为“充足、充分”，早见于先秦文献。"
+    }
+  ]
+}

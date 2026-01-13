@@ -1,0 +1,85 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "进献，献上。",
+      "examples": [
+        "羞玉芝以疗饥"
+      ],
+      "traditional_char": "羞"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "感到耻辱，羞愧。",
+      "examples": [
+        "羞耻",
+        "羞辱",
+        "含羞"
+      ],
+      "traditional_char": "羞"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "难为情，害臊。",
+      "examples": [
+        "害羞",
+        "羞赧",
+        "羞涩"
+      ],
+      "traditional_char": "羞"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "使难为情，让人害臊。",
+      "examples": [
+        "你别羞我",
+        "羞人"
+      ],
+      "traditional_char": "羞"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "同“馐”，美味的食物。",
+      "examples": [],
+      "traditional_char": "羞"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "会意兼形声字，从羊，从丑（手的变形，亦为声符），本义为进献。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_shift",
+      "note": "由“进献”含有自我献出之谦卑，引申为感到羞愧、耻辱，汉代以后常用。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由“羞耻”引申为一般性难为情、害臊之情感。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "grammaticalization",
+      "note": "自指变为使动，表示“使某人难为情”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "由“进献（食物）”转指献上的美味食物，即“馐”。用于古籍。"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "矿物，蕴藏在地层中的自然物质",
+      "examples": [
+        "铁矿",
+        "煤矿",
+        "矿泉"
+      ],
+      "traditional_char": "礦"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "开采矿物的场所",
+      "examples": [
+        "矿井",
+        "矿坑",
+        "下矿"
+      ],
+      "traditional_char": "礦"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从石，广声，表示与石头有关的矿物。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由矿物之义转指采掘矿物的场所。"
+    }
+  ]
+}

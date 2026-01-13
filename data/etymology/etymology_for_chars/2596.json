@@ -1,0 +1,74 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "公鸟，雄性的动物，与“雌”相对",
+      "examples": [
+        "雄鸡",
+        "雄狮",
+        "雄蜂"
+      ],
+      "traditional_char": "雄"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "阳性的，有生殖能力的，雄蕊、雄蕨等",
+      "examples": [
+        "雄蕊",
+        "雄性"
+      ],
+      "traditional_char": "雄"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "强大而有力的",
+      "examples": [
+        "雄壮",
+        "雄伟",
+        "雄劲"
+      ],
+      "traditional_char": "雄"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "强有力的人或国家",
+      "examples": [
+        "英雄",
+        "雄杰",
+        "称雄于世"
+      ],
+      "traditional_char": "雄"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，“隹”表意指鸟类，“厷”表声，原意为公鸟。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由公鸟扩大为所有雄性的动物及生物性别。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "取公鸟强健之意，引申为强大有力的形容词。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "由强大引申指有力的人或国家。"
+    }
+  ]
+}

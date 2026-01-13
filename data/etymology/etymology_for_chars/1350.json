@@ -1,0 +1,210 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "织物的纵线，与“纬”相对。",
+      "examples": [
+        "经纬交错。",
+        "经纶在手。"
+      ],
+      "traditional_char": "經"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "地理学上通过南北极与赤道成直角的线（子午线）。",
+      "examples": [
+        "东经120度。",
+        "经纬仪。"
+      ],
+      "traditional_char": "經"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "指作为思想、道德、行为等标准的书，如儒家、佛教、道教等的经典。",
+      "examples": [
+        "诗经",
+        "四书五经"
+      ],
+      "traditional_char": "經"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "治理，管理。",
+      "examples": [
+        "经营企业。",
+        "经商。",
+        "经纪人。"
+      ],
+      "traditional_char": "經"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "通过，经过。",
+      "examples": [
+        "经过",
+        "经历",
+        "经手"
+      ],
+      "traditional_char": "經"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "禁受，经受。",
+      "examples": [
+        "经受困难。",
+        "经风雨见世面。"
+      ],
+      "traditional_char": "經"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "adjective",
+      "meaning": "常行的，历史不变的。",
+      "examples": [
+        "经常",
+        "荒诞不经。"
+      ],
+      "traditional_char": "經"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "noun",
+      "meaning": "中医指人体内较大的脉络。",
+      "examples": [
+        "经脉",
+        "经络"
+      ],
+      "traditional_char": "經"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "verb",
+      "meaning": "表示动作的时间而且完成了（已、曾经）。",
+      "examples": [
+        "已经",
+        "曾经"
+      ],
+      "traditional_char": "經"
+    },
+    {
+      "index": 9,
+      "part_of_speech": "verb",
+      "meaning": "缢死，上吊。",
+      "examples": [
+        "自经而亡。"
+      ],
+      "traditional_char": "經"
+    },
+    {
+      "index": 10,
+      "part_of_speech": "noun",
+      "meaning": "妇女每月一次由阴道排出血液（月经）。",
+      "examples": [
+        "月经",
+        "经血"
+      ],
+      "traditional_char": "經"
+    },
+    {
+      "index": 11,
+      "part_of_speech": "numeral",
+      "meaning": "古同“京”，数目十万。",
+      "examples": [],
+      "traditional_char": "經"
+    },
+    {
+      "index": 12,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [],
+      "traditional_char": "經"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从糸，巠声，表示与丝线有关。原指织物的纵线。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "以纵线比喻地理上的经线，用于地理学领域。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "以“经”为本原标准，引申为规范、典籍。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由整理丝理引申为治理、经营事务。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "抽象化为途经、通过。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "由‘通过’进一步引申为‘经受’磨难。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "semantic_extension",
+      "note": "由“经线”引申为常规、正常的含义，表示经常、固定。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 7,
+      "evolution_type": "metaphor",
+      "note": "以绳线比拟人体脉络，用于医学。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 8,
+      "evolution_type": "grammaticalization",
+      "note": "“经过、通过”进一步语法化作副词，表示已然完成。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 9,
+      "evolution_type": "metonymy",
+      "note": "本指纵线，引申为缢死时用的绳索。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 10,
+      "evolution_type": "metonymy",
+      "note": "引申为妇女生理周期（以其周期性、规律性喻名）。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 11,
+      "evolution_type": "semantic_extension",
+      "note": "古代通‘京’，表示数字单位。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 12,
+      "evolution_type": "unknown",
+      "note": "用作姓氏，来源未详，常见汉字取作为姓。"
+    }
+  ]
+}

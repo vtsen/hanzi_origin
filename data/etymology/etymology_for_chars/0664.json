@@ -1,0 +1,40 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "植物的幼体，可以发育成茎、叶或花的那一部分",
+      "examples": [
+        "豆芽",
+        "嫩芽",
+        "发芽"
+      ],
+      "traditional_char": "芽"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "形状像芽的东西",
+      "examples": [
+        "肉芽",
+        "银芽"
+      ],
+      "traditional_char": "芽"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从艸，牙声，表示植物尚未发育成长的部位。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "以“芽”的外形喻称形状类似的肉芽、银芽等事物，常见于现代汉语。"
+    }
+  ]
+}

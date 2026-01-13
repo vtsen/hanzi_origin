@@ -1,0 +1,73 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "一种蔓生植物，如女萝、松萝等，常指附生、下垂、如丝的绿色植物。",
+      "examples": [
+        "蔦與女蘿，施于松柏。（《诗·小雅》）",
+        "攬樛木之長蘿，援葛藟之飛莖。（孙绰《游天台山赋》）",
+        "谢家仙观寄云岑，岩萝拂地成阴。（牛希济《临江仙》）"
+      ],
+      "traditional_char": "蘿"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "萝卜等蔬菜植物，借指某些与本义不同的植物。",
+      "examples": [
+        "葖蘆萉，今謂之蘿蔔。（《尔雅·释草》疏）"
+      ],
+      "traditional_char": "蘿"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "苧萝，地名，山名。",
+      "examples": [],
+      "traditional_char": "蘿"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "“蘿”的简化字，意义同传统体，指某些蔓生植物。",
+      "examples": [
+        "藤萝缠绕在树上。",
+        "牵萝补屋。"
+      ],
+      "traditional_char": "萝"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘蘿’为形声字，从艸，罗声，本义为蔓生植物。"
+    },
+    {
+      "formation_type": "simple_indicative",
+      "original_sense_index": 3,
+      "note": "‘萝’为‘蘿’的简化字，简化自传统形声字。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由蔓生植物的本义引申，泛指类似植物如萝卜。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由植物名借用于地名。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "analogy",
+      "note": "‘萝’为‘蘿’的现代简化字，从本义沿用。"
+    }
+  ]
+}

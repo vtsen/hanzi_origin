@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "形容水盛大的样子，或水流动、宽广、荡漾。",
+      "examples": [
+        "溶溶月色",
+        "波光溶溶"
+      ],
+      "traditional_char": "溶"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "在水中或其他液体中化开。",
+      "examples": [
+        "溶化",
+        "溶解"
+      ],
+      "traditional_char": "溶"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，容声，表示水盛大或流动的样子。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由水流动、宽广意引申为物质在水中溶解的过程。"
+    }
+  ]
+}

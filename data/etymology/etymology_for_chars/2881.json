@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "盛饮食的器皿，上口大而圆",
+      "examples": [
+        "饭碗",
+        "茶碗",
+        "盖碗"
+      ],
+      "traditional_char": "碗"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "形状像碗的东西",
+      "examples": [
+        "轴碗儿"
+      ],
+      "traditional_char": "碗"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从石，宛声；本义为盛饮食的器皿。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "因形状类似，器皿义扩展为“像碗的东西”。"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "翠鸟，一种色彩鲜艳的鸟类",
+      "examples": [
+        "翡翠鸣高树，朱砂卧远林。"
+      ],
+      "traditional_char": "翠"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "绿色、青绿色",
+      "examples": [
+        "苍翠欲滴",
+        "翠微烟树"
+      ],
+      "traditional_char": "翠"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "翡翠（硬玉）或以之为饰品",
+      "examples": [
+        "翠玉镯子",
+        "珠宝翠钻"
+      ],
+      "traditional_char": "翠"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从羽，卒声，初指色彩鲜明的翠鸟"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "以翠鸟的羽毛颜色代指青绿色，见古籍用法"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "因翡翠色泽鲜明绿丽，借绿色名称指代玉石"
+    }
+  ]
+}

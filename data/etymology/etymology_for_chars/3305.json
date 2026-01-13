@@ -1,0 +1,87 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "快速地飞，疾飞。",
+      "examples": [
+        "翩彼飞鴞，集于泮林。",
+        "候鴈叫兮雲中，歸燕翩兮徘徊。"
+      ],
+      "traditional_char": "翩"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "飘扬，轻快地舞动或摇曳。",
+      "examples": [
+        "旟旐有翩。",
+        "翩翻（飘动、摇曳的样子）"
+      ],
+      "traditional_char": "翩"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "动作轻捷或体态生动，风度潇洒，优美。",
+      "examples": [
+        "翩若惊鸿。",
+        "风度翩翩。"
+      ],
+      "traditional_char": "翩"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adverb",
+      "meaning": "往来貌，连续不断。",
+      "examples": [
+        "翩连（连翩）",
+        "翩儐处彼湘濒。"
+      ],
+      "traditional_char": "翩"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "other",
+      "meaning": "通“偏”，有“反，反向”的意思。",
+      "examples": [
+        "翩其反矣。",
+        "翩反（相反）"
+      ],
+      "traditional_char": "翩"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从羽表“鸟羽、飞翔”义，‘扁’为声符，指迅速飞翔的样子。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“疾飞”引申为动作飘扬、轻快等，不限于鸟类。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由物理动作的轻快飘扬比喻为人的风度或举止优雅。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由飞翔引申为连续、往来不断的状态，常用于动作频繁。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "假借为‘偏’，表示‘反、反向’等（见《诗经·小雅》），属于音借义。"
+    }
+  ]
+}

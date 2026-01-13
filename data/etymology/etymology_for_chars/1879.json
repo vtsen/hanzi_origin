@@ -1,0 +1,80 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "赠送，给予",
+      "examples": [
+        "致仕",
+        "致辞",
+        "致电"
+      ],
+      "traditional_char": "致"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "招致，引起。",
+      "examples": [
+        "致病",
+        "致使",
+        "以致"
+      ],
+      "traditional_char": "致"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "情趣，风采",
+      "examples": [
+        "别致",
+        "大致",
+        "景致",
+        "兴致"
+      ],
+      "traditional_char": "致"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "精细，细密",
+      "examples": [
+        "致密",
+        "精致"
+      ],
+      "traditional_char": "緻"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘致’从攴（夂），至声，本义为送达，有行为意思。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 3,
+      "note": "‘緻’为后起字，从糸，致声，专指细致、精细，多用于‘精緻’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘送达’引申为‘招致、引起’，古今普遍用法"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由‘引致’转义为‘风采、情趣’，重在引起氛围"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "‘緻’由‘致’分化而来，专指‘精细’之义，借用本义送达的‘到极致’含义"
+    }
+  ]
+}

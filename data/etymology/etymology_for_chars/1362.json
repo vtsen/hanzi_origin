@@ -1,0 +1,87 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "有害的性质或有害的东西，如毒药、毒气。",
+      "examples": [
+        "毒药",
+        "有毒气体",
+        "毒饵"
+      ],
+      "traditional_char": "毒"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "危害，伤害。",
+      "examples": [
+        "毒杀",
+        "毒害",
+        "莫予毒也"
+      ],
+      "traditional_char": "毒"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "凶狠，猛烈。",
+      "examples": [
+        "毒辣",
+        "狠毒",
+        "恶毒"
+      ],
+      "traditional_char": "毒"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "痛恨，感到痛苦。",
+      "examples": [
+        "令人愤毒"
+      ],
+      "traditional_char": "毒"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "玳瑁，一种龟类动物（古同“玳”）。",
+      "examples": [
+        "毒甲为宝"
+      ],
+      "traditional_char": "毒"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“毒”为形声字，从屮（表示草木），‘毒’为声，古本义为“毒草滋生”。"
+    },
+    {
+      "formation_type": "loan_character",
+      "original_sense_index": 4,
+      "note": "古音借用作“玳”，指玳瑁，用为假借。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由具体有害之物引申为动词“危害、伤害”，见先秦文献。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由“伤害”引申为“凶狠、猛烈”性格、行为，比喻用法。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由“凶狠”引发内心强烈情感，如“愤毒”。"
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "周代地方行政单位，五百家为一鄙",
+      "examples": [
+        "鄙师掌其鄙之政令祭祀。"
+      ],
+      "traditional_char": "鄙"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "郊野、边远的地方",
+      "examples": [
+        "边鄙之地。"
+      ],
+      "traditional_char": "鄙"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "粗俗，鄙陋",
+      "examples": [
+        "鄙夫寡谋。",
+        "鄙俗之人。"
+      ],
+      "traditional_char": "鄙"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "轻蔑，看不起",
+      "examples": [
+        "鄙视。",
+        "鄙夷。"
+      ],
+      "traditional_char": "鄙"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "品质低劣，卑劣",
+      "examples": [
+        "卑鄙。"
+      ],
+      "traditional_char": "鄙"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "pronoun",
+      "meaning": "谦辞，用于自称",
+      "examples": [
+        "鄙人以为。",
+        "鄙见。"
+      ],
+      "traditional_char": "鄙"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "adjective",
+      "meaning": "吝啬",
+      "examples": [
+        "鄙吝。",
+        "鄙诈。"
+      ],
+      "traditional_char": "鄙"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从邑，啚声，本义为五百家，邑相关地理单位。‘邑’表意，‘啚’表声。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "‘鄙’从行政单位泛化为边远、郊外地方。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "郊野、边远之意引申为粗俗、鄙陋，多见于偏远不发达。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "由评价粗俗、鄙陋转为表示轻蔑、看不起。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "‘鄙’由粗俗引申为品质低劣。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 5,
+      "evolution_type": "grammaticalization",
+      "note": "粗俗引申为自谦用词。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 6,
+      "evolution_type": "metaphor",
+      "note": "由‘粗俗’引申为‘吝啬’，源于性格鄙陋。"
+    }
+  ]
+}

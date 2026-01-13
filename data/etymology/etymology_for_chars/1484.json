@@ -1,0 +1,99 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "不能说话的人，哑巴。",
+      "examples": [
+        "聋哑学校收纳聋哑儿童。",
+        "哑子吃黄连，有苦说不出。"
+      ],
+      "traditional_char": "啞"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "声音嘶哑、发音困难或不清楚。",
+      "examples": [
+        "他嗓子哑了。",
+        "声音沙哑。"
+      ],
+      "traditional_char": "啞"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "没有声音的。",
+      "examples": [
+        "哑剧是一种默默的艺术表演。",
+        "哑铃。"
+      ],
+      "traditional_char": "啞"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "因故障等原因炮弹、子弹等打不响。",
+      "examples": [
+        "哑炮。",
+        "子弹打哑了。"
+      ],
+      "traditional_char": "啞"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "笑声。",
+      "examples": [
+        "哑然失笑。"
+      ],
+      "traditional_char": "啞"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "other",
+      "meaning": "〔咿哑〕见“咿”。表示轻微不清晰声音。",
+      "examples": [],
+      "traditional_char": "啞"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 4,
+      "note": "形声字，从口，亚声，表示‘笑声’；后引申他义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 4,
+      "target_index": 1,
+      "evolution_type": "semantic_shift",
+      "note": "由“笑声”转为“声音不清、沙哑”，语音状态的泛化。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_narrowing",
+      "note": "由嗓音沙哑引申为完全不能说话的‘哑巴’。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由声音沙哑进一步泛化为‘无声的’。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由‘无声’喻指‘炮弹等打不响’。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "‘咿哑’即声音不清，和音变有关，见音义字典相关说明。"
+    }
+  ]
+}

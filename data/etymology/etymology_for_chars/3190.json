@@ -1,0 +1,70 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "驱逐，赶走",
+      "examples": [
+        "把他撵出去。",
+        "把流氓撵出村外。"
+      ],
+      "traditional_char": "撵"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "追赶",
+      "examples": [
+        "我撵不上他。",
+        "他一上车就撵着火车跑。"
+      ],
+      "traditional_char": "撵"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "驱逐，赶走",
+      "examples": [
+        "把他攆出去。",
+        "攆走敌人。"
+      ],
+      "traditional_char": "攆"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "追赶",
+      "examples": [
+        "我攆不上他。",
+        "他攆着火车跑。"
+      ],
+      "traditional_char": "攆"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘撵’为形声字，从手，辇声，本义为驱逐。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 2,
+      "note": "‘攆’为形声字，从手，辇声，为‘撵’的异体或繁体字，本义同样为驱逐。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“驱逐”扩展出“追赶”之义，语义发展，见于日常用法。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由“驱逐”扩展出“追赶”之义，为语义自然延伸。"
+    }
+  ]
+}

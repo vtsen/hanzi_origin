@@ -1,0 +1,134 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古代城的外层城墙，环绕主城的墙体。",
+      "examples": [
+        "爷娘闻女来，出郭相扶将。",
+        "三里之城，七里之郭，环而攻之而不胜。"
+      ],
+      "traditional_char": "郭"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "泛指城市或城邑。",
+      "examples": [
+        "青山横北郭，白水绕东城。",
+        "东家有贤女，窈窕艳城郭。"
+      ],
+      "traditional_char": "郭"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "物体的外框、外围、外壳。",
+      "examples": [
+        "又钱无轮郭文章，不便人用。",
+        "轮郭（轮廓。物体的外周、边框）"
+      ],
+      "traditional_char": "郭"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "扩张，扩大。",
+      "examples": [
+        "鼓者，郭也。春分之音也。",
+        "胀者，皆在于脏腑之外，排脏腑而郭胸胁，胀皮肤，故命曰胀。"
+      ],
+      "traditional_char": "郭"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "皮肤，外皮。",
+      "examples": [
+        "津液充郭。",
+        "郭，皮也。"
+      ],
+      "traditional_char": "郭"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "外棺，古时棺材外面套的大棺。",
+      "examples": [
+        "病甚，临卒，将无棺郭。",
+        "郭中絪度。"
+      ],
+      "traditional_char": "郭"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "春秋时国名，在今山东省北部，亦通“虢”。",
+      "examples": [
+        "郭公者何？失地之君也。",
+        "夏阳者何？郭之邑也。"
+      ],
+      "traditional_char": "郭"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [
+        "郭子仪平定安史之乱有功，被封为汾阳王，世称郭汾阳。"
+      ],
+      "traditional_char": "郭"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从邑（表地名、城邑），“郭”声，表示城的外墙。本为城墙外加筑一圈。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由特指城外之墙泛指为整个城市或城邑，古代文献中演变而成。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由城墙外层喻指物体的外围或外壳，用以描述其他事物的外边界。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "由物体外壳引申为生物体的外皮，见古医学文献。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 5,
+      "evolution_type": "metaphor",
+      "note": "物体的外壳比拟为棺材的外棺（椁），古人丧葬制中常见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由城墙外扩引申为扩张、扩展之意。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "metonymy",
+      "note": "以外城之名称呼古国，‘郭’为地名、国名、邑名。"
+    },
+    {
+      "source_index": 6,
+      "target_index": 7,
+      "evolution_type": "function_word",
+      "note": "由地名、国名、古国之称转用为姓氏，汉代姓名学通例。"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "用拇指和其他手指夹住。",
+      "examples": [
+        "用两指把东西捏住不放。"
+      ],
+      "traditional_char": "捏"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "用手指把软的东西做成一定的形状。",
+      "examples": [
+        "捏饺子",
+        "捏面人儿"
+      ],
+      "traditional_char": "捏"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "假造，虚构。",
+      "examples": [
+        "捏造事实",
+        "捏陷"
+      ],
+      "traditional_char": "捏"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "形声字，从手（表示与手的动作有关），曰声。本义为用手指将软的东西捏成形。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "由“用手指将软物做成形”引申为单纯用手指夹住。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "从“用手捏造形状”比喻发展为“虚构、伪造”。"
+    }
+  ]
+}

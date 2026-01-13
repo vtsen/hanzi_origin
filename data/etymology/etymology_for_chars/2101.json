@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "请人吃饭喝酒，款待宾客",
+      "examples": [
+        "宴宾客于楼上",
+        "主人设宴招待"
+      ],
+      "traditional_char": "宴"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "宴会，集体聚餐（常指较为隆重的聚会）",
+      "examples": [
+        "国宴隆重举行",
+        "生日宴会"
+      ],
+      "traditional_char": "宴"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "酒席，酒饭",
+      "examples": [
+        "赴宴",
+        "盛宴"
+      ],
+      "traditional_char": "宴"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "安乐，安逸",
+      "examples": [
+        "宴居以自得",
+        "宴乐无忧"
+      ],
+      "traditional_char": "宴"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从宀表房屋，与‘妟’声并表意，‘妟’有安乐之意，初指邀人饮宴。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由动作义扩展为指聚餐的事件或场合，先秦后常见。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由聚会场合转指聚会用的酒席事物，汉代即有用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "由饮宴带来的安乐引申，后用于泛指安逸、乐趣的状态。"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "竹制盛物器具，形似竹箧。",
+      "examples": [
+        "《说文解字》：匪，篚也。",
+        "《尔雅》：匪，竹器。"
+      ],
+      "traditional_char": "匪"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "强盗，抢劫财物的坏人。",
+      "examples": [
+        "匪徒",
+        "匪首",
+        "土匪"
+      ],
+      "traditional_char": "匪"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adverb",
+      "meaning": "不，不是。（多用于书面和古文）",
+      "examples": [
+        "获益匪浅",
+        "匪夷所思"
+      ],
+      "traditional_char": "匪"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从匚表器具之形，非为声符。初表示竹器‘篚’之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_shift",
+      "note": "由竹器‘篚’的名称，音近通用，后假借为指‘强盗’；多见于魏晋以后。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "古汉语中‘匪’作为副词‘非’，表示“不”。为语气或用法扩展。"
+    }
+  ]
+}

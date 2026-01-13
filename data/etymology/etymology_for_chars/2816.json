@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "把麻分开并搓成线，或把线缕连接起来。",
+      "examples": [
+        "缉麻",
+        "緝麻"
+      ],
+      "traditional_char": "緝"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "搜捕，捉拿犯罪或违法的人。",
+      "examples": [
+        "缉私",
+        "侦缉",
+        "通缉"
+      ],
+      "traditional_char": "緝"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "收集，汇集。",
+      "examples": [
+        "缉事（辑事，采集材料之意）"
+      ],
+      "traditional_char": "緝"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "一种缝纫方法，一针对一针地缝合。",
+      "examples": [
+        "缉鞋口",
+        "缉边儿"
+      ],
+      "traditional_char": "緝"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从糸，表示与线丝有关，音为‘咠’（jī），本义与搓线、缠缉相关。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由线缠绕比喻缉拿人犯，汉代已见用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "线索的收集引申为资讯材料的收集。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "延伸为特指的缝纫缉缝方法。"
+    }
+  ]
+}

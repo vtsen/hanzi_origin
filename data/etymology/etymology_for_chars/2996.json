@@ -1,0 +1,79 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "心思，心理活动或思想",
+      "examples": [
+        "意念",
+        "意志",
+        "意见",
+        "注意",
+        "同意"
+      ],
+      "traditional_char": "意"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "心愿，愿望",
+      "examples": [
+        "意愿",
+        "意向",
+        "愿意",
+        "好意"
+      ],
+      "traditional_char": "意"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "（人、事、物）流露出来的情态，氛围",
+      "examples": [
+        "春意",
+        "诗意",
+        "惬意",
+        "意境"
+      ],
+      "traditional_char": "意"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "料想，猜想",
+      "examples": [
+        "意料",
+        "意想",
+        "意外"
+      ],
+      "traditional_char": "意"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意字，从心从音，表示人的内在思想、心理活动。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘心思’引申为‘心愿、愿望’，早见中古文献。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "心理活动映射到外部情景，用以描述事物氛围。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "心理活动引申为‘猜测、推断’的动作。"
+    }
+  ]
+}

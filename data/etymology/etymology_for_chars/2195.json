@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "校对，核对，检查正确与否",
+      "examples": [
+        "校勘古籍",
+        "勘正错字"
+      ],
+      "traditional_char": "勘"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "实地调查，勘测",
+      "examples": [
+        "地质勘查",
+        "勘探矿藏"
+      ],
+      "traditional_char": "勘"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "审问犯人",
+      "examples": [
+        "勘问囚犯",
+        "推勘案情"
+      ],
+      "traditional_char": "勘"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从力，甚声；‘力’表意，表示与用力校核有关，‘甚’表音；本义为校对、核查。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由核查文献、校对，扩展到实地核查、勘测事物，反映古代用语范围扩大。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由核查、校对义进一步引申为对人、案情的调查、审问。"
+    }
+  ]
+}

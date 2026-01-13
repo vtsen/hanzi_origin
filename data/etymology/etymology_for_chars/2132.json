@@ -1,0 +1,59 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "猛烈，严重，厉害。",
+      "examples": [
+        "剧痛",
+        "剧变",
+        "加剧",
+        "剧烈"
+      ],
+      "traditional_char": "劇"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "文艺表演的一种形式，即戏剧、歌剧等，以及相关的剧本、剧院等。",
+      "examples": [
+        "话剧",
+        "歌剧",
+        "剧本",
+        "剧院",
+        "剧种",
+        "剧坛",
+        "京剧"
+      ],
+      "traditional_char": "劇"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "other",
+      "meaning": "姓氏。",
+      "examples": [],
+      "traditional_char": "劇"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘劇’为形声字，从刀，豦声。本义指“猛烈、严重”，与刀相关，暗含激烈之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由“猛烈、严重”引申为表演情感或矛盾激烈的戏剧，古已有之。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "unknown",
+      "note": "“剧”作姓的起源较难考证，可能源自地名或官职，属于音译用字或其他来源，不明。"
+    }
+  ]
+}

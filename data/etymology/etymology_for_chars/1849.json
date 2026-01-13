@@ -1,0 +1,61 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "形状，外形。",
+      "examples": [
+        "样子",
+        "图样",
+        "模样",
+        "这东西的样子很特别。"
+      ],
+      "traditional_char": "樣"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "种类，类别。",
+      "examples": [
+        "各种各样",
+        "花样",
+        "样式",
+        "他的做法有很多样。"
+      ],
+      "traditional_char": "樣"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "作为标准、模型的事物。",
+      "examples": [
+        "样板",
+        "样品",
+        "榜样",
+        "请给我一个样本。"
+      ],
+      "traditional_char": "樣"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘樣’为形声字，从木，羕声，最早指树实之形状，有原始‘栩实’（即橡实）之义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由物体‘形状’引申泛指‘种类’，表现不同外形即为不同类别。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由外形引申为标准或模型，外形成为参照的‘样本’。"
+    }
+  ]
+}

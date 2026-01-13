@@ -1,0 +1,85 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "开弓",
+      "examples": [
+        "弓不再控"
+      ],
+      "traditional_char": "控"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "告状，指出罪恶",
+      "examples": [
+        "控告",
+        "控诉"
+      ],
+      "traditional_char": "控"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "节制，驾驭",
+      "examples": [
+        "控制",
+        "遥控"
+      ],
+      "traditional_char": "控"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "投",
+      "examples": [
+        "控于地"
+      ],
+      "traditional_char": "控"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "人的头部朝下或使让残液流出容器的口朝下",
+      "examples": [
+        "控净",
+        "控一控"
+      ],
+      "traditional_char": "控"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从手，空声，表示开弓之义"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "弓箭离弦而出引申为‘投’（如投掷之义），见古汉语用法"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由‘开弓远射’比喻远远控告他人，语义转变见宋元法律文书"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由‘张弓控制箭矢’引申为‘控制、节制’，为近现代扩展"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_shift",
+      "note": "动作控制液体流出，与开弓动作类似，现代用法"
+    }
+  ]
+}

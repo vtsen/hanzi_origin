@@ -1,0 +1,99 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "微弱的光亮",
+      "examples": [
+        "荧然",
+        "荧烛",
+        "明星荧荧"
+      ],
+      "traditional_char": "熒"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "微光闪烁的样子；容光焕发、艳丽的样子",
+      "examples": [
+        "美人荧荧兮，颜若苕之荣"
+      ],
+      "traditional_char": "熒"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "眼光迷乱，迷惑",
+      "examples": [
+        "荧惑人心"
+      ],
+      "traditional_char": "熒"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "中国古代天文学上指火星",
+      "examples": [
+        "荧惑守心"
+      ],
+      "traditional_char": "熒"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "物理学上称某些物质受光或其他射线照射时所发出的可见光",
+      "examples": [
+        "荧光屏"
+      ],
+      "traditional_char": "熒"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "古同“萤”，昆虫名，即萤火虫",
+      "examples": [
+        "荧光闪闪"
+      ],
+      "traditional_char": "熒"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“熒”形声字，从“火”表义，“荧”/“营”声，本义为微弱的光。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "微光的本义引申为闪烁和美丽的样态。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "本义向物理学中微光现象引申。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "微光迷离，用作迷乱、迷惑的比喻。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "以“迷惑”之形指称火星，源自星体的不定和闪烁。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "semantic_shift",
+      "note": "与“萤”通用，本义转指会发微光的昆虫。"
+    }
+  ]
+}

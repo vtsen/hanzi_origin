@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "才智出众的人",
+      "examples": [
+        "俊杰",
+        "俊彦",
+        "俊造"
+      ],
+      "traditional_char": "俊"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "容貌美丽，英俊",
+      "examples": [
+        "俊美",
+        "俊俏",
+        "俊逸"
+      ],
+      "traditional_char": "俊"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "大，高（古同“峻”）",
+      "examples": [
+        "俊岭（高大的山岭）"
+      ],
+      "traditional_char": "俊"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从人，雋声，本义为才智超群的人。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由才智出众引申为容貌美丽，因才智与美貌均有超群之意。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "受“峻”影响，用作‘大，高’之意，多见于古书。"
+    }
+  ]
+}

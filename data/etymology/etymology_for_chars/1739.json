@@ -1,0 +1,59 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "美好可爱，姿态妩媚。",
+      "examples": [
+        "娇儿",
+        "娇女",
+        "娇娆",
+        "娇艳"
+      ],
+      "traditional_char": "嬌"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "因爱怜过甚而过分宠爱。",
+      "examples": [
+        "娇养",
+        "娇惯"
+      ],
+      "traditional_char": "嬌"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "柔弱，娇嫩。",
+      "examples": [
+        "娇弱",
+        "娇小",
+        "娇气",
+        "娇嫩"
+      ],
+      "traditional_char": "嬌"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从女，乔声，表示美好可爱之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由美好可爱的状态引申为被过度宠爱的行为。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由美好可爱的形态拓展为柔弱娇嫩的特质。"
+    }
+  ]
+}

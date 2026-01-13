@@ -1,0 +1,121 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "客舍、旅馆、居所",
+      "examples": [
+        "宿舍",
+        "旅舍",
+        "校舍",
+        "舍于山麓",
+        "寄人篱下于旅舍"
+      ],
+      "traditional_char": "舍"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "放弃，不要了",
+      "examples": [
+        "舍己为人",
+        "舍近求远",
+        "四舍五入"
+      ],
+      "traditional_char": "捨"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "施舍，给予（财物、食物等）",
+      "examples": [
+        "舍粥",
+        "舍药"
+      ],
+      "traditional_char": "捨"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "居住，休息",
+      "examples": [
+        "舍于山麓"
+      ],
+      "traditional_char": "舍"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "古代行军距离单位，一宿或三十里为一舍",
+      "examples": [
+        "退避三舍",
+        "行五舍而宿"
+      ],
+      "traditional_char": "舍"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "谦词，对亲属中年幼或辈分低者的自称或称呼",
+      "examples": [
+        "舍弟",
+        "舍侄",
+        "舍亲"
+      ],
+      "traditional_char": "舍"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "舍姓"
+      ],
+      "traditional_char": "舍"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "pictograph",
+      "original_sense_index": 0,
+      "note": "象形，描绘房屋形状，上为屋顶，下为基座，中作幌子，表示居所或客舍。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "‘捨’为形声字，从手，舍声，表示用手放弃之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由具体的‘居所’引申为‘居住于…’的动作。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由住宿场所引申为行军一宿的距离单位。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "metonymy",
+      "note": "以‘家舍’代指家庭成员，引申为谦词。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "reanalysis",
+      "note": "以地名/职业为姓。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由‘放弃’引申为‘施予’。"
+    }
+  ]
+}

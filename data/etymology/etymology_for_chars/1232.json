@@ -1,0 +1,192 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "大（本义，后无实际沿用）",
+      "examples": [],
+      "traditional_char": "單"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "不复杂，简单",
+      "examples": [
+        "事情很单纯。",
+        "操作简单。"
+      ],
+      "traditional_char": "單"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "独一，单独",
+      "examples": [
+        "单独行动。",
+        "单一结构。"
+      ],
+      "traditional_char": "單"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adverb",
+      "meaning": "只，仅仅",
+      "examples": [
+        "做事单靠努力不行。"
+      ],
+      "traditional_char": "單"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "奇数的",
+      "examples": [
+        "今天是单号。",
+        "单日进入。"
+      ],
+      "traditional_char": "單"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "adjective",
+      "meaning": "薄，弱",
+      "examples": [
+        "单薄的棉衣。",
+        "身子单薄。"
+      ],
+      "traditional_char": "單"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "衣服或被褥只有一层的，用以区分棉衣等",
+      "examples": [
+        "单裤。",
+        "单衣。"
+      ],
+      "traditional_char": "單"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "noun",
+      "meaning": "覆盖用的布，如床单、被单",
+      "examples": [
+        "床单。",
+        "被单。"
+      ],
+      "traditional_char": "單"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "noun",
+      "meaning": "记载事物用的纸片，单据",
+      "examples": [
+        "发单。",
+        "传单。"
+      ],
+      "traditional_char": "單"
+    },
+    {
+      "index": 9,
+      "part_of_speech": "noun",
+      "meaning": "和尚称禅堂的坐床",
+      "examples": [
+        "和尚睡单。"
+      ],
+      "traditional_char": "單"
+    },
+    {
+      "index": 10,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "单先生。"
+      ],
+      "traditional_char": "單"
+    },
+    {
+      "index": 11,
+      "part_of_speech": "noun",
+      "meaning": "中国古代匈奴君主的称号，单于",
+      "examples": [
+        "冒顿单于。"
+      ],
+      "traditional_char": "單"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "pictograph",
+      "original_sense_index": 0,
+      "note": "‘單’为象形字，甲骨文像大鸟或物体庞大之形，原指大或大鸟。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_shift",
+      "note": "本义‘大’转为‘单一、个体’，过程不详，可能经历‘数目单一’抽象。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由‘简单’引申为‘单独’、‘独一’。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "grammaticalization",
+      "note": "‘单独’虚化作副词‘只’。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 4,
+      "evolution_type": "semantic_shift",
+      "note": "‘单一’用于数，引申为‘奇数’。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "由‘简单’引申为‘单薄’、‘弱’。"
+    },
+    {
+      "source_index": 5,
+      "target_index": 6,
+      "evolution_type": "semantic_extension",
+      "note": "‘单薄’用以形容‘只有一层的衣物’。"
+    },
+    {
+      "source_index": 6,
+      "target_index": 7,
+      "evolution_type": "metonymy",
+      "note": "由衣物之‘单’泛指‘覆盖物’。"
+    },
+    {
+      "source_index": 7,
+      "target_index": 8,
+      "evolution_type": "metonymy",
+      "note": "盖物之‘单’，引申为记录纸张。"
+    },
+    {
+      "source_index": 6,
+      "target_index": 9,
+      "evolution_type": "metonymy",
+      "note": "‘单衣’之‘单’，专指和尚禅床。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 10,
+      "evolution_type": "conversion",
+      "note": "由意义转化为姓氏。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 11,
+      "evolution_type": "unknown",
+      "note": "‘单于’为音译专用，意义关系不明。"
+    }
+  ]
+}

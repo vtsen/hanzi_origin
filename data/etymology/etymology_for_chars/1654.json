@@ -1,0 +1,102 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "聚合，聚在一起",
+      "examples": [
+        "总之",
+        "总数"
+      ],
+      "traditional_char": "總"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "概括全部，主要的",
+      "examples": [
+        "总纲",
+        "总则"
+      ],
+      "traditional_char": "總"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "为首的，最高的（职位）",
+      "examples": [
+        "总司令",
+        "总裁",
+        "总经理",
+        "总统"
+      ],
+      "traditional_char": "總"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "束系，束头发",
+      "examples": [
+        "总角"
+      ],
+      "traditional_char": "總"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adverb",
+      "meaning": "经常，一直",
+      "examples": [
+        "总是这样"
+      ],
+      "traditional_char": "總"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "adverb",
+      "meaning": "一定，无论如何",
+      "examples": [
+        "万紫千红总是春"
+      ],
+      "traditional_char": "總"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 3,
+      "note": "形声字，从糸，悤声，本义为‘束系’。糸表示与细丝、聚束相关，悤提供声音。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 3,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "由‘束系’引申为‘聚合’（如细丝聚为一束），汉语语义发展常见现象。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘聚合’进一步引申为‘概括全部’。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由‘概括全部’或‘主要’引伸为‘为首的、最高的（职位）’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_shift",
+      "note": "‘聚合’抽象化用法，演变为‘经常，总是’。语义发展未见直接机械联系。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "‘经常’进一步引申为‘一定，无论如何’。"
+    }
+  ]
+}

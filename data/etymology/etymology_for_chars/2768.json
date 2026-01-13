@@ -1,0 +1,69 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "用水墨或颜料在纸上涂抹，使色彩浓淡适宜的中国画技法。",
+      "examples": [
+        "以水墨再三而淋之，谓之渲。（宋·郭熙《林泉高致·画诀》）",
+        "立呵渲丹青仕女图。（明·贾仲名《金安寿》）"
+      ],
+      "traditional_char": "渲"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "涌流，倾注。",
+      "examples": [
+        "俺只见淹淹的血水渲做江湖。（元·尚仲贤《柳毅传书》）",
+        "堆波浪渲城渠。（元·孟汉卿《魔合罗》）"
+      ],
+      "traditional_char": "渲"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "洗刷。",
+      "examples": [
+        "今日好天气，众兄弟每，喒去渲马去来。（明·无名氏《怒斩平关》）"
+      ],
+      "traditional_char": "渲"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "小水，细流。",
+      "examples": [
+        "小水也。（《玉篇》）"
+      ],
+      "traditional_char": "渲"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 3,
+      "note": "形声字，从水，宣声；原义为小水或细流，见《玉篇》。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 3,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘小水’义，引申为‘涌流，倾注’。语义范围扩大。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "将水流之义比喻为洗刷动作。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 0,
+      "evolution_type": "metaphor",
+      "note": "水流之意引申为用水墨画法，强调水的运用。"
+    }
+  ]
+}

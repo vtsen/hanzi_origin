@@ -1,0 +1,59 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "废弃，衰落，失去原有的位置或作用",
+      "examples": [
+        "兴替",
+        "国运兴替",
+        "盛衰替更"
+      ],
+      "traditional_char": "替"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "代替，代理，用一个人或事物取代另一个人或事物的位置或作用",
+      "examples": [
+        "你来替我上班",
+        "替罪羊",
+        "更替",
+        "轮流替换"
+      ],
+      "traditional_char": "替"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "为（别人做某件事），替别人承担、执行任务",
+      "examples": [
+        "替他送行",
+        "替父母分忧",
+        "替古人担忧"
+      ],
+      "traditional_char": "替"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从竝（表示两人并立，有废弃、衰退意），白声，最初含义为废弃。后本义逐渐消退，字形义发展。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“废弃，衰落”引申为“用新的人或事物取代原来的”，秦汉时期用法明显。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由“替代”进一步用作“为别人做事”，功能用法上转化，语义拓展，汉以后常见。"
+    }
+  ]
+}

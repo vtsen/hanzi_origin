@@ -1,0 +1,87 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "头痛发烧，身体不适",
+      "examples": [
+        "病者烦热。",
+        "头烦而晕。"
+      ],
+      "traditional_char": "煩"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "苦闷、急躁的心情",
+      "examples": [
+        "心烦意乱",
+        "烦躁不安"
+      ],
+      "traditional_char": "煩"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "又多又乱，繁杂",
+      "examples": [
+        "啰嗦烦琐",
+        "不厌其烦"
+      ],
+      "traditional_char": "煩"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "搅扰、麻烦他人",
+      "examples": [
+        "打扰麻烦",
+        "烦扰你一下"
+      ],
+      "traditional_char": "煩"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "敬辞，表示请托或请求",
+      "examples": [
+        "烦请协助",
+        "烦劳您跑一趟"
+      ],
+      "traditional_char": "煩"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "“煩”会意字，从页表示头部，从火表示发烧，表示头部发热的不适。本义即是头痛发热。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由身体发热、头痛的不适，引申为心理上苦闷、急躁。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由心情烦恼引申为事物繁杂，使人生烦。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由心烦意乱引申为他人被搅扰而感烦。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "amelioration",
+      "note": "由麻烦、打扰引申为敬辞，引申出“请托”的委婉语气。"
+    }
+  ]
+}

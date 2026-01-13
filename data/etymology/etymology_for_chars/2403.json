@@ -1,0 +1,139 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "未加工或未精细的米，糙米",
+      "examples": [
+        "去粗取精",
+        "粗米"
+      ],
+      "traditional_char": "粗"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "不精致，工料毛糙，质地不细",
+      "examples": [
+        "粗糙",
+        "粗纸",
+        "粗粮"
+      ],
+      "traditional_char": "粗"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "长条东西直径大、体积大",
+      "examples": [
+        "粗大",
+        "粗壮",
+        "粗线条"
+      ],
+      "traditional_char": "粗"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "颗粒大",
+      "examples": [
+        "粗沙子"
+      ],
+      "traditional_char": "粗"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "声音低而大",
+      "examples": [
+        "粗哑",
+        "粗声粗气"
+      ],
+      "traditional_char": "粗"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "adjective",
+      "meaning": "鲁莽，性格、作风不细致",
+      "examples": [
+        "粗鲁",
+        "粗暴",
+        "粗人",
+        "粗手粗脚"
+      ],
+      "traditional_char": "粗"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "adjective",
+      "meaning": "疏忽，不周密，草率",
+      "examples": [
+        "粗心",
+        "粗疏",
+        "粗率"
+      ],
+      "traditional_char": "粗"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "adverb",
+      "meaning": "略微，稍微",
+      "examples": [
+        "粗略",
+        "粗具规模"
+      ],
+      "traditional_char": "粗"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从米，且声。‘米’表义，指粮食；‘且’表音。初指未加工的糙米。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从‘糙米’引申为不精细、质地粗糙之义。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由质地不细致引申为物体体积大、直径大的意思。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "由质地不细致引申为属于大颗粒的特征。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "由事物粗糙引申喻为声音低而大。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "metaphor",
+      "note": "由质地粗糙引申喻作风性格不细致、鲁莽。"
+    },
+    {
+      "source_index": 5,
+      "target_index": 6,
+      "evolution_type": "semantic_extension",
+      "note": "由性格、作风的粗发展到做事疏忽、不周密的含义。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 7,
+      "evolution_type": "semantic_shift",
+      "note": "由不精致、粗糙发展为程度副词‘略微’。"
+    }
+  ]
+}

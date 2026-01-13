@@ -1,0 +1,69 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "农历每月的末一天，朔日的前一天",
+      "examples": [
+        "今日为晦，明日为朔。"
+      ],
+      "traditional_char": "晦"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "夜晚",
+      "examples": [
+        "风雨如晦，鸡鸣不已。"
+      ],
+      "traditional_char": "晦"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "昏暗不明",
+      "examples": [
+        "晦暝",
+        "晦暗",
+        "言辞晦涩"
+      ],
+      "traditional_char": "晦"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "不顺利，倒霉",
+      "examples": [
+        "晦气"
+      ],
+      "traditional_char": "晦"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从日表示与太阳、时间相关，每声表音，原指农历每月的最后一天。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由朔望月制中月末常为无月之夜，喻为夜晚。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由夜晚本义，引申为昏暗不明，用于抽象事物。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由昏暗引申为运势不佳，即不顺利或倒霉。"
+    }
+  ]
+}

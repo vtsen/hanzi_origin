@@ -1,0 +1,41 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "傍晚，太阳落山的时候",
+      "examples": [
+        "日暮",
+        "暮色",
+        "日暮途穷"
+      ],
+      "traditional_char": "暮"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "晚，将尽",
+      "examples": [
+        "暮春",
+        "暮年",
+        "暮节"
+      ],
+      "traditional_char": "暮"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从日，莫声。本义与日落时相关。‘暮’为‘莫’之后起分化字。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由指傍晚引申为一般意义上的晚期，如一年之暮、人生之暮等，语义延伸为时间临近结束。"
+    }
+  ]
+}

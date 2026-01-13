@@ -1,0 +1,52 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "过去，离去，远去。",
+      "examples": [
+        "光阴易逝",
+        "子在川上曰：逝者如斯夫"
+      ],
+      "traditional_char": "逝"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "死亡（多用于敬辞）。",
+      "examples": [
+        "长逝",
+        "逝世"
+      ],
+      "traditional_char": "逝"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "古同“誓”，发誓，表决心之词。",
+      "examples": [],
+      "traditional_char": "逝"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从辶，表示行动、行走之意，‘折’为声旁，表示读音。本义为‘过去，离去’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由‘离去、过去’用作‘死亡’的敬辞，比喻生命离去，出现于后代。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "unknown",
+      "note": "‘逝’与‘誓’古音相通，此用法属于古代通假，但演变机制具体不详。"
+    }
+  ]
+}

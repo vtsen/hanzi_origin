@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "相逢，会面，不期而会",
+      "examples": [
+        "途中相遇",
+        "邂逅相遇"
+      ],
+      "traditional_char": "遇"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "机会",
+      "examples": [
+        "机遇",
+        "际遇"
+      ],
+      "traditional_char": "遇"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "对待，款待",
+      "examples": [
+        "礼遇",
+        "厚遇",
+        "冷遇"
+      ],
+      "traditional_char": "遇"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "遇氏"
+      ],
+      "traditional_char": "遇"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从辵，禺声，意为相逢、不期而遇。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“相遇”的动作派生“机会”的抽象意义。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由“相遇”引申为“对待、款待”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "unknown",
+      "note": "用作姓氏，具体来源不详。"
+    }
+  ]
+}

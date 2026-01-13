@@ -1,0 +1,58 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "访问，探问",
+      "examples": [
+        "聘问列国",
+        "通聘有无",
+        "聘使往来"
+      ],
+      "traditional_char": "聘"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "请人担任职务",
+      "examples": [
+        "聘书",
+        "聘请专家",
+        "公司聘用他为顾问"
+      ],
+      "traditional_char": "聘"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "定婚或女子出嫁",
+      "examples": [
+        "聘礼",
+        "聘金",
+        "聘姑娘"
+      ],
+      "traditional_char": "聘"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从耳，甹声，表示探问需用耳朵。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由访问引申为请人来任职，先秦以降逐渐发展。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由访问引申至定婚、女子出嫁之意，因古代婚聘需媒人访问对方家，产生新义。"
+    }
+  ]
+}

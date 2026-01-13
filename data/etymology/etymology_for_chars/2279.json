@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "蛀虫，能咬坏树干、衣服、书籍和粮食等的小虫。",
+      "examples": [
+        "书架里有蛀虫。",
+        "蛀虫咬坏了木头。"
+      ],
+      "traditional_char": "蛀"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "比喻侵害国家、公众利益的坏人。",
+      "examples": [
+        "要防止社会上的蛀虫。",
+        "这些贪污分子就是国家的蛀虫。"
+      ],
+      "traditional_char": "蛀"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "（被）虫子咬坏。",
+      "examples": [
+        "书本被虫蛀了。",
+        "木材蛀蚀。"
+      ],
+      "traditional_char": "蛀"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从虫，主声，表示蛀虫。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "conversion",
+      "note": "从表示虫的名词转为表示虫子行为的动词。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由实指蛀虫比喻为危害社会、国家的人。"
+    }
+  ]
+}

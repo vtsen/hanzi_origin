@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "翻山越岭，穿行于草丛或崎岖地带",
+      "examples": [
+        "跋涉千里",
+        "徒步跋山涉水"
+      ],
+      "traditional_char": "跋"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "踩踏，践踏",
+      "examples": [
+        "跋前踬后",
+        "马蹄所跋"
+      ],
+      "traditional_char": "跋"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "文章或书籍正文后的附文，用以说明写作经过或考证资料",
+      "examples": [
+        "书后有跋",
+        "序跋并举"
+      ],
+      "traditional_char": "跋"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从足，犮声，本义指在草中或山岭间行走。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由走过崎岖地带，扩大为践踏之意，见中古例用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由艰难跋涉引申为文章后附记，用以比喻行文之后补述相关细节，唐宋已有此用。"
+    }
+  ]
+}

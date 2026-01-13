@@ -1,0 +1,105 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "丝的头部，丝线的头端",
+      "examples": [
+        "白鹤飞兮茧曳绪",
+        "理清绪端"
+      ],
+      "traditional_char": "緒"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "开端，起始部分",
+      "examples": [
+        "头绪",
+        "就绪",
+        "绪论",
+        "绪言"
+      ],
+      "traditional_char": "緒"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "前人未完成的事业，功业",
+      "examples": [
+        "绪功",
+        "绪业",
+        "继未竟之绪"
+      ],
+      "traditional_char": "緒"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "连绵不断的情思，情感",
+      "examples": [
+        "情绪",
+        "思绪",
+        "心绪",
+        "离情别绪"
+      ],
+      "traditional_char": "緒"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "残余，遗留部分",
+      "examples": [
+        "绪余",
+        "绪风"
+      ],
+      "traditional_char": "緒"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [],
+      "traditional_char": "緒"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从糸，表示与丝相关，‘者’作声符，表示读音。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由丝线的头端引申为事物的开端，古今文献皆可见。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由开端引申为前人未竟事业，表现为承续之意。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "丝线不断比喻思绪连绵，文学语境中发展。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由‘头端’引申为事物的残余部分，语用中自然演变。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "conversion",
+      "note": "名物用作姓氏，常见汉姓渊源。"
+    }
+  ]
+}

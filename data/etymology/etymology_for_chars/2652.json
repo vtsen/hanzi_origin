@@ -1,0 +1,40 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "用财物换回抵押品或人",
+      "examples": [
+        "赎当",
+        "赎身",
+        "赎金",
+        "赎买"
+      ],
+      "traditional_char": "贖"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "用行动抵销、弥补罪过",
+      "examples": [
+        "立功赎罪"
+      ],
+      "traditional_char": "贖"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，左“贝”表财物，右“孰”表音。贝与财物相关，整体表示用财物赎回之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由用财物赎回，引申为通过行动弥补或抵销罪过。"
+    }
+  ]
+}

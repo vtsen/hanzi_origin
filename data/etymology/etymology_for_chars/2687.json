@@ -1,0 +1,69 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "回话，回复",
+      "examples": [
+        "回答",
+        "答复",
+        "对答"
+      ],
+      "traditional_char": "答"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "报答，酬谢",
+      "examples": [
+        "报答",
+        "答谢"
+      ],
+      "traditional_char": "答"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "答应，允诺，表示同意",
+      "examples": [
+        "答应",
+        "答理"
+      ],
+      "traditional_char": "答"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "以竹补篱",
+      "examples": [],
+      "traditional_char": "答"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 3,
+      "note": "形声字，从竹，合声，本义为以竹补篱。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 3,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由物理上“补篱”引申为“补偿、报答”，汉代已见"
+    },
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "metaphor",
+      "note": "由“报答”引申为口头上的答复，有语义隐喻，先秦已见"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由“回答”引申为“答应”，现今多用于口语"
+    }
+  ]
+}

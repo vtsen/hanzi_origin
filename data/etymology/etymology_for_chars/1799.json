@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "长衣的样子",
+      "examples": [
+        "袁，长衣貌。从衣，叀省声。《说文》"
+      ],
+      "traditional_char": "袁"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "袁氏，嬀姓，舜后。",
+        "三袁、袁盎、袁门"
+      ],
+      "traditional_char": "袁"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "地名，古州名",
+      "examples": [
+        "汉宜春县，隋置袁州。",
+        "佐盟于袁婁"
+      ],
+      "traditional_char": "袁"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从衣，叀省声，形声字，表示长衣之貌。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_shift",
+      "note": "由‘长衣之貌’引申为氏族名、后称为姓。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "以氏族或姓氏为地名，唐、隋以后置‘袁州’等。"
+    }
+  ]
+}

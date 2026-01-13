@@ -1,0 +1,87 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "旁边、侧面",
+      "examples": [
+        "侧面",
+        "侧门",
+        "侧室",
+        "侧翼"
+      ],
+      "traditional_char": "側"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "斜着、倾斜",
+      "examples": [
+        "侧卧",
+        "侧射",
+        "侧枝",
+        "侧芽",
+        "辗转反侧"
+      ],
+      "traditional_char": "側"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "卑陋、地位低下",
+      "examples": [
+        "侧陋"
+      ],
+      "traditional_char": "側"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "other",
+      "meaning": "同“仄”，倾斜、偏斜之意",
+      "examples": [],
+      "traditional_char": "側"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "斜歪（“侧歪”，形容体态不正）",
+      "examples": [
+        "你看那人侧歪着走"
+      ],
+      "traditional_char": "側"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从人，则声，表示人在旁边。本义‘旁边’。‘側’为本字，后简化作‘侧’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由表示‘旁边’引申为‘斜着’，因在一侧常表现为倾斜。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "‘侧’作为边旁引申为偏僻、简单及地位低下之意，常见于‘侧陋’。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "‘侧’引申作‘仄’，即‘不平、不正’之意，义项重合。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "reanalysis",
+      "note": "‘侧歪’等用法为“倾斜”之再分析与口语化表达。"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "天干的第七位，用作顺序第七的代称。",
+      "examples": [
+        "庚子年",
+        "庚午日"
+      ],
+      "traditional_char": "庚"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "年龄，如“年庚”、“同庚”、“庚帖”、“生庚”、“庚齿”。",
+      "examples": [
+        "年庚相当",
+        "请问高庚"
+      ],
+      "traditional_char": "庚"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [
+        "庚先生"
+      ],
+      "traditional_char": "庚"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从广，表示屋舍，人多聚之以计日（与天干序数相关）；更为声。最早使用为天干之一。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "以天干配合年份，引申为出生年代和年龄的代指，见于传统纪年习俗。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "conversion",
+      "note": "天干作姓，常见于古代取姓习惯。"
+    }
+  ]
+}

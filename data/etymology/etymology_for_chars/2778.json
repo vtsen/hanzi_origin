@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "情绪激昂、愤激",
+      "examples": [
+        "愤慨",
+        "慷慨陈词"
+      ],
+      "traditional_char": "慨"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "叹息，叹气",
+      "examples": [
+        "感慨",
+        "慨叹人生"
+      ],
+      "traditional_char": "慨"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "豪爽，不吝啬",
+      "examples": [
+        "慨允",
+        "慨然应诺"
+      ],
+      "traditional_char": "慨"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从心，既声。‘慨’最初表示不得志而情绪激昂、愤激。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由情绪激昂引申为因情绪激动而发出的叹息，出现于后代文献。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由情绪激昂引申为豪爽、不吝啬，强调性格上的慷慨大方。"
+    }
+  ]
+}

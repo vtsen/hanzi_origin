@@ -1,0 +1,72 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古代以妇道教育未出嫁女子的女师",
+      "examples": [
+        "姆，女师也。——《说文》",
+        "姆教婉娩听从。——《礼记·内则》",
+        "姆纚笄宵衣在其右。——《仪礼·士昏礼》"
+      ],
+      "traditional_char": "姆"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "乳母，为人照看幼儿的妇女",
+      "examples": [
+        "姆抱幼子立侧。——韩愈《殿中少监马君墓志》",
+        "若今时乳母矣。——郑玄《礼记注》"
+      ],
+      "traditional_char": "姆"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "嫂，夫之兄之妻",
+      "examples": [
+        "今俗弟妻谓夫之嫂曰姆。",
+        "弟妻呼兄嫂为姆姆，即母母也。——《紫薇杂记》"
+      ],
+      "traditional_char": "姆"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "受雇照管儿童或料理家务的妇女；旧时保育员",
+      "examples": [
+        "保姆（受雇为人看孩子或干家务的妇女）",
+        "保姆阿姨每日按时接送学生。"
+      ],
+      "traditional_char": "姆"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从女，母声。本义为古代教育未嫁女子的女师，女为义旁，母为声旁。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "古代教育女子的妇人与乳母常由同类人担任，语义因角色相近而转用。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "从专指乳母引申为受雇照管儿童或做家务的妇女，出现于近现代。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "由古代女性长辈师者意义转移为尊称夫之嫂，为俗用引申。"
+    }
+  ]
+}

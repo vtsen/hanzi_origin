@@ -1,0 +1,68 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "拉，牵引。",
+      "examples": [
+        "拽住不放。",
+        "他用力拽门。"
+      ],
+      "traditional_char": "拽"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "用力扔。",
+      "examples": [
+        "把球拽过来。"
+      ],
+      "traditional_char": "拽"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "胳膊有病，转动不灵。",
+      "examples": [
+        "胳膊拽得不行。"
+      ],
+      "traditional_char": "拽"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "同“曳”，拖拉。",
+      "examples": [
+        "衣服拽在地上。"
+      ],
+      "traditional_char": "拽"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 3,
+      "note": "形声字，从手，曳声，最早本义为拖拉，与“曳”同源。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 3,
+      "target_index": 0,
+      "evolution_type": "semantic_narrowing",
+      "note": "由一般的拖拉（曳）引申为专门的拉、牵引，常见于近现代。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_shift",
+      "note": "拉、牵引动作转化为用力扔出的动作，主要在北方方言。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "拉不灵引申为肢体疾病导致动作不灵活，以比喻义出现。"
+    }
+  ]
+}

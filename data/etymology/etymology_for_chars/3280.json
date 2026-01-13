@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "衣襟宽大",
+      "examples": [
+        "褒衣博带"
+      ],
+      "traditional_char": "褒"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "赞扬，夸奖，与“贬”相对",
+      "examples": [
+        "褒奖",
+        "褒扬",
+        "褒贬",
+        "褒义词"
+      ],
+      "traditional_char": "褒"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "中国周代诸侯国名，在今陕西省勉县东南。亦称“有褒”。",
+      "examples": [
+        "褒国",
+        "有褒"
+      ],
+      "traditional_char": "褒"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从“衣”表示与衣物相关，“保”表声。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由宽大的衣襟引申为心胸宽广、容人，转而喻为赞扬、推崇。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "以衣襟宽大为特征引申为国名，或以服饰特征为地名由来。"
+    }
+  ]
+}

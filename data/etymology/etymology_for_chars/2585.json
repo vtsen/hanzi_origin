@@ -1,0 +1,137 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "酒喝得很畅快或尽兴的状态；未醉未醒之间的心情舒畅。",
+      "examples": [
+        "酒酣，上击筑自歌。",
+        "代君至酒酣。",
+        "半酣呼鹰出远郊。",
+        "酒酣气益振。"
+      ],
+      "traditional_char": "酣"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "事物正盛、美好、浓烈。",
+      "examples": [
+        "荷花落日红酣。",
+        "酣春。"
+      ],
+      "traditional_char": "酣"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "激烈（形容战斗或情势达到高潮）。",
+      "examples": [
+        "战酣日暮。",
+        "战酣，日暮。"
+      ],
+      "traditional_char": "酣"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "畅快、痛快、尽情（泛指态度或情感）。",
+      "examples": [
+        "酣歌于室。",
+        "酣笑。"
+      ],
+      "traditional_char": "酣"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "睡得很香、很沉。",
+      "examples": [
+        "红日半竿春睡酣。",
+        "梦方酣。"
+      ],
+      "traditional_char": "酣"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "adjective",
+      "meaning": "充足，饱满。",
+      "examples": [
+        "笔酣墨饱。",
+        "秋酣一觉清。"
+      ],
+      "traditional_char": "酣"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "adverb",
+      "meaning": "尽情地、痛快地。表示动作的程度或状态。",
+      "examples": [
+        "酣饮不知醉。",
+        "酣歌达曙。"
+      ],
+      "traditional_char": "酣"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "verb",
+      "meaning": "沉湎、沉溺（尤指于酒）。",
+      "examples": [
+        "在今后嗣王酣身，厥命罔显于民。",
+        "夫差以酣酒亡。"
+      ],
+      "traditional_char": "酣"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "会意兼形声字，从“酉”表示与酒有关，从“甘”表意兼表声，本义为‘酒喝得很畅快’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由酒喝得畅快引申为事物盛美、浓烈，唐宋起见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由酒兴正浓转喻为情势、战斗激烈，战国两汉已有。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由酒畅快推广为任何畅快、痛快状态。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "由酒后沉睡引申为睡眠深沉熟睡。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "由‘畅快’引申为‘充足、饱满’，明清典籍常用。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "grammaticalization",
+      "note": "形容词向副词用法的语法化，表示动作尽情地进行。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 7,
+      "evolution_type": "semantic_narrowing",
+      "note": "由‘畅快饮酒’转为‘沉湎于酒’，语义更偏重消极。"
+    }
+  ]
+}

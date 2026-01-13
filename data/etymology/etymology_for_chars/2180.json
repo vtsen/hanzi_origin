@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "挖掘，挖取。",
+      "examples": [
+        "掏一个洞。",
+        "他用手掏土。"
+      ],
+      "traditional_char": "掏"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "探手取物。",
+      "examples": [
+        "掏钱。",
+        "掏腰包。"
+      ],
+      "traditional_char": "掏"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从手，匋声。本义为用手挖取。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由一般的“挖取”引申为“用手探取（物品）”，涵盖动作的具体化。"
+    }
+  ]
+}

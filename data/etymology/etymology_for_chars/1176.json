@@ -1,0 +1,43 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "贪财，渴望占有财物，过度求取财物",
+      "examples": [
+        "贪财好贿",
+        "贪赃枉法"
+      ],
+      "traditional_char": "貪"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "求多，不知足，对各种事物都极力想得到",
+      "examples": [
+        "贪玩",
+        "贪杯",
+        "贪恋",
+        "贪心",
+        "贪欲",
+        "贪图名利"
+      ],
+      "traditional_char": "貪"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从‘贝’表财物，‘今’为声符，原意与财物相关。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由专指贪财扩展为对各种事物的贪求，时间主要在中古以后。"
+    }
+  ]
+}

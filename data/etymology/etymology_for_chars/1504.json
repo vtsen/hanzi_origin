@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "口腔后部由肌肉和黏膜构成的管道，是呼吸道和消化道的共同通路，分为鼻咽、口咽、喉咽等（亦称“咽头”）",
+      "examples": [
+        "鼻咽癌",
+        "咽喉炎"
+      ],
+      "traditional_char": "咽"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "使嘴里的食物或其他东西通过咽头到食道里去",
+      "examples": [
+        "咽唾沫",
+        "细嚼慢咽"
+      ],
+      "traditional_char": "咽"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "阻塞，声音因阻塞而低沉",
+      "examples": [
+        "哽咽",
+        "呜咽"
+      ],
+      "traditional_char": "咽"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从口，因声，最初指‘咽头’（口腔后部的部位）"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由本义‘咽头’引申为‘吞咽动作’，即通过咽头使食物流入食道"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由‘吞咽’的动作引申出因咽部阻塞而声音低沉的状态"
+    }
+  ]
+}

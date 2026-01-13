@@ -1,0 +1,73 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "美玉",
+      "examples": [
+        "球琳瑶瑾，皆美玉也。"
+      ],
+      "traditional_char": "球"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "圆形的立体物体",
+      "examples": [
+        "圆球",
+        "球体",
+        "空气球"
+      ],
+      "traditional_char": "球"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "球形的体育用品或球类运动",
+      "examples": [
+        "球员",
+        "球艺",
+        "球迷"
+      ],
+      "traditional_char": "球"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "星体，尤指“地球”",
+      "examples": [
+        "星球",
+        "月球",
+        "誉满全球"
+      ],
+      "traditional_char": "球"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从玉，求声，表示美玉。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_shift",
+      "note": "由美玉扩展为圆形的立体物，因为许多美玉为球状。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由圆形立体物转指球形的体育用品及相关运动。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "以“球”比喻天体因其形状为圆球状，特指地球等。"
+    }
+  ]
+}

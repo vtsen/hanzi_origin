@@ -1,0 +1,101 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "interjection",
+      "meaning": "表示赞叹或惊异的语气词。",
+      "examples": [
+        "啊，这花真美呀！",
+        "啊哈。",
+        "啊呀。"
+      ],
+      "traditional_char": "啊"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "interjection",
+      "meaning": "表示疑问或反问的语气词。",
+      "examples": [
+        "啊，你说什么？"
+      ],
+      "traditional_char": "啊"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "interjection",
+      "meaning": "表示疑惑的语气词。",
+      "examples": [
+        "啊，这是怎么回事？"
+      ],
+      "traditional_char": "啊"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "interjection",
+      "meaning": "表示应诺的语气词，音较短。",
+      "examples": [
+        "啊，好吧！"
+      ],
+      "traditional_char": "啊"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "interjection",
+      "meaning": "表示醒悟或赞叹的语气词，音较长。",
+      "examples": [
+        "啊，我这才明白过来！",
+        "啊，亲爱的祖国！"
+      ],
+      "traditional_char": "啊"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "particle",
+      "meaning": "句末助词，表示惊叹等语气，常因前面字音不同而变音（可写作“哇”、“哪”等）。",
+      "examples": [
+        "你好啊！",
+        "真新鲜啊！"
+      ],
+      "traditional_char": "啊"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“啊”为形声字，左“口”表义，右“阿”表音，最初用于表示感叹语气。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由感叹语气扩展为疑问或反问语气，近现代白话语体广泛形成。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "感叹语气泛化至表达疑惑，语义扩展。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "用于应诺时，语气更加口语化，形成“啊，好吧”等短促肯定。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "感叹义泛化，用于醒悟、加强赞叹场合。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "grammaticalization",
+      "note": "由感叹词进一步虚化为句末语气助词。"
+    }
+  ]
+}

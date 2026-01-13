@@ -1,0 +1,42 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "扁圆形的面制食品。",
+      "examples": [
+        "月饼",
+        "烧饼",
+        "烙饼",
+        "饼干"
+      ],
+      "traditional_char": "餅"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "像饼一样扁圆或板状的物品。",
+      "examples": [
+        "铁饼",
+        "豆饼",
+        "饼银"
+      ],
+      "traditional_char": "餅"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从食，并声；本义为扁圆形面食，见于《说文解字》。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由实物形状转喻为形似饼状的其他物体，汉以后常见。"
+    }
+  ]
+}

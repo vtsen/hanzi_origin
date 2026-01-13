@@ -1,0 +1,166 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "群鸟栖息在树上。",
+      "examples": [
+        "黄鸟于飞，集于灌木。",
+        "群鸟集于林间。"
+      ],
+      "traditional_char": "集"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "聚合，会合。",
+      "examples": [
+        "聚集。",
+        "集合。",
+        "集会。",
+        "集体。",
+        "集训。",
+        "集资。",
+        "集腋成裘。"
+      ],
+      "traditional_char": "集"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "会合许多著作编成的书。",
+      "examples": [
+        "文集。",
+        "诗集。",
+        "全集。"
+      ],
+      "traditional_char": "集"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "大型图书中可以相对独立的一部分，或一部小说、电影、电视剧中相对独立的段落。",
+      "examples": [
+        "上集。",
+        "第五集。"
+      ],
+      "traditional_char": "集"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "定期交易的市场。",
+      "examples": [
+        "集市。",
+        "赶集。"
+      ],
+      "traditional_char": "集"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "中国古代图书的四部分类法之一。",
+      "examples": [
+        "集部。",
+        "经史子集。"
+      ],
+      "traditional_char": "集"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "成就，成功。",
+      "examples": [
+        "大业未集。"
+      ],
+      "traditional_char": "集"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "noun",
+      "meaning": "数学上指若干具有共同属性的事物的总体。",
+      "examples": [
+        "子集。",
+        "交集。"
+      ],
+      "traditional_char": "集"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "verb",
+      "meaning": "古同“辑”，和睦。",
+      "examples": [],
+      "traditional_char": "集"
+    },
+    {
+      "index": 9,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [],
+      "traditional_char": "集"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘集’为形声字，从隹（鸟），从木，表示鸟聚集在树上，声旁‘木’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由鸟集的具象，引申为人或物的聚合，会合，东周已见用。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由会合引申为文集等聚合之物。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "文集等再细分为节、卷，后泛指一部作品中的单独部分。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由聚合引申为物贸市场上人群的集合——集市。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "由著作聚合之书，进一步引申为中国古代四部分类法之一‘集部’。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 6,
+      "evolution_type": "semantic_extension",
+      "note": "由会合、聚成之意，引申为‘成就、成功’。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 7,
+      "evolution_type": "semantic_extension",
+      "note": "现代数学对‘集合’的专用借用。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 8,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "‘集’假借为‘辑’，表示和睦。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 9,
+      "evolution_type": "conversion",
+      "note": "地名、族名引申为姓氏。"
+    }
+  ]
+}

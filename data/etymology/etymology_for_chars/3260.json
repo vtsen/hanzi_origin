@@ -1,0 +1,97 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "停留，停滞",
+      "examples": [
+        "稽留",
+        "稽滞"
+      ],
+      "traditional_char": "稽"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "考核，查考",
+      "examples": [
+        "稽核",
+        "稽查",
+        "稽考",
+        "无稽之谈"
+      ],
+      "traditional_char": "稽"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "计较，争辩",
+      "examples": [
+        "反唇相稽"
+      ],
+      "traditional_char": "稽"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "至，到达",
+      "examples": [],
+      "traditional_char": "稽"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [],
+      "traditional_char": "稽"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "稽首：古代一种大礼，跪下拱手至地，头也至地",
+      "examples": [
+        "稽首再拜"
+      ],
+      "traditional_char": "稽"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从禾为意符，旨为声符，本义为停留、阻滞。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由“停留”引申为“至、到达”，二者意义相关，历史上有用例。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“停留”引申为“考核查考”——有滞留、仔细查实义。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由“考核查考”进一步引申为“计较、争辩”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "function_word",
+      "note": "姓氏起源多为地名或本义，无准确语义关联，但本字用作姓。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "semantic_shift",
+      "note": "‘稽首’中的‘稽’表示至头于地，可能与停留或到达相关，但具体衍生关系较复杂。"
+    }
+  ]
+}

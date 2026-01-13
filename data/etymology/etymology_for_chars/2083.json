@@ -1,0 +1,40 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "眼泪",
+      "examples": [
+        "痛哭流涕",
+        "涕泣",
+        "感激涕零"
+      ],
+      "traditional_char": "涕"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "鼻子里分泌的液体，鼻涕",
+      "examples": [
+        "鼻涕",
+        "涕泪"
+      ],
+      "traditional_char": "涕"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，弟声。本义为眼泪。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "表示由“眼泪”推广至一切自体流出的液体，特指鼻涕，汉代始见。"
+    }
+  ]
+}

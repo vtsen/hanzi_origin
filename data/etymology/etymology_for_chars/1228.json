@@ -1,0 +1,104 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "嘈杂，喧扰，不安静",
+      "examples": [
+        "热闹",
+        "闹市"
+      ],
+      "traditional_char": "鬧"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "搅扰，打扰",
+      "examples": [
+        "闹心",
+        "闹腾"
+      ],
+      "traditional_char": "鬧"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "戏耍，耍笑",
+      "examples": [
+        "戏闹",
+        "闹洞房"
+      ],
+      "traditional_char": "鬧"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "发生（疾病或灾害）",
+      "examples": [
+        "闹病",
+        "闹事",
+        "闹水灾"
+      ],
+      "traditional_char": "鬧"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "发泄，发作",
+      "examples": [
+        "闹气",
+        "闹情绪"
+      ],
+      "traditional_char": "鬧"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "adjective",
+      "meaning": "生机勃勃，旺盛，热火朝天",
+      "examples": [
+        "红杏枝头春意闹",
+        "闹元宵"
+      ],
+      "traditional_char": "鬧"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "‘鬧’为会意字，从‘市’表示市场、聚集，从‘門’表示喧闹之处，意为嘈杂、喧扰。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘嘈杂’引申为‘搅扰’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "amelioration",
+      "note": "由‘热闹’引申为‘生机勃勃、旺盛’，语意变好。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由‘搅扰’引申为‘戏耍’。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由‘搅扰’引申为‘引起事变’，如‘闹事’。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由‘搅扰’引申为‘发泄、发作’，如‘闹气’。"
+    }
+  ]
+}

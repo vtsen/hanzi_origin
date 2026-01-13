@@ -1,0 +1,130 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "煮得极软，因过熟而变得松软",
+      "examples": [
+        "煮烂",
+        "饭煮烂了"
+      ],
+      "traditional_char": "爛"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "程度极深，熟练",
+      "examples": [
+        "台词背得烂熟"
+      ],
+      "traditional_char": "爛"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "腐坏、腐烂",
+      "examples": [
+        "东西腐烂了"
+      ],
+      "traditional_char": "爛"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "因灼伤而损坏",
+      "examples": [
+        "焦头烂额"
+      ],
+      "traditional_char": "爛"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "崩溃，垮掉，败坏",
+      "examples": [
+        "敌人一天天烂下去"
+      ],
+      "traditional_char": "爛"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "adjective",
+      "meaning": "破碎",
+      "examples": [
+        "破烂",
+        "烂纸"
+      ],
+      "traditional_char": "爛"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "adjective",
+      "meaning": "头绪多且杂乱",
+      "examples": [
+        "烂摊子"
+      ],
+      "traditional_char": "爛"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "adjective",
+      "meaning": "明亮，有光彩",
+      "examples": [
+        "烂银枪",
+        "烂漫"
+      ],
+      "traditional_char": "爛"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从火，阑声，最初指物体因火煮致变软。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "事物煮得极熟，喻指学得非常熟练。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "煮烂引申为因腐坏导致松软。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "原指烹煮致烂，引申为火灼伤后损坏。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "由煮烂引申到组织崩坏。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "从本义松软，进一步指破碎。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "metaphor",
+      "note": "煮烂后的碎乱比喻事务头绪多且杂乱。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 7,
+      "evolution_type": "semantic_extension",
+      "note": "“烂”用于色彩鲜明明亮，多见于修饰银等。"
+    }
+  ]
+}

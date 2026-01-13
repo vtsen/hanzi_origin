@@ -1,0 +1,111 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "谷物种子壳上的芒",
+      "examples": [
+        "禾秒轻细"
+      ],
+      "traditional_char": "秒"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "细微，微小",
+      "examples": [
+        "秒忽"
+      ],
+      "traditional_char": "秒"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "时间的计算单位，一分钟的六十分之一",
+      "examples": [
+        "一秒钟",
+        "秒表"
+      ],
+      "traditional_char": "秒"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "弧和角的计算单位，一分的六十分之一",
+      "examples": [
+        "角的度、分、秒"
+      ],
+      "traditional_char": "秒"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "经纬度的计算单位，一分的六十分之一",
+      "examples": [
+        "东经125度23分30秒"
+      ],
+      "traditional_char": "秒"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "古代长度单位，一寸的万分之一",
+      "examples": [
+        "寸有尺，秒有毫"
+      ],
+      "traditional_char": "秒"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "古代容量单位，十撮为一秒",
+      "examples": [],
+      "traditional_char": "秒"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从禾，表示与谷物有关，少为声，最初指禾芒。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "禾芒细微，引申为事物极细微。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "将‘细微’之义用作时间单位，指极短的时间。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "用‘细微’之义，扩展为弧和角的极小测量单位。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由‘细微’引申为经纬度的小单位。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "细微之义用于长度极小的单位。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 6,
+      "evolution_type": "semantic_extension",
+      "note": "用于表示容量的极小单位。"
+    }
+  ]
+}

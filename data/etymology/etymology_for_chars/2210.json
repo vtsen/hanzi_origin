@@ -1,0 +1,86 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "香草名；草类植物名称。",
+      "examples": [
+        "《周礼·夏官·大馭》：“以菩芻棘柏為神主。”",
+        "《齊民要術》：“麻菩。”"
+      ],
+      "traditional_char": "菩"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "菩提——佛教用语，意为觉悟、正觉，也指觉悟的智慧或途径，或菩提树名。",
+      "examples": [
+        "菩，梵言菩提，汉言王道。——《广韵》",
+        "菩提树原产于印度。"
+      ],
+      "traditional_char": "菩"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "菩萨——佛教名词，梵文“菩提萨埵”的简称，原为释迦牟尼未成佛时的称号，后泛指修行到一定程度、地位仅次于佛的人，或对佛、某些神的通称，以及喻指善良慈悲的人。",
+      "examples": [
+        "菩萨低眉。",
+        "人人都称她为活菩萨。"
+      ],
+      "traditional_char": "菩"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "小蓆棚（与“蔀”通用）；泛指用草编成的棚屋、帷幕。",
+      "examples": [
+        "《易·豐》：豐其蔀，鄭玄注作“菩”，小席也。"
+      ],
+      "traditional_char": "菩"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "蔴開花散出粉末状花粉（通“勃”）。",
+      "examples": [
+        "《齊民要術·種穀》：麻菩。",
+        "麻菩，麻開花稱為‘麻勃’。"
+      ],
+      "traditional_char": "菩"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从艸，咅声，本义为草名。后用于音译佛典词，如‘菩提’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "用‘菩’音译佛教梵文‘Bodhi’，产生‘菩提’义，东汉佛经翻译时期。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "‘菩提’引申为菩萨（菩提萨埵）简称，见于佛教语境。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "草名引申为草制棚屋之意，古训用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "‘菩’假借为‘勃’，指麻花粉散出。用音近字代替。"
+    }
+  ]
+}

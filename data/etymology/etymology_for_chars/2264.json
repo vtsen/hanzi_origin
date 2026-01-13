@@ -1,0 +1,90 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "挂在空中，吊挂。",
+      "examples": [
+        "悬垂",
+        "悬吊",
+        "悬河",
+        "悬梁刺股",
+        "悬心"
+      ],
+      "traditional_char": "懸"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "没有着落，尚未结束或了结。",
+      "examples": [
+        "悬断",
+        "悬案",
+        "悬而未决"
+      ],
+      "traditional_char": "懸"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "距离远，隔离。",
+      "examples": [
+        "悬隔",
+        "悬殊"
+      ],
+      "traditional_char": "懸"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "危险。",
+      "examples": [
+        "悬崖",
+        "悬乎"
+      ],
+      "traditional_char": "懸"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "公开提示或张挂（如榜文）。",
+      "examples": [
+        "悬赏"
+      ],
+      "traditional_char": "懸"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从心，县声。本义为‘挂在空中’。后心表义，县表声。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "从‘悬挂’比喻事物未定，如案件、高悬未决。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由‘挂着不接触’引申为‘距离远’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由‘悬挂处高’引申为‘危险’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "由挂出引申为‘公布、提示’。"
+    }
+  ]
+}

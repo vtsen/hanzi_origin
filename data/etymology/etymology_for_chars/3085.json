@@ -1,0 +1,57 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "遇见，碰到（多指不幸或不利的事）",
+      "examples": [
+        "遭遇",
+        "遭难",
+        "遭殃",
+        "遭灾",
+        "遭受"
+      ],
+      "traditional_char": "遭"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "周，圈，指围一圈或循环一次",
+      "examples": [
+        "周遭",
+        "转了一遭"
+      ],
+      "traditional_char": "遭"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "numeral",
+      "meaning": "次，次数之意",
+      "examples": [
+        "一遭生，两遭熟"
+      ],
+      "traditional_char": "遭"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从辵，表示行走，曹为声旁。本义为遇见、碰到。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由“遇见、经过”义，引申为“周、圈”，即走了一圈的空间。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由“圈、周”引申为“次”，即循环、经历一回。"
+    }
+  ]
+}

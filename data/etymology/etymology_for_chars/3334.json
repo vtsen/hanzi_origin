@@ -1,0 +1,83 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "固体受热变软或化为流体",
+      "examples": [
+        "冰融化了。",
+        "铁在高温下融解。"
+      ],
+      "traditional_char": "融"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "调合，和谐",
+      "examples": [
+        "融洽共处。",
+        "文化融合。"
+      ],
+      "traditional_char": "融"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "流通（如金钱、资金等的流通）",
+      "examples": [
+        "资金融通。",
+        "金融市场。"
+      ],
+      "traditional_char": "融"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "长远、永久（如融裔，形容声调悠长）",
+      "examples": [
+        "乐声融裔不绝。"
+      ],
+      "traditional_char": "融"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "other",
+      "meaning": "炊气上升（本义）",
+      "examples": [],
+      "traditional_char": "融"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 4,
+      "note": "形声字，从鬲，虫省声。本义指炊气上升，鬲为炊具，后借指其他义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 4,
+      "target_index": 0,
+      "evolution_type": "metaphor",
+      "note": "由炊气上升比喻物体受热变软或化为流体，汉代已见此义。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由熔化融合转喻为各方调和、和谐，语义拓展。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由熔化流动比喻资金等流通，现代语义演变。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由融化延伸到长远不绝，如乐声绵长，古文多用。"
+    }
+  ]
+}

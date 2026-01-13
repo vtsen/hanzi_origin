@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "onomatopoeia",
+      "meaning": "形容笑声的象声词。",
+      "examples": [
+        "嘿嘿一笑",
+        "他嘿嘿地笑了起来。"
+      ],
+      "traditional_char": "嘿"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "interjection",
+      "meaning": "叹词，表示惊异、赞叹、招呼或提醒等情感。",
+      "examples": [
+        "嘿，真不错！",
+        "嘿，注意点儿！"
+      ],
+      "traditional_char": "嘿"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "other",
+      "meaning": "同“默”，指沉默，不作声。",
+      "examples": [
+        "嘿然不语。"
+      ],
+      "traditional_char": "嘿"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从口，黑声，本作象声词，指笑声。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "grammaticalization",
+      "note": "由象声词转为叹词，用于表达惊异、招呼、提醒等。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "同音假借为“默”，指沉默。"
+    }
+  ]
+}

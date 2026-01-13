@@ -1,0 +1,40 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "白玉上的斑点，喻指人的缺点或过失",
+      "examples": [
+        "小玷",
+        "玷缺",
+        "白圭之玷"
+      ],
+      "traditional_char": "玷"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "使有污点，玷污、玷辱",
+      "examples": [
+        "玷污",
+        "玷辱"
+      ],
+      "traditional_char": "玷"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从玉，佔声，原指白玉上的斑点。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由具体的玉上斑点引申为使事物有污点，用作动词。"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "庄稼收割后余留在地里的短茎和根",
+      "examples": [
+        "麦茬",
+        "留茬"
+      ],
+      "traditional_char": "茬"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "同一块田地上庄稼种植或收割的次数",
+      "examples": [
+        "头茬",
+        "二茬小麦"
+      ],
+      "traditional_char": "茬"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "短而硬的头发、胡子",
+      "examples": [
+        "胡茬子",
+        "头茬"
+      ],
+      "traditional_char": "茬"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "草茂盛的样子",
+      "examples": [],
+      "traditional_char": "茬"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 3,
+      "note": "形声字，从艸，在声，最初意义为草茂盛的样子。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 3,
+      "target_index": 0,
+      "evolution_type": "semantic_narrowing",
+      "note": "本义‘草茂盛’，狭化专指割后留在地里的草茬。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由‘地里的茬’引申为在同一地多次种植的次数。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "比喻短而硬的头发、胡子如同田地里的茬。"
+    }
+  ]
+}

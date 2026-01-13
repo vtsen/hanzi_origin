@@ -1,0 +1,87 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "末了，终结，与“始”相对",
+      "examples": [
+        "年终",
+        "终场",
+        "靡不有初，鲜克有终"
+      ],
+      "traditional_char": "終"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "全部过程，从开始到末了",
+      "examples": [
+        "终年",
+        "终生",
+        "终日"
+      ],
+      "traditional_char": "終"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "人死去",
+      "examples": [
+        "临终",
+        "送终"
+      ],
+      "traditional_char": "終"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adverb",
+      "meaning": "到底，最终",
+      "examples": [
+        "终归",
+        "终究",
+        "终将成功"
+      ],
+      "traditional_char": "終"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [],
+      "traditional_char": "終"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从糸（表示与丝相关），冬声，古文字形象一束丝的末端，表示缠丝至尾、末了之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“末了”引申为整个从头到尾的过程，见汉语用法扩展。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "以人生之“末了”喻为死亡，古汉语常用。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "grammaticalization",
+      "note": "“终”由名词转为副词，表最终、到底。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "unknown",
+      "note": "用作姓氏，常见字姓，无可考具体机制。"
+    }
+  ]
+}

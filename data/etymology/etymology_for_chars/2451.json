@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "盗匪，侵略者，敌人",
+      "examples": [
+        "盗寇横行",
+        "贼寇四出"
+      ],
+      "traditional_char": "寇"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "侵犯，入侵",
+      "examples": [
+        "寇边",
+        "敌军再来寇"
+      ],
+      "traditional_char": "寇"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "寇准",
+        "寇家村"
+      ],
+      "traditional_char": "寇"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 1,
+      "note": "会意字，从“宀”表示房屋，“元”为人形，“攴”为持械之意，表示闯入屋内的侵害行为。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "动词“侵犯”扩展为指侵略入侵者、盗匪之名。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "由侵略者、敌人的名词义转化为姓氏用法，专名化过程。"
+    }
+  ]
+}

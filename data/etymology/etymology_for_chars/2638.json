@@ -1,0 +1,73 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "软体动物，壳形卵圆，色淡褐，稍有轮纹，内白色，栖浅海沙中，肉可食。",
+      "examples": [
+        "蛤蜊常用于海鲜菜肴。"
+      ],
+      "traditional_char": "蛤"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "软体动物，略呈三角形，栖近海沙泥中，有黑白两种，幼时称“棋子蛤”。",
+      "examples": [
+        "文蛤是沿海常见贝类。"
+      ],
+      "traditional_char": "蛤"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "爬行动物，土黄色，像壁虎，头大，尾部灰色，有红色斑点。中医用作强壮剂。",
+      "examples": [
+        "蛤蚧用于中药。"
+      ],
+      "traditional_char": "蛤"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "青蛙和蟾蜍的统称（用于“蛤蟆”）。",
+      "examples": [
+        "池塘里有许多蛤蟆。"
+      ],
+      "traditional_char": "蛤"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "左“虫”表义，右“合”表音，最初指一种贝类。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由一种贝类名扩展到另一种相关贝类。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "名称借用，因蛤蚧表面有类鳞片似贝类壳。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 2,
+      "evolution_type": "unknown",
+      "note": "“蛤蚧”与“蛤蟆”发音相关，义项转化不明，疑存在借音或俗传混用。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "“蛤蟆”用“蛤”作音译，实际与蛙蟾无义理关联。"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "衔门环的底座，又称“铺首”",
+      "examples": [
+        "铜铺首",
+        "门上饰以兽面铺"
+      ],
+      "traditional_char": "鋪"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "把东西散开放置，平摆",
+      "examples": [
+        "把被子铺好",
+        "铺开纸张"
+      ],
+      "traditional_char": "鋪"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "商店",
+      "examples": [
+        "饭铺",
+        "布铺"
+      ],
+      "traditional_char": "鋪"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "床、卧具",
+      "examples": [
+        "搭铺",
+        "床铺"
+      ],
+      "traditional_char": "鋪"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "旧时的驿站",
+      "examples": [
+        "三十里铺",
+        "邮铺"
+      ],
+      "traditional_char": "鋪"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从金，甫声，‘铺’最初指门环底座，带金属义与音义结合。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_shift",
+      "note": "金属底座的‘安放’义转为‘平铺、铺设’的动作义。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由‘平摆、铺设’引申至‘供货铺东西的商店’。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由‘铺开’引申至‘床、卧具’。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "由‘商店’进一步被用指‘驿站’等服务场所，明清沿用。"
+    }
+  ]
+}

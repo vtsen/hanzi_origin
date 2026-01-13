@@ -1,0 +1,101 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "搀杂在一起，混合、混杂。",
+      "examples": [
+        "混杂",
+        "混和",
+        "混同",
+        "混为一谈"
+      ],
+      "traditional_char": "混"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "乱，胡乱，混乱的状态。",
+      "examples": [
+        "混乱",
+        "混世魔王"
+      ],
+      "traditional_char": "混"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "蒙混，冒充。",
+      "examples": [
+        "蒙混",
+        "混充",
+        "混进",
+        "鱼目混珠"
+      ],
+      "traditional_char": "混"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "苟且度过（生活等）。",
+      "examples": [
+        "胡混",
+        "混事"
+      ],
+      "traditional_char": "混"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "水势盛大。",
+      "examples": [],
+      "traditional_char": "混"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "other",
+      "meaning": "同“浑”。",
+      "examples": [],
+      "traditional_char": "混"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 4,
+      "note": "形声字，从水，昆声，本义为水势盛大。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 4,
+      "target_index": 0,
+      "evolution_type": "metaphor",
+      "note": "由“水势盛大”引申为“混合、搀杂”，因水流混杂不清。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由搀杂状态引申为混乱不分。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由“混杂”进一步引申为虚实难辨、混淆是非，构成蒙混、冒充之意。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "从“混乱”引申为行为不端、苟且度日。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "作为“浑”的通用，读音变化，义项借用。"
+    }
+  ]
+}

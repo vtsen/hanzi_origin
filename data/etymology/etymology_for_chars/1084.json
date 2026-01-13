@@ -1,0 +1,80 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "善，正当",
+      "examples": [
+        "昌言",
+        "昌言无忌"
+      ],
+      "traditional_char": "昌"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "兴盛",
+      "examples": [
+        "昌盛",
+        "昌乐",
+        "昌明",
+        "昌隆"
+      ],
+      "traditional_char": "昌"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "菖蒲",
+      "examples": [],
+      "traditional_char": "昌"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "凶猛",
+      "examples": [],
+      "traditional_char": "昌"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [],
+      "traditional_char": "昌"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "从‘日’从‘曰’会意，表善、正当之义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由正当美善引申为兴盛（美好发展），古今常见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "古作‘菖’，用昌作为菖蒲的借用字，语音近。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "古作‘猖’，音近借用表凶猛，与本义无直接意义联系。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "function_word",
+      "note": "由‘昌盛’表意衍生出姓氏用法，常见姓氏起源。"
+    }
+  ]
+}

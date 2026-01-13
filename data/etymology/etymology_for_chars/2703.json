@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "警戒，鉴戒；因过错而受到提醒，戒备。",
+      "examples": [
+        "惩前毖后",
+        "以往之事，惩而不忘"
+      ],
+      "traditional_char": "懲"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "处罚，惩罚；对错误或犯罪予以处分以作警戒。",
+      "examples": [
+        "严惩不贷",
+        "惩治腐败分子"
+      ],
+      "traditional_char": "懲"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "感到苦于……，吃亏于……。",
+      "examples": [
+        "惩山北之塞，出入之迂也。",
+        "惩于旧事"
+      ],
+      "traditional_char": "懲"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘懲’为形声字，从心，征声，表示与心意、警惕相关，最初指警戒、鉴戒。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由警戒、鉴戒引申为以处罚方式进行警戒，汉以降普遍此义。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "原为警戒义，后发展为因遭受某事而感到苦于其事，多见于古文。"
+    }
+  ]
+}

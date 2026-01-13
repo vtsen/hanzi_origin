@@ -1,0 +1,40 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "标明家族的字，姓氏。",
+      "examples": [
+        "贵姓？",
+        "他姓王。",
+        "姓氏的起源有多种说法。"
+      ],
+      "traditional_char": "姓"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "平民，老百姓。",
+      "examples": [
+        "万姓同心。",
+        "老百姓。"
+      ],
+      "traditional_char": "姓"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从女，从生，生亦声；‘女’表女性与家族血缘相关，‘生’为声符。最初指家族系统的标志字。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "以‘姓’代表有姓氏的普通平民阶层，用于‘老百姓’、‘万姓’等。"
+    }
+  ]
+}

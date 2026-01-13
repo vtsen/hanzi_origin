@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "胳膊的上部靠肩的部分",
+      "examples": [
+        "肩膀",
+        "膀臂",
+        "膀阔腰圆"
+      ],
+      "traditional_char": "膀"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "鸟类和昆虫的飞行器官",
+      "examples": [
+        "翅膀",
+        "膀儿"
+      ],
+      "traditional_char": "膀"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "膀胱，暂存尿液的囊状体",
+      "examples": [
+        "膀胱有疾",
+        "膀胱炎"
+      ],
+      "traditional_char": "膀"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从“肉”表意义，旁声。本义指肩膀。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由人类肩膀比喻鸟昆虫的翅膀，古已有之。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "unknown",
+      "note": "“膀胱”系合成词，‘膀’作音译或假借用于脏器名，机制不明。"
+    }
+  ]
+}

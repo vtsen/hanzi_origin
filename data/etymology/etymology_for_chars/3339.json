@@ -1,0 +1,83 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "车轮压过留下的痕迹",
+      "examples": [
+        "覆辙",
+        "车辙",
+        "南辕北辙"
+      ],
+      "traditional_char": "轍"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "车辆行进的路线或轨迹",
+      "examples": [
+        "上下辙"
+      ],
+      "traditional_char": "轍"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "诗词、歌曲、杂曲押用的韵脚",
+      "examples": [
+        "合辙押韵",
+        "辙口"
+      ],
+      "traditional_char": "轍"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "办法；主意",
+      "examples": [
+        "没辙了"
+      ],
+      "traditional_char": "轍"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "途径；门路",
+      "examples": [],
+      "traditional_char": "轍"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从车，徹为声旁，表示车轮碾过的痕迹。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由具体的车轮痕迹引申为车辆运行的路线。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "车行之路线比喻为诗歌的韵律规则。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "路线引申比喻为门路、途径。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "门路进一步转借表示办法、主意。"
+    }
+  ]
+}

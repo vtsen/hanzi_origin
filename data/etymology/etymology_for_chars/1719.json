@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "用力翻土",
+      "examples": [
+        "耕垦田地",
+        "力垦荒土"
+      ],
+      "traditional_char": "墾"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "开辟荒地",
+      "examples": [
+        "农垦疆土",
+        "开发和垦殖"
+      ],
+      "traditional_char": "墾"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘墾’为形声字，从土，‘貇’声。本义为用力翻土。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由单纯翻土引申为广义开辟荒地，历代文献均有用例。"
+    }
+  ]
+}

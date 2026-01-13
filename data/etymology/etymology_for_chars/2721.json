@@ -1,0 +1,57 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "哺乳动物，种类很多，行动灵活，好群居。",
+      "examples": [
+        "猴子",
+        "猿猴",
+        "猴戏",
+        "猴头",
+        "猴拳",
+        "猴枣"
+      ],
+      "traditional_char": "猴"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "喻机灵的人。",
+      "examples": [
+        "猴儿精"
+      ],
+      "traditional_char": "猴"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "方言，形容孩子乖巧，机敏。",
+      "examples": [
+        "这孩子真猴。"
+      ],
+      "traditional_char": "猴"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "左形右声，犭表动物，侯为声符；本义为动物‘猴’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "因猴灵巧、机敏之特性，比喻人机灵。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "conversion",
+      "note": "由名词“机灵的人”转为形容词，形容孩子机灵、乖巧。"
+    }
+  ]
+}

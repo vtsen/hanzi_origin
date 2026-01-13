@@ -1,0 +1,70 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "睡觉，闭上眼睛进入睡眠状态。",
+      "examples": [
+        "安眠",
+        "失眠",
+        "长眠于地下"
+      ],
+      "traditional_char": "眠"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "（动物）一段时期内像睡觉那样不食不动。",
+      "examples": [
+        "冬眠",
+        "初眠"
+      ],
+      "traditional_char": "眠"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "倒卧；躺下。",
+      "examples": [
+        "一日三眠三起"
+      ],
+      "traditional_char": "眠"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "横放，平放。",
+      "examples": [
+        "眠琴绿阴"
+      ],
+      "traditional_char": "眠"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从目，民声，表示闭上眼睛，表现与睡觉相关。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由人的睡觉引申至动物的周期性休眠现象。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由入睡引申为倒卧、躺下之意，用作动作描述。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "从倒卧进一步延伸为物体的横放、平放。"
+    }
+  ]
+}

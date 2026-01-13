@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "下肢，在脚的上面，在膝上胯下的称“大腿”，在膝下脚上的称“小腿”。",
+      "examples": [
+        "他的腿受伤了。",
+        "大腿和小腿"
+      ],
+      "traditional_char": "腿"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "器物上像腿的部分",
+      "examples": [
+        "桌子腿儿坏了。"
+      ],
+      "traditional_char": "腿"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "特指经盐腌、洗晒、晾挂等工序加工成的猪后腿（如火腿、云腿）",
+      "examples": [
+        "云南火腿",
+        "宣威火腿"
+      ],
+      "traditional_char": "腿"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，“月”表意（指肉体有关），“退”为声旁，本义指人的下肢。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "因器物的支撑部分形似人的腿，故引申为器物的腿。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_narrowing",
+      "note": "专指用于火腿、云腿等加工猪后腿的用法。"
+    }
+  ]
+}

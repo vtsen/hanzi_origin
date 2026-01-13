@@ -1,0 +1,85 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "蜒蚰，渭北方言中指蛞蝓或鼻涕虫，软体动物，行动缓慢，身体滑腻。",
+      "examples": [
+        "蜒蚰爬行在菜园里。",
+        "蛞蝓又名蜒蚰。"
+      ],
+      "traditional_char": "蜒"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "蚰蜒，节肢动物，形似蜈蚣而略小，两侧多足，俗称“草鞋虫”。",
+      "examples": [
+        "蚰蜒在墙角爬行。"
+      ],
+      "traditional_char": "蜒"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "蜿蜒，曲折爬行的样子，多指蛇、龙等动物，比喻事物的弯曲延展。",
+      "examples": [
+        "大江蜿蜒而过。",
+        "南有炎火千里，蝮蛇蜒只。——《楚辞》"
+      ],
+      "traditional_char": "蜒"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "蟃蜒，一种兽名，似狸而长。",
+      "examples": [
+        "獌狿或作蜒。",
+        "蟃蜒，獸名。"
+      ],
+      "traditional_char": "蜒"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "同“蜑”，古渔民的称呼。",
+      "examples": [
+        "蜑户",
+        "蜒民"
+      ],
+      "traditional_char": "蜑"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘蜒’为形声字，从虫，延声，本作虫名，指蜒蚰（后泛指虫类曲折爬行）。"
+    },
+    {
+      "formation_type": "loan_character",
+      "original_sense_index": 4,
+      "note": "‘蜒’假借作‘蜑’，指古代渔民，用法见部分古书。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由虫类蠕动曲折，引申为一般曲折爬行、延展之貌，多见于先秦文献。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "虫名泛指，蜒蚰（软体动物）和蚰蜒（节肢动物）有混用现象，地方俗名导致意义扩展。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由虫名引申为某种形似动物（蟃蜒，兽名），中古辞书中有记载。"
+    }
+  ]
+}

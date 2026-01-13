@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "碎末，小碎片。",
+      "examples": [
+        "纸屑",
+        "铁屑",
+        "锯屑"
+      ],
+      "traditional_char": "屑"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "琐碎，细小。",
+      "examples": [
+        "琐琐屑屑",
+        "屑屑小事"
+      ],
+      "traditional_char": "屑"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "认为值得（做某事），重视。",
+      "examples": [
+        "不屑一顾",
+        "不足为屑"
+      ],
+      "traditional_char": "屑"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘屑’为形声字，从尸，肖声，本意为碎末。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由‘碎末’比喻引申为‘琐碎’。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由‘琐碎、不重要’引申为‘认为不值得’。"
+    }
+  ]
+}

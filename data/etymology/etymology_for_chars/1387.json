@@ -1,0 +1,147 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "用扁担等两头挂着东西，用肩担着。",
+      "examples": [
+        "挑水",
+        "挑夫"
+      ],
+      "traditional_char": "挑"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "用扁担担的东西；挑担。",
+      "examples": [
+        "一挑担",
+        "满挑儿菜"
+      ],
+      "traditional_char": "挑"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "measure_word",
+      "meaning": "量词，用于成挑儿的东西。",
+      "examples": [
+        "一挑儿白菜"
+      ],
+      "traditional_char": "挑"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "挖取。",
+      "examples": [
+        "挑荠菜"
+      ],
+      "traditional_char": "挑"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "选，拣选。",
+      "examples": [
+        "挑选",
+        "挑剔"
+      ],
+      "traditional_char": "挑"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "用竿或棍的一头举起或支起。",
+      "examples": [
+        "挑起帘子"
+      ],
+      "traditional_char": "挑"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "用条状物或尖物拨开或弄出来。",
+      "examples": [
+        "挑打",
+        "挑开"
+      ],
+      "traditional_char": "挑"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "verb",
+      "meaning": "拨弄，引动。",
+      "examples": [
+        "挑拨",
+        "挑动"
+      ],
+      "traditional_char": "挑"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "adjective",
+      "meaning": "古同“佻”，轻佻、轻快。",
+      "examples": [
+        "举止轻挑"
+      ],
+      "traditional_char": "挑"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 3,
+      "note": "左形（扌）表义，右声（兆）；本义为挖取，属形声字。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 3,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "由挖取产生用棍棒挑起、支起之意。"
+    },
+    {
+      "source_index": 5,
+      "target_index": 6,
+      "evolution_type": "semantic_extension",
+      "note": "由挑起引申为用尖物拨开。"
+    },
+    {
+      "source_index": 6,
+      "target_index": 7,
+      "evolution_type": "metaphor",
+      "note": "拨开引申为拨动、引动（如挑拨）。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "由挖取引申为肩挑、挑担用途。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "conversion",
+      "note": "动作之物化，引申为挑担的名词。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "grammaticalization",
+      "note": "动作量化，用作量词。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "由挖取引申为挑选、拣选。"
+    },
+    {
+      "source_index": 8,
+      "target_index": 0,
+      "evolution_type": "unknown",
+      "note": "“轻佻”源自“佻”，与挑担义或属古通假。不确定直接联系。"
+    }
+  ]
+}

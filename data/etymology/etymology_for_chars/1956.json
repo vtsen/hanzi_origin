@@ -1,0 +1,110 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "措置，放置",
+      "examples": [
+        "适其所值。——《墨子·号令》"
+      ],
+      "traditional_char": "值"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "价值，价钱",
+      "examples": [
+        "币值",
+        "产值",
+        "升值",
+        "贬值"
+      ],
+      "traditional_char": "值"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "物和价相当，引申有意义或有价值",
+      "examples": [
+        "值百元",
+        "不值一文",
+        "值得"
+      ],
+      "traditional_char": "值"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "（数学）演算所得结果",
+      "examples": [
+        "数值",
+        "比值",
+        "函数值"
+      ],
+      "traditional_char": "值"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "遇到，逢着",
+      "examples": [
+        "相值",
+        "值遇",
+        "正值"
+      ],
+      "traditional_char": "值"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "当，轮到",
+      "examples": [
+        "当值",
+        "值班",
+        "值勤",
+        "值更",
+        "值星"
+      ],
+      "traditional_char": "值"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从人，直声，表示‘措置、放置’之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "‘措置、放置’引申为‘安排、定价’，出现‘价值’义，战国晚期至两汉已见。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由名词‘价值’引出动词‘具备价值’。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由‘价值’转用于数学中的‘（计算）值’，为近现代语义。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_shift",
+      "note": "‘到达、放置’意引申为‘遇到、适逢’。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 5,
+      "evolution_type": "metaphor",
+      "note": "由‘遇到’转为‘轮值、职守’，常用于职位、职务的轮流。"
+    }
+  ]
+}

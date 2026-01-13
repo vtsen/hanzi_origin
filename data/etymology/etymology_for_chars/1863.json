@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "打，捣。",
+      "examples": [
+        "砸碎",
+        "砸地基",
+        "砸明火"
+      ],
+      "traditional_char": "砸"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "打坏，打破。",
+      "examples": [
+        "碗砸了"
+      ],
+      "traditional_char": "砸"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "失败。",
+      "examples": [
+        "戏演砸了",
+        "砸锅了"
+      ],
+      "traditional_char": "砸"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从石，扎声。本义为打、捣。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“打、捣”引申为把东西打坏、打破。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由打破、毁坏引申为事情失败，多为口语用法。"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "液体很快地流。",
+      "examples": [
+        "水倾泻而下。",
+        "江水奔泻。"
+      ],
+      "traditional_char": "瀉"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "排出稀屎。",
+      "examples": [
+        "他今天泻肚了。",
+        "医生开了些止泻药。"
+      ],
+      "traditional_char": "瀉"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "瀉为形声字，水为意符，写（音近，为声符），本义为液体快速流动。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "“泻肚”为由液体急流引申为排泄稀屎的动作，语义比喻转化，见于古今用法。"
+    }
+  ]
+}

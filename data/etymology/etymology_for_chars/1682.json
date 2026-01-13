@@ -1,0 +1,41 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "液体中含有的某种成分量多，与“淡”相对。",
+      "examples": [
+        "浓茶",
+        "浓雾",
+        "浓墨重彩",
+        "眉毛很浓"
+      ],
+      "traditional_char": "濃"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "深厚，不淡薄，多用于情感等抽象事物。",
+      "examples": [
+        "情深意浓",
+        "友情浓厚"
+      ],
+      "traditional_char": "濃"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，农声，表示液体成分多（本义）。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由液体成分多引申为情感浓厚，常见于先秦以降文学用法。"
+    }
+  ]
+}

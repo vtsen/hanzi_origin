@@ -1,0 +1,89 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "眼珠黑白分明（美目流转）",
+      "examples": [
+        "巧笑倩兮，美目盼兮。",
+        "盼，美目也。——《字林》"
+      ],
+      "traditional_char": "盼"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "看，顾视，流转目光",
+      "examples": [
+        "祇宜近盼天都，明日登莲顶。",
+        "盼，视也。——《广雅》",
+        "俯仰流英盼。"
+      ],
+      "traditional_char": "盼"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "看重，照顾，眷顾",
+      "examples": [
+        "同被齿盼。——《宋书·谢晦传》",
+        "亦蒙恩盼。——《魏书·昭成子孙元晖传》"
+      ],
+      "traditional_char": "盼"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "希望，盼望，期望",
+      "examples": [
+        "大家只盼得一个守兵的名额。",
+        "血泪洒杜鹃红。——《西厢记》",
+        "没有耕耘，哪来收获？却盼共产花开？"
+      ],
+      "traditional_char": "盼"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "探望",
+      "examples": [
+        "将以盼亲。",
+        "孤身途路谁相盼？"
+      ],
+      "traditional_char": "盼"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从目，分声，表示‘美目、目黑白分明’之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由描写美目转为动作‘看’、‘流转目光’。见诗经及后世文献。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由‘看’引申至‘看重’、‘照顾’，多见于官场用语。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由动作‘看’引申为情感上‘希望、期待’，即眼中所盼成‘心中所望’。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由‘看’引申为到远处‘探望’，见于文言小说。"
+    }
+  ]
+}

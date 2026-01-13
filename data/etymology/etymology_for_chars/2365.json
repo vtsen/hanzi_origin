@@ -1,0 +1,45 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "哺乳动物，肉可食，鬃可制刷，皮可制革，粪是很好的肥料。",
+      "examples": [
+        "猪肉",
+        "野猪",
+        "猪圈"
+      ],
+      "traditional_char": "豬"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "积水的地方（“潴”的古同字）。",
+      "examples": [
+        "池为猪也。——《说文》",
+        "猪水"
+      ],
+      "traditional_char": "潴"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“豬”为形声字，从豕，者声，最初指动物‘猪’。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "“潴”为形声字，从水，者声，本义为积水。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "“猪”与“潴”古音近，汉字发展中出现混用，后“猪”专指动物，分化于“潴”。"
+    }
+  ]
+}

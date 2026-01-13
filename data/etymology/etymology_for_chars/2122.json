@@ -1,0 +1,38 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "pronoun",
+      "meaning": "疑问代词，指“什么人”或“哪一个人”。",
+      "examples": [
+        "你是谁？",
+        "其谁曰不然？（《左传·隐公元年》）"
+      ],
+      "traditional_char": "誰"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "pronoun",
+      "meaning": "泛指任何人，无论什么人。",
+      "examples": [
+        "这件事谁都不知道。"
+      ],
+      "traditional_char": "誰"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从言，隹声；“誰”本作金文象鸟鸣，后假借为疑问代词“什么人”。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由特指“什么人”的疑问代词语义扩展为泛指“任何人”的不定代词用法；见于后起史料与现代汉语。"
+    }
+  ]
+}

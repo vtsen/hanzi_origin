@@ -1,0 +1,114 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "气味的总称",
+      "examples": [
+        "无声无臭",
+        "气味俱无"
+      ],
+      "traditional_char": "臭"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "难闻的气味，与“香”相对",
+      "examples": [
+        "臭味儿",
+        "恶臭"
+      ],
+      "traditional_char": "臭"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "香气",
+      "examples": [
+        "右备容臭，烨然若神人"
+      ],
+      "traditional_char": "臭"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "惹人厌恶的",
+      "examples": [
+        "臭名远扬",
+        "臭架子",
+        "臭美"
+      ],
+      "traditional_char": "臭"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "狠狠地（骂等）",
+      "examples": [
+        "臭骂一通"
+      ],
+      "traditional_char": "臭"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "adjective",
+      "meaning": "（指子弹、炮弹等）失效，哑火",
+      "examples": [
+        "臭火"
+      ],
+      "traditional_char": "臭"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "闻气味",
+      "examples": [],
+      "traditional_char": "臭"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 6,
+      "note": "会意字，从犬从自（鼻），表示用鼻子闻气味。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 6,
+      "target_index": 0,
+      "evolution_type": "semantic_shift",
+      "note": "从表示动作'闻气味'到泛指'气味'，为名词化。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_narrowing",
+      "note": "由气味总称狭义为'臭气、难闻气味'。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由'气味'泛指香气，为古义。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由具体气味引申为抽象厌恶之意。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "grammaticalization",
+      "note": "用作副词，表示'狠狠地'。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "metaphor",
+      "note": "由'气味坏'引申为'哑火、失效'。"
+    }
+  ]
+}

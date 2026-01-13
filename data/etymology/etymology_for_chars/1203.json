@@ -1,0 +1,38 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "喂养，为动物或人提供食物",
+      "examples": [
+        "饲鸟",
+        "饲育"
+      ],
+      "traditional_char": "飼"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "喂家畜、家禽的食物",
+      "examples": [
+        "打草储饲"
+      ],
+      "traditional_char": "飼"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从食，司声；表示喂养，‘食’为意符，‘司’为声符。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "“饲”由动词‘喂养’转指‘喂养的食物’，语义转借。"
+    }
+  ]
+}

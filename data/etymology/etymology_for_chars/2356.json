@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "颈部，头与躯干相连的部分。",
+      "examples": [
+        "脖子",
+        "脖颈",
+        "脖梗儿"
+      ],
+      "traditional_char": "脖"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "类似于颈部形状、结构的部位（如脚脖子等）。",
+      "examples": [
+        "脚脖子"
+      ],
+      "traditional_char": "脖"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从肉，孛声，最初指颈部。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由“颈部”喻指其他形似部位，如“脚脖子”。"
+    }
+  ]
+}

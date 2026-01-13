@@ -1,0 +1,107 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "鞋的边缘部分",
+      "examples": [
+        "鞋帮",
+        "这双鞋的帮有些破了"
+      ],
+      "traditional_char": "幫"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "辅助，帮助",
+      "examples": [
+        "帮忙",
+        "帮他一把",
+        "帮衬"
+      ],
+      "traditional_char": "幫"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "集团，组织",
+      "examples": [
+        "黑帮",
+        "帮会",
+        "青帮",
+        "红帮"
+      ],
+      "traditional_char": "幫"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "群、伙，团体",
+      "examples": [
+        "帮派",
+        "一帮人",
+        "他们是一帮朋友"
+      ],
+      "traditional_char": "幫"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "物体两旁或周围的部分（如船帮、鞋帮儿）",
+      "examples": [
+        "船帮",
+        "鞋帮儿厚实"
+      ],
+      "traditional_char": "幫"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "measure_word",
+      "meaning": "量词，用于人：一帮人",
+      "examples": [
+        "一帮小孩",
+        "一帮工人"
+      ],
+      "traditional_char": "幫"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从“巾”（与布帛有关），“邦”声，本义为鞋的边缘部分。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由“鞋的边缘”扩展到“物体旁或周围的部分”，指其他物体的侧边。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "以“周围”的意思比喻成群体团伙。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "群体进一步专指帮会、集团。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 5,
+      "evolution_type": "grammaticalization",
+      "note": "由名词“团体”发展为量词用法。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "群体、团体引申为助力、帮助之意。"
+    }
+  ]
+}

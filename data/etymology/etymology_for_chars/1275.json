@@ -1,0 +1,126 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "宗庙，祖庙，家族或民族的祖先的祭祀场所",
+      "examples": [
+        "宗庙肃然",
+        "祖宗庙堂"
+      ],
+      "traditional_char": "宗"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "家族，宗族",
+      "examples": [
+        "宗族兴旺",
+        "宗室贵胄"
+      ],
+      "traditional_char": "宗"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "宗派，学派，流派",
+      "examples": [
+        "禅宗",
+        "宗派之争"
+      ],
+      "traditional_char": "宗"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "主要的宗旨，目的",
+      "examples": [
+        "宗旨明确",
+        "开宗明义"
+      ],
+      "traditional_char": "宗"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "尊奉，崇仰",
+      "examples": [
+        "宗仰先哲"
+      ],
+      "traditional_char": "宗"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "为众人所推崇和师法的人",
+      "examples": [
+        "泰山北斗，人之宗师"
+      ],
+      "traditional_char": "宗"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "measure_word",
+      "meaning": "量词，用于心事、工作等条理分明的事物",
+      "examples": [
+        "一宗心事",
+        "数宗大案"
+      ],
+      "traditional_char": "宗"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "宗庆后"
+      ],
+      "traditional_char": "宗"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意字，从宀（屋子）与示（祭祀）。本义为宗庙、祖庙。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "宗庙引申为整个家族，见先秦用法"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "宗族分化延伸比喻为学派、流派"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "semantic_shift",
+      "note": "从宗旨发展为尊奉引申义"
+    },
+    {
+      "source_index": 4,
+      "target_index": 5,
+      "evolution_type": "metonymy",
+      "note": "宗仰之人为宗师"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "宗族之主引申为主要目的或宗旨"
+    },
+    {
+      "source_index": 1,
+      "target_index": 6,
+      "evolution_type": "function_word",
+      "note": "‘宗’用作量词泛指条理或批次，源自整体与类别的概念"
+    }
+  ]
+}

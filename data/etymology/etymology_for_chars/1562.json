@@ -1,0 +1,108 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "用手抱着孩子，背负在背上（本义）",
+      "examples": [
+        "甲骨文、金文‘保’字，象人背子之形"
+      ],
+      "traditional_char": "保"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "看守、保护，防止受损或丧失",
+      "examples": [
+        "保卫祖国",
+        "保管财物",
+        "保养身体"
+      ],
+      "traditional_char": "保"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "维持原状，使不消失或减弱",
+      "examples": [
+        "保持安静",
+        "保洁",
+        "保质保量"
+      ],
+      "traditional_char": "保"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "担保、负责",
+      "examples": [
+        "保证安全",
+        "保险理赔",
+        "担保贷款"
+      ],
+      "traditional_char": "保"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "旧时户口编制单位，若干甲为一保",
+      "examples": [
+        "十甲为一保"
+      ],
+      "traditional_char": "保"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "旧时称佣工，如酒保、佣保",
+      "examples": [
+        "酒保为客人倒酒",
+        "佣保打扫房间"
+      ],
+      "traditional_char": "保"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "保国",
+        "保姓"
+      ],
+      "traditional_char": "保"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意字，从‘人’、‘子’，象人背子于背，甲骨文、金文俱见。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘背负子于背’引申为‘保护、看守’，西周金文已见此用。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由保护扩展为‘维持原状’的义，如‘保持’。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "grammaticalization",
+      "note": "由动作义引申为职责、担保的义，如‘保证’。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 5,
+      "evolution_type": "metonymy",
+      "note": "古代户口‘保’转指基层辖区内的劳作人员。"
+    }
+  ]
+}

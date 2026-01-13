@@ -1,0 +1,42 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "米粒、谷粒，泛指细小的固体颗粒。",
+      "examples": [
+        "米粒",
+        "盐粒",
+        "砂粒",
+        "颗粒",
+        "粒子"
+      ],
+      "traditional_char": "粒"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "measure_word",
+      "meaning": "量词，用于细小颗粒状的东西。",
+      "examples": [
+        "一粒米",
+        "一粒珍珠"
+      ],
+      "traditional_char": "粒"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从米，立声。本义为米粒或谷粒。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "grammaticalization",
+      "note": "由本义细小颗粒名词转化为量词用法，用于表示计量粒状事物。"
+    }
+  ]
+}

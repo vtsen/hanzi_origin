@@ -1,0 +1,94 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "踩，踏",
+      "examples": [
+        "践踏",
+        "践履"
+      ],
+      "traditional_char": "踐"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "履行，实行",
+      "examples": [
+        "践行",
+        "实践"
+      ],
+      "traditional_char": "踐"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "陈列整齐",
+      "examples": [],
+      "traditional_char": "踐"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "特指皇帝登临皇位",
+      "examples": [
+        "践祚",
+        "践极"
+      ],
+      "traditional_char": "踐"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "古同“剪”，灭除",
+      "examples": [],
+      "traditional_char": "踐"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "adjective",
+      "meaning": "古同“浅”，浅陋",
+      "examples": [],
+      "traditional_char": "踐"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从足，戋声，表示脚踩踏物体的动作。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由字面‘踩踏’引申为‘履行’、‘实行’职责和义务。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "unknown",
+      "note": "原意基础上出现的新义，具体演变机制存疑。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "由实体‘踩踏’动作引伸为登上至尊之位的仪式性行为。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "‘践’古同‘剪’，本作通假借用。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "‘践’古同‘浅’，因音近造成的通假。"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "驱使狗猛进，原指驱赶犬类往前冲。",
+      "examples": [
+        "奨，驱犬也。——《说文》"
+      ],
+      "traditional_char": "奬"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "劝勉，勉励，称赞，表扬。",
+      "examples": [
+        "奖惩分明。",
+        "对他应该加以奖誉。"
+      ],
+      "traditional_char": "奖"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "为了鼓励或表扬而给予的荣誉或财物等。",
+      "examples": [
+        "发奖。",
+        "获得一等奖。",
+        "奖品丰富。"
+      ],
+      "traditional_char": "奖"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘奬’形声字，从犬，将声，表示驱使狗猛进。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "‘奖’为简化字，由‘奬’简化而来，后用于表勉励和奖励之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "原意为驱使犬类猛进，后用以比喻勉励、推动人进步。中古以后义转。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "从勉励、表扬发展出给予荣誉或财物的意义，用以奖励。"
+    }
+  ]
+}

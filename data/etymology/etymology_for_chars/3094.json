@@ -1,0 +1,78 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "乐意，想要",
+      "examples": [
+        "我愿意帮助你。",
+        "自愿参加。",
+        "情愿吃苦。"
+      ],
+      "traditional_char": "願"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "希望",
+      "examples": [
+        "愿望成真。",
+        "但愿如此。",
+        "如愿以偿。"
+      ],
+      "traditional_char": "願"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "迷信的人对神佛许下的酬谢，泛指许给别人的好处",
+      "examples": [
+        "许愿。",
+        "还愿。",
+        "发下宏愿。"
+      ],
+      "traditional_char": "願"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "老实谨慎，恭谨",
+      "examples": [
+        "为人愿而有礼。"
+      ],
+      "traditional_char": "願"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“願”为形声字，从頁，原为“原”声，表示内心所想。最初意义为“乐意，想要”。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“愿”为“願”的简化字，沿袭原义和构形。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“乐意、想要”引申为“希望”，东汉已有此用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由“想要”引申为向神佛表达愿望，许愿，后泛指许诺之事。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "语义转变，用于形容人品性，为恭谨、老实，历史已久但较少用。"
+    }
+  ]
+}

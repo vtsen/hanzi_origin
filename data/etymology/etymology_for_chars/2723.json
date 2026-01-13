@@ -1,0 +1,106 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "燃烧",
+      "examples": [
+        "古同“燃”",
+        "火然于野"
+      ],
+      "traditional_char": "然"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "对，是",
+      "examples": [
+        "然否",
+        "不然",
+        "不以为然"
+      ],
+      "traditional_char": "然"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "以为对，答应，信守",
+      "examples": [
+        "然纳",
+        "然诺"
+      ],
+      "traditional_char": "然"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "pronoun",
+      "meaning": "这样，如此",
+      "examples": [
+        "当然",
+        "然后",
+        "然则"
+      ],
+      "traditional_char": "然"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "particle",
+      "meaning": "用于句末，表示语气（表决定或比拟）",
+      "examples": [
+        "寡人愿有言然",
+        "如见其肺肝然"
+      ],
+      "traditional_char": "然"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "other",
+      "meaning": "用于词尾，表示状态",
+      "examples": [
+        "显然",
+        "忽然",
+        "飘飘然"
+      ],
+      "traditional_char": "然"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声兼会意字，声旁‘月’（古‘肉’）+义旁‘火’，表示烤熟之义，初指‘燃烧’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由‘燃烧’引申为‘正确、成立’；古人以火明示是非。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由‘对，是’引申为‘答应，信守’。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由‘对，是’引申为‘如此，这样’。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "grammaticalization",
+      "note": "由‘如此’虚化为句末语气助词。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 5,
+      "evolution_type": "grammaticalization",
+      "note": "由代词虚化为状态词缀，常用于词尾。"
+    }
+  ]
+}

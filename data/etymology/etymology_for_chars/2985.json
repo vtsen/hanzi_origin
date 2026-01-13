@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "把熟食（如饭、馒头等）再次加热使其变热",
+      "examples": [
+        "把馒头馏一馏。",
+        "张好大嬸端着饅頭筐上廚房餾饅頭去了。"
+      ],
+      "traditional_char": "餾"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "通过加热使液体化成蒸气或实现成分的分离，如蒸馏等",
+      "examples": [
+        "蒸馏、干馏。",
+        "石油馏分。"
+      ],
+      "traditional_char": "餾"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从食，留声。本义为蒸饭、加热饭食。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由加热再蒸食物的动作转喻为化学中加热分离物质的行为，约近近代化学引入后才明晰。"
+    }
+  ]
+}

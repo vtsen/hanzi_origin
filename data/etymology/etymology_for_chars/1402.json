@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "草初生时纤细柔软的样子",
+      "examples": [
+        "绿茸茸的草地"
+      ],
+      "traditional_char": "茸"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "细柔的毛、发",
+      "examples": [
+        "半脱紫茸裘",
+        "茸毛"
+      ],
+      "traditional_char": "茸"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "鹿茸，刚长出的带细毛的鹿角，可作药用",
+      "examples": [
+        "参茸",
+        "茸客"
+      ],
+      "traditional_char": "茸"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从艸，戎声，本指草初生柔细的样子。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由草的纤细柔软形状，比喻为细软的毛发，用于各种柔软物。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_narrowing",
+      "note": "再专指鹿角上的幼毛，进而代指新生鹿角本体。"
+    }
+  ]
+}

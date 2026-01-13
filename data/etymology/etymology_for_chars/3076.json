@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "牡蒿，一种植物名。",
+      "examples": [
+        "蔚，牡蒿也。《说文》"
+      ],
+      "traditional_char": "蔚"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "茂盛，荟聚，盛大。",
+      "examples": [
+        "蔚然成风。",
+        "蔚为大观。",
+        "蔚蓝。"
+      ],
+      "traditional_char": "蔚"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "文采华丽。",
+      "examples": [
+        "云蒸霞蔚。"
+      ],
+      "traditional_char": "蔚"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从艸表意，尉表音，表示牡蒿一类植物。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由指特定植物（牡蒿）引申为植被茂盛等含义，用于形容植物状态，早在文献中见用。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由“茂盛繁盛”之物转喻为文章华美、文采繁盛，多见于文人诗赋。"
+    }
+  ]
+}

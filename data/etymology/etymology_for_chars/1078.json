@@ -1,0 +1,88 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "舌头尝东西所得到的感觉，滋味。",
+      "examples": [
+        "味觉",
+        "滋味"
+      ],
+      "traditional_char": "味"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "鼻子闻东西所得到的感觉，气味。",
+      "examples": [
+        "气味",
+        "香味儿"
+      ],
+      "traditional_char": "味"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "情趣，趣味，兴趣。",
+      "examples": [
+        "趣味",
+        "兴味",
+        "意味",
+        "津津有味"
+      ],
+      "traditional_char": "味"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "体会，研究，品味。",
+      "examples": [
+        "体味",
+        "耐人寻味"
+      ],
+      "traditional_char": "味"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "measure_word",
+      "meaning": "中草药的一种，用作量词。",
+      "examples": [
+        "五味药"
+      ],
+      "traditional_char": "味"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从口，未声，表示舌尝之味。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由“舌尝之味”引申为嗅觉所得的气味，语义邻近。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "以味为喻，引申为抽象的情趣、趣味，文献自先秦、两汉均见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "grammaticalization",
+      "note": "名词“味”转为动词，引申为体会、品味。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "function_word",
+      "note": "本义引申作药物的分类用量词，见于中医术语。"
+    }
+  ]
+}

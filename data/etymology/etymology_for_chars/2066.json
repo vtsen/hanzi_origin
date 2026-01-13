@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "江名，即今钱塘江及其上游的新安江，古称浙江、渐江、之江、曲江。",
+      "examples": [
+        "江水东至会稽山阴为浙江。",
+        "至钱塘，临浙江。"
+      ],
+      "traditional_char": "浙"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "古州名，浙州，其地约当今贵州习水县一带。",
+      "examples": [
+        "《新唐书•地理志七下》：诸蛮州九十二：浙州。"
+      ],
+      "traditional_char": "浙"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "中国浙江省的简称，位于中国东部。",
+      "examples": [
+        "粵、閩、滇、浙所有的洋船貨物都是我們家的。",
+        "我也不想回浙，但未定到那裡去。"
+      ],
+      "traditional_char": "浙"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，折声。表示与水有关，指江名。‘折’为声旁，兼有形旁指示水流曲折之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "以江名指代其流域或相关地区，后称为州名，属地名由水名转化。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "以江名转指与之相关的地方行政单位，作为省简称，属于地名扩展现象。"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "烟尘，烟气凝结的黑灰，为制墨的原料",
+      "examples": [
+        "松煤",
+        "煤炱"
+      ],
+      "traditional_char": "煤"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "由古代植物埋在地底下变质而成的黑色或黑褐色矿物",
+      "examples": [
+        "煤矿",
+        "煤田",
+        "煤层",
+        "煤气"
+      ],
+      "traditional_char": "煤"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从火，表示与火有关，'某'为声符。初为烟尘之义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "因古代矿产煤与烟尘色、质相近，由烟尘义扩展至矿物煤。"
+    }
+  ]
+}

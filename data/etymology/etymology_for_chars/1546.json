@@ -1,0 +1,119 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "往，到达某处",
+      "examples": [
+        "无所适从",
+        "适者生存"
+      ],
+      "traditional_char": "適"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "归向，归属",
+      "examples": [
+        "无所适从"
+      ],
+      "traditional_char": "適"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "（旧时）女子出嫁",
+      "examples": [
+        "适人"
+      ],
+      "traditional_char": "適"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "刚巧碰上，正好遇到",
+      "examples": [
+        "适逢其会",
+        "适中",
+        "适值"
+      ],
+      "traditional_char": "適"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adverb",
+      "meaning": "刚才，方才",
+      "examples": [
+        "适才",
+        "适间"
+      ],
+      "traditional_char": "適"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "切合，相合，符合",
+      "examples": [
+        "适当",
+        "适龄",
+        "适销对路"
+      ],
+      "traditional_char": "適"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "adjective",
+      "meaning": "舒服，舒畅",
+      "examples": [
+        "适意",
+        "舒适"
+      ],
+      "traditional_char": "適"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从辵（走之），啻声，本义为‘往、到’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "‘到’引申为‘归向、归属’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "‘到达’比喻女子出嫁‘往某家’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "‘到’引申为‘恰好遇到’的动作。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "grammaticalization",
+      "note": "‘正好遇到’引申为表示时间‘刚才、方才’。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "semantic_shift",
+      "note": "‘归向、归属’发展为‘切合、符合’。"
+    },
+    {
+      "source_index": 5,
+      "target_index": 6,
+      "evolution_type": "semantic_extension",
+      "note": "‘切合、相合’引申为‘舒服、舒畅’。"
+    }
+  ]
+}

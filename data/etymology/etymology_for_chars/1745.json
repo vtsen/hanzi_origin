@@ -1,0 +1,41 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "充满，填满。",
+      "examples": [
+        "盈满",
+        "充盈",
+        "沸反盈天"
+      ],
+      "traditional_char": "盈"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "多余、超过原有的部分。",
+      "examples": [
+        "盈余",
+        "盈亏",
+        "盈利"
+      ],
+      "traditional_char": "盈"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意字，从皿，表示器皿充满；《说文》注解为满器也。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘充满’引申为‘多余’、‘超过’的部分，用于数量增减之义。"
+    }
+  ]
+}

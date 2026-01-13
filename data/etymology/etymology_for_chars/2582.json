@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "接近，靠近",
+      "examples": [
+        "逼而不舍",
+        "逼视"
+      ],
+      "traditional_char": "逼"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "强迫，威胁",
+      "examples": [
+        "逼迫",
+        "逼使"
+      ],
+      "traditional_char": "逼"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "狭窄",
+      "examples": [
+        "逼仄",
+        "屋宇逼狭"
+      ],
+      "traditional_char": "逼"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从辵，畐声。原意为接近、靠近。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘接近’引申为‘以压力迫使’；汉代后常见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由‘接近’引申为‘空间狭窄’；形容空间紧逼。"
+    }
+  ]
+}

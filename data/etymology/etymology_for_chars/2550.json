@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "多年生草本植物，茎可编篮做绳，纤维可织布，块根称“葛根”，可制淀粉或入药。",
+      "examples": [
+        "采葛之实，以为裳衣。",
+        "葛布",
+        "葛根"
+      ],
+      "traditional_char": "葛"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "表面有花纹的纺织品，用丝做经，棉线或麻线等做纬。",
+      "examples": [
+        "宋锦葛",
+        "古人多以葛布为服。"
+      ],
+      "traditional_char": "葛"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [
+        "葛洪",
+        "葛优"
+      ],
+      "traditional_char": "葛"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从艸，曷声，表植物名，古指葛麻。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由植物名引申为以葛为原料或工艺的织品，汉代已见用。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "以植物名作为姓氏，古已有例。"
+    }
+  ]
+}

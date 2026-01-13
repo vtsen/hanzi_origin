@@ -1,0 +1,40 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "金属表面所生的氧化物",
+      "examples": [
+        "铁锈",
+        "铜锈",
+        "锈斑"
+      ],
+      "traditional_char": "銹"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "生锈，金属表面产生锈斑",
+      "examples": [
+        "锈蚀",
+        "锁锈住了"
+      ],
+      "traditional_char": "銹"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从金，秀声。本义为金属表面所生的锈。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "conversion",
+      "note": "名词转动词用法，表示产生锈的动作，始见于近现代汉语。"
+    }
+  ]
+}

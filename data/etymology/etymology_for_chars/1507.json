@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "人多声杂，喧闹，吵闹。",
+      "examples": [
+        "喧哗",
+        "哗然",
+        "哗笑",
+        "众哗哗然"
+      ],
+      "traditional_char": "嘩"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "军队突然叛变。",
+      "examples": [
+        "哗变"
+      ],
+      "traditional_char": "嘩"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "onomatopoeia",
+      "meaning": "象声词，形容水流、雨声等杂乱的声音。",
+      "examples": [
+        "哗啦啦",
+        "雨哗哗地下"
+      ],
+      "traditional_char": "嘩"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从口，华声。本义为喧哗、声大而杂乱。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "以喧闹引申为军队骚乱—叛变，多见于近现代用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由喧闹引申为象声词，用以表示杂乱的声响，如水声、雨声。"
+    }
+  ]
+}

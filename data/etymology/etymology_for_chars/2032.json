@@ -1,0 +1,40 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "身体因劳累而感到困乏、倦怠",
+      "examples": [
+        "疲乏",
+        "疲倦",
+        "精疲力尽"
+      ],
+      "traditional_char": "疲"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "精神懈怠、缺乏活力",
+      "examples": [
+        "疲塌",
+        "疲软"
+      ],
+      "traditional_char": "疲"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从疒，皮声，与疾病、困乏相关，甲骨文多见人卧病之形。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由身体困乏引申至精神状态的懈怠，见于古今用例。"
+    }
+  ]
+}

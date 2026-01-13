@@ -1,0 +1,178 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "用皮、布或线等做成的长条物，常用于束衣、系物。",
+      "examples": [
+        "腰带",
+        "皮带",
+        "领带",
+        "一衣带水"
+      ],
+      "traditional_char": "帶"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "像带子的长条状物体。",
+      "examples": [
+        "带钢",
+        "带鱼",
+        "声带"
+      ],
+      "traditional_char": "帶"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "车轮胎。",
+      "examples": [
+        "车带",
+        "外带"
+      ],
+      "traditional_char": "帶"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "区域，范围。",
+      "examples": [
+        "地带",
+        "温带"
+      ],
+      "traditional_char": "帶"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "佩戴，披挂。",
+      "examples": [
+        "带孝",
+        "带剑"
+      ],
+      "traditional_char": "帶"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "随身拿着，携带。",
+      "examples": [
+        "携带",
+        "带着钱"
+      ],
+      "traditional_char": "帶"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "捎带，连带，顺便做。",
+      "examples": [
+        "连带",
+        "带职",
+        "带累",
+        "话中带刺"
+      ],
+      "traditional_char": "帶"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "verb",
+      "meaning": "含有，呈现。",
+      "examples": [
+        "带电",
+        "带伤"
+      ],
+      "traditional_char": "帶"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "verb",
+      "meaning": "率领，引导。",
+      "examples": [
+        "带领",
+        "带头",
+        "带动",
+        "以点带面"
+      ],
+      "traditional_char": "帶"
+    },
+    {
+      "index": 9,
+      "part_of_speech": "noun",
+      "meaning": "女子阴道分泌的白色黏液。",
+      "examples": [
+        "白带"
+      ],
+      "traditional_char": "帶"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "pictograph",
+      "original_sense_index": 0,
+      "note": "小篆字形象束腰之带，带有须形装饰，为象形字，表示束衣的腰带。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "简化字'带'由'帶'简化，以'带'代之，语音与意义延续。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由具体之带条扩展至一切带状、条状事物。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "从“束物用带”类推至“车轮外面的圆环状物”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "形如腰带之地带、范围，引申为区域。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "conversion",
+      "note": "由名词'带'表示佩戴之物，引申为“佩戴”之动词。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "佩戴本义由身上之物扩展为随身携带。"
+    },
+    {
+      "source_index": 5,
+      "target_index": 6,
+      "evolution_type": "semantic_extension",
+      "note": "从携带引申至“兼带、捎带、顺带”之意。"
+    },
+    {
+      "source_index": 5,
+      "target_index": 7,
+      "evolution_type": "semantic_extension",
+      "note": "从随身携带扩展到“含有、具备某种性质”。"
+    },
+    {
+      "source_index": 5,
+      "target_index": 8,
+      "evolution_type": "semantic_shift",
+      "note": "由“携带”语义演变，后用作“率领、引导”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 9,
+      "evolution_type": "metaphor",
+      "note": "因体状如带，引申为女性分泌物名。"
+    }
+  ]
+}

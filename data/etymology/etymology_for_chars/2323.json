@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "快速，灵巧，反应快。",
+      "examples": [
+        "反应敏捷",
+        "神经过敏"
+      ],
+      "traditional_char": "敏"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "聪慧，思维灵活。",
+      "examples": [
+        "聪敏",
+        "灵敏"
+      ],
+      "traditional_char": "敏"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "勤勉，努力追求。",
+      "examples": [
+        "敏而好学",
+        "敏求"
+      ],
+      "traditional_char": "敏"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从攴（表示动作），每为声，本义为动作迅速。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "synecdoche",
+      "note": "由动作快速，引申为思维灵活、聪慧，出现于先秦、两汉文献。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由行为敏捷引申为做事勤勉、努力，宋元后常见。"
+    }
+  ]
+}

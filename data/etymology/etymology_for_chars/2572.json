@@ -1,0 +1,69 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "棒状的器物，如木棒、铁棒等。",
+      "examples": [
+        "棍子",
+        "木棍",
+        "铁棍",
+        "棍棒"
+      ],
+      "traditional_char": "棍"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "比喻恶人、坏人。",
+      "examples": [
+        "恶棍",
+        "赌棍"
+      ],
+      "traditional_char": "棍"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "捆束，绑扎。",
+      "examples": [
+        "棍申椒与菌桂兮，赴江湖而沤之"
+      ],
+      "traditional_char": "棍"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "古同“混”，混合、合成。",
+      "examples": [],
+      "traditional_char": "棍"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从木，昆声。本义为棒状器物。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "以棍为坏人的比喻，见近现代汉语。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "unknown",
+      "note": "“棍”作捆扎义，义源不明，可能为通假或异体。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "unknown",
+      "note": "由‘捆’义借作‘混合’，与‘混’通用。"
+    }
+  ]
+}

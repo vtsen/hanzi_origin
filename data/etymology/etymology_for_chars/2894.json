@@ -1,0 +1,89 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古代用来盛水或冰的青铜大盆",
+      "examples": [
+        "置鉴于庭，以贮冰。"
+      ],
+      "traditional_char": "鑒"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "镜子",
+      "examples": [
+        "光可鉴人。",
+        "以铜为鉴，可以正衣冠。"
+      ],
+      "traditional_char": "鑒"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "照映",
+      "examples": [
+        "池水鉴人。",
+        "高镜鉴形。"
+      ],
+      "traditional_char": "鑒"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "观察，审察，分辨",
+      "examples": [
+        "鉴别。",
+        "鉴定。",
+        "鉴赏。",
+        "台鉴。"
+      ],
+      "traditional_char": "鑒"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "可以用作警惕或教训的事情",
+      "examples": [
+        "前车之鉴。",
+        "以人为鉴。",
+        "借鉴。"
+      ],
+      "traditional_char": "鑒"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从金，监声，表达青铜器，最初为盛水或冰的器皿。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "盛水大盆易作照面之用，逐渐指代镜子。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "conversion",
+      "note": "名词动用，由“镜”引申为“照映”。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由照物引申为审察、观察。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "以镜借指可供借鉴、警示之物。"
+    }
+  ]
+}

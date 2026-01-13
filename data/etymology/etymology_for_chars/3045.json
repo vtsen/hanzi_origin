@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "用针线连缀、缝制。",
+      "examples": [
+        "妈妈在缝衣服。",
+        "裁缝正在缝补衣衫。"
+      ],
+      "traditional_char": "縫"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "空隙，裂开的细长口子。",
+      "examples": [
+        "墙上有一道缝。",
+        "见缝插针。"
+      ],
+      "traditional_char": "縫"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "缝合的地方。",
+      "examples": [
+        "书的缝隙里夹着一张纸。",
+        "天衣无缝。"
+      ],
+      "traditional_char": "縫"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从糸，表示与线有关，逢为声旁，最初取用针线连缀之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由缝合动作引申为由缝合而成或自然存在的线状空隙。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由空隙义进一步专指缝合的地方。"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "藏匿，不显露",
+      "examples": [
+        "隐居",
+        "隐士",
+        "隐匿其身",
+        "深山隐居"
+      ],
+      "traditional_char": "隱"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "伤痛",
+      "examples": [
+        "隐恻",
+        "隐痛"
+      ],
+      "traditional_char": "隱"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "怜悯",
+      "examples": [
+        "恻隐之心",
+        "隐善隐恶"
+      ],
+      "traditional_char": "隱"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "倚靠",
+      "examples": [
+        "隐几而卧"
+      ],
+      "traditional_char": "隱"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从阝（邑）作意符，'急'作声符，原指隐藏于邑内，是形声兼会意构造。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "隐匿引申为不明显的痛楚，用作伤痛，多见于书面语，先秦即有。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由‘隐藏不外露’引申为‘内心怜悯’，如‘恻隐’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "‘倚靠’义为旁支发展，出现于古汉语，义理转折机制不明。"
+    }
+  ]
+}

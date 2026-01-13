@@ -1,0 +1,150 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "错误，过失",
+      "examples": [
+        "话说差了",
+        "偏差"
+      ],
+      "traditional_char": "差"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "不相当，不相合，差距较小",
+      "examples": [
+        "差不多",
+        "两人年纪只差三岁"
+      ],
+      "traditional_char": "差"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "缺欠，不足",
+      "examples": [
+        "还差十元钱",
+        "账还差一点"
+      ],
+      "traditional_char": "差"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "不好，不够标准",
+      "examples": [
+        "差等",
+        "成绩很差"
+      ],
+      "traditional_char": "差"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "不同，区别，差别",
+      "examples": [
+        "差别",
+        "差距"
+      ],
+      "traditional_char": "差"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "数学上指减法运算的结果",
+      "examples": [
+        "差数",
+        "四减二的差是二"
+      ],
+      "traditional_char": "差"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "派遣，派去做事",
+      "examples": [
+        "差遣",
+        "差使"
+      ],
+      "traditional_char": "差"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "noun",
+      "meaning": "被派遣的人或事务",
+      "examples": [
+        "差人",
+        "出差"
+      ],
+      "traditional_char": "差"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "noun",
+      "meaning": "〔参差〕不齐整、高低不等的样子",
+      "examples": [
+        "参差不齐"
+      ],
+      "traditional_char": "差"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 6,
+      "note": "“差”字从羊，旁有工，形声字，本义为差遣、派遣，有任务分派之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 6,
+      "target_index": 7,
+      "evolution_type": "semantic_extension",
+      "note": "由“差遣”引申为受差遣的人或差事，见于汉代文献。"
+    },
+    {
+      "source_index": 6,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "“差”由分派义转为区分、分别，引申出“差别、差距”等义。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "从“差别”引申出数学上“两个数之差”，为近现代用法。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由区别、差别义引申为“不相当、不合”等义。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由不相当、差距义产生“缺欠、不足”之义。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "差距引申为“水平低、不符合标准”等义。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "由差别、不同引申为“错误、过失”。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 8,
+      "evolution_type": "semantic_extension",
+      "note": "“参差”由“差”为差别引申为不齐整的样子。"
+    }
+  ]
+}

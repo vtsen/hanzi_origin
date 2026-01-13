@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "淹没或沉入水中致死。",
+      "examples": [
+        "溺水而亡",
+        "他不慎落水溺死。"
+      ],
+      "traditional_char": "溺"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "沉迷于某事而不能自拔，过度迷恋。",
+      "examples": [
+        "溺爱孩子",
+        "沉溺于网络世界"
+      ],
+      "traditional_char": "溺"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "小便，即尿液。",
+      "examples": [
+        "小儿溺床",
+        "溺器"
+      ],
+      "traditional_char": "溺"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，弱声。本义为溺水。水表意，弱表音。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由‘沉于水中而不能自拔’引申出对事物过度沉迷。见中古文献，形象比喻。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 0,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "‘溺’借作同音字‘尿’的意思，本为借音而用，古有记载。"
+    }
+  ]
+}

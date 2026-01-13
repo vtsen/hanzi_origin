@@ -1,0 +1,41 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "particle",
+      "meaning": "语气词，“了”和“啊”的合音，用于句末表示感叹、变化、疑问、肯定、解释、劝止或列举等语气。",
+      "examples": [
+        "你真的来啦？",
+        "大楼终于建成啦！",
+        "你怎么啦？",
+        "书啦，报纸啦，笔记本啦，钢笔啦，墨水啦，堆得满桌子都是"
+      ],
+      "traditional_char": "啦"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "闲谈，闲扯，聊天（为“拉”的方言或口语用法）。",
+      "examples": [
+        "人人都愿意和他啦。",
+        "啦呱（闲聊）"
+      ],
+      "traditional_char": "啦"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "‘啦’为形声字，从口，拉声。本作“拉”的方言和口语写法，用于表示‘闲谈’含义，后引申为语气词。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "grammaticalization",
+      "note": "由‘闲谈’（动作）义经口语习用，发展为语气词，用于句末表达感叹、变化等多种语气，现代通用。"
+    }
+  ]
+}

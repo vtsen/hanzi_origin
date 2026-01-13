@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "高高耸立，直立伸起",
+      "examples": [
+        "高耸入云",
+        "耸立于山巅"
+      ],
+      "traditional_char": "聳"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "使震惊，使惊动",
+      "examples": [
+        "耸人听闻",
+        "耸动社会"
+      ],
+      "traditional_char": "聳"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "聋，昏聩",
+      "examples": [
+        "聳昧不闻"
+      ],
+      "traditional_char": "聳"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“聳”为形声字，耳为意旁，表示与耳或听相关，忪为声旁。最初意为‘高立’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由物理上‘高起’转喻为‘使人震惊’，汉以后用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "unknown",
+      "note": "‘聳’义为‘聋’，关系不明，或与‘耳’相关联，历代训释多存争议。"
+    }
+  ]
+}

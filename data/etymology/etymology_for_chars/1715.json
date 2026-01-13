@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "劝导，教导，劝说引导他人。",
+      "examples": [
+        "诱导",
+        "诱发"
+      ],
+      "traditional_char": "誘"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "使用手段引人，常指诱惑、引诱等。",
+      "examples": [
+        "引诱",
+        "利诱"
+      ],
+      "traditional_char": "誘"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "称美之辞，形容明亮、出众。",
+      "examples": [
+        "诱然与日月争光"
+      ],
+      "traditional_char": "誘"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从言，秀声，本义为“教导、引导”。最早作“羑”，后为“誘”。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从中性引导之意发展到带有手段的引诱、诱惑；汉以后更常用。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由引导、吸引之意引申为美好的状态，多见于文言。"
+    }
+  ]
+}

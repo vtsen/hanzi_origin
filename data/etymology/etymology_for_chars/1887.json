@@ -1,0 +1,40 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "使物体在阳光下干燥、变暖或吸收光和热",
+      "examples": [
+        "晒衣服",
+        "晒谷子",
+        "在院子里晒太阳"
+      ],
+      "traditional_char": "曬"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "置之不理，慢待",
+      "examples": [
+        "他被老板晒在一边",
+        "别把我晒着不管"
+      ],
+      "traditional_char": "晒"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "曬为形声字，从日，聲为“西”，本义为在日光下曝晒。晒为简化字，俗作。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由“使物体暴晒”引申为“置之不理，冷落”，据现代汉语方言用法"
+    }
+  ]
+}

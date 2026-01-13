@@ -1,0 +1,122 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "唠叨，说话絮絮叨叨。",
+      "examples": [
+        "他说话总是啰嗦个不停。",
+        "你别再啰唆了。"
+      ],
+      "traditional_char": "囉"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "办事拖拉，不痛快，使人觉得麻烦。",
+      "examples": [
+        "他做事总是啰嗦，让人着急。"
+      ],
+      "traditional_char": "囉"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "吵闹；喧哗。",
+      "examples": [
+        "莫在这里啰唣。"
+      ],
+      "traditional_char": "囉"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "歌曲的衬字或歌助声。",
+      "examples": [
+        "唱一会囉哩囉，论清闲谁似我。"
+      ],
+      "traditional_char": "囉"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "interjection",
+      "meaning": "用来招呼家畜的声音。",
+      "examples": [
+        "口中呼：‘囉，囉，囉，拗相公來。’"
+      ],
+      "traditional_char": "囉"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "古代羌族语，意为男子。",
+      "examples": [
+        "囉，華言男也。"
+      ],
+      "traditional_char": "囉"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "particle",
+      "meaning": "语气助词，常用在句末，表情况变化、感叹、祈使或肯定等。",
+      "examples": [
+        "这样就好啰！",
+        "他有了新的想法啰！",
+        "请你们放心啰！",
+        "他准能办到啰。"
+      ],
+      "traditional_char": "囉"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 3,
+      "note": "‘囉’为形声字，从口，罗声。本义为歌助声，用作歌曲衬字。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 3,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由歌唱中助声衍生为喧闹、吵闹，典型的情景转义。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "歌曲衬字被喻用为招呼家畜的声音。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 6,
+      "evolution_type": "grammaticalization",
+      "note": "由歌曲衬字语气成分转化为句末语气助词，明清以降常见。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 0,
+      "evolution_type": "metaphor",
+      "note": "由歌中反复、絮叨产生比喻，扩展为说话唠叨。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由唠叨引伸为做事拖拉、让人觉得麻烦。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 1,
+      "evolution_type": "semantic_shift",
+      "note": "由吵闹转偏为烦琐、拖拉，语义偏移。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 5,
+      "evolution_type": "unknown",
+      "note": "‘囉’作古代羌族语男子，多为音译借用，语源关系不清。"
+    }
+  ]
+}

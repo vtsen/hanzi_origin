@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "用力支撑或摆脱",
+      "examples": [
+        "挣脱",
+        "挣开"
+      ],
+      "traditional_char": "掙"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "出力取得（多指取得钱财、食物等）",
+      "examples": [
+        "挣钱",
+        "挣饭吃"
+      ],
+      "traditional_char": "掙"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "尽力支撑或摆脱",
+      "examples": [
+        "垂死挣扎"
+      ],
+      "traditional_char": "掙"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从手，争声。本义是用手用力支撑或掙脱。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "analogy",
+      "note": "“挣扎”为后起复合词，语义与本义相近，形成通用化表述。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "从用力支撑/摆脱引申为出力谋取（如谋钱），明清后普遍使用。"
+    }
+  ]
+}

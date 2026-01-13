@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "污泥、泥浆，如道路泥泞难行。",
+      "examples": [
+        "道路泥泞",
+        "一旬半雷雨，泥泞相牵攀。——杜甫《彭衙行》"
+      ],
+      "traditional_char": "濘"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "水淤积、停滞的样子。",
+      "examples": [
+        "泞滞（谓泥水淤积难行）",
+        "泞潦（泥水淤积）"
+      ],
+      "traditional_char": "濘"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "水清澈明净的样子。",
+      "examples": [
+        "澹泞澄澈",
+        "泱漭澹泞，腾波赴势。——木华《海赋》",
+        "杜甫朝亨大庙赋元泽淡泞"
+      ],
+      "traditional_char": "濘"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘濘’（泞）为形声字，从水，宁声，本义为泥浆。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由具体泥浆引申为泥水淤积、停滞状态，古今均有用例。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "部分古文献中由水浑浊转为清澈之意，可能与‘澹’混用，方向尚有争议。"
+    }
+  ]
+}

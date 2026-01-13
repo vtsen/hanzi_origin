@@ -1,0 +1,44 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "霹雳，猛烈的雷声或雷击现象。",
+      "examples": [
+        "晴天霹雳",
+        "其声如霹雳"
+      ],
+      "traditional_char": "靂"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "“靂”的简化字，义同。",
+      "examples": [
+        "霹雳火",
+        "霹雳手"
+      ],
+      "traditional_char": "雳"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "靂为形声字，从雨，歷声，本义为猛烈的雷声。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "雳为简化字，从雨，历声，由“靂”简化而来。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "reanalysis",
+      "note": "20世纪简化字运动中由“靂”简化为“雳”，语义未变。"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "人的身材短",
+      "examples": [
+        "他是个矮个子。",
+        "那个人很矮。"
+      ],
+      "traditional_char": "矮"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "高度小",
+      "examples": [
+        "矮墙",
+        "矮树",
+        "屋子很矮。"
+      ],
+      "traditional_char": "矮"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "等级地位低",
+      "examples": [
+        "工资他比我矮一级。"
+      ],
+      "traditional_char": "矮"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从‘矢’表意（引申为直、短），‘委’表音，本义为身材短。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由指人身材短扩展到指任何高度小。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由高度小进一步比喻等级、地位低。"
+    }
+  ]
+}

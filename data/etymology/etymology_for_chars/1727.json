@@ -1,0 +1,41 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "斜度很大，近于垂直",
+      "examples": [
+        "陡坡",
+        "陡峭",
+        "陡立",
+        "陡峻"
+      ],
+      "traditional_char": "陡"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adverb",
+      "meaning": "突然",
+      "examples": [
+        "陡然",
+        "陡变"
+      ],
+      "traditional_char": "陡"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，左“阝”为表义，表示与山坡或陡峭的地势相关，右“斗”为声旁，本义为地势陡峭。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由“斜度极大”引申为变化迅速，状态发生突变。"
+    }
+  ]
+}

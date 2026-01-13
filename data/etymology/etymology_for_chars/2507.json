@@ -1,0 +1,37 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "打，击打",
+      "examples": [
+        "别惹我，再惹我揍你！"
+      ],
+      "traditional_char": "揍"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "打碎，击破",
+      "examples": [
+        "小心别把花瓶揍了。"
+      ],
+      "traditional_char": "揍"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，“手”为意符，表示与手的动作有关，“奏”表声，本义为用手打。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“打（人或物）”扩展为“打碎（物体）”，现代口语用法。"
+    }
+  ]
+}

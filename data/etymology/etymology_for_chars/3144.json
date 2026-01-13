@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "腐烂，变质",
+      "examples": [
+        "流水不腐，户枢不蠹",
+        "肉腐出虫"
+      ],
+      "traditional_char": "腐"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "思想陈旧过时",
+      "examples": [
+        "腐儒",
+        "迂腐"
+      ],
+      "traditional_char": "腐"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "豆制食品，如豆腐、腐乳等",
+      "examples": [
+        "豆腐",
+        "腐乳",
+        "腐竹"
+      ],
+      "traditional_char": "腐"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "古代对宫刑的称谓",
+      "examples": [
+        "腐刑"
+      ],
+      "traditional_char": "腐"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从肉，府声，指肉类腐烂变质。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由物质腐烂引申为思想陈旧。古今常见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由腐烂变质转指以发酵等变质制成的豆制品。常见于东亚食品术语。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "unknown",
+      "note": "‘腐刑’与本义关系不明，或为贬称。具体语源未明。"
+    }
+  ]
+}

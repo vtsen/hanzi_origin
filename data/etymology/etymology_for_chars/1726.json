@@ -1,0 +1,66 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "花费金钱",
+      "examples": [
+        "花费",
+        "不费一文"
+      ],
+      "traditional_char": "費"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "消耗（力气、时间等）",
+      "examples": [
+        "费事",
+        "费时",
+        "煞费苦心"
+      ],
+      "traditional_char": "費"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "费用，所需用的钱财",
+      "examples": [
+        "学费",
+        "交通费"
+      ],
+      "traditional_char": "費"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "费翔",
+        "费穆"
+      ],
+      "traditional_char": "費"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从‘贝’表财物，‘弗’为声符，最初表示花费钱财。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由专指花钱推广到泛指消耗，用于时间、精力等抽象事物。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "conversion",
+      "note": "动词用作名词，表示所花的钱，引申为‘费用’。"
+    }
+  ]
+}

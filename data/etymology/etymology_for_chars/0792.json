@@ -1,0 +1,138 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "撤除，撤去（如：撤去饭具、席位等）",
+      "examples": [
+        "废彻不迟。（《诗·小雅·楚茨》）",
+        "司宫彻之士。（《礼记·燕礼》）",
+        "彻筮席。（《礼记·士冠礼》）",
+        "大夫无故不彻县。（《礼记·曲礼》）"
+      ],
+      "traditional_char": "徹"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "拆毁，拆下（如：拆除房屋）",
+      "examples": [
+        "彻我墙屋。（《诗·小雅·十月之交》）",
+        "何令彻彼岐社，命有殷国?（《楚辞·天问》）"
+      ],
+      "traditional_char": "徹"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "通达，贯通，穿透（如：光线穿透、理解通达）",
+      "examples": [
+        "日光下彻，影布石上。（柳宗元《至小丘西小石潭记》）",
+        "汝心之固，固不可彻。（《列子·汤问》）",
+        "焚烟彻于上。（《国语·鲁语上》）"
+      ],
+      "traditional_char": "徹"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "垦治，治理（土壤、田地等）",
+      "examples": [
+        "彻田为粮。（《诗·大雅·公刘》）",
+        "王命召伯，彻申伯土田。（《诗·大雅·崧高》）"
+      ],
+      "traditional_char": "徹"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "结束，完结",
+      "examples": [
+        "自经丧乱少睡眠，长夜沾湿何由彻。（杜甫《茅屋为秋风所破歌》）",
+        "话本说彻，且作散场。（《清平山堂话本·简贴和尚》）"
+      ],
+      "traditional_char": "徹"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "adjective",
+      "meaning": "通，达，彻底，清晰（如：彻底、明彻、通透）",
+      "examples": [
+        "彻，通也。（《说文》）",
+        "果无不彻。（《国语·晋语六》）",
+        "物彻疏明。（《庄子·应帝王》）"
+      ],
+      "traditional_char": "徹"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "田税制度（周制什一税名）",
+      "examples": [
+        "有若对曰：‘盍彻乎？’（《论语·颜渊》）",
+        "周人百亩而彻，其实皆什一也。（《孟子·滕文公上》）"
+      ],
+      "traditional_char": "徹"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "verb",
+      "meaning": "列，排列",
+      "examples": [
+        "班、彻，列也。北燕曰班，东齐曰彻。（《方言》第三）"
+      ],
+      "traditional_char": "徹"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从彳为形旁，音符鬲/丑。最初义为撤去、撤除，与初文及甲骨文皆有关撤除食具动作。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从撤去扩展为拆毁具体建筑，发生于先秦时期。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由撤除障碍引申为通达、穿透（物理和抽象意义），汉代及更晚常见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由撤除、整治引申为垦治用于田地的治理。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "从撤除动作再引为结束、完结某事。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 5,
+      "evolution_type": "conversion",
+      "note": "由动词通达、穿透转为形容词，表‘彻底’、‘明了’等属性。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "semantic_shift",
+      "note": "特指田税因动作‘撤除’引申，历见于先秦经籍。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 7,
+      "evolution_type": "semantic_extension",
+      "note": "动词撤除行为引申为‘排列’（如物逐一消除排列），见于古籍。"
+    }
+  ]
+}

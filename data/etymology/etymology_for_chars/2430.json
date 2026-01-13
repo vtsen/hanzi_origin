@@ -1,0 +1,90 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "味道不浓，不咸，含盐分少",
+      "examples": [
+        "味淡",
+        "淡水",
+        "这汤很淡"
+      ],
+      "traditional_char": "淡"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "浅薄，颜色或成分少，与“浓”相对",
+      "examples": [
+        "淡酒",
+        "淡绿",
+        "天高云淡"
+      ],
+      "traditional_char": "淡"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "不热心，不热烈，冷漠",
+      "examples": [
+        "冷淡",
+        "淡泊名利",
+        "恬淡"
+      ],
+      "traditional_char": "淡"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "营业不旺盛",
+      "examples": [
+        "淡季",
+        "生意很淡"
+      ],
+      "traditional_char": "淡"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "无关紧要、无聊",
+      "examples": [
+        "扯淡",
+        "淡话"
+      ],
+      "traditional_char": "淡"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，炎声，表示味道淡，味不咸。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由味道的‘淡’引申为色彩、成分的浅或少，汉代以后广泛见。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由‘浅、薄’引申为感情上‘不热心’，比喻用法。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由‘浅、薄’进一步比喻经济活动‘不旺盛’。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "由‘浅、薄’引申为‘无关紧要、无聊’，属于比喻义。"
+    }
+  ]
+}

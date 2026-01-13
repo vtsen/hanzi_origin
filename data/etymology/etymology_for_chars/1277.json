@@ -1,0 +1,72 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "推崇、尊敬、敬重",
+      "examples": [
+        "尊宠",
+        "宠锡"
+      ],
+      "traditional_char": "寵"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "宠爱，偏爱",
+      "examples": [
+        "宠爱",
+        "宠信",
+        "得宠",
+        "失宠"
+      ],
+      "traditional_char": "寵"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "纵容，溺爱",
+      "examples": [
+        "宠坏",
+        "别把孩子宠坏了"
+      ],
+      "traditional_char": "寵"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "妾，侧室",
+      "examples": [
+        "纳宠"
+      ],
+      "traditional_char": "寵"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从宀表示与居室室内相关，'龙'作声符；本义为推崇、尊敬。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由尊崇转为爱、重视，语义扩展形成宠爱、偏爱的含义。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由宠爱进一步引申出溺爱、纵容。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "以受宠爱者来指称为妾，产生名词义。"
+    }
+  ]
+}

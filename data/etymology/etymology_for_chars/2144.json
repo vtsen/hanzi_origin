@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "母亲",
+      "examples": [
+        "娘亲",
+        "爹娘"
+      ],
+      "traditional_char": "娘"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "对年轻女子的称呼",
+      "examples": [
+        "娘子",
+        "娇娘",
+        "新娘"
+      ],
+      "traditional_char": "娘"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "称长一辈或年长的已婚妇女",
+      "examples": [
+        "大娘",
+        "婶娘"
+      ],
+      "traditional_char": "娘"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "形声字，从女，良声。本义为对妇女或少女的泛称。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_narrowing",
+      "note": "由泛指少女、女子引申专指为母亲，产生于古汉语早期。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由对少女的称呼扩展至年长的已婚妇女，出现于口语俗语中。"
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "全部充实，没有余地",
+      "examples": [
+        "满意",
+        "充满",
+        "饱满"
+      ],
+      "traditional_char": "滿"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "使满，斟酒",
+      "examples": [
+        "满上一杯酒"
+      ],
+      "traditional_char": "滿"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "到了规定的限度",
+      "examples": [
+        "满员",
+        "满月",
+        "不满周岁"
+      ],
+      "traditional_char": "滿"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "骄傲，不虚心",
+      "examples": [
+        "自满",
+        "志得意满"
+      ],
+      "traditional_char": "滿"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adverb",
+      "meaning": "表示范围大，全部，全然",
+      "examples": [
+        "满世界",
+        "满天飞",
+        "满园春色"
+      ],
+      "traditional_char": "滿"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "中国少数民族名",
+      "examples": [
+        "满族",
+        "满文",
+        "满汉全席"
+      ],
+      "traditional_char": "滿"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [],
+      "traditional_char": "滿"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "左为“氵”，表示与水有关，右为“艸”上“㔾”，表声兼指满布。形声字，表‘填满，布满’之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "conversion",
+      "note": "由形容词转为动词，表示“使装满”，如斟满酒的用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由‘完全充实’引申为‘达到某一限度’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "“满”引申为‘自满’，形容人气盛自足。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "表示‘到处都是’，引伸作副词用。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "unknown",
+      "note": "民族名，可能源于地名或族称，来源机制不明。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "unknown",
+      "note": "姓氏，通常源于族名或地名。"
+    }
+  ]
+}

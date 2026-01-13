@@ -1,0 +1,116 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古水名。在今陕西、湖北、山东等地均有同名河流。",
+      "examples": [
+        "漆沮之从。《尚书·禹贡》",
+        "猗与漆沮，潜有多鱼。《诗·周颂·潜》"
+      ],
+      "traditional_char": "沮"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "阻止，阻挠，遏止。",
+      "examples": [
+        "乱庶斯沮。《诗·小雅·巧言》",
+        "为善者劝，为不善者沮。《荀子·强国》"
+      ],
+      "traditional_char": "沮"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "破坏，败坏。",
+      "examples": [
+        "妄举，则事沮不胜。《韩非子·二柄》"
+      ],
+      "traditional_char": "沮"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "恐吓，恐惧。",
+      "examples": [
+        "沮之以兵。《礼记·儒行》"
+      ],
+      "traditional_char": "沮"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "诋毁，诽谤。",
+      "examples": [
+        "上以迁诬罔，欲沮贰师。《汉书·李陵传》"
+      ],
+      "traditional_char": "沮"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "adjective",
+      "meaning": "丧气，灰心失望，颓丧。",
+      "examples": [
+        "神辱志沮。《嵇康《幽愤诗》》",
+        "人情大沮。《南史·齐始安王遥光传》"
+      ],
+      "traditional_char": "沮"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "adjective",
+      "meaning": "湿润、低湿。",
+      "examples": [
+        "彼汾沮洳。《诗·魏风·汾沮洳》",
+        "池通浅沮沟。《白居易》"
+      ],
+      "traditional_char": "沮"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，且声。‘沮’最初作河流水名，用水表意，‘且’表音；后义多由水名引申。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "水流阻断为阻止、遏止之意，秦汉时已有此用法。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由‘阻止’引申为‘破坏、败坏’。先秦两汉普遍见。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "‘阻挠’带来恐吓的意味，互有混用；多见于儒家经典。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "‘阻挠’进一步发展为‘诋毁、诽谤’，此为语义扩展。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 5,
+      "evolution_type": "metaphor",
+      "note": "‘败坏’引申为‘丧气、颓废’，语义转化清楚。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "semantic_extension",
+      "note": "由水名引申为水多而低湿的地貌、湿润之意。《诗经》用法。"
+    }
+  ]
+}

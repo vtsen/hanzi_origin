@@ -1,0 +1,66 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "椅子的一种，有腿无靠背的坐具。",
+      "examples": [
+        "坐在凳子上。",
+        "板凳、方凳、杌凳。"
+      ],
+      "traditional_char": "凳"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "床前的踏具。",
+      "examples": [
+        "床凳之凳，晋已有此器。——宋·吴曾《能改斋漫录》"
+      ],
+      "traditional_char": "凳"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "工作台，有水平顶面的长形工具桌。",
+      "examples": [
+        "木工凳。"
+      ],
+      "traditional_char": "凳"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "马镫（通“鐙”）。",
+      "examples": [],
+      "traditional_char": "凳"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "形声字，从金从登，登表声，早期意义为床前踏具。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "由床前踏具引申为一般椅子类无靠背坐具，北宋以后普及。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由踏具延伸为有水平面的工作台义。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "作为‘鐙’的通假用法，借声转用于马镫。"
+    }
+  ]
+}

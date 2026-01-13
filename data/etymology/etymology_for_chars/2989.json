@@ -1,0 +1,86 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "外城，外围（古同“郭”）",
+      "examples": [
+        "廓，外郭也。《说文》",
+        "外廓环绕于城池之外"
+      ],
+      "traditional_char": "廓"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "物体的周围、外缘",
+      "examples": [
+        "耳廓",
+        "轮廓"
+      ],
+      "traditional_char": "廓"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "空阔，广阔",
+      "examples": [
+        "廓然",
+        "寥廓"
+      ],
+      "traditional_char": "廓"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "空寂，空旷",
+      "examples": [
+        "悲忧穷戚兮独处廓（屈原）"
+      ],
+      "traditional_char": "廓"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "扩展，扩大",
+      "examples": [
+        "廓张",
+        "廓清天下"
+      ],
+      "traditional_char": "廓"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从“广”表义，与建筑物相关，“郭”表声。本义指“外城”，同“郭”。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“城的外缘”引申为“一般物体的外缘、轮廓”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "外城为空阔之地，引申为空阔、广阔的意思。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "由“空阔”进一步引申为“空寂、空旷”。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 4,
+      "evolution_type": "grammaticalization",
+      "note": "形容词“空阔”转为动词“扩展、扩大”。"
+    }
+  ]
+}

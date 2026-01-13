@@ -1,0 +1,67 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "阻隔，阻挡，遮住。",
+      "examples": [
+        "障蔽",
+        "一叶障目，不见泰山"
+      ],
+      "traditional_char": "障"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "古代边塞上用作防御的城堡、工事。",
+      "examples": [
+        "筑城障列亭，至庐朐",
+        "故障"
+      ],
+      "traditional_char": "障"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "用作遮蔽、防卫的物品。",
+      "examples": [
+        "屏障"
+      ],
+      "traditional_char": "障"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "古同“幛”，画轴。",
+      "examples": [],
+      "traditional_char": "障"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从阜（表示与土山、地形阻隔相关），章为声符。最初表示阻碍、阻隔之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "名词化，表示用以阻隔、遮挡的建筑物，秦汉边塞用语。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "进一步引申为泛指任何遮蔽、防卫的物品。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "unknown",
+      "note": "与“幛”通用，具体转义关系有争议，或属音近假借。"
+    }
+  ]
+}

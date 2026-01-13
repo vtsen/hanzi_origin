@@ -1,0 +1,117 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古代死者穿的左衽衣服",
+      "examples": [
+        "古墓中多出土襲衣"
+      ],
+      "traditional_char": "襲"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "趁敌人不备时攻击",
+      "examples": [
+        "夜袭敌营",
+        "偷袭"
+      ],
+      "traditional_char": "襲"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "触及，侵袭",
+      "examples": [
+        "寒气袭人",
+        "芳菲菲兮袭予"
+      ],
+      "traditional_char": "襲"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "因袭，照样继续下去",
+      "examples": [
+        "因袭传统",
+        "沿袭旧制",
+        "世袭"
+      ],
+      "traditional_char": "襲"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "measure_word",
+      "meaning": "用于一套衣服",
+      "examples": [
+        "衣一袭"
+      ],
+      "traditional_char": "襲"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "衣上加衣，重迭",
+      "examples": [
+        "袭朝服",
+        "山三袭，陟"
+      ],
+      "traditional_char": "襲"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "合，和，联合",
+      "examples": [
+        "齐秦袭"
+      ],
+      "traditional_char": "襲"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从衣，两“龙”省作声符，初为左衽之丧服。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "由“丧服、衣服”义扩展为“重迭、加衣”。"
+    },
+    {
+      "source_index": 5,
+      "target_index": 4,
+      "evolution_type": "grammaticalization",
+      "note": "“袭”指成套衣服，引申作量词使用。"
+    },
+    {
+      "source_index": 5,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "衣服覆体，引申为“接触、侵袭”之意。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由“触及”引申为“袭击、攻击”。"
+    },
+    {
+      "source_index": 5,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "重迭之意，引申为“因袭、沿用旧制”。"
+    },
+    {
+      "source_index": 5,
+      "target_index": 6,
+      "evolution_type": "semantic_extension",
+      "note": "“衣上加衣”义引申为“合、联合”。"
+    }
+  ]
+}

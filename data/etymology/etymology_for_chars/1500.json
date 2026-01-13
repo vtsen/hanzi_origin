@@ -1,0 +1,86 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "思考，想，考虑",
+      "examples": [
+        "思索人生",
+        "沉思不语",
+        "见异思迁"
+      ],
+      "traditional_char": "思"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "想念，挂念",
+      "examples": [
+        "思念故乡",
+        "相思成病"
+      ],
+      "traditional_char": "思"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "想法，念头",
+      "examples": [
+        "构思巧妙",
+        "思绪万千"
+      ],
+      "traditional_char": "思"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "思为姓氏"
+      ],
+      "traditional_char": "思"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "other",
+      "meaning": "多胡须的样子，用于“于思”等词中",
+      "examples": [
+        "自捋颔下，则于思者如故矣"
+      ],
+      "traditional_char": "思"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声兼会意字，从心表示与心意有关，从囟表声，同时取脑意，本义为思考、思索。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由理性思考引申为情感上的想念，汉代以后常见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "conversion",
+      "note": "动名转化，由思考动作转为思考的内容，即想法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "unknown",
+      "note": "用作姓氏，来源不明，字音借用。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "unknown",
+      "note": "‘于思’义，词源及义项渊源不明，疑为借用或异读。"
+    }
+  ]
+}

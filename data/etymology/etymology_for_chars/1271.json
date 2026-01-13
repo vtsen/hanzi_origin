@@ -1,0 +1,105 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "奇异，不平常",
+      "examples": [
+        "怪事",
+        "怪物",
+        "怪异",
+        "奇形怪状"
+      ],
+      "traditional_char": "怪"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "惊奇，感到神奇",
+      "examples": [
+        "大惊小怪",
+        "怪不得"
+      ],
+      "traditional_char": "怪"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "传说中的妖魔之类",
+      "examples": [
+        "鬼怪",
+        "妖怪"
+      ],
+      "traditional_char": "怪"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "性情乖僻或行为异样的人",
+      "examples": [
+        "怪癖",
+        "怪僻"
+      ],
+      "traditional_char": "怪"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adverb",
+      "meaning": "很，非常",
+      "examples": [
+        "怪好的天气"
+      ],
+      "traditional_char": "怪"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "怨，责备",
+      "examples": [
+        "不怪你",
+        "怪罪",
+        "怪怨"
+      ],
+      "traditional_char": "怪"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从心，圣声。本义为“奇异、不平常”，下方‘圣’表示读音，‘心’与感受、情绪有关。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“奇异”引申为“感到惊奇”；汉魏以后用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由“奇异”事物转指为“妖魔”等超自然存在。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由“奇异”用以称行为异样或性情乖僻的人。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "grammaticalization",
+      "note": "由形容词“奇异”发展为副词“很，非常”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "semantic_shift",
+      "note": "本义为奇异，引申为“责难、责怪”。"
+    }
+  ]
+}

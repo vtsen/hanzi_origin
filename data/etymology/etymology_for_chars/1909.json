@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "恩惠，好处",
+      "examples": [
+        "感恩图报",
+        "施恩"
+      ],
+      "traditional_char": "恩"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "深厚的情谊或感情",
+      "examples": [
+        "恩爱",
+        "父母之恩"
+      ],
+      "traditional_char": "恩"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "帝王对臣下的优遇或宠幸",
+      "examples": [
+        "恩宠",
+        "恩赐"
+      ],
+      "traditional_char": "恩"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从心，因声，表示带有情感的施惠。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由具体的施惠引申为深厚的情谊，见中古文献用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由一般好处扩展为帝王对臣下的特殊优待，在封建社会语境演化。"
+    }
+  ]
+}

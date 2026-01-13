@@ -1,0 +1,67 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "写作，著述，编纂成整体",
+      "examples": [
+        "撰文",
+        "撰写论文",
+        "撰序"
+      ],
+      "traditional_char": "撰"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "才能",
+      "examples": [
+        "异乎三子者之撰"
+      ],
+      "traditional_char": "撰"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "持，拿着",
+      "examples": [
+        "撰余辔兮高驼翔"
+      ],
+      "traditional_char": "撰"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "指天地阴阳等自然现象的变化规律",
+      "examples": [],
+      "traditional_char": "撰"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从手，巽声，本义为写作、编纂。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由“写作、著述”的能力，转指才能。《论语》中有例。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "“撰”由写作引申为“持、拿着”，可能和“手”之动作用有关，但具体演变路径存疑。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "由“缀连成整体”引申为“天地阴阳等变化规律”，但演变时间和机制不详。"
+    }
+  ]
+}

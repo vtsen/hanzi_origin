@@ -1,0 +1,40 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "停留在一个地方，不再前进。",
+      "examples": [
+        "驻足观望",
+        "驻颜有术"
+      ],
+      "traditional_char": "駐"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "（军队、工作人员、机构等）住在某地执行任务，或被派往某地工作。",
+      "examples": [
+        "部队驻扎边疆",
+        "驻外使节",
+        "驻守前线"
+      ],
+      "traditional_char": "駐"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从马，主声。表示马停下、立止的动作。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“停留”义引申为军队或机构等驻扎、驻守，语义扩大，见于中古以后文献。"
+    }
+  ]
+}

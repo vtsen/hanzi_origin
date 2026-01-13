@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "两物相撞或相触",
+      "examples": [
+        "两车相碰",
+        "碰击"
+      ],
+      "traditional_char": "碰"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "相遇，偶然遇见",
+      "examples": [
+        "碰见老朋友",
+        "路上碰头"
+      ],
+      "traditional_char": "碰"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "试探、尝试",
+      "examples": [
+        "碰运气",
+        "碰钉子"
+      ],
+      "traditional_char": "碰"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从石，并声；本义为两物相撞或相触。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由“物理撞击”引申为“人与人的相遇”，语义发展较早期已见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由“物理碰触”引申为“试探性接触”或“尝试”，常见于现代口语。"
+    }
+  ]
+}

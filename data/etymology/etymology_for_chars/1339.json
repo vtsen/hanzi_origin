@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "（本义）古代士大夫束在衣外的大带子，垂于腰间作装饰",
+      "examples": [
+        "绅，大带也。——《说文》",
+        "峨大冠、拖长绅者，昂昂乎庙堂之器也。——明·刘基《卖柑者言》"
+      ],
+      "traditional_char": "紳"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "束上带子，佩大带，比喻自我约束、检束",
+      "examples": [
+        "绅之束之。——《韩非子·外储》",
+        "绅束（约束）"
+      ],
+      "traditional_char": "紳"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "（引申）指束绅的人，引申为有官职、地位或权势的人；后来特指地方上有势力、有地位的人",
+      "examples": [
+        "两家绅衿共一百四五十人，一同到祠堂口迎接当事。——《儒林外史》",
+        "乡绅受赂，操有司狱讼之权。——《舜水遗书》"
+      ],
+      "traditional_char": "紳"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从糸，申声。本义是大带，与糸（丝带）相关，申表音。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由指大带实物，扩展为佩戴、束带的动作，同时被引申为比喻自我约束。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由大带引申为佩戴大带者（士大夫、官员），后来专指有地位或权力的人。"
+    }
+  ]
+}

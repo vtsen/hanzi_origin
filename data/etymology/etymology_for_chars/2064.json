@@ -1,0 +1,69 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "轮流，交替。",
+      "examples": [
+        "值日工作由大家轮流递进行。"
+      ],
+      "traditional_char": "遞"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "传送，传递（如物品、消息等）。",
+      "examples": [
+        "请把这本书递给我。",
+        "信件由专人递送。"
+      ],
+      "traditional_char": "遞"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "顺着次序逐步地变化或发生（如递增、递减）。",
+      "examples": [
+        "温度递增。",
+        "遗传有递变规律。"
+      ],
+      "traditional_char": "遞"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "古代指传递公文和物资的驿车或驿站系统。",
+      "examples": [
+        "设递以通邮传。"
+      ],
+      "traditional_char": "遞"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从辵（表示与行走、运输相关），虒为声符，本义为轮流、交替。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“轮流、交替”扩展为“传送、传递”事物。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由“轮流、交替”引申出“顺序变化递增递减”之义。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "“递”为动作再转为专指古代传递公文所用的驿车或系统。"
+    }
+  ]
+}

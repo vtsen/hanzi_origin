@@ -1,0 +1,57 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "儿子的妻子，儿媳妇",
+      "examples": [
+        "贤媳",
+        "吾媳既外除来归。",
+        "俗谓子妇为媳。"
+      ],
+      "traditional_char": "媳"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "弟弟或其他晚辈的妻子",
+      "examples": [
+        "弟媳",
+        "侄媳",
+        "孙媳",
+        "贾母带领荣宁二府各子侄孙男孙媳等家宴。"
+      ],
+      "traditional_char": "媳"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "已婚女子的谦称",
+      "examples": [
+        "老媳寻得一头亲，难得恁般湊巧！"
+      ],
+      "traditional_char": "媳"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘媳’为形声字，从女，音声‘息’。初义即指儿子的妻子。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "将‘儿媳’之义扩展到弟弟、侄子等晚辈之妻，见于后起文献。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由‘儿媳’引申为已婚女子的自谦称呼。"
+    }
+  ]
+}

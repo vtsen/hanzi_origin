@@ -1,0 +1,41 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "在旁边扶助，扶持、搀扶某人",
+      "examples": [
+        "搀着他走",
+        "我来搀你一把",
+        "老人需要人搀扶"
+      ],
+      "traditional_char": "攙"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "混合，把不同的东西混在一起",
+      "examples": [
+        "掺杂",
+        "掺和",
+        "面粉里掺了沙子"
+      ],
+      "traditional_char": "攙"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从手，毚声。本义为‘扶助、牵挽’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由搀扶引申为把事物牵拉在一起，进而表混合，语义隐喻。"
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "拔出，伸出。",
+      "examples": [
+        "挺剑而出。",
+        "挺身而出。"
+      ],
+      "traditional_char": "挺"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "笔直，突出。",
+      "examples": [
+        "笔挺。",
+        "挺拔。",
+        "挺立于山巅。"
+      ],
+      "traditional_char": "挺"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "使身体某部位伸直或凸出。",
+      "examples": [
+        "挺起腰杆。",
+        "把胸挺起来。"
+      ],
+      "traditional_char": "挺"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "支撑，坚持。",
+      "examples": [
+        "挺节。",
+        "挺住别倒下。"
+      ],
+      "traditional_char": "挺"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adverb",
+      "meaning": "很，非常。",
+      "examples": [
+        "挺好。",
+        "他人挺多。"
+      ],
+      "traditional_char": "挺"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "measure_word",
+      "meaning": "用于挺直之物体的量词。",
+      "examples": [
+        "一挺机枪。"
+      ],
+      "traditional_char": "挺"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从手，廷声。表示拔出、伸出的动作。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由拔出、伸出引申为笔直、突出之义。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "突出、直立引申为使身体部位伸直、凸出。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "笔直、挺拔比喻为节操等方面的支撑、坚持。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "semantic_shift",
+      "note": "形容词‘挺’进一步转为副词‘很’的口语用法，用于形容程度。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "function_word",
+      "note": "由‘笔直’引申为量词，用于表示器械等挺直之物。"
+    }
+  ]
+}

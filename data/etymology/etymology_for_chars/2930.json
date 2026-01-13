@@ -1,0 +1,73 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "布置，部署",
+      "examples": [
+        "署其部属",
+        "各有所署"
+      ],
+      "traditional_char": "署"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "办理公务的机关",
+      "examples": [
+        "官署",
+        "专署",
+        "公署"
+      ],
+      "traditional_char": "署"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "签名，题字",
+      "examples": [
+        "署名",
+        "题署",
+        "签署协议"
+      ],
+      "traditional_char": "署"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "暂时代职",
+      "examples": [
+        "署理",
+        "兼署"
+      ],
+      "traditional_char": "署"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从网，者声，本义为布置、部署，‘网’表示分布系统，‘者’为声符。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘布置’引申为‘机关’（指布置公务的地方），见先秦至汉代用例。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由布置、署理引申为‘签名’、‘题字’，意为在文书上布置自己名字。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由‘布置’进一步引申为‘临时代理职务’。"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "赏赐，上级给予下级或长辈给予小辈财物或好处",
+      "examples": [
+        "皇帝赐予大臣金银财宝。",
+        "恩赐",
+        "赐死"
+      ],
+      "traditional_char": "賜"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "赏给的东西，所获得的好处",
+      "examples": [
+        "厚赐",
+        "受赐良多"
+      ],
+      "traditional_char": "賜"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "（敬辞）请允许、希望得到",
+      "examples": [
+        "请赐教",
+        "希赐函"
+      ],
+      "traditional_char": "賜"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从贝（财物）表义，易（音cì）表声，原指“赏赐”"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "conversion",
+      "note": "动词“赏赐”转为名词“所赐之物”，中古至今均见"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "amelioration",
+      "note": "由“赐予”语义引申为敬辞，唐宋以后常见"
+    }
+  ]
+}

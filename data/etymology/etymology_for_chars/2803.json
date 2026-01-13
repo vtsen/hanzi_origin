@@ -1,0 +1,65 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "用米面等食物煮成的半流质食品",
+      "examples": [
+        "小米粥",
+        "喝粥"
+      ],
+      "traditional_char": "粥"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "像粥的东西",
+      "examples": [
+        "乱成一锅粥",
+        "泥粥"
+      ],
+      "traditional_char": "粥"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "生养，养育（古同“育”）",
+      "examples": [
+        "粥，养也——《说文》",
+        "粥，养也。《广雅》"
+      ],
+      "traditional_char": "粥"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "卖（古同“鬻”）",
+      "examples": [
+        "粥，鬻卖也。",
+        "粥粥，卖卖也。"
+      ],
+      "traditional_char": "粥"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘粥’为形声字，从米，弋声，本义为用米煮成的半流质食品。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由米粥引申比喻成半流质或混乱的事物。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "unknown",
+      "note": "古音通用，具体语义从‘养’到‘卖’的关系不明，或因假借使用。"
+    }
+  ]
+}

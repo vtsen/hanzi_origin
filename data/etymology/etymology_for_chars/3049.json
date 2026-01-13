@@ -1,0 +1,98 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "停止的，与“动”相对，不运动",
+      "examples": [
+        "静止",
+        "静态",
+        "风平浪静",
+        "静物"
+      ],
+      "traditional_char": "靜"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "没有声音，安静",
+      "examples": [
+        "安静",
+        "寂静",
+        "肃静",
+        "静悄悄"
+      ],
+      "traditional_char": "靜"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "安详，心情平和",
+      "examples": [
+        "静心",
+        "静坐"
+      ],
+      "traditional_char": "靜"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "古同“净”，清洁",
+      "examples": [],
+      "traditional_char": "靜"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [],
+      "traditional_char": "靜"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "adjective",
+      "meaning": "彩色分布适当",
+      "examples": [],
+      "traditional_char": "靜"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 5,
+      "note": "形声字，从青（义符），争（声符），本义为彩色分布适当，后义发展。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 5,
+      "target_index": 0,
+      "evolution_type": "semantic_shift",
+      "note": "本义由彩色和谐，引申为事物处于平衡、止静状态，先秦以后见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由“无动”转喻为“无声”，《庄子》《汉书》等处已见。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由环境无声引申为内心安详宁静，常见于佛家用语及后世文学。"
+    },
+    {
+      "source_index": 5,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "古义为色彩协调，引申为洁净，古作‘净’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "function_word",
+      "note": "姓氏引申自事物状态之义，机制不详，常用于传承。"
+    }
+  ]
+}

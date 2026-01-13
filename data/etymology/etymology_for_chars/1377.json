@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "奔向（多指奔向险地），前往。",
+      "examples": [
+        "奔赴前线",
+        "赴京",
+        "赴会"
+      ],
+      "traditional_char": "赴"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "投入某种境地或参加某种行列。",
+      "examples": [
+        "赴战",
+        "赴义",
+        "赴难"
+      ],
+      "traditional_char": "赴"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "讣告的意思（古同“讣”）。",
+      "examples": [
+        "赴，讣也。——《集韵》"
+      ],
+      "traditional_char": "赴"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从走，卜声。本义为奔向，多指奔向危险之地。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由具体奔向险地引申为投身某种境地或行列，语义扩展。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "借用作讣告之‘讣’，两字音同，义有分化。"
+    }
+  ]
+}

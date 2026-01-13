@@ -1,0 +1,69 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "光滑，表面平滑没有阻碍。",
+      "examples": [
+        "光滑如镜",
+        "石面很滑",
+        "滑润细腻"
+      ],
+      "traditional_char": "滑"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "在光滑表面上移动或溜行。",
+      "examples": [
+        "滑冰",
+        "滑雪",
+        "小孩在地上滑",
+        "飞机滑翔"
+      ],
+      "traditional_char": "滑"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "形容人狡猾、不诚实。",
+      "examples": [
+        "滑头",
+        "这人很滑",
+        "滑头滑脑"
+      ],
+      "traditional_char": "滑"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [
+        "滑稽（huá jī）先生",
+        "滑姓分布于中国北方地区"
+      ],
+      "traditional_char": "滑"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，骨声，表示与水或湿润光滑有关的意思。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“表面光滑”引申为“在光滑物体表面滑动”的动作。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "以“物理上光滑”为喻，引申为“为人处世圆滑、不诚实”。"
+    }
+  ]
+}

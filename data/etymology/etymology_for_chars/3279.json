@@ -1,0 +1,103 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "摩擦，磨蹭",
+      "examples": [
+        "摩擦生热",
+        "摩顶放踵"
+      ],
+      "traditional_char": "摩"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "擦，蹭，接触",
+      "examples": [
+        "摩擦",
+        "摩天大楼",
+        "摩肩接踵"
+      ],
+      "traditional_char": "摩"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "摸，抚",
+      "examples": [
+        "摩弄",
+        "摩挲"
+      ],
+      "traditional_char": "摩"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "研究，切磋",
+      "examples": [
+        "观摩",
+        "揣摩"
+      ],
+      "traditional_char": "摩"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "古同“磨”，磨擦",
+      "examples": [
+        "摩顶至踵",
+        "摩崖"
+      ],
+      "traditional_char": "摩"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "〔摩挲〕用手轻轻按着一下一下地移动",
+      "examples": [
+        "摩挲胡须"
+      ],
+      "traditional_char": "摩"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从手，麻声，表示用手摩擦。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由摩擦本义扩展为一般的擦、蹭及接触。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "从擦/蹭意义进一步转为摸、抚的动作。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "semantic_shift",
+      "note": "摩挲，指用手轻轻移动，动作偏向轻柔。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "reanalysis",
+      "note": "古代“摩”与“磨”互通，义同‘磨擦’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "摩擦引申为思想、学问上的切磋、研究。"
+    }
+  ]
+}

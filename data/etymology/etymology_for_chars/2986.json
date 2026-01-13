@@ -1,0 +1,72 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "用盐、醋等调料腌制而成的肉酱",
+      "examples": [
+        "肉酱",
+        "古人以酒和肉酱"
+      ],
+      "traditional_char": "醬"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "用发酵后的豆、麦等做成的一种调味品",
+      "examples": [
+        "甜面酱",
+        "豆瓣酱",
+        "黄豆酱"
+      ],
+      "traditional_char": "醬"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "用酱或酱油腌制",
+      "examples": [
+        "酱菜",
+        "酱瓜"
+      ],
+      "traditional_char": "醬"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "像酱的糊状食品",
+      "examples": [
+        "果酱",
+        "芝麻酱"
+      ],
+      "traditional_char": "醬"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意字，从酉（酒），从肉，表示以酒或调料腌制肉成酱，后加声符爿，古文亦有加皿。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由专指肉酱扩展泛指用豆、麦等发酵制成的调味酱，汉至唐代起开始广泛。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "conversion",
+      "note": "名词转为动词，用酱来腌制东西。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由发酵制成的调味酱再泛化为一切糊状类似物，也多见于现代词汇如果酱等。"
+    }
+  ]
+}

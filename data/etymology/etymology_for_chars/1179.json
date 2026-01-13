@@ -1,0 +1,69 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "愤怒，怨恨",
+      "examples": [
+        "忿，悁也。——《说文》",
+        "将不胜其忿而蚁附之。——《孙子·谋攻》",
+        "君子以惩忿窒欲。——《易·象传》"
+      ],
+      "traditional_char": "忿"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "闷着，憋着气（气愤难平）",
+      "examples": [
+        "忿那口气没出处，一直要奔回下处来。——《水浒传》第二一回"
+      ],
+      "traditional_char": "忿"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "不服气，不平（主要用作“不忿”）",
+      "examples": [
+        "气不忿。"
+      ],
+      "traditional_char": "忿"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "用同“奋”，奋力",
+      "examples": [
+        "忿力向前来救。——《水浒传》第五五回"
+      ],
+      "traditional_char": "忿"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从心，分声，心表意，分表音，初指内心的愤怒、怨恨情绪。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由愤怒引申为内心憋闷难平，气愤不发，多见于小说语境。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由愤怒义发展为心中不服气、不平，常用于“不忿”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "以情感激发转指奋力为之，与“奋”义通假。"
+    }
+  ]
+}

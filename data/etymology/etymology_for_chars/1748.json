@@ -1,0 +1,103 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "天干的第十位，用于纪年、纪月、纪日等，亦指顺序第十。",
+      "examples": [
+        "癸亥年新春是在改革中到來的。",
+        "太歲在癸曰昭陽。"
+      ],
+      "traditional_char": "癸"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "北方、北部的指代。",
+      "examples": [
+        "北方屬癸。",
+        "癸次，水腔瀑三丈餘。"
+      ],
+      "traditional_char": "癸"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "妇女月经，特指“癸水”。",
+      "examples": [
+        "女子二七，而天癸至。",
+        "癸水"
+      ],
+      "traditional_char": "癸"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "揆度，估量。",
+      "examples": [
+        "癸之言揆也，言萬物可揆度，故曰癸。",
+        "癸者，歸也。"
+      ],
+      "traditional_char": "癸"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "古代武器名，戟属。",
+      "examples": [
+        "甲骨文字形象二戣（kuí），古代兵器。",
+        "古文癸象交叉之形，盖即“戣”之古文。"
+      ],
+      "traditional_char": "癸"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [
+        "齊癸公之後。",
+        "春秋齊癸公"
+      ],
+      "traditional_char": "癸"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "pictograph",
+      "original_sense_index": 4,
+      "note": "甲骨文象二戣交叉之形，本为古代兵器，后为戣之古文。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 4,
+      "target_index": 0,
+      "evolution_type": "semantic_shift",
+      "note": "由兵器名转为天干第十，形成专名，周初以十干纪序。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "天干癸与五行属水，方位属北，故癸引申为北方。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "癸与水属性相关，引申为癸水，代表女子月经。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "analogy",
+      "note": "“癸”与“揆度”谐音假借或基于解释，古籍释为估量。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "conversion",
+      "note": "天干专名转用为姓氏。"
+    }
+  ]
+}

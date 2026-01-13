@@ -1,0 +1,88 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "丈夫的母亲",
+      "examples": [
+        "舅姑皆在堂。",
+        "翁姑相亲。"
+      ],
+      "traditional_char": "姑"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "父亲的姐妹",
+      "examples": [
+        "大姑、小姑。",
+        "姑父。"
+      ],
+      "traditional_char": "姑"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "丈夫的姊妹",
+      "examples": [
+        "小姑子。",
+        "姑嫂。"
+      ],
+      "traditional_char": "姑"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "少女，妇女的通称",
+      "examples": [
+        "姑娘。",
+        "道姑。",
+        "尼姑。"
+      ],
+      "traditional_char": "姑"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adverb",
+      "meaning": "暂且，苟且",
+      "examples": [
+        "姑且。",
+        "姑息养奸。"
+      ],
+      "traditional_char": "姑"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从女，古声，最初表示丈夫的母亲。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "亲属称谓从丈夫的母亲扩展到父亲的姐妹，汉魏六朝可见。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "进一步用于称丈夫的姊妹，属家庭成员称谓泛化。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由亲属名词泛化为女子、少女的通称，多见于元明之后。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "从‘姑娘为未定’引申作‘暂且、苟且’，意带犹豫不决，表副词用法。"
+    }
+  ]
+}

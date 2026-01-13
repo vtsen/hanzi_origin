@@ -1,0 +1,78 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "可以用力发射出去的小丸，或装有爆炸物的武器，如子弹、导弹。",
+      "examples": [
+        "子弹",
+        "导弹",
+        "氢弹",
+        "枪弹",
+        "手榴弹"
+      ],
+      "traditional_char": "彈"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "古代指以竹为弦的弓。",
+      "examples": [
+        "左挟弹，右摄丸",
+        "以弹射丸"
+      ],
+      "traditional_char": "彈"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "用手或工具拨动而发射出去，或用手指拨弄，如弹射、弹跳、弹拨、弹琴。",
+      "examples": [
+        "弹射",
+        "弹跳",
+        "弹拨",
+        "弹琴",
+        "弹奏"
+      ],
+      "traditional_char": "彈"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "检举违法失职的官吏，弹劾。",
+      "examples": [
+        "弹劾",
+        "弹纠",
+        "讥弹"
+      ],
+      "traditional_char": "彈"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从“弓”表意，‘单’表音，本义为‘弹丸’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由弹丸引申为用手指或工具弹射、拨动的动作。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由弹射的弹丸引申为用于发射弹丸的弓，见于古义。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由用力弹射动作比喻批评、检举官吏，转义为弹劾。"
+    }
+  ]
+}

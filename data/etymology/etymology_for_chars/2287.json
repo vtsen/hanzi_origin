@@ -1,0 +1,42 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "口腔里的消化液，唾液、唾沫。",
+      "examples": [
+        "口中无～",
+        "～液分泌",
+        "～沫星子"
+      ],
+      "traditional_char": "唾"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "啐，从嘴里吐出来。",
+      "examples": [
+        "～弃",
+        "～骂",
+        "～手可得",
+        "～面自干"
+      ],
+      "traditional_char": "唾"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘唾’为形声字，从口，垂声，本义指口腔中的液体。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "conversion",
+      "note": "由名词“口腔内的唾液”到动词“将唾液吐出”，名物转换。"
+    }
+  ]
+}

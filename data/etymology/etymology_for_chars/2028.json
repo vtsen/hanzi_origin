@@ -1,0 +1,120 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "因创伤或病变导致的身体疾患，本义即因受伤或生病而造成的不适。",
+      "examples": [
+        "疾，病也。——《说文》",
+        "讳疾忌医。——《韩非子·喻老》"
+      ],
+      "traditional_char": "疾"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "一般的痛苦或苦难。",
+      "examples": [
+        "疾苦",
+        "救民于水火之疾。"
+      ],
+      "traditional_char": "疾"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "疼痛。",
+      "examples": [
+        "疾首蹙额",
+        "深疾痛恨。"
+      ],
+      "traditional_char": "疾"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "痛恨，憎恨。",
+      "examples": [
+        "疾恶如仇",
+        "见人之善而疾之。——《荀子》"
+      ],
+      "traditional_char": "疾"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "嫉妒，妒忌。",
+      "examples": [
+        "人贱则疾贵。——《韩诗外传》",
+        "古同“嫉”"
+      ],
+      "traditional_char": "疾"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "弊病，缺点。",
+      "examples": [
+        "寡人有疾。——《孟子》",
+        "治其疾。"
+      ],
+      "traditional_char": "疾"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "adjective",
+      "meaning": "迅速，快速。",
+      "examples": [
+        "疾步",
+        "疾驰",
+        "疾走"
+      ],
+      "traditional_char": "疾"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "《说文》会意字，从大(人)从矢，象人受箭伤，初本指受伤泛指疾病。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由具体身体之病引申为一般痛苦。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由身体疾患进一步引申为疼痛症状。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "metaphor",
+      "note": "以身体之病喻事物的弊病。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由真实身体的疼痛转喻为内心的痛恨。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_shift",
+      "note": "“疾”与“嫉”古音通，意义跨越，由病变义转为妒忌。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "metaphor",
+      "note": "“疾”含矢疾速义，引申为速度快。"
+    }
+  ]
+}

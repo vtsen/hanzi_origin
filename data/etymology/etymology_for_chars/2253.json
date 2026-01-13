@@ -1,0 +1,147 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "大土山、山丘",
+      "examples": [
+        "古有大虚之丘"
+      ],
+      "traditional_char": "虛"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "市场、集市",
+      "examples": [
+        "虚中有圩，民集于此"
+      ],
+      "traditional_char": "虛"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "星名，二十八宿之一",
+      "examples": [
+        "虚宿在天市之南"
+      ],
+      "traditional_char": "虛"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "空、无的状态",
+      "examples": [
+        "乘虚而入",
+        "虚无缥缈"
+      ],
+      "traditional_char": "虛"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "不真实的，虚假，不实",
+      "examples": [
+        "虚伪",
+        "虚假",
+        "虚张声势"
+      ],
+      "traditional_char": "虛"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "adjective",
+      "meaning": "内心怯懦",
+      "examples": [
+        "做贼心虚"
+      ],
+      "traditional_char": "虛"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "adjective",
+      "meaning": "谦逊，不自满",
+      "examples": [
+        "虚心",
+        "谦虚"
+      ],
+      "traditional_char": "虛"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "adjective",
+      "meaning": "抽象的，不具体的",
+      "examples": [
+        "虚词"
+      ],
+      "traditional_char": "虛"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "adjective",
+      "meaning": "衰弱，空虚（体弱）",
+      "examples": [
+        "气虚",
+        "血虚"
+      ],
+      "traditional_char": "虛"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘虚’为形声字，从丘，虍声，丘指大土山，为本义"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由大土山引申为空旷无物，后发展为‘空’、‘无’之意"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "由‘空’引申为‘不真实’，多见于文献词组转义"
+    },
+    {
+      "source_index": 3,
+      "target_index": 5,
+      "evolution_type": "metaphor",
+      "note": "‘空’引申为‘内心怯懦’，心理状态的转化"
+    },
+    {
+      "source_index": 3,
+      "target_index": 6,
+      "evolution_type": "metaphor",
+      "note": "‘空无’为空，转为‘谦逊、虚怀’"
+    },
+    {
+      "source_index": 3,
+      "target_index": 7,
+      "evolution_type": "semantic_extension",
+      "note": "‘空’引申为抽象、不具体"
+    },
+    {
+      "source_index": 3,
+      "target_index": 8,
+      "evolution_type": "metaphor",
+      "note": "由‘空’引申为‘身体衰弱、亏损’"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "以原地形名作星宿名"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由丘引申为集市之地，和‘圩’借用互通"
+    }
+  ]
+}

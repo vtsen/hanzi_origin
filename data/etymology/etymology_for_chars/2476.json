@@ -1,0 +1,85 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "跟着，伴随。",
+      "examples": [
+        "随从",
+        "随员",
+        "随葬",
+        "随即",
+        "随行"
+      ],
+      "traditional_char": "隨"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "顺从，听从，依照。",
+      "examples": [
+        "随意",
+        "随口",
+        "随宜",
+        "随和",
+        "随俗",
+        "随笔",
+        "随遇而安"
+      ],
+      "traditional_char": "隨"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adverb",
+      "meaning": "顺便，就着。",
+      "examples": [
+        "随带",
+        "随手关门"
+      ],
+      "traditional_char": "隨"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "像，类似于。",
+      "examples": [
+        "他长得随他父亲"
+      ],
+      "traditional_char": "隨"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "姓氏名。",
+      "examples": [],
+      "traditional_char": "隨"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "隨为形声字，从辵（表示行走、随行之意），有䜌声，最初意为跟随、随行。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由跟随引申为顺从、依从，汉代已见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由跟随引申为顺便、就着做某事。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "analogy",
+      "note": "“随”由跟随引申为因某种特质/行为类似而称‘随’，语义变迁以类似关系为基础。"
+    }
+  ]
+}

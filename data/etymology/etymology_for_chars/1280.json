@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "栋梁，屋内支撑屋顶的横梁。",
+      "examples": [
+        "宙，舟舆所极覆也。——《说文》",
+        "宙，栋梁也。——高诱注《淮南子·览冥》"
+      ],
+      "traditional_char": "宙"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "古往今来的时间；无限的时间。",
+      "examples": [
+        "往古来今谓之宙，四方上下谓之宇。——《淮南子·齐俗》",
+        "有实而无乎处者宇也，有长而无本剽者宙也。——《庄子·庚桑楚》"
+      ],
+      "traditional_char": "宙"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "天空。",
+      "examples": [
+        "功烛上宙，德耀中天。——《南齐书》",
+        "霜凝碧宙，水莹丹霄。——王勃《七夕赋》"
+      ],
+      "traditional_char": "宙"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "舟车所到之处；居处。",
+      "examples": [
+        "宙，舟舆所极覆也。——《说文》",
+        "宙，居也。——《广雅·释诂二》"
+      ],
+      "traditional_char": "宙"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从宀表房屋，由声取声，最初表示栋梁。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由‘栋梁’引申为‘居处’、‘舟车所到之处’，汉代以前已有。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由房屋之梁引申喻为时间的支撑、无始无终的‘长’，见先秦哲学文献。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由‘无限时间’喻及‘天空’，古诗中常见上下文共现，可看作空间与时间的并称。"
+    }
+  ]
+}

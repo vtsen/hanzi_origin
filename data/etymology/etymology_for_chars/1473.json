@@ -1,0 +1,73 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "直立的，与“横”相对",
+      "examples": [
+        "竖立",
+        "竖井",
+        "把琴竖着放",
+        "竖起耳朵听"
+      ],
+      "traditional_char": "竪"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "汉字自上而下的一种笔画形状",
+      "examples": [
+        "写‘十’字时要先写横，再写竖"
+      ],
+      "traditional_char": "竪"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "上下或前后的方向，与“横”相对",
+      "examples": [
+        "字要竖着写",
+        "竖排"
+      ],
+      "traditional_char": "竪"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "旧时指未成年的童仆或小臣，引申为卑贱的人",
+      "examples": [
+        "童竖",
+        "竖子不足与谋",
+        "竖小子"
+      ],
+      "traditional_char": "竪"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从立，朮声。本义为直立，与“横”对。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "形容词“直立的”引申为“直立的方向”"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "直立的，引申为“汉字直线形笔画”"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "“直立”形状喻指站立的童仆，后泛指少年小臣、卑贱者"
+    }
+  ]
+}

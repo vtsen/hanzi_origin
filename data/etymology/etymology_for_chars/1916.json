@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "interjection",
+      "meaning": "应答的声音，表示答应或回应。",
+      "examples": [
+        "唉，你叫我吗？",
+        "唉，在的。"
+      ],
+      "traditional_char": "唉"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "interjection",
+      "meaning": "叹息的声音，表示叹息、感慨或哀伤。",
+      "examples": [
+        "唉，世事无常。",
+        "唉，他又失败了。"
+      ],
+      "traditional_char": "唉"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从口，矣声，最初用作应答或回应之叹词。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由简单应答发展为带有情感色彩的叹息声，可能出现在中古及之后。"
+    }
+  ]
+}

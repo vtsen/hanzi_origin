@@ -1,0 +1,40 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "燃烧，烧起火焰",
+      "examples": [
+        "燃烧",
+        "燃料",
+        "自燃"
+      ],
+      "traditional_char": "燃"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "用火引燃或点着",
+      "examples": [
+        "点燃",
+        "燃灯"
+      ],
+      "traditional_char": "燃"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从火，然声，本义为燃烧，新造字以区分“然”字多义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从“自身燃烧”扩展为“用火点燃其他东西”，见于现代书面语。"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "酒母，指用来酿酒使其发酵的引子物",
+      "examples": [
+        "曲生酵，酵生酒。——《说文》",
+        "以曲酵酒"
+      ],
+      "traditional_char": "酵"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "有机物因菌或酶的作用而分解，称为“发酵”。使有机物发酵的微生物称“酵母菌”；亦指“酵母”",
+      "examples": [
+        "酵母是一种重要的生物催化剂。",
+        "食品工业常用酵母发酵。"
+      ],
+      "traditional_char": "酵"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从酉，表示与酒发酵有关，‘孝’作声符，最初本义为酿酒用的酒母。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由酒母引申为一切能促进发酵的微生物及发酵过程，时间大致在近现代科学普及后广义化。"
+    }
+  ]
+}

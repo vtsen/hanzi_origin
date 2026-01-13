@@ -1,0 +1,38 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "肚子向下卧倒",
+      "examples": [
+        "趴下",
+        "趴虎儿"
+      ],
+      "traditional_char": "趴"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "身体向前靠在东西上",
+      "examples": [
+        "趴在桌子上"
+      ],
+      "traditional_char": "趴"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，“足”旁表示与动作有关，“巴”表示读音。本义为肚子向下的卧倒。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由肚皮向下卧倒，扩大为身体前倾依靠于物体之上。"
+    }
+  ]
+}

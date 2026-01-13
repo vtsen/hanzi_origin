@@ -1,0 +1,85 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "日月周围形成的光圈",
+      "examples": [
+        "日晕而风，月晕而雨。"
+      ],
+      "traditional_char": "暈"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "光影色泽模糊的部分",
+      "examples": [
+        "墨晕未干。",
+        "霞晕缭绕。"
+      ],
+      "traditional_char": "暈"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "头晕目眩，有旋转感",
+      "examples": [
+        "晕眩。",
+        "晕车。"
+      ],
+      "traditional_char": "暈"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "昏迷",
+      "examples": [
+        "晕倒。",
+        "晕厥。"
+      ],
+      "traditional_char": "暈"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "头脑不清",
+      "examples": [
+        "他说得我都晕了。"
+      ],
+      "traditional_char": "暈"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从日，军声，‘暈/晕’最初指日月产生的光圈。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由天空光圈引申为任何光影模糊的环状或扩散部分。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由模糊扩散的视觉引申为头部眩晕的视觉体验。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "由眩晕进一步发展为昏迷状态，现代口语用法。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由眩晕引申为头脑不清，意识模糊的状态。"
+    }
+  ]
+}

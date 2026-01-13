@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "中式的单上衣（通常指罩在外面的衣服），包括大褂、小褂、长褂、短褂等。",
+      "examples": [
+        "他穿着一件蓝色的褂子。",
+        "长褂、短褂都是常见的中式服饰。",
+        "身长过膝的叫大褂，贴身的叫小褂。"
+      ],
+      "traditional_char": "褂"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "古代军装的一种，有罩甲的短袖戎衣。",
+      "examples": [
+        "昔日士兵身披甲褂上阵。",
+        "有罩甲的短袖戎衣称为褂。"
+      ],
+      "traditional_char": "褂"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "清代礼服的外衣，礼服加于袍外叫外褂，短的称马褂。",
+      "examples": [
+        "外褂、马褂是清代官员礼服组成部分。",
+        "朝廷命官常着褂、袍出入。"
+      ],
+      "traditional_char": "褂"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "衣旁表义，卦声表音，最初表示“外罩之衣”，后义分化。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由普通罩衣义扩展指代古代军中罩甲的外衣。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由普通上衣义进一步指称清代礼服外套，包括外褂、马褂等。"
+    }
+  ]
+}

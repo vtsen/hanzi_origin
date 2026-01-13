@@ -1,0 +1,85 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "下落，落下",
+      "examples": [
+        "下降",
+        "空降",
+        "降临"
+      ],
+      "traditional_char": "降"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "降低，贬抑",
+      "examples": [
+        "降低",
+        "降价",
+        "降职",
+        "降解"
+      ],
+      "traditional_char": "降"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [],
+      "traditional_char": "降"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "投降，归顺",
+      "examples": [
+        "宁死不降"
+      ],
+      "traditional_char": "降"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "降服，使驯服",
+      "examples": [
+        "降龙伏虎"
+      ],
+      "traditional_char": "降"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“降”会意兼形声，从阝（表示与地势相关，意为下降，落下），原意为下落。右旁为‘夅’，表示音。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从物理下落引申为数量、地位等的降低。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由下落寓意屈服，引申为投降。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由“投降”引申为“使驯服、征服”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "unknown",
+      "note": "用作姓氏，来源不明，或取原意。"
+    }
+  ]
+}

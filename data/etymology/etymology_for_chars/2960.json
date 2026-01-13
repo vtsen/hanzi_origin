@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "愚蠢，不聪明",
+      "examples": [
+        "你太傻了。",
+        "他是个傻瓜。"
+      ],
+      "traditional_char": "傻"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "老实，死心眼而不知变通",
+      "examples": [
+        "傻干",
+        "傻气",
+        "他太傻了，一点都不懂变通。"
+      ],
+      "traditional_char": "傻"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "呆，愣，因震惊或恐惧而失去反应",
+      "examples": [
+        "吓傻了",
+        "傻眼了"
+      ],
+      "traditional_char": "傻"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘傻’为形声字，从亻，音符‘杀’。本义为愚蠢，与现代主要义项一致。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由愚蠢引申为死心眼、老实但不知变通的性格。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "从愚蠢引申至表呆、愣，因震惊或恐惧而表情迟钝。"
+    }
+  ]
+}

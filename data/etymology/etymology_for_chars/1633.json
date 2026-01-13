@@ -1,0 +1,52 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "花蒂，花与枝茎相连的部分。",
+      "examples": [],
+      "traditional_char": "帝"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "宗教或神话中宇宙的创造者和主宰者，如“上帝”、“玉皇大帝”。",
+      "examples": [
+        "玉皇大帝",
+        "上帝"
+      ],
+      "traditional_char": "帝"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "君主，最高统治者。",
+      "examples": [
+        "称帝",
+        "皇帝"
+      ],
+      "traditional_char": "帝"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "pictograph",
+      "original_sense_index": 0,
+      "note": "甲骨文字形为象形，描绘花蒂的部分结构，上为子房，中为花萼，下为花蕊。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "古代宗教观念中以花蒂喻至高神明，产生抽象化的神主宰义，见于先秦文献。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "以“帝”称呼世俗最高统治者，由神权向王权的语义转移，秦汉以后广泛用于君主头衔。"
+    }
+  ]
+}

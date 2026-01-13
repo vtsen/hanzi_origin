@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "两岁以下的小马",
+      "examples": [
+        "驹入厩而鸣。",
+        "马驹子"
+      ],
+      "traditional_char": "駒"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "骏马，有时用于比喻少年英俊的人",
+      "examples": [
+        "千里驹",
+        "江东有骥子，少年多驹。"
+      ],
+      "traditional_char": "駒"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "小驴或小骡",
+      "examples": [
+        "驴驹子",
+        "骡驹子"
+      ],
+      "traditional_char": "駒"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从马，句声，表示小马。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由小马扩展用于小驴、小骡，见于后世日常用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由指小马引申为骏马，后比喻青年英俊之人。"
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "大象",
+      "examples": [
+        "豫，象也。——《说文》",
+        "豫者，象也。——《吕氏春秋·音律》"
+      ],
+      "traditional_char": "豫"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "欢喜，快乐",
+      "examples": [
+        "不豫之色。——《左传·宣公十二年》",
+        "豫游"
+      ],
+      "traditional_char": "豫"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "安闲，舒适",
+      "examples": [
+        "逸豫",
+        "君子安而不忘危，存而不忘亡，治而不忘乱，是以身安而国家可保也。——《易·系辞上传》"
+      ],
+      "traditional_char": "豫"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "参与，参加",
+      "examples": [
+        "古人有言，所贵乎豫者三。",
+        "豫焉与哉。——《论语·为政》"
+      ],
+      "traditional_char": "豫"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "other",
+      "meaning": "预先；参与（通“预”）",
+      "examples": [
+        "不豫其谋。",
+        "豫修知来。"
+      ],
+      "traditional_char": "豫"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "河南省的别称",
+      "examples": [
+        "豫剧",
+        "豫南",
+        "豫章"
+      ],
+      "traditional_char": "豫"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从象，予声，最初本意为大象。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "大象体态安然欢畅，引申为快乐、欢喜之意，早在先秦即已出现。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由快乐引申为安闲、舒适。常见于先秦、两汉用例。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "unknown",
+      "note": "“豫”用作参与，与象意相关机制未详，学界或认作假借/通用。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "“豫”通“预”，由参与泛化到介入、预先等，属语音通用。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "metonymy",
+      "note": "“豫”因豫州（古九州之一）故成为河南省别称，地名专用。"
+    }
+  ]
+}

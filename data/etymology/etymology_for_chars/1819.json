@@ -1,0 +1,130 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "附耳小语，私下低声说话",
+      "examples": [
+        "聂，附耳私小语也。——《说文》",
+        "乃效女儿咕嗫私语。——《史记·魏其武安侯列传》"
+      ],
+      "traditional_char": "聶"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "握持，拿住；“摄”的假借字",
+      "examples": [
+        "为人两手聂其耳。——《山海经·海外北经·聂耳国》"
+      ],
+      "traditional_char": "聶"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "地名，古地名“聂”",
+      "examples": [
+        "齐师，宋师，曹师次于聂北救邢。——《春秋·僖元年》",
+        "东郡有聂戚。——《后汉·郡国志》"
+      ],
+      "traditional_char": "聶"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "聂政之刺韩傀也，白虹贯日。——《战国策·魏策》"
+      ],
+      "traditional_char": "聶"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "切成薄片的肉",
+      "examples": [
+        "牛与羊鱼之腥，聶而切之为膾。——《礼记·少仪》"
+      ],
+      "traditional_char": "聶"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "合，结合（用于描述植物叶子的动作）",
+      "examples": [
+        "槐叶昼日聂合而夜炕布者，名为守宫槐。——《尔雅·释木》"
+      ],
+      "traditional_char": "聶"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "蔓木名（“欇”的通用字）",
+      "examples": [],
+      "traditional_char": "聶"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "verb",
+      "meaning": "（现代）“聂”字的简化字，用于所有上述含义",
+      "examples": [],
+      "traditional_char": "聂"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "从三‘耳’，表示耳对耳低语，‘会意’结构。‘聶’为本字，最早本义为‘附耳小语’。"
+    },
+    {
+      "formation_type": "unknown",
+      "original_sense_index": 7,
+      "note": "‘聂’为‘聶’的简化字，现代简化后用以代替所有本义及引申义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "‘聶’借为‘摄’，以音近假借于“握持”义，见《山海经》，战国至汉代已见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "本意引申为地名，多为地理或文化上的专用。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "由地名转为姓氏，为常见模式，战国至汉代确立。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "conversion",
+      "note": "音通假，义有分化，用于肉食加工的专称，见于先秦经典。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "由‘合语低声’引申为‘合拢、联合’之义，用于描述植物叶子的动作。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "conversion",
+      "note": "通假‘欇’，表蔓木名，属同音通假。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 7,
+      "evolution_type": "reanalysis",
+      "note": "简化字‘聂’后统摄所有本义及引申义，语文现代化产物。"
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古代朝廷传达命令或征调兵将用的凭证（如虎符），双方各执一半以验真假。",
+      "examples": [
+        "持虎符而发兵",
+        "将军奉符节出征"
+      ],
+      "traditional_char": "符"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "代表事物的标记、记号，通常用于指示、说明或表达事物属性的符号。",
+      "examples": [
+        "数学符号",
+        "音符"
+      ],
+      "traditional_char": "符"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "相合、符合、契合之意。",
+      "examples": [
+        "言行相符",
+        "事实与推测相符"
+      ],
+      "traditional_char": "符"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "道士画的驱使鬼神的图形或线条。",
+      "examples": [
+        "画一道符",
+        "护身符"
+      ],
+      "traditional_char": "符"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "古代称祥瑞的征兆，吉祥的预示。",
+      "examples": [
+        "符瑞",
+        "符应"
+      ],
+      "traditional_char": "符"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [
+        "符离",
+        "符姓"
+      ],
+      "traditional_char": "符"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从竹，付声。本义为朝廷传达命令及调兵的凭证，多由竹制，显示了“竹”的材质特征。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "凭证、符节的‘可验证’‘区别他物’义，扩展为广泛用于表示事物属性、身份的标记、记号。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由‘符号相合’引申出‘两者相合、符合’这一抽象动词义。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "道教法术中借朝廷‘符节’之权威转而作为驱使鬼神的工具（画符）。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "原本为权力凭证，后借为吉兆、祥瑞之象征，即‘符瑞’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "conversion",
+      "note": "凭证义用作氏族名称。多源于先祖官职。"
+    }
+  ]
+}

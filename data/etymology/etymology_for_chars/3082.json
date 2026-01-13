@@ -1,0 +1,70 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "压出物体里汁液的器具",
+      "examples": [
+        "酒榨",
+        "油榨",
+        "榨床"
+      ],
+      "traditional_char": "榨"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "榨菜，二年生草本植物，芥菜的变种，茎膨大成瘤状，可食",
+      "examples": [
+        "榨菜美味可口"
+      ],
+      "traditional_char": "榨"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "用芥菜的茎加辣椒、香料等腌制而成的副食品",
+      "examples": [
+        "一盘榨菜"
+      ],
+      "traditional_char": "榨"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "用力把物体里的汁液压出来，引申为逼取他人的财物",
+      "examples": [
+        "榨油",
+        "榨取剩余价值"
+      ],
+      "traditional_char": "榨"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 3,
+      "note": "形声字，“木”旁表示与木器有关，“乍”为声符，最初表示用器具压出汁液的动作。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 3,
+      "target_index": 0,
+      "evolution_type": "conversion",
+      "note": "动词“榨”转换为作压榨汁液器具的名词。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "用“榨”引申指被榨制加工的蔬菜。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "榨菜由指植物名扩展为该植物腌制品。"
+    }
+  ]
+}

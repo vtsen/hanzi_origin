@@ -1,0 +1,72 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "明亮",
+      "examples": [
+        "明晃晃",
+        "天色晃晃"
+      ],
+      "traditional_char": "晃"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "照耀",
+      "examples": [
+        "晃眼",
+        "阳光晃得人睁不开眼"
+      ],
+      "traditional_char": "晃"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "形影很快地闪过",
+      "examples": [
+        "一晃十年",
+        "人影一晃就不见了"
+      ],
+      "traditional_char": "晃"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "摇动",
+      "examples": [
+        "晃荡",
+        "晃动",
+        "晃悠悠"
+      ],
+      "traditional_char": "晃"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从日，光声，初指明亮。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由明亮引申为光照耀人。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "“晃”由明亮引申至影像一闪而过。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "明亮、摇动音义近，后用作表示摇动。"
+    }
+  ]
+}

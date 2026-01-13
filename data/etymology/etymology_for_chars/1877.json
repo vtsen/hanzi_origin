@@ -1,0 +1,146 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "叩头，磕头",
+      "examples": [
+        "顿首再拜"
+      ],
+      "traditional_char": "頓"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "很短时间的停止",
+      "examples": [
+        "停顿",
+        "抑扬顿挫"
+      ],
+      "traditional_char": "頓"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adverb",
+      "meaning": "忽然，立刻，一下子",
+      "examples": [
+        "顿然",
+        "顿即",
+        "顿悟"
+      ],
+      "traditional_char": "頓"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "处理，设置",
+      "examples": [
+        "安顿",
+        "整顿"
+      ],
+      "traditional_char": "頓"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "疲乏",
+      "examples": [
+        "困顿",
+        "劳动使人困顿"
+      ],
+      "traditional_char": "頓"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "书法上指运笔用力向下而暂不移动",
+      "examples": [
+        "横的两头都要顿一顿"
+      ],
+      "traditional_char": "頓"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "measure_word",
+      "meaning": "次，回合",
+      "examples": [
+        "三顿饭"
+      ],
+      "traditional_char": "頓"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "adjective",
+      "meaning": "古同“钝”，不锋利",
+      "examples": [
+        "刀刃既顿",
+        "利剑变顿"
+      ],
+      "traditional_char": "頓"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [],
+      "traditional_char": "頓"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从页，屯声，页与头部动作有关，最初表示叩头。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由叩头动作的停顿，引申为短暂停止。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由停止引申为突然，一下子之义。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "停止、安排等动作引申为处理、设置。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "停止动作带来的疲乏感，转为形容词。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "动作停顿的本义在书法领域的专业用法。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 6,
+      "evolution_type": "conversion",
+      "note": "由动作的停顿抽象出“次”的量词用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 7,
+      "evolution_type": "unknown",
+      "note": "与‘钝’相关，但具体词义演变不明。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 8,
+      "evolution_type": "reanalysis",
+      "note": "词义通用于姓氏，通常源自地名或职业。"
+    }
+  ]
+}

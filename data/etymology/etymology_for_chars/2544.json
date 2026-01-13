@@ -1,0 +1,58 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "连接，结合在一起。",
+      "examples": [
+        "联合",
+        "联络",
+        "珠联璧合"
+      ],
+      "traditional_char": "聯"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "对偶的语句。",
+      "examples": [
+        "对联",
+        "挽联",
+        "楹联",
+        "上联",
+        "下联"
+      ],
+      "traditional_char": "聯"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "古代户口编制，十人为一联。",
+      "examples": [
+        "十人为联"
+      ],
+      "traditional_char": "聯"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意字，从耳、从丝，耳表示‘听闻’，丝表示‘连接’，表示用丝线相连，表达连结之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "对偶句如上下联，借‘相连’之义比喻文句对应相接。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由‘连接’引申为‘编制十人相联’的户籍单位。"
+    }
+  ]
+}

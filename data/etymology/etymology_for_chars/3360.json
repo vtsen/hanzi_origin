@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "用竹、芦苇、树枝等编成的围墙或屏障，通常用于分隔或保护场地，即篱笆。",
+      "examples": [
+        "采菊东篱下，悠然见南山。",
+        "庭中始为篱，已为墙，凡再变矣。"
+      ],
+      "traditional_char": "籬"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "用竹篾、柳条或铁丝编成的杓形工具，能漏水，用来在汤里捞东西，即“笊篱”。",
+      "examples": [
+        "厨房用笊篱捞面。",
+        "笊篱竹器。"
+      ],
+      "traditional_char": "籬"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从竹，声旁为‘离’；‘竹’指材料，表义，“离”表声。最初用于指用竹编成的篱笆。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "因杓形竹器编制方法与篱笆类似，名称转用于厨房杓形滤器，多见于古籍和现代共用阶段。"
+    }
+  ]
+}

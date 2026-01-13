@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "pronoun",
+      "meaning": "疑问代词，用于名词或数量词前后，表示在所问范围中有所确定，如“哪样”、“哪里”、“哪个”、“哪些”。",
+      "examples": [
+        "你要去哪儿？",
+        "哪个是你的？",
+        "哪本书最好？"
+      ],
+      "traditional_char": "哪"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "particle",
+      "meaning": "语气助词，“啊”因受前字韵母ｎ收音而变为“哪”，多用于口语中加强语气。",
+      "examples": [
+        "加油干哪！",
+        "别走哪！"
+      ],
+      "traditional_char": "哪"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "神话人物名，用于“哪吒”中，指中国古代神话人物。",
+      "examples": [
+        "哪吒闹海",
+        "《西游记》中有哪吒"
+      ],
+      "traditional_char": "哪"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字。从口，那声，表示发问的疑问代词。‘口’表示与语言、发问有关。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "grammaticalization",
+      "note": "疑问代词虚化为语气助词，出现于近现代汉语口语。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "unknown",
+      "note": "用作人名音译，关联不明，主要因音译所致。"
+    }
+  ]
+}

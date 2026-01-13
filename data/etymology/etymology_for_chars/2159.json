@@ -1,0 +1,101 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "似玉的美石或青色的珊瑚，美石名，亦特指琅玕等像珠子的玉石。",
+      "examples": [
+        "厥贡惟球琳琅玕。——《书·禹贡》",
+        "琅，琅玕似珠者。——《说文》",
+        "王母乃命诸侍女王子弹八琅之璈。——《汉武帝内传》"
+      ],
+      "traditional_char": "瑯"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "门环，一种金属或玉制的门把手。",
+      "examples": [
+        "木门仓琅根，谓宫门铜锾，言将尊贵也。——《汉书》"
+      ],
+      "traditional_char": "瑯"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "地名，琅玡（瑯琊）山，在山东省及周边一带。",
+      "examples": [
+        "琅琊台在渤海间。",
+        "今琅琊在海边，有山嶕嶢特起，状如高台。——《括地志》"
+      ],
+      "traditional_char": "瑯"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [
+        "齐有大夫琅过。——《姓苑》"
+      ],
+      "traditional_char": "瑯"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "洁白、华美如玉。",
+      "examples": [
+        "已过重阳半月天，琅华千点照寒烟。——皮日休《奉和鲁望白菊诗》"
+      ],
+      "traditional_char": "瑯"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "onomatopoeia",
+      "meaning": "象声词，形容清朗、响亮的声音，如金石相击或读书声。",
+      "examples": [
+        "书声琅琅。",
+        "法鼓琅以振响。——《文选·孙绰〈游天台山赋〉》"
+      ],
+      "traditional_char": "瑯"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从玉，良声。本义为似玉的美石或青色的珊瑚，‘玉’表意，‘良’表音。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由玉石引申为玉石制成的门环，古代多以玉、青铜等为材。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "以美石为地名，因地多产此类石或以之著称。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "由地名转为姓氏，常见古姓来源机制。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "从美石之色、质引申为形容洁白、华美。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "metaphor",
+      "note": "拟美玉珠等击打发声，引申为象声词形容清朗的声音。"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "忧虑，担心",
+      "examples": [
+        "忧患",
+        "患得患失"
+      ],
+      "traditional_char": "患"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "灾祸，祸害",
+      "examples": [
+        "灾患",
+        "祸患",
+        "患难",
+        "隐患",
+        "防患未然"
+      ],
+      "traditional_char": "患"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "生病，患病",
+      "examples": [
+        "患病",
+        "患者"
+      ],
+      "traditional_char": "患"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“患”为形声字，从心，串声，本义为忧虑、担心（与心相关）。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘忧虑’引申为令人忧虑的事，即‘灾祸’。战国至汉已见此义。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "从‘祸患’具体转化为‘疾病’，即身体遭受祸患。多见于汉代以后。"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "木名。指槟榔树、桄榔树等棕榈科高大乔木。",
+      "examples": [
+        "榔，檳榔，又桄榔。",
+        "麪有桄榔。——《文選·蜀都賦》",
+        "桄榔，樹名也。"
+      ],
+      "traditional_char": "榔"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "榔榆，落叶乔木，木材坚硬致密。",
+      "examples": [
+        "榔榆，木名。"
+      ],
+      "traditional_char": "榔"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "敲击船舷发声的木棒，渔人用于捕捉鱼类。",
+      "examples": [
+        "鳴榔且長謠。——唐·李白《送殷淑》",
+        "鳴長桹於後，所以驚魚，令入網也。——李善注《文選·潘岳〈西征賦〉》"
+      ],
+      "traditional_char": "榔"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "锤子；榔头。",
+      "examples": [
+        "榔头是一种常用的工具。"
+      ],
+      "traditional_char": "榔"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从木，郎声，表示高大的树木。'木'表意，'郎'表音。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_narrowing",
+      "note": "由原泛指高木，后专指榔榆。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由指用作船桨的木头，转指渔人敲击船舷的木棒。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "因形状和用途类似，指敲击用木棒衍生指锤子。"
+    }
+  ]
+}

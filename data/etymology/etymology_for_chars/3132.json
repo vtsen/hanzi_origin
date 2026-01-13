@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "动植物体内像薄皮的组织，如肋膜、耳膜、黏膜、苇膜等。",
+      "examples": [
+        "肋膜发炎",
+        "耳膜破裂",
+        "苇膜保护种子"
+      ],
+      "traditional_char": "膜"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "像膜的薄皮，如牛奶表面的薄膜。",
+      "examples": [
+        "牛奶表层有一层薄膜",
+        "玻璃上结了一层膜"
+      ],
+      "traditional_char": "膜"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "膜拜：跪拜行礼的一种方式。",
+      "examples": [
+        "人们在庙里进行膜拜",
+        "向神佛膜拜"
+      ],
+      "traditional_char": "膜"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从“肉”表义指与肉体相关，“莫”表声，原指生物体内部的薄膜组织。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由生物体内膜的本义引申为其他任何类似的薄层或薄皮，用于比喻。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "analogy",
+      "note": "“膜拜”原为双手如膜状高举，有‘薄膜’包覆之意，后比喻为专用于礼拜之称。"
+    }
+  ]
+}

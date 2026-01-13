@@ -1,0 +1,40 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "碰撞到硬物上",
+      "examples": [
+        "头磕破了。",
+        "磕头碰脑。",
+        "磕磕碰碰。"
+      ],
+      "traditional_char": "磕"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "使物品撞击硬物以去除附着物",
+      "examples": [
+        "磕打。",
+        "磕烟袋锅儿。"
+      ],
+      "traditional_char": "磕"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘磕’为形声字，石为形，盍为声，初指物体撞击硬物之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由单纯碰撞义扩展为通过碰撞清除附着物，属于常见动词用法扩展。"
+    }
+  ]
+}

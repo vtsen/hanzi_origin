@@ -1,0 +1,58 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "勇猛，勇敢",
+      "examples": [
+        "强悍",
+        "精悍",
+        "悍勇"
+      ],
+      "traditional_char": "悍"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "凶暴，残暴",
+      "examples": [
+        "悍然",
+        "凶悍",
+        "悍吏",
+        "悍戾"
+      ],
+      "traditional_char": "悍"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "强劲，猛烈",
+      "examples": [
+        "湍悍",
+        "急悍"
+      ],
+      "traditional_char": "悍"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从心，旱声。本义指勇猛，带行为气质色彩。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "pejoration",
+      "note": "由“勇猛”转为“凶暴”，意涵变贬，常见于后世语境。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由形容人勇猛扩展为形容事物力量强劲、猛烈。"
+    }
+  ]
+}

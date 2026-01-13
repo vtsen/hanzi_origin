@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "用手指搓转",
+      "examples": [
+        "他把棉花捻成线。",
+        "捻麻绳"
+      ],
+      "traditional_char": "捻"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "搓成的条状物",
+      "examples": [
+        "灯捻儿",
+        "灯芯用棉花捻成。"
+      ],
+      "traditional_char": "捻"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "古同“捏”，用拇指和其他手指夹住",
+      "examples": [
+        "捻鼻而笑",
+        "以指捻之"
+      ],
+      "traditional_char": "捻"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从手，念声，表示用手指搓转的动作，是表意与表音结合。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "conversion",
+      "note": "从动作为名词化，指搓成的条状物。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "“捻”后泛指手指动作，转义为用手指捏住，与“捏”发生通用。"
+    }
+  ]
+}

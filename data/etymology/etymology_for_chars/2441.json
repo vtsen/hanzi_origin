@@ -1,0 +1,41 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "悲伤哀悼（多指对死者）",
+      "examples": [
+        "哀悼",
+        "追悼",
+        "悼念",
+        "悼亡",
+        "悼唁",
+        "悼词",
+        "悼惜"
+      ],
+      "traditional_char": "悼"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "恐惧",
+      "examples": [],
+      "traditional_char": "悼"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "形声字，从心，卓声。本义为‘恐惧’，表心中有恐惧之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_shift",
+      "note": "本义‘恐惧’演变为对死者的哀伤，多用于汉以后文献。"
+    }
+  ]
+}

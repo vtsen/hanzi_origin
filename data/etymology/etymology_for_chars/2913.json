@@ -1,0 +1,86 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "抬腿向前或向旁移动越过，迈过。",
+      "examples": [
+        "跨进门槛",
+        "一步跨过"
+      ],
+      "traditional_char": "跨"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "骑，两脚分在器物的两边坐着或立着。",
+      "examples": [
+        "跨马而行",
+        "小孩跨着门槛"
+      ],
+      "traditional_char": "跨"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "超过时间或地区之间的界限。",
+      "examples": [
+        "跨越重洋",
+        "跨国公司",
+        "跨年度工程"
+      ],
+      "traditional_char": "跨"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "附在旁边。",
+      "examples": [
+        "跨院"
+      ],
+      "traditional_char": "跨"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "古同“胯”，指大腿与腹连接的部位。",
+      "examples": [
+        "两跨皆伤"
+      ],
+      "traditional_char": "跨"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从足，夸声。‘足’为意符，表示与腿和步行有关，‘夸’表声音。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由迈步、越过，引申为两腿分开骑坐在物体上，古已有之。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "空间迈越引申为超越时间或地理限界，用于抽象对象。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "动作延伸为“附在旁边”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_shift",
+      "note": "与‘胯’通用，后借为部位名，义见《说文》。"
+    }
+  ]
+}

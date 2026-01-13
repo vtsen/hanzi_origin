@@ -1,0 +1,165 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "水受阻遏后涌动或飞溅",
+      "examples": [
+        "洪水激射而出",
+        "激流勇进"
+      ],
+      "traditional_char": "激"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "冷水突然浇淋或冲、泡食物",
+      "examples": [
+        "激酸菜",
+        "用冷水激一下青菜"
+      ],
+      "traditional_char": "激"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "鼓动，使人的感情冲动",
+      "examples": [
+        "刺激、激励",
+        "激发士气"
+      ],
+      "traditional_char": "激"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "感情冲动",
+      "examples": [
+        "感激",
+        "激动"
+      ],
+      "traditional_char": "激"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "急剧的，强烈的",
+      "examples": [
+        "激烈",
+        "激进"
+      ],
+      "traditional_char": "激"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "adjective",
+      "meaning": "过分直率",
+      "examples": [
+        "激厉",
+        "激切"
+      ],
+      "traditional_char": "激"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "激光：物质原子受刺激后产生的相干光",
+      "examples": [
+        "激光手术",
+        "激光打印机"
+      ],
+      "traditional_char": "激"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "noun",
+      "meaning": "激光器：产生激光的装置",
+      "examples": [
+        "激光器广泛用于通讯"
+      ],
+      "traditional_char": "激"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "noun",
+      "meaning": "激素：由内分泌腺分泌的调节物质",
+      "examples": [
+        "激素调节生长",
+        "激素水平"
+      ],
+      "traditional_char": "激"
+    },
+    {
+      "index": 9,
+      "part_of_speech": "adjective",
+      "meaning": "鲜明",
+      "examples": [
+        "唇如激丹"
+      ],
+      "traditional_char": "激"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，‘氵’表水，‘敫’表音，原指水受阻腾涌之状。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "将水的冲击转喻为冷水冲淋或冲泡食物，义项扩展。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由水流冲击义引申到鼓动情感，有所推动的意思。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "conversion",
+      "note": "由动词转为名词，指激发而产生的情感。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由水流猛烈义扩展为事物剧烈、强烈的形容。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "由强烈转为性格上的直率、激烈。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 9,
+      "evolution_type": "semantic_extension",
+      "note": "由水色鲜明激烈，引申为颜色鲜明。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "reanalysis",
+      "note": "现代术语借本字“激”表示‘激发产生的光’，为物理学意义上的新词。"
+    },
+    {
+      "source_index": 6,
+      "target_index": 7,
+      "evolution_type": "metonymy",
+      "note": "由激光引申为产生激光的装置，名称转用。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 8,
+      "evolution_type": "reanalysis",
+      "note": "借‘激’有刺激、促动义，造作生物学术语“激素”。"
+    }
+  ]
+}

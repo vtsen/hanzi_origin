@@ -1,0 +1,41 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "用脚踩，足着地。",
+      "examples": [
+        "脚踏实地",
+        "踏雪",
+        "践踏"
+      ],
+      "traditional_char": "踏"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "亲自到现场考察、巡视。",
+      "examples": [
+        "踏勘",
+        "踏看",
+        "踏访"
+      ],
+      "traditional_char": "踏"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从足，沓声，本义为用脚踩。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由实际脚踩引申为亲自走到现场考察。"
+    }
+  ]
+}

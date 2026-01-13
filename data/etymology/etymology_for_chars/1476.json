@@ -1,0 +1,72 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "辨别滋味，品尝食物。",
+      "examples": [
+        "尝食",
+        "品尝新鲜水果",
+        "卧薪尝胆"
+      ],
+      "traditional_char": "嘗"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "试，试探。",
+      "examples": [
+        "尝试",
+        "尝敌"
+      ],
+      "traditional_char": "嘗"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "经历，体验。",
+      "examples": [
+        "尝受",
+        "备尝艰苦"
+      ],
+      "traditional_char": "嘗"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adverb",
+      "meaning": "曾经。",
+      "examples": [
+        "未尝",
+        "何尝"
+      ],
+      "traditional_char": "嘗"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从旨（意符，表示与味道有关），尚为声符，古本义为‘辨别滋味、品尝’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由尝味引申为一般‘尝试、试探’，战国至汉朝见用。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由‘试’进一步引申为‘亲身经历’某事。用法唐宋时已普遍。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "grammaticalization",
+      "note": "由‘经历’再语法化为副词，表示‘曾经’。主要用作书面语。"
+    }
+  ]
+}

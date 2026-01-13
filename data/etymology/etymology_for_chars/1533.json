@@ -1,0 +1,103 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古代重量单位，三十斤为一钧",
+      "examples": [
+        "吾力足以举百钧，而不足举一羽。",
+        "千钧一发"
+      ],
+      "traditional_char": "鈞"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "制陶器所用的转轮",
+      "examples": [
+        "陶家名模下圆转者为钧。",
+        "独化于陶钧之上。"
+      ],
+      "traditional_char": "鈞"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "调节乐音的标准，乐调",
+      "examples": [
+        "钧弦",
+        "撞钟钧奏合"
+      ],
+      "traditional_char": "鈞"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "比喻国政，权力的枢纽",
+      "examples": [
+        "钧枢",
+        "秉国之钧"
+      ],
+      "traditional_char": "鈞"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "敬辞，用于尊长或上级，表示‘您的’",
+      "examples": [
+        "钧座",
+        "钧鉴"
+      ],
+      "traditional_char": "鈞"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "adjective",
+      "meaning": "相同；均等；均衡；均匀",
+      "examples": [
+        "其罪惟钧。",
+        "敦弓既坚，四鍭既钧。"
+      ],
+      "traditional_char": "鈞"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从金，匀声，初指重量单位；右侧表示音，金属部首指与金属相关。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "比喻由衡器重量单位引申为制陶转轮之中枢，因其作用如同保持平衡和中点。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由‘权衡标准’引申为调音标准，乐调标准的比喻。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "衡量之意进一步比喻为执政权柄，国政的枢纽。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "amelioration",
+      "note": "用于敬辞，由重量喻重要、尊崇之意的提升。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "conversion",
+      "note": "名词‘钧’转为形容词‘均等、同等’，又因古通‘均’。"
+    }
+  ]
+}

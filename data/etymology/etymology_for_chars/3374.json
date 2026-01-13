@@ -1,0 +1,45 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "甜的物质，由甘蔗、甜菜、米、麦等制成，亦指糖制食品的总称",
+      "examples": [
+        "白糖",
+        "红糖",
+        "冰糖",
+        "糖果",
+        "糖浆",
+        "糖衣"
+      ],
+      "traditional_char": "糖"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "碳水化合物，有机化合物的一类，是人体内产生热能的主要物质",
+      "examples": [
+        "单糖",
+        "双糖",
+        "糖元",
+        "糖尿病"
+      ],
+      "traditional_char": "糖"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字：左边“米”表意，表示与粮食有关，右边“唐”表声；本义为食用糖及糖制品的统称。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "因“糖”含有碳水化合物，后引申为化学上碳水化合物的一类。"
+    }
+  ]
+}

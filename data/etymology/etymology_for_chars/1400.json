@@ -1,0 +1,97 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "异常安乐，极其欢乐。",
+      "examples": [
+        "沉溺于男女欢情，甚也。"
+      ],
+      "traditional_char": "甚"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adverb",
+      "meaning": "很，极，非常。",
+      "examples": [
+        "甚好",
+        "甚快"
+      ],
+      "traditional_char": "甚"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "超过。",
+      "examples": [
+        "日甚一日"
+      ],
+      "traditional_char": "甚"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "pronoun",
+      "meaning": "方言，什么。",
+      "examples": [
+        "甚事？"
+      ],
+      "traditional_char": "甚"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "conjunction",
+      "meaning": "表示进一层的意思，相当于“甚至”、“甚至可以”。",
+      "examples": [
+        "甚至",
+        "甚或"
+      ],
+      "traditional_char": "甚"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "pronoun",
+      "meaning": "同“什”，用于指代“什么”。",
+      "examples": [],
+      "traditional_char": "甚"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意。从甘从匹，表示沉溺于甘美之事，与安乐有关。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由极为安乐引申为程度极甚、非常。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "形容程度大，进一步引申为超过。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "grammaticalization",
+      "note": "由表示程度副词，语法化为连接进一层含义。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "口语中由程度副词转移为疑问代词“什么”。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 5,
+      "evolution_type": "analogy",
+      "note": "与“什”用法类似，互换用作疑问代词。"
+    }
+  ]
+}

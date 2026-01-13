@@ -1,0 +1,75 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "仆倒，倒下去",
+      "examples": [
+        "郑人击简子中肩，毙于车中。"
+      ],
+      "traditional_char": "斃"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "失败，垮台",
+      "examples": [
+        "多行不义必自毙。"
+      ],
+      "traditional_char": "斃"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "死，死亡",
+      "examples": [
+        "与犬，犬斃；与小臣，小臣亦斃。",
+        "斯须就毙。"
+      ],
+      "traditional_char": "斃"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "杀死，击毙，打死（包括用枪杀）",
+      "examples": [
+        "贼连毙者三。",
+        "以刀劈狼首，又数刀毙之。",
+        "愤怒的人们要求毙了这个土皇帝"
+      ],
+      "traditional_char": "斃"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“斃”本为形声字，从死，敝声，表示仆倒、倒下，是最初的本义。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“毙”为‘斃’的简化字，同源，形声字，从死，敝声，基础义为仆倒。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由‘仆倒’引申为‘失败、垮台’，春秋时期用法已见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由‘仆倒’义自然发展至‘死亡’义，先秦即有流用。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "‘死亡’义进而用于‘使死亡、杀死、击毙’，古今皆然。"
+    }
+  ]
+}

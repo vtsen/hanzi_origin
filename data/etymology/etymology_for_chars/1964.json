@@ -1,0 +1,107 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "守望；侦察",
+      "examples": [
+        "候者守望也。——《说文》",
+        "令尉侯之。——《史记·项羽本纪》"
+      ],
+      "traditional_char": "候"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "等待",
+      "examples": [
+        "等候",
+        "守候",
+        "候车室"
+      ],
+      "traditional_char": "候"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "看望，问候",
+      "examples": [
+        "问候",
+        "伺候",
+        "父母安好，敬候大安。"
+      ],
+      "traditional_char": "候"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "时节",
+      "examples": [
+        "时候",
+        "气候",
+        "候鸟",
+        "候虫"
+      ],
+      "traditional_char": "候"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "事物在变化中的情状",
+      "examples": [
+        "火候儿",
+        "症候"
+      ],
+      "traditional_char": "候"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "古代以五天为一候，现代气象学沿用，指‘候温’",
+      "examples": [
+        "候温",
+        "一候、二候、三候"
+      ],
+      "traditional_char": "候"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从人，侯声，古本义为守望、侦察。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由守望义引申为等待，见汉代文献。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由守望引申为探望、问候，出现在古汉语中。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由守望引申为观察时节、气象，魏晋时期出现。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由时节进一步指事物变化的情状，如火候、症候。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 5,
+      "evolution_type": "semantic_narrowing",
+      "note": "特指古代五天为一候的用法，在历法和气象中沿用。"
+    }
+  ]
+}

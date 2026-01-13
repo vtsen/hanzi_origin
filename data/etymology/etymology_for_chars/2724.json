@@ -1,0 +1,40 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "把食物送给别人",
+      "examples": [
+        "凡王之馈，食用六谷"
+      ],
+      "traditional_char": "饋"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "赠送（多指礼物、财物等），泛指赠与",
+      "examples": [
+        "馈赠",
+        "馈遗",
+        "馈送",
+        "馈献"
+      ],
+      "traditional_char": "饋"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从食，贵声，表用食物送人的动作"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由专指送食扩展为泛指馈赠，见于后期文献"
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "剪齐，修整齐物体的边缘",
+      "examples": [
+        "剂，剪齐也。——《后汉书·刘梁传》注",
+        "豫让剂面而变容，吞炭为哑。——《新书》"
+      ],
+      "traditional_char": "劑"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "调节，调和",
+      "examples": [
+        "家之所有为剂。——清·方苞《狱中杂记》",
+        "调剂生活"
+      ],
+      "traditional_char": "劑"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "割，剪绝",
+      "examples": [
+        "剂，剪齐也。——《尔雅》。郭璞注：“南方人呼剪刀为剂刀。”"
+      ],
+      "traditional_char": "劑"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "契券，古代买卖时用的凭证",
+      "examples": [
+        "以两剂禁民狱。——《周礼·大司寇》。注：“今券书也。”"
+      ],
+      "traditional_char": "劑"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "分量；定量",
+      "examples": [
+        "心解分剂，不复称量。——《三国志》"
+      ],
+      "traditional_char": "劑"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "药剂；由多味药合成的药",
+      "examples": [
+        "又精方药，其疗疾，合汤不过数种，心解分剂，不复称量。——《三国志》",
+        "药剂"
+      ],
+      "traditional_char": "劑"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "制剂；能产生某种效应的物质或成品（包括化学制品、药物等）",
+      "examples": [
+        "杀虫剂、催化剂、冷冻剂、针剂、麻醉剂"
+      ],
+      "traditional_char": "劑"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "noun",
+      "meaning": "小块；部分（指和好的面分出的团块）",
+      "examples": [
+        "面剂儿"
+      ],
+      "traditional_char": "劑"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "measure_word",
+      "meaning": "剂量；用于若干味药配合的汤药计量单位",
+      "examples": [
+        "一剂药",
+        "始服一剂汤便愈。——《世说新语·术解》"
+      ],
+      "traditional_char": "劑"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘劑’为形声字，从刀，齐声，刀表动作，齐兼表示声音与‘劑’的齐整义，最初指剪齐。"
+    },
+    {
+      "formation_type": "simple_indicative",
+      "original_sense_index": 0,
+      "note": "‘剂’为简化字，简自‘劑’，原义不变，主要用于简体中文。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由剪齐引申为‘割’、‘剪绝’之动作，汉代用例可见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由‘剪齐’引申为‘调节、调和’，用修整比作调剂，古籍中有结合用法。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "‘调节’引申为将多味药材调和制成‘药剂’，用于医药领域。"
+    },
+    {
+      "source_index": 5,
+      "target_index": 6,
+      "evolution_type": "semantic_extension",
+      "note": "‘药剂’进一步泛指一切能产生物理、化学、生物效应的制剂。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "由剪齐等分，引申为‘分量、定量’。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 8,
+      "evolution_type": "function_word",
+      "note": "‘分量’进而作为常用药计量单位。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 7,
+      "evolution_type": "metonymy",
+      "note": "由剪下部分引申为‘面剂儿’等小块、部分之义。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "由‘齐整（契合）’动作，引申为契券义，古代用法。"
+    }
+  ]
+}

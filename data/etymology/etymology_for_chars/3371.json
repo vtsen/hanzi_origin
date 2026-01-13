@@ -1,0 +1,40 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "分辨，区别，辨别",
+      "examples": [
+        "辨别是非",
+        "明辨善恶",
+        "辨认方向"
+      ],
+      "traditional_char": "辨"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "古代土地面积单位，九夫为一辨，七辨为一并",
+      "examples": [
+        "古制以七辨为一并",
+        "九夫为一辨"
+      ],
+      "traditional_char": "辨"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从刀，辡声；本义为‘分辨、区别’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由‘分辨土地’引申为土地面积单位，出现于特定古代语境。"
+    }
+  ]
+}

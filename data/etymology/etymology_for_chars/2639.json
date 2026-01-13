@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "饮用液体或流质食物。",
+      "examples": [
+        "喝水",
+        "喝酒",
+        "喝茶",
+        "喝粥"
+      ],
+      "traditional_char": "喝"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "大声喊叫，大声发出命令或斥责。",
+      "examples": [
+        "喝彩",
+        "喝问"
+      ],
+      "traditional_char": "喝"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "声音嘶哑、噎塞。",
+      "examples": [
+        "嘶喝湿下者夭"
+      ],
+      "traditional_char": "喝"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "形声字，口表意，曷为声，本意为大声呼喊。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "metonymy",
+      "note": "从大声呼喊转为发出声音时吞咽，后引申为饮用液体。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由大声呼喊引申为因喊叫而咽喉嘶哑。"
+    }
+  ]
+}

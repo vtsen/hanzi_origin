@@ -1,0 +1,52 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "一天内的一段时间，一会儿。",
+      "examples": [
+        "工作了半晌。"
+      ],
+      "traditional_char": "晌"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "正午或正午前后。",
+      "examples": [
+        "晌午。",
+        "歇晌。",
+        "晌饭。"
+      ],
+      "traditional_char": "晌"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "numeral",
+      "meaning": "古同“垧”，地亩的单位。",
+      "examples": [],
+      "traditional_char": "晌"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从日，尚声。本义为时间段。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_narrowing",
+      "note": "将“一段时间”专指为“正午或正午前后”，常见于北方方言。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "借用“晌”字作“垧”，用于田亩单位，义属假借。"
+    }
+  ]
+}

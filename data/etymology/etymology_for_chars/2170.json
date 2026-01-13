@@ -1,0 +1,151 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "摇动，摆动",
+      "examples": [
+        "掉臂而去",
+        "风吹树枝在空中摇掉"
+      ],
+      "traditional_char": "掉"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "落下",
+      "examples": [
+        "掉泪",
+        "树叶掉了"
+      ],
+      "traditional_char": "掉"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "减少，减损，消失",
+      "examples": [
+        "掉价儿",
+        "掉色"
+      ],
+      "traditional_char": "掉"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "遗失，遗漏",
+      "examples": [
+        "这一行掉了两个字",
+        "钱包掉了"
+      ],
+      "traditional_char": "掉"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "回转，调头",
+      "examples": [
+        "掉头",
+        "掉转"
+      ],
+      "traditional_char": "掉"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "卖弄，耍",
+      "examples": [
+        "掉文",
+        "掉俏",
+        "掉以轻心"
+      ],
+      "traditional_char": "掉"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "对换",
+      "examples": [
+        "掉包",
+        "掉换"
+      ],
+      "traditional_char": "掉"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "verb",
+      "meaning": "落在后面",
+      "examples": [
+        "掉队"
+      ],
+      "traditional_char": "掉"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "particle",
+      "meaning": "用在动词后表示动作完成",
+      "examples": [
+        "改掉",
+        "戒掉"
+      ],
+      "traditional_char": "掉"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从手，卓声，表示手的摆动。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由摆动引申为物体因摆动而落下。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由落下引申为减少、消失。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "落下引申为遗失、遗漏。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由摆动引申为回转方向。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "由摇摆引申为卖弄、耍。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "semantic_extension",
+      "note": "由手的动作引申为交换。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 7,
+      "evolution_type": "semantic_extension",
+      "note": "落下再引申为落在后面。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 8,
+      "evolution_type": "grammaticalization",
+      "note": "动词化为结果补语，表示动作的完成。"
+    }
+  ]
+}

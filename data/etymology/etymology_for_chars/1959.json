@@ -1,0 +1,91 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "倾斜，歪斜",
+      "examples": [
+        "屋顶已经倾斜。",
+        "这棵树快要倾倒了。"
+      ],
+      "traditional_char": "傾"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "倒塌",
+      "examples": [
+        "大厦将倾。",
+        "墙壁突然倾覆。"
+      ],
+      "traditional_char": "傾"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "使器物反转或歪斜以倒出内部之物，引申为尽数拿出",
+      "examples": [
+        "倾箱倒箧。",
+        "倾泻而下。",
+        "倾盆大雨。"
+      ],
+      "traditional_char": "傾"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "用尽（力量、精力），全力投入",
+      "examples": [
+        "倾听。",
+        "倾诉。",
+        "倾吐心声。"
+      ],
+      "traditional_char": "傾"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "趋向，偏向",
+      "examples": [
+        "倾向。",
+        "左倾。",
+        "右倾。",
+        "思想倾斜。"
+      ],
+      "traditional_char": "傾"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从人，顷声，‘顷’本有偏侧之义，表示偏侧、倾斜。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘斜’引申为‘倒塌’。古今皆有。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "斜、歪引申至使器物倾倒以倒出内容。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由‘倾倒’引申为‘用尽（力量）、毫无保留’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "“倾斜”喻为思想等方面的‘趋向’或‘偏向’。"
+    }
+  ]
+}

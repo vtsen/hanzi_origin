@@ -1,0 +1,90 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古代用以滴水计时的器具，通常指漏壶。",
+      "examples": [
+        "铜壶滴漏",
+        "漏尽更深"
+      ],
+      "traditional_char": "漏"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "液体、气体等由孔隙等流出或透出。",
+      "examples": [
+        "壶里的水漏光了",
+        "漏洞百出",
+        "漏风",
+        "渗漏"
+      ],
+      "traditional_char": "漏"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "泄露（信息、消息等）。",
+      "examples": [
+        "走漏消息",
+        "漏底"
+      ],
+      "traditional_char": "漏"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "遗漏；因疏忽或无意而放过。",
+      "examples": [
+        "挂一漏万",
+        "漏网之鱼",
+        "疏漏"
+      ],
+      "traditional_char": "漏"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "中医指流出脓血黏液的某些病症，例如崩漏、痔漏。",
+      "examples": [
+        "崩漏",
+        "痔漏"
+      ],
+      "traditional_char": "漏"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，屚声，本指用于滴水计时的器具‘漏壶’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "从漏壶滴水引申为一般物体因孔隙流出液体、气体等，汉以后。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由液体流出引申为抽象的信息流出，即泄露，语义转化。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由液体漏失比喻因疏忽遗漏、放过，明清已见。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "由漏出液体转指中医病症体内液体异常流出，医学专用义。"
+    }
+  ]
+}

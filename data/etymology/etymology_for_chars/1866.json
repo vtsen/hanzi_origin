@@ -1,0 +1,60 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "垫在房屋柱子下的石头，柱脚石。",
+      "examples": [
+        "云蒸柱础润。",
+        "柱即与础相离。"
+      ],
+      "traditional_char": "礎"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "事物的基底，根基。",
+      "examples": [
+        "基础教育",
+        "还当础清庙",
+        "基础决定上层建筑"
+      ],
+      "traditional_char": "礎"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "堆砌（石头等）。",
+      "examples": [
+        "时人方础石为桥。"
+      ],
+      "traditional_char": "礎"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘礎’为形声字，从石，楚声。本义为柱下垫石。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘础’为‘礎’的简化字，结构与本义一致。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由具体的“柱脚石”转喻为“根基、基础”；汉至今沿用。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由本义引申为“堆砌石头”；见宋代文献。"
+    }
+  ]
+}

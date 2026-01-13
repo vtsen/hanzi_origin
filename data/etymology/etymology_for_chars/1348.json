@@ -1,0 +1,88 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "继承，继续；使相连接",
+      "examples": [
+        "汉绍尧运，以建帝业。",
+        "绍复先王之大业。",
+        "不绍叶公之明，而使之悦近而来远。"
+      ],
+      "traditional_char": "紹"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "介绍，为人引见",
+      "examples": [
+        "胜请为绍介。",
+        "绍我周王见休。",
+        "士为绍摈。"
+      ],
+      "traditional_char": "紹"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "缠绕",
+      "examples": [
+        "绍缭（缠绕）"
+      ],
+      "traditional_char": "紹"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "中国浙江绍兴市的简称",
+      "examples": [
+        "绍酒",
+        "绍剧",
+        "绍兴师爷"
+      ],
+      "traditional_char": "紹"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "（古义）缓慢",
+      "examples": [
+        "王舒保作，匪绍匪游。"
+      ],
+      "traditional_char": "紹"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从糸表示与丝线有关，‘召’作声符，原为‘继承、连续’之义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由‘连接、继承’引申为‘介绍、引见’，以人的关系相续为喻。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由线之‘连续’义转为‘缠绕’，以织物工艺名称。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "地名用法，因绍兴地名得名于‘承绍大业’，为地名借用。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_shift",
+      "note": "古义‘缓慢’与‘连接、连续’义相关，可能指动作有所延续、绵长。"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "窄，宽度小，不宽阔，与“广”相对。",
+      "examples": [
+        "道路狭窄",
+        "偏狭",
+        "狭长"
+      ],
+      "traditional_char": "狹"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "狭邪，指小街曲巷娼妓居住的地方。",
+      "examples": [
+        "狭邪之地"
+      ],
+      "traditional_char": "狹"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“狹”为形声字，从犬，夹声，表示窄狭之意，与动物或小路相关。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由“狭窄”引申为城市中狭窄曲折的小巷，特指娼妓聚居之处。"
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "树木或条状物的末端",
+      "examples": [
+        "树梢",
+        "末梢",
+        "梢头"
+      ],
+      "traditional_char": "梢"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "事物的末尾部分",
+      "examples": [
+        "眉梢",
+        "收梢"
+      ],
+      "traditional_char": "梢"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "古代奏乐时所用的竿子",
+      "examples": [],
+      "traditional_char": "梢"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "古同“艄”，船舵尾",
+      "examples": [],
+      "traditional_char": "梢"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "像圆锥体的形状",
+      "examples": [],
+      "traditional_char": "梢"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "adjective",
+      "meaning": "柱形物体的横剖面向一端面逐渐缩小的形式",
+      "examples": [],
+      "traditional_char": "梢"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从木，肖声，表示树木的末端。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由树木或条状物的末端，引申为事物的末尾。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由“末端”之义引申为竿子的末端，特指古代奏乐时的竿子。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由“末端”之义引申为船舵的尾部。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "事物形状与末端相像，泛指像尖锥体的形状。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "由锥体之形进一步描述柱形物体一端面缩小的特征。"
+    }
+  ]
+}

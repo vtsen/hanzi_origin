@@ -1,0 +1,136 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "有血统或夫妻关系的人，如父母、亲属、亲人等",
+      "examples": [
+        "双亲皆在堂",
+        "亲属众多",
+        "亲人远游"
+      ],
+      "traditional_char": "親"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "因婚姻而形成的关系，如亲戚、姻亲",
+      "examples": [
+        "亲戚来访",
+        "结亲嫁娶"
+      ],
+      "traditional_char": "親"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "婚姻大事",
+      "examples": [
+        "成亲之事",
+        "议亲"
+      ],
+      "traditional_char": "親"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "同乡，同一地方的人",
+      "examples": [
+        "乡亲们聚会",
+        "见到了老乡亲"
+      ],
+      "traditional_char": "親"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "pronoun",
+      "meaning": "自己，本人",
+      "examples": [
+        "亲睹其事",
+        "亲自参加"
+      ],
+      "traditional_char": "親"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "adjective",
+      "meaning": "关系密切，感情好",
+      "examples": [
+        "亲密无间",
+        "父子相亲"
+      ],
+      "traditional_char": "親"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "用嘴唇接触以示爱",
+      "examples": [
+        "母亲亲了孩子一下",
+        "亲吻"
+      ],
+      "traditional_char": "親"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "noun",
+      "meaning": "夫妻双方父母间的关系或称呼",
+      "examples": [
+        "亲家见面",
+        "两家结为亲家"
+      ],
+      "traditional_char": "親"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 5,
+      "note": "形声字，从见，亲（shēn）声。本义为亲爱，表示关系密切。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 5,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "从“亲爱”引申为有血缘或婚姻等亲属关系的人，秦汉已见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "血缘之外，因婚姻形成姻亲关系。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "以有亲者之事，代指婚姻，古文用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "synecdoche",
+      "note": "地域同属者类比血缘亲属，称呼同乡为“亲”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "推己及人，表示自身、本人。"
+    },
+    {
+      "source_index": 5,
+      "target_index": 6,
+      "evolution_type": "metaphor",
+      "note": "感情亲密引申为亲吻等表示亲密的动作。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 7,
+      "evolution_type": "semantic_extension",
+      "note": "亲戚关系再细分，特指‘亲家’。"
+    }
+  ]
+}

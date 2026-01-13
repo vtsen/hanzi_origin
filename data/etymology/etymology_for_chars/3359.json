@@ -1,0 +1,40 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "用竹篾、苇席、布等做成，遮蔽风雨和阳光的东西，如车篷、帐篷。",
+      "examples": [
+        "车篷",
+        "帐篷",
+        "篷布"
+      ],
+      "traditional_char": "篷"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "船帆。",
+      "examples": [
+        "扯起篷来",
+        "篷张满船"
+      ],
+      "traditional_char": "篷"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从竹，‘逢’为声，表示用竹制成的遮蔽物。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "船的遮蔽物（船篷）引申为船帆，两者形态相近且功能相关。"
+    }
+  ]
+}

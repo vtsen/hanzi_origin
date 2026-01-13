@@ -1,0 +1,38 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "呼叫，喊叫",
+      "examples": [
+        "唤起大家的注意。",
+        "叫唤一声。"
+      ],
+      "traditional_char": "喚"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "叫醒；使清醒",
+      "examples": [
+        "唤醒沉睡的人。"
+      ],
+      "traditional_char": "喚"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从口，奂声。‘口’表与口说话有关，‘奂’作声旁。本义为‘呼，叫’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘呼叫’引申为‘叫醒’的动作。该用法在古今汉语中均常见。"
+    }
+  ]
+}

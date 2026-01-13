@@ -1,0 +1,120 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "碎裂、裂开、不完整",
+      "examples": [
+        "石头破了",
+        "碗打破了",
+        "牢不可破"
+      ],
+      "traditional_char": "破"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "分裂；分开",
+      "examples": [
+        "破裂",
+        "破土"
+      ],
+      "traditional_char": "破"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "使损坏",
+      "examples": [
+        "破坏",
+        "破损"
+      ],
+      "traditional_char": "破"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "超出；突破",
+      "examples": [
+        "破例",
+        "破格"
+      ],
+      "traditional_char": "破"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "花费，耗费",
+      "examples": [
+        "破费",
+        "破财"
+      ],
+      "traditional_char": "破"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "打败，攻克",
+      "examples": [
+        "破阵",
+        "攻破"
+      ],
+      "traditional_char": "破"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "揭穿、侦破",
+      "examples": [
+        "破案",
+        "破译"
+      ],
+      "traditional_char": "破"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从石，表示与石相关，皮为声符，本义为石头破裂。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由碎裂引申为分裂，用于抽象分开。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "从自身碎裂推广为使他物损坏破碎。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由打破物体比喻打破限制、突破常规。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "花费、耗费引申自“破”本义，原意破损、损耗。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "metaphor",
+      "note": "打败、攻克从“破坏防线”引申为军事用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "metaphor",
+      "note": "揭穿、侦破意为把案件等捅破，使其真相显现。"
+    }
+  ]
+}

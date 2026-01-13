@@ -1,0 +1,102 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "端正，不歪斜；正直、端庄",
+      "examples": [
+        "端正",
+        "端丽",
+        "端然",
+        "端庄",
+        "端秀",
+        "端静",
+        "端坐",
+        "他举止端正"
+      ],
+      "traditional_char": "端"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "正派，正直",
+      "examples": [
+        "端方",
+        "端直",
+        "端重",
+        "他为人不端"
+      ],
+      "traditional_char": "端"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "事物的一头、部分或端点",
+      "examples": [
+        "一端",
+        "两端",
+        "端的",
+        "端倪",
+        "端详",
+        "事端",
+        "争端"
+      ],
+      "traditional_char": "端"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "用手很平正地拿",
+      "examples": [
+        "端盆",
+        "端碗",
+        "端茶",
+        "把问题端出来说清楚"
+      ],
+      "traditional_char": "端"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "端某",
+        "端氏"
+      ],
+      "traditional_char": "端"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从立，耑声，古意为‘站得直’，表现端正之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘形体端正’引申为‘品行端正’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由‘端正’引申为位置的‘一头’、‘端点’，如物体的端部。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由‘端正’引申为‘把东西端正地捧着’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "unknown",
+      "note": "用于姓氏，由本义直接用作姓，没有语义关系。"
+    }
+  ]
+}

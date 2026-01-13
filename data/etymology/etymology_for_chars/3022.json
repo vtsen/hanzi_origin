@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "江河中水浅多石而水流很急的地方",
+      "examples": [
+        "险滩",
+        "船到滩头须小心"
+      ],
+      "traditional_char": "灘"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "河海边淤积成的平地或水中的沙洲",
+      "examples": [
+        "盐滩",
+        "河滩"
+      ],
+      "traditional_char": "灘"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，难声。本指江河中水浅石多且水急的地方。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由江河中的险滩引申为水边堆积的泥沙平地。"
+    }
+  ]
+}

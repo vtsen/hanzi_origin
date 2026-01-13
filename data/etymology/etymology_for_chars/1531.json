@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "开锁或上锁的用具",
+      "examples": [
+        "钥匙",
+        "锁钥"
+      ],
+      "traditional_char": "鑰"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "喻指重要关键",
+      "examples": [
+        "关键的钥匙",
+        "掌握成功的钥"
+      ],
+      "traditional_char": "鑰"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "喻边防要地",
+      "examples": [
+        "北方锁钥"
+      ],
+      "traditional_char": "鑰"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从金，月声。本意为开锁的器具。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由具体开锁工具引申为关键、要点，汉语常见修辞。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "将锁钥比作边防要地，见于古文军事语境。"
+    }
+  ]
+}

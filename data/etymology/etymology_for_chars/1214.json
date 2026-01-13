@@ -1,0 +1,116 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "癡呆、癡貌，傻呆的樣子。",
+      "examples": [
+        "疙癡也，或作“疙”。",
+        "癡皃或作疙。"
+      ],
+      "traditional_char": "疙"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "皮膚上突起或肌肉上結成的小硬塊，如癤、瘡。",
+      "examples": [
+        "頭上起了個疙瘩。",
+        "親母為其子治疙禿，血流至耳。——《淮南子》"
+      ],
+      "traditional_char": "疙"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "小球形或塊狀的東西。",
+      "examples": [
+        "芥菜疙瘩",
+        "一疙瘩糕"
+      ],
+      "traditional_char": "疙"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "比喻不易解決的問題。",
+      "examples": [
+        "思想疙瘩"
+      ],
+      "traditional_char": "疙"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "比喻語句不通順、不流暢。",
+      "examples": [
+        "這篇作文中的語句很疙。"
+      ],
+      "traditional_char": "疙"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "measure_word",
+      "meaning": "量詞，用於小球狀或塊狀物。",
+      "examples": [
+        "一疙糕",
+        "一疙瘩土"
+      ],
+      "traditional_char": "疙"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "麻煩，別扭（多作方言口語用法）。",
+      "examples": [
+        "有什麼疙瘩你就說！"
+      ],
+      "traditional_char": "疙"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘疙’从疒（病）表义，从吉表音，最早表癡呆或癡貌之病态。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_shift",
+      "note": "由癡呆（痴貌）引申為因病痛導致的頭上突起物，由病態形象轉為病理現象。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由皮膚硬塊隱喻至一般小球形或塊狀物。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "從物理結塊比喻至思想等難題，比喻抽象難解之事。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "由小塊或結塊比喻語句不順（有阻礙）。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 5,
+      "evolution_type": "conversion",
+      "note": "實體名詞轉為計量單位，作為量詞。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 6,
+      "evolution_type": "metaphor",
+      "note": "由身體結塊隱喻聯想到麻煩、別扭。"
+    }
+  ]
+}

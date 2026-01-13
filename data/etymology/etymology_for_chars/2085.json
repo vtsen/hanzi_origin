@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "泡，使液体渗入物体内部",
+      "examples": [
+        "把布浸在水里。",
+        "浸泡种子。"
+      ],
+      "traditional_char": "浸"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adverb",
+      "meaning": "逐渐，慢慢地",
+      "examples": [
+        "浸染",
+        "浸渐"
+      ],
+      "traditional_char": "浸"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，咸声，本意为泡或渗透于水。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由液体慢慢渗透引申为事物逐步发展，意义在后世逐渐产生。"
+    }
+  ]
+}

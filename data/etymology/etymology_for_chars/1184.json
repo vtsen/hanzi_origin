@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "体积变大，如膨胀、肿胀等。",
+      "examples": [
+        "热胀冷缩",
+        "膨胀",
+        "肿胀"
+      ],
+      "traditional_char": "脹"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "数量增加，如通货膨胀。",
+      "examples": [
+        "通货膨胀"
+      ],
+      "traditional_char": "脹"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "身体内壁受到压迫而产生不舒服的感觉，如肚子胀。",
+      "examples": [
+        "肚子胀"
+      ],
+      "traditional_char": "脹"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从肉，长声；“肉”表身体，“长”表音，初义为皮肉鼓胀。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "数量增多比喻为体积增加，语义由具体到抽象。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_narrowing",
+      "note": "本义发展为身体内部因胀满导致不适感，历代医学文献常见。"
+    }
+  ]
+}

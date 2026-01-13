@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "树木繁多，茂密的样子，引申为众多、繁盛。",
+      "examples": [
+        "森林",
+        "森然",
+        "森立"
+      ],
+      "traditional_char": "森"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "幽深可怕的样子。",
+      "examples": [
+        "阴森",
+        "森邃"
+      ],
+      "traditional_char": "森"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "严整，严肃的样子。",
+      "examples": [
+        "森严"
+      ],
+      "traditional_char": "森"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意字，从林从木，表示树木繁茂。本义为树木丛生繁密。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由繁密的树林引申为幽深可怕，多用于描写阴暗的环境。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由树木林立、整齐映射为严整、森严，用于抽象严肃氛围。"
+    }
+  ]
+}

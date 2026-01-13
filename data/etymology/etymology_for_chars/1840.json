@@ -1,0 +1,52 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "露出地面的树根",
+      "examples": [
+        "守株待兔"
+      ],
+      "traditional_char": "株"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "棵儿，指整个的植物体",
+      "examples": [
+        "植株"
+      ],
+      "traditional_char": "株"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "measure_word",
+      "meaning": "量词，指植物",
+      "examples": [
+        "一株桃树"
+      ],
+      "traditional_char": "株"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从木，朱声，表示树根露出地面之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“树根”引申为“整株植物体”；汉魏时期出现。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "grammaticalization",
+      "note": "由名词进一步虚化为量词用法，用作计数单位。"
+    }
+  ]
+}

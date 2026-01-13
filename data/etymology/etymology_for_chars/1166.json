@@ -1,0 +1,154 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "金属的总称，尤其指金元素（Au），呈黄色，质软，有延展性。",
+      "examples": [
+        "黄金",
+        "金子",
+        "金笔"
+      ],
+      "traditional_char": "金"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "一切具有金属性质、有金属光泽的物质（泛指所有金属，除汞外）。",
+      "examples": [
+        "五金",
+        "合金",
+        "金属"
+      ],
+      "traditional_char": "金"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "钱财，货币。",
+      "examples": [
+        "现金",
+        "基金",
+        "挥金如土"
+      ],
+      "traditional_char": "金"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "兵器或金属制的乐器，也指相关的声音。",
+      "examples": [
+        "金革",
+        "金声",
+        "金鼓"
+      ],
+      "traditional_char": "金"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "中国古代乐器“八音”之一。",
+      "examples": [],
+      "traditional_char": "金"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "adjective",
+      "meaning": "比喻尊贵、贵重、难得、持久、坚固、有光泽等属性。",
+      "examples": [
+        "金兰",
+        "金刚",
+        "金瓯",
+        "金城汤池"
+      ],
+      "traditional_char": "金"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "动物、植物因色如金而得名。",
+      "examples": [
+        "金鱼",
+        "金乌",
+        "金龟",
+        "金丝猴"
+      ],
+      "traditional_char": "金"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "noun",
+      "meaning": "中国朝代名：金朝。",
+      "examples": [
+        "金代"
+      ],
+      "traditional_char": "金"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [
+        "金庸"
+      ],
+      "traditional_char": "金"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意字，从人、土、二，表示覆盖的矿藏之意，指地下出产的金属。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由金属元素特指，扩大为所有金属。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由金属引申为钱财（以金属为货币材料）。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "由金属引申为金属制兵器或器物及相关声音。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "semantic_narrowing",
+      "note": "专指中国古代八音中的‘金’类乐器。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "metaphor",
+      "note": "比喻金属的珍贵、坚固等属性，引申为贵重、难得、持久等意思。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 6,
+      "evolution_type": "metaphor",
+      "note": "因物体颜色似金属光泽而得名。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 7,
+      "evolution_type": "unknown",
+      "note": "中国金朝以金为国号，具体缘由以金贵重象征为主。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 8,
+      "evolution_type": "unknown",
+      "note": "姓氏用，历代以金为姓，缘由未详。"
+    }
+  ]
+}

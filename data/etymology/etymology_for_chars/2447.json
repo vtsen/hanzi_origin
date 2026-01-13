@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "忧伤，悲伤",
+      "examples": [
+        "人力雕残，百姓愁悴。",
+        "心伤悴矣。"
+      ],
+      "traditional_char": "悴"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "疲劳，困苦；劳累、困顿",
+      "examples": [
+        "干戈未戢，公私疲悴。",
+        "自顾虽悴，冠盖曜城隅。"
+      ],
+      "traditional_char": "悴"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "憔悴，枯萎，衰弱",
+      "examples": [
+        "颜色憔悴，形容枯槁。",
+        "朽貌改鲜色，悴容变柔颜。",
+        "积是骄阳，莫救稻苗之悴。"
+      ],
+      "traditional_char": "悴"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从心，卒声，‘心’表示忧思感情，‘卒’表声音；本义为忧伤、悲伤。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "忧伤容易引发身体困苦与疲劳，用于描述困苦或劳累情形。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由困苦、疲惫的状态喻指人的外貌憔悴、枯萎，引申为面容衰败、植物枯萎。"
+    }
+  ]
+}

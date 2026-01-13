@@ -1,0 +1,200 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "用手垂着拎起（带有柄或绳套的东西）",
+      "examples": [
+        "提壶",
+        "提灯",
+        "提篮",
+        "提包",
+        "提盒"
+      ],
+      "traditional_char": "提"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "把事物向上、向前等引领、提起",
+      "examples": [
+        "提心吊胆",
+        "提升",
+        "提挈",
+        "提携"
+      ],
+      "traditional_char": "提"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "说起，提出，举出",
+      "examples": [
+        "提起",
+        "提出",
+        "提醒",
+        "提倡",
+        "提议",
+        "提名",
+        "提案",
+        "提要"
+      ],
+      "traditional_char": "提"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "把犯人从关押之处带出来",
+      "examples": [
+        "提审",
+        "提犯人"
+      ],
+      "traditional_char": "提"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "率领，调遣",
+      "examples": [
+        "提兵"
+      ],
+      "traditional_char": "提"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "取出",
+      "examples": [
+        "提取",
+        "提货"
+      ],
+      "traditional_char": "提"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "汉字笔画名称，即挑",
+      "examples": [],
+      "traditional_char": "提"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "noun",
+      "meaning": "舀取油、酒等液体的一种用具",
+      "examples": [
+        "油提",
+        "酒提"
+      ],
+      "traditional_char": "提"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "noun",
+      "meaning": "古代一种鼓的名称",
+      "examples": [
+        "师帅执提"
+      ],
+      "traditional_char": "提"
+    },
+    {
+      "index": 9,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [],
+      "traditional_char": "提"
+    },
+    {
+      "index": 10,
+      "part_of_speech": "verb",
+      "meaning": "〔提防〕小心防备",
+      "examples": [
+        "提防小人"
+      ],
+      "traditional_char": "提"
+    },
+    {
+      "index": 11,
+      "part_of_speech": "verb",
+      "meaning": "投掷",
+      "examples": [
+        "荆轲废，乃引其匕首提秦王"
+      ],
+      "traditional_char": "提"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从手，是声，本义为手拎、悬持物品"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由实际拎东西引申为把事情引领、提拔"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由提物引申为把事说出来，即“提出”"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "提犯人，即把人拎出来审讯"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "率兵如同提携、带领"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "拎出、取出"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "metaphor",
+      "note": "笔画名，形如提升"
+    },
+    {
+      "source_index": 0,
+      "target_index": 7,
+      "evolution_type": "semantic_extension",
+      "note": "用具名，因其为提物之用"
+    },
+    {
+      "source_index": 7,
+      "target_index": 8,
+      "evolution_type": "semantic_extension",
+      "note": "“提”鼓，可能因形状或用途与上提有关"
+    },
+    {
+      "source_index": 0,
+      "target_index": 9,
+      "evolution_type": "unknown",
+      "note": "姓氏用法源流不详"
+    },
+    {
+      "source_index": 0,
+      "target_index": 10,
+      "evolution_type": "semantic_extension",
+      "note": "“提防”中即“注意”防备，强调动作"
+    },
+    {
+      "source_index": 0,
+      "target_index": 11,
+      "evolution_type": "semantic_shift",
+      "note": "古义，投掷，后引申义，不同读音"
+    }
+  ]
+}

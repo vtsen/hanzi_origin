@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "整理头发的用具",
+      "examples": [
+        "她有一把精致的木梳。",
+        "角梳比较坚硬，不易损坏。"
+      ],
+      "traditional_char": "梳"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "用梳子整理头发",
+      "examples": [
+        "她每天早上都梳头。",
+        "请帮孩子梳辫子。"
+      ],
+      "traditional_char": "梳"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘梳’为形声字，从木，疏声，本义为梳理头发的用具。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "conversion",
+      "note": "名词‘梳’转为动词‘用梳整理头发’，属于名动转换，出现于古汉语。"
+    }
+  ]
+}

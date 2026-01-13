@@ -1,0 +1,151 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "漂在水面上，与“沉”相对",
+      "examples": [
+        "浮萍",
+        "浮桥",
+        "漂浮"
+      ],
+      "traditional_char": "浮"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "表面的",
+      "examples": [
+        "浮皮儿",
+        "浮土",
+        "浮雕"
+      ],
+      "traditional_char": "浮"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "空虚，不切实",
+      "examples": [
+        "浮华",
+        "浮夸"
+      ],
+      "traditional_char": "浮"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "不沉静，不沉着",
+      "examples": [
+        "轻浮",
+        "浮躁"
+      ],
+      "traditional_char": "浮"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "暂时的",
+      "examples": [
+        "浮记",
+        "浮支"
+      ],
+      "traditional_char": "浮"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "adjective",
+      "meaning": "可移动的",
+      "examples": [
+        "浮财",
+        "浮动"
+      ],
+      "traditional_char": "浮"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "超过，多余",
+      "examples": [
+        "人浮于事"
+      ],
+      "traditional_char": "浮"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "verb",
+      "meaning": "呈现，涌现",
+      "examples": [
+        "浮现",
+        "浮想"
+      ],
+      "traditional_char": "浮"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "adjective",
+      "meaning": "中医指脉搏浮在肌肤表层",
+      "examples": [
+        "浮脉"
+      ],
+      "traditional_char": "浮"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，孚声，表示漂浮于水面之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由水面浮起，引申为表层、表面，早见于古文。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由表面引申为不切实际、空虚。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由空虚引申为人不沉着的性格。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "表层容易变化，引申为短暂、临时。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "表层、非固定，引申为可移动之意。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "metaphor",
+      "note": "原为漂浮，引申为超出、剩余。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 7,
+      "evolution_type": "semantic_extension",
+      "note": "指物体浮现于表面，引申为思想等显现。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 8,
+      "evolution_type": "metaphor",
+      "note": "引申为脉搏浮于表层之意，多用于医学。"
+    }
+  ]
+}

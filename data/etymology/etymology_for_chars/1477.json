@@ -1,0 +1,86 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "暗，不明亮",
+      "examples": [
+        "幽昧",
+        "昧旦"
+      ],
+      "traditional_char": "昧"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "昏，糊涂，不明白",
+      "examples": [
+        "愚昧",
+        "蒙昧",
+        "素昧平生"
+      ],
+      "traditional_char": "昧"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "目不明，视觉模糊",
+      "examples": [
+        "目不别五色之章为昧"
+      ],
+      "traditional_char": "昧"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "隐藏，隐瞒",
+      "examples": [
+        "暧昧",
+        "昧心"
+      ],
+      "traditional_char": "昧"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "冒犯（常作谦辞）",
+      "examples": [
+        "冒昧"
+      ],
+      "traditional_char": "昧"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从日，未声，表示与光明相关的昏暗不明之义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由“暗、不明亮”喻指“人的认知昏暗、愚钝”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "原义推广到“视觉模糊”的具体表现。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由“光线暗”转为“行为隐瞒、藏匿”。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "semantic_shift",
+      "note": "由“隐藏”进一步演变为“冒犯”的谦辞用法。"
+    }
+  ]
+}

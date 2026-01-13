@@ -1,0 +1,90 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "空虚，寂静；空旷辽阔",
+      "examples": [
+        "寂兮寥兮，独立而不改。（《老子》）",
+        "恣心目之寥朗。（孙绰《游天台山赋》）",
+        "乃入于寥天。（《庄子·大宗师》）",
+        "四面竹树环合，寂寥无人。（《小石潭记》）"
+      ],
+      "traditional_char": "寥"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "稀少，稀疏，冷落，孤单",
+      "examples": [
+        "疏星寥落。",
+        "寥若晨星。",
+        "寥寥无几。",
+        "晓星正寥落。（谢元暉《京路夜发诗》）"
+      ],
+      "traditional_char": "寥"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "广阔的天空",
+      "examples": [
+        "腾驾碧寥，指麾沧溟。（范成大《望海亭赋》）",
+        "今欲使天下寥廓之上。（《汉书·邹阳传》）"
+      ],
+      "traditional_char": "寥"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "深远；高远",
+      "examples": [
+        "羸马隐山道，悠然远思寥。（元·耶律楚材）",
+        "寥，深也。（《广雅》）"
+      ],
+      "traditional_char": "寥"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "凭依、依赖（假借为“赖”，通“聊”）",
+      "examples": [
+        "上下不相宁，吏民不相寥。（《淮南子·兵略》）"
+      ],
+      "traditional_char": "寥"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从宀表示房屋、空虚，廖声；本义为空虚、寂静，古作廫。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“空虚”引申为“稀少、冷落”，为空虚状态下人的感受。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "用“寥”形容广阔天空，取其空旷、深广之意。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "从“空虚辽阔”引申出“深远、高远”之意，语义层次加深。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "假借“寥”表示依赖、凭依（“赖”、“聊”），汉代文献用法。"
+    }
+  ]
+}

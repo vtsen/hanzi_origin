@@ -1,0 +1,73 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "不够，未达到应有的数量或标准",
+      "examples": [
+        "缺乏",
+        "缺少",
+        "欠缺"
+      ],
+      "traditional_char": "缺"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "残破，有损伤或缺口",
+      "examples": [
+        "缺点",
+        "缺口",
+        "缺陷"
+      ],
+      "traditional_char": "缺"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "空的职位、空额",
+      "examples": [
+        "缺额",
+        "补缺"
+      ],
+      "traditional_char": "缺"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "该到而未到，某人未出现",
+      "examples": [
+        "缺勤",
+        "缺席"
+      ],
+      "traditional_char": "缺"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "形声字，“缺”字从“缶”，表示器物上的破口，‘夬’作声符。最初表示有缺口或缺损。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "metaphor",
+      "note": "从器物有缺变为抽象意义的不够，语义比喻扩展。先秦至汉。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由‘不够’引申为职位上的空额。魏晋南北朝后较为常见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "从‘不够’发展为‘某人未到场’的意义。晚古文及近现代常见。"
+    }
+  ]
+}

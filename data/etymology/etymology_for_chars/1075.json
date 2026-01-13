@@ -1,0 +1,114 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adverb",
+      "meaning": "还，仍然。",
+      "examples": [
+        "尚小",
+        "尚未",
+        "尚不可知"
+      ],
+      "traditional_char": "尚"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "尊崇，注重。",
+      "examples": [
+        "尚武",
+        "尚贤"
+      ],
+      "traditional_char": "尚"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "社会共同遵从的风俗、习惯等。",
+      "examples": [
+        "风尚",
+        "时尚"
+      ],
+      "traditional_char": "尚"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "矜夸，自负。",
+      "examples": [
+        "自尚其功"
+      ],
+      "traditional_char": "尚"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "古，久远。",
+      "examples": [
+        "乐之所由来者尚矣"
+      ],
+      "traditional_char": "尚"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "庶几，差不多（常用于祭祀用语）。",
+      "examples": [
+        "尚飨"
+      ],
+      "traditional_char": "尚"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [],
+      "traditional_char": "尚"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "会意兼形声。从八（分开），向声，表达“仍然、还”的意思，初指尚且。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“还、尚且”引申为“尊崇、推崇”，重在保留‘未完’或‘在上’之意味。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由推崇、重视某事转喻为’风尚‘、’习惯‘。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由尊崇他人引申至自尊、自负。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "‘尚’有‘还、久远未终’之意，引申为‘久远’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "用于祝辞，表达希望之意。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "unknown",
+      "note": "‘尚’用于姓氏，具体转用机制不详。"
+    }
+  ]
+}

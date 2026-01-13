@@ -1,0 +1,81 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "窃取，趁人不知时拿人东西",
+      "examples": [
+        "偷窃",
+        "偷吃",
+        "小偷儿"
+      ],
+      "traditional_char": "偷"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "行动瞒着人",
+      "examples": [
+        "偷窥",
+        "偷看",
+        "偷听",
+        "偷渡",
+        "偷袭",
+        "偷税",
+        "偷天换日"
+      ],
+      "traditional_char": "偷"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "抽出时间",
+      "examples": [
+        "偷空儿",
+        "偷暇",
+        "偷闲"
+      ],
+      "traditional_char": "偷"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "苟且",
+      "examples": [
+        "偷安",
+        "偷生",
+        "偷幸",
+        "偷合苟容",
+        "偷合取容"
+      ],
+      "traditional_char": "偷"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 3,
+      "note": "形声字，从人，俞声。本义为苟且，指行为不端。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 3,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "由“苟且”引申为秘密窃取，可能于汉语中古期形成。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从窃取引申为“瞒着人做事”。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "进一步引申为“抽出时间”。"
+    }
+  ]
+}

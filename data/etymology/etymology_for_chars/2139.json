@@ -1,0 +1,81 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "重叠的土堆",
+      "examples": [],
+      "traditional_char": "陪"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "跟随在一起，在旁边做伴",
+      "examples": [
+        "陪伴老人散步",
+        "陪同朋友旅行"
+      ],
+      "traditional_char": "陪"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "从旁协助，辅佐",
+      "examples": [
+        "陪臣",
+        "陪审"
+      ],
+      "traditional_char": "陪"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "增加的，非主要的",
+      "examples": [
+        "陪衬",
+        "陪都"
+      ],
+      "traditional_char": "陪"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "古同“赔”，偿还",
+      "examples": [],
+      "traditional_char": "陪"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从阜，表地势高低；咅表声。‘陪’最初指重叠的土堆。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由土堆相伴并列，引申为人作陪、陪伴。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由陪伴进一步引申为从旁协助。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由主从之分引申为非主要的、附属的意思。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "unknown",
+      "note": "‘陪’通‘赔’，可能为音近通假，语义转移机制不详。"
+    }
+  ]
+}

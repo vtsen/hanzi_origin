@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "烹饪食物或烧水用的器具，通常为圆形中凹，多用铁制。",
+      "examples": [
+        "铁锅煮饭",
+        "饭锅里有粥"
+      ],
+      "traditional_char": "鍋"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "形状像锅的东西。",
+      "examples": [
+        "烟袋锅",
+        "锅盖山的形状像锅"
+      ],
+      "traditional_char": "鍋"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从金，咼声，表示与金属器具相关，本义为炊事用具。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由烹饪器具的形状引申指形状类似锅的事物。"
+    }
+  ]
+}

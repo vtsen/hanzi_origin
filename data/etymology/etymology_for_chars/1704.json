@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "警告，劝人警惕",
+      "examples": [
+        "告诫",
+        "老师诫告学生要努力学习"
+      ],
+      "traditional_char": "誡"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "文告",
+      "examples": [
+        "发布诫文",
+        "下诫命"
+      ],
+      "traditional_char": "誡"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "文体名，例如“诫敕”",
+      "examples": [
+        "写一篇诫敕",
+        "古代有‘诫子书’等体裁"
+      ],
+      "traditional_char": "誡"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从言，戒声，表示警告、劝诫。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "用‘警告’之意引申为‘警告的文书’，常见于官文。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "从‘文告’进一步发展为‘文体名’，见于古文用法。"
+    }
+  ]
+}

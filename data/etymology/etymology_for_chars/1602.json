@@ -1,0 +1,83 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "单一，只有一个",
+      "examples": [
+        "独唱",
+        "独立",
+        "独特",
+        "独创"
+      ],
+      "traditional_char": "獨"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "老而无子的人",
+      "examples": [
+        "鳏寡孤独"
+      ],
+      "traditional_char": "獨"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adverb",
+      "meaning": "难道，岂（用于反问）",
+      "examples": [
+        "君独不见夫趣（趋）市者乎？"
+      ],
+      "traditional_char": "獨"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "other",
+      "meaning": "〔独孤〕复姓",
+      "examples": [],
+      "traditional_char": "獨"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "particle",
+      "meaning": "语助词，犹“其”",
+      "examples": [
+        "弃君之命，独谁受之？"
+      ],
+      "traditional_char": "獨"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从犬，蜀声。本义为单独、单一，借犬多独居之性而得义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘单一’引申为‘孤单’，特指‘老而无子’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由‘单一’引申为副词‘难道，岂’，用于反问，加强语气。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "reanalysis",
+      "note": "本义被用于姓氏构成，形成复姓‘独孤’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "grammaticalization",
+      "note": "由形容词转化为语气助词，表示‘其’。"
+    }
+  ]
+}

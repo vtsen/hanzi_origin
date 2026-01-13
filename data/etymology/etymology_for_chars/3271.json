@@ -1,0 +1,117 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "避开；回避。",
+      "examples": [
+        "僻，辟也。《说文》",
+        "《诗》曰：‘宛如左僻。’"
+      ],
+      "traditional_char": "僻"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "偏远，距离中心地区远的。",
+      "examples": [
+        "虽僻远其何伤。——《楚辞·涉江》",
+        "浔阳地僻无音乐。——唐·白居易《琵琶行（并序）》"
+      ],
+      "traditional_char": "僻"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "不常见的，冷僻。",
+      "examples": [
+        "举马丁·路德的例子也许太僻。——夏衍《论肚子问题》"
+      ],
+      "traditional_char": "僻"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "性情古怪，不合群；孤僻，怪僻。",
+      "examples": [
+        "行为偏僻性乖张，那管世人诽谤。——《红楼梦》",
+        "行己颇僻，与时俗异态。——唐·韩愈"
+      ],
+      "traditional_char": "僻"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "邪僻，邪恶，不正。",
+      "examples": [
+        "民之多僻。——《诗·大雅·板》",
+        "师也僻。——《论语·先进》"
+      ],
+      "traditional_char": "僻"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "adjective",
+      "meaning": "歪，斜，倾侧。",
+      "examples": [
+        "僻然（倾侧的样子）；僻侧（倾斜）",
+        "治中风身直，及口僻目斜。——《本草纲目》"
+      ],
+      "traditional_char": "僻"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "（通“嬖”）受宠爱的人。",
+      "examples": [
+        "便僻好色。——《韩非子·八奸》"
+      ],
+      "traditional_char": "僻"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从人，辟声。本义为‘避开’。‘人’表意，‘辟’兼表声。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘避开’引申为‘远离中心、偏远’。东周至两汉后普遍。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由‘偏远’引申为‘不常见、冷僻’。汉至中古。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由‘偏远’比喻为‘性格孤僻，不合群’。中古、唐宋后常见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_shift",
+      "note": "‘避开、回避’转为‘偏离正道，邪僻、邪恶’。先秦用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "‘避开’引申为‘偏斜、歪斜’。用法见明清。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "‘僻’通‘嬖’，用作受宠爱的人，属于假借用法。"
+    }
+  ]
+}

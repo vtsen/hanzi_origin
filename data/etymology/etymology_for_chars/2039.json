@@ -1,0 +1,104 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "财物，钱财",
+      "examples": [
+        "物资",
+        "资金",
+        "费用"
+      ],
+      "traditional_char": "資"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "经营工商业的本钱和财产",
+      "examples": [
+        "资本",
+        "外资",
+        "独资",
+        "合资"
+      ],
+      "traditional_char": "資"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "供给，帮助",
+      "examples": [
+        "资助",
+        "资送",
+        "资敌"
+      ],
+      "traditional_char": "資"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "智慧能力",
+      "examples": [
+        "资质",
+        "天资"
+      ],
+      "traditional_char": "資"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "出身和经历",
+      "examples": [
+        "资格",
+        "资历"
+      ],
+      "traditional_char": "資"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "other",
+      "meaning": "姓氏",
+      "examples": [],
+      "traditional_char": "資"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从贝，次声。贝表财富，次作声符，与钱财有关。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "原意财物扩展为工商业中的本钱和财产。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由钱财引申为提供财物、帮助之意。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "财富比喻为智慧能力，出自“资质”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "财富引申比喻为个人的出身和经历（资历）。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "function_word",
+      "note": "由名词泛用为姓氏用法，汉姓派生常见。"
+    }
+  ]
+}

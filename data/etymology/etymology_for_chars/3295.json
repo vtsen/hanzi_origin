@@ -1,0 +1,147 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "水边弯曲的地方，岸边凹进去的水域",
+      "examples": [
+        "瞻彼淇澳，菉竹猗猗。",
+        "全如三峡。郡议欲开澳以归宿客舟，未决。"
+      ],
+      "traditional_char": "澳"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "港湾，海边弯曲可以停船处",
+      "examples": [
+        "无港澳以容舟楫。",
+        "全如三峡。郡议欲开澳以归宿客舟，未决。"
+      ],
+      "traditional_char": "澳"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "河名，澳水，今河南泌阳县的凉河",
+      "examples": [
+        "澳水今俗名凉河，在今河南省泌阳县，为泌阳河支流。"
+      ],
+      "traditional_char": "澳"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "澳门的简称",
+      "examples": [
+        "港澳同胞"
+      ],
+      "traditional_char": "澳"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "澳大利亚的简称",
+      "examples": [
+        "澳元是澳大利亚的货币。"
+      ],
+      "traditional_char": "澳"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "大洋洲的旧称，简称澳洲",
+      "examples": [
+        "澳洲是一个大陆。"
+      ],
+      "traditional_char": "澳"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "冲洗，刷洗",
+      "examples": [
+        "其釜澳须臾，嗡响便竭。",
+        "隋薛愿澳釜。"
+      ],
+      "traditional_char": "澳"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "adjective",
+      "meaning": "水深，深邃",
+      "examples": [
+        "澳清",
+        "澳溟"
+      ],
+      "traditional_char": "澳"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "adjective",
+      "meaning": "水流混浊",
+      "examples": [
+        "澳濁也。",
+        "水澳而不清。"
+      ],
+      "traditional_char": "澳"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，奥声，水边弯曲地。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由一般水边弯曲地扩展为能停泊船只的河湾港湾。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "以地貌特征命名具体河流。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "以港湾地名指代城市。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "从澳门地名称呼扩展为澳大利亚的简称。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "由澳大利亚简称扩展至澳洲（大洋洲）的简称。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "unknown",
+      "note": "意义关系不明确，可能与水边、冲刷动作有关联。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 7,
+      "evolution_type": "semantic_extension",
+      "note": "由水边地貌引申为水域深邃之义。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 8,
+      "evolution_type": "semantic_extension",
+      "note": "由水的地貌引申为水体混浊。"
+    }
+  ]
+}

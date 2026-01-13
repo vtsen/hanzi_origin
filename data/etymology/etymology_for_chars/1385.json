@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "用绳子系住，绑住。",
+      "examples": [
+        "拴马",
+        "把孩子拴在门口"
+      ],
+      "traditional_char": "拴"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "上闩，用插销使门窗等闭合。",
+      "examples": [
+        "门未拴牢",
+        "窗拴上了"
+      ],
+      "traditional_char": "拴"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从手，全声，本义为用手绑住。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由“绑住”引申到“上闩”，即用器物使门等被绑住，见近现代汉语。"
+    }
+  ]
+}

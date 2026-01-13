@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "用绳索等把零散的东西扎紧或绑起来。",
+      "examples": [
+        "请把柴火捆好。",
+        "他用绳捆住箱子。"
+      ],
+      "traditional_char": "捆"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "measure_word",
+      "meaning": "指成扎的东西，作为量词使用。",
+      "examples": [
+        "一捆木头",
+        "两捆蔬菜"
+      ],
+      "traditional_char": "捆"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从手，困声。‘手’表意，表示与手的动作有关，‘困’表音，原义为用手叩击使牢，即后来的“捆绑”义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "conversion",
+      "note": "由动词转化为量词，表被捆扎好的成组事物。"
+    }
+  ]
+}

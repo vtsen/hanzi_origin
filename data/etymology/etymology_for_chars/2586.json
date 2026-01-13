@@ -1,0 +1,72 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "乳制品，如酪或酥油，由牛羊奶制成的食品。",
+      "examples": [
+        "酥酪",
+        "酥油"
+      ],
+      "traditional_char": "酥"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "松脆，多指食物，容易碎裂的状态。",
+      "examples": [
+        "酥脆",
+        "酥糖",
+        "桃酥"
+      ],
+      "traditional_char": "酥"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "柔腻松软，质感柔和细腻。",
+      "examples": [
+        "酥胸",
+        "酥松"
+      ],
+      "traditional_char": "酥"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "（身体）酸软无力。",
+      "examples": [
+        "酥软",
+        "酥麻"
+      ],
+      "traditional_char": "酥"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意字，从“禾”表示粮食，从“酉”表示酒，原指用乳制成的食品，如酪油。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由乳制品松腻、松软的特性，引申为松脆之意，多用于食物。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由松脆进一步泛指柔腻松软、质感松散。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由物理松软转喻为人体酸软无力的感觉。"
+    }
+  ]
+}

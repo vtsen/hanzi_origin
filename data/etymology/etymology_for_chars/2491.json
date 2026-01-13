@@ -1,0 +1,100 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "用两股以上的棉麻纤维或棕草等拧成的条状物，如绳子、绳索。",
+      "examples": [
+        "缆绳",
+        "绳子",
+        "绳索",
+        "用绳绑住"
+      ],
+      "traditional_char": "繩"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "木工用的墨线，引申为标准、法则。",
+      "examples": [
+        "墨绳",
+        "准绳",
+        "绳墨以为则"
+      ],
+      "traditional_char": "繩"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "按一定的标准去衡量、纠正。",
+      "examples": [
+        "绳之以法"
+      ],
+      "traditional_char": "繩"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "继续，继承（如“绳其祖武”）。",
+      "examples": [
+        "绳其祖武"
+      ],
+      "traditional_char": "繩"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "赞誉、称扬。",
+      "examples": [
+        "绳息妫以语楚子"
+      ],
+      "traditional_char": "繩"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [],
+      "traditional_char": "繩"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从糸（纟）表示与丝线有关，蝇省声，最初本义为绳子。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "以绳为准，引申为标准、法则，东周时期已见。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "grammaticalization",
+      "note": "由名词转为动词，表示以标准衡量。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "unknown",
+      "note": "“绳”作“继续”，涵义变化不详，或许与连续不断的形象相关。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "unknown",
+      "note": "“绳”作赞誉之意，具体语义演变机制尚不明。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "conversion",
+      "note": "物名衍为姓氏，为常见用法。"
+    }
+  ]
+}

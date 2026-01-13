@@ -1,0 +1,85 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "严重的疾病、生物体不健康的状态",
+      "examples": [
+        "卧病在床",
+        "疾病缠身",
+        "病症"
+      ],
+      "traditional_char": "病"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "缺点，错误",
+      "examples": [
+        "语病",
+        "通病"
+      ],
+      "traditional_char": "病"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "损害或祸害",
+      "examples": [
+        "祸国病民"
+      ],
+      "traditional_char": "病"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "责备，不满",
+      "examples": [
+        "诟病"
+      ],
+      "traditional_char": "病"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "担忧，烦躁",
+      "examples": [
+        "郑人病之"
+      ],
+      "traditional_char": "病"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "疒表意，丙表音，形声字，本义为严重疾病。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "以身体“病”喻事物的缺点或错误，汉代已见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由疾病引申为危害、祸害。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "由“疾病”引申为“指责某人的过错”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由生病导致心理烦恼，引申为担忧、烦躁。"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "对人或事有深挚的感情；亲爱，喜爱",
+      "examples": [
+        "喜爱",
+        "爱慕",
+        "友情",
+        "仁爱"
+      ],
+      "traditional_char": "愛"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "喜好（对事物感兴趣或喜欢）",
+      "examples": [
+        "爱好音乐",
+        "爱唱歌"
+      ],
+      "traditional_char": "愛"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "容易（常附着在事物特性上）",
+      "examples": [
+        "铁爱生锈"
+      ],
+      "traditional_char": "愛"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "重视并加以保护",
+      "examples": [
+        "爱护",
+        "爱惜"
+      ],
+      "traditional_char": "愛"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "吝惜，舍不得（古义）",
+      "examples": [
+        "百姓皆以王为爱也"
+      ],
+      "traditional_char": "愛"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从心，旡声，表示内心的亲爱、喜爱之情"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从对人的深挚感情引申为对事物的喜欢，汉代已见"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由爱慕之意引申为重视和保护，多见于书面语"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "semantic_shift",
+      "note": "重视引申为舍不得，进而为吝惜，见于古汉语"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由对事物偏好，引申为事物容易产生某种结果，如‘铁爱生锈’"
+    }
+  ]
+}

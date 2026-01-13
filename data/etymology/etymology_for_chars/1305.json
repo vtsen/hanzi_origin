@@ -1,0 +1,131 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "逮捕；追及。",
+      "examples": [
+        "隶，及也，从又从尾省。又持尾者从后及之也。——《说文》"
+      ],
+      "traditional_char": "隸"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "附属，从属；属于。",
+      "examples": [
+        "直隶中央。",
+        "隶而从者。——唐·柳宗元《至小丘西小石潭记》"
+      ],
+      "traditional_char": "隸"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "低级官吏、差役，特指衙役。",
+      "examples": [
+        "皂隶之事。《左传》",
+        "隶卒。"
+      ],
+      "traditional_char": "隸"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "地位低下而被奴役的人，奴仆。",
+      "examples": [
+        "人皆得以隶使之。——明·张溥《五人墓碑记》",
+        "甿隶之人。——汉·贾谊《过秦论》"
+      ],
+      "traditional_char": "隸"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "汉字的一种字体，即隶书。",
+      "examples": [
+        "隶书，汉字的一种书体。",
+        "乃令群臣习隶。——《史记·刘敬叔孙通列传》"
+      ],
+      "traditional_char": "隸"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "检查，查阅。",
+      "examples": [
+        "关东吏隶郡国出入关者。——《史记·酷吏列传》"
+      ],
+      "traditional_char": "隸"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "练习（书写），学习。",
+      "examples": [
+        "迺令群臣习隶，会十月。"
+      ],
+      "traditional_char": "隸"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "verb",
+      "meaning": "通“离”，流离失所。",
+      "examples": [
+        "饿馑流隶，饥寒道路。——《汉书·叙传·王命论》"
+      ],
+      "traditional_char": "隸"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意字，从‘又’（手）与省作的‘尾’，表示手持尾巴从后追及；反映‘追及、逮捕’之本义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘及、逮捕’引申为‘附属、归属’；古汉语词义外延扩大。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "附属于官府的低级役吏由‘附属’义转出，形成对低级官差的称谓。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由‘役吏’泛化指被奴役、地位低下者。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "‘隶’义引申为‘隶书’，因此类书写体系源于官方文书，具有‘从属官府’之意。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "‘及’义引申为‘查检、检查’，强调达到并审查。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "semantic_extension",
+      "note": "及、捕捉过程引申为‘练习、实践’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 7,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "‘隶’通‘离’，用于‘流离’，为假借义。"
+    }
+  ]
+}

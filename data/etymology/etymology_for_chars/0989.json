@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "倾斜的地方，尤其指山地的斜坡",
+      "examples": [
+        "山坡",
+        "下坡"
+      ],
+      "traditional_char": "坡"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "斜道，道路的倾斜部分",
+      "examples": [
+        "坡道",
+        "坡降"
+      ],
+      "traditional_char": "坡"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从土，皮声，表示山地倾斜的地方。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "‘坡’本指山地倾斜处，后泛指道路等处的倾斜部分。"
+    }
+  ]
+}

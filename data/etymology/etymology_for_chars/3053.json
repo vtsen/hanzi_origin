@@ -1,0 +1,72 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "煎干、炒干，用火把物品煮至汁液干枯。",
+      "examples": [
+        "熬盐",
+        "熬糖"
+      ],
+      "traditional_char": "熬"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "烹调方法，把蔬菜等放在水里长时间煮，如熬菜、熬粥、熬药。",
+      "examples": [
+        "熬白菜",
+        "熬粥",
+        "熬药"
+      ],
+      "traditional_char": "熬"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "忍受，耐苦支持。",
+      "examples": [
+        "熬夜",
+        "煎熬"
+      ],
+      "traditional_char": "熬"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "古同“嗷”，大声呼号。",
+      "examples": [
+        "熬熬",
+        "熬号"
+      ],
+      "traditional_char": "熬"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从火，敖声，本意为煎干、炒干，火表示与加热有关。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由原意“煎干”引申为“长时间加热、久煮”"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由“久煮”的辛苦延伸比喻为精神上的忍受"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "unknown",
+      "note": "与“嗷”通用，历史渊源不详，或为古代通假"
+    }
+  ]
+}

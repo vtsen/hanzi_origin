@@ -1,0 +1,43 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "美好，好的",
+      "examples": [
+        "佳音",
+        "佳作",
+        "佳境",
+        "佳节",
+        "佳酿"
+      ],
+      "traditional_char": "佳"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "美女，佳人",
+      "examples": [
+        "佳人",
+        "佳丽",
+        "佳偶"
+      ],
+      "traditional_char": "佳"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从人，圭声，本义为美好。‘人’表义，‘圭’表声。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "以美好的事物转指美女，用于人，即佳人为佳。"
+    }
+  ]
+}

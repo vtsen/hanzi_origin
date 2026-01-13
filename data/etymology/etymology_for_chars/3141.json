@@ -1,0 +1,88 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "豪猪",
+      "examples": [
+        "豪，豪猪也。——《说文》"
+      ],
+      "traditional_char": "豪"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "具有杰出才能的人",
+      "examples": [
+        "英豪辈出。",
+        "文豪苏轼。"
+      ],
+      "traditional_char": "豪"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "气魄大，直爽痛快，没有拘束的",
+      "examples": [
+        "豪放不羁",
+        "性格豪爽",
+        "豪迈壮志"
+      ],
+      "traditional_char": "豪"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "强横的，有特殊势力的",
+      "examples": [
+        "豪强势力",
+        "土豪劣绅",
+        "豪门世家"
+      ],
+      "traditional_char": "豪"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "极小（古同“毫”）",
+      "examples": [
+        "豪末之差",
+        "豪无察觉"
+      ],
+      "traditional_char": "豪"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从豕表义（指豪猪），高省声；本义为豪猪，形-声结构。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "以豪猪刺多、与众不同，引申为杰出之人，约在先秦两汉已见转用。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由“杰出的人”引申出具有非凡气魄、爽快等个性特点，汉至中古使用。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由“杰出的人”向“强横有势之人”发展，多用于贬义，魏晋南北朝起见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_shift",
+      "note": "后世古音通“毫”，用于极小义，实际为通假字但沿用至今。"
+    }
+  ]
+}

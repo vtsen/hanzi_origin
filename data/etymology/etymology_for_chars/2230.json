@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "盛水或其他东西的器具，深度较大，用金属、木材或塑料等制成",
+      "examples": [
+        "水桶",
+        "饭桶",
+        "塑料桶"
+      ],
+      "traditional_char": "桶"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "形状像桶的",
+      "examples": [
+        "皮桶"
+      ],
+      "traditional_char": "桶"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从木，甬声。本义为盛液体或物品的木制容器。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由'桶'的器物形象转指具有类似外形的事物。"
+    }
+  ]
+}

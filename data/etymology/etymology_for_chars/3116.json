@@ -1,0 +1,40 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "按一定的节奏转动身体表演各种姿势，舞蹈。",
+      "examples": [
+        "舞剑",
+        "舞姿",
+        "跳舞"
+      ],
+      "traditional_char": "舞"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "耍弄（多含贬义）。",
+      "examples": [
+        "舞弊",
+        "舞文弄墨"
+      ],
+      "traditional_char": "舞"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从舛，两足相背作舞之形，表示动作，与声符无。初指跳舞。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由跳舞引申为耍弄事物，多为贬义。"
+    }
+  ]
+}

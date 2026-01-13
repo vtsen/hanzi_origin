@@ -1,0 +1,72 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "停止，止息，不再继续动作或活动",
+      "examples": [
+        "停车",
+        "停战",
+        "停学",
+        "停业"
+      ],
+      "traditional_char": "停"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "数份中的一份",
+      "examples": [
+        "十停儿有九停儿是好的"
+      ],
+      "traditional_char": "停"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "暂时停留",
+      "examples": [
+        "停留",
+        "停泊"
+      ],
+      "traditional_char": "停"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "妥当，稳妥，适当",
+      "examples": [
+        "停妥",
+        "停当"
+      ],
+      "traditional_char": "停"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从人，亭声，表示与人相关的“停止”动作。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "古义“停止”扩展为“暂时停留”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由“停止”引申为数目分段的名词用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "“停止（均匀、平稳）”引申为“妥当、稳妥”。"
+    }
+  ]
+}

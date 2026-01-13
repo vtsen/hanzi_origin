@@ -1,0 +1,73 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "趟水过河，步行过水。",
+      "examples": [
+        "涉水而过",
+        "跋涉千里",
+        "涉江而行"
+      ],
+      "traditional_char": "涉"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "经历，经历世事。",
+      "examples": [
+        "涉世未深",
+        "经历涉险"
+      ],
+      "traditional_char": "涉"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "牵连，涉及，与……有关系。",
+      "examples": [
+        "涉及案件",
+        "牵涉他人",
+        "交涉外交事务"
+      ],
+      "traditional_char": "涉"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "动，着手，开始某项活动。",
+      "examples": [
+        "涉笔成趣",
+        "涉足文坛"
+      ],
+      "traditional_char": "涉"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意字，从水，从步，表示趟水过河。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由实际过水，引申为经历世事，已有先秦文献记载。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由趟水而过，比喻牵连到某事或人，意含“影响到”的语义拓展。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "‘涉’由实际行动引申为动、着手等一般性的开始从事。"
+    }
+  ]
+}

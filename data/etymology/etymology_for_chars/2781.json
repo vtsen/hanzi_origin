@@ -1,0 +1,53 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "财产、财物多，富裕",
+      "examples": [
+        "富有",
+        "富足",
+        "富国强兵"
+      ],
+      "traditional_char": "富"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "充裕，充足",
+      "examples": [
+        "富余",
+        "富丽堂皇"
+      ],
+      "traditional_char": "富"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [],
+      "traditional_char": "富"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从宀表示与房屋有关，畐为声符，兼表满、富足之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“财物多”引申为“一切充裕、丰富”，古今皆有。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "conversion",
+      "note": "由形容词转为姓氏用法，汉代已见。"
+    }
+  ]
+}

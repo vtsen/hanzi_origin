@@ -1,0 +1,84 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "刺击用的长矛",
+      "examples": [
+        "长枪",
+        "红缨枪"
+      ],
+      "traditional_char": "槍"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "发射子弹的武器",
+      "examples": [
+        "手枪",
+        "步枪",
+        "机关枪",
+        "枪杀",
+        "枪林弹雨"
+      ],
+      "traditional_char": "槍"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "像枪的东西（工具或器具）",
+      "examples": [
+        "焊枪",
+        "烟枪"
+      ],
+      "traditional_char": "槍"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "两头尖的竹木片，供编篱笆用",
+      "examples": [],
+      "traditional_char": "槍"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "二树的枝条互相抵拒",
+      "examples": [],
+      "traditional_char": "槍"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 4,
+      "note": "形声字，从木，仓声，最初表示树枝交抵。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 4,
+      "target_index": 0,
+      "evolution_type": "metaphor",
+      "note": "古义“枝条相抵”比喻用于“刺击的武器”，强调尖锐对抗。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "火器发明后，‘枪’义扩展至发射子弹的现代武器。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "因形或功能类似长枪，工具亦称“枪”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "因形体细长尖锐，竹木片作篱笆亦称“枪”。"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "水势大，水量多",
+      "examples": [
+        "江水浩浩",
+        "浩渺无边"
+      ],
+      "traditional_char": "浩"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "广阔、广大，数量极多",
+      "examples": [
+        "浩瀚星空",
+        "浩繁如烟"
+      ],
+      "traditional_char": "浩"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "浩气，盛大的正气或刚正之气",
+      "examples": [
+        "浩气长存",
+        "自强不息，浩然之气"
+      ],
+      "traditional_char": "浩"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，告声，表示水势浩大。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由水势大引申为广大、繁多。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由广大、浑厚的属性比喻为盛大的正气、刚直之气。"
+    }
+  ]
+}

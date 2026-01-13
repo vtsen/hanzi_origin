@@ -1,0 +1,92 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "用手向下压或摁",
+      "examples": [
+        "按铃",
+        "按键",
+        "按钮"
+      ],
+      "traditional_char": "按"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "止住，压制情绪或行动",
+      "examples": [
+        "按捺",
+        "按耐",
+        "按压"
+      ],
+      "traditional_char": "按"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "preposition",
+      "meaning": "依照，根据",
+      "examples": [
+        "按照",
+        "按理",
+        "按例",
+        "按说",
+        "按质论价"
+      ],
+      "traditional_char": "按"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "考查，查验",
+      "examples": [
+        "按验",
+        "按察"
+      ],
+      "traditional_char": "按"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "编者、作者在正文之外加的说明或论断",
+      "examples": [
+        "按语",
+        "编者按"
+      ],
+      "traditional_char": "按"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从手，安声，本义为用手向下压。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由物理上的向下压引申为止住、压制抽象事物。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "依据手的动作引申为“依据某种标准”使用。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由按压的动作转义为查验、考察。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "强调按下后的标记，引申为补充说明或论断。"
+    }
+  ]
+}

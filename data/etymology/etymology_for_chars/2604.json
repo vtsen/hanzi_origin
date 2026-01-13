@@ -1,0 +1,60 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "紫色，红与蓝混合的颜色，在可见光中波长最短。",
+      "examples": [
+        "紫红",
+        "紫外线",
+        "紫药水"
+      ],
+      "traditional_char": "紫"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "道教及某些朝代皇权象征、祥瑞之色，常用于宫室、服饰、用物等名称前表示尊贵或神圣。",
+      "examples": [
+        "紫衣",
+        "紫书",
+        "紫气",
+        "紫台",
+        "紫绶",
+        "紫垣",
+        "紫阙",
+        "紫禁城",
+        "紫袍金带"
+      ],
+      "traditional_char": "紫"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [],
+      "traditional_char": "紫"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从糸（表示与丝绸染色相关），此声，本义为紫色（红与蓝的混合色）。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "古代因紫色为尊贵及祥瑞之色，名称转用于宫室等象征权力和神圣场所，形成引申。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "reanalysis",
+      "note": "以颜色名作为姓氏用法，常见于中国姓氏的来源。"
+    }
+  ]
+}

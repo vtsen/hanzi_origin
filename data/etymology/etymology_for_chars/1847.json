@@ -1,0 +1,103 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古代拘囚犯人的刑具",
+      "examples": [
+        "以校系之",
+        "校系囚徒"
+      ],
+      "traditional_char": "校"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "学堂，专门进行教育的机构",
+      "examples": [
+        "校园",
+        "校长"
+      ],
+      "traditional_char": "校"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "军衔的一级，在“将”之下，“尉”之上",
+      "examples": [
+        "校官",
+        "他是一名上校"
+      ],
+      "traditional_char": "校"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "古代军队编制单位",
+      "examples": [
+        "校尉",
+        "带领一校兵卒"
+      ],
+      "traditional_char": "校"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "比较",
+      "examples": [
+        "校场",
+        "校比优劣"
+      ],
+      "traditional_char": "校"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "查对、订正",
+      "examples": [
+        "校对",
+        "校订勘误"
+      ],
+      "traditional_char": "校"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从木，交声。‘木’表示与木制刑具有关，‘交’为声旁。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_shift",
+      "note": "刑具作合并之意，引申为比较、较量；语义演变时期为先秦。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "由‘比较’进一步引申为‘查对、订正’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "刑具多用于军队中囚禁，进而指代军队编制单位‘校’。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由编制单位引申为相应的军衔称谓。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由‘比较,较量场所’引申至教育机构，因学校是聚合学习和比试之处。"
+    }
+  ]
+}

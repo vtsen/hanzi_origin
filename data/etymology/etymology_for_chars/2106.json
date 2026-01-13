@@ -1,0 +1,88 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "充当家奴的罪人",
+      "examples": [
+        "《说文解字》：“宰，罪人也。”"
+      ],
+      "traditional_char": "宰"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "杀牲畜",
+      "examples": [
+        "屠宰场",
+        "宰羊",
+        "宰杀"
+      ],
+      "traditional_char": "宰"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "用狡诈的手段使顾客在经济上受到损害",
+      "examples": [
+        "被商贩宰了一刀",
+        "他经常宰人"
+      ],
+      "traditional_char": "宰"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "古代官名",
+      "examples": [
+        "宰相",
+        "太宰",
+        "宰辅"
+      ],
+      "traditional_char": "宰"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "主管、主持",
+      "examples": [
+        "主宰",
+        "宰制天下"
+      ],
+      "traditional_char": "宰"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意字，从“宀”表屋宇，从“辛”为刑具，表示屋下服劳役的罪人。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_shift",
+      "note": "古代罪人充当家奴，可能负责屠宰牲畜，后引申为杀牲畜。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "杀牲畜比喻对人狠宰，指用狡诈手段榨取财物。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "由家奴罪人引申为主管家务、治理事务，进而成为官名。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由官名引申为一般意义的主管、主持。"
+    }
+  ]
+}

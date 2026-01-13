@@ -1,0 +1,72 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "onomatopoeia",
+      "meaning": "形容细碎、杂乱的声音，如虫鸣、低语等。",
+      "examples": [
+        "蟋蟀在草丛中唧唧地叫。",
+        "唧唧哝哝。",
+        "小鸡唧唧地叫着。"
+      ],
+      "traditional_char": "唧"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "喷射或抽吸液体。",
+      "examples": [
+        "唧了一身水。",
+        "以唧筒唧水其上。",
+        "血从伤口中唧出。"
+      ],
+      "traditional_char": "唧"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "唧筒，抽水或喷射用的器具。",
+      "examples": [
+        "唧筒用长竹，下开窍。",
+        "用唧筒抽水。"
+      ],
+      "traditional_char": "唧"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "interjection",
+      "meaning": "感叹声，表达惊讶或悲叹。",
+      "examples": [
+        "啊喲！唧、唧！我的天公！"
+      ],
+      "traditional_char": "唧"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从口，即声，最初用于描写虫鸣、杂声等象声用法。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由模仿细碎声音引申为液体喷射时发出的声音，进而用于表示喷射动作。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "动作名称转为表示完成该动作的器具，即唧筒。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "声音模仿词被借用为感叹语气词。"
+    }
+  ]
+}

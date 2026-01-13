@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "小杯子，如酒杯、茶杯。",
+      "examples": [
+        "酒盏空对月",
+        "斟满一盏茶"
+      ],
+      "traditional_char": "盞"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "油灯盛油的浅盆。",
+      "examples": [
+        "灯盏点亮夜色",
+        "一盏油灯"
+      ],
+      "traditional_char": "盞"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "measure_word",
+      "meaning": "表示灯的量词。",
+      "examples": [
+        "一盏灯",
+        "几盏明灯"
+      ],
+      "traditional_char": "盞"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘盞’为形声字，从皿，戔声；本义指小杯，器皿类。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "因油灯盏形似小杯，古时喻为‘盏’。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "grammaticalization",
+      "note": "“盏”由具体器物转化为灯的量词，明清普遍用法。"
+    }
+  ]
+}

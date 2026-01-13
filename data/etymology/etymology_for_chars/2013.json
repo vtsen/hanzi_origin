@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "饥饿",
+      "examples": [
+        "冻馁",
+        "聊以卒岁，不至馁死"
+      ],
+      "traditional_char": "餒"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "没有勇气，气馁",
+      "examples": [
+        "气馁",
+        "自馁",
+        "遇困难不可气馁"
+      ],
+      "traditional_char": "餒"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "鱼腐烂",
+      "examples": [
+        "鱼馁而肉败"
+      ],
+      "traditional_char": "餒"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从食，委声，表示饥饿。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由指生理饥饿转喻为精神或意志上的软弱。用作近现代汉语。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由饥饿引申为因不得食而腐败，多用于鱼。文言用法。"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "战争中被擒获的敌人",
+      "examples": [
+        "战俘",
+        "遣俘",
+        "收容俘虏"
+      ],
+      "traditional_char": "俘"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "作战时擒获敌人",
+      "examples": [
+        "俘获",
+        "被俘"
+      ],
+      "traditional_char": "俘"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "形声字，从“人”表义，“孚”表声，本指捕获敌人。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "conversion",
+      "note": "从动词“擒获（敌人）”转化为名词“被俘的人”。"
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "车箱两旁板上的横木，古车构件名。",
+      "examples": [
+        "《说文》：較，车箱两旁横木也。"
+      ],
+      "traditional_char": "較"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "比较，对比。",
+      "examples": [
+        "两人较量高下。",
+        "成绩较佳。"
+      ],
+      "traditional_char": "較"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "对比后显得更加、更加明显。",
+      "examples": [
+        "情况较好。",
+        "较然。"
+      ],
+      "traditional_char": "較"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "明显，显著。",
+      "examples": [
+        "彰明较著。"
+      ],
+      "traditional_char": "較"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "大旨，大概。",
+      "examples": [
+        "较略。"
+      ],
+      "traditional_char": "較"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从车，交声，表示古代车构件。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由车箱构件横木引申为相隔、对比，产生“比较”义，汉至魏晋用法。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由“比较”动词义进一步引申出对比后的明显化和程度加深，宋以后常见用法。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "程度义引申为“明显、显著”。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由“比较”引申出“大致、概要”含义，属于虚转。"
+    }
+  ]
+}

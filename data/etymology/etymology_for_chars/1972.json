@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "身体；躯体",
+      "examples": [
+        "克己复礼为仁，一日克己复礼，天下归仁焉，为仁由己，而由人乎哉？——《论语·颜渊》"
+      ],
+      "traditional_char": "躬"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "pronoun",
+      "meaning": "自身；亲自",
+      "examples": [
+        "反躬自省",
+        "事必躬亲"
+      ],
+      "traditional_char": "躬"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "弯曲身体；鞠躬行礼",
+      "examples": [
+        "鞠躬尽瘁，死而后已",
+        "躬身下拜"
+      ],
+      "traditional_char": "躬"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从『身』（表义），『弓』（表音）；本义为整个身体。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由'身体'引申为'自身、亲自'，古代以身体代表‘自身’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由‘身体’引申为‘弯曲身体’，即动作。"
+    }
+  ]
+}

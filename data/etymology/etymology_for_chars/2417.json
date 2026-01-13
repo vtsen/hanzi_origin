@@ -1,0 +1,101 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古代水名，即今新安江及其下游的钱塘江",
+      "examples": [
+        "渐，水名。出新安，东过钱塘入海。"
+      ],
+      "traditional_char": "漸"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adverb",
+      "meaning": "慢慢地，一点一点地",
+      "examples": [
+        "逐渐",
+        "渐进",
+        "防微杜渐"
+      ],
+      "traditional_char": "漸"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "加剧，逐步严重",
+      "examples": [
+        "疾大渐"
+      ],
+      "traditional_char": "漸"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "疏导（水流）",
+      "examples": [
+        "渐九川"
+      ],
+      "traditional_char": "漸"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "浸泡，沾染",
+      "examples": [
+        "渐渍",
+        "渐洳",
+        "渐染"
+      ],
+      "traditional_char": "漸"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "流入（水流流入）",
+      "examples": [
+        "东渐于海"
+      ],
+      "traditional_char": "漸"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，斩声。本义为水名。‘水’表义，‘斩’表声。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由水流渐进、流动引申为“慢慢地、一点一点地”，汉代以后普及。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "‘渐’在表示发展变化时，可引申为‘程度加剧’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "从水相关，由水的流动引申为‘疏导’水流。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由水的作用，引申为‘浸泡、沾染’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "由作为水名，引申为‘流入’义。"
+    }
+  ]
+}

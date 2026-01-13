@@ -1,0 +1,187 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "驱逐，流放",
+      "examples": [
+        "流放罪人",
+        "放逐边疆"
+      ],
+      "traditional_char": "放"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "解除约束，释放，使自由",
+      "examples": [
+        "把鸟放了",
+        "放人质",
+        "豪放"
+      ],
+      "traditional_char": "放"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "散开、结束活动",
+      "examples": [
+        "放学",
+        "放假",
+        "放工"
+      ],
+      "traditional_char": "放"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "带牲畜到野外去吃草",
+      "examples": [
+        "放牧",
+        "放羊"
+      ],
+      "traditional_char": "放"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "任命官员到地方任职",
+      "examples": [
+        "放官",
+        "下放"
+      ],
+      "traditional_char": "放"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "发出（声、光、气等）",
+      "examples": [
+        "放电",
+        "放歌",
+        "放光"
+      ],
+      "traditional_char": "放"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "借出钱财，收取利息",
+      "examples": [
+        "放贷",
+        "放债"
+      ],
+      "traditional_char": "放"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "verb",
+      "meaning": "扩展，扩大",
+      "examples": [
+        "放大",
+        "放宽"
+      ],
+      "traditional_char": "放"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "verb",
+      "meaning": "花开放",
+      "examples": [
+        "百花齐放",
+        "心花怒放"
+      ],
+      "traditional_char": "放"
+    },
+    {
+      "index": 9,
+      "part_of_speech": "verb",
+      "meaning": "放置、搁置",
+      "examples": [
+        "把书放在桌子上",
+        "放弃",
+        "放心"
+      ],
+      "traditional_char": "放"
+    },
+    {
+      "index": 10,
+      "part_of_speech": "preposition",
+      "meaning": "至，达到某处",
+      "examples": [
+        "放乎四海",
+        "摩顶放踵"
+      ],
+      "traditional_char": "放"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从攴表动作，方为声符，本义为驱逐、流放。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由驱逐进一步泛指解除约束，使自由。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由“释放”引申为结束某项规定的活动如放学、放假。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "解除约束引申为放牧，指牲畜自由活动。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "驱逐引申为“下放”，指外派官员、派遣到地方。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "metaphor",
+      "note": "自由、释放抽象化为“发出”声、光等。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 6,
+      "evolution_type": "metonymy",
+      "note": "“放”钱即把钱释放出去，引申为放贷。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 7,
+      "evolution_type": "metaphor",
+      "note": "从解除、延展义引申为“扩大”之意。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 8,
+      "evolution_type": "metaphor",
+      "note": "花朵开放，喻其由束缚到释放的状态变化。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 9,
+      "evolution_type": "semantic_extension",
+      "note": "解除或移动之意，引申为“搁置”，即放置。"
+    },
+    {
+      "source_index": 9,
+      "target_index": 10,
+      "evolution_type": "semantic_extension",
+      "note": "由放置引申为“达到某处”、至的意思。"
+    }
+  ]
+}

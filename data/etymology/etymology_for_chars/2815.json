@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "系船用的粗绳或铁索",
+      "examples": [
+        "缆绳",
+        "解缆"
+      ],
+      "traditional_char": "纜"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "许多股拧成的像缆的东西，如电缆、钢缆",
+      "examples": [
+        "电缆",
+        "钢缆"
+      ],
+      "traditional_char": "纜"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "用绳索栓住",
+      "examples": [
+        "缆舟",
+        "一纵不可缆"
+      ],
+      "traditional_char": "纜"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从糸，表示与绳索有关，‘览’为声符。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "对‘缆’的意义从系船粗绳扩展到类似结构的物体，如电缆、钢缆。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "conversion",
+      "note": "名词动用，表示用绳索进行‘缆’的动作。"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "水流弯曲的地方",
+      "examples": [
+        "河湾",
+        "江湾"
+      ],
+      "traditional_char": "灣"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "海岸凹入陆地、便于停船的地方",
+      "examples": [
+        "海湾",
+        "港湾"
+      ],
+      "traditional_char": "灣"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "使船停住",
+      "examples": [
+        "把船湾住"
+      ],
+      "traditional_char": "灣"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，弯声。表水流弯曲之处。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由河流弯曲之处引申至海岸凹入处，多见于地貌指称。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "conversion",
+      "note": "由名词‘湾’引申作为动词，表示‘使船停靠于湾中’。"
+    }
+  ]
+}

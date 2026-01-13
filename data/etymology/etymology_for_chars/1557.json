@@ -1,0 +1,57 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "numeral",
+      "meaning": "两个。",
+      "examples": [
+        "咱俩一起去。",
+        "他俩是兄弟。",
+        "姐儿俩说悄悄话。"
+      ],
+      "traditional_char": "倆"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "numeral",
+      "meaning": "几个（泛指少数）。",
+      "examples": [
+        "给他俩钱儿。",
+        "倆人都是我的同学。",
+        "也难得赢你舅母俩钱儿。"
+      ],
+      "traditional_char": "倆"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "本领、花招（如“伎俩”中的“俩”）。",
+      "examples": [
+        "他有些小伎俩。",
+        "鬼蜮伎俩，不足取也。"
+      ],
+      "traditional_char": "倆"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从人，两声。本义为‘两个’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由表示‘两个’扩展为‘几个’、‘少数’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "‘伎俩’中‘俩’由‘两种本领’引申为‘手段、本领’。历史用法体现了从数量意向到抽象意向的转化。"
+    }
+  ]
+}

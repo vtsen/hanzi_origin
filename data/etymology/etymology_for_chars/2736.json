@@ -1,0 +1,57 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "退位，退伏，退出岗位",
+      "examples": [
+        "有司已于事而竣。——《国语》",
+        "竣，退伏也。（韦昭注）",
+        "竣，退也。（薛综注）"
+      ],
+      "traditional_char": "竣"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "完成，完毕，结束",
+      "examples": [
+        "晓夜并工，克期告竣。——《三国演义》",
+        "速竣割事。（聊斋志异·嬌娜）",
+        "竣工"
+      ],
+      "traditional_char": "竣"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "完成，事情结束",
+      "examples": [
+        "克期告竣。",
+        "事竣。"
+      ],
+      "traditional_char": "竣"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从立，夋声，表示退立、退伏之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘退位’引申为‘事情完毕’，《国语》《三国演义》等有例。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "conversion",
+      "note": "由动词‘完成’转换为名词‘事毕’。"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "母亲的姐妹",
+      "examples": [
+        "姨妈来看我。",
+        "姨母家住在上海。"
+      ],
+      "traditional_char": "姨"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "妻子的姐妹",
+      "examples": [
+        "小姨子回娘家。",
+        "大姨子过生日。"
+      ],
+      "traditional_char": "姨"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "妾",
+      "examples": [
+        "姨太太住在偏房。"
+      ],
+      "traditional_char": "姨"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "形声字，从女，夷声。表示妻的姐妹。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "由“妻的姐妹”类推至“母的姐妹”，中古以后用法扩大。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由妻方的女性亲属引申为“妾”，因妾有时地位类似亲族中的女性。"
+    }
+  ]
+}

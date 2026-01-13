@@ -1,0 +1,131 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "祖庙，宗庙，祭祀祖先的场所",
+      "examples": [
+        "宗庙之礼，谓之祖",
+        "建祖庙以奉先"
+      ],
+      "traditional_char": "祖"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "父亲的上一辈，即祖父母一辈",
+      "examples": [
+        "祖父",
+        "祖母"
+      ],
+      "traditional_char": "祖"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "称与祖父母同辈的亲属",
+      "examples": [
+        "外祖父",
+        "外祖母"
+      ],
+      "traditional_char": "祖"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "先代、祖先，泛指上代的人",
+      "examples": [
+        "祖宗",
+        "祖业",
+        "祖制",
+        "祖国"
+      ],
+      "traditional_char": "祖"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "初、开始，起源之意",
+      "examples": [
+        "鼻祖",
+        "儒家鼻祖孔子"
+      ],
+      "traditional_char": "祖"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "某一事业或派别的创始人",
+      "examples": [
+        "祖师",
+        "佛祖"
+      ],
+      "traditional_char": "祖"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "出行时祭拜路神，引申为送别",
+      "examples": [
+        "祖余白下亭",
+        "祖饯"
+      ],
+      "traditional_char": "祖"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "祖逖",
+        "祖冲之"
+      ],
+      "traditional_char": "祖"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从“示”表意，指与祭祀、宗庙有关，且为声符，本义为宗庙。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由祖庙引申为庙内被奉祀的上一辈祖先，代指祖父母一辈。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "对父系之外同辈的尊称扩展，如外祖父、外祖母。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "进一步泛指上代、祖先、先人。（如祖宗、祖业等）"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "从‘先代’的意思比喻事物的初、开始、起源。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "由‘起源’引申为某事业或流派的创始人。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "semantic_extension",
+      "note": "宗庙祭祀引申为祭路神及送别等礼仪用法。"
+    }
+  ]
+}

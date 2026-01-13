@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "战争中获得的战利品",
+      "examples": [
+        "献捷于朝"
+      ],
+      "traditional_char": "捷"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "取得胜利，获得胜利",
+      "examples": [
+        "报捷",
+        "捷音"
+      ],
+      "traditional_char": "捷"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "快速，迅速",
+      "examples": [
+        "捷速",
+        "敏捷",
+        "快捷",
+        "捷足先登"
+      ],
+      "traditional_char": "捷"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从手，疌声，原指战利品，与战争胜利有关。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由“战利品”引申为“取得胜利”，春秋战国即有用法。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由战争迅速胜利引申为“快速、敏捷”，后经概括用于泛指速度快。"
+    }
+  ]
+}

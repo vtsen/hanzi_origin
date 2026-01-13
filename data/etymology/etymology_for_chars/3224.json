@@ -1,0 +1,59 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "饮酒过量，神志不清",
+      "examples": [
+        "醉汉",
+        "醉鬼",
+        "醉意",
+        "醉翁之意不在酒"
+      ],
+      "traditional_char": "醉"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "沉迷，过分爱好",
+      "examples": [
+        "沉醉",
+        "陶醉",
+        "醉心于艺术"
+      ],
+      "traditional_char": "醉"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "用酒泡制的",
+      "examples": [
+        "醉虾",
+        "醉蟹",
+        "醉枣"
+      ],
+      "traditional_char": "醉"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“醉”为形声字，从酉，卒声，本义为饮酒过量神志不清。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由于饮酒醉态的沉浸感，喻指对事物的痴迷，出现于后世文学。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "指被酒泡制的食物，通过用酒加工，与醉酒关联，出现于近世。"
+    }
+  ]
+}

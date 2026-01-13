@@ -1,0 +1,53 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "竹子初从土里长出的嫩茎、芽，可食用，称为竹笋。",
+      "examples": [
+        "春笋初生。",
+        "炒竹笋是一道美食。"
+      ],
+      "traditional_char": "筍"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "竹子的青皮。",
+      "examples": [
+        "笋席即以竹青编织。"
+      ],
+      "traditional_char": "筍"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "古同“榫”，指器物部件插接用的凸出部分。",
+      "examples": [
+        "笋卯相合。"
+      ],
+      "traditional_char": "筍"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从竹，尹声，最初表示竹笋。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由“竹笋”指代其青皮，用其部分代表整体。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由形状类似竹笋，引申为“榫”这种凸起插接部件。"
+    }
+  ]
+}

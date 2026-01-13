@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "斜倒，倾斜，用斗倒出",
+      "examples": [
+        "以斗斜倾其物而出"
+      ],
+      "traditional_char": "斜"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "不正，跟平面或直线既不平行也不垂直的",
+      "examples": [
+        "斜坡",
+        "斜线",
+        "斜视"
+      ],
+      "traditional_char": "斜"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从斗（表示倒出、倾斜），余声，表示物体倾侧之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘倾倒’之动作义引申为‘不正、不垂直’的形容词义，汉以后定型。"
+    }
+  ]
+}

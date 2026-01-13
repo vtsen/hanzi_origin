@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "说话，谈论。",
+      "examples": [
+        "我们坐下来谈一谈。",
+        "谈笑风生",
+        "恳谈",
+        "对谈"
+      ],
+      "traditional_char": "談"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "言论，说的话。",
+      "examples": [
+        "无稽之谈",
+        "笑谈",
+        "传为美谈"
+      ],
+      "traditional_char": "談"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [],
+      "traditional_char": "談"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从言，炎声，表示谈论、说话的意思。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "conversion",
+      "note": "动词“谈”（说话）转化为名词“谈”（言论、话语）。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "unknown",
+      "note": "姓氏用法源自名词化，没有详细历史细节。"
+    }
+  ]
+}

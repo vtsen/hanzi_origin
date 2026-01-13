@@ -1,0 +1,38 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "两膝着地，腰和股都伸直",
+      "examples": [
+        "跪拜",
+        "跪叩"
+      ],
+      "traditional_char": "跪"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "足（如指动物的一种肢体）",
+      "examples": [
+        "蟹六跪而二螯"
+      ],
+      "traditional_char": "跪"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从足，危声，表示屈膝着地之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "古代用‘跪’借指螃蟹等动物的腿部，因其形态类似人跪之状。"
+    }
+  ]
+}

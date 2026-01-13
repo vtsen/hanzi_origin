@@ -1,0 +1,40 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "动植物体内或种子中的油脂物质",
+      "examples": [
+        "动物脂肪",
+        "松脂",
+        "脂膏"
+      ],
+      "traditional_char": "脂"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "指胭脂，传统女性化妆品",
+      "examples": [
+        "脂粉",
+        "胭脂"
+      ],
+      "traditional_char": "脂"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从肉，旨声，本指动植物油脂。‘肉’为意符表与肉体、脂肪有关，‘旨’表音。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由油脂引申为胭脂，因传统胭脂常含有油性材料，且比喻女子化妆品。"
+    }
+  ]
+}

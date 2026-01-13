@@ -1,0 +1,58 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "向神明祷告、求福",
+      "examples": [
+        "祈福",
+        "祈祷",
+        "祈年",
+        "向天祈求风调雨顺"
+      ],
+      "traditional_char": "祈"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "请求、恳请",
+      "examples": [
+        "祈请",
+        "祈求",
+        "祈望",
+        "敬祈照准"
+      ],
+      "traditional_char": "祈"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "祈氏"
+      ],
+      "traditional_char": "祈"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从“示”表与神祇有关，从“斤”作声旁，本义为向神明祈求福祉。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从向神请求泛化到一般请求，用于后起文献。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "unknown",
+      "note": "由动词义转为姓氏用法，演变机制未知。"
+    }
+  ]
+}

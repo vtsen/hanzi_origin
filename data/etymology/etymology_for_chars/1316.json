@@ -1,0 +1,121 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "兄弟姐妹中排行最大的，亦指庶出的长子；后泛指长子或长女。",
+      "examples": [
+        "孟兄",
+        "惠公元妃孟子。",
+        "胡卫道三子：孟曰宽，仲曰定，季曰宕。",
+        "彼美孟姜。",
+        "庄公筑台临党氏，见孟女，说而爱之。"
+      ],
+      "traditional_char": "孟"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "四季中每季第一个月（孟春、孟夏、孟秋、孟冬）。",
+      "examples": [
+        "孟春之月。",
+        "孟冬十月，北风徘徊。"
+      ],
+      "traditional_char": "孟"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "勉力，努力。",
+      "examples": [
+        "孟晋（勉力求进）",
+        "盍孟晋以迨群。"
+      ],
+      "traditional_char": "孟"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "猛然不及思考，冒冒失失，鲁莽。",
+      "examples": [
+        "孟浪（冒失、鲁莽）",
+        "夫子以为孟浪之言。"
+      ],
+      "traditional_char": "孟"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "姓。",
+      "examples": [
+        "孟尝君",
+        "鲁大夫孟氏"
+      ],
+      "traditional_char": "孟"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "通“氓”，指民众（多见于古文）。",
+      "examples": [
+        "昔宾孟之蔽者，乱家是也。"
+      ],
+      "traditional_char": "孟"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "adjective",
+      "meaning": "大，过激。",
+      "examples": [
+        "高言孟行，以过其情，以遇其主矣。",
+        "孟， 大也。"
+      ],
+      "traditional_char": "孟"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从子，皿声，表达排行最大或庶长子本义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "四季第一个月借排行最大的意义引申，古已有之。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "function_word",
+      "note": "以排行最大为姓氏，古代常见命名法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "“孟浪”由“头一个、冒出”引申为鲁莽冒失，含轻率之义，见于先秦典籍。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由最大、首领引申为勉力、努力之意。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "semantic_extension",
+      "note": "“大”义从长引申，指极端、过激之事。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "古文中假借为“氓”，民众义。"
+    }
+  ]
+}

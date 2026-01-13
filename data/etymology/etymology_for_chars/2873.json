@@ -1,0 +1,40 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "用动物乳汁制成的半凝固食品",
+      "examples": [
+        "奶酪",
+        "干酪",
+        "酪蛋白"
+      ],
+      "traditional_char": "酪"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "用果实制成的糊状食品",
+      "examples": [
+        "果酪",
+        "杏仁酪"
+      ],
+      "traditional_char": "酪"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从酉表意（指酿造、发酵类），‘各’表音，本义指乳酪，即用乳汁制成的食品。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由乳酪引申为质地或形态相似、用果实制成的糊状食品，利用比喻机制。"
+    }
+  ]
+}

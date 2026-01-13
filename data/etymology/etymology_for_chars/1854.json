@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "停留，止住。",
+      "examples": [
+        "车逗留在路边。",
+        "他在此逗留片刻。"
+      ],
+      "traditional_char": "逗"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "引，惹弄（使人高兴、发笑等）。",
+      "examples": [
+        "他很会逗小孩。",
+        "这个笑话真逗人发笑。"
+      ],
+      "traditional_char": "逗"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "同“读”。",
+      "examples": [
+        "再逗一遍。"
+      ],
+      "traditional_char": "逗"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从辵，豆声。本义为停留、止住。辵表示行走相关，豆作声旁。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由‘停留、止住’引申为‘引、惹弄’—即使情感或注意停留，常用于引人发笑。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "unknown",
+      "note": "‘逗’表示‘读’的用法来历不详，可能为方言或借用。"
+    }
+  ]
+}

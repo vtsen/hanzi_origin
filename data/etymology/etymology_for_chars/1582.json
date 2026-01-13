@@ -1,0 +1,69 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "水流入海，水流扩展",
+      "examples": [
+        "江河之水，衍入于海。"
+      ],
+      "traditional_char": "衍"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "延长，开展，推展",
+      "examples": [
+        "推衍",
+        "演绎",
+        "衍生物"
+      ],
+      "traditional_char": "衍"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "多余的（指文字）",
+      "examples": [
+        "衍文"
+      ],
+      "traditional_char": "衍"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "低而平坦之地",
+      "examples": [
+        "沃衍"
+      ],
+      "traditional_char": "衍"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意字，从“水”表水流，从“行”表移动，引申水流行入海。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由水流扩展比喻事物的发展延展；《说文》已有此引申。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由'展开'引申为'多出来的'（如文字多余），语义扩展。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "因水流所至之地多为平坦肥沃之地，故以“衍”指平地。"
+    }
+  ]
+}

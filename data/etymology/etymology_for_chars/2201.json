@@ -1,0 +1,102 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "蝗虫",
+      "examples": [
+        "《说文》：黄，蝗虫也。"
+      ],
+      "traditional_char": "黃"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "像金子或向日葵花的颜色",
+      "examples": [
+        "黄色。",
+        "黄昏。",
+        "牛黄。"
+      ],
+      "traditional_char": "黃"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "特指中国黄河",
+      "examples": [
+        "治黄。",
+        "黄泛区。",
+        "黄灾。"
+      ],
+      "traditional_char": "黃"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "指黄帝（传说中部落联盟首领）",
+      "examples": [
+        "黄老。",
+        "炎黄子孙。"
+      ],
+      "traditional_char": "黃"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "事情失败或计划不能实现",
+      "examples": [
+        "事情黄了。"
+      ],
+      "traditional_char": "黃"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "黄先生。"
+      ],
+      "traditional_char": "黃"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "pictograph",
+      "original_sense_index": 0,
+      "note": "金文象蝗虫形，最初为‘蝗虫’之本字，后借用。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_shift",
+      "note": "古借指蝗虫体色进而泛指黄色，语义转移较早。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "黄河因河水含沙呈黄色，以色称河。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "synecdoche",
+      "note": "传说黄帝以‘黄’为号，取色为名。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "以黄叶枯萎引申为事情失败。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "unknown",
+      "note": "姓氏用法，成因不明，或与地名、人名相关。"
+    }
+  ]
+}

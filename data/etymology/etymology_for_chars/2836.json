@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "倒下或下陷。",
+      "examples": [
+        "房屋倒塌。",
+        "塌方。",
+        "屋顶塌陷。"
+      ],
+      "traditional_char": "塌"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "下垂，耷拉。",
+      "examples": [
+        "塌秧。",
+        "他的肩膀塌下来。"
+      ],
+      "traditional_char": "塌"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "安定，镇定。",
+      "examples": [
+        "塌下心来学习。",
+        "你要塌下心来做事。"
+      ],
+      "traditional_char": "塌"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从土，搭声；本义指倒下、下陷，与“土”相关。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由整体倒下引申为部分下垂，语义扩展。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "“塌”由物体倒下引申为心理安定，比喻意义，明清及现代常见。"
+    }
+  ]
+}

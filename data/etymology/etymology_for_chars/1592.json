@@ -1,0 +1,59 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "月光不明或微明的样子",
+      "examples": [
+        "灯在月胧明，觉来闻晓莺。",
+        "胧月"
+      ],
+      "traditional_char": "朧"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "模糊、不清楚的样子",
+      "examples": [
+        "朦胧",
+        "胧胧"
+      ],
+      "traditional_char": "朧"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "肥胖的样子（方言、罕见）",
+      "examples": [
+        "朧腫"
+      ],
+      "traditional_char": "朧"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘朧’为形声字，从月，龙声，最初用以描述月色微明。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘胧’为‘朧’的简化字，传承了朧的语音和意义结构。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由月光不清引申为事物模糊（语义隐喻扩展，中古及后期诗文多见）。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "unknown",
+      "note": "‘肥胖貌’为古籍中音同字借义或方言用法，关系尚不明。"
+    }
+  ]
+}

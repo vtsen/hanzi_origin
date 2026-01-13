@@ -1,0 +1,61 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "水不清，不干净",
+      "examples": [
+        "浑浊的河水",
+        "污浊的空气"
+      ],
+      "traditional_char": "濁"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "混乱（指政治或社会世道）",
+      "examples": [
+        "浊世难逢知己",
+        "处于浊世"
+      ],
+      "traditional_char": "濁"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "声音低沉粗重",
+      "examples": [
+        "浊声浊气",
+        "浊音",
+        "他说话声音很浊"
+      ],
+      "traditional_char": "濁"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“濁”为形声字，从水，蜀声，本义为水不清。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“浊”为简化字，形声结构，从水，属声，承袭“濁”本义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由“水不清”引申为“世道混乱”，常见于先秦至今。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由“浊”义转喻为声音低沉粗重，古今皆有。"
+    }
+  ]
+}

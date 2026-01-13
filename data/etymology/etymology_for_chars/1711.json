@@ -1,0 +1,121 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "天地万物的创造者与所崇拜的自然、祖先或超自然精灵",
+      "examples": [
+        "神仙",
+        "神主",
+        "神社"
+      ],
+      "traditional_char": "神"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "不可思议的，极为奇异或神奇的",
+      "examples": [
+        "神秘",
+        "神奇",
+        "神异"
+      ],
+      "traditional_char": "神"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "不平凡的，特别高超的",
+      "examples": [
+        "神勇",
+        "神医",
+        "神速"
+      ],
+      "traditional_char": "神"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "心思，注意力",
+      "examples": [
+        "劳神",
+        "凝神",
+        "神魂颠倒"
+      ],
+      "traditional_char": "神"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "表情，神色",
+      "examples": [
+        "神态",
+        "神色",
+        "神采"
+      ],
+      "traditional_char": "神"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "精神，精神状态",
+      "examples": [
+        "神清气爽",
+        "养神"
+      ],
+      "traditional_char": "神"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [],
+      "traditional_char": "神"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从示，申声。“申”为闪电形，以示为祭祀、神明之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由神灵不可思议、变化莫测的特性引申为“奇异、神秘”。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由“神奇”进一步泛指一切高超不凡。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "古人以“神”主宰人之思维，故引申为“心思、注意力”。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "注意力、心思外现为表情、神色。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "由心思、注意力引申为“精神状态”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "unknown",
+      "note": "作为姓氏的用法，来源不详。"
+    }
+  ]
+}

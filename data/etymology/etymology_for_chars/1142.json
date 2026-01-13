@@ -1,0 +1,76 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "僬侥：古代传说中的矮人",
+      "examples": [
+        "南方有焦侥人，长三尺。——《说文》",
+        "从中州以东，四十万里，得僬侥国。——《列子·汤问》"
+      ],
+      "traditional_char": "僥"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "贪求不止，非分之求",
+      "examples": [
+        "不敢复有侥冀。——《资治通鉴》",
+        "苟其侥一时之幸。——苏轼《上梅直讲书》"
+      ],
+      "traditional_char": "僥"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "希求意外的成功或幸免",
+      "examples": [
+        "此以人之国侥倖也。——《庄子·在宥》",
+        "存在侥幸心理",
+        "侥幸成功"
+      ],
+      "traditional_char": "僥"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "指民俗浮薄、轻薄",
+      "examples": [
+        "不修廉隅以侥名当世。——王安石《答龚深父书》"
+      ],
+      "traditional_char": "僥"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从人，尧声，初作僥，本义为传说中的矮人。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘侥’为‘僥’的简化字，亦为形声结构，从人，尧声。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由描述矮小的族群，引申出贪求、渴望之意。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "从‘贪求不止’引申为希求意外成功或幸免。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由贪求、轻举妄动，义扩为浮薄。"
+    }
+  ]
+}

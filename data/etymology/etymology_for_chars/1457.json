@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "游戏，玩耍。",
+      "examples": [
+        "孩子们在院子里耍。",
+        "玩耍。"
+      ],
+      "traditional_char": "耍"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "玩弄，戏弄（人或事物）。",
+      "examples": [
+        "他喜欢耍别人。",
+        "耍弄猴子。"
+      ],
+      "traditional_char": "耍"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "舞动，施展（技巧、手艺等）。",
+      "examples": [
+        "耍把戏。",
+        "耍手艺。",
+        "耍滑头。"
+      ],
+      "traditional_char": "耍"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意字。从“而”表示胡须，从“女”表示女子，意指用胡须戏弄女子，原义为戏耍。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“玩耍”扩展为“戏弄、玩弄他人”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由“游戏、玩耍”引申为“舞动、施展技艺”。"
+    }
+  ]
+}

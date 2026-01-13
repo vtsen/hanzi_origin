@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "狭窄，窄小",
+      "examples": [
+        "隘路",
+        "狭隘"
+      ],
+      "traditional_char": "隘"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "险要的地势或关口",
+      "examples": [
+        "关隘",
+        "险隘",
+        "要隘"
+      ],
+      "traditional_char": "隘"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "贫穷，困窘",
+      "examples": [
+        "隘穷",
+        "隘窘"
+      ],
+      "traditional_char": "隘"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，左‘阜’表与地形有关，右‘益’为声；本义为狭窄。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "地势狭窄引申指险要的关口，东汉至魏晋见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由空间狭隘比喻经济困窘，见于后世用法。"
+    }
+  ]
+}

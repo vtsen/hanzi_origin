@@ -1,0 +1,186 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "已耕作的田地，田亩，良田",
+      "examples": [
+        "取我田畴而伍之。",
+        "田畴荒芜。",
+        "农人告余以春及，将有事于西畴。",
+        "美田曰疇。"
+      ],
+      "traditional_char": "疇"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "特指种麻的田地",
+      "examples": [
+        "穀田曰田，麻田曰疇。",
+        "疇也者何也？所以為麻也。"
+      ],
+      "traditional_char": "疇"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "田间分界，小畔",
+      "examples": [
+        "其園則有蒟蒻、茱萸、瓜疇、芋區。",
+        "均田畫疇，蕃廬錯列。"
+      ],
+      "traditional_char": "疇"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "培土，壅土",
+      "examples": [
+        "今夫樹木者，灌以瀿水，疇以肥壤。"
+      ],
+      "traditional_char": "疇"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "同类，类别",
+      "examples": [
+        "夫物各有疇，今髡賢者之疇也。",
+        "草木疇生，禽獸群焉。",
+        "十日不食，无畴类尽死矣。"
+      ],
+      "traditional_char": "疇"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "使相等；使爵禄、地位继承不变",
+      "examples": [
+        "復其後世，疇其爵邑，世世毋有所與。",
+        "疇其爵禄。"
+      ],
+      "traditional_char": "疇"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "酬报、酬谢（通“酬”）",
+      "examples": [
+        "畴答（酬谢）",
+        "畴劳（酬谢出力的人）",
+        "臣聞...皆疇其庸，延及子孫。"
+      ],
+      "traditional_char": "疇"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "verb",
+      "meaning": "筹划、计划（通“筹”）",
+      "examples": [
+        "議惟疇政，名實相課。",
+        "畴量（酌量，估量）"
+      ],
+      "traditional_char": "疇"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "verb",
+      "meaning": "世代相传",
+      "examples": [
+        "畴人（世代相传的专业人员）",
+        "虽父子疇，世世相传，其精微深妙，多所遗失。"
+      ],
+      "traditional_char": "疇"
+    },
+    {
+      "index": 9,
+      "part_of_speech": "pronoun",
+      "meaning": "谁",
+      "examples": [
+        "運轉亡已，天地密移，疇覺之哉？",
+        "疇能補天漏？"
+      ],
+      "traditional_char": "疇"
+    },
+    {
+      "index": 10,
+      "part_of_speech": "adjective",
+      "meaning": "曩，往昔，以往，从前",
+      "examples": [
+        "立乎今日以指畴昔。",
+        "此畴心迹，安敢不尽于君侯哉？"
+      ],
+      "traditional_char": "疇"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从田，寿声，形声字，本义为已耕作的田地，疇为本字，畴为简化字。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_narrowing",
+      "note": "由泛指耕地转指种麻田，汉魏六朝用例。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由田地引申为田间分界。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "与田地耕作相关，转指田间耕作动作。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "由田地多分界、类型，借喻为“类别”。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "由“同类”引申为“使相等”之意。"
+    },
+    {
+      "source_index": 5,
+      "target_index": 6,
+      "evolution_type": "reanalysis",
+      "note": "“酬报、酬谢”（通“酬”），底层与相等有关，历代通用。"
+    },
+    {
+      "source_index": 5,
+      "target_index": 7,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "“筹划”用为“疇”，系古代音通借用。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 8,
+      "evolution_type": "metonymy",
+      "note": "由“同类”延伸到世代相传的同职业者（畴人、畴官）。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 9,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "“畴”作“谁”用，完全为音通假借。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 10,
+      "evolution_type": "metaphor",
+      "note": "由“田地”引申为以往——往昔、以前之地。"
+    }
+  ]
+}

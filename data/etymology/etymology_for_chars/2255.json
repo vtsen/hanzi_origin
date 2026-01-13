@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "麻雀，特指小型食谷物和昆虫的鸟类，泛指小鸟。",
+      "examples": [
+        "麻雀虽小，五脏俱全。",
+        "家雀在屋檐下啄食。"
+      ],
+      "traditional_char": "雀"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "雀斑，指人脸上的小斑点。",
+      "examples": [
+        "她脸上有些雀斑。",
+        "雀斑明显。"
+      ],
+      "traditional_char": "雀"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "夜盲症，因视力减退而在夜间不能看清东西的症状，俗称“雀盲”。",
+      "examples": [
+        "他得了雀盲，晚上看不清东西。"
+      ],
+      "traditional_char": "雀"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘雀’为形声字，从隹，表示与鸟有关，昔从‘小’表示小鸟，用‘昔’作声符，最初义为小型鸟类。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "雀（小鸟）形状类比人脸上的小斑点，取其点状分布，形成‘雀斑’的意义。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "因夜间看不清的小鸟常被用作比喻夜盲症，俗称‘雀盲’。"
+    }
+  ]
+}

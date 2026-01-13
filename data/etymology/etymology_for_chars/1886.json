@@ -1,0 +1,70 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "通达，畅通无阻",
+      "examples": [],
+      "traditional_char": "逞"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "显示，施展，炫耀，卖弄",
+      "examples": [
+        "逞强好胜",
+        "逞威风",
+        "逞能求胜"
+      ],
+      "traditional_char": "逞"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "意愿实现，称心如意",
+      "examples": [
+        "逞志如愿",
+        "逞吾愿"
+      ],
+      "traditional_char": "逞"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "放任，任性",
+      "examples": [
+        "逞性妄为",
+        "骄逞",
+        "放任逞性"
+      ],
+      "traditional_char": "逞"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从‘辵’表道路、行动意，‘呈’表音并有显现之意，最初本义为畅通无阻。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_shift",
+      "note": "由‘畅通无阻’转为‘施展、表现能力’，出现于先秦至汉。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "从炫耀、展现自身引申为‘意愿得以实现’。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "意愿任性施展，进一步引申为‘放任、任性’。"
+    }
+  ]
+}

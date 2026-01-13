@@ -1,0 +1,136 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "洞、孔洞、窟窿",
+      "examples": [
+        "空穴来风",
+        "古有山空"
+      ],
+      "traditional_char": "空"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "没有内容、没有实质",
+      "examples": [
+        "空话",
+        "空泛",
+        "凭空想象"
+      ],
+      "traditional_char": "空"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adverb",
+      "meaning": "没有结果地，白白地",
+      "examples": [
+        "空跑一趟",
+        "空手而归"
+      ],
+      "traditional_char": "空"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "天空，空间之上的地方",
+      "examples": [
+        "空军",
+        "空投",
+        "空运"
+      ],
+      "traditional_char": "空"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "使空，腾出来",
+      "examples": [
+        "空出一间房来",
+        "空一个格"
+      ],
+      "traditional_char": "空"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "adjective",
+      "meaning": "闲着，未被利用",
+      "examples": [
+        "空房",
+        "空缺",
+        "空地"
+      ],
+      "traditional_char": "空"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "亏欠",
+      "examples": [
+        "亏空"
+      ],
+      "traditional_char": "空"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "noun",
+      "meaning": "古同“孔”，洞",
+      "examples": [
+        "空窍（孔窍）"
+      ],
+      "traditional_char": "空"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从穴，工声，最早表示为‘洞、孔洞’之义"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由‘窟窿’引申为‘无内容’的抽象性质，见先秦、两汉文献"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由‘无内容’引申为‘无结果’"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由‘空洞’比喻‘天空、空间’，发展于先秦至两汉"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "conversion",
+      "note": "由‘使无内容’派生动词‘使空’"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "由‘无内容’引申为‘未被利用’"
+    },
+    {
+      "source_index": 1,
+      "target_index": 6,
+      "evolution_type": "semantic_shift",
+      "note": "‘虚’义转化为‘亏欠’"
+    },
+    {
+      "source_index": 0,
+      "target_index": 7,
+      "evolution_type": "reanalysis",
+      "note": "与“孔”音近义近，古时通用"
+    }
+  ]
+}

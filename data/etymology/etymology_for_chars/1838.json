@@ -1,0 +1,88 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "器物上用以分格或撑的横木条",
+      "examples": [
+        "隔成数档",
+        "黑漆柜中有四档"
+      ],
+      "traditional_char": "檔"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "存放案卷用的带格子的橱架",
+      "examples": [
+        "档案柜",
+        "存档"
+      ],
+      "traditional_char": "檔"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "分类保存的文件、材料等",
+      "examples": [
+        "档案",
+        "工档",
+        "学生档案"
+      ],
+      "traditional_char": "檔"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "件，桩（量词用法）",
+      "examples": [
+        "一档子事"
+      ],
+      "traditional_char": "檔"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "（商品、产品的）等级",
+      "examples": [
+        "高档",
+        "中档",
+        "低档"
+      ],
+      "traditional_char": "檔"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从木，当声，表示与木制分格相关的本义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由横木条本义引申为用于分隔的橱架。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由存放案卷的架子引申为案卷本身，即档案。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "案卷引申为“件、桩”，量词用法。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "由分隔、分类的特性比喻为商品、产品的等级。"
+    }
+  ]
+}

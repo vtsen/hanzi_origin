@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "退避，退让",
+      "examples": [
+        "逊位于贤者。",
+        "遇事能逊。"
+      ],
+      "traditional_char": "遜"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "谦让，恭顺",
+      "examples": [
+        "谦逊有礼。",
+        "处事谦逊。"
+      ],
+      "traditional_char": "遜"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "次，差，不及",
+      "examples": [
+        "色彩逊色。",
+        "成绩逊于他人。"
+      ],
+      "traditional_char": "遜"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从辵，孙声，表示“退避、逃遁”之义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "退让由身体退避引申为性格、态度上的谦让，语义演化自先秦时期。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由退避、退让引申为“不及、逊色”，意指次于他人。"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "窗帘、帷幔。",
+      "examples": [
+        "何时倚虚幌，双照泪痕干。",
+        "重殿叠起，交绮对幌。",
+        "绮阁幌双垂，频卜归期未有期。"
+      ],
+      "traditional_char": "幌"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "商店（多为酒店）门前用于标记的幌子或招牌。",
+      "examples": [
+        "小垆低幌还遮掩，酒滴灰香似去年。",
+        "酒幌",
+        "书幌"
+      ],
+      "traditional_char": "幌"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "挥动，摇晃。",
+      "examples": [
+        "幌一幌",
+        "身子乱幌",
+        "猴王…幌一幌，碗来粗细。"
+      ],
+      "traditional_char": "幌"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "随意游荡、走动。",
+      "examples": [
+        "须是再多幌个时辰，才好去回话。",
+        "无事遨翔曰蹌，或曰幌。"
+      ],
+      "traditional_char": "幌"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "假借的名义、幌子（引申为非实质性掩护或标志）。",
+      "examples": [
+        "以慈善为幌子牟利。",
+        "做事打着学习的幌子。"
+      ],
+      "traditional_char": "幌"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘幌’从巾，表示布帛之物，与‘晃’声。最初指帷幔、窗帘。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "帷幔为遮盖物，转用于店家标志的悬挂物，即幌子。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "店铺幌子比喻虚假或遮掩的名义。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "从可摇动的幕布，引申为动作‘摇晃’。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由‘摇晃’延伸出‘随意走动、游荡’。"
+    }
+  ]
+}

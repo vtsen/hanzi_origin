@@ -1,0 +1,118 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "穿在轮子中间的圆柱形物件",
+      "examples": [
+        "轮轴",
+        "轴心"
+      ],
+      "traditional_char": "軸"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "像车轴的用来卷绕东西的圆柱形器物",
+      "examples": [
+        "画轴",
+        "卷轴"
+      ],
+      "traditional_char": "軸"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "measure_word",
+      "meaning": "量词，古代用于以轴装成的书卷，现用于缠在轴上的线以及装裱带轴子的字画等",
+      "examples": [
+        "两轴丝线",
+        "插架三万轴"
+      ],
+      "traditional_char": "軸"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "纺织机上持经线的工具",
+      "examples": [
+        "杼轴"
+      ],
+      "traditional_char": "軸"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "枢要的地位",
+      "examples": [
+        "当轴",
+        "身居要轴"
+      ],
+      "traditional_char": "軸"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "数学上指一条直线，周围的点围绕它旋转，或是用它作为确定各点位置的标准",
+      "examples": [
+        "转动轴",
+        "坐标轴"
+      ],
+      "traditional_char": "軸"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "戏曲演出排在最末的一出，一般都是重头、精采的剧目",
+      "examples": [
+        "压轴",
+        "大轴子"
+      ],
+      "traditional_char": "轴"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从车，由声，表示轮轴之义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由轮轴本义引申为所有类似的卷东西的圆柱形器物。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "grammaticalization",
+      "note": "由名词转为量词，用于成卷之物。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由卷轴类物体引申为纺织机上持经线的部件。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "以“轴”为枢纽、中枢之物，借指权力和地位的枢要。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "metaphor",
+      "note": "以轴转动的中心线为喻，引申为数学上的“轴”。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 6,
+      "evolution_type": "metonymy",
+      "note": "由卷轴类实体引申，因旧时戏目常以大卷轴收尾，故称末演之戏为“轴”。"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "谋虑，思虑；“谋”的古字。",
+      "examples": [
+        "《玉篇•口部》：“呣，虑也。”",
+        "《集韵•平侯》：“《说文》‘虑难曰谋’……亦书作呣。”"
+      ],
+      "traditional_char": "呣"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "onomatopoeia",
+      "meaning": "形容牛叫声的象声词。",
+      "examples": [
+        "偶尔还能听见野外传来的牛呣或羊咩声。",
+        "牛在田埂上乱跑，呣呣地叫着。"
+      ],
+      "traditional_char": "呣"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "particle",
+      "meaning": "语助词，用于句末加强语气。",
+      "examples": [
+        "星儿想，这要是在家呣，在家该多好。"
+      ],
+      "traditional_char": "呣"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "interjection",
+      "meaning": "叹词，表示疑问。",
+      "examples": [
+        "呣，你说什么？"
+      ],
+      "traditional_char": "呣"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "interjection",
+      "meaning": "叹词，表示应诺、答应。",
+      "examples": [
+        "呣，我知道了。",
+        "呣，我就来。"
+      ],
+      "traditional_char": "呣"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "interjection",
+      "meaning": "叹词，表示强烈感情、招呼或答应。",
+      "examples": [
+        "呣!...这声音从他的心底冲了出来。"
+      ],
+      "traditional_char": "呣"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "loan_character",
+      "original_sense_index": 0,
+      "note": "‘呣’古作‘謀’，属假借字，用口旁表音。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由谋虑相关声音扩展为动物叫声的象声词。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "声音词转用为表达情感语气的语助词。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "grammaticalization",
+      "note": "语助词语气加强后用于疑问叹词。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "语气助词进一步用作应诺、答应的叹词。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 5,
+      "evolution_type": "amelioration",
+      "note": "由一般语助词发展为表达强烈感情的叹词。"
+    }
+  ]
+}

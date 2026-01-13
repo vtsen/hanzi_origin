@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "狗叫声，犬吠声。",
+      "examples": [
+        "猛犬狺狺以迎吠。（《楚辞·九辩》）",
+        "羣吠之狺狺。"
+      ],
+      "traditional_char": "狺"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "狗争斗时的声音。",
+      "examples": [
+        "狺，犬爭。——《广韵》",
+        "投骨於地，狺然而爭者，犬之常也。（蘇洵《幾策·審敵》）"
+      ],
+      "traditional_char": "狺"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "借指吵嚷、叫嚣或攻击性的言论。",
+      "examples": [
+        "狺狺狂吠。",
+        "狺然有噬江漢心。（《新唐书·逆臣传上·史思明》）",
+        "今鄉曲之士，...甚至狺然相牙噬者，亦時時有之。（清 戴名世）"
+      ],
+      "traditional_char": "狺"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘狺’从犬，斤声，会意兼形声，指犬的叫声。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由犬吠声引申为犬争斗或犬争斗时的声音，晋唐文献已见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "以狗吠多而杂喻人的争吵、叫嚣或攻击性言论，先秦两汉已见。"
+    }
+  ]
+}

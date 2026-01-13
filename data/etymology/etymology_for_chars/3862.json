@@ -1,0 +1,38 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "一年生草本植物，茎直立，茎皮纤维可做绳索，种子可入药，属锦葵科，又称檾、苘麻。",
+      "examples": [
+        "衣锦檾衣。",
+        "苘麻的纤维可以制作麻布和绳子。"
+      ],
+      "traditional_char": "苘"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "这种植物茎皮提取的纤维。",
+      "examples": [
+        "苘麻纤维常用于织布或制绳。"
+      ],
+      "traditional_char": "苘"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字。从艸，熒省声，初指苘麻这种植物。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由指代植物本身转指植物纤维，常见植物—制品的转义。"
+    }
+  ]
+}

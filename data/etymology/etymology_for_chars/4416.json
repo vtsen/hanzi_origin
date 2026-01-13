@@ -1,0 +1,58 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古代用陶土烧制的一种吹奏乐器，形如鹅蛋，有六孔，顶端有吹口。亦可用石、骨、象牙制成；又称“陶埙”。",
+      "examples": [
+        "壎，乐器也。以土为之，六孔。——《说文》",
+        "伯氏吹壎，仲氏吹箎。——《诗·小雅·何人斯》",
+        "如壎如箎。——《诗·大雅·板》"
+      ],
+      "traditional_char": "塤"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "指兄弟之间和谐关系的象征，用以比喻兄弟和睦，也代指兄弟。",
+      "examples": [
+        "埙篪合奏声音和谐。后用以表示兄弟和睦，也代指兄弟",
+        "如壎如篪（比喻兄弟和谐）"
+      ],
+      "traditional_char": "塤"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "“埙”是“塤”的简化字。",
+      "examples": [],
+      "traditional_char": "埙"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“塤”形声字，从土，熏声，表示以土制成的乐器。本义即为古代陶制吹奏乐器。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 2,
+      "note": "“埙”为“塤”的简化字，同样从土，声符略异，简化自“塤”。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "埙篪本义乐器，后以其和谐之声比喻兄弟和睦，见于先秦诗经。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "reanalysis",
+      "note": "“埙”为“塤”的简化字，含义完全等同，为现代简化字改革所致。"
+    }
+  ]
+}

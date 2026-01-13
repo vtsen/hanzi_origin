@@ -1,0 +1,143 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "吞咽，咽下去。",
+      "examples": [
+        "哙，咽也。——《说文》",
+        "鲁颜哙字子声。——《史记·弟子传》"
+      ],
+      "traditional_char": "噲"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "喘息，张口舒气。",
+      "examples": [
+        "吱行哙息。——《淮南子·俶真》"
+      ],
+      "traditional_char": "噲"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "喙，鸟兽的嘴。",
+      "examples": [],
+      "traditional_char": "噲"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "畅快，快意；宽明。",
+      "examples": [
+        "当此之时，哙然得卧，则亲戚兄弟，欢然而嘉。——《淮南子·精神训》",
+        "哙哙其正。——《诗·小雅·斯干》"
+      ],
+      "traditional_char": "噲"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "平庸。",
+      "examples": [
+        "哙伍（汉韩信羞与曾以屠狗为业的樊哙为伍，后人因称平庸之流为哙伍）"
+      ],
+      "traditional_char": "噲"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [
+        "鲁颜哙字子声。——《史记·弟子传》",
+        "孝子传有噲参，鵠銜珠与之。"
+      ],
+      "traditional_char": "噲"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "onomatopoeia",
+      "meaning": "马打响鼻的声音，噲噲声。",
+      "examples": [
+        "马声噲噲地打响鼻。——端木蕻良《科尔沁旗草原》"
+      ],
+      "traditional_char": "噲"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "particle",
+      "meaning": "方言，句末语气助词。",
+      "examples": [
+        "來浪啥場化？就來浪路浪向噲。"
+      ],
+      "traditional_char": "噲"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "interjection",
+      "meaning": "感叹词，表示惊讶、感叹等。",
+      "examples": [
+        "噲，亮起來了。——鲁迅《阿Q正传》"
+      ],
+      "traditional_char": "噲"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从口，會聲。‘会’为声符，表示与口部动作或嘴有关，原指吞咽动作。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由吞咽动作引申为张口呼吸、喘息，通常口部张开有关。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由吞咽需用口部，引申为鸟兽的嘴（喙）。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "古音同“快”，词义变化为畅快、快意，有音训影响。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "semantic_narrowing",
+      "note": "由‘畅快’在后世又引申出‘平庸’之流的集合义。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "function_word",
+      "note": "用作姓氏，古代用常见动作类字为姓，一般无专门机制。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 6,
+      "evolution_type": "analogy",
+      "note": "动物张口喘息声引申出象声用法，如马打响鼻。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 7,
+      "evolution_type": "reanalysis",
+      "note": "由‘畅快’、发泄感情引申作方言语气助词，有口语色彩。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 8,
+      "evolution_type": "reanalysis",
+      "note": "由‘畅快’、快意的表达转为感叹词用法。"
+    }
+  ]
+}

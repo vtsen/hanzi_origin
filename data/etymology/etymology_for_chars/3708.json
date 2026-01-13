@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "佛教经文中的赞偈，为梵语“唄匿”音译之略，指赞颂佛经或诵经声",
+      "examples": [
+        "天竺方俗，凡是歌咏法言，皆称为“呗”。——南朝梁·慧皎《高僧传·经师论》",
+        "晨唄香凝通殿霧，夜漁燈散滿湖星。——明·唐寅《與朱彥明諸子同游保叔塔》"
+      ],
+      "traditional_char": "唄"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "佛教徒念经的声音或指梵呗，特指诵经、唱偈的音乐声",
+      "examples": [
+        "梵唄徹山谷，莊嚴窮七寶，為西方極勝之區。——清·魏源《聖武記》",
+        "焚香奏仙唄，向夕遍空山。——唐·劉長卿《秋夜北山精舍觀體如師梵》"
+      ],
+      "traditional_char": "唄"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "particle",
+      "meaning": "助词，用于句末，表示事实或道理明显、无可厚非或勉强同意的语气",
+      "examples": [
+        "你不会骑车就学呗。",
+        "你一定要去，就去呗。"
+      ],
+      "traditional_char": "唄"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“唄”为形声字，从口，拜声，最初音译梵语，表示佛教赞偈。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“吟诵赞偈”动作用法扩展为指赞偈本身的声音，历代佛教用语中演化。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由“诵经声”之平缓、顺从语气，转用于句末作助词，表示随和、让步或事实明显，近现代汉语口语形成。"
+    }
+  ]
+}

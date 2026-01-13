@@ -1,0 +1,101 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "山体倒塌，大规模塌陷。",
+      "examples": [
+        "山崩地裂",
+        "崩塌"
+      ],
+      "traditional_char": "崩"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "物体破裂或碎裂。",
+      "examples": [
+        "气球吹崩了",
+        "崩裂"
+      ],
+      "traditional_char": "崩"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "因崩裂而使物体受到冲击或损伤。",
+      "examples": [
+        "爆竹崩了手",
+        "被碎片崩到"
+      ],
+      "traditional_char": "崩"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "制度、风俗等崩溃、败坏。",
+      "examples": [
+        "礼坏乐崩",
+        "道德崩坏"
+      ],
+      "traditional_char": "崩"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "枪毙（俗称）。",
+      "examples": [
+        "拉出去崩了"
+      ],
+      "traditional_char": "崩"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "古代称帝王死去。",
+      "examples": [
+        "驾崩"
+      ],
+      "traditional_char": "崩"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从山，朋声，表示山体倒塌。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "将山崩引申为一般物体破裂。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "破裂事物引申为因爆裂导致的打击。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "山体崩塌比喻制度的崩溃。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "metaphor",
+      "note": "山崩象征帝王之死，古代文学用法。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "破裂之意转用于枪杀，因声音相似产生引申。"
+    }
+  ]
+}

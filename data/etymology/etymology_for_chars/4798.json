@@ -1,0 +1,103 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "一年生蔓生草本植物，果实长圆形或大腹短颈，即瓠瓜，可食用。",
+      "examples": [
+        "南有樛木，甘瓠累之。",
+        "莊子曰：魏王貽我大瓠之種。"
+      ],
+      "traditional_char": "瓠"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "这种植物的果实，成熟干燥后可作容器，如瓢、壶用。",
+      "examples": [
+        "剖之以为瓢，则瓠落无所容。",
+        "以瓠盛酒，冬即暖，夏即冷。"
+      ],
+      "traditional_char": "瓠"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "用瓠瓜干壳制成的容器，如壶、瓢。",
+      "examples": [
+        "康瓠谓之甈。",
+        "瓠，壶也。"
+      ],
+      "traditional_char": "瓠"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "地名，如瓠子堤、瓠讘、瓠丘、瓠口等。",
+      "examples": [
+        "夏四月，至瓠子临决河。",
+        "瓠讘，汉侯国名，在河东。"
+      ],
+      "traditional_char": "瓠"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [
+        "列子·汤问：瓠巴鼓琴而鸟舞鱼跃。",
+        "周有瓠巴。"
+      ],
+      "traditional_char": "瓠"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "大、空旷或廓落的样子（用以形容状态）。",
+      "examples": [
+        "瓠落无所容。",
+        "瓠落，廓落也。"
+      ],
+      "traditional_char": "瓠"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从瓜，夸声。形声字，最初表示瓠瓜（植物及果实）。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由植物本身扩展为其果实，古今皆用。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "因常用其干壳作盛器，由果实之壳代指成器。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 5,
+      "evolution_type": "metaphor",
+      "note": "以器物之空阔状，比喻廓落、空大无所容。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "以植物或果实名用作地名，多见于古地。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "以物名作姓，古有瓠巴。"
+    }
+  ]
+}

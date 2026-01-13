@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "口干想喝水",
+      "examples": [
+        "口渴难耐。",
+        "他非常渴，急需水喝。"
+      ],
+      "traditional_char": "渴"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "比喻迫切地（如渴望、渴盼等）",
+      "examples": [
+        "渴望成功。",
+        "他渴求知识。"
+      ],
+      "traditional_char": "渴"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，曷声；本义为‘口干想喝水’，含有因缺水而口渴之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由生理口渴引申作比喻，表示强烈、迫切的愿望。"
+    }
+  ]
+}

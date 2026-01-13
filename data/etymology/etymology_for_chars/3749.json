@@ -1,0 +1,120 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "中国周代诸侯国名，在今山东省邹县东南，春秋时为邾国，后改称邹国。",
+      "examples": [
+        "邹人与楚人战。——《孟子·梁惠王上》",
+        "将之薛，假涂于邹。——《战国策·赵策三》"
+      ],
+      "traditional_char": "鄒"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [
+        "邹忌讽齐王纳谏。——《战国策·齐策》",
+        "汉有邹阳。"
+      ],
+      "traditional_char": "鄒"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "兽名，通“驺”，或为古代掌鸟兽官名。",
+      "examples": [
+        "邹虞（兽名；乐名；古代为帝王掌鸟兽的官）"
+      ],
+      "traditional_char": "鄒"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "小，狭小的。",
+      "examples": [
+        "邹，狭小之言也。——《释名》",
+        "邹查（小语声）；邹搜（气势不开阔）"
+      ],
+      "traditional_char": "鄒"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "货物质量低劣。",
+      "examples": [
+        "今人言物之不佳或薄小者曰邹。——《直语补正》"
+      ],
+      "traditional_char": "鄒"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "“邹”的简化字，对应传统“鄒”。",
+      "examples": [
+        ""
+      ],
+      "traditional_char": "邹"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "人名用字，如“颜濁鄒”。",
+      "examples": [
+        "孔子以《诗》《书》礼乐教，如颜濁鄒之徒，颇受业者甚众。——《史记·孔子世家》"
+      ],
+      "traditional_char": "鄒"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘鄒’从邑，芻声，为形声字，本指国名。"
+    },
+    {
+      "formation_type": "simple_indicative",
+      "original_sense_index": 5,
+      "note": "‘邹’为‘鄒’的简化字，异体字，用于通行简化。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由国名发展为地名、姓氏，常见中国地名转为姓氏。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "用作同音字‘驺’指兽名，属假借。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "由地小之意转为狭小，引申为形容词用法。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由‘小、狭小’引申为‘质量低劣’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "semantic_extension",
+      "note": "地名用作人名用字，如颜濁鄒。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "reanalysis",
+      "note": "‘邹’为‘鄒’的简化字，直接沿用原义，现代改革所致。"
+    }
+  ]
+}

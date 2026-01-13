@@ -1,0 +1,60 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "高、山高的样子。",
+      "examples": [
+        "泰山之高不嶕峣。",
+        "表峣阙于阊阖。",
+        "峣峣，至高之貌。"
+      ],
+      "traditional_char": "峣"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "同“峣”，高的样子（嶢为峣的繁体）。",
+      "examples": [
+        "焦嶢，山高皃。",
+        "嶢闕"
+      ],
+      "traditional_char": "嶢"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "关名，嶢关，在嶢山。",
+      "examples": [
+        "關函守嶢，山东道窮。"
+      ],
+      "traditional_char": "嶢"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“峣”形声字，从山，尧声，本义为山高。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "“嶢”形声字，从山，堯声，本义为山高；为‘峣’正体异写。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "以高山之名用于山中的关口，用地理特征转指地名。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "reanalysis",
+      "note": "“嶢”与“峣”为古今异体，实际为同一字的正体、简体，不同写法间的意义对应。"
+    }
+  ]
+}

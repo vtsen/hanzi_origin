@@ -1,0 +1,87 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "高大的样子（主要指墙高）",
+      "examples": [
+        "崇墉圪圪"
+      ],
+      "traditional_char": "圪"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "小土丘，土岗，块状物",
+      "examples": [
+        "圪台",
+        "圪垛",
+        "泥圪圪"
+      ],
+      "traditional_char": "圪"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "onomatopoeia",
+      "meaning": "象声词，形容牙打颤、笑等声音",
+      "examples": [
+        "圪登登",
+        "圪圪嗤嗤笑个不住"
+      ],
+      "traditional_char": "圪"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "other",
+      "meaning": "方言前缀，与名词结合表叉形、针状、碎粒状或丝状",
+      "examples": [
+        "一圪星儿土",
+        "槐树圪杈",
+        "萝卜圪丝"
+      ],
+      "traditional_char": "圪"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "particle",
+      "meaning": "方言助词，与动词结合，表动作的继续",
+      "examples": [
+        "小虫从土里圪拱出来了"
+      ],
+      "traditional_char": "圪"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从‘土’得义，‘气’作声符，本指高大的样子或高大的土墙"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_shift",
+      "note": "高大、隆起（墙高貌）转指土丘、土岗，时间为中古及近代汉语方言"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "由块状土、土丘一类具体物转为形状相关的方言前缀，用于各类物体"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "unknown",
+      "note": "象声词用法来源不明，方言及拟声环境扩展"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "grammaticalization",
+      "note": "由名词向助词、表示动作继续的语法化过程，汉北方方言"
+    }
+  ]
+}

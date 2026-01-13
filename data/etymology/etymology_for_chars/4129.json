@@ -1,0 +1,91 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "白色泥土，可用来涂刷墙壁等表面",
+      "examples": [
+        "大次之山，其阳多垩。",
+        "其土则丹青赭垩。",
+        "凡白土曰堊，为陶家精美器用。"
+      ],
+      "traditional_char": "堊"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "泛指可用来涂饰的各色泥土或石灰等材料",
+      "examples": [
+        "其土则丹、青、赭、堊、雌黄、白附。",
+        "垩灰（石灰的别名）"
+      ],
+      "traditional_char": "堊"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "用白色泥土或涂料粉刷墙壁",
+      "examples": [
+        "垩墁。",
+        "垩室。",
+        "皆堊白其門，而高其閭。"
+      ],
+      "traditional_char": "堊"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "（方言）施肥",
+      "examples": [
+        "田不说话，不堊也罢，等到秋收，定分上下。"
+      ],
+      "traditional_char": "堊"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "（罕用，借用）圣人、神圣等（同“圣”）",
+      "examples": [],
+      "traditional_char": "堊"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘堊’（垩）为形声字，从土，亚声，表示白色泥土，造字本义为用作颜料或粉刷的白色土。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从特指白色泥土扩展到各种可用以涂饰的土或石灰。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "conversion",
+      "note": "由名词‘白色泥土’转作动词‘用白土涂刷’。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "conversion",
+      "note": "‘涂饰材料’的名词用法转用为‘用材料涂刷’的动词用法。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由‘涂刷墙壁’引申为方言中‘施肥’（即给地面施加覆盖）义，属区域性语义发展。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "unknown",
+      "note": "‘圣人’义为借用罕见义，与‘白土’正义联系不明，可能因本字形相关而音假借。"
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "矮墙，场地四周的土围墙",
+      "examples": [
+        "时营垒未成，但立标埒。",
+        "济好马射，买地作埒。"
+      ],
+      "traditional_char": "埒"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "田塍，田间的小土埂",
+      "examples": [
+        "旧埒新塍分，青苗白水映。"
+      ],
+      "traditional_char": "埒"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "界限，边际",
+      "examples": [
+        "休息于无委曲之隅，而游敖于无形埒之野。"
+      ],
+      "traditional_char": "埒"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "山上的水流",
+      "examples": [
+        "一源分为四埒，注于山下。"
+      ],
+      "traditional_char": "埒"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "等同，比并，齐名",
+      "examples": [
+        "富埒天子。",
+        "其爱幸埒韩嫣。"
+      ],
+      "traditional_char": "埒"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "古代度量单位名",
+      "examples": [],
+      "traditional_char": "埒"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从土，寽声，表示矮墙。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由围墙义引申为田间小堤埂，多见于农田场景。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "围墙引申为界限、边际，常见于土地或抽象范围。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "界限转喻为人与物的对等、齐名，用在比拟中。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "unknown",
+      "note": "田间埂义与古量名的关系机理不详。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "矮墙引申为山上的水流，因水流有分界围绕形态。"
+    }
+  ]
+}

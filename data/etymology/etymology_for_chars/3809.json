@@ -1,0 +1,57 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "母亲的通称",
+      "examples": [
+        "母为妣。——《尔雅·释亲》",
+        "遇其妣。——《易·小过》"
+      ],
+      "traditional_char": "妣"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "已故的母亲",
+      "examples": [
+        "妣，殁母也。——《说文》",
+        "百姓如丧考妣。——《虞书》",
+        "以享先妣。——《周礼·大司乐》",
+        "先妣抚之甚厚。——明·归有光《项脊轩志》"
+      ],
+      "traditional_char": "妣"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "祖母及祖母辈以上的女性祖先",
+      "examples": [
+        "似绩妣祖。——《诗·小雅·斯干》",
+        "妣祖（先妣和先祖）"
+      ],
+      "traditional_char": "妣"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从女，比声；‘妣’最初意为母亲，属于形声兼会意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_narrowing",
+      "note": "最初泛指母亲，后专指已故母亲，汉魏六朝固定。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由母亲泛指引申为祖母及祖母以上女性祖先，用于宗庙祭祀体系。"
+    }
+  ]
+}

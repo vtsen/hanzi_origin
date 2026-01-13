@@ -1,0 +1,82 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古国名，周公之子所封，地在今河北邢台市境，后为卫所灭",
+      "examples": [
+        "秋，卫人伐邢。（《左传·僖公十九年》）",
+        "周公子所封国，地近河内怀。（《说文》）"
+      ],
+      "traditional_char": "邢"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "周代后以国为姓，邢姓",
+      "examples": [
+        "邢本姬姓之国，周公之胤也，因称邢氏。（《急就篇》注）"
+      ],
+      "traditional_char": "邢"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "古地名，在今河南省温县东或山西省河津县南，一说通用“耿”字",
+      "examples": [
+        "《史记·殷本纪》：祖乙迁于邢。司马贞索隐：近代本亦作‘耿’。"
+      ],
+      "traditional_char": "邢"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "古州名，邢州，今河北省邢台市，为政区名",
+      "examples": [
+        "隋置，寻废，唐复置，改名巨鹿郡，寻复名邢州。",
+        "元改为顺德路，故治在今河北省邢台市。"
+      ],
+      "traditional_char": "邢"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "通“形”，见于“邢景”等词",
+      "examples": [],
+      "traditional_char": "邢"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从邑，幵声，意为封地之邑，表示地名，用于表示周公子所封之地。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "以国名为姓，因氏于国。先秦以来的普遍现象。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由古国名引申为后世政区名‘邢州’。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 0,
+      "evolution_type": "unknown",
+      "note": "邢、耿地名古今文献互通，语源关系历史上不明。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "‘邢’借音通‘形’，为形声字通用现象。主要见于复合词。"
+    }
+  ]
+}

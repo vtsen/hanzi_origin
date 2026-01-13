@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "particle",
+      "meaning": "不要，不可以，用于禁止或劝诫",
+      "examples": [
+        "毋妄言",
+        "宁缺毋滥"
+      ],
+      "traditional_char": "毋"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adverb",
+      "meaning": "不（表示否定）",
+      "examples": [
+        "毋庸",
+        "毋宁"
+      ],
+      "traditional_char": "毋"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "毋庆",
+        "毋友左"
+      ],
+      "traditional_char": "毋"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "simple_indicative",
+      "original_sense_index": 0,
+      "note": "本为“母”字的省变，后在表示禁止意义上加以区分，属指事字，表示禁止。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "自“禁止”引申为一般否定，历经先秦至汉常见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "conversion",
+      "note": "用作姓氏起源不详，疑由本义转化。"
+    }
+  ]
+}

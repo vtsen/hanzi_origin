@@ -1,0 +1,72 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "嘴唇溃疡，嘴唇上的疮或肿块。",
+      "examples": [
+        "胗，唇疡也。——《说文》",
+        "中唇为胗。——宋玉《风赋》",
+        "胗，肿也。——《三苍》"
+      ],
+      "traditional_char": "胗"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "病人皮肤上起的小疙瘩，皮疹。",
+      "examples": [
+        "病寒热疮疡痱胗癰痤。——《素问·气交变大论》"
+      ],
+      "traditional_char": "胗"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "诊断病情，诊察。",
+      "examples": [
+        "先胗了脉息，外使敷贴之药。——《水浒传》第九八回",
+        "胗治（诊断治疗）"
+      ],
+      "traditional_char": "胗"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "鸟类的胃，常指鸡、鸭等禽类的‘胗’。",
+      "examples": [
+        "西门庆一面揭开盒，里边攒就的八搹细巧果菜，一搹是糟鹅胗掌。——《金瓶梅词话》",
+        "鸡胗",
+        "鸭胗"
+      ],
+      "traditional_char": "胗"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从肉，㐱声，表示与肉体病变有关，原指唇部溃疡。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由嘴唇溃疡扩展为泛指皮肤上的疹或小疙瘩。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "reanalysis",
+      "note": "“胗”与“诊”音近，义项误用为诊断疾病。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由肿块、硬块转喻为禽类胃部坚实有质感的器官。"
+    }
+  ]
+}

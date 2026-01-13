@@ -1,0 +1,70 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "手掌或足底因长期劳动或摩擦而生成的硬厚皮，老茧、胼胝。",
+      "examples": [
+        "手足胼胝，面目黎黑。——《史记·李斯列传》",
+        "手足胼，面目黧黑，劳有功者也。——《韩非子·外储说左上》",
+        "苟无切玉刀，难除指上胼。——皮日休《鲁望昨以五百言见贻…》"
+      ],
+      "traditional_char": "胼"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "坚固、不容易破损。",
+      "examples": [
+        "参见“胼冒”。",
+        "胼固也。——《太元坚》"
+      ],
+      "traditional_char": "胼"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "大脑两半球的底部联合大脑两半球的神经纤维组织，称为胼胝体。",
+      "examples": [
+        "胼胝体（医学术语）"
+      ],
+      "traditional_char": "胼"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "腹胀。",
+      "examples": [
+        "胼，腹胀也。——《篇海类编》"
+      ],
+      "traditional_char": "胼"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从月（肉），并声，表达皮肉变厚之义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由皮肤坚硬引申为事物坚固，用在描述坚固的事物部位。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "医学术语胼胝体以“胼胝”为喻，形容神经结构如同茧般坚实连接。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "古籍偶见用胼指腹胀，意义转变但来源不明。"
+    }
+  ]
+}

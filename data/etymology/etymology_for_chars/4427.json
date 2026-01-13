@@ -1,0 +1,37 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "多年生草本植物“荸荠”，生长在池沼或水田，地下茎扁圆形，赤褐色，肉白色，可食用，也可制成淀粉。",
+      "examples": [
+        "荸荠生于水田之中，茎根可食。"
+      ],
+      "traditional_char": "荸"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "荸荠的地下茎（俗称“乌芋”、“地梨”），可以食用。",
+      "examples": [
+        "买些荸荠做甜汤。"
+      ],
+      "traditional_char": "荸"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从艸，孛声，表示水生植物荸荠。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "synecdoche",
+      "note": "由整株植物转指其食用地下茎。"
+    }
+  ]
+}

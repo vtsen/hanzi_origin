@@ -1,0 +1,69 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "雕刻用的曲刀，刻镂的工具",
+      "examples": [
+        "剞，剞曲刀也。从刀，奇声。——《说文》",
+        "般倕弃其剞劂兮。——《汉书·扬雄传》",
+        "公输王尔无错其剞削锯。——《淮南子·本经》"
+      ],
+      "traditional_char": "剞"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "雕版，刻书的工具或过程，引申为雕版印书",
+      "examples": [
+        "握剞劂而不用兮，操规矩而无所施。——《楚辞·哀时命》"
+      ],
+      "traditional_char": "剞"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "抢劫，劫夺",
+      "examples": [
+        "刦剞熊罴之室，剽掠虎豹之落。——晋·左思《吴都赋》。李善注：“剞，亦刦也。”"
+      ],
+      "traditional_char": "剞"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "战国后期匈奴王族“虚连氏”的异译，为“伊犁”的音译",
+      "examples": [
+        "辛丑，至于剞闾氏。天子乃命剞闾氏供食六师之人于铁山之下。——《穆天子传》"
+      ],
+      "traditional_char": "剞"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从刀，声旁为奇（jī）；表曲刀之意，是形声字，意符为“刀”，声符为“奇”。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由具体的工具“曲刀”引申为雕版、刻书等动作及其相关工具。唐宋以后出现。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由“刀”工具隐喻为“劫夺”等暴力行为，常见于古汉语。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "作为匈奴部族名及地名的音译字，用法见于《穆天子传》，借用音而非原义。"
+    }
+  ]
+}

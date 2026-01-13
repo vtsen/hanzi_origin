@@ -1,0 +1,52 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "onomatopoeia",
+      "meaning": "形容器物清脆的撞击声。",
+      "examples": [
+        "咔的一声关上抽屉"
+      ],
+      "traditional_char": "咔"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "〔咔叽〕一种较厚的斜纹棉织品。亦称“卡其”。",
+      "examples": [
+        "他穿了一件咔叽布做的制服。"
+      ],
+      "traditional_char": "咔"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "other",
+      "meaning": "译音用字，用于音译外来语。",
+      "examples": [
+        "咖啡的‘咖’有时也写作‘咔’。"
+      ],
+      "traditional_char": "咔"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "口为形旁，卡/加为声旁，拟声本字。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "从拟声音发展为棉布名，借用拟声词音译外来物名称。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "function_word",
+      "note": "音译外来词时取其音，无义。"
+    }
+  ]
+}

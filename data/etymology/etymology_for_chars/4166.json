@@ -1,0 +1,38 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "耩地后用来轧地的石制农具",
+      "examples": [
+        "砘子用于耩地后压实松土。",
+        "砘车是用畜力牵引的轧地农具。"
+      ],
+      "traditional_char": "砘"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "用砘子轧地，播种后用石砘子压实松土",
+      "examples": [
+        "砘地可使土壤更紧实，利于作物生长。"
+      ],
+      "traditional_char": "砘"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘砘’为形声字，‘石’表意，指与石有关的器具，‘吨’表音，最初指石制农具。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "conversion",
+      "note": "名词活用为动词，即由表示石器农具的名词发展为表示使用该农具的动作。"
+    }
+  ]
+}

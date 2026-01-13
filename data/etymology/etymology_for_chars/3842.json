@@ -1,0 +1,53 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "拉长，扯长。",
+      "examples": [
+        "三斤水面，人家能抻成十二扣、八尺长的龙须面。",
+        "把它抻一抻。"
+      ],
+      "traditional_char": "抻"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "伸直，同“伸”。",
+      "examples": [
+        "直到踏上自己的阵地，郭祥才长长地吁了口气，抻抻陈武的袖子悄悄地说。"
+      ],
+      "traditional_char": "抻"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "拖延时间。",
+      "examples": [
+        "这样抻的时间越长，粮价就越往高涨。我们再抻一抻有好处。"
+      ],
+      "traditional_char": "抻"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从“扌”表动作，申声；本义为拉长、扯长。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由具体拉长引申为伸直，与“伸”同义。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "从拉长引申为时间上的拖延，属抽象隐喻。"
+    }
+  ]
+}

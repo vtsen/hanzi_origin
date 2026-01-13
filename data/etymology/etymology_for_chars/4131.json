@@ -1,0 +1,87 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "杂色的牛",
+      "examples": [
+        "黄白杂谓之驳荦。",
+        "斯为朽关键，怒荦抉以入。"
+      ],
+      "traditional_char": "犖"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "古地名，在今河南省淮阳县西北",
+      "examples": [
+        "盟于犖，谋救郑也。"
+      ],
+      "traditional_char": "犖"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "明显，分明，卓越；高超",
+      "examples": [
+        "此其荦荦大者。",
+        "卓荦乎方州。",
+        "荦然分明。"
+      ],
+      "traditional_char": "犖"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "文彩交错的样子",
+      "examples": [
+        "赤瑕駁犖，采点也。",
+        "駁犖，牛杂色。"
+      ],
+      "traditional_char": "犖"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "山石大而多的样子，嶙峋貌，坚硬貌",
+      "examples": [
+        "荦确，山石大而多。",
+        "荦确，坚硬貌。"
+      ],
+      "traditional_char": "犖"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从牛，劳省声，最初表“杂色牛”之义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "由杂色牛引申为文彩交错之貌，以“杂色”泛指纹理、色彩交错。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "以杂色牛为当地地理特征，转用为地名。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "杂色、特异牛特出，借喻为“明显、卓越”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "杂色、突出之牛，比喻山石嶙峋、突兀。"
+    }
+  ]
+}

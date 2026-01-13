@@ -1,0 +1,44 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "美好，珍贵，多用于人名",
+      "examples": [
+        "汉帝之德，侯其祎而。——张衡《东京赋》",
+        "祎祎，美好。"
+      ],
+      "traditional_char": "祎"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "美好，珍贵，多用于人名（與祎同義，繁體寫法）",
+      "examples": [
+        "漢帝之德，侯其禕而。",
+        "禕隋，從容自得之樣子。"
+      ],
+      "traditional_char": "禕"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘祎’為形声字，从示，韦声，意指美好、多用于人名。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "‘禕’為‘祎’的繁体字，形声结构，从示，韦声，表示美好。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "conversion",
+      "note": "‘禕’为‘祎’的繁体—简体转写，两者含义等同。"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "囚禁，关押。",
+      "examples": [
+        "圄伯嬴于轑阳而杀之。",
+        "圄，守之也。——《说文》"
+      ],
+      "traditional_char": "圄"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "监狱，牢房。",
+      "examples": [
+        "省囹圄。——《礼记·月令》",
+        "拘者满圄，怨者满朝。——《晏子春秋》"
+      ],
+      "traditional_char": "圄"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "守御，防守。",
+      "examples": [
+        "守圄扞敌之臣诚死城郭封疆。",
+        "王非战国守圄之具。——《战国策》"
+      ],
+      "traditional_char": "圄"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "古代养马会所。《说文》通“圉”。",
+      "examples": [
+        "马圄之说无方，而野人说之。",
+        "西倾朱圉。——《尚书·禹贡》"
+      ],
+      "traditional_char": "圄"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "古乐器名，奏乐将终时敲击以令止。",
+      "examples": [
+        "敔者，止乐之器，二《礼》、《尚书》谓之敔，《诗》谓之圄。",
+        "击圄使演奏停止。"
+      ],
+      "traditional_char": "圄"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从囗（表示围、限制），吾声，初本指囚禁之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘囚禁’之动作用于关押的场所，引申为‘监狱’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "从‘囚禁’引申为对边界或目标进行防守、守御。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "‘圄’通‘圉’，用于养马会所，属音近假借用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "‘圄’为古乐器同音假借，原指囚禁，后借指奏乐止音器具。"
+    }
+  ]
+}

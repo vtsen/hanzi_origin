@@ -1,0 +1,53 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "犀牛类动物，一说特指雌性犀牛，体形似牛，皮厚，可制甲，古时常见于文献。",
+      "examples": [
+        "虎兕出于柙，龟玉毁于椟中，是谁之过与？——《论语·季氏》",
+        "詩曰：‘發彼小豝，殪此大兕。’",
+        "唐叔射兕于徒林。——《国语·晋语》"
+      ],
+      "traditional_char": "兕"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "古代一种酒器，多用兕角制成，称为“兕觥”，常见于礼制及诗文。",
+      "examples": [
+        "我姑酌彼兕觥。——《诗·周南》",
+        "兕觥其觩。——《诗·小雅》"
+      ],
+      "traditional_char": "兕"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "“雉”的通假字，古籍中偶作代用。",
+      "examples": [],
+      "traditional_char": "兕"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "pictograph",
+      "original_sense_index": 0,
+      "note": "全体象形，取兽形（似牛一角、青色、厚皮），表现早期对犀牛类动物的具象描画。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "以犀牛角制器，器物因以名之，用兕特指其角制的觥。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "以兕作“雉”之通假，因音近字借用，古籍偶见。"
+    }
+  ]
+}

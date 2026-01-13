@@ -1,0 +1,98 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "雨滴下的样子，形容雨水如注。",
+      "examples": [
+        "雨瀧瀧貌。（《说文》）"
+      ],
+      "traditional_char": "瀧"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "湍急的流水，急流。",
+      "examples": [
+        "中夜前泷吼。（清·魏源《阳朔舟行》）",
+        "下瀧船似入深淵，上瀧船似欲昇天。（唐·元結《欸乃曲》）"
+      ],
+      "traditional_char": "瀧"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "古水名，即今山东省孝妇河。",
+      "examples": [
+        "其水北注于瀧水，瀧水即古袁水也。（北魏 酈道元《水经注》）"
+      ],
+      "traditional_char": "瀧"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "地名，广东省罗定市（历史曾作瀧州），又作泷水。",
+      "examples": [
+        "梁曰瀧州，隋曰瀧水，今州有瀧水縣。"
+      ],
+      "traditional_char": "瀧"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "水名。即今湖南省临武县发源、广东省进入之武水，又名武溪。",
+      "examples": [
+        "名之瀧水。（北魏 酈道元《水经注•溱水》）"
+      ],
+      "traditional_char": "瀧"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "湿润、沾湿。",
+      "examples": [
+        "瀧涷，沾漬也。（扬子·方言）"
+      ],
+      "traditional_char": "瀧"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从水，龍声。形声字，初本指雨瀧瀧貌，形容下雨。（《说文》）"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由雨瀧瀧貌，形容流水急速，如雨成瀧，常见于早期诗文。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由‘急流’泛指具体地名和水名，古多以‘瀧’为水名。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "以河流地带之名用作地名，尤以广东为代表。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "急流引申为河流名，多见于湖南、广东之间的水系。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "自雨滴引申为一般的湿润、沾湿之意，见于古文如‘瀧涷’。"
+    }
+  ]
+}

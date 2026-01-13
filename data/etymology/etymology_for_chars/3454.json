@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "蘑菇，一种食用菌类植物，特指担子菌纲伞菌科的品种，如“口蘑”、“松蘑”等。",
+      "examples": [
+        "山上长满了蘑菇。",
+        "口蘑味道鲜美。"
+      ],
+      "traditional_char": "蘑"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "借指故意纠缠或拖延，如“蘑菇”引申为故意磨蹭或拖延时间。",
+      "examples": [
+        "他总是和我蘑菇，事情办不成。",
+        "别在这里蘑菇了，快走吧！"
+      ],
+      "traditional_char": "蘑"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从艹，模声。本指蘑菇类食用菌。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "以蘑菇生长缓慢、纠结、缠绕之意比喻人做事拖延。"
+    }
+  ]
+}

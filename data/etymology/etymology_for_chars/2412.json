@@ -1,0 +1,70 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "大雁，鸿雁（一种体型较大的雁类）",
+      "examples": [
+        "鸿雁长飞光不度",
+        "雪泥鸿爪"
+      ],
+      "traditional_char": "鴻"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "大、宏大",
+      "examples": [
+        "鸿图",
+        "鸿福",
+        "鸿儒"
+      ],
+      "traditional_char": "鴻"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "书信",
+      "examples": [
+        "来鸿"
+      ],
+      "traditional_char": "鴻"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        ""
+      ],
+      "traditional_char": "鴻"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘鴻’为形声字，从鸟，江声；本义为大雁。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "古人以大雁体型大引申作‘大’、‘宏大’义，汉以后见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "以鸿雁传书，故以‘鸿’指代书信，汉魏以来常见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "conversion",
+      "note": "动植物名转为姓氏，用于姓氏起源习惯。"
+    }
+  ]
+}

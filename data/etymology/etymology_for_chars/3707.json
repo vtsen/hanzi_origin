@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古代传说中有角或无角的小龙",
+      "examples": [
+        "驾青虬兮骖白螭。——屈原《涉江》",
+        "有角曰虬龙，无角曰螭龙。——《广雅·释鱼》"
+      ],
+      "traditional_char": "虬"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "盘曲，卷曲的样子",
+      "examples": [
+        "弓欺猿臂秋无力，剑泣虬髯晓有霜。——罗邺《老将》",
+        "虬须",
+        "虬髯"
+      ],
+      "traditional_char": "虬"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "虬姓"
+      ],
+      "traditional_char": "虬"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从虫，丩声，表示一种与龙或虫类相关的生物，指古代传说中的有角小龙。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由虬龙形象的蜿蜒盘曲，引申为卷曲、盘曲的形状。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "conversion",
+      "note": "名词转用作姓氏，常见汉字用法。"
+    }
+  ]
+}

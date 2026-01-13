@@ -1,0 +1,119 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "赐予，赏赐，赠与",
+      "examples": [
+        "小国之事大国也，苟免于讨，不敢求贶。",
+        "羞当白壁贶。",
+        "嘉贶",
+        "贶赠"
+      ],
+      "traditional_char": "貺"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "所赐赠之物，馈赠",
+      "examples": [
+        "天降嘉贶，将何德以酬之？",
+        "舉群臣實受其貺。",
+        "假一席地，得一夕安，已承厚贶，敢过望耶？"
+      ],
+      "traditional_char": "貺"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "他人寄来的信件或诗文等",
+      "examples": [
+        "輒誦來貺，永以自慰。",
+        "奉所惠貺，發函伸紙，是何文采之巨麗，而慰喻之綢繆乎？",
+        "三復來貺，欲罷不能。"
+      ],
+      "traditional_char": "貺"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "喜欢，喜悦",
+      "examples": [
+        "我有嘉宾，中心貺之。"
+      ],
+      "traditional_char": "貺"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "张大，扩展（通“皇”）",
+      "examples": [
+        "夫人相乐无所发貺，故圣人为之作乐以和节之。"
+      ],
+      "traditional_char": "貺"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "比方，以…比拟（通“况”）",
+      "examples": [
+        "更统世而自贶。"
+      ],
+      "traditional_char": "貺"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "水名",
+      "examples": [
+        "貺水出焉，东南流注于汉，其中多蛟。"
+      ],
+      "traditional_char": "貺"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从贝，兄声，本义为赐予、赏赐，贝指财物，兄表声。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "动作为赏赐、赐予，引申为所赐予之物。汉魏两代文献皆有用法。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "赐物引申为特指他人寄来的信件、诗文。多见于中古及后世文人书信体中。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "原为赏赐，后用作心理倾向，意指喜欢、喜悦。西周、春秋《诗经》用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_shift",
+      "note": "通过“发貺”义，引申为张大、扩展。汉代《淮南子》义。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "‘贶’通‘况’，以音近假借作比方之意。先秦、两汉楚辞中用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "unknown",
+      "note": "地名、水名用作可能由他义引申，具体机制未明，但见于《山海经》"
+    }
+  ]
+}

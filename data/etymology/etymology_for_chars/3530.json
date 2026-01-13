@@ -1,0 +1,52 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "远荒，偏远荒凉的地方",
+      "examples": [
+        "我征徂西，至于艽野。"
+      ],
+      "traditional_char": "艽"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "禽兽巢穴中的垫草",
+      "examples": [
+        "禽兽有艽，人民有室。"
+      ],
+      "traditional_char": "艽"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "多年生草本植物，名为秦艽，根可药用",
+      "examples": [
+        "秦艽出秦中，以根作罗纹交纠者佳，故名秦艽。"
+      ],
+      "traditional_char": "艽"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从艸，九声，表示‘远荒’的本义，‘九’声兼有久远之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由‘荒远之地’引申为‘禽兽巢穴中的垫草’，以地形或场所的荒野、野外属性为桥，汉前期就已见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "以‘生长在远荒之地的植物’作为‘艽’，专指某类药用植物，秦汉以降常见此用。"
+    }
+  ]
+}

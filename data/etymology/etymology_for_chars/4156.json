@@ -1,0 +1,87 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "枸橼，常绿小乔木或大灌木，果实称香橼，可入药或提香油",
+      "examples": [
+        "枸橼皮可入药。",
+        "栽种枸橼以作庭园观赏。"
+      ],
+      "traditional_char": "枸"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "枸杞，落叶小灌木，叶披针形，结小浆果，成熟时红色，果实称“枸杞子”，茎叶药用或食用",
+      "examples": [
+        "枸杞子可泡茶。",
+        "地骨皮药用价值高。"
+      ],
+      "traditional_char": "枸"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "枸骨，常绿小乔木或灌木，叶有硬刺，果圆供观赏，叶可入药",
+      "examples": [
+        "枸骨叶可入药。",
+        "枸骨盆景常做庭院装饰。"
+      ],
+      "traditional_char": "枸"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "盘错的树根",
+      "examples": [
+        "下有九枸，其实如麻。",
+        "枸木必将待櫽括烝矫而后直。"
+      ],
+      "traditional_char": "枸"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "弯曲的（通“钩”）",
+      "examples": [
+        "枸木必将待櫽括烝矫而后直。",
+        "木曲枝曰枸。"
+      ],
+      "traditional_char": "枸"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 3,
+      "note": "“枸”形声字，从木，句声，初指树根盘错或树干弯曲，与植物相关联。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "从盘错的树根引申为弯曲的形状，因形状联系。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "由树根盘错泛指各种植物名，含义扩展。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由一种植物名泛化到相关植物枸杞，用于指称类似小灌木。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由植物名继续引申，指称枸骨这类有相似特征的植物。"
+    }
+  ]
+}

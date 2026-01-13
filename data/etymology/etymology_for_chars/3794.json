@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "用现代或通行的话解释古代语言文字或方言字义",
+      "examples": [
+        "诂，训故言也。——《说文》",
+        "解诂",
+        "诂训"
+      ],
+      "traditional_char": "詁"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "古言古义；词语的意义",
+      "examples": [
+        "同字而异诂，同辞而异义。——陆游《万卷楼记》"
+      ],
+      "traditional_char": "詁"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘詁’为形声字，从言，古声，本义为用现代话解释古语古字。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由‘解释’引申为‘被解释的词义’，出现在东汉至宋代注疏。"
+    }
+  ]
+}

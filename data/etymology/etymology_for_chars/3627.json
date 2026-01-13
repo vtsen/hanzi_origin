@@ -1,0 +1,70 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "由主流分出又流回主流的水流。",
+      "examples": [
+        "江有汜，之子归，不我以。"
+      ],
+      "traditional_char": "汜"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "不流通的小水沟、死水沟。",
+      "examples": [
+        "穷渎，汜。——《尔雅·释丘》",
+        "邢昺疏：谓窮困不通水瀆名汜也。"
+      ],
+      "traditional_char": "汜"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "水边、水涯。",
+      "examples": [
+        "出自汤谷，次于蒙汜。——《楚辞》",
+        "君子失明义，谁与偕没齿！愧彼《行露》诗，甘之长川汜。——颜延之"
+      ],
+      "traditional_char": "汜"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "水名，今称汜水，在中国河南省。",
+      "examples": [
+        "汜水，源出方山。——《读史方舆纪要》",
+        "渡兵汜水，半渡，汉击之，大破楚军。"
+      ],
+      "traditional_char": "汜"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从水，已声，形声字，表示水流岔出又复入，最初意为‘水别复入水’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从分流复入的水流引申为‘不流通的小水沟’。语义扩展。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "从水流的位置进一步用以指‘水边、水涯’。同水流相关地理。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "以‘汜’为地名/水名，典型的以特征命名地理现象。"
+    }
+  ]
+}

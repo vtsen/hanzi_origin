@@ -1,0 +1,65 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "福建和广东沿海一带饲养蛏类的田",
+      "examples": [
+        "蛏埕",
+        "蛤埕"
+      ],
+      "traditional_char": "埕"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "酒瓮、大陶坛",
+      "examples": [
+        "我几时吃那开埕十里香？——高文秀《谇范叔》",
+        "隔壁三家醉，开埕十里香，可知多主顾，称咱活杜康。——元 李文蔚 《燕青博魚》第二摺"
+      ],
+      "traditional_char": "埕"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "坛子",
+      "examples": [],
+      "traditional_char": "埕"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "沿海一带晒盐的盐田",
+      "examples": [],
+      "traditional_char": "埕"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "左为“土”表义，右为“呈”表音，初用于指大型土制坛子或瓮。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由特指酒坛泛指一般坛子，见于元明文献。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 0,
+      "evolution_type": "metaphor",
+      "note": "由坛子形状转喻为近水宽平的田地，福建广东方言常见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由蟶田形状进一步转喻为晒盐用的田地。"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "鱼类、爬行动物和少数哺乳动物身体表面的角质或骨质小薄片",
+      "examples": [
+        "鱼鳞",
+        "蛇鳞",
+        "遍体鳞伤"
+      ],
+      "traditional_char": "鱗"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "鳞状的，形状或排列如鱼鳞一般",
+      "examples": [
+        "鳞波",
+        "鳞茎",
+        "鳞集"
+      ],
+      "traditional_char": "鱗"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "泛指有鳞甲的动物，特指“鱼雁”，即书信",
+      "examples": [
+        "鳞鸿",
+        "鱼雁传书"
+      ],
+      "traditional_char": "鱗"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从鱼，粦声，原表示鱼的鳞片。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由具体的鱼鳞，引申为任何排列或形状如鳞的事物。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "从鱼鳞泛指有鳞甲的动物，再用于书信的借代。"
+    }
+  ]
+}

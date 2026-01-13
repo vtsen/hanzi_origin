@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "藻类植物，专指水中的隐花类植物，如水藻、海藻",
+      "examples": [
+        "水藻浮动",
+        "海中多藻"
+      ],
+      "traditional_char": "藻"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "泛指生长于水中的植物，包含部分水生高等植物",
+      "examples": [
+        "金鱼藻",
+        "狸藻"
+      ],
+      "traditional_char": "藻"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "文彩，辞藻，指文章华丽的词句或思路",
+      "examples": [
+        "藻思清新",
+        "辞藻华丽",
+        "藻绘宫殿"
+      ],
+      "traditional_char": "藻"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "古代帝王冕冠上用于装饰的五彩丝绳（玉藻）",
+      "examples": [
+        "玉藻垂旒"
+      ],
+      "traditional_char": "藻"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，“艹”表义，表示植物；“澡”表音，最初本义为水中藻类。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由特指隐花植物扩展为泛指水生植物，见于后世文献。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "以藻洁美丽比喻文字、文采之美，汉代起有记载。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "以彩色藻类形象比喻用五彩丝绳装饰帝王冕冠，见《礼记》。"
+    }
+  ]
+}

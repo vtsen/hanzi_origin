@@ -1,0 +1,102 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "低洼地区为防水护田所筑的土堤。",
+      "examples": [
+        "南方低洼地区防水护田的堤称圩。",
+        "江南可耕之地，皆下湿厌水，规其地以堤而蓺其中，谓之圩。"
+      ],
+      "traditional_char": "圩"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "被圩堤围住的田地，圩田。",
+      "examples": [
+        "以圩所围的田也叫圩。",
+        "圩户（耕种圩田的农户）。"
+      ],
+      "traditional_char": "圩"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "围绕村落四周的障碍物，土围子或墙。",
+      "examples": [
+        "围墙内的村庄也叫圩。",
+        "都部署在圩上。"
+      ],
+      "traditional_char": "圩"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "凹地，中间低而四周高的地方。",
+      "examples": [
+        "圩顶（头顶凹陷，指人的头部中央低而四旁高）。"
+      ],
+      "traditional_char": "圩"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "修筑圩堤以防水护田。",
+      "examples": [
+        "筑圩。",
+        "勉民兴工筑圩，以食农民。"
+      ],
+      "traditional_char": "圩"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "乡村集市，市集（主要用于中国南方方言地区）。“圩”为“墟”的俗写。",
+      "examples": [
+        "赶圩（赶集）。",
+        "圩日。"
+      ],
+      "traditional_char": "圩"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从土，于声。‘土’表义指土堤，‘于’表声，本义为低洼地防水护田的土堤。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由指土堤进一步泛指被土堤围住的田地，即圩田。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由防水堤的护田功能，引申为村庄四周的障碍物、土围子。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由土堤即四周高于中间的形状，比喻引申至凹地、头顶凹陷等。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "conversion",
+      "note": "由名词化为动词，指修筑圩堤。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "‘圩’借音用于‘墟’（市集），南方方言用法，属于音借。"
+    }
+  ]
+}

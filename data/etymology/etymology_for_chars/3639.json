@@ -1,0 +1,91 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古关名，汉代设五阮关，或称五原关。",
+      "examples": [
+        "流民欲入五阮关者，勿苟留。——《汉书·成帝纪》"
+      ],
+      "traditional_char": "阮"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "山名。",
+      "examples": [],
+      "traditional_char": "阮"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "殷商时代的诸侯国名，在今甘肃泾川县，为周文王所灭。",
+      "examples": [
+        "侵阮徂共。——《诗·大雅·皇矣》"
+      ],
+      "traditional_char": "阮"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "一种古老的弦乐器“阮咸”的简称，形似月琴。",
+      "examples": [
+        "红线，善弹阮。——《甘泽谣》",
+        "大家比较技艺，拨琴阮，笙箫嘹喨。——《桃花扇·访翠》"
+      ],
+      "traditional_char": "阮"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "侄的代称，源于晋代阮籍与侄阮咸并有盛名。",
+      "examples": [
+        "贤阮",
+        "阮家会"
+      ],
+      "traditional_char": "阮"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [
+        "三国魏有阮籍。"
+      ],
+      "traditional_char": "阮"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从阜（表与地理相关，如关隘），元为声符，初指古关名五阮关。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "地名泛化，可指山名，常见于地理相关名物互称。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由关隘、地理地名引申为周边地的诸侯国名。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "关名、国名成为氏族名称的常见源头。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "以乐器名代指善弹该乐器（阮咸），再用“阮”专指侄儿，后用作侄的代称。"
+    }
+  ]
+}

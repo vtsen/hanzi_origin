@@ -1,0 +1,83 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "两山夹持的溪谷，峡谷。",
+      "examples": [
+        "硖深仰面窥天细，路险行吟得句奇。",
+        "淮水又北径山硖中。"
+      ],
+      "traditional_char": "硖"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "地名，如“硖石”山、地、县名。",
+      "examples": [
+        "山名，一在中国安徽省寿县西北，一在中国浙江省海宁县东。",
+        "地名，在中国浙江省海宁县。"
+      ],
+      "traditional_char": "硖"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "通“峡”，指两山间的溪谷。",
+      "examples": [
+        "唐 杜甫 《铁堂硤》诗：“硤形藏堂隍，壁色立精铁。”"
+      ],
+      "traditional_char": "硤"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "古同“狭”，狭窄。",
+      "examples": [
+        "参见“硤路”。"
+      ],
+      "traditional_char": "硤"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "榨取，用力挤压（多用于古代）。",
+      "examples": [
+        "清 黄叔璥《台海使槎录》卷三：“每部用十二牛日夜硤煮。”"
+      ],
+      "traditional_char": "硤"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“硖”从石，夹声，表示两山夹持间有石谷之意。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 2,
+      "note": "“硤”从石，夹声，意义同“硖”，是主要传统正字。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "地名由本义延伸，因地形而得名。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "“峡”义发展为“狭窄”。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "由夹持之义引申为挤榨之义。"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "山坡，斜坡",
+      "examples": [
+        "采土筑山，十里九坂。",
+        "帝从灞陵，欲西驰下峻坂，爰盎谏，乃止。",
+        "绿柳荫坂。"
+      ],
+      "traditional_char": "坂"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "地名，如“蒲坂”",
+      "examples": [
+        "蒲坂，在蒲城东。",
+        "舜都蒲坂。"
+      ],
+      "traditional_char": "坂"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从土，反声，指山坡、斜坡之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "地貌名称引申为地名用，如“蒲坂”。"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "舅母，即母亲的兄弟之妻。",
+      "examples": [
+        "儿少受舅妗抚育，尚无寸报。——《聊斋志异·公孙九娘》",
+        "舅妗",
+        "妗娘"
+      ],
+      "traditional_char": "妗"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "妻兄或妻弟的妻子。",
+      "examples": [
+        "大妗子",
+        "小妗子"
+      ],
+      "traditional_char": "妗"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "善笑貌、喜悦貌。",
+      "examples": [
+        "𡝫妗，善笑貌",
+        "说文：𡝫妗也，一曰喜笑皃"
+      ],
+      "traditional_char": "妗"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "美好的样貌。",
+      "examples": [
+        "妗，美也"
+      ],
+      "traditional_char": "妗"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "女子轻薄貌。",
+      "examples": [
+        "女轻薄貌"
+      ],
+      "traditional_char": "妗"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 2,
+      "note": "从女，今声。形声字，‘今’作声旁，本义指善笑、喜悦貌。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "女子‘善笑’容貌引申为‘美好’之义"
+    },
+    {
+      "source_index": 2,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由善笑、外露转为指女子‘轻薄貌’"
+    },
+    {
+      "source_index": 2,
+      "target_index": 0,
+      "evolution_type": "metonymy",
+      "note": "以‘善笑’美好的女子形象转指亲属称谓，舅母"
+    },
+    {
+      "source_index": 2,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由表示女性美好、喜悦表情，引申作亲属称谓，妻兄弟之妻"
+    }
+  ]
+}

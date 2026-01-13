@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "猛兽怒吼，发出巨大、威吓的声音。",
+      "examples": [
+        "熊咆龙吟殷岩泉",
+        "虎豹斗兮熊罴咆"
+      ],
+      "traditional_char": "咆"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "（引申）猛烈地发怒或大声呼喊。",
+      "examples": [
+        "咆哮如雷",
+        "何猛气之咆勃"
+      ],
+      "traditional_char": "咆"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "（比喻）水流湍急轰鸣。",
+      "examples": [
+        "江水咆哮，汹涌澎湃"
+      ],
+      "traditional_char": "咆"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从口，包声。本义为猛兽吼叫，由口表示与声音有关，包为声旁。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "动物怒吼引申为人类发怒高声；隋唐时期文献多见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "猛兽怒吼之声比喻水流奔腾轰鸣，常见于诗文修辞。"
+    }
+  ]
+}

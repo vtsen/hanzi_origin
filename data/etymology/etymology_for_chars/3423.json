@@ -1,0 +1,69 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "像尿或狐狸的气味，腥臭味",
+      "examples": [
+        "腥臊",
+        "狐臊"
+      ],
+      "traditional_char": "臊"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "（方言）肉末或肉丁，如用作面食配料",
+      "examples": [
+        "羊肉臊子面"
+      ],
+      "traditional_char": "臊"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "害羞，感到羞愧",
+      "examples": [
+        "害臊",
+        "羞臊"
+      ],
+      "traditional_char": "臊"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "不顺利，倒霉（用在“臊气”等词中，气读轻声）",
+      "examples": [
+        "臊气"
+      ],
+      "traditional_char": "臊"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从肉，骚声，表示有腥臭气味，与肉有关。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "气味与动物肉相关，引申为肉末、肉丁的名称，常见于北方方言。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "气味令人不舒服，引申为心理感受上的羞耻、难堪。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "腥臊难闻，引申为倒霉、不顺的状态，多用在方言词语中。"
+    }
+  ]
+}

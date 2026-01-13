@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "灾祸，灾殃",
+      "examples": [
+        "休咎未卜",
+        "灾咎"
+      ],
+      "traditional_char": "咎"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "过失，罪过",
+      "examples": [
+        "咎由自取",
+        "负咎",
+        "以彰其咎"
+      ],
+      "traditional_char": "咎"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "怪罪，处分",
+      "examples": [
+        "既往不咎",
+        "勿咎于人"
+      ],
+      "traditional_char": "咎"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "怨仇",
+      "examples": [
+        "与臣有咎"
+      ],
+      "traditional_char": "咎"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意字，从人从各，‘各’本意有背离之意，指违背人的心愿，引申为灾祸。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "灾祸常由过失或罪过引发，意从灾祸转为过错、罪过，用于道德或法律责任。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "grammaticalization",
+      "note": "由名词‘过失’引申作动词‘怪罪、处罚’，表示因他人有咎而加以责备。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由‘过失、罪过’引申为‘怨仇’，指因过错而产生的仇怨关系。"
+    }
+  ]
+}

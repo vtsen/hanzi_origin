@@ -1,0 +1,132 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "竹子",
+      "examples": [
+        "竺，竹也。——《广雅》",
+        "其表曰笢。"
+      ],
+      "traditional_char": "竺"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "天竺（古印度的别称）",
+      "examples": [
+        "天竺国，一名身毒国，在月氏东南数千里。——《后汉·西域传》",
+        "双匣犹传竺国经。——林景熙《梦中作》"
+      ],
+      "traditional_char": "竺"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "与佛教、佛典有关的",
+      "examples": [
+        "闲吟竺仙偈，清绝过于玉。——贯休《夜雨》",
+        "竺法，竺乾，竺书，竺学"
+      ],
+      "traditional_char": "竺"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "山名，在浙江省杭州市西灵隐山飞来峰之南，分上中下三天竺（俗称三竺）",
+      "examples": [
+        "朝游三竺，暮宿两峰。——《西湖佳话》"
+      ],
+      "traditional_char": "竺"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "古代的一种乐器",
+      "examples": [
+        "高渐离击竺。——《战国策·燕策》",
+        "非丝非竺。——欧阳修《醉翁亭记》"
+      ],
+      "traditional_char": "竺"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "酒泉都尉竺曾。——《后汉·竇融传》"
+      ],
+      "traditional_char": "竺"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "adjective",
+      "meaning": "厚，深，后作“篤”；通“篤”",
+      "examples": [
+        "帝何竺之。——《楚辞·天问》",
+        "竺，厚也。——王逸注"
+      ],
+      "traditional_char": "竺"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "verb",
+      "meaning": "通“毒”，憎恨；憎恶",
+      "examples": [
+        "怨竺积怒。——马王堆汉墓帛书《战国纵横家书》"
+      ],
+      "traditional_char": "竺"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从二，竹声，表示‘竹子’"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "印度称之为‘天竺’，系因佛教流传时用‘竹’表示译名。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由地名‘天竺’引申，表示与佛教相关事物。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "以地名‘天竺’命名浙江三竺山。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "古代乐器，或与竹质器物有关，名称借用‘竺’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "conversion",
+      "note": "以物为姓，常见汉字取名方式。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "semantic_shift",
+      "note": "由‘竹子’引申为‘厚’，‘坚实’等意，与‘篤’音通，意义扩大。"
+    },
+    {
+      "source_index": 6,
+      "target_index": 7,
+      "evolution_type": "semantic_shift",
+      "note": "‘厚’可引申为‘毒’、‘憎恨’（情感加重），语音通假。"
+    }
+  ]
+}

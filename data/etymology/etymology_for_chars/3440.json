@@ -1,0 +1,72 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "翻转，倾覆。如船只倾倒、颠覆。",
+      "examples": [
+        "覆舟",
+        "倾家颠覆",
+        "前车之覆，后车之鉴"
+      ],
+      "traditional_char": "覆"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "遮盖，覆盖。",
+      "examples": [
+        "覆盖",
+        "覆蔽",
+        "覆庇"
+      ],
+      "traditional_char": "覆"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "败、灭绝。",
+      "examples": [
+        "覆灭",
+        "覆巢无完卵"
+      ],
+      "traditional_char": "覆"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "同“复”，再次、回返之意。",
+      "examples": [
+        "覆命"
+      ],
+      "traditional_char": "覆"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，声旁为“復”，本义为翻转、倾覆，上部为西，下部为复，含覆盖动作和声音。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由翻转、覆盖，引申为单纯的遮盖结构，早见于先秦用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由翻转引申为败坏、毁灭，如“倾覆国家”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "与“复”声同借用，义项转化为再次、回返，为通假用法。"
+    }
+  ]
+}

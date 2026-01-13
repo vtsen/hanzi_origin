@@ -1,0 +1,65 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "八卦之一，代表山。",
+      "examples": [
+        "《易经》：‘艮为山。’"
+      ],
+      "traditional_char": "艮"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "古代地支计时中的一个时辰。",
+      "examples": [
+        "若依然葬书，多用乾、艮二时，并是近半夜。"
+      ],
+      "traditional_char": "艮"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "指东北方。",
+      "examples": [
+        "艮维"
+      ],
+      "traditional_char": "艮"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [],
+      "traditional_char": "艮"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "simple_indicative",
+      "original_sense_index": 0,
+      "note": "“艮”为象形兼指事字，本义为止步、目视等，后引申为八卦之一。今主要用义是八卦的‘艮卦’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "八卦用作时辰名称，为象征性转喻。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "八卦方位观念引申为东北方。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "function_word",
+      "note": "姓氏用字，源自八卦用字或音形借用。"
+    }
+  ]
+}

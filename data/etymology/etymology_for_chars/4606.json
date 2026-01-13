@@ -1,0 +1,70 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "远，不近",
+      "examples": [
+        "逖矣！西土之人。",
+        "逖远",
+        "逖闻"
+      ],
+      "traditional_char": "逖"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "使之远离，疏远",
+      "examples": [
+        "离逖尔土。——《书·多方》",
+        "纠逖王慝。——《左传》"
+      ],
+      "traditional_char": "逖"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "通“剔”，治、治理",
+      "examples": [
+        "纠逖王慝。——《左传》"
+      ],
+      "traditional_char": "逖"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "通“惕”，忧患",
+      "examples": [
+        "渙其血去，逖出，无咎。——《易·渙卦》"
+      ],
+      "traditional_char": "逖"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从辵，狄声；本义为远。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_shift",
+      "note": "由“远”引申为“使远离、疏远”，语义变化见于先秦文献。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "reanalysis",
+      "note": "古籍中偶作“剔（治）”解，可能因字形、声类近而假借。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "与“惕（忧）”音近而借用，属于通假字现象。"
+    }
+  ]
+}

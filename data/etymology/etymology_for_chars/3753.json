@@ -1,0 +1,120 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古代家庭私宴的名称",
+      "examples": [
+        "飫，私也。《詩·小雅·常棣》：儐爾籩豆，飲酒之飫。",
+        "每宴飫無不先及， 每慶賜無不先霑。——白居易《初授拾遺獻書》"
+      ],
+      "traditional_char": "飫"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "吃饱，饱食",
+      "examples": [
+        "饫，饱也，厌也。——《广雅》",
+        "饫肥之肠。——刘基《卖柑者言》",
+        "吕向注：飽而飲酒曰飫。"
+      ],
+      "traditional_char": "飫"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "厌倦，因吃得过多而感到腻烦",
+      "examples": [
+        "饫闻（厌闻。所闻过多而感厌倦之意）",
+        "厌飫，自足而不乐见闻之意也。——朱熹《楚辞集注》"
+      ],
+      "traditional_char": "飫"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "赐予（多指赐予食物等）",
+      "examples": [
+        "饫，赐也。——《广韵》",
+        "帝釐下土，方設居方，作《槁飫》。——《书·舜典》"
+      ],
+      "traditional_char": "飫"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "立礼，举行站立的礼节性宴饮",
+      "examples": [
+        "夫礼之立成者为饫，昭明大节而已。——《国语·周语下》",
+        "王公立飫，则有房烝。——《国语·周语中》"
+      ],
+      "traditional_char": "飫"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "adjective",
+      "meaning": "肥美，丰盛",
+      "examples": [
+        "黄羊飫不羶。——杜甫《送从弟亚赴西安判官》",
+        "既甘且飫致遐福。——《隋书·音乐志》"
+      ],
+      "traditional_char": "飫"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "饫礼，举立而行的宴会礼仪",
+      "examples": [
+        "饫礼，站立行礼。《国语·周语下》",
+        "饫歌（行饫礼时所唱的歌诗）"
+      ],
+      "traditional_char": "飫"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "“飫/饫”从食，芺声，本义为“吃饱”。在篆文中为形声字，属形声字结构。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "从“吃饱”引申为“因过多而厌倦”。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "从“饱食”引申为“肥美，丰盛”。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "由“让人吃饱”引申为“赐予（食物）”。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "synecdoche",
+      "note": "用“饱食”转指“以饱食为特征的宴会”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "semantic_extension",
+      "note": "家庭私宴之名转专指“举立而行的宴会礼仪”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由“家庭私宴”引申为“礼仪性宴饮方式”，突出礼节形式。"
+    }
+  ]
+}

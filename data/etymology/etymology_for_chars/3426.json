@@ -1,0 +1,38 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "把头发分股编成的带状物。",
+      "examples": [
+        "她梳了一个长辫子。",
+        "留着辫子的少女。"
+      ],
+      "traditional_char": "辮"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "像辫子的东西（如蒜辫、绳辫等）。",
+      "examples": [
+        "家里挂着一串蒜辫。"
+      ],
+      "traditional_char": "辮"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "辮由形声构成，形旁“辶”表与行动、编绳相关，声旁“辧”，最初表示编结成带状物，多指头发。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由发辫外形引申比喻为一切形似辫子的物品，如蒜辫、绳辫等，义项上为比喻义。"
+    }
+  ]
+}

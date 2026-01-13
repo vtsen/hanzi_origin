@@ -1,0 +1,119 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "对等，相匹敌，同等，等同",
+      "examples": [
+        "以坚白同异之辩相訾，以觭偶不仵之辞相应。——《庄子·天下》",
+        "仵， 同也。——《广韵》"
+      ],
+      "traditional_char": "仵"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "违背，逆，迕逆",
+      "examples": [
+        "自用则不虚，不虚则仵于物矣。——《管子》",
+        "数仵权贵。——《贈太常博士吳君墓志铭》"
+      ],
+      "traditional_char": "仵"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "用手遮盖，捂住",
+      "examples": [
+        "只在二门外仵着脸，脱脱的哭起来。——《西游记》",
+        "八戒将两手搓热，仵住他的七窍。"
+      ],
+      "traditional_char": "仵"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "numeral",
+      "meaning": "五，通“伍”作数词",
+      "examples": [
+        "檀越元囿鸾施地仵拾亩。——北魏《敬史君碑》",
+        "仵拾亩为五十亩，仵、伍，通用也。"
+      ],
+      "traditional_char": "仵"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "伍，古代五人为伍，指等伍、同伴之类",
+      "examples": [
+        "重整威仪，再排队仵。——《敦煌变文》",
+        "擒虏于军仵。——《刘知远诸宫调》"
+      ],
+      "traditional_char": "仵"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "仵人、仵作，指以代人殓葬为业的人",
+      "examples": [
+        "天明就要入殓，只怕被仵作看出破绽来了。——《金瓶梅》"
+      ],
+      "traditional_char": "仵"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "唐有仵士政。",
+        "明嘉靖中仵瑜直諫廷杖。",
+        "下官身是仵子胥，避楚逃逝入南吴。——《敦煌变文》"
+      ],
+      "traditional_char": "仵"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“仵”从人，声旁为五；表示相配、对等之意，属于形声字，最初义为“同等、匹敌”。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_shift",
+      "note": "由“对等”引申为“违背”，取同异、相对概念，是早期语义转变。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "synecdoche",
+      "note": "由“对等、同类”引申指五人为一“伍”，同伴成为具体名词。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由“伍”为单位，数量词用法泛化为“五”。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "由“伍”为组织单位，引申为殓葬行业团伙‘仵人’，为职业名。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "conversion",
+      "note": "由‘同等、伍’义转为用作姓氏，常见的词转姓现象。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "unknown",
+      "note": "‘捂’义为后起通假关系，但具体转变过程不明，故标不明。"
+    }
+  ]
+}

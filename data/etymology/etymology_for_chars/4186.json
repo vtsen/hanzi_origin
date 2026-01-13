@@ -1,0 +1,53 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "一种儿童玩具，两头尖，中间大。也叫“尜儿”、“尜尜”。",
+      "examples": [
+        "尜，小儿戏物。——《字汇补·小部》",
+        "他在院里玩尜儿。"
+      ],
+      "traditional_char": "尜"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "胡同名。",
+      "examples": [
+        "尜，胡同名。——《字汇补》"
+      ],
+      "traditional_char": "尜"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "像尜尜的，两头尖，中间大的形状（用以形容物品）。",
+      "examples": [
+        "尜尜枣，尜尜汤。"
+      ],
+      "traditional_char": "尜"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意字，上下为‘土’，中间‘小’，象形表现中间大、两头尖的形状，反映儿童玩具‘尜’的形态。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由玩具的形状，引申为任何两头尖中间大的事物。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "因玩具常用于胡同儿童戏耍，衍申为胡同名。"
+    }
+  ]
+}

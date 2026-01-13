@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "喜悦，欢乐。",
+      "examples": [
+        "辞之怿矣。",
+        "上不怿。",
+        "是故其成也怿。"
+      ],
+      "traditional_char": "懌"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "悦服，愉快地服从。",
+      "examples": [
+        "怿，服也。",
+        "怿悦（使心情怡悦）"
+      ],
+      "traditional_char": "懌"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "更改，改变。",
+      "examples": [
+        "怿，改也。自山而东，或曰悛，或曰怿。"
+      ],
+      "traditional_char": "懌"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从心，睪声，表达‘喜悦’之意；“怿”与“懌”异体，皆以‘喜悦’为本义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由‘喜悦’引申为对他人或事愉快地接受、顺从。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "‘更改、改变’义见于《方言》，古书中有义项转化之用。"
+    }
+  ]
+}

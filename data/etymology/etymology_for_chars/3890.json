@@ -1,0 +1,118 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "小盆、盂一类的瓦器",
+      "examples": [
+        "瓯，小盆也。——《说文》",
+        "流丸止于瓯臾。——《荀子·大略》"
+      ],
+      "traditional_char": "甌"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "杯、碗之类的饮具",
+      "examples": [
+        "超宗既坐，饮酒数瓯。——《南齐书·谢超宗传》",
+        "花满渚，酒满甌。——南唐 李煜《渔父》词"
+      ],
+      "traditional_char": "甌"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "古代一种陶制打击乐器",
+      "examples": [
+        "击瓯，以十二磁瓯为一桌。——《文献通考·乐考》",
+        "武宗朝郭道源……善击甌"
+      ],
+      "traditional_char": "甌"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "古地名，今浙江温州市及附近地称“瓯”或“东瓯”",
+      "examples": [
+        "古地在今浙江省温州市",
+        "甌居海中。——《山海经·海内南经》"
+      ],
+      "traditional_char": "甌"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "古水名，即今浙江温州市瓯江",
+      "examples": [
+        "瓯江，浙江省第二大河",
+        "其水出宁城十余里，去郡城五里入江。——永嘉记"
+      ],
+      "traditional_char": "甌"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "古民族或部落名，甌族/西甌等",
+      "examples": [
+        "甌，南蛮之别名。——《逸周书·王会》",
+        "西甌，駱越別種。——《史记·赵世家》"
+      ],
+      "traditional_char": "甌"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "春秋吴有甌冶子——《通志·氏族二》"
+      ],
+      "traditional_char": "甌"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从瓦，区（ōu）声，表示小盆类陶器，是最早本义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“小盆类瓦器”引申为可盛水酒的饮具，常见于汉唐文献。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由实际器物引申，用以指特定陶制打击乐器。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "以盛具名借指该地名，因当地盛产瓦器或以器名地。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "由地名引申，指流经该地的主要河流名，为温州瓯江。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 5,
+      "evolution_type": "metonymy",
+      "note": "地名进一步用为部族名，如东甌、西甌等，见先秦两汉史籍。"
+    },
+    {
+      "source_index": 5,
+      "target_index": 6,
+      "evolution_type": "semantic_extension",
+      "note": "部族名再用作氏族姓氏，自春秋时期见诸文献。"
+    }
+  ]
+}

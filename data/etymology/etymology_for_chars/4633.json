@@ -1,0 +1,81 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "忧虑，担忧",
+      "examples": [
+        "何恙不已。——《史记》",
+        "无恙也。",
+        "君执事无恙。"
+      ],
+      "traditional_char": "恙"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "疾病，病痛",
+      "examples": [
+        "偶染微恙。",
+        "君其专精神，微恙不足论。——秦观《答文潜病中见寄》",
+        "当年秦大爷患恙，在我家庄上，住了年余，怎说不认得?——《隋唐演义》"
+      ],
+      "traditional_char": "恙"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "烦恼，祸患，灾害",
+      "examples": [
+        "岁亦无恙耶？民亦无恙耶？王亦无恙耶？",
+        "呂后 夷 戚氏 ， 誅 趙王 ， 而 高祖 後宮唯獨無寵疏遠者得無恙。",
+        "則三百年宗社， 數千里封疆， 保爾無恙。"
+      ],
+      "traditional_char": "恙"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "传说中一种噬食人心的虫",
+      "examples": [
+        "恙，噬蠱，善食人心。",
+        "恙，蟲入腹食人心。",
+        "古者草居多被此毒，故相问劳曰无恙。"
+      ],
+      "traditional_char": "恙"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从心，羊声，本义为忧虑。‘心’表意，‘羊’表音。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由担忧引申为忧虑导致的疾病，忧→病，有汉代例证。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由忧虑引申为烦恼、祸患、灾难等更广泛的不安。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 0,
+      "evolution_type": "reanalysis",
+      "note": "古籍将“恙”虫（噬人心）与忧虑联系，导致‘无恙’变为指无病、无忧。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "疾病可泛化为祸患、灾难等不安状况，见于中古文献。"
+    }
+  ]
+}

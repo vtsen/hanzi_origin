@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "用煮熟的大豆或小麦发酵后制成的食品，主要用作调味，亦可入药，即豆豉。",
+      "examples": [
+        "豉酒（用豆豉浸渍的酒，可供药用）",
+        "豉羹（即豆豉）",
+        "項里楊梅鹽可徹，湘湖蓴菜豉偏宜。",
+        "長安樊少翁賣豉，號豉樊。"
+      ],
+      "traditional_char": "豉"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "豉蟲，一種浮游在水面的昆蟲，體大如豆，顏色黑亮。",
+      "examples": [
+        "此蟲正黑如大豆，浮遊水上。",
+        "用豉母蟲一枚含口中，卽瘥。"
+      ],
+      "traditional_char": "豉"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "草豉，一种生长在巴西等地、花中结有如豉状部分的植物，可以食用。",
+      "examples": [
+        "生巴西諸國，草似韭狀，豉出花中。彼人食之。"
+      ],
+      "traditional_char": "豉"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从‘豆’表意，表示与豆类有关，从‘旨’表音，表发音，初指与豆制作的食品相关，即豆豉。传统解释为形声字。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "因豉蟲形态体大如豆且色黑亮，形似豆豉，以豆豉比喻该虫，见于古医方文献。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "因巴西某草之花中结实似豆豉，因而借用‘豉’指其食用部分，见于本草类著作。"
+    }
+  ]
+}

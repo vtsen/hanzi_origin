@@ -1,0 +1,66 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "冀州，古代九州之一，指今河北、山西一带",
+      "examples": [
+        "昔在冀州之时。"
+      ],
+      "traditional_char": "冀"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "中国河北省的别称",
+      "examples": [
+        "冀为河北省简称。"
+      ],
+      "traditional_char": "冀"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "希望，盼望",
+      "examples": [
+        "冀望成功。",
+        "冀求能够如愿。"
+      ],
+      "traditional_char": "冀"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [],
+      "traditional_char": "冀"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从北，异声，原指冀州，属地名。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_narrowing",
+      "note": "古冀州范围缩小为近今河北省，见近现代地名习惯。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "古以冀州居北极，‘冀’引申为心之所向，有所希望，语义比喻化用。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "conversion",
+      "note": "地名或族群名转为姓氏，符合汉姓起源常例。"
+    }
+  ]
+}

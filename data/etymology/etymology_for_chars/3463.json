@@ -1,0 +1,78 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "登记事物的册子、书册、薄本：如簿册、簿记、簿籍、簿录等。",
+      "examples": [
+        "请将名单写在簿册上。",
+        "会计正在做簿记。"
+      ],
+      "traditional_char": "簿"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "古代官方文书、公文、案卷。",
+      "examples": [
+        "对簿公堂。"
+      ],
+      "traditional_char": "簿"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "古代仪仗侍从，如簿伍、卤簿等。",
+      "examples": [
+        "卤簿齐整，护送帝王。"
+      ],
+      "traditional_char": "簿"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "古代朝臣手中所持的笏。",
+      "examples": [],
+      "traditional_char": "簿"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "养蚕时用的席子，古同“箔”。",
+      "examples": [],
+      "traditional_char": "簿"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从竹，溥声。本义为登记事物的册子，与竹制品相关。"
+    },
+    {
+      "formation_type": "loan_character",
+      "original_sense_index": 4,
+      "note": "‘簿’借用为‘箔’用，指养蚕席，字形借音。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由一般登记册扩展为官方文件、案卷。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由册籍引申为仪仗侍从，因仪仗名册。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "由竹制册籍引申为竹制笏，器物名变化。"
+    }
+  ]
+}

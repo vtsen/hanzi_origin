@@ -1,0 +1,89 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "齐声歌唱，无伴奏地唱歌",
+      "examples": [
+        "讴，齐歌也。——《说文》",
+        "齐讴楚声。——曹植诗",
+        "薛谭学讴于秦青。——《列子·汤问》",
+        "昔日王豹处于淇，而河西善讴。——《孟子·告子下》"
+      ],
+      "traditional_char": "謳"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "歌颂，赞颂",
+      "examples": [
+        "民讴思之。——《苗防备览·李瑜》",
+        "讴歌思想。"
+      ],
+      "traditional_char": "謳"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "吟诵",
+      "examples": [
+        "謳起來總不免要一唱三嘆地感慨係之。——郭沫若《少年時代·初出夔門》"
+      ],
+      "traditional_char": "謳"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "歌曲，民歌",
+      "examples": [
+        "京洛出名讴。——曹植《箜篌引》",
+        "于是有赵代之讴。——《汉书·艺文志》",
+        "吴讴蔡謳，奏大吕些。——《楚辞·招魂》"
+      ],
+      "traditional_char": "謳"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "歌者，歌唱的人",
+      "examples": [
+        "讴者讴曰：“泽门之皙，实兴我役。”——《左传·襄公十七年》",
+        "宋王与齐仇也，筑武宫，讴癸倡。——《韩非子·外储说左上》"
+      ],
+      "traditional_char": "謳"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从言，区声。原指齐声歌唱无伴奏。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从“齐声歌唱”引申为“歌颂、赞颂”，常见语义扩展。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由“合唱”引申为“吟诵”，指有感情地吟唱。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "conversion",
+      "note": "动词转为名词，用以指代歌曲、民歌。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "conversion",
+      "note": "动词转为名词，指歌唱者。"
+    }
+  ]
+}

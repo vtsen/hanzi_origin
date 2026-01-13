@@ -1,0 +1,85 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "火势旺盛，火盛貌",
+      "examples": [
+        "烜，火盛貌。——《玉篇》",
+        "烜烈（火盛）"
+      ],
+      "traditional_char": "烜"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "盛大，显著，显赫，光明；明亮",
+      "examples": [
+        "赫兮烜兮，威仪也。——《尔雅》",
+        "烜卓（卓著）；烜然（显赫的样子）；烜奕（显赫）"
+      ],
+      "traditional_char": "烜"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "晒干，暴晒",
+      "examples": [
+        "雨以润之，日以烜之。——《易·说卦》"
+      ],
+      "traditional_char": "烜"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "照亮",
+      "examples": [
+        "烜天地烧着草垛。——《刘知远诸宫调》"
+      ],
+      "traditional_char": "烜"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "火，火的名称",
+      "examples": [
+        "司烜氏：下士六人，徒十有二人。——《周礼·秋官·序官》",
+        "烜，火也。读如卫侯燬之‘燬’。——郑玄注"
+      ],
+      "traditional_char": "烜"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从火，亘声，表示火势旺盛的样子，是表意与表音结合的字。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "火盛引申为盛大显赫，表现声势与影响，属于意义转化。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_narrowing",
+      "note": "从火势旺盛引申狭义用作火的专名或官名，出现于《周礼》，专用指火。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "reanalysis",
+      "note": "火的作用用于晒干，古代以火或日为烜，指曝晒含火意，语境变化所致。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由火盛引申至照亮，照明；光明的动作，即烜有发光照明之义，语义扩展。"
+    }
+  ]
+}

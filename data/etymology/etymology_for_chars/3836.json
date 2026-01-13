@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "陶器，瓦制或陶土制的器皿，用于盛放物品。",
+      "examples": [
+        "侃少为寻阳县吏，尝监鱼梁，以一坩鮓遗母。——《晋书》",
+        "谢元寄妻鮺一坩，陶侃遗母坩鮺。"
+      ],
+      "traditional_char": "坩"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "熔化金属或其他物质用的耐高热盛器，多用于陶瓷或铂金制，如“坩埚”。",
+      "examples": [
+        "〔坩埚〕用来熔化金属或其它物质的器皿，多用陶土或白金制成，能耐高热。",
+        "見“坩堝”。"
+      ],
+      "traditional_char": "坩"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "石名，指某种异域石头，如“坩贝罗”。",
+      "examples": [
+        "婆利國有石曰坩貝羅，見《南史·異域傳》。"
+      ],
+      "traditional_char": "坩"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从土，甘声，本指陶土制的盛器。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由一般盛物陶器引申为专用于高温熔化金属的陶质器皿，汉至近代。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由盛器名称转为某种石的名称，因器名常用作石器或材料得名，见南朝文献。"
+    }
+  ]
+}

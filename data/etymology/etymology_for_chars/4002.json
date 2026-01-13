@@ -1,0 +1,88 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "审理、判决（罪人）；定罪。",
+      "examples": [
+        "劾，法有罪也。——《说文》",
+        "上其鞫劾文辞。——《书·吕刑》",
+        "劾死（判决死罪）；劾治（审理治罪）"
+      ],
+      "traditional_char": "劾"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "检举、揭发过失或罪状（弹劾）。",
+      "examples": [
+        "劾大不敬。——《汉书·李广苏建传》",
+        "弹劾不避权贵。——《金史·雷渊传》",
+        "御史刘台劾张居正诸擅权事。"
+      ],
+      "traditional_char": "劾"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "检举、揭发罪状的文书（劾状）。",
+      "examples": [
+        "因投劾去。——《后汉书》",
+        "滂奏刺史权豪之党二十余人，尚书责滂所劾猥多。"
+      ],
+      "traditional_char": "劾"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "以符咒等降伏鬼魅的迷信活动。",
+      "examples": [
+        "能劾百鬼众魅，令自缚见形。——《搜神记》",
+        "能劾召鬼神。——《新唐书·叶法善传》"
+      ],
+      "traditional_char": "劾"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "努力，勤勉（罕见，古义）。",
+      "examples": [
+        "劾步渐趋，以至蓬转涡急。——《酉阳杂俎续集》"
+      ],
+      "traditional_char": "劾"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从力，表示与审定、处理相关；亥为声符。形声字，最初义为审理罪人。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由审理断罪引申为主动揭发、检举罪行，秦汉已见。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "行为之名转为所用文书之名，为行为相关实物，东汉已见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "判定罪人比喻为以术法镇压邪魅，多见于道教文献。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_shift",
+      "note": "古籍中偶见‘劾’作努力勤勉解，属意义转移，机制待考。"
+    }
+  ]
+}

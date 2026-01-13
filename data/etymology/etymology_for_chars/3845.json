@@ -1,0 +1,106 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "用手抚摸、轻拍、轻击。",
+      "examples": [
+        "拊我畜我，长我育我。《诗经·蓼莪》",
+        "阿母大拊掌：“不图子自归!”《玉台新咏·古诗为焦仲卿妻作》",
+        "主拊其背曰：“行矣!”《汉书·外戚传上》",
+        "拊几有声，闻者悚然而寤。《阅微草堂笔记》"
+      ],
+      "traditional_char": "拊"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "安抚，慰勉，体恤。",
+      "examples": [
+        "王巡三军，拊而勉之。《左传·宣公十二年》",
+        "勉慰痍伤，拊巡饥渴。《阳给事诔》",
+        "善拊士，至雖昏嫁皆厚资之。《新唐书·韦皋传》"
+      ],
+      "traditional_char": "拊"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "抚养，养育，保护。",
+      "examples": [
+        "拊我畜我，长我育我。《诗经·蓼莪》",
+        "还拊幼童子，顾托兄与嫂。《谢灵运·折杨柳行》"
+      ],
+      "traditional_char": "拊"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "弹奏（乐器），拍打乐器。",
+      "examples": [
+        "湘娥拊琴瑟，秦女吹笙竽。《曹植·仙人篇》",
+        "吹孤竹，拊云和。《晋·张协·七命》"
+      ],
+      "traditional_char": "拊"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "古代一种打击乐器，亦称“搏拊”。",
+      "examples": [
+        "大祭祀，登歌击拊。《周礼·春官·大师》",
+        "弦匏笙簧，会守拊鼓。《礼记·乐记》"
+      ],
+      "traditional_char": "拊"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "器物的柄，把手。",
+      "examples": [
+        "削授拊。《礼记·少仪》",
+        "弓则以左手屈韣执拊。《礼记·少仪》"
+      ],
+      "traditional_char": "拊"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从手，付声，本义为用手抚摸或轻拍。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由抚摸动作引申为安抚、慰勉，见于先秦典籍。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "抚摸保护引申至抚养、养育。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由拍打动作引申为弹奏、击打乐器。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "以所拍打之物代指乐器本身。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "metonymy",
+      "note": "由手持拍打，引申为器物的柄（把手）。"
+    }
+  ]
+}

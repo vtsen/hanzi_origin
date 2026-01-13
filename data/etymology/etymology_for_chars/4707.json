@@ -1,0 +1,96 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "四方被水环绕的都邑",
+      "examples": [
+        "邑四方有水自邕成池者是也。"
+      ],
+      "traditional_char": "邕"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "古地名，即邕州，今广西南宁一带",
+      "examples": [
+        "邕，州名，唐置邕州。"
+      ],
+      "traditional_char": "邕"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "广西壮族自治区南宁市的简称",
+      "examples": [
+        "在邕凡五年，纳附降者数千百人。"
+      ],
+      "traditional_char": "邕"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "邕江，水名，在广西境内",
+      "examples": [],
+      "traditional_char": "邕"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "和睦，和谐（通“雍”）",
+      "examples": [
+        "君臣邕穆。",
+        "上元甲子，肃邕永享。"
+      ],
+      "traditional_char": "邕"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "堵塞（通“壅”）",
+      "examples": [
+        "邕泾水不流。"
+      ],
+      "traditional_char": "邕"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意字，从川从邑，表示四方有水环绕的城邑。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由原义引申为专指中国南方实际地名。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_narrowing",
+      "note": "地名范围缩小为现代南宁市简称。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "由环水之邑引申为以水为名之江。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_shift",
+      "note": "通“雍”，引申为和睦、和谐的意义，用于形容词用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "借音通“壅”，表示堵塞的意思。"
+    }
+  ]
+}

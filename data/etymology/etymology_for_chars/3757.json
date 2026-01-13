@@ -1,0 +1,86 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "搁置、收藏器物的架子、板子",
+      "examples": [
+        "见床内小板庋上，乌纱帽存。",
+        "庋阁（搁置器物的架子）"
+      ],
+      "traditional_char": "庋"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "搁置，安放（物品）",
+      "examples": [
+        "经尊道则尊，有合严庋宾。",
+        "庋架（置放架上）；庋置（搁置）"
+      ],
+      "traditional_char": "庋"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "收藏，储藏",
+      "examples": [
+        "庋藏（收藏）",
+        "必高束焉，庋藏焉。"
+      ],
+      "traditional_char": "庋"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "擎起，托出",
+      "examples": [
+        "寺後巖石中虛，兩旁迥突，庋以一軒，即為叫巖。",
+        "庋擎起物也。"
+      ],
+      "traditional_char": "庋"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "承托之物（如桥、阁道等）",
+      "examples": [
+        "欄危浮絕壁，庋迥跨遙川。"
+      ],
+      "traditional_char": "庋"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘庋’从广，表示房屋，与‘几’声，指放东西的家具架。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "conversion",
+      "note": "由名词‘置物架’转为动词‘搁置’用法，见于中古汉语，实属常见名物动用。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由‘搁置’拓展为‘收藏、储藏’，典型语义扩展。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "由盛放的“架”引申为“托举、擎出”，用作动词。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "conversion",
+      "note": "动词‘擎起’转为名词‘承托之物’。"
+    }
+  ]
+}

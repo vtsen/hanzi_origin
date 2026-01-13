@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古国名，奚仲之后，仲虺所封之地，在今江苏、山东一带。",
+      "examples": [
+        "邳，奚仲之后，汤左相仲虺所封，国在鲁薛县。——《说文》",
+        "商有姺邳，盖仲虺之裔为乱者，国灭，武王复封其后于邳，为薛侯。——《左传·昭公元年》"
+      ],
+      "traditional_char": "邳"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "古州名、县名，治所在下邳（今江苏省睢宁北），亦指上邳、大邳（山名，在今河南浚县等地）。",
+      "examples": [
+        "北周置邳州，治所在下邳。",
+        "彭越渡睢水，战于下邳。——《史记·高祖纪》",
+        "至于大邳。——《书·禹贡》"
+      ],
+      "traditional_char": "邳"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [
+        "汉有邳彤。",
+        "晋有邳郑。"
+      ],
+      "traditional_char": "邳"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "通“丕”，大。",
+      "examples": [
+        "棂栏邳张。——何晏《景福殿赋》"
+      ],
+      "traditional_char": "邳"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从邑，㔻声。以表示邑（地名），本义为地名/国名，属形声字。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由特指古国拓展为相关地名（州、县、山等），地理范围扩大，历见西周、汉、北周等。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由地名引申为姓氏，常见于汉姓来源，由居地转为氏。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "analogy",
+      "note": "形近通“丕”，假借为大，主要出现在文言赋体，字形音同而义通。"
+    }
+  ]
+}

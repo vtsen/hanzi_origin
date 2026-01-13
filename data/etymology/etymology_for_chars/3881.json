@@ -1,0 +1,87 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "常绿乔木，松叶柏身，果实椭圆形，可作建筑材料，又称“冷杉”。",
+      "examples": [
+        "松柏之鼠，不知堂密之有美樅。",
+        "賜金錢、繒絮、繡被百領……樅木外臧槨十五具。"
+      ],
+      "traditional_char": "樅"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "古代悬挂钟磬架子上雕饰的“崇牙”。",
+      "examples": [
+        "虡業維樅，賁鼓維鏞。",
+        "孔颖达疏：言崇牙之状樅樅然。"
+      ],
+      "traditional_char": "樅"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "撞击、击打（金属器物等）。",
+      "examples": [
+        "樅金沸地，鸣鞞聒天。",
+        "樅金太社，著帛旂常。"
+      ],
+      "traditional_char": "樅"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [
+        "汉有樅公。",
+        "漢王令樅公守滎陽。"
+      ],
+      "traditional_char": "樅"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "地名用字，指安徽樅阳等地。",
+      "examples": [
+        "自潯陽出樅陽。",
+        "汉书·郊祀志下：出樅陽。"
+      ],
+      "traditional_char": "樅"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘樅’为形声字，从‘木’，‘悤’声，最初本义为松叶柏身之树，即冷杉。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "因形状或质地相似，用树名喻钟架上的雕饰‘崇牙’。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "由‘崇牙’之坚实、叩击产生动词‘撞击’的新义。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "function_word",
+      "note": "树名等词可发展为姓氏，在古代属常见现象。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "function_word",
+      "note": "以树名作为地名用字的情况较多，‘樅阳’即用此树名。"
+    }
+  ]
+}

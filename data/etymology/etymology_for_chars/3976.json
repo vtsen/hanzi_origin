@@ -1,0 +1,99 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "逆，方向相反",
+      "examples": [
+        "戗风而行",
+        "戗水（逆着水流的方向）"
+      ],
+      "traditional_char": "戗"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "（言语）冲突，决裂",
+      "examples": [
+        "两个说戗了，揪着领子，一顿乱打。——《儒林外史》"
+      ],
+      "traditional_char": "戗"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "撑，支撑",
+      "examples": [
+        "用把椅子戗在背后。——老舍《骆驼祥子》",
+        "刚一修沟的时候，工程处就想得很周到，下边用板子顶住沟梆子，上边用柱子戗住了墙。"
+      ],
+      "traditional_char": "戗"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "大堤外面加帮的小堤",
+      "examples": [
+        "盖大围如城垣，小戗如院落，二者不可缺一。——明 徐光启《农政全书》"
+      ],
+      "traditional_char": "戗"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "在器物图案上嵌金、银等作为装饰",
+      "examples": [
+        "这一个戗金铠身上穿。——《碧桃花》",
+        "队额角涂一道明戗，劈面门抹两色蛤粉。——《水浒传》"
+      ],
+      "traditional_char": "戗"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "伤，创伤（“创”的古字用法）",
+      "examples": [
+        "戗，古创字。——《玉篇·戈部》"
+      ],
+      "traditional_char": "戧"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘戗’从戈声，指逆、反方向，形声字；‘戧’为‘戗’的繁体，音义过程一致。"
+    },
+    {
+      "formation_type": "loan_character",
+      "original_sense_index": 5,
+      "note": "‘戧’亦为‘创’的古字，后假借表示创伤之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由‘逆、对立’引申为‘言语冲突’，见于明清白话。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由‘逆向’动作，喻为支撑、抵挡（物理反方向支力）。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "由‘支撑’之动作引申为‘支持物’（专指小堤）。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "由‘支撑’引申为加固、装饰动作，即嵌金银于器物。"
+    }
+  ]
+}

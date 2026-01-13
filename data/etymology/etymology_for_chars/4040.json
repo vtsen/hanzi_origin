@@ -1,0 +1,52 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "贻误，牵连，使误入罪或陷害",
+      "examples": [
+        "诖误吏民",
+        "诸为霍氏所诖误未发觉在吏者"
+      ],
+      "traditional_char": "詿"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "欺骗，蒙骗",
+      "examples": [
+        "诖乱天下，欲危社稷",
+        "诖墨"
+      ],
+      "traditional_char": "詿"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "碍，挂碍",
+      "examples": [],
+      "traditional_char": "詿"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从言，圭声。本义为误、贻误。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“误、牵连”引申为“欺骗”。此用法古籍中有见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由“误、牵连”进一步泛化为“碍、挂碍”，义项稀少。"
+    }
+  ]
+}

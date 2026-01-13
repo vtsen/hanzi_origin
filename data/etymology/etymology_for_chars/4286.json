@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "手脚掌上的厚皮，俗称茧子",
+      "examples": [
+        "耕耘树艺，手足胼胝。——《荀子·子道》",
+        "滄溟未可泛舟入，鴈蕩誰能胝足去。——宋 曾鞏《南源莊》詩"
+      ],
+      "traditional_char": "胝"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "鸟类的胃，或鸟兽五脏的总名（同“胵”）",
+      "examples": [
+        "《說文》：鳥胃。一曰胵，五藏總名。",
+        "百葉謂之膍胵。"
+      ],
+      "traditional_char": "胝"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "牲体之本（畜牲体躯的根本部位）",
+      "examples": [
+        "牲體之本也。",
+        "《廣韻》：皮厚也。"
+      ],
+      "traditional_char": "胝"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "臀部（通“骶”）",
+      "examples": [
+        "通“骶”。臀部。",
+        "見“胝肩”相關詞。"
+      ],
+      "traditional_char": "胝"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从“肉”表示与肉体相关，声旁“氐”。最初用于表示皮肤因劳动变厚。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘皮厚’（茧子）义类推到动物体内器官（鸟兽胃部、五脏），古籍列为同源。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "从‘茧子’（集中的体表结构）引申为‘躯体的本源、根基’（牲体之本），结构聚合隐喻。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由体表厚实部位引申为躯体中臀部位置，通‘骶’义，多见通假。"
+    }
+  ]
+}

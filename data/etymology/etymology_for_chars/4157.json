@@ -1,0 +1,53 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "盛放食物等的器皿，盘子。古同“盘”。",
+      "examples": [
+        "以金柈貯槟榔一斛次进之。",
+        "焦糖幸一柈。",
+        "金蓋覆牙柈，何為心獨愁？"
+      ],
+      "traditional_char": "柈"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "方言，指大块的木柴，含“柈子”。",
+      "examples": [
+        "柈子",
+        "木柈"
+      ],
+      "traditional_char": "柈"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "木名。",
+      "examples": [],
+      "traditional_char": "柈"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从木，皿声。最初指承载物品的木制器皿，形声兼会意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由盛物的木制器皿引申为大块木柴，因材质和形状相关，属地域性用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由盛器之意扩展为木的名词用法，因原多用木制。"
+    }
+  ]
+}

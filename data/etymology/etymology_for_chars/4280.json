@@ -1,0 +1,132 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "皮，皮肤",
+      "examples": [
+        "胪，皮也。——《说文》",
+        "胪革充盈。——《礼记·礼运》"
+      ],
+      "traditional_char": "臚"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "腹部，肚腹",
+      "examples": [
+        "寒气泄注腹臚张。——《急就篇》",
+        "胪胀（病名。腹胀）"
+      ],
+      "traditional_char": "臚"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "额头",
+      "examples": [
+        "七液洞流冲胪间。——《黄庭内景经》"
+      ],
+      "traditional_char": "臚"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "陈述，叙述，传达",
+      "examples": [
+        "胪，叙也。——《尔雅》",
+        "胪于郊祀。——《史记·六国年表》"
+      ],
+      "traditional_char": "臚"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "报告，传达（命令或信息）",
+      "examples": [
+        "风听胪言于市。——《国语·晋语》",
+        "大行设九宾胪句。——《汉书·叔孙通传》"
+      ],
+      "traditional_char": "臚"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "陈列，排列",
+      "examples": [
+        "秉圭戴璧，臚湊群辟。——《太玄·掜》",
+        "胪列"
+      ],
+      "traditional_char": "臚"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "古代官名，如鸿胪",
+      "examples": [
+        "鸿胪"
+      ],
+      "traditional_char": "臚"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "noun",
+      "meaning": "祭名，通“旅”",
+      "examples": [
+        "今秦杂戎翟之俗，先暴戾，后仁义，位在藩臣而臚于郊祀。——《史记·六国年表》"
+      ],
+      "traditional_char": "臚"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从肉，盧声，表达皮（即肉外之皮）的意思。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "synecdoche",
+      "note": "由泛指皮，转为具体指腹部表面之皮，引申为腹部。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "synecdoche",
+      "note": "皮泛指面部皮肤，引申至额头部位。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由皮外表，引申为排列、陈述（如层层排列、展现），出现动词‘陈述’义。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由‘陈述、叙述’扩展至‘对下传达、报告’。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "由‘论述、陈述’义，引申为‘陈列’。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 6,
+      "evolution_type": "metonymy",
+      "note": "因主持典仪、陈述等职能，转指官名‘鸿胪’。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 7,
+      "evolution_type": "unknown",
+      "note": "‘臚’通‘旅’，用作祭名，字形或音近借用。"
+    }
+  ]
+}

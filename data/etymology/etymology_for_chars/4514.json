@@ -1,0 +1,42 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "管乐器名，形状像喇叭，正面有七孔，背面一孔，常用于“唢呐”一词。",
+      "examples": [
+        "唢呐悠扬地响起来。"
+      ],
+      "traditional_char": "嗩"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "“嗩”的简化字，用于同样的意义。",
+      "examples": [
+        "唢呐演奏。"
+      ],
+      "traditional_char": "唢"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘嗩’字左‘口’表音，右‘束’表意，属于形声字，最初指管乐器。"
+    },
+    {
+      "formation_type": "loan_character",
+      "original_sense_index": 1,
+      "note": "‘唢’为‘嗩’的简化字，笔画省略为现代标准。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "reanalysis",
+      "note": "简化字运动时期，‘唢’用于代替‘嗩’。"
+    }
+  ]
+}

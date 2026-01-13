@@ -1,0 +1,45 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "割断，砍断",
+      "examples": [
+        "刽，断也。从刀，会声。今大辟刑人之隶。俗语谓之刽子手。——《说文》",
+        "刽刖困于赤绂。——京房本《易·困》",
+        "不可以劊心體，表術裏原，雖淺不窮。——《鶡冠子·學問》"
+      ],
+      "traditional_char": "劊"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "执行死刑的人；刽子手",
+      "examples": [
+        "刽子手（旧称处决死刑罪犯的人）",
+        "刽子磨旗提刀，押正旦带枷上。——《窦娥冤》"
+      ],
+      "traditional_char": "劊"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘劊’为形声字，从刀，會（音膾）声，表示割断、砍断之意。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘刽’为简化字，形声结构，从刀，（会的简化）声，义承自‘劊’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "以‘割断、砍断’引申指行使该动作的人，即执行死刑者，后泛指‘刽子手’。"
+    }
+  ]
+}

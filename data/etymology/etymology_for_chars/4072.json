@@ -1,0 +1,57 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "other",
+      "meaning": "用作音译字，主要用于佛教名词专有名称的译写。",
+      "examples": [
+        "释迦（释迦牟尼）",
+        "迦蓝（佛寺）",
+        "迦叶（佛弟子名）",
+        "迦持（指佛教戒律）"
+      ],
+      "traditional_char": "迦"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "other",
+      "meaning": "通“邂”，表示偶然相遇或解脱的样子。",
+      "examples": [
+        "迎父迦逅",
+        "迦逅也作“邂逅”。解脱貌，一说不期而会。"
+      ],
+      "traditional_char": "迦"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "other",
+      "meaning": "同“互”，使不得行（古字义，见于《说文》等）。",
+      "examples": [
+        "迦互，令不得行。",
+        "《说文》：迦，互令不得行也。"
+      ],
+      "traditional_char": "迦"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "loan_character",
+      "original_sense_index": 2,
+      "note": "本字作“迦”，本义为‘互令不得行’，本为“互”的假借字。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 2,
+      "target_index": 1,
+      "evolution_type": "semantic_shift",
+      "note": "古音通用，后世出现借用用法，意义转变为偶遇、解脱等。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 0,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "汉传佛教时期，以该字音通梵文音译名词，形成专名音译用法。"
+    }
+  ]
+}

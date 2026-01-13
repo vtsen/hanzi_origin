@@ -1,0 +1,68 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "母羊。",
+      "examples": [
+        "牂，牝羊也。从羊，爿声。——《说文》",
+        "牂羊坟首。——《诗·小雅·苕之华》",
+        "《庄子•徐无鬼》：吾未尝为牧而牂生于奥。"
+      ],
+      "traditional_char": "牂"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "茂盛，繁盛。",
+      "examples": [
+        "东门之杨，其叶牂牂。——《诗·陈风·东门之杨》"
+      ],
+      "traditional_char": "牂"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "强壮，健壮。",
+      "examples": [
+        "敦牂岁：岁阴在午，星居酉。——《史记》",
+        "牂，壮也。——《史记·天官书》孙炎注"
+      ],
+      "traditional_char": "牂"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "古地名，指今中国贵州境内的牂牁水。",
+      "examples": [],
+      "traditional_char": "牂"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从羊，爿声。表示母羊，‘羊’表意，‘爿’表音。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由母羊健康繁殖引申为茂盛，属比喻义扩展，见诗经。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由母羊体壮、结实的特性引申为强壮。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "地名取自以产羊著名，牂牁水流域，属地理转喻。"
+    }
+  ]
+}

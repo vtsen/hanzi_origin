@@ -1,0 +1,66 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "用荆条、竹木等编成的篱笆、门或屋舍。",
+      "examples": [
+        "筚，荆竹织门也。亦作荜。——《玉篇》",
+        "归身蓬蓽庐，乐道以忘饥。——晋 傅咸《赠何劭王济》",
+        "所居蓬窗蓽牖，嚣杂市尘。——清 二石生《十洲春语•品艳》"
+      ],
+      "traditional_char": "蓽"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "豆类植物名，如荜豆。",
+      "examples": [
+        "土贡：火筋、荜豆、澡豆。——《新唐书·地理志一》"
+      ],
+      "traditional_char": "蓽"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "“蓽”的简化字，用于同前所有义项。",
+      "examples": [
+        "荜路蓝缕，以启山林。",
+        "荜门（用荆竹和树枝所编成的门）"
+      ],
+      "traditional_char": "荜"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "蓽：‘艹’表意，‘畢’亦声，为形声字，本义即篱笆。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 2,
+      "note": "荜为蓽之简化字，形声结构，‘艹’表意，‘毕’亦声。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由篱笆门之名扩展为豆类植物名，用于名物转用。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "reanalysis",
+      "note": "简化字‘荜’直接用于替代‘蓽’，在现代书写系统中替代使用。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "reanalysis",
+      "note": "‘荜’作‘蓽’的简化字时可用于指代豆名。"
+    }
+  ]
+}

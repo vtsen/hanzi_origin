@@ -1,0 +1,46 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "画、描绘。",
+      "examples": [
+        "绘画",
+        "绘图",
+        "描绘"
+      ],
+      "traditional_char": "繪"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "指图画，古代亦指彩色刺绣。",
+      "examples": [
+        "彩绘",
+        "壁绘",
+        "一幅绘"
+      ],
+      "traditional_char": "繪"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘繪’为形声字，从糸，會声。本意为“画、描绘”。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘绘’为简化字，从糸, 会声，为‘繪’的简体，承袭本义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "conversion",
+      "note": "由动作‘画’转为‘画的作品’和‘彩绣’之名词用法，先秦及汉代即见。"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "平圆形中心有孔的玉，古代用作礼器或饰物",
+      "examples": [
+        "以苍璧礼天。",
+        "如圭如璧。",
+        "我持白璧一双，欲献项王。"
+      ],
+      "traditional_char": "璧"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "泛指美玉",
+      "examples": [
+        "赵惠文王得楚和氏璧。",
+        "如彼七纬，累璧重珠。",
+        "夜光之璧不能无累。"
+      ],
+      "traditional_char": "璧"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "对人或物的美称（如形容美人、光洁的日月等）",
+      "examples": [
+        "璧人（即“玉人”，指容貌秀美的人）",
+        "璧日（像璧玉一样圆而亮的太阳）",
+        "璧满蟾又缺。"
+      ],
+      "traditional_char": "璧"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "月亮的比喻",
+      "examples": [
+        "云间璧独转，空里镜孤悬。",
+        "璧采（比喻月光，月色）"
+      ],
+      "traditional_char": "璧"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "退回赠送的礼品或归还借用之物",
+      "examples": [
+        "臣请完璧归赵。",
+        "厚惠概不敢当，仍璧诸使者。"
+      ],
+      "traditional_char": "璧"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从玉，辟声，表示玉制礼器（平圆有孔）。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由专指平圆有孔之玉扩展为泛指美玉的通称。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "amelioration",
+      "note": "抽象美玉之美，用于人或物的美称。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "以璧喻月亮，因其圆润明亮状如美玉。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "reanalysis",
+      "note": "源自礼器传递或归还引申为“归还、退回”之意。"
+    }
+  ]
+}

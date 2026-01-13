@@ -1,0 +1,102 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "黏土，黄土。",
+      "examples": [
+        "堇，黏土也。——《说文》",
+        "劉守光圍滄州，城中雜食堇塊。"
+      ],
+      "traditional_char": "堇"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "菜名，堇菜屬植物的泛称，如堇菜、三色堇等。",
+      "examples": [
+        "堇，堇草也。根如荠，叶如细柳，蒸食之甘。——《说文》",
+        "堇荁枌榆。——《礼记·内则》"
+      ],
+      "traditional_char": "堇"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "中药名，乌头，有毒，可入药。",
+      "examples": [
+        "是救病而饮之以堇也。——《吕氏春秋·劝学》",
+        "堇，毒药也，能毒杀人。"
+      ],
+      "traditional_char": "堇"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "少的，通“仅”。",
+      "examples": [
+        "堇堇物之所有。——《史记·货殖列传》",
+        "然堇堇。——《汉书·地理志下》"
+      ],
+      "traditional_char": "堇"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "时，时机。",
+      "examples": [
+        "修槩水土，以待乎天堇。——《管子·五行篇》"
+      ],
+      "traditional_char": "堇"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "地名或国名，如堇阴、堇子国等。",
+      "examples": [
+        "国名。堇子国，在宁波奉化县东，境内有赤堇山。",
+        "堇阴，地名，在晋。"
+      ],
+      "traditional_char": "堇"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从土，黄声，意指黄色的黏土。《说文》明言以‘黄’表声，‘土’表义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由黄色黏土引申为同名野生植物堇菜等，因生于黄土上或色近土。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "synecdoche",
+      "note": "堇菜类泛指中某些药用植物，部分引申为乌头等有毒药材，取部分为整体。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "‘堇’假借为‘仅’，由声近而假借表少。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "古文中用于‘时’义，可能由土（季节、田土）引申出时机、时节。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "借黏土、黄土地貌作地名、国名，如赤堇山、堇阴等。"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "伴侣，朋友，同伴",
+      "examples": [
+        "命俦啸侣。——曹植《洛神赋》",
+        "羁旅无俦，形影自相视。——何逊《赠族人秣陵史弟》",
+        "草木为我俦。——李白《赠崔郎中宗之》"
+      ],
+      "traditional_char": "儔"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "同类，同辈，同一类的人或物",
+      "examples": [
+        "俦善博惠。——《鬼谷子·中经》",
+        "忠直不回，史鱼之俦。——《三国志·魏书·崔林传》",
+        "吾见士多矣，未有如郭林宗者也……今之华夏鲜见其儔。——晋·袁宏《后汉纪》",
+        "十日不食，无俦，尽死矣。——《管子·枢言》"
+      ],
+      "traditional_char": "儔"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "相比，比拟，匹敌",
+      "examples": [
+        "适戍之众，非儔于九国之师也。——《史记·陈涉世家》",
+        "孔稚珪《北山移文》：务光何足比，涓子不能儔。",
+        "老史鄙思难俦，令弟清词堪比量。——李嘉祐《送舍弟》"
+      ],
+      "traditional_char": "儔"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "pronoun",
+      "meaning": "疑问代词，相当于“谁”或“什么人”",
+      "examples": [
+        "使见善不明，用心不刚，俦克尔。——《法言·修身》"
+      ],
+      "traditional_char": "儔"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从人，寿声，表示‘伴侣’之意。√本义即为‘伴侣’，《说文》亦同。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘伴侣’扩展为‘同类、同辈’，群体视角，汉魏六朝用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "从‘伴侣’引申为‘比拟、相比’，即可以成为‘配对、可比’之意。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "意义从‘伴侣’转变为疑问用法‘谁’，古籍偶见，可能为方言或书面语特殊用法。"
+    }
+  ]
+}

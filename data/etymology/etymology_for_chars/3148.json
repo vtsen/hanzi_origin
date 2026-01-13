@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "具有像姜、蒜等那样的辛辣味道",
+      "examples": [
+        "辣椒",
+        "辛辣",
+        "酸甜苦辣"
+      ],
+      "traditional_char": "辣"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "因辛辣味而产生类似刺激的感觉",
+      "examples": [
+        "辣眼睛"
+      ],
+      "traditional_char": "辣"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "比喻凶狠、刻毒",
+      "examples": [
+        "毒辣",
+        "手段辣"
+      ],
+      "traditional_char": "辣"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从辛，剌声；‘辛’表示辣味有刺激性，‘剌’表声。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由辛辣味扩展为味觉上的刺激，古今通用。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由‘辛辣’转喻为性格或行为的凶狠刻毒，明清后常见。"
+    }
+  ]
+}

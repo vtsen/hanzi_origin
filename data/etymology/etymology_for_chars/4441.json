@@ -1,0 +1,100 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "长的样子，细长。",
+      "examples": [
+        "鱼在在藻，有莘其尾",
+        "祸之长也兹莘。——《庄子·徐无鬼》"
+      ],
+      "traditional_char": "莘"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "众多的样子。",
+      "examples": [
+        "莘莘征夫。——《国语·晋语》",
+        "莘莘将将。——枚乘《七发》"
+      ],
+      "traditional_char": "莘"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "古国名，有莘氏。",
+      "examples": [
+        "纘女維莘，長子維行。——《诗·大雅·大明》"
+      ],
+      "traditional_char": "莘"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [
+        "宋时有莘融。见《通志·氏族二》"
+      ],
+      "traditional_char": "莘"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "一种多年生草本植物，即细辛，可入药。",
+      "examples": [
+        "细莘，药草名。"
+      ],
+      "traditional_char": "莘"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "地名，如莘庄。",
+      "examples": [
+        "莘庄（在上海市）",
+        "莘县（在山东省）"
+      ],
+      "traditional_char": "莘"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘莘’为形声字，艹为形，表示与植物相关，辛为声。本作草名，后借为长、多、国名等用。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘长’的形态义扩展为‘众多’，汉语中常见数量形容词的语义延伸。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "古国名‘莘’，可能因地多水草细长而得名。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "古国名转为姓氏，常见用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_narrowing",
+      "note": "本拟指某种植物（细长之草），后专指药草‘细辛’。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "以古国名、古地名称现代地名，如莘县、莘庄。"
+    }
+  ]
+}

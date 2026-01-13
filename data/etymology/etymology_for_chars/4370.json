@@ -1,0 +1,102 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古代对已经进入宗庙接受奉祀的亡父的称谓；父庙。",
+      "examples": [
+        "父死，神主入庙后称禰。",
+        "《周礼•春官•甸祝》：舍奠于祖庙，禰亦如之。",
+        "《公羊传•隐公元年》：生称父，死称考，入庙称禰。"
+      ],
+      "traditional_char": "禰"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "随军携带的神主或宗庙神主的称谓。",
+      "examples": [
+        "侯氏裨冕，释历于祢。",
+        "《礼记•文王世子》：其在军，则守于公禰。"
+      ],
+      "traditional_char": "禰"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "地名，古地名“禰”。",
+      "examples": [
+        "《诗•邶风•泉水》：出宿于泲，饮餞于禰。",
+        "马瑞辰通释：古者餞于国郊，泲禰盖卫近郊地。"
+      ],
+      "traditional_char": "禰"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [
+        "东汉有禰衡。",
+        "见《后汉书》本传。"
+      ],
+      "traditional_char": "禰"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "继承、崇奉（先人的事业或学问）。",
+      "examples": [
+        "祖子敬而禰永兴。",
+        "又禰中唐韩、吕、柳诸家。",
+        "林紓：《〈慎宜轩文集〉序》：是固能禰其祖矣。"
+      ],
+      "traditional_char": "禰"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "“昵”的通假字，用于表达亲近之意。",
+      "examples": [],
+      "traditional_char": "禰"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘禰’从‘示’（与神祇有关），‘尔’为声旁，最初指父庙或死父之庙。两形‘祢’、‘禰’古今通用，简繁书写差异。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "随军携带的神主引申自宗庙之神主，语义接近；先秦以后见于礼制用语。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "崇奉、继承祖业由供奉父庙义引申，近代文人用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "宗庙、祭祀相关地名用作地名，多见于古书。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "conversion",
+      "note": "以父庙为代表称谓而衍生为姓氏，常见汉姓。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "作为‘昵’的通假字，音近借用，见于古书少数例。"
+    }
+  ]
+}

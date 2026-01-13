@@ -1,0 +1,69 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "婴儿的啼哭声",
+      "examples": [
+        "后稷呱矣。",
+        "我呱的哭出了第一声。"
+      ],
+      "traditional_char": "呱"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "onomatopoeia",
+      "meaning": "象声词，鸟或青蛙等动物发出的叫声；形容声音响亮",
+      "examples": [
+        "呱!呱!一只白脖子的乌鸦，从竹林中飞向天空。",
+        "在凌晨的静寂中，一只青蛙呱呱呱叫了两声。"
+      ],
+      "traditional_char": "呱"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "（口语）形容好、顶好，如“顶呱呱”",
+      "examples": [
+        "这件事办得顶呱呱。"
+      ],
+      "traditional_char": "呱"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "（方言）聊天，闲谈（如“拉呱儿”）",
+      "examples": [
+        "咱们坐下拉呱儿吧。"
+      ],
+      "traditional_char": "呱"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从口，瓜声。本义为小儿啼哭声。‘口’表声、语义，‘瓜’表声。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由婴儿哭声引申为形容其他动物或事物的响亮叫声。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "amelioration",
+      "note": "由响亮之义引申为口语中形容好，如‘顶呱呱’。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "动物鸣叫的‘呱呱’声喻为闲谈、说话，形成方言义‘聊天’。"
+    }
+  ]
+}

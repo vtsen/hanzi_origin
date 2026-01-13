@@ -1,0 +1,95 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "言语受阻，不能畅通（因情感或其他原因，喉咙发堵，说不出话）",
+      "examples": [
+        "闻之哽咽。",
+        "他哽住了，他说不下去了。",
+        "哽，语为舌所介也。"
+      ],
+      "traditional_char": "哽"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "食物堵塞喉咙，难以下咽；噎住",
+      "examples": [
+        "口不容而强吞之者必哽。",
+        "初食鲙数叠，忽似哽，咯出一骨珠子。",
+        "女欲寡人之哽邪？"
+      ],
+      "traditional_char": "哽"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "阻塞；堵住",
+      "examples": [
+        "凡道不欲壅，壅则哽。",
+        "俯仰无少哽。",
+        "忽有一口闷气，哽住胸腔。"
+      ],
+      "traditional_char": "哽"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "interjection",
+      "meaning": "叹词，表示应诺、疑问或不满等",
+      "examples": [
+        "哽，你先行，随后便来也。",
+        "可是，几年来，鸦片之所以流毒内地，屡禁不绝，为什么？哽！"
+      ],
+      "traditional_char": "哽"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "onomatopoeia",
+      "meaning": "象声词，表示咽喉等的声音",
+      "examples": [
+        "鼻孔里响出了一种声音，‘哽！’过了不一会又是——‘哽，哽！’"
+      ],
+      "traditional_char": "哽"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从口，更声。本义为言语受阻，与发音和形体相关。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由言语受阻扩大到喉咙因食物等堵塞的具体状态，常见古文互通。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由具体的喉咙堵塞推广到抽象的阻塞、堵住。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "‘说不出话’引申为‘气塞、不畅通’，出现于文言、诗歌语境。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "由‘发声受阻’转变为‘叹词’，语气词属拟声和感叹。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_shift",
+      "note": "自‘发声受阻’引申为表示喉咙声音的象声词。"
+    }
+  ]
+}

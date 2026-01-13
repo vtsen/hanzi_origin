@@ -1,0 +1,87 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "脱去稻壳的农具，多用木制，形状略像磨",
+      "examples": [
+        "凡稻去壳用砻。——宋应星《天工开物》"
+      ],
+      "traditional_char": "礱"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "用砻脱去稻谷的壳",
+      "examples": [
+        "凡既砻，则风扇以去糠秕。——《天工开物》",
+        "砻谷舂米"
+      ],
+      "traditional_char": "礱"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "磨，研磨使锋利或光滑",
+      "examples": [
+        "造兹宝刀，既砻既砺。——曹植《宝刀铭》",
+        "磨砻底厉。——《汉书·枚乘传》",
+        "斲其椽而礱之。——《国语·晋语八》",
+        "工部相地，... 建立碑亭，礱石鐫刻。"
+      ],
+      "traditional_char": "礱"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "磨石，指磨东西用的石头",
+      "examples": [
+        "磨砻底厉，不见其损，有时而尽。——《汉书·枚乘传》",
+        "磨礱砥礪，皆磨石。——《文选·枚乘〈上书谏吴王〉》"
+      ],
+      "traditional_char": "礱"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "通“垄”，坟墓",
+      "examples": [
+        "砻石（墓碑）；砻冢（坟墓）"
+      ],
+      "traditional_char": "礱"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 2,
+      "note": "‘礱’（砻）从石，龙声，本义为‘磨’，指借石之用以磨物，形声字。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "由‘磨’动作借指‘磨石’工具。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "‘磨’的含义具体化为脱壳农具，因该农具具有磨的作用。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "conversion",
+      "note": "农具义到‘砻以脱壳’的动作义，名物动用。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 4,
+      "evolution_type": "unknown",
+      "note": "‘磨’义通假表示‘垄’，可能与墓碑石的磨制有关，具体关系未明。"
+    }
+  ]
+}

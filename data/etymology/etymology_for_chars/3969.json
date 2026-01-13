@@ -1,0 +1,83 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "齐等；相等；等同",
+      "examples": [
+        "侔，齐等也。——《说文》",
+        "权之以眡其轻重之侔也。——《考工记·轮人》",
+        "畸于人而侔于天。——《庄子·大宗师》",
+        "大鱼食之，牵巨钩……海水震荡，声侔鬼神。——《庄子·外物》",
+        "德厚侔天地。"
+      ],
+      "traditional_char": "侔"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "谋取；求取",
+      "examples": [
+        "静默以侔免。——《管子·宙合》",
+        "商工之民……蓄积待时而侔农夫之利。——《韩非子·五蠹》"
+      ],
+      "traditional_char": "侔"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "（墨经术语）对原判断的词项附加比词，构成推理形式",
+      "examples": [
+        "侔也者，比辞而俱行也。——《墨子·小取》"
+      ],
+      "traditional_char": "侔"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "（罕用）姓氏",
+      "examples": [],
+      "traditional_char": "侔"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "（罕用）食苗的虫，即“蟊”",
+      "examples": [],
+      "traditional_char": "侔"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从人，牟声。本义为“齐等；相等”；‘人’表意，‘牟’表声。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_shift",
+      "note": "由“相等”引申为“谋取、求取”，因求取某物以达到等同或获得，语义有所转变。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由“相等”的本义衍生为墨经逻辑形式，借用‘齐等’表达推论平行关系，多见于古文逻辑术语。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "unknown",
+      "note": "用作姓氏，常见汉字用字转为姓的情形，演变机制不明。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "‘侔’通‘蟊’为食苗虫，属于古代训读或通假用法，见于部分方志及古籍。"
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古代为了除灾求福而举行的祭祀或仪式",
+      "examples": [
+        "祓，除恶祭也。——《说文》",
+        "女巫掌岁时祓除釁浴。——《周礼·春官》",
+        "巫咸虽善祝，不能自祓也。——《韩非子·说林下》"
+      ],
+      "traditional_char": "祓"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "举行祓除仪式以驱邪趋吉、消除灾祸",
+      "examples": [
+        "祓禳于四方。——《左传·昭公十八年》",
+        "受其璧而祓之。——《左传·僖公六年》",
+        "洗濯祓除去宿垢疢为大絜。——《后汉书·礼仪志上》"
+      ],
+      "traditional_char": "祓"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "清除、消除（泛指）",
+      "examples": [
+        "天涯情味，仗酒祓清愁，花销英气。——宋 姜夔《翠楼吟》",
+        "戔祓荒荼，始择用州刺史、县令。——《新唐书·循吏传序》"
+      ],
+      "traditional_char": "祓"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "洗濯、使洁净",
+      "examples": [
+        "祓濯（除垢使洁；清除污毒）",
+        "常以月旦祓龟，先以清水澡之，以卵祓之。——《史记·龟策列传》"
+      ],
+      "traditional_char": "祓"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "汉代侯国名，在今山东省胶州市西南",
+      "examples": [
+        "琅邪郡……祓侯国。——《汉书·地理志上》"
+      ],
+      "traditional_char": "祓"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "福，福气（多见于古籍中的通假字义）",
+      "examples": [
+        "祓，福也。——《尔雅·释诂》"
+      ],
+      "traditional_char": "祓"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从“示”表祭祀、仪式之义，‘犮’作声符，初本指祓除恶祈福之祭。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由名词仪式产生动词“进行祓除”之意，汉及先秦普遍见。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "从特指去灾的宗教行动扩展为一般性‘消除’。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "将“驱凶除秽”类比为具体“洗涤净身”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "reanalysis",
+      "note": "古书中‘祓’有时被解作‘福’，多属形音近通假或再分析。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "unknown",
+      "note": "地名义推测与祭祀地或典仪有关，发展路径未详。"
+    }
+  ]
+}

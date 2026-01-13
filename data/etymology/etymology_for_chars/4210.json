@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "平坦广阔的田地，成片的田野。",
+      "examples": [
+        "畈哩，田野间。——清·范寅《越谚》",
+        "满畈麦，金黄黄，宽广无边像海洋。"
+      ],
+      "traditional_char": "畈"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "常用作村镇或地名的名称。",
+      "examples": [
+        "周党畈（在中国河南省）",
+        "白水畈（在湖北省）",
+        "葬於會稽五雲鄉湯家畈之原。"
+      ],
+      "traditional_char": "畈"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "measure_word",
+      "meaning": "用于大片田地的量词（如“一畈田”）。",
+      "examples": [
+        "一畈田",
+        "满畈麦，金黄黄，宽广无边像海洋。"
+      ],
+      "traditional_char": "畈"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘畈’为形声字，从田，叚声，本义为成片的田地。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "grammaticalization",
+      "note": "由田地名词的本义转为量词用法，用于表示一大片田地的单位。此变化见于方言及口语。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "以成片田地为特征，借用于地名、村镇名称，常见于地名用法。"
+    }
+  ]
+}

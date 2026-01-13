@@ -1,0 +1,72 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "用漆和灰涂抹或修补器物，亦指修补垣墙",
+      "examples": [
+        "烧骨以漆曰垸。",
+        "以漆和灰而垸也。",
+        "一曰补垣也。"
+      ],
+      "traditional_char": "垸"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "古代重量和货币单位（同“锾”、“丸”用法）",
+      "examples": [
+        "重三垸。",
+        "垸其假借字也。"
+      ],
+      "traditional_char": "垸"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "转动",
+      "examples": [
+        "员而不垸。",
+        "垸，转也。"
+      ],
+      "traditional_char": "垸"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "中国湖南、湖北等地在湖泊地带挡水的堤圩，亦指堤所围住的地区",
+      "examples": [
+        "地主收租不修垸。",
+        "圩垸、垸田、堤垸"
+      ],
+      "traditional_char": "垸"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从土，完声。本指以漆和灰修补或涂抹，与“土”有关。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "古文中用作重量或货币单位，属于假借用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "unknown",
+      "note": "义项间联系不明，或与修补、覆盖引申为旋转有关。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由修补、覆盖义引申为人工修筑的堤岸，地区方言专用。"
+    }
+  ]
+}

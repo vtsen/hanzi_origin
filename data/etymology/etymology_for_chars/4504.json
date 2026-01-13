@@ -1,0 +1,103 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "跳跃；（水）往上涌",
+      "examples": [
+        "趵突泉在山东省济南市",
+        "趵突：泉水喷涌之貌"
+      ],
+      "traditional_char": "趵"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "onomatopoeia",
+      "meaning": "脚踏地的声音（象声词）",
+      "examples": [
+        "趵趵：脚踏地的声音",
+        "小儿趵趵而行"
+      ],
+      "traditional_char": "趵"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "用脚击，足击",
+      "examples": [
+        "趵，足击声也",
+        "以足趵地"
+      ],
+      "traditional_char": "趵"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "足迹，脚印",
+      "examples": [
+        "趵，迹也。或作蹠",
+        "趵然有迹"
+      ],
+      "traditional_char": "趵"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "足齐的样子",
+      "examples": [
+        "趵，足齐貌",
+        "趵然而行"
+      ],
+      "traditional_char": "趵"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "同“跑”，动物用前足扒地",
+      "examples": [
+        "兽用前足趵地",
+        "趵如奔马"
+      ],
+      "traditional_char": "趵"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从足，庶声，本义为跳跃，与足的动作相关。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_narrowing",
+      "note": "跳跃动作语义特指为用脚击打。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "以动作产生的声音为引申，产生象声义。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "动物跳跃动作引申为兽类前足扒地。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "跳跃后的动作、地面，指代留下的足迹。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "synecdoche",
+      "note": "由整体动作形容足的具体状态，引申为足齐貌。"
+    }
+  ]
+}

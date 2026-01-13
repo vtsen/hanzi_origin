@@ -1,0 +1,100 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "湿润、沾湿",
+      "examples": [
+        "渭城朝雨浥轻尘。",
+        "腮儿被泪痕儿浥破。",
+        "厌浥行露，岂不夙夜？"
+      ],
+      "traditional_char": "浥"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "灌注，浇灌",
+      "examples": [
+        "谁倾北斗浥琼枝。"
+      ],
+      "traditional_char": "浥"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "横渡水面（涉水）",
+      "examples": [
+        "骖螭浥汉骑长虬。"
+      ],
+      "traditional_char": "浥"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "形容香气盛",
+      "examples": [
+        "香浥泻青醪。"
+      ],
+      "traditional_char": "浥"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "深水潭，洼陷地",
+      "examples": [
+        "逾波趋浥，涖涖下濑。",
+        "浥，窊陷也。"
+      ],
+      "traditional_char": "浥"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "adjective",
+      "meaning": "水流下的样子",
+      "examples": [
+        "乍浥乍堆。"
+      ],
+      "traditional_char": "浥"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，邑声，本义为湿润。部件分析明确，'水'表义，'邑'表声。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由'湿润'扩展为'灌注、浇灌'，以水使物湿，宋清以后用例。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由'湿润'引申为涉水而行，使物沾湿，见于清以后诗文。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由湿润引申为香气浓盛，用气味充盈如沾湿比附出发，多见于明清文献。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_shift",
+      "note": "由'湿润'引申至指洼陷地，多见于地理环境描述（如汉书）。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "由'湿润'及其流动状态引申至'水流下的样子'，用于描写地形和水态。"
+    }
+  ]
+}

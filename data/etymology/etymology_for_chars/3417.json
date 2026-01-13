@@ -1,0 +1,69 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "乐器中用以发声的薄片，通常为金属或其他材料制成。",
+      "examples": [
+        "笙簧",
+        "巧舌如簧"
+      ],
+      "traditional_char": "簧"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "曲艺的一种，称为双簧。",
+      "examples": [
+        "双簧表演"
+      ],
+      "traditional_char": "簧"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "一方出面，一方背后操纵的活动，喻指幕后操纵。",
+      "examples": [
+        "这事不过是双簧罢了。"
+      ],
+      "traditional_char": "簧"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "器物中具有弹力的机件，通常用于弹簧、锁簧等机械结构中。",
+      "examples": [
+        "弹簧",
+        "锁簧"
+      ],
+      "traditional_char": "簧"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从竹表材料，与‘黄’声，原指乐器的发声薄片。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由乐器中用簧片发声的机制，转指表演中类似合作形式的曲艺。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由词曲艺的双簧，喻指一方出面、一方幕后操纵的现实活动。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由乐器中有弹性的簧，转指器物中有弹力的零件。"
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "禽鸟的叫声。",
+      "examples": [
+        "雉咯咯而鸣。",
+        "雞咯咯地叫了起來。"
+      ],
+      "traditional_char": "咯"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "onomatopoeia",
+      "meaning": "形容各种不大的尖声，如“咯吱”、“咯咯”等。",
+      "examples": [
+        "咯吱咯吱响。",
+        "听见门在咯吱作响。"
+      ],
+      "traditional_char": "咯"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "用力使东西从食道或气管里出来（如咯血、咯痰），与“喀”义同。",
+      "examples": [
+        "咯痰。",
+        "咳了半天，终于把鱼刺咯出来。"
+      ],
+      "traditional_char": "咯"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "particle",
+      "meaning": "语气词，用法如“了”，语气较重，常用于句中或句末，表示肯定、催促、期待等。",
+      "examples": [
+        "是咯！",
+        "走咯，时间不早了。"
+      ],
+      "traditional_char": "咯"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "pronoun",
+      "meaning": "方言，这，指示代词。",
+      "examples": [
+        "咯是庵，弗是啥庙。",
+        "她经不得咯号风浪。"
+      ],
+      "traditional_char": "咯"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "讼言，言辞上争论。",
+      "examples": [
+        "咯，讼言也。",
+        "論訟曰咯咯。"
+      ],
+      "traditional_char": "咯"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从口，聲符各。初本指雉等禽鸟鸣叫之声。‘咯’为形声字，声符为‘各’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由具体的禽鸟叫声，泛指各种不大的尖声音，如‘咯吱’、‘咯咯’等；出现在汉代至今。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由模拟声音引申至喉部发声、咳出痰等动作，尤其因拟声而转喻为用力吐出异物。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "用鸟鸣喻为‘这’（方言），指称眼前、当前事物。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "grammaticalization",
+      "note": "象声词演变为语气助词，常见于南方方言，强调语气。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "unknown",
+      "note": "古文中的‘讼言’用法，可能与声象鸣争之意相关，具体机制不详。"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "寄生在树上的常绿或落叶灌木、藤本植物，如桑寄生、茑萝等，枝茎蔓生或攀缘，果实可入药。",
+      "examples": [
+        "蔦與女蘿，施於松柏。（《詩·小雅》）",
+        "浮萍依綠水，弱蔦寄青松。（唐·魏氏《贈外詩》）"
+      ],
+      "traditional_char": "蔦"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "“蔦”的简化字，义同“蔦”。",
+      "examples": [
+        "茑萝攀上树桩。",
+        "桑树上寄生着茑。"
+      ],
+      "traditional_char": "茑"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“蔦”从艸，鳥声。艸表植物相关含义，鳥为声符。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "“茑”为“蔦”的简化字，从艸，鸟简化为茑省形，为简化字对音义的继承。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "reanalysis",
+      "note": "简化字形“茑”由“蔦”简化而来，语义直接延续。"
+    }
+  ]
+}

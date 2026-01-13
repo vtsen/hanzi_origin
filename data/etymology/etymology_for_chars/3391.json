@@ -1,0 +1,128 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古代用皮或毛做成的球，用于踢打玩耍",
+      "examples": [
+        "蹴鞠",
+        "鞠为球也"
+      ],
+      "traditional_char": "鞠"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "养育，抚养",
+      "examples": [
+        "鞠育",
+        "鞠养之恩"
+      ],
+      "traditional_char": "鞠"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "弯曲（形体）",
+      "examples": [
+        "鞠躬尽瘁",
+        "鞠躬"
+      ],
+      "traditional_char": "鞠"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "大，穷极",
+      "examples": [
+        "鞠凶"
+      ],
+      "traditional_char": "鞠"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "幼小",
+      "examples": [
+        "鞠子"
+      ],
+      "traditional_char": "鞠"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "adjective",
+      "meaning": "穷困",
+      "examples": [
+        "尔惟鞠自苦"
+      ],
+      "traditional_char": "鞠"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "告诫",
+      "examples": [
+        "陈师鞠旅"
+      ],
+      "traditional_char": "鞠"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [],
+      "traditional_char": "鞠"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从革，匊声，与皮革制品有关表示最早的“毛球”。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由“鞠”内含包裹孕育、养育的意义引申，汉代用以“养育”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "球体受力时变弯曲，故引申为“弯曲”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "古球多为毛、革球，体积可大，由物体大而引现代“鞠凶”等‘大’‘极’义。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "由球小，引申为“幼小”。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 5,
+      "evolution_type": "semantic_shift",
+      "note": "‘极’发展为‘极苦’即穷困。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 6,
+      "evolution_type": "unknown",
+      "note": "“鞠”用为‘告诫’意义，古义可能相关，但具体转变机制不明。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 7,
+      "evolution_type": "function_word",
+      "note": "姓氏源自名词用法。"
+    }
+  ]
+}

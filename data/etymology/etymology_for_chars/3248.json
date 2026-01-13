@@ -1,0 +1,38 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "蝎虎，即壁虎。",
+      "examples": [
+        "蝎虎在墙上爬行。"
+      ],
+      "traditional_char": "蝎"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "一种节肢动物，尾部有毒钩，常用于药材。",
+      "examples": [
+        "蝎子的毒很强。",
+        "干蝎可入药。"
+      ],
+      "traditional_char": "蝎"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "形声字，从虫，曷声，本义为节肢动物蝎子。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "metonymy",
+      "note": "古人俗称‘蝎虎’，借‘蝎’指代‘壁虎’，因外形或习性有关。"
+    }
+  ]
+}

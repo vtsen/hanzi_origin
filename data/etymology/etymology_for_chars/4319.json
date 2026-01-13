@@ -1,0 +1,89 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "从门外关门；阻隔、妨碍、使不通",
+      "examples": [
+        "不令有所拘阂而已。",
+        "学而不思，则疑阂实繁。",
+        "隔阂"
+      ],
+      "traditional_char": "閡"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "止；使停止或停滞",
+      "examples": [
+        "踵不阂也。",
+        "已閡眠沙麂，仍妨臥石猿。"
+      ],
+      "traditional_char": "閡"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "限制；设限",
+      "examples": [
+        "阂，限也。",
+        "恢万里使无阂，通亿载而为津。",
+        "世岂乏材，阂于资格故也。"
+      ],
+      "traditional_char": "閡"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "（假借）台阶的层次，通“陔”",
+      "examples": [
+        "逝九阂。",
+        "周章九陔，凌风蹈云，不䟾不閡者，以其六翮之輕勁也。"
+      ],
+      "traditional_char": "閡"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "藏；塞（阴气阻塞）",
+      "examples": [
+        "該臧萬物而雜陽閡種也。",
+        "閡，藏塞也，陰雜陽氣，藏塞為萬物作種也。"
+      ],
+      "traditional_char": "閡"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘閡’为形声字，从‘门’表示与门相关，‘亥’声，本义为从门外关门，阻隔之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由阻隔引申为止、停止，语义扩大，东汉至晋代文献可证。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由阻隔引申为对范围、权力等的限制，限制作动词义，汉至金代多见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "通假借用，‘閡’假借作‘陔’表示台阶层次，汉乐志等用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由阻隔义延伸为塞、藏之意，见于阴气塞藏说法，西汉《律历志》与注释可证。"
+    }
+  ]
+}

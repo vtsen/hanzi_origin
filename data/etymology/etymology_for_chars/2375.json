@@ -1,0 +1,43 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "减少，由原有数量中去掉一部分",
+      "examples": [
+        "减价",
+        "减员",
+        "缩减",
+        "削减"
+      ],
+      "traditional_char": "減"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "降低程度，减弱、衰退",
+      "examples": [
+        "减轻",
+        "减弱",
+        "减色",
+        "减缓"
+      ],
+      "traditional_char": "減"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，咸声，‘减’本意为减少，减去一部分。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘去掉一部分’引申为程度的降低，用于抽象概念。"
+    }
+  ]
+}

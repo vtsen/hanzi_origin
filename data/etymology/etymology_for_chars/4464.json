@@ -1,0 +1,86 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "聚合，集合。",
+      "examples": [
+        "逑，敛聚也。——《说文》",
+        "惠此中国，以为民逑。——《诗·大雅·民劳》"
+      ],
+      "traditional_char": "逑"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "配偶，伴侣。",
+      "examples": [
+        "窈窕淑女，君子好逑。——《诗·周南·关雎》",
+        "彼美机上妇，跔梁乃其逑。——明·徐渭《槎海篇》"
+      ],
+      "traditional_char": "逑"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "相匹敌的人，能与之比拟的人。",
+      "examples": [
+        "乃搜逑索偶皋伊之徒，冠伦魁能。——汉·扬雄《甘泉赋》",
+        "有虞信莫京兮，余可以以为逑。——明·方孝孺《静学斋赋》"
+      ],
+      "traditional_char": "逑"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "急迫（通“絿”）。",
+      "examples": [
+        "唯逑，鞠也。——《尔雅·释训》",
+        "逑，急迫也。"
+      ],
+      "traditional_char": "逑"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "古代祭祀神名。",
+      "examples": [
+        "诸布诸严诸逑之属，百有余祠。——《史记·封禅书》"
+      ],
+      "traditional_char": "逑"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从辵（表示行走、聚集），求为声旁，本义为聚合。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由“聚合”引申为“配偶”，以两人聚合为伴侣为喻。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由“配偶”（伴侣）进一步泛指“相匹敌的人”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "“逑”借作“絿”，表示‘急迫’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "unknown",
+      "note": "“逑”用作祭祀神名，具体关系不详，或训转用。"
+    }
+  ]
+}

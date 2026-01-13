@@ -1,0 +1,57 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "指“白藤”、“紫藤”等具攀援茎或蔓的植物。",
+      "examples": [
+        "藤条",
+        "藤椅",
+        "藤床"
+      ],
+      "traditional_char": "藤"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "泛指匍匐茎或攀援茎的植物部分或整株。",
+      "examples": [
+        "藤本植物",
+        "瓜藤",
+        "葡萄藤",
+        "顺藤摸瓜"
+      ],
+      "traditional_char": "藤"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "〔藤黄〕a. 一种常绿乔木，茎高达二十米，树脂黄色，有毒；b. 该植物的树脂，可作国画颜料。",
+      "examples": [
+        "藤黄"
+      ],
+      "traditional_char": "藤"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，“艹”表意，指植物；“滕”表音，本指藤蔓类植物。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从特指白藤、紫藤扩展为泛指所有具有蔓、匍匐或攀援茎的植物部分或整株，常见于植物学语境。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由具体植物（如白藤、紫藤）借指与之相关的“藤黄”树及其树脂，属于相关植物名称的扩展。"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "猫头鹰的通称。鸟纲鸮形目鸱鸮科，包括多种夜行性猛禽，喙钩状，羽毛浓密柔软，飞行无声，被古人视为恶声之鸟。",
+      "examples": [
+        "墓门有梅，有鴞萃止。",
+        "鴞如鳩，一名鵩，一名流離是也。",
+        "翩彼飛鴞，集于泮林。"
+      ],
+      "traditional_char": "鴞"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "指凶狠或恶毒的人，源自猫头鹰叫声的比喻。",
+      "examples": [
+        "鸮音（鸮鸟的声音，指恶狠或凶暴的人）"
+      ],
+      "traditional_char": "鴞"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "鸮鸟的肉、所制作的食物。",
+      "examples": [
+        "鸮炙（火烤的鸮鸟肉）",
+        "见弹而求鴞炙。"
+      ],
+      "traditional_char": "鴞"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "“鴞”的简化字写法。",
+      "examples": [],
+      "traditional_char": "鸮"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "鴞：形声字，从鸟，号声（猇）声，原指猫头鹰类夜行猛禽。"
+    },
+    {
+      "formation_type": "simple_indicative",
+      "original_sense_index": 3,
+      "note": "鸮：简化自'鴞'，省去“号”，从鸟，音义兼取，实为现代简化字。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由猫头鹰的叫声引申比喻凶狠之人。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "以动物名指其肉或所制食物。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "reanalysis",
+      "note": "现代简化字对传统字的继承与重构，意义未变。"
+    }
+  ]
+}

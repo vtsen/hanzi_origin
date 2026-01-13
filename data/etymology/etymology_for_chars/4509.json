@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "大蚂蚁，亦即‘蚍蜉’，昆虫名。",
+      "examples": [
+        "蚍蜉撼大树，可笑不自量。",
+        "蚍蜉堞",
+        "蚍蝣"
+      ],
+      "traditional_char": "蚍"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "锦葵，植物名，又名‘蚍衃’。",
+      "examples": [
+        "蚍衃（植物名，即锦葵）",
+        "蚍蜉酒草"
+      ],
+      "traditional_char": "蚍"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "比喻微小的力量。",
+      "examples": [
+        "蚍蜉援（喻微小的援助）",
+        "蚍蜉撼大树"
+      ],
+      "traditional_char": "蚍"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从‘虫’表义，从‘比’表声；初义为大蚂蚁（蚍蜉）。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由大蚂蚁喻指微小的力量，形成比喻义，用于典故如‘蚍蜉撼大树’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "unknown",
+      "note": "‘蚍’作植物名（锦葵），义源不明，或为同音假借或古文异读。"
+    }
+  ]
+}

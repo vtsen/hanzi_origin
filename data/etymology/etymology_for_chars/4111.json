@@ -1,0 +1,105 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "借，借贷（出借物品或金钱）",
+      "examples": [
+        "贳，贷也。——《说文》",
+        "则赊贳而予之。——《周礼·司市》",
+        "民无贷（钱），则赊贳而予之。——《周礼·司市》郑注"
+      ],
+      "traditional_char": "貰"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "赊欠（以后偿还的买卖行为）",
+      "examples": [
+        "县官无钱，从民贳马。——《史记·汲郑列传》",
+        "常从王媪、武负贳酒。——《史记·高祖本纪》"
+      ],
+      "traditional_char": "貰"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "租佃，租赁",
+      "examples": [
+        "乃贳贷陂田千余顷。——《汉书·宁成传》",
+        "客因代貰扁舟，送诸其家。——蒲松龄《聊斋志异·晚霞》"
+      ],
+      "traditional_char": "貰"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "抵押，典押",
+      "examples": [
+        "蜀江吴水不通潮，曾共黄垆贳紫貂。——清·王士祯《遥送魏推官赴成都》",
+        "儻有佳客过，未免貰袍笏。——宋·梅尧臣《莱宣遗酒》"
+      ],
+      "traditional_char": "貰"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "买（多指赊买，尤指买酒）",
+      "examples": [
+        "余乃就火炙衣，贳烧酒饮五杯乃行。——《徐霞客游记》",
+        "即以一贯授生，曰：“先持归，贳良醞，我即携小肴饌来。”——蒲松龄《聊斋志异·胡四姐》"
+      ],
+      "traditional_char": "貰"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "赦免，宽纵",
+      "examples": [
+        "因贳其罪。——《汉书·张敞传》",
+        "不贳不忍。——《国语·吴语》",
+        "遂贳宽。——《汉书·刘向传》"
+      ],
+      "traditional_char": "貰"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从贝，世声，初义为借贷。‘贝’表财物，‘世’表音。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘借贷’引申为‘赊欠’，中古至今用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由‘借贷’泛指到‘租赁’，因租赁常涉及借出物品或田地。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由‘借贷’扩展为‘抵押、典押’，即以物品作借贷担保。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由‘赊欠’引申出‘买（多为赊买）’，尤其指买酒等实际交易情境。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "metaphor",
+      "note": "由‘借出、宽予’引申为‘赦免、宽纵’，语义比喻产生。"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "水面广阔的，水深广的",
+      "examples": [
+        "维水泱泱。《诗·小雅·瞻彼洛矣》",
+        "云山苍苍，江水泱泱。"
+      ],
+      "traditional_char": "泱"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "流，淌",
+      "examples": [
+        "泱泱，流也。《广雅》",
+        "那佛祖轻轻用力撑开，只见上溜头泱下一个死尸。《西游记》"
+      ],
+      "traditional_char": "泱"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "气势宏大，宏伟，伟大",
+      "examples": [
+        "泱泱乎大风。《左传·襄二十九年》",
+        "泱泱大国"
+      ],
+      "traditional_char": "泱"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "云气兴起、广大无边的样子，多叠用",
+      "examples": [
+        "天泱泱以垂云。《潘岳·射雉赋》",
+        "泱泱，滃也。"
+      ],
+      "traditional_char": "泱"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，央声。本义为水广阔。左侧‘水’表意，右侧‘央’表声。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由水势广阔，比喻气魄宏大，早见《左传》。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "从水广泛，引申为云气广阔或兴起之貌。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_shift",
+      "note": "水广引申为水流动，表达‘流’、‘淌’义。"
+    }
+  ]
+}

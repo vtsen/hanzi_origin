@@ -1,0 +1,53 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "提起，用手提着物品。",
+      "examples": [
+        "提挈。",
+        "提纲挈领。"
+      ],
+      "traditional_char": "挈"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "带领，率领。",
+      "examples": [
+        "挈带。",
+        "挈眷。",
+        "扶老挈幼。"
+      ],
+      "traditional_char": "挈"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "雕刻，镂刻。（同“锲”）",
+      "examples": [],
+      "traditional_char": "挈"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从手，契声，本义为用手提起。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“提起”引申为“带领”，古今皆有用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "“挈”假借作“锲”，仅用于部分古籍。"
+    }
+  ]
+}

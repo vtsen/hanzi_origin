@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "皮肤上破损或感染后形成的创伤、疮、痈、疽等的通称。",
+      "examples": [
+        "身多疡痏。",
+        "痈疡之疾。"
+      ],
+      "traditional_char": "瘍"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "皮肤或组织由于感染、损伤等原因而发生的溃烂。",
+      "examples": [
+        "溃疡",
+        "脓疡"
+      ],
+      "traditional_char": "瘍"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "瘍（疡）为形声字，疒表意，表示与疾病相关，羊表音兼取义，古义即为疮疖等病症的总称。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_narrowing",
+      "note": "由泛指疮痈之总称发展为特指溃烂，见于医学语境中古今演变。"
+    }
+  ]
+}

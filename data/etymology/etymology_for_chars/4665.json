@@ -1,0 +1,85 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "屋檐，屋边。",
+      "examples": [
+        "芸若充庭，槐枫被宸。——何晏《景福殿赋》",
+        "冉冉青烟已被宸。——王安石《示江公佐外厨遗火》"
+      ],
+      "traditional_char": "宸"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "深邃的房屋。",
+      "examples": [
+        "宸，贾逵曰：室之奥者。——《玉篇》"
+      ],
+      "traditional_char": "宸"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "天地相接的地方。",
+      "examples": [
+        "消雰埃于中宸，集重阳之清澄。——张衡《西京赋》"
+      ],
+      "traditional_char": "宸"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "北极星所在，引申指帝王的宫殿。",
+      "examples": [
+        "宸扉既辟。——王勃《九成宫颂》",
+        "垂显号以居宸，建明堂而治物。——陈子昂《为赤县父老劝封禅表》"
+      ],
+      "traditional_char": "宸"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "王位、帝王的代称。",
+      "examples": [
+        "求得上皇宸。——《宋史·宗室传》",
+        "（陛下）诚宜遗小礼，存大务，援据图录，居正宸。——刘琨《劝进表》"
+      ],
+      "traditional_char": "宸"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从宀表房屋，与“屋檐、屋边”有关，辰为声符。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由屋檐扩展为深邃的屋宇，见古籍用例。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由深邃房屋比喻为天地相接之大屋宇。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "由“深邃的房屋”转指帝王居所，因帝王居所多为宏大。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "由帝王居所引申为王位、帝王的代称。"
+    }
+  ]
+}

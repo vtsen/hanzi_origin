@@ -1,0 +1,40 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "炒菜后加少量的水和芡粉的烹饪方法",
+      "examples": [
+        "烩虾仁",
+        "烩豆腐"
+      ],
+      "traditional_char": "燴"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "把米饭等和荤菜、素菜混在一起加水煮的烹饪方法",
+      "examples": [
+        "烩饭",
+        "烩饼",
+        "大杂烩"
+      ],
+      "traditional_char": "燴"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘燴’为形声字，从火，‘会’声，本义即为与烹饪相关的方式。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由炒菜加水芡粉的方法，扩展为多种食材混合煮制的方式。"
+    }
+  ]
+}

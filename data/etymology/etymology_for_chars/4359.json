@@ -1,0 +1,102 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "门闩，外部用以关门的横木或金属栓",
+      "examples": [
+        "入户奉扃。",
+        "固扃鐍。——《庄子·胠箧》"
+      ],
+      "traditional_char": "扃"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "上闩，关门",
+      "examples": [
+        "扃牖而居。——明·归有光《项脊轩志》"
+      ],
+      "traditional_char": "扃"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "门、门户",
+      "examples": [
+        "步于山扃。",
+        "金阙西厢扣玉扃。——《长恨歌》"
+      ],
+      "traditional_char": "扃"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "鼎上贯穿两耳的横杠",
+      "examples": [
+        "扃，鼎扃。以木贯鼎，所以闭鼎者。",
+        "设扃鼎。——《仪礼·士冠礼》"
+      ],
+      "traditional_char": "扃"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "古代兵车上用以固定兵器或插旗的横木",
+      "examples": [
+        "楚人惎之脱扃。——《左传·宣公十二年》",
+        "旗不脱扃，结驷方蕲。——张衡《西京赋》"
+      ],
+      "traditional_char": "扃"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "adjective",
+      "meaning": "明察的样子（扃扃，通“炯炯”）",
+      "examples": [
+        "我心扃扃。",
+        "扃扃明察也。"
+      ],
+      "traditional_char": "扃"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从户，冋声，表示门外的闩。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "conversion",
+      "note": "由门闩（名词）引申为上闩、关门（动词），用器物动作指代行为。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由门闩引申为门、门户本身，以器物指代整体。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由门闩比喻鼎上贯穿两耳的横杠，因形状和功能相似。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "由门闩引申为车上的横木，功能与门闩相似，均为固定器物。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "unknown",
+      "note": "由名词意义引申为明察的样子，具体机制存疑，或许通过谐音或形容词化。"
+    }
+  ]
+}

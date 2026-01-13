@@ -1,0 +1,140 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "分开，由聚集而分离",
+      "examples": [
+        "分散",
+        "解散",
+        "散落",
+        "消散"
+      ],
+      "traditional_char": "散"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "分布，分给",
+      "examples": [
+        "散布",
+        "散发",
+        "天女散花"
+      ],
+      "traditional_char": "散"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "排遣（情绪等）",
+      "examples": [
+        "散心",
+        "散闷"
+      ],
+      "traditional_char": "散"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "解雇",
+      "examples": [
+        "他干的不好，让那家饭店给散了"
+      ],
+      "traditional_char": "散"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "没有约束，松开",
+      "examples": [
+        "松散",
+        "散漫",
+        "披散头发"
+      ],
+      "traditional_char": "散"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "adjective",
+      "meaning": "分开的，分离的",
+      "examples": [
+        "散居",
+        "散乱",
+        "散座"
+      ],
+      "traditional_char": "散"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "adjective",
+      "meaning": "零碎的",
+      "examples": [
+        "散碎",
+        "散装",
+        "散页"
+      ],
+      "traditional_char": "散"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "noun",
+      "meaning": "中医称药末",
+      "examples": [
+        "散剂",
+        "丸散膏丹"
+      ],
+      "traditional_char": "散"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘散’为形声字，从攵（表示动作），先（声），本义为分散。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由分开引申为分布、分给，常见语义链"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由分散引申出排遣情绪的隐喻"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由分散（群体解散）引申为人员解雇"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由分散引申为松散无束缚"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "分离、分开的描述"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "semantic_extension",
+      "note": "分散状态进一步引申为零碎"
+    },
+    {
+      "source_index": 6,
+      "target_index": 7,
+      "evolution_type": "metonymy",
+      "note": "零碎引申为中医药末"
+    }
+  ]
+}

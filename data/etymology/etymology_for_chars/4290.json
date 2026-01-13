@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "用手和膝、足并用地在地上爬行。",
+      "examples": [
+        "匍匐前进",
+        "地球， 我的母親！……我現在正在你背上匍行。"
+      ],
+      "traditional_char": "匍"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "伏卧，趴在地上。",
+      "examples": [
+        "其側壁外面，作一白虎，匍石飲水。",
+        "有些植物的茎匍在地面上"
+      ],
+      "traditional_char": "匍"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "竭力为之（多用于古籍中）。",
+      "examples": [
+        "凡民有丧，匍救之。",
+        "匍匐救之"
+      ],
+      "traditional_char": "匍"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从勹，甫声。本义为手脚并用地爬行。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘爬行’义引申为‘伏卧’、‘趴’在地面的动作。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由‘爬行’本义引申出‘竭力’、‘尽力而为’的比喻。"
+    }
+  ]
+}

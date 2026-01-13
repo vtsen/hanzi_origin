@@ -1,0 +1,136 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "装饰、修饰",
+      "examples": [
+        "贲，饰也。——《说文》",
+        "贲其趾，舍车而徒。——《易·贲卦》",
+        "贲若草木。——《书·汤诰》"
+      ],
+      "traditional_char": "賁"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "华美，光彩，壮丽",
+      "examples": [
+        "贲如濡如，永贞吉。——《易·贲》",
+        "用宏兹贲。——《书·盘庚》"
+      ],
+      "traditional_char": "賁"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "颜色斑杂不纯（即斑驳）",
+      "examples": [
+        "傅氏云：‘贲，古斑字，文章貌。’——《易·贲卦·释文》",
+        "夫白而白，黑而黑，夫贲又何好乎？——《吕氏春秋·壹行》"
+      ],
+      "traditional_char": "賁"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "奔走、快速行动",
+      "examples": [
+        "虎贲三千人。——《孟子·尽心下》",
+        "卫士旅贲。——《汉书·百官公卿表》",
+        "贲溃（奔走溃散）"
+      ],
+      "traditional_char": "賁"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "勇士（特指勇猛的人）",
+      "examples": [
+        "虎贲为勇士称。——《书·牧誓序》",
+        "孟贲远矣。——《孟子》"
+      ],
+      "traditional_char": "賁"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "膈膜（横膈膜，中医指胃上端开口等）",
+      "examples": [
+        "气上走贲上。——《素问·缪刺论》",
+        "居贲迫肺，善胁下痛。——《灵枢经·本藏》"
+      ],
+      "traditional_char": "賁"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "流星（引申为快速流动的星体）",
+      "examples": [
+        "贲星坠而渤海决。——《淮南子·天文》"
+      ],
+      "traditional_char": "賁"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "医家与中大夫贲赫对门。——《史记·黥布列传》",
+        "董宪将贲休以兰陵城降。——《后汉书·光武帝纪上》"
+      ],
+      "traditional_char": "賁"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从贝，卉声，本义为‘装饰、修饰’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘装饰’义引申为‘华美、光彩’义。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "由文饰义引申为‘颜色杂，斑斓不纯’的描述。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "‘贲’本为装饰义，后假借通‘奔’，意为奔走、快速行动。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "以能奔走、英勇之人称为‘虎贲’，转指勇士。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "‘贲’通‘奔’，后用于医学，指气行之处——膈膜。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 6,
+      "evolution_type": "metaphor",
+      "note": "以‘奔走’的动作比喻流星的急速移动。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 7,
+      "evolution_type": "function_word",
+      "note": "用作姓氏，源于本义或借义，具体转化时期不详。"
+    }
+  ]
+}

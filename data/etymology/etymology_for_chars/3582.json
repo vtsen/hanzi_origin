@@ -1,0 +1,96 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "白苗，白梁粟，一种良种谷子。",
+      "examples": [
+        "芑，白苗嘉谷也。——《说文》",
+        "维糜维芑。——《诗·大雅·生民》"
+      ],
+      "traditional_char": "芑"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "类似苦菜的一种草本植物，野菜。",
+      "examples": [
+        "薄言采芑，于彼新田。——《诗·小雅·采芑》"
+      ],
+      "traditional_char": "芑"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "某些草本植物，泛指野草。",
+      "examples": [
+        "丰水有芑。——《诗·大雅·文王有声》"
+      ],
+      "traditional_char": "芑"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "地黄的别名。",
+      "examples": [
+        "地黄别名芑。——《本草纲目·地黄》"
+      ],
+      "traditional_char": "芑"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "通“杞”。木名，枸杞、杞柳等。",
+      "examples": [
+        "其下多荆芑。——《山海经·东山经》"
+      ],
+      "traditional_char": "芑"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "1,3-环己二烯的简称（有机化学用语）。",
+      "examples": [],
+      "traditional_char": "芑"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字。从艸，己声。最初表示白苗嘉谷，即一种白色苗秧的谷物。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由特指白粱粟谷物，引申为泛指某些草本野草，诗经时代已出现。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 1,
+      "evolution_type": "semantic_narrowing",
+      "note": "由泛指野草细化为类似苦菜的一种野菜。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "由泛指野草名代指“地黄”等具体草本。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "假借为‘杞’，指枸杞、杞柳等木本植物，用音借义方式在部分文献中出现。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "semantic_shift",
+      "note": "现代将芑借用为有机化学名词（物质名），与原义无本质联系，仅以音译为主。"
+    }
+  ]
+}

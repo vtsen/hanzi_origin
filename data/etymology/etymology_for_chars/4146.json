@@ -1,0 +1,59 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "黄栌，一种落叶灌木，花黄绿色，秋天叶子变红，木材黄色，可制器具或染料。",
+      "examples": [
+        "华枫枰栌。——《汉书·司马相如传上》",
+        "黄栌木也。"
+      ],
+      "traditional_char": "櫨"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "柱上承托栋梁的短木，也称作斗栱、欂栌，用于建筑结构中。",
+      "examples": [
+        "不可以为栌楝。——《淮南子·修务》",
+        "标栋欂栌，以相支持。——《淮南子·本经》"
+      ],
+      "traditional_char": "櫨"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "櫨橘，一种柑橘类果实。",
+      "examples": [
+        "果之美者……箕山之東，青鳥之所，有甘櫨焉。——《吕氏春秋·本味》"
+      ],
+      "traditional_char": "櫨"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "从木，卢声。本义为建筑上的斗栱、柱顶承托短木。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "櫨为繁体，本义同，简化为栌。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "因櫨木结果，后转指其果实。如《吕氏春秋》。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "由建筑构件名扩展为灌木树名，与木部相关联，历史较早。"
+    }
+  ]
+}

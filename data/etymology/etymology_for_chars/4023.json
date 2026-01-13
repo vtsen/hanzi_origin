@@ -1,0 +1,102 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "水深而广的样子",
+      "examples": [
+        "泓澄渊潫。——《文选·左思·吴都赋》",
+        "泓泓（水深的样子）",
+        "极泓量而海运。——《江赋》"
+      ],
+      "traditional_char": "泓"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "水清澈的样子",
+      "examples": [
+        "泓然，泓澈（水清澈貌）",
+        "泓碧（指水色清澈碧绿）"
+      ],
+      "traditional_char": "泓"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "潭，泛指湖、塘等深水处",
+      "examples": [
+        "留斩泓下蛟，莫试街中狗。——唐·元稹《说剑》",
+        "望泓面有烟云之气，飞走不定。——明·陆容《菽园杂记》"
+      ],
+      "traditional_char": "泓"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "古水名，在今河南省柘城县一带",
+      "examples": [
+        "宋公及楚人战于泓。——《春秋·僖公二十二年》"
+      ],
+      "traditional_char": "泓"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "measure_word",
+      "meaning": "量词，用于一道或一片清水",
+      "examples": [
+        "一泓清泉",
+        "春天的冰川上布满雪莲，而长江在那儿不过是一泓清溪。——刘白羽《长江三日》"
+      ],
+      "traditional_char": "泓"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "砚池的别称，取其如深水之意",
+      "examples": [
+        "贵价市珍煤，风前试寒泓。——宋·文同《谢杨侍读惠端溪紫石砚》"
+      ],
+      "traditional_char": "泓"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，弘声。本指水深而广。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘水深广’引申为‘水清澈’，形容水的性质，约魏晋南北朝已用。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由‘水深广’状态转指具体‘深水之地/潭’，汉魏以降普见。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_narrowing",
+      "note": "由‘潭/湖’之意专指具体水名，古地名转用。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "grammaticalization",
+      "note": "由表性质词转为用于计量水体的量词，明清已固定用法。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 5,
+      "evolution_type": "metaphor",
+      "note": "用‘潭/深水’转指砚池，因形似深潭得名，宋代起用。"
+    }
+  ]
+}

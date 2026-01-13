@@ -1,0 +1,80 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古代收藏钱财的府库；国家库藏的钱财、财物",
+      "examples": [
+        "帑，金币所藏也。《说文》",
+        "人食不足，而帑藏殷积。《后汉书》",
+        "虚费府帑。《汉书·匈奴传》"
+      ],
+      "traditional_char": "帑"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "装饰金帛的囊袋",
+      "examples": [
+        "行帑无寸金，卫兵不宿饱。《旧唐书》"
+      ],
+      "traditional_char": "帑"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "藏匿，贮藏（尤指金银财物）",
+      "examples": [
+        "帑金帛舍。《晋书音义》"
+      ],
+      "traditional_char": "帑"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "妻子或儿女，与“孥”通用",
+      "examples": [
+        "乐尔妻帑。《诗经·小雅·常棣》",
+        "贾季奔狄，宣子使臾骈送其帑。《左传》"
+      ],
+      "traditional_char": "帑"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "鸟的尾巴",
+      "examples": [
+        "以害鸟帑。《左传·襄公二十八年》",
+        "鸟尾曰帑。杜预注"
+      ],
+      "traditional_char": "帑"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从巾，奴声，本指收藏钱财的府库，声旁‘奴’兼作音符。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由‘府库’引申为所装财物的囊袋，见于唐代用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "conversion",
+      "note": "名词‘府库’转化为动词‘贮藏’。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "古人将‘妻子、后代’之意引申比拟为‘鸟尾’，因尾为鸟之后。"
+    }
+  ]
+}

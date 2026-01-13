@@ -1,0 +1,61 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "粗大，圆柱形物体直径大",
+      "examples": [
+        "这棒太顸。",
+        "拿根顸杠子来抬。",
+        "这树真顸。"
+      ],
+      "traditional_char": "顸"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "大面，平面，或者形容愚笨",
+      "examples": [
+        "頇，顢頇，意为愚笨。",
+        "大面貌。",
+        "冠𢽽後謂之頇。"
+      ],
+      "traditional_char": "頇"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "头无发，光头",
+      "examples": [
+        "頭無髮頇頟也。"
+      ],
+      "traditional_char": "頇"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "頇为形声字，从页（頭），干声，本义指大面、平面或愚钝。"
+    },
+    {
+      "formation_type": "simple_indicative",
+      "original_sense_index": 0,
+      "note": "顸在简化后主要用于北方方言中粗大之义，直观表示，或由原字含义延伸。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "“大面”本义引申为“头无发”，见《广韵》和《集韵》，语义相关。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "由“面大”引申为事物本身粗大，用于口语方言。"
+    }
+  ]
+}

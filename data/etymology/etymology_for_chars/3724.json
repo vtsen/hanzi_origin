@@ -1,0 +1,72 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "相遇，遇见。",
+      "examples": [
+        "王甫时出，与蕃相迕。——《后汉书·陈蕃传》",
+        "且伊尹之干成汤，甯戚之迕桓公。——《晋书·夏侯湛传》"
+      ],
+      "traditional_char": "迕"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "违反，违背，背逆。",
+      "examples": [
+        "上下相反，好恶乘迕。——《汉书·食货志上》",
+        "莫敢复迕。——《汉书·广川惠王刘去传》",
+        "國家有悖逆反迕之行。——《管子·君臣上》"
+      ],
+      "traditional_char": "迕"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "交错，夹杂。",
+      "examples": [
+        "其间迕忧乐，歌笑杂悲欢。——宋·苏轼《乔太傅见和复次韵答之》",
+        "耾耾雷声，回穴错迕。——宋玉《风赋》"
+      ],
+      "traditional_char": "迕"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "触犯，冒犯。",
+      "examples": [
+        "御史劉德秀果言公嘗迕孝宗，罷。——宋·葉適《兵部尚書蔡公墓志銘》",
+        "吾數以至言忤之。——《资治通鉴》"
+      ],
+      "traditional_char": "迕"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从辵（走之），午声，本义为相逢、相遇。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_shift",
+      "note": "由“相遇”引申为“违背”，意指彼此行动、主张等相反。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "对“违背”进一步引申为“冒犯、触犯”，通常是在权威关系中。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由两者相遇、交会，比喻事物相互交错、夹杂。"
+    }
+  ]
+}

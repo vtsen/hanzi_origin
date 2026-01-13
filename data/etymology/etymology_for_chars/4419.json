@@ -1,0 +1,119 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "年老，特指六十岁以上的老人",
+      "examples": [
+        "六十曰耆。——《礼记·曲礼》",
+        "耆老皆朝于庠。——《礼记·王制》",
+        "俾尔耆而艾。——《诗·鲁颂·閟宫》"
+      ],
+      "traditional_char": "耆"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "有名望的长者、年高有德之人",
+      "examples": [
+        "耆硕咸在，苟以登用，皆踰於臣。——宋 王安石 《賀留守太尉啟》",
+        "国之耆民。"
+      ],
+      "traditional_char": "耆"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "强壮、强横",
+      "examples": [
+        "耆，强也。——《广雅》",
+        "不懦不耆。——《左传·昭公二十三年》"
+      ],
+      "traditional_char": "耆"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "喜爱，嗜好（通“嗜”）",
+      "examples": [
+        "鸱鸮耆鼠。——《老子·齐物论》",
+        "耆秦人之炙。——《孟子·告子上》"
+      ],
+      "traditional_char": "耆"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "厌恶、憎恨",
+      "examples": [
+        "上帝耆之，憎其式廓。——《诗·大雅·皇矣》"
+      ],
+      "traditional_char": "耆"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "兽的背脊",
+      "examples": [
+        "薄耆之炙，鲜鯉之鱠。——《文选·枚乘〈七发〉》",
+        "瘢耆，马脊创瘢处也。——《汉书·扬雄传下》"
+      ],
+      "traditional_char": "耆"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "达到，致使",
+      "examples": [
+        "耆定尔功。——《诗·周颂》",
+        "耆其股肱以从司马。——《国语·晋语九》"
+      ],
+      "traditional_char": "耆"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从‘老’省，旨声，本义为‘老’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘年老’引申为‘有名望的长者’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "以‘老者强壮’为喻引申出‘强横’意。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "‘耆’通‘嗜’，表示‘喜好’（音近义借）。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_shift",
+      "note": "由‘喜好’进一步发生义转为‘厌恶’（文献有例），但机制不详。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "metonymy",
+      "note": "‘耆’指兽的背脊，与年老脊背弯曲形象有关，可能为相关部位之引申（不完全确认）。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "semantic_extension",
+      "note": "‘耆’引申为‘达到，致使’，由‘至老’引申为‘至、致’。"
+    }
+  ]
+}

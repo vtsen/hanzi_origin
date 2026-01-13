@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "山名、地名用字，常用于山西省岢岚山、岢岚县等地名。",
+      "examples": [
+        "岢岚山",
+        "岢岚县"
+      ],
+      "traditional_char": "岢"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "用于表山势高峻的形容词组，如“岢峨”、“岢峻”。",
+      "examples": [
+        "岢峨",
+        "岢峻"
+      ],
+      "traditional_char": "岢"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从‘山’表义，‘可’表音；造字本用于地名和山名，反映形声结构。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从专用的山名、地名扩展为描写山势高峻的属性，多见于合成词。"
+    }
+  ]
+}

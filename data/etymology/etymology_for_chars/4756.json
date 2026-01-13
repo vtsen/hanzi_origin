@@ -1,0 +1,68 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "芦苇类植物，指成熟后的芦类草本植物。",
+      "examples": [
+        "八月萑苇。——《诗·豳风·七月》",
+        "其柏席用萑黼纯。——《周礼·春官》"
+      ],
+      "traditional_char": "萑"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "益母草、茺蔚等草药的名称。",
+      "examples": [
+        "萑，蓷。——《尔雅·释草》 郭璞注：今茺蔚也。又名益母。"
+      ],
+      "traditional_char": "萑"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "草木繁茂的样子。",
+      "examples": [
+        "艸多皃。——《说文解字》"
+      ],
+      "traditional_char": "萑"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "贼巢穴，或指盗贼本身（源于春秋时期郑国的“萑苻”沼泽及盗贼据点）。",
+      "examples": [
+        "萑苻之地，盗贼所出。"
+      ],
+      "traditional_char": "萑"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从艸，隹声，最初指芦苇类植物。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "synecdoche",
+      "note": "由具体芦类植物泛化为草木繁茂之貌。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "本指芦苇类草本，后扩展用于另种草本——茺蔚（益母草）。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "以芦苇生长密集的沼泽象征盗贼出没处及贼巢。"
+    }
+  ]
+}

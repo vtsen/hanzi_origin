@@ -1,0 +1,103 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "劣马，骏马之下的马。亦作比喻庸才。",
+      "examples": [
+        "却骐骥而不乘兮，策驽骀而取路。",
+        "驱奔效驾，先辍于羸骀。"
+      ],
+      "traditional_char": "駘"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "马嚼子脱落。",
+      "examples": [
+        "马骀其衔，四牡横奔。",
+        "驾委其辔，马骀其衔。"
+      ],
+      "traditional_char": "駘"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "践踏。",
+      "examples": [
+        "兵相骀藉。",
+        "更相骀藉。"
+      ],
+      "traditional_char": "駘"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "疲钝，形容马或兵力疲弱。",
+      "examples": [
+        "压其骀，攻其疑。",
+        "率疲骀之兵。"
+      ],
+      "traditional_char": "駘"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "舒缓放荡、广阔无拘。",
+      "examples": [
+        "舞丝千丈飏晴光，骀青春无际。",
+        "而独雍容艺文，荡骀儒林。"
+      ],
+      "traditional_char": "駘"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "用同“鲐”，指年老且驼背。",
+      "examples": [
+        "骀背（因年老而驼背）",
+        "骀佗（驼背）"
+      ],
+      "traditional_char": "駘"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从马，台声，表示劣马。‘马’为意符，‘台’为声旁。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由劣马引申为疲钝，形容马或人、兵力不精，常用比喻。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_shift",
+      "note": "意转为舒缓、放荡，引申自劣马行动迟缓或随性。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "synecdoche",
+      "note": "部分代整体，马嚼子脱落成为‘骀’的新义。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "‘践踏’义源自马行践踏泥地的动作。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "借声通“鲐”，表驼背老人，见词汇‘骀背’。"
+    }
+  ]
+}

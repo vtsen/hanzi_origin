@@ -1,0 +1,147 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古代长度单位（一仞为七尺或八尺）",
+      "examples": [
+        "山高万仞。",
+        "夫子之墙数仞。"
+      ],
+      "traditional_char": "仞"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "测量深度",
+      "examples": [
+        "仞沟洫。",
+        "度厚薄，仞沟洫。"
+      ],
+      "traditional_char": "仞"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "春秋时楚地名，在今湖北省十堰市东",
+      "examples": [
+        "子越自石溪，子贝自仞以伐庸。"
+      ],
+      "traditional_char": "仞"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "锋刃，借指刀剑之类的兵器（通“刃”）",
+      "examples": [
+        "仞，通作刃。"
+      ],
+      "traditional_char": "仞"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "辨认、承认（通“认”）",
+      "examples": [
+        "公理者，犹云众所同仞之界域。",
+        "仞识论"
+      ],
+      "traditional_char": "仞"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "认为，当作（通“认”）",
+      "examples": [
+        "非其事者勿仞也。仞人之事者败。",
+        "史家遂误仞改州为郡矣。"
+      ],
+      "traditional_char": "仞"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "忍耐，容忍（通“忍”）",
+      "examples": [
+        "百姓冬不仞寒，夏不仞暑。"
+      ],
+      "traditional_char": "仞"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "adjective",
+      "meaning": "柔软而坚固，坚韧（通“韧”）",
+      "examples": [
+        "牛之革坚仞不可变也。"
+      ],
+      "traditional_char": "仞"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "adjective",
+      "meaning": "满，充满（通“牣”）",
+      "examples": [
+        "充仞其中者。",
+        "虚宫馆而勿仞。"
+      ],
+      "traditional_char": "仞"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从人，刃声，表示以人为长度单位，声符‘刃’表音。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由长度单位扩展为度量深度，古代以“仞”计深浅。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "unknown",
+      "note": "地名仞，直接来源机制不明，可能与地形高大相关。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "借‘仞’表‘刃’，以声近通用，常见于古文字假借。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 7,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "‘仞’通‘韧’，借用为坚韧之义，音近连通。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 6,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "‘仞’通‘忍’，音近而假借。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "‘仞’通‘认’，用于承认、辨认，基于音近假借。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "由承认、辨认可引申为认为、当作。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 8,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "‘仞’通‘牣’，表示满、充满，由音近假借。"
+    }
+  ]
+}

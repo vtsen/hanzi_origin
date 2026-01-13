@@ -1,0 +1,84 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古国名，位于今湖北省安陆县一带，春秋时为楚国所灭。",
+      "examples": [
+        "郧，汉南之国也。——《说文》",
+        "春秋时为楚所灭。"
+      ],
+      "traditional_char": "鄖"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "古地名，春秋时期卫地，故城在今江苏省如皋县。",
+      "examples": [
+        "《左傳•哀公十一年》：殯於鄖。"
+      ],
+      "traditional_char": "鄖"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "古地名，春秋时期吴地，在今江苏省如皋县东。",
+      "examples": [
+        "《春秋•哀公十二年》：公會衛侯、宋皇瑗于鄖。"
+      ],
+      "traditional_char": "鄖"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [],
+      "traditional_char": "鄖"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "县名，湖北省郧县。",
+      "examples": [],
+      "traditional_char": "鄖"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从邑，員声，表示地名，初用于古国名。"
+    },
+    {
+      "formation_type": "simple_indicative",
+      "original_sense_index": 0,
+      "note": "郧为鄖之简化字，用作同音字和简体字。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "古国名泛指相关地理区域，后泛用为地名。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "古国名概念引申为相关的其他古地名。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "conversion",
+      "note": "以地名转为姓氏，常见国名向姓氏的转变。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "原地名进一步用作现代县名。"
+    }
+  ]
+}

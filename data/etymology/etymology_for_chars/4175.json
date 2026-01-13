@@ -1,0 +1,44 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "未成年而死的人",
+      "examples": [
+        "幼子早殇。",
+        "夭殇之痛。"
+      ],
+      "traditional_char": "殇"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "为国战死者",
+      "examples": [
+        "国殇。",
+        "殇魂不泯。"
+      ],
+      "traditional_char": "殇"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从歺（与死亡有关），伤声，最初表示未成年夭折之人。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "繁体为「殤」，构形同本义，语源同上，表示未成年而死。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由早夭未成年而死之意，引申为为国而死的壮烈死亡，多用于悼念阵亡将士。"
+    }
+  ]
+}

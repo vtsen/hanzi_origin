@@ -1,0 +1,117 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "高而上平，形容秃山，泛指秃",
+      "examples": [
+        "蜀山兀，阿房出。",
+        "兀鹫"
+      ],
+      "traditional_char": "兀"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "高高地突起",
+      "examples": [
+        "兀然高举",
+        "突兀其峰"
+      ],
+      "traditional_char": "兀"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adverb",
+      "meaning": "突然",
+      "examples": [
+        "兀然一惊"
+      ],
+      "traditional_char": "兀"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "昏沉无知的样子",
+      "examples": [
+        "兀然不觉"
+      ],
+      "traditional_char": "兀"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "interjection",
+      "meaning": "元曲中用作发语词",
+      "examples": [
+        "兀那",
+        "兀的，这怎么回事"
+      ],
+      "traditional_char": "兀"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "pronoun",
+      "meaning": "元曲中表示“这，这个”",
+      "examples": [
+        "兀的便是",
+        "兀的可人"
+      ],
+      "traditional_char": "兀"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "adverb",
+      "meaning": "元曲中表示“怎么，怎的”",
+      "examples": [
+        "兀的使我笑倒",
+        "兀的哭起来"
+      ],
+      "traditional_char": "兀"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "simple_indicative",
+      "original_sense_index": 0,
+      "note": "从一在人上，表示头顶平高，为指事字，本义为高耸特出。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从描述山体的'高而上平'引申为一般‘高高地突起’。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由突起引申为‘突然’，用以形容状态的突变。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由形体高突引申为神志上的‘昏沉’，隐喻意识突兀。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 4,
+      "evolution_type": "grammaticalization",
+      "note": "‘突然’语感转为发语词，元曲语体化。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 5,
+      "evolution_type": "function_word",
+      "note": "发语词进一步语法化为指示代词‘这，这个’。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 6,
+      "evolution_type": "function_word",
+      "note": "发语词也用作疑问副词‘怎么，怎的’。"
+    }
+  ]
+}

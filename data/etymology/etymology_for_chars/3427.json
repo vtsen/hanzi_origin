@@ -1,0 +1,59 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "有余利，获得剩余或盈利。",
+      "examples": [
+        "赢利",
+        "赢余"
+      ],
+      "traditional_char": "贏"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "在赌博或比赛中获胜。",
+      "examples": [
+        "赌输赢",
+        "这场比赛谁会赢？"
+      ],
+      "traditional_char": "贏"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "承担、担负（古义）。",
+      "examples": [
+        "赢粮而景从"
+      ],
+      "traditional_char": "贏"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "贏字从贝，与财富有关，含盈余之义，声符为‘贏’。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "赢为简化字，保留了原‘贏’的涵义及声符。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“有余利”的涵义引申为比赛中取得胜利，始见于后世用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "由盈余、获得引申至“承担、担负（粮草等）”，较为古老的义项。"
+    }
+  ]
+}

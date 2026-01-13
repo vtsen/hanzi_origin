@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "大肠",
+      "examples": [
+        "雄黄服餌之法，以玄胴腸裹蒸之於赤土下。"
+      ],
+      "traditional_char": "胴"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "躯干，整个身体除去头部、四肢和内脏余下的部分",
+      "examples": [
+        "胴体",
+        "胴部"
+      ],
+      "traditional_char": "胴"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "other",
+      "meaning": "形状、直的样子",
+      "examples": [
+        "侗胴，直貌也。",
+        "侗胴，状也。"
+      ],
+      "traditional_char": "胴"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“胴”从肉，动声。本义为大肠，属于形声字结构。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由指大肠扩展为总体躯干，用以指身体主干部分。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由身体的主要部分引申为表示“形状”或“直的样子”。"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "旧式房屋的窗格",
+      "examples": [
+        "窗棂",
+        "雕花棂窗"
+      ],
+      "traditional_char": "欞"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "长条形的木头",
+      "examples": [
+        "门棂",
+        "栏杆棂"
+      ],
+      "traditional_char": "欞"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘棂’为形声字，从木，灵声。本指旧式房屋的窗格。‘欞’为‘棂’的繁体字。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "synecdoche",
+      "note": "由“窗格”具体指窗的长木部分引申为泛指长条形木头。"
+    }
+  ]
+}

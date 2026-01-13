@@ -1,0 +1,132 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "小孩；幼儿。",
+      "examples": [
+        "反其旄倪。——《孟子·梁惠王下》",
+        "於時垂髫之倪，皆知禮讓。——《旧唐书·玄宗纪下》"
+      ],
+      "traditional_char": "倪"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "端，边际；事物的分界、极限。",
+      "examples": [
+        "不知端倪。——《庄子·大宗师》",
+        "乾端坤倪，轩豁呈露。——韩愈《南海神庙碑》"
+      ],
+      "traditional_char": "倪"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "头绪，事情的眉目。",
+      "examples": [
+        "未知其倪，启封相顾罔测。——《桯史·袁孚论事》",
+        "归途兴不尽，绝境胜无倪。——钱起《自终南山晚归》"
+      ],
+      "traditional_char": "倪"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "区分，分界。",
+      "examples": [
+        "恶至而倪贵贱？恶至而倪小大？——《庄子·秋水》"
+      ],
+      "traditional_char": "倪"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "老人牙齿脱落后新生的齿（通“齯”）。",
+      "examples": [
+        "皆黄耄倪齿也。——《列女传·鲁季敬姜》"
+      ],
+      "traditional_char": "倪"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "斜视（通“睨”）。",
+      "examples": [
+        "左倪不类，右倪不若。——《尔雅·释鱼》",
+        "夫加之以衡扼，齐之以月题，而马知介倪。——《庄子·马蹄》"
+      ],
+      "traditional_char": "倪"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "傲慢，轻视。",
+      "examples": [
+        "力罢，则不能毋堕倪。——《管子·正世》"
+      ],
+      "traditional_char": "倪"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [
+        "汉倪宽。——《史记》",
+        "兒倪古通用。"
+      ],
+      "traditional_char": "倪"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从人，兒声，本义小孩。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘小孩’引申为‘端、边际’；小为物之端。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由‘边际’转为‘头绪、事端’。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "‘边际’引申为‘区分、分界’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "‘小孩’与‘齯’（老人新长之齿）古有通假，均指年齿始生。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "semantic_shift",
+      "note": "形态相关，由‘边际’转为‘斜视’，如用边缘视物。"
+    },
+    {
+      "source_index": 5,
+      "target_index": 6,
+      "evolution_type": "metaphor",
+      "note": "由‘斜视’引申为‘傲慢、轻视’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 7,
+      "evolution_type": "function_word",
+      "note": "本义小孩，由人名、称谓转为姓氏。"
+    }
+  ]
+}

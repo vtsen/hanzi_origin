@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "分发，分给，散发。",
+      "examples": [
+        "今於內庫方圓銀二千一百七十二兩， 充見任文武常參官救接， 委御史臺依品秩分俵。",
+        "今將陳色白米，每斗細作見錢七十五文，若折計作小麥價錢支俵，每斗四十文，共折計得小麥一斗八升七合半。",
+        "諸路各置提舉常平司，及俵常平錢，收二分之息。"
+      ],
+      "traditional_char": "俵"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "俵子，分发给僧、道等人的凭证。",
+      "examples": [
+        "因往輔真道院，見所塑鐵拐仙上有一俵子，題云：‘特來赴齋，見我不睬，空腹而歸，俵縛我拐。’"
+      ],
+      "traditional_char": "俵"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "通“表”，表彰，显扬。",
+      "examples": [
+        "俵著（表彰，显扬）",
+        "俵扬（宣扬，张扬）"
+      ],
+      "traditional_char": "俵"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘俵’从人，表声，形声字，原本意为‘分发、分给’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由动词‘分发’引申为所分发之物，即‘俵子’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "‘俵’通‘表’，在特定语境下借音用作‘表彰、显扬’之意。"
+    }
+  ]
+}

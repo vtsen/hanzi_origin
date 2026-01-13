@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "用珠玉串成的裝飾物，多用作頸飾，稱為瓔珞。",
+      "examples": [
+        "佛像上佩戴著瓔珞。",
+        "她脖子上掛著一串精美的瓔珞。"
+      ],
+      "traditional_char": "珞"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "碎石，小石子。",
+      "examples": [
+        "老子：『不欲碌碌如玉，硌硌如石。』字一作珞。",
+        "道路兩旁多珞石。"
+      ],
+      "traditional_char": "珞"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "石貌，形容岩石堅硬。",
+      "examples": [
+        "山巔珞珞兮。",
+        "岩石珞然屹立。"
+      ],
+      "traditional_char": "珞"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "‘珞’從玉，樂聲，屬形聲字，初指小石或石貌，後引申為頸飾之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由‘小石’引申為‘石貌’，意指岩石的堅硬形態。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "metaphor",
+      "note": "頸飾珠玉連串宛如碎石排列，形象上轉喻為裝飾物‘瓔珞’。"
+    }
+  ]
+}

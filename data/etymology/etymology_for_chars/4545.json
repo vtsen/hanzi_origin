@@ -1,0 +1,67 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "一种金属元素，质轻而坚硬，常用于航空、航天和原子能工业，可制造X射线管。",
+      "examples": [
+        "铍是一种重要的金属材料。"
+      ],
+      "traditional_char": "鈹"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "古代中医用于针砭的金属针具。",
+      "examples": [
+        "铍可用于针灸疗法。"
+      ],
+      "traditional_char": "鈹"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "两刃的小刀。",
+      "examples": [
+        "羽族以觜距为刀铍。"
+      ],
+      "traditional_char": "鈹"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "长矛。",
+      "examples": [
+        "士卒持铍列阵。"
+      ],
+      "traditional_char": "鈹"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 2,
+      "note": "“鈹”为形声字，从金，卑声。本义为两刃小刀，与金属工具相关。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "从两刃小刀泛指为较长的兵器如长矛，见于古代文献。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由小刀、金属类器具借指用于针砭的金属针。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 0,
+      "evolution_type": "semantic_shift",
+      "note": "现代化学命名中用古字‘鈹’表示新发现的金属元素，语义已转变。"
+    }
+  ]
+}

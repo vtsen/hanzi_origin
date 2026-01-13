@@ -1,0 +1,84 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "说话迟钝，口齿笨拙。",
+      "examples": [
+        "君子欲讷于言而敏于行。",
+        "论物明辨谓之辩，反辩为讷。"
+      ],
+      "traditional_char": "訥"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "吞吞吐吐地说，结结巴巴地说。",
+      "examples": [
+        "只听得差拨口里讷出一句“高太尉”三个字来。"
+      ],
+      "traditional_char": "訥"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "忍而少言，寡言少语。",
+      "examples": [
+        "能威能怀，能辨能讷。",
+        "刚、毅、木、讷，近仁。"
+      ],
+      "traditional_char": "訥"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "河豚腹中的脂肪。",
+      "examples": [
+        "腹中有白曰訥，有肝曰脂。訥最甘肥，吴人甚珍之，目为西施乳。"
+      ],
+      "traditional_char": "訥"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "指质直之言。",
+      "examples": [
+        "恶闻忠訥。"
+      ],
+      "traditional_char": "訥"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "从言从内，会意，表示言语在内，难以出口，表达说话迟钝之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从形容说话迟钝扩展为吞吞吐吐地说。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由说话迟钝引申为少言、寡言。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "通过词性转换，将形容词转为名词，指质直之言。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "unknown",
+      "note": "河豚脂肪一义来源不明，与本义关系尚无定论，属孤例。"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "春秋时期卫国的地名，后为汉代鄄城县，今山东省鄄城县一带。",
+      "examples": [
+        "單伯會齊侯、宋公、衞侯、鄭伯於鄄。——《春秋·莊公十四年》",
+        "齊桓公伯於鄄。——《史記·秦本紀》"
+      ],
+      "traditional_char": "鄄"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "周代的邑名。",
+      "examples": [
+        "王使劉子復之，盟於鄄而入。——《左傳·成公十一年》"
+      ],
+      "traditional_char": "鄄"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [],
+      "traditional_char": "鄄"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从邑，𡍯声，为地名字，表示春秋卫地。'邑'表意，'𡍯'表声。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "synecdoche",
+      "note": "由特定卫地泛指同一区域或同名邑，地名由特化到泛指。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由地名转为姓氏使用，常见古汉语地名得姓现象。"
+    }
+  ]
+}

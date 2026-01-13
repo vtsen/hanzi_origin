@@ -1,0 +1,86 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "心情抑郁，不舒畅。",
+      "examples": [
+        "怫，郁也。——《说文》",
+        "太后怫郁泣血。——《汉书·邹阳传》",
+        "我心何怫郁。——曹操《苦寒行》"
+      ],
+      "traditional_char": "怫"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "（情绪）郁结、滞留。",
+      "examples": [
+        "其病气怫于上。——《素问·六元正纪大论》"
+      ],
+      "traditional_char": "怫"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "愤怒的样子，恼怒。",
+      "examples": [
+        "怫然作色。——《庄子·天地》",
+        "我怫然而怒。——《庄子·德充符》"
+      ],
+      "traditional_char": "怫"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "违背、叛逆（通“悖”）。",
+      "examples": [
+        "知权者不以常人怫吾虑。——柳宗元《断刑论》",
+        "五家之文怫异，维太初之元论。——《史记·太史公自序》"
+      ],
+      "traditional_char": "怫"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adverb",
+      "meaning": "突然（通“勃”）。",
+      "examples": [
+        "谓己謏人，则怫然作色。——《庄子·天地》"
+      ],
+      "traditional_char": "怫"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从心，弗声，原意为心中抑郁。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由心情抑郁引申为郁结、滞留，用于物体、气体。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由心情不舒畅进一步引申为愤怒、恼怒之态。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 4,
+      "evolution_type": "grammaticalization",
+      "note": "从愤怒的状态发展为副词，表示突然变色。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "由心理不顺（心不舒畅）引申为逆反、违背，用作通“悖”。"
+    }
+  ]
+}

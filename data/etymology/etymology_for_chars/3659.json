@@ -1,0 +1,40 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "芫花，瑞香科落叶灌木，开紫色小花，有毒，花蕾可入药。",
+      "examples": [
+        "《墨子•杂守》：常令边县豫种畜芫、芸、乌喙、朱叶。",
+        "《山海经》：首山，草多芫。",
+        "《史记·仓公列传》：临菑女子薄吾病，饮以芫花一撮。"
+      ],
+      "traditional_char": "芫"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "芫荽，一年生或二年生草本植物，叶和茎有特殊香气，可作调味料，俗称香菜、胡荽。",
+      "examples": [
+        "芫荽可以作佐料。",
+        "芫荽是香菜的别名。"
+      ],
+      "traditional_char": "芫"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘芫’从艸，元声。最初用于指代‘芫花’这种有毒植物。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_shift",
+      "note": "‘芫’后扩大用于‘芫荽’（香菜），主要因植物名称类比。两者为不同种植物，属于转指。"
+    }
+  ]
+}

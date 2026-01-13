@@ -1,0 +1,118 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "斧柄",
+      "examples": [
+        "伐柯如何，匪斧不克。",
+        "今若大其柯，去其枝葉。"
+      ],
+      "traditional_char": "柯"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "尺度、法则（由斧柄长度引申）",
+      "examples": [
+        "柯，法也。——《尔雅》",
+        "柯长三尺。——《周礼·考工记》"
+      ],
+      "traditional_char": "柯"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "树枝、草木的枝茎",
+      "examples": [
+        "横柯上蔽。",
+        "傾柯引弱枝。",
+        "如松柏之有心也……不改柯易葉。"
+      ],
+      "traditional_char": "柯"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "碗、盂一类的器物",
+      "examples": [
+        "鲁人以榶，卫人用柯，齐人用一革。",
+        "盂谓之柯——《方言》"
+      ],
+      "traditional_char": "柯"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "柯属植物、常绿乔木之泛称",
+      "examples": [
+        "明 李时珍《本草纲目·柯树》"
+      ],
+      "traditional_char": "柯"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "地名（春秋时齐、卫的邑名）",
+      "examples": [
+        "盟于柯。——《春秋·庄公十三年》",
+        "会晋士丐于柯。——《春秋·襄公十九年》"
+      ],
+      "traditional_char": "柯"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "姓",
+      "examples": [
+        "吴公子柯庐之后。"
+      ],
+      "traditional_char": "柯"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从木，可声，本义是斧柄。'木'表示与木有关，'可'作声旁。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "古代以斧柄长度为标准，引申为尺度、法则；汉魏间已见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由本义斧柄扩展为凡木之柄、枝干；已见于先秦典籍。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 4,
+      "evolution_type": "semantic_narrowing",
+      "note": "由一般枝条再指某种乔木、柯属植物，明代本草书中已见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "因器物如碗、盂形似柄，名称转用于器物；见于古代方言材料。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "unknown",
+      "note": "作为地名用字，多因地名取其义美或借音，具体转用机制不详。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "function_word",
+      "note": "姓氏用字，源于地名或官职名及本义音借。"
+    }
+  ]
+}

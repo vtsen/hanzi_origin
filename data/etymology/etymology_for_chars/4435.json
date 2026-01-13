@@ -1,0 +1,73 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "到近处察看、巡视、临视",
+      "examples": [
+        "莅，视也。——《尔雅》",
+        "宿眂涤濯，莅玉鬯。——《周礼·春官》"
+      ],
+      "traditional_char": "莅"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "治理；管理；执掌政事",
+      "examples": [
+        "楚庄王莅政三年。——《韩非子·喻老》",
+        "以道莅天下，其鬼不神。——《老子》",
+        "莅中国而抚四夷也。——《孟子·梁惠王上》"
+      ],
+      "traditional_char": "莅"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "到来；亲自到场；到任",
+      "examples": [
+        "方叔莅止，其车三千。——《诗·小雅·采芑》",
+        "吾子将莅之。——《仪礼·士冠礼》",
+        "如有(暇)，則希於任何日之下午，直接莅寓為幸。——鲁迅"
+      ],
+      "traditional_char": "莅"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "onomatopoeia",
+      "meaning": "形容水声、风声",
+      "examples": [
+        "莅莅（形容流水声）",
+        "莅飒（树木摆动的声音）"
+      ],
+      "traditional_char": "莅"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从艸，立声（或位声），表草木相关，声旁表音。本义为到近处察看或巡视。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由原本的‘临视、巡视’义，扩展为‘治理、管理’之义，见先秦用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由‘临视、到近处’进一步用作‘到来、亲自到场’，见诗经、仪礼等用例。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由‘临近’引申模拟自然界声响，用作象声词，形容水声风声。"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "细小的流水",
+      "examples": [
+        "涓涓细流",
+        "涓滴归公"
+      ],
+      "traditional_char": "涓"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "选择",
+      "examples": [
+        "涓吉日",
+        "涓吉"
+      ],
+      "traditional_char": "涓"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "除去，清除",
+      "examples": [
+        "涓除不洁"
+      ],
+      "traditional_char": "涓"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“涓”为形声字，从水，肙声，表示细小的水流。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由流水纤细、分流之义引申为选择、分选之义，见于古书。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由选择进一步引申为除去、清除之义，用于挑除不洁。"
+    }
+  ]
+}

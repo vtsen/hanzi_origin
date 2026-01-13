@@ -1,0 +1,53 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "送饭给在田里劳动的人。",
+      "examples": [
+        "每日按时饷人于田间。"
+      ],
+      "traditional_char": "餉"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "同“飨”，设宴请客或犒劳。",
+      "examples": [
+        "王以酒食饷之。"
+      ],
+      "traditional_char": "餉"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "旧时军警的薪给。",
+      "examples": [
+        "军饷不足",
+        "关饷未至"
+      ],
+      "traditional_char": "餉"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“餉”形声字，从食，乡声，本指送饭食给田间劳动者。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由田间送饭引申为犒劳、宴请。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由犒劳引申为用作军警薪给。"
+    }
+  ]
+}

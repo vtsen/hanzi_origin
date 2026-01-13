@@ -1,0 +1,94 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "精神不振，形容病态或困倦的样子",
+      "examples": [
+        "病恹恹",
+        "僧体枯瘦，气息恹然，渐无生气。"
+      ],
+      "traditional_char": "恹"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "微弱、气息弱的样子",
+      "examples": [
+        "僧体枯瘦，气息恹然，渐无生气。"
+      ],
+      "traditional_char": "恹"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "安详，平静的样子",
+      "examples": [
+        "～～地睡着"
+      ],
+      "traditional_char": "恹"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "困倦，精神委靡（传统字：懨，同“恹”）",
+      "examples": [
+        "病体懨"
+      ],
+      "traditional_char": "懨"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "微弱，气息弱的样子（传统字：懨，同“恹”）",
+      "examples": [
+        "气息懨然"
+      ],
+      "traditional_char": "懨"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘恹’为形声字，从心，厌声，初本指精神不振的样子"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 3,
+      "note": "‘懨’为形声字，从心，厌声，传统字形，与‘恹’同源"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由精神不振引申为气息微弱"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "语义由精神萎靡转化延伸为平静安详"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "传统字‘懨’语义扩展至气息微弱"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "reanalysis",
+      "note": "‘懨’与‘恹’在现代语中语义等同，习惯性字形交替"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "reanalysis",
+      "note": "微弱义在简、繁体间互通"
+    }
+  ]
+}

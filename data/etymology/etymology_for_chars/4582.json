@@ -1,0 +1,89 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "鼻子出血，鼻衄。",
+      "examples": [
+        "春不鼽衄。",
+        "鼻衄，灸脚而愈。",
+        "此人奉使出门，卒尔鼻衄。"
+      ],
+      "traditional_char": "衄"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "泛指人体其他部位的出血。",
+      "examples": [
+        "血汗，即肌衄，又名脈溢，血自毛孔出。",
+        "如：耳衄，齒衄。"
+      ],
+      "traditional_char": "衄"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "挫败，损伤，失败。",
+      "examples": [
+        "流闻东军失备，师徒小衄。",
+        "莫不衄锐挫芒。",
+        "遂以貔貅之師，衄於犬羊之眾。"
+      ],
+      "traditional_char": "衄"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "畏缩，退缩。",
+      "examples": [
+        "未战而退，先自摧衄，亦古之所忌。",
+        "臨陣退衄。"
+      ],
+      "traditional_char": "衄"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "侮辱、恥辱。",
+      "examples": [
+        "辱，衄也，言折衄也。",
+        "一败不足衄，後功掩前羞。"
+      ],
+      "traditional_char": "衄"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从血，丑声，原意为鼻出血。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“鼻出血”扩展为泛指体内其他部位出血。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "以出血比喻挫败、损伤，兵败也称“衄”。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由“受挫败”引申为畏缩、退缩。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "由“受挫败”引申为侮辱、耻辱。"
+    }
+  ]
+}

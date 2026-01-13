@@ -1,0 +1,108 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古邑名，春秋郑地，后属楚。故地在今河南省郏县。",
+      "examples": [
+        "楚公子围使公子黑肱、伯州犁城犨、櫟、郟。",
+        "郏，本郑邑，后已属楚。"
+      ],
+      "traditional_char": "郟"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "古代地名，周朝东都郏鄏，在今河南省洛阳市西，又称为郏鄏。",
+      "examples": [
+        "成王定鼎于郏鄏。",
+        "王迁盟向之民于郏。"
+      ],
+      "traditional_char": "郟"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "县名，河南省郏县。",
+      "examples": [
+        "郏县在河南省平顶山市。",
+        "潁川郡郏县。"
+      ],
+      "traditional_char": "郏"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "山名，即北邙山，因郏鄏而得名。",
+      "examples": [
+        "郏山即北邙山。",
+        "以郏山得名。"
+      ],
+      "traditional_char": "郟"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "姓氏，春秋时有郏张。",
+      "examples": [
+        "春秋时有郏张。",
+        "鄭有郏张。"
+      ],
+      "traditional_char": "郟"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "夹室，内堂东西厢的后室。“郟”通“夹”。",
+      "examples": [
+        "郏室（夹室，内堂东西厢之后室）。",
+        "碑以郏为夹。"
+      ],
+      "traditional_char": "郟"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从邑，夾声，会意兼形声，表示与城邑地名有关，音从‘夾’。"
+    },
+    {
+      "formation_type": "simple_indicative",
+      "original_sense_index": 2,
+      "note": "简化字‘郏’由‘郟’演变为现今地名使用，结构更简洁。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由原古邑名泛指至更广泛的古地名，如周之旧都郏鄏。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_narrowing",
+      "note": "由历史地名转狭义指今日郏县。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "由地名指代当地山名，因地因山得名。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "synecdoche",
+      "note": "由地名泛指族属，演变为姓氏。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "‘郟’通‘夹’，借用表示夹持、夹室等意义，多见于文献用作通假。"
+    }
+  ]
+}

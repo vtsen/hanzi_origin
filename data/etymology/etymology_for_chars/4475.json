@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "粗磨刀石，磨刀用的石头",
+      "examples": [
+        "阴山多砺石。——《山海经·中山经》",
+        "金就砺则利。——《荀子·劝学》"
+      ],
+      "traditional_char": "礪"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "磨，磨利",
+      "examples": [
+        "胜自砺剑。——《史记·伍子胥列传》",
+        "惟木从绳，若金须砺。"
+      ],
+      "traditional_char": "礪"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "钻研，磨炼（比喻人的品行、意志等）",
+      "examples": [
+        "砥节砺行，终始无瑕。——《史通·品藻》",
+        "钻砺过分，则神疲而气衰。——《文心雕龙·养气》"
+      ],
+      "traditional_char": "礪"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘礪’为形声字，从石，厉声，表示磨刀石。‘砺’为简化字，亦形声，承袭本义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "conversion",
+      "note": "由名词‘磨刀石’转为动词‘磨’，用磨刀石进行的动作。用法自先秦时期已见。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由实际‘磨’引申至比喻‘磨炼’人的品行、意志等，属于抽象渊义。见六朝文献。"
+    }
+  ]
+}

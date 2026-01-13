@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "用酒精和药物配制而成的液体药剂，称为“酊剂”，简称“酊”。",
+      "examples": [
+        "碘酊",
+        "大黄酊"
+      ],
+      "traditional_char": "酊"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "形容人极度醉酒，常用于“酩酊”。",
+      "examples": [
+        "酩酊大醉",
+        "襄陽兒童歌：日夕倒載歸，酩酊無所知"
+      ],
+      "traditional_char": "酊"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "酉为意旁表酒类，丁为声旁。最初用于形容醉酒状态。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "医学借用醉酒“酊”形容含酒精的药剂，近现代形成。"
+    }
+  ]
+}

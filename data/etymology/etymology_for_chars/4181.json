@@ -1,0 +1,133 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "超车，超越，超过他人",
+      "examples": [
+        "轶五帝之遐迹兮，蹑三皇之高踪。（《汉书·扬雄传上》）",
+        "君命大事，将有西师过轶我。（《左传·僖公三十二年》）"
+      ],
+      "traditional_char": "軼"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "超绝，超群，卓越不凡",
+      "examples": [
+        "因奏褒有轶材。（《汉书·王褒传》）",
+        "轶尘（超尘出俗）"
+      ],
+      "traditional_char": "軼"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "突击，袭击",
+      "examples": [
+        "惧其侵轶我也。（《左传·隐公九年》）",
+        "汉则西羌侵轶汉中。"
+      ],
+      "traditional_char": "軼"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "车轮辗地的痕迹，车辙",
+      "examples": [
+        "结轶于道。（《史记·孝文本纪》）",
+        "主者循轶之途也。（《战国策·齐策》）"
+      ],
+      "traditional_char": "軼"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "水满则流出，溢出",
+      "examples": [
+        "道沇水，东流为泲，入于河，轶为荥。（《汉书·地理志上》）"
+      ],
+      "traditional_char": "軼"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "散失，遗失",
+      "examples": [
+        "其轶乃时时见于他说。（《史记·五帝本纪赞》）",
+        "睹轶诗，可异焉。"
+      ],
+      "traditional_char": "軼"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "adjective",
+      "meaning": "安闲逸乐，隐逸；脱俗",
+      "examples": [
+        "法严政峻，谄谀者众，日闻其美，意广心轶。（《史记·平津侯主父列传》）",
+        "无轶士，无轶民。（《后汉书·赵岐传》）"
+      ],
+      "traditional_char": "軼"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "adverb",
+      "meaning": "交替地，轮流地",
+      "examples": [
+        "自五帝以至秦，轶兴轶衰。（《史记·封禅书》）"
+      ],
+      "traditional_char": "軼"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从车，失声，表示车超出的动作。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从‘超车’义引申为‘超群’、‘卓越’等抽象超越之意。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "动作超越延伸为‘突击、袭击’，即突然通过、冲击。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "reanalysis",
+      "note": "由‘车辆超出’动作转为‘车辙’名词，与音通‘轍’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "借音通‘溢’，指水流溢出。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "假借为‘佚’，表示散失、遗失。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 6,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "借音于‘逸’，抽象为安闲逸乐、脱俗。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 7,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "假借通‘迭’，指交替地、轮流地。"
+    }
+  ]
+}

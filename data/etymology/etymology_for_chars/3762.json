@@ -1,0 +1,73 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "巷门，里巷的门，也泛指门、宫门、天门。",
+      "examples": [
+        "闳，巷门也。——《说文》",
+        "入于闳。——《左传·成公十七年》",
+        "腾九闳。——《汉书·扬雄传下》"
+      ],
+      "traditional_char": "閎"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "宏大、宽广、博大。",
+      "examples": [
+        "其器圆以闳。——《礼记·月令》",
+        "布濩闳泽。——《上林赋》",
+        "其语闳大不经，必先验小物。——《史记·孟子荀卿列传》"
+      ],
+      "traditional_char": "閎"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "深远、深邃（通“泓”）。",
+      "examples": [
+        "深闳而肆。——《庄子·天下》",
+        "闳流（深流）"
+      ],
+      "traditional_char": "閎"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [
+        "闳天（周文王四友之一）",
+        "有若閎夭。——《书·君奭》"
+      ],
+      "traditional_char": "閎"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从门，厷声，表示巷门之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由实际的门引申为广大的含义，语义比喻。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由“宽广”进一步引申出“深远、深邃”之意，属语义扩大。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "conversion",
+      "note": "地名或职官等衍生为姓氏，用作氏族。"
+    }
+  ]
+}

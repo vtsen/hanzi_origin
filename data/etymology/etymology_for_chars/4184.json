@@ -1,0 +1,90 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "谨慎，小心",
+      "examples": [
+        "予其惩而毖后患。",
+        "毖，慎也。",
+        "惩前毖后"
+      ],
+      "traditional_char": "毖"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "教导，告诫",
+      "examples": [
+        "厥诰毖庶邦。",
+        "汝劼毖殷献臣。",
+        "听朕毖"
+      ],
+      "traditional_char": "毖"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "勤劳，操劳",
+      "examples": [
+        "无毖于恤。",
+        "勤毖孝理"
+      ],
+      "traditional_char": "毖"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "犒劳，慰劳",
+      "examples": [
+        "伻来毖殷，乃命宁。",
+        "以毖来世"
+      ],
+      "traditional_char": "毖"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "（通“泌”）泉水涌流，泉流的样子",
+      "examples": [
+        "毖彼泉水，亦流于淇。",
+        "温泉毖涌而自浪。",
+        "山居赋：‘毖温泉于春流’"
+      ],
+      "traditional_char": "毖"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从比，必声，表示谨慎。本义为谨慎。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由谨慎引申为告诫劝戒，多见于典籍语言。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由谨慎引申为勤劳、操劳，体现小心操持之意。《尚书》用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由勤劳进一步引申为犒劳慰劳，有对辛勤者的酬劳之意。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "本字借音通‘泌’用，表示泉水涌流状，属于假借。"
+    }
+  ]
+}

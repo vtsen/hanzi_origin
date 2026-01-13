@@ -1,0 +1,70 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "蜥蜴类动物",
+      "examples": [
+        "胡为虺蜥。——《诗·小雅·正月》",
+        "虺，蜥也。——《祭马仆射文》原注"
+      ],
+      "traditional_char": "虺"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "毒蛇（泛指蛇类或特指蝮蛇、大毒蛇）",
+      "examples": [
+        "虺，蛇属，细颈大头，色如绶文，大者长七八尺。——《字汇》",
+        "维虺维蛇。——《诗·小雅·斯干》",
+        "雄虺九首。——《楚辞·天问》"
+      ],
+      "traditional_char": "虺"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "雷声（多形容雷声轰隆）",
+      "examples": [
+        "虺虺其雷。——《诗经·邶风·终风》"
+      ],
+      "traditional_char": "虺"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "other",
+      "meaning": "疲劳生病（多指马）",
+      "examples": [
+        "我马虺隤。——《诗·周南·汉广》"
+      ],
+      "traditional_char": "虺"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从虫，兀声，本义为蜥蜴。'虫'表意义，'兀'表音。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由蜥蜴类动物泛指为蛇类，后特指毒蛇。周代以降逐渐固定为毒蛇义。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "以毒蛇的嘶鸣喻雷声，形容巨大响声。诗经已有。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由动物形容词或状貌转借指因困倦而委靡之状，多用于马。"
+    }
+  ]
+}

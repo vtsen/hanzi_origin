@@ -1,0 +1,68 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "弯曲，不正。",
+      "examples": [
+        "戾，曲也。——《说文》"
+      ],
+      "traditional_char": "戾"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "暴恶，粗暴。",
+      "examples": [
+        "暴戾之气"
+      ],
+      "traditional_char": "戾"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "罪过，错误，乖张。",
+      "examples": [
+        "罪戾",
+        "乖戾"
+      ],
+      "traditional_char": "戾"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "至，达到。",
+      "examples": [
+        "鸢飞戾天"
+      ],
+      "traditional_char": "戾"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意，从犬从户。犬从关着的门中挤出，必曲其身，故为‘弯曲’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从‘弯曲，不正’引申为‘暴恶，不顺正道’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "‘弯曲’引申为‘罪过，乖张’意。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "‘弯曲’转为‘至，达到’（常用作‘到达极处’）。"
+    }
+  ]
+}

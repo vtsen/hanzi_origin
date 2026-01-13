@@ -1,0 +1,40 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "撮合男女婚姻的人，即媒人。",
+      "examples": [
+        "请媒人说和。",
+        "媒妁之言。"
+      ],
+      "traditional_char": "媒"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "促使双方发生联系、交流的人或事物，起中介作用。",
+      "examples": [
+        "媒介",
+        "媒体",
+        "新闻媒介"
+      ],
+      "traditional_char": "媒"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从女，某声，表示与女性和婚姻介绍有关，原指婚姻撮合人。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由婚姻介绍人引申为一般中介事物，古今广泛用于各类中介。"
+    }
+  ]
+}

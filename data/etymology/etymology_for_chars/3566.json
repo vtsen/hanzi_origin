@@ -1,0 +1,58 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "不圆的珠子或小珠",
+      "examples": [
+        "璣，珠不圆者也。《说文》",
+        "厥篚元纁玑组。《书·禹贡》",
+        "傅玑之珥。《史记·李斯传》",
+        "爱已之一苍璧小玑。《吕氏春秋·重已》"
+      ],
+      "traditional_char": "璣"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "古代观测天象的仪器中可旋转的部分（多用作“璇玑玉衡”）",
+      "examples": [
+        "在璿玑玉衡。《虞书》",
+        "璣衡，古代的一种天文仪器。",
+        "璣為轉運。《北堂书钞引书大传》"
+      ],
+      "traditional_char": "璣"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "北斗七星中的第三星（即“天玑”）",
+      "examples": [
+        "文仰陟天玑。《宋文皇帝元皇后哀策》",
+        "北斗七星，所谓‘旋、璣、玉衡以齐七政’。《史记·天官书》"
+      ],
+      "traditional_char": "璣"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从玉，幾声，玉表意指珠类之物，幾表音，初本指不圆之珠。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "因仪器珠状部分可旋转，以珠名转指天文仪器的可转动部分。汉魏间见用。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由仪器部件名借指其观测的星宿，专指北斗第三星。"
+    }
+  ]
+}

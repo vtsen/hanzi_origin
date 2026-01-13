@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "一年生草本植物，茎细，叶卵状披针形，可做黄色染料或造纸原料，称为荩草或黄草。",
+      "examples": [
+        "顾我无衣搜荩箧。",
+        "藎艸治久欬，杀皮肤小虫，又可以染黄而作金色。"
+      ],
+      "traditional_char": "藎"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "烧剩的柴木或草，也泛指剩余的事物，通“烬”。",
+      "examples": [
+        "藎滞抗绝，中息更装。",
+        "雉之不祿而雞藎穀。"
+      ],
+      "traditional_char": "藎"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "进用，引申为忠臣或忠诚，通“进”。",
+      "examples": [
+        "王之荩臣，无念尔祖。",
+        "太祖嘉伯玉忠藎，愈见亲信。"
+      ],
+      "traditional_char": "藎"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从艸，盡声，初指一种野草植物，即荩草，属于形声字。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "以音通假，转用于表示“烬”，因读音相近。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "通假为“进”，用以指进用和忠臣。"
+    }
+  ]
+}

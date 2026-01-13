@@ -1,0 +1,38 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "喂不会取食的幼儿，如喂奶、喂食。",
+      "examples": [
+        "母亲哺乳婴儿。",
+        "哺养小鸟。"
+      ],
+      "traditional_char": "哺"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "口里含着的食物。",
+      "examples": [
+        "一饭三吐哺。"
+      ],
+      "traditional_char": "哺"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘哺’为形声字，从口，甫声。‘口’表示口部动作，原指喂食。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "以喂食的动作引申为口中含着的食物，汉代已见用法。"
+    }
+  ]
+}

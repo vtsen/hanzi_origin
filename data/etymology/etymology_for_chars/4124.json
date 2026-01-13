@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "传说中的香草，古代记载其有美容之效。",
+      "examples": [
+        "《山海经》：青要之山有草焉，黄华赤实，名曰荀草。",
+        "荀草服之可以美容色。"
+      ],
+      "traditional_char": "荀"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "古代的侯国名，春秋时期为晋国所灭，位于今山西省新绛县一带。",
+      "examples": [
+        "《左传·桓公九年》：荀侯、贾伯伐曲沃。",
+        "汾水又西逕荀城东，古荀国也。"
+      ],
+      "traditional_char": "荀"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [
+        "战国时有荀况。",
+        "晋荀林父以邑为氏。"
+      ],
+      "traditional_char": "荀"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从艸，旬声，最初表示传说中的香草。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "以荀草命名地名及封国，古时常见。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "function_word",
+      "note": "由国名转为姓氏，源于食邑或贵族后裔。"
+    }
+  ]
+}

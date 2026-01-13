@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "鸲鹆，一种鸟，能模仿人说话，亦称“八哥儿”。",
+      "examples": [
+        "鸲鹆能学人言。",
+        "院中养了几只鸲鹆。"
+      ],
+      "traditional_char": "鴝"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "鸲属鸟类，体小，尾巴长，嘴短而尖，羽毛美丽。",
+      "examples": [
+        "鸲眼",
+        "鸲鸟栖于树上。"
+      ],
+      "traditional_char": "鴝"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "雉叫的声音。",
+      "examples": [
+        "又五日，雉始鴝。《逸周书·时训》",
+        "雉鷕鷕而朝鴝。《射雉赋》"
+      ],
+      "traditional_char": "鴝"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "鴝从鳥，句声，属于形声字，最早表鸟名。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_narrowing",
+      "note": "从泛指鸲属鸟类到特指“鸲鹆”（八哥儿）的意义变化。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由鸟名转指鸟叫声，常见于古汉语动物名词借指其叫声。"
+    }
+  ]
+}

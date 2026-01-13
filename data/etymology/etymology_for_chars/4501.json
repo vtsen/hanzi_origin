@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [
+        "晁错是西汉著名的御史大夫。",
+        "晁盖是《水浒传》中的人物。"
+      ],
+      "traditional_char": "晁"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "早晨，晨曦。",
+      "examples": [
+        "山鸡晨群，野雉晁雊。",
+        "于此同时天子乃以阳晁，始出乎玄宫。"
+      ],
+      "traditional_char": "晁"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "地名，古地名“晁阳”。",
+      "examples": [
+        "晁阳，县名，在东阳。"
+      ],
+      "traditional_char": "晁"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "形声字，从日，舟声，意为早晨，与“朝”同源。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "conversion",
+      "note": "由表示时间的名词转为姓氏用法，汉代以来常见。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "以“晁”作地名，古有晁阳县，属以时间或地理特征命名。"
+    }
+  ]
+}

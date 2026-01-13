@@ -1,0 +1,72 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "细致洁白的薄绸，白色细密的丝织品。",
+      "examples": [
+        "下宫糅罗纨。——《战国策·齐策》",
+        "腰若流纨素，耳著明月珰。——《孔雀东南飞》",
+        "砧练终宜擣，阶纨未暇裁。——韩愈《咏雪赠张籍》",
+        "粲粲绮与纨。——陆机《日出东南隅行》"
+      ],
+      "traditional_char": "紈"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "纨扇：用细绢制成的扇子。",
+      "examples": [
+        "扇摇纨。——《西游记》",
+        "纨扇恩情薄。"
+      ],
+      "traditional_char": "紈"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "幼小的（如纨牛）。",
+      "examples": [
+        "纨牛（小牛）"
+      ],
+      "traditional_char": "紈"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "纨绔：细绢裤，古代富家子弟穿用，后来指富家子弟。",
+      "examples": [
+        "纨绔子弟",
+        "寄言纨袴与膏粱：莫效此儿形状!——《红楼梦》"
+      ],
+      "traditional_char": "紈"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从糸，丸声，表示细绢（即细致洁白的丝织品）。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "以制品指代用途，细绢作为制作扇子的材料，称纨扇。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "以细绢之细柔洁白，引申比喻幼小柔弱。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "以材质指制品再指代社会群体，细绢裤为富家子弟所用，遂以‘纨绔’比喻富家子弟。"
+    }
+  ]
+}

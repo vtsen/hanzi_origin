@@ -1,0 +1,73 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "绑在车辕上用来牵引车子的横木",
+      "examples": [
+        "辂，车軨前横木也。——《说文》",
+        "辕缚所以属引。——《仪礼·既夕礼》",
+        "敬脱挽辂。——《史记·刘敬传》"
+      ],
+      "traditional_char": "輅"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "古代的一种大车，尤指帝王所乘之车",
+      "examples": [
+        "大辂、次辂。——《书·顾命》",
+        "乘殷之辂。——《论语》",
+        "龙辂充庭，云旗拂霓。——《文选·张衡〈东京赋〉》"
+      ],
+      "traditional_char": "輅"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "拉车；驾车",
+      "examples": [
+        "服牛辂马。——《管子·小匡》",
+        "负任担荷，服牛辂马，以周四方。——《管子·小匡》"
+      ],
+      "traditional_char": "輅"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "迎接（通“迓”）",
+      "examples": [
+        "輅，迎也。——《国语·晋语三》韦昭注",
+        "更令 梁繇靡 御，虢射 为右，輅 秦繆公。——《史记·晋世家》"
+      ],
+      "traditional_char": "輅"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从车，各声，表示车部件，与‘拉车横木’相关。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由具体部件引申为整车，尤其用于帝王之车。汉代已见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "conversion",
+      "note": "名词转为动词，表示执行此部件的动作。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "用作‘迎’的通假字，音近借用，见于《国语》《史记》。"
+    }
+  ]
+}

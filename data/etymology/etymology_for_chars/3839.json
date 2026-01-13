@@ -1,0 +1,100 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古代屋中、庙堂中用土筑成的台座，用以放置礼器、酒具等。",
+      "examples": [
+        "受虚爵复于坫。——《新唐书》",
+        "大夫于阁三，士于坫一。——《礼记·内则》",
+        "崇坫康圭。——《礼记·明堂位》"
+      ],
+      "traditional_char": "坫"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "泛指台子，商贾用以陈列物品之处，后演变为“店”。",
+      "examples": [
+        "古代商贾用以置放所卖之物的土台子，类似现在商店的柜台。后作“店”。"
+      ],
+      "traditional_char": "坫"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "文坛，特指文学界。",
+      "examples": [
+        "弱冠后，雄长坛坫。——《清史稿》"
+      ],
+      "traditional_char": "坫"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "屏障，用作遮挡之物。",
+      "examples": [
+        "坫，屏也。——《说文》"
+      ],
+      "traditional_char": "坫"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "停放灵柩以待葬之处。",
+      "examples": [
+        "坫，权安厝也。——《广韵·平侵》"
+      ],
+      "traditional_char": "坫"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "边界。",
+      "examples": [
+        "垓坫",
+        "设于无垓坫之宇。——《淮南俶真》"
+      ],
+      "traditional_char": "坫"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从土，占声，表示土台，用于祭祀、宴会等场合置礼器、酒具之处。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由礼器土台意义推广到一般用于陈列器物、商贩使用的台子。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "土台作为遮挡物，引申为屏障，如《说文》。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "metaphor",
+      "note": "由台、界限物引申喻指边界。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由土台引申为停放灵柩之土台。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由实际台引申为文坛，即文学界。"
+    }
+  ]
+}

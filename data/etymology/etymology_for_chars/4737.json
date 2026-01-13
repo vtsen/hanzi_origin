@@ -1,0 +1,66 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "用鸡毛或布条绑成的除尘用具，如掸子、掸帚等。",
+      "examples": [
+        "她拿起掸子清扫桌子上的灰尘。"
+      ],
+      "traditional_char": "撣"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "用掸子轻轻拂打或抽去灰尘。",
+      "examples": [
+        "他把桌子掸得很干净。"
+      ],
+      "traditional_char": "撣"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "中国史书上对傣族的一种称呼。",
+      "examples": [
+        "掸族是中国西南的一个民族。"
+      ],
+      "traditional_char": "掸"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "缅甸民族之一，大多数居住在掸邦。",
+      "examples": [
+        "缅甸掸邦是掸族的主要聚居地。"
+      ],
+      "traditional_char": "掸"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "撣：形声字，从手，单声；最初指拂尘等动作或用具。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 2,
+      "note": "掸：形声字，从手，单声，为对傣族的音译用字。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "conversion",
+      "note": "由用具名转为动作名，见于汉语常用词转换规律。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由中国史书记载民族用名扩展到缅甸民族的称呼。"
+    }
+  ]
+}

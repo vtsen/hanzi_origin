@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "横向的距离小，狭小，窄小，与“宽”相对。",
+      "examples": [
+        "这条路很窄。",
+        "冤家路窄。",
+        "门太窄了，进不去。"
+      ],
+      "traditional_char": "窄"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "心胸不开阔，气量小。",
+      "examples": [
+        "他心窄，不肯原谅别人。",
+        "做人不要太心窄。"
+      ],
+      "traditional_char": "窄"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "生活贫困，日子过得紧巴。",
+      "examples": [
+        "日子过得挺窄。",
+        "家里条件窄，孩子很懂事。"
+      ],
+      "traditional_char": "窄"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从穴，乍声，原指空间狭小。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由空间狭小引申为心胸气量狭小，见于近现代。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由空间的窄小比喻生活条件拮据，见于现代汉语口语。"
+    }
+  ]
+}

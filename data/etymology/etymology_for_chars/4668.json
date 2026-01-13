@@ -1,0 +1,70 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "咨询，询问；征求意见，特指对祭祀、征伐、行政等事宜请教他人。",
+      "examples": [
+        "周爰咨诹。——《诗·小雅·皇皇者华》",
+        "以咨诹善道。——诸葛亮《出师表》"
+      ],
+      "traditional_char": "諏"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "商议，共同谋划。",
+      "examples": [
+        "诹，聚谋也。——《说文》",
+        "诹谋（谋议；商议）"
+      ],
+      "traditional_char": "諏"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "挑选，选择（如选择吉日）。",
+      "examples": [
+        "特牲馈食之礼，不诹日。——《仪礼》",
+        "诹吉（选择吉日）"
+      ],
+      "traditional_char": "諏"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "同“謅”，无意义闲谈或作词（罕用方言义）。",
+      "examples": [
+        "閑呵諏，歪嗑牙，發喬科。——元 顧德潤《罵玉郎過感皇恩采茶歌•述懷》"
+      ],
+      "traditional_char": "諏"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从言，取声，表示咨询、询问。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“咨询、询问”引申为“商议”，语义扩展，早见《说文》、《尔雅》。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由“商议”意义下，进一步引申出“选择、挑选”，如‘诹吉’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "unknown",
+      "note": "转为同“謅”，闲谈意，义源不详（元代方言用法）。"
+    }
+  ]
+}

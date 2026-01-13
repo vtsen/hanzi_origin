@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "怒目直视",
+      "examples": [
+        "他生气地瞪了我一眼。",
+        "瞪视对方。"
+      ],
+      "traditional_char": "瞪"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "睁大眼睛发呆",
+      "examples": [
+        "目瞪口呆。",
+        "他只会瞪着眼发呆。"
+      ],
+      "traditional_char": "瞪"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从目，登声。本义为怒目直视。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由怒视义引申为睁大眼发呆，出现于现代汉语。"
+    }
+  ]
+}

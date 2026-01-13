@@ -1,0 +1,89 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "紫菀（一种多年生菊科草本植物，根可入药）",
+      "examples": [
+        "紫菀，其根色紫而柔宛，故名。——《本草》",
+        "茈菀，出汉中房陵。——《说文》"
+      ],
+      "traditional_char": "菀"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "草木茂盛的样子，繁盛、茂密",
+      "examples": [
+        "有菀其特。——《诗·小雅·正月》",
+        "菀彼桑柔。——《诗·大雅·桑柔》",
+        "菀然茂特之苗。——《毛传》"
+      ],
+      "traditional_char": "菀"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "苑囿，养植动植物的园地（“苑”的通假字）",
+      "examples": [
+        "詔書罷菀，而以賜賢。——《汉书·王嘉传》",
+        "地者，萬物之本原，諸生之根菀也。——《管子·水地》"
+      ],
+      "traditional_char": "菀"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "枯病，草木衰败的样子",
+      "examples": [
+        "菀柳（枯败的柳树，比喻腐败的政治）",
+        "枯林再菀，涸轍重流。——《徐渭·又启严公》"
+      ],
+      "traditional_char": "菀"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "积聚、郁结（同“蕴”“蘊”）",
+      "examples": [
+        "菀积也——《素问·五藏生成篇》",
+        "我心菀结。——《诗·都人士》",
+        "悲心入秋夜，菀邑思飞扬。——《黄景仁》"
+      ],
+      "traditional_char": "菀"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从艸，宛声，最初表示紫菀植物。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "从紫菀草本植物的繁盛状态，引申为草木茂盛的样子，西周《诗经》上已有用法。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "“草木茂盛”引申为人工种植茂盛动植物的园地，即“苑”的通假。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "由“茂盛”移转引申为“枯病”（草木枯萎与繁茂相对），常见在比较用法如“菀枯”。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "草木茂盛不散，引申为情绪或气体的郁结、积聚，古时通“蕴”。"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "忏悔，自陈懊悔，向他人或神明承认过错以求宽恕",
+      "examples": [
+        "佛教讲究忏悔。",
+        "佐愕然愧忏。——《晋书·佛图澄传》",
+        "忏礼（忏悔礼拜）"
+      ],
+      "traditional_char": "懺"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "佛教、道教中祈求宽恕或忏悔的经文及仪式",
+      "examples": [
+        "拜忏",
+        "忏法",
+        "忏礼（忏悔礼拜）"
+      ],
+      "traditional_char": "懺"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "愤怒，生气（古义）",
+      "examples": [
+        "忏，怒也。——《玉篇》"
+      ],
+      "traditional_char": "懺"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "喜好（秦晋方言，古义）",
+      "examples": [
+        "自关而西，秦晋之闲，呼好为忏。——《扬子·方言》"
+      ],
+      "traditional_char": "懺"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 2,
+      "note": "懺为形声字，从心，僉声；原本义为怒，心之激动。后为佛教用，与忏悔相关。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "简化字忏由懺简化而来，意符为心，声符为戔（源自僉）；佛教传入后主要用于忏悔语境。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "“怒”向“好”的变化为方言语义转移；秦晋方言以忏为“好”。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 0,
+      "evolution_type": "semantic_shift",
+      "note": "由“怒”转化为“忏悔”，即强烈内心情感向自责忏悔义的转变，主要因佛教汉化影响。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由“忏悔”（动作、行为）引申为“忏悔的文仪、经文”。"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "水名。湖南省西部沅江或沅水，源出贵州省云雾山，流入洞庭湖。",
+      "examples": [
+        "沅水出牂牁故且蘭，東北入江。",
+        "乘舲船余上沅兮，齊吳榜以擊汰。（《楚辭·九章》）",
+        "沅蘭芳可佩，極目楚江濱。（清·魏麟徵）"
+      ],
+      "traditional_char": "沅"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "以沅水命名的州、縣、地名等。",
+      "examples": [
+        "沅陵縣",
+        "沅江縣",
+        "唐沅州"
+      ],
+      "traditional_char": "沅"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从“水”表义，“元”表音，指沅水，为形声字。最初专指水名。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "以河流名指称流域相关州、县等地名，见于历史地理命名习惯。"
+    }
+  ]
+}

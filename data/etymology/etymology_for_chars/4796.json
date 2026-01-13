@@ -1,0 +1,82 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "山上的大石，或指坚硬的石头、美石。",
+      "examples": [
+        "上无草木，而多硌石。——《山海经》",
+        "是故不欲禄禄若玉，硌硌若石。——《老子》"
+      ],
+      "traditional_char": "硌"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "石块或砂砾，小石子堆。",
+      "examples": [
+        "对面南房上又站着一个黑粗的大汉……已把房上的瓦揭起一硌来放在身旁。——《儿女英雄传》"
+      ],
+      "traditional_char": "硌"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "堆叠，摞起来。",
+      "examples": [
+        "他却搬张桌子，又硌张椅子，坐在上面。——《儿女英雄传》"
+      ],
+      "traditional_char": "硌"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "身体与凸起的硬物接触，感到难受或受到损伤。",
+      "examples": [
+        "这条石子路真硌脚。",
+        "妈妈很嚼不动那个，没的倒硌了他的牙。——《红楼梦》"
+      ],
+      "traditional_char": "硌"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "onomatopoeia",
+      "meaning": "模仿硬物碰撞的声音，如“硌吱”、“硌磴”。",
+      "examples": [],
+      "traditional_char": "硌"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘硌’从‘石’，‘各’声，最初表示大石头，属形声字，‘石’表义，‘各’表音。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从指大石引申为石块、砂砾及堆叠成的堆，汉代及后世用例。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由石堆引申为堆叠动作，清代小说用例。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "因石为常见硬物，转指硬物触体，使人不适或损伤，现代汉语常用义。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "模仿石头等硬物碰撞的声音，形成拟声词。"
+    }
+  ]
+}

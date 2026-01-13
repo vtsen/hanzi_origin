@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "眼睛昏花，看不清楚",
+      "examples": [
+        "头昏目眩",
+        "目眩神迷"
+      ],
+      "traditional_char": "眩"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "使人迷惑、迷乱",
+      "examples": [
+        "眩于名利",
+        "不为声色所眩"
+      ],
+      "traditional_char": "眩"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "炫耀，显示，卖弄（为“炫”的通假）",
+      "examples": [
+        "自眩其能",
+        "眩耀其德"
+      ],
+      "traditional_char": "眩"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从目，玄声，表示视力模糊的状态"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由眼花不清引申为心神迷惑；先秦两用"
+    },
+    {
+      "source_index": 2,
+      "target_index": 1,
+      "evolution_type": "unknown",
+      "note": "“眩”为“炫”的通用或混用，意义关系不明"
+    }
+  ]
+}

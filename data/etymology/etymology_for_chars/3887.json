@@ -1,0 +1,90 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "有花纹的石头",
+      "examples": [
+        "砀，文石也。从石，昜声。——《说文》",
+        "君看石芒砀，掩泪悲千古。——李白《丁都护歌》",
+        "墉垣砀基，其光昭昭。——《景福殿赋》"
+      ],
+      "traditional_char": "砀"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "古地名、山名，在今安徽省砀山、河南归德一带",
+      "examples": [
+        "梁国砀。——《汉书·地理志》。注：“山出文石，在今河南归德府。”",
+        "高帝隐于芒砀山泽间。——《汉书·高帝纪上》",
+        "沛公军砀。——《史记·项羽本纪》"
+      ],
+      "traditional_char": "砀"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "被冲荡而出、振荡、冲击",
+      "examples": [
+        "奇舟之鱼，砀而失水，则蚊能苦之。",
+        "吞舟之鱼，碭而失水，则蚁能苦之。——《庄子·庚桑楚》",
+        "回猋肆其砀骇兮"
+      ],
+      "traditional_char": "砀"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "广大",
+      "examples": [
+        "玄玄至砀而运照。——《淮南子·本经训》",
+        "碭，大也。盛德之君，恩仁广大，遍照四海也。"
+      ],
+      "traditional_char": "砀"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adverb",
+      "meaning": "突然",
+      "examples": [
+        "肱砀骇以奋肆。——马融《长笛赋》。注：“突也。”",
+        "砀骇（突然跌起）"
+      ],
+      "traditional_char": "砀"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从石，昜声，表示有花纹的石头。本义为文石。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由有花纹的石头引申为产此石的地名或山名，见于汉书、史记。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "花纹石给人以波动、荡漾之意，引申为冲荡、振荡等动作。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "文石花纹广布，引申为广大之意，用于抽象表述。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由振荡、冲击引申为“突然”，强调动作的突发性。"
+    }
+  ]
+}

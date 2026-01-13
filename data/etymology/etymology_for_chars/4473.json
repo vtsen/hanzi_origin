@@ -1,0 +1,52 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "天平或秤上的標準重量物體，多用金屬製成，亦作“法碼”、“法馬”。",
+      "examples": [
+        "砝码已经被放在天平上。"
+      ],
+      "traditional_char": "砝"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "硬。",
+      "examples": [
+        "砝，硬也。【廣韻】"
+      ],
+      "traditional_char": "砝"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "石聲。",
+      "examples": [
+        "砝，石聲也。"
+      ],
+      "traditional_char": "砝"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "左‘石’旁表意，右‘法’表音，最初指‘硬’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "‘硬’引申为‘石声’，二者皆与石的属性有关。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "由‘硬’引申为‘用于称重的标准金属块’。"
+    }
+  ]
+}

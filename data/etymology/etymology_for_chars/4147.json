@@ -1,0 +1,68 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "关猛兽或其他畜兽的木笼；猛兽笼。",
+      "examples": [
+        "虎兕出于柙。",
+        "柙，槛也，以藏虎兕。"
+      ],
+      "traditional_char": "柙"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "用囚笼、囚车关押或押解（人或动物）。",
+      "examples": [
+        "遂生束缚而柙以予齐。"
+      ],
+      "traditional_char": "柙"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "匣子、柜等收藏物品的器具（通“匣”）。",
+      "examples": [
+        "柙而藏之，不敢用也。",
+        "义陵，寝神衣在柙中。"
+      ],
+      "traditional_char": "柙"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "木名，一种树。",
+      "examples": [
+        "枫柙栌枥，帝女之桑。"
+      ],
+      "traditional_char": "柙"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从木，甲声。‘木’表示与木器有关，‘甲’为声符，最初表示关猛兽的木笼。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 3,
+      "note": "同一形声结构，‘木’为义旁，‘甲’为声旁，表示木名，用于一种树。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "grammaticalization",
+      "note": "由名词‘关兽的木笼’引申为用囚笼或囚车押解、关押（动词用法），汉至魏晋。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "从关动物的木笼扩展为一般收藏物品的匣子或柜，含义推广。"
+    }
+  ]
+}

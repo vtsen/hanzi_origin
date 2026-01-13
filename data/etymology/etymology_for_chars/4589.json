@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "两大腿之间，即股间或髋部，亦指与腰相连的部位。",
+      "examples": [
+        "出我胯下。——《史记·淮阴侯列传》",
+        "两胯骿骨，顶上隆起。——《梁书·武帝纪》"
+      ],
+      "traditional_char": "胯"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "指衣服掩蔽股胫的部分，通常指古代腰胯部的服饰或衣料。",
+      "examples": [
+        "詔武臣服缺胯襖子，取軍用，如服有所妨也。——五代·马缟《中华古今注》",
+        "缺胯襖子"
+      ],
+      "traditional_char": "胯"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "measure_word",
+      "meaning": "古代的量词，用于以玉为饰的革带或用于某些物品如茶叶的计数单位。",
+      "examples": [
+        "靖破萧铣时，所赐于阗玉带十三胯。——《新唐书·李彦芳传》",
+        "泗州场岁供进新茶千胯。——《金史·食货志五》"
+      ],
+      "traditional_char": "胯"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "腇肥貌，形容肥厚、丰满的状态（仅古文中偶见）。",
+      "examples": [
+        "腇胯肥貌。",
+        "胯，枯买切，腇肥皃。"
+      ],
+      "traditional_char": "胯"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从肉，夸声，表示人体部位相关的含义，原指两股之间。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由身体部位‘胯’引申为覆盖该部位的服饰，唐宋以后文献可见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由物理部位形态引申为类似形状或者部位的量词用法，用于带饰和茶叶等。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由器官部位描述进一步引申为描述肥厚状态的形容词。"
+    }
+  ]
+}

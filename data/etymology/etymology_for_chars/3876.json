@@ -1,0 +1,74 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "树枝的细梢，树木末端。",
+      "examples": [
+        "偃蹇杪颠。——司马相如《上林赋》",
+        "巴山一夜雨，树杪百重泉。——王维《送梓州李使君》",
+        "明月挂树杪。——朱德《游南泥湾》"
+      ],
+      "traditional_char": "杪"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "年、月、季节等的末尾。",
+      "examples": [
+        "必于岁之杪。——《礼记·王制》",
+        "再来值秋杪，高阁夜无喧。——孟浩然《夜登孔伯昭南楼》",
+        "以上係九月十六日以後迄九月杪之事。——蔡锷《滇省光復始末記》"
+      ],
+      "traditional_char": "杪"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "微小，细微。",
+      "examples": [
+        "阔略杪小之礼。——《后汉书·冯衍传》",
+        "杪杪，谓渺小。",
+        "杪忽，极小的量度单位。"
+      ],
+      "traditional_char": "杪"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "measure_word",
+      "meaning": "时间的极小单位（等同“秒”）；角度的极小单位（等同“秒”）。",
+      "examples": [
+        "每岁差一分五十杪。——田艺蘅《留青日札》",
+        "日蝕之分杪，五星之陵犯， 占驗皆可推矣。——全祖望《刘继庄传》"
+      ],
+      "traditional_char": "杪"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从木，少声，表示树木末端。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由树梢末端喻指时间事物的末尾。汉代已见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由树梢之细小，引申为微小、细微。古籍中有“杪小”等用法。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由‘微小’再转用作时间或角度极小单位‘秒’的量词用法，见于明清。"
+    }
+  ]
+}

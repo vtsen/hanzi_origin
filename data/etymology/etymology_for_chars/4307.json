@@ -1,0 +1,85 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "树荫；遮盖物。",
+      "examples": [
+        "今俗呼树蔭为庥。——《尔雅·释言》",
+        "庥，蔭也。——《释言》"
+      ],
+      "traditional_char": "庥"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "覆盖，为……带来荫护。",
+      "examples": [
+        "庥，蔭也。——《释言》",
+        "武当建天玄宝殿，以报神庥。——《英烈传》"
+      ],
+      "traditional_char": "庥"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "庇护；保护。",
+      "examples": [
+        "诸侯之会霸主，小国，则固畏其力而望其庥焉者也。——唐 柳宗元",
+        "子孙蒙庥也，宜哉！——清 冯桂芬"
+      ],
+      "traditional_char": "庥"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "休息，止息。",
+      "examples": [
+        "可列坐而庥焉。——唐 柳宗元《石渠记》"
+      ],
+      "traditional_char": "庥"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "美善。",
+      "examples": [
+        "有多士之庥，而用人必出於至当也。——清 何启 胡礼垣"
+      ],
+      "traditional_char": "庥"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从广，休声，本义为树荫、遮蔽。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由树荫指向动作：覆盖、荫护，意涵由名词至动词的外延。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由覆盖引申为庇护、保护，常见语义外延。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "从在树荫下休息引申为‘歇息’，属隐喻。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由安居、歇息引申为美善状态，褒义发展。"
+    }
+  ]
+}

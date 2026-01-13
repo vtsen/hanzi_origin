@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "没有；无",
+      "examples": [
+        "靡不有初，鲜克有终。",
+        "靡靡之音"
+      ],
+      "traditional_char": "靡"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "浪费，奢侈",
+      "examples": [
+        "靡费无度",
+        "侈靡之风"
+      ],
+      "traditional_char": "靡"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "分散，消灭",
+      "examples": [
+        "靡靡之兵",
+        "靡散"
+      ],
+      "traditional_char": "靡"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "腐烂，糜烂",
+      "examples": [
+        "筋骨靡烂",
+        "肌肤靡然"
+      ],
+      "traditional_char": "靡"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从“非”作意符，‘麻’为声符，原意为无、没有。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从“无”引申为“浪费、奢侈”，即没有节制。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由“无，有消散”的含义，引申为分散、消灭。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "古通‘糜’，指腐烂，或许因音近及‘消散’义演变。"
+    }
+  ]
+}

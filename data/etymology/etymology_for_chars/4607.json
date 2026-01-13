@@ -1,0 +1,103 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "鸡栖的木桩，小木桩",
+      "examples": [
+        "鸡栖于桀。——《诗·王风·君子于役》",
+        "城希裾门而直桀。——《墨子》"
+      ],
+      "traditional_char": "桀"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "特出，高出，优秀，杰出",
+      "examples": [
+        "邦之桀兮。——《诗·卫风·伯兮》",
+        "初之列士桀大夫，慎言知行。——《墨子·非命中》",
+        "杰然特起。——唐·柳宗元《至小丘西小石潭记》"
+      ],
+      "traditional_char": "桀"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "杰出的人，俊才",
+      "examples": [
+        "简练桀俊。——《礼记·月令》",
+        "一国高为桀也。"
+      ],
+      "traditional_char": "桀"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "凶悍，凶暴，横暴",
+      "examples": [
+        "桀猾时起。",
+        "桀傲不驯"
+      ],
+      "traditional_char": "桀"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "举起（通“揭”）",
+      "examples": [
+        "桀石以投人。——《左传·成公二年》"
+      ],
+      "traditional_char": "桀"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "夏朝末代君主名，相传是暴君",
+      "examples": [
+        "桀纣",
+        "夏桀"
+      ],
+      "traditional_char": "桀"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "pictograph",
+      "original_sense_index": 0,
+      "note": "“桀”初作㘶，本义为木桩，形声兼象形字，从木，舛为符号，形似鸡栖之木，后引申诸义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由高出的木桩比喻高出的人，古代比喻杰出之意（先秦）"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "从形容词‘杰出’泛化为称呼‘杰出的人’（两汉）"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "‘特出’引申出‘桀骜’——不服约束、野性难驯，引申为‘凶悍、凶暴’（战国、两汉见）"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "以‘特出、杰出’之义用作夏桀之名，后专指夏朝末君主"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "reanalysis",
+      "note": "木桩形象与举物相联系，后与‘揭’音义通假，表示‘举起’（通假字现象）"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "劳苦，辛劳，勤劳",
+      "examples": [
+        "母氏劬劳。",
+        "虽日夕而忘劬。",
+        "劬心劳力。",
+        "搜罗之力颇劬。"
+      ],
+      "traditional_char": "劬"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "慰劳，犒赏，对辛劳者给予奖励",
+      "examples": [
+        "食子者三年而出，见于公宫则劬。",
+        "君有以劳赐之。"
+      ],
+      "traditional_char": "劬"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adverb",
+      "meaning": "多次，屡次",
+      "examples": [
+        "劬数也。"
+      ],
+      "traditional_char": "劬"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从力，句声。本义为劳苦，与力有关，句表声音。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "conversion",
+      "note": "由形容词“劳苦”引申为动词“慰劳”，以劳苦之人为对象，出现在《礼记》，东周时期。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由劳苦之意引申出“多次、屡次”，指不断辛劳之次数，见于古文。"
+    }
+  ]
+}

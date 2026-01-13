@@ -1,0 +1,107 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "漓江，广西的一条河流。",
+      "examples": [
+        "桂林山水甲天下，尤以漓江最为著名。"
+      ],
+      "traditional_char": "漓"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "水渗入地，或液体缓缓流下、沾湿。",
+      "examples": [
+        "云霏霏而来迎兮，泽渗漓而下降。",
+        "金盘玉露自淋漓，元气茫茫收不得。"
+      ],
+      "traditional_char": "漓"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "薄、浅薄、浇薄（常指人情或风俗、酒等）。",
+      "examples": [
+        "淳漓",
+        "漓俗",
+        "士风日灕矣。",
+        "一卷之诗有淳漓，一篇之诗有善病。"
+      ],
+      "traditional_char": "漓"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "薄酒。",
+      "examples": [
+        "众人皆醉，何不餔其糟而歠其漓？",
+        "餔糟啜漓，皆可以醉。"
+      ],
+      "traditional_char": "漓"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "酣畅淋漓，形容尽兴、畅快之态。",
+      "examples": [
+        "淋漓痛饮长亭暮，慷慨悲歌白发新。"
+      ],
+      "traditional_char": "漓"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "背离，喪失。",
+      "examples": [
+        "与性情相漓。"
+      ],
+      "traditional_char": "漓"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "‘漓’从水，离声，本义为液体渗入、流淌。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "‘灕’为漓的古字或繁体变体，同样从水，离声，表水渗入地。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "metonymy",
+      "note": "以渗流之义引申为河流名，属于地名的形成。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由水稀释、渗散，引申为品质或情感的稀薄、浅薄。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由“水稀释”之意，引申为薄酒。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "形容液体流淌不止，引申为情感或行为酣畅。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 5,
+      "evolution_type": "semantic_shift",
+      "note": "浅薄、稀薄引申为背离、本质丢失。"
+    }
+  ]
+}

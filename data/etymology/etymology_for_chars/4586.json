@@ -1,0 +1,41 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古代的一种锅，敛口圜底，多为金属或陶制，用于烹煮食物。",
+      "examples": [
+        "釜底抽薪",
+        "破釜沉舟",
+        "大釜煮粥"
+      ],
+      "traditional_char": "釜"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "古代容量单位，春秋战国时期多为量器名，标准不一。",
+      "examples": [
+        "以釜为量",
+        "一釜米",
+        "昔之量釜者"
+      ],
+      "traditional_char": "釜"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从金省，表器皿类，父为声符，表示古炊器釜。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "因以‘釜’为量器，故引申为容量单位名；多见于春秋战国等古籍。"
+    }
+  ]
+}

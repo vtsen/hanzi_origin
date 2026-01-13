@@ -1,0 +1,84 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "轻薄，不庄重，言语举止轻浮或轻率",
+      "examples": [
+        "视民不佻。",
+        "轻佻巧诈。"
+      ],
+      "traditional_char": "佻"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "窃取，偷取（如窃取功劳、名利等）",
+      "examples": [
+        "佻天之功以为己力。",
+        "或佻窃虚名，而躬自为之。"
+      ],
+      "traditional_char": "佻"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "悬挂",
+      "examples": [
+        "佻，縣也。（《方言》）"
+      ],
+      "traditional_char": "佻"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "轻疾，迅捷",
+      "examples": [
+        "佻，疾也。（《方言》）"
+      ],
+      "traditional_char": "佻"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "宽缓，延缓",
+      "examples": [
+        "佻其期日，而利其巧任。（《荀子·王霸》）"
+      ],
+      "traditional_char": "佻"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从人，兆声。本义为轻薄不庄重，有与‘兆’音义相关，‘人’表示人之行为特征。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由人的轻浮不谨，引申为行为上的窃取或偷取，类似‘不庄重’→‘不守正道’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "由‘轻薄、不庄重’引申为‘轻疾、迅捷’，轻佻之人行动敏捷。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "义项演变不明，文献记述为悬挂，可能与轻率浮动有关。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "unknown",
+      "note": "‘轻薄’至‘宽缓/延缓’义，转变路径不详，见于《荀子·王霸》。"
+    }
+  ]
+}

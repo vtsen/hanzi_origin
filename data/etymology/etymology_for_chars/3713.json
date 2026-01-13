@@ -1,0 +1,100 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "山名。在陕西省岐山县的岐山。",
+      "examples": [
+        "王用享于岐山。——《易·升》"
+      ],
+      "traditional_char": "岐"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "分支，岔路；事物有分岐之处。",
+      "examples": [
+        "即歧趾而胪情。——张衡《思玄赋》",
+        "岐路人"
+      ],
+      "traditional_char": "岐"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "高低不平，崎岖。",
+      "examples": [
+        "岐岖自列。——陆机《谢平原内史表》"
+      ],
+      "traditional_char": "岐"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "踮起脚跟，通“企”。",
+      "examples": [
+        "诞实匍匐，克岐克嶷。——《诗·大雅·生民》"
+      ],
+      "traditional_char": "岐"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "古地名。今陕西省岐山县、岐州等地。",
+      "examples": [
+        "岐山在今陕西省岐山县东北。",
+        "岐州，唐代地名。"
+      ],
+      "traditional_char": "岐"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "岐伯，传说中黄帝时名医。",
+      "examples": [
+        "岐黄之术",
+        "岐伯为医家之祖。"
+      ],
+      "traditional_char": "岐"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 4,
+      "note": "会意兼形声，从山，从支省声，本义为古地名和山名。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 4,
+      "target_index": 0,
+      "evolution_type": "synecdoche",
+      "note": "地名‘岐’具体化为地理实体（山名）。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "因岐山有分支，引申为‘分支’、‘岔路’意。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "因山势高低不平，引申为‘崎岖’义。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "unknown",
+      "note": "‘岐’通‘企’，古文用法，具体机制不明，或因音近。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 5,
+      "evolution_type": "metonymy",
+      "note": "岐山与岐伯传说相关联，地名代指历史人物。"
+    }
+  ]
+}

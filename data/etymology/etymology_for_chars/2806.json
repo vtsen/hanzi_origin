@@ -1,0 +1,86 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "墙上或物体上的裂缝、裂隙",
+      "examples": [
+        "缝隙",
+        "隙大而墙坏"
+      ],
+      "traditional_char": "隙"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "人际或感情中的裂痕、不和",
+      "examples": [
+        "隙嫌",
+        "有隙",
+        "仇隙"
+      ],
+      "traditional_char": "隙"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "空闲、闲暇、空地",
+      "examples": [
+        "隙地",
+        "农隙"
+      ],
+      "traditional_char": "隙"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "机会、空子",
+      "examples": [
+        "乘隙"
+      ],
+      "traditional_char": "隙"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "靠近、交接之际",
+      "examples": [
+        "北隙乌丸、夫馀"
+      ],
+      "traditional_char": "隙"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声兼会意字，从阜（土山）表地理特征，亦声，初指墙上或地表的裂缝。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "将物理裂缝比喻为人际或感情间的裂痕，先见于先秦文献。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "空隙、暇隙引申为空闲、空地，语义发展常见于汉代。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "从空闲、空地引申为‘机会’，即利用间隙以行动。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由裂缝、缝隙引申为‘交接之际’之意，用于地理及时间临界。"
+    }
+  ]
+}

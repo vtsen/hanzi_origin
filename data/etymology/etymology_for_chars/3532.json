@@ -1,0 +1,179 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古代书写用的小木片",
+      "examples": [
+        "皆一札十行，细书成文。",
+        "上令尚书给笔札。"
+      ],
+      "traditional_char": "札"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "书信，信件",
+      "examples": [
+        "客从远方来，遗我一书札。",
+        "余接此札，如闻青天霹雳。"
+      ],
+      "traditional_char": "札"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "古代一种官方公文或文书",
+      "examples": [
+        "札子（古代官方公文的一种）",
+        "付其一札，以敕葛陂君。"
+      ],
+      "traditional_char": "札"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "甲胄上用皮革或金属制成的叶片",
+      "examples": [
+        "养由基蹲甲而射之，彻七札焉。",
+        "不可以一札待锋刃也。"
+      ],
+      "traditional_char": "札"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "疫病或因疫病死亡",
+      "examples": [
+        "大札则不举。",
+        "土气和，亡札厉。"
+      ],
+      "traditional_char": "札"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "拔除，拔出",
+      "examples": [
+        "毫末不札，将寻斧柯。"
+      ],
+      "traditional_char": "札"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "夭死",
+      "examples": [
+        "民不夭札。",
+        "其夭札也？"
+      ],
+      "traditional_char": "札"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "verb",
+      "meaning": "书写",
+      "examples": [
+        "寤言札诸闼。"
+      ],
+      "traditional_char": "札"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "verb",
+      "meaning": "缠绕，绑缚",
+      "examples": [
+        "札裹（收拾；打扮）",
+        "札缚（结扎；捆缚）"
+      ],
+      "traditional_char": "札"
+    },
+    {
+      "index": 9,
+      "part_of_speech": "verb",
+      "meaning": "刺（同“扎”）",
+      "examples": [
+        "语来言去各仇恨，棒迎拐架当心札。"
+      ],
+      "traditional_char": "札"
+    },
+    {
+      "index": 10,
+      "part_of_speech": "verb",
+      "meaning": "用油炸（同“炸”）",
+      "examples": [
+        "和尚身微骨嫩，俱札化了。"
+      ],
+      "traditional_char": "札"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从木，札声，最初表示用木做成的小片用于书写。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "小木片作为书写媒介，引申为信件。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "书写木片进而用作官方公文之意。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "木片状，比喻为甲胄叶片。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_shift",
+      "note": "用以疫死状（片刻之命），古文中以“札”借指疫病或疫死。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "semantic_shift",
+      "note": "从木片之义引申指拔除（如拔木）。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 6,
+      "evolution_type": "semantic_narrowing",
+      "note": "由疫死泛指引申为夭死。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 7,
+      "evolution_type": "function_word",
+      "note": "通过札体现书写行为，书写用札，动用为‘写’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 8,
+      "evolution_type": "metaphor",
+      "note": "木片缠绕、捆束，引申为缠绕、绑缚之义。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 9,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "通“扎”，同音借用为刺。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 10,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "通“炸”，同音借用为油炸。"
+    }
+  ]
+}

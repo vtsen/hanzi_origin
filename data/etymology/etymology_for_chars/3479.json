@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "用牙齿咬碎食物；咀嚼。",
+      "examples": [
+        "细嚼慢咽",
+        "味同嚼蜡"
+      ],
+      "traditional_char": "嚼"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "（用于某些复合词）咀嚼。",
+      "examples": [
+        "咀嚼",
+        "反复咀嚼"
+      ],
+      "traditional_char": "嚼"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "反刍，牛等动物把粗粗咀嚼后咽下去的食物再反回到嘴里细细咀嚼。",
+      "examples": [
+        "倒嚼"
+      ],
+      "traditional_char": "嚼"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从口，爵声，表示用口齿咬碎食物。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "用于复合词时意义泛指咀嚼，语言习惯所致。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由一般的咀嚼扩展为动物的反刍行为。"
+    }
+  ]
+}

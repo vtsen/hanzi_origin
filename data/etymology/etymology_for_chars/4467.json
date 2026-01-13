@@ -1,0 +1,87 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古代炊具，三足中空，形状似鼎，用于烧煮或烹炒食物",
+      "examples": [
+        "禹收九牧之金，铸九鼎……其空足曰鬲。——《汉书·郊祀志上》",
+        "釜鬲而爨者。——柳宗元《非国瓖·三川震》"
+      ],
+      "traditional_char": "鬲"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "通“膈”，指横膈膜或胸腹之间的膜状肌肉",
+      "examples": [
+        "食饮不下，鬲塞不通。——《素问·风论篇》",
+        "佗针鬲，随手而差。——《三国志·魏书·华佗传》"
+      ],
+      "traditional_char": "鬲"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "通“隔”，阻隔、隔绝之意",
+      "examples": [
+        "鬲闭门户，毋得擅上。——《汉书·五行志中》",
+        "别异蛮夷，鬲绝器物。——《汉书·南越王赵佗传》"
+      ],
+      "traditional_char": "鬲"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "古国名或古县名（鬲国／鬲县），又作地名、河名",
+      "examples": [
+        "初，陈郡袁毅尝为鬲令。——《晋书·山涛传》",
+        "鬲津，古水名，即今漳卫新河"
+      ],
+      "traditional_char": "鬲"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "通“槅”，大车的轭；车上系在轭前架于马颈的部件",
+      "examples": [
+        "鬲长六尺。——《周礼·考工记》",
+        "鬲，谓轳端厌牛领者。"
+      ],
+      "traditional_char": "鬲"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "pictograph",
+      "original_sense_index": 0,
+      "note": "全体象形字，甲骨、金文像三足炊器的形状。本义为古炊具。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由中空容器喻身体隔膜（横膈膜），因两者均为分隔空间的结构。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由中空分隔形状转喻‘阻隔’、‘隔开’之意，常见象形词转抽象。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "地名、国名借用器物名，多见于地理或行政区划命名方式。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "以器具名（形貌相似）假借作车轭部件名，《考工记》有载。"
+    }
+  ]
+}

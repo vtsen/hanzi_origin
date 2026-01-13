@@ -1,0 +1,40 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "从水或其他液体里取东西。",
+      "examples": [
+        "捞鱼",
+        "从汤里把东西捞出来",
+        "大海捞针"
+      ],
+      "traditional_char": "撈"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "用不正当手段取得（好处）。",
+      "examples": [
+        "捞一把",
+        "捞好处"
+      ],
+      "traditional_char": "撈"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从手，劳声。表示用手从水中取东西。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "用‘捞’水中取物的动作比喻用不正当手段获取利益。"
+    }
+  ]
+}

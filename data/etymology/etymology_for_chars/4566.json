@@ -1,0 +1,133 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "善，美好",
+      "examples": [
+        "令终有俶。（《诗·大雅·既醉》）",
+        "俶，善也。（《说文》）"
+      ],
+      "traditional_char": "俶"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adverb",
+      "meaning": "开始，起初",
+      "examples": [
+        "俶扰天纪。（《书·允征》）",
+        "燕与羞俶。（《仪礼·聘礼》）",
+        "俶载南畴。（《诗·小雅》）"
+      ],
+      "traditional_char": "俶"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "作，建造",
+      "examples": [
+        "有俶其城。（《诗·大雅·崧高》）",
+        "俶建。"
+      ],
+      "traditional_char": "俶"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "整理，收拾",
+      "examples": [
+        "俶装。",
+        "简元辰而俶装。（《后汉书·张衡传》）"
+      ],
+      "traditional_char": "俶"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "厚",
+      "examples": [
+        "俶甚者，厚甚也。（王引之《经义述闻·公羊传》）"
+      ],
+      "traditional_char": "俶"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "adjective",
+      "meaning": "奇异",
+      "examples": [
+        "俶傥瑰玮。（司马相如《子虚赋》）"
+      ],
+      "traditional_char": "俶"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "adverb",
+      "meaning": "忽然，倏尔",
+      "examples": [
+        "俶尔。"
+      ],
+      "traditional_char": "俶"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "adjective",
+      "meaning": "卓异不凡，洒脱不羁（同“倜”，俶傥）",
+      "examples": [
+        "性俶，不拘小节。（《魏书·阳尼传》）",
+        "俶傥瑰玮。（司马相如《子虚赋》）"
+      ],
+      "traditional_char": "俶"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从人，叔声，本义为善、美好，反映该字起初通‘淑’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由“善、美好”引申为“开始”，如美好开端，用于古礼、诗经；西周及春秋见。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "conversion",
+      "note": "由副词“开始”转为动词“作、建造”，如“俶其城”；用法活化，与‘作’同。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由动词“作、建造”扩展为“整理”，意为开始准备、整备物品，汉以后常用。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "由“善、美好”引申为“厚”，美好可比喻为厚重，见王引之注。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "semantic_shift",
+      "note": "“美好”在文学修辞中转为“奇异”，指超常、特殊。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 6,
+      "evolution_type": "semantic_shift",
+      "note": "“开始”引申为“忽然”，即动作或状态突然开始，常见于文言虚词。"
+    },
+    {
+      "source_index": 5,
+      "target_index": 7,
+      "evolution_type": "metaphor",
+      "note": "“奇异”专指品质卓绝之人，引申为“俶傥”，同“倜傥”，指洒脱不群的人格特质。"
+    }
+  ]
+}

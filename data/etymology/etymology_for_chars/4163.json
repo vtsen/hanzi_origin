@@ -1,0 +1,58 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古鲁国地名（今山东省境内）",
+      "examples": [
+        "冬十月壬午，公子友帅师败莒师于酈，获莒挐。"
+      ],
+      "traditional_char": "酈"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "古县名（秦置，故地在今河南南阳西北）",
+      "examples": [
+        "楚之故地汉中、析、酈可得而复有也。",
+        "〔郦县〕古地名，在今中国河南省南阳市西北。"
+      ],
+      "traditional_char": "酈"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "汉有酈食其。"
+      ],
+      "traditional_char": "酈"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "酈：形声字，从邑，麗声，表地名。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "郦为酈的简化字，保留地名义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由鲁地名推广至其它地名，包括后世县名。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由地名引申为姓氏，古人以地望为姓。"
+    }
+  ]
+}

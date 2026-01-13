@@ -1,0 +1,67 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "周代诸侯国名，地约在今河南省汤阴县东南一带",
+      "examples": [
+        "武王克商，分朝歌而北谓之邶。",
+        "《诗经·邶风》"
+      ],
+      "traditional_char": "邶"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "齐地地名，在今山东省昌邑县西北，又称邶殿",
+      "examples": [
+        "齐与晏子邶殿其鄙六十。"
+      ],
+      "traditional_char": "邶"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [],
+      "traditional_char": "邶"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "邶地的音乐，《诗经》中有《邶风》十九篇",
+      "examples": [
+        "为之歌《邶》、《鄘》、《卫》，曰‘美哉！’",
+        "《左传·襄公二十九年》"
+      ],
+      "traditional_char": "邶"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从邑，北声；‘邑’表示与地名有关，‘北’为声旁。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "analogy",
+      "note": "地名类比用法，另指山东的地名，年代较后。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "conversion",
+      "note": "由地名转为姓氏，常见于中国姓氏的来源。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "以邶地为指称其地的音乐作品，如《邶风》。"
+    }
+  ]
+}

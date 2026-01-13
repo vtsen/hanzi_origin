@@ -1,0 +1,101 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "日出，太阳升起。",
+      "examples": [
+        "旸，日出也。——《说文》",
+        "宅此不旸。——颜真卿《宋开府碑铭》"
+      ],
+      "traditional_char": "暘"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "太阳。",
+      "examples": [
+        "薄吹消春冻，新旸破晓晴。——蔡襄《自渔梁驿至衢州大雪有怀》"
+      ],
+      "traditional_char": "暘"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "晴天，晴朗。",
+      "examples": [
+        "旦雨气温，旦旸气寒。——《论衡·寒温》",
+        "曰雨曰暘。——《书·洪范》",
+        "自慚游惰無營業，高柳陰中話雨暘。——赵翼《出郭》"
+      ],
+      "traditional_char": "暘"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "明亮。",
+      "examples": [
+        "仰皇天而太息，悲白日之不暘。——曹丕《愁霖赋》",
+        "冀幽路之或暘。——江淹《丹砂可学赋》"
+      ],
+      "traditional_char": "暘"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "日中时。",
+      "examples": [
+        "陽讀為‘曰雨曰暘’之‘暘’，謂日中時也。——郑玄注《礼记·祭义》"
+      ],
+      "traditional_char": "暘"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "adjective",
+      "meaning": "干旱。",
+      "examples": [
+        "一遇恒暘，赤地千里。——徐光启《农政全书》"
+      ],
+      "traditional_char": "暘"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘暘’为形声字，从日，昜声，本义为日出。‘旸’为‘暘’的简化字，形声结构未变。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由‘日出’指代‘太阳’，典型事物指代。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由‘日出’引申为‘晴朗’的状态，因日出常代表晴天。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由‘日出’引申出‘明亮’之意，基于光明的隐喻。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "‘日出’引申为‘日中时’，即与阳光最盛时相关。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "由‘晴天’引申出‘持续晴朗导致旱’，语境发展。"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "拾取，捡起。",
+      "examples": [
+        "掇拾遗物",
+        "把东西掇起来"
+      ],
+      "traditional_char": "掇"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "用双手拿（椅子、凳子等），用手端。",
+      "examples": [
+        "掇个小凳子坐下",
+        "他把椅子掇到门口"
+      ],
+      "traditional_char": "掇"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从手，兑声。本义为“拾取”。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从“拾取”引申为用手拿起物体，如椅凳等。"
+    }
+  ]
+}

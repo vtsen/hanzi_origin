@@ -1,0 +1,44 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "瘰疬，一种皮肤肿块类疾病，亦泛指皮肤病。",
+      "examples": [
+        "瘰疬",
+        "疬疡"
+      ],
+      "traditional_char": "疬"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "瘰癧，皮肤肿块性病名。",
+      "examples": [
+        "鬎疬",
+        "鬎疬头"
+      ],
+      "traditional_char": "癧"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘疬’为形声字，从疒，历声，表示与疾病有关，最初指瘰疬病。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "‘癧’为‘疬’的传统写法，从疒，历声，也是指瘰癧病。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "conversion",
+      "note": "‘疬’为‘癧’的简化字，两者含义完全对应。"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "斧刃",
+      "examples": [
+        "斧以金为斫。——《墨子》",
+        "斫，亦即斧刃。——孙诒让注"
+      ],
+      "traditional_char": "斫"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "大锄",
+      "examples": [
+        "持木斫平之，纳种如前法。——《齐民要术》"
+      ],
+      "traditional_char": "斫"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "用刀、斧等砍削、砍劈",
+      "examples": [
+        "因拔刀斫前奏案。——《资治通鉴》",
+        "冯婉贞挥刀奋斫，所当无不披靡。——《清稗类钞》"
+      ],
+      "traditional_char": "斫"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "攻击、袭击",
+      "examples": [
+        "先期率步骑万人夜斫敌营。——《宋史》",
+        "永量吴楚之兵，好以斫营为事。——《三国志》"
+      ],
+      "traditional_char": "斫"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "击打、击破",
+      "examples": [
+        "斫破器物。——《汉书》"
+      ],
+      "traditional_char": "斫"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "adjective",
+      "meaning": "无知、顽直的样子（方言）",
+      "examples": [
+        "扬越之郊，凡人相侮以为无知，谓之斫。——《方言》"
+      ],
+      "traditional_char": "斫"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从斤（表意，斧属），石声，表示斧刃。本义为斧刃，后义延伸。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由表示斧刃，引申为用斧砍削之动作，语义扩展早见先秦文献。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "由‘砍削’引申为‘攻击、袭击’，常用于军事语境。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "由‘砍削’引申为‘击打、击破’，实际用刀斧之击通向更广泛的击打。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由原意斧刃，用于表示较大农具如大锄，视为工具名称泛化。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 5,
+      "evolution_type": "unknown",
+      "note": "‘顽直貌’为方言义，疑与‘斫’动作为比拟或音义相关，关系不明。"
+    }
+  ]
+}

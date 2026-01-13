@@ -1,0 +1,70 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "火光明亮，光辉灿烂的样子",
+      "examples": [
+        "彤管有炜",
+        "炜然有光"
+      ],
+      "traditional_char": "煒"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "色红而有光泽",
+      "examples": [
+        "煒，赤貌",
+        "光炜烨然"
+      ],
+      "traditional_char": "煒"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "光辉，光彩",
+      "examples": [
+        "青煒登平，考景以晷",
+        "文駟雕軒，往來有煒"
+      ],
+      "traditional_char": "煒"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "鲜明光亮（炜炜：灿烂的样子）",
+      "examples": [
+        "炜炜其耀"
+      ],
+      "traditional_char": "煒"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从火，韦声，本义为火光明亮"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘火光明亮’引申为‘色红而有光泽’，色彩上的亮丽感"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "从形容词‘火光明亮’扩展为名词‘光辉，光彩’，唐代已见"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由‘火光明亮’引申为‘鲜明光亮’"
+    }
+  ]
+}

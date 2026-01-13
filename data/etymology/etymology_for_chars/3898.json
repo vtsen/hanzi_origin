@@ -1,0 +1,37 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "常绿灌木，没有叶子，花大，白色，花期极短，称为“昙花”。如“昙花一现”。",
+      "examples": [
+        "昙花一现"
+      ],
+      "traditional_char": "曇"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "云彩密布，多云。",
+      "examples": [
+        "曇天"
+      ],
+      "traditional_char": "曇"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "‘曇’为形声字，形旁‘日’表光明，与天象有关，声旁‘覃’。本义为云彩密布。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "metaphor",
+      "note": "由‘云彩密布’之短暂，转喻花期极短的‘昙花’。"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "割脖子",
+      "examples": [
+        "自刎于东城门下",
+        "项羽自刎乌江"
+      ],
+      "traditional_char": "刎"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "生死与共的友谊（多见于“刎颈之交”）",
+      "examples": [
+        "卒相与欢，为刎颈之交",
+        "与君刎颈交"
+      ],
+      "traditional_char": "刎"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从刀，勿声，本义为割脖子（自杀或处决）。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由具体的割脖子，引申为生死与共的友谊，多用于‘刎颈之交’等成语表达。"
+    }
+  ]
+}

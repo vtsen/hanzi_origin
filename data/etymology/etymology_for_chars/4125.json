@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "茶树的嫩芽",
+      "examples": [
+        "茗英早采，茶味尤佳。"
+      ],
+      "traditional_char": "茗"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "茶",
+      "examples": [
+        "香茗一杯。",
+        "品茗论道。",
+        "煮茗清谈。"
+      ],
+      "traditional_char": "茗"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "酒酣（通“酩”）",
+      "examples": [
+        "茗酊大醉。"
+      ],
+      "traditional_char": "茗"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从艸，名声。本义为茶树的嫩芽。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由表示嫩芽引申为泛指茶，约汉魏至唐广泛应用。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "unknown",
+      "note": "‘茗’用于‘酩酊’的通假用法，属借音现象，关系不明。"
+    }
+  ]
+}

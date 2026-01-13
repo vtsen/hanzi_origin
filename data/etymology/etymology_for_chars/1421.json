@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "多年生草本植物，马蔺，一种须根长而坚硬、叶狭线形、花蓝色的草本，可药用或造纸，也称马荔。",
+      "examples": [
+        "其高燥则生葴析苞荔，薜莎青薠。",
+        "荔草，挺出。"
+      ],
+      "traditional_char": "荔"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "常绿乔木荔枝，其果实球形，表面有突起，成熟时紫红色，味甜美；其果实亦称荔枝。",
+      "examples": [
+        "张揖曰：‘荔，马荔。’马荔，今之马蔺也。",
+        "荔子（即荔枝）"
+      ],
+      "traditional_char": "荔"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "薜荔的省称，一种常见的蔓生植物，多生于墙垣、石上等处。",
+      "examples": [
+        "傍荔墙牵惹游丝，昨夜绛楼难辨。",
+        "愁对西轩，荔墙叶暗，黄昏风雨。"
+      ],
+      "traditional_char": "荔"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从艸，劦声，最初表示草类植物马荔（马蔺）。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由草类名转指荔枝树及其果实，因植物名推广，汉代以后流行。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由草名引申为其他形态类似的蔓生植物：薜荔，唐宋见用。"
+    }
+  ]
+}

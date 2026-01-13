@@ -1,0 +1,69 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "组成花冠的各片",
+      "examples": [
+        "花瓣",
+        "五瓣花"
+      ],
+      "traditional_char": "瓣"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "植物的种子、果实或球茎可以分开的片状物",
+      "examples": [
+        "豆瓣儿",
+        "蒜瓣儿"
+      ],
+      "traditional_char": "瓣"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "物体破裂分成的部分",
+      "examples": [
+        "碗掉在地上摔成几瓣"
+      ],
+      "traditional_char": "瓣"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "measure_word",
+      "meaning": "量词，表示分片的单位",
+      "examples": [
+        "一瓣蒜"
+      ],
+      "traditional_char": "瓣"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "形声字，从瓜，辡声。本义指瓜类果实可分开的片状物。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "metaphor",
+      "note": "由植物果实的分片，引申至花冠的分片，见于古典和现代植物学用语。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由植物分瓣概念扩展到一般物体破裂的部分。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "grammaticalization",
+      "note": "由实词演变为量词用法，用于计量分片。"
+    }
+  ]
+}

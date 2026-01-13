@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "请求神灵加祸于他人，咒骂。",
+      "examples": [
+        "否则厥口诅祈。",
+        "一人祝之，一国诅之，一祝不胜万诅，国亡，不亦宜乎？",
+        "百姓之咎怨诽谤，诅君于上帝者多矣。"
+      ],
+      "traditional_char": "詛"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "盟誓，特指就小事或往事起誓。",
+      "examples": [
+        "掌盟诅。",
+        "詛无畜群公子。"
+      ],
+      "traditional_char": "詛"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "祈祷。",
+      "examples": [
+        "華言云詛風雨，蓋虜中有此術也。"
+      ],
+      "traditional_char": "詛"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从言，且声。本义为求神加祸于他人。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由请求鬼神加祸，引申为以誓言请求神明作证；古文如《周礼》《左传》等已见此用。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "原本意为咒诅，后扩展至一般的祈祷用法，反映在明代及部分记载。"
+    }
+  ]
+}

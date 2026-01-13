@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古地名（羑里），位于今中国河南省汤阴县北。",
+      "examples": [
+        "文王拘羑里，在汤阴。",
+        "悔不诛文王于羑里。"
+      ],
+      "traditional_char": "羑"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "诱导，引导向善。",
+      "examples": [
+        "诞受羑若。——《书·康王之浩》",
+        "羑，道也。——马融注"
+      ],
+      "traditional_char": "羑"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [
+        "羑，姓也。"
+      ],
+      "traditional_char": "羑"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "从羊，久声，会意兼形声。最初表诱导、引导向善之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "metonymy",
+      "note": "羑从“诱导”引申为以地名命名地为羑里，常因历史事件文王被囚。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "由“诱导”的意义转借为姓氏用。"
+    }
+  ]
+}

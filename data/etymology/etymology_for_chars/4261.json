@@ -1,0 +1,53 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "耕地翻土",
+      "examples": [
+        "余期报恩后，谢病老耕垡。"
+      ],
+      "traditional_char": "垡"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "耕地翻起的土块",
+      "examples": [
+        "逆垡掷豆，然后劳之。",
+        "哪一块泥垡不是窮人的?"
+      ],
+      "traditional_char": "垡"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "measure_word",
+      "meaning": "量词，用于翻耕的次数或土块",
+      "examples": [
+        "王耕一墢，班三之，庶民終於千畝。"
+      ],
+      "traditional_char": "垡"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从土，犮声，表示耕土、翻土。最初本义为耕地翻土。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由翻土动作转指所翻起的土块，发生于古汉语早期。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由土块引申为动量词或土块的计量单位，量词用法见于先秦、两汉。"
+    }
+  ]
+}

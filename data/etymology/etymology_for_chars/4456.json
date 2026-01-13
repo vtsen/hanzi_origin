@@ -1,0 +1,70 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "柏叶松身的树木，古书上指桧树。",
+      "examples": [
+        "杶榦栝柏。（《书·禹贡》）",
+        "柏叶松身曰栝。"
+      ],
+      "traditional_char": "栝"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "箭尾搭弦处，箭上搭在弦上的部分。",
+      "examples": [
+        "其发若机栝。（《庄子·齐物论》）",
+        "弓无弦，箭无栝。（《乐府诗集》）"
+      ],
+      "traditional_char": "栝"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "多年生草本植物“栝楼”，果实和根均可入药。",
+      "examples": [
+        "栝蒌，通称栝楼，可入药。"
+      ],
+      "traditional_char": "栝"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "木杖；拨火棍。",
+      "examples": [
+        "栝，木杖也。",
+        "拨火棍。"
+      ],
+      "traditional_char": "栝"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从木，舌声。本义为柏叶松身的树，古指桧树。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由树木之材引申为箭上用木制成的部件。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "用木材制作，因此称木杖、拨火棍亦为栝。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "后用于植物名，特指多年生草本植物栝楼。演变为另一具体植物。"
+    }
+  ]
+}

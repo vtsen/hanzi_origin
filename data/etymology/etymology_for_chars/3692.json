@@ -1,0 +1,72 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "迎接；到门口或路上去接人",
+      "examples": [
+        "迎迓。",
+        "迓晋侯于新宫。——《左传·成公十三年》",
+        "漫天飞雪迓春回，岭上梅花映日开。"
+      ],
+      "traditional_char": "迓"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "迎击；抵御",
+      "examples": [
+        "不迓克奔，以役西土。——《书·牧誓》",
+        "迓侮，犹言御侮也。"
+      ],
+      "traditional_char": "迓"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "溜走，逃跑",
+      "examples": [
+        "何曾敢与他和尚争锋，望着直南下便迓。——金·董解元《西厢记诸宫调》"
+      ],
+      "traditional_char": "迓"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "other",
+      "meaning": "同“讶”；会面、相遇",
+      "examples": [
+        "子迓续乃命于天。——《书·盘庚》",
+        "跛者迓跛者。",
+        "古本皆作讶。——《尔雅》"
+      ],
+      "traditional_char": "迓"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从辶（行走、行动）表义，牙表声，表示迎接或上前相迎。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "迎接意义引申为迎击、抵御，多见于兵事语境。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "‘迎’之义语义变迁至“避开而溜走”，或有对立性引申。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "analogy",
+      "note": "古文“讶”与“迓”通用，以迎会面、见面为引申，本义相关。"
+    }
+  ]
+}

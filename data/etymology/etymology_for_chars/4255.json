@@ -1,0 +1,72 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "马行迟缓、顿挫",
+      "examples": [
+        "马行笃笃"
+      ],
+      "traditional_char": "篤"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "厚实，结实",
+      "examples": [
+        "彼其之子，硕大且笃"
+      ],
+      "traditional_char": "篤"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "忠实，一心一意",
+      "examples": [
+        "笃学",
+        "笃信",
+        "笃志",
+        "笃情",
+        "笃厚"
+      ],
+      "traditional_char": "篤"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "病沉重",
+      "examples": [
+        "病笃",
+        "病势已笃"
+      ],
+      "traditional_char": "篤"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从马，竹声，最初表示‘马行迟顿’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由马行动迟缓，引申为厚实结实，可能因稳重不轻浮而得义。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "‘厚实’由指物引申为人的品性，表示忠实专一。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "‘厚实’引申为持续不变、难以恢复之病情，故指病重。"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "两手横向对外旁击；用双手向左右击打。",
+      "examples": [
+        "捭，两手击也。——《说文》",
+        "拉虎捭熊，予犹稚童。——庾信《竹杖赋》",
+        "莫不衄锐挫芒，拉捭摧藏。——左思《吴都赋》"
+      ],
+      "traditional_char": "捭"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "摆弄，挥动；用手拨动。",
+      "examples": [
+        "角插戟，尾捭风。——卢仝《月蚀诗》",
+        "捭八股，父兄师友之期许者，入学、中举、会试、做官而已。——颜元《存人编》"
+      ],
+      "traditional_char": "捭"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "分开，掰开，撕裂。",
+      "examples": [
+        "其燔黍捭豚。——《礼记·礼运》",
+        "捭，开也。——《广雅》",
+        "捭破我心神，至今患心风不禁。——《太平广记》"
+      ],
+      "traditional_char": "捭"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "排除，排去，屏退。",
+      "examples": [
+        "外天地，捭山川。——《淮南子·要略训》",
+        "捭，屏去也。——高诱注"
+      ],
+      "traditional_char": "捭"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从手，卑声。本义指两手横击，‘手’表意，‘卑’表声。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由具体的两手横击动作引申为一般的摆弄、挥动，动作类别扩展。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由两手横击比喻为分开、掰开之义，源于动作上的延伸。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由分开进一步引申为排除、排去或屏退。"
+    }
+  ]
+}

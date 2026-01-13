@@ -1,0 +1,43 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古地名，指邺城（鄴城），历代为都城，址在今河北省临漳县西、河南省安阳县北一带。",
+      "examples": [
+        "西門豹為鄴令，佯亡其車轄。",
+        "曹公敗于赤壁，引軍歸鄴。"
+      ],
+      "traditional_char": "鄴"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [
+        "漢有梁令鄴鳳。"
+      ],
+      "traditional_char": "鄴"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘鄴’为形声字，从邑，‘業’为声，用于表示地名，古作邑地之名，地形相关。"
+    },
+    {
+      "formation_type": "loan_character",
+      "original_sense_index": 0,
+      "note": "‘邺’为‘鄴’的简化字，现代以‘邺’为主用，沿用本义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "以地名为氏，古今常见，见《風俗通》‘漢有梁令鄴鳳’。"
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古地名，在今山西省沁水下游，晋大夫叔虎之邑，后用作姓氏。",
+      "examples": [
+        "晉大夫郄獻子，食邑于郄，因氏。",
+        "郤，叔虎邑。俗作郤。——《路史》"
+      ],
+      "traditional_char": "郄"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "孔隙、裂缝，泛指缝隙或空隙。",
+      "examples": [
+        "若白駒之過郤，忽然而已。——《莊子》",
+        "利以填塞空郤，繕邊城。——《管子》"
+      ],
+      "traditional_char": "郄"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "嫌隙、矛盾，比喻人之间的隔阂或冲突。",
+      "examples": [
+        "上下之接，无子父之泽，而欲以行义禁下，则交必有郤矣。——《韩非子》",
+        "鲍牧与齐悼公有郤，弑悼公。——《史记》"
+      ],
+      "traditional_char": "郄"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "退却、后退，本为地名用后借表示退却之义，通“却”。",
+      "examples": [
+        "以茅救竇，勿令塞竇。竇則塞，引版而郤。——《墨子》",
+        "餘暑亦潛郤。——沈遼《秋早登住閣》"
+      ],
+      "traditional_char": "郄"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "疲劳（借音表动词）通“谻”、“卻”。",
+      "examples": [
+        "恐太后玉體之有所郤也。——《战国策》"
+      ],
+      "traditional_char": "郄"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [
+        "郄诜，唐代名臣。"
+      ],
+      "traditional_char": "郄"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从邑，谷声。初用于晋地名，后用于姓氏。‘邑’表地、聚落，‘谷’作声符。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "因得邑为氏，地名转用作姓，见晋大夫郄献子。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "地名郄，《正字通》认为“郄”同“隙”，中古用以指物理空隙。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "“隙”引申为“嫌隙”，用空隙比喻人与人之间的隔阂。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "借地名字形为‘却’之通假，通“却”（退却）。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "借用于‘谻/卻’，表示疲劳，音同通用。"
+    }
+  ]
+}

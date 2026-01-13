@@ -1,0 +1,78 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "particle",
+      "meaning": "用于句末，表示疑问语气，相当于“吗”、“呢”。",
+      "examples": [
+        "彼其智者欤？——柳宗元《梓人传》",
+        "岂得之难而失之易欤？《伶官传序》"
+      ],
+      "traditional_char": "欤"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "particle",
+      "meaning": "用于句末，表示感叹语气，相当于“啊”。",
+      "examples": [
+        "无怀氏之民欤！葛天氏之民欤！——晋·陶潜《五柳先生传》",
+        "其可怪也欤？——韩愈《师说》"
+      ],
+      "traditional_char": "欤"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "particle",
+      "meaning": "用于句末，表示反问语气。",
+      "examples": [
+        "子非三闾大夫欤？——《史记》",
+        "四海之大，有几人欤？——《五人墓碑记》"
+      ],
+      "traditional_char": "欤"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "particle",
+      "meaning": "用于句末的疑问、感叹、反诘等语气词（正体为“歟”）。",
+      "examples": [
+        "王闻燕太子丹入质秦歟？——《史记•甘茂列传》",
+        "豈世乏曩時之臣，士無匡合之志歟？——晋陆机《五等论》",
+        "無懷氏之民歟，葛天氏之民歟？——陶潜《五柳先生传》",
+        "猗歟！偉歟！何行而可以彰先帝之洪業休德？——《汉武帝·贤良诏》"
+      ],
+      "traditional_char": "歟"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "欤为形声字，从欠，与声，欠与呼吸相关，原指语气词，表示感叹、反诘、疑问。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 3,
+      "note": "歟为形声字，从欠，與声，与“欤”字义同为语气词。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "疑问语气向感叹语气的语义扩展，早见先秦用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "疑问语气向反问语气扩展，文献常见。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 0,
+      "evolution_type": "reanalysis",
+      "note": "“歟”作为正体，后因简化与“欤”互通，语义一致。"
+    }
+  ]
+}

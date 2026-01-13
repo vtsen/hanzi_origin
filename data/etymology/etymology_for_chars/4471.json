@@ -1,0 +1,86 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "磨刀石",
+      "examples": [
+        "佗山之石，可以为厝。",
+        "厝，厉石也。——《说文》"
+      ],
+      "traditional_char": "厝"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "安置，安放",
+      "examples": [
+        "抱火厝积薪之下。——《汉书·贾谊传》",
+        "王厝需于侧以稽之。——《战国策》"
+      ],
+      "traditional_char": "厝"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "停柩，把棺材停放待葬，或浅埋以待改葬",
+      "examples": [
+        "将迁神而安厝。——《寡妇赋》",
+        "今老先生仍厝于慈湖。——廖承志《致蒋经国先生信》"
+      ],
+      "traditional_char": "厝"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "房屋，家（方言：福建、台湾等）",
+      "examples": [
+        "大厝即大厦。",
+        "厝里空空，菜园栽葱。"
+      ],
+      "traditional_char": "厝"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "杂错，交错，混杂（通“错”）",
+      "examples": [
+        "五方杂厝，风俗不纯。——《汉书·地理志》"
+      ],
+      "traditional_char": "厝"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从厂（山崖，意符）和昔（声符）组成，本义为磨刀石。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由磨刀石作为安放用具，引申为安放、安置行为。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_narrowing",
+      "note": "“安置”义狭化为特指停柩、安葬。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "“安置”引申为被安置之处，即房屋，主要见于闽南地区。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "本字借为“错”用，表示杂错、交错义，属通假。"
+    }
+  ]
+}

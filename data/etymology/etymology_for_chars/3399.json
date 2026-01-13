@@ -1,0 +1,75 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "附着在地面或植物上面的微细冰粒，是接近地面的水蒸气冷至摄氏零度以下凝结而成的结晶。",
+      "examples": [
+        "霜降",
+        "秋霜",
+        "霜冻",
+        "霜期"
+      ],
+      "traditional_char": "霜"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "像霜一样的东西。",
+      "examples": [
+        "柿霜",
+        "西瓜霜"
+      ],
+      "traditional_char": "霜"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "形容白色。",
+      "examples": [
+        "霜鬓",
+        "霜刃",
+        "霜锋"
+      ],
+      "traditional_char": "霜"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "比喻高洁的操守。",
+      "examples": [
+        "霜操",
+        "霜骨",
+        "霜情"
+      ],
+      "traditional_char": "霜"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从‘雨’（表示与气象有关），‘相’为声符；本义指气温降到零度以下时的白色结晶。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "因本义之物呈白色、细腻，转喻与霜类似的物质。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "因霜为白色，引申作白色的形容。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由霜的洁白、清冷，引申比喻为人的高洁品德。"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "拍手，鼓掌，两手相击以表示欢欣。",
+      "examples": [
+        "帝喾乃令人抃。",
+        "愚心喜抃，彌思陳述。"
+      ],
+      "traditional_char": "抃"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "搏击、击打。",
+      "examples": [
+        "翹關扛鼎，抃射壺博。"
+      ],
+      "traditional_char": "抃"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "顿足，踏足以助兴或表情感。",
+      "examples": [
+        "百兽率舞而抃足。"
+      ],
+      "traditional_char": "抃"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从手，弁声。本义为两手相击鼓掌。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由拍手动作引申为搏击、击打，见于文选等。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由拍手表示情感、助兴，引申为顿足。"
+    }
+  ]
+}

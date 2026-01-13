@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "两腿弯曲，像坐的样子但臀部不着地。",
+      "examples": [
+        "蹲下",
+        "蹲伏",
+        "蹲踞"
+      ],
+      "traditional_char": "蹲"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "（农业）在一定时期内对幼苗进行管理，使根部下扎，生长健壮。",
+      "examples": [
+        "蹲苗"
+      ],
+      "traditional_char": "蹲"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "比喻呆着或闲居。",
+      "examples": [
+        "蹲膘",
+        "蹲窝",
+        "蹲班房"
+      ],
+      "traditional_char": "蹲"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从足，尊声，表示下肢动作，原意为坐或屈膝如坐。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "‘蹲’的形态引申到农业管理，用来形容苗的生长状态，近现代发展。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由“下蹲不动”的动作进一步比喻为静止或闲居，近现代用法。"
+    }
+  ]
+}

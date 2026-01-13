@@ -1,0 +1,85 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "劝食、劝饮，在宴席上助兴。",
+      "examples": [
+        "以为酒食，以享以祀，以妥以侑，以介景福。——《诗·小雅·楚茨》",
+        "侑劝（劝人吃喝）；侑食（劝食，侍奉尊长进食）；侑酒（劝酒；为饮酒者助兴）"
+      ],
+      "traditional_char": "侑"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "帮助，佐助。",
+      "examples": [
+        "清兴思谁侑？——宋 欧阳修《忆山示圣俞》"
+      ],
+      "traditional_char": "侑"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "配享、从祀，配祭于庙。",
+      "examples": [
+        "为靖难首勋，侑享太庙。——《帝京景物略》",
+        "侑祠（配享），侑饷（配享）"
+      ],
+      "traditional_char": "侑"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "报答、酬谢。",
+      "examples": [
+        "王饗醴，命公胙侑。《国语·晋语四》",
+        "侑酬（酬答）"
+      ],
+      "traditional_char": "侑"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "宽容，宽恕。（通“宥”）",
+      "examples": [
+        "文有三侑，武毋一赦。——《管子·法法》"
+      ],
+      "traditional_char": "侑"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从人，有声，本义为劝食。‘人’表示与人的行为有关，‘有’兼表声。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从劝食引申为一般的助兴、帮助。古汉语中宴饮礼仪与互助有密切联系。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由宴饮里的劝食、陪侍引申为祭祀时的配享、从祀。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "从劝食、劝饮时的礼仪引申为报答、酬谢。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "‘侑’通‘宥’，取其音，表示宽恕；本义和新义间无直接语义联系，为假借。"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "食盐，主要成分为氯化钠的咸味结晶体，可用于调味、防腐等。",
+      "examples": [
+        "盐巴",
+        "井盐",
+        "海盐",
+        "盐田"
+      ],
+      "traditional_char": "鹽"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "化学上指酸和碱中和生成的化合物。",
+      "examples": [
+        "酸式盐",
+        "碱式盐"
+      ],
+      "traditional_char": "鹽"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "盐酸，氯化氢的水溶液，多用于工业和医药。",
+      "examples": [
+        "盐酸",
+        "用盐酸清洗"
+      ],
+      "traditional_char": "鹽"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“鹽”为形声字，从卤，监声，原指食盐或咸味结晶体。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由具体食盐扩展为化学意义上的所有盐类，19世纪以后随着化学知识普及。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "以“盐”为基础，特指“盐酸”等某类盐类化合物，近现代出现。"
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "顺利，如愿",
+      "examples": [
+        "遂心如意",
+        "何往而不遂"
+      ],
+      "traditional_char": "遂"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "实现，达成",
+      "examples": [
+        "未遂",
+        "功成名遂"
+      ],
+      "traditional_char": "遂"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "conjunction",
+      "meaning": "于是，就",
+      "examples": [
+        "服药后头痛遂止"
+      ],
+      "traditional_char": "遂"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "通达，畅通",
+      "examples": [
+        "何往而不遂"
+      ],
+      "traditional_char": "遂"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "前进，进荐",
+      "examples": [
+        "不能退，不能遂"
+      ],
+      "traditional_char": "遂"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 3,
+      "note": "形声字，从辶（辵）表示行走、道路，夊为声符，初义为畅通、道路通达。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 3,
+      "target_index": 0,
+      "evolution_type": "metaphor",
+      "note": "由道路通达引申为顺利，如愿。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "顺利引申为达成、实现。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "通达引申为前进、推荐。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "grammaticalization",
+      "note": "由顺利引申为连接前后因果的连词用法。"
+    }
+  ]
+}

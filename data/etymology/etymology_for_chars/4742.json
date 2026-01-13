@@ -1,0 +1,103 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "治河工程中用秫秸、石块、树枝等捆扎成束，用以护堤堵口的器材。",
+      "examples": [
+        "凡塞河决，垂合，中间一埽，谓之合龙门。——《梦溪笔谈》",
+        "丙寅，渡黄河，上乘小舟阅新埽。——《清史稿·圣祖纪二》"
+      ],
+      "traditional_char": "埽"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "用埽做成的堤坝或护岸建筑物，亦泛指堤岸。",
+      "examples": [
+        "熙宁十年七月十七日，河决澶州曹村埽。——《宋史·河渠志一》",
+        "数年之后，堤岸既固，埽材亦便，民力渐省。——《金史·高霖传》"
+      ],
+      "traditional_char": "埽"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "清扫，打扫；用扫帚清除尘土、垃圾等。",
+      "examples": [
+        "子有廷内，弗洒弗埽。——《诗·唐风·山有樞》",
+        "夜洒埽，早帐具至旦。——《史记·魏其武安侯列传》"
+      ],
+      "traditional_char": "埽"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "除掉，消灭。",
+      "examples": [
+        "方今大汉洒埽群穢，夷险芟荒。——《汉·班固·答宾戏》",
+        "蛑贼远屏，奸轨埽迹。——《隶续·封丘令王元宾碑》"
+      ],
+      "traditional_char": "埽"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "聚集，尽括；收罗。",
+      "examples": [
+        "埽境内而专属於将军。——《史记·项羽本纪》",
+        "大王宜埽淮南之众，日夜会战彭城下。——《汉书·黥布传》"
+      ],
+      "traditional_char": "埽"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "画；抹。",
+      "examples": [
+        "山谷《水仙花》二绝，‘淡埽蛾眉篸一枝’及‘只比江梅无好枝’者。——《老学庵笔记》",
+        "心空无一尘，万竹埽秋影。——金·元好问"
+      ],
+      "traditional_char": "埽"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 2,
+      "note": "从土，帚声。本义与“扫”同，本为打扫、清除。后用于治河器材和堤岸之名。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由打扫引申为消除、扫除不良事物，汉代用法。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由扫除引申为收罗、聚集，义出《史记》，为古代用法。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 5,
+      "evolution_type": "metaphor",
+      "note": "由物理动作转喻为画、抹，宋金以来。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 0,
+      "evolution_type": "metonymy",
+      "note": "以扫除泥沙工具、动作转借为制作河工用的工具之名。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "工具义扩展为由该工具构成的防洪设施及堤岸整体。"
+    }
+  ]
+}

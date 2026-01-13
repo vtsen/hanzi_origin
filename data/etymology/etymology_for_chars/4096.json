@@ -1,0 +1,82 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "矮墙，墙。",
+      "examples": [
+        "短垣",
+        "墙垣",
+        "城垣"
+      ],
+      "traditional_char": "垣"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "城市。",
+      "examples": [
+        "省垣"
+      ],
+      "traditional_char": "垣"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "官署。",
+      "examples": [
+        "谏垣"
+      ],
+      "traditional_char": "垣"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "古代天文学上把众星分成的区域，上、中、下三垣。",
+      "examples": [
+        "三垣分星"
+      ],
+      "traditional_char": "垣"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [],
+      "traditional_char": "垣"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从土，亘声，表示矮墙或墙。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "以矮墙、墙引申为有墙围绕的城市。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "官署常设于城市，引申为官署。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "用城墙分区喻指天上的星区（三垣）。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "unknown",
+      "note": "由地名或官名转为姓氏，用机制不明。"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "蛤蚧，一种壁虎科的爬行动物，头大，尾灰色，有红色斑点，中医常用作强壮剂。",
+      "examples": [
+        "龙眼花开蛤蚧鸣。",
+        "蛤蚧是中药材。"
+      ],
+      "traditional_char": "蚧"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "介壳虫，又称蚧壳虫，属于蚧总科，成虫极小，雌虫无翅，体背有蜡质硬壳或覆盖。",
+      "examples": [
+        "吹绵蚧、红螨蚧等都是常见的农作物害虫。"
+      ],
+      "traditional_char": "蚧"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "海蚌。",
+      "examples": [
+        "鱼游于水，鸟飞于云，故冬燕雀入于海，化而为蚧。"
+      ],
+      "traditional_char": "蚧"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "通“疥”，疥疮。",
+      "examples": [
+        "手足之疥瘙，字或作蚧。"
+      ],
+      "traditional_char": "蚧"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 2,
+      "note": "从虫，界声。最初本义指海蚌，后引申为其他义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 2,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "由‘蚌’引申为‘蛤蚧’，可能因形态相似，历史上多有相通用法。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "因介壳虫有坚硬外壳，形似蚌壳或海蚌，出现义项扩展。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "unknown",
+      "note": "‘蚧’通‘疥’，疑因音同或部分形近，具体机理未明，见后汉。"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "凶猛的鸟，如鹰、雕、枭等。",
+      "examples": [
+        "鸷鸟之不群兮。——《离骚》",
+        "养鸷非玩形，所资击鲜力。——唐·刘禹锡《养鸷词》"
+      ],
+      "traditional_char": "鷙"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "凶猛、狠戾。",
+      "examples": [
+        "鸷兽毅虫，倨牙黔口。——《后汉书》",
+        "而便捷猛鸷终弗逮。——清·徐珂《清稗类钞·战事类》",
+        "鷙而無敵，有必勝之理也。——《商君书•画策》"
+      ],
+      "traditional_char": "鷙"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "击搏；以爪擒搏。",
+      "examples": [
+        "飛輕鷂以鷙翔禽。——晉 葛洪 《抱樸子•崇教》",
+        "群少年日鷙於市井。——明 徐渭《會稽縣志諸論•風俗論》"
+      ],
+      "traditional_char": "鷙"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "抵、抵触。",
+      "examples": [
+        "闉扼鷙曼。——《莊子•馬蹄》 陸德明注：鷙，抵也。"
+      ],
+      "traditional_char": "鷙"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从鸟，执声；最初表凶猛之鸟（如鹰、雕等）。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由猛禽之凶猛义转为形容人或兽的性格；见于先秦至汉"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "由表示猛禽义，转为猛禽的行为（击搏）的动词义。用于文言文中。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "古训引申为‘抵、抵触’，见于《庄子》注本。"
+    }
+  ]
+}

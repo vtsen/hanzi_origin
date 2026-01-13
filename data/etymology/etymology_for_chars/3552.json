@@ -1,0 +1,68 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "地名，古邑名，在今河南省洛阳市北。",
+      "examples": [
+        "河南洛陽北土山上邑。",
+        "從邑。亡聲。"
+      ],
+      "traditional_char": "邙"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "山名，指北邙山，在中国河南省洛阳市北。",
+      "examples": [
+        "北邙，山名。",
+        "今景山崇秀，北對嵩邙。",
+        "貴人冢多在北邙山。"
+      ],
+      "traditional_char": "邙"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "县名。",
+      "examples": [
+        "邙縣名。"
+      ],
+      "traditional_char": "邙"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [],
+      "traditional_char": "邙"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从邑，亡声；本义为洛阳北山上的邑名，属于形声字。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "因邑得名于附近山，后借指山；汉代以后见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由于该地有邑设县，地名进一步扩展为县名。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "地名转为姓氏，常见于中国地名化姓。"
+    }
+  ]
+}

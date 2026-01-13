@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "僧人用来盛食物的金属器皿。",
+      "examples": [
+        "钵盂",
+        "僧持钵乞食"
+      ],
+      "traditional_char": "鉢"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "一般用于洗涤或盛放东西的陶制器具，如钵子、饭钵、茶钵等。",
+      "examples": [
+        "她拿着饭钵在吃饭。",
+        "用乳钵研磨药材。"
+      ],
+      "traditional_char": "鉢"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从金，本声，最初指僧人用的金属食器。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由专指僧人盛食金属钵发展为一般陶器盛具，用于各类容器。"
+    }
+  ]
+}

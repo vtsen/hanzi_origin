@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "高起，突出",
+      "examples": [
+        "窿穹（高大的样子）",
+        "岡阜窿然，形如塚"
+      ],
+      "traditional_char": "窿"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "煤矿坑道",
+      "examples": [
+        "窿工",
+        "清理废窿",
+        "父挖窿中煤，子扯窿中拖"
+      ],
+      "traditional_char": "窿"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "身体瘫痪、行动不便（借指“癃”）",
+      "examples": [
+        "窿笃（严重的肢体麻痹）"
+      ],
+      "traditional_char": "窿"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从穴，隆声。本义为高起、隆起，后引申。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "因煤矿坑道形态高起或拱形，故以“窿”喻矿坑道，历史上多见于方言。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由高起引申为“病体浮肿”、“行动不便”，转借为‘癃’。"
+    }
+  ]
+}

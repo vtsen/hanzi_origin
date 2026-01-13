@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "衣服胸前的部分，交领。",
+      "examples": [
+        "大襟",
+        "对襟",
+        "底襟"
+      ],
+      "traditional_char": "襟"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "胸怀，抱负。",
+      "examples": [
+        "襟怀坦荡"
+      ],
+      "traditional_char": "襟"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "姐妹的丈夫之间的称呼。",
+      "examples": [
+        "连襟"
+      ],
+      "traditional_char": "襟"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从衣表衣服之义，禁作声旁，表示音读，初用于衣的交领。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由衣服胸前部分引申为胸怀，心志，出现于后世文献。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "以衣服前襟并列比喻姐妹的丈夫关系，后世用法。"
+    }
+  ]
+}

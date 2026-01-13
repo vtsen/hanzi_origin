@@ -1,0 +1,83 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古代军队中百人之长",
+      "examples": [
+        "仟佰谓千人百人之长也。"
+      ],
+      "traditional_char": "佰"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "古代军队编制单位，十人为什，百人为佰",
+      "examples": [
+        "小国寡民，使有什佰之器而不用。",
+        "軍法，以百人为佰。"
+      ],
+      "traditional_char": "佰"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "numeral",
+      "meaning": "“百”的大写，数词",
+      "examples": [
+        "有仟佰之得。"
+      ],
+      "traditional_char": "佰"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "百钱",
+      "examples": [
+        "仟佰之得。——《汉书·食货志》"
+      ],
+      "traditional_char": "佰"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "通“陌”，田间东西方向的疆界或道路",
+      "examples": [
+        "南以閩佰為界。"
+      ],
+      "traditional_char": "佰"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从人，百声，会意兼形声。‘百人之长’为本义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘百人之长’扩展指‘百人为一佰’的编制单位。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由兵制单位进一步用于大写数字与泛指一百。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "由表示‘一百’引申指‘百钱’。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "‘佰’借为‘陌’用，指田间东西界或道路，属通假字。"
+    }
+  ]
+}

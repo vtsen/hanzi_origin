@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古代女子人名用字，常指妲己，即商纣王的宠妃。",
+      "examples": [
+        "妲己",
+        "殷辛伐有蘇，有蘇氏以妲己女焉。"
+      ],
+      "traditional_char": "妲"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "古代娼妓、戏曲角色名，亦作“旦”，如宋代称“妲老”为娼妇，或为戏曲女角色名。",
+      "examples": [
+        "宋时市语称娼妇为妲老。",
+        "南宋都城傀儡戏角色有“粗妲”、“细妲”。"
+      ],
+      "traditional_char": "妲"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "荒诞，通“誕”。",
+      "examples": [
+        "妲语"
+      ],
+      "traditional_char": "妲"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从女，达声。本作女子名用字，通常指妲己。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "conversion",
+      "note": "由专用的人名用字转化为通指女子、娼妓及戏曲女角色之名词，宋以后常见。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "以字音通假，借用“妲”表示“誕（荒诞）”之意，常见于古籍。"
+    }
+  ]
+}

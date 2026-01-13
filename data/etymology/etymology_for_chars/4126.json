@@ -1,0 +1,69 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "荠菜，一种十字花科植物，可食用，亦药用。",
+      "examples": [
+        "荠麦弥望。——宋·姜夔《扬州慢》",
+        "其甘如荠。——《诗·邶风·谷风》",
+        "投袂之日，期之必死，葅醢之戮，甘之如荠。——《晋书·忠义传·刘沈》"
+      ],
+      "traditional_char": "薺"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "荸荠，一种多年生草本植物的球茎，常食用，亦称水栗。",
+      "examples": [
+        "荸荠香甜可口，性寒解暑。",
+        "吃荸荠可以清热降火。"
+      ],
+      "traditional_char": "荠"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "细切的咸菜，通“齏”。",
+      "examples": [
+        "航不漿，冲不薺，有诸？——汉·扬雄《法言·君子》"
+      ],
+      "traditional_char": "薺"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "蒺藜，一种带刺的野草（古籍假借义）。",
+      "examples": [
+        "墙有薺。——《诗·鄘风·墙有茨》（今作“茨”，古作“薺”）"
+      ],
+      "traditional_char": "薺"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "薺为形声字，从艸，齊声，本指荠菜（植物），见《说文》及《广韵》。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "荠为后起简化字，形声结构，语音假借，用于荸荠等义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "因语音近，借用于‘齏’，即细切菜（汉代文献）。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "‘薺’在古诗中假借指蒺藜，系义项音借或混用。"
+    }
+  ]
+}

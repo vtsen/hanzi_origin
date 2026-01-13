@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "形状像珠子的美玉或美石",
+      "examples": [
+        "亭亭明玕照，落落清瑤流。",
+        "禹贡雍州珏琳琅玕。"
+      ],
+      "traditional_char": "玕"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "传说中的玉树，珠树",
+      "examples": [
+        "珠玕之树皆丛生，华实皆有滋味。",
+        "崑崙山有琅玕树。"
+      ],
+      "traditional_char": "玕"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "翠竹的美称",
+      "examples": [
+        "腰佩翠琅玕。"
+      ],
+      "traditional_char": "玕"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字：从玉，干声。本义为珠状美玉或美石，与《说文解字》及早期文献一致。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由美石引申为传说中的珠树，因其质地与美丽如宝石。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "以珠状美玉形貌称翠竹，突出翠竹表面的光泽与珠玉相类。"
+    }
+  ]
+}

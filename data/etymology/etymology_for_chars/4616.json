@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "黄疸病，因胆红素大量进入血液导致皮肤、黏膜等发黄的疾病。",
+      "examples": [
+        "黄疸病人常见皮肤、黏膜变黄。",
+        "面目身黃欲安臥，小便渾黃疸病成。"
+      ],
+      "traditional_char": "疸"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "植物的一种病害，多指稻谷等作物发病，类似黑疸、黑穗病。",
+      "examples": [
+        "去年臘雪豐盈，今年春雨應節，民田想早播種。但慮起發太盛，或有二疸之虞。"
+      ],
+      "traditional_char": "疸"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "即“疙瘩”，皮肤上隆起的小疙瘩，作方言用法。",
+      "examples": [
+        "吉丁疙疸",
+        "这疙疸"
+      ],
+      "traditional_char": "疸"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘疒’表意（疾病相关），‘旦’表声，最早用于表示黄疸病。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "借由人体疾病‘黄疸’比喻作物类似症状；见清史稿等文献。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "方言音近借用，‘疸’代指‘疙瘩’等皮肤症状。"
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "大镰刀，用于芟割草木",
+      "examples": [
+        "剀，大镰也。切地以芟刈者，亦名鉊。——《说文》",
+        "鐖凿棘矜也。——《史记·淮南衡山传》"
+      ],
+      "traditional_char": "剴"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "磨，磨刀",
+      "examples": [
+        "剀…一曰摩也。——《说文》",
+        "剀，磨也。——《广雅》"
+      ],
+      "traditional_char": "剴"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "规劝，讽喻",
+      "examples": [
+        "言古以剀今，讽刺也。——《周礼》注",
+        "剀讽。"
+      ],
+      "traditional_char": "剴"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "杀；砍",
+      "examples": [
+        "如何胡乱剀得人?——《警世通言》"
+      ],
+      "traditional_char": "剴"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "中肯，切实",
+      "examples": [
+        "其辞恳直剀。——《元史·朵罗台传》",
+        "剀切中理。"
+      ],
+      "traditional_char": "剴"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "切近，接近（方言用法，见剴/剴）",
+      "examples": [
+        "今人謂相切近為剴，俗作捱，剴亦自近彼物之稱。——章炳麟《新方言》"
+      ],
+      "traditional_char": "剴"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从刀，豈声，形声字，本意为大镰刀。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 5,
+      "note": "剴为剴的方言流变写法，“豈”声，语音近而义有扩展。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由大镰刀衍生为磨刀等动作，汉代已见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由刀具体工具义转为杀、砍之动词，唐宋文献可见。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由摩磨引申为规劝、讽喻，即反复修饰、推敲之义。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "从规劝恳切引申为中肯、切实之形容词义。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "大刀切近事理，比喻言辞恳切，宋元以后渐多见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "剴本方言俗字，近音取意，表切近义，现代方言用。"
+    }
+  ]
+}

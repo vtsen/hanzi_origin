@@ -1,0 +1,105 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "大，盛大",
+      "examples": [
+        "奕，大也。——《说文》",
+        "往小来奕。——《太玄·格》",
+        "奕奕梁山。——《诗·大雅·韩奕》"
+      ],
+      "traditional_char": "奕"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "美貌，美好的样子",
+      "examples": [
+        "张华短章，奕奕清畅。",
+        "自关而西，凡美容谓之奕。——《方言》",
+        "新廟奕奕。——《诗·鲁颂》"
+      ],
+      "traditional_char": "奕"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "光明，鲜明",
+      "examples": [
+        "赫奕章灼，若日明之丽天也。——《景福殿赋》",
+        "奕奕（光明的样子；亮光闪动的样子）"
+      ],
+      "traditional_char": "奕"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "累，重，连续多代",
+      "examples": [
+        "奕世载德，不忝前人。",
+        "奕世簪缨（子孙世代都为显宦贵族）",
+        "是仆与君奕世为通好也。——《世说新语·言语》"
+      ],
+      "traditional_char": "奕"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "世代，时代",
+      "examples": [
+        "使如来福业，不坠于今奕。——北周·王妙晖《造释迦像记》"
+      ],
+      "traditional_char": "奕"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "围棋，通“弈”",
+      "examples": [
+        "圍棋，奕也。——《廣雅》",
+        "奕秋，通国之善奕者也。——《孟子》"
+      ],
+      "traditional_char": "奕"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从大，表示“大”的意义，‘亦’作声旁。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "形容事物“盛大”引申为“美好”“美貌”；南北朝、东汉文献可见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由“大、盛”引申为“光明、鲜明”，有显赫之意，常见于汉魏六朝诗文。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由“大”引申为“重、累”，即多次、多代。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "synecdoche",
+      "note": "“累世”引申泛称单个“世代”，部分与整体的转化。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "借作‘弈’义，指围棋，纯音借，出现于先秦。"
+    }
+  ]
+}

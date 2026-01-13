@@ -1,0 +1,119 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "道路，供人车通行的地方",
+      "examples": [
+        "公路",
+        "走路",
+        "水路",
+        "陆路",
+        "道路"
+      ],
+      "traditional_char": "路"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "思想或行动的方向、途径",
+      "examples": [
+        "出路",
+        "生路",
+        "思路"
+      ],
+      "traditional_char": "路"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "方面，地区",
+      "examples": [
+        "各路人马",
+        "外路货"
+      ],
+      "traditional_char": "路"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "种类",
+      "examples": [
+        "一路货色"
+      ],
+      "traditional_char": "路"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "大，正（古义）",
+      "examples": [
+        "厥声载路",
+        "路门"
+      ],
+      "traditional_char": "路"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "车（古代帝王及诸侯贵族所乘）",
+      "examples": [
+        "路车",
+        "路舆"
+      ],
+      "traditional_char": "路"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [],
+      "traditional_char": "路"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘路’为形声字，从足，各声，本义为道路。‘足’表义，‘各’表声，反映行走之义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "道路引申为思想或做事的途径，比喻义演变，古今常见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由道路引申到各地、方面，如“各路人马”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由道路引申为种类，比喻义，如“一路货色”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "synecdoche",
+      "note": "古代由长道路宽广引申为‘大，正’。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 5,
+      "evolution_type": "metonymy",
+      "note": "由‘路’（大，正）引申为帝王所乘之车。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "conversion",
+      "note": "从名词演变为姓氏，用作姓常为地名或官名转化，较晚出现。"
+    }
+  ]
+}

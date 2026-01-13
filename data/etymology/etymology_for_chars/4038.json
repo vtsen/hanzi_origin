@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "欺骗，用谎言骗人。",
+      "examples": [
+        "你不要诓我。",
+        "乃求壮士得霍人解扬，字子虎，诓楚，令宋毋降。——《史记·郑世家》",
+        "更可笑的是八股文章，拿他诓功名，混饭吃，也罢了，还要说‘代圣贤立言’！——《红楼梦》"
+      ],
+      "traditional_char": "誆"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "哄骗，用言语或行动引小孩子高兴。",
+      "examples": [
+        "她又不得不止哭去诓孩子。——巴金《灭亡·八日》",
+        "老妇人忙拉过一张矮竹凳坐下，把她揽在怀里，拍着她的膀膊诓道：‘不要哭！……我的乖娃娃！’——李劼人《死水微澜》"
+      ],
+      "traditional_char": "誆"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "料到，预计。",
+      "examples": [
+        "也只诓妈妈就来，谁知到了天晚，还不见回。",
+        "方妈妈心里道：‘不诓一出门担阁了这些时，那小猢猻不要说急死，饿也该饿得零丁了。’"
+      ],
+      "traditional_char": "誆"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从言，匡声。本义为‘欺骗’。简化字‘诓’从‘言’、‘匡’声，繁体‘誆’同理。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘欺骗’义扩展为‘哄骗’、尤其指用言语哄小孩，两义之间语义关系明显。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由‘欺骗’引申为‘预料’、‘揣测’，是语用过程中虚构或预测语境的转变。"
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "多年生草本植物，芍药，花大美丽，供观赏，根可入药。",
+      "examples": [
+        "贈之以芍藥。",
+        "赤芍、白芍均为中药材。"
+      ],
+      "traditional_char": "芍"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "調料，指芍药或其它香草制作的调味品。",
+      "examples": [
+        "五鼎調芍藥。",
+        "勺藥之和具而後御之。"
+      ],
+      "traditional_char": "芍"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "荸薺，一种水生可食的植物。",
+      "examples": [
+        "芍，鳧茈。生下田，苗似龍鬚而細，根似指頭，黑色，可食。"
+      ],
+      "traditional_char": "芍"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "蓄水陂池名，即芍陂。",
+      "examples": [
+        "廬江郡界有楚相孫叔敖所起芍陂稻田。"
+      ],
+      "traditional_char": "芍"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "蓮子，指莲蓬中的子实，与“菂”同。",
+      "examples": [
+        "蓮中子也。通的。"
+      ],
+      "traditional_char": "芍"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "左为艹表植物，右为勺作声符，最初指芍药（一种花卉）。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由植物名称引申为以该植物制的调料。古文多载。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由芍药泛指其他外形相似的水生植物，如荸薺。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "借芍（芍药）之名命名地名，如芍陂，因沿地带多芍药植被。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "由盛产香草芍药之地引申为其他植物子实名称，与‘菂’同用。"
+    }
+  ]
+}

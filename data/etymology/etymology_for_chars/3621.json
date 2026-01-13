@@ -1,0 +1,87 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古地名，在今河南省偃师县西南，为春秋时期郑国属地，后归周。",
+      "examples": [
+        "王取邬、劉、蒍、邘之田于鄭。——《左傳》"
+      ],
+      "traditional_char": "鄔"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "古地名，在今山西省介休县东北，为春秋时期晋国属地。",
+      "examples": [
+        "司馬弥牟為邬大夫。——《左传》",
+        "因從韓信擊趙相國夏說軍於邬東，大破之。——《史記》"
+      ],
+      "traditional_char": "鄔"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "城堡，小城，堡垒。通“塢”。",
+      "examples": [
+        "獨臥郿平陽邬中。——《文選·馬融〈長笛賦〉序》",
+        "鄔，小障也。一曰庳城，在阜部。——《說文》"
+      ],
+      "traditional_char": "鄔"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [
+        "春秋晉有鄔臧。見《左傳·昭公二十八年》"
+      ],
+      "traditional_char": "鄔"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "“邬”是“鄔”的简化字。",
+      "examples": [],
+      "traditional_char": "邬"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“鄔”形声字，从邑，烏声，初指地名。"
+    },
+    {
+      "formation_type": "simple_indicative",
+      "original_sense_index": 4,
+      "note": "“邬”为‘鄔’简化字，省略“邑”旁。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "地名专指扩展到其他相关地名，见于春秋时期晋国用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "以地名转指城堡建制，用于泛指堡垒、小城。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "conversion",
+      "note": "地名转为姓氏用法，由居住地演变为姓。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "reanalysis",
+      "note": "“邬”为“鄔”的简化字，含义承接传统字。"
+    }
+  ]
+}

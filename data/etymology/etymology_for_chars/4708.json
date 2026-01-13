@@ -1,0 +1,44 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "“鹭鸶”，即白鹭，一种湿地鸟类。",
+      "examples": [
+        "鹭鸶立雪",
+        "池上白鹭鸶"
+      ],
+      "traditional_char": "鷥"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "“鷥”的简化字，用于表示“鹭鸶”。",
+      "examples": [
+        "鹭鸶是常见的水鸟。",
+        "河边有许多白色的鸶。"
+      ],
+      "traditional_char": "鸶"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "鷥从鳥，斯声，本义为白鹭类水鸟。"
+    },
+    {
+      "formation_type": "simple_indicative",
+      "original_sense_index": 1,
+      "note": "鸶为鷥的简化字，鸟从鸟，斯声。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "reanalysis",
+      "note": "鸶为鷥的简化字，功能相同，现代简化字运动产生。"
+    }
+  ]
+}

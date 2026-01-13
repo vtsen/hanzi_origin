@@ -1,0 +1,82 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "由于缺乏维生素D导致的骨骼发育不良疾病，俗称小儿软骨病。",
+      "examples": [
+        "他小时候得过佝偻病。"
+      ],
+      "traditional_char": "佝"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "愚昧无知。",
+      "examples": [
+        "佝瞀：昏味无知。"
+      ],
+      "traditional_char": "佝"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "短小畸形。",
+      "examples": [
+        "短極醜貌。"
+      ],
+      "traditional_char": "佝"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "止，停止。",
+      "examples": [
+        "佝，止也。"
+      ],
+      "traditional_char": "佝"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "务，从事或致力于某事。",
+      "examples": [
+        "佝，務也。"
+      ],
+      "traditional_char": "佝"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 3,
+      "note": "形声字，从人，句声，本义为“止”。后引申出其他含义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "semantic_shift",
+      "note": "从表示停止引申为从事，可能由用法变化。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由“止”引申为形体短小畸形，表示停止发育。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 0,
+      "evolution_type": "semantic_narrowing",
+      "note": "从一般短小畸形变为特定儿童骨骼病——佝偻病。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“止”引申表示愚昧无知，停滞不前。"
+    }
+  ]
+}

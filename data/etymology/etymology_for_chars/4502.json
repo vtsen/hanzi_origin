@@ -1,0 +1,109 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "天色晴朗，无云",
+      "examples": [
+        "天清日晏",
+        "日晏无云"
+      ],
+      "traditional_char": "晏"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "鲜艳",
+      "examples": [],
+      "traditional_char": "晏"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "迟，晚",
+      "examples": [
+        "晏起",
+        "晏驾"
+      ],
+      "traditional_char": "晏"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "安定，安乐",
+      "examples": [
+        "晏处",
+        "晏安"
+      ],
+      "traditional_char": "晏"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "温柔，和悦",
+      "examples": [
+        "言笑晏晏"
+      ],
+      "traditional_char": "晏"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "other",
+      "meaning": "同“宴”",
+      "examples": [],
+      "traditional_char": "晏"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "other",
+      "meaning": "姓氏",
+      "examples": [],
+      "traditional_char": "晏"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从日，安声，本义为天晴明朗。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由“天色晴朗”引申为“日色正盛”，进而表“时间已晚”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "天色明朗引申为“颜色鲜艳”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "天气明朗延伸，喻指“环境安乐安定”。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "安定带来心情温柔和悦含义。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "后作“宴”的通假字用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "conversion",
+      "note": "用作姓氏。"
+    }
+  ]
+}

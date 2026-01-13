@@ -1,0 +1,44 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "onomatopoeia",
+      "meaning": "形容鸟类（尤其莺鸟）清脆悦耳的叫声，多用于叠用，如“呖呖”。",
+      "examples": [
+        "呖呖莺声",
+        "呖呖而鸣"
+      ],
+      "traditional_char": "呖"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "onomatopoeia",
+      "meaning": "同“呖”，为其繁体字，形容鸟类清脆的叫声，多用于叠用。",
+      "examples": [
+        "嚦嚦莺声",
+        "嚦嚦不休"
+      ],
+      "traditional_char": "嚦"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“呖”从口，历声，表示与声音有关的词，原本即为拟声之用。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "“嚦”为“呖”的繁体字，从口，歴声，结构更复杂，义同。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "conversion",
+      "note": "“呖”为“嚦”的简化字，简化时期字形转变，意义完全一致。"
+    }
+  ]
+}

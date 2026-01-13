@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "小声细语、低声说话。",
+      "examples": [
+        "呤呤细语",
+        "啨呤"
+      ],
+      "traditional_char": "呤"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "嘌呤——化学名词，purine 的音译。",
+      "examples": [
+        "嘌呤是一类含氮有机化合物。",
+        "人体内的嘌呤代谢异常会导致痛风。"
+      ],
+      "traditional_char": "呤"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘口’为形旁，表示与言语有关，‘令’为声旁表示读音，意指小声细语。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "现代化学名词‘嘌呤’中的‘呤’为音译用字，仅取音，与原意无关。"
+    }
+  ]
+}

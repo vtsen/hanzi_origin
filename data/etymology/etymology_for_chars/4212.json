@@ -1,0 +1,67 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "虻科的昆虫，身体灰黑，体形粗大，翅膀透明，雄虫吸植物汁液，雌虫吸人畜血液。",
+      "examples": [
+        "夫搏牛之虻，不可以破虮虱。——《史记》",
+        "工徒聚如虻。——清·严如熤《木厂咏》"
+      ],
+      "traditional_char": "虻"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "箭名，一种短箭。",
+      "examples": [
+        "虻矢（短箭名）",
+        "虻飞（箭名）"
+      ],
+      "traditional_char": "虻"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "草名，即贝母。",
+      "examples": [
+        "陟彼阿丘，言采其虻。——《诗·鄘风·载驰》"
+      ],
+      "traditional_char": "虻"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "通“盲”，迅疾、快速。",
+      "examples": [],
+      "traditional_char": "虻"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从虫，亡声。最初表示能叮咬人的飞虫，即虻科昆虫。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "以虻飞迅疾、叮咬之特点喻箭，形成短箭的名称用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "因贝母与虻昆虫生活环境相近且名称相近，词义转移。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "synecdoche",
+      "note": "取虻动作快捷、难以防备之意，引申为迅疾。"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "马具，驾车马尾部的革带，称作马鞧、马緧。",
+      "examples": [
+        "车纣，自关而东，周、洛、韩、汝、颍而东谓之鞧，或谓之曲绹，或谓之曲纶；自关而西谓之纣。",
+        "紂，馬緧也。"
+      ],
+      "traditional_char": "紂"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "商代最后一位君主的谥号，传说中的暴君，纣王。",
+      "examples": [
+        "桀纣贵为天子。",
+        "帝乙崩，子辛立，是为帝辛，天下谓之紂。",
+        "助纣为虐"
+      ],
+      "traditional_char": "紂"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "村俗、粗野之人。",
+      "examples": [
+        "甘不过轻狂子弟，难禁受极紂勤儿。",
+        "紂撅丁走踢飞拳，老妖精缚手缠脚。"
+      ],
+      "traditional_char": "紂"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从糸，肘声，表示与线带有关，音借‘肘’以表声。最初表示马緧（马后之革带）。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_shift",
+      "note": "‘马緧’义转为君主谥号，可能因谥法贬称，义有转移，见于先秦文献。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由暴君贬义泛化为粗野、村俗之人，多用于元杂剧、俗语等。"
+    }
+  ]
+}

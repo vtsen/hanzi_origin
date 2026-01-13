@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "山名，岷山。位于中国四川省北部，绵延于四川、甘肃两省交界。",
+      "examples": [
+        "岷山导江。——《书·禹贡》",
+        "蜀中山川如岷山。——《王羲之与谢安书》"
+      ],
+      "traditional_char": "岷"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "水名，岷江。中国四川省中部的河流，为长江上游重要支流。",
+      "examples": [
+        "岷江和嘉陵江支流白龙江发源地。",
+        "大江出汶郭之东南，逕蜀郡。——《山海经》"
+      ],
+      "traditional_char": "岷"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "州名，岷州。古地名，今甘肃省岷县一带，因岷山得名。",
+      "examples": [
+        "后魏置岷州，唐至清沿之。",
+        "山在岷州，溢洛南一里。"
+      ],
+      "traditional_char": "岷"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从山，民声。表示与山相关的地名，最初指岷山。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "以山之名指发源于该山的江流，古今多见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "以山之名称其附近的行政区（州名），见北朝地志。"
+    }
+  ]
+}

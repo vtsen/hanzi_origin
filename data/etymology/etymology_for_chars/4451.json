@@ -1,0 +1,63 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "前臂靠大指一侧的骨头，即“桡骨”。",
+      "examples": [
+        "桡骨骨折常见于儿童。"
+      ],
+      "traditional_char": "橈"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "桨，划船用的工具。",
+      "examples": [
+        "双手握桡以行舟。"
+      ],
+      "traditional_char": "橈"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "削弱，损伤（同“挠”）。",
+      "examples": [],
+      "traditional_char": "橈"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "打扰，干扰（同“挠”）。",
+      "examples": [],
+      "traditional_char": "橈"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "“橈”为形声字，“木”表意指与木制器具有关，“尧”表音，本指桨。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "metaphor",
+      "note": "因桡骨形似桨，故名。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "“橈”借为“挠”，用于削弱义，见于古文。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由削弱引申为打扰、干扰。"
+    }
+  ]
+}

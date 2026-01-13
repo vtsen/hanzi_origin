@@ -1,0 +1,58 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "拘谨，无为，持守节操，洁身自好，与“狂”相对。",
+      "examples": [
+        "狂者进取，狷者有所不为也。——《论语·子路》",
+        "小心狷介，不敢行也。——《国语·晋语二》",
+        "许由狷。"
+      ],
+      "traditional_char": "狷"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "性情耿直，固执。",
+      "examples": [
+        "其心又狷而不絜。——《国语·楚语下》",
+        "狷者，直己之志，不从人也。——韦昭注",
+        "狷直（耿直）；狷刚（固执刚直）。"
+      ],
+      "traditional_char": "狷"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "性情偏急，急躁，胸襟狭窄。",
+      "examples": [
+        "以狷急不能从俗。——《后汉书·范冉传》",
+        "狷，急也。——颜师古注《汉书·刘辅传》",
+        "胆劣心狷。——《文选·潘岳〈射雉赋〉》"
+      ],
+      "traditional_char": "狷"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字。从犬，肙声。本义为有所不为、拘谨持节，与犬守护相关。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“拘谨持节”引申为“耿直固执”，因坚守节操常带有刚直不阿之义。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "由本义“有所不为”的执拗，语义变为“偏急、急躁、狭窄”，转为贬义色彩。"
+    }
+  ]
+}

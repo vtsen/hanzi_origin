@@ -1,0 +1,84 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "苎麻，一种多年生草本植物，茎皮纤维可用于纺织。",
+      "examples": [
+        "白苎（白色的苎麻）",
+        "苎衣（苎麻布制成的衣服）",
+        "十月收豆，多取蒲苎，益作繩索。"
+      ],
+      "traditional_char": "苎"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "苎麻的茎皮纤维。",
+      "examples": [
+        "可以漚紵。",
+        "益作繩索。"
+      ],
+      "traditional_char": "苎"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "荆三棱（一种植物）的别名。",
+      "examples": [],
+      "traditional_char": "苎"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "色白如苎麻。",
+      "examples": [
+        "危亭望极，草色天涯，以鬃侵半苎。"
+      ],
+      "traditional_char": "苎"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "苎麻，植物名，可作绳索。",
+      "examples": [
+        "其草則藨苧薠莞。",
+        "多取蒲苧，益作繩索。",
+        "詩·陳風：東門之池，可以漚紵。"
+      ],
+      "traditional_char": "苧"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“苎”为形声字，艹为形旁，宁（音佇）为声旁，初指苎麻植物。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 4,
+      "note": "“苧”与“苎”古字通用，艹旁表意，宁为声，初指苎麻。古文互见。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由植物名称扩展为其纤维。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "本指苎麻，后借用于另一种植物。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由苎麻色泽引申为“白色”。"
+    }
+  ]
+}

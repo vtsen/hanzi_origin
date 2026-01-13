@@ -1,0 +1,51 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古书上说的没有脚的虫，虫类的通称。",
+      "examples": [
+        "虫豸皆出于地。——《淮南子》",
+        "虫豸归穴。——《荀子》"
+      ],
+      "traditional_char": "豸"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "獬豸，一种传说中的神兽。",
+      "examples": [
+        "獬豸断曲直。——《汉书·东方朔传》"
+      ],
+      "traditional_char": "豸"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "解决。",
+      "examples": [],
+      "traditional_char": "豸"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "pictograph",
+      "original_sense_index": 0,
+      "note": "象形，形似无足长虫之形，本指没有脚的虫类。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "synecdoche",
+      "note": "部分带整体，‘豸’泛指虫，‘獬豸’为具体神兽。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "unknown",
+      "note": "‘豸’作‘解决’义，多见于古书，关系不明，机制存疑。"
+    }
+  ]
+}

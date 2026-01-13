@@ -1,0 +1,136 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "登车时手挽的绳索",
+      "examples": [
+        "孔子升车必正立执绥。",
+        "婿御妇车授绥，姆辞不受。",
+        "王子叜援绥登车。"
+      ],
+      "traditional_char": "綏"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "上古五服之一，古代王畿外围的地带名",
+      "examples": [
+        "五百里绥服。",
+        "明唐允甲《还山诗》：仆夫理前绥，逝骥鸣阶除。"
+      ],
+      "traditional_char": "綏"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "古代的旌旗和旒",
+      "examples": [
+        "天子杀则下大绥，诸侯杀则下小绥。",
+        "淑旂绥章。"
+      ],
+      "traditional_char": "綏"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "地名，如绥江、旧绥远省、绥州",
+      "examples": [
+        "绥江在福建省西部。",
+        "旧绥远省1954年撤销。"
+      ],
+      "traditional_char": "綏"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "安抚，安定",
+      "examples": [
+        "惠此中国，以绥四方。",
+        "绥之斯来，动之斯和。",
+        "绥民，安定人民。"
+      ],
+      "traditional_char": "綏"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "临阵退军，向后撤",
+      "examples": [
+        "秦以胜归，我何以报，乃皆出战，交绥。",
+        "将军死绥。"
+      ],
+      "traditional_char": "綏"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "制止，止",
+      "examples": [
+        "使民以劝，绥谤言，足以补官之不善政。"
+      ],
+      "traditional_char": "綏"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "adjective",
+      "meaning": "舒缓的，平安的，安好",
+      "examples": [
+        "顺颂台绥。",
+        "绥绥兮其有文章也。"
+      ],
+      "traditional_char": "綏"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "会意兼形声，从糸（表示绳索），妥声，表示登车时的绳索，带有安妥之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "由登车之绳象征“使人安定”引申为“安抚安定”，见先秦文献。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由“安稳”引申为地理区划的名称，表示顺服于王政。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "因绳索有旌旗系带引申为旌旗和旒。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "以物名借指地名，多见于中国古代地理命名习惯。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 7,
+      "evolution_type": "semantic_extension",
+      "note": "由带来安妥、稳妥的属性引申为“安好、安泰、舒缓”。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 5,
+      "evolution_type": "semantic_shift",
+      "note": "安抚/安定——>临阵退却之“安定、止战”，含义漂移。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 6,
+      "evolution_type": "semantic_extension",
+      "note": "安抚/安定——>制止、止，语义进一步宽泛。"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "盛饮食或其他液体的圆口器皿",
+      "examples": [
+        "水盂",
+        "痰盂",
+        "漱口盂儿"
+      ],
+      "traditional_char": "盂"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "佛教中指‘盂兰盆会’，即七月十五日举行的宗教仪式",
+      "examples": [
+        "盂兰盆会是佛教重要节日之一。"
+      ],
+      "traditional_char": "盂"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从‘皿’表示器皿，于声，本义为盛液体的器皿。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "该节日借用‘盂’作典型道具，成为佛教仪式‘盂兰盆会’名称。"
+    }
+  ]
+}

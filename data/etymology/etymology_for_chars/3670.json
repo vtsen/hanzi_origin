@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "苁蓉、肉苁蓉等寄生药用植物的名称。",
+      "examples": [
+        "肉苁蓉可入药。",
+        "苁蓉，又名大芸，为名贵中药材。"
+      ],
+      "traditional_char": "蓯"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "草木茂盛的样子。",
+      "examples": [
+        "菶蓯，草貌。",
+        "草色蓯蓯。"
+      ],
+      "traditional_char": "蓯"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "小艇；泛指小船（通“舼”）。",
+      "examples": [
+        "令之为钩楷蓯柤……皆具。",
+        "水战之法，必众其徒而寡其车，令之为钩楷蓯柤……。《孙膑兵法·十阵》"
+      ],
+      "traditional_char": "蓯"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "进入、相入（通“摐”），相互掩映、交错。",
+      "examples": [
+        "骚扰𧘂蓯。",
+        "𧘂蓯，相入貌。"
+      ],
+      "traditional_char": "蓯"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "蓯为形声字，从艸，宗声。原指草木茂盛貌。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_narrowing",
+      "note": "由草木茂盛引申为特指某种寄生药用植物。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "unknown",
+      "note": "从草貌到‘小艇’意义，历代训诂多通假，机制不明。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "unknown",
+      "note": "“相入貌”与“草貌”由借义通假，但具体机制存疑。"
+    }
+  ]
+}

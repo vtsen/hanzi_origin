@@ -1,0 +1,70 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古代穀物計量單位，五稯稱為一秭。",
+      "examples": [
+        "五稯為秭。"
+      ],
+      "traditional_char": "秭"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "numeral",
+      "meaning": "古代大數名，數值有多種說法，包括一萬億（10^12）、十億、千億、億億、萬萬垓等。",
+      "examples": [
+        "萬億及秭。",
+        "數億至萬曰秭。",
+        "今以十億為秭。"
+      ],
+      "traditional_char": "秭"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "（通“姊”）姐姐。",
+      "examples": [
+        "秭歸山崩。",
+        "其姊亦來，因名其地為秭歸。"
+      ],
+      "traditional_char": "秭"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "鳥名，秭鴂。",
+      "examples": [
+        "秭鴂先𣽎。"
+      ],
+      "traditional_char": "秭"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从禾，𠂔聲，表示與禾穀相關的計量單位，具聲旁表音。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由穀物單位比喻、引申為數字單位，用於極大數量的稱呼，見於先秦以後。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "unknown",
+      "note": "用作鳥名，可能與數量、特定物種特徵相關，關係不明。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "因音通“姊”，用作“姊”義，屬於假借字用法。"
+    }
+  ]
+}

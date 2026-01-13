@@ -1,0 +1,60 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "痛苦，悲伤，忧愁",
+      "examples": [
+        "疾痛惨怛，未尝不呼父母也。",
+        "悲泗淋漓，诚怛人心。",
+        "中心怛兮。",
+        "劳心怛怛。"
+      ],
+      "traditional_char": "怛"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "畏惧，惊恐，恐吓，惊动",
+      "examples": [
+        "无怛化！",
+        "怛然内热。",
+        "其人怒，怛之。",
+        "温太真尝隐幔怛之，此儿神色恬然。",
+        "美之使怡愉，怛之使骇畏。"
+      ],
+      "traditional_char": "怛"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "骄纵，傲慢",
+      "examples": [
+        "矜怛生于不足。",
+        "克行遂节谓之必，反必为怛。"
+      ],
+      "traditional_char": "怛"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从心，旦声，表示与‘心’相关的痛苦、悲伤。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由内心痛苦、忧伤引申为惊惧、恐惧及使人害怕的动作；周秦两汉已见用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "由内心的痛苦、敏感，语义转变为性格上骄纵傲慢，多见于先秦两汉。"
+    }
+  ]
+}

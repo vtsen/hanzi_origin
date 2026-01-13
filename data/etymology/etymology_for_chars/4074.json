@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "深青色中带有红色的颜色，红青色。",
+      "examples": [
+        "绀，帛深青扬赤色。——《说文》",
+        "君子不以绀緅饰。——《论语》",
+        "绿衣紺尾。——宋祁《益部方物略记•百舌鸟》"
+      ],
+      "traditional_char": "紺"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "能帮助记忆的事物，比喻记事珠（指绀珠）。",
+      "examples": [
+        "绀珠（喻能帮助记忆的事物）"
+      ],
+      "traditional_char": "紺"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "天青色；深青透红之色。",
+      "examples": [
+        "其山有石，紺而狀燕，因以山名。——北魏 酈道元《水经注•湘水》",
+        "胡以紺而蒼，胡以喙而蚑？——清 魏源《偶然吟》"
+      ],
+      "traditional_char": "紺"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从糸，甘声，表示带有深青色的丝织品，是最初的本义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由指深青扬赤的特定色彩，扩展泛指天青/深青透红等相关色彩。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由指绀色的珠子，引申为记事珠、能帮助记忆的事物。"
+    }
+  ]
+}

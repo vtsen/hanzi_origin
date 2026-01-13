@@ -1,0 +1,145 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古代用牦牛尾装饰的旗子",
+      "examples": [
+        "上将拥旄西出征，平明吹笛大军行",
+        "建彼旄矣",
+        "右秉白旄"
+      ],
+      "traditional_char": "旄"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "牦牛尾，常用于装饰或制品",
+      "examples": [
+        "羽旄齿革"
+      ],
+      "traditional_char": "旄"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "牦牛",
+      "examples": [
+        "骍旄之盟"
+      ],
+      "traditional_char": "旄"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "山丘，前高后低之丘",
+      "examples": [
+        "旄丘之葛兮"
+      ],
+      "traditional_char": "旄"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "星名，如旄星、旄头星（即昂星）",
+      "examples": [
+        "昴曰旄头"
+      ],
+      "traditional_char": "旄"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "adjective",
+      "meaning": "年老，年迈（通“耄”）",
+      "examples": [
+        "反其旄倪",
+        "后制于李园，旄矣"
+      ],
+      "traditional_char": "旄"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "adjective",
+      "meaning": "眼睛昏花，昏乱（通“眊”）",
+      "examples": [
+        "旄不知人"
+      ],
+      "traditional_char": "旄"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "noun",
+      "meaning": "俊杰，出众之士（通“髦”）",
+      "examples": [
+        "英旄"
+      ],
+      "traditional_char": "旄"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "noun",
+      "meaning": "毛发，羽毛（通“毛”）",
+      "examples": [
+        "粪除其颠旄"
+      ],
+      "traditional_char": "旄"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从㫃，毛声，表示用牦牛尾装饰的旗子。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "metonymy",
+      "note": "以所用之物（牦牛尾）指代饰物（旗子）"
+    },
+    {
+      "source_index": 2,
+      "target_index": 1,
+      "evolution_type": "synecdoche",
+      "note": "整体部分换指，由牛指其尾"
+    },
+    {
+      "source_index": 8,
+      "target_index": 1,
+      "evolution_type": "reanalysis",
+      "note": "通“毛”，由毛发泛指特定动物尾部"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "旗形比喻星象，旄星名"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "以牦牛形态比喻山丘形状"
+    },
+    {
+      "source_index": 8,
+      "target_index": 7,
+      "evolution_type": "reanalysis",
+      "note": "通“髦”，高大突出为喻俊杰"
+    },
+    {
+      "source_index": 8,
+      "target_index": 5,
+      "evolution_type": "reanalysis",
+      "note": "与“耄”（老）声近形通"
+    },
+    {
+      "source_index": 5,
+      "target_index": 6,
+      "evolution_type": "semantic_extension",
+      "note": "由年老引申为昏花昏乱"
+    }
+  ]
+}

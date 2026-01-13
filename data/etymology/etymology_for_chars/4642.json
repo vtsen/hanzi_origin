@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古国名，传为少昊后裔封国，在今山东省郯城一带。",
+      "examples": [
+        "公及齐侯平莒及郯。",
+        "郯子来朝。",
+        "山分郯子国，地近嶧阳村。"
+      ],
+      "traditional_char": "郯"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "地名，今山东郯城县的旧县名。",
+      "examples": [
+        "东海郡……县三十八：郯，故国，少昊后，盈姓。",
+        "郯县，属东海郡。"
+      ],
+      "traditional_char": "郯"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "姓氏，由郯国名而来。",
+      "examples": [
+        "元有郯韶。",
+        "郯以国为氏。"
+      ],
+      "traditional_char": "郯"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从邑，炎声；表地名，用于表示少昊后裔的封国。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "以古国之名得县名，见于汉代及其后地理记载。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "以国为氏，古国灭后，其后裔以郯为姓。"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "美丽",
+      "examples": [
+        "百花争妍",
+        "妍媸并陈"
+      ],
+      "traditional_char": "妍"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "巧，灵巧",
+      "examples": [
+        "妍捷"
+      ],
+      "traditional_char": "妍"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "形声字，从女，幵声；本义为“巧慧”，即灵巧、聪慧，与美丽含义区分。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "由“巧慧”（灵巧、聪慧）引申为“美丽”；先见于先秦两汉用法。"
+    }
+  ]
+}

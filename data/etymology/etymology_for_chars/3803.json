@@ -1,0 +1,97 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "倾斜不平的样子",
+      "examples": [
+        "罢池陂陀，下属江河。——汉·司马相如《子虚赋》"
+      ],
+      "traditional_char": "陀"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "山冈，小丘",
+      "examples": [
+        "藉草各小憩，侧身复登陀。——元·袁桷《次韵伯宗同行至上都》"
+      ],
+      "traditional_char": "陀"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "团状物",
+      "examples": [
+        "把棍子望小妖头上砑了一砑，可怜就砑得像个肉陀。——《西游记》"
+      ],
+      "traditional_char": "陀"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "measure_word",
+      "meaning": "形容数量很少的量词",
+      "examples": [
+        "黄菊东篱栽数科，野菜西山锄几陀。——元·曾瑞《端正好》"
+      ],
+      "traditional_char": "陀"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "沙陀的简称，地名",
+      "examples": [
+        "陀，沙陀，后唐始兴之地。——《正字通》"
+      ],
+      "traditional_char": "陀"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "塌落，崩坏",
+      "examples": [
+        "城峭者必崩，岸崝者必陀。——《淮南子·缪称训》"
+      ],
+      "traditional_char": "陀"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从阜（表示与山地有关），‘它’为声，初指地势倾斜不平。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由倾斜不平引申为小丘、山冈之地貌，汉至元代多见。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "根据山丘的形状，比喻为各种团状物，明清小说中常见。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "function_word",
+      "note": "由团状物义抽象为计量单位，形容数量很少，元代用法。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "以地形特征指代具体地名“沙陀”，隋唐五代地理用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "semantic_shift",
+      "note": "从地势不平，引申为土石崩塌、塌落等动态现象，两汉文献可见。"
+    }
+  ]
+}

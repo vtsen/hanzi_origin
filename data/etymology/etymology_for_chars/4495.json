@@ -1,0 +1,50 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "光明，明亮",
+      "examples": [
+        "昂头冠三山，俯瞰旭日晟。"
+      ],
+      "traditional_char": "晟"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "兴盛，旺盛，盛大",
+      "examples": [
+        "自秦创兴，于周转晟。"
+      ],
+      "traditional_char": "晟"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "用于姓氏",
+      "examples": [],
+      "traditional_char": "晟"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘晟’从日，成声。本义为明亮或光明，与形声字结构相符。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘光明’引申为‘兴盛、旺盛’，转指繁盛之意，见于中古文献。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "conversion",
+      "note": "由形容词引申作姓氏用法，姓氏来源不详，属用字类"
+    }
+  ]
+}

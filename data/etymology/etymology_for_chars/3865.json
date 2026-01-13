@@ -1,0 +1,145 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "苓耳，亦即卷耳，一种植物的名称。",
+      "examples": [
+        "苓，卷耳也。——《说文》",
+        "爾雅：菤耳，苓耳也。"
+      ],
+      "traditional_char": "苓"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "中药名，指茯苓、猪苓等可以入药的植物的简称。",
+      "examples": [
+        "千年之松，下有茯苓。——《淮南子·说山训》",
+        "失时者苓落。——《汉书》"
+      ],
+      "traditional_char": "苓"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "大苦，一种古代所说的香草名。",
+      "examples": [
+        "采苓采苓，首阳之巅。——《诗·唐风·采苓》",
+        "苓，大苦也。——《毛传》"
+      ],
+      "traditional_char": "苓"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "猪粪，古以“苓”借指猪屎。",
+      "examples": [
+        "豬糞叫苓，馬糞叫通。"
+      ],
+      "traditional_char": "苓"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "零落，草木凋落的样子，同“零”。",
+      "examples": [
+        "得气者蕃滋，失时者苓落。——《汉书·叙传上》"
+      ],
+      "traditional_char": "苓"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "adjective",
+      "meaning": "青翠，形容草木茂盛鲜绿的样子。",
+      "examples": [
+        "苓茏：草木青翠茂盛的样子。"
+      ],
+      "traditional_char": "苓"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "古代地名。",
+      "examples": [
+        "扶苓縣，屬九德郡。——《晋书·地理志》"
+      ],
+      "traditional_char": "苓"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "noun",
+      "meaning": "同“蓮”，古“蓮”的字。",
+      "examples": [
+        "蔓草芳苓。——《文选·枚乘〈七发〉》注：“苓，古蓮字也。”"
+      ],
+      "traditional_char": "苓"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "noun",
+      "meaning": "车前栏杆。（通“軨”）",
+      "examples": [
+        "苓，車前闌也。——《礼记·少仪》郑玄注"
+      ],
+      "traditional_char": "苓"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从艸，令声，表示植物名。本义为苓耳，即卷耳。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "以原意苓耳代指类似性质的药草（如猪苓、茯苓），中古已见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由具体草本植物泛指其他有苦味的草本（大苦）。先秦文献可见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "因猪粪外形类似某些植物块根而借指。古医药文献见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "synecdoche",
+      "note": "取部分草木枯萎、零落之意，转为形容词用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "由本义植物之生机勃勃，转化为青翠的象征，比喻草木茂盛。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "metonymy",
+      "note": "以盛产或与苓相关的地方命名，见于古地名。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 7,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "音近假借，古文中直接假作“莲”字。中古以后用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 8,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "以同音假借通“軨”，指车栏。用例见汉代及后世注疏。"
+    }
+  ]
+}

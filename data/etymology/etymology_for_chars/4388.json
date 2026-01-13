@@ -1,0 +1,58 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "少女；美女",
+      "examples": [
+        "奼，少女也。——《说文》",
+        "河间姹女工数钱。——《汉书·五行志》",
+        "姹女（美女。道教指水银）"
+      ],
+      "traditional_char": "姹"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "娇美，艳丽",
+      "examples": [
+        "渐觉绿娇红姹，装点层台芳榭。",
+        "桃夭杏姹通园蹊。",
+        "姹姹。形容美丽多姿"
+      ],
+      "traditional_char": "姹"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "夸耀，夸示",
+      "examples": [
+        "子虚过姹乌有先生。",
+        "子虚过奼乌有先生、亡是公存焉。",
+        "张揖曰：‘奼，夸也……字当作詫。’"
+      ],
+      "traditional_char": "姹"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘姹’为形声字，从女，宅声，最初表少女或美女。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由 ‘美女’ 引申为 ‘娇美，艳丽’，强调外貌特征。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由美女受人欣赏、赞美引申为‘夸耀’，用以比喻显示、炫耀。"
+    }
+  ]
+}

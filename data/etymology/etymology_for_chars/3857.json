@@ -1,0 +1,93 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "草名，即水葒，蓼类植物。",
+      "examples": [
+        "其山之浅，有茏与斥。——《管子·地员》"
+      ],
+      "traditional_char": "蘢"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "形容草木青翠茂盛。",
+      "examples": [
+        "譬若周云之茏苁。——《淮南子·俶真》",
+        "草木蒙蘢。——《前汉·鼂错传》"
+      ],
+      "traditional_char": "蘢"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "（借用）指丛聚、聚集的样子。",
+      "examples": [
+        "𦆯紛蘢蓯。——《淮南子·俶真》",
+        "攢羅列聚，叢以蘢茸兮。——《大人赋》"
+      ],
+      "traditional_char": "蘢"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "地名，用作地名（如蘢城）。",
+      "examples": [
+        "卫青破蘢城。——《史记·韩长孺传》"
+      ],
+      "traditional_char": "蘢"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "茏的简化字，用作“蘢”的简化形式。",
+      "examples": [],
+      "traditional_char": "茏"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "蘢：形声字，从艸，龙声，表示一种草。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 4,
+      "note": "茏：蘢的简化字，从艸，龙声。简化于20世纪。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由具体草名引申为泛指茂盛状态，多见于文献。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由指植物的茂盛引申为丛聚、聚集的样子。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "unknown",
+      "note": "作地名用，起由不明，但多数地名源自当地植被特色。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "reanalysis",
+      "note": "简化字“茏”直接承继蘢的主要名词义。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "reanalysis",
+      "note": "简化字“茏”也可用作形容草木茂盛，含简繁对照关系。"
+    }
+  ]
+}

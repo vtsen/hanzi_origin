@@ -1,0 +1,92 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "抓住头发，揪持；亦泛指抓、揪住某物。",
+      "examples": [
+        "捽胡投何罗殿下。",
+        "连肩胛只一提，右手早捽住西门庆左脚。",
+        "捽下提殴之。",
+        "小孩儿捽住妈妈的衣服。"
+      ],
+      "traditional_char": "捽"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "拔，拔取（草等）。",
+      "examples": [
+        "农夫父子暴露中野，不避寒暑，捽屮杷土，手足胼胝。",
+        "王禹偁《种菜了雨下》诗：“废畦添粪壤，胼手捽荒芜。”"
+      ],
+      "traditional_char": "捽"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "投、甩、摔。",
+      "examples": [
+        "一只手揪住那厮衣领，一只手掐住脚腕，滴溜扑捽箇一字交。",
+        "吴伟业《东莱行》：“卫尉捉头捽下殿。”",
+        "往庭中一捽。"
+      ],
+      "traditional_char": "捽"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "抵触，冲突；相互冲撞、争斗。",
+      "examples": [
+        "戎夏交捽。",
+        "齐人之井饮者相捽也。",
+        "井养不穷，齐人尚争，乃相捽。",
+        "解捽者不在于别格，在于批抌。"
+      ],
+      "traditional_char": "捽"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "摩擦，揉搓（方言或象声词用法）。",
+      "examples": [
+        "捽兀：搔摩状。",
+        "捽攃，行草声。"
+      ],
+      "traditional_char": "捽"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从手，卒声。形声字，表示用手抓持头发或物品，有明确定义于《说文》。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由抓持扩展到用手拔取，如拔草。见《汉书·贡禹传》用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由抓住、揪持发展为投、甩（后续动作），例如“捽下”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由抓持引申为冲突、争斗，涉及身体动作的对抗，多见于文献中的争斗场面。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由手抓持引申为揉搓、摩擦，部分用为象声词或方言。"
+    }
+  ]
+}

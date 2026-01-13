@@ -1,0 +1,57 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "天明，拂晓时分",
+      "examples": [
+        "拂晓时分",
+        "破晓",
+        "晓市"
+      ],
+      "traditional_char": "曉"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "知道，了解",
+      "examples": [
+        "分晓",
+        "晓得",
+        "众所周晓"
+      ],
+      "traditional_char": "曉"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "使人知道，通知，告知",
+      "examples": [
+        "晓谕",
+        "晓示"
+      ],
+      "traditional_char": "曉"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从日，尧声，表示与天明有关。本义为“天明”。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由天明引申为“知晓、明白”，因天明代表事态明了。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "conversion",
+      "note": "由“知道”动词进一步转用为“使别人知道、通知”。"
+    }
+  ]
+}

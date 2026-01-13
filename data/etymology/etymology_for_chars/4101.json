@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "为便于灌溉而筑的小土堤",
+      "examples": [
+        "筑垱挖塘"
+      ],
+      "traditional_char": "垱"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "为便于灌溉而筑的小土堤（‘壋’的写法）",
+      "examples": [],
+      "traditional_char": "壋"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "与当地所筑堤坝有关的地名",
+      "examples": [
+        "舒家垱"
+      ],
+      "traditional_char": "垱"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘垱’为形声字，‘土’为意旁，‘当’为声旁，本指与土有关的小堤。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "‘壋’为形声字，‘土’为意旁，‘襄’为声旁，与‘垱’意义相同，用于不同书写体系。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "地名多以地域特征命名，由‘小土堤’引申为地名。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "reanalysis",
+      "note": "‘壋’为繁体，‘垱’为简化后标准字，二者在现代语义上对应。"
+    }
+  ]
+}

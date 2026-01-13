@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "北斗七星的斗柄，古代星名，亦称“天罡”。",
+      "examples": [
+        "罡星煞曜降凡世，天蓬丁甲离青穹。",
+        "又思作七星北斗，以魁覆其头，以罡指南。",
+        "左罡右魁。"
+      ],
+      "traditional_char": "罡"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "山冈，在较平坦地区突出或显著的高地。",
+      "examples": [
+        "城北有尉他墓，墓后有大罡，谓之马鞍罡。",
+        "南山高罡，回隤难登。"
+      ],
+      "traditional_char": "罡"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "（道教用语）高空的风，或指强劲的风，亦作“刚风”。",
+      "examples": [
+        "查罡布斗，香烟馥郁透清霄。",
+        "罡风"
+      ],
+      "traditional_char": "罡"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "由“罒（网）”为形旁，‘刚’为声旁，表示北斗斗柄如网而刚劲，有声意结合，出于星名本义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由北斗之高远、威严引申为高空强风，道教专用语，见于宗教与天文语境。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "取天罡高耸之意，引申指地面上突出的高地或山冈，多见于古文地理描写。"
+    }
+  ]
+}

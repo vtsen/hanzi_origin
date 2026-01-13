@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "边界，边境。",
+      "examples": [
+        "郑人怒君之疆埸。——《左传·成公十三年》",
+        "疆埸之事，慎守其一。"
+      ],
+      "traditional_char": "埸"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "田间界限，田畔。",
+      "examples": [
+        "今小田塍为埸。——《篇海类编》",
+        "疆埸有瓜。——《诗经·小雅·信南山》",
+        "埸，畔也。——郑玄《箋》"
+      ],
+      "traditional_char": "埸"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "道路。",
+      "examples": [
+        "疏欄發近郛，長行達廣埸。——謝靈運《種桑》詩"
+      ],
+      "traditional_char": "埸"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从土，易声。本义为边界、边境，‘土’表意指与土地相关，‘易’表音。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_narrowing",
+      "note": "从广义的边境、边界，语义收缩为田间的界限、田畔。此转变见于上古及先秦文献。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由田间界限引申泛指道路，属于地理空间的延伸用法。"
+    }
+  ]
+}

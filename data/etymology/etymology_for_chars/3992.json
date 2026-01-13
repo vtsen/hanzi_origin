@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "设酒食送行",
+      "examples": [
+        "为友人饯行",
+        "饯别之宴"
+      ],
+      "traditional_char": "餞"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "用蜜或糖浸渍的果品",
+      "examples": [
+        "蜜饯",
+        "水果饯"
+      ],
+      "traditional_char": "餞"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从食，戋声。本义为设酒食送行。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由送行设宴的食物，引申为用蜜糖腌制的果品。"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "欢乐，和乐",
+      "examples": [
+        "恺，乐也。——《说文》",
+        "中心物恺。——《庄子·天道》",
+        "天下既平，天子大恺。——《汉书·主父偃传》"
+      ],
+      "traditional_char": "愷"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "明（明亮、明显）",
+      "examples": [
+        "夫不勤勤则前人不当，不恳恳则觉德不恺。——《文选·扬雄·剧秦美新》"
+      ],
+      "traditional_char": "愷"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "军队胜利后所奏之乐（凯乐）",
+      "examples": [
+        "王师大献，则令奏恺乐。——《周礼·大司乐》",
+        "秋七月丙申，振旅，恺以入于晋。——《左传·僖公二十八年》",
+        "徐方一战收，振旅已奏恺。——张翥《后出军》"
+      ],
+      "traditional_char": "愷"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "和顺，平易近人",
+      "examples": [
+        "昔高阳氏有才子八人……天下之民谓之八愷。——《左传·文公十八年》",
+        "恺悌（和颜悦色，易于接近）"
+      ],
+      "traditional_char": "愷"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "“恺”为“愷”的简化字",
+      "examples": [],
+      "traditional_char": "恺"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘愷’为形声字，从心，豈声，本义为欢乐、和乐，见于《说文》。"
+    },
+    {
+      "formation_type": "simple_indicative",
+      "original_sense_index": 4,
+      "note": "‘恺’为简化字，简自‘愷’，对应现代简体中文使用。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘欢乐、和乐’引申为‘明’，见《文选·扬雄·剧秦美新》，属义项引申。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "欢乐之义转指欢乐的乐曲，军事胜利时所奏之‘凯乐’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "‘和乐’扩展为‘和顺，平易近人’之义，用于描写人之性格。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "reanalysis",
+      "note": "‘恺’本为‘愷’的简化字，现代规范字使用。"
+    }
+  ]
+}

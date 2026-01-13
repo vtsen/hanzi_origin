@@ -1,0 +1,93 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "颈项，脖子。",
+      "examples": [
+        "亢，人颈也。或作颃。——《说文》",
+        "頏，颈项也。"
+      ],
+      "traditional_char": "頏"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "咽喉。",
+      "examples": [
+        "頏顙，咽喉。",
+        "頏，咽頏。——《廣韻》"
+      ],
+      "traditional_char": "頏"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "鸟向上飞。",
+      "examples": [
+        "燕燕于飞，頡之頏之。——《诗·邶风》",
+        "飛而上曰頏。——《毛传》"
+      ],
+      "traditional_char": "頏"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "鸟向下飞。",
+      "examples": [
+        "燕燕于飞，頡之頏之。——《诗·邶风》",
+        "飛而下曰頡。——《毛传》"
+      ],
+      "traditional_char": "頏"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "（引申）奔跑，驰逐。",
+      "examples": [
+        "蛙吠廟堂，螉及四方，纖兒仄豎，爭相怒頏。——龔自珍",
+        "飛鼠時過擲，飢禽或下頏。——梅堯臣"
+      ],
+      "traditional_char": "頏"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从頁，亢声，本义为颈项，出现于《说文》；后义扩展。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由颈项义泛指至咽喉部位，古今多见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由颈项高起，引申为鸟高飞、举首之动作，有形象比喻成分。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "与高飞意相关联，后世有上下飞反复用法，疑因“頡頏”对举。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由高飞（动作）进一步引申为快速奔走、位移。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由下飞（动作）进一步引申为快速奔走、位移，与上述用法同宗。"
+    }
+  ]
+}

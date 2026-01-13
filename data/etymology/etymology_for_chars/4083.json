@@ -1,0 +1,98 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古代陶器名，东楚地区对缶的称呼",
+      "examples": [
+        "甾，东楚名缶曰甾。——《说文》"
+      ],
+      "traditional_char": "甾"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "河流名，在今山东省境内，后作“淄”",
+      "examples": [
+        "嵎夷既略，淮、甾其道。——《汉书》"
+      ],
+      "traditional_char": "甾"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "古地名，汉代甾县，今山东考城一带",
+      "examples": [
+        "（梁国）县八……甾，故戴国。——《汉书·地理志下》"
+      ],
+      "traditional_char": "甾"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "雉的一种（鸟类名）",
+      "examples": [
+        "翟类有六，曰翬，曰搖，曰𠷎，曰甾，曰希，曰蹲。——《周礼·天官·染人注》"
+      ],
+      "traditional_char": "甾"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "灾害、祸患，同“灾”",
+      "examples": [
+        "甾害绝息，永偃戎兵。——《史记·秦始皇本纪》",
+        "今兵耗于边，饟亡于甾。——毛奇龄《浙东招抚使徐公墓表》"
+      ],
+      "traditional_char": "甾"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "有机化合物的一类，广泛存在于动植物体内，如胆固醇、性激素等（现代化学用义）",
+      "examples": [
+        "胆固醇和很多种激素（如性激素），都属于甾类化合物。"
+      ],
+      "traditional_char": "甾"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "loan_character",
+      "original_sense_index": 0,
+      "note": "本义指东楚地方盛酒陶器（缶）的名词，后被借用于地名、水名与灾难等义，属于假借字。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "器物名转用于地理名（缶状水流等），常见古代借称方式。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "河流名进一步转用为地名。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "unknown",
+      "note": "甾为雉类名，来源关系不详，有可能为音近假借或另有本源，学界未有定论。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "本字常作为“灾”的通假或借音用法，起码战国秦汉以来通用。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "现代化学名词中的“甾”源自“灾”的音，语义扩大，作音译用以指类固醇等物质，20世纪以后。"
+    }
+  ]
+}

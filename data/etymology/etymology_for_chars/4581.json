@@ -1,0 +1,63 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "傲慢，不逊，态度高傲",
+      "examples": [
+        "嫂何前倨而后恭也。",
+        "黯为人性倨少礼。",
+        "体倨固而心执诈。",
+        "游毋倨。"
+      ],
+      "traditional_char": "倨"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "微曲，器物直而稍折的状态",
+      "examples": [
+        "倨中矩，句中钩。",
+        "倨句（器物弯曲的形状，曲度较小的叫倨，大的叫句）"
+      ],
+      "traditional_char": "倨"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "蹲坐，伸开脚坐着，通“踞”",
+      "examples": [
+        "老聃方将倨堂而应。",
+        "沛公方倨床使两女子洗足。"
+      ],
+      "traditional_char": "倨"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从人，居声，本义为傲慢，‘居’表声，‘人’旁表义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由傲慢的姿态引申为直而略曲，形象比喻；汉代已见。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由‘器物微曲’之义转指坐姿弯曲，借代身体动作；战国两汉用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "从傲慢之态延伸为倨坐（伸脚而坐为无礼），宋元训释已明。"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "软体动物，体外包着锥形、纺锤形或椭圆形的硬壳，上有旋纹的总称。",
+      "examples": [
+        "海螺",
+        "田螺",
+        "螺号",
+        "法螺"
+      ],
+      "traditional_char": "螺"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "像螺壳纹理形状的物体或图案，如螺纹、螺钉等。",
+      "examples": [
+        "螺纹",
+        "螺旋",
+        "螺钉",
+        "螺髻"
+      ],
+      "traditional_char": "螺"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "other",
+      "meaning": "同“脶”。",
+      "examples": [],
+      "traditional_char": "螺"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从虫，累声；“虫”表意指与虫类相关，“累”表音，初义为有螺旋硬壳的软体动物统称。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "因螺壳具有独特螺旋纹理，借用指一切带有螺旋纹、形状的物品。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "unknown",
+      "note": "“螺”借为“脶”用，具体语义发展机制不详。"
+    }
+  ]
+}

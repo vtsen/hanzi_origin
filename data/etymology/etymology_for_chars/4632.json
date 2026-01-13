@@ -1,0 +1,103 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "门高大、门高的样子",
+      "examples": [
+        "阆，门高也。《说文》",
+        "闶阆其寥廓兮。——《汉书·扬雄传》"
+      ],
+      "traditional_char": "閬"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "空旷，空虚",
+      "examples": [
+        "闶阆，空虚也。——《汉书·扬雄传》注",
+        "胞有重阆，心有天游。——《庄子·外物》"
+      ],
+      "traditional_char": "閬"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "没有水的城壕",
+      "examples": [
+        "郭外为之土阆。——《管子·度地》",
+        "阆谓隍，又为朗。——《庄子·外物》注"
+      ],
+      "traditional_char": "閬"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "山名；传说中神仙居住的地方，如阆风巅、阆山",
+      "examples": [
+        "朝吾将济于白水兮，登阆风而緤马。——《楚辞·离骚》",
+        "张揖曰：阆风山在昆仑阊阖之中。"
+      ],
+      "traditional_char": "閬"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "宽大明亮的样子",
+      "examples": [
+        "鴻爌炾以爣閬，飋萧条而清泠。——《文选·王延寿〈鲁灵光殿赋〉》",
+        "见儻閬之门庭。——唐·张鷟《游仙窟》"
+      ],
+      "traditional_char": "閬"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "妖怪名，与“魍魉”通用",
+      "examples": [
+        "丘闻之，木石之怪夔、罔阆，水之怪龙、罔象，土之怪墳羊。——《史记·孔子世家》",
+        "《家语》作‘魍魎’"
+      ],
+      "traditional_char": "閬"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从门，良声，形声字，原指形容门高大。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由“门高大”引申为空旷、空虚，多用于建筑等空间的形容。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由“空旷”转指没有水的城壕，空虚之意用于地理地貌。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由空旷、广阔引申为高大巍峨的神仙居住地，特指山名。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由“门高”引申为“宽大明亮”的样子。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "unknown",
+      "note": "与“魍魉”同，借音义转为鬼怪名，机制不详，或为借音假借。"
+    }
+  ]
+}

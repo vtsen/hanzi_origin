@@ -1,0 +1,129 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "堂下周围的走廊、廊屋",
+      "examples": [
+        "庑，堂下周屋。——《说文》",
+        "庑下一生伏案卧。——清·方苞《左忠毅公逸事》",
+        "合百草兮实庭，建芳馨兮庑门。——《楚辞》"
+      ],
+      "traditional_char": "廡"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "泛指房屋",
+      "examples": [
+        "居大庑之下。——《史记》",
+        "其无起祠堂，可作蒿盖庑。——《后汉书·张酺传》",
+        "久之，雨坏庑舍。——《新唐书·郑虔传》"
+      ],
+      "traditional_char": "廡"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "大屋，屋舍的正大者",
+      "examples": [
+        "小曰室，大曰廡。——《管子·国蓄》",
+        "大屋曰廡。廡，幠也。幠，覆也。——《释名·释宫室》"
+      ],
+      "traditional_char": "廡"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "廊，走廊",
+      "examples": [
+        "庙中空无所有，唯一黑漆棺停庑下。——《夜谭随录》"
+      ],
+      "traditional_char": "廡"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "屋檐",
+      "examples": [
+        "檐，其名有十四…十一曰庑。——李诫《营造法式》"
+      ],
+      "traditional_char": "廡"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "盛酒器，古代“甒”的异体或假借字",
+      "examples": [
+        "甒醴在服北。——《仪礼·士冠礼》",
+        "廡，古文‘甒’。见《仪礼》注。"
+      ],
+      "traditional_char": "廡"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "adjective",
+      "meaning": "草木茂盛，繁盛（通“芜”）",
+      "examples": [
+        "庶草蕃廡。——《书·洪范》",
+        "草木蕃廡，鸟兽阜滋。——《文选·张衡〈东京赋〉》"
+      ],
+      "traditional_char": "廡"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "廡为形声字，从广表示房屋，无为声，指堂下周围的廊屋，是最早的本义。"
+    },
+    {
+      "formation_type": "simple_indicative",
+      "original_sense_index": 6,
+      "note": "“廡”通“芜”，后用于指草木茂盛的意思，属假借和通用关系。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "庑为简化字，结构同廡，表示堂下周围的廊屋，本义未变。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由具体廊屋扩展为泛指房屋，出现在汉代和后世建筑语境中。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由一般房屋进一步专指大屋，见先秦典籍对屋舍等级的区分。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "synecdoche",
+      "note": "以部分代整体，“廊屋”用于专指“廊”，语义具体化。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "由廊屋相关结构转指屋檐，见宋代营造术语。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "借音通用于“甒”，指盛酒器，为古文假借。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "metaphor",
+      "note": "草木覆盖如屋，遂引申为“草木茂盛”，常见于文辞。"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "地名用字，多用于如“黄埔”、“大埔”等地名。",
+      "examples": [
+        "广州黄埔",
+        "广东大埔县"
+      ],
+      "traditional_char": "埔"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "闽粤方言，泛指平坦或开阔的地方。",
+      "examples": [
+        "这块埔很适合耕种。"
+      ],
+      "traditional_char": "埔"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "形声字，从土，甫声，原意指平坦之地，甫表声、形容其地势平展。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_narrowing",
+      "note": "原指泛指平坦之地，后狭用于若干特定地名，粤闽方言地名常见。"
+    }
+  ]
+}

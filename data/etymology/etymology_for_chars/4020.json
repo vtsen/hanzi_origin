@@ -1,0 +1,112 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古代天子或诸侯举行宴会或设学用的宫殿；学校",
+      "examples": [
+        "泮宫，周学也。——《礼记·明堂位》",
+        "先南陔师与先陈宇风师，同年入泮，交谊最篤。——清·王端履《重论文斋笔录》"
+      ],
+      "traditional_char": "泮"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "学宫前的水池",
+      "examples": [
+        "泮池为梦，玉佩鸣珂。"
+      ],
+      "traditional_char": "泮"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "岸边，水边",
+      "examples": [
+        "隰则有泮。——《诗·卫风·氓》"
+      ],
+      "traditional_char": "泮"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "河名，泮水，发源于泰山西北谷，流经泰安，入大汶河",
+      "examples": [
+        "晋侯济自泮。——《左传·襄公二十五年》"
+      ],
+      "traditional_char": "泮"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "融解（指冰、雪等），消散，分散",
+      "examples": [
+        "迨冰未泮。——《诗·邶风·匏有苦叶》",
+        "未觉泮春冰，已复谢秋节。——谢灵运《折杨柳行》"
+      ],
+      "traditional_char": "泮"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "分离，分解",
+      "examples": [
+        "自天地剖泮未始有也。——《史记·陆贾传》"
+      ],
+      "traditional_char": "泮"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [],
+      "traditional_char": "泮"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，‘半’声，表与水相关的建筑，即学宫或宫殿。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由泮宫引申为其前的池水，古代学宫前多有泮池。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "地名转用，泮水因其流域或相关学宫得名。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "conversion",
+      "note": "地名、宫殿名演化为姓氏用法。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "以水边、岸边直接称呼具体水体——泮水。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 4,
+      "evolution_type": "unknown",
+      "note": "“岸”“水边”与“融解、分散”的意义关系不确定，语音通假可能。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "由“融解”引申为“分离、分解”义。"
+    }
+  ]
+}

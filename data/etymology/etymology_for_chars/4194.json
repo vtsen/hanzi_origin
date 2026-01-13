@@ -1,0 +1,87 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "注视，专注地看",
+      "examples": [
+        "虎视眈眈",
+        "狼不敢前，眈相向。",
+        "眈，视近而志远也。——《说文》"
+      ],
+      "traditional_char": "眈"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "沉溺，酷爱，迷恋",
+      "examples": [
+        "性眈清雅，沈靜寡言。",
+        "日間參加學生運動，晚上悄悄地眈讀克魯泡特金的《告青年》。",
+        "惟眈樂之從。——《书·无逸》"
+      ],
+      "traditional_char": "眈"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "深邃的样子",
+      "examples": [
+        "眈帝宇。——《魏都赋》"
+      ],
+      "traditional_char": "眈"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "徐视，缓缓地看",
+      "examples": [
+        "徐视谓之𧡪或作眈"
+      ],
+      "traditional_char": "眈"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "出头视，探头看的样子",
+      "examples": [
+        "眈，出頭視貌。",
+        "出頭視也，通作闖。"
+      ],
+      "traditional_char": "眈"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从目，冘声，表示注视之意。本义为注视、专注地看。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由注视引申为对事物的沉溺或热衷，对象从视觉转为感情。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由注视的深刻引申出深邃的样子。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由注视引申为徐视，指注视的状态延长、缓慢化。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由注视引申为出头视貌，突出注视动作的外在表现。"
+    }
+  ]
+}

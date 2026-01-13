@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "潮湿，湿润。",
+      "examples": [
+        "壤汙潦以墳洳兮，蒸沸熱而恒昏。",
+        "洳溼也。"
+      ],
+      "traditional_char": "洳"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "低湿的地方，湿地。",
+      "examples": [
+        "譬若蘭芷蒿莎，布濩於雲夢之洳。",
+        "彼汾沮洳。"
+      ],
+      "traditional_char": "洳"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "水名。洳河，源出北京市密云县，南流至河北省三河县北之洳口入泃河。",
+      "examples": [
+        "洳水名在南郡。",
+        "水名。在北京、河北等地。"
+      ],
+      "traditional_char": "洳"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从水，挐声，会意形声字。本义为渐湿、潮湿。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由形容潮湿引申为湿润的低地，古今皆有用法。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "用湿地名作水名，地名转指河流；见地理文献。"
+    }
+  ]
+}

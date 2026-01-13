@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "酒味浓厚",
+      "examples": [
+        "醇酒",
+        "此酒尤醇"
+      ],
+      "traditional_char": "醇"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "纯粹、纯正、和美",
+      "examples": [
+        "醇和",
+        "醇厚",
+        "性情醇美"
+      ],
+      "traditional_char": "醇"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "有机化合物的一类，如酒精类（-ol）",
+      "examples": [
+        "乙醇",
+        "胆固醇"
+      ],
+      "traditional_char": "醇"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "淳朴、善良（同“淳”）",
+      "examples": [
+        "民风醇厚"
+      ],
+      "traditional_char": "醇"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从酉，享声。本义指酒味浓厚，酉表与酒相关。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "借酒味醇厚比喻性质纯正，由汉及今常见"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "analogy",
+      "note": "“醇”和“淳”通用，指人性情纯正善良"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "近现代，化学领域将“醇”用于一类有机化合物（乙醇等），源自酒精"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古地名，在今陕西省户县和周至县一带。",
+      "examples": [
+        "郝，右扶风鄠乡盩室县。从邑，赤声。——《说文》",
+        "黑各切，說文：右扶風鄠盩厔鄉，今為西安府盩厔縣。"
+      ],
+      "traditional_char": "郝"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。古人或今人均有用此为姓。",
+      "examples": [
+        "汉有郝贤。",
+        "商帝乙封子期于太原郡郝乡，因氏。"
+      ],
+      "traditional_char": "郝"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "other",
+      "meaning": "郝郝，耕作，指耕土解散。",
+      "examples": [
+        "《尔雅·释训》：郝郝，耕也。",
+        "《说文》：“郝郝，耕也，言耕土解散也。”"
+      ],
+      "traditional_char": "郝"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从邑，赤声。《说文》为地名造字，邑为形，赤为声。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "古地名用以为氏，见于汉、商时代。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "unknown",
+      "note": "《尔雅》释训用作耕作义，但学界有争议。"
+    }
+  ]
+}

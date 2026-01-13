@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "用锐器或硬物的尖端刺击",
+      "examples": [
+        "戳穿谎言",
+        "用针戳破气球"
+      ],
+      "traditional_char": "戳"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "因被硬物尖端猛触而受伤或损坏",
+      "examples": [
+        "戳伤了手",
+        "袜子被戳了个洞"
+      ],
+      "traditional_char": "戳"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "竖立，站立",
+      "examples": [
+        "把棍子戳在地上",
+        "柱子戳在门口"
+      ],
+      "traditional_char": "戳"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "图章，印章",
+      "examples": [
+        "盖戳子",
+        "办手续需要盖戳"
+      ],
+      "traditional_char": "戳"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从“戈”表示与武器相关，“翟”作声旁，表示本义为用锐器尖端刺击。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由主动刺击引申为受到刺击造成损伤。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由刺入动作比喻为使物体竖立。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "由刺击动作转指用于盖印留痕的图章。"
+    }
+  ]
+}

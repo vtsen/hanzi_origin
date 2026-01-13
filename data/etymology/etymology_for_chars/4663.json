@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "敬爱兄长，泛指敬重长上",
+      "examples": [
+        "弟敬爱兄谓之悌。——贾谊《道术》",
+        "入则孝，出则悌。——《孟子·滕文公下》",
+        "有不孝敬于父母，不长悌于族党。——《晋书·武帝纪》"
+      ],
+      "traditional_char": "悌"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "和易，和乐平易",
+      "examples": [
+        "恺悌君子。",
+        "恺悌，和乐也。"
+      ],
+      "traditional_char": "悌"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "亲近，亲密和睦",
+      "examples": [
+        "悌己人（亲信）；悌友（兄弟姊妹间亲密和睦）"
+      ],
+      "traditional_char": "悌"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从心，弟声，意指以心敬爱兄长。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由对兄长敬爱引申为性情和易，常见于复合词如‘恺悌’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "对兄长敬爱扩展到亲近、亲密之意。"
+    }
+  ]
+}

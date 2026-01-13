@@ -1,0 +1,52 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "舌头与腭接触发声，表示赞叹或羡慕",
+      "examples": [
+        "咂嘴表示赞叹。"
+      ],
+      "traditional_char": "咂"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "吸，小口儿喝",
+      "examples": [
+        "咂一口酒。"
+      ],
+      "traditional_char": "咂"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "仔细辨别",
+      "examples": [
+        "咂摸滋味。"
+      ],
+      "traditional_char": "咂"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘咂’为形声字，口为形，‘杂’为声，最初表模拟舌头与腭接触发声。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由发声动作转指吸取动作，均与口腔操作相关。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由吸饮引申为细致体会、辨别含义。"
+    }
+  ]
+}

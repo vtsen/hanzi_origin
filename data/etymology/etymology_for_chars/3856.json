@@ -1,0 +1,50 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "二年生草本植物，茎扁球形，可食，通常指“苤蓝”",
+      "examples": [
+        "苤蓝可以做菜。"
+      ],
+      "traditional_char": "苤"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "草木花盛开的样子",
+      "examples": [
+        "苤，草木花盛貌。——《集韻》"
+      ],
+      "traditional_char": "苤"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "芣的异体字",
+      "examples": [],
+      "traditional_char": "苤"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "艹表意，敝表声；最初指草木花盛貌。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_narrowing",
+      "note": "由泛指花盛之貌，专指苤蓝植物，见于现代汉语用法。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "unknown",
+      "note": "作为芣的异体字，具体演变关系不详，仅见于部分文献。"
+    }
+  ]
+}

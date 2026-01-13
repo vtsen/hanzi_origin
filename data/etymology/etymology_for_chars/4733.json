@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "用手扶着别人的胳膊",
+      "examples": [
+        "扶掖而行",
+        "老人需人掖扶"
+      ],
+      "traditional_char": "掖"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "扶持别人",
+      "examples": [
+        "奖掖后进",
+        "掖护新苗"
+      ],
+      "traditional_char": "掖"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "把东西塞在衣袋或夹缝里",
+      "examples": [
+        "腰里掖着手榴弹",
+        "把信掖进袖口"
+      ],
+      "traditional_char": "掖"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "古同“腋”，旁边",
+      "examples": [
+        "两掖之间",
+        "腋下藏物"
+      ],
+      "traditional_char": "掖"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 3,
+      "note": "形声字，从手，夜声。本作‘腋’，指腋下、两边。后借用为动作、塞物等义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 3,
+      "target_index": 0,
+      "evolution_type": "semantic_shift",
+      "note": "由腋部位引申为用手搀扶至腋下，产生扶持义，见中古汉语用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由实际搀扶引申为比喻的帮助、扶持，常用在书面语。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "因腋下习惯用来夹藏物品，故引申为把东西塞在衣袋或夹缝里。"
+    }
+  ]
+}

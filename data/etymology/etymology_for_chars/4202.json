@@ -1,0 +1,87 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "interjection",
+      "meaning": "表示感叹、惊讶或嘲讽的语气词，相当于“啊”、“哎”",
+      "examples": [
+        "咦!正是：…，英雄气概等时休。——《西游记》",
+        "咦!你怎么没去呀?",
+        "咦!不害臊!要是让你回去，只怕连你还烧在里头呢!——《老残游记》",
+        "咦，這話有些不祥。——《琵琶記》"
+      ],
+      "traditional_char": "咦"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "particle",
+      "meaning": "用作歌曲中的衬字，没有实际意义",
+      "examples": [
+        "冒着那个风雪呀，送上前线咦呀嗨。——歌剧《刘胡兰》",
+        "喜咦呀，喂咦呀，一喲一支花哎呀。——《十二把鐮刀》"
+      ],
+      "traditional_char": "咦"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "onomatopoeia",
+      "meaning": "形容哭声或某种声音",
+      "examples": [
+        "他一邊啜泣一邊說：‘咦咦咦，咱沒站穩貧農的立場。’——柳青《狠透鐵》"
+      ],
+      "traditional_char": "咦"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "笑，笑貌",
+      "examples": [
+        "咦，笑也。——《廣雅》",
+        "又笑貌。"
+      ],
+      "traditional_char": "咦"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "大呼、呼喊",
+      "examples": [
+        "說文：南陽謂大呼曰咦。"
+      ],
+      "traditional_char": "咦"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 4,
+      "note": "从口，夷声。表呼喊之声，用以表达发声的动作。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 4,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "由大声呼喊引申为表示感叹、惊讶、嘲讽等语气。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "grammaticalization",
+      "note": "原本表达感叹、惊讶等语气，后语气功能减弱，成为歌曲中的衬字。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "语气词的声调引申为表示哭声等象声词用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "由感叹发声的语气词，引申为与笑相关的动作或状态。"
+    }
+  ]
+}

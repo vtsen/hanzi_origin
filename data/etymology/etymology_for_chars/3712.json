@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "佩带的香囊",
+      "examples": [
+        "帏，囊也。——《说文》",
+        "苏粪壤以充帏兮，谓申椒其不芳。——《楚辞》"
+      ],
+      "traditional_char": "幃"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "帐子、幔幕",
+      "examples": [
+        "帏，一说单帐也。——《广韵》",
+        "明月何皎皎，照我罗床幃。——《古诗十九首》"
+      ],
+      "traditional_char": "幃"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "裙正面的一幅",
+      "examples": [
+        "裳正幅曰幃。——《国语》",
+        "王使妇人不帏而噪之。——《国语》"
+      ],
+      "traditional_char": "幃"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "遮蔽，用帐幕等遮盖",
+      "examples": [
+        "帏其族使观之。——《新唐书》",
+        "帏而裹之。——《徐霞客游记》"
+      ],
+      "traditional_char": "幃"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从巾，韦声，‘巾’表与布帛有关，最初表示佩带的香囊。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "自‘香囊’泛指为用布制成遮盖空间之帐幕，汉晋。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由‘帐幕’部件转指裙子的前幅，属局部代表整体，见《国语》注。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "conversion",
+      "note": "名词‘帐幕’转为动词‘用帷帐遮盖’，汉以后用法。"
+    }
+  ]
+}

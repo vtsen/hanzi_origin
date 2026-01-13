@@ -1,0 +1,72 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "水面因风吹形成的细小波纹，微波",
+      "examples": [
+        "河水清且涟漪。——《诗·魏风·伐檀》",
+        "轻漣不动，镜涵远虚。"
+      ],
+      "traditional_char": "漣"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "水名；在中国江苏省、湖南省、广东省等地的河流",
+      "examples": [
+        "在江苏省涟水县北，一名涟河。",
+        "在湖南省中部，源出新邵县。",
+        "漣水南流注于东溪。"
+      ],
+      "traditional_char": "漣"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "泪流不断的样子",
+      "examples": [
+        "不见复关，泣涕涟涟。——《诗·魏风·氓》",
+        "涕泪涟湎。——王粲《赠蔡子笃》",
+        "忽然高咏涕泗涟。——李白"
+      ],
+      "traditional_char": "漣"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "细微（引申用法，例如指细小的水波或波纹）",
+      "examples": [
+        "涟波（细微的水波）；涟纹，涟沦（细微的波纹）"
+      ],
+      "traditional_char": "漣"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘漣’为形声字，从水，连声。本义为风吹水面起的波纹。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "以水面波纹为水体命名地理实体，指水名、地名。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "以水面细波状引申比喻泪流不断之状态。《诗经》即用。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由细小水波扩展泛指‘细微’。"
+    }
+  ]
+}

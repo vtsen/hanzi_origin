@@ -1,0 +1,43 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "衣服或织物的缘边",
+      "examples": [
+        "绗，缘也。——《广雅》"
+      ],
+      "traditional_char": "絎"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "用针线粗缝，把面子、里子和夹层物（如棉絮）连在一起以固定",
+      "examples": [
+        "绗被子；绗棉袄",
+        "今淮南、吴、越谓粗缝曰絎，音如行列之行。——章炳麟《新方言·释器》"
+      ],
+      "traditional_char": "絎"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘絎’字从糸，行声。本作‘衣服缘边’，后指缝合衣被。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "‘绗’为‘絎’的简化字，与传统形式含义一致，从糸，行声。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘边缘’义扩展为固定缝合的动作用法，见于古籍与方言。"
+    }
+  ]
+}

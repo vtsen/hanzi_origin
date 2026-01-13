@@ -1,0 +1,68 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "施予、给予、布置、铺开、摆开。",
+      "examples": [
+        "敷设",
+        "敷陈",
+        "敷演"
+      ],
+      "traditional_char": "敷"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "涂上，搽上（如药物或化妆品）。",
+      "examples": [
+        "敷药",
+        "敷粉"
+      ],
+      "traditional_char": "敷"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "足够。",
+      "examples": [
+        "入不敷出"
+      ],
+      "traditional_char": "敷"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "表面的（古同“肤”）。",
+      "examples": [],
+      "traditional_char": "敷"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从攴表动作，与‘搏’声；本义为施予、布列，后义发展。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“布置、施予”扩展为将物品涂抹在表面。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "“布列、分布”引申为“充足、足够”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "古同'肤'，借为“表面”的意思。"
+    }
+  ]
+}

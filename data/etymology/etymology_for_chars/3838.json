@@ -1,0 +1,67 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "用两手掐住",
+      "examples": [
+        "她用手使劲拤着受伤的部位，疼得头上冒出了汗水。"
+      ],
+      "traditional_char": "拤"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "揪，拖",
+      "examples": [
+        "乡亲们快快找，一定要把他拤出来。"
+      ],
+      "traditional_char": "拤"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "叉（如叉腰）",
+      "examples": [
+        "女孩在拤着腰儿翩翩起舞，男孩蹲下身子仰着天真地头。"
+      ],
+      "traditional_char": "拤"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "克扣",
+      "examples": [
+        "你就说他当大乡长那功夫，小七遇事儿使他的钱，一时还不上，就拤了咱二亩地。"
+      ],
+      "traditional_char": "拤"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘拤’为形声字，左‘扌’表动作之义，右‘加’为声符（或有表示加力之意）；本义为用手掐住。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从‘用两手掐住’扩展为‘揪，拖’，因为动作方式类似，立足于“手部动作”语义。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "‘叉（拤）腰’等动作是采用类似“掐住”或两手控制某处的比喻用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "‘克扣’引申为对资源或财产‘掐住’不放，表现控制权和剥夺。"
+    }
+  ]
+}

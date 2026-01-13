@@ -1,0 +1,40 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "美好，美丽",
+      "examples": [
+        "倩影",
+        "倩装",
+        "倩景"
+      ],
+      "traditional_char": "倩"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "请托，请别人帮助",
+      "examples": [
+        "倩人代笔",
+        "有所倩托"
+      ],
+      "traditional_char": "倩"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从人，青声。本义指美好或美丽的人或事物。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_shift",
+      "note": "由美好引申为请托、请人帮忙，演变时间较早，机制具体不明。"
+    }
+  ]
+}

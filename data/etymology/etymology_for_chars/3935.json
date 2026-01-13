@@ -1,0 +1,74 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "山名，位于山东省邹县东南，亦称“邹山”，又有东海下邳之葛嶧山等同名山。",
+      "examples": [
+        "嶧陽孤桐。——《書·禹貢》",
+        "夏書曰。嶧陽孤桐。",
+        "峄山"
+      ],
+      "traditional_char": "嶧"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "山相连接、络绎相连属的样子。",
+      "examples": [
+        "《爾雅•釋山》：屬者嶧。",
+        "郭璞注：言络驛相连属。"
+      ],
+      "traditional_char": "嶧"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "邑名，古地名，通“繹”，原在邹县。",
+      "examples": [
+        "《左傳·文十三年》邾文公卜遷于繹。",
+        "註：繹，邾邑名。本在鄒縣。"
+      ],
+      "traditional_char": "嶧"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "“嶧”的简化字形。",
+      "examples": [],
+      "traditional_char": "峄"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "嶧：形声字，从山，睪声，本义为山名。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 3,
+      "note": "峄：形声字，从山，睪（少一横）声，为“嶧”的简化字。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由具体的山名引申为山相连属，见于古地志分类。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "以山为名的地域，地名由山名引申。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "reanalysis",
+      "note": "现代汉字简化，将“嶧”简化为“峄”，含义延续，表形体规范变化。"
+    }
+  ]
+}

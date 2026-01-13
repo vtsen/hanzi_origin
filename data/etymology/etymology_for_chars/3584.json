@@ -1,0 +1,106 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "谷类的香气。",
+      "examples": [
+        "芗，谷气也。——《说文新附》",
+        "黍曰芗合，粱曰芗萁。——《礼记·曲礼下》"
+      ],
+      "traditional_char": "芗"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "紫苏、苏荏等用以调味的香草。",
+      "examples": [
+        "雏烧，雉，芗无蓼。——《礼记》",
+        "鱉羞鹿脯，雜以薌蓼。——《聊齋志異》"
+      ],
+      "traditional_char": "芗"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "香气；芳香。（通“香”）",
+      "examples": [
+        "欣驩芬薌以送之。——《荀子·非相》",
+        "微聞薌澤。——《史记·滑稽传》"
+      ],
+      "traditional_char": "薌"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "焚香、香火。（通“香”）",
+      "examples": [
+        "爇薌祝之。——《鬼董·歸宗寺》",
+        "為薌燈之須。——《故胡母歐陽夫人墓志銘》"
+      ],
+      "traditional_char": "薌"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "地名、乡名。",
+      "examples": [
+        "華薌重秬。——《張衡·南都賦》"
+      ],
+      "traditional_char": "薌"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "声音；响声。（通“響”）",
+      "examples": [
+        "管磬升，壇薌集。——《釋奠武成王樂章·奠幣登歌》"
+      ],
+      "traditional_char": "薌"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“芗”为形声字，从艸，乡声。形旁表草类，声旁表读音。最初本义为谷物的香气。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 2,
+      "note": "“薌”为形声字，从艸，襄声。形旁表植物、香气，声旁表音。“薌”后演变为“芗”的繁体，也泛指香气。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从谷物的香气泛指调味芳香的草类。先秦文献可见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由谷物的香气转为泛指一切芳香气味。“薌”为通假字，意义扩大。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由香气引申为焚香、香火。多用于宗教仪式。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "以香气引申为地名，指产香米之地等。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 5,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "“薌”借作“響”，由读音近似产生。用作声音义，见中古文献。"
+    }
+  ]
+}

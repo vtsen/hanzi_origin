@@ -1,0 +1,102 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "打嗝，呃逆，或因气逆作呕吐状",
+      "examples": [
+        "中央生湿……在变动为哕。——《素问》",
+        "噦，气啎也。——《说文》"
+      ],
+      "traditional_char": "噦"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "呕吐，吐出体内异物，也指呕吐物",
+      "examples": [
+        "你们快去烧些盐白汤，等我灌下肚去，把他哕出来。——《西游记》",
+        "噦出许多清痰。——《儒林外史》"
+      ],
+      "traditional_char": "噦"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "唾骂，唾弃，用力唾吐",
+      "examples": [
+        "秦人皆哕其名。——清·钱谦益",
+        "计氏望着那养娘，稠稠的唾沫，猛割丁向脸上哕了一口。——《醒世姻缘传》"
+      ],
+      "traditional_char": "噦"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "欲言又止或因气窒而堵塞的样子",
+      "examples": [
+        "幽穷共谁语，思想甚含哕。——唐·韩愈《送文畅帅北游》",
+        "不觉喉中噦。——《乐府诗集》"
+      ],
+      "traditional_char": "噦"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "onomatopoeia",
+      "meaning": "形容鸟鸣声或铃声等富有节奏的声音",
+      "examples": [
+        "鸾声～～",
+        "候禽谁使噦？——清·魏源"
+      ],
+      "traditional_char": "噦"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "adjective",
+      "meaning": "光明的样子",
+      "examples": [
+        "～～其冥"
+      ],
+      "traditional_char": "噦"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘噦’为形声字，从口，歲声。口表义，歲表音，原意为气逆、打嗝。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由气逆、打嗝引申为呕吐及吐出的物；多见于医学或日常语境。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由气逆难言，喉塞的生理状态比喻为欲言又止或心情郁结难言。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由呕吐动作引申为用力唾骂、唾弃（如以唾液表示鄙视）。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "由呕吐、打嗝的喉音，比喻鸟鸣或器乐声的象声词。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 5,
+      "evolution_type": "metonymy",
+      "note": "由有节奏声音的描写，转而形容光明、明亮的样子。"
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "详细解释，阐明事理",
+      "examples": [
+        "释言曰诠。",
+        "诠注古文",
+        "辞无诠释"
+      ],
+      "traditional_char": "詮"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "权衡、考虑、比较（古同“铨”）",
+      "examples": [
+        "诠度是非",
+        "诠评文笔"
+      ],
+      "traditional_char": "詮"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "选择、选拔（古同“铨”）",
+      "examples": [
+        "诠录官员",
+        "诠拣人才"
+      ],
+      "traditional_char": "詮"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "道理，事物的规律",
+      "examples": [
+        "发必中诠，言必合数。",
+        "衣褐向真诠。"
+      ],
+      "traditional_char": "詮"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "分门别类的有系统的知识、理论",
+      "examples": [
+        "哲诠",
+        "数诠"
+      ],
+      "traditional_char": "詮"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "史传论赞的别称（文体名）",
+      "examples": [
+        "谢承曰詮，陈寿曰评，王隐曰议。"
+      ],
+      "traditional_char": "詮"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "（太平天国避讳用法）全",
+      "examples": [
+        "以詮父母鞠育之恩。"
+      ],
+      "traditional_char": "詮"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从言，全声。本义指详细解释、阐明事理。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "由'详细解释事理'引申为'道理、规律'。汉代已见。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "从'道理'推广为系统理论，如'哲诠'、'数诠'等专门用语。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_shift",
+      "note": "由'解释'向'权衡、考虑'变化，受通假字“铨”影响。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "从'衡量、考虑'引申为'选拔、筛选'。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "从'详细解释'发展出史传论赞的文体名。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "太平天国时期以詮代全为避讳用法。"
+    }
+  ]
+}

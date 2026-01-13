@@ -1,0 +1,119 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "水名。在今河南郑州西北。",
+      "examples": [
+        "甲辰，浮于荥水，乃奏广乐。——《穆天子传》",
+        "滎波既豬。——《书·禹贡》"
+      ],
+      "traditional_char": "滎"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "地名，如荥阳，河南省县名。",
+      "examples": [
+        "滎陽，漢屬河南，今鄭州滎陽滎澤二縣。",
+        "荥阳位于河南省。"
+      ],
+      "traditional_char": "滎"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "古泽名，如滎泽。",
+      "examples": [
+        "滎澤二縣。"
+      ],
+      "traditional_char": "滎"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "四川省境地名，如荥经。",
+      "examples": [
+        "荥经位于四川省。"
+      ],
+      "traditional_char": "滎"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "波浪回旋涌起的样子。",
+      "examples": [
+        "漩澴滎瀯。——郭璞《江赋》"
+      ],
+      "traditional_char": "滎"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "水流细小的样子。",
+      "examples": [
+        "滎，絕小水也。——《说文》"
+      ],
+      "traditional_char": "滎"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "中医腧穴名，为十二经穴之一。",
+      "examples": [
+        "出井流滎注為俞，行經入合藏俞原。——《醫宗金鑒》"
+      ],
+      "traditional_char": "滎"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 5,
+      "note": "“滎”为形声字，从水，熒声。本义为水流细小的样子。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“荥”简化自“滎”，形声字，水义渐被简化移用，原以水名为主。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 5,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "由小水义扩展为专指水名。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "以河流为地名。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由水名扩展为古泽名，多指近水沼泽。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "地名义推广，迁移至外省同名地。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "水流回旋等义由水面形象引申而来。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "metaphor",
+      "note": "中医穴名取流动含义作比。"
+    }
+  ]
+}

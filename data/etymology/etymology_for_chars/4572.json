@@ -1,0 +1,133 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "门役，侍人在门前的职役",
+      "examples": [
+        "俾，门侍人。——《说文》",
+        "俾，职也。俾为门侍人。——《释言》"
+      ],
+      "traditional_char": "俾"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "使，让；促使",
+      "examples": [
+        "俾尔单厚。——《诗·小雅·天保》",
+        "苟入狱，不问罪之有无…俾困苦不堪。——方苞《狱中杂记》",
+        "又嘱学使俾入邑庠。——《聊斋志异·促织》"
+      ],
+      "traditional_char": "俾"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "任事，担任某项职责",
+      "examples": [
+        "俾，职也。",
+        "俾为门侍人。——《释言》"
+      ],
+      "traditional_char": "俾"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "顺从，依从",
+      "examples": [
+        "罔不率俾。——《书·君》",
+        "克顺克俾。——《礼记·乐记》"
+      ],
+      "traditional_char": "俾"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "通“比”，靠近，接近，跟随",
+      "examples": [
+        "海隅出日，罔不率俾。——《书·君奭》",
+        "择善从之曰比。"
+      ],
+      "traditional_char": "俾"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "益处，裨益（同“裨”）",
+      "examples": [
+        "谋夫起予，哲士俾我。——王维《送高判官从军赴河西序》"
+      ],
+      "traditional_char": "俾"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "other",
+      "meaning": "通“睥”、“俾倪”：斜视、城上有孔之低墙、车杠等",
+      "examples": [
+        "侯生下，见其客朱亥俾倪，故久立与城上女墙。——《史记·信陵君传》"
+      ],
+      "traditional_char": "俾"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "noun",
+      "meaning": "地名，西汉安俾县名",
+      "examples": [
+        "安俾，西汉县名。"
+      ],
+      "traditional_char": "俾"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从人，卑声，最初表门侍人之职。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "从“门役”扩展为一般“任事、职掌”，早期文献已见。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘任事’进一步引申为‘使、使令’，产生动词用法。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "职掌职责引申出服从、顺从的含义。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "reanalysis",
+      "note": "古籍中‘俾’被解释为‘比’，意义移作‘顺从、靠近’，郑玄等有注。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "从‘任事’引申为‘益处、裨益’，如对国家有用之人。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 7,
+      "evolution_type": "metonymy",
+      "note": "以‘俾’为地名‘安俾’，表示该地可能以官职设名。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "semantic_shift",
+      "note": "通假为‘睥’用，斜视等义，古籍多见文献通用。"
+    }
+  ]
+}

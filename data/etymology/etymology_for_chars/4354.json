@@ -1,0 +1,58 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "悲痛，伤心。",
+      "examples": [
+        "井渫不食，为我心恻。",
+        "朕恻焉不忍闻。",
+        "不日而違，重我心惻。",
+        "恻然为之动容。"
+      ],
+      "traditional_char": "惻"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "同情，怜悯。",
+      "examples": [
+        "仁心惻饑寒。",
+        "岂有肯加恻隐于细民？",
+        "恻隐之心，人皆有之。"
+      ],
+      "traditional_char": "惻"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "恳切，诚恳。",
+      "examples": [
+        "恻恻为君辞。",
+        "至诚恳恻之心。"
+      ],
+      "traditional_char": "惻"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从心，则声。本义为悲痛。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由内心悲痛引申为对他人不幸产生同情怜悯，汉代已见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由内心悲痛引申为情感恳切、诚挚的心理状态，多见于文言。"
+    }
+  ]
+}

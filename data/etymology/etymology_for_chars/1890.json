@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "野兽的吼叫声。",
+      "examples": [
+        "虎哮于山",
+        "狮哮声震林间"
+      ],
+      "traditional_char": "哮"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "发出吼叫声。",
+      "examples": [
+        "咆哮如雷",
+        "狗仗人势而哮"
+      ],
+      "traditional_char": "哮"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "急促喘气时发出的声音，尤指病症所致如“哮喘”。",
+      "examples": [
+        "哮喘发作",
+        "病人气急如哮"
+      ],
+      "traditional_char": "哮"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从口，孝声，最初表示野兽吼叫的声音。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "conversion",
+      "note": "由名词声音义引申为吼叫的动作，早期文献已见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "原指兽吼之声，后引申为喘息时喉中发出的类似声音，主要用于医学语境。"
+    }
+  ]
+}

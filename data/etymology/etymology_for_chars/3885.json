@@ -1,0 +1,114 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "织布机上用来引纬线的梭子、筘，亦比喻诗文的布局构思",
+      "examples": [
+        "不闻机杼声，惟闻女叹息。",
+        "自出机杼"
+      ],
+      "traditional_char": "杼"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "削薄、削尖",
+      "examples": [
+        "凡为轮，行泽者欲杼，行山者欲侔"
+      ],
+      "traditional_char": "杼"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "泥工，土木工程中从事泥作的人",
+      "examples": [
+        "东齐土作谓之杼，木作谓之柚"
+      ],
+      "traditional_char": "杼"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "櫟树等阔叶树的名称",
+      "examples": [
+        "其山有丹，其木有柟、杼、豫樟"
+      ],
+      "traditional_char": "杼"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "墙，序（通假用法）",
+      "examples": [
+        "天子賁庸，诸侯疏杼"
+      ],
+      "traditional_char": "杼"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "水草（通“芧”）",
+      "examples": [
+        "菱杼紾抱"
+      ],
+      "traditional_char": "杼"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "舀出、汲出水，亦指排泄；抒发、舒展（通“抒”）",
+      "examples": [
+        "杼井易水",
+        "發憤以杼情"
+      ],
+      "traditional_char": "杼"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从木，予声。本义为织机之梭子。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由梭子的细长、尖薄形状引申为削薄义，见《考工记》注。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由织机部件的操作借指劳作，后借喻为泥工。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "由细长削薄义，演变用于描述某类树木（如櫟树）之形态。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 5,
+      "evolution_type": "semantic_shift",
+      "note": "木名义后通假为水草（芧），见文献通用。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由织机部件梭，引申结构义，通假为墙、序。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "借作“抒”，义为舀出水或抒发，属音近通假。"
+    }
+  ]
+}

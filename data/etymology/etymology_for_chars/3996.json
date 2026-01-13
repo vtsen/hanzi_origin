@@ -1,0 +1,41 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "厨房",
+      "examples": [
+        "庖厨",
+        "庖房"
+      ],
+      "traditional_char": "庖"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "厨师",
+      "examples": [
+        "庖人",
+        "庖丁",
+        "名庖",
+        "代庖"
+      ],
+      "traditional_char": "庖"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从广表示屋宇，包为声旁，本义为厨房。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "以厨房指厨房工作的人，引申为厨师。"
+    }
+  ]
+}

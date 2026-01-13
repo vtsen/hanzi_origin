@@ -1,0 +1,105 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "夸耀，说大话",
+      "examples": [
+        "合同主诩。",
+        "尚泰奢，丽夸诩。",
+        "儒行之对，多所诩张。",
+        "意气扬扬，若自矜诩。",
+        "自诩",
+        "夸诩"
+      ],
+      "traditional_char": "詡"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "普及，遍及",
+      "examples": [
+        "德发扬，诩万物。",
+        "詡，猶普也，遍也。"
+      ],
+      "traditional_char": "詡"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "出言敏捷，气壮",
+      "examples": [
+        "會同主詡。",
+        "詡，謂敏而有勇。"
+      ],
+      "traditional_char": "詡"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "妩媚，美好貌（假借用法）",
+      "examples": [
+        "猶聞畫眉詡。",
+        "節奏以纖碎而詡美。"
+      ],
+      "traditional_char": "詡"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "和融，和谐美好",
+      "examples": [
+        "其儀伊詡。"
+      ],
+      "traditional_char": "詡"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "adjective",
+      "meaning": "生动活泼的样子（～～，同“栩栩”）",
+      "examples": [
+        "诩诩，生动活泼的样子。"
+      ],
+      "traditional_char": "詡"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从言，羽声。本义为夸耀，说大话，‘言’表义，‘羽’表声。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由夸大、彰显引申为普及、遍及，出现于先秦文献。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "由夸大言辞转为出言敏捷、气壮，聚焦于言词声势。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由声势夸大，引申为和融、和谐美好，文献作抽象描述时常见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "假借用作‘妩媚、美好貌’，初见于宋代诗文。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "metaphor",
+      "note": "夸耀引申为生动活泼的样子，常用于叠字型‘诩诩’，现代语为‘栩栩’。"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "农历每月初一",
+      "examples": [
+        "今朔日也。",
+        "朔望之间。"
+      ],
+      "traditional_char": "朔"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "开始，起始",
+      "examples": [
+        "皆从其朔。",
+        "自此为朔。"
+      ],
+      "traditional_char": "朔"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "北方",
+      "examples": [
+        "朔方之地。",
+        "塞北朔土。"
+      ],
+      "traditional_char": "朔"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "会意兼形声。从月，从屰，屰亦声，初指月初一。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“月初一”引申为“起始”，《说文解字》已见。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "“起始”进一步泛化指北方，因古以北为阴始。"
+    }
+  ]
+}

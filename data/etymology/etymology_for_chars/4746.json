@@ -1,0 +1,65 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "韭菜的花",
+      "examples": [
+        "秋韭冬菁"
+      ],
+      "traditional_char": "菁"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "古代指芜菁（即蔓菁）",
+      "examples": [],
+      "traditional_char": "菁"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "华丽",
+      "examples": [
+        "丽服扬菁"
+      ],
+      "traditional_char": "菁"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "水草",
+      "examples": [
+        "唼喋菁藻"
+      ],
+      "traditional_char": "菁"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从艸表示植物类，青为声符，表韭菜花。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "植物名泛化，由韭菜花扩展指芜菁。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由鲜艳美丽的韭菜花引申为华丽，用于衣饰等。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "泛指草本水生植物，见古文‘唼喋菁藻’。"
+    }
+  ]
+}

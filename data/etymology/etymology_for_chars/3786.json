@@ -1,0 +1,53 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "违逆，不顺从，抵触。",
+      "examples": [
+        "忤逆",
+        "忤耳"
+      ],
+      "traditional_char": "忤"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "对父母不孝顺。",
+      "examples": [
+        "忤逆不孝"
+      ],
+      "traditional_char": "忤"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "抗视，直视而带有不服从态度。",
+      "examples": [
+        "忤视"
+      ],
+      "traditional_char": "忤"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从心，午声。表示内心抵触、逆反之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_narrowing",
+      "note": "由一般不顺从之义，特指对父母不孝顺。先秦至汉代已见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由‘抵触、不顺从’引申为‘抗视、正面冲突地看’。"
+    }
+  ]
+}

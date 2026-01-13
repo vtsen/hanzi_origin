@@ -1,0 +1,99 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "摩擦，擦拭",
+      "examples": [
+        "蹭脱一层皮"
+      ],
+      "traditional_char": "蹭"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "因摩擦而沾染上",
+      "examples": [
+        "蹭一身灰"
+      ],
+      "traditional_char": "蹭"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "拖延，消耗时间",
+      "examples": [
+        "磨蹭",
+        "蹭时间"
+      ],
+      "traditional_char": "蹭"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "一步一步缓慢地移动",
+      "examples": [
+        "慢慢往前蹭"
+      ],
+      "traditional_char": "蹭"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "other",
+      "meaning": "失势难进或失意潦倒的样子（用于‘蹭蹬’一词）",
+      "examples": [
+        "或乃蹭蹬穷波，陆死盐田",
+        "岂知蹭蹬不称意，八年梁益雕朱颜"
+      ],
+      "traditional_char": "蹭"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "指白占便宜，不付代价而取得好处",
+      "examples": [
+        "坐蹭车"
+      ],
+      "traditional_char": "蹭"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从足，曾声，本义为摩擦。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由摩擦产生沾染意义，见于现代汉语。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由摩擦动作引申为行为迟缓拖拉，多见于口语。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "从摩擦动作比喻步伐缓慢移动。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "由缓慢行动引申为仕途、人生困顿失意的比喻用法，多见于‘蹭蹬’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "metaphor",
+      "note": "借摩擦动作引申为蹭他人好处（如搭车）之意。"
+    }
+  ]
+}

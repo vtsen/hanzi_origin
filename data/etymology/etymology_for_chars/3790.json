@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "心跳，心怦怦跳的样子。",
+      "examples": [
+        "银液镇心忪。——唐·李贺《恼公》",
+        "常有忧愁，心忪少气。——明·李时珍《本草纲目》"
+      ],
+      "traditional_char": "忪"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "惊恐，惶恐不安。",
+      "examples": [
+        "忪忪：惊恐不安的样子。",
+        "忪懞（忪懞）：惶恐不安。"
+      ],
+      "traditional_char": "忪"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "（惺忪）形容刚睡醒时模糊、未清醒的样子。",
+      "examples": [
+        "惺忪：睡眼惺忪。",
+        "惺忪（形容声音轻快悦耳）。"
+      ],
+      "traditional_char": "忪"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，心为意符，宗为声符，最初表心跳、惊恐。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘心跳’引申为‘惊恐’状态，早见唐宋文献。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由‘惊恐、未安’比喻为‘未清醒’、‘迷糊’（如睡眼惺忪），宋元起用。"
+    }
+  ]
+}

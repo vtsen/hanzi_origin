@@ -1,0 +1,165 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "矛柄（矛、戟等兵器的木柄）",
+      "examples": [
+        "徂耰棘矜。（《新书·过秦论上》）",
+        "矛，其柄谓之矜。（《方言》）"
+      ],
+      "traditional_char": "矜"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "无妻的老人，鳏夫",
+      "examples": [
+        "不侮矜寡。（《诗·大雅》）",
+        "老而无妻者谓之矜。（《礼记·王制》）"
+      ],
+      "traditional_char": "矜"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "病、疾痛",
+      "examples": [
+        "寤寐恫矜。（《后汉书·和帝纪》）"
+      ],
+      "traditional_char": "矜"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "怜悯，怜惜，同情",
+      "examples": [
+        "天矜于民。（《书·泰誓》）",
+        "见人之厄则矜之。（《公羊传》）",
+        "哀矜庶戮之不辜。（《书·吕刑》）"
+      ],
+      "traditional_char": "矜"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "自夸，自大，自尊",
+      "examples": [
+        "不矜而庄。（《礼记》）",
+        "矜其伐而耻其功。",
+        "以此自矜。（欧阳修《归田录》）"
+      ],
+      "traditional_char": "矜"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "adjective",
+      "meaning": "庄重，端庄，拘谨，谨守",
+      "examples": [
+        "君子矜而不争。（《论语》）",
+        "参为人矜严，好修容仪。（《汉书》）"
+      ],
+      "traditional_char": "矜"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "注重，崇尚",
+      "examples": [
+        "故人矜节行。（贾谊《陈政事疏》）"
+      ],
+      "traditional_char": "矜"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "adjective",
+      "meaning": "苦，穷困",
+      "examples": [
+        "矜其血气，以规法度。（《庄子》）"
+      ],
+      "traditional_char": "矜"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "adjective",
+      "meaning": "凶险，危险",
+      "examples": [
+        "居以凶矜。（《诗·小雅》）"
+      ],
+      "traditional_char": "矜"
+    },
+    {
+      "index": 9,
+      "part_of_speech": "verb",
+      "meaning": "急遽，急躁，暴躁乖戾；奋起，竦动",
+      "examples": [
+        "矜戟砥剑，登丘东向而叹。（《战国策》）",
+        "手足矜者，兵革之色也。（《吕氏春秋》）"
+      ],
+      "traditional_char": "矜"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从矛，令声，原指矛柄。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "由“矛柄”借为“怜悯、怜惜”，音近义借，春秋战国已见。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由“怜惜”引申为“自尊、自大”，本义尚存，后作心理动作泛化。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "由“自尊自大”进一步引申为“庄重、谨守”等褒义和行为意义。"
+    },
+    {
+      "source_index": 5,
+      "target_index": 6,
+      "evolution_type": "semantic_extension",
+      "note": "由自慎扩展为“注重、崇尚”，出现于先秦两汉。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 7,
+      "evolution_type": "semantic_extension",
+      "note": "由“怜悯”引申为“苦、穷困”，语义发展含感情色彩。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由‘可怜者’专指至‘无妻老人（鳏）’，诗经、礼记等中作代称。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由“怜惜”引申为“病、疾痛”，转指身体状况，书经等已见。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 8,
+      "evolution_type": "semantic_extension",
+      "note": "由可怜、困难引申为‘凶险、危险’，诗经用法。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 9,
+      "evolution_type": "semantic_shift",
+      "note": "由自尊、振作转为‘奋起、竦动、急躁’，用法多见于先秦。"
+    }
+  ]
+}

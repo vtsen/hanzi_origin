@@ -1,0 +1,84 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "驱使牲畜的用具，柔软像绳子，多用皮制成。",
+      "examples": [
+        "鞭长莫及",
+        "他手里拿着一根马鞭。"
+      ],
+      "traditional_char": "鞭"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "用鞭子抽打。",
+      "examples": [
+        "鞭打快牛",
+        "老师鞭策学生进步。"
+      ],
+      "traditional_char": "鞭"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "形状细长类似鞭子的东西。",
+      "examples": [
+        "教鞭在黑板上敲击。"
+      ],
+      "traditional_char": "鞭"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "一种古代兵器，铁制有节，无锋刃。",
+      "examples": [
+        "钢鞭舞动如龙。"
+      ],
+      "traditional_char": "鞭"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "编连成串的爆竹。",
+      "examples": [
+        "小鞭一声响，新年就到了。"
+      ],
+      "traditional_char": "鞭"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从革，便声，本义为皮制的马鞭，‘革’表义指皮革，‘便’表音。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "conversion",
+      "note": "名词作动词，鞭作‘用鞭子抽打’，自古文已见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由马鞭形状引申为任何细长状物体，如教鞭。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由本义皮鞭泛指古兵器‘鞭’（铁制、无锋刃）。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "因爆竹形状似鞭且多连串而得名。"
+    }
+  ]
+}

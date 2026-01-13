@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "pronoun",
+      "meaning": "我，我的。专用于皇帝自称。",
+      "examples": [
+        "朕为始皇帝",
+        "朕躬有责"
+      ],
+      "traditional_char": "朕"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "征兆，迹象。",
+      "examples": [
+        "朕兆",
+        "有朕可寻"
+      ],
+      "traditional_char": "朕"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "simple_indicative",
+      "original_sense_index": 1,
+      "note": "‘朕’本指天文中的日光透过云层的形迹，引申为迹象、征兆，属指事字。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "metaphor",
+      "note": "由‘迹象’引申为天子的显著表象，进而被用于自称‘我’，秦始皇时专用于皇帝自称。"
+    }
+  ]
+}

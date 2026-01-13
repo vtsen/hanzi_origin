@@ -1,0 +1,104 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "坍塌；倒塌，指建筑物、墙体、河岸等因失去支撑而崩坏。",
+      "examples": [
+        "祖乙圮于耿。",
+        "人去台已圮。",
+        "嘉泰二年七月丙午，上杭县水，圮田卢，坏稼，民多溺死。",
+        "桥圮。"
+      ],
+      "traditional_char": "圮"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "毁灭；毁坏，大范围或抽象意义上的破坏、丧失。",
+      "examples": [
+        "圮，毁也。",
+        "圮剥至亲。",
+        "圮坏；圮毁。"
+      ],
+      "traditional_char": "圮"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "断绝，出现隔断，联系中断。",
+      "examples": [
+        "故宗绪中圮。",
+        "圮绝。"
+      ],
+      "traditional_char": "圮"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "破裂，分裂。事物分开，不再完整或一体。",
+      "examples": [
+        "肝心圮裂。"
+      ],
+      "traditional_char": "圮"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "倾覆；衰微，指政治、事业、运势等崩溃或衰败。",
+      "examples": [
+        "由我则固，不由我则圮。",
+        "唐从天宝运中圮。"
+      ],
+      "traditional_char": "圮"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "伤害，摧伤，指对人、物有损害或创伤。",
+      "examples": [
+        "圮剥至亲。"
+      ],
+      "traditional_char": "圮"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字：从土，己声。本义为坍塌、毁坏，‘土’指土地、塌陷之意，‘己’表声。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由具体坍塌扩展到一般意义的毁坏、毁灭。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由毁灭之意引申为联系的断绝、隔断。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "毁坏意义引申为破裂、分裂。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "将‘毁坏’引申隐喻为政治、事业的衰微和倾覆。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "由物理毁坏扩大为对人的伤害、摧伤。"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "面部所生的小疮，俗称粉刺；皮肤上起的像水泡的小疙瘩，包括水疱、脓疱等。",
+      "examples": [
+        "脸上的小疱一个一个都红而且亮起来。",
+        "手上烫起了一个疱。",
+        "潰小皰而發痤疽。——《淮南子》"
+      ],
+      "traditional_char": "疱"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "眼泡（眼睑的部分）。",
+      "examples": [
+        "譬之目矣：眶、皰、睛，氣質也。——顏元《存性編》"
+      ],
+      "traditional_char": "皰"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“疱”从疒，包声，表示皮肤病变之肿胀、疮疱等，与“皰”通用，最早意义指皮肤肿胀或小疙瘩。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "“皰”从面，包声，声符与“疱”同，后指眼睑部位，引申义较少见。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由皮肤起疱（肿胀、鼓起之义），引申借用于眼泡部位；语义上由身体皮肤病变移至形状相似的身体部位。"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "恭顺、温顺的样子",
+      "examples": [
+        "弁服俅俅。",
+        "载弁俅俅。"
+      ],
+      "traditional_char": "俅"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "戴（帽子等）",
+      "examples": [
+        "俅，戴也。"
+      ],
+      "traditional_char": "俅"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "救助，援助（通“救”）",
+      "examples": [
+        "资人俅援。"
+      ],
+      "traditional_char": "俅"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "俅人，中国少数民族独龙族的旧称",
+      "examples": [
+        "俅人"
+      ],
+      "traditional_char": "俅"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从人，求声，表示恭顺、冠饰的样子，表现人之容貌。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由描述仪容而用于“戴帽”动作，古代礼制变化。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由形容词“俅俅”引申为民族名，多因民族自称或外号。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "“俅”借用作“救”，仅用于部分文献，属通假。"
+    }
+  ]
+}

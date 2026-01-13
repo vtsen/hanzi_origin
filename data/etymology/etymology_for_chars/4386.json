@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "美好，修长美丽",
+      "examples": [
+        "姣美",
+        "姣人",
+        "姣艳"
+      ],
+      "traditional_char": "姣"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "艳丽，妩媚",
+      "examples": [
+        "姣冶"
+      ],
+      "traditional_char": "姣"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "淫乱",
+      "examples": [
+        "弃位而姣，不可谓贞"
+      ],
+      "traditional_char": "姣"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从女，交声，表示女性之美。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由美好、修长美丽引申为艳丽、妩媚，用于形容外在吸引力。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "pejoration",
+      "note": "由褒义的妩媚、艳丽，发展为贬义的淫乱。用于贬义色彩下的修饰。"
+    }
+  ]
+}

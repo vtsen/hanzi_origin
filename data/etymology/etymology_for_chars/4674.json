@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "累，烦劳。",
+      "examples": [
+        "諉，累也。——《说文》",
+        "諈諉，累也。（《尔雅》注）"
+      ],
+      "traditional_char": "諉"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "委托，托付，连累。",
+      "examples": [
+        "诿者，托也。——《汉书·贾谊传》注",
+        "當以子孫相諉，詎論僚吏哉？——《新唐书·娄师德传》"
+      ],
+      "traditional_char": "諉"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "推托，推卸责任。",
+      "examples": [
+        "执事不诿上。——《汉书·胡建传》",
+        "推诿责任",
+        "人人如蟠，信明哲矣。一诿诸天。——元·刘壎《隐居通议》"
+      ],
+      "traditional_char": "諉"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘諉’为形声字，从言，委声，本义为‘累’或‘烦劳’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘烦劳’引申为‘连累’、‘委托’，意指将事物加于他人。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "由‘委托、连累’进一步发展为‘推托、推卸责任’。"
+    }
+  ]
+}

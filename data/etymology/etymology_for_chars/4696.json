@@ -1,0 +1,66 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "柔美、姿態美好的樣子（多見於“婀娜”一詞中）",
+      "examples": [
+        "她身姿婀娜，步步生風。",
+        "柳枝婀娜多姿。"
+      ],
+      "traditional_char": "婀"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "搖曳、動作柔和的樣子",
+      "examples": [
+        "翠竹隨風婀娜。"
+      ],
+      "traditional_char": "婀"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "游移不決、猶豫的樣子（見於“媕婀”）",
+      "examples": [
+        "為人處世，最忌媕婀。"
+      ],
+      "traditional_char": "婀"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "女子人名用字，無實際義",
+      "examples": [],
+      "traditional_char": "婀"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "從女，可聲。‘婀’最初表示女子柔美、姿態美好，後多用於形容詞。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由姿態美好擴展為動作柔和、搖曳的狀態，多用於描述植物等。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "轉用於描述心理狀態——猶豫不決，見“媕婀”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "conversion",
+      "note": "由描述詞語化為人名用字，失去原義。"
+    }
+  ]
+}

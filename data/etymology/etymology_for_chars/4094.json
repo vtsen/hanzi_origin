@@ -1,0 +1,45 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "两山之间的狭窄地方，多用于地名",
+      "examples": [
+        "黄桷垭",
+        "轿子垭",
+        "龙颈垭",
+        "柏树垭"
+      ],
+      "traditional_char": "埡"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "地名用字",
+      "examples": [
+        "多用作四川、湖南等地地名，如垭口"
+      ],
+      "traditional_char": "垭"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "埡形声字，从土，亚声，表示与土地相关的狭窄地形。"
+    },
+    {
+      "formation_type": "loan_character",
+      "original_sense_index": 1,
+      "note": "垭为埡的简化替代，结构保留土字旁以表相关语义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "conversion",
+      "note": "现代汉字简化，埡简化为垭，意义基本无变化。"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "女奴，古代指有罪的女子或女仆",
+      "examples": [
+        "妾为君故，沉吟至今。",
+        "古有罪女谓之妾。"
+      ],
+      "traditional_char": "妾"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "旧时男人娶的小老婆，正妻以外的女人",
+      "examples": [
+        "宫中妃妾甚多。",
+        "妾身不敢。"
+      ],
+      "traditional_char": "妾"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "pronoun",
+      "meaning": "旧时妇女自谦自称，主要用于对丈夫或尊长",
+      "examples": [
+        "妾身已至此，愿君珍重。",
+        "贱妾愿侍左右。"
+      ],
+      "traditional_char": "妾"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意字，上为“辛”（刑具），下为“女”，表示受刑之女子，即女奴。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“女奴”引申为地位低下的配偶，汉代后普及。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "grammaticalization",
+      "note": "由实体名词转为女性谦称人称代词，用作自称，唐宋以降常见。"
+    }
+  ]
+}

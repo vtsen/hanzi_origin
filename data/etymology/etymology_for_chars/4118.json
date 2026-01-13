@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "一年生草本植物，简称“荞麦”，茎多紫红色，叶互生呈三角形或心形，开小白花，种子可食用。",
+      "examples": [
+        "荞麦花开。",
+        "荞麦磨成面粉供食用。"
+      ],
+      "traditional_char": "蕎"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "该植物的种子，可磨面作为粮食。",
+      "examples": [
+        "用荞麦做的面条。",
+        "荞麦的子实供食用。"
+      ],
+      "traditional_char": "蕎"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "药草名，即“大戟”。根辛苦，有药用价值。",
+      "examples": [
+        "蕎，邛鉅。郭璞注：“今藥草大戟也。”",
+        "本草：其根辛苦，戟人咽喉，故名。"
+      ],
+      "traditional_char": "蕎"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 2,
+      "note": "蕎为形声字，从艹，乔声，最初指药草大戟。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 2,
+      "target_index": 0,
+      "evolution_type": "semantic_shift",
+      "note": "古义指大戟，后语义转移指荞麦植物，约东汉、魏晋以后。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "从植物本身到其果实或种子，具象转指部分产物。"
+    }
+  ]
+}

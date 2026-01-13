@@ -1,0 +1,36 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "山洞、窑洞、矿坑。",
+      "examples": [
+        "紫燕長巢硐，青龜忽上蓮。",
+        "五金所產之硐，皆須戽水而後取礦。"
+      ],
+      "traditional_char": "硐"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "石磨。",
+      "examples": [],
+      "traditional_char": "硐"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从石，‘同’声，本义指山洞、窑洞或矿穴。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由山洞空洞的形象引申为石磨（中空之意），为形象隐喻。"
+    }
+  ]
+}

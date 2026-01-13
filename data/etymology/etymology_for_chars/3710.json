@@ -1,0 +1,53 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "猫、狗呕吐；引申为人呕吐或使呕吐",
+      "examples": [
+        "吐酒犹如猫狗吣。",
+        "不吃啦，粥做的破破啷啷，活像狗唚的！"
+      ],
+      "traditional_char": "吣"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "谩骂、胡说",
+      "examples": [
+        "满嘴胡吣。",
+        "再灌丧了黄汤，还不知吣出些什么新样儿的来呢!"
+      ],
+      "traditional_char": "吣"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "亲吻",
+      "examples": [
+        "抱住他唚幾個嘴。"
+      ],
+      "traditional_char": "唚"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘吣’从口，音形兼备，义为呕吐，指猫狗呕吐之意。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 2,
+      "note": "‘唚’从口，音形兼备，本义为亲吻。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由‘呕吐’比喻为‘胡说、谩骂’。"
+    }
+  ]
+}

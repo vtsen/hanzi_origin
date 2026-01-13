@@ -1,0 +1,86 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "赐给，给予（“贡”的本义，用作动词）",
+      "examples": [
+        "赣，赐也。——《说文》",
+        "一朝用三千钟赣。——《淮南子·要略》"
+      ],
+      "traditional_char": "贛"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "江名，赣江，在江西省",
+      "examples": [
+        "贛水出豫章南野县西，北过赣县东。——《水经注》",
+        "此行何去？赣江风雪迷漫处。——毛泽东《减字木兰花·广昌路上》"
+      ],
+      "traditional_char": "贛"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "江西省的别称（因赣江贯穿本省而得名）",
+      "examples": [
+        "二十万军重入赣，风烟滚滚来天半。——毛泽东《渔家傲·反第一次大“围剿”》",
+        "赣省风俗，每遇小孩初生，为父母者必有种种之迷信手续。——《中华全国风俗志》"
+      ],
+      "traditional_char": "贛"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "汉有贛遂。见《汉书·朱博传》"
+      ],
+      "traditional_char": "贛"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "愚钝",
+      "examples": [
+        "是以愚贛窳墯之民，苦小费而忘大利也。——《韩非子·南面》",
+        "臣实愚贛，唯识忠尽，出命忘躯。——《后汉书·蔡邕传》"
+      ],
+      "traditional_char": "贛"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从‘贝’（财物），‘竷’为声旁，原指赐给财物。‘贛’为繁体，后简化为‘赣’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "以地名借指，因该江流域为物产馈赠之地。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "江西省因赣江贯穿而得简称‘赣’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "以动词或事物名作为姓氏。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "unknown",
+      "note": "‘愚贛’用作形容词，具体机制不明，待考。"
+    }
+  ]
+}

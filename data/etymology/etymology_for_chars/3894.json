@@ -1,0 +1,85 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古地名，郁郅，北地郡下辖县名，今甘肃省庆阳县一带",
+      "examples": [
+        "北地郁郅县。——《说文》"
+      ],
+      "traditional_char": "郅"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "至，大，极，盛，最",
+      "examples": [
+        "文王改制，爰周郅隆。——司马相如《封禅文》",
+        "郅隆",
+        "郅治"
+      ],
+      "traditional_char": "郅"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "登，上举，升高",
+      "examples": [
+        "鲁、卫谓登曰郅。《方言》",
+        "郅头而皇皇。——《越绝书》"
+      ],
+      "traditional_char": "郅"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "汉代有郅都。见《史记·酷吏列传》"
+      ],
+      "traditional_char": "郅"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "高耸，竿杠状物的样子",
+      "examples": [
+        "夫何旟旐郅偈之旖旎也。——扬雄《甘泉赋》"
+      ],
+      "traditional_char": "郅"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从邑，至声，形声字。本义为地名。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由地名引申为‘至、大、盛’等抽象含义，‘至’也是‘至县’之‘至’的联想。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由‘至、大’引申为‘登、升高’，形容动词应用。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "function_word",
+      "note": "由地名或抽象品质转为姓氏用法，常见汉姓机制。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "‘大/极/至’的含义经比喻转为‘高耸’、物理上‘极高’。"
+    }
+  ]
+}

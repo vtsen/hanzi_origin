@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "一种海蚌，通称“江珧”，软体动物，肉柱称“江珧柱”，干制后称“干贝”，是珍贵海味品。亦称“玉珧”。",
+      "examples": [
+        "江珧柱为佳肴。",
+        "嶧皋之水出焉，东流注于激女之水，其中多蜃珧。"
+      ],
+      "traditional_char": "珧"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "蚌蛤的甲壳，古代用作刀、弓等器物上的装饰品。",
+      "examples": [
+        "珧，蜃甲也，所以饰物也。",
+        "佩刀，天子玉琫而珧珌。"
+      ],
+      "traditional_char": "珧"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "用蚌贝装饰的弓，或以其名命名的弓。",
+      "examples": [
+        "弓有缘者谓之弓，无缘者谓之弭。以蜃者谓之珧。",
+        "冯珧利决，封狶是射。"
+      ],
+      "traditional_char": "珧"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "美玉名，如“珧华”，指美玉的华美光彩。",
+      "examples": [
+        "珧华黎绿，连城之宝也。",
+        "玉珧海月。"
+      ],
+      "traditional_char": "珧"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "从玉，兆声。本义为蚌壳装饰，声符兆，意符玉表与美石有关。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "由蚌壳装饰的本义扩展为指蚌本体及其食用价值，汉魏六朝以后常见。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由于用蚌壳装饰弓，进而以材料名借指器物。中古文献可见。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "因蚌壳色泽形态华美，喻美玉之名。"
+    }
+  ]
+}

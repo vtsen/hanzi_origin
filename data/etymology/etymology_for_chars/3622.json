@@ -1,0 +1,86 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "用麦芽或谷芽熬成的饴糖，糖稀。",
+      "examples": [
+        "傍檐垂柳卖春饧。",
+        "湖鱼香胜肉，官酒重于饧。"
+      ],
+      "traditional_char": "餳"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "糖块、面剂子等变软。",
+      "examples": [
+        "糖饧了。"
+      ],
+      "traditional_char": "餳"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "形容眼皮半开半合，精神不振，眼睛朦胧。",
+      "examples": [
+        "八戒饧眼偷看，你道他怎生打扮。",
+        "眉眼愈加饧涩，忙伏侍他睡下。",
+        "寶玉見他星眼微餳，香腮帶赤。"
+      ],
+      "traditional_char": "餳"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "粘合。",
+      "examples": [
+        "和漢子不知怎的餳成一塊。"
+      ],
+      "traditional_char": "餳"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "糖的古字。",
+      "examples": [
+        "交州所獻甘蔗餳。",
+        "其成餅者，則不中用。"
+      ],
+      "traditional_char": "餳"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从‘食’表义，‘昜’表声，本义为麦芽糖、糖稀。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "糖稀变软的性质引申为‘变软’之意。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由‘变软’引申比喻为精神不振、眼皮松弛。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "糖稀具有粘性的物理特征引申为‘粘合’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "作为‘糖’的古字或通假用法。"
+    }
+  ]
+}

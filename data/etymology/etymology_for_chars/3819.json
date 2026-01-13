@@ -1,0 +1,117 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "草木花含苞未放的样子；花蓓蕾状。",
+      "examples": [
+        "草木花甬甬然也。",
+        "艸木𠌶甬甬然也。"
+      ],
+      "traditional_char": "甬"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "钟柄，古代钟顶部系悬用的部件。",
+      "examples": [
+        "鳧氏为钟，舞上谓之甬。",
+        "云韶凝禁甬。"
+      ],
+      "traditional_char": "甬"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "古代两旁有墙垣遮蔽的通道、甬道。",
+      "examples": [
+        "修为墙垣甬，道相连。",
+        "甬道入鸳鸾。"
+      ],
+      "traditional_char": "甬"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "仆役，佣工。",
+      "examples": [
+        "甬、奴、婢，贱称也。",
+        "灶甬边炉宿，煤丁倚石炊。"
+      ],
+      "traditional_char": "甬"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "古代盛东西的量器；古同“桶”。",
+      "examples": [
+        "谷口铜甬，容十斗，重四十斤。",
+        "角斗甬，今斛也。"
+      ],
+      "traditional_char": "甬"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "甬江，浙江水名。",
+      "examples": [
+        "吾请达王甬句东。"
+      ],
+      "traditional_char": "甬"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "宁波市的别称，因境内有甬江而得名。",
+      "examples": [
+        "甬剧盛行于宁波地区。"
+      ],
+      "traditional_char": "甬"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从兯（形，象蓓蕾），用声，最初表草木花蕾之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "花蕾外形比喻钟的柄部，两者形状近似，早期文献见证。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由钟柄等纵深形体引申为狭长封闭的道路（甬道），形体意象转变。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 5,
+      "evolution_type": "metonymy",
+      "note": "以道路、通道引申借指水道，河流名。"
+    },
+    {
+      "source_index": 5,
+      "target_index": 6,
+      "evolution_type": "metonymy",
+      "note": "因地处甬江，以河流名作地名（宁波别称）。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "本指花蕾状，引申为盛物之器（桶），取其‘容纳’之义。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "unknown",
+      "note": "‘仆役’义来源不明，古音通“庸”“佣”，或为音近假借。"
+    }
+  ]
+}

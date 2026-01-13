@@ -1,0 +1,136 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "草木茂盛的样子；芃芃之意",
+      "examples": [
+        "梵梵黍稷。"
+      ],
+      "traditional_char": "梵"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "清净、寂静（佛教用语；梵摩、婆罗贺摩、梵览摩音译词）",
+      "examples": [
+        "净修梵行。",
+        "梵志（以清静为志）。"
+      ],
+      "traditional_char": "梵"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "关于印度（古代印度、佛教相关的含义）",
+      "examples": [
+        "梵语",
+        "梵文",
+        "梵本",
+        "梵表"
+      ],
+      "traditional_char": "梵"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "佛经、佛事、佛教相关的事物",
+      "examples": [
+        "梵言（佛经）",
+        "梵境（佛的境界）",
+        "梵楼",
+        "梵磬"
+      ],
+      "traditional_char": "梵"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "诵经，吟诵佛经",
+      "examples": [
+        "梵诵",
+        "梵呗",
+        "梵响"
+      ],
+      "traditional_char": "梵"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "诵经之声",
+      "examples": [
+        "午梵隔云知有寺，夕阳归去不逢僧。"
+      ],
+      "traditional_char": "梵"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "梵禹余"
+      ],
+      "traditional_char": "梵"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "noun",
+      "meaning": "风吹树上的模样（同“檒”）",
+      "examples": [
+        "风行木上曰檒，或作梵。"
+      ],
+      "traditional_char": "梵"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从林，凡声，表草木茂盛之貌。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_shift",
+      "note": "音译用于佛教相关之“清净、寂静”含义，以草木茂盛、纯净引申至佛教清净。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 7,
+      "evolution_type": "analogy",
+      "note": "“草木茂盛”与“风吹树貌”相关，意义近似，古籍通借。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "以“清净、寂静”义指称与印度及其佛教相关的事务。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "由“清净”指称佛经佛事等相关事物。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "conversion",
+      "note": "从名词‘佛事’引申为动作‘诵经’。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 5,
+      "evolution_type": "metonymy",
+      "note": "由诵经动作指代诵经声。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 6,
+      "evolution_type": "conversion",
+      "note": "形容词“清净”等引申作姓氏。"
+    }
+  ]
+}

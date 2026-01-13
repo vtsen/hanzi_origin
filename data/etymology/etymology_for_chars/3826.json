@@ -1,0 +1,70 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "美丽的玉",
+      "examples": [
+        "瑋，美玉。——《集韵》",
+        "瑋，玉名。——《廣韻•上尾》"
+      ],
+      "traditional_char": "瑋"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "美好，珍奇",
+      "examples": [
+        "瑋其區域，美其林藪。——《文選•左思〈吳都賦〉》",
+        "瑋制（华美的诗文作品）"
+      ],
+      "traditional_char": "瑋"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "皮绳（通“韋”，即熟獸皮）",
+      "examples": [
+        "晉陽佩瑋，西門帶弦。——《漢故谷城長蕩陰令張君表頌》"
+      ],
+      "traditional_char": "瑋"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "珍爱，珍视，称美",
+      "examples": [
+        "漢王逸《〈楚辭章句〉敘》：楚人高其行義，瑋其文采，以相教傅。",
+        "梁惠王瑋其照乘之珠，齊威王答以四臣。——《後漢書》"
+      ],
+      "traditional_char": "瑋"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“瑋”形声字，从玉，韋声，本义为美玉。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由具体的美玉引申为抽象的美好、珍奇，汉魏以降常见。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "grammaticalization",
+      "note": "由美好的品质引申为动词“珍视、赞美”，用例见《后汉书》。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "reanalysis",
+      "note": "古籍偶用于“韋”假借，意为皮绳，字形声传，义属假借。"
+    }
+  ]
+}

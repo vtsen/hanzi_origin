@@ -1,0 +1,138 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "地神",
+      "examples": [
+        "天神曰灵，地神曰祇。",
+        "祷尔于上下神祇。"
+      ],
+      "traditional_char": "祇"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "佛教地名，指祇园，后用为佛寺代称",
+      "examples": [
+        "祇园精舍。"
+      ],
+      "traditional_char": "祇"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "疾病，病患",
+      "examples": [
+        "壹者之来，俾我祇也。",
+        "坎不盈，祇既平，无咎。"
+      ],
+      "traditional_char": "祇"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "很大，盛大",
+      "examples": [
+        "不远复，无祇悔。",
+        "相次我师经此过，好将诚意至疧迎。"
+      ],
+      "traditional_char": "祇"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adverb",
+      "meaning": "仅仅，只，才，恰，适",
+      "examples": [
+        "祇搅我心。",
+        "祇见人自改换，墙皆见在。"
+      ],
+      "traditional_char": "祇"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "adjective",
+      "meaning": "安，安定",
+      "examples": [
+        "壹者之来，俾我祇也。（安也）"
+      ],
+      "traditional_char": "祇"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "adjective",
+      "meaning": "正，恰当，恰好",
+      "examples": [
+        "祇以异。"
+      ],
+      "traditional_char": "祇"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "adjective",
+      "meaning": "敬（通“祗”）",
+      "examples": [
+        "敬。",
+        "无祇悔。"
+      ],
+      "traditional_char": "祇"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从示，氏声，最初表示地神。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "以地神名指佛教著名圣地祇园，地点由主祀神名代称。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "以地神之广大，引申为大、盛大。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "病、安等为后起假借义，出现在古汉语诗经等中。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "reanalysis",
+      "note": "祇本为名词，后借用为副词'只、仅'等用法，隶变异体用法丰富。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "metaphor",
+      "note": "地神的专属性引申为“正”“恰好”之义。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "由病患引申为安，古书中有关于'病'和'安'的双解。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 7,
+      "evolution_type": "metonymy",
+      "note": "由盛大引申产生敬意，与“祗”通用。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 6,
+      "evolution_type": "semantic_shift",
+      "note": "副词意义与'恰、适'等形容词意义出现互通，早见《诗经》。"
+    }
+  ]
+}

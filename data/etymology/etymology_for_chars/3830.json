@@ -1,0 +1,69 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "玉的花纹或玉的纹理。",
+      "examples": [
+        "玢豳文磷。——《汉书》",
+        "玢，文采状也。——《广韵》"
+      ],
+      "traditional_char": "玢"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "一种玉的名称。",
+      "examples": [
+        "珉玉旁唐，玢豳文磷。——《汉书》",
+        "玢，玉名。——《玉篇》"
+      ],
+      "traditional_char": "玢"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "火成岩的一种，称为玢岩。",
+      "examples": [
+        "玢岩。"
+      ],
+      "traditional_char": "玢"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "〔赛璐玢〕玻璃纸的一种，无色透明，有光泽。",
+      "examples": [
+        "赛璐玢。"
+      ],
+      "traditional_char": "玢"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从玉，宾声。本义指玉的纹理或花纹。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由具体的玉纹理引申为一种玉的专称。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "因火成岩的花纹与玉的纹理相似，借作岩石名。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "赛璐玢表面有花纹、光泽，借指该种玻璃纸。"
+    }
+  ]
+}

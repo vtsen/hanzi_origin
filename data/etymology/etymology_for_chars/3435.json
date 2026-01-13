@@ -1,0 +1,112 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "鸟或虫的翅膀",
+      "examples": [
+        "展翼高飞"
+      ],
+      "traditional_char": "翼"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "左右两侧中的一侧",
+      "examples": [
+        "左翼",
+        "右翼"
+      ],
+      "traditional_char": "翼"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "帮助，辅佐",
+      "examples": [
+        "翼助大业"
+      ],
+      "traditional_char": "翼"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "古同“翌”，指明天或明年",
+      "examples": [
+        "翼日来访"
+      ],
+      "traditional_char": "翼"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "星宿名，二十八宿之一",
+      "examples": [
+        "翼轸二星"
+      ],
+      "traditional_char": "翼"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "adjective",
+      "meaning": "谨慎、严整有秩序、繁盛众多，常叠用为“翼翼”",
+      "examples": [
+        "小心翼翼",
+        "翼翼如也"
+      ],
+      "traditional_char": "翼"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [],
+      "traditional_char": "翼"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从羽，異声，表示翅膀。从小篆形体可见'羽'及'異'构成。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由翅膀引申为两侧之意，常用于军阵、建筑等结构。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "借翅膀帮助飞行，引申为辅助、帮助。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "二十八宿‘翼’星名因状如翅膀得名。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "metaphor",
+      "note": "形容翼翼，取其翼的齐整、谨慎的特性演变为形容词义。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "reanalysis",
+      "note": "用作姓氏，源自本义或其引申。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "unknown",
+      "note": "古通'翌'义的连通机制不详，或为借用（假借）关系。"
+    }
+  ]
+}

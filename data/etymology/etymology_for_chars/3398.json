@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "一种非金属元素，常见的有“白磷”和“红磷”。",
+      "examples": [
+        "磷火在夜间可见。",
+        "红磷是一种重要的化工原料。"
+      ],
+      "traditional_char": "磷"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "含磷的化学物，如磷肥、磷脂。",
+      "examples": [
+        "磷肥对于农业增产有重要作用。",
+        "磷脂是细胞膜的重要成分。"
+      ],
+      "traditional_char": "磷"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“磷”为形声字，从石，粦声。本义为化学元素“磷”。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由元素磷推广至含磷的化学物及相关制品，20世纪以来化学和生物医学语境下扩展。"
+    }
+  ]
+}

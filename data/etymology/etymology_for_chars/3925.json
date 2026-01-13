@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "两山之间的山嘴或山角。",
+      "examples": [
+        "山岬",
+        "此处为两山夹峙之岬"
+      ],
+      "traditional_char": "岬"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "突入海中的狭长陆地或尖角，称为岬角。",
+      "examples": [
+        "岬角",
+        "该地位于海岬之端"
+      ],
+      "traditional_char": "岬"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘岬’为形声字，从山，甲声，初表示两山之间或山的突出角。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由山间突出部（岬）比喻延伸至海中的地貌，语义扩大，见于后世地理命名。"
+    }
+  ]
+}

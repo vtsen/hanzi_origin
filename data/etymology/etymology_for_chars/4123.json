@@ -1,0 +1,57 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "草木繁盛的样子",
+      "examples": [
+        "荟，草多貌。——《说文》",
+        "荟兮蔚兮。——《诗·曹风·候人》",
+        "荟郁"
+      ],
+      "traditional_char": "薈"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "聚集，汇集",
+      "examples": [
+        "荟萃",
+        "荟集",
+        "荟蕞"
+      ],
+      "traditional_char": "薈"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "遮掩，隐翳",
+      "examples": [
+        "荟翳",
+        "山林荟翳，必谨覆索之，此伏奸之所藏处也。——《孙子·行军》"
+      ],
+      "traditional_char": "薈"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘薈’为形声字，从艸，会声，本义为草木繁盛。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由草木茂密比喻于人或事物的聚集，中古时期已有此用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "草木茂密遮掩，转指遮掩、隐翳的意思。"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "草木茂盛的样子",
+      "examples": [
+        "苒苒齐芳草",
+        "草木苒苒"
+      ],
+      "traditional_char": "苒"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "草木枝叶轻柔的样子",
+      "examples": [
+        "苒苒之柔茎"
+      ],
+      "traditional_char": "苒"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adverb",
+      "meaning": "渐渐，逐渐（多指时间的流逝）",
+      "examples": [
+        "荏苒冬春谢",
+        "岁月荏苒"
+      ],
+      "traditional_char": "苒"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从艸，冉声，初意为草茂盛貌。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由草茂盛外观引申为枝叶柔软、轻柔的状态，常见于形容植物形态的文学修辞。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由草木生长变化转为时间流逝的渐进，引申义出现在先秦至魏晋南北朝文学。"
+    }
+  ]
+}

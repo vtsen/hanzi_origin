@@ -1,0 +1,62 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "整批的，整体的（如货物或数额等）",
+      "examples": [
+        "趸货",
+        "趸账",
+        "一大躉儿送礼",
+        "趸数"
+      ],
+      "traditional_char": "躉"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "囤积，成批买进或卖出",
+      "examples": [
+        "趸积",
+        "趸点鱼去",
+        "卖弄那点躉回来的洋货"
+      ],
+      "traditional_char": "躉"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "重量单位（如“一躉等于一千六百八斤”）",
+      "examples": [
+        "每千六百八斤为一躉"
+      ],
+      "traditional_char": "躉"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“躉”形声字，从足，敦声，表示与运输、数量整体相关。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“趸”为“躉”的简化字，形声结构，部件保持一致。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "conversion",
+      "note": "由形容词整体之义引申为动词‘整批买进或卖出’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "整体批量的含义转用为重量单位。"
+    }
+  ]
+}

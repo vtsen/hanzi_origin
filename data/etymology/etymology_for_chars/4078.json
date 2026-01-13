@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "驾副车的马或备用的马",
+      "examples": [
+        "驸，副马也。——《说文》",
+        "赐驸马从驾。——《后汉书·鲁恭传》"
+      ],
+      "traditional_char": "駙"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "帝王女婿的称谓，驸马都尉的简称",
+      "examples": [
+        "驸马都尉。——《汉书·百官公卿表上》",
+        "帝王之女婿称驸马。"
+      ],
+      "traditional_char": "駙"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "车厢外用于辅助的立木",
+      "examples": [
+        "车之左驸，马之左骖。——《史记·司马穰苴列传》",
+        "駙者，箱外之立木。"
+      ],
+      "traditional_char": "駙"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从马，付声。表示副马（驾副车或备用的马）。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "因副马多随帝王出行，引申为帝王女婿的专称，魏晋以后定型。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "副马的“副”，引申到车外辅助立木的角色，后遂以“駙”通“辅”。"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "多年生草本植物，生长在浅水中，嫩茎称茭白，果实称菰米，可食用。",
+      "examples": [
+        "杜甫诗：波漂菰米沈云黑",
+        "菰稗（茭白和稗子）",
+        "菰苇（指茭白和苇）"
+      ],
+      "traditional_char": "菰"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "菌类植物，亦称蘑菇之类。",
+      "examples": [
+        "黄侃《蘄春语》：吾乡凡菌皆曰菰。",
+        "宋《吴山寺》产菰，大如盘，五色光润。",
+        "香菰，草菰"
+      ],
+      "traditional_char": "菰"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "古称一种竹管乐器名。",
+      "examples": [
+        "同“箛”。古管乐名。",
+        "《汉·校官碑》：履菰竹之廉。",
+        "《吴志·孙亮传》：诸葛诞别将于菰陂。"
+      ],
+      "traditional_char": "菰"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从艸，𤓰声；本义为水生禾本科植物茭白。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "因外形或生长环境相似，植物义转指菌类（蘑菇类）；明清等方言广泛用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "植物之茎用为乐器管，名称由植物转指笛管类乐器。主要见于古文。"
+    }
+  ]
+}

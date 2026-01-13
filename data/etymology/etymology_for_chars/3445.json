@@ -1,0 +1,70 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "歪倒，反转，变动位置，改变。",
+      "examples": [
+        "翻身",
+        "翻车",
+        "推翻",
+        "翻卷"
+      ],
+      "traditional_char": "翻"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "数量成倍的增加。",
+      "examples": [
+        "翻番"
+      ],
+      "traditional_char": "翻"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "越过。",
+      "examples": [
+        "翻越"
+      ],
+      "traditional_char": "翻"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "飞翔，飞。",
+      "examples": [
+        "翻飞"
+      ],
+      "traditional_char": "翻"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从羽，番声，本义为反转、变动，有鸟羽翻动之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由‘变动位置’引申为‘数量增加’，如事物发生巨大变化。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由‘变动位置’引申为‘越过’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由羽翼翻转引申为飞翔之意。"
+    }
+  ]
+}

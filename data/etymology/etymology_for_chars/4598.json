@@ -1,0 +1,93 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "一种猛禽，鹞鹰，亦称老鹰、鸢鹰（本义）",
+      "examples": [
+        "鸱得腐鼠。——《庄子·秋水》",
+        "懿厥哲妇，为梟为鴟。——《诗·大雅·瞻卬》"
+      ],
+      "traditional_char": "鴟"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "猫头鹰一类的鸟，鸱鸺，也作鸱枭，比喻邪恶之人",
+      "examples": [
+        "鴟目有所適，鶴脛有所節。——《庄子·徐无鬼》",
+        "鸱翱翔。——《史记·屈原贾生列传》",
+        "鸱鸮（猫头鹰一类的鸟。喻指邪恶之人）"
+      ],
+      "traditional_char": "鴟"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "传说中的怪鸟，有一头三身，状如乌鸦",
+      "examples": [
+        "三危山有鸟焉，一首而三身，其状如鸦，其名曰鸱。——《山海经·西山经》"
+      ],
+      "traditional_char": "鴟"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "用皮制作的酒囊，‘鸱夷’的略称",
+      "examples": [
+        "不持兩鸱酒，肯借一車書。——苏轼《和陶赠羊长史》"
+      ],
+      "traditional_char": "鴟"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "形容凶暴、嚣张（如“鸱张”）；也形容凶狠贪婪之相",
+      "examples": [
+        "鸱视（昂首而视，如鸱欲有所攫取）",
+        "鸱目虎吻（形容相貌凶恶）",
+        "石勒鸱赵魏，曹嶷狼顾东齐——《晋书》"
+      ],
+      "traditional_char": "鴟"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从鸟（鴟为隹，鸱为鸟）旁表义，氐声。最初用以指猛禽鹞鹰。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由猛禽鹞鹰这一类，延伸指夜行性猛禽如猫头鹰，历史上已有并用。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "自真实鸟类扩展为神话怪鸟，见于《山海经》等古籍。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "以其皮革用作盛酒囊之名，由鸟及物，酒囊以鸟皮制，称‘鸱’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "由猛禽的形象，比喻人的凶暴、嚣张、贪狠等行为和神情。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "猫头鹰常被视作不祥恶鸟，引申为人的凶恶气质。"
+    }
+  ]
+}

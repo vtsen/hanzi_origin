@@ -1,0 +1,91 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "舀，把液体盛出来",
+      "examples": [
+        "挹彼注兹。",
+        "维北有斗，不可以挹酒浆。",
+        "弟子挹水而注之。"
+      ],
+      "traditional_char": "挹"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "吸取；承受（抽象义，承接受益等）",
+      "examples": [
+        "法流湛寂，挹之莫测其源。",
+        "飽挹荷香。",
+        "我若能挹你以為眼，我將贈給那善歌的盲妹。"
+      ],
+      "traditional_char": "挹"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "拉，引，牵引",
+      "examples": [
+        "左挹浮丘袖，右拍洪崖肩。",
+        "作歌挹盛事，推轂期孤鶱。"
+      ],
+      "traditional_char": "挹"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "谦抑，谦退，抑制",
+      "examples": [
+        "情存损挹。",
+        "久自挹损。",
+        "侠游谦让，屡有降挹之言。"
+      ],
+      "traditional_char": "挹"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "作揖、拱手行礼",
+      "examples": [
+        "拱挹指麾。",
+        "下车挹之。",
+        "辑杖挹世尊。"
+      ],
+      "traditional_char": "挹"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从手，邑声，本义为舀水或液体。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由具体舀液体引申为抽象的吸取、承受。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由手取水引申为拉、牵引等动作。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "因行为的收敛，进一步引申为谦抑、抑制等抽象含义。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_shift",
+      "note": "与“揖”通假，因手部动作而义通作拱手行礼。"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "高而尖的山，泛指高山或山岭。",
+      "examples": [
+        "出为碧峤。——《徐霞客游记·游黄山记》",
+        "岭峤微草，凌冬不雕。",
+        "下盼诸峰，时出为碧峤，时没为银海。"
+      ],
+      "traditional_char": "嶠"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "高；高大的（同“乔”）。",
+      "examples": [
+        "鼻准高隆如峤耸。——《西游记》",
+        "峤岳（高大的山）"
+      ],
+      "traditional_char": "嶠"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "山道。",
+      "examples": [
+        "峤道（山路）",
+        "嶠路",
+        "山祗蹕嶠路",
+        "岁严摧磴草，午寒散嶠木。——沈约《循役朱方道路》"
+      ],
+      "traditional_char": "嶠"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "特指中国五岭（岭南地区），峤南、峤外。",
+      "examples": [
+        "峤南（五岭以南的地区）",
+        "峤外（五岭以外的地区）",
+        "从来嶠南北，人谓将无同。——范成大"
+      ],
+      "traditional_char": "嶠"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘嶠’从山，乔声。初本指高而尖的山。"
+    },
+    {
+      "formation_type": "simple_indicative",
+      "original_sense_index": 0,
+      "note": "‘峤’为‘嶠’的简化字，意义及用法承续于嶠。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由具体高峻山引申为形容词表‘高’。中古通“乔”，见《说文》。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "高山引出山道、山路等相关事物，词义转变。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_narrowing",
+      "note": "山道进一步特指中国南部五岭一带的地理分区。"
+    }
+  ]
+}

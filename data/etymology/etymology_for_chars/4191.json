@@ -1,0 +1,104 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古代楚国的都城名，位于今湖北省江陵县附近",
+      "examples": [
+        "楚武王卒师中而兵罢，子文王熊赀立，始都郢。",
+        "（子西）沿汉泝江，将入郢。",
+        "武王卒师中而兵罢，子文王熊赀立，始都郢。"
+      ],
+      "traditional_char": "郢"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "春秋战国时楚国历次迁都之地，均称郢",
+      "examples": [
+        "楚东徙都寿春，命曰郢。",
+        "楚昭王十年吴师入郢，二年后昭王迁都於鄀。",
+        "楚考烈王自陈徙寿春，亦命曰郢。"
+      ],
+      "traditional_char": "郢"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "汉代的郢县名称，地在今湖北省江陵县东北",
+      "examples": [
+        "（南郡属县）郢，楚别邑，故郢。莽曰郢亭。",
+        "楚国灭后为郢县，属南郡。"
+      ],
+      "traditional_char": "郢"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "楚国的代称",
+      "examples": [
+        "郢书燕说（比喻曲解原意，以讹传讹）",
+        "郢人（指楚国人）"
+      ],
+      "traditional_char": "郢"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "通“盈”字，指充满、满溢",
+      "examples": [
+        "十二小郢，至德……十二中郢，赐与。（《管子·幼官》）"
+      ],
+      "traditional_char": "郢"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "古地名，畢郢或毕程，在今陕西省咸阳市东，也作“程”",
+      "examples": [
+        "文王生于岐周，卒于毕郢。《孟子·离娄下》",
+        "武王尝穷于毕程矣。"
+      ],
+      "traditional_char": "郢"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从邑，呈声；邑表示与地名相关，呈表音，初指楚都郢"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "因楚国迁都，历代都址均称郢，地名泛化，见《史记·楚世家》"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "楚都地为汉郢县沿用，地名承续"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "以都城借指国家，地名借代表整个楚国"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "“郢”为“程”的假借字，用于陕西之地名，音近假借见《孟子·离娄下》"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "“郢”通“盈”，音近相通，义同满、盈见《管子·幼官》"
+    }
+  ]
+}

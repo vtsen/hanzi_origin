@@ -1,0 +1,52 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "高高隆起的",
+      "examples": [
+        "穹隆",
+        "圆顶穹窿"
+      ],
+      "traditional_char": "穹"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "天空",
+      "examples": [
+        "穹苍",
+        "苍穹"
+      ],
+      "traditional_char": "穹"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "穷尽，极尽",
+      "examples": [],
+      "traditional_char": "穹"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 2,
+      "note": "形声字，从穴，表示洞穴、穷尽之意，‘弓’为声符。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 2,
+      "target_index": 0,
+      "evolution_type": "semantic_shift",
+      "note": "由“穷尽”引申为“极高处”或“至高”，进而指隆起、拱形之意。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "隆起引申为高远的天空，形成‘穹苍’等说法。"
+    }
+  ]
+}

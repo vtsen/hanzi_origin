@@ -1,0 +1,103 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "柘树，一种落叶灌木或乔木，叶卵形，可喂蚕，皮可染黄色，木材坚致，是贵重木材",
+      "examples": [
+        "桑柘廢來猶納稅，田園荒後尚徵苗。",
+        "人家蠶事欲眠三，桑滿筐籃，柘滿筐籃。",
+        "蠶書：柘葉飼蠶為絲，中琴瑟絃，清響勝凡絲。"
+      ],
+      "traditional_char": "柘"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "柘叶，用于喂蚕",
+      "examples": [
+        "食蠶以柘。",
+        "蠶已三眠將醒。莫怨春歸，莫愁柘老。"
+      ],
+      "traditional_char": "柘"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "“柘枝舞”唐教坊舞曲的省称",
+      "examples": [
+        "柘因零落難重舞，蓮為單開不並頭。",
+        "柘袖（柘枝舞者的衣袖）"
+      ],
+      "traditional_char": "柘"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "通“蔗”，指甘蔗",
+      "examples": [
+        "有柘漿些。",
+        "泰尊柘漿析朝酲。",
+        "諸柘巴苴。"
+      ],
+      "traditional_char": "柘"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "春秋有越大夫柘稽。"
+      ],
+      "traditional_char": "柘"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "古地名，今河南省柘城县西北",
+      "examples": [
+        "前漢·地理志：屬淮陽郡。"
+      ],
+      "traditional_char": "柘"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从木，石声。本义为落叶灌木或树（柘树），石表声，属形声字。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_narrowing",
+      "note": "柘树特指其叶作为饲蚕用途，见于农业发展后期。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "以柘树为代表，指代舞曲“柘枝舞”，因舞蹈服饰及传统有关。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "通“蔗”，音近用为甘蔗，属于借用关系，先秦两汉已见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "function_word",
+      "note": "由物名引申为姓氏，汉及更早文献有记载。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "function_word",
+      "note": "作为地名用，因地多柘树或以物名地。"
+    }
+  ]
+}

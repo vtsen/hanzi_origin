@@ -1,0 +1,108 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "遥远，距离很大",
+      "examples": [
+        "迥，远也。——《说文》",
+        "天高地迥。",
+        "俺向着这迥野悲凉。"
+      ],
+      "traditional_char": "迥"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "高，挺拔",
+      "examples": [
+        "樹迥霧縈集，山寒野風急。",
+        "重簾靜，層樓迥，惆悵落花風不定。"
+      ],
+      "traditional_char": "迥"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "差别很大，截然不同",
+      "examples": [
+        "你若用了攥字，手背先是平正……這與托字迥隔霄壤了。",
+        "迥然不同。"
+      ],
+      "traditional_char": "迥"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adverb",
+      "meaning": "（用作副词）远远，非常；完全",
+      "examples": [
+        "翠柏深留景，紅梨迥得霜。",
+        "迥過（远远超过）；迥出（截然超出）"
+      ],
+      "traditional_char": "迥"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "僻远的地方",
+      "examples": [
+        "常恐值荒迥，此輩還射人。"
+      ],
+      "traditional_char": "迥"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "adjective",
+      "meaning": "卓越，出众",
+      "examples": [
+        "出落精神，曉日臨窗迥不群。"
+      ],
+      "traditional_char": "迥"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从辵，冋声，辵表示与‘远行’相关，冋为声符，‘遥远’为本义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由‘遥远’引申为‘高’，以空间距离的远引比高度。汉魏六朝文献多见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "‘距离远’比喻‘差别大’，即‘迥然不同’。中古已见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "conversion",
+      "note": "形容词‘远’转为副词‘远远’用法。例见唐宋。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "‘远’引申为‘偏远之地’名词用法。唐李商隐即见。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "metaphor",
+      "note": "‘高远’进而比喻‘卓越’，如‘迥拔’，见明清文献。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 5,
+      "evolution_type": "metonymy",
+      "note": "‘差别大’引申为‘超群卓绝’，用同‘卓越’。历代文学皆有。"
+    }
+  ]
+}

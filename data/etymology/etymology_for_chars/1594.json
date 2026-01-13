@@ -1,0 +1,102 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "在斗争或竞赛中打败对方或取得成功",
+      "examples": [
+        "无往不胜",
+        "得胜归来"
+      ],
+      "traditional_char": "勝"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "超过，占优势",
+      "examples": [
+        "胜似闲庭信步",
+        "以少胜多"
+      ],
+      "traditional_char": "勝"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "优美的，景物美好",
+      "examples": [
+        "风景胜地",
+        "胜境"
+      ],
+      "traditional_char": "勝"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "古代妇女的饰物",
+      "examples": [
+        "花胜",
+        "彩胜"
+      ],
+      "traditional_char": "勝"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "能承担，能承受（承受得起）",
+      "examples": [
+        "胜任",
+        "不胜其烦"
+      ],
+      "traditional_char": "勝"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "尽，能够尽（多用于否定）",
+      "examples": [
+        "不胜感激"
+      ],
+      "traditional_char": "勝"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 4,
+      "note": "从力，朕声，形声字。本义是能承担、能承受，即胜任。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 4,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "由‘能承担’引申为‘在斗争中能胜出，取胜’，语义扩展，先秦即见。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘能承担、能承受’引申为‘超过，占优势’，汉代已用。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "‘占优势’引申为‘优美的’，指景物在比较中突出。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "‘胜’表达优势、突出，引申为‘漂亮的饰物’。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 5,
+      "evolution_type": "grammaticalization",
+      "note": "‘能承受’语法化为‘能够（尽）’，用于‘不胜’、‘不胜其烦’等结构。"
+    }
+  ]
+}

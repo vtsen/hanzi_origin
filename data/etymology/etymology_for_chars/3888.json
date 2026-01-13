@@ -1,0 +1,89 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "剖开，破开",
+      "examples": [
+        "刳，判也。——《说文》",
+        "刳剔孕妇。——《伪泰誓》",
+        "刳破腹背，抽割积聚。——《后汉书·华佗传》"
+      ],
+      "traditional_char": "刳"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "挖空，掏空",
+      "examples": [
+        "刳木为舟，剡木为楫。——《易·系辞下》",
+        "刳腔（挖空的腹腔）"
+      ],
+      "traditional_char": "刳"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "剜，割，杀",
+      "examples": [
+        "刳白马而盟。——《史记·苏秦列传》",
+        "刳羊",
+        "刳肝（剖挖肝脏）"
+      ],
+      "traditional_char": "刳"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "洗除，消除（如：清除杂念）",
+      "examples": [
+        "君子不可以不刳心焉。——《庄子》",
+        "刳心"
+      ],
+      "traditional_char": "刳"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "遭受残害，受伤害",
+      "examples": [
+        "江东新刳于兵，郡旱，饥民交走死无吊。——唐·韩愈《曹成王碑》",
+        "新刳于乱"
+      ],
+      "traditional_char": "刳"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从刀，夸声，以“刀”为义符表示与切割有关，“夸”为声符。初义为剖开。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从剖开发展为挖空、掏空。以动作结果突出中空状态。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由剖开的动作引申为专指杀、割等切割致死的行为。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "从实物挖空引申为抽象的清除、洗除，如洗心。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由主动的杀、剖发展为被动遭受残害。"
+    }
+  ]
+}

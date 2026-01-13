@@ -1,0 +1,70 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "草本植物的茎，支持分支、叶等附属物的部分",
+      "examples": [
+        "麦莛儿",
+        "油菜莛儿",
+        "莛，《说文》曰：“茎也”。"
+      ],
+      "traditional_char": "莛"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "棍棒，削木而成的小棒，可用以击钟等",
+      "examples": [
+        "削木为莛，以莛叩钟，则铿然而鸣。",
+        "以莛撞钟"
+      ],
+      "traditional_char": "莛"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "measure_word",
+      "meaning": "计量草茎等细长物的单位",
+      "examples": [
+        "有草一莛，孺子折之有余，数十数百万莛，壮夫莫谁何焉。"
+      ],
+      "traditional_char": "莛"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "屋梁，屋子的横梁",
+      "examples": [
+        "莛，屋梁也。（《庄子·齐物论》司马注）"
+      ],
+      "traditional_char": "莛"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从艸，廷声，本义为草本植物的茎。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "用草茎（本义）制成的小棒，因材料而得名，见古文对击钟之器具称呼。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "grammaticalization",
+      "note": "由具体‘草茎’名词用作量词，表计数。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "以草茎纵向支撑之义，比喻屋梁。"
+    }
+  ]
+}

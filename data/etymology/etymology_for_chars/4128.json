@@ -1,0 +1,124 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "用茅草、芦苇等覆盖房屋。",
+      "examples": [
+        "茨，以茅苇盖屋。——《说文》",
+        "茨其所决而高之。——《淮南子·泰族訓》"
+      ],
+      "traditional_char": "茨"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "用茅草、芦苇覆盖的屋顶；茅屋。",
+      "examples": [
+        "茅茨不剪，采椽不斫。——《韩非子·五蠹》",
+        "焚雍门之茨。——《穀梁傳·成公二年》"
+      ],
+      "traditional_char": "茨"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "用于覆盖屋顶的茅草、芦苇等草类。",
+      "examples": [
+        "屬茨倚廬，席薪枕塊。——《荀子·礼论》",
+        "采茨葺昔宇，翦棘開舊畦。——顏延之《和謝靈運》"
+      ],
+      "traditional_char": "茨"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "蒺藜（一种有刺的草本植物）。",
+      "examples": [
+        "墙有茨，不可埽也。——《诗·鄘风·墙有茨》",
+        "楚楚者茨，言抽其棘。——《诗·小雅·楚茨》"
+      ],
+      "traditional_char": "茨"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "堆积；填塞。",
+      "examples": [
+        "茨其所决而高之。——《淮南子·泰族訓》",
+        "堙茨吾池。——《墨子·備梯》"
+      ],
+      "traditional_char": "茨"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "（通“餈”）米餅。",
+      "examples": [
+        "糗餌粉餈。——《周禮·天官·籩人》",
+        "故書餈作茨。——郑玄注"
+      ],
+      "traditional_char": "茨"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [
+        "漢有茨充。——《後漢書·循吏傳》"
+      ],
+      "traditional_char": "茨"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从艸，次声。本义为用草覆盖屋顶，形旁示草类，声旁表音。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "conversion",
+      "note": "动作名物化，表示覆盖后的屋顶。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "用材料名称称呼覆盖草本身，材料与行为相关。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由材料指称覆盖成品屋顶。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "覆盖扩展为一般“堆积、填塞”。古籍流行。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由一般覆盖草类扩展到特定植物蒺藜。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "假借为“餈”，指米餅，仅见于典籍注释。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "unknown",
+      "note": "用作姓氏，常见音训转用，具体路径不明。"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "疾走，奔跑极快",
+      "examples": [
+        "倏，走也。——《说文》",
+        "鹰犬倏眒。——《蜀都赋》"
+      ],
+      "traditional_char": "倏"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "极快的，迅疾的",
+      "examples": [
+        "儵，疾也。——《广雅》",
+        "别卿以来，倏焉二载。——《魏书·崔挺传》"
+      ],
+      "traditional_char": "倏"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adverb",
+      "meaning": "忽然，突然",
+      "examples": [
+        "倏而黄烟四起。——周密《观潮》",
+        "一生复能几？倏如流电惊。——陶潜《饮酒》"
+      ],
+      "traditional_char": "倏"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "传说中行走极快的奇兽",
+      "examples": [
+        "成都山有疾兽，名倏，倾刻万里。——元·龙辅《龙辅女红余志》"
+      ],
+      "traditional_char": "倏"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从犬，攸声，表示像犬一样疾速奔跑之意，形声字。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "conversion",
+      "note": "由动作为‘疾走’，引申为形容速度快的状态。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由‘极快’的形容用法引申出‘忽然、突然’的副词义。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "以‘倏’表现速度极快，引申为传说中的疾走异兽名。"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "勇猛，猛烈。",
+      "examples": [
+        "勐，勇猛也。《五音类聚》",
+        "其人勐烈。"
+      ],
+      "traditional_char": "勐"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "傣语音译，意为“地方”，多指平坝地区，曾是云南西双版纳傣族地区的行政区划单位。",
+      "examples": [
+        "勐海、勐腊皆为地名。"
+      ],
+      "traditional_char": "勐"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "健犬。",
+      "examples": [
+        "从犬。健犬也。"
+      ],
+      "traditional_char": "勐"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "other",
+      "meaning": "“猛”的俗字。",
+      "examples": [
+        "“勐”乃“猛”的俗字。"
+      ],
+      "traditional_char": "勐"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从犬，孟声，会意兼形声，表示勇猛如犬。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "reanalysis",
+      "note": "因字形近，逐渐被视为“猛”的俗字。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "synecdoche",
+      "note": "勇猛之意用于健犬，部分代整体。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "unknown",
+      "note": "傣语地名义，音译，关系不明，系外来词用字。"
+    }
+  ]
+}

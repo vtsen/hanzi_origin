@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "晒；将物品放在阳光下使其干燥",
+      "examples": [
+        "冬曝其日。",
+        "曝衣，曝场，曝麦于庭。"
+      ],
+      "traditional_char": "曝"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "暴露（于空气、日光或视线之下）",
+      "examples": [
+        "尸体曝在大街之上。",
+        "曝尸"
+      ],
+      "traditional_char": "曝"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "使感光纸或胶片感光；曝光",
+      "examples": [
+        "曝光",
+        "曝光表"
+      ],
+      "traditional_char": "曝"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从日，暴声。本义为晒，古字形会意：日下两手持物晒米，日部表示光照。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“晒”引申为“暴露”于空气或阳光，汉魏时期已见。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由物理暴露引申到感光材料的“曝光”，20世纪摄影术普及后形成。"
+    }
+  ]
+}

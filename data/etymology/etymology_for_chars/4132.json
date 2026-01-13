@@ -1,0 +1,78 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "荨麻，多年生草本植物，叶卵形，对生，茎叶有细毛，接触皮肤会引起刺痛，茎皮纤维可用作纺织材料或麻绳。",
+      "examples": [
+        "荨麻叶对生，茎叶有细毛。",
+        "荨麻可做麻绳。"
+      ],
+      "traditional_char": "蕁"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "（转义）荨麻的茎皮纤维。",
+      "examples": [
+        "用荨麻制成绳索。"
+      ],
+      "traditional_char": "蕁"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "荨麻疹，一种过敏性皮疹，俗称“风疹疙瘩”。",
+      "examples": [
+        "小孩得了荨麻疹，非常痒。"
+      ],
+      "traditional_char": "蕁"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "（古义，通“燂”）火势上腾。",
+      "examples": [
+        "《淮南子·天文訓》：火上蕁，水下流。"
+      ],
+      "traditional_char": "蕁"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘蕁’从艸，音符‘尋’；表草类植物，最初指荨麻。"
+    },
+    {
+      "formation_type": "loan_character",
+      "original_sense_index": 3,
+      "note": "‘蕁’兼作‘燂’用，为近音通假，后借指火势上升。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘荨’为‘蕁’的简化字，形声字，从艸，音符‘寻’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由指此植物引申为植物纤维，用纤维代指植物。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "因荨麻刺痛感，与荨麻疹的灼热刺痒相似，故用作病名。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "‘蕁’假借为‘燂’，表示火势上升，仅见于古文。"
+    }
+  ]
+}

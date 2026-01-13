@@ -1,0 +1,79 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "嘲笑，诙谐",
+      "examples": [
+        "由余以西戎孤臣而悝穆公于宫室。"
+      ],
+      "traditional_char": "悝"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "忧愁，伤心",
+      "examples": [
+        "云如何悝。"
+      ],
+      "traditional_char": "悝"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "生病",
+      "examples": [],
+      "traditional_char": "悝"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "人名用字",
+      "examples": [
+        "孔悝",
+        "李悝"
+      ],
+      "traditional_char": "悝"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "other",
+      "meaning": "私，大",
+      "examples": [],
+      "traditional_char": "悝"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字：从心，里声。本义为“嘲笑，戏谑”，与'诙'通用。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_shift",
+      "note": "由“嘲笑、戏谑”转为“忧愁，伤感”，可能因感情反转，春秋战国时期已有用法。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "“忧伤”引申为“生病”，多见于古文病苦与忧愁关联。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 4,
+      "evolution_type": "unknown",
+      "note": "“私、大”的意义，发生机制不详，属古籍偶见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "function_word",
+      "note": "为人名用字，常选取本义或延伸义作人名，无特定机制。"
+    }
+  ]
+}

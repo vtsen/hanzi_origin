@@ -1,0 +1,51 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "onomatopoeia",
+      "meaning": "形容马、骡等动物的叫声。",
+      "examples": [
+        "咴咴叫",
+        "马咴咴地叫。"
+      ],
+      "traditional_char": "咴"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "小儿笑。",
+      "examples": [],
+      "traditional_char": "咴"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "other",
+      "meaning": "口不正。",
+      "examples": [
+        "吟詩口吻噅，把筆指節瘃。——皮日休《吳中苦雨因書一百韻寄魯望》"
+      ],
+      "traditional_char": "咴"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "口为形旁，‘灰’为声旁，表示与发声动作相关，最初指马等动物的叫声。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "动物叫声引申为小儿笑，多用于形容类似的口部发声动作。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "由发声扩展为形容口部状态，后泛指口不正，出现在中古文献中。"
+    }
+  ]
+}

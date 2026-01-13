@@ -1,0 +1,40 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古代对日本的称呼，含贬义。",
+      "examples": [
+        "倭奴",
+        "倭寇",
+        "倭刀"
+      ],
+      "traditional_char": "倭"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "曲折，弯曲（古同“逶”）。",
+      "examples": [
+        "倭，曲也。——《说文》",
+        "倭徐动也。——《广雅》"
+      ],
+      "traditional_char": "倭"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "形声字，从人，委声。本义‘曲’为词源本意，后借指日本。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "metonymy",
+      "note": "以‘倭’形容日本群岛绵延曲折，后借指该地及其居民。约汉末至六朝时代用法。"
+    }
+  ]
+}

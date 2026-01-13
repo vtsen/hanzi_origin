@@ -1,0 +1,58 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "拾取，捡拾，收集",
+      "examples": [
+        "捃拾遗穗",
+        "同捃者或争穗，道虔谏之不止，悉以其所得与之。",
+        "荀卿、孟子、公孙固、韩非之徒，各往往捃摭《春秋》之文以著书。"
+      ],
+      "traditional_char": "捃"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "采集，摘取，采取",
+      "examples": [
+        "捃采奇花",
+        "除其冗长，捃其菁华。",
+        "拔周唐之盛德兮，捃桓文之谲功。"
+      ],
+      "traditional_char": "捃"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "指收集（不利）材料以打击别人，引申为弹劾",
+      "examples": [
+        "捃诬他人",
+        "宇文肃愍在西掖...黼读之大怒，捃以他事。",
+        "始予以狂放不羁为上官所捃。"
+      ],
+      "traditional_char": "捃"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从手，麇声。本义为拾取、捡拾。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘拾取、捡拾’引申为‘采集、摘取’，时间上自古文至后世皆见。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "指对‘采集、收集’用于‘收集别人不利言行材料以打击他人’，语义侧重于行为对象变化。"
+    }
+  ]
+}

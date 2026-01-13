@@ -1,0 +1,99 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "低声说话；小声絮语。",
+      "examples": [
+        "唧唧哝哝",
+        "咕哝（小声说话）"
+      ],
+      "traditional_char": "噥"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "话多而不得要点；絮叨。",
+      "examples": [
+        "哝，多言不中也。——《玉篇》"
+      ],
+      "traditional_char": "噥"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "味道浓厚。",
+      "examples": [
+        "甘而不哝，酸而不酷。——《吕氏春秋》"
+      ],
+      "traditional_char": "噥"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "pronoun",
+      "meaning": "我。（见于元曲）",
+      "examples": [
+        "你也噥恩多爱浓，想从前错怨了天公。——顾德润《点绛唇•四友争春》"
+      ],
+      "traditional_char": "噥"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "方言。将就，敷衍。",
+      "examples": [],
+      "traditional_char": "噥"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "“噥”的简化字，用于现代汉语。",
+      "examples": [],
+      "traditional_char": "哝"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "噥从口，农声。本义为低声说话（murmur），属于形声字。"
+    },
+    {
+      "formation_type": "loan_character",
+      "original_sense_index": 5,
+      "note": "哝为噥的简化字，20世纪简化汉字方案中采用。结构上以“口”旁+农作意符简化。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从低声说话引申为话多且不中要点。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由声音低沉厚重，比喻味道浓厚。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "unknown",
+      "note": "从语音或俚语转为代词“我”，具体机制不明，多见于元曲。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由低声说带有随意、敷衍色彩引申。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "conversion",
+      "note": "噥简化为哝，义与用法沿袭，20世纪后通行。"
+    }
+  ]
+}

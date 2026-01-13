@@ -1,0 +1,100 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "像玉的美石，多指洁白如白玛瑙者",
+      "examples": [
+        "珂，石次玉，亦码瑙白如雪者。",
+        "白如蚌。"
+      ],
+      "traditional_char": "珂"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "马笼头上的用玉、贝、白石等制成的装饰品",
+      "examples": [
+        "乘马鸣玉珂。——张华《轻薄编》",
+        "凡勒饰曰珂。"
+      ],
+      "traditional_char": "珂"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "一种贝壳类海产动物，可以用作马具装饰",
+      "examples": [
+        "貝，大者為珂，黃黑色，其骨白，可以飾馬。",
+        "皆以 南海 白蜃為珂。"
+      ],
+      "traditional_char": "珂"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "借指马（因马饰珂而以“珂”称马）",
+      "examples": [
+        "连珂往淇上，接幰至叢臺。——梁简文帝《采桑》"
+      ],
+      "traditional_char": "珂"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "珂金，一种金属名称",
+      "examples": [
+        "有珂金。——《事物紺珠》"
+      ],
+      "traditional_char": "珂"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "鸟名，文身朱足，憎鸟而爱狐",
+      "examples": [
+        "諫珂，鳥名。見《說苑》。"
+      ],
+      "traditional_char": "珂"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从玉，可声。表示似玉的美石，为本义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "用美石制作的饰品，引申为马勒上的珂饰。汉代用例。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "以珂饰马，故以“珂”代指所乘之马。南北朝用例。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "因贝类海产色白如玉，引申应用为珂（装饰品）。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "因金属色泽或质地与珂相似，用为金属名，不常见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "unknown",
+      "note": "鸟名珂，义源未明，或因色白似玉，语义联系不详。"
+    }
+  ]
+}

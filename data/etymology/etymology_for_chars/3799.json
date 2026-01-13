@@ -1,0 +1,74 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "告知；通知；告诫；教导",
+      "examples": [
+        "夫为人父者，必能诏其子。",
+        "多分其教诏。",
+        "诏，告也。——《说文新附》"
+      ],
+      "traditional_char": "詔"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "皇帝下达命令；召见；征召",
+      "examples": [
+        "于是上乃使使持节诏将军。",
+        "诏伊尹于亳郊兮。",
+        "诏使儒卿。"
+      ],
+      "traditional_char": "詔"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "皇帝下达的命令文书；诏书",
+      "examples": [
+        "命为制，令为诏。",
+        "非有诏不得上。",
+        "捧诏恸哭。"
+      ],
+      "traditional_char": "詔"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "古代西南少数民族首领的称号",
+      "examples": [
+        "南诏蛮，本乌蛮之别种也，姓蒙氏。蛮谓王为“诏”。",
+        "夷语王为‘詔’。"
+      ],
+      "traditional_char": "詔"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从“言”表义，“召”表音，同时兼有召唤之意，本义为告知、通知。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_narrowing",
+      "note": "从一般的‘告知’专指皇帝向臣下命令、征召，出现于秦汉后，逐步固定为上对下的权威发布。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "conversion",
+      "note": "皇帝下达命令（动词）发展为名词‘诏书’，即命令的文本，东汉起常见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "由‘告知、命令’引申为‘首领’的称号，指能发号施令者，见于南诏等少数民族。"
+    }
+  ]
+}

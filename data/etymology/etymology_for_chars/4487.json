@@ -1,0 +1,43 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "鸫科的许多中小型雀形鸟类，叫声优美，专食昆虫或果实。",
+      "examples": [
+        "黑鸫、红尾斑鸫、紫啸鸫等都是常见鸫类。",
+        "春日多善啭鸣，常被笼养。"
+      ],
+      "traditional_char": "鶇"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "“鶇”的简化字，用于同样的鸟类。",
+      "examples": [
+        "鸫是一种鸣禽，因叫声动听常为人喜欢。"
+      ],
+      "traditional_char": "鸫"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "鶇形声字，从鳥，东声，本义为鸟类名。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "鸫为鶇的简化字，形声结构，从鸟，东声。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "reanalysis",
+      "note": "现代汉字简化，将“鶇”简化为“鸫”，意义未变。"
+    }
+  ]
+}

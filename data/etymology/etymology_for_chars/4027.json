@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "心急，心里活动急促的样子。",
+      "examples": [
+        "心怦怦兮谅直。（《楚辞·九辩》）",
+        "心怦怦地跳着。"
+      ],
+      "traditional_char": "怦"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "忠谨、忠直的样子。",
+      "examples": [
+        "心怦怦兮谅直。（《楚辞·九辩》）"
+      ],
+      "traditional_char": "怦"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "onomatopoeia",
+      "meaning": "心跳的声音或状态。",
+      "examples": [
+        "心里怦怦地跳着。",
+        "怦然心动。"
+      ],
+      "traditional_char": "怦"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从心，平声。‘心’表意，‘平’表声。本义指心急。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由心急引申为心跳时的声音和状态。常见于近现代文学。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "心急常伴有忠直、认真，于是词义有所扩展。多见于古文。"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "下垂，耷拉。",
+      "examples": [
+        "耷拉着脑袋不吭声",
+        "眼皮耷下来"
+      ],
+      "traditional_char": "耷"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "大耳朵。",
+      "examples": [
+        "耷耳朵",
+        "耷拉着大耳朵"
+      ],
+      "traditional_char": "耷"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "形声字，“耳”为意旁，表示耳朵形大下垂状；“合”为声旁。初义为大耳朵。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "metonymy",
+      "note": "由大耳朵下垂，引申为一般物体下垂。"
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "肚脐，人脐。",
+      "examples": [
+        "毗者，臍也。",
+        "人𪗌也。"
+      ],
+      "traditional_char": "毗"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "春秋时鲁国城邑名。",
+      "examples": [
+        "五年，春，城毗。——《春秋》"
+      ],
+      "traditional_char": "毗"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "辅助，协助。",
+      "examples": [
+        "辅毗安顺。——《太尉刘宽碑》",
+        "为国毗辅。——《绥民校尉熊君碑》",
+        "天子是毗。——《诗经·小雅·节南山》"
+      ],
+      "traditional_char": "毗"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "增益，弥补。",
+      "examples": [
+        "轧言及政事，多所毗补。——《后汉书·明德马皇后纪》"
+      ],
+      "traditional_char": "毗"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "连结，相连，接近。",
+      "examples": [
+        "毗邻。",
+        "毗连。"
+      ],
+      "traditional_char": "毗"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "附和，依附。",
+      "examples": [
+        "天之方懠，无所夸毗。——《诗·大雅》",
+        "誇大毗附也。"
+      ],
+      "traditional_char": "毗"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "损坏，败坏。",
+      "examples": [
+        "人大喜邪毗于阳，大怒邪毗于阴。——《庄子·在宥》"
+      ],
+      "traditional_char": "毗"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "adjective",
+      "meaning": "厚，篤。",
+      "examples": [
+        "公毗於學，生死六籍。——宋·葉適"
+      ],
+      "traditional_char": "毗"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从田，比声，最初用以表示“人脐”之意，本义指肚脐。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由肚脐为身体连接之纽转喻为辅助、协助。春秋战国已见。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由“辅助”引申为“增益、补充”义，具体语境中可通‘裨’。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由‘辅助’喻为‘连结、相邻’；辅助常伴随在侧，引申为毗邻、毗连。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "从‘连结’进一步引申为‘附和、依附’。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 7,
+      "evolution_type": "semantic_extension",
+      "note": "从‘辅助’引申为‘厚，篤’，因辅佐稳重义。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 6,
+      "evolution_type": "semantic_shift",
+      "note": "‘辅助’义于特定语境中转变为‘损伤、败坏’，可能因辅佐过度或干预破坏之系。用法见于《庄子》后世注解有分歧。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "conversion",
+      "note": "以本义‘肚脐’为名用于地名，为地望转用。"
+    }
+  ]
+}

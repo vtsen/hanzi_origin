@@ -1,0 +1,134 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "熔化金属或石头",
+      "examples": [
+        "流金铄石些。",
+        "夫铄金在炉，庄蹻不顾。",
+        "铄铁而为刃。"
+      ],
+      "traditional_char": "鑠"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "消毁，销毁，消损",
+      "examples": [
+        "彼人含其明，则天下铄矣。",
+        "秦先得齐宋，则韩氏铄。"
+      ],
+      "traditional_char": "鑠"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "削弱，削损",
+      "examples": [
+        "秦先得齐宋，则韩氏铄，韩氏铄则楚孤而受兵也。",
+        "暗铄潜销五十年。"
+      ],
+      "traditional_char": "鑠"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "渗入",
+      "examples": [
+        "仁义礼智，非由外铄我也，我固有之也。"
+      ],
+      "traditional_char": "鑠"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "毁谤",
+      "examples": [
+        "卿累负谤铄，何邪？"
+      ],
+      "traditional_char": "鑠"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "（通“烁”）光芒闪耀，光辉明亮",
+      "examples": [
+        "铄铄（光芒闪耀的样子）",
+        "章炳麟：字亦作爍。今人谓甚明曰铄亮。"
+      ],
+      "traditional_char": "鑠"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "adjective",
+      "meaning": "明亮，光明，光辉美盛",
+      "examples": [
+        "故其华表则镐镐铄铄，赫奕章灼若日月之丽天也。",
+        "天保定子，靡德不铄。"
+      ],
+      "traditional_char": "鑠"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "adjective",
+      "meaning": "美好的样子，盛美、德行美好",
+      "examples": [
+        "淵哉铄乎，群言之祖。",
+        "铄懿渊积。"
+      ],
+      "traditional_char": "鑠"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从金，乐声，表示金属熔化。本义即为‘熔化金属’。古字形右侧为声旁‘樂’/‘乐’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘熔化（金属、石头）’引申为‘销毁、消损’。汉魏六朝文献中均见。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由‘消毁’进一步引申为‘削弱、削损’。意为力量被逐步消耗，早见于战国策。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "‘毁谤’为‘毁损名誉’，语义比喻消毁 non-physical object。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "‘渗入’为事物被‘消融’至内部的比喻性用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "metonymy",
+      "note": "熔化时有光，遂引申为‘光芒闪烁’。和‘烁’通假。"
+    },
+    {
+      "source_index": 5,
+      "target_index": 6,
+      "evolution_type": "semantic_extension",
+      "note": "‘光辉闪耀’引申为‘明亮’‘光辉美丽’。"
+    },
+    {
+      "source_index": 6,
+      "target_index": 7,
+      "evolution_type": "metaphor",
+      "note": "‘明亮’引喻为‘德行美好’、‘美盛’的抽象表述，诗经等文献中见。"
+    }
+  ]
+}

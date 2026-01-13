@@ -1,0 +1,91 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "光明，明亮，显著",
+      "examples": [
+        "炳，明也。——《说文》",
+        "大汉之文章炳然与三代同风。——班固《两都赋》",
+        "其文炳也。——《易·革》",
+        "退士鬓毛纷似雪，老臣心事炳如丹。——陆游《秋夜》",
+        "彼七八君子者，皆博特而雄达，才高而文炳。——方孝孺"
+      ],
+      "traditional_char": "炳"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "点燃，点火",
+      "examples": [
+        "古人思炳烛夜游。——《与吴质书》",
+        "燎薰炉兮炳明烛，酌桂酒兮扬清曲。——《雪赋》",
+        "炳烛之明，熟与昧行乎。——刘向《说苑》"
+      ],
+      "traditional_char": "炳"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "显示，显现",
+      "examples": [
+        "寺门外有金像一躯……常有神验，国之吉凶，先炳祥异。——《洛阳伽蓝记》",
+        "尔其表权舆，序皇王，炳元符，镜鸿业。——《文心雕龙·封禅》"
+      ],
+      "traditional_char": "炳"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "照耀，照射，发光",
+      "examples": [
+        "烈炳千秋。——张煌言《贺延平王启》",
+        "其文炳也。——《易·革》"
+      ],
+      "traditional_char": "炳"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "明白，明显，昭著",
+      "examples": [
+        "或问圣人之言，炳若丹青。——《法言·君子》",
+        "炳明（明显、显著）；炳炳显显（明显的样子）"
+      ],
+      "traditional_char": "炳"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从火，丙声，表示火光明亮。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由‘光明’扩展为‘明显、明白’，出现自先秦至两汉。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由‘光明’引申为‘显现、显示’，与‘明’的义项发展类似。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "从‘光明’引申为‘照耀、照射’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_shift",
+      "note": "由‘光明’演变出‘点燃’之义，强调火的动作性。"
+    }
+  ]
+}

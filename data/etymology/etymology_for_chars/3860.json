@@ -1,0 +1,103 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "鞋中垫的草垫，或泛指用草做的垫物",
+      "examples": [
+        "冠虽敝不以苴履。",
+        "履虽鲜不加于枕，冠虽敝不以苴履。"
+      ],
+      "traditional_char": "苴"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "雌性大麻，或麻的子实",
+      "examples": [
+        "九月叔苴，采荼薪樗，食我农夫。",
+        "苴布之衣，而自饭牛。"
+      ],
+      "traditional_char": "苴"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "粗劣的麻布、衣物",
+      "examples": [
+        "苴服（粗布做的衣服）",
+        "苴布之衣"
+      ],
+      "traditional_char": "苴"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "包裹、包裹物",
+      "examples": [
+        "苞苴，谓编束萑葦以裹鱼肉也。",
+        "编萑以苴之。"
+      ],
+      "traditional_char": "苴"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "枯草、水中浮草",
+      "examples": [
+        "如彼栖苴。",
+        "草苴比而不芳。"
+      ],
+      "traditional_char": "苴"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "糞草、糟粕，喻微贱的东西",
+      "examples": [
+        "其土苴以治天下。",
+        "糟粕谓之苴。"
+      ],
+      "traditional_char": "苴"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从艸，且声，本为鞋里垫的草，用于垫鞋底"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由草垫物引申为雌性大麻及麻的子实，古人常以草麻为生活垫物"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由麻的子实进而引申为用麻制成的粗布、衣物"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由垫物引申为包裹器物之物，取包覆、衬垫义"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由草垫义扩展为一般枯草或水中的浮草"
+    },
+    {
+      "source_index": 4,
+      "target_index": 5,
+      "evolution_type": "metaphor",
+      "note": "由枯草义引申为糟粕、糞草，比喻微贱之物"
+    }
+  ]
+}

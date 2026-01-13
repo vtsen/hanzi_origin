@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "归来；返回",
+      "examples": [
+        "皈近溪桥东复东，蓼花近路舞西风。",
+        "公子必义，不忘我皈。"
+      ],
+      "traditional_char": "皈"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "归向；依附；依从（尤指归依佛教等宗教）",
+      "examples": [
+        "皈诚（归附；诚心归依）",
+        "皈依佛法",
+        "居愿皈作弟子，遂携居入山修养。"
+      ],
+      "traditional_char": "皈"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "通“归”，同“归依”的用法。指佛教的归依仪式。",
+      "examples": [
+        "佛道其始修心，则依佛法僧，谓之三归，梵书作皈依。"
+      ],
+      "traditional_char": "皈"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“皈”为形声字，从止，‘白’声，原指归来、返回。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘归来、返回’引申为‘归向、依附’，后多用于宗教意义。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_narrowing",
+      "note": "宗教佛教专用语，专指仪式中的‘皈依’。"
+    }
+  ]
+}

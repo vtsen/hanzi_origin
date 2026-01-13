@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "疔疮，一种中医术语，指病理变化急骤并有全身症状的恶性小疮，发于颜面及四肢，根深形小，如钉，故名。",
+      "examples": [
+        "我再敢說這些話，嘴上就長個疔，爛了舌頭。",
+        "五臟皆可發疔瘡。"
+      ],
+      "traditional_char": "疔"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "同“疒”，古义有人有疾痛的表述，以及倚靠的意思。",
+      "examples": [
+        "疔，倚也。人有疾痛也。象倚箸之形。",
+        "籀文疒字。"
+      ],
+      "traditional_char": "疔"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从疒，丁声。形声字，表示病疮与钉形状有关。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_narrowing",
+      "note": "由泛指疾病、疾痛，专指疔疮恶性小疮，中古至近现代。"
+    }
+  ]
+}

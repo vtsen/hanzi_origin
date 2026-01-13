@@ -1,0 +1,59 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古代饮酒器具，常为青铜制，三足，有不同形状以区分身份。",
+      "examples": [
+        "执壶酌爵。",
+        "爵者，酒器也。"
+      ],
+      "traditional_char": "爵"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "君主国家赐予贵族的封号，如公、侯、伯、子、男五等。",
+      "examples": [
+        "封官授爵。",
+        "谋官求爵。"
+      ],
+      "traditional_char": "爵"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "古同“雀”，指小鸟。",
+      "examples": [
+        "百鸟之中，爵最小。"
+      ],
+      "traditional_char": "爵"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "pictograph",
+      "original_sense_index": 0,
+      "note": "甲骨文字形象古代三足酒器，是典型象形字，左边为器身，右上为盛酒口，右下为器足。"
+    },
+    {
+      "formation_type": "loan_character",
+      "original_sense_index": 2,
+      "note": "用作“雀”时，为假借用法，非原本含义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由酒器引申为贵族身份和地位的象征，进而代表贵族封号，见于西周礼制。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "后世借“爵”字表示“雀”字的意义，因音相近。"
+    }
+  ]
+}

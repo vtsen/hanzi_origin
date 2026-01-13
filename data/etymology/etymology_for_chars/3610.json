@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "长时间地站立",
+      "examples": [
+        "伫立在门前",
+        "他伫候良久"
+      ],
+      "traditional_char": "佇"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "长时间站立以等待",
+      "examples": [
+        "伫候在树下",
+        "她伫候着朋友归来"
+      ],
+      "traditional_char": "佇"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "久立而思念，内心积聚思绪",
+      "examples": [
+        "伫思故乡",
+        "伫结于心"
+      ],
+      "traditional_char": "佇"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "从人，从宁（本作堆积之意）；表示人在堆积物旁久立。最初意为长时间站立。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“久立”引申为“长时间等待”"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由躯体久立引申为心中思念停驻，情感积聚"
+    }
+  ]
+}

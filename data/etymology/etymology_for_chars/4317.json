@@ -1,0 +1,91 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "里巷的大门",
+      "examples": [
+        "闾，里门也。——《说文》",
+        "二大夫出，相与踦闾而语。——《公羊传》"
+      ],
+      "traditional_char": "閭"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "人们聚居的地方；里巷、居民区",
+      "examples": [
+        "魏文侯过段干木之闾而轼之。——《吕氏春秋·期贤》",
+        "闾左（秦代居于里门之左的贫苦百姓）"
+      ],
+      "traditional_char": "閭"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "中国古代二十五家为一闾的居民组织单位",
+      "examples": [
+        "令五家为比，使之相保，五比为闾，使之相爱。——《周礼·大司徒》",
+        "二十五家为闾。"
+      ],
+      "traditional_char": "閭"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "聚集，汇聚之处（如指水流会聚处）",
+      "examples": [
+        "尾闾泄之，不知何时已而不虚。——《庄子·秋水》"
+      ],
+      "traditional_char": "閭"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "齐大夫闾丘婴之后，或单言闾氏。——《通志·氏族三》"
+      ],
+      "traditional_char": "閭"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从门，吕声，表示里巷的大门。本义见于《说文解字》"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由具体的门向泛指居民区或人家扩展，用于泛称聚居之地"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "以门为单位，借指由门划分的社会组织（二十五家）"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "reanalysis",
+      "note": "居民区名词被官方用作行政编制单位名"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "unknown",
+      "note": "地名、门第等衍生作姓，但具体过程不详"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "物理门口引申为水流会聚处，义为聚集"
+    }
+  ]
+}

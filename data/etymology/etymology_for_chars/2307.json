@@ -1,0 +1,57 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "铸、刻或写在器物上记述生平、事迹或警诫自己的文字",
+      "examples": [
+        "墓志铭",
+        "座右铭",
+        "铭文"
+      ],
+      "traditional_char": "銘"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "在器物上刻字，表示纪念，永志不忘",
+      "examples": [
+        "铭记",
+        "铭心",
+        "铭骨",
+        "铭诸肺腑"
+      ],
+      "traditional_char": "銘"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "中国古代用于铭刻的文字逐步形成的一种文体",
+      "examples": [
+        "《文心雕龙》有《铭箴》篇"
+      ],
+      "traditional_char": "銘"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "形声字，从金，名声；表示在金属器物上刻字。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "conversion",
+      "note": "动词“铭”（在器物上刻字）引申为名词“铭文”等表示所刻写的文字。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "从具体的铭文字内容扩展为专指一种文体。"
+    }
+  ]
+}

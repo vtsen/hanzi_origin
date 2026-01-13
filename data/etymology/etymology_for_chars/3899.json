@@ -1,0 +1,84 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "日出明亮，太阳刚升起时光明的样子",
+      "examples": [
+        "其雨其雨，杲杲出日。",
+        "如日之杲。"
+      ],
+      "traditional_char": "杲"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "明亮；光明",
+      "examples": [
+        "如海之深，如日之杲。",
+        "是故民氣杲乎如登於天。"
+      ],
+      "traditional_char": "杲"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "高远",
+      "examples": [
+        "杲乎如登于天，杳乎如入于渊。"
+      ],
+      "traditional_char": "杲"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "白，洁白",
+      "examples": [
+        "積曙境宇明，聯萼千里杲。"
+      ],
+      "traditional_char": "杲"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "元诗人杲元启"
+      ],
+      "traditional_char": "杲"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意字，从日从木，表示太阳在树上，象征日出明亮。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由日出的明亮义泛化为一般明亮、光明义，用于比喻、形容抽象的明亮。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "以光明形容高远，强调光明达到高空，引申为高远。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由明亮引申为白色、洁白，因光明常与白色相关联。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "function_word",
+      "note": "一部分地名、人名取义明亮或高远，用作姓氏。"
+    }
+  ]
+}

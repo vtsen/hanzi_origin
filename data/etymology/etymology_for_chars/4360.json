@@ -1,0 +1,52 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "用多块布拼接缝制的僧衣。",
+      "examples": [
+        "身披衲衣。"
+      ],
+      "traditional_char": "衲"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "僧人的代称。",
+      "examples": [
+        "老衲参见。"
+      ],
+      "traditional_char": "衲"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "同“纳”，缝补。",
+      "examples": [
+        "衲破衣。"
+      ],
+      "traditional_char": "衲"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "左形（衤，衣服），右声（内），表示拼接缝补之衣。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "僧衣为僧人所穿，引申代指僧人。见中古佛教语境。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "衣所衲，动作为“纳”，因音义近转用为缝补义。"
+    }
+  ]
+}

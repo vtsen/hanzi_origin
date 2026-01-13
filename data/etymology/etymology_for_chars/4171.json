@@ -1,0 +1,101 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "两髀之间，胯部。",
+      "examples": [
+        "奎，两髀之间。——《说文》",
+        "奎蹄曲隈，乳间股脚，自以为安室利处。——《庄子·徐无鬼》"
+      ],
+      "traditional_char": "奎"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "跨步，举足行走。",
+      "examples": [
+        "奎踽盘桓。——《文选·张衡·西京赋》"
+      ],
+      "traditional_char": "奎"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "星宿名，二十八宿之一，即奎宿。",
+      "examples": [
+        "西方十六星，象两髀，故曰奎。——《庄子·天文书》",
+        "季夏之月，日在柳，昏心中，旦奎中。——《逸周书·月令》"
+      ],
+      "traditional_char": "奎"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "因“奎星主文章”而指代文章、文运、文采、书画等有关文事的美称。",
+      "examples": [
+        "奎章（皇帝的亲笔字）",
+        "奎垣（文人荟萃之地）",
+        "奎章阁"
+      ],
+      "traditional_char": "奎"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "〔奎宁〕药名，白色结晶或无定形粉末，是治疗疟疾的特效药。亦称“金鸡纳碱”、“金鸡纳霜”。",
+      "examples": [
+        "奎宁是一种治疗疟疾的常用药物。"
+      ],
+      "traditional_char": "奎"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "姓。",
+      "examples": [
+        "著名作家奎某。"
+      ],
+      "traditional_char": "奎"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从大，圭声；‘大’表示与人体有关，‘圭’表声，本义为两髀之间。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由胯引申为迈步或举足行走。用法多见于古文。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "因奎宿星象排列似两髀，人体部位喻指星宿。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "以奎宿主文运，象征文章、文采等事物，美化用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "‘奎宁’为近现代药品名，音译拉丁语quinine，字取其音，无原义联系。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "function_word",
+      "note": "姓氏用字，多从字形取用，有别于本义。"
+    }
+  ]
+}

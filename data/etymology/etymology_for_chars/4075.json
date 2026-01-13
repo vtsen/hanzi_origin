@@ -1,0 +1,44 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "绳索，尤其指用来牵引牲畜（如马）的绳索，也用于捆绑犯人的绳索",
+      "examples": [
+        "羁绁（马辔，喻束缚）",
+        "虽在缧绁之中。",
+        "臣负羁绁，从君巡于天下。"
+      ],
+      "traditional_char": "紲"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "系，拴，捆绑",
+      "examples": [
+        "绁子婴于轵涂"
+      ],
+      "traditional_char": "紲"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从糸（表示与绳索有关），世声（表音），最初指绳索或缰绳。"
+    },
+    {
+      "formation_type": "simple_indicative",
+      "original_sense_index": 0,
+      "note": "‘絏’为古体异体，表意兼表声，多用于同义，从糸，世声。‘绁’为‘紲’的简化字，形声结构。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "conversion",
+      "note": "名词作动词使用，即用绳索引申为‘捆绑’、‘拴’等动作。早见于先秦文献。"
+    }
+  ]
+}

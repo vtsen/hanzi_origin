@@ -1,0 +1,58 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "剩餘數；零數；十分之一的餘數",
+      "examples": [
+        "祭用數之仂。",
+        "喪用三年之仂。",
+        "願從胡君丐無有，十百數中聊取仂。"
+      ],
+      "traditional_char": "仂"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "詞組、分句等語法單位",
+      "examples": [
+        "仂句（長句子中包含的短句）",
+        "仂詞（詞組）",
+        "仂語（詞組）"
+      ],
+      "traditional_char": "仂"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "勤奮；盡力；不懈",
+      "examples": [
+        "仂，勤也。",
+        "仂者，《眾經音義》曰仂，勤也。",
+        "仂，不懈。"
+      ],
+      "traditional_char": "仂"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘仂’從‘人’（形旁），從‘力’（聲旁），本義為餘數，形聲字。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由‘餘數’喻為語言單位中分出的‘詞組’、‘分句’，指句子中的小部分，語法用法出現於後期。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "原義為餘數，後與‘力’混用，引申為‘勤奮、盡力’等含義，多見於古籍，可能受通假影響。"
+    }
+  ]
+}

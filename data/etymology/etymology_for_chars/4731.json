@@ -1,0 +1,102 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "两手相合捧物。",
+      "examples": [
+        "受珠玉者以掬。——《礼记·曲礼》",
+        "舟中之指可掬也。——《左传·宣公十二年》",
+        "掬水月在手，弄花香满衣。——唐·于良史《春山夜月》"
+      ],
+      "traditional_char": "掬"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "抓取，取。",
+      "examples": [
+        "取杂肉羹与饭相和，用右手掬而食之。——《诸番志·真腊》",
+        "今闻该处飢民，至掬草根树皮以为食。"
+      ],
+      "traditional_char": "掬"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "卷起；卷缩。",
+      "examples": [
+        "素丝带金地，窗间掬飞尘。——于鹄《古词》"
+      ],
+      "traditional_char": "掬"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "撅起；翘起。",
+      "examples": [
+        "掬着嘴，摆着耳朵。——《西游记》"
+      ],
+      "traditional_char": "掬"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "置于“可”后，指可以用手捧住。多用以描写景色鲜明或情绪充溢。",
+      "examples": [
+        "夜月色可掬，倚楼聊解颜。——唐·罗隐《秋夕对月》",
+        "笑容可掬。"
+      ],
+      "traditional_char": "掬"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "measure_word",
+      "meaning": "量词，两手相合所捧的量，相当于“一捧”。",
+      "examples": [
+        "采栢动盈掬。——杜甫《佳人》",
+        "他於是就像一个落难小生，也能从看客赢得一掬一掬的同情之泪。——鲁迅《花边文学》"
+      ],
+      "traditional_char": "掬"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从手，局声，表示用双手捧物。本义即为两手捧物。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由双手捧物泛化为抓取、取物，时间较早见于古文。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由双手相合拢物形象，引申为卷起、卷缩，可能因动作形似。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由双手向上拢物动作形象，借喻为嘴、物的撅起或翘起。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "由实际捧物，转喻到感情、表情等“可捧”，表示充溢可感的情态。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "grammaticalization",
+      "note": "本义名词化后用作量词，表示两手捧的量，《小尔雅》有明确定义。"
+    }
+  ]
+}

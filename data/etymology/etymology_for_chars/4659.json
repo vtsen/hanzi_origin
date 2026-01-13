@@ -1,0 +1,72 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "感到恐惧、害怕、惊惧",
+      "examples": [
+        "毛骨悚然",
+        "情愈駭而神悚",
+        "人君闻此，可以悚惧"
+      ],
+      "traditional_char": "悚"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "恭敬，敬畏",
+      "examples": [
+        "整服傾悚，言則稱字",
+        "是宜小子刻心悚慕"
+      ],
+      "traditional_char": "悚"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "欢悦，喜悦",
+      "examples": [
+        "悚抃（欢愉）",
+        "悚跃（欢悦跳跃）"
+      ],
+      "traditional_char": "悚"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "耸立，高耸",
+      "examples": [
+        "悚立（耸立，竖立）",
+        "悚峙（高耸峙立）"
+      ],
+      "traditional_char": "悚"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从心，束声，本义为恐惧，一致于说文及古文记载。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由恐惧引申出对权威或对象的敬畏、恭敬，用于礼敬表达。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "感情激动状态的转变，由强烈惊惧引申为激动欢悦，见于部分古文用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由身心受惊‘竖立’（如汗毛悚然）引申出物体高耸、竖立之义。"
+    }
+  ]
+}

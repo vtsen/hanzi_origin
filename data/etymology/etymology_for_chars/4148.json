@@ -1,0 +1,87 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "树木空心的部分，或树木的根部。",
+      "examples": [
+        "枵，木根空也。（《说文解字》）",
+        "昌平州天寿山古槐……树中枵，可布三五席。"
+      ],
+      "traditional_char": "枵"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "空虚，内部空无。",
+      "examples": [
+        "岁在星纪，而淫于玄枵……玄枵，虚中也。（《左传·襄公二十八年》）",
+        "宝玩何曾捄枵复。"
+      ],
+      "traditional_char": "枵"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "饥饿，腹中空虚。",
+      "examples": [
+        "枵腹而守。",
+        "糧盡眾枵，乃可圖。（《新唐書·殷開山傳》）"
+      ],
+      "traditional_char": "枵"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "（布料）纤维稀疏而薄。",
+      "examples": [
+        "值贱而质枵，不可为衣也。（《天工开物》）",
+        "皮絮之枵，铜铁之坠，骡驮而越山谷。"
+      ],
+      "traditional_char": "枵"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "二十八宿中的“玄枵”，指星宿名，泛指虚星或子位。",
+      "examples": [
+        "岁在星纪，而淫于玄枵。",
+        "玄枵，虚也。（《尔雅·释天》）"
+      ],
+      "traditional_char": "枵"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从木，‘号’声，表示以木为意符，初义为木根或木空。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由树中空虚部分比喻一般事物内里空虚，东周至汉已见泛化用法。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "synecdoche",
+      "note": "由整体空虚引申为腹中空虚，即饥饿感。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由空虚义引申到布料稀薄，明清文献可见。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "以‘虚’义转借为星名‘玄枵’，因虚星得名。"
+    }
+  ]
+}

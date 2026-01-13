@@ -1,0 +1,105 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "一种有齿和长柄的农具，用以耙梳、聚拢，用竹、木或铁等制成。",
+      "examples": [
+        "杷，收麦器。——《说文》",
+        "屈竹作杷，削治鹿卢。——汉·王褒《僮约》",
+        "翻訖，以杷平豆，令漸薄，厚一尺五寸許。",
+        "也曾與我喂牛切草，拽杷扶鋤。"
+      ],
+      "traditional_char": "杷"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "用杷一类工具把东西耙梳、聚拢。",
+      "examples": [
+        "塹道作坎，榜驅內于塹坎，杷蝗積聚以千斛數。",
+        "每南風起，鹽結，須以杷翻轉，令風吹則堅實。"
+      ],
+      "traditional_char": "杷"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "用手扒。",
+      "examples": [
+        "農夫父子暴露中野，不避寒暑，捽屮杷土，手足胼胝。",
+        "杷沙腳手鈍，誰使女解緣。"
+      ],
+      "traditional_char": "杷"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "器物的柄。",
+      "examples": [
+        "劉惔以犀杷麈尾置棺中。",
+        "杷頭（杷除去柄的部分）"
+      ],
+      "traditional_char": "杷"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "“枇杷”，一种植物或其果实。",
+      "examples": [
+        "又枇杷，果名。——《司馬相如·上林賦》",
+        "枇杷似槲樹而葉長，子似杏。",
+        "枇杷門巷"
+      ],
+      "traditional_char": "杷"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [
+        "漢靈帝時有巴康避董卓難，改為杷氏。"
+      ],
+      "traditional_char": "杷"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从木，巴声，本义为农用工具。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "conversion",
+      "note": "农具名转为表示使用该工具的动作，汉至中古常见。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "工具动作引申为用手扒拢，见《汉书·贡禹传》注。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "synecdoche",
+      "note": "由整体农具泛指到其柄，汉至晋语源。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "与“枇杷”组合，因形状或称名而得，见汉魏文献记载。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "reanalysis",
+      "note": "由工具名转为姓氏，归因于避讳改姓，见史载。"
+    }
+  ]
+}

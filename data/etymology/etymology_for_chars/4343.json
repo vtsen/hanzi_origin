@@ -1,0 +1,104 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "洮水，黄河上游支流，在今甘肃省西南，称洮河。",
+      "examples": [
+        "洮，洮水出陇西临洮，东北入河。——《说文》",
+        "唐 岑参《与独孤渐道别长句兼呈严八侍御》：鱼龙川北磐谿雨，鸟鼠山西洮水云。"
+      ],
+      "traditional_char": "洮"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "古地名，春秋时期鲁地或曹地。",
+      "examples": [
+        "盟于洮。——《春秋·僖公八年》。注：“曹地，在今山东曹州府。”",
+        "公会杞伯姬于洮。——《左传·庄公二十七年》。注：“鲁地。”"
+      ],
+      "traditional_char": "洮"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "其他同名河流或湖泊名，如洮湖（江苏）、洮水（广西、山西、江 淮间等）。",
+      "examples": [
+        "李善注引周处《风土记》：阳羡县西有洮湖。",
+        "北魏酈道元《水经注•湘水》：洮水，出县(洮阳县)西南大山，东北逕其县南。",
+        "《左传·昭公元年》：宣汾洮障大泽，以处大原。",
+        "《史记•高祖本纪》：汉将别击布军洮水南北，皆大破之。"
+      ],
+      "traditional_char": "洮"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "盥洗；用水洗手、洗东西。",
+      "examples": [
+        "王乃洮頮水。——《书·顾命》",
+        "洮盥（盥洗）"
+      ],
+      "traditional_char": "洮"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "清洗杂质，淘洗。",
+      "examples": [
+        "淮南子·要略：所以洮汰涤荡至意，使之无凝竭底滞捲握而不散也。",
+        "解释先圣之积结，洮汰学者之累惑。——《后汉书·陈元传》"
+      ],
+      "traditional_char": "洮"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "打捞，浸洗、淘拣（如打捞沉物、尸首）。",
+      "examples": [
+        "他们第二天清早便在辽河一带洮河，想洮得你的尸首。——郭沫若《星空》"
+      ],
+      "traditional_char": "洮"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，兆声，表示水名“洮水”。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "以水得名，河流周边地名因河命名，地以水名。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "原为一专名，后泛指其他同名河流/湖泊。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由水的流动、冲刷，引申出洗手、洗物的动作。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由基本的洗手扩大为清洗杂质、淘洗。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "由淘洗、清洗进一步引申为打捞、淘拣，现代口语用法。"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古代用以调和酒水、调味的青铜器皿，盛行于商代和西周初期，多为圆口、深腹、三足或四足，用于温酒或调和酒水浓淡。",
+      "examples": [
+        "王國維《說盉》：盉乃和水於酒之器，所以節酒之厚薄者也。",
+        "郭沫若《長安縣張家坡銅器群銘文匯釋》：金文‘盉’從禾者，乃像意兼諧聲。",
+        "商有阜父丁盉，周有單從盉，漢有鳳盉。"
+      ],
+      "traditional_char": "盉"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "调味。",
+      "examples": [
+        "《說文》：盉，調味也，從皿禾聲。",
+        "《荀子·禮論》：芻豢稻粱，王味調香，所以養口也。",
+        "今通作‘和’。"
+      ],
+      "traditional_char": "盉"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从皿，禾声。‘皿’表示器皿，‘禾’为声符，最初指调和酒水的青铜器。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "以调和酒水之器扩展为动词‘调味’，为器物名到动作用法的典型转移，后通作‘和’。"
+    }
+  ]
+}

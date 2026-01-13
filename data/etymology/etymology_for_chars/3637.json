@@ -1,0 +1,70 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "用指头、棍棒等轻击或轻点",
+      "examples": [
+        "厾一个点儿",
+        "点厾"
+      ],
+      "traditional_char": "厾"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "丢弃、扔掉",
+      "examples": [
+        "厾开",
+        "厾脱"
+      ],
+      "traditional_char": "厾"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "particle",
+      "meaning": "语气词，用于句末加强语气",
+      "examples": [
+        "拆开纸包，看那银子，果是雪厾。——《水浒传》",
+        "成亲之后，大盘大盒吃弗尽厾来。"
+      ],
+      "traditional_char": "厾"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "pronoun",
+      "meaning": "人称代词的复数，相当于“们”",
+      "examples": [
+        "你厾两个老人家。——《缀白裘》"
+      ],
+      "traditional_char": "厾"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从殳，豖声，表示用器物击打的动作。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“轻击”扩展为“丢弃、抛开”，为动作方向的引申。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "grammaticalization",
+      "note": "由动作动词虚化为句末语气助词，用于强调或语气。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "unknown",
+      "note": "方言用作复数人称代词，具体演变机制不详。"
+    }
+  ]
+}

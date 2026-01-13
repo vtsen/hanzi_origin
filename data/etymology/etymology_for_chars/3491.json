@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "响声极大的雷，疾雷。",
+      "examples": [
+        "晴天霹雳",
+        "雷之急击者为霹雳"
+      ],
+      "traditional_char": "霹"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "雷电轰击。",
+      "examples": [
+        "树为雷霹",
+        "霹雳火"
+      ],
+      "traditional_char": "霹"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "突然、突如其来的事情（比喻义）。",
+      "examples": [
+        "又谁知霹起风波， 驀然间打散双鸥"
+      ],
+      "traditional_char": "霹"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘霹’从雨，辟声。本义为疾雷，为形声字。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由最初表示疾雷，扩展为雷电轰击的行为。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "比喻突发、猛烈的事情，明清以后扩展用法。"
+    }
+  ]
+}

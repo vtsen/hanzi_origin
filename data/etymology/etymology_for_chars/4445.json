@@ -1,0 +1,43 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "鸟类名，多指鹧鸪或鹁鸪这两类中型鸟，如“鹧鸪”、“鹁鸪”。",
+      "examples": [
+        "林间常闻鹧鸪啼。",
+        "鹁鸪飞上树枝头。"
+      ],
+      "traditional_char": "鴣"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "“鴣”的简化字，用作与繁体相同的鸟名。",
+      "examples": [
+        "鸪声脆亮。"
+      ],
+      "traditional_char": "鸪"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "鴣由“隹”表意（鸟），“古”表音，表鸟名，指某类鸟（鹧鸪或鹁鸪）。"
+    },
+    {
+      "formation_type": "simple_indicative",
+      "original_sense_index": 1,
+      "note": "鸪为鴣的简化字，以“隹”表意，“古”略去部首后结构简化。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "reanalysis",
+      "note": "鸪为鴣的简化字，意义未变，仅形体简化。"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "梳子和篦子的总称，比喻像梳齿一样密集排列。",
+      "examples": [
+        "栉比鳞次",
+        "房屋栉比"
+      ],
+      "traditional_char": "櫛"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "梳理头发。",
+      "examples": [
+        "栉发",
+        "栉沐"
+      ],
+      "traditional_char": "櫛"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "剔除杂质、污垢。",
+      "examples": [
+        "栉垢爬痒"
+      ],
+      "traditional_char": "櫛"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“櫛”形声字，从木，节声，初指梳篦工具。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "conversion",
+      "note": "由梳篦工具引申为梳理头发的动作。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "梳理动作引申为剔除杂质、污垢，比喻义。"
+    }
+  ]
+}

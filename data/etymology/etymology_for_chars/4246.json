@@ -1,0 +1,69 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "一种金属元素，银白色，富延展性。特别能吸收氢，制造纯氢时用作吸收剂。又可用作催化剂。它的合金可做电器仪表、牙科材料和装饰品。",
+      "examples": [
+        "钯是一种贵金属。",
+        "钯的催化性能优良。"
+      ],
+      "traditional_char": "鈀"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "古代称兵车。",
+      "examples": [
+        "齐人有钯车。"
+      ],
+      "traditional_char": "鈀"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "箭头的一种。",
+      "examples": [
+        "射以钯镞。"
+      ],
+      "traditional_char": "鈀"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "同“耙”，农具。",
+      "examples": [
+        "用钯耙地。",
+        "铁钯翻土。"
+      ],
+      "traditional_char": "鈀"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "形声字，从金，巴声。最初用于表示兵器或兵车。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由兵车引申为兵器部件，具体为箭头。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "unknown",
+      "note": "与“耙”假借或语音接近，义项未必直接相关。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_shift",
+      "note": "现代化学元素名用作该字，选用金旁表示金属，音同‘巴’。"
+    }
+  ]
+}

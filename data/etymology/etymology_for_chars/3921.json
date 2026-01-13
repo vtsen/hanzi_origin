@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "onomatopoeia",
+      "meaning": "鹿等动物的叫声。",
+      "examples": [
+        "呦呦鹿鸣，食野之苹。《诗·小雅·鹿鸣》",
+        "魅甫躍出窗，聞呦然一聲，莫知所往。《閱微草堂筆記》"
+      ],
+      "traditional_char": "呦"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "interjection",
+      "meaning": "表示惊异、惊诧的叹词。",
+      "examples": [
+        "呦，怎么他又走了？",
+        "呦！怎麼你也來了？"
+      ],
+      "traditional_char": "呦"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "particle",
+      "meaning": "语气词，相当于“啊”。",
+      "examples": [
+        "你也是个没性气的东西呦！",
+        "罢呦！先头里，姐姐长，姐姐短，哄着我替你梳头洗脸。《红楼梦》"
+      ],
+      "traditional_char": "呦"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从口，幼声。本义为鹿等动物的叫声。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "声音引申为表示人的惊异感叹，见于中古及近现代口语。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "grammaticalization",
+      "note": "由感叹词进一步虚化为语气词用法，出现在口语、小说等。"
+    }
+  ]
+}

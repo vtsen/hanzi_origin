@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "瓜、柑橘等内部包着种子的部分",
+      "examples": [
+        "西瓜瓤儿。",
+        "橘子瓤儿。"
+      ],
+      "traditional_char": "瓤"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "某些东西皮或壳里包着的部分",
+      "examples": [
+        "秫秸瓤。"
+      ],
+      "traditional_char": "瓤"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "（方言）不好，软弱",
+      "examples": [
+        "赶车的技术不瓤。",
+        "病后身体瓤。"
+      ],
+      "traditional_char": "瓤"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从“瓜”表义，襄声，原指瓜果内部有籽的肉。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由瓜等果实内的籽肉扩展泛指皮或壳里的柔软部分。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由柔软、不坚实之物引申比喻为人或事物的软弱、无力。"
+    }
+  ]
+}

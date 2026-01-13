@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "恶疮，麻风等恶性皮肤病。",
+      "examples": [
+        "伯牛有疾，先儒以为疠也。",
+        "脉风成为疠。"
+      ],
+      "traditional_char": "癘"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "瘟疫，流行性传染病。",
+      "examples": [
+        "四时皆有疠疾。",
+        "天有菑疠。",
+        "疠疫。"
+      ],
+      "traditional_char": "癘"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "杀。",
+      "examples": [
+        "臣生不报陛下，死为鬼以癘贼。"
+      ],
+      "traditional_char": "癘"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "癞病，古同“癞”，麻风的一种。",
+      "examples": [
+        "癘，疾疫也；或曰恶创。",
+        "癘音賴。賴，恶疮病也。"
+      ],
+      "traditional_char": "癘"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘癘’（今简化作‘疠’）从疒（病），‘巤’省声，表示与疾病相关。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由指具体恶疾扩展到泛指疫病，西周至战国已见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "‘杀’义，为因病致死的隐喻扩展，见唐以后志怪、史传。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "‘癞’义，后世与同音‘癞’混用，实际语义演变不甚清晰，历代少有区分。"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古九州之一的地名，兖州，泛指今山东一带及其古行政区划。",
+      "examples": [
+        "济河惟兖。——《尚书·禹贡》",
+        "兖豫有无聊之民，帝都有吁嗟之怨。——《为袁绍檄豫州》",
+        "淮徐献捷，河兖凯归。——任昉《奏弹曹景宗》"
+      ],
+      "traditional_char": "兖"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "古水名，兖水。",
+      "examples": [
+        "有王屋山，兖水出。——《续汉书·郡国志》"
+      ],
+      "traditional_char": "兖"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "箭括（箭尾末端的一种器部件）。",
+      "examples": [
+        "兖铓瘢耆，金镞淫夷者数十万人。——《汉书·扬雄传下》",
+        "兖，括也。——颜师古注引如淳语"
+      ],
+      "traditional_char": "兖"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“兖”是会意兼形声字，从儿，从冏，冏亦声。本指地名，意取流水名。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "metonymy",
+      "note": "由兖水引申为以兖水命名的州、地名，见于古文献。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "unknown",
+      "note": "“箭括”义与地名义联系不详，学界有分歧，或为借用。"
+    }
+  ]
+}

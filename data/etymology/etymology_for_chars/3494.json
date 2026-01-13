@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "骨头空腔中的胶状物质，即骨髓。",
+      "examples": [
+        "骨髓移植",
+        "伤及骨髓"
+      ],
+      "traditional_char": "髓"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "类似骨髓的物质，如脊髓、脑髓、延髓。",
+      "examples": [
+        "脊髓损伤",
+        "脑髓炎"
+      ],
+      "traditional_char": "髓"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "植物茎中心的松软部分。",
+      "examples": [
+        "莲藕中有许多髓",
+        "髓部发达"
+      ],
+      "traditional_char": "髓"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字。从骨，‘随’省声，表示骨头内部的物质。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由骨髓引申为类似骨髓的动植物体内软质组织。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "以骨髓比喻植物茎中心柔软部分，因形态和结构相似。"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "美好，漂亮（容貌姣美）",
+      "examples": [
+        "娈彼诸姬。——《诗·邶风·泉水》",
+        "静女其娈，贻我彤管。——《诗·邶风·静女》"
+      ],
+      "traditional_char": "娈"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "受男子宠爱的美貌少年（如“娈童”）",
+      "examples": [
+        "娈童",
+        "娈宠（男子以色事人的人）"
+      ],
+      "traditional_char": "娈"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "美好，漂亮（容貌姣美）（繁体字用法，与“娈”同义）",
+      "examples": [
+        "孌彼諸姬，聊與之謀。——《詩•邶風•泉水》",
+        "靜女其孌，貽我彤管。——《詩•邶風•靜女》"
+      ],
+      "traditional_char": "孌"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘娈’为形声字，从女，羉声，女部表意为女性美好、与容貌相关。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 2,
+      "note": "‘孌’为形声字，从女，䜌声，结构与娈类似，古为本字，指美好容貌。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘美好’引申为受男子宠爱的美貌男童，常见于古代贵族生活。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 0,
+      "evolution_type": "reanalysis",
+      "note": "‘娈’为‘孌’的简化字，意义未变，现代汉语将‘娈’主用于简体。"
+    }
+  ]
+}

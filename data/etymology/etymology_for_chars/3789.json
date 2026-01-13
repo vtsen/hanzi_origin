@@ -1,0 +1,69 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "启发、开导",
+      "examples": [
+        "善者，忻民之善，闭民之恶。",
+        "忻，闿也。——《说文》"
+      ],
+      "traditional_char": "忻"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "明察，察看",
+      "examples": [
+        "忻，察也。——《玉篇》"
+      ],
+      "traditional_char": "忻"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "喜悦，欢欣，心喜",
+      "examples": [
+        "姜原出野，见巨人迹，心忻然说，欲践之。——《史记·周本纪》",
+        "忻忻然常自以为治。——《淮南子·览冥》"
+      ],
+      "traditional_char": "忻"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "五代有进士忻彪。"
+      ],
+      "traditional_char": "忻"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从心，斤声，本义为启发，心相关，斤为声符。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘启发、开导’扩展为‘明察’，因心开为明察。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由‘启发’引申为心情被开启，故为喜悦。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "conversion",
+      "note": "由形容词‘喜悦’转为姓氏用法，语法转换。"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "蒙昧无知，愚钝。",
+      "examples": [
+        "天降生民，倥侗颛蒙。——《法言·序》",
+        "孰称古初朴蒙倥而无争。——柳宗元《贞符》"
+      ],
+      "traditional_char": "倥"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "绷着脸。",
+      "examples": [
+        "坐在高处，倥着脸，不言不语。——《西游记》第四五回"
+      ],
+      "traditional_char": "倥"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "事情急迫、繁忙。",
+      "examples": [
+        "戎马倥偬。"
+      ],
+      "traditional_char": "倥"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "困苦，窘困。",
+      "examples": [
+        "愁倥傯于山陆。——《楚辞·九叹》"
+      ],
+      "traditional_char": "倥"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从人，空声，表人相关，意为愚蒙无知。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由‘蒙昧无知’引申为做事时的忙乱无序，常用于‘倥偬’表达事情迫促。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "由紧迫的状态进一步转指为窘迫、困苦。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "unknown",
+      "note": "‘绷着脸’义与‘无知’义联系不详，或为后世借用。"
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "裂口，残缺的口子",
+      "examples": [
+        "豁口",
+        "门上有个豁子"
+      ],
+      "traditional_char": "豁"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "裂开，出现裂缝",
+      "examples": [
+        "墙豁了一道缝"
+      ],
+      "traditional_char": "豁"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "抛弃，舍弃",
+      "examples": [
+        "豁出性命",
+        "豁出去"
+      ],
+      "traditional_char": "豁"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "开阔，宽敞",
+      "examples": [
+        "豁亮",
+        "宽豁"
+      ],
+      "traditional_char": "豁"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "开通，大度",
+      "examples": [
+        "豁达"
+      ],
+      "traditional_char": "豁"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "显赫，通达",
+      "examples": [
+        "显豁"
+      ],
+      "traditional_char": "豁"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "排遣，消散",
+      "examples": [
+        "豁情散哀"
+      ],
+      "traditional_char": "豁"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "verb",
+      "meaning": "免除",
+      "examples": [
+        "豁免"
+      ],
+      "traditional_char": "豁"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "verb",
+      "meaning": "划拳，猜拳的一种方式",
+      "examples": [
+        "豁拳"
+      ],
+      "traditional_char": "豁"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从谷，害声，本义为裂口，多指豁口、豁子。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "conversion",
+      "note": "名词到动词的用法，王力《汉语史稿》有类似用例。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "将裂开的动作引申为“豁出去”，比喻放弃、舍弃一切。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "裂开引申为开阔、宽敞，与空间感相关。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "空间宽阔比喻心胸开阔，出现豁达之意。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 5,
+      "evolution_type": "metonymy",
+      "note": "开阔引申为通达、显赫，多见于文献用法。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 6,
+      "evolution_type": "metaphor",
+      "note": "豁然开朗引申为情绪排遣、消散。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 7,
+      "evolution_type": "metaphor",
+      "note": "“裂开”引申为解除、免除责任等。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 8,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "“豁拳”为音借字，本为“划拳”。"
+    }
+  ]
+}

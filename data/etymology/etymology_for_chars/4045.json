@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古地名，春秋时鲁国和莒国争夺的邑名，分东郓和西郓，今山东省郓城县、沂水县一带。",
+      "examples": [
+        "季孙行父帅师城诸及郓。",
+        "鲁有二郓邑：一在今山东省沂水县北，一在今山东省郓城县东。"
+      ],
+      "traditional_char": "鄆"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "古州名，隋代置郓州，辖境历代有变，治所在今山东省郓城县及其周边。",
+      "examples": [
+        "隋开皇十年置郓州。",
+        "宋宣和元年升为东平府。"
+      ],
+      "traditional_char": "鄆"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "姓氏，由古地名衍生。",
+      "examples": [
+        "鲁大夫，食采于郓，后因氏。",
+        "郓，姓也。"
+      ],
+      "traditional_char": "鄆"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从邑表示地名，军作声旁，‘郓’古以地邑为名。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由具体的邑名推广为更广泛的行政州名，出现在隋唐以后。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "以采邑为姓氏，为地名用作姓的常见途径。"
+    }
+  ]
+}

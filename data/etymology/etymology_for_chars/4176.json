@@ -1,0 +1,72 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "断绝；竭尽；消灭；使灭绝",
+      "examples": [
+        "暴殄天物",
+        "邦国殄瘁。",
+        "殄，尽也。",
+        "武殄暴逆。"
+      ],
+      "traditional_char": "殄"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "病；疲敝",
+      "examples": [
+        "固民之殄病是待。",
+        "殄，病也。"
+      ],
+      "traditional_char": "殄"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "昏迷",
+      "examples": [
+        "人殄不悟，则死矣。"
+      ],
+      "traditional_char": "殄"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "通“腆”，善，美好",
+      "examples": [
+        "籧篨不殄。",
+        "寡君有不腆之酒。"
+      ],
+      "traditional_char": "殄"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从歺（=歹，表示死亡、残骨）表意，㐱表声，本义为断绝、竭尽。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由事务灭绝、用尽，引申为生命、气力的衰尽，故有病、疲敝之义。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由“病、疲敝”，进一步引申为人因极端虚弱而昏迷。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "reanalysis",
+      "note": "古文中误用、借用为“腆”，即美好之义，后遂固定为通假用法。"
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古地名，在今中国甘肃省东部及陕甘交界的山及其地区。",
+      "examples": [
+        "陇，天水大阪也。《说文》",
+        "后数驿至，果震陇西。《张衡传》",
+        "行幸雍，祠五畤。遂踰陇，登空同，西临祖厉河而还。《汉书·武帝纪》",
+        "君今上陇去，我在与谁居？（韩愈）"
+      ],
+      "traditional_char": "隴"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "甘肃省的简称。",
+      "examples": [
+        "陇西（古郡名，在今甘肃省东南部一带）",
+        "陇上（地名，在今甘肃省）",
+        "从甘肃兰州到连云港段的铁路线称陇海铁路"
+      ],
+      "traditional_char": "隴"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "田埂、畦埂；农田中垄状高地。",
+      "examples": [
+        "席陇亩而荫庇。《战国策·赵策三》",
+        "山田麦无陇。（杜甫）",
+        "他又看了看麦子密度，哪里还有麦陇，尽是一棵紧挨着一棵。"
+      ],
+      "traditional_char": "隴"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "丘陵、山冈、土岗等泛指山丘。",
+      "examples": [
+        "陇断（土岗子，即垄断。指山脉阻隔）",
+        "南朝齐孔稚珪《北山移文》：及其鸣騶入谷，鹤书赴隴。"
+      ],
+      "traditional_char": "隴"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "坟墓、墳墩。",
+      "examples": [
+        "昨日黄土陇头埋白骨，今宵红绡帐底卧鸳鸯。《红楼梦》",
+        "隴，壟之假字。隴，冢也。"
+      ],
+      "traditional_char": "隴"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "通“拢”，集合，凑集。",
+      "examples": [
+        "洪涟陇蹙。——鲍照《登大雷岸与妹书》"
+      ],
+      "traditional_char": "隴"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "adjective",
+      "meaning": "（通“隆”）盛，多，旺盛。",
+      "examples": [
+        "日中而阳陇为重阳。《灵枢·营卫生会》"
+      ],
+      "traditional_char": "隴"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从阜表示高低、山岭之义，龙为声符，最初表示古地名、山名。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "地名作为所在行政区的代称；见汉代以后用作甘肃的简称。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "从具体山岭义扩展为泛指山冈、丘陵。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由山冈义引申为田埂、土丘等起伏地貌。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 4,
+      "evolution_type": "synecdoche",
+      "note": "田埂、高地局部特征转用为坟墩之称。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 6,
+      "evolution_type": "metaphor",
+      "note": "由山冈高大义，引申为“隆盛、旺盛”。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 5,
+      "evolution_type": "unknown",
+      "note": "由土垄义到集合、凑集义，具体演化机制不明，有学者认为取其合聚之势。"
+    }
+  ]
+}

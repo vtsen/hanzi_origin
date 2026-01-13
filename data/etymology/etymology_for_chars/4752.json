@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "豆类的总称",
+      "examples": [
+        "菽者，众豆之总名。",
+        "六月食鬱及薁， 七月亨葵及菽。——《诗·豳风·七月》",
+        "喜看稻菽千重浪，遍地英雄下夕烟。——毛泽东《到韶山》"
+      ],
+      "traditional_char": "菽"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "大豆",
+      "examples": [
+        "大豆曰菽，豆苗曰霍，小豆则曰荅。",
+        "不能辨菽麦。——《左传·成十八年》"
+      ],
+      "traditional_char": "菽"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "菽水：指豆和水，泛指粗茶淡饭，用以指对父母的奉养",
+      "examples": [
+        "俗孝家家供菽水。——陆游《湖堤暮归》",
+        "菽水承欢"
+      ],
+      "traditional_char": "菽"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "人名，也作“萩”，如楚大夫萩",
+      "examples": [
+        "楚子使菽来聘。——《穀梁傳·文公九年》"
+      ],
+      "traditional_char": "菽"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“菽”从艸，尗声。本义为豆类的总称，形声字，艸表义，尗表声。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_narrowing",
+      "note": "由泛指豆类总称发展为特指‘大豆’。汉代及后世语境。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "以豆类饮食代指粗茶淡饭，常见于孝敬父母语境。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "unknown",
+      "note": "作为人名用字的形成机制不明，古代用字异体，或借用。"
+    }
+  ]
+}

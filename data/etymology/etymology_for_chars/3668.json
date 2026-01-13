@@ -1,0 +1,70 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "可食用的野菜或水草。",
+      "examples": [
+        "野蔬盈倾筐，颇杂池沼芼。",
+        "芼菜者，菜是地之毛。"
+      ],
+      "traditional_char": "芼"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "草铺地蔓延。",
+      "examples": [
+        "芼，草覆蔓也。——《说文》"
+      ],
+      "traditional_char": "芼"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "用手采摘、择取植物（尤指菜）。",
+      "examples": [
+        "参差荇菜，左右芼之。",
+        "芼，搴也。——《尔雅》"
+      ],
+      "traditional_char": "芼"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "拌和、杂在肉汤里的菜。",
+      "examples": [
+        "芼羹（用菜和肉做成的羹）",
+        "可供食用的水草或野菜：芼羹。"
+      ],
+      "traditional_char": "芼"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "从艸，毛声；本义为草覆蔓，声旁表音。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_narrowing",
+      "note": "由泛指“蔓延的草”引申为“可食用的野菜或水草”，见经籍应用。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "由“草蔓延”到“采摘草、采摘菜”，动作特征转化为动词。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "由“野菜水草”转指“拌和在汤里的菜”，指物转为菜品用途。"
+    }
+  ]
+}

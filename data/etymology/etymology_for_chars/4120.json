@@ -1,0 +1,85 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "一年生草本植物，茎方形，叶椭圆形，有锯齿，开白色小花，种子叫“苏子”，可榨油；嫩叶可食。亦称“白苏”。",
+      "examples": [
+        "荏子秋末成。——《齐民要术·荏蓼》",
+        "三月间，可以种荏和蓼。——《齐民要术》"
+      ],
+      "traditional_char": "荏"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "豆类作物名，指大豆等。常用于“荏菽”。",
+      "examples": [
+        "艺之荏菽。——《诗·大雅·生民》",
+        "荏菽斾斾。——《诗·大雅》"
+      ],
+      "traditional_char": "荏"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "卧席，草席的名称，通“衽”。",
+      "examples": [
+        "文公弁荏席。——《淮南子·说山》"
+      ],
+      "traditional_char": "荏"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "柔弱，软弱，怯弱。",
+      "examples": [
+        "色厉而内荏。——《论语·阳货》",
+        "谌荏弱而难持！——《楚辞·九章·哀郢》"
+      ],
+      "traditional_char": "荏"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "大的（通“戎”、“壬”）。",
+      "examples": [
+        "艺之荏菽。——《诗·大雅·生民》"
+      ],
+      "traditional_char": "荏"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从艸，任声，表示一种植物（白苏）；'艸'表意，'任'表声。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "以特定草本荏扩展为泛指同类大豆作物，古籍中常见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "用荏草作卧席，植物转借为草席之名，见于汉代文献。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由草木柔软转喻为性格柔弱，先秦、两汉文献见用。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "synecdoche",
+      "note": "‘荏菽’中的‘荏’用以指大，大豆的‘大’意义，有以偏概全用法。"
+    }
+  ]
+}

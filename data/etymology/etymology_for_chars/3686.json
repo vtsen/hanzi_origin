@@ -1,0 +1,45 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "江河湖海岸边突出水中的岩石或石滩",
+      "examples": [
+        "钓矶平可坐，苔磴滑难步。",
+        "舟过矶。"
+      ],
+      "traditional_char": "磯"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "水流冲击岩石；引申为激怒、触犯",
+      "examples": [
+        "是不可矶也。",
+        "磯，激也。",
+        "水急那可磯，下有百尺湍。"
+      ],
+      "traditional_char": "磯"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘磯’为形声字，从‘石’，‘幾’声。最初指水边的大岩石。"
+    },
+    {
+      "formation_type": "simple_indicative",
+      "original_sense_index": 0,
+      "note": "‘矶’为‘磯’的简化字，笔画省略但含义承继。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由水冲击岩石，转喻为激怒、触犯，多见于文言文。"
+    }
+  ]
+}

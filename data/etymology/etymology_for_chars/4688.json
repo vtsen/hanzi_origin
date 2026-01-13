@@ -1,0 +1,69 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "怀孕，指胎儿在母体中微动。",
+      "examples": [
+        "后缗方娠。",
+        "昔者大任娠文王。",
+        "已而有娠。"
+      ],
+      "traditional_char": "娠"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "含；孕育（比喻包含、孕育某物）。",
+      "examples": [
+        "水娠黄金山空青，丹砂晨暾珠夜明。"
+      ],
+      "traditional_char": "娠"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "女奴，宫婢女隶。",
+      "examples": [
+        "娠，宫婢女隶谓之娠。"
+      ],
+      "traditional_char": "娠"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "养马的人。",
+      "examples": [
+        "燕齐之间养马者谓之娠。"
+      ],
+      "traditional_char": "娠"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从女，辰声。本义为女子怀孕，女旁表意义，辰表音亦有“动”义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由“怀孕”（具体）引申为“包含、孕育”（抽象），用来比喻事物的包容和孕育。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由“身怀孕”（有身）引申指宫女、女隶，或为指有生产能力的女子，后转指女奴。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "由“女奴”一义，在燕齐方言转指低等劳作身份，因而指养马的人（杂役）。"
+    }
+  ]
+}

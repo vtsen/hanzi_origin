@@ -1,0 +1,90 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "蝎子一类的毒虫（泛指毒性的爬虫或节肢动物，尤指蝎子、毒蛇等）",
+      "examples": [
+        "蜂虿有毒",
+        "左传：蜂蠆有毒，而况国乎",
+        "彭城夫人夜之厕，蠆螫其手"
+      ],
+      "traditional_char": "蠆"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "蜻蜓的幼虫，因形似蝎而得名",
+      "examples": [
+        "（文献记载，蜻蜓幼虫形如蝎，故名蠆）"
+      ],
+      "traditional_char": "蠆"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "比喻佞人，喻指阴险毒辣的人",
+      "examples": [
+        "下堂兮见蠆，出门兮触蜂"
+      ],
+      "traditional_char": "蠆"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "形容女子鬈曲的头发",
+      "examples": [
+        "晚风斜虿发，逸艳照窗笼"
+      ],
+      "traditional_char": "虿"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "“虿”为“蠆”的简化字，意义与蠆基本相同",
+      "examples": [
+        "蜂虿有毒",
+        "虿盆"
+      ],
+      "traditional_char": "虿"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“蠆”为形声字，从虫，祭声，表示毒虫类动物。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 4,
+      "note": "“虿”亦为形声字，从虫，祭声，是“蠆”的简化字，意义不变。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由蝎类毒虫形状喻指形似的蜻蜓幼虫，见古籍比附。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由蝎、毒虫的毒性比喻阴险毒辣之人，汉代已见。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由毒虫尾部弯曲状转喻女子鬈曲头发，文学修辞用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "reanalysis",
+      "note": "简化字“虿”取代“蠆”，意义无变，出自现代汉字整理。"
+    }
+  ]
+}

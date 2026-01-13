@@ -1,0 +1,40 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "头盔，古代战士戴的帽子。",
+      "examples": [
+        "甲胄",
+        "介胄"
+      ],
+      "traditional_char": "胄"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "帝王或贵族的子孙。",
+      "examples": [
+        "贵胄",
+        "胄裔",
+        "胄子"
+      ],
+      "traditional_char": "胄"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从肉，由声，本义为头盔。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "古人用头盔代指武士，进一步比喻有地位的人及其后代，转指贵族子孙。"
+    }
+  ]
+}

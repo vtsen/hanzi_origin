@@ -1,0 +1,116 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "挑出，挖出（用手挑出物体或器官）",
+      "examples": [
+        "抉吾眼。——《史记·伍胥传》",
+        "抉人之口。——《荀子》",
+        "因自皮面抉眼，自屠出肠。——《战国策·韩策二》"
+      ],
+      "traditional_char": "抉"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "挑开，撬开",
+      "examples": [
+        "郰人纥抉之以出门者。——《左传·襄公十年》"
+      ],
+      "traditional_char": "抉"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "挑选，选取",
+      "examples": [
+        "先生之作，遇景入咏，不拘奇抉异。——皮日休《郢州孟亭记》"
+      ],
+      "traditional_char": "抉"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "揭发，揭示",
+      "examples": [
+        "抉破（揭破，戳破）；抉露（揭露）",
+        "追抉宿疵，则是改过不足以补愆。——《唐·陆贽》"
+      ],
+      "traditional_char": "抉"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "戳，穿",
+      "examples": [
+        "以杙抉其伤而死。——《左传·襄公十七年》"
+      ],
+      "traditional_char": "抉"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "掰，用手使分开",
+      "examples": [
+        "那半个一人抉一块儿，分着吃了。——《新儿女英雄传》"
+      ],
+      "traditional_char": "抉"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "扳指。古代射箭时套在右手拇指上的器具，用以钩弦",
+      "examples": [
+        "百夫抉拾。——《国语·吴语》",
+        "矰弋抉拾。——《周礼·缮人》"
+      ],
+      "traditional_char": "抉"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从手，夬声，本义为‘挑出，挖出’，手表示与手的动作有关，‘夬’表音。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从‘挑出，挖出’扩展到‘挑开，撬开’，动作对象变化。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由挖出、挑出引申为在众多中挑选，采用事物筛选的抽象动作。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由实物挑出变化为揭露、揭发隐藏的事物，用于抽象揭示。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "从挑、挖动作泛化为戳、穿，即穿破某物而达内部。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "由挖出之动作引申为用手分开、掰开的动作。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "metonymy",
+      "note": "以手指动作‘抉’指代扳指器具，即因用来挑动弓弦而得名。"
+    }
+  ]
+}

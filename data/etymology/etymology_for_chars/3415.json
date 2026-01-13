@@ -1,0 +1,72 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "禾本科植物聚生在茎顶端的花和果实，如麦穗、稻穗等，也泛指穗状花序。",
+      "examples": [
+        "田里麦穗金黄。",
+        "稻穗饱满。",
+        "玉米的花穗。"
+      ],
+      "traditional_char": "穗"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "用丝线、布条或纸条等扎成的、挂起来往下垂的装饰品。",
+      "examples": [
+        "灯笼穗儿很漂亮。",
+        "流苏穗。"
+      ],
+      "traditional_char": "穗"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "中国广东省广州市的别称。",
+      "examples": [
+        "花城穗景。",
+        "穗城春早。"
+      ],
+      "traditional_char": "穗"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [
+        "穗先生。",
+        "穗氏家族。"
+      ],
+      "traditional_char": "穗"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从禾，惠声，禾表示植物，惠表示读音，最初指谷物的穗。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "因装饰品形似谷穗而得名，见于近现代用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "以“穗”通指广州，因广州简称来源于“稻穗”或丰饶之意，属地名借用。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "conversion",
+      "note": "由名词转化为姓氏用法，见于现当代。"
+    }
+  ]
+}

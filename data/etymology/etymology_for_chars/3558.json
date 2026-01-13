@@ -1,0 +1,87 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "脊骨末端，臀部、屁股",
+      "examples": [
+        "《儀禮•少牢饋食禮》：腊兩髀屬于尻。",
+        "身已半入，止露尻尾。——《聊斋志异·狼三则》",
+        "趨則頓其步，拜則軒其尻。——方孝孺《好古齋記》"
+      ],
+      "traditional_char": "尻"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "肛門",
+      "examples": [
+        "𦙷後竅也——《呂覽·觀表》",
+        "後竅曰尻。"
+      ],
+      "traditional_char": "尻"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "家畜后身的部位，髖骨、荐骨及部分尾椎骨為基礎的外形部位",
+      "examples": [
+        "尻骨（坐骨）",
+        "免去尻——《禮·內則》"
+      ],
+      "traditional_char": "尻"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "盡頭，末端",
+      "examples": [
+        "勢盡尻益高——姚鼐《九月八日登千佛山頂》詩",
+        "以死為尻。——《莊子•大宗師》"
+      ],
+      "traditional_char": "尻"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "男子對女子發生性行為",
+      "examples": [
+        "你尻过多少个娘们?——周立波《暴风骤雨》"
+      ],
+      "traditional_char": "尻"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从尸，九聲，表示脊椎末端（臀部）之意，為形聲字。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_narrowing",
+      "note": "由臀部狹義化爲專指肛門，見於《呂覽》，古已有之。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由泛指臀部扩展至獸類、家畜屁股部位。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由身體末端作爲‘盡頭’，引申為事物末尾。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "以尻代指性交行為，為動詞用法，見於現代方言口語。"
+    }
+  ]
+}

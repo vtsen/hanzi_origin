@@ -1,0 +1,69 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "用草或葦桿紮成的火把",
+      "examples": [
+        "束苣乘城。《後漢書·皇甫嵩傳》",
+        "人擔苣長五節。《墨子·備城門》"
+      ],
+      "traditional_char": "苣"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "菜名，即萵苣、多年生草本植物，可食",
+      "examples": [
+        "既雨已秋，堂下理小畦，隔種一兩席許萵苣。《杜甫·種萵苣》",
+        "苣蕒菜"
+      ],
+      "traditional_char": "苣"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "胡麻的別稱",
+      "examples": [
+        "巨勝胡麻之黑者。《爾雅翼》"
+      ],
+      "traditional_char": "苣"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "燈花",
+      "examples": [
+        "窗寒天欲曙，猶結同心苣。《牛嶠》"
+      ],
+      "traditional_char": "苣"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从艸，巨聲，本義為用葦桿紮成的火把，後作“炬”。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "將火把之形貌轉喻為燈花，唐五代以降詩詞常用。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_shift",
+      "note": "後借指草本植物名，即蔬菜萵苣類，見于早期藥物植物用語。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "借植物名转指形似的植物品种，指胡麻的別稱。"
+    }
+  ]
+}

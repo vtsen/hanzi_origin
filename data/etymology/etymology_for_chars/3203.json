@@ -1,0 +1,58 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "除去、去掉",
+      "examples": [
+        "撤去",
+        "撤职",
+        "撤销"
+      ],
+      "traditional_char": "撤"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "退回、收回",
+      "examples": [
+        "撤退",
+        "撤防",
+        "撤回"
+      ],
+      "traditional_char": "撤"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "减少、减轻",
+      "examples": [
+        "撤味儿",
+        "撤火",
+        "撤分量"
+      ],
+      "traditional_char": "撤"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从手，折声，表示用手去除或拿开。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从‘除去’引申为‘收回、退回’，见近现代用法扩展。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "从‘除去’进一步引申为‘减少、减轻’之意。"
+    }
+  ]
+}

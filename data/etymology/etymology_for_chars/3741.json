@@ -1,0 +1,118 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "尘埃，尘土。",
+      "examples": [
+        "霏霏散浮烟，霭霭集微坌。——元好问《戊戌十月山阳雨夜》",
+        "盈其箱笥，沒於塵坌。——宋·孫光憲《北夢瑣言》"
+      ],
+      "traditional_char": "坌"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "尘土飞扬，落在物体上。",
+      "examples": [
+        "逆风扬尘，尘不及彼，还坌己身。——《四十二章经》",
+        "灰埃坌起，徐以炭周覆之。——宋·吳淑《江淮异人錄》"
+      ],
+      "traditional_char": "坌"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "聚集，聚合。",
+      "examples": [
+        "敌四万众坌集，傅城而阵。——《宋史·种世衡传》",
+        "四垂无蔽，万景坌入。——唐·劉禹錫《楚望賦》"
+      ],
+      "traditional_char": "坌"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "涌出，溢出。",
+      "examples": [
+        "日数千言，坌然溢出。——宋·苏洵《上张侍郎第一书》",
+        "是夕有声如雷，银液坌然而涌。——唐·康駢《劇談錄》"
+      ],
+      "traditional_char": "坌"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "翻起土壤，动土（方言）。",
+      "examples": [
+        "公公在家西坌蘿蔔。——《中國歌謠資料·山歌》"
+      ],
+      "traditional_char": "坌"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "adjective",
+      "meaning": "粗劣，粗笨，不灵巧。",
+      "examples": [
+        "您穿的是輕紗異錦，俺穿的是坌絹的這粗紬。——元·無名氏《桃花女》",
+        "我身子坌，果然下去不得。——《二刻拍案驚奇》"
+      ],
+      "traditional_char": "坌"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "adjective",
+      "meaning": "古通“笨”，蠢笨，笨拙。",
+      "examples": [
+        "樽前扮蠢，花間塑坌，席上粧憨。——元·王仲元《普天樂》",
+        "笨鸟先飞（坌鸟先飞）"
+      ],
+      "traditional_char": "坌"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从土，分声。原指尘土，符合‘土’与声旁结合表义表音"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由尘土实体引申为尘土飞扬的动作"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由尘土聚合转喻为人的聚集，古已有之"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "尘土聚合涌出，引申为任何物质或情感的涌出"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "由尘土飞扬延伸为动土作业之意，见于方言"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "metaphor",
+      "note": "尘土粗糙转喻为品质粗劣"
+    },
+    {
+      "source_index": 5,
+      "target_index": 6,
+      "evolution_type": "analogy",
+      "note": "粗劣再次引申为‘笨拙’，古今通用"
+    }
+  ]
+}

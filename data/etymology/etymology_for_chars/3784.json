@@ -1,0 +1,63 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "逗弄、故意引人发笑或不快",
+      "examples": [
+        "老太太也会怄他，时常他弄了东西来孝敬，究竟又吃不多儿。",
+        "原來襲人未睡，不過是故意兒裝睡，引着寶玉來慪他頑耍。",
+        "賈母心裏要寶釵喜歡，故意慪鳳姐兒說話。"
+      ],
+      "traditional_char": "慪"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "嘲笑、取笑、使人不愉快",
+      "examples": [
+        "奴才们背地里还怄姑娘不害羞。",
+        "人家心裏發虛，你還慪他！",
+        "你一點主意沒有，還只會去喝酒，回來還要慪我，你真沒有良心。"
+      ],
+      "traditional_char": "慪"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "生闷气、憋闷、心里不快",
+      "examples": [
+        "你别怄了。",
+        "老弟，告訴不得你！這兩天在南城外頭只差了沒把我的腸子給慪斷了。",
+        "周氏這些時候向王氏說了許多好話，賠了許多不是，心裏慪得不得了。"
+      ],
+      "traditional_char": "慪"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘慪’为形声字，从心，区声，本义与情感相关。"
+    },
+    {
+      "formation_type": "loan_character",
+      "original_sense_index": 0,
+      "note": "‘怄’为‘慪’的简化字，完全承袭‘慪’之用。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由逗弄引申为作弄、取笑，已见于清代小说。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "由‘嘲笑’引申为‘心里不快、憋闷’，用作表示生闷气。"
+    }
+  ]
+}

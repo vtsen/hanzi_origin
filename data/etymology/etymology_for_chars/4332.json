@@ -1,0 +1,68 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "水名，在河南省北境，今名安阳河。",
+      "examples": [
+        "《山海经·北山经》：黄水出焉，而东流注于洹。",
+        "《左传·成公十七年》：初，声伯梦涉洹。"
+      ],
+      "traditional_char": "洹"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "古地名，洹水县名，得名于洹水。",
+      "examples": [
+        "《舆地广记》：相州临漳县本邺县，后周分东北界，置洹水县。"
+      ],
+      "traditional_char": "洹"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "流动的水，泛指水流。",
+      "examples": [
+        "《博雅》：洹洹，流也。"
+      ],
+      "traditional_char": "洹"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "other",
+      "meaning": "佛教用语，‘泥洹’即‘涅槃’的借用、译写。",
+      "examples": [
+        "泥洹，卽涅槃也。"
+      ],
+      "traditional_char": "洹"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从水，宛（𠄢）声。以水名为本义，属于形声字。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "以水名为地名，因地得名。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "从专指洹水扩展为泛指水流之意，见《博雅》。“洹洹，流也”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "佛教术语‘泥洹’（涅槃）用‘洹’借音，不取本义，仅为音译。"
+    }
+  ]
+}

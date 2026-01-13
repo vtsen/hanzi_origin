@@ -1,0 +1,101 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "毁谤，诬蔑他人名誉",
+      "examples": [
+        "诋毁也，辱也。——《汉书·刘向传》注",
+        "历诋公卿大臣。——《汉书·息夫躬传》",
+        "诋诟（诬蔑；毁谤）；诋讦（诋毁攻击）；诋辱（毁谤侮辱）"
+      ],
+      "traditional_char": "詆"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "谴责，指责",
+      "examples": [
+        "露表告将入关，因诋宦竖柄朝，垢蠹纪纲。——《新唐书》",
+        "上疏诋奸臣贾似道，请正其罪。"
+      ],
+      "traditional_char": "詆"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "辱骂，骂人",
+      "examples": [
+        "诋大酋当死。——宋·文天祥《指南录·后序》",
+        "弟闻得世兄也诋尽流俗，性情中另有一番见解。——《红楼梦》"
+      ],
+      "traditional_char": "詆"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "欺骗",
+      "examples": [
+        "朔擅诋欺天子从官，当弃市。——《汉书》"
+      ],
+      "traditional_char": "詆"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "抵赖、抵拒，与“抵”同用",
+      "examples": [
+        "上责（史）万岁，万岁诋谰。——《资治通鉴》"
+      ],
+      "traditional_char": "詆"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "根底，要素。通“柢”",
+      "examples": [
+        "兵有三诋：治国家，理境内；行仁义，布德惠；立正法，塞邪隧。——《淮南子·兵略》"
+      ],
+      "traditional_char": "詆"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从言，氐声，表示诬蔑、毁谤之义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由毁谤义引申为泛指谴责、指责。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由毁谤义进一步引申为辱骂。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "毁谤、欺诬义发展为欺骗。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_shift",
+      "note": "与“抵”声通，义同抵赖、抵拒。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "通‘柢’，假借用法，指根底、要素。"
+    }
+  ]
+}

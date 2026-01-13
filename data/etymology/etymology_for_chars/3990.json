@@ -1,0 +1,53 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "在火上烧烤，炙烤肉类。",
+      "examples": [
+        "炙兔",
+        "焚炙忠良"
+      ],
+      "traditional_char": "炙"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "烤肉，烤制的肉食。",
+      "examples": [
+        "脍炙人口"
+      ],
+      "traditional_char": "炙"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "比喻受到熏陶、教诲。",
+      "examples": [
+        "亲炙"
+      ],
+      "traditional_char": "炙"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意字，从火从肉，表示肉被火烤之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "conversion",
+      "note": "动词转为名词，表示烤过的肉。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由火烤引申为比喻受熏陶或教诲，多用于书面语。"
+    }
+  ]
+}

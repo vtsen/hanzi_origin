@@ -1,0 +1,105 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "复杂，事情多而杂。",
+      "examples": [
+        "繁杂",
+        "删繁就简",
+        "繁难",
+        "繁乱"
+      ],
+      "traditional_char": "繁"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "数量多，众多。",
+      "examples": [
+        "繁多",
+        "频繁",
+        "纷繁",
+        "繁星"
+      ],
+      "traditional_char": "繁"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "兴盛，旺盛。",
+      "examples": [
+        "繁茂",
+        "繁荣",
+        "繁华"
+      ],
+      "traditional_char": "繁"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "生物增殖、繁育。",
+      "examples": [
+        "繁殖",
+        "繁衍",
+        "繁育"
+      ],
+      "traditional_char": "繁"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "繁台，地名，在中国河南省开封市东南。",
+      "examples": [
+        "繁台"
+      ],
+      "traditional_char": "繁"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [],
+      "traditional_char": "繁"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "‘繁’为形声字，从糸，象系物之多，音为聲符；本义为多。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_shift",
+      "note": "由‘多’引申出‘多而杂’，即复杂，见先秦用例。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由‘多’引申为‘兴盛繁荣’，古已有之。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由‘多’引申为‘生物繁殖’，即数量增加。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "unknown",
+      "note": "地名‘繁台’用字机制不明，或为音借。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "由地名引申为姓氏，汉姓常取自地名。"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "儿子；子女",
+      "examples": [
+        "妻孥无苦身之劳。",
+        "罪人不孥。",
+        "独携三尺琴，笑别妻与孥。"
+      ],
+      "traditional_char": "孥"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "妻子与儿女的统称",
+      "examples": [
+        "乐尔妻孥。",
+        "汝来省吾，止一岁，请归取其孥。",
+        "畜妻养孥，非无私爱。"
+      ],
+      "traditional_char": "孥"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "奴婢，奴仆（“奴”的通假）",
+      "examples": [
+        "予则孥戮汝。",
+        "翩然独往不携孥。"
+      ],
+      "traditional_char": "孥"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "pronoun",
+      "meaning": "第一人称代词，我（“奴”的通假）",
+      "examples": [
+        "孥凡歌六七曲，有长须者频抛觥。"
+      ],
+      "traditional_char": "孥"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从子，奴声，原意为‘儿子’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "‘子女’义向‘妻子与子女’扩展，古籍广泛用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "由于音近，与‘奴’通假，用于‘奴婢’义，多见于古文。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由‘奴’的通假义（仆隶）引申为自谦第一人称‘我’，如‘孥凡歌六七曲’。"
+    }
+  ]
+}

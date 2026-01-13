@@ -1,0 +1,102 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "急雨，暴风雨",
+      "examples": [
+        "终风且瀑。",
+        "瀑，疾雨也。——《说文》"
+      ],
+      "traditional_char": "瀑"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "水飞溅，水沫",
+      "examples": [
+        "瀑沫（飞贱的水沫）",
+        "拊拂瀑沫。——郭璞《江赋》"
+      ],
+      "traditional_char": "瀑"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "瀑布，从山崖或高处直流下来的水流",
+      "examples": [
+        "瀑布飞流以界道。——孙绰《游天台山赋》",
+        "有瀑布。",
+        "飞瀑流泉"
+      ],
+      "traditional_char": "瀑"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "水名（瀑河），在中国河北省",
+      "examples": [
+        "明、清时名宽门、豹河，今名瀑河。"
+      ],
+      "traditional_char": "瀑"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "水飞溅，喷涌",
+      "examples": [
+        "瀑泉（喷涌的泉水）",
+        "瀑流（喷涌的泉水）"
+      ],
+      "traditional_char": "瀑"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "（烹饪）将肉食切好，用开水略煮或用热油快煎，今作“爆”",
+      "examples": [
+        "煮瀑得熟，也得充饥。——《水浒传》"
+      ],
+      "traditional_char": "瀑"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，暴声。本义为疾雨，后引申为瀑布、飞溅等。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由急雨及其激烈现象引申指水飞溅、沫。见郭璞《江赋》"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由水沫、飞溅的现象比喻高处垂下如布的流水，即瀑布"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "以瀑布盛名称地理水体，转用于河名"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "conversion",
+      "note": "由名词水沫转换为动词，指水飞溅的动作"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "metaphor",
+      "note": "由爆烈、激烈的雨引申为激烈加热，烹饪法，今多作“爆”"
+    }
+  ]
+}

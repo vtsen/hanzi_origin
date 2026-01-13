@@ -1,0 +1,44 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "一年生或二年生草本植物，茎和嫩叶都是普通的蔬菜。包括叶用和茎用两种，叶用的亦称“生菜”，茎用的亦称“莴笋”。",
+      "examples": [
+        "莴苣是一种常见的蔬菜。",
+        "杜甫《种萵苣诗序》：堂下理小畦，隔种一两席许萵苣，向二旬矣。"
+      ],
+      "traditional_char": "萵"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "“萵”的简化字，用于现代汉语，义同“萵”。",
+      "examples": [
+        "莴苣叶绿茎脆，是营养丰富的蔬菜。",
+        "莴笋可以生吃也可以炒食。"
+      ],
+      "traditional_char": "莴"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "萵：形声字，“艹”表植物义，“委”声，原指‘莴苣’类蔬菜。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "莴：形声字，萵的简化字，以“艹”表意、“呙”表音，是‘萵’的异体简化形式，用于同一植物。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "reanalysis",
+      "note": "现代汉字简化进程中由‘萵’分化为‘莴’，义同。"
+    }
+  ]
+}

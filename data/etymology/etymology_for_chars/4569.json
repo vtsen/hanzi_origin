@@ -1,0 +1,136 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "思念，信，弱。",
+      "examples": [
+        "宜亦勤恁旅力，以充厥道。",
+        "恁，思也。——《广雅》"
+      ],
+      "traditional_char": "恁"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "pronoun",
+      "meaning": "如此，这样，那么，那样。",
+      "examples": [
+        "恁大。",
+        "恁高。",
+        "这样大，这样高。"
+      ],
+      "traditional_char": "恁"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "pronoun",
+      "meaning": "那，那个（指示代词）。",
+      "examples": [
+        "恁时节。",
+        "早知恁般么，恨当初不把雕鞍锁。"
+      ],
+      "traditional_char": "恁"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "pronoun",
+      "meaning": "谁，什么，何。",
+      "examples": [
+        "有恁话分付？",
+        "恁人（谁，何人）。"
+      ],
+      "traditional_char": "恁"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adverb",
+      "meaning": "怎么，怎样。",
+      "examples": [
+        "却恁地教什么人在间壁吱吱地哭，搅俺兄弟们吃酒？"
+      ],
+      "traditional_char": "恁"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "思念，念。",
+      "examples": [
+        "徂年幸未暮，此意可勤恁。",
+        "宜亦勤恁旅力，以充厥道。"
+      ],
+      "traditional_char": "恁"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "pronoun",
+      "meaning": "您（“你”的敬称，用于早期白话）。",
+      "examples": [
+        "恁不去出力，息生教娘娘和番？",
+        "来时节肯不肯尽由他，见时节亲不亲在于恁。",
+        "未知何日得见恁，铁石心肠也泪零。"
+      ],
+      "traditional_char": "恁"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "conjunction",
+      "meaning": "任凭，任由。",
+      "examples": [
+        "花布恁商营。",
+        "非又俗言如此也。"
+      ],
+      "traditional_char": "恁"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从心，任声。形声字，表示心之所念、思量。早期作“思念”，后义扩展。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "“思念，信”本义语义细化为“思念，念”，见于汉代文献。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 7,
+      "evolution_type": "semantic_extension",
+      "note": "由“信”引申为“任凭、任由”，文献用例充足。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_shift",
+      "note": "由“心有所感”演变为“如此，这么”的指代用法，语法化过程。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由“如此”引申为指远称“那，那个”。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "指示义向“何、什么”变异，常在疑问句中用作疑问代词。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "semantic_shift",
+      "note": "“如此”扩展为“怎么，怎样”问法，疑问句中见。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 6,
+      "evolution_type": "semantic_shift",
+      "note": "由泛指、近指人发展为尊称'您'，白话中常见。"
+    }
+  ]
+}

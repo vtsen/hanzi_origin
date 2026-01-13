@@ -1,0 +1,103 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "削、削尖。",
+      "examples": [
+        "剡木为楫。",
+        "古者剡耜而耕。",
+        "或剡木为矛矢。"
+      ],
+      "traditional_char": "剡"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "锐利，锋利。",
+      "examples": [
+        "曾枝剡棘。",
+        "剡，锐利也。"
+      ],
+      "traditional_char": "剡"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "举、举起。",
+      "examples": [
+        "案欲剡其胫而以蹈秦之腹也。",
+        "剡手以冲仇人之匈。"
+      ],
+      "traditional_char": "剡"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "举荐。",
+      "examples": [
+        "昔公剡士，十有五辈；或至或否，均受其赉。",
+        "它日又特剡，亟称之于庙堂。"
+      ],
+      "traditional_char": "剡"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "古地名（剡县），在今浙江嵊县西南。",
+      "examples": [
+        "剡中（剡县一带）",
+        "剡客（指东晋戴逵。后泛指隐士）"
+      ],
+      "traditional_char": "剡"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "水名，即剡溪，在浙江省曹娥江上游。",
+      "examples": [
+        "明月照我影，送我至剡溪。"
+      ],
+      "traditional_char": "剡"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从刀，炎声，表示用刀削物。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "削的动作引申为锋利的性质，两汉至魏晋常用。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "削或抬动的动作引申为举起，见于先秦古籍。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "举起引申为向上举荐人才。南北朝以后用法。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 5,
+      "evolution_type": "unknown",
+      "note": "地名与水名间直接关系不明，但同属一地，可为同源地理指称。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "unknown",
+      "note": "削、锐利为地名来源的关系不明确，或与山水地势相关。"
+    }
+  ]
+}

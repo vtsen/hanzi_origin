@@ -1,0 +1,68 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "晚，天色晚。",
+      "examples": [
+        "日旰不召，而射鸿于囿。",
+        "南朝梁何逊《苦热》诗：曀曀风逾静，曈曈日渐旰。"
+      ],
+      "traditional_char": "旰"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "太阳已近傍晚时的时辰；日昃。",
+      "examples": [
+        "日旰君勤。",
+        "当陛下旰食宵衣之日，是微臣输肝写胆之时。"
+      ],
+      "traditional_char": "旰"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "日行，太阳运行。",
+      "examples": [],
+      "traditional_char": "旰"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "盛大的样子（多用于叠字“旰旰”）。",
+      "examples": [
+        "皓皓旰旰，丹彩煌煌。",
+        "采邑澔旰。"
+      ],
+      "traditional_char": "旰"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从日，干声，本义为“晚”。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由形容词“晚”引申为傍晚时分、晚时的名词用法，战国至汉代普见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "由描述时间的“晚”转移为“日行”，机制可能为关联太阳运行至晚时，具体语境不多见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "从“晚”引申为“盛貌”，在叠字中形容广阔、灿烂，见于《史记》《文选》等。"
+    }
+  ]
+}

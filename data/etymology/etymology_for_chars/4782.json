@@ -1,0 +1,38 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "柜子，盛放东西的箱子、柜具。",
+      "examples": [
+        "《说文解字》：“匱，藏也。”"
+      ],
+      "traditional_char": "匱"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "缺乏，匮乏；短缺。",
+      "examples": [
+        "财力匮乏",
+        "力有未匮"
+      ],
+      "traditional_char": "匱"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从匚（表示器物、箱柜），贵声。本作‘柜’义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由‘柜子’（器物可储藏物品）引申为‘柜中无物’，喻缺乏。汉以降。"
+    }
+  ]
+}

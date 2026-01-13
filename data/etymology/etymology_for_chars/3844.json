@@ -1,0 +1,85 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "用手摸；觸摸。",
+      "examples": [
+        "拃摸也。",
+        "摸拃也。"
+      ],
+      "traditional_char": "拃"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "壓榨；擠出（液體等）。",
+      "examples": [
+        "拃瀋如其劑。",
+        "手拃令解。"
+      ],
+      "traditional_char": "拃"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "張開大拇指和中指（或小指）來量取長度。",
+      "examples": [
+        "把桌子拃一拃。",
+        "張開拇指和中指量長度。"
+      ],
+      "traditional_char": "拃"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "measure_word",
+      "meaning": "張開的大拇指和中指（或小指）兩端之間的距離，手指張開之長作為計量單位。",
+      "examples": [
+        "這塊布有三拃寬。",
+        "個頭比三八槍高不了一拃。",
+        "嘴里咬著一拃長的小煙袋。"
+      ],
+      "traditional_char": "拃"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "勉強支持（見拃掙）。",
+      "examples": [],
+      "traditional_char": "拃"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "從手，乍聲。本義為用手摸、觸摸，屬於形聲字。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“摸”引申為“壓搾”，因為壓搾時有手部動作，可能與“摸”有動作關聯性。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由“手摸”動作引申為“手指張開測量長度”的動作。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "grammaticalization",
+      "note": "由“動作”引申為表示長度單位的量詞。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "unknown",
+      "note": "“拃掙”之義來源不詳，可能及於“手撐持”意義的引申。"
+    }
+  ]
+}

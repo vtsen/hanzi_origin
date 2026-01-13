@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "树干的分枝或树枝的分岔",
+      "examples": [
+        "杈，杈枝也。——《说文》",
+        "江东谓树枝为桠杈。——《方言》",
+        "常思南郑清明路，醉袖迎风雪一杈。——陆游《梨花》"
+      ],
+      "traditional_char": "杈"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "叉状的农具，如挑柴草等的工具",
+      "examples": [
+        "杈杷，农器。",
+        "用杈取禾草。"
+      ],
+      "traditional_char": "杈"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "行马，旧时官府门前拦阻通行的障碍物（亦作“杈子”）",
+      "examples": [
+        "行马，官府门前设之，宋以来谓之杈。——《通雅》",
+        "御廊立朱漆杈子，路心立黑漆杈子，卽行马也。——《东京梦华录》"
+      ],
+      "traditional_char": "杈"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从木，叉声，表示树木的分枝。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "农具因形状如树枝分岔而得名，出现于先秦至汉以后。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "行马结构因外形如树枝分岔而称“杈”，见于宋至清。"
+    }
+  ]
+}

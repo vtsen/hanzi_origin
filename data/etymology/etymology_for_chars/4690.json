@@ -1,0 +1,86 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "（古代婚礼）男方请媒人问女方名字和出生年月日，即问名之礼。",
+      "examples": [
+        "娉，问也。——《说文》",
+        "婚姻娉内送逆无礼。——《荀子·富国》（注：“问名也。”）"
+      ],
+      "traditional_char": "娉"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "订婚；男女订立婚约（常与“聘”通用）。",
+      "examples": [
+        "乃遣使以窃号告吕布，并为子娉布女。——《后汉书·袁术传》",
+        "先是，子熙与弟娉王氏为妻，姑之女也。——《魏书·韩子熙传》"
+      ],
+      "traditional_char": "娉"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "娶、嫁，指婚配、缔结婚姻。",
+      "examples": [
+        "再奉朝娉。——《樊敏碑》",
+        "画檐铁马喧，纱窗梦不成，佳人才子何时娉。——白朴《东墙记》"
+      ],
+      "traditional_char": "娉"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "（古代国与国之间）遣使问候、访问。",
+      "examples": [
+        "再奉朝娉，十辟外台。——《隶释·汉巴郡太守樊敏碑》"
+      ],
+      "traditional_char": "娉"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "美好，形容女子姿态美好、优雅多姿。",
+      "examples": [
+        "娉婷袅娜。",
+        "娉娉，轻盈美好的样子。"
+      ],
+      "traditional_char": "娉"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从女，甹声；反映婚礼中女方问名的习俗，后延伸为结婚相关意义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“问名”礼引申为订婚、婚约，即由婚礼一环泛指订婚全过程，先秦至两汉。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "婚约进一步泛化为婚配、嫁娶等，汉以后常与“聘”通用。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由婚礼用语类比引申为国与国之间的聘问、访问，古汉语时期文献见载。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "婚礼中女子仪态、温婉等特质引申用以形容女性美态，后固定于“娉婷”等词组。"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "用粮食蒸熟后捣碎压制成的饼状食品。",
+      "examples": [
+        "糯米粑",
+        "糍粑",
+        "糖粑",
+        "荞粑"
+      ],
+      "traditional_char": "粑"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "粘贴；紧紧贴在……上。",
+      "examples": [
+        "把画儿粑在墙上"
+      ],
+      "traditional_char": "粑"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "依恋，不舍得离开。",
+      "examples": [
+        "平素间多粑我的，今天一会儿就要走，莫非姨妈在哪里得罪了你吗?——《香罗帕》"
+      ],
+      "traditional_char": "粑"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘粑’为形声字，从‘米’，‘巴’声。本义为粮食做成的饼状食品。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由饼类食品因其黏性和形态引申为粘贴、附着义。多用于方言。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由物理上紧贴，引申为情感上依恋、不舍。"
+    }
+  ]
+}

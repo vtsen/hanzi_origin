@@ -1,0 +1,152 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "踩；踏",
+      "examples": [
+        "蹬，履也。——《广雅》",
+        "功蹬王府。——《槀长蔡湛颂》",
+        "唿喇一声蹬倒八卦炉，往外就走。——《西游记》"
+      ],
+      "traditional_char": "蹬"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "腿和脚向脚底的方向用力（如蹬腿、猛蹬）",
+      "examples": [
+        "蹬弩开弓那威势，一箭箭往前射。——元《西游记》",
+        "便把竹篙望岸边一点，双脚一蹬，那只渔船，一似狂风飘败叶，箭也似投江心里去了。——《水浒传》"
+      ],
+      "traditional_char": "蹬"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "穿（鞋、裤等）",
+      "examples": [
+        "蹬了一双绒鞋，已经被雪泥漫了帮子了。——《老残游记》",
+        "蹬上裤子"
+      ],
+      "traditional_char": "蹬"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "拋棄；丟棄",
+      "examples": [
+        "教他好歹蹬了刘墜儿，养上我。——明《南牢记》",
+        "我就是为了来塔里木，对象给蹬了。——《收获》"
+      ],
+      "traditional_char": "蹬"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "石级，台阶",
+      "examples": [
+        "飞梁石蹬，陵跨水道。——《后汉书·梁冀传》",
+        "我们踏着石蹬，朝这个山村进发。——秦牧《长街灯语》"
+      ],
+      "traditional_char": "蹬"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "马镫，挂在鞍子两旁的踏脚器物",
+      "examples": [
+        "以银蹬支足。——《南史》",
+        "金鞭玉蹬相回旋。——苏轼《游径山》"
+      ],
+      "traditional_char": "蹬"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "梯道，梯子",
+      "examples": [
+        "蹬倚绝壁，壁石皆崆峒。——《徐霞客游记》",
+        "行采菖蒲缘苔蹬。——陆游《隐趣》"
+      ],
+      "traditional_char": "蹬"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "onomatopoeia",
+      "meaning": "象声词，重物踩踏地面发出的声音",
+      "examples": [
+        "只听他那两只脚踹得地蹬蹬蹬的山响。——《儿女英雄传》",
+        "他又蹬蹬蹬地自个向前走了。——茹志娟《百合花》"
+      ],
+      "traditional_char": "蹬"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "verb",
+      "meaning": "登；由低向高攀登（本义，与“登”通用）",
+      "examples": [
+        "呀，蹬上了天坛月正圆。——明·汤显祖《南柯记》",
+        "俱免盖缠，同蹬正觉。——《八琼室金石补正·唐刘孝光造像记》"
+      ],
+      "traditional_char": "蹬"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 8,
+      "note": "形声字，从足，登声，表示抬脚登上；最初本义通‘登’，后引申为多种动作及器物。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 8,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "本义‘登’泛化为脚的动作，如踩、踏，古今文献皆有。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘踩、踏’进一步专指腿脚用力向下（蹬腿），多见于口语及动作描写。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "脚踏引申为‘穿鞋、穿裤’，指动作接触衣物。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "脚蹬开物品，比喻丢弃、抛弃，多见于口语。"
+    },
+    {
+      "source_index": 8,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "‘登／蹬’动作为‘上级、台阶’引申为台阶、石级名词。"
+    },
+    {
+      "source_index": 8,
+      "target_index": 6,
+      "evolution_type": "semantic_extension",
+      "note": "‘登’引申为‘梯道’，与台阶有关，古今常见。"
+    },
+    {
+      "source_index": 8,
+      "target_index": 5,
+      "evolution_type": "metonymy",
+      "note": "由脚所踩之动作，引申为马镫等踏脚之物。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 7,
+      "evolution_type": "function_word",
+      "note": "动作‘蹬’拟声化，引起象声用法。"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "谏言，直言指出别人的过错以劝其改正。",
+      "examples": [
+        "诤谏",
+        "诤言",
+        "诤臣",
+        "诤友"
+      ],
+      "traditional_char": "諍"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "古代传说中的矮小人种，亦称“靖人”。",
+      "examples": [
+        "诤人",
+        "靖人"
+      ],
+      "traditional_char": "諍"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "争论、争辩。",
+      "examples": [
+        "诤紊"
+      ],
+      "traditional_char": "諍"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘諍’由‘言’（意符）和‘争’（声符）组成，本义为直言谏诤，与言语规劝相关。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由直言规劝引申为争论、争辩，用于其它争执语境。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "unknown",
+      "note": "‘诤人’为传说人种之名，或与本义关系不明，语源机制无法确定。"
+    }
+  ]
+}

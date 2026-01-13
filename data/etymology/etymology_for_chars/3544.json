@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "勇猛、壮勇的样子",
+      "examples": [
+        "仡然从乎赵盾而入。",
+        "仡仡勇夫。",
+        "劲气老犹仡。"
+      ],
+      "traditional_char": "仡"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "高大、耸立的样子",
+      "examples": [
+        "崇墉仡仡。",
+        "仡立"
+      ],
+      "traditional_char": "仡"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "抬头、举头",
+      "examples": [
+        "仡，举头也。",
+        "沛艾赳螑仡以佁儗兮。"
+      ],
+      "traditional_char": "仡"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "中国少数民族名（仡佬族）",
+      "examples": [
+        "仡佬族主要分布于贵州省。"
+      ],
+      "traditional_char": "仡"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从人，气声，表示勇壮、勇猛之意；初为勇壮的样子。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由人的强壮引申为高大、耸立，用于城墙等；见诗经等古籍。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "从勇壮引申为昂首、抬头（表现出气势），古训释。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "以勇壮特性指代民族（仡佬族），地名、族称用法，现代用例。"
+    }
+  ]
+}

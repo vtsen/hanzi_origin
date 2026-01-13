@@ -1,0 +1,98 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "江流、河流的支流、分流的通称",
+      "examples": [
+        "江有沱。——《诗·召南·江有汜》",
+        "沱，江别流也。——《说文》"
+      ],
+      "traditional_char": "沱"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "可停船的水湾，多用于地名",
+      "examples": [
+        "四川省有朱家沱、石盘沱等"
+      ],
+      "traditional_char": "沱"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "古地名、水名（如沱江，长江支流）",
+      "examples": [
+        "沱江即长江之支流，在四川省"
+      ],
+      "traditional_char": "沱"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "泪如雨下的样子，恸哭流涕",
+      "examples": [
+        "出涕沱若，戚嗟若。——《易·离》"
+      ],
+      "traditional_char": "沱"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "大雨滂沱、雨势盛大的样子",
+      "examples": [
+        "濯手大雨沱。——韩愈《读东方朔杂事》"
+      ],
+      "traditional_char": "沱"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "池塘、水池，沱通“池”",
+      "examples": [
+        "通“池”，护城河。——《集韻》"
+      ],
+      "traditional_char": "沱"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，它声，表示与水流相关，创制初指江水支流。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "支流水道易形成湾区，可停船水湾为地理实体的延伸；见于地名用法丰富于四川等地。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_narrowing",
+      "note": "由一般支流专指具体水名，如沱江等。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "本义为水流，引申形容泪水如水流般奔涌。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "本义为支流水流，引申形容雨水倾泻如流。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "由流水、支流义引申为池塘、水池。见于古书‘沱’通‘池’用法。"
+    }
+  ]
+}

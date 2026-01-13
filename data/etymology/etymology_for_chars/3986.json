@@ -1,0 +1,82 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "亲近而态度不庄重；亲昵而轻慢。",
+      "examples": [
+        "狎昵",
+        "狎侮",
+        "狎客"
+      ],
+      "traditional_char": "狎"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "习惯，熟悉。",
+      "examples": [
+        "习以为狎"
+      ],
+      "traditional_char": "狎"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "更替，轮流。",
+      "examples": [
+        "更相狎集"
+      ],
+      "traditional_char": "狎"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "拥挤。",
+      "examples": [
+        "车骑并狎"
+      ],
+      "traditional_char": "狎"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "驯养犬只，驯犬。",
+      "examples": [],
+      "traditional_char": "狎"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 4,
+      "note": "形声字，从犬，甲声。本义为驯犬。犬表示与狗有关，甲为声旁。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 4,
+      "target_index": 0,
+      "evolution_type": "metaphor",
+      "note": "由驯犬引申为亲近不庄重，古代驯犬常表表现出亲昵行为。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "亲近产生熟悉后引申出“习惯”义。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "unknown",
+      "note": "“更替”义的具体演变机制不明，大约与轮流亲近、熟悉相关。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "unknown",
+      "note": "“拥挤”义推测为人与人亲近导致聚集，但具体机制不明。"
+    }
+  ]
+}

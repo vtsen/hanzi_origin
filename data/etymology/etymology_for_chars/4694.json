@@ -1,0 +1,70 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古代女子随嫁陪嫁的妹妹或女子，常指嫁女时从嫁的女弟。",
+      "examples": [
+        "古之嫁女者，以姪娣从，自适而下，凡谓之娣。",
+        "妻之女弟为娣。——《诗·大雅·韩奕》"
+      ],
+      "traditional_char": "娣"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "古代姐妹共嫁一夫，年长者为姒，年幼者为娣；亦指同夫之妾中年幼者。",
+      "examples": [
+        "娣姒妇者，弟长也。——《仪礼·丧服子夏传》",
+        "诸娣从之。——《诗·大雅·韩奕》"
+      ],
+      "traditional_char": "娣"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "古代女性互称，如姐妹、妯娌、兄嫂、弟媳之间的称呼，特指年幼的女子；泛指妹妹。",
+      "examples": [
+        "娣妇（兄妻称弟妻）",
+        "姊娣悉慕媖娴，妪媪咸仰慧德。——《红楼梦》"
+      ],
+      "traditional_char": "娣"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "母亲的妹妹。",
+      "examples": [
+        "女子同出谓后生内娣。——《尔雅·释亲》"
+      ],
+      "traditional_char": "娣"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从女，弟声，表指随嫁的女子。本义为古代出嫁女子随嫁的女弟。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由随嫁女弟扩展为姐妹共嫁一夫、妾中年幼者。春秋、先秦见用。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由同夫之妾、姐妹合嫁泛化为女性间年幼者、妯娌等称呼。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "古本义的旁支，将对女性中晚辈的称呼延展为母亲的妹妹。"
+    }
+  ]
+}

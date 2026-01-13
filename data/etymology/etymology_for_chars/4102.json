@@ -1,0 +1,72 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "田地，耕作的土地，多用于地名。",
+      "examples": [
+        "田垌",
+        "合伞垌",
+        "儒垌"
+      ],
+      "traditional_char": "垌"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "地名用字，用于中国部分地名（如儒垌、合伞垌、垌冢等）。",
+      "examples": [
+        "垌冢",
+        "合伞垌",
+        "儒垌"
+      ],
+      "traditional_char": "垌"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [
+        "宋有垌夫。"
+      ],
+      "traditional_char": "垌"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "〔韩〕池、堤防等相关水利设施（朝鲜、韩国汉字用法）",
+      "examples": [
+        "鑿地池貯水",
+        "堰堤"
+      ],
+      "traditional_char": "垌"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从土，童声；表声音，表示与土地相关。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "以‘田地’为地名用字，常见地名来源"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "以地名或地名相关词作为姓氏，由地转姓"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "朝鲜汉字用法，义向与土地有关的堤、防、池等扩展"
+    }
+  ]
+}

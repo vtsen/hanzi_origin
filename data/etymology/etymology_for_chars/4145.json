@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "木名，枰仲木。",
+      "examples": [
+        "華楓枰櫨。——《文選·司馬相如·上林賦》",
+        "枰，平仲木也。——郭璞注"
+      ],
+      "traditional_char": "枰"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "棋盘，指棋类游戏所用的平面盘面。",
+      "examples": [
+        "思不出乎一枰。——韋昭《博弈論》",
+        "所志不過一枰之上，所務不過方罫之閒。——《博奕論》",
+        "時帝與中書令張華圍棋，而預表適至，華推枰斂手。——《晉書·杜預傳》"
+      ],
+      "traditional_char": "枰"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "独坐的板床（一种平直的小床）。",
+      "examples": [
+        "枰，平也，以板作之，其體平正也。——《釋名·釋牀帳》",
+        "床三尺五曰榻板，獨坐曰枰，八尺曰床。——《初學記》"
+      ],
+      "traditional_char": "枰"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从木，平声，初指一种树名（平仲木）。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "因独坐板床为木制、平正，如木的性质，语源由木名转为指平板家具。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由“平直的板床”引申为“平的棋盘”，因棋盘和板床都是木制平板。"
+    }
+  ]
+}

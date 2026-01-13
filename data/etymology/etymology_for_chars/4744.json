@@ -1,0 +1,93 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "扔，摔，掷。",
+      "examples": [
+        "劈手把鸡夺了，掼在地下。",
+        "掼纱帽",
+        "他掼了一个跟头"
+      ],
+      "traditional_char": "摜"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "跌，使跌倒。",
+      "examples": [
+        "把他掼倒了",
+        "柳青《铜墙铁壁》：老陈从合作社到区上，沿路滑得摜了好几交。"
+      ],
+      "traditional_char": "摜"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "佩带；披戴。",
+      "examples": [
+        "顶盔掼甲",
+        "晋·葛洪《抱朴子·博喻》：摜甲缨胄"
+      ],
+      "traditional_char": "摜"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "握住东西的一端摔打另一端。",
+      "examples": [
+        "掼稻",
+        "明·徐光启《农政全书》：各举稻把摜之，子粒随落，积于簟上。"
+      ],
+      "traditional_char": "摜"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "习惯（古义，与“惯”同）。",
+      "examples": [
+        "《说文》：摜，习也。《春秋传》曰：摜瀆鬼神。",
+        "今本《左传·昭公二十六年》作“贯瀆鬼神”。"
+      ],
+      "traditional_char": "摜"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 4,
+      "note": "‘摜’形声字，从手，贯声，初本表示‘习惯’或‘重复操作’之意。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘掼’为‘摜’的简化字，形声字，从手，贯声，本义为扔、摔。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 4,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "由‘习惯’之意转指反复穿戴之动作，发生意义转移，约汉魏六朝。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 0,
+      "evolution_type": "semantic_shift",
+      "note": "‘习惯’到‘反复抛掷/用手扔’的行为，可能因动作的重复性，义项分化，发生年代不明。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "‘扔、摔’动作进一步引申为‘使人跌倒’。用例见明清白话。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "‘扔、摔’动作拓展为‘握一端摔另一端’，常用于农活等场景，明清普及。"
+    }
+  ]
+}

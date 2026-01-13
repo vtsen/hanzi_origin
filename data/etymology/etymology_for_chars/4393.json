@@ -1,0 +1,70 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "套在裤子外面的裤子，套裤，指胫衣。",
+      "examples": [
+        "身衣羊裘皮绔。",
+        "平生无襦今五绔。",
+        "绔，胫衣也。"
+      ],
+      "traditional_char": "絝"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "裤，一般性的裤子，与“裤”同义。",
+      "examples": [],
+      "traditional_char": "絝"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "绊络，网络。",
+      "examples": [
+        "绔白虎。——司马相如《上林赋》。注：“谓绊络之也。”"
+      ],
+      "traditional_char": "絝"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "“絝”的简化字。",
+      "examples": [],
+      "traditional_char": "绔"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从糸，夸声，本义为套裤。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 3,
+      "note": "“绔”是“絝”的简化字，形声结构。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由专指胫衣（套裤）扩展为一般裤子的含义。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由衣物引申为绑络、网络之物，器物转义。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "function_word",
+      "note": "“绔”为“絝”的简化字，两义同源。"
+    }
+  ]
+}

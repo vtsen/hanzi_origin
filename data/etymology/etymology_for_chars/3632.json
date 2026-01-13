@@ -1,0 +1,103 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adverb",
+      "meaning": "岂，难道（用于反问）",
+      "examples": [
+        "庸詎知吾所謂知之非不知邪？庸詎知吾所謂不知之非知邪？",
+        "華亭鶴唳詎可聞。"
+      ],
+      "traditional_char": "詎"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adverb",
+      "meaning": "无；非；不",
+      "examples": [
+        "至如一去絕國，詎相見期。",
+        "創制立事，各有其時，樂為此者，詎幾人也。"
+      ],
+      "traditional_char": "詎"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adverb",
+      "meaning": "曾（表示过去某种状态）",
+      "examples": [
+        "爾祭詎幾時，朔望忽復盡。",
+        "暑往詎幾時，涼歸亦云暫。"
+      ],
+      "traditional_char": "詎"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "conjunction",
+      "meaning": "如果，假如",
+      "examples": [
+        "詎非聖人必偏而後可。",
+        "詎有薪者邪？"
+      ],
+      "traditional_char": "詎"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adverb",
+      "meaning": "不料，哪知",
+      "examples": [
+        "詎十七日忽傳家母舟抵江干。",
+        "詎接了回條，又是推辭。"
+      ],
+      "traditional_char": "詎"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "大（通“巨”）",
+      "examples": [
+        "沛公不先破關中兵，公巨能入乎。",
+        "巨，讀曰詎，猶豈也。"
+      ],
+      "traditional_char": "詎"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "詎为形声字，从言，且声，最初义为‘岂’，表示反问。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由反问‘岂’引申为‘无/非/不’，汉魏六朝已见"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "反问引申为‘曾’，如强调问句表达过去，已晋代见"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "grammaticalization",
+      "note": "由副词‘岂’语气演变为连词‘如果’，先秦典籍见"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "反问‘岂’引申为“不料，哪知”之义，强调意外"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "通‘巨’用，义为‘大’，为假借用法"
+    }
+  ]
+}

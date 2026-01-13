@@ -1,0 +1,69 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "常绿乔木，叶大长椭圆形，果实球形，黄色，味甜，叶和核可入药，名为枇杷；也指这种植物的果实。",
+      "examples": [
+        "白居易《山枇杷诗》：“深山老去惜年华，况对东溪野枇杷。”",
+        "山枇杷、枇杷油"
+      ],
+      "traditional_char": "枇"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "古代一种长柄食器，用以取食或祭祀时承载牲体。",
+      "examples": [
+        "《礼记·杂记》：“枵以梧，枇以桑，长三尺。”",
+        "孔颖达疏：“枇者所以载牲体，从镬以枇升入于鼎，从鼎以枇载之于俎。”"
+      ],
+      "traditional_char": "枇"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "细齿木梳，用以梳头，即篦子。",
+      "examples": [
+        "《后汉书·济北惠王寿传》：“头不枇沐，体生疮肿。”"
+      ],
+      "traditional_char": "枇"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "排列、排序。",
+      "examples": [
+        "枇，一曰次也。（见《集韵》）"
+      ],
+      "traditional_char": "枇"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "“枇”从木，比声，本义为古代取食器，属形声字，后借指木名等。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_shift",
+      "note": "由古食器名称转借为常绿乔木名，多见于中古以后。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "转指以木制成的梳篦，因同属木制器物。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "引申为排列、排序之意，出现于后期字书。"
+    }
+  ]
+}

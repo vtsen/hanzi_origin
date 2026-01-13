@@ -1,0 +1,53 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "乌桕，落叶乔木，种子外覆白蜡层可制蜡烛肥皂，叶可制黑色染料，树皮叶入药，亦称桕树",
+      "examples": [
+        "行歇每依鵶舅影，挑頻時見鼠姑心。",
+        "蟹舍蕭條楓桕外，漁蠻煙火荻蘆中。"
+      ],
+      "traditional_char": "桕"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "桕脂，指乌桕的种子外的白色蜡层，可制油或蜡烛",
+      "examples": [
+        "階走楓林葉，窗催桕燭花。"
+      ],
+      "traditional_char": "桕"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "旧式门上榫槽，家具结构部件",
+      "examples": [
+        "兩個正是推門入桕。"
+      ],
+      "traditional_char": "桕"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘桕’为形声字，从木，酋声，本指植物乌桕。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由树名转指其产物桕脂，古今均见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "unknown",
+      "note": "由树名义引申为门窗结构部件，具体机制不详，疑因形状类似或借音。"
+    }
+  ]
+}

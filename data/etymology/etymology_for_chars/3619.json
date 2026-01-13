@@ -1,0 +1,69 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "相违背，颠倒，背离。",
+      "examples": [
+        "本末舛逆。",
+        "舛，对卧也。"
+      ],
+      "traditional_char": "舛"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "交互，交错。",
+      "examples": [
+        "舛互（交错）；舛驰。"
+      ],
+      "traditional_char": "舛"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "错乱，错误。",
+      "examples": [
+        "此臣所谓舛也。",
+        "无一字舛。"
+      ],
+      "traditional_char": "舛"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "不顺利，不幸。",
+      "examples": [
+        "命途多舛。"
+      ],
+      "traditional_char": "舛"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "由两只相背的脚形（夊）组成，会意字，表示相违背、相背的意思。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由相违背、对立引申为事物之间交错、交互，多用以描述方向、状态。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由‘相违背’引申为‘错乱’、‘错误’，语义逐步转向认知混乱或事实错误。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由‘错乱’、‘错误’进一步引申为‘不顺利、命运多舛’，描述人生境遇不佳。"
+    }
+  ]
+}

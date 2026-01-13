@@ -1,0 +1,116 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "呼吸的声音、某些动物的叫声（主要作象声词，常叠用“咻咻”）",
+      "examples": [
+        "草中咻咻有寒兔，孤隼下击千丈驰。——苏轼《江上值雪》",
+        "咻咻"
+      ],
+      "traditional_char": "咻"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "吵闹、喧嚷、乱说话",
+      "examples": [
+        "一齐人傅之，众楚人咻之。——《孟子·滕文公下》",
+        "亲党咻曰：“生既以不孝讼……何以慟哭为？”——明·李贽《唐贵梅传》"
+      ],
+      "traditional_char": "咻"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "调唆、煽动",
+      "examples": [
+        "日咻其夫使叛其兄，乙牵于爱而听之。——宋·吴曾《能改斋漫录·記事一》"
+      ],
+      "traditional_char": "咻"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "嘘气、喘气",
+      "examples": [
+        "众口同一咻。——清·黄遵宪《纪事》"
+      ],
+      "traditional_char": "咻"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "悲戚之声、病中呻吟或安慰病人的声音",
+      "examples": [
+        "噢咻，病声。——《广韵》",
+        "噢咻，痛念之声。——《玉篇》"
+      ],
+      "traditional_char": "咻"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "温暖、温和，用气温之",
+      "examples": [
+        "山川之所习，风气之所咻，四方之民一也。——宋·苏轼《策别十九》",
+        "咻仁喣慈，百倍为艰。——元·姚燧《皇太后尊号玉册文》"
+      ],
+      "traditional_char": "咻"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "咆哮（通“烋”）",
+      "examples": [
+        "克翦方命，吞灭咆咻。——晋·左思《魏都赋》"
+      ],
+      "traditional_char": "咻"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "咻为形声字，从口，肃声。本义为气声或动物叫声，属象声字。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由象声词转用作动词，表示发出该声音的动作，如喘气、嘘气。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "由表示声音转指悲戚、病中呻吟或安慰病人的声音。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由嘈杂呼吸引申为吵闹、喧嚷。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由喧闹引申为调唆、煽动。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "reanalysis",
+      "note": "与“烋”通用，由呼吼声音引申为咆哮。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 5,
+      "evolution_type": "metaphor",
+      "note": "嘘气引申为气以温人，表示温暖、温和。"
+    }
+  ]
+}

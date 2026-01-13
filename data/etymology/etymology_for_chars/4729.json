@@ -1,0 +1,94 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "下葬，把棺材埋入土中",
+      "examples": [
+        "司墓之室有當道者，毀之，則朝而堋。——《左傳·昭公十二年》"
+      ],
+      "traditional_char": "堋"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "射垛，習射場中用來張射設靶的小土牆",
+      "examples": [
+        "橫弓先望堋。——庾信《北園射堂新成詩》",
+        "射堋命中萬人看。——陸游《春感》"
+      ],
+      "traditional_char": "堋"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "分水堤，灌溉用的堤坝",
+      "examples": [
+        "壅江作堋，堋有左右口，謂之湔堋。——《水經注》"
+      ],
+      "traditional_char": "堋"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "群集，群聚（通“朋”）",
+      "examples": [
+        "堋淫于家。"
+      ],
+      "traditional_char": "堋"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "other",
+      "meaning": "振動；振動的樣子",
+      "examples": [],
+      "traditional_char": "堋"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "onomatopoeia",
+      "meaning": "象聲詞，形容土牆塌下的聲音",
+      "examples": [],
+      "traditional_char": "堋"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从土，朋声。原意为丧葬下土，埋棺。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由埋土、下葬引申为土筑之物，成为射箭用的土墙；时间为战国至汉代。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由土墙射垛进一步比喻为分水堤坝，均为土筑结构；多见于两汉及后世水利记载。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "‘堋’假借‘朋’用，表示群集。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "unknown",
+      "note": "“振動”之义来源尚不明确，或与土体运动有关。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 5,
+      "evolution_type": "synecdoche",
+      "note": "由“振動”引申为象声词，指土塌声。"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "水鸟，俗称“野鸭”，似鸭，雄的头部绿色，背部黑褐色，雌的全身黑褐色，常群游湖泊中，能飞。",
+      "examples": [
+        "凫雁起于渚泽。",
+        "野凫游湖面。"
+      ],
+      "traditional_char": "鳬"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "同“浮”，漂浮在水面。",
+      "examples": [
+        "舟凫而不沉。"
+      ],
+      "traditional_char": "鳬"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "〔凫茈〕古书上指“荸荠”。",
+      "examples": [
+        "食凫茈以解渴。"
+      ],
+      "traditional_char": "鳬"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "同“洑”，指水中潜游或漂流。",
+      "examples": [
+        "凫水而行。"
+      ],
+      "traditional_char": "鳬"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从鸟，孚声，本指水鸟。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_shift",
+      "note": "由水鸟可浮于水面，引申为漂浮之意，古今皆有用例。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由漂浮引申涵盖水中潜游、漂流等动作，义项扩展。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "“凫茈”，以鸟名指食物荸荠，或因生境相关，关系不明，保留疑义。"
+    }
+  ]
+}

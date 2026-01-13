@@ -1,0 +1,58 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古代系印章或佩玉用的丝带，通常根据官职有颜色区分。",
+      "examples": [
+        "授单于印绂。",
+        "解故印绂奉上。",
+        "怀玺藏绂。"
+      ],
+      "traditional_char": "紱"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "古代作祭服的蔽膝，缝于长衣之前，作为礼服的服饰。",
+      "examples": [
+        "朱绂方来。",
+        "周制帝王、诸侯及诸国的上卿皆着朱绂。"
+      ],
+      "traditional_char": "紱"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "同“黻”，古代礼服上的一种花纹绣饰。",
+      "examples": [],
+      "traditional_char": "紱"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从糸，犮声，表示与丝线相关，初指系印绶带。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "繁体‘紱’与简体‘绂’相同，从糸，犮声，最早指系印官的丝带。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由本义‘系印之绶带’引申为‘蔽膝’之祭服部位，春秋战国至汉代便有此用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "因礼服相关，后泛指礼服上类似‘黻’之纹饰，具体语义关系有学界争议。"
+    }
+  ]
+}

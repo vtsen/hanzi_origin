@@ -1,0 +1,87 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "巡夜人巡逻时敲打以报更的木梆",
+      "examples": [
+        "夕击柝而比之。",
+        "鲁击柝闻于邾。",
+        "抱关击柝而不以为寡。",
+        "朔气传金柝。",
+        "候卒击柝卫太尉。"
+      ],
+      "traditional_char": "柝"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "泛指夜间巡更时所敲之木制器具",
+      "examples": [
+        "金柝"
+      ],
+      "traditional_char": "柝"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "onomatopoeia",
+      "meaning": "敲击木梆时发出的声音",
+      "examples": [
+        "柝柝"
+      ],
+      "traditional_char": "柝"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "判，分开，劈开",
+      "examples": [
+        "柝居（分家，分居）"
+      ],
+      "traditional_char": "柝"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "通“拓”，开拓，扩展疆域",
+      "examples": [
+        "廓四方，柝八极。",
+        "武皇帝攘四夷广土柝境，面数千里。"
+      ],
+      "traditional_char": "柝"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从木，橐声，表示巡夜用的木梆子。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由专指巡夜梆子扩展至所有巡夜敲击之器。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "以敲击梆子的动作转指发出的声音。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由敲打木器引申为分判木块，即‘判’、‘分开’。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "‘柝’通“拓”，用于‘开拓’义，见于《淮南子》。"
+    }
+  ]
+}

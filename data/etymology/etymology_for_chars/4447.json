@@ -1,0 +1,83 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "常绿乔木，叶长圆状披针形，果实球形表面有短刺，木材坚硬，可作船橹轮轴等，树皮含鞣酸可制栲胶和染料。亦指“山樗”。",
+      "examples": [
+        "山有栲，隰有杻。（《诗·唐风·山有枢》）",
+        "山毛櫸科栲屬植物的總稱。"
+      ],
+      "traditional_char": "栲"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "栲胶：由栲树皮提取的鞣酸制成的胶。",
+      "examples": [
+        "栲底皮鞋"
+      ],
+      "traditional_char": "栲"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "栲栳：一种用竹子或柳条编的盛东西的器具，形状像斗。",
+      "examples": [
+        "他提着一个栲栳去地里干活。"
+      ],
+      "traditional_char": "栲"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "栲栳：夸张地形容人或动物的头部。",
+      "examples": [
+        "他的脑袋像个栲栳。"
+      ],
+      "traditional_char": "栲"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "拷打：通“拷”，指审问鞭打。",
+      "examples": [
+        "則嚴栲連累之人而承之。（宋欧阳修《上皇帝万言书》）"
+      ],
+      "traditional_char": "栲"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从木，尻声，形声字。本指栲树（山樗）。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "树木及其提取物胶的关系，属于部分代整体。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "因栲树木材坚硬可制器具，器具名借用为竹柳编斗。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由器具形状比喻头部，属形似转喻。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "“栲”假借为“拷”用，属于通假字。"
+    }
+  ]
+}

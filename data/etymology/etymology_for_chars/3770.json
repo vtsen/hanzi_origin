@@ -1,0 +1,70 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "浑沌无知的样子，愚昧无知",
+      "examples": [
+        "沌沌无知",
+        "沌乱"
+      ],
+      "traditional_char": "沌"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "我国古代传说中天地未分以前混沌一团的状态，也泛指混乱、未开通之貌",
+      "examples": [
+        "混沌未分",
+        "混沌初开"
+      ],
+      "traditional_char": "沌"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "水名，在湖北一带，今称沌水",
+      "examples": [
+        "自此入沌。沌读如篆。",
+        "沌水"
+      ],
+      "traditional_char": "沌"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "水势汹涌的样子",
+      "examples": [
+        "沌沌混混，状如奔马"
+      ],
+      "traditional_char": "沌"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 2,
+      "note": "‘沌’从水，屯声，本为水名。后由水名引申出混浊、混沌之义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由具体的水名引申为水流汹涌之貌，用描述水的状态。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由水势混浊汹涌比喻宇宙未分、混乱状态，形成‘混沌’的抽象哲学义。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "由天地未分的‘混沌’引申为人的愚昧无知状态。"
+    }
+  ]
+}

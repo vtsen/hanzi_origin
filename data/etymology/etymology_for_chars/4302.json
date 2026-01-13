@@ -1,0 +1,114 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "子孙，后裔，后嗣",
+      "examples": [
+        "周公之胤。——《左传》",
+        "胤子朱启明。——《书·尧典》"
+      ],
+      "traditional_char": "胤"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "继承，相承；继续延续",
+      "examples": [
+        "予乃胤保大相东土。——《书·洛诰》",
+        "胤殷周之失业。——《剧秦美新》"
+      ],
+      "traditional_char": "胤"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "设立嫡长子为太子或世子",
+      "examples": [
+        "齐桓不胤，而忘其宗绪。——《古文苑·百官箴》"
+      ],
+      "traditional_char": "胤"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "身孕",
+      "examples": [
+        "便则夫人有胤。——《佛本行集经变文》"
+      ],
+      "traditional_char": "胤"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "演奏（乐曲），演",
+      "examples": [
+        "发东歌，操南音，胤《阳阿》。——《文选·左思〈吴都赋〉》"
+      ],
+      "traditional_char": "胤"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "乐曲名/乐曲体裁",
+      "examples": [
+        "详观夫曲胤之繁会丛杂，何其富也。——《文选·马融〈长笛赋〉》"
+      ],
+      "traditional_char": "胤"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "古国名",
+      "examples": [
+        "胤侯命掌六师。——《书·胤征》"
+      ],
+      "traditional_char": "胤"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意字，从‘肉’表示血统关系，从‘八’表示延续，从‘幺’表示重叠，本义为子孙后嗣。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由后裔引申为相承、继承、延续。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_narrowing",
+      "note": "从一般的继承引申为特指立太子、世子的行为。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "由相承、血脉延续引申为孕育。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "由延续义引申为乐曲的演奏、展开。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "由演奏义引申为乐曲名或体裁。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "unknown",
+      "note": "古国名“胤”，与“子孙后裔”可能有关，但具体联系不详。"
+    }
+  ]
+}

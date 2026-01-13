@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "感到惭愧，羞愧。",
+      "examples": [
+        "仰不愧于天，俯不怍于人。",
+        "其言之不怍，则为之也难。",
+        "自憎惭怍，不敢与较。"
+      ],
+      "traditional_char": "怍"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "面色改变（多指因羞愧或紧张而变色）。",
+      "examples": [
+        "将即席，容毋怍。",
+        "颜色毋怍。",
+        "孝子临尸而不怍。"
+      ],
+      "traditional_char": "怍"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "心多奸诈（用于“㤉怍”一词）。",
+      "examples": [
+        "㤉怍，多奸也。"
+      ],
+      "traditional_char": "怍"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从心，作声。形声字，“心”表意，表示心理活动，“乍”作声旁。最初指惭愧之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "心理惭愧情感引发外在面色改变，意项演变于先秦已见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "惭愧的心理含义转为“㤉怍”，专指奸诈心理，义项狭化，用于复合词组，后世少用。"
+    }
+  ]
+}

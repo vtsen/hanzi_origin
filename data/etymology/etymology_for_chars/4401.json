@@ -1,0 +1,135 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "用珠子或玉石做的耳饰，亦称耳璫。",
+      "examples": [
+        "傅玑之珥。《史记·李斯传》",
+        "母脱簪珥付之去，孝廉弗闻也。"
+      ],
+      "traditional_char": "珥"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "剑柄上端像两耳的突出部分，剑鼻。",
+      "examples": [
+        "抚长剑兮玉珥。《楚辞》"
+      ],
+      "traditional_char": "珥"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "日、月两旁如耳状的光晕现象。",
+      "examples": [
+        "月晕有两珥，白虹贯之。《隋书》"
+      ],
+      "traditional_char": "珥"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "插戴（如插笔、插貂等于头帽之侧）。",
+      "examples": [
+        "七叶珥汉貂。《左思·咏史诗》",
+        "珥笔。"
+      ],
+      "traditional_char": "珥"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "贯耳，用物穿耳。",
+      "examples": [
+        "神人珥两黄蛇。《山海经·大荒东经》"
+      ],
+      "traditional_char": "珥"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "通“衈”，祭祀时割牲取血以涂祭器。",
+      "examples": [
+        "以岁时序其祭祀及其祈珥。《周礼》"
+      ],
+      "traditional_char": "珥"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "通“刵”，古代狩猎后割取禽兽左耳以计功。",
+      "examples": [
+        "致禽而珥焉。《周礼·地官·山虞》"
+      ],
+      "traditional_char": "珥"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "verb",
+      "meaning": "通“咡”，吐。",
+      "examples": [
+        "蚕珥丝而商弦绝。《淮南子》"
+      ],
+      "traditional_char": "珥"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘珥’从玉，耳声，初指以玉珠为耳饰。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "由耳饰引申为插戴其他物品，多指头饰。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "因剑鼻突出如耳饰，喻为剑珥。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "日月侧晕形如耳饰，两旁对称，形象引申。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_shift",
+      "note": "贯耳：由佩戴耳饰泛指穿耳。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "synecdoche",
+      "note": "插戴泛化为用物贯耳，两者语义有交集。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "‘珥’假借为‘衈’，借音表示祭祀取血。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "假借‘刵’，狩猎割耳记功。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 7,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "假借‘咡’，表示吐。"
+    }
+  ]
+}

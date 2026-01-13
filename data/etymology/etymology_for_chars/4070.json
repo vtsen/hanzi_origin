@@ -1,0 +1,69 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "劣马，走不快的马。",
+      "examples": [
+        "驽马十驾，功在不舍。——《荀子》",
+        "凶年则乘駑马。——《礼记·杂记下》"
+      ],
+      "traditional_char": "駑"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "下等家畜，泛指劣等的动物。",
+      "examples": [
+        "駑犬（劣犬）；駑骡（劣骡）"
+      ],
+      "traditional_char": "駑"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "喻愚钝、无能，才能低下。",
+      "examples": [
+        "相如虽驽，独畏廉将军哉？——《史记·廉颇蔺相如列传》",
+        "臣衡材駑，无以辅相善义。——《汉书·匡衡传》"
+      ],
+      "traditional_char": "駑"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "比喻迟钝、懒散。",
+      "examples": [
+        "性复疏懒，筋駑肉缓。——嵇康《与山巨源绝交书》"
+      ],
+      "traditional_char": "駑"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字。从马，奴声。本义为劣马。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "‘劣马’义外延至一般劣等动物。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "以‘劣马’喻指人才能低下、愚钝无能，见先秦及汉代用例。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由‘才能低下’引申为‘迟钝、懒散’。魏晋典籍见明用。"
+    }
+  ]
+}

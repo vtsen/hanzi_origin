@@ -1,0 +1,162 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "隐逸的人，遁世而居之人",
+      "examples": [
+        "佚民者，独乐其身之民也。——朱骏声《说文通训定声》"
+      ],
+      "traditional_char": "佚"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "散失，失落或遗失",
+      "examples": [
+        "宣帝之时，得佚《尚书》及《易》、《礼》各一篇。——《论衡》",
+        "其马将佚。——《荀子·哀公篇》"
+      ],
+      "traditional_char": "佚"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "弃用，逃亡，隐遁",
+      "examples": [
+        "遗佚而不怨，厄穷而不悯。——《孟子》",
+        "其佚获奈何?——《公羊传·成公二年》"
+      ],
+      "traditional_char": "佚"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "过失，错失",
+      "examples": [
+        "惟予一人有佚罚。——《书·盘庚上》"
+      ],
+      "traditional_char": "佚"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "放荡，放纵",
+      "examples": [
+        "男女淫佚。——《汉书》",
+        "乐佚游。——《论语·季氏》"
+      ],
+      "traditional_char": "佚"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "adjective",
+      "meaning": "安逸，舒适",
+      "examples": [
+        "佚，乐也。——《广雅》",
+        "安于佚乐。——宋·苏轼《教战守》"
+      ],
+      "traditional_char": "佚"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "adjective",
+      "meaning": "美丽",
+      "examples": [
+        "那娘娘生得来仙姿佚貌，说不尽幽闲窈窕。——清·洪《长生殿》",
+        "见有娀之佚女注"
+      ],
+      "traditional_char": "佚"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "周有佚之狐。见《左传·僖公三十年》"
+      ],
+      "traditional_char": "佚"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "noun",
+      "meaning": "行列，舞蹈队列（通“佾”）",
+      "examples": [
+        "其佚则接芬错芳。——《古文苑·扬雄·蜀都赋》"
+      ],
+      "traditional_char": "佚"
+    },
+    {
+      "index": 9,
+      "part_of_speech": "verb",
+      "meaning": "轮替，更迭（通“迭”）",
+      "examples": [
+        "四海佚兴，更为伯主。——《史记·十二诸侯年表序》"
+      ],
+      "traditional_char": "佚"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从人，失声，表示与人有关，声符‘失’，本义为隐逸之人"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由‘隐逸的人’扩展为‘隐遁/逃亡’、‘弃用’之义，见战国、两汉用法"
+    },
+    {
+      "source_index": 2,
+      "target_index": 1,
+      "evolution_type": "semantic_shift",
+      "note": "隐遁引申为‘遗失，散失’，古今多见"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "行为不合正轨引申为‘过失，错失’"
+    },
+    {
+      "source_index": 2,
+      "target_index": 4,
+      "evolution_type": "semantic_shift",
+      "note": "逃逸、不守约束引申为‘放荡，放纵’"
+    },
+    {
+      "source_index": 4,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "从‘放纵’引申为‘安逸，舒适’"
+    },
+    {
+      "source_index": 5,
+      "target_index": 6,
+      "evolution_type": "metaphor",
+      "note": "安逸愉快引申作‘美丽’（多用以形容女子）"
+    },
+    {
+      "source_index": 0,
+      "target_index": 7,
+      "evolution_type": "unknown",
+      "note": "由词义衍生为姓氏，常见用法，具体路径不详"
+    },
+    {
+      "source_index": 2,
+      "target_index": 8,
+      "evolution_type": "synecdoche",
+      "note": "以‘隐逸/闲适状态’借指‘行列’（通假为‘佾’），汉赋中见"
+    },
+    {
+      "source_index": 2,
+      "target_index": 9,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "通假用为‘迭’（轮替、更替），仅古文文献有"
+    }
+  ]
+}

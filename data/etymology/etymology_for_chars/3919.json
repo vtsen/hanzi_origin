@@ -1,0 +1,87 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "喧闹声；吵闹。",
+      "examples": [
+        "載號載呶。《詩經·小雅·賓之初筵》",
+        "胖肆自安，今酣呶朝夕。——《新唐書·裴耀卿傳》"
+      ],
+      "traditional_char": "呶"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "喧哗，说话多且扰人。",
+      "examples": [
+        "呶嚷（吵闹）；呶呶（喧闹不止）；喧呶。",
+        "﹝奴﹞出入不得騎馬載車，踑坐大呶。《王褒·僮約》"
+      ],
+      "traditional_char": "呶"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "interjection",
+      "meaning": "表示让对方注意，多用于指出、示意等。",
+      "examples": [
+        "呶，信在这里，你看嘛！",
+        "呶，都是這裡頭了，兩年計劃。——劉賓雁《在橋梁工地上》"
+      ],
+      "traditional_char": "呶"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "嘴唇凸出，噘嘴示意。",
+      "examples": [
+        "呶嘴儿（突出嘴唇示意）。",
+        "壽生說着，就把嘴向裕昌祥那邊呶了一呶。《林家鋪子》"
+      ],
+      "traditional_char": "呶"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "挪动，移动。",
+      "examples": [
+        "呶椅子與他坐。《紅樓夢》",
+        "向她丈夫連連呶着嘴，做眼色。《山洪》"
+      ],
+      "traditional_char": "呶"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从口，奴声，本义为喧闹声。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "conversion",
+      "note": "由表示“喧闹声”的名词，转为表示“喧哗、吵闹”的动词，常见于古汉语动名转换。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由具体的“喧闹声”引申为叫喊以吸引注意，从而成为叹词。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "从喧哗、嘴多延伸，比喻嘴唇突出作出示意动作，即“呶嘴”。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "由口、嘴突出现象，引申为“挪动”或移动动作，形象比喻动作的突出、移动。"
+    }
+  ]
+}

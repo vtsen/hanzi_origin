@@ -1,0 +1,151 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "长时间地浸泡（如浸麻、浸草、堆肥等）",
+      "examples": [
+        "东门之池，可以沤麻。",
+        "沤麻池",
+        "漚凼",
+        "沤粪"
+      ],
+      "traditional_char": "漚"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "水中的气泡、浮泡",
+      "examples": [
+        "去年重阳不可说，南城夜半千沤发。",
+        "泛水轻沤霎那间，久难立。",
+        "沤点"
+      ],
+      "traditional_char": "漚"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "喻指虚空无常或短暂的世事、幻景",
+      "examples": [
+        "沤梦",
+        "沤珠槿艳"
+      ],
+      "traditional_char": "漚"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "水名，沤水，耒水上游之一",
+      "examples": [
+        "沤水"
+      ],
+      "traditional_char": "漚"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "通“鸥”，水鸟名",
+      "examples": [
+        "海上之人有好沤鸟者，每旦之海上，从沤鸟游。",
+        "狎沤"
+      ],
+      "traditional_char": "漚"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "憋闷在心（方言用法）",
+      "examples": [
+        "沤两天也不要紧，反正有我哩。",
+        "有意见不说沤在肚里，不是我们革命战士的性格。"
+      ],
+      "traditional_char": "漚"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "用香蜜等涂抹皮肤",
+      "examples": [
+        "宝玉沤了。",
+        "沤手香"
+      ],
+      "traditional_char": "漚"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "verb",
+      "meaning": "烧柴草等时燃烧不充分",
+      "examples": [
+        "草伏火中未然曰漚。"
+      ],
+      "traditional_char": "漚"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "verb",
+      "meaning": "拖延，延搁（方言用法）",
+      "examples": [
+        "我看这辩论还可以漚一漚，先抓紧突击麦收。"
+      ],
+      "traditional_char": "漚"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘漚’从水，區声，最早表示长时间浸泡，与水有关，属于形声字。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由浸泡产生的水泡隐喻物理上的泡沫。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由水泡虚浮、短暂，引申为世事虚无、幻景。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "由浸泡、积水等水相关特征转指地名（水名）。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "conversion",
+      "note": "借声用作‘鸥’以表音近，实际为通假字。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "metaphor",
+      "note": "由‘浸泡、闷在水中’引申为情绪闷在心中。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "semantic_extension",
+      "note": "从浸润引申为涂抹液体在皮肤上。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 7,
+      "evolution_type": "semantic_extension",
+      "note": "浸泡延伸为柴草未完全燃尽而潮湿不燃。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 8,
+      "evolution_type": "metaphor",
+      "note": "由原意‘滞留、浸’引申为‘拖延’（时间停滞）。"
+    }
+  ]
+}

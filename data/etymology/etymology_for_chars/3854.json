@@ -1,0 +1,38 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "甘草，一种药用植物。",
+      "examples": [
+        "苷，甘草也。从艸，从甘，会意。——《说文》",
+        "閒庭勝蒔苷。——王十朋诗"
+      ],
+      "traditional_char": "苷"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "甙，即糖苷，一种有机化合物。",
+      "examples": [
+        "苷，即糖苷。天然存在的或人工合成的糖缩醛衍生物（如花色苷、苦杏仁苷等）。"
+      ],
+      "traditional_char": "苷"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘苷’为形声字，从艸，‘甘’声，表示一种植物（甘草）。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "现代化学词汇引申，因甘草等含苷类（糖苷）物质，遂以‘苷’指代相关化合物。"
+    }
+  ]
+}

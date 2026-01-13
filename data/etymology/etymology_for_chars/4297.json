@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [
+        "逄蒙学射于羿。",
+        "汉有逄安。"
+      ],
+      "traditional_char": "逄"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "塞，阻塞。",
+      "examples": [
+        "逄，塞也。——《集韵》"
+      ],
+      "traditional_char": "逄"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "同“逢”。遇见。",
+      "examples": [
+        "逄逢龙逄。",
+        "孟子有逄蒙。"
+      ],
+      "traditional_char": "逄"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "形声字，从辶，旁声，初本义为‘塞’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "古音近‘逢’，意转为‘遇见’；或受音近字影响。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 0,
+      "evolution_type": "metonymy",
+      "note": "以‘逄’作姓，多因采自本字，即以地名或族名转姓。"
+    }
+  ]
+}

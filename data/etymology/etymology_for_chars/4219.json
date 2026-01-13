@@ -1,0 +1,103 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古代帝王饲养禽兽的园林。",
+      "examples": [
+        "王在灵囿。",
+        "文王之囿方七十里。"
+      ],
+      "traditional_char": "囿"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "泛指菜园、果园等四周有围栏的园子。",
+      "examples": [
+        "囿有韭。",
+        "墟囿散红桃。"
+      ],
+      "traditional_char": "囿"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "萃聚、聚集之所；事物聚集的地方。",
+      "examples": [
+        "游乎六艺之囿。",
+        "吾闻京城南，茲維群山囿。"
+      ],
+      "traditional_char": "囿"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "局限，拘泥，限制。",
+      "examples": [
+        "囿于成见。",
+        "皆囿于物者也。"
+      ],
+      "traditional_char": "囿"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "划定的区域、领土或城池。",
+      "examples": [
+        "秦七攻魏，五入囿中。",
+        "因古九囿以置九州。"
+      ],
+      "traditional_char": "囿"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "古地名，即笠泽（今吴淞江）。",
+      "examples": [
+        "是故败吴于囿。",
+        "囿，笠泽也。"
+      ],
+      "traditional_char": "囿"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从‘囗’表示围绕、范围，有声，最初本义为帝王饲养禽兽的园林。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由特指帝王园林推广为一般有围栏的园子。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由实指园林转喻为抽象的‘聚集之所’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "从有围之地泛化为划定区域、领土之意。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "地名用法，沿用‘被界定之地’引申。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由聚集、包围之所，引申为限制、局限。"
+    }
+  ]
+}

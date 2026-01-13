@@ -1,0 +1,72 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "拯救，救助。",
+      "examples": [
+        "丞民于农桑，劝之以弗怠。"
+      ],
+      "traditional_char": "丞"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "辅佐，辅助。",
+      "examples": [
+        "丞弼（辅佐；也指辅佐的大臣或职位）；丞辅（辅助）",
+        "金印、紫绶，掌丞天子，助理万机。"
+      ],
+      "traditional_char": "丞"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "辅佐帝王治理国家事务的最高大臣或重要官员，亦为古官名。",
+      "examples": [
+        "丞相（古代辅佐帝王治理国家大事的首席大臣）",
+        "府丞、县丞（秦汉及以后，中央和地方官吏的副职）",
+        "独守丞与战谯门中。",
+        "天子之相号为丞相。"
+      ],
+      "traditional_char": "丞"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "秉承，接受（古同“承”）。",
+      "examples": [
+        "丞上指，请造白金及五铢钱。",
+        "前疑后丞。"
+      ],
+      "traditional_char": "丞"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "初文会意，上部两手，下为人陷阱中，合为“拯救”，后引申其它义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由“拯救”义引申为“协助、辅助”，体现援助义上的转移。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "“辅助”引申为担任辅助重要职务的官员，具体化称谓转义。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "reanalysis",
+      "note": "同音近义造成与“承”通用（秉承、接受）的假借，古籍多见。"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "一种带有皱纹的丝织品或纺织品。",
+      "examples": [
+        "绉纱",
+        "湖绉",
+        "双面绉"
+      ],
+      "traditional_char": "縐"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "皱纹。",
+      "examples": [
+        "古同“皱”，皱纹"
+      ],
+      "traditional_char": "縐"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "古代一种精细的葛布。",
+      "examples": [],
+      "traditional_char": "縐"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "形声字，从糸，声旁为“刍/芻”（古音zhòu），本义为皱纹。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "因丝织品表面具有皱纹纹理，故用“绉”指代带皱纹的纺织品。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "精细葛布或因其表面细密纹理而得名“绉”。"
+    }
+  ]
+}

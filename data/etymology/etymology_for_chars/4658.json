@@ -1,0 +1,69 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "从水中挹取、掘取或榨取",
+      "examples": [
+        "浚泥（掏取河泥）",
+        "浚取"
+      ],
+      "traditional_char": "浚"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "疏通，挖深（水道等）",
+      "examples": [
+        "疏浚",
+        "浚河"
+      ],
+      "traditional_char": "浚"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "深，深沉而有智慧",
+      "examples": [
+        "浚哲"
+      ],
+      "traditional_char": "浚"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "地名，河南省浚县",
+      "examples": [
+        "河南浚县"
+      ],
+      "traditional_char": "浚"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，“氵”表示与水有关，“雋”表音，初义为从水中挹取。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从“掘取、挹取”扩展为疏通、挖深河道。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由疏深之意，引申为深、深沉的智慧。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "unknown",
+      "note": "用作地名，发展过程不明，常见于地名传承。"
+    }
+  ]
+}

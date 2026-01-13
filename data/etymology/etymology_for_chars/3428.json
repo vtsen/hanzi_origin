@@ -1,0 +1,72 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "做酒剩下的渣滓，酒渣。",
+      "examples": [
+        "酒糟",
+        "糟粕",
+        "糟蛋"
+      ],
+      "traditional_char": "糟"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "腐朽，腐烂。",
+      "examples": [
+        "糟烂",
+        "糟朽"
+      ],
+      "traditional_char": "糟"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "坏，糟糕。",
+      "examples": [
+        "事情办糟了",
+        "糟糕"
+      ],
+      "traditional_char": "糟"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "作践，损害。",
+      "examples": [
+        "糟蹋",
+        "糟践"
+      ],
+      "traditional_char": "糟"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从米，曹声，表示与米(酿酒)有关，本义为带渣滓之酒。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "以酒渣腐烂为喻，引申为腐朽腐烂。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由腐烂喻事物变坏，现代表示糟糕、坏。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "由‘坏’义引申为‘作践、损害’。"
+    }
+  ]
+}

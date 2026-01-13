@@ -1,0 +1,91 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "高，大；高峻。",
+      "examples": [
+        "崇山峻岭",
+        "崇高"
+      ],
+      "traditional_char": "崇"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "尊重，推重，敬仰。",
+      "examples": [
+        "崇敬",
+        "崇拜",
+        "推崇",
+        "尊崇"
+      ],
+      "traditional_char": "崇"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "终了，结束（古同“终”）。",
+      "examples": [],
+      "traditional_char": "崇"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "充满，充盈。",
+      "examples": [
+        "崇酒于觞"
+      ],
+      "traditional_char": "崇"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "增加，增长。",
+      "examples": [
+        "今将崇诸侯之奸"
+      ],
+      "traditional_char": "崇"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [],
+      "traditional_char": "崇"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从山，宗声，本义为山高大；‘山’表意，‘宗’表声。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "从‘高大’引申为‘品德或地位高’，进而表示‘尊重敬仰’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由‘高大’引申为‘充盈’、‘充满’。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由‘充满’进一步引申为‘增加，增长’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "‘崇’假借为‘终’，用于‘终了’义。"
+    }
+  ]
+}

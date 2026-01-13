@@ -1,0 +1,90 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "常绿乔木，柏科，木材桃红色，有香味，叶有鳞形和刺形，可作建筑材料，亦称“圆柏”“刺柏”。",
+      "examples": [
+        "團團山上檜，歲歲閱榆柳。",
+        "柏葉松身者，檜也。"
+      ],
+      "traditional_char": "檜"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "古代棺材盖上的装饰。",
+      "examples": [
+        "棺有翰檜。",
+        "翰，旁飾；檜，上飾。"
+      ],
+      "traditional_char": "檜"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "方言，野猪的窝。",
+      "examples": [
+        "臨淮人謂野豬所寢為檜。"
+      ],
+      "traditional_char": "檜"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "古国名，祝融之后，今郑州一带。",
+      "examples": [
+        "檜，國名……其君妘姓，祝融之後。",
+        "自鄶而下無譏焉。"
+      ],
+      "traditional_char": "檜"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "人名用字，多读作“huì”，如秦桧。",
+      "examples": [
+        "秦桧，南宋奸臣。"
+      ],
+      "traditional_char": "檜"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“檜”形声字，从木，会声，最初表示常绿乔木，即圆柏。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“桧”为“檜”的简化字，形声结构，表同原意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "用木材制作棺材盖、装饰，引申为其装饰名称，见先秦文献。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "因圆柏树根部形态或结构似猪窝，以檜指代野猪窝，多见于方言。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "以地多檜树、或以檜树为地标引申为古国名，见《诗经》《左传》古书。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "function_word",
+      "note": "该字用于人名，多作为姓氏或名中的表记用字，如南宋秦桧。"
+    }
+  ]
+}

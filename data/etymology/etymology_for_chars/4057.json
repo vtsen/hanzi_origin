@@ -1,0 +1,52 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "夸耀",
+      "examples": [],
+      "traditional_char": "詫"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "惊讶，觉得奇怪",
+      "examples": [
+        "惊诧",
+        "诧异",
+        "诧为奇事"
+      ],
+      "traditional_char": "詫"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "诳，欺骗",
+      "examples": [
+        "甘言诧语"
+      ],
+      "traditional_char": "詫"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从言，宅声，初本指夸耀。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_shift",
+      "note": "古义“夸耀”后转为“惊讶、奇怪”，语义由主观炫耀转到对异常事物的惊奇。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "从夸耀引申为夸大其词，进而有‘诳、欺骗’之义。"
+    }
+  ]
+}

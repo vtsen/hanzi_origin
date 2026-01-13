@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "刚直，理直气壮，从容不迫的样子",
+      "examples": [
+        "侃侃而谈",
+        "侃然正色，论前世事。",
+        "子路侃侃如也"
+      ],
+      "traditional_char": "侃"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "和乐的样子",
+      "examples": [
+        "我徒侃尔，乐亦在而。",
+        "冉有子贡侃侃如也"
+      ],
+      "traditional_char": "侃"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "调侃、戏谑、闲聊",
+      "examples": [
+        "隔墙酬和都瞎侃。",
+        "别侃了"
+      ],
+      "traditional_char": "侃"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从‘人’旁，‘㐰’声，表示人的刚直品质。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“刚直”引申为“和乐、从容”，两义在古文中相通。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "从理直气壮到自由闲聊、调侃的现代用法，多见于口语。"
+    }
+  ]
+}

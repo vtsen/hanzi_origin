@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "周朝诸侯国名，在今山西省临猗县西南。",
+      "examples": [
+        "鲁桓公五年，为曲沃所灭。故址在今山西省临猗县西南。",
+        "《诗·曹风·下泉》：“四国有王，郇伯劳之。”"
+      ],
+      "traditional_char": "郇"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [
+        "汉代有郇越。",
+        "《广韵》：郇，姓，出绛州。"
+      ],
+      "traditional_char": "郇"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "姓氏（音huán）。",
+      "examples": [
+        "唐代有郇模。",
+        "《广韵》：郇，亦姓也，音环。"
+      ],
+      "traditional_char": "郇"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从邑，旬声。原为地名，用于周代诸侯国。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由地名引申为姓氏，常见于中国古代地名转姓的现象。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由地名引申为另一读音的姓氏，读音由“xún”转为“huán”，部分用例见唐代。"
+    }
+  ]
+}

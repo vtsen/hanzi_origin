@@ -1,0 +1,83 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "操作劳苦，辛苦劳作",
+      "examples": [
+        "予手拮据。",
+        "文物陪巡狩，亲贤病拮。"
+      ],
+      "traditional_char": "拮"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "举，向上举起",
+      "examples": [
+        "揭，举也。或作拮。——《集韵》"
+      ],
+      "traditional_char": "拮"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "敲击，击打",
+      "examples": [],
+      "traditional_char": "拮"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "逼迫，用力逼迫，催逼",
+      "examples": [
+        "勾践终拮而杀之。",
+        "拮，‘戛’同，擽也，盖逼之。——鲍彪注"
+      ],
+      "traditional_char": "拮"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "经济状况困窘，拮据",
+      "examples": [
+        "经济境况不好，困窘。",
+        "拮据，困顿。"
+      ],
+      "traditional_char": "拮"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从手，吉声，表示手口共有所作，指劳作。本义为操劳辛苦。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "由劳苦的动作，引申为生活困苦、经济拮据（手脚劳作以谋生）。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由手的动作，扩展为向上举起。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "操作、劳作也可引申为敲击、击打之手部动作。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "由用力劳作引申为用力逼迫、催促，义有变化。"
+    }
+  ]
+}

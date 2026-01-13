@@ -1,0 +1,69 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古国名；古地名，在今江苏省扬州市东北",
+      "examples": [
+        "吴城邗，沟通江、淮。——《左传·哀公九年》",
+        "一曰邗本属吴。——《说文》"
+      ],
+      "traditional_char": "邗"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "古城名",
+      "examples": [
+        "于邗江筑城穿沟，东北通射阳湖，西北至宋口入淮。"
+      ],
+      "traditional_char": "邗"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "水名，即邗沟、邗江、邗溟沟，春秋时吴王夫差所开凿的运河，在今江苏省",
+      "examples": [
+        "隋大业元年重开邗沟，略循建安故道。",
+        "正目断古邗，暮靄凝积。——宋·《暗香》"
+      ],
+      "traditional_char": "邗"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "邗子者，自言蜀人也。——《列仙传·邗子》"
+      ],
+      "traditional_char": "邗"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从邑，干声；以表示与地名相关的邑落或国家，属于形声字结构。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由国名延伸为具体城名，与地理实体相关，春秋至汉时期。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "以国名或地名转指其地水道，即邗沟、邗江；汉及隋以后尤常见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "地名转为姓氏，符合常见中国姓氏来源。"
+    }
+  ]
+}

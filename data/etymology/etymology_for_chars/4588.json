@@ -1,0 +1,40 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "被子，大被。",
+      "examples": [
+        "抱衾與裯。《诗·召南·小星》",
+        "布衾多年冷似铁。——唐·杜甫《茅屋为秋风所破歌》",
+        "生则同衾，死则同穴。——《西厢记》"
+      ],
+      "traditional_char": "衾"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "尸体入殓时盖尸的被子。",
+      "examples": [
+        "缁衾赬里，无紞。——《仪礼·士丧礼》",
+        "谓棺槨衣衾之美也。——《孟子·梁惠王下》"
+      ],
+      "traditional_char": "衾"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字。从衣，今声。本义为大被。部件‘衣’表意指衣被，‘今’表音。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_narrowing",
+      "note": "用泛指被子的本义，发展为专指殓尸覆盖所用的被子，见于丧葬礼仪。"
+    }
+  ]
+}

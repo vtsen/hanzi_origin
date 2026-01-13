@@ -1,0 +1,50 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "光盛，明亮的樣子。",
+      "examples": [
+        "揚雄《甘泉賦》：乘景炎之炘炘。"
+      ],
+      "traditional_char": "炘"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "加熱、燒灼，灼燒。",
+      "examples": [
+        "《法苑珠林》卷一•八：人在鑊中，隨沸出沒……內盡炘爛，而猶不死。"
+      ],
+      "traditional_char": "炘"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "熱，炙熱。",
+      "examples": [],
+      "traditional_char": "炘"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 2,
+      "note": "左為火旁表火熱之義，右為欣聲，形聲字，原指熱。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 2,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“熱”引申為“燒”、“灼燒”之動作，用於描述熱力作用。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 0,
+      "evolution_type": "metaphor",
+      "note": "從“熱”比喻引申出“光盛、明亮”之義，以火熱產生明亮之象。"
+    }
+  ]
+}

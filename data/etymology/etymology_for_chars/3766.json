@@ -1,0 +1,58 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "水名，古代和今陕西省境内的一条河流。",
+      "examples": [
+        "漆沮既从，沣水攸同。——《书·禹贡》",
+        "灃水出鄠县南。"
+      ],
+      "traditional_char": "沣"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "周代地名，在今陕西省户县。",
+      "examples": [
+        "以茲丘之勝，致之灃、鎬、鄠、杜，則貴游之士爭買者，日增千金而愈不可得。——唐 柳宗元《鈷鉧潭西小丘記》"
+      ],
+      "traditional_char": "灃"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "形容雨水充沛。",
+      "examples": [
+        "一奏之，有云从西北起；再奏之，暴雨亟至，大雨沣沛。——汉·应劭《风俗通》"
+      ],
+      "traditional_char": "灃"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“沣”为形声字，‘水’为意旁，‘丰’为声旁，表示水名。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "“灃”为“沣”的繁体，形声结构，‘水’旁表意，‘丰’声旁，原指水名及其地名。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由河流名称引申为地名，历史上常见现象。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由水流充沛引申为形容雨水充沛，用作形容词。"
+    }
+  ]
+}

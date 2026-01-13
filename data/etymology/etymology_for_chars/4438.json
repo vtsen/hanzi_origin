@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "芫荽，一年生草本植物，通称香菜，具强烈香气，可食用或入药。",
+      "examples": [
+        "蔥中亦種胡荽，尋手供食，乃至孟冬。",
+        "蓼荽芬芳。"
+      ],
+      "traditional_char": "荽"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "薑类药用植物，通“葰”，具体植物不详。",
+      "examples": [
+        "荾作葰同。",
+        "與葰同。"
+      ],
+      "traditional_char": "荽"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "药草名，通“萎”，可入药。",
+      "examples": [
+        "荽藥草通作萎。",
+        "熒委萎葉似作表白裏青可啖。"
+      ],
+      "traditional_char": "荽"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从艸，委声。本义为香草，后引申。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_shift",
+      "note": "由指香草泛指某些薑类植物，以声近通假。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "由香菜泛引为其他可药用草本，与“萎”通假，隋唐时期文献有见。"
+    }
+  ]
+}

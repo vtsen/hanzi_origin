@@ -1,0 +1,40 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "急迫，急切",
+      "examples": [
+        "亟需解决",
+        "亟待改进",
+        "时亟不容缓"
+      ],
+      "traditional_char": "亟"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adverb",
+      "meaning": "屡次，多次",
+      "examples": [
+        "亟请于朝",
+        "亟来问讯"
+      ],
+      "traditional_char": "亟"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "‘亟’为形声字，从殳，音义兼取，初本‘屡次’之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_shift",
+      "note": "由‘屡次’引申为‘急迫’，因多次即催促意味，发展为急切。"
+    }
+  ]
+}

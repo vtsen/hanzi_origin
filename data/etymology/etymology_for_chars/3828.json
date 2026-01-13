@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "珍珠；珠之名。",
+      "examples": [
+        "玭，珠也。——《说文》",
+        "流羽毛之威蕤，垂环玭之琳瑯。——何晏《景福殿赋》",
+        "宋宏曰：淮水中出玭珠，玭珠珠之有聲者。"
+      ],
+      "traditional_char": "玭"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "蚌的别名，产珠之蚌。",
+      "examples": [
+        "玭本是蚌名，以為珠名。——段玉裁注《说文》",
+        "玭，蚌也。——韋昭",
+        "如：玭珠（蚌珠的别名）"
+      ],
+      "traditional_char": "玭"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [],
+      "traditional_char": "玭"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从王，表示玉石类，比声；本义为珍珠，含义后扩展并有声旁。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "metonymy",
+      "note": "因蚌产珠，名称由蚌泛指其产之珠，东汉以降见于段玉裁。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "conversion",
+      "note": "以物名为氏，一般为周秦至两汉姓氏形成常见方式。"
+    }
+  ]
+}

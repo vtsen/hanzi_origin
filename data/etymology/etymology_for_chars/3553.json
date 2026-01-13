@@ -1,0 +1,99 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "水的水平，水的平面。",
+      "examples": [
+        "汀，平也。——《说文》",
+        "水平谓之汀，因之洲渚之平谓之汀。——段玉裁注"
+      ],
+      "traditional_char": "汀"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "水边的平地，小洲。",
+      "examples": [
+        "绿杨枝外尽汀洲。——李商隐《安定城楼》",
+        "岸芷汀兰。——范仲淹《岳阳楼记》"
+      ],
+      "traditional_char": "汀"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "古河流名。今汀江，在福建省西南部。",
+      "examples": [
+        "汀江，福建省西南部河流。"
+      ],
+      "traditional_char": "汀"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "古州名。汀州，唐置，在今福建省长汀县。",
+      "examples": [
+        "唐置汀州，治今福建省长汀县。"
+      ],
+      "traditional_char": "汀"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "稀泥，泥浆。",
+      "examples": [
+        "汀濘，泥淖也。"
+      ],
+      "traditional_char": "汀"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "小水流或水清澈的样子。",
+      "examples": [
+        "汀瀅，小水也。"
+      ],
+      "traditional_char": "汀"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，丁声；表示水的平面或水平。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由水的平面引申为水边的平地、小洲，见段玉裁注。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "以地形特征借指具体河流，汀江。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "用河名指代沿河设立的州，汀州。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "semantic_shift",
+      "note": "水边平地引申为泥、泥浆，义的转化尚有争议。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "由水边引申指小水流或水清澈貌。"
+    }
+  ]
+}

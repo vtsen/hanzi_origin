@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "发出光芒，照射",
+      "examples": [
+        "阳光耀眼",
+        "照耀大地"
+      ],
+      "traditional_char": "耀"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "显扬，炫示",
+      "examples": [
+        "炫耀自己的成绩",
+        "夸耀武功"
+      ],
+      "traditional_char": "耀"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "光荣、荣誉",
+      "examples": [
+        "无上的荣耀",
+        "为国争耀"
+      ],
+      "traditional_char": "耀"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从光，翟声，表示照耀之意"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由物理发光引申为显露、显扬的行为；汉代后常见"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由显扬进一步引申为荣誉、光荣；近现代用法"
+    }
+  ]
+}

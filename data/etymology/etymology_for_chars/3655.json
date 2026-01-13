@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "小型防御工事，小堡垒，庳城。",
+      "examples": [
+        "堡坞",
+        "设有坞守"
+      ],
+      "traditional_char": "塢"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "四面高中间低凹之地。",
+      "examples": [
+        "山坞",
+        "花坞"
+      ],
+      "traditional_char": "塢"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "水边停泊船只或修造船只的地方，船坞。",
+      "examples": [
+        "船坞",
+        "造船坞"
+      ],
+      "traditional_char": "塢"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘塢’为形声字，土为形，吴为声；本义为小型防御工事。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "防御堡垒引申为周围高地中间凹地，因形似堡垒包围。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "中间低凹引申为水边专门停泊船只的凹地、船坞。"
+    }
+  ]
+}

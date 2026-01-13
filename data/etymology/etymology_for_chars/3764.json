@@ -1,0 +1,85 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "中国古代西部的民族（羌族），以游牧为主，分布于今甘肃、青海、四川一带",
+      "examples": [
+        "西戎牧羊人也。——《说文》",
+        "庸蜀羌髳。——《书·牧誓》"
+      ],
+      "traditional_char": "羌"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "中国现存的少数民族名，主要分布于四川省（羌族）",
+      "examples": [
+        "羌族以茂县、汶川等为中心聚居。",
+        "羌笛"
+      ],
+      "traditional_char": "羌"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "particle",
+      "meaning": "文言助词，多用于句首，无实义",
+      "examples": [
+        "羌内恕己以量人兮，各兴心而嫉妒。——《楚辞·离骚》"
+      ],
+      "traditional_char": "羌"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "conjunction",
+      "meaning": "连词，用于表示假设、转折、并列等关系，相当于“乃”“反而”",
+      "examples": [
+        "羌声色兮娱人，观者憺兮忘归。——《楚辞·九歌·东君》",
+        "余以兰为可恃兮，羌无实而容长。"
+      ],
+      "traditional_char": "羌"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "秦有羌瘣，见《史记·秦始皇本纪》"
+      ],
+      "traditional_char": "羌"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从人从羊，羊亦声，会意兼形声。古文释为‘西戎牧羊人’，表示西方游牧民族。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_narrowing",
+      "note": "古‘羌’本泛指西部游牧民族，后特指今民族学意义上的羌族。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "grammaticalization",
+      "note": "由民族名引申为句首语气助词，见于先秦楚辞等文。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "grammaticalization",
+      "note": "由羌的辞义引申为连词，多见于文言文。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "function_word",
+      "note": "民族名发展为姓氏，历史常见。"
+    }
+  ]
+}

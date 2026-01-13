@@ -1,0 +1,105 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "割草，收割谷类植物。",
+      "examples": [
+        "乂，芟草也。——《说文》",
+        "乂草。"
+      ],
+      "traditional_char": "乂"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "治理，管理。",
+      "examples": [
+        "乂，治也。——《尔雅》",
+        "有能俾乂。——《书·尧典》",
+        "保国乂民。——《汉书·武五子传》"
+      ],
+      "traditional_char": "乂"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "安定，太平。",
+      "examples": [
+        "朝野安乂。——《北史·齐文宣帝纪》",
+        "今三方鼎峙，生民未乂。"
+      ],
+      "traditional_char": "乂"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "有才能的人，贤才。",
+      "examples": [
+        "俊乂在官。——《书·皋陶谟》",
+        "儁乂盈朝。",
+        "山東有相所謂孟嘗君者，其人賢人，天下無急則已，有急則能收天下英乂雄俊之士與合交連友者，疑獨此耳。"
+      ],
+      "traditional_char": "乂"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "杀害、惩戒。",
+      "examples": [
+        "堯試舜之時，頑傲者既已格乂矣。",
+        "懲，創也。《說文》云乂亦懲也。"
+      ],
+      "traditional_char": "乂"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "医治、治疗。",
+      "examples": [
+        "艾可乂疾，久而彌善。——《埤雅·釋草》",
+        "有疾而不可乂也。"
+      ],
+      "traditional_char": "乂"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意。从丿相交，象割草之形，初义为割草或收割谷物。构形与“刈”相关。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由割草引申为治理事务，古代视“割除杂草”如整治政务，先秦已见。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "治理引申为国家安定、社会太平。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "由治理者引申指有治理才能的人，即贤才。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_shift",
+      "note": "从割草进一步引申为杀害、惩戒，用于行为处罚，汉代文献有此用法。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "治理引申为医疗、治疗，喻治病如治政，见于古籍词义流变。"
+    }
+  ]
+}

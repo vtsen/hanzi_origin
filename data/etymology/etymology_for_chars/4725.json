@@ -1,0 +1,92 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "增加，增益，附加",
+      "examples": [
+        "政事一埤益我。——《诗·邶风·北门》",
+        "削长埤短，可数百里。——鲍照《登大雷岸与妹书》"
+      ],
+      "traditional_char": "埤"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "城上的矮墙，女墙，城堞",
+      "examples": [
+        "掖垣竹埤梧十寻。——杜甫《题省中院壁》",
+        "及反郑之埤。——《商君书·赏刑》"
+      ],
+      "traditional_char": "埤"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "低湿之地",
+      "examples": [
+        "松柏不生埤。——《国语·晋语八》",
+        "其埤湿则生藏莨蒹葭。——《子虚赋》"
+      ],
+      "traditional_char": "埤"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "低下，低矮；引申为卑鄙、鄙陋",
+      "examples": [
+        "其流也埤下。——《荀子·宥坐》",
+        "终身不免埤污傭俗。——《荀子·非相》"
+      ],
+      "traditional_char": "埤"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "一百亩田",
+      "examples": [
+        "田百亩谓之埤。"
+      ],
+      "traditional_char": "埤"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从土，卑声，本义为“增加”，《说文解字》明言；“土”表与土地、地面有关。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由“增加、附加”引申为“附加在城上的矮墙”，即城上加筑的短墙。形义相关，见于两汉以降城墙语境。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "由“附加、增益”转义为低洼、湿地，可能因地形低导致溢积、增加水分，晋代后见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由“增厚、附加”引申为“低矮、卑下”，常作形容词，先秦即有。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "“埤”表区块、附加单位，引申为田地计量单位，一百亩为一埤，见于古籍。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 2,
+      "evolution_type": "synecdoche",
+      "note": "由“低下”引申为“低湿之地”，部分指称整体，或整体指部分，具体时代不详，但皆以低矮为核心。"
+    }
+  ]
+}

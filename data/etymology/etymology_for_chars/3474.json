@@ -1,0 +1,83 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "松软的土，可耕之地",
+      "examples": [
+        "沃壤",
+        "壤土",
+        "土壤"
+      ],
+      "traditional_char": "壤"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "地，与“天”相对",
+      "examples": [
+        "霄壤",
+        "天壤之别"
+      ],
+      "traditional_char": "壤"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "地区，区域",
+      "examples": [
+        "壤界",
+        "接壤",
+        "穷乡僻壤"
+      ],
+      "traditional_char": "壤"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "古同“攘”，纷乱",
+      "examples": [],
+      "traditional_char": "壤"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "古同“穰”，五谷丰收",
+      "examples": [],
+      "traditional_char": "壤"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从土，襄声，本义为松软的土、可耕之地。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“可耕之地”引申为泛指‘地’（与天对举），用于文学修辞。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由“土地”引申为“地区、区域”，常见于合成词。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "“壤”假借为“攘”，表示纷乱，见于古文用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "“壤”假借为“穰”，意指五谷丰收，多见于古代文献。"
+    }
+  ]
+}

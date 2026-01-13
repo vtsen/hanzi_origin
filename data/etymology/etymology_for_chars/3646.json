@@ -1,0 +1,99 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "下等丝，劣等的丝绸。",
+      "examples": [
+        "紇，絲下也。——《說文》",
+        "給，大絲。——《集韻》"
+      ],
+      "traditional_char": "紇"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "古代民族名（回纥）。",
+      "examples": [
+        "回紇，古代民族名。",
+        "唐書：回紇，古羌族分支。"
+      ],
+      "traditional_char": "紇"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "姓氏名。",
+      "examples": [
+        "叔梁紇，孔子之父。——《左傳·襄公十年》"
+      ],
+      "traditional_char": "紇"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "结，块状物（如“紇繨”）。",
+      "examples": [
+        "紇繨，同“疙瘩”，指丝结、小球形或块状物。"
+      ],
+      "traditional_char": "紇"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "onomatopoeia",
+      "meaning": "笑声或其他模仿性声音（如“紇地”）。",
+      "examples": [
+        "紇地（笑的声音）。"
+      ],
+      "traditional_char": "紇"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "骂人的话，讥讽意（如“紇刺星”）。",
+      "examples": [
+        "紇刺星，骂人的话，指魔星，灾星。"
+      ],
+      "traditional_char": "紇"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“紇”从糸（表示丝），气声，形声字，本义为下等丝。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由丝本义引申为结、小块状，因丝结形成物体状。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "民族名“回纥”由丝的音义借用，无语义联系，仅音借。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "姓氏源于名物，音借关系。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "结、小块状引申为声词，象声。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "由结、小块象征不吉、灾异，演变为骂人的词。"
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "用茅草或草等编成的覆盖物，如草席、草帘子、苫盖等",
+      "examples": [
+        "白盖谓之苫。——《尔雅》",
+        "苫，盖也。——《说文》",
+        "寝苫。——《仪礼·既夕礼》",
+        "草苫子"
+      ],
+      "traditional_char": "苫"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "古代居丧时孝子睡的草垫子",
+      "examples": [
+        "寝苫枕草。——《左传·襄公十七年》",
+        "布苫柩侧，取石为枕，不解衣而卧者三月。——明·宋濂《黄氏墓铭》"
+      ],
+      "traditional_char": "苫"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "用草、席、布等遮盖物品或屋顶",
+      "examples": [
+        "刈茅苫鹿屋，插棘护鸡栖。——宋·陆游《幽居岁莫》",
+        "快把麦子苫上"
+      ],
+      "traditional_char": "苫"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "（方言、古义）供养，赡养",
+      "examples": [
+        "枉了我便一生苫鰥寡孤独，半世养贫寒困苦。——元·刘君锡《来生债》"
+      ],
+      "traditional_char": "苫"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "颤动，动作不和谐（多见于方言及古文）",
+      "examples": [
+        "俺一家儿努眼苫眉，只待要逼苏秦险些上吊。——元·《冻苏秦》"
+      ],
+      "traditional_char": "苫"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "苫夷，春秋鲁季氏家臣。见《左传·定公七年》"
+      ],
+      "traditional_char": "苫"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "一种药草（青苫），古籍记载",
+      "examples": [],
+      "traditional_char": "苫"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从艸，‘占’声。最早指草编成的覆盖物。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_narrowing",
+      "note": "草苫作丧葬用专指孝子所卧草垫，汉代已见"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "conversion",
+      "note": "由名词（覆盖物）引申为动词（用覆盖物遮盖）"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "unknown",
+      "note": "义项‘供养’可能系借用，具体机制不明"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "unknown",
+      "note": "‘颤动’义或由物体覆盖时颤动引申，具体机制存疑"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "unknown",
+      "note": "用作姓氏，常见汉字用法"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "semantic_shift",
+      "note": "‘青苫’义由草名转化，因其植物特性命名"
+    }
+  ]
+}

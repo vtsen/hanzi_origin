@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "眼睛明亮，眼珠明净",
+      "examples": [
+        "胸中正，则眸子瞭焉。《孟子·离娄上》",
+        "眡瞭三百人。《周礼》"
+      ],
+      "traditional_char": "瞭"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "明白，清楚，通“了”",
+      "examples": [
+        "言瞭于耳，则事味于心。《论衡·自纪》",
+        "瞭然（明白，清楚）"
+      ],
+      "traditional_char": "瞭"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "远望，从高处或远处观望",
+      "examples": [
+        "我军瞭敌遽飞炮，一弹轰雷百人扫。——清 黄遵宪《东沟行》",
+        "你老人家在北山上给我们瞭一瞭哨吧！《铜墙铁壁》"
+      ],
+      "traditional_char": "瞭"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从目，尞声，表‘眼珠明亮’之意"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "明亮用于比喻心中明白，语义转移于先秦时期"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由‘目明’引申为‘视野远、能远望’，转为表示远望、张望"
+    }
+  ]
+}

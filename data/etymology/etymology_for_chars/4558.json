@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "用竹篾、铁丝等编成的杓形漏勺，能漏水，用于在汤水中捞取食物。",
+      "examples": [
+        "将笊籬笊起溝內殘飯。",
+        "竹笊篱"
+      ],
+      "traditional_char": "笊"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "用笊篱捞取。",
+      "examples": [
+        "用笊籬笊起溝內殘飯。",
+        "笊點肉丸"
+      ],
+      "traditional_char": "笊"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "穴居鸟类的窝。",
+      "examples": [
+        "鳥居穴曰笊，居樹曰巢。"
+      ],
+      "traditional_char": "笊"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“笊”从竹，肇声。本义为竹制编具，与‘竹’相关，声旁取音。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "conversion",
+      "note": "名词作动用，指用笊篱进行捞取。汉语习惯用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "以笊篱为喻，形状似洞穴之鸟窝，故引申为鸟的穴窝。出自《集韻》记载。"
+    }
+  ]
+}

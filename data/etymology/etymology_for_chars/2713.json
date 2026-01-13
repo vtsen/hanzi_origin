@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "人体或动物内脏之一，在胃的左下侧，是重要的贮藏血液和最大的淋巴器官。",
+      "examples": [
+        "脾脏",
+        "他因脾受损而生病。"
+      ],
+      "traditional_char": "脾"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "中医学指五脏之一，有运化水谷、统摄血液等功能。",
+      "examples": [
+        "脾胃同治",
+        "调理脾胃"
+      ],
+      "traditional_char": "脾"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从“月”（表示肉体、器官），“卑”作声符，本义指脾脏。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由具体脏器名称引申为中医五脏中的“脾”。"
+    }
+  ]
+}

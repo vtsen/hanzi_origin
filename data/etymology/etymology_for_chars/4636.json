@@ -1,0 +1,68 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "郸（鄲），地名，在中国河南省、河北省等地，如“郸城”、“邯郸”",
+      "examples": [
+        "邯郸，河北省地名。",
+        "郸城，河南省县名。"
+      ],
+      "traditional_char": "鄲"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "郡、縣名，古代封国名，亦作“鄲”，如西汉时的鄲侯国。",
+      "examples": [
+        "史記•高祖功臣侯者年表：“鄲，中元年，封紲子康侯應元年。”"
+      ],
+      "traditional_char": "鄲"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "完尽，終了。",
+      "examples": [
+        "後漢書•光武帝紀上：“進至邯鄲”，李賢注引《漢書音義》：“鄲，盡也。邯山至此而盡。”"
+      ],
+      "traditional_char": "鄲"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "particle",
+      "meaning": "通“但”，僅，只。",
+      "examples": [
+        "漢 揚雄 《法言•淵騫》：“鄲聞以德詘人矣，未聞以德詘於人也。”"
+      ],
+      "traditional_char": "鄲"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从邑，表示与地名有关，单声作声符，本义是地名。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "地名用以指相关政区（如县、侯国等），古今沿用，范围/用法有所扩展。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "地理边界之尽，引申为事物之“尽”、“終了”，汉代文献可见。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "由‘尽’转为语助用法、只、仅，出现于文言中，结构虚化。"
+    }
+  ]
+}

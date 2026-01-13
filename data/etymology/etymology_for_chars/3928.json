@@ -1,0 +1,38 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "湖南衡山主峰之一的山名，亦称“岣嶁山”或作为衡山的别名。",
+      "examples": [
+        "禹在岣嶁山得金简玉书。",
+        "衡阳城北有岣嶁峰。"
+      ],
+      "traditional_char": "岣"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "山顶。",
+      "examples": [
+        "岣嶁，山顶也。"
+      ],
+      "traditional_char": "岣"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘岣’为形声字，从山，句声，本指山名，后用于地名。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由山名转指山顶的部位，属部分代整体。"
+    }
+  ]
+}

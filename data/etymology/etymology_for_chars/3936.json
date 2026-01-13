@@ -1,0 +1,98 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "多，重复，杂乱不清",
+      "examples": [
+        "沓沓",
+        "杂沓"
+      ],
+      "traditional_char": "沓"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "水翻腾沸涌",
+      "examples": [
+        "沓浪竞奔注"
+      ],
+      "traditional_char": "沓"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "合，结合",
+      "examples": [
+        "天与地沓"
+      ],
+      "traditional_char": "沓"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "贪婪，苟且（多指贪官）",
+      "examples": [
+        "沓贪",
+        "沓吏"
+      ],
+      "traditional_char": "沓"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "measure_word",
+      "meaning": "量词，用于叠起来的纸张或其他薄的东西",
+      "examples": [
+        "一沓儿纸",
+        "一沓子"
+      ],
+      "traditional_char": "沓"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "adjective",
+      "meaning": "话多，唠叨（本义）",
+      "examples": [],
+      "traditional_char": "沓"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 5,
+      "note": "会意字，从水从曰，表示说话多如流水。本义为话多。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 5,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "‘话多’扩展为‘多，重复，杂乱’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由‘多、重复’的状态引申为水翻腾不止。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由东西多、杂乱，引申出融合、结合之意。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "由‘多’引申为‘贪得无厌’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由‘多、重复’进一步用作叠起来的纸张等量词。"
+    }
+  ]
+}

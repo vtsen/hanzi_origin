@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "蚂蚁做窝时堆在穴口的小土堆；蚁冢",
+      "examples": [
+        "鹳鸣于垤。",
+        "蚍蜉其场谓之坻，或谓之垤。"
+      ],
+      "traditional_char": "垤"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "小土丘，小土堆",
+      "examples": [
+        "太山之于丘垤，河海之于行潦，类也。",
+        "人莫蹪于山，而蹪于垤。"
+      ],
+      "traditional_char": "垤"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "凸起",
+      "examples": [
+        "高低垤坳，了了行去，不至蹶躓。"
+      ],
+      "traditional_char": "垤"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从土，至声，本义为蚁冢小土堆。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由特指蚁堆小土堆，扩大为泛指小土丘，汉代起有泛化用法。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由“小土堆”义引申为“一切凸起”的地形描述。"
+    }
+  ]
+}

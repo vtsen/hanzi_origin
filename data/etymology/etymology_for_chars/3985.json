@@ -1,0 +1,87 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古代记载的一种猴子，泛指猕猴等猿类动物。",
+      "examples": [
+        "众狙皆怒。——《庄子·齐物论》",
+        "一狙山上鸣，一狙从之游。——王安石《秃山》"
+      ],
+      "traditional_char": "狙"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "窥伺，暗中观察动静，伏伺以求机会。",
+      "examples": [
+        "从狙而好小察。——《管子·七臣七主》",
+        "良与客狙击秦皇帝博浪沙中。——《史记·留侯世家》"
+      ],
+      "traditional_char": "狙"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "狡猾，诡诈。",
+      "examples": [
+        "化狙为良，柔雄为雌，而后天下可定。——唐甄《潜书·尊孟》",
+        "一曰玃属而狡黠，言兵家如之而可喜。——《战国策》注"
+      ],
+      "traditional_char": "狙"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "玃属动物（古书中还指大猿或其他猿猴类动物）。",
+      "examples": [
+        "说文：玃属，从犬且声。",
+        "狙一名獦牂，似猿而狗头。——《庄子·齐物论》释文引司马注"
+      ],
+      "traditional_char": "狙"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "犬，特指短暂咬人或不咬人的犬（古义义项）。",
+      "examples": [
+        "一曰犬暂齧人者。一曰犬不齧人者。——《说文》",
+        "狙，犬也。——《集韵》"
+      ],
+      "traditional_char": "狙"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 3,
+      "note": "“狙”从犬且声，为形声字，声旁‘且’指音，犬旁表义，初指玃属猿猴类。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 3,
+      "target_index": 0,
+      "evolution_type": "semantic_narrowing",
+      "note": "从泛指玃属动物或猿猴类，逐渐特指猕猴等猴类，汉代后语义细化。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "猴子的狡黠形象引申为形容人狡猾、诡诈。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由猴子善于窥伺、观察环境的特性，引申为动词“窥伺”。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "semantic_shift",
+      "note": "古籍偶有以‘狙’指某类犬，属于后起义项，属义项漂移。"
+    }
+  ]
+}

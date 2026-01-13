@@ -1,0 +1,100 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "枋树，一种木材坚硬的树，可作车材。",
+      "examples": [
+        "枋，枋木也。可作车，从木，方声。——《说文》",
+        "我决起而飞，枪榆枋。——《庄子·逍遥游》"
+      ],
+      "traditional_char": "枋"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "用于筑堤堰的大木桩。",
+      "examples": [
+        "后背洪枋巨堰，深渠高堤者也。——《水经注》"
+      ],
+      "traditional_char": "枋"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "方柱形木材，如房屋中两柱之间的横木；泛指木棒。",
+      "examples": [
+        "夹岸累石结以为门，用代木门枋。——《水经注·沁水》",
+        "突然，他抓起一根短短的木枋，站起来，走到柜台边。——谭秀牧《失去的黑金刚》"
+      ],
+      "traditional_char": "枋"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "通“舫”，竹木编成的筏。",
+      "examples": [
+        "集韵：甫妄切，去漾，通“舫”。"
+      ],
+      "traditional_char": "枋"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "通“柄”，器物的把手或权柄。",
+      "examples": [
+        "枋，柄也。——《周礼·春官·内史》",
+        "宾受醴于户东，加柶面枋，筵前北面。——《仪礼·士冠礼》"
+      ],
+      "traditional_char": "枋"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "measure_word",
+      "meaning": "量词，多用于兵器。",
+      "examples": [
+        "并献宝刀一枋，以表忠诚。——清·夏燮《中西纪事·五口釁端》"
+      ],
+      "traditional_char": "枋"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从木，方声，本义为枋树，古时木材坚硬可作车。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "以枋树材质坚硬，引申为用于堤堰等大木桩，汉魏以来多见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "从木名引申为一般方柱形木材、横木、木棒。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "unknown",
+      "note": "与“舫”通用，可能源于语音接近，义同舟筏。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "unknown",
+      "note": "通“柄”，或因形状或读音关系。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 5,
+      "evolution_type": "conversion",
+      "note": "由器物的把手、权柄之义，转换为量词表示物品件数。"
+    }
+  ]
+}

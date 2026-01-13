@@ -1,0 +1,107 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "小而高的山；山峰。",
+      "examples": [
+        "山小而高曰岑。——《尔雅·释山》",
+        "明登天姥岑。——谢灵运《登临海峤诗》",
+        "步出西城门，遥望城西岑。——谢灵运",
+        "可使高于岑楼。——《孟子》"
+      ],
+      "traditional_char": "岑"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "崖岸，陡峭的山岩。",
+      "examples": [
+        "未始离于岑。——《庄子·徐无鬼》",
+        "山陵岑，渊泉闳流。——《管子·宙合》"
+      ],
+      "traditional_char": "岑"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "高，高耸，尖锐，陡峭。",
+      "examples": [
+        "岑，峰也。——吕向注",
+        "岑，高也。——《方言》",
+        "古观岑且寂，幽人情自怡。——皮日休",
+        "岑石（高锐的山石）；岑峭（陡峭险峻）"
+      ],
+      "traditional_char": "岑"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "other",
+      "meaning": "形容烦闷或头痛（岑岑），或形容寂静、深沉。",
+      "examples": [
+        "花落画屏，檐鸣细雨，岑，滴破相思万里心。——黄机《南乡子》词",
+        "我头岑也，药中得无有毒？——班固《汉书·孝宣许皇后传》",
+        "春梦岑呼不起，草绿庭空，日抱娇莺睡。——刘基《蝶恋花》"
+      ],
+      "traditional_char": "岑"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "古国名。",
+      "examples": [
+        "岑，国名。…今梁国有岑亭。——《正字通》"
+      ],
+      "traditional_char": "岑"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [
+        "东汉有岑彭。——《后汉书》",
+        "南阳岑氏。"
+      ],
+      "traditional_char": "岑"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从山，今声，表示小而高的山。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由名词山峰引申为形容高、尖锐等属性，见《方言》注。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由高山之形引申为陡峭的山岩或崖岸。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由‘高’的属性比喻烦闷、头痛（如堆积、沉重、寂静等抽象状态）；‘寂’亦由高静引申。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "用山峰名转指古国名（地望据山名）。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 5,
+      "evolution_type": "function_word",
+      "note": "由地名转化为姓氏，如同众多中国古姓演化机制。"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "用竹、藤等编成的小书箱，用于盛放书籍、衣巾、药物等，便于随身携带。",
+      "examples": [
+        "负笈从师。",
+        "学士所以负书箱。",
+        "白藤交穿织书笈，短策齐裁如梵夹。"
+      ],
+      "traditional_char": "笈"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "借指书籍、典籍。",
+      "examples": [
+        "孤本秘笈。",
+        "灵笈不妨闲纵览，重帏应念早归来。"
+      ],
+      "traditional_char": "笈"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "以笈装载、随身携带（多见于古文）。",
+      "examples": [
+        "遂笈典墳，袖文章，北来王都。",
+        "是年又笈贿适楚，始返楫于彭门。"
+      ],
+      "traditional_char": "笈"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从竹，及声。本义是竹制的书箱，表意与材料相关，‘及’作声旁。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由盛放书本的容器引申为所盛之物即书籍、典籍，见自中古以后。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "conversion",
+      "note": "名词作动词使用，引申为用笈装载、携带，常见于文言文用法。"
+    }
+  ]
+}

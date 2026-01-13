@@ -1,0 +1,107 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "（本义）犬类等动物性情凶猛、凶恶，不容易亲近。",
+      "examples": [
+        "犷，犬犷犷不可附也。——《说文》",
+        "犷彼淮夷。——《韩诗·泮水》",
+        "犷犷亡秦。——《汉书》"
+      ],
+      "traditional_char": "獷"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "性情粗野、粗鲁，不文雅。",
+      "examples": [
+        "且临守偏海，政移犷俗。——《后汉书·祭肜传》",
+        "犷语（粗野的语言）"
+      ],
+      "traditional_char": "獷"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "强悍，勇猛，蛮横不驯。",
+      "examples": [
+        "年十五，犷悍无赖，犯法当死，变姓柳，之盱眙市中为人说书。——清·黄宗羲《柳敬亭传》",
+        "獷野（强悍野蛮）"
+      ],
+      "traditional_char": "獷"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "文学或艺术风格粗犷、豪放。",
+      "examples": [
+        "苏曼殊《画跋》：予观西村杰作，有唐人之致，去其纤，有北宋之雄；去其獷，诚为空谷之音也。"
+      ],
+      "traditional_char": "獷"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "(通假) 覺悟的样子。通“憬”。",
+      "examples": [
+        "强民獷俗，反志迁情。——《文选·沈约〈齐故安陆昭王碑文〉》",
+        "（韩诗曰：‘獷彼淮夷。’薛君曰：‘獷，覺悟之貌。’）"
+      ],
+      "traditional_char": "獷"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "adjective",
+      "meaning": "简体“犷”的一般用法，与“獷”同。",
+      "examples": [
+        "粗犷、犷悍等现代用法"
+      ],
+      "traditional_char": "犷"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘獷’为形声字，从犬，广声，本义为犬凶猛凶恶。"
+    },
+    {
+      "formation_type": "simple_indicative",
+      "original_sense_index": 5,
+      "note": "‘犷’为‘獷’的简化字，犬旁指动物属性，实际上语义、用法均承自‘獷’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "从动物的凶猛引申为人的性格粗野，东汉文献可见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由动物的凶狠引申为人的勇猛、蛮横等含义，古今皆有用例。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "艺术风格由性格/气质的粗犷凶猛出发作进一步比喻。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "借音通‘憬’，表示觉悟义，文献偶见，存在假借现象。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "reanalysis",
+      "note": "‘犷’为‘獷’的简化或异体，语义基本等同且继承相同语源。"
+    }
+  ]
+}

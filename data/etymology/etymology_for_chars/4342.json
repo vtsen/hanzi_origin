@@ -1,0 +1,85 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "田间排水沟、大沟渠",
+      "examples": [
+        "修堤梁，通沟浍，行水潦，安水藏。",
+        "以浍写水。——《周礼·稻人》。注：“田尾去水大沟。”"
+      ],
+      "traditional_char": "澮"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "小水沟",
+      "examples": [
+        "醉者越百步之溝，以為蹞步之澮也。"
+      ],
+      "traditional_char": "澮"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "河名，如澮河、澮水",
+      "examples": [
+        "澮水，出平陽絳縣南，西入汾。",
+        "源出河南省，流经安徽省北部……最后流注洪泽湖"
+      ],
+      "traditional_char": "澮"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "古地名，如山西省翼城县一带",
+      "examples": [
+        "九年，魏败我澮。——《史记·韩世家》",
+        "澮，在陵州澮水之上也。"
+      ],
+      "traditional_char": "澮"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "水流汇聚，大水冲击",
+      "examples": [
+        "澮其崖岸，餘溜風吹，稍成龍形。"
+      ],
+      "traditional_char": "澮"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，会声。澮（浍）本义为田间大沟渠。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_narrowing",
+      "note": "由大沟渠义缩小泛指小沟。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "以沟义称河，地名取自水名。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "由河名转指其流经地，故为地名。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "从沟水的聚集，引申为“水流汇聚、大水冲击”。"
+    }
+  ]
+}

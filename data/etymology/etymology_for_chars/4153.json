@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "常绿灌木或小乔木，夏季开白花，有浓香，果实可入药或作染料，即“梔子”",
+      "examples": [
+        "我家院子里种了一株栀子花。",
+        "宋·梅尧臣《植梔子树二窠十一本于松侧》：“而我学种梔。”"
+      ],
+      "traditional_char": "梔"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "这种植物的果实",
+      "examples": [
+        "栀子可入药，也可作黄色染料。"
+      ],
+      "traditional_char": "梔"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "染成黄色，涂饰",
+      "examples": [
+        "今之栀其貌，蜡其言。",
+        "宋·柳宗元《鞭賈》：“今之梔其貌，蜡其言，以求賈技于朝。”"
+      ],
+      "traditional_char": "梔"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“栀”为形声字，从木，卮声，最早指黄木（栀子树），意指植物名。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_narrowing",
+      "note": "由指整个植物引申为指其果实，汉代已见。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "因栀子果可作染料，引申为“染色、涂饰”之意。"
+    }
+  ]
+}

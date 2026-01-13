@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "小而高、或险峻的山岭",
+      "examples": [
+        "苕递陟陉岘。——谢灵运《从斤竹涧越岭溪行》",
+        "峴，山嶺小高也。——《声类》"
+      ],
+      "traditional_char": "峴"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "山名，专指位于湖北省襄阳市的岘山（又称岘首山）",
+      "examples": [
+        "若更登高峴，看碑定淚流。——贾岛《岐下送友人归襄阳》",
+        "祜与邓润甫登峴山，垂涕曰：自有宇宙，便有此山。——《晋书·羊祜传》"
+      ],
+      "traditional_char": "峴"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "其他以“岘”“峴”为名的山（如江苏丹徒县岘山、河南信阳凿砚山、浙江东阳双岘等）",
+      "examples": [
+        "在江苏省丹徒县东南。也名兽窟。因建藏寺于此山，又名九华山。",
+        "在浙江省东阳县南。又名双岘。"
+      ],
+      "traditional_char": "峴"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘峴’从山，现声，形声字，初义为小而高的山岭。简化字‘岘’承此本义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_narrowing",
+      "note": "地名专化，初义指任何小高山，后特指湖北襄阳一地的山。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由泛指小高山义引申命名于多地山名。"
+    }
+  ]
+}

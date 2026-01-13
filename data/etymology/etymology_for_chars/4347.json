@@ -1,0 +1,86 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "水名。在湖北省枣阳县境，为一条河流。",
+      "examples": [
+        "浕，水名。在襄阳。——《集韵》"
+      ],
+      "traditional_char": "濜"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "水名。在陕西省勉县境内。",
+      "examples": [
+        "濜水出襄鄕縣東北陽中山。"
+      ],
+      "traditional_char": "濜"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "津液，身体内的液体。",
+      "examples": [
+        "《廣韻•平真》： “濜，氣之液也。”"
+      ],
+      "traditional_char": "濜"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "水流急或水波参差相次的样子。",
+      "examples": [
+        "濜溳，水流急貌。",
+        "郭璞《江賦》：溭淢濜溳。"
+      ],
+      "traditional_char": "濜"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "“濜”的简化字，参见“濜”。",
+      "examples": [],
+      "traditional_char": "浕"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘濜’形从‘水’表意，‘覲/寅/盡’表声，初用于特定河流的名称。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 4,
+      "note": "‘浕’为‘濜’的简化字，简化自‘濜’，形从‘水’表意，‘尽’为声符。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "同作水名，地理扩展至不同区域。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由具体水名引申作水流急或波澜奔涌的形容。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由水流逸散引申为津液。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "reanalysis",
+      "note": "简化字‘浕’取代‘濜’用于相同含义。"
+    }
+  ]
+}

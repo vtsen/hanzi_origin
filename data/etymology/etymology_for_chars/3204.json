@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "增加，添多。",
+      "examples": [
+        "增添力量",
+        "人口不断增多"
+      ],
+      "traditional_char": "增"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "增殖；繁殖。",
+      "examples": [
+        "细胞增生",
+        "物种不断增殖"
+      ],
+      "traditional_char": "增"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "古代科举制度中生员的一种名目（增生）。",
+      "examples": [
+        "明清时期科举取‘增生’"
+      ],
+      "traditional_char": "增"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从土，曾声，表示增加之意，指事物因添土而增多，字本作‘曾’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘增加’引申为‘增殖，繁殖’用法，发生于后期汉语。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "‘增生’为科举名目，由动词‘增加’引申为官名，明清时期形成。"
+    }
+  ]
+}

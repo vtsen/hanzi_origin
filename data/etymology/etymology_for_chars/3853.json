@@ -1,0 +1,57 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "particle",
+      "meaning": "用于句末或句中，表示疑问、选择、判断、感叹等语气，相当于“吗”“呢”",
+      "examples": [
+        "然则何时而乐耶？",
+        "是进亦忧，退亦忧。",
+        "独不怜公子姊耶？",
+        "军书十二卷，卷卷有耶名。"
+      ],
+      "traditional_char": "耶"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "古同“爷”，父亲。",
+      "examples": [
+        "军书十二卷，卷卷有耶名。",
+        "耶娘妻子走相送，尘埃不见咸阳桥。"
+      ],
+      "traditional_char": "耶"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "音译用字，多用于外来词，如“耶稣”（Jesus），“耶和华”。",
+      "examples": [
+        "佛生最先，孔次之，耶又欢之。",
+        "耶和瓦（耶和华）"
+      ],
+      "traditional_char": "耶"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从耳，邑声。最初作为语气词的表音表义字。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "疑问语气词用于对父亲的称呼，语音联系促成语义转移，古代俗用。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "function_word",
+      "note": "后作为音译用字，利用助词“耶”的声母，书写外来专名。"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "用草、竹、铁等材料编织或制作的盛装土、粮、垃圾等的器具，如畚箕。",
+      "examples": [
+        "箕畚运于渤海之尾。",
+        "挈畚以令粮。",
+        "称畚筑。"
+      ],
+      "traditional_char": "畚"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "用畚箕之类的器具盛装、搬运东西。",
+      "examples": [
+        "披荆畚砾为圃。",
+        "老太婆畚泥土，我筑墙。"
+      ],
+      "traditional_char": "畚"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "measure_word",
+      "meaning": "作为量词，指可以用畚计量的单位，如一畚土。",
+      "examples": [
+        "惟有土一畚。"
+      ],
+      "traditional_char": "畚"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "铁锹、铁铲等挖掘用具（方言，部分地区义项）。",
+      "examples": [
+        "畚，臿也。江淮南楚之閒谓之臿，沅湘之间谓之畚。",
+        "集鍤畚平之。"
+      ],
+      "traditional_char": "畚"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "手指上的斗形指纹（手相名词）。",
+      "examples": [
+        "十指九畚，不作也好过。"
+      ],
+      "traditional_char": "畚"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从田，弁声。本义为以草、竹等编成的盛物器具，有田地与声符的结合。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "conversion",
+      "note": "名词作动词用，表示用畚箕盛东西，出现于中古汉语。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "grammaticalization",
+      "note": "名词虚化为量词，用于计量单位，见于唐宋以来文献。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "本义器具扩展至类似功能的铁锹一类工具，多见于方言区。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "斗形指纹形似畚箕，作为手相命名词。"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "烦扰，扰乱，戏弄",
+      "examples": [
+        "除苛解娆。",
+        "其神不娆。",
+        "娆，戏弄也。",
+        "娆，烦也，亦恼也。"
+      ],
+      "traditional_char": "嬈"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "美好妍媚，妖艳动人",
+      "examples": [
+        "分外妖娆。",
+        "佳人屢出董嬌嬈。",
+        "妖娆（妩媚多姿）；娇娆（柔美妩媚）"
+      ],
+      "traditional_char": "嬈"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "柔弱",
+      "examples": [
+        "娆娆",
+        "嬈嬈，柔弱也。"
+      ],
+      "traditional_char": "嬈"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "琐碎",
+      "examples": [
+        "娆，苛也。"
+      ],
+      "traditional_char": "嬈"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从女，尧声。本义为烦扰或扰乱。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由“烦扰”义产生“琐碎”义，因琐碎易引起烦扰。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由“扰乱、搅动”转喻女性姿容之撩人，演变为“妖媚”之意。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "synecdoche",
+      "note": "由柔美姿态引申为身体柔弱。"
+    }
+  ]
+}

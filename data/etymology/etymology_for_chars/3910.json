@@ -1,0 +1,60 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "虱的卵（虮子），即虱卵，通常比喻微细之物。",
+      "examples": [
+        "牛马之气蒸，生虮虱。",
+        "虮子（虱的卵。常比喻微细的事物）",
+        "虮虱（比喻卑贱或微小）"
+      ],
+      "traditional_char": "蟣"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "酒面上的浮沫。",
+      "examples": [
+        "浮虮星沸，飞华萍接。"
+      ],
+      "traditional_char": "虮"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "（古義）水蛭，或指一类小型虫类，见于《尔雅》密肌、密虮、繼英等注释。",
+      "examples": [
+        "一曰齊謂蛭曰蟣。",
+        "爾雅·釋蟲：密肌，繼英。"
+      ],
+      "traditional_char": "蟣"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 2,
+      "note": "“蟣”从虫，幾声，本指一种小虫，后泛指虱卵。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“虮”为“蟣”的简化字，结构依照“虫”为意旁，取“几”为声旁。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 2,
+      "target_index": 0,
+      "evolution_type": "semantic_narrowing",
+      "note": "古义本指小虫或水蛭，后专指虱的卵（虮卵）。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由虱卵细小之形，引申指酒面细小之浮沫，晋朝文献可见。"
+    }
+  ]
+}

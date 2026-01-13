@@ -1,0 +1,70 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古代水名，在山东省，即泺水。",
+      "examples": [
+        "公会齐侯于泺。——《左传·桓公十八年》",
+        "泺，泺水，齐鲁间水也。从水，乐声。——《说文》"
+      ],
+      "traditional_char": "濼"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "同“泊”，指湖泊。",
+      "examples": [
+        "直奔梁山濼上。",
+        "自後濼中鹽益多。"
+      ],
+      "traditional_char": "濼"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "中药贯众的别名，一种蕨科植物，多作药用。",
+      "examples": [
+        "《爾雅》云‘濼，貫眾’，即此也。",
+        "明 李時珍 《本草綱目•草一•貫眾》： “此草葉莖如鳳尾， 其根一本而眾枝貫之……”"
+      ],
+      "traditional_char": "濼"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "颗，块。",
+      "examples": [
+        "授餘濼與左右， 曰： ‘此猶堪明日用。’"
+      ],
+      "traditional_char": "濼"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘濼’从水，乐声，表示与水相关的地名，‘乐’为声旁。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由河名泛指湖泊、水体，属于水体类别扩展。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "由地名词转为药名，具体机制存疑，可能因古文注释或类比得名。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由水体、块状扩展为‘颗块’的义，可能比喻形态类似。"
+    }
+  ]
+}

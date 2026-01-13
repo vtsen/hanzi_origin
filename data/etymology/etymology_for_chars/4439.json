@@ -1,0 +1,72 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "有臭味的草，常用来比喻恶人。",
+      "examples": [
+        "《左传·僖公四年》：一薰一蕕，十年尚犹有臭。",
+        "唐 韩愈《醉赠张秘书》诗：今我及数子，固无蕕与薰。"
+      ],
+      "traditional_char": "蕕"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "莸属（Caryopteris）植物的泛称，可观赏或入药。",
+      "examples": [
+        "三花莸。",
+        "蒙古莸。"
+      ],
+      "traditional_char": "蕕"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "地名：古地名“蕕城”。",
+      "examples": [
+        "《晋书·慕容㒞载记》：刘宁屯据蕕城，降于苻氏。"
+      ],
+      "traditional_char": "蕕"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "“蕕”的简化字。",
+      "examples": [],
+      "traditional_char": "莸"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "蕕：形声字，从艸，猶声，初指臭味之草。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 3,
+      "note": "莸：简化自蕕，形声字，从艸，犹声，意义同原字。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由特指臭草扩展为莸属植物的泛称。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "地名用该植物名作借指。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "reanalysis",
+      "note": "现代简化字以“莸”代替“蕕”，意义不变，仅字形变化。"
+    }
+  ]
+}

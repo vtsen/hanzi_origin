@@ -1,0 +1,50 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "一种斜纹的纺织品，常用于衣物。",
+      "examples": [
+        "哔叽呢是一种常见面料。"
+      ],
+      "traditional_char": "嗶"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "onomatopoeia",
+      "meaning": "形容短促的响声，如“哔哔剥剥”。",
+      "examples": [
+        "灯捻哔哔剥剥响一阵，就熄灭了。"
+      ],
+      "traditional_char": "嗶"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "用作音译、外来词等（用于嘌呤等名词，为拟声结构，现代多见“嗶”作此用）。",
+      "examples": [],
+      "traditional_char": "嗶"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "口为形符，畢（毕）为声符，形声字，本作拟声词。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由拟声义扩展为外来事物音译字，20世纪后多用于科技或外来表达。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "unknown",
+      "note": "“哔叽”作纺织品名，根据记载可能因织物制造声音得名，具体演变机制不明。"
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "八极之内的广大区域，天下极远之地",
+      "examples": [
+        "天子居九垓之田。",
+        "上畅九垓，下埏八埏。"
+      ],
+      "traditional_char": "垓"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "界限、边界",
+      "examples": [
+        "设于无垓坫之宇。",
+        "重垠累垓，以难不律。"
+      ],
+      "traditional_char": "垓"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "numeral",
+      "meaning": "古代大数名，十京为垓（即一万万）",
+      "examples": [
+        "十京谓之垓。",
+        "京垓年岁之中，每每员舆正不知几移几换而成此最后之奇。"
+      ],
+      "traditional_char": "垓"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "台阶的层次，等级（通“陔”）",
+      "examples": [
+        "三垓上列，四陛旁升。",
+        "坛三垓。"
+      ],
+      "traditional_char": "垓"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "战场、阵地，陆地中心",
+      "examples": [
+        "垓心（战地中心）",
+        "齐举刀兵大会垓。"
+      ],
+      "traditional_char": "垓"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "草根（通“荄”）",
+      "examples": [
+        "物之莖葉根垓，莫不洽濡。"
+      ],
+      "traditional_char": "垓"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从土，亥声，表示广大土地。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_narrowing",
+      "note": "从广大区域引申为具体的边界、界限。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_narrowing",
+      "note": "从广大区域，转指特定的战场或陆地中心。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "以‘极广’引申为数词概念，表示无穷极的大数。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "以空间的层次、广阔引申为建筑层级。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "semantic_shift",
+      "note": "古文通‘荄’，后用于草根，音近形通，意义演变有争议。"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "张口舒气，打呵欠的样子",
+      "examples": [],
+      "traditional_char": "欽"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "恭敬、敬仰",
+      "examples": [
+        "钦佩",
+        "钦慕"
+      ],
+      "traditional_char": "欽"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "皇帝亲自所做或赐予",
+      "examples": [
+        "钦命",
+        "钦赐",
+        "钦差"
+      ],
+      "traditional_char": "欽"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘欽’为形声字，从欠，金声；欠表示张口舒气，与本义相关。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_shift",
+      "note": "由‘张口舒气’表示敬畏或敬仰的表情（古汉语语义发展）"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_narrowing",
+      "note": "从‘敬仰’进一步专指皇帝亲自所为，专属封建语境"
+    }
+  ]
+}

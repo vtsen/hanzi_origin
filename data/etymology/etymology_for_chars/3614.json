@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "早晨",
+      "examples": [
+        "夙兴夜寐",
+        "夙夜在公"
+      ],
+      "traditional_char": "夙"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "早；一大早",
+      "examples": [
+        "夙兴夜寐",
+        "夙夜匪懈"
+      ],
+      "traditional_char": "夙"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "素有的，向来有的，旧有的",
+      "examples": [
+        "夙愿",
+        "夙敌",
+        "夙怨"
+      ],
+      "traditional_char": "夙"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意字，从夕，丮声，表示天还未亮时就起身劳作，意为早晨。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由具体时间“早晨”泛化至形容早起、早做的状态。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由“早”引申为“素有的、旧有的”，指事物自早前（原来）就有。"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "膀胱，动物体内储存尿液的囊状器官。",
+      "examples": [
+        "膀胱为储存尿液之器。"
+      ],
+      "traditional_char": "胱"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "脅，下腹两侧部位。",
+      "examples": [
+        "膀胱，脅下。"
+      ],
+      "traditional_char": "胱"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘胱’为形声字，从肉，光声，本义为膀胱。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由主要指膀胱器官，引伸为脅部，因部位相近，语义转移。"
+    }
+  ]
+}

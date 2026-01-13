@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "用文火长时间煨煮食品使其变烂",
+      "examples": [
+        "炖肉",
+        "清炖鸡"
+      ],
+      "traditional_char": "燉"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "把茶或酒等盛在碗里，再把碗放在水里加热",
+      "examples": [
+        "炖酒",
+        "炖药"
+      ],
+      "traditional_char": "燉"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘燉’为形声字，火为意符，敦为声符，本义为文火煨煮食物。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由煨煮食品义引申至用相似加热方法来处理茶酒药等，近现代广泛使用。"
+    }
+  ]
+}

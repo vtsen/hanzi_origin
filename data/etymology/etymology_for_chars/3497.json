@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "铸铜铁器模型的瓤子",
+      "examples": [
+        "镶，器中瓤也。《说文》",
+        "器有镶必有模。"
+      ],
+      "traditional_char": "鑲"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "把物体嵌入另一物体上或加在另一物体的周边",
+      "examples": [
+        "给衣服镶边。",
+        "镶牙。",
+        "镶嵌宝石。"
+      ],
+      "traditional_char": "鑲"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "古代兵器名",
+      "examples": [
+        "操鑲以卫躬。"
+      ],
+      "traditional_char": "鑲"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从金，襄声，‘金’表示与金属器物有关，最初指模型的瓤子。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由金属器物模型中的‘瓤子’引申为‘嵌入、包边’的动作。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "由器物部件引申为一种专用兵器名称，具体语义关系不详。"
+    }
+  ]
+}

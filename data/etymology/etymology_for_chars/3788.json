@@ -1,0 +1,89 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "因失意而感到不畅快、惆怅、失落",
+      "examples": [
+        "怅然若失",
+        "怅恨久之：“苟富贵，无相忘。”——《史记·陈涉世家》",
+        "怅寥廓，向苍茫大地，谁主沉浮。——毛泽东《沁园春·长沙》"
+      ],
+      "traditional_char": "悵"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "懊恼、怨恨",
+      "examples": [
+        "怅恨久之。《史记·陈涉世家》",
+        "那十四个人没一个不怨怅杨志。《智取生辰纲》"
+      ],
+      "traditional_char": "悵"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "恍惚、迷惘",
+      "examples": [
+        "怅怳若失",
+        "怅惘干宝《搜神记》：“家见汉直，谓其鬼也，怅良久。”"
+      ],
+      "traditional_char": "悵"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "简化字“怅”作为“悵”的简化形式，含义相同",
+      "examples": [
+        "怅然若失",
+        "惆怅"
+      ],
+      "traditional_char": "怅"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘悵’为形声字，从心，‘長’声，表示因心中郁结而感失意"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 3,
+      "note": "‘怅’为‘悵’的简化字，保留形声结构，意义承袭‘悵’"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由失意不快引申为懊恼、怨恨，语义扩展至带有怨怼之意"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由惆怅感到精神恍惚、迷惘，意为心情迷茫"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "reanalysis",
+      "note": "‘怅’为‘悵’的简化字，词义承袭"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "reanalysis",
+      "note": "‘怅’也可直接继承‘悵’表怨恨用法，见于现代用例"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "reanalysis",
+      "note": "‘怅’也含有迷惘之意，与‘悵’同"
+    }
+  ]
+}

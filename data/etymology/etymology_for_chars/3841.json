@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "黑色坚硬的土壤",
+      "examples": [
+        "垆，刚土也。从土，卢声。——《说文》",
+        "埴垆用豕。——《周礼·草人》",
+        "垆土人大。——《淮南子·地形》",
+        "下土坟垆。——《书·禹贡》"
+      ],
+      "traditional_char": "壚"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "旧时酒店里安放酒瓮的土台子，又用作酒店的代称",
+      "examples": [
+        "诣道边酒垆。——《南史·谢几卿传》",
+        "垆边人似月，皓腕凝霜雪。——唐·韦庄《菩萨蛮》"
+      ],
+      "traditional_char": "壚"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "通“炉”，盛火的器具",
+      "examples": [
+        "茶垆烟起知高兴。——陆游《山行过僧庵不入》"
+      ],
+      "traditional_char": "壚"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从土，卢声，表示坚硬的黑土，本义即为Sense 0。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "用产自黑土制成的土台指代酒店设施及其处所，汉代以降。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "以“垆”作“炉”，“壚”假借作“炉”义，后世逐渐约定俗成。"
+    }
+  ]
+}

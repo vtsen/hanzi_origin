@@ -1,0 +1,154 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "可作为黑色染料的矾石、矿物质，亦泛指黑泥、黑土。",
+      "examples": [
+        "以涅染缁，则黑于涅。",
+        "白沙在涅，与之俱黑。",
+        "女床之山，其阴多石涅。"
+      ],
+      "traditional_char": "涅"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "染黑、以黑色染物，或用墨涂物，亦指刺青、刺身涂墨。",
+      "examples": [
+        "涅而不缁。",
+        "涅齿。",
+        "岳武穆涅‘尽忠报国’于背上。"
+      ],
+      "traditional_char": "涅"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "佛教用语，指超脱生死的最高境界（涅槃），亦为僧人的代称。",
+      "examples": [
+        "一佛出世，二佛涅槃。",
+        "智之秉情，对理斯涅。"
+      ],
+      "traditional_char": "涅"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "古水名或地名。",
+      "examples": [
+        "涅水，东迳涅氏县。",
+        "丹水涅池。"
+      ],
+      "traditional_char": "涅"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "化，孵化。",
+      "examples": [
+        "涅，化也。",
+        "鸡伏卵而未孚始化之时谓之涅。"
+      ],
+      "traditional_char": "涅"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "堵塞。",
+      "examples": [
+        "隸人涅廁。",
+        "涅，塞也。"
+      ],
+      "traditional_char": "涅"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "没入水中。",
+      "examples": [],
+      "traditional_char": "涅"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "adjective",
+      "meaning": "黑色，黑的。",
+      "examples": [
+        "涅，黑也。"
+      ],
+      "traditional_char": "涅"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "verb",
+      "meaning": "（方言）神情呆滞、愣。",
+      "examples": [
+        "神也发涅了。"
+      ],
+      "traditional_char": "涅"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水、土，曰声，反映‘黑色染料的矾石’本义，‘水’和‘土’与黑泥、矿物有关，‘曰’提供声旁。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 7,
+      "evolution_type": "semantic_extension",
+      "note": "由具体的黑色矿物引申为黑色的抽象含义，汉代已见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘黑色染料’引申为‘染黑’及‘刺字染色’，已见先秦。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "因地处或水中多‘涅’故名‘涅水’等地名。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "semantic_extension",
+      "note": "‘没入水中’为水土黑泥之物‘涅’，语义延伸。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_shift",
+      "note": "引申‘化’、‘孵化’等义，东汉及方言用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "semantic_shift",
+      "note": "引申为‘堵塞’，见于仪礼等古籍。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "‘涅’（染黑、变更、消灭尘染）喻为‘涅槃’，佛教术语汉译后推广。"
+    },
+    {
+      "source_index": 7,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘黑色’引申为‘染黑’动作。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 8,
+      "evolution_type": "semantic_shift",
+      "note": "方言义，神情呆滞，由‘涅’染污、暗浊引申，明清出现。"
+    }
+  ]
+}

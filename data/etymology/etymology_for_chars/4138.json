@@ -1,0 +1,51 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古书所记载的一种草。",
+      "examples": [],
+      "traditional_char": "荮"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "用草包裹。",
+      "examples": [
+        "荮，草包物也。——《集韵》"
+      ],
+      "traditional_char": "荮"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "measure_word",
+      "meaning": "用草绳捆扎的器皿（如碗、盘子）为一捆称为“一荮”。",
+      "examples": [
+        "一荮碗",
+        "一荮盘子"
+      ],
+      "traditional_char": "荮"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘荮’为形声字，从艸，寿声，最初表一种草名。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由草名引申为用草包裹，可能因应用草的方式。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "grammaticalization",
+      "note": "动词‘用草包裹’发展为表示包裹单位的量词。"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "皮肉深处的毒疮，恶性肿块，医学上指一种深层的恶性溃烂。",
+      "examples": [
+        "疽由筋骨阴分发，肉脉阳分发曰癰。",
+        "汉书·陈平传：疽发背而死。"
+      ],
+      "traditional_char": "疽"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "比喻祸患、祸害。",
+      "examples": [
+        "虞诩恐其疽食侵注而无限极。"
+      ],
+      "traditional_char": "疽"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "痒病，一种皮肤方面的病症。",
+      "examples": [],
+      "traditional_char": "疽"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从疒，且声，表与疾病有关，原指深层毒疮。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "以疽蔓延危害比喻祸患扩散，汉代已有。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "由深层毒疮泛指其他皮肤病，义项出现于古医学文献。"
+    }
+  ]
+}

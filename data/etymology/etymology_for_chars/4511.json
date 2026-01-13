@@ -1,0 +1,42 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "软体动物，介壳形状像心脏，表面暗褐色，有轮状纹，内面色紫，栖于淡水软泥中。肉可食，壳可入药。亦称“扁螺”。",
+      "examples": [
+        "蚬子",
+        "蚬壳",
+        "嗜蜆或改名，食蠔矢弗告。",
+        "性好噉蜆"
+      ],
+      "traditional_char": "蜆"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "蝶类的幼虫。赤头，长寸许，吐丝作茧，悬于空中，俗名“縊女”。",
+      "examples": [
+        "蜆，縊女。",
+        "小黑虫，赤头，喜自縊死，故曰縊女。",
+        "蜆见不祥，祸起我乡。"
+      ],
+      "traditional_char": "蜆"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘蜆’形声字，从虫见声，指软体动物蚬，属对蛤类的具体描写。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_shift",
+      "note": "古籍中由淡水贝（本义）泛指虫类幼虫，可能因虫类繁多、形态习见出现转指，但具体路径存在争议。"
+    }
+  ]
+}

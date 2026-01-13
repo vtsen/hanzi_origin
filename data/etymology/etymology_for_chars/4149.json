@@ -1,0 +1,87 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "柚子树，常绿乔木，叶大而阔，花白色，果实大，圆形或扁圆形，皮厚，味酸甜，可食。",
+      "examples": [
+        "厥包橘柚。",
+        "橘柚芬芳。",
+        "蓼岸风多橘柚香。"
+      ],
+      "traditional_char": "柚"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "柚子的果实，亦称“文旦”，味酸甜可食。",
+      "examples": [
+        "亦指其果实，又名文旦，通称柚子。"
+      ],
+      "traditional_char": "柚"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "柚木，落叶乔木，木材坚硬耐腐蚀，用于造船、车辆及建筑等。",
+      "examples": [
+        "柚木，木材暗褐色，坚硬耐腐蚀，适于制造船舰、车辆等。",
+        "柚木"
+      ],
+      "traditional_char": "柚"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "筘，织布机部件，用于经纱的圆轴，多与“杼（梭子）”连用。",
+      "examples": [
+        "小东大东，杼柚其空。",
+        "杼柚将空。",
+        "此辈杼柚茅茨空。"
+      ],
+      "traditional_char": "柚"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "竹的一种（柚梧）。",
+      "examples": [
+        "柚梧，竹名。"
+      ],
+      "traditional_char": "柚"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘柚’从‘木’表义，从‘由’表声，最初指一种树及其果。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "synecdoche",
+      "note": "由指树本体引申为其果实，见《汉书》《书·禹贡》。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "由果树名称借用于其它树种（柚木），多见于近现代专业用语。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "同音借指其他植物（竹属），属名延伸。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "‘柚’音近于‘轴’，用作织机部件名，古籍多见此假借。"
+    }
+  ]
+}

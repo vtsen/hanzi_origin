@@ -1,0 +1,128 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古井田制中成与成之间的水道，田间的水沟。",
+      "examples": [
+        "子驷为田洫。——《左传》",
+        "十里为成，成间广八尺，深八尺，谓之洫。——《考工记·匠人》"
+      ],
+      "traditional_char": "洫"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "泛指河渠，沟渠。",
+      "examples": [
+        "昱乃上作方梁石洫，水常饶足。——《后汉书》"
+      ],
+      "traditional_char": "洫"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "护城河。",
+      "examples": [
+        "经城洫。——张衡《西京赋》"
+      ],
+      "traditional_char": "洫"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "小水，细流。",
+      "examples": [
+        "大达无畛，不要止洫。——《太玄·达》"
+      ],
+      "traditional_char": "洫"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "古水名，即今河北的滦河上源，古称“闪电河”。",
+      "examples": [
+        "洫水，出渔阳郡白檀北蛮夷。——《前汉书·地理志》"
+      ],
+      "traditional_char": "洫"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "空出，使空虚。",
+      "examples": [
+        "满者洫之，虚者实之。——《管子》"
+      ],
+      "traditional_char": "洫"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "败坏，腐坏。",
+      "examples": [
+        "所行之备而不洫。——《庄子》"
+      ],
+      "traditional_char": "洫"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "verb",
+      "meaning": "昏惑，迷乱。",
+      "examples": [
+        "以言其老洫也。——《庄子》"
+      ],
+      "traditional_char": "洫"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，血声，本义为田间水沟，水部表示语义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由特指古制田间水沟扩展为一般的河渠、沟渠。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "河渠义进一步扩展至护城河，即城市的水沟。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由水渠泛化为指小水、细流。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "由一般水道，借指特定地名水体。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "metaphor",
+      "note": "由水道空虚，引申为“使空虚”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "metaphor",
+      "note": "由水道溃坏比喻为“败坏”。"
+    },
+    {
+      "source_index": 5,
+      "target_index": 7,
+      "evolution_type": "metaphor",
+      "note": "由“使空虚”引申为“迷乱、昏惑”的精神状态。"
+    }
+  ]
+}

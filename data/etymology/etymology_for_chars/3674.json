@@ -1,0 +1,102 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "割草，铲除杂草。",
+      "examples": [
+        "载芟载柞。——《诗·周颂·载芟》",
+        "芟，刈草也。——《说文》",
+        "芟蕰崇之。——《左传·隐公六年》"
+      ],
+      "traditional_char": "芟"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "引申为削除、清除；消灭。",
+      "examples": [
+        "芟野菼。——《淮南子·本经》",
+        "今操芟夷大难，略已平矣。——《资治通鉴》",
+        "折冲讨难，芟敌搴旗。——《汉·陈琳》"
+      ],
+      "traditional_char": "芟"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "删除，删削文字。",
+      "examples": [
+        "芟繁剪穢，弛於負擔。——《文心雕龙》",
+        "亦收其是而芟其偽。——《旧唐书》",
+        "芟削（删除）"
+      ],
+      "traditional_char": "芟"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "大镰刀。",
+      "examples": [
+        "耒耜耞芟。——《国语·齐语》",
+        "芟，大鐮， 所以芟草也。——韋昭注"
+      ],
+      "traditional_char": "芟"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "（用作防汛护堤）砍下的芦荻。",
+      "examples": [
+        "凡伐芦荻谓之“芟”，伐山木榆柳枝叶谓之“梢”，辮竹纠芟为索。——《宋史》"
+      ],
+      "traditional_char": "芟"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "（古籍中“芟”通“芛”）初生的草木花。",
+      "examples": [],
+      "traditional_char": "芟"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "从艸（草）与殳会意，意为用兵器除草，最初义为割草、除草。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由割草引申为铲除一切事物，包括消灭、清除等抽象行动。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "除草引申为删去文字杂芜，形成删削义，隋唐时已有。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "由动作引申为所用工具，即指大镰刀。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "conversion",
+      "note": "“芟”用作名词，指割下的芦荻，宋代出现。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "“芟”借用为“芛”的通假字，古籍偶见。"
+    }
+  ]
+}

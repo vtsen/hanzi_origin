@@ -1,0 +1,88 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "宽广，空间范围大，横向距离大，与“窄”相对。",
+      "examples": [
+        "宽广",
+        "宽阔",
+        "这条路很宽",
+        "房屋宽敞"
+      ],
+      "traditional_char": "寬"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "使松缓；放松或解除紧张状态。",
+      "examples": [
+        "宽心",
+        "宽衣",
+        "宽解"
+      ],
+      "traditional_char": "寬"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "不严厉，宽容，有容人之量。",
+      "examples": [
+        "宽厚",
+        "宽容",
+        "宽宏",
+        "宽恕"
+      ],
+      "traditional_char": "寬"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "富裕，殷实。",
+      "examples": [
+        "宽裕"
+      ],
+      "traditional_char": "寬"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [],
+      "traditional_char": "寬"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘寬’为形声字，从‘宀’（房屋）表意，‘苋’表声，本义为房屋宽敞。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从空间大引申为心情或状态的松缓。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由空间宽大转喻为心胸宽广，从而引申为宽容。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "空间宽大引申为物质条件宽裕。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "reanalysis",
+      "note": "用作姓氏，属于后起用法。"
+    }
+  ]
+}

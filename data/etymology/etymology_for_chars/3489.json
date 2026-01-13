@@ -1,0 +1,58 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古代称诸侯的盟主，春秋时势力最大并取得首领地位的诸侯",
+      "examples": [
+        "春秋五霸",
+        "霸主",
+        "齐桓公为诸侯之霸"
+      ],
+      "traditional_char": "霸"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "称依靠权势或武力欺压他人的人或集团",
+      "examples": [
+        "恶霸",
+        "称霸",
+        "地方霸"
+      ],
+      "traditional_char": "霸"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "奉行强力政策，或强力占有、支配",
+      "examples": [
+        "霸占",
+        "霸权",
+        "霸道"
+      ],
+      "traditional_char": "霸"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘霸’为形声字，从雨，聲符为‘覇’（声）；本义为‘诸侯之盟主’，与“覇”（罢）同源。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由古代理想中的盟主引申为依靠权势或武力压制他人的人，产生贬义，时间大约在先秦至汉代。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "conversion",
+      "note": "由名词‘霸’指人或集团，引申为动词，表示行为‘实行霸权、强占’。"
+    }
+  ]
+}

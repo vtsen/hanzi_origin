@@ -1,0 +1,40 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "明有鄺埜。見《明史》本傳。"
+      ],
+      "traditional_char": "鄺"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "“鄺”的簡化字，作姓氏用",
+      "examples": [],
+      "traditional_char": "邝"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“鄺”形聲字，左“⻏”（邑）表地名、部落，右“广”表聲。古為姓氏、地名用。"
+    },
+    {
+      "formation_type": "simple_indicative",
+      "original_sense_index": 1,
+      "note": "“邝”為“鄺”的简化字，删除“邑”旁，保留结构用作姓氏。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "reanalysis",
+      "note": "20世纪简化字运动，将“鄺”简化为“邝”作姓氏用。"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "冬天打猎，特指古代帝王或诸侯的冬季围猎活动。",
+      "examples": [
+        "春蒐，夏苗，秋狝，冬狩。——《左传·隐公五年》",
+        "狩，犬田也。——《说文》",
+        "冬猎为狩。——《尔雅》"
+      ],
+      "traditional_char": "狩"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "用火烧山围猎。",
+      "examples": [
+        "狩于中山。——《列子·黄帝》注：“火田为狩。”"
+      ],
+      "traditional_char": "狩"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "征伐，出征。",
+      "examples": [
+        "明夷于南狩。——《易·明夷》",
+        "犹豫不敢断，因狩执君王。——曹操《薤露》"
+      ],
+      "traditional_char": "狩"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "帝王巡察诸侯治地，出巡。",
+      "examples": [
+        "天王狩于河阳。——《左传·僖公二十八年》",
+        "天子适诸侯曰巡狩。——《孟子·梁惠王下》"
+      ],
+      "traditional_char": "狩"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "野兽。",
+      "examples": [
+        "薄狩于敖。——《汉·张衡<东京赋>》",
+        "今日猎得一狩，非龙、非螭、非熊、非羆。——晋·干宝《搜神记》"
+      ],
+      "traditional_char": "狩"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从犬，守声。犬表义，守表声，本义为冬季打猎。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由广义狩猎引申至特指用火烧山围猎，战国至汉代有文献记载。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由狩猎引申为征伐，出征，比喻讨伐若狩猎。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "古代帝王巡察诸侯的行为与冬季狩猎活动相关，逐步转化。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "conversion",
+      "note": "由“打猎”动作为中心，词性转为“野兽”名词用法，古人用以指所猎之兽。"
+    }
+  ]
+}

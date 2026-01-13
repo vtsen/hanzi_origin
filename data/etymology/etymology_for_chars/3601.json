@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "雌性的鸟或兽，与“牡”相对",
+      "examples": [
+        "牝牛",
+        "牝鸡司晨",
+        "牝马"
+      ],
+      "traditional_char": "牝"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "锁孔",
+      "examples": [
+        "锁有牝牡之分"
+      ],
+      "traditional_char": "牝"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "溪谷",
+      "examples": [
+        "丘陵为牡，溪谷为牝"
+      ],
+      "traditional_char": "牝"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从牛，匕声。本义为雌性禽兽，甲骨文以“匕”为雌性符号。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "以雌性对应孔，后指锁孔，类似阴阳结构。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "以雌性的特点比喻溪谷，与丘陵之“牡”相对。"
+    }
+  ]
+}

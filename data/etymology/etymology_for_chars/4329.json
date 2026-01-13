@@ -1,0 +1,87 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "灯心，灯蕊",
+      "examples": [
+        "炷大而明，明则膏消；炷小而暗，暗则膏息。",
+        "遇灯炷尽，主人将续之，无逸抽佩刀断带为炷。"
+      ],
+      "traditional_char": "炷"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "烛，灯，灯笼",
+      "examples": [
+        "其母梦神官持炷送一儿至，曰：“善视之，防七十二难也。”",
+        "彩霞如赤炷。"
+      ],
+      "traditional_char": "炷"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "可燃的柱状物，如艾炷",
+      "examples": [
+        "疹病灸疗，艾炷围将二寸。",
+        "惟虔焚炷，上答休明。"
+      ],
+      "traditional_char": "炷"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "点燃，烧香",
+      "examples": [
+        "夜深尽放家人睡，直到天明不炷灯。",
+        "家人潜窥香灭，又炷之。"
+      ],
+      "traditional_char": "炷"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "measure_word",
+      "meaning": "用于点着的线香的量词",
+      "examples": [
+        "燭換三條燼，香銷十炷灰。",
+        "焚起一炷信香，长老上禅椅盘膝而坐。"
+      ],
+      "traditional_char": "炷"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从火，主声。本作“主”，表示灯心。'火'表意，'主'表声。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由灯芯转指其所处的灯、烛等照明物体。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "从灯蕊引申到一般可燃的柱状物。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "conversion",
+      "note": "由名词“可燃的柱状物”转为动词“点燃（柱状物）”。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 4,
+      "evolution_type": "grammaticalization",
+      "note": "由指代柱状物转为量词专用于计数点燃的线香。"
+    }
+  ]
+}

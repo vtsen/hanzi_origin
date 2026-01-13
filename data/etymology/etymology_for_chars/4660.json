@@ -1,0 +1,108 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "吝啬，小气，节省",
+      "examples": [
+        "悭吝",
+        "悭囊",
+        "无奈东风，又慳芳信，隔林好梦难寻。",
+        "节约；吝嗇。"
+      ],
+      "traditional_char": "慳"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "稀少，不多，缺欠",
+      "examples": [
+        "缘悭一面",
+        "泽国气候晚，仲冬雪犹慳。",
+        "辞慳义卓阔"
+      ],
+      "traditional_char": "慳"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "粗劣，质量不好",
+      "examples": [
+        "悭钱",
+        "悭滥",
+        "宋代指质料薄劣的钱币"
+      ],
+      "traditional_char": "慳"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "穷困，运势不好",
+      "examples": [
+        "这是先生命悭，须不是红娘违慢。",
+        "时慳运慳，恨无端囹圄屈陷。"
+      ],
+      "traditional_char": "慳"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "阻滞，阻碍",
+      "examples": [
+        "这恩爱前悭后悭，这姻缘左难右难。",
+        "复为烟所慳。",
+        "逆行波浪慳"
+      ],
+      "traditional_char": "慳"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "减省、减少、缺少",
+      "examples": [
+        "缘悭一面",
+        "破一破悭，使些钱。"
+      ],
+      "traditional_char": "慳"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从心，坚声，表示与心性情绪相关，本义为吝啬。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由节省、吝啬引申为数量稀少，语义拓展。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由吝啬引申为用料吝啬，指物品质量差，宋代见用。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "由缺少引申为运势不济、穷困，见明、元杂剧等。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "conversion",
+      "note": "从形容词“稀少”转为动词“减少、缺省”，语法转化。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "由缺乏引申为阻碍，诗文用法。"
+    }
+  ]
+}

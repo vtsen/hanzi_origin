@@ -1,0 +1,88 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古代帝王或三公穿的画有龙纹的礼服",
+      "examples": [
+        "衮冕，天子礼服（《周礼·司服》）",
+        "我觏之子，衮衣绣裳（《诗·豳风·九罭》）",
+        "服衮而朝（《后汉书·张衡传》）"
+      ],
+      "traditional_char": "衮"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "借指帝王或三公的职位、身份",
+      "examples": [
+        "弘纲既整，衮阙以补（汉·蔡邕《胡公碑》）",
+        "五登衮职，弭难入宁（《后汉书·僖賜传》）",
+        "衮职有阙"
+      ],
+      "traditional_char": "衮"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "赐以衮衣（指褒奖）",
+      "examples": [
+        "布衣可以参与衮钺之权（明 李贽）"
+      ],
+      "traditional_char": "衮"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "卷曲、卷成束",
+      "examples": [
+        "衮叠（卷曲折叠）",
+        "今俗犹称卷物成束曰衮，盖古遗语矣"
+      ],
+      "traditional_char": "衮"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "滚动、翻腾（多作“滚”）",
+      "examples": [
+        "宋 洪迈《夷坚志》：火毬数十衮于地",
+        "宋 苏轼《十二时中偈》：百衮油镬里"
+      ],
+      "traditional_char": "衮"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从衣，公声，表示画龙于衣的帝王礼服；衣表意，公表声。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由礼服转指为拥有礼服的帝王或三公职位，东汉已见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由实物指褒奖他人赐予礼服的行为；见于明代等用例。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "源于礼服上之龙形卷曲，引申为一般的卷曲。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由‘卷曲’引申为物体旋转滚动，后多写作‘滚’。"
+    }
+  ]
+}

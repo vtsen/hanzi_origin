@@ -1,0 +1,86 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "树木的根、主根；也泛指根本、本源、基础",
+      "examples": [
+        "深根固柢。（《老子》）",
+        "蟠木根柢。（《汉书·邹阳传》）",
+        "后来村里的青年女人又要追问根柢了。（茅盾《残冬》）"
+      ],
+      "traditional_char": "柢"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "物体的底部",
+      "examples": [
+        "邸謂之柢。（《尔雅·释器》）",
+        "以弁有柢，知冠与冕皆有柢也。（清·惲敬《说弁二》）"
+      ],
+      "traditional_char": "柢"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "碓衡，杵柄",
+      "examples": [
+        "柢，《字林》：碓衡。（《集韵·支韵》）"
+      ],
+      "traditional_char": "柢"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "桃",
+      "examples": [
+        "柢，桃也。（《集韵·支韵》）"
+      ],
+      "traditional_char": "柢"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "古代祭祀所用之牲礼（通“胝”）",
+      "examples": [
+        "腊进柢。（《仪礼·士丧礼》）",
+        "猶進柢。（《仪礼·士虞礼》）"
+      ],
+      "traditional_char": "柢"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从木，氐声，本义为树根、根柢。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "从“树根、本源”比喻为“物体的底部”，据《尔雅·释器》注解。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由“基础、本根”转指杵柄等主要部件，工具为整体的基础。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "unknown",
+      "note": "“柢”作“桃”义，古书音转或假借，机制不明。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "由“本体、基础”引申为祭祀用牲礼之本体，依据《仪礼》注解古“柢”为“胝”。"
+    }
+  ]
+}

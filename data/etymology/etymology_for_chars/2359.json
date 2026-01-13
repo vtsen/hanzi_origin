@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "两颊的上部",
+      "examples": [
+        "魏晋时期用“脸”专指两颊的上部"
+      ],
+      "traditional_char": "臉"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "面孔，头的前部从额到下巴",
+      "examples": [
+        "她的脸很美",
+        "脸色变化"
+      ],
+      "traditional_char": "臉"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "物体的前部",
+      "examples": [
+        "鞋脸儿",
+        "门脸儿"
+      ],
+      "traditional_char": "臉"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "体面，面子，颜面",
+      "examples": [
+        "丢脸",
+        "赏脸",
+        "给你点脸色看看"
+      ],
+      "traditional_char": "臉"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从肉，佥声，‘肉’表意指与身体相关，‘佥’表音，最初用于指两颊上部。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "唐宋时期语义扩大，由指两颊上部扩展为整个面部。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "借面孔之‘正面’形象，比喻物体的前部。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "由‘面孔’引申为‘体面、面子’，以具体部位指代抽象人格尊严。"
+    }
+  ]
+}

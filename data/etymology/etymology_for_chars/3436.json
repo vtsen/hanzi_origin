@@ -1,0 +1,40 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "（马）快跑，奔驰",
+      "examples": [
+        "驰骤",
+        "马骤而行"
+      ],
+      "traditional_char": "驟"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "急速，突然",
+      "examples": [
+        "骤然",
+        "天气骤冷",
+        "暴风骤雨"
+      ],
+      "traditional_char": "驟"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘驟’为形声字，从马，聚声，本义为马奔驰。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由马奔跑的急速引申为一般意义上的迅速、突然，见中古汉语至现代汉语"
+    }
+  ]
+}

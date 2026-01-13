@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "用手采下、取下（如水果、果实等）",
+      "examples": [
+        "采摘苹果",
+        "摘果子"
+      ],
+      "traditional_char": "摘"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "选取、挑出（如内容、句子等）",
+      "examples": [
+        "摘录精彩片段",
+        "文摘"
+      ],
+      "traditional_char": "摘"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "借取",
+      "examples": [
+        "东摘西借",
+        "摘兑"
+      ],
+      "traditional_char": "摘"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从手，啻声，表示用手采下或取下的动作。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由实际用手采取，引申为从文章内容中挑选句段。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "从‘取下’的本义引申为借取，有“拿来用”之意。"
+    }
+  ]
+}

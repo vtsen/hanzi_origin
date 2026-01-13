@@ -1,0 +1,52 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "无左臂；肢体不全，特指左臂缺失。",
+      "examples": [
+        "孓，无左臂也。（《说文解字》）"
+      ],
+      "traditional_char": "孓"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "短小，微小之意。",
+      "examples": [
+        "孓孒，短也。（《博雅》）"
+      ],
+      "traditional_char": "孓"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "孑孓：水生小虫，蚊子的幼虫。",
+      "examples": [
+        "井中有孑孓。"
+      ],
+      "traditional_char": "孓"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "pictograph",
+      "original_sense_index": 0,
+      "note": "象形字，像缺少左臂之人形；《说文》从子省，了，表示肢体残缺。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘无左臂’引申为‘短小’，表示肢体不全转为体量小。时间为先秦至中古。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "以‘短小’喻水中蚊虫幼虫之形貌，转指‘孑孓’。"
+    }
+  ]
+}

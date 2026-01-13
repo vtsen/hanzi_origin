@@ -1,0 +1,101 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "地勢斜着延长；斜行。",
+      "examples": [
+        "林公见东阳长山曰：‘何其坦迤。’",
+        "汾水于县左迤为邬泽。"
+      ],
+      "traditional_char": "迤"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "斜倚、倾斜地倚靠。",
+      "examples": [
+        "立戈迤戛。",
+        "戈柲六尺有六寸，既建而迤。"
+      ],
+      "traditional_char": "迤"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "延续、延伸。",
+      "examples": [
+        "迤于天宝，其体渐变。"
+      ],
+      "traditional_char": "迤"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "preposition",
+      "meaning": "向、往（表方向的介词）。",
+      "examples": [
+        "江淮迤南，依旧免税。",
+        "燕云迤北，暂食沧盐。"
+      ],
+      "traditional_char": "迤"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "曲折连绵貌（用于“迤逦”、“逶迤”等词）。",
+      "examples": [
+        "河出俱伦，迤而东。",
+        "山路逶迤。"
+      ],
+      "traditional_char": "迤"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "adjective",
+      "meaning": "从容自得、宛转隐微的样子（多用于“逶迤”的偏旁假借音）。",
+      "examples": [
+        "委迤，自得貌。"
+      ],
+      "traditional_char": "迤"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从辵，‘也’声，表示斜行、地势斜着延伸。本义为斜行。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从‘斜行’引申为‘斜倚’，语义扩展，常见于器物或身体的倾斜状态。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "从‘斜行、延长’泛化为‘延续、延伸’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "grammaticalization",
+      "note": "由斜向的动作引申为表示方向的介词‘向、往’用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由‘斜行’引申出现象的‘连绵曲折’之意，多见于‘迤逦’等词。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "‘曲折连绵’形态再引申为‘从容自得、宛转隐微’等抽象描述，常于文学辞赋中。"
+    }
+  ]
+}

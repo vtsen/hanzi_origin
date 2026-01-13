@@ -1,0 +1,52 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "狼尾草，一种多年生草本植物，常作饲料",
+      "examples": [
+        "其卑湿则生藏莨。——《史记·司马相如传》"
+      ],
+      "traditional_char": "莨"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "莨菪，茄科多年生草本植物，含有毒成分，可入药",
+      "examples": [
+        "领以莨菪。——《史记·仓公传》"
+      ],
+      "traditional_char": "莨"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "薯莨，薯蓣科多年生缠绕藤本，地下块茎含胶质，可作染料",
+      "examples": [
+        "薯莨绸（亦称‘香云纱’、‘拷纱’）"
+      ],
+      "traditional_char": "莨"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从艸，良声，最初指草类（如狼尾草）。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由草类泛指扩展为特指茄科植物‘莨菪’。大致自汉代用药语境中分化。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由一般草类再扩展到薯蓣科的薯莨，因均为块茎草本。与染料相关专指见于后世。"
+    }
+  ]
+}

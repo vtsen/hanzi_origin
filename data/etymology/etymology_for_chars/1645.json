@@ -1,0 +1,75 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "把东西从甲地运到乙地",
+      "examples": [
+        "送信",
+        "送审",
+        "输送",
+        "护送",
+        "呈送"
+      ],
+      "traditional_char": "送"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "赠给",
+      "examples": [
+        "送礼",
+        "赠送",
+        "雪中送炭"
+      ],
+      "traditional_char": "送"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "陪伴人到某一地点",
+      "examples": [
+        "欢送",
+        "送别",
+        "送亲"
+      ],
+      "traditional_char": "送"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "丢掉",
+      "examples": [
+        "断送"
+      ],
+      "traditional_char": "送"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘送’为形声字，辵为意，通行动之意，‘关’为声，初义为“运送、传递”。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“运送”引申为“赠送”，意为把东西交付给别人。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由“运送”引申为“陪同送行”，即陪人移动至别处。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "由“运送”转为“断送”意为丢弃、失去，有贬义。"
+    }
+  ]
+}

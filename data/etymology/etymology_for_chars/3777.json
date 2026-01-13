@@ -1,0 +1,69 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "水声，形容流水的声音。",
+      "examples": [
+        "沨沨，水声也。",
+        "【玉篇】水聲。一曰弘大聲。"
+      ],
+      "traditional_char": "沨"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "乐声宛转悠扬的样子。",
+      "examples": [
+        "～～，形容乐声宛转悠扬。"
+      ],
+      "traditional_char": "沨"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "声音合乎中庸，平和适中之声。",
+      "examples": [
+        "渢乎不極，卓分靡群。",
+        "渢渢，中庸之聲也。"
+      ],
+      "traditional_char": "渢"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "漂浮，（同“汎”）水面浮动之意。",
+      "examples": [
+        "迅飆渢兮。",
+        "義同汎。"
+      ],
+      "traditional_char": "渢"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘沨’从水，丰声，会意兼形声。原指水声。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 2,
+      "note": "‘渢’从水，封声，为‘沨’异体，含声义双关。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由水流声引申比喻为音乐声，古汉语常见机制。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "由‘中庸之声’转指水之浮貌，可能受同音近义影响（汎）。"
+    }
+  ]
+}

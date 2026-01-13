@@ -1,0 +1,70 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "菟丝，一年生草本植物，茎细长，缠绕于其他植物上，子实可入药。",
+      "examples": [
+        "菟丝子可以入药。",
+        "菟丝蔓生缠绕。"
+      ],
+      "traditional_char": "菟"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "兔，兔类动物的通假字。",
+      "examples": [
+        "见菟而顾犬，未为晚也。",
+        "楚王佩玦而逐菟。"
+      ],
+      "traditional_char": "菟"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "於菟，指老虎，楚人对虎的称呼。",
+      "examples": [
+        "於菟者，虎也。",
+        "楚人皆称虎为於菟。"
+      ],
+      "traditional_char": "菟"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "菟裘，地名，在今中国山东省泗水县；古代借指退隐者的居处。",
+      "examples": [
+        "使营菟裘，吾将老焉。"
+      ],
+      "traditional_char": "菟"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘菟’为形声字，从艸，兔声。本义为菟丝（一种寄生草本植物），形旁表义，声旁‘兔’表音。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "因‘兔’与‘菟’同音，有借用以指兔之用."
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "楚地用‘於菟’指虎，由兔类动物（小型哺乳动物）引申为猛兽虎，属代称。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "地名‘菟裘’因楚人以‘菟’指虎，古地名借以称呼，或含隐居之意。"
+    }
+  ]
+}

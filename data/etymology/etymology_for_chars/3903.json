@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "黎明，太阳即将升起之时。",
+      "examples": [
+        "昕，旦明日将出也。——《说文》",
+        "明日迟昕，帝出延秋门。——《新唐书》",
+        "晨未昕而即野。——曹植《藉田说》之一"
+      ],
+      "traditional_char": "昕"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "明亮，鲜明。",
+      "examples": [
+        "昕，明也。——《小尔雅》",
+        "檀车孔夏，四騵孔昕。——《初学记》引《太仆箴》"
+      ],
+      "traditional_char": "昕"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "昕天：旧说天体北高南低的状态。",
+      "examples": [
+        "四曰昕天。昕读曰軒，言天北高南下，若车之軒。"
+      ],
+      "traditional_char": "昕"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘昕’为形声字，从日，斤声，本义为黎明。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由太阳初升时的明亮，引申为‘明亮、鲜明’之义。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "以黎明日出方向引申喻指天体形态（昕天）。"
+    }
+  ]
+}

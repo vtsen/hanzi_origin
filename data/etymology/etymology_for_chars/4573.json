@@ -1,0 +1,84 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "卓异，突出、特出的样子。",
+      "examples": [
+        "倜然乃举太公于州人而用之。（《荀子·君道篇》）",
+        "风流倜傥。"
+      ],
+      "traditional_char": "倜"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "洒脱，不拘束，不羁的样子。",
+      "examples": [
+        "倜傥非常也。（《文选·鲁灵光殿赋》注）",
+        "风流倜傥"
+      ],
+      "traditional_char": "倜"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "超然或疏远、迂阔的样子。",
+      "examples": [
+        "倜然无所归宿。（《荀子·非十二子》注）"
+      ],
+      "traditional_char": "倜"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "奇诡、乖张。",
+      "examples": [
+        "倜诡"
+      ],
+      "traditional_char": "倜"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "癡貌。",
+      "examples": [
+        "倜（亻奡）癡貌"
+      ],
+      "traditional_char": "倜"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从人，叔声。表人在群体中突出或卓异。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "卓异引申为洒脱、不拘束，常见于形容人格特质。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "卓异或突出进一步引申为超然、疏远，形容与常人有距离。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "卓异偏义，演变为奇诡、乖张，表现为特异于常。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_shift",
+      "note": "由卓异引申出痴傻，取其行为与常人不同，古籍偶见。"
+    }
+  ]
+}

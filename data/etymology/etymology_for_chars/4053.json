@@ -1,0 +1,73 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "耻辱，羞辱",
+      "examples": [
+        "诟莫大于宫刑。",
+        "余不忍其诟。",
+        "詬，謑詬耻也。——《说文》",
+        "彼憸人之浮言，雖百車其何詬？"
+      ],
+      "traditional_char": "詬"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "辱骂、责骂",
+      "examples": [
+        "曹人诟之，不行。",
+        "重丘人闭门而诟之。",
+        "詬，骂也。——《玉篇》"
+      ],
+      "traditional_char": "詬"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "花言巧语（古义）",
+      "examples": [
+        "詬，巧言。——《广韵》",
+        "乃詬逋於柳，柳盡出其貲。"
+      ],
+      "traditional_char": "詬"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "怒（古义）",
+      "examples": [
+        "巢见诏大詬，急攻广州。"
+      ],
+      "traditional_char": "詬"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "詬为形声字，从言，后声，最初表示耻辱。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由耻辱引申为辱骂他人，即使别人受辱。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由辱骂引申为怒，汉唐以降用法。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "unknown",
+      "note": "由辱骂义发展为巧言花言，义流不明。"
+    }
+  ]
+}

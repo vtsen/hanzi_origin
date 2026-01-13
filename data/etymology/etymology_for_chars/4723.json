@@ -1,0 +1,99 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "坚硬的泥土、土块",
+      "examples": [
+        "埵，坚土也。——《说文》",
+        "埵，聚土也。——《字林》",
+        "埵埵（土堆，土块）"
+      ],
+      "traditional_char": "埵"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "土堆",
+      "examples": [
+        "取净干盆，置灶埵上。——《齐民要术》"
+      ],
+      "traditional_char": "埵"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "堤防，堤坝",
+      "examples": [
+        "埵防（堤防）",
+        "狟貉得埵防弗去而缘。——《淮南子》"
+      ],
+      "traditional_char": "埵"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "风箱的铁管（出风口）",
+      "examples": [
+        "鼓橐吹埵，以销铜铁。——《淮南子》",
+        "埵，铜橐口铁筒，埵入火中吹火也。——《淮南子·高诱注》"
+      ],
+      "traditional_char": "埵"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "砌，堆砌",
+      "examples": [
+        "埵砖"
+      ],
+      "traditional_char": "埵"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "物体下垂的样子",
+      "examples": [],
+      "traditional_char": "埵"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从土，垂声，表示坚土或坚硬的泥土。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由坚土扩展为土堆，强调聚土的实体形态。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由土堆引申为堤防（土堆在堤岸上的实际用法）。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "由坚土意，指风箱所吹的地方（需坚固泥土或金属部件）。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "conversion",
+      "note": "由名词‘坚土’转为动词‘砌’，即用坚土堆砌。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "synecdoche",
+      "note": "坚土、土块堆积后有下垂现象，引申为物体下垂的样子。"
+    }
+  ]
+}

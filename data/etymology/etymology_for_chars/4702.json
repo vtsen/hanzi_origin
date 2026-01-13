@@ -1,0 +1,87 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "纵马奔驰，快跑",
+      "examples": [
+        "林楚怒马，及衢而骋。",
+        "乘骐骥以驰骋兮。",
+        "百马同辔，骋并驰。"
+      ],
+      "traditional_char": "騁"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "放开，尽量展开（如：目光、胸怀）",
+      "examples": [
+        "所以游目骋怀，足以极视听之娱。",
+        "临巽维而骋，即堆冢而流眄。"
+      ],
+      "traditional_char": "騁"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "抒发，施展，发挥（志向、才能等）",
+      "examples": [
+        "吾少无宦情，既不能躬耕自活，必有所资，岂以骋，私计故耳。",
+        "莫不骋其能，得其志。"
+      ],
+      "traditional_char": "騁"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "放任，放纵（情感、行为等）",
+      "examples": [
+        "皆恣而任之，会其所极而已。",
+        "各骋私智，互斗异谈。"
+      ],
+      "traditional_char": "騁"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "古地名，古州名，在今四川省屏山县",
+      "examples": [
+        "唐置骋州，在今四川省屏山县。"
+      ],
+      "traditional_char": "騁"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从马，甹声，表示马奔驰。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由‘奔驰’引申为‘目光等得以纵览、胸怀等得以舒展’，以行为扩展到抽象领域。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由‘奔驰’比喻‘才能、志向得以尽情施展’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由具体的‘奔放’比喻‘行为、情感的放纵’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "unknown",
+      "note": "地名由奔跑、速度之意转为名词，具体机制不详。"
+    }
+  ]
+}

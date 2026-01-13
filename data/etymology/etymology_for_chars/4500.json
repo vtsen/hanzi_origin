@@ -1,0 +1,101 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "onomatopoeia",
+      "meaning": "形容咕哝、低声读书等声音。",
+      "examples": [
+        "唔伊（读书声）",
+        "唔吱（嘟哝）",
+        "唔哝（咕哝）",
+        "貓兒唔唔"
+      ],
+      "traditional_char": "唔"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "interjection",
+      "meaning": "叹词，表示疑问或应答，类似“嗯”。",
+      "examples": [
+        "唔，身体不舒服吗？",
+        "‘唔怕’向导斜着眼睛笑着说， ‘唔怕！’"
+      ],
+      "traditional_char": "唔"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "方言，我。",
+      "examples": [
+        "唔么，是江苏人，姓吕名佩。"
+      ],
+      "traditional_char": "唔"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "pronoun",
+      "meaning": "方言，你（如“唔笃”）。",
+      "examples": [
+        "唔笃（你们）"
+      ],
+      "traditional_char": "唔"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "particle",
+      "meaning": "方言，不，用于否定。",
+      "examples": [
+        "‘唔怕’向导斜着眼睛笑着说， ‘唔怕！’"
+      ],
+      "traditional_char": "唔"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "通“寤”，觉醒、睡醒。",
+      "examples": [
+        "求之弗得，唔眛思伏（馬王堆漢墓帛書《五行》）"
+      ],
+      "traditional_char": "唔"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "口为形旁，吾为声旁。原为象声词，用以表达仿声语气。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "grammaticalization",
+      "note": "由象声词演化为语气叹词"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "叹词‘唔’在方言中引用作第一人称‘我’"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "由应答用语的转指，用作第二人称‘你’"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "grammaticalization",
+      "note": "由叹词演变为否定助词（常见于粤语等）"
+    },
+    {
+      "source_index": 5,
+      "target_index": 0,
+      "evolution_type": "unknown",
+      "note": "“通‘寤’”义来源不详，或为音近假借"
+    }
+  ]
+}

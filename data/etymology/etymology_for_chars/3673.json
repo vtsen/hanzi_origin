@@ -1,0 +1,40 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "一年生水生植物，又名鸡头，叶浮于水面，花紫色，种子芡实可食。",
+      "examples": [
+        "芡，鸡头也。——《说文》",
+        "夏日则食菱芡，冬日则食橡栗。——《吕氏春秋》",
+        "风能坼芡觜，露亦染梨腮。——韩愈《独钓》"
+      ],
+      "traditional_char": "芡"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "用芡实或其他淀粉调制而成的浓汁，用于烹调勾芡。",
+      "examples": [
+        "勾芡使汤汁浓稠。",
+        "做菜时先用淀粉勾芡。"
+      ],
+      "traditional_char": "芡"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从艸，欠声。本义为水生植物鸡头（芡）。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由芡实延伸至以芡实粉或淀粉调和的勾芡，汉语历时语料支持该转用方式。"
+    }
+  ]
+}

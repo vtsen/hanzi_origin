@@ -1,0 +1,109 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古代传递公文或消息所用的马，或骑马送信的人。",
+      "examples": [
+        "楚子乘驿。",
+        "驿，置骑也。——《说文》"
+      ],
+      "traditional_char": "驛"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "旧时供传递公文的人或来往官员中途休息、换马的地方，驿站。",
+      "examples": [
+        "驿外断桥边，寂寞开无主。",
+        "此驿置在古宜城内。"
+      ],
+      "traditional_char": "驛"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "地名用字，如“龙泉驿”。",
+      "examples": [
+        "龙泉驿（在中国四川省）。"
+      ],
+      "traditional_char": "驛"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "用驿马、驿车等传递（公文、消息、物品）的行为。",
+      "examples": [
+        "驰命走驿，不绝于时月。",
+        "诏天下…驿至京师。"
+      ],
+      "traditional_char": "驛"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "计算驿路长度的单位，两个驿站之间路程为一驿。",
+      "examples": [
+        "凡四驿而至。",
+        "不过十驿。"
+      ],
+      "traditional_char": "驛"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "古同“绎”，络绎不断。",
+      "examples": [
+        "络驿不绝。",
+        "驿驿其达。"
+      ],
+      "traditional_char": "驛"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [],
+      "traditional_char": "驛"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从马，睪声，表示与马有关的事物，最初指驿马。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由指传递公文用的马扩展为驿站，即传递体系中的设施。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由驿站引申为相关地名用字，属于惯例性用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由‘驿马’引申为传递（公文、消息等）的行为。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "以驿站为单位形成距离单位‘一驿’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "‘驿’古通‘绎’、‘络绎’，属假借用法。"
+    }
+  ]
+}

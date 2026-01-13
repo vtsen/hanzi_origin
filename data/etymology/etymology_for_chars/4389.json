@@ -1,0 +1,44 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "怨恨，对某人或某事心存不满。",
+      "examples": [
+        "怼以手自捣。",
+        "以怼父母。",
+        "以死谁怼。"
+      ],
+      "traditional_char": "懟"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "凶狠，性情恶劣。",
+      "examples": [
+        "而秉义类，彊禦多懟。"
+      ],
+      "traditional_char": "懟"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘懟’为形声字，从心，对声，初指怨恨之意。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘怼’为‘懟’的简化字，仍从心，对声，本义不变。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘怨恨’义引申为‘性情凶狠’。晋唐以来文献已见。"
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "月光不明，朦胧的样子",
+      "examples": [
+        "朦，月朦朦也。——《说文新附》",
+        "楚魂吟后月朦。"
+      ],
+      "traditional_char": "朦"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "模糊不清，形象或事物不明晰",
+      "examples": [
+        "朦郁（迷蒙郁结）",
+        "朦胧（模糊不清的样子）"
+      ],
+      "traditional_char": "朦"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "迷糊，迷惘",
+      "examples": [
+        "朦朦（迷惘的样子）",
+        "大師也難學，把一個發慈悲的臉兒來朦着。"
+      ],
+      "traditional_char": "朦"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "愚昧",
+      "examples": [
+        "朦狡（愚昧狡诈的人）"
+      ],
+      "traditional_char": "朦"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "目盲，或一时失明",
+      "examples": [
+        "朦瞽（眼睛失明）",
+        "裏面很黯黑，叫小清的眼睛朦了一陣。"
+      ],
+      "traditional_char": "朦"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "蒙骗，蒙混",
+      "examples": [
+        "糧胥具有保結，自不敢任意以少增多，以欠作完，朦官取咎。",
+        "朦混（用欺骗手段使人相信虚假的事物）"
+      ],
+      "traditional_char": "朦"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "adjective",
+      "meaning": "大；丰盛",
+      "examples": [
+        "朦，豐也。《廣雅·釋詁四》",
+        "自關而西秦晉之閒凡大貌謂之朦。《方言二》"
+      ],
+      "traditional_char": "朦"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从月，表意，蒙为声符，本义为月色不明。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由月色不明扩展为事物不清楚，对时间不详无从判断。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由模糊引申为思维意识模糊、迷糊。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由‘模糊’进一步比喻为愚昧无知。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "由‘模糊’具体指视觉上的模糊、失明。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "metaphor",
+      "note": "由‘模糊’比喻为用不明手段蒙混他人，即蒙蔽、欺骗。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "semantic_shift",
+      "note": "“大、丰”的用法为地域方言中的引申，机制不明，古出处所见。"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "危险，危殆",
+      "examples": [
+        "危殆",
+        "危乎殆哉",
+        "知止不殆"
+      ],
+      "traditional_char": "殆"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adverb",
+      "meaning": "大概，几乎",
+      "examples": [
+        "伤亡殆尽"
+      ],
+      "traditional_char": "殆"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "懈怠，松懈（古同“怠”）",
+      "examples": [],
+      "traditional_char": "殆"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从歹，台声，表示危险，与死亡相关。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“危险”引申为“几乎（危险边缘）”的含义，产生概率或临近的语气。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "古时“殆”与“怠”通用，由危险引申为懈怠，或因形声关系出现混用。"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "疆界，边界，国境。",
+      "examples": [
+        "国境",
+        "入境",
+        "边境"
+      ],
+      "traditional_char": "境"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "地方，区域，处所。",
+      "examples": [
+        "无人之境",
+        "佳境",
+        "身临其境"
+      ],
+      "traditional_char": "境"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "状况，地步。",
+      "examples": [
+        "境况",
+        "困境",
+        "意境"
+      ],
+      "traditional_char": "境"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从土，竟声，表示疆界、边界相关本义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘疆界’引申为‘地方、区域’，古今文献皆有体现。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由‘区域、地方’喻指‘状况、地步’，如‘意境’等用法。"
+    }
+  ]
+}

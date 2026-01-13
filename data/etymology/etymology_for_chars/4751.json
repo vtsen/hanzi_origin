@@ -1,0 +1,57 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "草木茂盛的样子",
+      "examples": [
+        "芳草萋萋。",
+        "中庭萋兮鲜草生。",
+        "維葉萋萋。"
+      ],
+      "traditional_char": "萋"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "形容花纹交错、繁杂的样子",
+      "examples": [
+        "萋兮斐兮，成是贝锦。",
+        "萋斐。"
+      ],
+      "traditional_char": "萋"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "（通“凄”）凄凉、悲切的样子",
+      "examples": [
+        "萋萋，云行貌。",
+        "有渰萋萋。",
+        "蒹葭萋萋。"
+      ],
+      "traditional_char": "萋"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从艸，妻声，表示草木茂盛。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由草木繁茂转喻为花纹错杂之貌，见《诗经》用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "形容茂盛引申为云、景象密集进而与“凄”通假，表示凄凉悲凉。"
+    }
+  ]
+}

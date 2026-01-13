@@ -1,0 +1,85 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "岩石、煤等坚硬的小块或碎片",
+      "examples": [
+        "煤砟",
+        "炉灰砟",
+        "道砟"
+      ],
+      "traditional_char": "砟"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "石碑、碑石",
+      "examples": [
+        "砟碑石也"
+      ],
+      "traditional_char": "砟"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "砍、斫、割",
+      "examples": [
+        "武王親射惡來之口，親砟殷紂之頸。",
+        "眾男女都下田砟稻。"
+      ],
+      "traditional_char": "砟"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "雕刻（石头），鏨刻石碑",
+      "examples": [
+        "斫；鏨"
+      ],
+      "traditional_char": "砟"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "石、不平整的石头、石上",
+      "examples": [
+        "磪䃬砟硌，爾自為神"
+      ],
+      "traditional_char": "砟"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘砟’为形声字，从石，乍声，本义为坚硬的小石块或碎片。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“小石块”引申为“碑石”，唐宋以前已见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "由物名转为动词“斫、割”，即对石或物作劈斫之动作。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由斫、砍动作引申为雕刻石碑。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由小的石块义转为泛指石、不平整的石头或石上。"
+    }
+  ]
+}

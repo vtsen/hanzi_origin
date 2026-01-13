@@ -1,0 +1,49 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "中国古代神话中的女神名，多指女娲，传说中造人补天的女帝王。",
+      "examples": [
+        "女娲氏炼五色石以补天阙。",
+        "娲，古之神圣女化万物者也。"
+      ],
+      "traditional_char": "媧"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [],
+      "traditional_char": "媧"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "“蝸”的通假字用法。",
+      "examples": [],
+      "traditional_char": "媧"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘媧’为形声字，从‘女’表意义，‘咼’表声，原指女神女娲，形成于借表女性神祇的语境。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "以神名为姓，常见的名词化用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "‘媧’作为‘蝸’的通假用法，由于音近而借用。"
+    }
+  ]
+}

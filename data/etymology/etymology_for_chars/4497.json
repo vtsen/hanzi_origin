@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "直视，目不转睛地看，或瞪眼看。",
+      "examples": [
+        "目眙不禁。",
+        "眙若睨壁，浅深险易。",
+        "愕视曰眙。"
+      ],
+      "traditional_char": "眙"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "惊视，带有吃惊、愕然之意地注视。",
+      "examples": [
+        "观蓺于鲁，睹斯而眙。",
+        "见者尽眙。",
+        "帝色眙，谓左右曰：‘复慢我。’"
+      ],
+      "traditional_char": "眙"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "地名。江苏省盱眙县。",
+      "examples": [
+        "盱眙，县名，在江苏省。"
+      ],
+      "traditional_char": "眙"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从目，台声。表意为与视线相关，台（yí）声旁，最初指直视。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由直视义进一步用于惊视，古籍多有此用法，义项间有重叠。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由‘眙’指行为，借作地名（盱眙），为地理名称用法，见于汉代后稳定。"
+    }
+  ]
+}

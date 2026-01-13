@@ -1,0 +1,104 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古代宫室、宗庙旁侧的小门",
+      "examples": [
+        "闱，宫中之门也。——《说文》",
+        "使其属守王闱。——《周礼·保氏》",
+        "攻闱与大门，皆不胜。——《左传·哀公十四年》"
+      ],
+      "traditional_char": "闈"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "泛指宫门或宫中的门",
+      "examples": [
+        "赫赫大晋朝，明明闢皇闱。——晋·傅咸《赠何劭王济》",
+        "九室窈窕，五闱联绵。——唐·李白《明堂赋》"
+      ],
+      "traditional_char": "闈"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "后妃居住的宫殿（或所处宫门）",
+      "examples": [
+        "后正位宫闱，同体天王。——《后汉书》",
+        "入侍帝闱，出光厥家。——晋·潘岳《夏侯常侍诔》"
+      ],
+      "traditional_char": "闈"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "父母居室，泛指内室",
+      "examples": [
+        "眷恋庭闱。——晋·束晳《补亡诗》",
+        "朝暮盘羞惻庭闱，幽房无人感伊威。——唐·韩愈《送区弘南归》"
+      ],
+      "traditional_char": "闈"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "（古代）妇女居住的内室",
+      "examples": [
+        "其事非閨闱文笔自记者莫能知。——清·俞正燮《癸巳类稿》"
+      ],
+      "traditional_char": "闈"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "科举考试或试院、考场",
+      "examples": [
+        "闈后于历下候榜。——清·王士禛《池北偶谈》",
+        "春秋两闱，联登甲第。——《初刻拍案惊奇》",
+        "己亥岁张又入闱。——清·王应奎《柳南随笔》"
+      ],
+      "traditional_char": "闈"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "闈为形声字，从门，韦声，表示‘宫室边门’之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由特指宫室、宗庙旁侧门泛指宫中之门。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "以宫门代指后妃所居之处，为常见宫廷语习惯。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "从宫门进一步引申为尊贵或私密家居的门，第3义为家庭场合。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由父母居室泛指妇女居住的内室，语义范围收缩。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "metonymy",
+      "note": "宫门引申为重要场所之门，科举试院也取其庄重、封闭性质。"
+    }
+  ]
+}

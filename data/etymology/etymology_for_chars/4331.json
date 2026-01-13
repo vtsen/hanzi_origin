@@ -1,0 +1,37 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古水名，在今河南省南陽一帶的河流名稱。",
+      "examples": [
+        "洱水，出弘農郡盧氏縣之熊耳山。"
+      ],
+      "traditional_char": "洱"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "水名，即今雲南省西洱河或洱海的名稱，古名葉榆水。",
+      "examples": [
+        "西洱海，在府城東，古葉楡河也。"
+      ],
+      "traditional_char": "洱"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，耳声。原指河流名，用于古水名。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从本为一个地名水名（河南），后推广用于云南同名的水与湖。"
+    }
+  ]
+}

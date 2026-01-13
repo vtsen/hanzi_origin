@@ -1,0 +1,37 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "用于“哌嗪”等音译外来词，指一种有机化合物，用作驱肠虫药。",
+      "examples": [
+        "哌嗪是一种常用的驱虫药。"
+      ],
+      "traditional_char": "哌"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "“呱”的俗字，表示小儿的啼哭声。",
+      "examples": [
+        "小儿哌哌啼哭。"
+      ],
+      "traditional_char": "哌"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "从口，瓜声；以声表意，明代起常用作“呱”的俗字，表示啼声。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "20世纪音译西方药名时据其音借用。"
+    }
+  ]
+}

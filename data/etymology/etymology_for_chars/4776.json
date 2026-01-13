@@ -1,0 +1,83 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "梓树，一种落叶乔木。木材可用于建筑和制造器具。",
+      "examples": [
+        "梓其桐椅。",
+        "梓器。"
+      ],
+      "traditional_char": "梓"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "加工木器，制木器。",
+      "examples": [
+        "梓人为匠。"
+      ],
+      "traditional_char": "梓"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "用木刻版雕刻印刷用的木板。",
+      "examples": [
+        "付梓。",
+        "梓行。"
+      ],
+      "traditional_char": "梓"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "故乡、家乡。",
+      "examples": [
+        "桑梓之地。",
+        "怀梓里。"
+      ],
+      "traditional_char": "梓"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [],
+      "traditional_char": "梓"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从木，宰声，表木类，初本指梓树。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "以梓树木材为主要木器原料，借指制木器之动作。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "以梓木用于雕刻印刷板，引申为木刻印刷。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "synecdoche",
+      "note": "桑梓并称，泛称家乡（以常见树代指故里）。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "unknown",
+      "note": "用作姓氏，缘由不详，可能取吉祥、地名、官职等为姓。"
+    }
+  ]
+}

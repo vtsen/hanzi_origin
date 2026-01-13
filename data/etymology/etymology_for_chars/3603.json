@@ -1,0 +1,74 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "驼背，背曲",
+      "examples": [
+        "伛偻提携。",
+        "苦水所，多尩与伛人。",
+        "良雌伛伏，体方就成。",
+        "是犹伛身而好高升也。"
+      ],
+      "traditional_char": "傴"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "弯腰，鞠躬，表示恭敬",
+      "examples": [
+        "形容鬼看见，忙伛去将他一把拿住。",
+        "一命而偻，再命而伛，三命而俯，循墙而走。",
+        "伛伏其子。"
+      ],
+      "traditional_char": "傴"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "怜爱，抚育（通“妪”）",
+      "examples": [
+        "以下伛拊人之民。",
+        "伛伏其子。",
+        "伛拊"
+      ],
+      "traditional_char": "傴"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "疆域（通“區”）",
+      "examples": [
+        "傴宇"
+      ],
+      "traditional_char": "傴"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从人，区声，本义为背曲。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "背曲引申为弯腰，表示恭敬，早在《左传》即有体现。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "用作“妪”的通假，表示怜爱、抚育，属于声假借用。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "“傴”借为“區”，表示疆域，是通假字的用法。"
+    }
+  ]
+}

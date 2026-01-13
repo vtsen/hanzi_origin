@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "涞水，河流名，源自河北省涞源县，又名拒马河。",
+      "examples": [
+        "涞，水。起北地广昌，东入河。——《说文》",
+        "淶水，县东北三十里，县以此名，源出保安州之矾山，东南流入定兴县境，亦曰巨马河。——清·顾祖禹《读史方舆纪要》"
+      ],
+      "traditional_char": "淶"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "山东单县的水名。",
+      "examples": [
+        "淶水，旧在城北。《志》云：‘单县城东及县城北俱有此水。’——清·顾祖禹《读史方舆纪要》"
+      ],
+      "traditional_char": "淶"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "流动性的厘米·克·秒制单位；泊(粘滞性单位)的倒数。",
+      "examples": [],
+      "traditional_char": "涞"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘淶’为形声字，从水，來声，表示河流名。"
+    },
+    {
+      "formation_type": "simple_indicative",
+      "original_sense_index": 2,
+      "note": "‘涞’为‘淶’的简化字，用作科学术语单位时为新义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由河北涞水地名推广到其他同名河流。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "‘涞’字引申为物理单位，是现代语义转用。"
+    }
+  ]
+}

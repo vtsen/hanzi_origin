@@ -1,0 +1,138 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "pronoun",
+      "meaning": "何，什么",
+      "examples": [
+        "呜呼！曷归？",
+        "汝曷弗告朕？",
+        "曷云能来?",
+        "亦曷故哉?"
+      ],
+      "traditional_char": "曷"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "pronoun",
+      "meaning": "怎么，为什么",
+      "examples": [
+        "曷怨人？",
+        "汝曷弗告朕？",
+        "曷为能来？"
+      ],
+      "traditional_char": "曷"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "pronoun",
+      "meaning": "何时，何日",
+      "examples": [
+        "吾子其曷归？",
+        "曷其有所？",
+        "时日曷丧，予及汝皆亡！"
+      ],
+      "traditional_char": "曷"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adverb",
+      "meaning": "何不，为什么不（多作反问）",
+      "examples": [
+        "曷避之？",
+        "曷饮食之？"
+      ],
+      "traditional_char": "曷"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adverb",
+      "meaning": "岂，难道（加强反问语气）",
+      "examples": [
+        "礼云礼云，曷其然哉？",
+        "曷若是而可以持国乎？"
+      ],
+      "traditional_char": "曷"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "蝎（通“蝎”用，昆虫名）",
+      "examples": [
+        "先生曷鼻巨肩。",
+        "曷鼻，谓鼻如蝎虫也。"
+      ],
+      "traditional_char": "曷"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "other",
+      "meaning": "逮；及（及至之义，古文义项）",
+      "examples": [
+        "吾子其曷归？",
+        "曷云能穀？"
+      ],
+      "traditional_char": "曷"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "verb",
+      "meaning": "止（通“遏”，止息、遏止之义）",
+      "examples": [
+        "如火烈烈，则莫我敢曷。"
+      ],
+      "traditional_char": "曷"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘曷’从曰，声符为匃/曷，用作疑问代词‘何’的同源字，声意结合。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "何（什么）广义疑问向如何、为什么等具体疑问扩展；周秦用例。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "‘何’疑问词发展出询问时间‘何时，何日’之义，汉魏用例。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "何（什么）进一步引申为‘何不’，多为反问或劝告用法。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "‘何不’用法进一步发展为加强反问语气‘岂，难道’。多见于汉以后文献。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "‘曷’假借、音同用为‘蝎’，用为昆虫名，属于通假。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "semantic_extension",
+      "note": "由‘何’疑问，用为‘逮’、‘及’等‘到达’之义，见于古代释义。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 7,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "‘曷’通‘遏’，表示止息、止之意，属于音假字用法。"
+    }
+  ]
+}

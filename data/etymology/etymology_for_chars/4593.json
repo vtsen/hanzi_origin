@@ -1,0 +1,77 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "细切的肉或鱼，生食或作配料用。",
+      "examples": [
+        "食不厌精，膾不厌细。",
+        "膾成思我友，观乐忆吾僚。",
+        "膾细于丝，蕨甜似蜜。",
+        "金盘脍鲤鱼。"
+      ],
+      "traditional_char": "膾"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "泛指鱼肉或鱼类菜肴。",
+      "examples": [
+        "內中有陳過三年的火腿，半斤一個的竹蟹，都剝出來膾了蟹羹。",
+        "饮食诸友，炰鳖膾鲤。"
+      ],
+      "traditional_char": "膾"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "把鱼、肉切成薄片或细丝；泛指细切或割切。",
+      "examples": [
+        "飞刀脍鲤。",
+        "战场暂一干，贼肉行可膾。",
+        "膾鱗為羞，采薇代旨。",
+        "膾人肝而餔之。"
+      ],
+      "traditional_char": "膾"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "“脍”的简化字。",
+      "examples": [],
+      "traditional_char": "脍"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "膾：从肉，会声。本义为细切的肉，形声字，肉为意旁，会(kuài)为声旁。"
+    },
+    {
+      "formation_type": "simple_indicative",
+      "original_sense_index": 3,
+      "note": "脍：脍为膾的简化字，今作略体，左“月”代“肉”，右存声旁。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由细切肉推广为泛指鱼肉类菜肴。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "conversion",
+      "note": "名词动用，由‘膾’指细切肉衍生为‘膾’动词，指切肉为膾。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "function_word",
+      "note": "字形简化，脍为膾之简体字，用于取代其原本意义。"
+    }
+  ]
+}

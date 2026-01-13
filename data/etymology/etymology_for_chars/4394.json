@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "好马，骏马",
+      "examples": [
+        "骁腾自若",
+        "以骁为乘"
+      ],
+      "traditional_char": "驍"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "勇猛强健",
+      "examples": [
+        "骁勇善战",
+        "猛士骁将"
+      ],
+      "traditional_char": "驍"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘驍’形声字，从马，尧声。本义指好马。‘骁’为简化字。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由善马勇猛形象引申为人勇健，见于先秦至两汉用法。"
+    }
+  ]
+}

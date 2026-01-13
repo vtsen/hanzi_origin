@@ -1,0 +1,70 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "同党的人，帮派成员",
+      "examples": [
+        "彼与吾伎也",
+        "伎与相谋"
+      ],
+      "traditional_char": "伎"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "技巧，才能",
+      "examples": [
+        "伎俩",
+        "伎痒"
+      ],
+      "traditional_char": "伎"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "古代称以歌舞为业的女子",
+      "examples": [
+        "歌伎",
+        "舞伎"
+      ],
+      "traditional_char": "伎"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "other",
+      "meaning": "奔走的样子（伎伎）",
+      "examples": [
+        "鹿斯之奔，惟足伎伎"
+      ],
+      "traditional_char": "伎"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从人，支声，本指同党之人。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“同党的人”引申为“技能、才能”，如团体成员的专长。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由“技能”转指以技艺（如歌舞）为业的女子。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "unknown",
+      "note": "“伎伎”义的来源不明，或为音通借用。"
+    }
+  ]
+}

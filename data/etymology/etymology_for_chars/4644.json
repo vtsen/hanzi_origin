@@ -1,0 +1,68 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "涑水，山西省西南部的一条河流名。",
+      "examples": [
+        "伐我涑川。——《左传·成十三年》",
+        "涑水出河东闻喜县。——杜预注"
+      ],
+      "traditional_char": "涑"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "洗涤，用水洗物。",
+      "examples": [
+        "涑，澣也。从水，束声。——《说文》"
+      ],
+      "traditional_char": "涑"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "漱口，用水荡涤口腔。",
+      "examples": [
+        "涑，盪口也，與漱同。——《集韻》"
+      ],
+      "traditional_char": "涑"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "水有所败，水受损坏或污浊。",
+      "examples": [
+        "涑，水有所敗也。——《集韻》"
+      ],
+      "traditional_char": "涑"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "形声字，从水，束声，初本义为‘洗涤’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由‘洗涤’引申为‘漱口’，因动作均属用水清洗。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "‘水有所败’为洗涤引申，指水体因洗涤等而变坏。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "metonymy",
+      "note": "以‘涑’表河流名，因该水源与洗涤动作关系或得名。"
+    }
+  ]
+}

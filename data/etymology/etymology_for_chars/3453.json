@@ -1,0 +1,74 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "告诫，提醒要警觉、戒备",
+      "examples": [
+        "警世",
+        "警戒",
+        "警告"
+      ],
+      "traditional_char": "警"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "需要戒备的事件或消息",
+      "examples": [
+        "警号",
+        "警报",
+        "警钟"
+      ],
+      "traditional_char": "警"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "敏锐，醒悟，独特见解",
+      "examples": [
+        "警句",
+        "机警",
+        "警觉"
+      ],
+      "traditional_char": "警"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "负责维护社会秩序的武装力量",
+      "examples": [
+        "警察",
+        "警士"
+      ],
+      "traditional_char": "警"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从言，敬声，表告诫之意。“敬”既表声也兼具语义成分。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由动作为主的“警告、戒备”转指相关的事件、消息。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "“警觉、警告”引申为“敏锐、机警”的抽象品质。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "指责告诫、戒备的动作进一步专指执行相关职责的人员或机构。"
+    }
+  ]
+}

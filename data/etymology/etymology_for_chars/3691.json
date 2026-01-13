@@ -1,0 +1,99 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "阻止车轮转动的木头，车刹车用的木块。",
+      "examples": [
+        "朝发轫于苍梧兮，夕吾至乎县圃。",
+        "轫，碍车也。——《说文》"
+      ],
+      "traditional_char": "軔"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "引申为阻止、刹住。",
+      "examples": [
+        "陛下尝轫车于赵矣。",
+        "遂以头轫乘舆轮。"
+      ],
+      "traditional_char": "軔"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "车轮。",
+      "examples": [
+        "水渐轫以凝冱。"
+      ],
+      "traditional_char": "軔"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "古代长度单位，通“仞”。",
+      "examples": [
+        "掘井九轫而不及泉。"
+      ],
+      "traditional_char": "軔"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "柔弱，懒散。",
+      "examples": [
+        "芒轫僈楛，是辱国已。"
+      ],
+      "traditional_char": "軔"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "adjective",
+      "meaning": "坚固（有时通“韧”），柔软而坚固。",
+      "examples": [
+        "凡用兵者攻坚则轫。"
+      ],
+      "traditional_char": "軔"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从车，刃声。本义为止轮之木。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "动词含义由名词“止轮之木”引申为“阻止、刹住”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "因部件延伸指整个车轮。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "“軔”假借作长度单位“仞”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_shift",
+      "note": "从“机械之阻止”到“性情柔弱、懒散”，义变途径不详，可能与松缓、无力或被阻之意相关。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "semantic_shift",
+      "note": "从车闸坚固引申为一般意义上的坚固、韧性。"
+    }
+  ]
+}

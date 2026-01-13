@@ -1,0 +1,70 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "树干或树叶微小的样子",
+      "examples": [
+        "蔽芾甘棠",
+        "形容树木枝叶小而密"
+      ],
+      "traditional_char": "芾"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "草木茂盛的样子",
+      "examples": [
+        "芾芾，茂也",
+        "中有萱兮芾芾，言树之兮堂背"
+      ],
+      "traditional_char": "芾"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "（通“韍”）古代礼服上的蔽膝",
+      "examples": [
+        "朱芾斯黄，室家君王",
+        "赤芾金舄，会同有绎"
+      ],
+      "traditional_char": "芾"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "（通“绋”）牵引棺材的绳索",
+      "examples": [
+        "赤芾金舄，会同有绎"
+      ],
+      "traditional_char": "芾"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "形声字，从草（艹），弗声。最初指草木茂盛状"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_narrowing",
+      "note": "由整体草木茂盛引申为树干或树叶微小的专指，常用于蔽芾"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "因草木覆盖以遮蔽，引申为蔽膝衣物名，诗经用法"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "礼仪相关器物转指为葬礼用品，古籍中形制转移"
+    }
+  ]
+}

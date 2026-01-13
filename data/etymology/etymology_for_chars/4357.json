@@ -1,0 +1,58 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "敦厚、重厚",
+      "examples": [
+        "恽，重厚也。——《说文·心部》",
+        "其人恽然有德。"
+      ],
+      "traditional_char": "惲"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "谋划，议论",
+      "examples": [
+        "廣韻：謀也，議也。"
+      ],
+      "traditional_char": "惲"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "清代有惲敬。"
+      ],
+      "traditional_char": "惲"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘惲’为形声字，从心，军声。本义为‘重厚’。"
+    },
+    {
+      "formation_type": "loan_character",
+      "original_sense_index": 0,
+      "note": "‘恽’为‘惲’的简化字，全部义项均承自惲。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "敦厚之人多有谋略，引申为‘谋划，议论’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "conversion",
+      "note": "由形容词引申为姓氏用法。"
+    }
+  ]
+}

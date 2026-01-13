@@ -1,0 +1,100 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "相信，信任",
+      "examples": [
+        "恂，信心也。——《说文》",
+        "且恂士师之言可也。——《列子·周穆王》"
+      ],
+      "traditional_char": "恂"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "诚实有信",
+      "examples": [
+        "迪知忱恂于九德之行。——《书·立政》"
+      ],
+      "traditional_char": "恂"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adverb",
+      "meaning": "的确，确实",
+      "examples": [
+        "为下国恂蒙。——《大戴礼记》"
+      ],
+      "traditional_char": "恂"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "恐惧，惶急",
+      "examples": [
+        "木处则惴慄恂惧。——《庄子·齐物论》",
+        "恂惧"
+      ],
+      "traditional_char": "恂"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "恭敬谨慎，温恭有礼",
+      "examples": [
+        "恂恂如也。——《论语》",
+        "参为人矜严，好修容仪，进退恂恂。——《汉书·冯参传》"
+      ],
+      "traditional_char": "恂"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "adjective",
+      "meaning": "畅通，通达",
+      "examples": [
+        "思虑恂达，耳目聪明。——《庄子》"
+      ],
+      "traditional_char": "恂"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从心，旬声，表示“相信，信心”。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由动词“相信”进一步引申为“诚实有信”的性质。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "grammaticalization",
+      "note": "信任之意引申为副词，表确实、的确，加强语气用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "由内心状态“相信”向“恐惧”变化，可能源于不确定或心理状态的转折，古文常见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "内心诚信、信任引申为行为态度上的“恭敬谨慎”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "由“信任”表现为思想通畅、心理通达引申为“畅通”。"
+    }
+  ]
+}

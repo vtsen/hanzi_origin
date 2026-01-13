@@ -1,0 +1,118 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "腌菜，酢菜，酸菜。",
+      "examples": [
+        "疆埸有瓜，是剝是菹。",
+        "菹，酢菜也。——《说文》",
+        "楚惠王食寒菹而得蛭。"
+      ],
+      "traditional_char": "菹"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "肉酱；剁碎的肉。",
+      "examples": [
+        "麋鹿为菹。——《礼记·内则》",
+        "牛与羊鱼之腥，聂而切之为膾，麋鹿为菹。"
+      ],
+      "traditional_char": "菹"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "古代一种酷刑，把人剁成肉酱。",
+      "examples": [
+        "菹其骨肉于市。——《汉书·刑法志》",
+        "身菹于卫东门之上。"
+      ],
+      "traditional_char": "菹"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "多水草的沼泽地带。",
+      "examples": [
+        "驱蛇龙而放之菹。——《孟子·滕文公下》",
+        "吴人呼田猎茸草地曰菹。"
+      ],
+      "traditional_char": "菹"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "枯草，柴草。",
+      "examples": [
+        "请君伐菹薪，煮沸水为盐。——《管子·轻重甲》"
+      ],
+      "traditional_char": "菹"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "草席。",
+      "examples": [
+        "菹秸（用农作物茎杆编成的铺垫物，草席）。"
+      ],
+      "traditional_char": "菹"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "芭蕉，指植物名，有时泛指巴苴等芭蕉科植物。",
+      "examples": [
+        "格、韭、菹、于。",
+        "菹，即巴苴，一名芭蕉。"
+      ],
+      "traditional_char": "菹"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从艸，沮声。‘艸’表义，指与草或植物有关，‘沮’表音。原指腌菜。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由腌制的菜扩展到腌制、剁碎的肉制品，因加工方式相似。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由‘剁成肉酱’的实物比喻为酷刑，将人剁碎成肉酱。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "由与草有关扩展为多草的沼泽地带，多见于地方用法。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "沼泽地的水草常枯萎后用作柴草，因此指枯草。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 5,
+      "evolution_type": "metonymy",
+      "note": "枯草可用为编席，故引申为草席等物。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 6,
+      "evolution_type": "synecdoche",
+      "note": "以沼泽地的草泛指特殊的植物如芭蕉等，出现植物名的特殊用法。"
+    }
+  ]
+}

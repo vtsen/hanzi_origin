@@ -1,0 +1,73 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "猛烈炸裂并发出响声",
+      "examples": [
+        "爆炸",
+        "爆裂",
+        "爆竹",
+        "爆豆"
+      ],
+      "traditional_char": "爆"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "出人意料地出现或发生",
+      "examples": [
+        "爆发",
+        "爆满",
+        "爆冷门"
+      ],
+      "traditional_char": "爆"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "烹调方法，快速油烹",
+      "examples": [
+        "爆鸡丁",
+        "葱爆牛肉"
+      ],
+      "traditional_char": "爆"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "（器官等）鼓出来，突出",
+      "examples": [
+        "眼睛爆出"
+      ],
+      "traditional_char": "爆"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘爆’为形声字，从火，暴声，表示猛烈炸裂并发声。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由物体炸裂突发引申为事件意外爆发，多用于近现代汉语。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由猛烈爆裂发声转为形容高温油炸时食物受热爆裂的烹饪方法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由爆裂突出现象，比喻眼球等鼓出。"
+    }
+  ]
+}

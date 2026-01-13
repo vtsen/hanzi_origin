@@ -1,0 +1,64 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "用连接的长竹管引水的装置，常安在檐下或田间。",
+      "examples": [
+        "家家争调水，曲笕引修竹。",
+        "北有石函，南有笕。",
+        "放水漑田，小筧须封闭築塞。"
+      ],
+      "traditional_char": "筧"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "横安在屋檐上承接雨水的长竹管。",
+      "examples": [
+        "水笕",
+        "南有筧，隄防潰也。"
+      ],
+      "traditional_char": "筧"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "“筧”的简化字。",
+      "examples": [],
+      "traditional_char": "笕"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“筧”为形声字，从竹，见声，表与竹有关的器物，最早指用竹作的引水管道。"
+    },
+    {
+      "formation_type": "simple_indicative",
+      "original_sense_index": 2,
+      "note": "“笕”为“筧”的简化字，用于同一概念，仅简化结构。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_narrowing",
+      "note": "由泛指引水竹管具体到屋檐下承接雨水的功能，应用场景更具体。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "function_word",
+      "note": "“笕”为“筧”的简化字，功能替换，无义项变化，只在书写上变动。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "function_word",
+      "note": "“笕”为“筧”的简化字，表应用于不同场景但无义项分化。"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "用土壩堵水的建筑物，堤坝。",
+      "examples": [
+        "及到新城，策埭于城北。——《晋书·谢安传》",
+        "埭横江曲路，戍入海中山。——宋之问《登北固山》"
+      ],
+      "traditional_char": "埭"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "船只往来征税或牵引船只之处。",
+      "examples": [
+        "以牛车牵埭，取其税。——《晋中兴书》",
+        "埭程（过堰钱。古时在江河水流湍急、沿路险阻处设埭，用牛或人力助船过埭，借以收税）"
+      ],
+      "traditional_char": "埭"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "measure_word",
+      "meaning": "（方言）量词。动量词，相当于“次”、“趟”。",
+      "examples": [
+        "头一埭到上海。——《海上花列传》第二回"
+      ],
+      "traditional_char": "埭"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "measure_word",
+      "meaning": "（方言）量词。物量词，相当于“座”，多指楼厅等建筑物。",
+      "examples": [
+        "七埭高楼八埭厅。——朱自清《吴歌甲集·西方路上一只船》"
+      ],
+      "traditional_char": "埭"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“埭”为形声字，从土，代声。本义为土坝、堤坝。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由堤坝引申为作为过坝征税和牵船的地点，因功能而生新义。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "地点义引申为动作单位的量词，用于指过埭的次数。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由动量词引申为物量词，用于计数建筑等。"
+    }
+  ]
+}

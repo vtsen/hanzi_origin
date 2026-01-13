@@ -1,0 +1,87 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "及，到达，赶上",
+      "examples": [
+        "迨天之未陰雨，徹彼桑土，綢繆牖戶。",
+        "兩眼欲讀天下書，力雖不迨志有餘。"
+      ],
+      "traditional_char": "迨"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "preposition",
+      "meaning": "等到，到了……时",
+      "examples": [
+        "迨至菡萏成花。——明·李渔《闲情偶寄·种植部》",
+        "迨諸父異爨。——明·归有光《项脊轩志》"
+      ],
+      "traditional_char": "迨"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "preposition",
+      "meaning": "趁，乘，趁着",
+      "examples": [
+        "請迨其未畢陳而擊之。——《公羊傳·僖公二十二年》",
+        "迨吉（男婚女嫁皆合時宜）"
+      ],
+      "traditional_char": "迨"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adverb",
+      "meaning": "將近，差不多",
+      "examples": [
+        "奉老母而寓食於人者，迨十年矣。",
+        "塗乙迨一紀，甘苦萬千並。"
+      ],
+      "traditional_char": "迨"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "比得上；如同",
+      "examples": [
+        "妾貌雖不迨桃李，而零落過之。",
+        "近時僧癩可用之，云‘亂山爭落日’，雖工而窘，不迨本句。"
+      ],
+      "traditional_char": "迨"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从辵，台声。本义为及、到，与行走至某地相关。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由到达、赶上引申为时间意义“等到”或“到了……时”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由本义“及、到”引申为趁、乘的用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "‘及’引申为副词用法，表示程度或将近之意。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "‘及’引申为‘比得上’，语意扩大。"
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "吃东西时嘴里发出的声音",
+      "examples": [
+        "毋咤食。——《礼记·曲礼上》"
+      ],
+      "traditional_char": "咤"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "怒吼，发怒声",
+      "examples": [
+        "大咤一声，现了本相。——《西游记》",
+        "项王喑恶叱咤。——《史记·淮阴侯传》"
+      ],
+      "traditional_char": "咤"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "叹息，慨叹，发出叹声",
+      "examples": [
+        "哀咤良久。——唐·李朝威《柳毅传》",
+        "臨川哀年邁，撫心獨悲咤。——《文选·郭璞〈游仙诗〉》"
+      ],
+      "traditional_char": "咤"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "痛惜，悲痛",
+      "examples": [
+        "痛惜曰咤也。——《一切经音义》引《通俗文》",
+        "怛咤靡肝肺。——《汉·蔡琰〈悲愤诗〉》"
+      ],
+      "traditional_char": "咤"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "夸耀，惊异",
+      "examples": [
+        "转相夸咤。——《后汉书·王符传》",
+        "那怪看得眼咤。——《西游记》"
+      ],
+      "traditional_char": "咤"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "叹息声",
+      "examples": [
+        "咤之音发于五内。——《三国志·蜀书·杨仪传》"
+      ],
+      "traditional_char": "咤"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "斟酒或奠爵",
+      "examples": [
+        "王三宿、三祭、三咤。——《书·顾命》"
+      ],
+      "traditional_char": "咤"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从口，宅声，口表与嘴相关的动作，声符宅。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由嘴里发出声音引申为愤怒时发出的叫声，中古时期明显。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由嘴发声引申为感慨、叹息时发出的声音。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由叹息声音引申为悲伤、痛惜。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 5,
+      "evolution_type": "conversion",
+      "note": "叹息的动作名词化为叹息的声音。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_shift",
+      "note": "本义声音的具体含义淡化后，出现“夸耀”及“惊异”等新义，见于后汉、唐代语境。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "semantic_shift",
+      "note": "古文中“咤”假借为奠爵、斟酒，见于《书·顾命》，学界有争议。"
+    }
+  ]
+}

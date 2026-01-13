@@ -1,0 +1,70 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "方形的椽子，用于承托屋顶的横木。",
+      "examples": [
+        "细木为桷。——韩愈《进学解》",
+        "松桷有舄。——《诗·鲁颂·閟宫》",
+        "先收先生作梁柱，以次构架桷与榱。——宋·王安石",
+        "全亭除了瓦桷，纯是石头造成，雕工也很不错。——李劼人《死水微澜》"
+      ],
+      "traditional_char": "桷"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "横平如桷的树枝或可作桷用的木枝。",
+      "examples": [
+        "鸿渐于木，或得其桷。——《易·渐》",
+        "鸟而之木，得其宜也……之木而遇堪为桷之枝，取其易直可安也。——孔颖达疏"
+      ],
+      "traditional_char": "桷"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "屋角斜柱。",
+      "examples": [
+        "屋角斜柱曰桷。——《释名》",
+        "松桷有梴。——《诗·商颂》"
+      ],
+      "traditional_char": "桷"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "悬蚕箔的柱子。",
+      "examples": [],
+      "traditional_char": "桷"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从‘木’，‘角’声；初义为方形的椽子，形声字，‘木’表意指木结构，‘角’表音。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "将“桷”从方椽扩展泛指横平可作桷的树枝，秦汉以降。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "从屋内主要方椽义引申为亦可作屋角斜柱，汉晋文献可见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由架屋椽木义引申至悬蚕箔的特殊柱子，具体用法见部分古书。"
+    }
+  ]
+}

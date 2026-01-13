@@ -1,0 +1,44 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "萇楚，一种古书所记载的植物，后指猕猴桃（羊桃）",
+      "examples": [
+        "《诗·檜風》：隰有萇楚，猗𤣕其枝。",
+        "苌楚即今羊桃也。"
+      ],
+      "traditional_char": "萇"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "《礼·乐记》：閒诸萇弘。",
+        "周代有萇弘。"
+      ],
+      "traditional_char": "萇"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘萇’由‘艸’表义，‘長’表声，为形声字，本指植物‘萇楚’。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘苌’为‘萇’之简化字，‘艸’表义，‘长’表声，意义同出。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "conversion",
+      "note": "由植物名泛化为姓氏用，见于周代，如萇弘。"
+    }
+  ]
+}

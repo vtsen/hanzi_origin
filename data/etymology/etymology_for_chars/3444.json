@@ -1,0 +1,57 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "收割谷物或割草用的弯形农具，即“镰刀”。",
+      "examples": [
+        "佩镰",
+        "两刃镰",
+        "领工老范捎着一张镰，预备割柴。",
+        "稻苗长七八寸，陈草复起，以鐮侵水芟之。"
+      ],
+      "traditional_char": "鐮"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "箭镞或金属器物上的锋利棱角。",
+      "examples": [
+        "凡箭镞胡合嬴者四镰。——《方言》",
+        "鐮，稜也。",
+        "其廣長而薄鐮者謂之錍，或謂之鈀。"
+      ],
+      "traditional_char": "鐮"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "有金属棱角的长兵器。",
+      "examples": [
+        "有的是鞭、簡、瓜、錘、刀、槍、鉞、斧、劍、戟、矛、鐮。隨你選稱手的拿一件去。"
+      ],
+      "traditional_char": "鐮"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从金，廉声，本指收割用的金属农具。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "因镰刀有锋利的棱角，引申为箭镞、器物上的棱角。见先秦及汉文文献。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由‘金属锋棱’的含义进一步比喻为有金属棱角的兵器名。宋元以后文献见用。"
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "细腻的磨刀石",
+      "examples": [
+        "则字平如砥。",
+        "剑待砥而后能利。"
+      ],
+      "traditional_char": "砥"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "在磨刀石上磨，磨利",
+      "examples": [
+        "晋人已胜智氏，归而缮甲砥兵。",
+        "宝剑未砥，犹乏切玉之功。"
+      ],
+      "traditional_char": "砥"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "磨炼、修养",
+      "examples": [
+        "砥节砺行。",
+        "砥厉廉隅。"
+      ],
+      "traditional_char": "砥"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "平直，平坦，公平",
+      "examples": [
+        "大道如砥。",
+        "言路平如砥。"
+      ],
+      "traditional_char": "砥"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "平定，安定",
+      "examples": [
+        "砥定。",
+        "砥属。"
+      ],
+      "traditional_char": "砥"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "阻滞，挡住",
+      "examples": [
+        "有石砥中流。",
+        "片石谁能砥乱流。"
+      ],
+      "traditional_char": "砥"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "（比喻义）比喻起支柱作用的人或力量",
+      "examples": [
+        "砥柱中流",
+        "如砥柱山"
+      ],
+      "traditional_char": "砥"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从石，氐声，表示细腻磨刀石。‘石’表意，‘氐’表音。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由名词“砥石”引申为“用砥石磨”，早见于先秦文献。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "磨东西喻为磨炼品德、才能，见于汉魏六朝。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由磨刀石的平直罕见引申为“平直、平坦、公平”，《诗经》《梦溪笔谈》有用例。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "从‘平直、平坦’引申为‘平定、安定’，先秦、两汉有用例。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "由磨刀石之坚实、可阻水流引申为阻滞、挡。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "metaphor",
+      "note": "由砥柱山、磨刀石坚固屹立于水流中，比喻支柱力量，多见于成语‘砥柱中流’及其他比喻用法。"
+    }
+  ]
+}

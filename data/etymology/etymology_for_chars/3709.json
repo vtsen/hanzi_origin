@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "吼叫，尤指牛鳴或兽类的咆哮声。",
+      "examples": [
+        "清青城子《志异續編•某屠牛》：群吽不絕。",
+        "牛鳴亦曰吽。"
+      ],
+      "traditional_char": "吽"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "狗争斗时发出的声音，亦作“吽牙”、“吽呀”。",
+      "examples": [
+        "東方朔傳：狋吽牙者，兩犬爭也。",
+        "吽牙：狗爭鬥聲。"
+      ],
+      "traditional_char": "吽"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "佛教咒语中“六字真言”之一，为梵语Hum的对音，表示真言的结尾音。",
+      "examples": [
+        "唐慧琳《一切經音義》：吽，梵文真言句也。",
+        "元張昱《輦下曲》：守內番僧日念吽，御廚酒肉按時供。"
+      ],
+      "traditional_char": "吽"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从口，牛声为声。形声字，本作牛鸣之声，属喉内粗哮之音。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_narrowing",
+      "note": "动物低沉吼叫之义专指用于犬争斗声，多见于汉代。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "以牛怒吼之声喻佛教真言结尾音，唐代起佛典记载。"
+    }
+  ]
+}

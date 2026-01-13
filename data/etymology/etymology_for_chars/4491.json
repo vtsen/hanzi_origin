@@ -1,0 +1,119 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "虎行走的样子，形容虎威武的步态",
+      "examples": [
+        "虔，虎行皃。——《说文》"
+      ],
+      "traditional_char": "虔"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "勇武、强固",
+      "examples": [
+        "有虔秉钺。——《诗·商颂·长发》",
+        "虔，固也。——《尔雅·释诂》"
+      ],
+      "traditional_char": "虔"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "杀戮、杀害",
+      "examples": [
+        "虔刘我边陲。——《左传·成公十三年》",
+        "虔，杀也。秦晋之北，鄙谓贼为虔。——《方言》"
+      ],
+      "traditional_char": "虔"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "劫掠、夺取",
+      "examples": [
+        "奪攘矯虔。——《书·吕刑》",
+        "強取為虔。——韋昭疏"
+      ],
+      "traditional_char": "虔"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "截断、砍伐",
+      "examples": [
+        "方斲是虔。——《诗·商颂·殷武》",
+        "虔，猶伐也，刈也。——馬瑞辰"
+      ],
+      "traditional_char": "虔"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "adjective",
+      "meaning": "恭敬、诚心、敬虔",
+      "examples": [
+        "以告虔也。——《左传·庄公二十四年》",
+        "虔共爾位。——《诗·大雅·韩奕》",
+        "适位执爵皆兴拜，不许乃止，虔若小侯之事大国。——韩愈"
+      ],
+      "traditional_char": "虔"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "adjective",
+      "meaning": "聪明、狡黠",
+      "examples": [
+        "虔，慧也。——《方言》",
+        "虔，謾也。——《方言》十二"
+      ],
+      "traditional_char": "虔"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从虍（虎头形）表义，‘文’表音，本义为虎行走的样子。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由虎行的威武形态，比喻勇武、强固，汉-先秦"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "metaphor",
+      "note": "由勇武引申为恭敬、诚心，以威严对应敬慎，先秦已见"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "虎行引申为虎杀物，进而引为杀戮，周代方言"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "杀戮进一步引申为劫掠、掠夺，秦汉已见"
+    },
+    {
+      "source_index": 2,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "杀戮动作引申为截断、砍伐，《诗经》例见"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "semantic_shift",
+      "note": "本义与聪明、狡黠关系不明，方言用法，机制不详"
+    }
+  ]
+}

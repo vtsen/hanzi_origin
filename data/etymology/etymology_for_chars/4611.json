@@ -1,0 +1,92 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "落叶乔木，亦称“栾华”或“灯笼树”，叶含鞣质，可制栲胶，花可作染料或入药，木材可制器具，种子可榨油。",
+      "examples": [
+        "树以栾华。",
+        "欒，木似欄。"
+      ],
+      "traditional_char": "欒"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "建筑物立柱和横梁之间成弓形的承重结构，即柱上的曲木，两端以承斗拱。",
+      "examples": [
+        "柱上曲木，两头受栌者。",
+        "结重栾以相承。"
+      ],
+      "traditional_char": "欒"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "钟口的两角。",
+      "examples": [
+        "鳧氏为钟，两欒谓之銑。",
+        "有刻在两欒。"
+      ],
+      "traditional_char": "欒"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "通“孪”，双生子。",
+      "examples": [
+        "故与二欒博。",
+        "兄弟不欒。"
+      ],
+      "traditional_char": "欒"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [
+        "汉有欒布。",
+        "欒書之後。"
+      ],
+      "traditional_char": "欒"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘欒’为形声字，从木，䜌声，最初表树名（栾树）。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘栾’为‘欒’的简化字，结构简化但承袭本义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由树的曲型喻为建筑柱梁间的曲木。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由柱上曲木进一步喻钟口两角（弯曲形状）"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "与‘孪’通用，因音近产生字义转移。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "conversion",
+      "note": "以树名为氏。"
+    }
+  ]
+}

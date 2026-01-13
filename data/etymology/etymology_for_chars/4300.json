@@ -1,0 +1,43 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "一种用荞麦面等材料制成的条状食品，多为煮食。",
+      "examples": [
+        "饸饹面是山西特色小吃。"
+      ],
+      "traditional_char": "餄"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "餌、餅一类的食品的总称。（古义）",
+      "examples": [
+        "【玉篇】餌也。",
+        "【集韻】餠也。"
+      ],
+      "traditional_char": "餄"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "‘餄’形声字，从食，夹声，古义作餌、餅。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘饸’为‘餄’的简化字，从食，合声，专指一种条状食品。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_narrowing",
+      "note": "词义由泛指餌、餅类食品，缩小专指某种条状面食品，主要见于现代北方方言与简称用法。"
+    }
+  ]
+}

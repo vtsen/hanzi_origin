@@ -1,0 +1,69 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "桉树。常绿乔木，桃金娘科桉属，木材坚韧，叶可提取挥发油，也作观赏和蜜源植物。",
+      "examples": [
+        "岩上长满绿盈盈的桉树、杉树、凤尾竹，清风一吹，萧萧飒飒的。",
+        "桉叶可提取按油供药用或制香料。"
+      ],
+      "traditional_char": "桉"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "几案。桌子，即古时用来放置物品或用作书写的桌子。",
+      "examples": [
+        "渙丧西归，道经弘农，民庶皆设盘桉于路。",
+        "翰就馆，以笔纸置于桉。"
+      ],
+      "traditional_char": "桉"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "查验，考查，与“案”同。",
+      "examples": [
+        "臣窃桉《春秋》水旱之变，皆应暴急，惠不下流。"
+      ],
+      "traditional_char": "桉"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "conjunction",
+      "meaning": "于是，同“按”，表示承接关系的连词。",
+      "examples": [
+        "秦桉兵攻魏，取安邑。"
+      ],
+      "traditional_char": "桉"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "从木，安声。最初指几案，属形声字，后借用、转用为其他义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由指称“几案”，借为查验考查（与“案”通用），此为器物名转抽象动作。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "reanalysis",
+      "note": "与“按”通假，语气副词化为表示承接的连词。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "近现代音近借用为表“桉树”新物种，音借自外来语（Eucalyptus）。"
+    }
+  ]
+}

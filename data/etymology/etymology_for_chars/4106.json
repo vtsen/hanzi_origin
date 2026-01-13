@@ -1,0 +1,53 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "拔、扯（多指毛发等），用手拉扯或拔取",
+      "examples": [
+        "再多说，我把你这胡子还挦了呢!——《红楼梦》",
+        "果然自己一把一把将那头发大绺挦将下来。——《醒世姻缘传》"
+      ],
+      "traditional_char": "挦"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "引用、摘录（某人的文章或诗句）",
+      "examples": [
+        "古书东移西掇，挦补成章。——《辍耕录》"
+      ],
+      "traditional_char": "挦"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "扯、撕开",
+      "examples": [
+        "虎奔逐，众犬群起，或前或后，左右伺便撏嚙。",
+        "撏去了凤冠霞帔，赤体精光。"
+      ],
+      "traditional_char": "撏"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘挦’为形声字，‘扌’表义，‘先’表音，本义为拔、扯。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 2,
+      "note": "‘撏’为形声字，‘扌’表义，‘咸’表音，最早见于拔取、扯等意义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由实物的‘拔取’引申为‘摘取、摘录’文句，见于明清时期。"
+    }
+  ]
+}

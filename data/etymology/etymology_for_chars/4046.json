@@ -1,0 +1,85 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "衣服、裙子两侧或中间开口的部位（衩口、开衩）",
+      "examples": [
+        "衩口",
+        "裙子正中开衩的地方",
+        "开衩至胯骨边"
+      ],
+      "traditional_char": "衩"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "贴身短裤；裤衩",
+      "examples": [
+        "裤衩",
+        "三角裤衩"
+      ],
+      "traditional_char": "衩"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "腰包",
+      "examples": [
+        "怕的是出私囊复入私人衩"
+      ],
+      "traditional_char": "衩"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "夹纏，夹在中间",
+      "examples": [
+        "夫人可来夹衩"
+      ],
+      "traditional_char": "衩"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "奇异，奇特",
+      "examples": [
+        "九龙吐水早是衩，千轮足下瑞莲开"
+      ],
+      "traditional_char": "衩"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从衣，叉声。本指衣服两侧开口的部位，后来引申出相关意义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "衣服开口处引申为裤衩（短裤），因形状相似。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由衣服开口引申为盛物的腰包，形象类比。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "unknown",
+      "note": "用作“夹纏”，来源不明，可能与衣物包覆动作相关。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "analogy",
+      "note": "“奇异”之义可能与“差”、“叉”通用，指不寻常的分开、分歧状况，机制存在歧义。"
+    }
+  ]
+}

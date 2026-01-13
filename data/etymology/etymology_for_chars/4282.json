@@ -1,0 +1,65 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "夹脊肉，脊椎两侧的肉。",
+      "examples": [
+        "刺腰尻之解，两胂之上，是腰俞。——《素问·缪刺论》",
+        "夹脊之肉曰胂。——王冰注"
+      ],
+      "traditional_char": "胂"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "伸展身体。",
+      "examples": [
+        "申也。",
+        "伸身也。"
+      ],
+      "traditional_char": "胂"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "由砷化氢分子中氢被烷基等取代后生成的一类有机化合物，均具强毒性。",
+      "examples": [],
+      "traditional_char": "胂"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "砷化氢（一种无机化合物）。",
+      "examples": [],
+      "traditional_char": "胂"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从肉，申声，本义指夹脊的肉。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由夹脊肉的形象，引申为伸展身体，因肉的延展感。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "现代化学领域引申为含砷有机化合物，源自译名用字习惯。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_narrowing",
+      "note": "由有机化合物进一步专指砷化氢。"
+    }
+  ]
+}

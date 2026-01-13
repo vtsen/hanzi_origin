@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "拜火教神名，波斯瑣羅亞斯德教信奉的神",
+      "examples": [
+        "祆，故神也。——《说文新附》",
+        "《玉篇•示部》： “祆……胡神也。”",
+        "康國 有神名祆。"
+      ],
+      "traditional_char": "祆"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "祆教，拜火教，源於古波斯的宗教",
+      "examples": [
+        "祆之教法蓋遠， 而穆護所傳則自 唐 也。",
+        "祆教，拜火教[Zoroastrianism]。波斯人琐罗亚斯特所创立，崇拜火。"
+      ],
+      "traditional_char": "祆"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "祆教徒，拜火教信徒",
+      "examples": [
+        "勒大秦穆護、祆三千餘人還俗，不雜中華之風。",
+        "祆立朝出於胡俗。"
+      ],
+      "traditional_char": "祆"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "关中地区对“天”的称呼",
+      "examples": [
+        "祆，关中谓天为祆。——《集韵》"
+      ],
+      "traditional_char": "祆"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从示，天声；本义为西域神明名，即拜火教神。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由所信奉的神名转称整个宗教，见中唐典籍。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由宗教名转指宗教信仰者。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "在关中地区，由异域神名泛指天，有地域语音流变。"
+    }
+  ]
+}

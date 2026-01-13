@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [
+        "孟子母仉氏。",
+        "梁四公，一姓仉名䏿。"
+      ],
+      "traditional_char": "仉"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "古代“掌”字，手掌。",
+      "examples": [
+        "仉，古掌字。——《正字通》",
+        "手中也。"
+      ],
+      "traditional_char": "仉"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "从手，尙声，表意手掌，兼表声。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "metonymy",
+      "note": "由“掌”引申为姓氏，因地名或族号而转用为姓。"
+    }
+  ]
+}

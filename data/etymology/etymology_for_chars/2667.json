@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "姐妹的儿子（外甥）",
+      "examples": [
+        "他是我的外甥。",
+        "甥舅之间情谊深厚。"
+      ],
+      "traditional_char": "甥"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "姐妹的女儿（外甥女）",
+      "examples": [
+        "她是我的外甥女。",
+        "外甥女来看舅舅。"
+      ],
+      "traditional_char": "甥"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从男，生声。本义为姐妹的儿子，含男子之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "义项由专指男性的“姐妹的儿子”扩展到女性，即“姐妹的女儿”，为现代用法。"
+    }
+  ]
+}

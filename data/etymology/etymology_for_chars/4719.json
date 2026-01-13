@@ -1,0 +1,85 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "两手不断替换着把线、绳等绕回或拉回。",
+      "examples": [
+        "把风筝捯下来。",
+        "他一把一把地捯着线。"
+      ],
+      "traditional_char": "捯"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "追溯，追究原因。",
+      "examples": [
+        "捯根儿。",
+        "这件事已经捯出头来了。"
+      ],
+      "traditional_char": "捯"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "费力地呼吸。",
+      "examples": [
+        "捯气儿。",
+        "他累得直捯气。"
+      ],
+      "traditional_char": "捯"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "修饰，打扮。",
+      "examples": [
+        "捯饰。"
+      ],
+      "traditional_char": "捯"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "同“擣”、“搗”，用器物撞击、捶打物品。",
+      "examples": [
+        "捯米。"
+      ],
+      "traditional_char": "捯"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 4,
+      "note": "形声字，从手，舀声，初指用器物捶打、搗物。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 4,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "从用器物捶打推及手工操作“拉回、绕线”的动作，均需手部重复用力。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由物理上反复操作引申为追根究底、抽丝剥茧般追溯原因。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由反复用力之象扩展到气息费力、喘气；类比动作繁复。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由手工整理引申为外貌修饰、打扮。"
+    }
+  ]
+}

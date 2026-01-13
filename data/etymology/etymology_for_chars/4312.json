@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古代地方学校，特指乡学或国学，泛指学校",
+      "examples": [
+        "庠序，官也。《尔雅·释官》",
+        "有虞氏养国老于上庠，养庶老于下庠。《礼记》",
+        "主人拜迎宾于庠门之外。《礼记·乡饮酒义》",
+        "俾入邑庠。《聊斋志异·促织》"
+      ],
+      "traditional_char": "庠"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "教养，教导",
+      "examples": [
+        "庠者养也，校者教也，序者射也。《孟子》"
+      ],
+      "traditional_char": "庠"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "安详，从容（通“详”）",
+      "examples": [
+        "无苦无恼，安庠而起。《因果经》"
+      ],
+      "traditional_char": "庠"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从广（表示房屋）和羊声，广表示与房屋、建筑相关，本义为古代地方学校。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由学校引申为教养、教育，因学校为教养之地。发生于先秦。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由学校或讲学之详，转用为安详（详）义，常见于文言借用。"
+    }
+  ]
+}

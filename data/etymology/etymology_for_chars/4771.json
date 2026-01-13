@@ -1,0 +1,66 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "一种丛生的树。",
+      "examples": [
+        "古书有载梿为丛生之木。"
+      ],
+      "traditional_char": "梿"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "连枷，一种打谷脱粒的农具。",
+      "examples": [
+        "乡人以梿枷打谷。"
+      ],
+      "traditional_char": "梿"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "楼阁边相连的小屋。",
+      "examples": [
+        "楼阁边之梿谓之簃。"
+      ],
+      "traditional_char": "梿"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "古代宗庙祭祀时盛黍稷的器皿（瑚槤/瑚琏）。",
+      "examples": [
+        "夏后氏四璉，殷六瑚，是宗庙重器。"
+      ],
+      "traditional_char": "槤"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘梿’从‘木’，‘连’声，初指丛生的树，符合声符与义符构造。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 3,
+      "note": "‘槤’从‘木’，‘连’声，用作古代宗庙盛黍稷的器皿，疑为借音与形声结合用。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "因用丛生之木为连枷工具，名称转用于农具。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "因楼阁边小屋多为木结构，形态相连，语义比喻转移。"
+    }
+  ]
+}

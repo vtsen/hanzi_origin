@@ -1,0 +1,74 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古代帝王顓頊的省稱",
+      "examples": [
+        "顒顒高顼，命世維新。",
+        "顓頊者，黃帝之孫，昌意之子也。"
+      ],
+      "traditional_char": "顼"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "顼姓出自顓頊之後"
+      ],
+      "traditional_char": "顼"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "謹慎、恭敬的樣子",
+      "examples": [
+        "頭頊頊謹皃。"
+      ],
+      "traditional_char": "頊"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "自失貌，失神貌",
+      "examples": [
+        "莊子·天地篇：頊頊然不自得。",
+        "旭旭：自失之貌。"
+      ],
+      "traditional_char": "頊"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 2,
+      "note": "‘頊’從頁（頭部）+玉聲，表頭部恭謹貌，為形聲字。"
+    },
+    {
+      "formation_type": "loan_character",
+      "original_sense_index": 0,
+      "note": "‘顼’（頊）後借用為古帝名（顓頊之‘頊’），屬假借用法，即用原有字表音借為人名省稱。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由‘謹慎貌’義擴展至‘自失貌/失神貌’。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 0,
+      "evolution_type": "semantic_shift",
+      "note": "由外貌義轉為古帝名稱，是上古人名用字常見用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "synecdoche",
+      "note": "由帝號指代其後人的姓氏。"
+    }
+  ]
+}

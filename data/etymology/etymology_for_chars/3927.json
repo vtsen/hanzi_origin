@@ -1,0 +1,90 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "书、画的封套，用布帛制成。",
+      "examples": [
+        "帙，书衣也。——《说文》",
+        "披帙散书，屡睹遗文。——晋·潘岳《杨仲武诔》"
+      ],
+      "traditional_char": "帙"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "书的卷册、卷次。",
+      "examples": [
+        "聚帙数万，多朱黄涂乙处。——宋·叶适《京西运判方公神道碑》",
+        "诗赋篇帙繁多，不入《诗经》，而自为一略。——清·章学诚《校雠通义·补校“汉艺文志”》"
+      ],
+      "traditional_char": "帙"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "measure_word",
+      "meaning": "量词。用于装套的线装书。",
+      "examples": [
+        "凡五帙，每帙十卷。——白居易《长庆集·后序》",
+        "因以一帙示余，曰：‘此野人之词也。’——明·高启《荆南唱和集后序》"
+      ],
+      "traditional_char": "帙"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "小囊。",
+      "examples": [],
+      "traditional_char": "帙"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "整理、编次（书籍）。",
+      "examples": [
+        "书乱谁能帙，杯干自可添。——杜甫《晚晴》"
+      ],
+      "traditional_char": "帙"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "姓。",
+      "examples": [],
+      "traditional_char": "帙"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从巾，失声，表示用布帛做成的包书物（本义），义旁‘巾’表与布有关。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "以包裹的内容借指书卷本身，汉代后见用。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "grammaticalization",
+      "note": "由具体物转为量词用法，宋代已常见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "泛指为包裹小物品的袋囊，用于器物延伸。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_shift",
+      "note": "从包书过渡为“整理、编次书籍”，唐代用例。"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "气力小，势力弱小，与“强”相对",
+      "examples": [
+        "体质虚弱",
+        "力量弱小",
+        "国家弱，民不安"
+      ],
+      "traditional_char": "弱"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "年纪小（指男子二十岁左右的年纪）",
+      "examples": [
+        "弱冠之年",
+        "王生甫弱冠"
+      ],
+      "traditional_char": "弱"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "数量不够，差一点，与“强”相对",
+      "examples": [
+        "三分之一弱",
+        "一百人弱"
+      ],
+      "traditional_char": "弱"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "差，不如",
+      "examples": [
+        "弱于",
+        "弱点"
+      ],
+      "traditional_char": "弱"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "丧失（指人死）",
+      "examples": [
+        "又弱了一个"
+      ],
+      "traditional_char": "弱"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意字，小篆作两弯弓加彡形羽毛，取柔弱义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "以『气力小』引申为『年纪小』，见于古代男子年纪分称。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由『气力小』引申为『数量不够』，语义扩大。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由形容词『弱』进一步用作动词，指『差、不如』。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_shift",
+      "note": "『弱』作为丧失之意，可能由『衰弱、脱落』转化而来。"
+    }
+  ]
+}

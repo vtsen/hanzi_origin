@@ -1,0 +1,41 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "腹部及少腹痛的病症，泛指因气郁、结块等引起的腹痛病。",
+      "examples": [
+        "疝，腹痛也。《说文》",
+        "腹痛不得大小便，病名曰疝。《素问·长刺节论》",
+        "五藏六府疝十六病四十卷。《汉书·艺文志》注：心腹气病。"
+      ],
+      "traditional_char": "疝"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "疝气，某一脏器（多指肠）通过周围组织较薄弱的地方而隆起的病症，即“疝气”、“小肠串气”。",
+      "examples": [
+        "疝气（通常指腹股沟部的疝。亦称“小肠串气”）。",
+        "病名。指某一臟器通過周圍組織較薄弱的地方而隆起。",
+        "病在少腹，腹痛不得大小便，病名曰疝。《素问·长刺节论》"
+      ],
+      "traditional_char": "疝"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "会意兼形声字，从疒，表示疾病，“山”作声旁，初义为腹痛的病。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_narrowing",
+      "note": "古义为广义腹部疾病，后专指腹股沟等部位因脏器突出形成的特定病症（疝气）。"
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "覆盖",
+      "examples": [
+        "奄有天下",
+        "云气奄蔽山川"
+      ],
+      "traditional_char": "奄"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adverb",
+      "meaning": "忽然，突然",
+      "examples": [
+        "奄然长逝",
+        "奄忽如神"
+      ],
+      "traditional_char": "奄"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "气息微弱",
+      "examples": [
+        "奄奄一息"
+      ],
+      "traditional_char": "奄"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "古同“阉”，指宦官",
+      "examples": [
+        "宦者亦谓之奄"
+      ],
+      "traditional_char": "奄"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "古同“淹”，停留，久留",
+      "examples": [
+        "奄留不去"
+      ],
+      "traditional_char": "奄"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从大，奄声。本义为覆盖，形声字。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由‘覆盖’引申为‘忽然’（如变化骤至如同覆盖）"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "‘覆盖’引申为‘气息微弱’（如将息被覆盖，渐弱）"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "本字借为‘阉’，指宦官，属音借"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "本字又借为‘淹’，表示停留，属音借"
+    }
+  ]
+}

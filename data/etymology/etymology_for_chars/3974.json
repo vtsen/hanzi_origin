@@ -1,0 +1,76 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "买进粮食（多指购入大米、谷物），与“粜”相对。",
+      "examples": [
+        "你来籴米，将银子来我秤。",
+        "臧孫辰告糴于齊。",
+        "日糴太倉五升米，時赴鄭老同襟期。",
+        "農民們只好特別廉價賣掉僅有的收穫去繳租，自己日後反而用高價糴每天的飯米。"
+      ],
+      "traditional_char": "糴"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [
+        "春秋晋有大夫糴茷。"
+      ],
+      "traditional_char": "糴"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "不一，杂。",
+      "examples": [
+        "鳩籴天下之川。",
+        "通作雜。"
+      ],
+      "traditional_char": "籴"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "洗，滌（通“滌”）。",
+      "examples": [
+        "糴米肥䐗。"
+      ],
+      "traditional_char": "糴"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "糴：形声字，从米，翟声，本义为买进谷物。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 2,
+      "note": "籴：形声字，从米，翟声，为糴的俗字，偶用以指杂、混合之义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "conversion",
+      "note": "由动词义转化为姓氏；古今均有见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "因音近而偶通“滌”，指洗，见于汉赋例。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 0,
+      "evolution_type": "unknown",
+      "note": "籴通作杂，不一等义，可能与买入谷物意有间接渊源。"
+    }
+  ]
+}

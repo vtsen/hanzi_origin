@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "莩草，禾本科多年生草本植物，茎细长，叶片扁平，可盖屋。",
+      "examples": [
+        "莩，莩草也。——《说文》",
+        "湖、湘间平野亦多有之。"
+      ],
+      "traditional_char": "莩"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "芦苇等植物茎秆内的薄膜或种子的外皮。",
+      "examples": [
+        "朱实虽先熟，琼莩纵早开，流莺故犹在。——李商隐《百果嘲樱桃》",
+        "今群臣非有葭莩之亲，鸿毛之重。——《汉书·中山靖王传》"
+      ],
+      "traditional_char": "莩"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "饿死的人（通“殍”）。",
+      "examples": [
+        "野有饿莩。——《孟子·梁惠王上》",
+        "涂有饿莩而不知发。"
+      ],
+      "traditional_char": "莩"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从艸，孚声。最初指莩草一类植物。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由指莩草本身扩展到植物茎杆内的薄膜等相关部分。汉代用例可见。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "因音近“殍”，假借表示饿死之人。见《孟子》用例。"
+    }
+  ]
+}

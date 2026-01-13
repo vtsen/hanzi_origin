@@ -1,0 +1,70 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "顺从，听从",
+      "examples": [
+        "娓，顺也。——《说文》",
+        "娓，从也。——《广韵》"
+      ],
+      "traditional_char": "娓"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "美，漂亮",
+      "examples": [
+        "娓，美也。——《玉篇》",
+        "谁侜予娓。——《韩诗》"
+      ],
+      "traditional_char": "娓"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "努力，勤勉",
+      "examples": [
+        "娓，勉也。——《字汇》"
+      ],
+      "traditional_char": "娓"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "不倦的，形容谈话不倦、有吸引力",
+      "examples": [
+        "娓娓而谈",
+        "娓娓动听"
+      ],
+      "traditional_char": "娓"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从女，尾声，本义为顺从。“女”表意，指顺从、柔顺；“尾”表声。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "amelioration",
+      "note": "由顺从引申为美，因顺从可引申出温婉美好，东汉至南北朝常见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "顺从引申为努力做事，古人用顺应、努力有相通义。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "努力不倦的形象引申为形容谈话不倦，后用于“娓娓而谈”等成语。"
+    }
+  ]
+}

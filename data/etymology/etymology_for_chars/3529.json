@@ -1,0 +1,148 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "高丘，土丘。",
+      "examples": [
+        "防有鵲巢，邛有旨苕。",
+        "邛，丘也。——《毛传》"
+      ],
+      "traditional_char": "邛"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "病，劳。",
+      "examples": [
+        "匪其止共，維王之邛。——《詩·小雅·巧言》",
+        "亦孔之邛。——《詩·小雅·小旻》"
+      ],
+      "traditional_char": "邛"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "古地名、县名、州名，多指今四川省邛崃、临邛一带或西昌（邛都）。",
+      "examples": [
+        "素與臨邛令王吉相善。——《史記·司馬相如傳》",
+        "新唐書·李德裕傳：德裕命轉邛雅粟。"
+      ],
+      "traditional_char": "邛"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "古代西南少数民族国名。",
+      "examples": [
+        "蜀曰邛，皆夷種也。——《華陽國志》",
+        "司馬長卿便略定西夷，邛、笮、冉、駹、斯榆之君皆請為內臣。——《史記·司馬相如列傳》"
+      ],
+      "traditional_char": "邛"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "山名、地名，如邛崃山。",
+      "examples": [
+        "邛水出嚴道邛崍山，入青衣江。",
+        "邛崃在四川省。"
+      ],
+      "traditional_char": "邛"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "水名，邛水。",
+      "examples": [
+        "邛水出嚴道邛崍山，入靑衣江。"
+      ],
+      "traditional_char": "邛"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "邛竹（产自邛地的竹，常作杖），或以邛为地名的物产。",
+      "examples": [
+        "杖邛赤腳渡藍水，細流激激心骨清。——蘇舜欽《藍田悟真寺作》詩",
+        "邛竹杖"
+      ],
+      "traditional_char": "邛"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [
+        "邛疏者，周封史也。——《列仙傳》"
+      ],
+      "traditional_char": "邛"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "noun",
+      "meaning": "传说中的兽名（邛邛距虛）。",
+      "examples": [
+        "邛邛距虛走百里。——《穆天子传》"
+      ],
+      "traditional_char": "邛"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从邑，工声。本义为高丘。‘邑’表地名，‘工’为声符。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由丘地引申为地名，用地形突出之处命名地名。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "由山丘引申指具体的山名。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "metonymy",
+      "note": "以丘地为名，沿用为水名。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "地名又转用于古代少数民族国名。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 6,
+      "evolution_type": "metonymy",
+      "note": "以产地为物产名（如邛竹杖）。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 7,
+      "evolution_type": "metonymy",
+      "note": "地名转化为姓氏用。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "丘的意象引申为障碍、劳病（高丘难越，喻为病苦），见先秦诗经之训释。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 8,
+      "evolution_type": "unknown",
+      "note": "传说中神兽名，或由地名、丘名引申，具体机制不明，见于古籍。"
+    }
+  ]
+}

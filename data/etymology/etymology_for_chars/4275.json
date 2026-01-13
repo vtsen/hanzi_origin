@@ -1,0 +1,101 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古地名，晋大夫叔虎的封地，在今山西沁水下游一带",
+      "examples": [
+        "郤，晋大夫叔虎邑也。——《说文》",
+        "郤乡在河内。——《声类》"
+      ],
+      "traditional_char": "郤"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "春秋楚有郤宛。见《左传·昭公二十七年》"
+      ],
+      "traditional_char": "郤"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "孔隙，缝隙",
+      "examples": [
+        "若白驹之过郤。——《庄子》",
+        "批大郤，导大窾，因其固然。——《庖丁解牛》"
+      ],
+      "traditional_char": "郤"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "隔阂，嫌隙",
+      "examples": [
+        "今者有小人之言，令将军与臣有郤。——《史记·项羽本纪》",
+        "与红阳侯有郤。——《汉书·孙宝传》"
+      ],
+      "traditional_char": "郤"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "小病，不适",
+      "examples": [
+        "玉体有所郤。——《战国策·赵策》"
+      ],
+      "traditional_char": "郤"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "同“却”，退却，退后",
+      "examples": [
+        "竇則塞，引版而郤。——《墨子·備穴》",
+        "餘暑亦潛郤。——宋 沈遼《秋早登住閣》"
+      ],
+      "traditional_char": "郤"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从邑，谷声，本义为地名。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "以地名为氏，晋国封地后代取地名为姓氏，常见用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "因音近大量假借为‘隙’，含孔隙、缝隙义；汉代已见。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由物理缝隙引申为人际关系中的隔阂、，即“嫌隙”。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "由缝隙引申为身体有‘间隙’或‘不合’，比喻小恙、病痛之意。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "与‘却’通假，音近，功能性假借，多见于古文。"
+    }
+  ]
+}

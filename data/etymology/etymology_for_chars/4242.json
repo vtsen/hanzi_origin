@@ -1,0 +1,45 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "饼状金属块，如金银块。",
+      "examples": [
+        "鉼金謂之鈑。",
+        "鈑錠"
+      ],
+      "traditional_char": "鈑"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "金属板，如钢板、铝板等。",
+      "examples": [
+        "钢钣",
+        "铝钣",
+        "钣梁"
+      ],
+      "traditional_char": "鈑"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "鈑从金，版声，表示与金属和饼状有关，最初指饼状金属块。"
+    },
+    {
+      "formation_type": "loan_character",
+      "original_sense_index": 1,
+      "note": "钣为鈑的简化字，承继原义，现代多用于‘金属板’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "自本义‘饼状金属块’扩展至一般‘金属板’之义，见于器物工艺发展。"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "水面广阔无际的样子。",
+      "examples": [
+        "汉·应劭《风俗通·山泽》：“沆者，莽也，言其平望莽莽无涯际也。”",
+        "柳宗元《行路难》：“披霄决汉出沆。”"
+      ],
+      "traditional_char": "沆"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "大泽，湖泊。",
+      "examples": [
+        "晋·郭缘生《述征记》：“齐人谓湖曰沆。”",
+        "《说文》：“莽沆，大水也。”"
+      ],
+      "traditional_char": "沆"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "白色霭气，夜间或清晨的水气。",
+      "examples": [
+        "司马相如《大人赋》：“呼吸沆兮餐朝露。”",
+        "徐陵《东阳双林寺傅大士碑》：“非服流霞，若食朝沆。”"
+      ],
+      "traditional_char": "沆"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "水流、渡口或水流声。",
+      "examples": [
+        "《集韵》：“水流貌，一曰渡也。”"
+      ],
+      "traditional_char": "沆"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "比喻气味、品行相同的人勾结在一起（通常用于成语“沆瀣一气”）。",
+      "examples": [
+        "“沆瀣一气。”"
+      ],
+      "traditional_char": "沆"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，亢声，最初表水泽广阔无际的样子。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由形容水面广阔引申为大泽、湖泊等大水体，见晋人注。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由水面辽阔的意象引申为弥漫的白色水气（如沆瀣），体现氤氲之感。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由水广阔的特点，引申为具体的水流、渡口和流水声。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "由“沆瀣”为白色水气，引申作成语，喻指气味相投的人勾结。"
+    }
+  ]
+}

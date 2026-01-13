@@ -1,0 +1,119 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "迷惑，不明了，惶惑的样子。",
+      "examples": [
+        "诸将皆呒然。",
+        "副使李说及诸校俯首，皆嘸曰：“诺。”——《新唐书·李抱真传》"
+      ],
+      "traditional_char": "呒"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "没有（方言用法）。",
+      "examples": [
+        "勿要呒规矩。——越剧《三摆渡》",
+        "蒲鞋出租苏，一场嘸结果。嘸，无也。——《清稗类钞·方言类·苏州方言》",
+        "好人杀光嘸饭吃，賸得罔两吃罔两！——刘半农《拟儿歌－－铁匠镗镗》"
+      ],
+      "traditional_char": "呒"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adverb",
+      "meaning": "不，不论（方言用法）。",
+      "examples": [
+        "嘸该，谦恭之词，不敢也。——《清稗类钞·方言类·广州方言》",
+        "嘸讲短，嘸讲长，单讲田主冇天良。——《中国歌谣选·田主冇天良》",
+        "她嘸多嘸少都望女儿家里塞。——刘半农《瓦釜集·车车夜水也风凉》"
+      ],
+      "traditional_char": "呒"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "迷惑，不明了，惶惑的样子。（对应传统用字“嘸”）",
+      "examples": [
+        "诸将皆嘸然，阳应曰诺。——《前汉·韩信传》"
+      ],
+      "traditional_char": "嘸"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "没有（方言用法，对应传统用字“嘸”）。",
+      "examples": [
+        "蒲鞋出租苏，一场嘸结果。嘸，无也。——《清稗类钞·方言类·苏州方言》"
+      ],
+      "traditional_char": "嘸"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "adverb",
+      "meaning": "不，不论（方言用法，对应传统用字“嘸”）。",
+      "examples": [
+        "嘸讲短，嘸讲长，单讲田主冇天良。——《中国歌谣选·田主冇天良》"
+      ],
+      "traditional_char": "嘸"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“呒”从口，表示与发声有关，右部为声旁，最初用作“迷惑、不明了”之意。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 3,
+      "note": "“嘸”从口，武声，表示与发声或说话有关，最早义为“迷惑、不明了”，后用作方言‘没有’‘不’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_shift",
+      "note": "“呒”由“迷惑、不明了”引申为无、没有。方言发展。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "“没有”义进一步引出“不、不论”用法。方言演变，见民国及现代语料。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "semantic_shift",
+      "note": "“嘸”由“迷惑、不明了”引申为‘没有’。见晚近文献。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "‘没有’引申为‘不，不论’。方言口语中词义扩展。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "analogy",
+      "note": "简繁字形对等，‘嘸’为‘呒’的繁体，含义和用法对应。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "analogy",
+      "note": "‘呒’（简）和‘嘸’（繁）方言“没有”互为对应关系。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 5,
+      "evolution_type": "analogy",
+      "note": "‘呒’（简）和‘嘸’（繁）方言“不，不论”互为对应关系。"
+    }
+  ]
+}

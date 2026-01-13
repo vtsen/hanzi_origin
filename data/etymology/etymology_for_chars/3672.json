@@ -1,0 +1,53 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "多年生草本植物，茎横卧地上，根可入药，亦称为“黄芪”或“黄耆”。",
+      "examples": [
+        "黄芪味甘，补气固表。",
+        "以黄芪为主方，补中益气。"
+      ],
+      "traditional_char": "芪"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "多年生草本植物，叶细长，花淡紫色，亦称“知母”或“芪母”，根茎可入药。",
+      "examples": [
+        "芪母根茎入药，性寒，有清热之效。"
+      ],
+      "traditional_char": "芪"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "同“荎”，木名，今指刺榆。",
+      "examples": [
+        "荎，木名，今刺榆也。"
+      ],
+      "traditional_char": "芪"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从艸，氏声。最初表示‘黄芪’，即药用植物，本为植物名。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "因古籍记载混用，芪母、知母与黄芪或有混同。中医药名分野后区分。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "用于借指木类植物，见于古籍‘荎’，实际与本义外形或药用均有关联。"
+    }
+  ]
+}

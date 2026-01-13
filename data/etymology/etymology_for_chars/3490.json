@@ -1,0 +1,103 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "夜间因冷凝结于地面或植物上的小水珠，即露水。",
+      "examples": [
+        "白露为霜。",
+        "晨起庭前见露。"
+      ],
+      "traditional_char": "露"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "加药料或果汁制作的饮料或药剂。",
+      "examples": [
+        "枇杷露能润喉。",
+        "饮露酒以止渴。"
+      ],
+      "traditional_char": "露"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "滋润，润泽。",
+      "examples": [
+        "泽被苍生，覆露万民。"
+      ],
+      "traditional_char": "露"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "表现，显现出来。",
+      "examples": [
+        "袒露胸怀。",
+        "揭露真相。",
+        "暴露无遗。"
+      ],
+      "traditional_char": "露"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "在室外，无遮盖或暴露于外。",
+      "examples": [
+        "露营风餐。",
+        "露宿街头。"
+      ],
+      "traditional_char": "露"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "显出（缺点、本质等），多用于口语。",
+      "examples": [
+        "露马脚了。",
+        "当众露怯。"
+      ],
+      "traditional_char": "露"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从雨，路声。本义为露水，‘雨’表意，‘路’表声。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由露水对万物润泽，引申为滋润、润泽，常见于文学典籍。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由天然露水转指药液、饮料名称，取其清凉、纯净之意。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由露水无遮盖而引申为无遮蔽、暴露于外。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由无遮蔽转喻显现、表现出来。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "‘露’用于口语中显现、暴露缺点的用法，近现代形成。"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "用尖锐的东西划破，割破皮肉。",
+      "examples": [
+        "手上剐了一个口子。"
+      ],
+      "traditional_char": "剮"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "封建时代指将身体割成多数块的酷刑，即凌迟。",
+      "examples": [
+        "千刀万剐。",
+        "剐刑"
+      ],
+      "traditional_char": "剮"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从刀，咼声。最初表示用刀割开、割下（如割肉离骨）。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由割破、割下的本义引申为割肉刑罚的专称，约见于古代酷刑传统。"
+    }
+  ]
+}

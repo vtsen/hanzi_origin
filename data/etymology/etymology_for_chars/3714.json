@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "山深谷空的样子；山谷空旷幽深的状态。",
+      "examples": [
+        "其高下之勢，岈然窪然，若垤若穴。",
+        "俯視驚谽谺。"
+      ],
+      "traditional_char": "岈"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "山名，如河南遂平县的嵖岈山。",
+      "examples": [
+        "嵖岈山在河南省遂平县。",
+        "見“嵯岈”。"
+      ],
+      "traditional_char": "岈"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "山谷。",
+      "examples": [
+        "漢水又西逕南岈、北岈中。",
+        "左右墳壟低昂，亙山被阜。"
+      ],
+      "traditional_char": "岈"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "深，空洞。",
+      "examples": [
+        "北眺西峽中，有洞岈然。",
+        "其高下之勢，岈然窪然。"
+      ],
+      "traditional_char": "岈"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘岈’为形声字，从山，奇声。本指山谷空旷，幽深貌，后引申为山名、山谷等义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由山深谷空的样子具体化为山谷。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "conversion",
+      "note": "从描写状态的名词转化为形容词‘深，空洞’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "原指山谷貌，后常作为山名专用。"
+    }
+  ]
+}

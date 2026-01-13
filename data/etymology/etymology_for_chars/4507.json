@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "青蚨，一种传说中的水生昆虫，状如小蝉，南海所产，传说能感应母子，用其血涂铜钱可使钱归还本主。",
+      "examples": [
+        "靑蚨，水蟲，可還錢。（《说文解字》）",
+        "青蚨生南海，状如蝉，其子著木，用以涂钱，皆归本处。（本草注）"
+      ],
+      "traditional_char": "蚨"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "钱的别称，古人以青蚨有回归之意，故借指铜钱。",
+      "examples": [
+        "蚨母（即青蚨。传说用青蚨血涂钱，可以引钱使归，因以代称钱）。",
+        "蚨钱（指钱币）"
+      ],
+      "traditional_char": "蚨"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "一种蝶类昆虫，即“蚨蝶”，即蝴蝶或相近的鳞翅目昆虫。",
+      "examples": [
+        "蚨蝶，昆虫纲鳞翅目。或作蚨蝶、胡蝶。",
+        "蚨蝶舞春风。"
+      ],
+      "traditional_char": "蚨"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从虫，表示昆虫类；夫为声，形声字，最初表示青蚨（一种水生虫）。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "因青蚨母子归还之特性，古代以其喻钱具回归性，故以青蚨代指铜钱。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由最初指青蚨类昆虫，引申泛指鳞翅目的其他虫类如蝴蝶，名为蚨蝶。"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "露出牙齒（多指威脅、咧嘴笑等動作）",
+      "examples": [
+        "只要黑狗的牙齒一呲開，他的扁擔就要敲碎它的腦蓋骨的。",
+        "小鬍子吼叫的時候，嘴里呲出兩顆大金牙。"
+      ],
+      "traditional_char": "呲"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "申斥，斥責",
+      "examples": [
+        "我被爸爸呲了一頓。",
+        "他挨了一頓呲。"
+      ],
+      "traditional_char": "呲"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "噴，射（多為方言用法）",
+      "examples": [],
+      "traditional_char": "呲"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "決裂，鬧翻（多為方言用法）",
+      "examples": [
+        "他倆早弄呲了。"
+      ],
+      "traditional_char": "呲"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "嫌食，不願進食（古義，通“飺”）",
+      "examples": [],
+      "traditional_char": "呲"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "無食，沒有東西吃（古義）",
+      "examples": [],
+      "traditional_char": "呲"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 4,
+      "note": "形声字，“口”表意，与口、齒牙相关动作，“此”表音，初本指嫌食、厭弃食物"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 4,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "由“嫌食”引申為“無食”，意涵擴充"
+    },
+    {
+      "source_index": 4,
+      "target_index": 0,
+      "evolution_type": "metonymy",
+      "note": "由对食物的反感（露齒表現）轉为泛指“齜牙（露齒）”"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由露齒發展到噴、射等含義（如牙縫噴氣）"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由顯露牙齒威脅引申為“申斥、斥責”"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由斥責引申為決裂、鬧翻（方言義，情感斷裂）"
+    }
+  ]
+}

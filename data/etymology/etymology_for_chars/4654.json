@@ -1,0 +1,135 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "持续降雨，积水成涝。",
+      "examples": [
+        "有涔旱灾害之患。",
+        "夫牛蹄之涔，不能生鳝鲔。"
+      ],
+      "traditional_char": "涔"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "路上的积水，水坑，水洼。",
+      "examples": [
+        "牛蹄之涔，无尺之鲤。",
+        "涔蹄，积水的蹄迹。"
+      ],
+      "traditional_char": "涔"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "因久雨成灾、多水的样子；阴湿、潮湿。",
+      "examples": [
+        "宫池涔则溢。",
+        "涔云（含雨的浓云）"
+      ],
+      "traditional_char": "涔"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "泪或汗不断流下的样子，形容泪流不止或汗如雨下。",
+      "examples": [
+        "涔泪犹在袂。",
+        "汗涔涔。"
+      ],
+      "traditional_char": "涔"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "鱼池，养鱼的池子。",
+      "examples": [
+        "涔，渔池也。",
+        "渟涔障潰。"
+      ],
+      "traditional_char": "涔"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "水名（如汉地的涔水），或地名。",
+      "examples": [
+        "涔水，出汉中南县。",
+        "望涔阳兮极浦。"
+      ],
+      "traditional_char": "涔"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "聚积柴木于水中以捕鱼，捕鱼的一种方式。",
+      "examples": [
+        "槮，谓之涔。",
+        "积柴养鱼曰涔。"
+      ],
+      "traditional_char": "涔"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "noun",
+      "meaning": "水涯、水边、洼地。",
+      "examples": [
+        "仕懴切，水涯。",
+        "窪也。"
+      ],
+      "traditional_char": "涔"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，岑声，本义为久雨积水。部首水，‘岑’表音，体现水多之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由整体（雨水成灾）转指具体积水部位。汉代用法已见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "从具体雨水积涝抽象描述为潮湿、阴雨、多水之形容。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由水流不断引申为泪、汗不断流下的状态。南北朝文学常用。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由自然积水引申为人工鱼池。在文选和注注中体现。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "metonymy",
+      "note": "由积水引转为专名，指具体河流、水名和地名。见《史记》、地理类书。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 7,
+      "evolution_type": "semantic_extension",
+      "note": "由积水处引申至水边、洼地、水涯。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 6,
+      "evolution_type": "reanalysis",
+      "note": "由鱼池义误解、泛化为捕鱼方式之动词义，用于积柴捕鱼。见《尔雅》。"
+    }
+  ]
+}

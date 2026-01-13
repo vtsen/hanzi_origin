@@ -1,0 +1,83 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "柔弱、纤细柔美的样子",
+      "examples": [
+        "～～",
+        "柳条～～"
+      ],
+      "traditional_char": "裊"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "烟气等缭绕上腾",
+      "examples": [
+        "炊烟～～"
+      ],
+      "traditional_char": "裊"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "随风摆动",
+      "examples": [
+        "垂柳～～"
+      ],
+      "traditional_char": "裊"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "微风吹拂",
+      "examples": [
+        "无风自～枝"
+      ],
+      "traditional_char": "裊"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "声音绵延不绝",
+      "examples": [
+        "余音～～"
+      ],
+      "traditional_char": "裊"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从衣（表示与衣物柔软、飘扬相关），尦声，表达柔弱、纤细之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由柔美、柔弱之状，比喻为烟气缭绕轻盈上升的样子。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由柔美、柔弱之状引申为物体随风摆动。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由柔美引申为微风拂动。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "由外形柔美引申为声音绵长不绝。"
+    }
+  ]
+}

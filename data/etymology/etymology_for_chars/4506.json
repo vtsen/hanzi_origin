@@ -1,0 +1,85 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "田間溝上的小路或田地間的分界道路。",
+      "examples": [
+        "十夫有溝，溝上有畛。",
+        "徂隰徂畛。"
+      ],
+      "traditional_char": "畛"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "界限、疆界、範圍。",
+      "examples": [
+        "請言其畛。",
+        "畛界（界限；範圍）"
+      ],
+      "traditional_char": "畛"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "根本，根基。",
+      "examples": [
+        "不見其畛，藏鬱於泉。"
+      ],
+      "traditional_char": "畛"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "致意，祝告。",
+      "examples": [
+        "臨諸侯，畛於鬼神。"
+      ],
+      "traditional_char": "畛"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "田地（泛指田地或田地單位）。",
+      "examples": [
+        "耕此荒山畛。",
+        "食田六百畛。"
+      ],
+      "traditional_char": "畛"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从田，㐱声。表示田間小路，符合本义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由田間分界小路引申为抽象的分界、界限，早见战国文献。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "synecdoche",
+      "note": "以田間小路代指田地，出现语义部分带整体。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "界限进一步抽象为万物之根本，多见于玄学文献。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由道路交会引申为“致意、祝告”，见《礼记》注疏。"
+    }
+  ]
+}

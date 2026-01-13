@@ -1,0 +1,99 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "泾水，发源于甘肃流入陕西与渭水相合的河流名。",
+      "examples": [
+        "泾渭分明",
+        "泾以渭浊。——《诗·邶风·谷风》"
+      ],
+      "traditional_char": "涇"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "古州名，故地在今甘肃省泾川县。",
+      "examples": [
+        "秦之先本西戎葴姓居泾州。"
+      ],
+      "traditional_char": "涇"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "县名，在安徽省东南部。",
+      "examples": [
+        "泾县出宣纸。"
+      ],
+      "traditional_char": "涇"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "沟渠，沟瀆。",
+      "examples": [
+        "一条小船，在泾上慢慢地划着，这是神仙的乐趣。——叶圣陶《一课》"
+      ],
+      "traditional_char": "涇"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "（古文）大便、月经。",
+      "examples": [
+        "泾溲不利。——《素问·调经论》注：“泾，大便。”"
+      ],
+      "traditional_char": "涇"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "直流的水波。",
+      "examples": [
+        "涇流之大，兩涘渚崖之間，不辨牛馬。——《莊子·秋水》",
+        "鴻鴈在涇，公尸來燕來寧。——《詩·大雅》"
+      ],
+      "traditional_char": "涇"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从水，巠声，形声字，本指水名‘泾水’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "泾水流域名称引申为行政区划名，先有水后有州。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "以河流名称命名县名。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由大河引申为一般沟渠。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "以水流比喻人体分泌物（大便、月经），仅见于古文。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "从河流水流特性引申为水的直流波纹。"
+    }
+  ]
+}

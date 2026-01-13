@@ -1,0 +1,100 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "一种苦菜（菊科苦苣菜属或莴苣属植物），亦泛指田间杂草。",
+      "examples": [
+        "谁谓荼苦？其甘如荠。（《诗·邶风·谷风》）",
+        "以薅荼蓼。（《诗·周颂·良耜》）"
+      ],
+      "traditional_char": "荼"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "茅草、芦苇等植物白色花序，或泛指白色。",
+      "examples": [
+        "有女如荼。（《诗·郑风·出其东门》）",
+        "如火如荼。"
+      ],
+      "traditional_char": "荼"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "比喻苦难、痛苦，后借指“涂炭”的“涂”，引申为困苦、灾难。",
+      "examples": [
+        "弗忍荼毒。（《尚书·汤诰》）",
+        "天子悼兆民之荼炭。"
+      ],
+      "traditional_char": "荼"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "古代朝会时所执玉板名。",
+      "examples": [
+        "天子御珽，诸侯御荼，大夫服笏，礼也。（《荀子·大略》）"
+      ],
+      "traditional_char": "荼"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "借，赊借。",
+      "examples": [
+        "荼，借也。（《广雅》）"
+      ],
+      "traditional_char": "荼"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "adjective",
+      "meaning": "通“舒”，舒缓。",
+      "examples": [
+        "鹠斲目必荼。（《考工记·弓人》）"
+      ],
+      "traditional_char": "荼"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从艸，‘余’声，本义为一种苦菜；‘艸’表义，‘余’表音。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "因苦菜、杂草花色多白，引申用指茅、苇等白色花序或泛指白色，汉魏间常见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由‘苦菜’的味苦，比喻苦难、痛苦，后用作‘荼毒’、‘荼炭’等词。先秦已见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "‘荼’假借为‘赊’，音近借用。见《广雅》。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "‘荼’通‘舒’用作形容词，因音近假借所致。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "unknown",
+      "note": "‘荼’指古代朝会玉板，义源不详，或为音近借用，学界未有一致看法。"
+    }
+  ]
+}

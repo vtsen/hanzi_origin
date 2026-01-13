@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古国名，春秋时期诸侯国，在今山东省邹县（今邹城市）一带。",
+      "examples": [
+        "公及邾仪父盟于蔑。——《左传》",
+        "邾，周武王时所封曹姓国也。始封之君曰侠，为鲁附庸。——《说文》"
+      ],
+      "traditional_char": "邾"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "古邑名，战国时楚地，楚宣王灭邾国后迁其君于此，即今湖北省黄冈县（黄州）一带。",
+      "examples": [
+        "衡山王都邾。——《史记·项羽本纪》",
+        "邾，县名，属江夏。——《文颖》"
+      ],
+      "traditional_char": "邾"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "姓氏，出自高阳氏，周封曹挟于邾，因以为氏。",
+      "examples": [
+        "邾既失国，子孙去邑为朱氏。——《通志·氏族二》"
+      ],
+      "traditional_char": "邾"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从邑，朱声。‘邑’表地名性质，‘朱’表音。原指地名与诸侯国名。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由国名延伸为后世迁都后的新邑名，地名沿用。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "以国名转用为姓氏，因被封于邾而得姓。"
+    }
+  ]
+}

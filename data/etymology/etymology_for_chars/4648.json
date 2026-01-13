@@ -1,0 +1,88 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "起舞的样子，舞蹈，婆娑。",
+      "examples": [
+        "娑，舞也。——《说文》",
+        "子仲之子，婆娑其下。——《诗·陈风·东门之枌》",
+        "婆娑起舞"
+      ],
+      "traditional_char": "娑"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "轻扬、飘动、松散、纤柔的样子。",
+      "examples": [
+        "修初服之娑娑兮，长余佩之参参。——《后汉书·张衡传·思玄赋》",
+        "娑娑衣貌"
+      ],
+      "traditional_char": "娑"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "挑逗，逗弄。",
+      "examples": [
+        "舞东风剪尾娑人。——元·无名氏《焚儿救母》",
+        "娑人（挑逗人）"
+      ],
+      "traditional_char": "娑"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "汉代宫殿名（馺娑）、地名（邏娑）、佛教用语“娑婆世界”。",
+      "examples": [
+        "经駘荡而出馺娑。——《班固·西都赋》",
+        "和亲邏娑城。——《杜甫诗》",
+        "有婆娑国土，梵语婆娑，华言堪忍。——《阿弥陀经》"
+      ],
+      "traditional_char": "娑"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "particle",
+      "meaning": "句中虚词，用以加强语气，相当于“个”。",
+      "examples": [
+        "下官家故可有两娑千万，随公所取。——《世说新语·雅量》"
+      ],
+      "traditional_char": "娑"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从女，沙声，表示舞蹈的样子，原始本义即为起舞。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从舞蹈轻盈引申为衣物、物体轻扬飘动的状态。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由舞蹈动作引申出逗弄、挑逗他人的动作或情态。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "舞蹈美态等引申为地名、宫名及佛教用语等专名用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "grammaticalization",
+      "note": "由名词或形容词虚化为语气助词。"
+    }
+  ]
+}

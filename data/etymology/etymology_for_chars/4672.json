@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "夏天穿的白色内衣，近身无色薄衣。",
+      "examples": [
+        "蒙彼縐絺，是紲袢也。",
+        "袢，当为里衣之称。"
+      ],
+      "traditional_char": "袢"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "形容气候溽热、闷热。",
+      "examples": [
+        "新暑初袢，小憩亭上。",
+        "袢暑（袢热，炎热暑天）；袢燠（袢溽，闷热溽暑）"
+      ],
+      "traditional_char": "袢"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "维吾尔、塔吉克等民族所穿的对襟长袍，多用于“袷袢”等词。",
+      "examples": [
+        "老人身穿一件长及膝盖的洁白的夹袢。",
+        "袢袄（一种有衬里的对襟夹衣）"
+      ],
+      "traditional_char": "袢"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "同“襻”，指作钮扣环的布条，鞋袢等。",
+      "examples": [
+        "裹在圆口带袢的黑色布鞋里的一双脚。",
+        "同“襻”"
+      ],
+      "traditional_char": "袢"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从衣，半声，表示衣服类事物，初指白色夏日内衣。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由白色夏衣引申为闷热、潮湿天气，多由于这种衣服在盛暑穿着。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由一般白色内衣引申为民族对襟长袍，有结构、用法之沿袭。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "由衣服之物引申为与衣物相关的系结部分如‘襻’，名称借用。"
+    }
+  ]
+}

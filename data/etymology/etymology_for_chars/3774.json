@@ -1,0 +1,86 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "中国湖南省的河流名，即汨罗江，屈原自沉之水。",
+      "examples": [
+        "长长沙汨罗淵，屈原所沉之水。",
+        "南朝宋 顏延之《祭屈原文》：‘望汨心欷，瞻羅思越。’"
+      ],
+      "traditional_char": "汨"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "（古）水流、急流（亦指流水的声音）。",
+      "examples": [
+        "木华《海赋》：‘浤浤汨汨’。",
+        "汨汨急流也。《方言六》"
+      ],
+      "traditional_char": "汨"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "（古）沉没、沉入水中。",
+      "examples": [
+        "杜甫诗：‘汨没一朝伸。’"
+      ],
+      "traditional_char": "汨"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "（古）流通、通过（水流畅通）。",
+      "examples": [
+        "《周语》：‘决汨九川。’",
+        "《周语》：‘汨越九原。’"
+      ],
+      "traditional_char": "汨"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "（古）混乱，杂乱。",
+      "examples": [
+        "《书·洪范》：‘汨陈其五行。’",
+        "‘五行汨乱’。"
+      ],
+      "traditional_char": "汨"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从水，冥声。最初用于指水名，后来引申为相关水的动作和状态。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由具体河流名引申为流水、急流、流水声等抽象意义；见古籍常指流水或水声。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "流水可引申为沉没入水，故‘汨’有沉没义。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由流水义引申为流通、通过等动作。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "流水纷乱，喻事物混乱、杂乱。"
+    }
+  ]
+}

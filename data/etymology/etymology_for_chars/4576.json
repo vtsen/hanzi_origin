@@ -1,0 +1,69 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古代主管驾车的小臣",
+      "examples": [
+        "命彼倌人。——《诗·鄘风·定之方中》",
+        "倌，小臣。——《说文》"
+      ],
+      "traditional_char": "倌"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "旧时称茶坊、饭馆等处服杂役的人",
+      "examples": [
+        "如：堂倌、磨倌"
+      ],
+      "traditional_char": "倌"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "农村中专管饲养某些家畜的人",
+      "examples": [
+        "姜永泉昨天还是看牛倌。",
+        "你是猪倌我牛倌。"
+      ],
+      "traditional_char": "倌"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "（方言）对老年男性的称谓",
+      "examples": [
+        "如：老倌"
+      ],
+      "traditional_char": "倌"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从人，官声，表示与‘人’和‘官’职责相关，最初指主管驾车的小臣。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由专管驾车的小臣泛化为服务杂役人员，时间约为晚清及民国。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "职位名泛化为专管饲养家畜的人，乡村用法，可能受服务职能相似性影响。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "unknown",
+      "note": "由称呼养畜人员引申为对老年男性的称谓，内部机制不详，属方言用法。"
+    }
+  ]
+}

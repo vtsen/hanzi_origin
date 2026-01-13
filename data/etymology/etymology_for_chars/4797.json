@@ -1,0 +1,42 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "〔鸸鹋〕鸟名，似鸵鸟，嘴短扁，羽毛灰色或褐色，有三个趾，善于奔跑，不能飞翔，产于大洋洲森林。",
+      "examples": [
+        "澳大利亚有许多野生鸸鹋。"
+      ],
+      "traditional_char": "鴯"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "“鴯”的简化字，用于同“鸸鹋”等词。",
+      "examples": [
+        "鸸鹋是世界上体型第二大的鸟类。"
+      ],
+      "traditional_char": "鸸"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "鴯为形声字，从鳥，耳声，表示一种特定的鸟。"
+    },
+    {
+      "formation_type": "simple_indicative",
+      "original_sense_index": 1,
+      "note": "鸸为鴯的简化字，鸟部简化为“鸟”，保持本义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "reanalysis",
+      "note": "鴯简化为鸸，用于现代汉语，含义与本字无异。"
+    }
+  ]
+}

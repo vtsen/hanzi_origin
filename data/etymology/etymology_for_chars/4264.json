@@ -1,0 +1,38 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "民间的，通俗的",
+      "examples": [
+        "俚语",
+        "俚歌"
+      ],
+      "traditional_char": "俚"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "粗俗",
+      "examples": [
+        "俚俗"
+      ],
+      "traditional_char": "俚"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从人，里声；‘人’表意，‘里’表音，初意为民间、通俗。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "pejoration",
+      "note": "由‘民间、通俗’引申为‘粗俗’；语义带有贬义色彩，历代均有此发展。"
+    }
+  ]
+}

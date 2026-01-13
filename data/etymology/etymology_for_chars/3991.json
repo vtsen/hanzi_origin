@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "一种与鸱鸺相似的鸟。",
+      "examples": [
+        "夜有枭鸣。",
+        "梟鸟多栖木。"
+      ],
+      "traditional_char": "梟"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "古代刑罚：把头割下来悬挂在木上。",
+      "examples": [
+        "枭首示众。",
+        "梟示以儆效尤。"
+      ],
+      "traditional_char": "梟"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "勇健、强悍。",
+      "examples": [
+        "枭勇之士。",
+        "枭将善战。"
+      ],
+      "traditional_char": "梟"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "旧时指私贩食盐的人。",
+      "examples": [
+        "盐枭为患。",
+        "私枭走险。"
+      ],
+      "traditional_char": "梟"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意字，从‘木’与‘鸟’，鸟头倒挂于木上，表示恶鸟悬首原义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "以悬挂恶鸟头于木上引申为对人施加刑罚并悬首，战国至秦汉已有此用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由梟鸟凶猛、狠厉形象，转为形容人强悍勇武，汉代以后常见。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "由枭勇、凶狠引申为违法贩盐者，清代及近代用法。"
+    }
+  ]
+}

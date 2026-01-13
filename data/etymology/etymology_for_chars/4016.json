@@ -1,0 +1,117 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "水名，泠水，多指古地名或河流名。",
+      "examples": [
+        "泠，泠水，出丹阳宛陵西北入江。——《说文》",
+        "泠水，出浮胏山。——《水经注》"
+      ],
+      "traditional_char": "泠"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "清凉、凉爽。",
+      "examples": [
+        "泠风则小和。——《庄子·齐物论》",
+        "愿乘泠风去，直出浮云间。——李白《登太白峰》",
+        "泠然（清凉的样子）"
+      ],
+      "traditional_char": "泠"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "形容声音清越、清脆。",
+      "examples": [
+        "泠泠七弦上，静听松风寒。——刘长卿《听弹琴》",
+        "音泠泠而盈耳。——陆机《文赋》"
+      ],
+      "traditional_char": "泠"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "轻妙、轻盈的样子。",
+      "examples": [
+        "列子御风而行，泠然善也。——《庄子·逍遥游》"
+      ],
+      "traditional_char": "泠"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "古代乐人。",
+      "examples": [
+        "泠人也。——《左传·成公九年》"
+      ],
+      "traditional_char": "泠"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [
+        "周有泠州鳩。——《左传·昭公二十一年》"
+      ],
+      "traditional_char": "泠"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "同“零”，凋零、滴落。",
+      "examples": [
+        "同僚涕泠。——《冀州从事郭君碑》",
+        "天时和兮甘露泠。——《隶释·汉张公神碑》"
+      ],
+      "traditional_char": "泠"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，令声；本义为水名——泠水。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由具体水名引申为水的性质，表现为清凉。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "清凉的感觉比喻声音的清澈、清脆。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "清凉引申为事物轻盈妙美的感受，喻抽象之“轻妙”。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "由泠（和、温柔之风）指古代掌管音乐的乐人。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "conversion",
+      "note": "以古地名、水名为氏。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 6,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "“泠”假借为“零”，表示凋零、滴落。"
+    }
+  ]
+}

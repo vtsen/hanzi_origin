@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "小湖泊，水面平靜的湖蕩。",
+      "examples": [
+        "宋 何薳《春渚紀聞•泖茆字异》：或謂泖是水死絕處，故江左人目水之停滀不湍者為泖。",
+        "元 倪瓚《正月廿六日漫題》詩：泖雲汀樹晚離離，飲罷人歸野渡遲。",
+        "明 周履靖《索袁丈泖上吟序》：去月乘槎泛泖過，吟成一卷楚人歌。"
+      ],
+      "traditional_char": "泖"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "古地名，湖名，指三泖（上泖、中泖、下泖），原在今上海、江蘇一帶，今多淤為平地。",
+      "examples": [
+        "清 顧祖禹《讀史方輿紀要•江南六•蘇州府》：泖有上、中、下三名。圖經：西北抵山涇，水形圓者曰圓泖，亦曰上泖。南近泖橋，水勢闊者曰大泖，亦曰下泖。自泖橋而上，縈繞百餘里曰長泖，一名谷泖，亦曰中泖。",
+        "陸魯望賦吳中事云：三泖涼波魚蕝動。"
+      ],
+      "traditional_char": "泖"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "水的樣貌（水皃），指水域平静或停滀的状态。",
+      "examples": [
+        "或謂泖是水死絕處，故江左人目水之停滀不湍者為泖。",
+        "舊註音柳：水貌，非"
+      ],
+      "traditional_char": "泖"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，卯声；最初指平静的小湖或湖荡。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_narrowing",
+      "note": "由泛指小湖或湖荡之义，专名为具体地名三泖。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由具体湖泊引申为水域平静的状态描述。"
+    }
+  ]
+}

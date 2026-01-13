@@ -1,0 +1,132 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "砍树后剩下的树桩",
+      "examples": [
+        "杌，刊余木。——《集韵》",
+        "師居石霜山二十年間，學眾有長坐不臥，屹若株杌，天下謂之枯木眾也。"
+      ],
+      "traditional_char": "杌"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "小矮凳，短凳",
+      "examples": [
+        "必須長梯高杌，數人一樹。——《齊民要術》",
+        "有幹作身根作頭。——宋 王安石"
+      ],
+      "traditional_char": "杌"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "树木无枝，光秃无枝丫",
+      "examples": [
+        "杌樗（光秃的臭椿树）",
+        "枝幹既杌，本實先拔也。——《三國志》"
+      ],
+      "traditional_char": "杌"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "摇动，动摇",
+      "examples": [
+        "杌，摇也。——《史記·司馬相如列傳》",
+        "搖演其山，動杌其根者。——漢 馬融"
+      ],
+      "traditional_char": "杌"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "浑然无知，呆滞貌",
+      "examples": [
+        "杌杌：痴呆貌。",
+        "臣嚚杌窮賤，情嗜踳昧。——南朝 宋 鮑照"
+      ],
+      "traditional_char": "杌"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "不安定的状态（见于“杌陧”）",
+      "examples": [
+        "邦之杌隉。——《书·秦誓》",
+        "〔杌陧〕局势、局面、心情等不安"
+      ],
+      "traditional_char": "杌"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "楚国史籍《檮杌》的省称",
+      "examples": [
+        "其餘文士，皆吾杌中之肉。——唐 牛僧孺《玄怪錄》",
+        "詩篇同《乘》《杌》，異代得根源。——嚴復"
+      ],
+      "traditional_char": "杌"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [],
+      "traditional_char": "杌"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从木，兀声，表砍伐后剩下的树桩，最初造字含义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "因形状相似由树桩引申为木凳。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由树桩引申为无枝的树。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "光秃无枝易被风摇动，引申为摇动。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "由无枝象征呆滞无知，形容人笨拙或呆。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "metaphor",
+      "note": "树桩不稳，引申为局势等不安。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "unknown",
+      "note": "作为书名省称，可能源自比喻或专用名，无确切链路。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 7,
+      "evolution_type": "unknown",
+      "note": "用作姓氏，常由字义或地理专用名转化。"
+    }
+  ]
+}

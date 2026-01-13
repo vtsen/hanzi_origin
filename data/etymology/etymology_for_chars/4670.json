@@ -1,0 +1,53 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "造谣毁谤，散布流言中伤他人。",
+      "examples": [
+        "众女嫉余之蛾眉兮，谣诼谓余以善淫。——《楚辞》",
+        "被诼谮兮虚获尤。——王逸《九思·逢尤》"
+      ],
+      "traditional_char": "諑"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "诽谤他人的话语。",
+      "examples": [
+        "拙谋伤巧諑。——韩愈、孟郊《纳凉联句》"
+      ],
+      "traditional_char": "諑"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "陈述，诉说（方言义）。",
+      "examples": [
+        "諑，愬也。——《方言》"
+      ],
+      "traditional_char": "諑"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从言，豖声。表示‘造谣毁谤’之意，为本义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "conversion",
+      "note": "从动词‘造谣毁谤’引申出名词‘谗毁话语’，古今皆通。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "部分方言中引申为‘诉说’、‘陈述’之意，见《方言》记载。"
+    }
+  ]
+}

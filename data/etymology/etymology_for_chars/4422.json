@@ -1,0 +1,86 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "用手握着条状物，顺着移动或抚摩，如顺势撸起、摩捋。",
+      "examples": [
+        "捋起袖子。",
+        "武松捋起双袖，握起尖刀。——《水浒传》"
+      ],
+      "traditional_char": "捋"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "用手轻轻摘取、采摘（多指自植物上摘取）。",
+      "examples": [
+        "捋桑叶。",
+        "采采芣苡，薄言捋之。——《诗经·周南·芣苡》"
+      ],
+      "traditional_char": "捋"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "用手指顺着抹过去，使物体顺溜、干净；整理、梳理。",
+      "examples": [
+        "捋胡子。",
+        "下担捋髭须。——《乐府诗集·陌上桑》",
+        "心里好像塞了一团头发，扎扎挠挠，乱乱糟糟，裹不住，也捋不清。——浩然《艳阳天》"
+      ],
+      "traditional_char": "捋"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "堆，垒，将东西堆在一起。",
+      "examples": [
+        "那边捋着从各社员家收集的干土坯。——柳青《创业史》"
+      ],
+      "traditional_char": "捋"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "劣、低劣，不如人。",
+      "examples": [
+        "這廝則嫌樂器低，卻不道本事捋。——元 睢玄明《耍孩兒》"
+      ],
+      "traditional_char": "捋"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字。从手，寽声；“寽”表示五指持物，‘手’表意，‘寽’表声和执持之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由顺势抚摩动作引申为采摘同类动作，早见于《诗经》记载。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "从顺着移动动作引申为用手指抹顺、整理。见于历代文献。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由条状物的顺势动作借喻为堆积动作。语境多见于近现代白话文。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_shift",
+      "note": "从动作义引申为低劣，用于比喻，义项见于元曲。"
+    }
+  ]
+}

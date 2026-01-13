@@ -1,0 +1,64 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "用麦芽制成的糖浆，糖稀",
+      "examples": [
+        "甘之如饴",
+        "饴糖"
+      ],
+      "traditional_char": "飴"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "某种糖果",
+      "examples": [
+        "高粱饴"
+      ],
+      "traditional_char": "飴"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "古同“贻”，赠送",
+      "examples": [],
+      "traditional_char": "飴"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "同“饲”，粮食",
+      "examples": [],
+      "traditional_char": "飴"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘飴’形声字，从食，台声，本义为麦芽糖浆。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由指麦芽糖浆泛指为某种糖果，历代皆有用例。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "unknown",
+      "note": "‘饴’假借作‘贻’用，具体转义机制待考，早见于古籍。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "unknown",
+      "note": "‘饴’假借作‘饲’，义为粮食，为方言用法或古文变体，关系不明。"
+    }
+  ]
+}

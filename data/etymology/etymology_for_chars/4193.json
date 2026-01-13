@@ -1,0 +1,114 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "眼睛失神，看不清楚。",
+      "examples": [
+        "胸中不正，则眸子眊焉。",
+        "眊，目少精也。——《说文》"
+      ],
+      "traditional_char": "眊"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "昏聩、糊涂、精神迷乱。",
+      "examples": [
+        "眊荒。——《书·吕刑》",
+        "眊悖（昏聩惑乱）"
+      ],
+      "traditional_char": "眊"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "用同“旄”，指古代矟竿或旗竿上的毛饰。",
+      "examples": [
+        "露丝银缠槊二张并白眊。",
+        "旛盖麾眊，仪物颇盛。"
+      ],
+      "traditional_char": "眊"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "通“耄”，年老，老年人。",
+      "examples": [
+        "哀夫老眊孤寡鳏独。",
+        "眊，古耄字。八十曰耄。"
+      ],
+      "traditional_char": "眊"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "指军旅（借指兵众或军队）。",
+      "examples": [
+        "决策投眊，式启疆宇。"
+      ],
+      "traditional_char": "眊"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "adjective",
+      "meaning": "美好。",
+      "examples": [],
+      "traditional_char": "眊"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "失意、烦恼（如“眊矂”）。",
+      "examples": [
+        "顾我自为都眊矂。"
+      ],
+      "traditional_char": "眊"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从目，毛声，表示眼神失神、眼睛昏花。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由眼睛失神引申为精神、神志上的昏聩糊涂，汉代以后常用。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "‘眊’通假为‘旄’，用以指旗竿或矟上的毛饰，形声近借。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "毛饰常装饰军旗、戟矟，因部件借指军旅。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "‘眊’作为‘耄’的通假，古以‘耄’指老年，亦因老而视眊，通用。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "semantic_extension",
+      "note": "由昏花不明引申为迷茫失意、烦恼意。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "unknown",
+      "note": "博雅有释‘眊’为好意，具体引申机制不详，出现在古代释义中。"
+    }
+  ]
+}

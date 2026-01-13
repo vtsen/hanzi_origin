@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "不服气，不满意的样子，心中不满或郁郁不乐。",
+      "examples": [
+        "怏，心不服也。——《说文》",
+        "辛垣衍怏然不悦。——《战国策》",
+        "怏然不乐"
+      ],
+      "traditional_char": "怏"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "自大的样子，自以为是。",
+      "examples": [
+        "怏然自足",
+        "央然自大之意也。"
+      ],
+      "traditional_char": "怏"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "勉强，强求。",
+      "examples": [
+        "怏他一路上汤风打浪。——元·关汉卿《拜月亭》",
+        "无夜无明怏着也。——《牡丹亭》"
+      ],
+      "traditional_char": "怏"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从心，央声，表示心中不服、不满之意，为本义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由“不满，不服气”引申为“自大的样子”，因心中不服可表现为自以为是，晋唐以降出现。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "由“不满、不服气”的心理变化引申为“勉强、强求”某事，元明戏曲中用法。"
+    }
+  ]
+}

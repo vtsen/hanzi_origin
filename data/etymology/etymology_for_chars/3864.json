@@ -1,0 +1,115 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "草名，一种蔓生植物，俗称鬼目草，即白英，茎似葛，叶圆有毛，果实如耳珰，红色丛生。",
+      "examples": [
+        "苻，鬼目。《尔雅·释草》",
+        "今江东有鬼目草，茎似葛，叶员而毛，子如耳璫也，赤色丛生。——郭璞注"
+      ],
+      "traditional_char": "苻"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "芦苇杆中的白色薄膜，通“莩”。",
+      "examples": [
+        "芦苻之厚，通于无垠。——《淮南子·俶真》",
+        "苻甲，猶莩甲也。"
+      ],
+      "traditional_char": "苻"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "植物种子的外皮，草的莩甲。",
+      "examples": [
+        "甲者，言万物剖苻甲而出也。——《史记·律书》"
+      ],
+      "traditional_char": "苻"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。本作“蒲”，后为苻坚改为“苻”。",
+      "examples": [
+        "其先盖有扈之苗裔，始其家池中蒲生，后洪以谶文有‘艸付应王’，其孙坚背有‘艸付’字，遂改姓苻氏。——《晋书·苻洪传》"
+      ],
+      "traditional_char": "苻"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "古泽名，萑苻，泽名。",
+      "examples": [
+        "郑国多盗，取人于萑苻之泽。——《左传·昭公二十年》"
+      ],
+      "traditional_char": "苻"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "通“符”，符契、凭证或信物。",
+      "examples": [
+        "即上尚书，参以苻验。——汉《史晨乡孔庙后碑》",
+        "精通皓穹，三纳苻银。——汉《李翕析里桥郙阁颂》"
+      ],
+      "traditional_char": "苻"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "通“符”，符命，预言未来的神秘文书。",
+      "examples": [
+        "运天苻命。——汉《北军中侯郭仲奇碑》"
+      ],
+      "traditional_char": "苻"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘艹’表意，表示与草有关，‘孚’表声兼有部分义（孚亦有壳义），最初用以指鬼目草这一类蔓草。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由具体草名扩展为草类结构相关物（如芦苇茎内白膜），《汉书》以苻通莩。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "进一步泛指草木种子的膜状外皮。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "以植物/自然物名称为氏，常见于古姓氏形成。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "地名以特产草或环境命名，‘苻’指草丛或水泽中盛产该物种。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "‘苻’假借为‘符’，以音通用作凭信文书，文献多见于汉碑。"
+    },
+    {
+      "source_index": 5,
+      "target_index": 6,
+      "evolution_type": "semantic_extension",
+      "note": "由一般符契发展为泛指符命、天命的秘密文书，语义扩大。"
+    }
+  ]
+}

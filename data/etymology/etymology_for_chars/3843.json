@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "谨慎，小心谨慎",
+      "examples": [
+        "劼，慎也。从力，吉声。（《说文》）",
+        "汝劼毖殷献臣。（《书·酒诰》）"
+      ],
+      "traditional_char": "劼"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "坚固，稳固",
+      "examples": [
+        "劼者，确固也。（《尔雅·释诂》）",
+        "劼，固也。（《集韵》）"
+      ],
+      "traditional_char": "劼"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "勤勉，尽力",
+      "examples": [
+        "劼，勤也。（《广雅·释诂》）",
+        "小臣昧戎经，维用赞勋劼。（韩愈、孟郊《征蜀联句》）"
+      ],
+      "traditional_char": "劼"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从力，吉声。《说文》释为“慎也”，即‘谨慎’义为本义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘谨慎’引申为‘坚固、稳固’，可能因谨慎而保持稳固。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由‘谨慎’引申为‘勤勉’，谨慎行事需持续努力。"
+    }
+  ]
+}

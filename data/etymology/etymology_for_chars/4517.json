@@ -1,0 +1,121 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "interjection",
+      "meaning": "表示惊叹或叹息的叹词。",
+      "examples": [
+        "唏，这字写得真漂亮！"
+      ],
+      "traditional_char": "唏"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "哀叹，发出叹息或哭泣的声音。",
+      "examples": [
+        "纣为象箸而箕子唏。",
+        "女仰天而唏。",
+        "慨含唏而增愁。"
+      ],
+      "traditional_char": "唏"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "笑，笑出声音。",
+      "examples": [
+        "夸父揶揄愚公唏。",
+        "唏唏（笑声）",
+        "唏的一笑。"
+      ],
+      "traditional_char": "唏"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "作为词曲中的襯字或象声词，表示哀叹、哭声、笑声等声音。",
+      "examples": [
+        "唏哩哗啦",
+        "唏唏哈哈"
+      ],
+      "traditional_char": "唏"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "裂嘴貌，嘴张开的样子。",
+      "examples": [
+        "左嘉看见她唏开小嘴笑了。"
+      ],
+      "traditional_char": "唏"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "啼哭，哭叫。",
+      "examples": [
+        "一生下地就跟现在一样，是颗小炸雷，天天晚上唏呀唏，唏得一家人都不能睡觉。"
+      ],
+      "traditional_char": "唏"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "睡时鼻息，打鼾。",
+      "examples": [],
+      "traditional_char": "唏"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "‘唏’字从口，‘希’声，表示发声（如哭、叹、笑）；最早本义为哀叹或悲声。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "grammaticalization",
+      "note": "由表示哀叹的动作用作叹词，产生感叹用法。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由具体呼声、哭声等扩展为象声词或词曲中的衬字用法。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "从发出哀叹声（悲声）到发出笑声，古籍有“唏唏，笑也”记载。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "笑声也可用作象声词或衬字。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "由发声状态引申为张嘴的动作、裂嘴貌。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "semantic_narrowing",
+      "note": "由泛指哀叹到专指啼哭。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 6,
+      "evolution_type": "semantic_extension",
+      "note": "由发出的叹息、呼声扩展到睡时的呼吸声、鼻息。"
+    }
+  ]
+}

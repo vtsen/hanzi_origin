@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "从井里打水，取水",
+      "examples": [
+        "汲水而饮。",
+        "妇姑荷箪食，入市而汲。"
+      ],
+      "traditional_char": "汲"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "比喻吸取、获得（多用于非具体之物），如“汲引经验”",
+      "examples": [
+        "汲引众长。",
+        "从古籍中汲取营养。"
+      ],
+      "traditional_char": "汲"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "形容心情急切、努力追求",
+      "examples": [
+        "～～于富贵",
+        "～～于名利"
+      ],
+      "traditional_char": "汲"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "汲黯",
+        "汲郡"
+      ],
+      "traditional_char": "汲"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，及声。‘及’表声，‘水’表义，表示取水之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由打水引申为吸取、获得抽象事物"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由‘汲取’进一步比喻急切追求"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "function_word",
+      "note": "地名、官名转为姓氏，一般用于姓氏来源机制"
+    }
+  ]
+}

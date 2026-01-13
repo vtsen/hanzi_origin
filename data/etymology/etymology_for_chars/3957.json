@@ -1,0 +1,146 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "中国少数民族名，主要分布于贵州、湖南等地。",
+      "examples": [
+        "侗族是中国的一个少数民族。",
+        "侗族大歌是著名的民歌形式。"
+      ],
+      "traditional_char": "侗"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "幼童，未成年的男性，通“僮”。",
+      "examples": [
+        "在后之侗，敬迓天威。——《书·顾命》",
+        "倥侗，童蒙也。"
+      ],
+      "traditional_char": "侗"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "幼稚，无知。",
+      "examples": [
+        "狂而不直，侗而不愿。——《论语·泰伯》",
+        "侗然固陋，眇尔稚蒙。——宋·曾巩"
+      ],
+      "traditional_char": "侗"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "长大，直，壮大。",
+      "examples": [
+        "侗侗，长大的样子。",
+        "侗长，长大之意。"
+      ],
+      "traditional_char": "侗"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "形状、样子。",
+      "examples": [
+        "侗胴，指形状。"
+      ],
+      "traditional_char": "侗"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "adjective",
+      "meaning": "诚实，忠厚，诚恳的样子。",
+      "examples": [
+        "修然而往，侗然而来。——《庄子·庚桑楚》"
+      ],
+      "traditional_char": "侗"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "adjective",
+      "meaning": "轻佻的样子。",
+      "examples": [
+        "毋侗好轶。——《史记》"
+      ],
+      "traditional_char": "侗"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "adjective",
+      "meaning": "通达，无障碍。",
+      "examples": [
+        "能侗然乎？——《庄子》郭象注：无节碍也。"
+      ],
+      "traditional_char": "侗"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "adjective",
+      "meaning": "同“统”，统一，连贯。",
+      "examples": [
+        "侗（统）一，指连贯之义。"
+      ],
+      "traditional_char": "侗"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 3,
+      "note": "‘侗’从人，同声，形声字。‘同’为声旁，初表示‘大貌’或‘长大直貌’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由‘长大直貌’引申为‘形状、样子’。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 7,
+      "evolution_type": "semantic_extension",
+      "note": "由‘长大直貌’引申为‘通达，无障碍’。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 1,
+      "evolution_type": "synecdoche",
+      "note": "由‘长大’泛指未成年的男性，取部分以代表整体。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "由‘幼童’义进一步引申为‘幼稚，无知’。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 6,
+      "evolution_type": "semantic_extension",
+      "note": "由‘幼稚’引申为‘轻佻的样子’。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 5,
+      "evolution_type": "metaphor",
+      "note": "由‘直、长大’比喻为‘诚实、忠厚’。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 8,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "‘侗’假借为‘统’，用作统一、连贯的意思。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 0,
+      "evolution_type": "metonymy",
+      "note": "‘侗’表示少数民族名，中古时因名物用字转用。"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adverb",
+      "meaning": "马跑得很快的样子，引申为事业或事物迅速发展",
+      "examples": [
+        "骎骎日上",
+        "诗曰：载骤骎骎"
+      ],
+      "traditional_char": "駸"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adverb",
+      "meaning": "逐渐，渐进",
+      "examples": [
+        "骎寻",
+        "骎淫",
+        "以是文學駸盛焉"
+      ],
+      "traditional_char": "駸"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adverb",
+      "meaning": "日益，更加",
+      "examples": [
+        "文學駸盛焉"
+      ],
+      "traditional_char": "駸"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘駸’为形声字，从马，侵声，表示马疾速奔跑的样子。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由表示马跑得快引申为事物逐渐进展，出现于中古及后世文献。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由‘逐渐’进一步引申为‘日益，更加’之意，属现代汉语习用。"
+    }
+  ]
+}

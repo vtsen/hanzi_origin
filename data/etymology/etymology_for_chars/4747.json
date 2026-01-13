@@ -1,0 +1,98 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "豆茎，豆类植物的茎秆。",
+      "examples": [
+        "种一顷豆，落而为萁。",
+        "炊萁燧火。"
+      ],
+      "traditional_char": "萁"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "一种草，古书上记载，形似荻而较细。",
+      "examples": [
+        "檿弧萁服。——《汉书·五行志》"
+      ],
+      "traditional_char": "萁"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "木名，可作燧火工具。",
+      "examples": [
+        "爨萁燧火。——《淮南子·时则》"
+      ],
+      "traditional_char": "萁"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "野菜名，似蕨者。",
+      "examples": [
+        "萁服，菜似蕨。"
+      ],
+      "traditional_char": "萁"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "particle",
+      "meaning": "语助词，用于句末或句中加强语气。",
+      "examples": [
+        "梁曰薌萁。——《礼记·曲礼下》"
+      ],
+      "traditional_char": "萁"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "other",
+      "meaning": "“箕”的异体字。",
+      "examples": [
+        "（本作箕，用于量谷之器。）"
+      ],
+      "traditional_char": "萁"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从艸，其声，初本指豆茎。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由豆茎泛指形状类似的草类，用于古书。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "进一步泛指野生可食草类，名称沿用。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由草类名扩展为特指能制火的木材。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "function_word",
+      "note": "字形借用作语助词，见《礼记》。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "音近借为“箕”。"
+    }
+  ]
+}

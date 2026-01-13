@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "马槽，喂马或关牲畜的槽与地方",
+      "examples": [
+        "老骥伏枥，志在千里。",
+        "骈死于槽枥之间。",
+        "气劳者，缓系之枥上。"
+      ],
+      "traditional_char": "櫪"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "栎树，一种乔木",
+      "examples": [
+        "时见松枥皆十围。",
+        "同“栎”。"
+      ],
+      "traditional_char": "櫪"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "古时刑具，即“拶指”",
+      "examples": [
+        "枥㯕"
+      ],
+      "traditional_char": "枥"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从木，厉声，表示与木制器具相关，古本义为马槽。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "因马槽多用栎木所制，遂以“枥”指栎树。见中古“同‘栎’”之义。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "刑具通常以木制，采用原马槽义而转用于特定刑具名。"
+    }
+  ]
+}

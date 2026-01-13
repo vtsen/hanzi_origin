@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "肩胛，背上两臂之间与脖子相连的部分。",
+      "examples": [
+        "宗夜將銳士入城襲赤眉，中矛貫胛。",
+        "俗謂肩甲。",
+        "胛子"
+      ],
+      "traditional_char": "胛"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "肩胛骨，指背上部左右两块三角形的扁平骨头。",
+      "examples": [
+        "肩胛骨",
+        "日入烹羊胛，熟，東方已明。"
+      ],
+      "traditional_char": "胛"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "measure_word",
+      "meaning": "用于畜类的计量单位，一块肩胛肉。",
+      "examples": [
+        "恰如一胛羊肉墜入狼群中，立刻撕得一片片。"
+      ],
+      "traditional_char": "胛"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从肉，甲声。本义指肩胛，形声字，甲兼表音和义（甲壳保护），肉表身体部位。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_narrowing",
+      "note": "原泛指肩胛部，后专指肩胛骨，见医学、解剖等用法。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "conversion",
+      "note": "由具体指物引申为量词，用于计量畜类的肩胛部位的肉。"
+    }
+  ]
+}

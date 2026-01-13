@@ -1,0 +1,69 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "用力踩踏、碾踏。",
+      "examples": [
+        "躏玄鹤，乱昆鸡。——司马相如《上林赋》",
+        "百姓奔走相蹂躏。——《汉书·王商传》"
+      ],
+      "traditional_char": "躪"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "欺压、伤害、摧残。",
+      "examples": [
+        "太后…恐百岁后为唐宗室躏藉无死所。——《新唐书·武后传》",
+        "怀恩尽说吐蕃、回纥、党项、羌、浑、奴剌等三十万，掠涇邠，溪凤翔，入醴泉奉天，京师大震。"
+      ],
+      "traditional_char": "躪"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "车轮碾轧、践踏。",
+      "examples": [
+        "虽躏之已多，犹拗怒而未歇。——李白《大猎赋》"
+      ],
+      "traditional_char": "躪"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "越过，跨越（古用，见于部分文献）。",
+      "examples": [
+        "又躙，躐也。"
+      ],
+      "traditional_char": "躪"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从足，蔺声，表示踩踏之意，足表意，蔺表声。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由物理踩踏引申为对人的压迫与伤害，汉魏六朝后常见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "synecdoche",
+      "note": "碾踏原为足之行为，后扩展及车轮碾压，用部分指整体，常见于古诗文。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "“踩踏”抽象化为“越过、跨越”，见于早期注疏文献。"
+    }
+  ]
+}

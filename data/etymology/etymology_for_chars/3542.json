@@ -1,0 +1,51 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "做官，担任官职",
+      "examples": [
+        "学而优则仕",
+        "出仕"
+      ],
+      "traditional_char": "仕"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "审察，考察",
+      "examples": [
+        "弗问弗仕"
+      ],
+      "traditional_char": "仕"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "事业，事情（古同“事”）",
+      "examples": [],
+      "traditional_char": "仕"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意字，从人从士，表示“做官”。‘人’指人，‘士’指士阶层，合起来表示为官之人。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“做官”引申为“审察”，多见于古文。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "古义通“事”，由做官引申至事业泛指，见于典籍。"
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "风声，风吹过的声音。",
+      "examples": [
+        "风飒飒兮木萧萧。",
+        "有风飒然而至。",
+        "风雷颯万里，霈泽施蓬蒿。"
+      ],
+      "traditional_char": "颯"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "形容清凉、肃爽的样子。",
+      "examples": [
+        "游清灵之飒飒兮，服云衣之披披。",
+        "秋风飒飒。"
+      ],
+      "traditional_char": "颯"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "大风吹动、拉动物体。",
+      "examples": [
+        "乱飒起湘帘翠。"
+      ],
+      "traditional_char": "颯"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "凋零，衰落。",
+      "examples": [
+        "庭草飒以萎黄。",
+        "素发飒以垂领。"
+      ],
+      "traditional_char": "颯"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "飞舞、飘下。",
+      "examples": [
+        "飒沓矜。",
+        "飒纚（长袖飞舞的样子）"
+      ],
+      "traditional_char": "颯"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "（风）微微吹过，拂拭而过。",
+      "examples": [
+        "徐行时若风飒芙蓉。"
+      ],
+      "traditional_char": "颯"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "adjective",
+      "meaning": "形容衰老。",
+      "examples": [
+        "鬓毛飒已苍。"
+      ],
+      "traditional_char": "颯"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从风，立声，本义为风声。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "将风声引申为清凉、肃爽的感受，常用于文学描写中。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "用风声代指风力作用下物体被猛然拉动，比喻风的影响力。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "风吹草木而凋零，风声引申为衰落之意。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "风声形容群体飞舞、飘下的动态感。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "风声扩展为风微微吹拂拂过之意。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 6,
+      "evolution_type": "semantic_extension",
+      "note": "由‘衰落’进一步引申为‘衰老’。"
+    }
+  ]
+}

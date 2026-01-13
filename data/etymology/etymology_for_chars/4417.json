@@ -1,0 +1,53 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "熔化金屬或其他物質的器皿，即坩埚。",
+      "examples": [
+        "甘堝以烹煉金銀",
+        "坩埚"
+      ],
+      "traditional_char": "堝"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "地名，地方。",
+      "examples": [
+        "四面皆沙堝，多榆柳杏林。"
+      ],
+      "traditional_char": "堝"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "measure_word",
+      "meaning": "量詞，表示塊、片。",
+      "examples": [
+        "這裏則是五畝來多大一堝，"
+      ],
+      "traditional_char": "堝"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘堝’形声字，从土，呙声。本义为熔器。‘埚’为简化字，承袭本义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由盛器引申，比喻地形为‘堝’状，辽代用作地名。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由器皿、盛器的整体，比喻为‘块’、‘片’等量词用法，见元代戏曲用例。"
+    }
+  ]
+}

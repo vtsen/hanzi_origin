@@ -1,0 +1,99 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "枸橘，一种落叶灌木或小乔木，果实黄绿色，味酸不可食，可入药，枝多刺，可作篱笆植物。",
+      "examples": [
+        "橘踰淮而北為枳。",
+        "楗六枳而為篱兮。",
+        "枳縛藩籬荊作門。"
+      ],
+      "traditional_char": "枳"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "古地名，枳县，战国时楚地，汉属巴郡，今四川省涪陵县。",
+      "examples": [
+        "楚得枳而國亡。"
+      ],
+      "traditional_char": "枳"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "枳首蛇，一种有两首的蛇的名称。",
+      "examples": [
+        "爾雅：枳首蛇，歧蛇也。"
+      ],
+      "traditional_char": "枳"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "肢體，通“胑”。",
+      "examples": [
+        "然則貧動枳而得食矣。"
+      ],
+      "traditional_char": "枳"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "傷害，通“疻”。",
+      "examples": [
+        "率過以小罪謂之枳。"
+      ],
+      "traditional_char": "枳"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "conjunction",
+      "meaning": "连词，表示承接关系，相当于“则”。",
+      "examples": [
+        "德枳維大人，大人枳維公，公枳維卿，卿枳維大夫。"
+      ],
+      "traditional_char": "枳"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从木，只声；“枳”字形表与木有关，指一种带刺的木本植物。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "以当地著名的枳木植被命名地名，典型地名转用。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由植物的分枝形态比喻蛇有两首，或许因其分叉而得名。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "由植物篱笆引申出防护、连接义，进而用作连词。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "synecdoche",
+      "note": "植物分枝比喻人体四肢，用作‘肢’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "枳木多刺，引申为伤害之义，取其‘刺’意。"
+    }
+  ]
+}

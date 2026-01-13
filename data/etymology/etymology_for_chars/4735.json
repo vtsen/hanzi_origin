@@ -1,0 +1,124 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "用五指或工具扒土或扒物",
+      "examples": [
+        "今盐官入水取盐为掊。",
+        "见地如钩状，掊视得鼎。",
+        "先卧锄耨却燥土，然后掊坑，大如斗口。"
+      ],
+      "traditional_char": "掊"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "聚敛；搜括",
+      "examples": [
+        "掊克乃为材。",
+        "峻掊亟敛，闾里为空。",
+        "素殚百姓力，为吾掊怨天下。"
+      ],
+      "traditional_char": "掊"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "抨击；攻击",
+      "examples": [
+        "吾为其无用而掊之。",
+        "勾践终掊而杀之。",
+        "自掊击于世俗。"
+      ],
+      "traditional_char": "掊"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "击破；损毁",
+      "examples": [
+        "吾为其无用而掊之。",
+        "掊斗折衡。",
+        "尽掊土偶五六，掷之河中。"
+      ],
+      "traditional_char": "掊"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "偃仆、倒倒（同“仆”，使倒下）",
+      "examples": [
+        "乃顾麾左右执戟者掊兵罢去。",
+        "或拉髆掣胸，掊死深阱。",
+        "皆仆兵罢。"
+      ],
+      "traditional_char": "掊"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "减，削减",
+      "examples": [
+        "君子以掊多，益寡。",
+        "裒，字书作‘掊’。"
+      ],
+      "traditional_char": "掊"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "numeral",
+      "meaning": "量词，一捧，一把",
+      "examples": [
+        "河决千里，塞以一掊之土。",
+        "手把曰掊。"
+      ],
+      "traditional_char": "掊"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从手，咅声，本指用手扒土，‘手’表义，‘咅’表音。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由用手取物转为搜敛聚集财物，语义转喻，汉至魏晋注解可见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由手动作引申为攻击拍击的动作感，秦汉间可见。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "攻击义进一步具体化为击破、损毁，语义细化，见《庄子》《韩愈》。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "扒倒、倒下，动作相关语义演化，见史记、汉书用例。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "reanalysis",
+      "note": "与‘裒’混用后，假借为‘减’，属于字形混用后的意义再分析。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "semantic_extension",
+      "note": "由手捧义引申为量词‘一掊’，表示一把、一捧。"
+    }
+  ]
+}

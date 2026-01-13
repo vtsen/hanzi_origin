@@ -1,0 +1,114 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "短小，矮小，指身材异常矮小的人",
+      "examples": [
+        "侏，短也。——《广雅·释诂》",
+        "侏儒不可使援。——《国语·晋语》",
+        "安得伛侏之人乎？——《论衡·齐世》"
+      ],
+      "traditional_char": "侏"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "肥大",
+      "examples": [
+        "侏大（肥大）"
+      ],
+      "traditional_char": "侏"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "无道",
+      "examples": [
+        "无道为侏《太元断》勇侏之伐注"
+      ],
+      "traditional_char": "侏"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "无所知的样子，愚昧",
+      "examples": [
+        "修侏侏，比于朱儒。——《太玄经·童》"
+      ],
+      "traditional_char": "侏"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "梁上的短柱",
+      "examples": [
+        "又梁上短柱亦曰侏儒。——《礼·明堂位注》"
+      ],
+      "traditional_char": "侏"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "古代伶人、乐师名",
+      "examples": [
+        "伶侏，古乐人名。"
+      ],
+      "traditional_char": "侏"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "other",
+      "meaning": "西方少数民族语言、音乐名词（如侏离）",
+      "examples": [
+        "四夷之乐西方曰侏离。——《周礼·鞮鞻氏》"
+      ],
+      "traditional_char": "侏"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从人，朱声。本义短小或矮小的人，强调与人形相关。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由身材矮小引申为体型肥大，形容体态异常的情况，语义延伸。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "以短小的人的特征比喻屋梁上短的柱子。见于古代注解。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "metonymy",
+      "note": "古代以身材矮小者为乐师或伶人，名称沿用。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由个体不足、短小引申为知识或能力不足，表现愚昧无所知。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由短小、不足，引申为德行不足，后来表无道。"
+    },
+    {
+      "source_index": 6,
+      "target_index": 0,
+      "evolution_type": "unknown",
+      "note": "“侏离”为少数民族辞、乐名，和“侏”本义联系不详，可能为音译或借音。"
+    }
+  ]
+}

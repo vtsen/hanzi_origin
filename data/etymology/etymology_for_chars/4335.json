@@ -1,0 +1,103 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "湿透，浸透",
+      "examples": [
+        "汗流浃背",
+        "浃髓沦肌"
+      ],
+      "traditional_char": "浹"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "遍及，周匝",
+      "examples": [
+        "周浹於天下",
+        "浃辰（称自子至亥一周十二日为“浃辰”）"
+      ],
+      "traditional_char": "浹"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "通达，理解",
+      "examples": [
+        "不足以浃万物之变",
+        "下情塞而不能上通；行有所未孚，以上泽壅而不得下浃"
+      ],
+      "traditional_char": "浹"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "整个儿的，全面的",
+      "examples": [
+        "浃辰之间而楚克其三都",
+        "浃岁"
+      ],
+      "traditional_char": "浹"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "融洽，和谐",
+      "examples": [
+        "人吏浃和",
+        "情好款浃"
+      ],
+      "traditional_char": "浹"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "沾润，得到恩惠",
+      "examples": [
+        "今又俯浃宸慈，曲延宠赉",
+        "久浃帝德而洽皇仁"
+      ],
+      "traditional_char": "浹"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，夹声，表水液渗透之意，最初本义为‘湿透’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由液体遍及皮肤扩展为‘遍及、周遍’的抽象义，早见先秦。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由‘遍及’具体化为‘整个儿的，全面的’形容词用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由‘湿透’比喻理通万物，引申为‘通达、理解’。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "由‘周匝’引申为‘融洽、和谐’，即情感遍及。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "metaphor",
+      "note": "由水遍及引申为恩泽普遍、受惠之意。"
+    }
+  ]
+}

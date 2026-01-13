@@ -1,0 +1,70 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "用于引水的竹管或木管，水渠。",
+      "examples": [
+        "溪面只消横一枧，水从空里过如飞。",
+        "凡河濱有制筒車者，…一一傾於梘內，流入畝中。"
+      ],
+      "traditional_char": "枧"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "用木头做的栓子。",
+      "examples": [],
+      "traditional_char": "枧"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "棺衣。",
+      "examples": [],
+      "traditional_char": "枧"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "肥皂。",
+      "examples": [
+        "番枧",
+        "香枧"
+      ],
+      "traditional_char": "枧"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“枧”为形声字，从木，见声，最初指以竹木为材的水管。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“梘”为“枧”的繁体字，结构同理，从木，见声。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "引申自水管所用的材料（木），再指木制的栓。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "管或衣物覆盖，有包裹之意，转指棺衣。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "“枧”因与“碱”同音，在粤方言演变为“肥皂”义。"
+    }
+  ]
+}

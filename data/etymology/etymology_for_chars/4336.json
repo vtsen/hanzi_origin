@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "水名，亦指水流。",
+      "examples": [
+        "洇，水也。——《说文》",
+        "迷千里兮涵洇湄，晨陶陶兮暮熙熙。——唐·沈亚之《湘中怨解》"
+      ],
+      "traditional_char": "洇"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "液体在纸、布或土壤中向四处散开或渗透。",
+      "examples": [
+        "这种纸写字不洇。",
+        "血已经把纱布洇湿了。",
+        "只见奶水透过上衣，洇湿了白色的工作围裙，在胸前染出两幅不规则的图案。——《中年颂》",
+        "亚仙脑壳里乱糟糟的，就像那洇开了的墨渍。——《人民文学》1982年第9期"
+      ],
+      "traditional_char": "洇"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "埋没，泯灭。（与“湮”同）",
+      "examples": [],
+      "traditional_char": "洇"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘洇’从水，因声，最初表示水名及水流。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由水流引申为液体在物体上渗透、扩散，见于明清以后。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "与‘湮’义通，表示埋没、泯灭，属于意义转移，见于中古。"
+    }
+  ]
+}

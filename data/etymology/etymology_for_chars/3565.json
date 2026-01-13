@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "onomatopoeia",
+      "meaning": "玉石等器物相互撞击时发出的声音。",
+      "examples": [
+        "玎玲，玉声也。",
+        "玎当，玉石撞击声。"
+      ],
+      "traditional_char": "玎"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "onomatopoeia",
+      "meaning": "金属、瓷器等相互撞击时发出的清脆声音。",
+      "examples": [
+        "玎当响。",
+        "丁当作响。"
+      ],
+      "traditional_char": "玎"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "人名用字，古人谥号，如齐太公子伋谥曰‘玎公’。",
+      "examples": [
+        "齐太公子伋谥曰玎公。"
+      ],
+      "traditional_char": "玎"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从玉，丁声；形声字，本义为玉器相击之声。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由玉石声音泛指到其他物体如金属、瓷器的撞击声，出现于后世作品。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "conversion",
+      "note": "由表声音的词转为用作人名或谥号，无已知具体语义联系，仅形式使用。"
+    }
+  ]
+}

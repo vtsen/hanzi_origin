@@ -1,0 +1,92 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "有底的口袋，用于装物品",
+      "examples": [
+        "药囊",
+        "掏囊取物",
+        "囊空如洗"
+      ],
+      "traditional_char": "囊"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "像口袋的器官或结构",
+      "examples": [
+        "胆囊",
+        "胶囊",
+        "囊肿"
+      ],
+      "traditional_char": "囊"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "藏语中指西藏农奴主家庭的奴隶，朗生",
+      "examples": [
+        "囊生"
+      ],
+      "traditional_char": "囊"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "猪乳部肥而松软的肉",
+      "examples": [
+        "囊膪"
+      ],
+      "traditional_char": "囊"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "虚弱，懦弱",
+      "examples": [
+        "囊揣"
+      ],
+      "traditional_char": "囊"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从衣，襄声。大篆字形象两头扎起的口袋，表示本义‘有底的口袋’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由实体口袋引申为具有袋状、包裹特征的器官和物体，见医学及现代语。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "unknown",
+      "note": "‘囊生’一词为藏语借用，与‘囊’本义关联不明，可能为转借或音译。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "囊膪，因猪乳部外形如囊，故名。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "由松软肥肉引申形容人虚弱、懦弱。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "unknown",
+      "note": "囊揣之语义可能与‘囊膪’为同义转用，语源不详。"
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "山的角落，山脚，山隅",
+      "examples": [
+        "白華絳趺，在陵之陬。",
+        "落日在嶺陬。",
+        "五沃之土，若在丘在山，在陵在岡，若在陬，陵之陽。"
+      ],
+      "traditional_char": "陬"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "隅，角落",
+      "examples": [
+        "後吳奔壁東南陬，太尉使備西北。",
+        "生亦過牆，見主婢伏於暗陬。",
+        "但是在暗陬中也有作調和論調的。"
+      ],
+      "traditional_char": "陬"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "边远偏僻的地方，四隅",
+      "examples": [
+        "其荒陬谲诡。",
+        "偃蹇於僻壤遐陬之外。",
+        "一官謫去南蠻陬。"
+      ],
+      "traditional_char": "陬"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "区域、界限",
+      "examples": [
+        "天封大狐，列仙之陬。"
+      ],
+      "traditional_char": "陬"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "水边，水岸",
+      "examples": [
+        "歲癸未而遷逐，侶蟲蛇於海陬。"
+      ],
+      "traditional_char": "陬"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "农历正月的别称",
+      "examples": [
+        "攝提貞于孟陬兮。",
+        "正月為陬。"
+      ],
+      "traditional_char": "陬"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "村落，聚居地（通“聚”）",
+      "examples": [
+        "蠻陬夷落，譯導而通。",
+        "一名聚居爲陬。"
+      ],
+      "traditional_char": "陬"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "noun",
+      "meaning": "古地名，春秋鲁地陬邑，即今山东曲阜东南",
+      "examples": [
+        "孔子生鲁昌平乡陬邑。"
+      ],
+      "traditional_char": "陬"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "noun",
+      "meaning": "古国名，有陬",
+      "examples": [
+        "有陬，古国名。"
+      ],
+      "traditional_char": "陬"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从阜（土山）意，取声，原义是“山的角落”；《说文》、金文均见证初义为地理角隅。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“山的角落”扩展为一般“角落”，用以指一切角隅。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由“角落”泛化为“边远偏僻的地方”，常指地理或社会空间的偏隅。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "由“角落”引申为“区域、界限”之义，见于赋文、古籍。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "山体角落引申至水边、山水结合部。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "metonymy",
+      "note": "以“岁首为一年之端隅”，故正月别名为“陬”。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 6,
+      "evolution_type": "metonymy",
+      "note": "“角落”作为人聚居之地，引申为“村落”。"
+    },
+    {
+      "source_index": 6,
+      "target_index": 7,
+      "evolution_type": "semantic_shift",
+      "note": "“村落”之义用为春秋鲁地名“陬邑”。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 8,
+      "evolution_type": "semantic_shift",
+      "note": "“角落”引申用作古国名。"
+    }
+  ]
+}

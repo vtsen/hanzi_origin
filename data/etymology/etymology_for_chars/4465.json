@@ -1,0 +1,103 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "逃亡，逃跑，逃离原本所在之地",
+      "examples": [
+        "逋，亡也。——《说文》",
+        "六年其逋。——《左传·僖公十五年》",
+        "狼失声而逋。——明·马中锡《中山狼传》"
+      ],
+      "traditional_char": "逋"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "逃亡的人，逃犯",
+      "examples": [
+        "可以怀远，可以柔逋。——《晋书》",
+        "为天下逋逃主。——《书·武臣》"
+      ],
+      "traditional_char": "逋"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "拖欠，积欠（如赋税、债务）",
+      "examples": [
+        "逋租宿债勿复收。——沈约《宋书》",
+        "三年以前逋更赋未入者，皆勿收。——《汉书·昭帝纪》"
+      ],
+      "traditional_char": "逋"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "拖欠未还的税款、债务或事项",
+      "examples": [
+        "上曰：‘积逋不偿，民困可知。’——清·张岱《快园道古·经济》",
+        "释旧逋，禁预借，百年弊事绝矣。——宋·叶适"
+      ],
+      "traditional_char": "逋"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "懈怠，拖延，稽迟",
+      "examples": [
+        "久逋王命。——房玄龄《晋书·蔡谟传》",
+        "其讨不逋。——唐·韩愈《许国公神道碑铭》"
+      ],
+      "traditional_char": "逋"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "暴露（通“膊”）",
+      "examples": [
+        "病者独，死者逋。——汉·扬雄《法言·先知》"
+      ],
+      "traditional_char": "逋"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从辵表示行动、逃走之意，甫为声符，表示‘逃亡’本义"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "conversion",
+      "note": "动词到名词转化，指称‘逃亡的人’"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "从‘逃亡’比喻欠款者像逃亡般逃避债务"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "conversion",
+      "note": "从动词‘拖欠’转为名词‘拖欠的财物或事项’"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "‘逃避’意引申为拖延、懈怠"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "‘逋’通‘膊’，借用表‘暴露’义，见于古文"
+    }
+  ]
+}

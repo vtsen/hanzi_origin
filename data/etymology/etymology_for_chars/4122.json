@@ -1,0 +1,66 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "香草名，即菖蒲或荪，古时用作比喻君主或贤人。",
+      "examples": [
+        "荃不察余之中情兮——《离骚》",
+        "荃蕙蔽匿兮，胡久而不芳？——柳宗元《吊屈原文》"
+      ],
+      "traditional_char": "荃"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "用竹或草编制的捕鱼器具，通“筌”。",
+      "examples": [
+        "荃者，所以在鱼，得鱼而忘荃。——《庄子·外物》"
+      ],
+      "traditional_char": "荃"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "细切的腌芥菜。",
+      "examples": [],
+      "traditional_char": "荃"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "细布，通“絟”。",
+      "examples": [
+        "繇王闽侯亦遣建荃。——《汉书·景十三王传》"
+      ],
+      "traditional_char": "荃"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从艸，全声，古本义是香草名即荪。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "因捕鱼器通常用草竹编制，与香草同形同音，古书中通用。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "芥菜腌渍细切，因形态与原香草相似而得名。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "由香草引申为细布，因南方以草类或细布纤维为材料。"
+    }
+  ]
+}

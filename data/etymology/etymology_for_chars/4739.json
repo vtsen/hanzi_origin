@@ -1,0 +1,37 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "用肩膀扛东西",
+      "examples": [
+        "他掮着木头走过来。"
+      ],
+      "traditional_char": "掮"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "掮客，旧时指介绍买卖并取得佣金的人",
+      "examples": [
+        "他是专门做买卖的掮客。"
+      ],
+      "traditional_char": "掮"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从手，兼声。本义为用肩扛东西。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "“掮客”为比喻担任中间人的职业，犹如‘肩负’两方买卖。"
+    }
+  ]
+}

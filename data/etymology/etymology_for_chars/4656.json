@@ -1,0 +1,37 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "湖北省的一条河流名，浠水。",
+      "examples": [
+        "浠水，源出湖北省英山县霍山西麓，流经罗田县，至浠水县兰溪镇入长江。"
+      ],
+      "traditional_char": "浠"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "湖北省境内的地名，因临浠水而得名。",
+      "examples": [
+        "浠水，地名，在中国湖北省。"
+      ],
+      "traditional_char": "浠"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，希声，本义为水名。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由河流名称转指沿河地名，历代地名用法。"
+    }
+  ]
+}

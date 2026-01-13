@@ -1,0 +1,57 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "捕兔等猎兽用的网，泛指狩猎用网",
+      "examples": [
+        "举趾触罘罝。",
+        "罝罘罗网。",
+        "解罘放麟。",
+        "緣山置罝， 彌野張罘。"
+      ],
+      "traditional_char": "罘"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "用于门或窗以防鸟雀侵扰的网，门屏或屋檐下的网；也指宫殿城墙四角的小楼",
+      "examples": [
+        "未央宮東闕，罘罳災。",
+        "罘罳在門外。"
+      ],
+      "traditional_char": "罘"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "山名。芝罘或之罘，今山东烟台芝罘区",
+      "examples": [
+        "登之罘。",
+        "之罘山，在东莱腄县。"
+      ],
+      "traditional_char": "罘"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从网，孚声；本义为捕兔等的猎网"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "捕兽网引申为用于门、窗等防护的网与小楼、屏障。约汉代形成。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "以捕网为地名，因该山形状如猎网或因设置此类网得名。"
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "宽大，宽裕，宽松；不紧。",
+      "examples": [
+        "宽兮绰兮，倚重较兮。（《诗经·卫风·淇奥》）",
+        "～～有余"
+      ],
+      "traditional_char": "綽"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "舒缓，柔美，姿态优美。",
+      "examples": [
+        "柔情绰态，媚于语言。（曹植《洛神赋》）",
+        "绰约"
+      ],
+      "traditional_char": "綽"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "外号，诨名。",
+      "examples": [
+        "绰号"
+      ],
+      "traditional_char": "綽"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "吹拂，拂拭。",
+      "examples": [
+        "拂绰",
+        "绰尘"
+      ],
+      "traditional_char": "綽"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "搅乱，扰动。",
+      "examples": [
+        "绰趣",
+        "绰人眼光"
+      ],
+      "traditional_char": "綽"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "抓取，提起，拿起。",
+      "examples": [
+        "绰枪上马（《水浒传》）",
+        "绰起一根棍子"
+      ],
+      "traditional_char": "綽"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "顺势，应，举起。",
+      "examples": [
+        "绰经（趁势；顺势）",
+        "绰起（立起，竖起）"
+      ],
+      "traditional_char": "綽"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "verb",
+      "meaning": "把蔬菜等放在热水中焯一下。",
+      "examples": [
+        "绰芥菜",
+        "二童忙取小菜，……绰芥菜"
+      ],
+      "traditional_char": "綽"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从糸，卓声，原指宽大、舒缓。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由形容物体宽大舒缓转指姿态柔美。常见于文献，如《洛神赋》。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "从‘宽裕充足’引申为外号，作绰号，即扩充名字的意思。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "宽、缓→风等动作舒缓，引申为拂拭、吹拂动作。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "拂拭（动作）引申为扰乱、搅乱。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "semantic_shift",
+      "note": "写作‘chāo’义，在古汉语中由“宽”演变为“抓起”，具体机制存在争议，或与‘顺势抓取’动作相关。"
+    },
+    {
+      "source_index": 5,
+      "target_index": 6,
+      "evolution_type": "semantic_extension",
+      "note": "抓取、拿起进一步引申为顺势、应、举起。"
+    },
+    {
+      "source_index": 5,
+      "target_index": 7,
+      "evolution_type": "semantic_extension",
+      "note": "由‘抓取’动作引申为‘焯’（将食物夹取抬起），本义有动作的提取之意。"
+    }
+  ]
+}

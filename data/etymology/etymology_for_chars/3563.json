@@ -1,0 +1,113 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "盛东西的方形竹器",
+      "examples": [
+        "以匡取物",
+        "古有方匡以藏物"
+      ],
+      "traditional_char": "匡"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "纠正，改正",
+      "examples": [
+        "匡正时弊",
+        "匡谬正俗"
+      ],
+      "traditional_char": "匡"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "救助，挽救",
+      "examples": [
+        "匡救天下",
+        "匡复社稷"
+      ],
+      "traditional_char": "匡"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "辅助，帮助",
+      "examples": [
+        "匡助良才",
+        "匡扶正道"
+      ],
+      "traditional_char": "匡"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "粗略计算，估计，预料",
+      "examples": [
+        "匡算费用",
+        "匡计今年收成"
+      ],
+      "traditional_char": "匡"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "古同“筐”（篮子）",
+      "examples": [
+        "手持匡而行",
+        "以匡盛物"
+      ],
+      "traditional_char": "匡"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "匡衡",
+        "匡氏家族"
+      ],
+      "traditional_char": "匡"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从匚表器物，王为声符，表方形竹器之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "analogy",
+      "note": "古代‘匡’与‘筐’借用，因器物性质相似。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由方匡可容纳整理东西，引申为纠正、改正之意。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "纠正引申为救助、拯救社会。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "救助进一步泛指辅助、帮助。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "由盛东西之器，转喻对事物的估算、笼统计算。"
+    }
+  ]
+}

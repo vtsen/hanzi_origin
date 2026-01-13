@@ -1,0 +1,68 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "美玉",
+      "examples": [
+        "珲，美玉。——《集韵》",
+        "琿，美玉。——《集韻•平魂》"
+      ],
+      "traditional_char": "琿"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "地名用字（如“珲春”：地名，在中国吉林省）",
+      "examples": [
+        "珲春，县名，在吉林省。"
+      ],
+      "traditional_char": "琿"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "水名，用于地名（如“珲春河”）",
+      "examples": [
+        "珲春河，水名，在吉林省。"
+      ],
+      "traditional_char": "琿"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "用于“瑗珲”等其他地名（今作爱辉）",
+      "examples": [
+        "瑗珲，旧县名，在黑龙江。后作爱辉，今改黑河市。"
+      ],
+      "traditional_char": "琿"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“琿”为形声字，从玉，军声，最初指美玉。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "美玉作为美好事物的象征，用作地名表示美好、珍贵。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "地名词义引申，扩展到流经该地的河流命名。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "用于其他地名，如“瑗珲”，表示地理相关性。"
+    }
+  ]
+}

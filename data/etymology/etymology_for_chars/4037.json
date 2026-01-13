@@ -1,0 +1,100 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "安静，安宁，平静。",
+      "examples": [
+        "宓，安也。——《说文》",
+        "宓穆休于太祖之下。——《淮南子》",
+        "宓穆（安详静穆）"
+      ],
+      "traditional_char": "宓"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "静止；静默。",
+      "examples": [
+        "宓穆（安详静穆）"
+      ],
+      "traditional_char": "宓"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "秘密，不公开。",
+      "examples": [
+        "豺牙宓厉，虺毒潜吹。——庾信《哀江南赋》"
+      ],
+      "traditional_char": "宓"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "水流急。",
+      "examples": [
+        "宓汨"
+      ],
+      "traditional_char": "宓"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [
+        "三国志秦宓",
+        "春秋鲁国有宓不齐。见《史记·仲尼弟子列传》"
+      ],
+      "traditional_char": "宓"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "通“伏”（用以代替“伏”字），如“宓羲”即“伏羲”。",
+      "examples": [
+        "皇甫谧云：伏羲或谓之宓羲。"
+      ],
+      "traditional_char": "宓"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从宀，必声，会意兼形声；表示安静，与居所相关。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从“安静”引申为“静止、静默”，汉代已有，意近。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "从“安静”引申为“秘密，不公开”，两者静隐相关。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由“静”义比喻水流疾速却静默，古籍语境偶见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "conversion",
+      "note": "安静之意转为姓氏用法，见先秦至今。"
+    },
+    {
+      "source_index": 5,
+      "target_index": 0,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "“宓”通“伏”，用作“伏羲”，属借用现象，历代文献有争议。"
+    }
+  ]
+}

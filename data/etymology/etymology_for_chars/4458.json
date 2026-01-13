@@ -1,0 +1,51 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "檩，横梁的构件。",
+      "examples": [
+        "桁条",
+        "桁架"
+      ],
+      "traditional_char": "桁"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "古代用来拘系犯人的刑具。",
+      "examples": [],
+      "traditional_char": "桁"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "衣架。",
+      "examples": [
+        "还视桁上无悬衣"
+      ],
+      "traditional_char": "桁"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘木’为意符，表示与木有关；‘行’作声符，表声音，最初指横梁。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "因木横梁结构可引申为木制刑具，古代用以锁人手足。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "横木可用于挂衣物，因此引申为衣架。"
+    }
+  ]
+}

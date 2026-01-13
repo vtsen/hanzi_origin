@@ -1,0 +1,38 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "某些低等生物如植物、真菌、藻类等在无性或有性繁殖中产生的能发育为新个体的单细胞或少数细胞的繁殖体，即“孢子”。",
+      "examples": [
+        "蘑菇的孢子通过空气传播。",
+        "苔藓植物依靠孢子繁殖。"
+      ],
+      "traditional_char": "孢"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "孕育，怀孕。",
+      "examples": [
+        "孢，孕也。（《玉篇》）"
+      ],
+      "traditional_char": "孢"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "形声字，从子，包声。本义为孕育，抽象引申为生殖相关。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "由“孕育”引申为生物繁殖体“孢子”，见于近现代生物学领域。"
+    }
+  ]
+}

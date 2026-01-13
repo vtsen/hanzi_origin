@@ -1,0 +1,70 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "宫殿的台阶，特指帝王殿前的台阶",
+      "examples": [
+        "陛高二尺五，广长各三尺，远广各六尺。——《墨子·备城门》",
+        "至陛下，秦武阳色变振恐，群臣怪之。——《战国策·燕策》"
+      ],
+      "traditional_char": "陛"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "对国王或皇帝的敬称，常用于“陛下”",
+      "examples": [
+        "大王陛下。——《汉书·高帝纪》",
+        "今海内赖陛下神灵，一统皆为郡县。——《史记·秦始皇纪》"
+      ],
+      "traditional_char": "陛"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "侍立于宫殿台阶侧，或指执兵器列于台阶旁",
+      "examples": [
+        "是时朔陛戟殿下。",
+        "陛者，皆闻焉。——《汉书·五行志》"
+      ],
+      "traditional_char": "陛"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "阶次；品第",
+      "examples": [
+        "举杰压陛，诛讥罢只。——《楚辞·大招》"
+      ],
+      "traditional_char": "陛"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从阜（表示台阶、地势高低），坒声；本义为帝王宫殿的台阶。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "本指宫殿台阶，引申为对皇帝的敬称，因古时臣子在台阶下问政，转为称呼皇帝。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "因侍卫常立于台阶旁，故动词义‘执兵器列于台阶旁’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "台阶有高下之分，比喻阶次和品第。"
+    }
+  ]
+}

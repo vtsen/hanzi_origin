@@ -1,0 +1,79 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古代书写工具，毛笔的本字。",
+      "examples": [
+        "聿，所以书也。楚谓之聿，吴谓之不律，燕谓之弗。——《说文》",
+        "舌聿之利，利见知人也。——扬雄《太玄·饰》"
+      ],
+      "traditional_char": "聿"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "particle",
+      "meaning": "文言助词，无实际含义，用于句首或句中。",
+      "examples": [
+        "无念尔祖，聿修厥德。——《诗·大雅·文王》",
+        "蟋蟀在堂，岁聿其莫。——《诗经·唐风·蟋蟀》",
+        "聿求厥中，延访群下。——韩愈《禘祫议》"
+      ],
+      "traditional_char": "聿"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "轻快，迅疾。",
+      "examples": [
+        "武骑聿皇。——《汉书·扬雄传上》",
+        "陵绝嶛嶕，聿越巉险。——左思《吴都赋》"
+      ],
+      "traditional_char": "聿"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "循，遵循，继续，描述。",
+      "examples": [
+        "聿修厥德。——《诗·大雅·文王》",
+        "密勿朝夕，聿同始卒。《后汉书·傅毅传》注",
+        "聿追来孝。——《礼记·礼器》"
+      ],
+      "traditional_char": "聿"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "pictograph",
+      "original_sense_index": 0,
+      "note": "象形字，古文形体像手持毛笔，用以书写，表示毛笔本义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "grammaticalization",
+      "note": "周秦以来由具体用具（笔）引申为句首、句中发语词，无实际义，用于文言语气。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "以笔行如风之敏捷，引申为轻快、迅疾之意。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由书写痕迹延伸为行为的延续、描述、遵循等抽象义。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 1,
+      "evolution_type": "grammaticalization",
+      "note": "由述、循发展为结构性虚词用法。"
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "一种金属元素，可以制货币和器皿、电子设备、感光材料、装饰品等。",
+      "examples": [
+        "银子",
+        "银杯",
+        "银牌"
+      ],
+      "traditional_char": "銀"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "旧时用银铸成块的一种货币。",
+      "examples": [
+        "银币",
+        "银锭",
+        "银洋"
+      ],
+      "traditional_char": "銀"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "像银的颜色。",
+      "examples": [
+        "银白",
+        "银发",
+        "银河"
+      ],
+      "traditional_char": "銀"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "古同“垠”，边。",
+      "examples": [],
+      "traditional_char": "銀"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [],
+      "traditional_char": "銀"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从‘金’为意符，‘艮’为声符，表本义为银（金属）。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_narrowing",
+      "note": "以银金属作为货币材料，义项专指银质货币，宋元以后普遍。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "以银的颜色特征转喻颜色。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "unknown",
+      "note": "作为姓氏的机制不详。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 0,
+      "evolution_type": "unknown",
+      "note": "古同‘垠’，二字通用，来源复杂，存在假借关系。"
+    }
+  ]
+}

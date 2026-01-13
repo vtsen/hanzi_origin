@@ -1,0 +1,38 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "兄弟的妻子的合稱或互稱，即“妯娌”",
+      "examples": [
+        "她们三个是妯娌。",
+        "家道多由妇人，欲令姊妹为妯。"
+      ],
+      "traditional_char": "妯"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "扰动，不平静，心动，忧伤",
+      "examples": [
+        "淮有三洲，忧心且妯。"
+      ],
+      "traditional_char": "妯"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "从女，由声，最初表示‘动’、‘扰动’之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "metonymy",
+      "note": "由‘扰动、不平静’比喻兄弟妻之间的关系或称谓，语义发生转移，出现“妯娌”用法。"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "以角抵物，用角撞击。",
+      "examples": [
+        "羝羊触藩，赢其角。"
+      ],
+      "traditional_char": "觸"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "碰，撞及。",
+      "examples": [
+        "触礁",
+        "触电"
+      ],
+      "traditional_char": "觸"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "遇到，接触。",
+      "examples": [
+        "接触",
+        "触觉",
+        "触目惊心"
+      ],
+      "traditional_char": "觸"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "因刺激而引发情感、思想等变化。",
+      "examples": [
+        "感触",
+        "忽有所触"
+      ],
+      "traditional_char": "觸"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从角，蜀声，表示用角撞物。本义为角抵。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由用角撞物推广为一般的碰撞，时间在先秦至汉已见。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由具体撞击拓展为泛指遇到、接触，义在汉代已见。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "遇到外物引发内心变化，引申为心理感受、情感触发，晋唐以后普及。"
+    }
+  ]
+}

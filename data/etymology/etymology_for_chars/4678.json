@@ -1,0 +1,102 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "责骂；训斥",
+      "examples": [
+        "母取箕帚，立而谇语。",
+        "吳王 還自伐 齊 ， 乃誶 申胥 。"
+      ],
+      "traditional_char": "誶"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "责问；用责备的口气问",
+      "examples": [
+        "虞人逐而谇之。",
+        "察士无凌谇之事。"
+      ],
+      "traditional_char": "誶"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "告知，告诫",
+      "examples": [
+        "既谇尔以吉象兮，又申之以炯戒。",
+        "祇藉來誶， 伸以管窺， 實相無言。"
+      ],
+      "traditional_char": "誶"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "劝告；谏诤",
+      "examples": [
+        "謇朝谇而夕替。",
+        "誶， 諫也。"
+      ],
+      "traditional_char": "誶"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "乐章末尾的总结辞，与“乱”同",
+      "examples": [
+        "谇曰：“已矣，国其莫吾知兮，子独壹郁其谁语！”"
+      ],
+      "traditional_char": "誶"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "忧心，忧虑（通“悴”）",
+      "examples": [
+        "百姓之誶也。",
+        "說百姓之誶者，是滅天下之人也。"
+      ],
+      "traditional_char": "誶"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从言，卒声，本义为责骂。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由责骂扩展为用责备的口气问。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由责骂扩展为告知、警告，有责备之意的劝诫。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由责骂进一步引申为劝告、谏诤。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "由责问/慨叹引申为乐章末尾总结辞。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "由“誶”假借为“悴”，表示忧虑，见于少数文献。"
+    }
+  ]
+}

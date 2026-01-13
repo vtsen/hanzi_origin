@@ -1,0 +1,70 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "摔倒，失足摔倒",
+      "examples": [
+        "他一不小心就跌倒了。",
+        "跌跤"
+      ],
+      "traditional_char": "跌"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "下降，低落",
+      "examples": [
+        "价格下跌",
+        "水位下跌",
+        "销量大跌"
+      ],
+      "traditional_char": "跌"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "顿足，跺脚",
+      "examples": [
+        "跌足长叹"
+      ],
+      "traditional_char": "跌"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "疾行，奔跑",
+      "examples": [
+        "跌蹄而行千里"
+      ],
+      "traditional_char": "跌"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从足，表示与脚有关，‘失’为声符且有‘失去控制’之意，本义为失足摔倒。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由摔倒引申为价格、数量等下落，常见于近现代汉语。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由摔倒动作引申为顿足，表情绪激动时脚的动作。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "unknown",
+      "note": "‘疾行’义出于文言用法，可能与动作猛烈相关，具体演变机制不明。"
+    }
+  ]
+}

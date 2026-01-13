@@ -1,0 +1,59 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "长嘴的狗，猎犬的一种。",
+      "examples": [
+        "猃，长喙犬也。——《说文》",
+        "輶车鸾镳，载猃歇骄。——《诗经·秦风·驷驖》"
+      ],
+      "traditional_char": "獫"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "黑犬黄头。",
+      "examples": [
+        "猃，黑犬黄头。——《说文》"
+      ],
+      "traditional_char": "獫"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "猃狁，中国古代北方民族名。",
+      "examples": [
+        "猃狁，先秦时我国北部的一个民族。",
+        "玁狁未灭，何以家为。——《诗经·小雅·采薇》"
+      ],
+      "traditional_char": "猃"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘獫’从犬，僉声，为形声字，表长喙猎犬。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 2,
+      "note": "‘猃’同‘獫’，从犬，僉声，后泛指北方民族‘猃狁’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由长嘴猎犬引申为毛色特征（黑犬黄头），两者并见于《说文》。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "用犬名指代北方民族‘猃狁’，为先秦文献常见用法。"
+    }
+  ]
+}

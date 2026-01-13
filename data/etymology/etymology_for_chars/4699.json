@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "汲水用的绳子，井绳",
+      "examples": [
+        "具绠缶。",
+        "绠短者，不可以汲深。"
+      ],
+      "traditional_char": "綆"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "泛指绳索或链条",
+      "examples": [
+        "绠套（牲口的绳套）",
+        "鐵匠冶鐵為長綆，貫以大鉤，每鎚一綆，則曳一舟。"
+      ],
+      "traditional_char": "綆"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "轮辐近轴处的突出部分",
+      "examples": [
+        "绠，车轮也。——《类篇·系部》",
+        "視其綆，欲其蚤之正也。——《周礼·考工记·轮人》"
+      ],
+      "traditional_char": "綆"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从糸，表示与绳索有关，更为声旁，最早表示井绳。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由专指井绳扩展为泛指各种绳索或链条。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "从‘绳索’通过结构功能类比，指代轮辐近轴的突出部分，形制相似。"
+    }
+  ]
+}

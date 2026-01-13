@@ -1,0 +1,88 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "长矛，戟等兵器。",
+      "examples": [
+        "立戈迤戛。",
+        "戛，戟也。"
+      ],
+      "traditional_char": "戛"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "敲击，敲打，弹奏。",
+      "examples": [
+        "戛击鸣球。",
+        "戛玉敲金。",
+        "铿金戛瑟徒相杂。"
+      ],
+      "traditional_char": "戛"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "常礼，常法。",
+      "examples": [
+        "尔雅·释诂：戛，常也。",
+        "不率大戛。"
+      ],
+      "traditional_char": "戛"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "刮；用刀去掉某物；研磨。",
+      "examples": [
+        "铁线弓戛平其面。",
+        "端石之佳，戛墨有声。"
+      ],
+      "traditional_char": "戛"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "onomatopoeia",
+      "meaning": "形容声音清脆，如敲击金玉之声。",
+      "examples": [
+        "戛然长鸣。",
+        "成语：戛然而止。"
+      ],
+      "traditional_char": "戛"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意字，从首（头）和戈，指杀头兵器，最早用于表示戟、长矛等兵器。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由兵器击打引申为敲击、弹奏，早见《书·益稷》。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "敲击产生的清脆声音，故用为象声词。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "敲击引申为刮擦物品表面，出现于工艺、加工相关语境。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "兵器、规制等引申为常法、常礼，见《尔雅》。"
+    }
+  ]
+}

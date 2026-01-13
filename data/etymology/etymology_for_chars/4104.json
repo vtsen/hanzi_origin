@@ -1,0 +1,38 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "土地面积单位，各地不同。东北地区一垧合一公顷（15市亩），西北地区一垧合三亩或五亩。",
+      "examples": [
+        "若不把南篱下的三垧地赎出来呀，明年连种的地也还没有了呢!——《一层楼》"
+      ],
+      "traditional_char": "垧"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "同“坰”，指远郊、野外。",
+      "examples": [
+        "它日玉堂揮翰手，芳時同此賦林坰。——宋·王安石《同陳和叔游齊安院》",
+        "遙望郊坰，滾滾勢如傾。——元·張養浩《寨兒令•冬》"
+      ],
+      "traditional_char": "垧"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "‘垧’形声字，从‘土’表示土地，‘冋’作声符，最初与‘坰’通用，指远郊野地。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_narrowing",
+      "note": "地名、远郊野地的意义转为特指土地面积单位，属于语义收缩现象，多出现于近现代东北、西北等地。"
+    }
+  ]
+}

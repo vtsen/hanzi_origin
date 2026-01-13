@@ -1,0 +1,78 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "孤独，无依靠，没有兄弟",
+      "examples": [
+        "茕茕孑立，形影相吊。",
+        "无虐茕独。",
+        "哀此茕独。",
+        "中心独立一何煢。",
+        "剩妾一身，煢无所依。"
+      ],
+      "traditional_char": "煢"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "忧愁，悲伤",
+      "examples": [
+        "神茕茕以遥思兮。",
+        "茕疚（因孤单而感忧伤）"
+      ],
+      "traditional_char": "煢"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "回旋着飞",
+      "examples": [
+        "茕，回飞也。从凡，煢省声。鸟回转疾飞曰茕。——《说文》"
+      ],
+      "traditional_char": "煢"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "骰子（古代博戏用具）",
+      "examples": [
+        "古为大博则六箸，小博则二煢。",
+        "一煢十二棋。"
+      ],
+      "traditional_char": "煢"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 2,
+      "note": "‘煢’为形声字，形旁为‘卂’（象鸟飞），声旁取‘營’（省声）；造字本义为回旋疾飞。"
+    },
+    {
+      "formation_type": "loan_character",
+      "original_sense_index": 0,
+      "note": "‘茕’为‘煢’的简化或异体字，最早借用煢‘孤独无依’义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 2,
+      "target_index": 0,
+      "evolution_type": "semantic_shift",
+      "note": "从‘回飞’转为‘孤独’义，或因孤身旋飞、比喻无依。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由‘孤独’引申为‘忧愁、悲伤’，常见于古汉语感情色彩加重。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "骰子作为容易孤立、独自留在棋盘者，或因博戏中单独成具而得名，必要性与孤独有关。"
+    }
+  ]
+}

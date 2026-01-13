@@ -1,0 +1,87 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "枸杞，一种灌木或其果实，可入药。",
+      "examples": [
+        "杞，枸杞也。——《说文》",
+        "千村万落生荆杞。——杜甫《兵车行》"
+      ],
+      "traditional_char": "杞"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "杞柳，一种柳属植物，木材柔韧。",
+      "examples": [
+        "无折我树杞。——《诗经·郑风·将仲子》",
+        "性犹杞柳也。——《孟子·告子上》"
+      ],
+      "traditional_char": "杞"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "周代诸侯国名，在今河南杞县一带。",
+      "examples": [
+        "周武王克殷紂，求禹之后，得东楼公，封之于杞。——《史记·陈杞世家》",
+        "杞人忧天。"
+      ],
+      "traditional_char": "杞"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [
+        "春秋有杞梁。",
+        "杞姓望出齐郡。"
+      ],
+      "traditional_char": "杞"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "狗骨，一种树木名（据古注释，异于枸杞、杞柳）。",
+      "examples": [
+        "其树如樗，一名狗骨。——《草木疏》《诗·小雅·南山有台》",
+        "南山有杞。——《诗小雅》"
+      ],
+      "traditional_char": "杞"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从木，己声，最初指枸杞植物。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "两类常见的‘杞’树类混用，古书及注释多次产生指涉延伸。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由枸杞泛指其他木本植物名，‘狗骨’为后来分类注释所得。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "以出产或特产‘杞’木命名的古国，见于地名用法。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "conversion",
+      "note": "古国名称变化为姓氏现象常见，有史籍可证。"
+    }
+  ]
+}

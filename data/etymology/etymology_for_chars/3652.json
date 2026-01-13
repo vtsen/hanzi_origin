@@ -1,0 +1,74 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "边界，边际，同“垠”。",
+      "examples": [
+        "四达无境，通于无圻。——《淮南子·俶真》",
+        "高诱注：圻，垠字也。"
+      ],
+      "traditional_char": "圻"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "方千里之地，特指天子直辖之地（京畿），也泛指都城所领区域。",
+      "examples": [
+        "今土数圻，而郢是城，不亦难乎。——《左传·昭公三十三年》",
+        "且昔天子之地一圻。——《左传·襄公二十五年》",
+        "天子邦圻千里，公侯百里，伯七十里，子、男五十里。——《春秋繁露》"
+      ],
+      "traditional_char": "圻"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "疆界，地域，疆土。",
+      "examples": [
+        "万千里曰王圻。——《周书·职方》",
+        "化协殊裔，风衍遐圻。——陆机《辩亡论上》",
+        "洪流荡北阯，崇岭郁南圻。——韦应物《始至郡》"
+      ],
+      "traditional_char": "圻"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "曲岸，岸边，通“碕”。",
+      "examples": [
+        "溯流触惊急，临圻阻参错。——谢灵运《富春渚》",
+        "汤泉发云潭，焦烟起石圻。——鲍照《苦热行》",
+        "杨柳渡头行客稀，罟师荡浆向临圻。——王维《送沈子福之江东》"
+      ],
+      "traditional_char": "圻"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从土，斤声。本义为地的边界或边际，与“垠”同，反映最初用途。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由一般“边界、边际”引申为特定的行政区划边界（京畿），多见于先秦两汉。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由特指天子的京畿之地扩展为一般疆界、领域之义。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "以土地边界的“边”转指曲折的河岸、岸边等，后期用法。"
+    }
+  ]
+}

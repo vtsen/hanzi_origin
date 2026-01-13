@@ -1,0 +1,87 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "梵语词、姓名、地名等的音译字，常用于佛经中音译“伽蓝”指佛教寺院、僧众所居之地，或音译人名、国名等。",
+      "examples": [
+        "伽蓝寺",
+        "僧伽",
+        "伽倍国",
+        "僧伽蓝摩"
+      ],
+      "traditional_char": "伽"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "同“茄”，一种蔬菜，今作茄子（古字与现代义有别，历史文献偶见）。",
+      "examples": [
+        "盛冬育荀，旧菜增伽。（《蜀都赋》）"
+      ],
+      "traditional_char": "伽"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "一种香料，即沉香。用于“伽南香”等词。",
+      "examples": [
+        "伽南香"
+      ],
+      "traditional_char": "伽"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "译音用字，用作科学、技术名词的译音，如“伽马射线”（Gamma rays），“伽利略”（Galileo）。用于度量单位“伽”即“伽里略”。",
+      "examples": [
+        "伽马射线",
+        "伽利略",
+        "重力加速度单位：1伽"
+      ],
+      "traditional_char": "伽"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "（朝鲜）一种乐器名，为“伽倻琴”。",
+      "examples": [
+        "伽倻琴"
+      ],
+      "traditional_char": "伽"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从人，加声。最初作为梵语人名、寺院等音译字，多见于佛经翻译。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "用音译字伽来指蔬菜“茄”，体现古今通假，常见于古文。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "同音借用用作“沉香”，见于‘伽南香’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "用于现代名词、单位等西语音译。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "日朝等乐器名的音译制用。"
+    }
+  ]
+}

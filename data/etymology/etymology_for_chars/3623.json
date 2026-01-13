@@ -1,0 +1,132 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "鱼在水中游动的样子",
+      "examples": [
+        "南有嘉鱼，烝然汕汕。",
+        "汕汕，鱼游水的样子。"
+      ],
+      "traditional_char": "汕"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "用网（抄网、鱼笼等）捕鱼",
+      "examples": [
+        "菰蔆可采掇，鱼鳖可钓汕。",
+        "况住洛之涯，鳑鲫可罩汕。"
+      ],
+      "traditional_char": "汕"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "捕鱼用具（如抄网、罺等）",
+      "examples": [
+        "罳谓之汕。",
+        "今之撩罟。"
+      ],
+      "traditional_char": "汕"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "鱼梁，用于捕鱼的栅栏、篱笆等",
+      "examples": [
+        "鱼梁谓之汕。"
+      ],
+      "traditional_char": "汕"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "冲洗，冲刷",
+      "examples": [
+        "那老头儿把那将及二尺长的白胡子放在凉水里湃了又湃，汕了又汕。",
+        "宽洗汕胸中四海。"
+      ],
+      "traditional_char": "汕"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "骗人，诱人上当",
+      "examples": [
+        "作成圈套儿来汕你的。"
+      ],
+      "traditional_char": "汕"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "汕头的简称，广东省城市名",
+      "examples": [
+        "我去过汕。",
+        "汕头是广东省的城市。"
+      ],
+      "traditional_char": "汕"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "verb",
+      "meaning": "方言。把鲜肉片放在开水里烫熟",
+      "examples": [
+        "把肉汕一下就熟了。"
+      ],
+      "traditional_char": "汕"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘汕’为形声字，从水，山声，表示鱼在水中游动的样子。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由鱼游水的动作引申为用网捕鱼的动作，渊源于古代捕鱼过程。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由动作引申为捕鱼的工具。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由捕鱼工具扩展为用以捕鱼的鱼梁。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_shift",
+      "note": "由水中的动作引申为冲刷、洗刷。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "metaphor",
+      "note": "将鱼游引诱上钩比喻为诱骗人上当。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 6,
+      "evolution_type": "metonymy",
+      "note": "汕为汕头的简称，地名由捕鱼活动相关命名。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 7,
+      "evolution_type": "metaphor",
+      "note": "由冲洗动作衍生出用水涮食品的方言用法。"
+    }
+  ]
+}

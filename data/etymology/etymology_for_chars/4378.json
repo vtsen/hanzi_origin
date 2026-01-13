@@ -1,0 +1,52 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "系船的木桩",
+      "examples": [
+        "牂牁：古地名，指以木桩系缆绳处"
+      ],
+      "traditional_char": "牁"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "古地名、古水名（如牂牁/牂柯）",
+      "examples": [
+        "下牂牁江"
+      ],
+      "traditional_char": "牁"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "同“柯”，木杙（木桩）",
+      "examples": [
+        "文献中以牁通柯，皆为木杙"
+      ],
+      "traditional_char": "牁"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "loan_character",
+      "original_sense_index": 2,
+      "note": "‘牁’为假借字，本作‘柯’，以表示木杙之义。‘牁’与‘柯’音义相近，古文常通用，疑因声近而假借。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 2,
+      "target_index": 0,
+      "evolution_type": "semantic_narrowing",
+      "note": "由泛指木杙至专指系船木桩，用途限定，见于船舶文献。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "以系船木桩之物转指所在地名、水名，如‘牂牁’，反映地理地名来源。"
+    }
+  ]
+}

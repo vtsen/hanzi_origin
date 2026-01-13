@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "茴香，一种伞形科多年生草本植物，叶分裂状似毛，夏天开黄色花，全株有强烈芳香，茎叶嫩时可食，子实可作香料或入药，常称“小茴香”。",
+      "examples": [
+        "蘹香，北人呼为茴香，声相近也。",
+        "乃见茴香生蒙、楚之间。"
+      ],
+      "traditional_char": "茴"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "八角茴香，一种常绿灌木，叶长椭圆形，初夏开红花，果实八角形，可作调料或入药，通称“八角茴香”、“大料”。",
+      "examples": [
+        "大茴香",
+        "八角茴香"
+      ],
+      "traditional_char": "茴"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "防风的叶子，一种药草的叶。",
+      "examples": [
+        "药草防风的叶子。"
+      ],
+      "traditional_char": "茴"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘茴’为形声字，从艸，回声。本义为茴香植物。艸表植物类别，回作声旁。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "因果实或香料用途相近，小茴香名称转用八角茴香。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由茴香植物名称扩展指代同科其他类似药用植物，如防风叶。"
+    }
+  ]
+}

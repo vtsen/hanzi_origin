@@ -1,0 +1,68 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "云气弥漫的样子，烟雾缭绕。",
+      "examples": [
+        "灵山多秀色，空水共氤氲",
+        "佳气日氤氲"
+      ],
+      "traditional_char": "氤"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "元气，天地合气，万物化生的本原之气。",
+      "examples": [
+        "天地氤氲，万物化醇",
+        "絪緼，天地合氣也"
+      ],
+      "traditional_char": "氤"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "旺盛的气、香气不绝。",
+      "examples": [
+        "形容香气不绝",
+        "氣盛貌"
+      ],
+      "traditional_char": "氤"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "火气。",
+      "examples": [],
+      "traditional_char": "氤"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘氤’从气，音因，形声字，本指云气弥漫之状。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由具体云气之象转喻为天地元气，哲学义，见于先秦文献。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由云气弥漫引申为气盛、香气不绝，多见于文学用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由气象之气进一步泛化为火气，见于部分古文用法。"
+    }
+  ]
+}

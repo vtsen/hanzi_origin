@@ -1,0 +1,94 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "母亲；妈妈",
+      "examples": [
+        "延年兄弟五人皆大官，母号万石嫗。",
+        "妪，母也。——《说文》"
+      ],
+      "traditional_char": "嫗"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "年老的妇女；老妇",
+      "examples": [
+        "老妪夜哭。——《史记》",
+        "家有老妪，尝居于此。——《项脊轩志》",
+        "老妪力虽衰，请从吏夜归。"
+      ],
+      "traditional_char": "嫗"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "妇女的通称",
+      "examples": [
+        "从少妪三十。——《南史·邓郁传》",
+        "左太沖絕醜，亦復效岳遨遊，於是群嫗齊共亂唾之。"
+      ],
+      "traditional_char": "嫗"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "以身体温暖，用体孵卵或抚育",
+      "examples": [
+        "羽者妪伏。——《淮南子·原道》",
+        "煦妪覆育万物。——《礼记·乐记》",
+        "妪伏（鸟类以体孵卵）"
+      ],
+      "traditional_char": "嫗"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "养育；抚养",
+      "examples": [
+        "妪育（生育抚养）",
+        "以声华呕符妪掩万民百姓。——《淮南子》"
+      ],
+      "traditional_char": "嫗"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘嫗’为形声字，从女，区声，本义为母亲。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘妪’为‘嫗’的简化字，声旁同，义出于母亲。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘母亲’本义扩展为‘老妇’、‘年老妇女’，见于汉代文献。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "‘老妇’进一步泛指妇女，用作妇女通称。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "由‘母亲’抽象出‘用身体温暖’，出现于古籍，对应孵育义。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "‘以体温暖’引申为‘抚养、养育’，见于《淮南子》。"
+    }
+  ]
+}

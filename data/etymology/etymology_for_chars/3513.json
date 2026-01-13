@@ -1,0 +1,68 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "倾斜",
+      "examples": [
+        "仄立",
+        "日仄"
+      ],
+      "traditional_char": "仄"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "狭窄",
+      "examples": [
+        "逼仄"
+      ],
+      "traditional_char": "仄"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "古汉语中“上声”、“去声”、“入声”的总称",
+      "examples": [
+        "仄声"
+      ],
+      "traditional_char": "仄"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "心里不安",
+      "examples": [
+        "歉仄"
+      ],
+      "traditional_char": "仄"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意字，从人，从厂，象人侧身居于山崖洞穴，本义为倾斜。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“倾斜”引申为“狭窄”，因空间倾斜导致不宽敞。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "“倾斜、不平”喻指音调高低不平，用于诗文格律。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "狭窄、局促引申为心中局促不安。"
+    }
+  ]
+}

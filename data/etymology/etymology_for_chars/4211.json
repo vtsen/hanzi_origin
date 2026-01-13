@@ -1,0 +1,52 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "虼蚤，昆虫，赤褐色，善跳跃，吸血液，寄生人体或动物，可传播疾病。",
+      "examples": [
+        "虼蚤叮咬令人瘙痒。"
+      ],
+      "traditional_char": "虼"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "蜣螂，一种甲虫，又称“屎壳郎”。见于“虼蜋”。",
+      "examples": [
+        "虼蜋在粪堆上滚动圆球。"
+      ],
+      "traditional_char": "虼"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "虼鲁，古代国名。",
+      "examples": [
+        "虼魯，國名。至江南，馬行七月。"
+      ],
+      "traditional_char": "虼"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从虫，乞声。‘虼’本指小昆虫，最初用以指虼蚤，声音借自‘乞’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "因与其他小型昆虫（如蜣螂）形态或类别有关，后用作‘虼蜋’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "unknown",
+      "note": "用于国名‘虼鲁’，用字原因不详，或与音、象有关。"
+    }
+  ]
+}

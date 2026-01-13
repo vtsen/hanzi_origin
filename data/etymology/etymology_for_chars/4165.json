@@ -1,0 +1,44 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "砗磲，软体动物，比蛤蜊大，壳可作装饰品，肉可食。",
+      "examples": [
+        "砗磲是一种大型贝类。",
+        "以砗磲为饰。"
+      ],
+      "traditional_char": "砗"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "硨磲，软体动物，比蛤蜊大，壳可作装饰品，肉可食。",
+      "examples": [
+        "硨磲为珊瑚礁中最大型双壳类。",
+        "用硨磲制饰。"
+      ],
+      "traditional_char": "硨"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "“硨”为形声字，从石，嗔声，表示一种石类贝类（硨磲）。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“砗”为“硨”的简化字，石为意符，嗔为声符，承袭同源义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_shift",
+      "note": "“砗”为“硨”的简化字，意义完全一致，现代汉字简化过程中形成。"
+    }
+  ]
+}

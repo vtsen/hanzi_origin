@@ -1,0 +1,91 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "一只眼小，偏盲，后泛指一目失明或两目失明",
+      "examples": [
+        "眇，一目小也。——《说文》",
+        "生而眇者不识日。——苏轼《日喻》",
+        "见一先生，眇一目，跛一足。——明·罗贯中《全图绣像三国演义》"
+      ],
+      "traditional_char": "眇"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "用一只眼看，眯着眼仔细看，细视",
+      "examples": [
+        "眇视（偏盲，用一只眼看）",
+        "离娄眇目于豪分。——《汉书·叙传上》",
+        "眇眡（仔细观看）"
+      ],
+      "traditional_char": "眇"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "细小，微小，低微",
+      "examples": [
+        "眇乎小哉！——《庄子·德充符》",
+        "起教于微眇。——《汉书·贾谊传》",
+        "眇小之身"
+      ],
+      "traditional_char": "眇"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "高远，辽远，久远",
+      "examples": [
+        "不厌深眇而已矣。——《庄子·庚桑楚》",
+        "眇不知其所蹠。——《楚辞·九章》",
+        "路眇眇之默默"
+      ],
+      "traditional_char": "眇"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "精微，奥妙（古通“妙”）",
+      "examples": [
+        "美要眇兮宜脩。——《楚辞·湘君》",
+        "虽户说以眇论，终不能化。——《史记·货殖列传序》"
+      ],
+      "traditional_char": "眇"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从目，表示与眼睛有关；从少，表声音，兼有指事（少，小）义，初本指‘一只眼小’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘一只眼小’引申为‘用一只眼看’或‘眯眼仔细看’，出现于先秦至汉"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由‘一只眼小’比喻事物细小、微末。常见于先秦及后世文学。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "由形容眼的一只小、远，引申为‘高远、辽远’，先秦文献常见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "‘眇’通‘妙’，用于表示‘精微、奥妙’，源自古代通假现象。"
+    }
+  ]
+}

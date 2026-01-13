@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "棍子，杖类物品。",
+      "examples": [
+        "木棒",
+        "棒子",
+        "棒槌",
+        "棒冰"
+      ],
+      "traditional_char": "棒"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "玉米的别称（北方方言习惯用“棒子”指称玉米）。",
+      "examples": [
+        "苞米棒子"
+      ],
+      "traditional_char": "棒"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "形容体力强、能力大、成绩好、水平高。",
+      "examples": [
+        "功课棒",
+        "身体棒"
+      ],
+      "traditional_char": "棒"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从木，奉声，本义为棍、杖。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "因玉米形状似棍棒，借喻得名，方言用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由“坚硬有力的棍棒”引申为“能力强”，现代口语常用。"
+    }
+  ]
+}

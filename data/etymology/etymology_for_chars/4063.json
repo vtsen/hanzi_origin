@@ -1,0 +1,83 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "台阶的层次，阶次，重坛",
+      "examples": [
+        "泰一坛三陔。（《汉书·郊祀志》）",
+        "陔，阶次也。（《说文》）"
+      ],
+      "traditional_char": "陔"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "田埂，田间的土岗",
+      "examples": [
+        "循彼南陔，言采其兰。（晋·束皙《补亡诗·南陔》）"
+      ],
+      "traditional_char": "陔"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "古乐章《陔夏》的省称",
+      "examples": [
+        "宾出，奏《陔》。（《仪礼·乡饮酒礼》）"
+      ],
+      "traditional_char": "陔"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "numeral",
+      "meaning": "数词，十京（即一万万）",
+      "examples": [
+        "凡大数之法，万万曰亿，万万亿曰兆，万万兆曰京，万万京曰陔。（《孙子算经》）"
+      ],
+      "traditional_char": "陔"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "极远的地方，八极",
+      "examples": [
+        "周章九陔。（《抱朴子·广譬》）"
+      ],
+      "traditional_char": "陔"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从阜，表示与地势高低有关，亥为声符，本义为台阶的层次。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“阶次”引申为地面高低之隔，即田埂，常见于地形用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由阶次转指乐章的名称，取仪式中的多重阶次转为乐章名。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由“层级、次序”引申为极大的数目，表示数量级的层次。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "由巨大数转喻极远的地方，引申自大数为极远。"
+    }
+  ]
+}

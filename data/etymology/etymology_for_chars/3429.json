@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "稻、麦、谷子等的子实所脱落的壳或皮",
+      "examples": [
+        "米糠",
+        "糟糠",
+        "糠秕"
+      ],
+      "traditional_char": "糠"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "萝卜等因失掉水分而中心呈蜂窝状",
+      "examples": [
+        "萝卜糠了"
+      ],
+      "traditional_char": "糠"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，“米”为意符，“康”为声符，表示谷物脱壳物。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由谷壳的疏松状态，用于形容蔬果失水后中心变空的蜂窝状现象。"
+    }
+  ]
+}

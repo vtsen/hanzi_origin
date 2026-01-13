@@ -1,0 +1,87 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "水名。源出秦岭南麓沙罗幛，南流到两河关纳乾佑河，在旬阳县入汉水。",
+      "examples": [
+        "洵水出焉，南流注于黑水。《山海经》",
+        "汉置洵阳县，以地在此水之北而名。"
+      ],
+      "traditional_char": "洵"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adverb",
+      "meaning": "确实，实在，诚然。",
+      "examples": [
+        "洵美且异。《诗·邶风·静女》",
+        "洵有情兮。《诗·陈风·宛丘》",
+        "洵为希世奇珍。《镜花缘》"
+      ],
+      "traditional_char": "洵"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "流泪的样子，默默流泪。",
+      "examples": [
+        "请无瘠色，无洵涕。《国语·鲁语下》",
+        "洵涕（默默地流泪）"
+      ],
+      "traditional_char": "洵"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "远、疏远。",
+      "examples": [
+        "于嗟洵兮，不我信兮。《诗·邶风·击鼓》"
+      ],
+      "traditional_char": "洵"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "均、遍及（通“旬”）。",
+      "examples": [
+        "洵直且侯。《诗·羔裘》",
+        "侯旬作洵。"
+      ],
+      "traditional_char": "洵"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，旬声，表示水名，后假借引申为其他义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_shift",
+      "note": "由水名借指清澈纯净，引申为诚实、实在等抽象意义。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由水的流动之意转为泪水流淌，形容流泪的样子。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "水流绵远，引申为远、疏远之意。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "作为“旬”的通假字，引申为均、普遍。"
+    }
+  ]
+}

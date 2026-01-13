@@ -1,0 +1,86 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "张开眼睛，睁大眼睛直视或仰视",
+      "examples": [
+        "盱衡厉色，振扬武器。",
+        "盱盱然。",
+        "盱豫，悔。"
+      ],
+      "traditional_char": "盱"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "扩大、扩展",
+      "examples": [
+        "又广盱营表，发人冢墓，断截骸骨，暴扬尸柩。"
+      ],
+      "traditional_char": "盱"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "忧愁，病困（“吁”的假借）",
+      "examples": [
+        "我不见兮，云何盱矣。",
+        "云何其盱。"
+      ],
+      "traditional_char": "盱"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "多年生草本植物名，蛇床，马床，可入药",
+      "examples": [
+        "盱，虺床。"
+      ],
+      "traditional_char": "盱"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "姓氏、地名用字",
+      "examples": [
+        "汉有盱烈。",
+        "盱眙，属临淮郡。"
+      ],
+      "traditional_char": "盱"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从目，亏声，会意兼形声，表示张目而视。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由“张目”为“扩大”，抽象物象的扩大如同张大眼睛。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "假借为“吁”，以音近字表达忧愁、病困。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "unknown",
+      "note": "草名意转机制不明，或由形态引申，古籍直接记载。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "function_word",
+      "note": "姓氏与地名多用常用字，借形声字而得。"
+    }
+  ]
+}

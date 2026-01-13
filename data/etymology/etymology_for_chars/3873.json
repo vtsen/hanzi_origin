@@ -1,0 +1,103 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "陵苕，凌霄花，紫葳（蔓生攀援植物，花色多样，可供观赏或药用）",
+      "examples": [
+        "詩曰：苕之華，芸其黃矣。",
+        "苕华（花名。即凌霄花）"
+      ],
+      "traditional_char": "苕"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "苕子，一年生或二年生豆科草本植物，羽状复叶，花紫色，可作绿肥。又称“野豌豆”",
+      "examples": [
+        "邛有旨苕。",
+        "苕菜，即紫云英，为优良绿肥。"
+      ],
+      "traditional_char": "苕"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "芦苇的花，苇花、苇穗",
+      "examples": [
+        "系之苇苕。——《荀子·劝学》",
+        "苕帚（用苇花编成的扫把）"
+      ],
+      "traditional_char": "苕"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "水名，如苕溪、苕水",
+      "examples": [
+        "苕溪水出天目山之南...",
+        "苕水，在浙江及陕西"
+      ],
+      "traditional_char": "苕"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "高、远的样子，形容高耸或遥远",
+      "examples": [
+        "苕亭（高耸的样子）",
+        "苕苕（高大、遥远的样子）"
+      ],
+      "traditional_char": "苕"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "甘薯，红薯的别名（方言）",
+      "examples": [
+        "红苕就是甘薯。",
+        "四川人称红薯为红苕。"
+      ],
+      "traditional_char": "苕"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从艸，召声。本义为蔓生植物陵苕（凌霄、紫葳）。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "本为蔓生植物，引申为类似蔓生的豆科草本植物苕子。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由蔓生草本泛指至苇花穗，属同为细长植物之属；唐宋已见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "由植物名引申为以该植物为特征的水名，如苕溪。先名物，后地名。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "由蔓生、攀援植物高远之形象引申为‘高远’之意。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "semantic_shift",
+      "note": "部份方言因蔓生草类转指地瓜一类作物，后特指红薯。"
+    }
+  ]
+}

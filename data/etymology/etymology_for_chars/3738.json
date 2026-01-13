@@ -1,0 +1,102 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adverb",
+      "meaning": "都，皆，全部。",
+      "examples": [
+        "佥曰：‘于，鲧哉!’——《书·尧典》",
+        "佥谋已定，庶可施矣。"
+      ],
+      "traditional_char": "僉"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "pronoun",
+      "meaning": "众人，大家。",
+      "examples": [
+        "佥荅何忧。——《楚辞·天问》",
+        "佥望（众望）",
+        "佥议（众人公开评议）"
+      ],
+      "traditional_char": "僉"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "连枷，打谷的农具。",
+      "examples": [
+        "《方言》“佥”郭璞注：“今连枷，所以打谷者。”"
+      ],
+      "traditional_char": "僉"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "签署，在文书上写名字或画押（古同“签”）。",
+      "examples": [
+        "汝等各自佥名，共成此事。——《三国演义》",
+        "佥押（在文书上签名画押表示负责）"
+      ],
+      "traditional_char": "僉"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "调动官职，升职，指派。",
+      "examples": [
+        "除佥杭州判官。——《清平山堂话本》",
+        "县僉其父文明为部长。"
+      ],
+      "traditional_char": "僉"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "辅助，协助。",
+      "examples": [
+        "佥赞（协助）；佥坐（陪坐）"
+      ],
+      "traditional_char": "僉"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意字，从亼从吅从从，表示集合众人、众口，‘皆’‘都’的本义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_shift",
+      "note": "从‘都，皆’转为作为‘众人，大家’的用法，本义泛化为具体指群体。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "通过众人合力，转指农具‘连枷’，即多杆共击的器具。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由‘皆’引申为‘共同署名’，即多人合力签名，引申义。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由‘签署’进一步引申为‘调动官职，指派’，即文书行为引申为官职任免。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "由合集众人之义引申为‘辅助，协助’。"
+    }
+  ]
+}

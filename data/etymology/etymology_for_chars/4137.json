@@ -1,0 +1,43 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "苦荬菜，一种野生的多年生草本植物，常作猪饲料，全草可入药。",
+      "examples": [
+        "苦荬菜生于田野之间。",
+        "嫩叶可作猪饲料。"
+      ],
+      "traditional_char": "蕒"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "水苦荬，一种用作药材的植物。",
+      "examples": [
+        "水苦荬，药名。"
+      ],
+      "traditional_char": "蕒"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "蕒从艸，買声，本义为苦荬菜植物名。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "荬为蕒的简化字，从艸，买声，义同。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从一般的苦荬菜扩展指另一类与苦荬相关的药用植物。"
+    }
+  ]
+}

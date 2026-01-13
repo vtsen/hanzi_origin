@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "依仗，凭借，依赖他物以有所作为",
+      "examples": [
+        "怙势作威。",
+        "无父何怙，无母何恃。",
+        "怙其俊才。"
+      ],
+      "traditional_char": "怙"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "坚持（多用贬义，指坚持错误或作恶）",
+      "examples": [
+        "怙过不改。",
+        "怙恶不悛。"
+      ],
+      "traditional_char": "怙"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "父母的合称",
+      "examples": [
+        "孩失其怙，幼丧所亲；旁无弟兄，藐然一身。"
+      ],
+      "traditional_char": "怙"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "父亲",
+      "examples": [
+        "六岁失怙恃，不为兄嫂所容。",
+        "早年失怙事兄如父。"
+      ],
+      "traditional_char": "怙"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从心，古声；表示内心依赖之义，‘古’表声。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由依赖、凭借之义引申为坚持（尤指坚持恶行），出现于后世用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "依赖父母而生，‘怙’转指为父母的合称，见于诗经。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_narrowing",
+      "note": "‘怙’由父母合称进一步专指南亲为父。"
+    }
+  ]
+}

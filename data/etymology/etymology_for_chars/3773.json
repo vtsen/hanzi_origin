@@ -1,0 +1,168 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "治理水流，疏通水道",
+      "examples": [
+        "汩，治水也。——《说文》",
+        "决汩九川。——《国语·周语》",
+        "不任汩鸿，师何以尚之？——《楚辞·天问》"
+      ],
+      "traditional_char": "汩"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "扰乱；弄乱",
+      "examples": [
+        "汩陈其五行。——《书·洪范》",
+        "天公岂物欺，若此汩时序。——宋·梅尧臣",
+        "汩和（扰乱和气）"
+      ],
+      "traditional_char": "汩"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "搅混，搅浑",
+      "examples": [
+        "水诚清矣，泥沙汩之则俛而不见其影。——宋·司马光",
+        "一世皆尚同，愿君汩其泥。——晋·陶潜"
+      ],
+      "traditional_char": "汩"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "淹没，湮灭",
+      "examples": [
+        "羲和，羲和，汝奚汩没于荒淫之波？——李白《日出入行》",
+        "水下土，汩陵谷。——唐·韩愈",
+        "急風吹白雨，薄暮汩烏江。——清·姚鼐"
+      ],
+      "traditional_char": "汩"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "沉迷，沦落",
+      "examples": [
+        "大凡以断割，不为丽色所汩。——唐·孟简",
+        "世之慕纷华汩利禄事表暴者。——宋·赵与时"
+      ],
+      "traditional_char": "汩"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "水流；涌出的泉水",
+      "examples": [
+        "分流汩兮。——《楚辞·九章》",
+        "泉瑩然至清，蓋地皆沙也，以故不為泥所汩。——清·王昶"
+      ],
+      "traditional_char": "汩"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "水流声，液体流动的声音或其样子（象声词）",
+      "examples": [
+        "汩汩（水流的样子）",
+        "崩云霄雨，沥沥汩汩"
+      ],
+      "traditional_char": "汩"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "adjective",
+      "meaning": "迅疾的样子，迅速，快",
+      "examples": [
+        "汩余若将不及兮，恐年岁之不吾与。——《楚辞·怀沙》",
+        "悲风汩起。——江淹《恨赋》"
+      ],
+      "traditional_char": "汩"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "adjective",
+      "meaning": "光洁貌，洁净的样子",
+      "examples": [
+        "汩磑磑以璀璨。——《文选·王延寿〈鲁灵光殿赋〉》"
+      ],
+      "traditional_char": "汩"
+    },
+    {
+      "index": 9,
+      "part_of_speech": "noun",
+      "meaning": "深水，深潭",
+      "examples": [
+        "凌波赴汩，噬鲂捕鲤。——《文选·束晰〈补亡诗〉之一》"
+      ],
+      "traditional_char": "汩"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字。从水，曰声。‘治水，疏通’为本义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从‘治水’引申为‘治理、使混乱’。《书·洪范》等义"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "从‘扰乱’引申为‘搅混’，混乱进一步具体化"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "‘搅混’引申为‘淹没、湮灭’"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "‘淹没’泛化为‘沉迷、沦落’义"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "由‘治水’引申为名词‘水流’"
+    },
+    {
+      "source_index": 5,
+      "target_index": 6,
+      "evolution_type": "grammaticalization",
+      "note": "‘水流’引生成象声词‘水流声’"
+    },
+    {
+      "source_index": 5,
+      "target_index": 7,
+      "evolution_type": "metaphor",
+      "note": "水流急，故引申为‘迅疾’"
+    },
+    {
+      "source_index": 5,
+      "target_index": 8,
+      "evolution_type": "metaphor",
+      "note": "水流清澈被喻为‘光洁’之貌"
+    },
+    {
+      "source_index": 5,
+      "target_index": 9,
+      "evolution_type": "semantic_extension",
+      "note": "‘水流’具体化为‘深水、深潭’"
+    }
+  ]
+}

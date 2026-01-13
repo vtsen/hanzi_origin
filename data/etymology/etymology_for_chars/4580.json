@@ -1,0 +1,64 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "春秋时期晋国的邑名，在今河南省济源市西。",
+      "examples": [
+        "賈季亦使召公子樂於陳，趙孟使殺諸郫。（《左傳·文公六年》）"
+      ],
+      "traditional_char": "郫"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "县名，秦置，在今四川省成都市西郫县。",
+      "examples": [
+        "漢元鼎間避仇復溯江上，處湣山之陽曰郫。（《漢書·揚雄傳上》）",
+        "何攀字惠興，蜀郡郫人也。（《晉書·何攀傳》）"
+      ],
+      "traditional_char": "郫"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "江名，岷江的支流，流经郫县后与锦江合流。",
+      "examples": [],
+      "traditional_char": "郫"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [],
+      "traditional_char": "郫"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从邑，卑声，本义为地名，后引申为其他地名及姓氏。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由春秋时期晋国郫邑扩展指四川郫县，皆为地名迁移现象。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由地名郫县借指流经此地的江流。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "地名用作姓氏，为中国汉姓的一种常见模式。"
+    }
+  ]
+}

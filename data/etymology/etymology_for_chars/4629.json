@@ -1,0 +1,156 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "门槛，门限",
+      "examples": [
+        "送迎不越阃。",
+        "阃以内者，寡人制之。"
+      ],
+      "traditional_char": "閫"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "特指城门的门槛或郭门",
+      "examples": [
+        "此郭门之阃也。",
+        "国车不出于阃。"
+      ],
+      "traditional_char": "閫"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "城郭以内或以外的分界",
+      "examples": [
+        "阃以内者，寡人制之，阃以外者，将军制之。",
+        "阃外"
+      ],
+      "traditional_char": "閫"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "外任的将帅或外任官员，指统兵在外的将领",
+      "examples": [
+        "即具以北虚实告东西二阃。",
+        "阃职"
+      ],
+      "traditional_char": "閫"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "将帅的府署或军政机关",
+      "examples": [
+        "开阃于杭。",
+        "以巡抚兼提督，建阃兴安，居中控制。"
+      ],
+      "traditional_char": "閫"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "内室，妇女居住的地方，闺门",
+      "examples": [
+        "内言不出于阃。",
+        "阃闱"
+      ],
+      "traditional_char": "閫"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "借指妻子或妇女",
+      "examples": [
+        "尊阃薄相，恐不能佐君成业。",
+        "阃德"
+      ],
+      "traditional_char": "閫"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "noun",
+      "meaning": "（罕用）姓氏",
+      "examples": [],
+      "traditional_char": "閫"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "noun",
+      "meaning": "（比喻义）学问、事理的精深处",
+      "examples": [
+        "死生之说，神应之妙，大发其阃。"
+      ],
+      "traditional_char": "閫"
+    },
+    {
+      "index": 9,
+      "part_of_speech": "noun",
+      "meaning": "（罕用）宫中的道路",
+      "examples": [
+        "过阃穿闱，特报中宫母后知。"
+      ],
+      "traditional_char": "閫"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从门，困声，最早表示门槛。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从一般门槛泛指到特指城门、郭门等门槛。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由门槛义引申为内外之分界，语境转向城郭分界。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "以城郭分界引申称郭外统兵主官。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "由指代将帅，引申为其官署、军事管理机关。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "metaphor",
+      "note": "门槛比喻为家庭、内室的入口，引申为妇女居住之所。"
+    },
+    {
+      "source_index": 5,
+      "target_index": 6,
+      "evolution_type": "metonymy",
+      "note": "由内室转指为居住其中的妻子或女性。"
+    },
+    {
+      "source_index": 5,
+      "target_index": 8,
+      "evolution_type": "metaphor",
+      "note": "内室引申为学问、事理深奥隐密之处。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 9,
+      "evolution_type": "semantic_extension",
+      "note": "从门槛义引申为宫中的道路，或相关空间。"
+    }
+  ]
+}

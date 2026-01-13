@@ -1,0 +1,62 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "恭谨，谨慎",
+      "examples": [
+        "法正则民悫。",
+        "其容悫。",
+        "悫，谨也。"
+      ],
+      "traditional_char": "悫"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "诚实，朴实，厚道",
+      "examples": [
+        "高言谨悫。",
+        "其民樸重端愨。",
+        "悫士（质朴诚实之士）"
+      ],
+      "traditional_char": "悫"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "（同“悫”）恭謹；質樸",
+      "examples": [
+        "其容愨。",
+        "清剋潔愨，秋毫之端無私利也。"
+      ],
+      "traditional_char": "慤"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“悫”从心，㱿声，表示谨慎、诚实的品德。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 2,
+      "note": "“慤”从心，寉声，为“悫”的异体字，用于同义，均指诚实谨慎。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "原意'谨慎'引申为'诚实厚道'，在先秦文献中并用。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "analogy",
+      "note": "“慤”作为“悫”的异体，本义不变，字形变化属类推造字。"
+    }
+  ]
+}

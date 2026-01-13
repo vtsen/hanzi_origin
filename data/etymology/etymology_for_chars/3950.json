@@ -1,0 +1,100 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "正，端正。",
+      "examples": [
+        "佶，正也。从人，吉声。——《说文》"
+      ],
+      "traditional_char": "佶"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "健壮，强壮。",
+      "examples": [
+        "四牡既佶，既佶且閑。——《诗·小雅·六月》",
+        "佶，壯健之貌。——郑玄注"
+      ],
+      "traditional_char": "佶"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "屈曲，曲折。引申为文字艰涩难懂。",
+      "examples": [
+        "佶屈（曲折，形容文字艰涩难懂）",
+        "佶屈聱牙"
+      ],
+      "traditional_char": "佶"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "耸动的样子，敏捷变化。",
+      "examples": [
+        "佶倬（亦作“结棹”。风流出众）",
+        "佶料（急料。敏捷，变化多端）"
+      ],
+      "traditional_char": "佶"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "战栗，颤抖。",
+      "examples": [
+        "佶栗"
+      ],
+      "traditional_char": "佶"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "adjective",
+      "meaning": "壮烈，勇敢刚毅。",
+      "examples": [
+        "佶烈"
+      ],
+      "traditional_char": "佶"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从人，吉声。表示正、端正。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由正、端正引申为健壮、体态端正，中古用法。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "健壮、刚劲转喻为文字风格的曲折艰涩。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "健壮、强健引申为敏捷、耸动有力。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "semantic_shift",
+      "note": "健壮之体的反应，引申为颤抖。关系存疑，多见于复合词。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "metaphor",
+      "note": "由健壮引申为精神上的壮烈、勇敢刚毅。"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "儿童换牙，乳齿脱落长出恒齿。",
+      "examples": [
+        "未龀不入军门。",
+        "府之童妾未既齔而遭之。"
+      ],
+      "traditional_char": "齔"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "乳齿。",
+      "examples": [
+        "幼女齒方齔， 稚兒髮覆眉。"
+      ],
+      "traditional_char": "齔"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "年幼，童年的。",
+      "examples": [
+        "显、景诸子年皆童龀，并为黄门侍郎。",
+        "況乎五男三女， 或齔或孩。"
+      ],
+      "traditional_char": "齔"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "年幼的人，童子。",
+      "examples": [
+        "黃吻之齔， 含哺而怡。"
+      ],
+      "traditional_char": "齔"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "齔为形声字，从齿，匕声，表儿童换牙之意，最早见于《说文》。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由换牙动作转指被换下的乳齿，属于器物与动作的转指关系。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由儿童换牙引申为“年幼”，以年龄阶段代指特点。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "synecdoche",
+      "note": "由“年幼”泛泛形容到具体指年幼的人，属于部分与整体的替代。"
+    }
+  ]
+}

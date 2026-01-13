@@ -1,0 +1,73 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "车的前胡，车辕前端下垂的木棍，用于停车时拄地保持车厢平衡。",
+      "examples": [
+        "車輛停下時，用軲支撐車身。"
+      ],
+      "traditional_char": "軲"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "车轮，圆形可转动的部分。",
+      "examples": [
+        "軲轆（轱辘）",
+        "小車的軲輪。"
+      ],
+      "traditional_char": "軲"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "滚动，转动。",
+      "examples": [
+        "当心，别从坡上轱轱下去。"
+      ],
+      "traditional_char": "軲"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "车，车辆的总称。",
+      "examples": [
+        "軲，車也。《廣雅·釋器》"
+      ],
+      "traditional_char": "軲"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 3,
+      "note": "‘軲’从‘車’表示义，‘古’为声旁；本指“车”，属形声字结构。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 3,
+      "note": "‘轱’为‘軲’之简体，简化自形声结构，含义承续。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 3,
+      "target_index": 1,
+      "evolution_type": "semantic_narrowing",
+      "note": "由‘车’泛指到专指‘车轮’，中古义就有此分化。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_shift",
+      "note": "‘车轮’义转指‘车的前胡’（相关部件），因结构与功能的联系。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "‘车轮’引申为‘滚动、转动’之动词义。"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "多年生草本植物，叶对生，花淡紫色或青白色，根色深黄，可入药，称为“黄芩”。",
+      "examples": [
+        "黄芩以腐肠。——《柳宗元文》",
+        "黄芩一斤，皆所须也。——《刘琨·与兄子演书》"
+      ],
+      "traditional_char": "芩"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "古书上指芦苇一类的植物。",
+      "examples": [
+        "食野之芩。——《诗·小雅·鹿鸣》",
+        "芩，草名，茎如钗股，叶如竹，蔓生。——《朱熹集传》"
+      ],
+      "traditional_char": "芩"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "荶菜，一种水生蔬菜，似蒜生水中。",
+      "examples": [
+        "同“荶”。水菜名。",
+        "似蒜生水中。"
+      ],
+      "traditional_char": "芩"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "《说文》从艸，今声，形声字，最初指一种野生草类（芦苇类或野芩）。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_narrowing",
+      "note": "由一般芩草的名称特指药用的黄芩，魏晋以后医学文献常见。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "借用于另一种水生蔬菜名称，可能因植物形态或生境相近，古训兼荶。"
+    }
+  ]
+}

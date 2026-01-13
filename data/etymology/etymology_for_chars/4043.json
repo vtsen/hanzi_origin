@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "诙谐，戏谑，风趣的；爱开玩笑",
+      "examples": [
+        "诙，调也。——《广雅》",
+        "朔虽诙笑，然时观察颜色。——《汉书·东方朔传》",
+        "诙啁大笑。——《三国志·马忠传》"
+      ],
+      "traditional_char": "詼"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "戏弄，嘲讽，调侃",
+      "examples": [
+        "詼啁大笑，忿怒不形於色。——《三国志·马忠传》",
+        "枚皋詼笑類俳倡。——《前汉·枚乘传》"
+      ],
+      "traditional_char": "詼"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "other",
+      "meaning": "通“恢”，大、奇（用于某些古语中，与‘恢’义通）",
+      "examples": [
+        "參見“詼妄”、“詼奇”"
+      ],
+      "traditional_char": "詼"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "詼为形声字，从言，恢声，表示言语相关，最初本义为诙谐、戏谑。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "conversion",
+      "note": "由形容词‘诙谐、风趣’转为表达‘戏弄、调侃’的动词义，用法性质发生转变。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "‘詼’用于‘恢’的意义，属于古文中借音通假。"
+    }
+  ]
+}

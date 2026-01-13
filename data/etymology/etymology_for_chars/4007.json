@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "将菜肴放在沸水中略煮，取出后加作料拌",
+      "examples": [
+        "炝芹菜",
+        "炝蛤蜊"
+      ],
+      "traditional_char": "熗"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "先用热油略炒原料，再加作料和水煮",
+      "examples": [
+        "炝锅肉丝面",
+        "用葱花儿炝炝锅"
+      ],
+      "traditional_char": "熗"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "气体如烟尘有刺激性，使人口鼻感到难受（同“呛”）",
+      "examples": [
+        "闻不得鼻口内干烟炝。——元·李好古《张生煮海》"
+      ],
+      "traditional_char": "熗"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘熗’为形声字，从火，声旁为‘仓’（qiāng），指涉与火相关的快速烹饪动作。‘炝’为其简化后形声体。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由热水快煮转为热油快炒，均为高温速作的烹饪手法，语义外延。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由热气刺激食物延伸为气体刺激呼吸，语义转移，多见于口语及元代文献。"
+    }
+  ]
+}

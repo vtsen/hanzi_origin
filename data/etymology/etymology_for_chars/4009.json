@@ -1,0 +1,96 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "淘米水，洗米或洗碗、洗菜後的渾濁水。",
+      "examples": [
+        "周謂潘曰泔。从水，甘声，淅米汁也。——《说文》",
+        "有水浊如泔。——苏轼《东湖》"
+      ],
+      "traditional_char": "泔"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "液體白而渾濁，多指如米泔之水。",
+      "examples": [
+        "若平素白渾如米泔， 則為濕熱所化也。——《醫宗金鑒》"
+      ],
+      "traditional_char": "泔"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "用淘米水浸漬（如泔魚）。",
+      "examples": [
+        "曾子食魚有餘，曰泔之。——《荀子·大略》"
+      ],
+      "traditional_char": "泔"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "食物因存放過久而變味。",
+      "examples": [
+        "今謂食久味變作泔。——章炳麟《新方言》"
+      ],
+      "traditional_char": "泔"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "水名，地名、河流名。",
+      "examples": [],
+      "traditional_char": "泔"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "adjective",
+      "meaning": "（泔淡：）滿，一說美味；水貌。",
+      "examples": [
+        "秬鬯泔淡。——《揚雄·甘泉賦》注：「泔淡，滿也。」"
+      ],
+      "traditional_char": "泔"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，甘声，表示与水流和米汁有关。原义指淘米水。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由特指淘米水扩展为泛指白而浑浊的液体。古籍、医学用语可见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "conversion",
+      "note": "名词转动词，由“淘米水”引申为“用淘米水浸渍”。见《荀子·大略》"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "以淘米水比喻食物变质的滋味，出现于近现代口语。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "以淘米水之形容转名某地水名，常见地名词的转用。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "引申表水满、美味，或厚浓之状，如‘泔淡’。"
+    }
+  ]
+}

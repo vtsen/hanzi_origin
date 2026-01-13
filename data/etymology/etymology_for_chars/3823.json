@@ -1,0 +1,89 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "织布时用的丝缕；织品上的纱线。",
+      "examples": [
+        "纴，机缕也。——《说文》",
+        "织纴组紃。——《礼记·内则》",
+        "执针织纴，皆百人。——《左传·成公二年》"
+      ],
+      "traditional_char": "紝"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "纺织；织造布帛。",
+      "examples": [
+        "妇人不得纺绩织纴。——《汉书·严助传》",
+        "侍儿五三，可充纴织。——《北史·萧大圜传》",
+        "妻不下紝。——《战国策·秦策一》"
+      ],
+      "traditional_char": "紝"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "缯帛，丝织品。",
+      "examples": [
+        "其妇女庄栉织纴皆取成于婢仆。——《晋书》",
+        "紝為繒帛。——孔疏"
+      ],
+      "traditional_char": "紝"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "穿针，引线穿过针孔。",
+      "examples": [
+        "石斛数条，去根如筒子，一边纴入耳中。——《本草纲目》",
+        "行待紝針關，卻便紝針尖。——《西厢记诸宫调》"
+      ],
+      "traditional_char": "紝"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "缝制衣服。",
+      "examples": [
+        "缝纴",
+        "我如今紝得金针却倒拈。——《萧淑兰》"
+      ],
+      "traditional_char": "紝"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "紝（纴）为形声字，左“糸”表丝绸相关，右“壬”表音，最初表示织布时的丝缕。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由名词“丝缕”扩展为动词“纺织”的行为。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由丝缕引申为缯帛一类整体丝织品。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "纺织行为中特指穿针引线等动作，语义转移为相关工艺动作。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由穿针引线动作进一步扩展为缝制衣服的动作。"
+    }
+  ]
+}

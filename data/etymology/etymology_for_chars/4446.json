@@ -1,0 +1,48 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "莼菜，一種多年生水草，葉椭圆形，可食，常飄浮於水面；亦稱水葵。",
+      "examples": [
+        "食膾魚蓴羹，芼羹之菜，蓴為第一。",
+        "敬以醴酒茶藕蓴鯽之奠，奉故相國清河房公之靈。"
+      ],
+      "traditional_char": "蓴"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "草蒲叢生之狀，蒲叢。",
+      "examples": [
+        "蒲叢也。從艸。專聲。（說文）"
+      ],
+      "traditional_char": "蓴"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "從艸，專聲；聲符專，意指草叢或蒲叢。"
+    },
+    {
+      "formation_type": "loan_character",
+      "original_sense_index": 0,
+      "note": "後用為水生植物名稱，語音借用。後通用以指蓴菜。"
+    },
+    {
+      "formation_type": "loan_character",
+      "original_sense_index": 0,
+      "note": "莼為蓴之簡化字，通用。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_narrowing",
+      "note": "由泛指蒲叢、草叢之貌，語音假借，專指水生食用植物‘蓴菜’。"
+    }
+  ]
+}

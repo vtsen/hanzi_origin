@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "责备，斥责。",
+      "examples": [
+        "丈人归，酒醒而诮其子。",
+        "王亦未敢誚公。"
+      ],
+      "traditional_char": "誚"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "嘲讽，讥刺，取笑。",
+      "examples": [
+        "列壑争讥，攒峰竦诮。",
+        "無誚余持盃以淹留。"
+      ],
+      "traditional_char": "誚"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adverb",
+      "meaning": "简直，完全。",
+      "examples": [
+        "尋思往事，千頭萬緒，回首誚如夢裏。",
+        "情深恨切，憶伊誚沒些休歇。"
+      ],
+      "traditional_char": "誚"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从言，肖声。本义为责备。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由指责扩展为含有讥讽、取笑成分的责备，历代文献均见。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "由嘲讽、讥评进一步虚化为副词“简直”，宋元词语中用法。"
+    }
+  ]
+}

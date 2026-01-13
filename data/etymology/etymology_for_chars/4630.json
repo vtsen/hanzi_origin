@@ -1,0 +1,42 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "抓阄，用纸团等来决定胜负或事情。",
+      "examples": [
+        "大家抓阄决定谁先发言。"
+      ],
+      "traditional_char": "鬮"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "抓阄用的纸团、小签等。",
+      "examples": [
+        "他从一堆阄中抽出了一张。"
+      ],
+      "traditional_char": "鬮"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "鬮为会意兼形声字，上从斗，表示争斗、抽取，下从音部分。表示分胜负时抽签。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "简化字“阄”从门，保留音符，承袭‘鬮’之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "conversion",
+      "note": "由动词“抓阄”转为名词，指代被抓取之物。"
+    }
+  ]
+}

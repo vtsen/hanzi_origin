@@ -1,0 +1,96 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "和悦而正直地争辩",
+      "examples": [
+        "与上大夫言，訚訚如也。——《论语》"
+      ],
+      "traditional_char": "訚"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "谦和而恭敬的样子",
+      "examples": [
+        "訚訚侃侃，言辞中正。"
+      ],
+      "traditional_char": "訚"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "和悦恳切的样子",
+      "examples": [
+        "訚訚恻恻，温柔待人。"
+      ],
+      "traditional_char": "訚"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "和悦而正直地争辩（“誾”的用法）",
+      "examples": [
+        "誾誾和正。"
+      ],
+      "traditional_char": "誾"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "谦和而恭敬的样子（“誾”的用法）",
+      "examples": [
+        "誾誾谦敬。"
+      ],
+      "traditional_char": "誾"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "adjective",
+      "meaning": "和悦恳切的样子（“誾”的用法）",
+      "examples": [
+        "誾誾恻恻。"
+      ],
+      "traditional_char": "誾"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "訚：形声字，从言，門声，言表言语，門为声符，初义为和悦而正直地争辩。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 3,
+      "note": "誾：形声字，从言，銀声，与訚同源，但异体表音变化。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由中正和悦的争辩引申为谦和恭敬的形态。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "进一步引申为泛指和悦、恳切的样子。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "古同“訚”，同样路径的语义扩展。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "语义进一步扩展至恳切、温和。"
+    }
+  ]
+}

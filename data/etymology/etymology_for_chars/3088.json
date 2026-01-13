@@ -1,0 +1,73 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "利用发酵作用制造酒、醋、酱油等。",
+      "examples": [
+        "酿酒",
+        "酿醋",
+        "用高粱酿成白酒"
+      ],
+      "traditional_char": "釀"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "指酒。",
+      "examples": [
+        "佳酿",
+        "美酿"
+      ],
+      "traditional_char": "釀"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "蜜蜂做蜜。",
+      "examples": [
+        "蜂酿于林中",
+        "群蜂酿蜜"
+      ],
+      "traditional_char": "釀"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "比喻事情积渐而成。",
+      "examples": [
+        "酿成大祸",
+        "酿成水灾",
+        "危机已酿"
+      ],
+      "traditional_char": "釀"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从酉表意，襄为声。本义为发酵制作酒，符合酿酒之义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "以‘酿造’之动作指所产之酒，语义邻接。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由发酵制酒引申为蜜蜂制作蜂蜜，过程类似。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由酒需时间酿成，比喻事情渐成。"
+    }
+  ]
+}

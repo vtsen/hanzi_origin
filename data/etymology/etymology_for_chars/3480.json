@@ -1,0 +1,53 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "喊叫，大声叫喊。",
+      "examples": [
+        "他在门外叫嚷。",
+        "不要大声嚷。"
+      ],
+      "traditional_char": "嚷"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "吵闹，喧闹。",
+      "examples": [
+        "小孩子们在教室里大吵大嚷。"
+      ],
+      "traditional_char": "嚷"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "声张，传扬（多用于叠音“嚷嚷”）。",
+      "examples": [
+        "这事儿别嚷嚷出去。"
+      ],
+      "traditional_char": "嚷"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从口，襄声，本义为大声叫喊，‘襄’表读音。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“喊叫”引申为“吵闹”，二者常可通用。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由“吵闹”引申为“传扬、声张”，多用于重叠形式。"
+    }
+  ]
+}

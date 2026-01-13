@@ -1,0 +1,132 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "口音不正，特指口音跟本地口音不同。",
+      "examples": [
+        "他说话有点儿侉。",
+        "说着蛮不蛮，侉不侉的官话",
+        "听他说话虽带点外路口音儿，却不侉不怯。"
+      ],
+      "traditional_char": "侉"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "粗大；粗蠢；土气。",
+      "examples": [
+        "侉车子（蹩脚车子）",
+        "你看那侉老婆。",
+        "侉得要命。"
+      ],
+      "traditional_char": "侉"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "下等；蹩脚。",
+      "examples": [
+        "不晓得是那一班侉脚色进去了。",
+        "那侉车子只怕老爷坐不来罢。"
+      ],
+      "traditional_char": "侉"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "夸大，夸张。",
+      "examples": [
+        "侉大（夸大其词）"
+      ],
+      "traditional_char": "侉"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "痛呼。",
+      "examples": [
+        "侉，安賀切，痛呼也。"
+      ],
+      "traditional_char": "侉"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "怯，胆怯。",
+      "examples": [
+        "侉，胡瓜切，怯也。"
+      ],
+      "traditional_char": "侉"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "怪辞。",
+      "examples": [
+        "侉，怪辞也。"
+      ],
+      "traditional_char": "侉"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "adjective",
+      "meaning": "柔媚。",
+      "examples": [
+        "侉比（柔媚之意）"
+      ],
+      "traditional_char": "侉"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 3,
+      "note": "从人，夸声；形声字。最初表现与‘夸’（夸大、张扬）相关。本义作‘夸’之假借。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 3,
+      "target_index": 0,
+      "evolution_type": "semantic_shift",
+      "note": "由夸大（张扬、不正）引申为语音张扬、与众不同，从而指口音不正，见清近文献。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由夸大引申为‘粗大’之意，含有扩张、放大的形象。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "粗、土气之意引申为‘下等、蹩脚’，常用于形容物品或角色。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "unknown",
+      "note": "‘痛呼’之解释，多见古书，具体语义发展径路不明。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 5,
+      "evolution_type": "unknown",
+      "note": "‘怯’为义项之一，见于古籍，具体转义机制未详。"
+    },
+    {
+      "source_index": 6,
+      "target_index": 3,
+      "evolution_type": "unknown",
+      "note": "‘怪辞’或为早期义，与‘夸’义相关，已难直接追溯。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 7,
+      "evolution_type": "semantic_shift",
+      "note": "‘柔媚’为‘侉比’专用义，或为‘夸张修饰’引申。"
+    }
+  ]
+}

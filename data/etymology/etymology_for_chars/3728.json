@@ -1,0 +1,105 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "用巧言花语谄媚他人",
+      "examples": [
+        "佞，巧谄高材也。——《说文》",
+        "以邪导人谓之佞。——《盐铁论·刺议》",
+        "百官佞我，皆称太子聪明睿智。——《资治通鉴》"
+      ],
+      "traditional_char": "佞"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "巧言谄媚的人",
+      "examples": [
+        "亲贤远佞。——《英烈传》",
+        "魏徵尝劝我远佞人。",
+        "奸声入耳佞人心。——唐·元稹《立部伎》诗"
+      ],
+      "traditional_char": "佞"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "有才智（多用于自谦）",
+      "examples": [
+        "寡人不佞。——《左传·成公十三年》",
+        "夷吾不佞。——《晋语》",
+        "君幼，诸臣不佞，何以及此？——《左传·成公十六年》"
+      ],
+      "traditional_char": "佞"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "善于辞令、口才好",
+      "examples": [
+        "非佞折狱，惟良折狱。——《书·吕刑》",
+        "雍也而不佞。——《论语·公冶长》"
+      ],
+      "traditional_char": "佞"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "伪善，虚伪狡诈",
+      "examples": [
+        "佞哀诈立，实非本怀。——《北史》",
+        "偽善為佞。——《国语·晋语》"
+      ],
+      "traditional_char": "佞"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "adjective",
+      "meaning": "柔弱、柔媚",
+      "examples": [
+        "和润而弗远，其失也佞。——宋·范仲淹《与唐处士书》"
+      ],
+      "traditional_char": "佞"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从女，信声。本义为用巧言花语谄媚，可参《说文》‘巧谄高材也’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "conversion",
+      "note": "由‘谄媚（动词）’转为‘谄媚者（名词）’"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "‘谄媚’引申为‘伪善狡诈’（汉魏以降）"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由‘善用口才谄媚’引申为‘善辞令（并未必谄媚）’"
+    },
+    {
+      "source_index": 3,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "‘善辞令’谦称为‘才智’，用作自谦"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "semantic_shift",
+      "note": "‘谄媚’转义为‘柔媚’（宋以后常用于音色等）"
+    }
+  ]
+}

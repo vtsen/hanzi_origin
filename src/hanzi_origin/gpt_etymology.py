@@ -1,5 +1,6 @@
 from typing import Any, Optional
 from dotenv import load_dotenv
+from pathlib import Path
 
 from src.hanzi_origin.etymology import save_to_str
 
@@ -95,7 +96,52 @@ def call_etymology(
     return parsed_results
 
 
-if __name__ == "__main__":
+def call_dep_enricher(
+        input_filename: Path,
+        hanzi: str,
+        model: str = "gpt-4o-mini",
+) -> Optional[Any]:
+    from openai import OpenAI
+    client = OpenAI()
+    from etymology import load_from_file, Dependencies
+
+    instance = load_from_file(input_filename)
+
+    response = client.responses.parse(
+        model=model,
+        input=[
+            {
+                "role": "system",
+                "content": """
+                You are a professional linguist specializing in Chinese historical semantics and etymology, and you are given the description of the ogic of initial formation of the character. \n
+                Find the dependent Hanzi characters that the target character was originally formed from.\n
+                Do NOT include: \n
+                - The target character itself\n
+                - Explanations\n
+                Crucial note: \n
+                - If a radical is not a common independent characters, use its contemporary conterparty, e.g. '草' instead of '艹', '人' instead of '亻' or '彳'.\n  
+                - It is completely possible that no dependency exists (e.g. pure pictograph, unknown origin, etc.), in which case return an EMPTY list.
+                SCHEMA DESCRIPTION:\n\n
+                The output JSON must contain only a single array of strings. Each string object in the list represents one distinct charactor it depends on and must be a single charactor.\n\n
+                
+                You will be given ONE Chinese character as input. Produce exactly ONE JSON object following the schema above.
+                """
+            },
+            {
+                "role": "user",
+                "content": f"""What are the upstream dependency of the Chinese character '{hanzi}'?\n
+                Provide your answer in JSON format according to the specified schema.
+                Below are the initial meaning and logic of formation:\n{instance.formations}""",
+            },
+        ],
+        text_format=Dependencies,
+    )
+
+    parsed_results = response.output_parsed
+    return parsed_results
+
+
+def run_etymology():
     # hanzi, traditional_chars = "面", ["面", "麵"]
     hanzi, traditional_chars = "人", []
     # hanzi, traditional_chars = "国", ["國"]
@@ -107,3 +153,25 @@ if __name__ == "__main__":
 
     results = call_etymology(hanzi, traditional_chars, initial_meaning, contemporary_meanings)
     print(save_to_str(results))
+
+
+def run_enricher():
+    task_name = "chars"
+    project_root = Path(__file__).resolve().parent.parent.parent
+
+    hanzi, json_idx = "茶", 1411
+    hanzi, json_idx = "刷", 1310
+    hanzi, json_idx = "绊", 1346
+    hanzi, json_idx = "钙", 1525
+    hanzi, json_idx = "乏", "0147"
+    hanzi, json_idx = "车", "0100"
+    # hanzi, json_idx = "肃", 1303
+    # hanzi, json_idx = "隶", 1305
+
+    json_dir = project_root / "data" / "etymology" / f"etymology_for_{task_name}" / f"{json_idx}.json"
+    results = call_dep_enricher(json_dir, hanzi, model="gpt-4o")
+    print(results)
+
+
+if __name__ == "__main__":
+    run_enricher()

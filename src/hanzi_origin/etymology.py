@@ -134,6 +134,16 @@ class EtymologyEdge(BaseModel):
     )
 
 
+class Dependencies(BaseModel):
+    """
+    造字时依赖的其他汉字
+    """
+    dependencies: List[str] = Field(
+        default_factory=list,
+        description="造字时依赖的其他汉字"
+    )
+
+
 class Etymology(BaseModel):
     """
     一个字或词的整体词源演变结构（DAG）
@@ -149,6 +159,10 @@ class Etymology(BaseModel):
     edges: List[EtymologyEdge] = Field(
         default_factory=list,
         description="演变关系（允许不联通）"
+    )
+    dependencies: List[str] = Field(
+        default_factory=list,
+        description="造字时依赖的其他汉字"
     )
 
 

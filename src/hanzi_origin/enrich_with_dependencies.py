@@ -129,8 +129,10 @@ def generate_etymology_files(
 
 
 if __name__ == '__main__':
-    generate_etymology_files("chars.json",
-                             model="gpt-4o",
-                             start_index=1300,
-                             end_index=1310,
-                             )
+    for i_chunk in range(34):
+        generate_etymology_files("chars.json",
+                                 model="gpt-4o",
+                                 start_index=200 * i_chunk,
+                                 end_index=200 * (i_chunk + 1),
+                                 num_votes=3,
+                                 )

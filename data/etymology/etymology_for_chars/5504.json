@@ -1,0 +1,52 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "细竹子，小竹。箭竹属植物。",
+      "examples": [
+        "绿筱媚青涟。",
+        "柳空丛筱出。",
+        "擎着根长竹筱。"
+      ],
+      "traditional_char": "筱"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "平水韵韵目名，上声第十七，故旧时也用作每月十七日的代称。",
+      "examples": [
+        "写的是：‘...筱。’"
+      ],
+      "traditional_char": "筱"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "小的。多用于人名。",
+      "examples": [],
+      "traditional_char": "筱"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从‘竹’（义符），‘攸’为声符；本义是细竹、小竹。《说文解字》明确记为箭属小竹。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "韵书以竹名目韵，为音韵术语，后引申为日期代称，见近现代文献。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "‘小竹’细小，后在部分场合（如人名）直接取‘小’义，见宋元以后。"
+    }
+  ]
+}

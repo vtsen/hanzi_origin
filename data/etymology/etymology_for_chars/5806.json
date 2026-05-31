@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "水停聚处；池塘、积水处。",
+      "examples": [
+        "以潴畜水。——《周礼·地官·稻人》",
+        "星宿海流出复潴，曰哈剌海。——《宋史》"
+      ],
+      "traditional_char": "潴"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "蓄积水；使水停聚。",
+      "examples": [
+        "大浚治川渠，使有所潴。——王安石《上杜学士言开河书》",
+        "渚水潴涨，方广数里。——《水经注》"
+      ],
+      "traditional_char": "潴"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "（引申为）液体聚集停留（多用于医学、泛指停留不流动）。",
+      "examples": [
+        "尿潴留"
+      ],
+      "traditional_char": "潴"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，猪声，表示水流停留于地，指水停聚的地方。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "conversion",
+      "note": "由名词“水停聚处”引申为动词“水停聚、蓄水”。此为常规用法转化。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由指水的蓄积，引申到一般液体包括医学上“液体停留”，见现代医学用法。"
+    }
+  ]
+}

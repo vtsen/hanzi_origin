@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "以酒洒地，表示祭奠或起誓。",
+      "examples": [
+        "人生如梦，一樽还酹江月。",
+        "召主簿于诸羌前，以酒酹地。",
+        "把酒酹滔滔，心潮逐浪高。"
+      ],
+      "traditional_char": "酹"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "（指祭祀用）洒在地上的酒，或为此行为所用之酒杯与相关器物。",
+      "examples": [
+        "酹觞（把酒洒在地上时所用的酒杯）"
+      ],
+      "traditional_char": "酹"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从酉，寽声。形声字，本义为以酒洒地祭祀。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由祭祀行为名用，转指祭祀用的酒或用具。"
+    }
+  ]
+}

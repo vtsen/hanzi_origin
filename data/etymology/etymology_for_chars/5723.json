@@ -1,0 +1,62 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "熊的一种，即棕熊、马熊，毛色黄白或棕褐色，体型大，性情猛憨，能爬树、会游泳。",
+      "examples": [
+        "赤豹黄罴。——《诗·大雅·韩奕》",
+        "如虎如貔，如熊如羆。——《书·牧誓》",
+        "罴之状，被发人立，绝有力而甚害人焉。——柳宗元《羆说》",
+        "独有英雄驱虎豹，更无豪杰怕熊罴。——毛泽东《七律·冬云》"
+      ],
+      "traditional_char": "羆"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "古代传说、文献中的猛兽名称，有时作为勇士、力大者的借喻。",
+      "examples": [
+        "罴虎（喻勇士）",
+        "罴貅（古代传说猛兽）"
+      ],
+      "traditional_char": "羆"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "“罴”为“羆”的简化字，义同。",
+      "examples": [
+        "曹操《步出夏门行·冬十月》：熊罴窟栖。",
+        "罴褥（罴皮褥子）"
+      ],
+      "traditional_char": "罴"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“羆”形声字，从熊，罷声，意为熊类猛兽。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 2,
+      "note": "“罴”为“羆”的简化字，罒旁表意，卑声表音，沿用原义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由常见动物义扩展为传说中的猛兽或勇士的借喻用法，汉魏以来常见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "reanalysis",
+      "note": "现代汉字简化，将“羆”简化为“罴”，含义未变。"
+    }
+  ]
+}

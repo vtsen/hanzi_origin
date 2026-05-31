@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "野兽大声吼叫",
+      "examples": [
+        "狼嗥。",
+        "虎豹嗥。"
+      ],
+      "traditional_char": "嗥"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "大声哭叫",
+      "examples": [
+        "儿子终日嗥而嗌不嗄。",
+        "嗥咷（号咷，大声哭）"
+      ],
+      "traditional_char": "嗥"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从口，皋声，表示从嘴发出的大声吼叫。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由野兽吼叫，意义扩大为人类大声哭叫，自先秦两义并见。"
+    }
+  ]
+}

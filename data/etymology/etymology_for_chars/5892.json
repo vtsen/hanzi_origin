@@ -1,0 +1,86 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "面颊上的微窝，俗称酒窝。",
+      "examples": [
+        "态生两靥之愁，娇袭一身之病。——《红楼梦》",
+        "一张圆圆的脸挂着两个笑靥。"
+      ],
+      "traditional_char": "靨"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "泛指面颊。",
+      "examples": [
+        "东风落靥不成归。——宋·姜夔",
+        "汉《捣素赋》：两靥如点，双眉如张。"
+      ],
+      "traditional_char": "靨"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "古代妇女面颊上涂点的妆饰。",
+      "examples": [
+        "分妆开浅靥，绕脸傅斜红。——南朝梁简文帝",
+        "近代妆尚靥，如射月，曰黄星靥。——唐·段成式"
+      ],
+      "traditional_char": "靨"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "黑痣（某些文献作方言用法，指面部黑痣或痕迹）。",
+      "examples": [
+        "其上有四靥。——唐·钟辂《续前定录》",
+        "而树膚为之瘢靥无余焉。——明·徐弘祖《徐霞客游记》"
+      ],
+      "traditional_char": "靨"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "星光渐微渐隐的样子（叠用，如“～～”）。",
+      "examples": [
+        "～～，星光渐微渐隐。"
+      ],
+      "traditional_char": "靨"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从面，厌声，形声字。本义为面颊上的微窝，表达面部特征。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由面颊微窝义扩展泛指整个面颊，见宋代词用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由面颊的微窝引申指面颊上点饰，取其形似。常见于南朝、唐妆饰用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "以面部凹痕形象比喻皮肤上的黑痣或痕迹。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "以酒窝圆点之象，比喻星光渐隐的样子，多见于叠字使用法。"
+    }
+  ]
+}

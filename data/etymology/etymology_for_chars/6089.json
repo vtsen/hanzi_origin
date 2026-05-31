@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "闭口不说话",
+      "examples": [
+        "噤口不言",
+        "噤若寒蝉"
+      ],
+      "traditional_char": "噤"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "因寒冷而咬紧牙关或牙齿打战",
+      "examples": [
+        "寒噤",
+        "噤战"
+      ],
+      "traditional_char": "噤"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从“口”（表义），“禁”声旁（表音），本义为闭口不言。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由闭口不语引申为因寒冷而咬紧牙关，形成动作上的联想。"
+    }
+  ]
+}

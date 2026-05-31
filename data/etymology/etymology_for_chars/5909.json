@@ -1,0 +1,53 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "太阳升起；日光升起。",
+      "examples": [
+        "暹，日光升也。——《集韵》",
+        "起看朝日暹。——宋·王安石《和平甫舟中望九华山》之一"
+      ],
+      "traditional_char": "暹"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "进，前进。",
+      "examples": [
+        "《广韵·平盐》： “暹，日光进也。”"
+      ],
+      "traditional_char": "暹"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "国名。泰国的古名，指“暹罗”或“暹国”。",
+      "examples": [
+        "宜中走暹，後沒於暹。——《宋史·陈宜中传》"
+      ],
+      "traditional_char": "暹"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "左‘日’表示意义相关于太阳或日光，右‘僉’表声，合为形声字，初指太阳升起。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘太阳升起’引申为‘进’，古汉语常有抽象动词意义的扩展。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "以‘进’‘升’引申为南方远地国名（暹罗），由使用借称南方国家，元、明以降形成专名含义。"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "上面题有词句的整幅绸布，用作庆贺或吊唁的礼物。如寿幛、贺幛、挽幛。",
+      "examples": [
+        "谨具祭幛一悬。——曾国藩《致相润芝中丞书》",
+        "老舍《骆驼祥子》：进了二十五条寿幛、三堂寿桃、寿面。"
+      ],
+      "traditional_char": "幛"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "类似幛的遮蔽物。",
+      "examples": [
+        "宋苏轼《太白山下早行》诗：乱山横翠幛，落月淡孤灯。"
+      ],
+      "traditional_char": "幛"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "遮蔽。",
+      "examples": [],
+      "traditional_char": "幛"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从巾，章声。本义为题字的绸布礼物，‘巾’表示与布帛有关，‘章’表音。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由原指题字绸布之物，引申为形似幛的遮蔽物，用于比喻。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "conversion",
+      "note": "名词作动词，表示遮蔽的动作。"
+    }
+  ]
+}

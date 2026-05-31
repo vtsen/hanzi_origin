@@ -1,0 +1,66 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "吃禾苗根的害虫。",
+      "examples": [
+        "诗·大雅·瞻卬：蟊贼蟊疾。",
+        "去其螟螣，及其蟊。——《诗经·小雅·大田》"
+      ],
+      "traditional_char": "蟊"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "比喻危害人民或国家的人或事。",
+      "examples": [
+        "李白《酬裴侍御对雨感时见赠》：蟊陷忠谠"
+      ],
+      "traditional_char": "蟊"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "古代占卜时的一种龟兆，象征气不泽，郁冥。",
+      "examples": [
+        "《周礼·春官·太卜》“其经兆之体皆百有二十，其颂皆千有二百”郑玄注引《洪范》：“曰雨、曰济、曰圛、曰蟊、曰剋。”"
+      ],
+      "traditional_char": "蟊"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "蜘蛛的别名。",
+      "examples": [],
+      "traditional_char": "蟊"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从虫，矛声，表示吃稻苗根的害虫。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "以害虫比喻危害国家或人民的不良之人或事，周代以来常见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "害虫的名字被用于龟兆名，象征气不泽，义有异化。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "部分文献中蟊亦作为蜘蛛别名，疑为分类混用或方言影响。"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "擦拭写字板的布。",
+      "examples": [],
+      "traditional_char": "幡"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "用竹竿等挑起来直着挂的长条形旗子。",
+      "examples": [
+        "彩幡高悬于庙前。",
+        "寺庙前竖起各色幡。"
+      ],
+      "traditional_char": "幡"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adverb",
+      "meaning": "〔幡然〕同“翻然”，形容猛然改变的样子。",
+      "examples": [
+        "幡然悔悟",
+        "幡然醒悟"
+      ],
+      "traditional_char": "幡"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从巾，番声；最初表示擦写字板的布。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由擦布（布制长条）引申为悬挂的长条形旗帜。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "旗帜飘扬，比喻迅速变化，引申为幡然。"
+    }
+  ]
+}

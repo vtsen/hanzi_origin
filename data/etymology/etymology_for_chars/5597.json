@@ -1,0 +1,115 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "用丝绵装衣服；把丝棉装入衣服。",
+      "examples": [
+        "褚，一曰装衣。——《说文》",
+        "以锦装衣曰褚。——《汉书·南粤王传》注"
+      ],
+      "traditional_char": "褚"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "用丝绵装的衣服，绵衣。",
+      "examples": [
+        "上褚五十衣，中褚三十衣，下褚二十衣遗王。——《汉书·南粤王赵佗传》"
+      ],
+      "traditional_char": "褚"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "囊袋，用来盛物的袋子。",
+      "examples": [
+        "有商人置诸褚中，展转入东林。——《南史》",
+        "褚小者不可以怀大，绠短者不可以汲深。——《庄子·至乐》"
+      ],
+      "traditional_char": "褚"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "储藏，贮藏（通“储”、“贮”）。",
+      "examples": [
+        "取我衣冠而褚之。——《左传·襄公三十年》"
+      ],
+      "traditional_char": "褚"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "古代覆盖棺材的红布、棺饰名。",
+      "examples": [
+        "褚幕丹质。——《礼记·檀弓上》"
+      ],
+      "traditional_char": "褚"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "兵卒。古代对士兵的称呼（因着赤色衣服而名）。",
+      "examples": [
+        "褚，卒也。——《说文》",
+        "楚、东海之间，卒谓之弩父，或谓之褚。——《方言》"
+      ],
+      "traditional_char": "褚"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [
+        "汉有褚少孙。——《史记·三代世表》"
+      ],
+      "traditional_char": "褚"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从衣，者声。本义为用丝绵装衣服。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_shift",
+      "note": "从‘装衣服’引申为‘绵衣’。本义与名词化演变相关。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由‘衣服内层’比喻为‘包裹、容纳东西的袋子’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "‘装入衣物’引申为‘储藏’事物。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "装饰与包裹，借指覆盖棺材的布。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "metonymy",
+      "note": "因士兵穿赤衣以‘褚’名。古代衣着喻为人。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "function_word",
+      "note": "由物称转为姓氏，常见姓氏化演变。"
+    }
+  ]
+}

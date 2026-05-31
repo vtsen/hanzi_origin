@@ -1,0 +1,98 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "虎爪抓痕，虎所攫画之迹。",
+      "examples": [
+        "虢，虎所攫画明文也。——《说文》"
+      ],
+      "traditional_char": "虢"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "周代诸侯国名，包括东虢、西虢、南虢、北虢。",
+      "examples": [
+        "晋假道于虞以伐虢。",
+        "虞虢之谓也。——《左传·僖公五年》"
+      ],
+      "traditional_char": "虢"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "唐代州名，在今河南省灵宝县。",
+      "examples": [
+        "唐武德中为虢州。"
+      ],
+      "traditional_char": "虢"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "姓氏，虢仲、虢叔的后代。",
+      "examples": [
+        "左传：晋大夫虢射。"
+      ],
+      "traditional_char": "虢"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "猛烈；暴烈。",
+      "examples": [
+        "设以虢猛绝伦之将，而遇快枪精炮，不能不殒于飞铅之下。——清·薛福成《枪炮说》"
+      ],
+      "traditional_char": "虢"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "“郭”的通假字，古国名。",
+      "examples": [
+        "虢，郭也。"
+      ],
+      "traditional_char": "虢"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从虎，寽声，表意为虎的抓痕，语音借“寽”成“虢”。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "以本义‘虎爪抓痕’引申为地名，以地理特征命名周代国家。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "以周代国名为基础，后用作唐代行政区名。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "以国名为姓氏，习见于中国古代姓氏构成规律。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "由‘虎攫’之意，抽象引申为‘猛烈、暴烈’。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "因音同而通假为‘郭’，用作古国名、地名时的借用。"
+    }
+  ]
+}

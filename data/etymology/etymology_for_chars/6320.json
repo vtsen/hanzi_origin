@@ -1,0 +1,47 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "藜芦，多年生草本植物，叶细长，花紫黑色，有毒，可入药。",
+      "examples": [
+        "藜芦有毒，可作药用。"
+      ],
+      "traditional_char": "藜"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "一年生草本植物，又称灰条菜，茎直立，嫩叶可食，茎可作拐杖。",
+      "examples": [
+        "藜茎可以做拐杖。",
+        "采藜食其叶。"
+      ],
+      "traditional_char": "藜"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "泛指藜的叶、指粗劣的饭菜（藜藿）。",
+      "examples": [
+        "藜藿不充，志在千里。"
+      ],
+      "traditional_char": "藜"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "形声字，从艹，离声，原指一年生草本植物，是形声字。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由植物藜引申为其叶，再泛指粗劣饭菜，语义转移见古代文献。"
+    }
+  ]
+}

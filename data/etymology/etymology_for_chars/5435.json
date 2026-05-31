@@ -1,0 +1,53 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "鸟类喉咙下储存食物的囊状器官。",
+      "examples": [
+        "豈無鵰與鶚？嗉中肉飽不肯搏。",
+        "嗉者，受食之處，別名嗉。"
+      ],
+      "traditional_char": "嗉"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "指朱雀七宿之一的星名，即张宿，因位于朱雀形体的嗉囊部位，亦名嗉宿。",
+      "examples": [
+        "張，嗉，為廚，主觴客。——《漢書•天文志》"
+      ],
+      "traditional_char": "嗉"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "装酒或饮料的小容器。",
+      "examples": [
+        "酒嗉子"
+      ],
+      "traditional_char": "嗉"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从口，素声，表示鸟的贮食器官。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "星名张宿被视为朱雀之嗉囊部位，故以动物嗉囊名之，出现于汉代天文著作。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由鸟的储食囊引申为能盛酒的小壶，意指容纳之意类同。"
+    }
+  ]
+}

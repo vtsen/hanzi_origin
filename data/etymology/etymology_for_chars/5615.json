@@ -1,0 +1,59 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "未經染色的細白生絹、生絲織品（細白绢）",
+      "examples": [
+        "厥篚玄纖縞。《書·禹貢》",
+        "魯人身善織屨，妻善織缟。《韓非子·說林上》",
+        "履絲曳缟。《晁錯·論貴粟疏》",
+        "强弩之末勢不能穿魯缟。《資治通鑒》"
+      ],
+      "traditional_char": "縞"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "白色的（與“素”義近）",
+      "examples": [
+        "天下缟素。《戰國策·魏策》",
+        "兵皆缟素。《漢書·高帝紀》",
+        "飄缟羽於清霄。《張載·扇賦》",
+        "眄隰則萬頃同缟。《謝惠連·雪賦》"
+      ],
+      "traditional_char": "縞"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "映照、照亮",
+      "examples": [
+        "縞夜。《宋·王安石》",
+        "月明縞樹。《宋·陸游》"
+      ],
+      "traditional_char": "縞"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "從糸，表示與絲織品相關，高為聲符，表細白生絹之義，屬形聲字。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由細白生絹作為名物，擴展為白色本身，古今均見。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "白色引申為月光等潔白之物映照的意象，以顏色形容映照效果，多見於詩文。"
+    }
+  ]
+}

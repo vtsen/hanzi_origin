@@ -1,0 +1,86 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "细雨濛濛的样子，小雨。",
+      "examples": [
+        "溟，小雨溟溟也。——《说文》",
+        "密雨溟沐。——杨雄《太玄·少》"
+      ],
+      "traditional_char": "溟"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "潮湿、滋润。",
+      "examples": [
+        "～～（形容潮湿、潮润）。"
+      ],
+      "traditional_char": "溟"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "昏暗、迷茫，不清晰；幽深。",
+      "examples": [
+        "礼义廉耻不设，万民莫相侵暴虐，犹在于混溟之中也。——《文子·下德》",
+        "今西域之教，岳其基而溟其源，乱于杨墨也甚矣。——唐 皮日休《原化》"
+      ],
+      "traditional_char": "溟"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "海，大海。",
+      "examples": [
+        "北溟有鱼，其名为鲲。——《庄子·逍遥游》",
+        "或倒景于重溟。——孙绰《游天台山赋》"
+      ],
+      "traditional_char": "溟"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "天地未形成时的混沌之气；宇宙混茫的状态。",
+      "examples": [
+        "溟涬，天地未形成时的自然之气。",
+        "溟极，南北极的代称。"
+      ],
+      "traditional_char": "溟"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，‘冥’声，指细雨濛濛之意，属于形声字。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由小雨濛濛扩展为潮湿之意，强调湿润感。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由小雨濛濛形象比拟事物昏暗、迷茫不清。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由昏暗、迷茫之意延伸指宇宙未分的混沌状态。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "因大海广阔、迷茫，如雨雾濛濛，故借称为溟。"
+    }
+  ]
+}

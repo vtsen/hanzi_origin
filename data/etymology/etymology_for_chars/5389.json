@@ -1,0 +1,51 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "蒗荡渠，古运河名，位于今河南省境，为战国以来中原水道交通干线。",
+      "examples": [
+        "蒗荡渠，故道自今中国河南省荥阳县北引黄河水东流。",
+        "渠在浚仪曰蒗荡。"
+      ],
+      "traditional_char": "蒗"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "“宁蒗”：彝族自治县名，在云南省。",
+      "examples": [
+        "宁蒗彝族自治县"
+      ],
+      "traditional_char": "蒗"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "毒药草名，本义可能指一种有毒的植物。",
+      "examples": [],
+      "traditional_char": "蒗"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 2,
+      "note": "‘蒗’为形声字，从艸，浪声，本义指一类毒药草，后引申为地名、渠名。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 2,
+      "target_index": 0,
+      "evolution_type": "metonymy",
+      "note": "古人以植被或地形名称代称当地水道。‘蒗’由草名引申为河渠名。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "以古水道地名用作行政区划地名，例如“宁蒗”。"
+    }
+  ]
+}

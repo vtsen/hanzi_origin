@@ -1,0 +1,70 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古代头巾、帽子名（如“乌匼”、“匼匝”）。",
+      "examples": [
+        "晚风爽乌匼。——唐·杜甫《戏呈元二十一曹长》",
+        "马头金匼匝。"
+      ],
+      "traditional_char": "匼"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "周围、环绕之意（如“匼匝”）。",
+      "examples": [
+        "参差树若插，匼匼云如抱。",
+        "匼匝（周匝，环绕）"
+      ],
+      "traditional_char": "匼"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "迎合，阿谀奉承。",
+      "examples": [
+        "卢杞谄谀阿匼。——《唐书·萧复传》",
+        "阿匼取容。"
+      ],
+      "traditional_char": "匼"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "通“帢”，古代的一种头巾（主要见于 qià 读音）。",
+      "examples": [
+        "通“帢”，古帽名。"
+      ],
+      "traditional_char": "匼"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "匸为形符，合为声符，形声字，原指头巾、帽类。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由头巾环绕引申为周围、环绕。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "借用为通“帢”帽子的意思，读音变化。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "环绕、包裹引申为阿谀奉承，取悦对方。"
+    }
+  ]
+}

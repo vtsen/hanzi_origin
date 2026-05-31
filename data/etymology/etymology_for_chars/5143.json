@@ -1,0 +1,60 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "蛲虫，一种寄生于人肠道的线形小虫。",
+      "examples": [
+        "蛲蛔，泛指人体寄生虫。",
+        "唐 柳宗元《骂尸虫文》：彼脩蛔恙心，短蟯穴胃。"
+      ],
+      "traditional_char": "蛲"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "蛲虫，一种寄生于人肠道的线形小虫（繁体字用法）。",
+      "examples": [
+        "《淮南子·原道训》：泽及蚑蟯。",
+        "蟯蛔，泛指人体寄生虫。"
+      ],
+      "traditional_char": "蟯"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "虫类活动爬动的样子。",
+      "examples": [
+        "蟯动，指虫子蠕动。",
+        "参见“蟯动”。"
+      ],
+      "traditional_char": "蟯"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“蛲”为形声字，从虫，堯声，简化自“蟯”。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "“蟯”为形声字，从虫，堯声，表示寄生虫类。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "conversion",
+      "note": "由蟲名引申为动作的描述，用于表示虫的动作，见古典用法。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "reanalysis",
+      "note": "现代简化字“蛲”直接继承繁体“蟯”的含义。"
+    }
+  ]
+}

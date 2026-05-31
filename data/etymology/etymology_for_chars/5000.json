@@ -1,0 +1,67 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "夾衣，表裡兩層而無絮的衣服。",
+      "examples": [
+        "《漢書·匈奴傳上》：服繡袷綺衣。",
+        "明日又鬥，正酣際，一白袷少年仗劍來助翁。"
+      ],
+      "traditional_char": "袷"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "交疊於胸前的衣領。",
+      "examples": [
+        "《禮記·深衣》：曲袷如矩以應方。",
+        "《禮記·玉藻》：深衣三袪……袷二寸。"
+      ],
+      "traditional_char": "袷"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "衣縫，衣服的縫合處。",
+      "examples": [],
+      "traditional_char": "袷"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "部分民族服裝的一種無領大衣或長袍，特指“袷袢”。",
+      "examples": [
+        "袷袢為中國維吾爾和塔吉克等民族的對襟長袍。"
+      ],
+      "traditional_char": "袷"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从衣，合聲，表示雙層衣服；聲旁“合”兼表音與意，初指夾衣。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由雙層衣物引申為有交疊的領口，漢至六朝已有用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由指整件衣裳引申為衣服的縫合處，見中古詞義。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由“夾衣”泛指至边疆民族服制，現用特指“袷袢”等服裝。"
+    }
+  ]
+}

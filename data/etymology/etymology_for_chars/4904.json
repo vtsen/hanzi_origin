@@ -1,0 +1,124 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "仆倒，僵仆于地",
+      "examples": [
+        "偾，僵也。——《说文》",
+        "牛虽瘠，偾于豚上，其畏不死。——《左传·昭公十三年》",
+        "一死一生，一偾一起。——《庄子·天运》"
+      ],
+      "traditional_char": "偾"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "覆败，覆灭，失败",
+      "examples": [
+        "偾军之将，蒙朝廷待以不死。——《醒世姻缘传》",
+        "此伍子胥所以偾于吴世也。——《汉书》"
+      ],
+      "traditional_char": "偾"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "毁坏，败坏",
+      "examples": [
+        "此谓一言偾事。——《礼记·大学》",
+        "偾裂（毁败朝政）"
+      ],
+      "traditional_char": "偾"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "奋起，激动，兴奋之意",
+      "examples": [
+        "张脉偾兴，外强中奸。——《左传·僖公十五年》",
+        "偾发（激动而奋起）"
+      ],
+      "traditional_char": "偾"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "死，僵毙",
+      "examples": [
+        "形僨景僵者，纍積而增益。——《吴都赋》",
+        "秦之戍卒不能其水土，戍者死于边，输者僨于道。——《汉书·晁错传》"
+      ],
+      "traditional_char": "偾"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "倒覆，翻倒",
+      "examples": [
+        "郑伯之车偾于济。——《左传·隐公三年》"
+      ],
+      "traditional_char": "偾"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "（僨）同“偾”，多用于文言文，义同“仆倒、覆败、毁坏、激奋等”",
+      "examples": [
+        "庚戌，郑伯之车僨于济。——《左传·隐公三年》",
+        "情莫多妄，口莫多言，蚁孔僨河，溜沈瀨山。——《傅子·镜总敍附录》"
+      ],
+      "traditional_char": "僨"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘偾’字形从人，贲声，形声字，本义为僵仆。古文多用于表示仆倒、僵仆"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 6,
+      "note": "‘僨’为‘偾’的异体字，亦从人，贲声，形声，本义同‘偾’，主要用于文言、古籍"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "从‘仆倒’本义引申为‘翻倒’"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "从跌倒引申为‘覆败、失败’之意"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由‘覆败’引申为‘毁坏、败坏’"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由‘仆倒’引申至‘僵毙、死亡’"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "由身体动作引申为精神状态‘奋起’"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "analogy",
+      "note": "‘僨’为‘偾’的异体字，语义基本一致"
+    }
+  ]
+}

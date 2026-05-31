@@ -1,0 +1,66 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "放火焚烧草木，大面积延烧",
+      "examples": [
+        "燎原烈火",
+        "燎荒"
+      ],
+      "traditional_char": "燎"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "用火烫（某物），或被火烫起泡",
+      "examples": [
+        "燎泡"
+      ],
+      "traditional_char": "燎"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "燃火照明",
+      "examples": [],
+      "traditional_char": "燎"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "挨近火而被烧焦",
+      "examples": [
+        "把头发燎了"
+      ],
+      "traditional_char": "燎"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从火，尞声。本义为放火焚烧草木，尞（音liáo）作声符。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由大面积焚烧引申为局部用火烫，意义扩展。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "焚烧引申为用于照明，古文中常见用火照明之意。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "由烫、用火作用进一步转为“被火烧焦”，历代口语变化。"
+    }
+  ]
+}

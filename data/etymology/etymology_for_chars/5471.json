@@ -1,0 +1,70 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "咽喉。",
+      "examples": [
+        "咽，又谓之嗌，气所流通，厄要之处也。",
+        "食之已嗌痛。",
+        "嗌于面尘，身无膏泽。"
+      ],
+      "traditional_char": "嗌"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "交通要道，比喻咽喉要道。",
+      "examples": [
+        "嗌者，扼也，扼要之处也。"
+      ],
+      "traditional_char": "嗌"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "咽喉窒塞，噎住。",
+      "examples": [
+        "嗌不容粒。",
+        "嗌，噎也…秦晋或曰嗌。"
+      ],
+      "traditional_char": "嗌"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "笑，如“嗌嗌”表示笑声。",
+      "examples": [
+        "疾笑嗌嗌，威仪固陋。"
+      ],
+      "traditional_char": "嗌"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从口，益声。表咽喉，古本义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由咽喉比喻交通等要道，用于“要冲”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由咽喉引申为咽喉阻塞、噎住。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "unknown",
+      "note": "笑声义源流不详，多属音近假借或拟声，关系未明。"
+    }
+  ]
+}

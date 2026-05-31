@@ -1,0 +1,82 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "烧热后用来烫平衣服的金属器具，称“熨斗”。",
+      "examples": [
+        "她用熨斗把衣服熨得平平整整。"
+      ],
+      "traditional_char": "熨"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "用烙铁、熨斗烫平（衣物等）。",
+      "examples": [
+        "妈妈正在熨衣服。"
+      ],
+      "traditional_char": "熨"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "用字、用词合适，恰当，妥帖。",
+      "examples": [
+        "她写信的词句非常熨帖。"
+      ],
+      "traditional_char": "熨"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "心情安宁、舒畅。",
+      "examples": [
+        "见到老朋友，心里特别熨帖。"
+      ],
+      "traditional_char": "熨"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "事情完全办妥。（方言）",
+      "examples": [
+        "这事儿已经熨帖了。"
+      ],
+      "traditional_char": "熨"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "形声字，从火，尉声，表示用火加热金属器具来烫平衣物。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "conversion",
+      "note": "由动作用法转名词，表示熨烫用的器具。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "用衣物熨平喻语句用得妥当。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "从妥帖引申为心情安宁。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "从妥帖引申为事情完全办妥（方言用法）。"
+    }
+  ]
+}

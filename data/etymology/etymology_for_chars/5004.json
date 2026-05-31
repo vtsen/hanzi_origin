@@ -1,0 +1,57 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "告诉，使人知道（一般用于上对下）",
+      "examples": [
+        "面谕",
+        "手谕",
+        "谕旨",
+        "晓谕"
+      ],
+      "traditional_char": "諭"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "明白，理解（古同“喻”）",
+      "examples": [
+        "言而谕之",
+        "可谕以理"
+      ],
+      "traditional_char": "諭"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "比方，譬喻（古同“喻”）",
+      "examples": [
+        "以事为谕",
+        "譬谕"
+      ],
+      "traditional_char": "諭"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从言，俞声，表告知、命令之义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "analogy",
+      "note": "“告知”引申为“使明白、理解”，两义相关。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "“明白”进一步引申为“比方、譬喻”，用明白的话打比方说明。"
+    }
+  ]
+}

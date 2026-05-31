@@ -1,0 +1,53 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "茂盛。",
+      "examples": [
+        "蕻，茂也。——《集韵》"
+      ],
+      "traditional_char": "蕻"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "某些蔬菜（如芥菜等）的长茎，即菜薹。",
+      "examples": [
+        "蕻，草菜心长。——《广韵》",
+        "宣城北寺来上人，独有一丛盘嫩蕻。——宋·梅尧臣诗"
+      ],
+      "traditional_char": "蕻"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "雪里蕻，蔬菜名，芥菜的变种，常腌制食用。",
+      "examples": [
+        "四明有菜名雪里蕻，雪深诸菜冻损，此菜独青。"
+      ],
+      "traditional_char": "蕻"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从艹，洪声，最早表示草木茂盛。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由形容词“茂盛”引申为某些蔬菜长出的茎部，见于《广韵》。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_narrowing",
+      "note": "由泛指菜薹专指为具体蔬菜名“雪里蕻”，宋元以后。"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "徘徊，来回走动，心神不定。",
+      "examples": [
+        "西子彷徨而無家。",
+        "獨處而徊徨。",
+        "彷徨失措。"
+      ],
+      "traditional_char": "徨"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "往来，通行走之意。",
+      "examples": [
+        "徨，往也。（《小尔雅》）"
+      ],
+      "traditional_char": "徨"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "左‘彳’表行走之义，右‘皇’为声符。构形意为行走、往来。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_shift",
+      "note": "由‘往来’引申为因心神不安而来回走动，见于先秦至汉用例。"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "竹田，竹园",
+      "examples": [
+        "篁，竹田也。——《说文》",
+        "蓟丘之植，植于汶篁。——《战国策·燕策》"
+      ],
+      "traditional_char": "篁"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "竹丛，竹林",
+      "examples": [
+        "余处幽篁兮终不见天。——《楚辞·山鬼》",
+        "篁竹之中。——《汉书·严助传》"
+      ],
+      "traditional_char": "篁"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "竹子（泛指各种竹）",
+      "examples": [
+        "只是这夹岸翠篁，一夜间，冲出万千旗杆。",
+        "微风解箨看新篁。——陆游《初夏幽居》"
+      ],
+      "traditional_char": "篁"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "竹名，特指品种如篁竹",
+      "examples": [
+        "隔篁竹闻水声。——唐·柳宗元《至小丘西小石潭记》",
+        "篁竹坚而促节，体圆而质坚，皮白如霜粉。"
+      ],
+      "traditional_char": "篁"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "竹制的管形乐器（总称）",
+      "examples": [
+        "嗟余有两耳，未省听丝篁。——韩愈《听颖师弹琴》",
+        "志感丝篁，气变金石。——南朝梁·刘勰《文心雕龙·乐府》"
+      ],
+      "traditional_char": "篁"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从竹，皇声。‘篁’形声字，本义为竹田，初用于指种植竹子的田地。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由指竹田扩展为指竹丛和竹林，竹田常有竹成林。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由竹丛、竹林泛指为所有竹子。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_narrowing",
+      "note": "从泛指竹到特指某一类竹——篁竹。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "取以竹为材，借指竹制的乐器，约汉魏时期出现。"
+    }
+  ]
+}

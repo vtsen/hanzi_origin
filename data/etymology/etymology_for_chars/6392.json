@@ -1,0 +1,58 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "蟾蜍，两栖动物，俗称癞蛤蟆。",
+      "examples": [
+        "小蟾徐行腹如鼓。",
+        "蟾蜍吐生蠩。",
+        "金 元好问 《蟾池》诗：‘小蟾徐行腹如鼓，大蟾张颐怒于虎。’"
+      ],
+      "traditional_char": "蟾"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "月亮、月光的别称。源于古代神话传说月中有蟾蜍。",
+      "examples": [
+        "四郊阴霭散，开户半蟾生。",
+        "蟾圆十一度无多。",
+        "蟾宫折桂"
+      ],
+      "traditional_char": "蟾"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "蟾蜍形状的器物，如古代建筑上的承水器物（如漏壶、溜口）、文房用水盂等。",
+      "examples": [
+        "水殿半倾蟾口涩，为谁流下蓼花中。",
+        "堂上清风生玉麈，涧中寒溜注铜蟾。",
+        "蟾滴夜寒，水浮微冻。"
+      ],
+      "traditional_char": "蟾"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从虫，詹声，表示一种虫类动物，本指蟾蜍。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "源于古代神话传说，蟾蜍居月，故以蟾指代月亮或月光，汉至唐广泛流行。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "因器物形状似蟾蜍而得名，宋及以后常见。"
+    }
+  ]
+}

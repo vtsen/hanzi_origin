@@ -1,0 +1,95 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "昏暗，日光不明亮的样子",
+      "examples": [
+        "暧暧远人村，依依墟里烟。",
+        "时暧曃其莽兮，召玄武而奔属。"
+      ],
+      "traditional_char": "曖"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "隐蔽，难以看清",
+      "examples": [
+        "轻云暧松杞。",
+        "山涤绦霭，宇暧微霄。"
+      ],
+      "traditional_char": "曖"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "温润，温暖",
+      "examples": [
+        "曖乎如时雨，百姓利其泽。",
+        "高轩曖春色，邃阁媚朝光。"
+      ],
+      "traditional_char": "曖"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "态度或行为不光明正大，含糊其辞",
+      "examples": [
+        "暧昧",
+        "行为暧昧"
+      ],
+      "traditional_char": "曖"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "“曖”的简化字",
+      "examples": [],
+      "traditional_char": "暧"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘曖’为形声字，从日，爱声，表示日光昏暗。"
+    },
+    {
+      "formation_type": "simple_indicative",
+      "original_sense_index": 4,
+      "note": "‘暧’为‘曖’的简化字，字形采用日与爱简化。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "昏暗引申为隐蔽，二者多在文学中近义连用。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由昏暗、柔和的光引申为温润温暖，古文学常见。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "隐蔽暗示言行不明朗，引申为态度暧昧。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "昏暗引申为不明朗，进一步用于人事含糊。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "reanalysis",
+      "note": "现代汉语将曖简化为暧，字形变化，意义同。"
+    }
+  ]
+}

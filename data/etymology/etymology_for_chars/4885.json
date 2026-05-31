@@ -1,0 +1,101 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "斧头上受柄的孔",
+      "examples": [
+        "铳，斧穿也。——《集韵》"
+      ],
+      "traditional_char": "銃"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "用火药发射弹丸的火器，如火铳、鸟铳",
+      "examples": [
+        "火銃什伍相聯。——《元史》",
+        "近世以火藥實銅、鐵器中， 亦謂之砲， 又謂之銃。——明 邱濬《大學衍義補》",
+        "点起銃，却打了自己的亲兵。——《花月痕》"
+      ],
+      "traditional_char": "銃"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "金属制的打眼器具，即铳子",
+      "examples": [
+        "参见“銃子”。"
+      ],
+      "traditional_char": "銃"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "用铳射击",
+      "examples": [
+        "不许说我回来过，说了张少爷会一枪铳了你。——沈从文《大小阮》",
+        "不許說我回來過， 說了 張少爺 會一槍銃了你。"
+      ],
+      "traditional_char": "銃"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "顶撞，用话语反击",
+      "examples": [
+        "三贵更不服气地铳铁柱",
+        "這一銃非同小可，把對方的眼睛銃得又大又圓了。——曹靖華"
+      ],
+      "traditional_char": "銃"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "扒窃",
+      "examples": [
+        "說是有幾百塊洋錢，在本船上遇銃手銃去了，請船主喊買辦來替他查查看。——《冷眼觀》"
+      ],
+      "traditional_char": "銃"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "銃为形声字，从金，重声，本义为斧头上穿孔。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由原指‘孔’之义引申为火药用具，或因火器需孔洞用于发射。明清流行。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "形态类似，火器之筒亦引申为金属打眼工具。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "conversion",
+      "note": "事物动用，‘用铳’引申为‘用铳射击’。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "由火器发射之激烈动作，比喻言语顶撞。见于近现代。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 5,
+      "evolution_type": "unknown",
+      "note": "动词‘铳’引申为扒窃，广西等方言用，具体机制学界尚无定论。"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "水向上腾涌。",
+      "examples": [
+        "百川沸滕。",
+        "滕，水超涌也。"
+      ],
+      "traditional_char": "滕"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "张口说话，放言。",
+      "examples": [
+        "滕口说也。",
+        "范君独判于心，不畏滕口。"
+      ],
+      "traditional_char": "滕"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "西周诸侯国名，在今山东省滕县一带。",
+      "examples": [
+        "春秋滕侯，文王子叔绣之后。国在今山东衮州府滕县。",
+        "滕，小国也，间于齐楚。"
+      ],
+      "traditional_char": "滕"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "以国名为姓氏，姓。",
+      "examples": [],
+      "traditional_char": "滕"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "县名，在山东省。",
+      "examples": [],
+      "traditional_char": "滕"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，朕声，表示水势上涌。'水'表义，'朕'表音。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由水腾涌引申比喻言词奔放，见于《易·咸》。“口说”如水奔涌。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "conversion",
+      "note": "以地理特征命名地名；水名→地名为常见词类转换。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "诸侯国覆亡后，原地继续以‘滕’为地名，演变为县名。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "以国为氏，古代贵族常以封国为姓氏，此为转义。"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "小石头；细小的石块。",
+      "examples": [
+        "礓石",
+        "地多小石谓之礓"
+      ],
+      "traditional_char": "礓"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "泛指石头。",
+      "examples": [
+        "砂礓可以做建筑材料。"
+      ],
+      "traditional_char": "礓"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "一种不透水的矿石，块状或颗粒状，可作建筑材料。",
+      "examples": [
+        "砂礓（可做建筑材料）"
+      ],
+      "traditional_char": "礓"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘礓’从石，旁薑声，初指小石头。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘小石头’义泛化为‘泛指石头’。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_narrowing",
+      "note": "‘石头’义中专指为一种不透水的矿石，用作建筑材料。"
+    }
+  ]
+}

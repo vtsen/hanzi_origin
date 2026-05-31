@@ -1,0 +1,89 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "推，挤。",
+      "examples": [
+        "左右攘辟。",
+        "小子何敢攘焉。",
+        "攮两步。"
+      ],
+      "traditional_char": "攮"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "用刀、攮子等刺、戳。",
+      "examples": [
+        "枪头子攮到贼肚里。",
+        "六连就勇猛地攮进去！",
+        "攮刀子（骂人话）；攮死人"
+      ],
+      "traditional_char": "攮"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "一种短而尖的刀，称“攮子”。",
+      "examples": [
+        "攮子",
+        "攮刀子"
+      ],
+      "traditional_char": "攮"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "跌；栽倒。",
+      "examples": [
+        "一头攮在了地上。",
+        "朱熙风挣扎着爬起来，一头攮在丈夫怀里。"
+      ],
+      "traditional_char": "攮"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "与贬义词结合成骂人的话。",
+      "examples": [
+        "狗攮的",
+        "贼狗攮的瞎淫妇"
+      ],
+      "traditional_char": "攮"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从手，囊声。本义为推、挤。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由推、挤引申为用力刺、戳，见近现代用法。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "conversion",
+      "note": "动词“攮”（刺、戳）转换成名词“攮子”（刺刀）。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由推引申为因被推而跌倒、栽倒，语义发展自然。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "刺、戳的形象引申为粗鲁、伤人的谩骂用法，常与贬义词组合。"
+    }
+  ]
+}

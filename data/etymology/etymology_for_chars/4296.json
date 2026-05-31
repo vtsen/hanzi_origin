@@ -1,0 +1,87 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "形容或指大的聲音或驚叫聲。",
+      "examples": [
+        "軯磕隱訇，鐘鼓之聲也。",
+        "訇然中開。",
+        "不料訇地一聲，鋼刀反震過來，把砍人的人腦殼上砍了一個大包。",
+        "訇哮（風聲猛烈狀）"
+      ],
+      "traditional_char": "訇"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "轟擊、沖擊，使發出巨響或炸裂聲。",
+      "examples": [
+        "磚石固易訇碎。",
+        "即土臺亦易震裂。"
+      ],
+      "traditional_char": "訇"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "伊斯蘭教主持教儀、講授經典的人（即“阿訇”）。",
+      "examples": [
+        "阿訇為清真寺講經傳道。"
+      ],
+      "traditional_char": "訇"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [
+        "訇琦、訇廣。"
+      ],
+      "traditional_char": "訇"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "欺騙，與“𧥺”同。",
+      "examples": [
+        "訇，欺也。",
+        "與𧥺同。"
+      ],
+      "traditional_char": "訇"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从言，勻省聲；形聲字，表示聲音大或驚叫之聲。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "從“大聲、驚叫聲”引申為“轟擊、沖擊”使發出巨響。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由“大聲、宣講聲”指擅長講經說教的阿訇。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "function_word",
+      "note": "由常用字義直接用作姓氏用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "unknown",
+      "note": "與‘𧥺’通‘欺’，或音近借用，語源關係不明。"
+    }
+  ]
+}

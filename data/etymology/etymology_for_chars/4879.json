@@ -1,0 +1,98 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "煎药或烧水用的器具，形状像壶，有柄，用沙土或金属制成。",
+      "examples": [
+        "药铫儿",
+        "用沙铫煎药"
+      ],
+      "traditional_char": "銚"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "一种带柄有嘴的小锅。",
+      "examples": [
+        "宋 苏轼《试院煎茶》：砖炉石銚行相随。"
+      ],
+      "traditional_char": "銚"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "古代兵器，像矛。",
+      "examples": [
+        "吕氏春秋：长銚利兵。"
+      ],
+      "traditional_char": "銚"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "古代一种大锄，农具。",
+      "examples": [
+        "管子：耕者必有一耒一耜一銚。"
+      ],
+      "traditional_char": "銚"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "碗。",
+      "examples": [
+        "章炳麟《新方言》：碗谓之銚。"
+      ],
+      "traditional_char": "銚"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [
+        "后汉书：銚期。"
+      ],
+      "traditional_char": "銚"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 3,
+      "note": "从金，兆声。本义为大锄，属于形声字，金属器物。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 3,
+      "target_index": 0,
+      "evolution_type": "metaphor",
+      "note": "由大锄（农具）形象引申为煎药或烧水的器具，因形制相似。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由煎药器泛指带柄有嘴的小锅。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "大锄形象引申为矛型兵器，因形状相似。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "由农用锄到用作盛物的碗，因承载功能的类比。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 5,
+      "evolution_type": "conversion",
+      "note": "由器物成为姓氏，古代常见现象。"
+    }
+  ]
+}

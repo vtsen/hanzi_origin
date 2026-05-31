@@ -1,0 +1,129 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "用粗竹篾编成的类似席的东西，用于盖屋、盖船或晾晒粮食",
+      "examples": [
+        "粗籧篨，因江东呼为笪，今京洛皆呼为竹笪。",
+        "盖屋皆以板为笪。"
+      ],
+      "traditional_char": "笪"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "用于拉船的粗竹索",
+      "examples": [
+        "百丈者，牵船篾，内地谓之笪。"
+      ],
+      "traditional_char": "笪"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "竹箬",
+      "examples": [
+        "笪，箬也。"
+      ],
+      "traditional_char": "笪"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "帽子的沿边部分",
+      "examples": [
+        "置于帽上笪处，二物皆极滑，久之方安。"
+      ],
+      "traditional_char": "笪"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "鞭打、击打",
+      "examples": [
+        "笪，笞也。",
+        "笪笞"
+      ],
+      "traditional_char": "笪"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "日蚀",
+      "examples": [
+        "古契丹语称日蚀为“笪日”。"
+      ],
+      "traditional_char": "笪"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "宋代有笪深。"
+      ],
+      "traditional_char": "笪"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "noun",
+      "meaning": "叢生的大竹子或与竹有关的事物",
+      "examples": [
+        "竹之丛生而大者竹笪。"
+      ],
+      "traditional_char": "笪"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从竹，旦声。本义为粗竹篾编成的席具，形声字。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由竹席引申为拉船用的竹索，多为原材料与用途的联系。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "synecdoche",
+      "note": "竹席材料即竹箬，部分代整体。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "由竹编席具引申为帽沿边，因形状和材料类似。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 7,
+      "evolution_type": "synecdoche",
+      "note": "由“席”转指所用的大竹，部分代整体。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "竹席也可为抽打之物，引申为鞭打、击打。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "reanalysis",
+      "note": "以物名为氏，属于氏族起源的常见方式。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "unknown",
+      "note": "“日蚀”一义为契丹语音译词，具体联系不明，机制待考。"
+    }
+  ]
+}

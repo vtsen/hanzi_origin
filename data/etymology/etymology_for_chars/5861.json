@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "采摘、摘取（如花草、果实等）",
+      "examples": [
+        "采撷芳草以遗友。",
+        "篱边野外多众芳，採撷细琐升中堂。",
+        "撷其颖以玩。"
+      ],
+      "traditional_char": "擷"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "用衣襟兜东西；把衣襟掖在腰带上以盛物",
+      "examples": [
+        "襭，以衣袵极物谓之撷。",
+        "采采芣苡，薄言襭之。"
+      ],
+      "traditional_char": "擷"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "顺着往下捋（如捋念珠、串珠等）",
+      "examples": [
+        "她们擷着念珠。",
+        "又都看爱姑。"
+      ],
+      "traditional_char": "擷"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从手，颉声，表示采摘之意；“手”表意，指用手采摘。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由采摘引申至用衣襟兜物，因摘取后需用衣襟盛物，语义接近。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "采摘手势转喻为顺势捋取，语义关联于动作方式的比喻。"
+    }
+  ]
+}

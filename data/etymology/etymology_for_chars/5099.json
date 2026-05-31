@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "短木棍，棍棒，用于打击或刑杖",
+      "examples": [
+        "一尺之棰，日取其半，万世不竭。",
+        "身体痛，则谓鬼持棰杖殴击。"
+      ],
+      "traditional_char": "棰"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "鞭子，马鞭，用于驱使马匹或杖打刑具",
+      "examples": [
+        "季氏负箠谢过。",
+        "其次关木索，被箠楚。",
+        "手苦于箠辔。"
+      ],
+      "traditional_char": "棰"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "用棍子敲打、鞭笞",
+      "examples": [
+        "士以马棰击亭长。",
+        "棰楚之下，何求而不得？"
+      ],
+      "traditional_char": "棰"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "other",
+      "meaning": "木丛生的样子",
+      "examples": [
+        "木丛生貌"
+      ],
+      "traditional_char": "棰"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从木，垂声，指短木棍或棍棒。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由棍棒引申为鞭子、鞭打工具，东周至汉代。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "conversion",
+      "note": "由名词‘棍棒’转用为动词‘用棍棒敲打’，古汉语同类转化。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "以木棰状物形容树木丛生的形态，较为生僻。"
+    }
+  ]
+}

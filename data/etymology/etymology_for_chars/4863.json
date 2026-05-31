@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "救济，施以财物救助贫困者。",
+      "examples": [
+        "赈灾",
+        "赈济难民",
+        "以工代赈"
+      ],
+      "traditional_char": "賑"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "富裕，充足。",
+      "examples": [
+        "邑居隐（殷）赈"
+      ],
+      "traditional_char": "賑"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "形声字，从贝，辰声。《说文》作『賑』，本义为富足，用贝表示与财富有关。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_shift",
+      "note": "由“富足”引申为“以富足救济他人”，意指给予物资以救助贫困者，见于中古及明清文献。"
+    }
+  ]
+}

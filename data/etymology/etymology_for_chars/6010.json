@@ -1,0 +1,86 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "审判定罪",
+      "examples": [
+        "主谳者。",
+        "定谳。",
+        "谳词。"
+      ],
+      "traditional_char": "讞"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "将案情上报或请示",
+      "examples": [
+        "州郡县所不能决者，谳之廷尉。",
+        "讞之言白也。"
+      ],
+      "traditional_char": "讞"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "判明，辨别是非曲直",
+      "examples": [
+        "刺谳其诚伪，考正其曲直。"
+      ],
+      "traditional_char": "讞"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "案件",
+      "examples": [
+        "请治谳。",
+        "谳牍。"
+      ],
+      "traditional_char": "讞"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "犯人的供词",
+      "examples": [
+        "无所得谳。"
+      ],
+      "traditional_char": "讞"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘讞’为形声字，从言（语言、审理有关），献声，意为审判定罪。‘谳’为其简化字。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“审判定罪”引申为将案件结果上报或请示，汉代起见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由“审判定罪”进一步引申为判明、辨别曲直之意。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "conversion",
+      "note": "由动词“审判定罪”转为案件名词（所审理案件），汉代用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "从“审判定罪”引申为犯人供词，清代已有记载。"
+    }
+  ]
+}

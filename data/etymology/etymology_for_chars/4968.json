@@ -1,0 +1,87 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "水沟，小渠，也泛指江河、大川。",
+      "examples": [
+        "江淮河济为四渎。",
+        "自经于沟渎而莫之知也。",
+        "开其渎。"
+      ],
+      "traditional_char": "瀆"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "洞，穴（古同“窦”）。",
+      "examples": [
+        "晨，自墓门之渎入。"
+      ],
+      "traditional_char": "瀆"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "轻慢，不敬，亵渎。",
+      "examples": [
+        "渎货无厌。",
+        "不亦渎姓矣乎。"
+      ],
+      "traditional_char": "瀆"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "烦琐，过度，杂乱。",
+      "examples": [
+        "爵不瀆而民作愿。",
+        "以云南布政使陈宏谋瀆奏本省垦务。"
+      ],
+      "traditional_char": "瀆"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "贪污，贪求，玷污（通“黷”）。",
+      "examples": [
+        "瀆货无厌。",
+        "柳下惠处鲁三黜而不去，忧民救乱，妻曰：‘无乃瀆乎？’"
+      ],
+      "traditional_char": "瀆"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，卖声，初指水沟、小渠。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "古代‘渎’假借通‘窦’，用于洞穴之义。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由水沟被引申为‘轻慢、亵渎’（如轻视而疏忽、亵慢之意），汉代起用。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由水沟、沟壑等引申出‘杂乱、烦琐、过度混杂’之义。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 4,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "‘渎’通‘黷’，表‘贪污、玷污’义，战国以后。"
+    }
+  ]
+}

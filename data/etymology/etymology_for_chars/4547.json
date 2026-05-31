@@ -1,0 +1,65 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "大铃，一种古代乐器，用于宣布政令或军令，也用于祭祀、礼仪等场合。",
+      "examples": [
+        "铎，大铃也。军法五人为伍，五伍为两，两司马执铎。",
+        "徇以木铎。",
+        "宝铎含风，响出天外。"
+      ],
+      "traditional_char": "鐸"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "小铃，指挂在牛马颈下或屋檐下的铃铛，包括风铃等。",
+      "examples": [
+        "宝铎含风，响出天外。",
+        "勖于路逢赵贾人牛铎，识其声。"
+      ],
+      "traditional_char": "鐸"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "刺，啄，像用喙或物体尖端点戳。",
+      "examples": [
+        "你还把热舌头铎我！——《西游记》"
+      ],
+      "traditional_char": "鐸"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [
+        "春秋齐有铎父。",
+        "楚太傅铎椒。"
+      ],
+      "traditional_char": "鐸"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从金，睪声。表声音的器物（金属器）并取声旁发音，造字本义为大铃。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“大铃”的本义引申为各种用金属制成、带舌能响的铃，如牛铃、风铃等，晋唐后成为泛指。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由‘铎’的振动、击打引申为‘刺，啄’，如啄击状动作。"
+    }
+  ]
+}

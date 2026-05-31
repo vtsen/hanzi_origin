@@ -1,0 +1,37 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "跛足人走路时用脚尖点地。",
+      "examples": [
+        "他踮着脚走路。"
+      ],
+      "traditional_char": "踮"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "提起脚跟，用脚尖着地。",
+      "examples": [
+        "踮起脚看。"
+      ],
+      "traditional_char": "踮"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从足，僉声，本义为跛足人以脚尖触地。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由跛足人脚尖点地扩展为一般提脚尖的动作。"
+    }
+  ]
+}

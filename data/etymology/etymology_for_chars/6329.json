@@ -1,0 +1,87 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "日落时的余光，夕阳余晖",
+      "examples": [
+        "孤帆度绿氛，寒浦落红曛。——孙逖《下京口埭夜行》",
+        "一带斜曛归路，晚风料峭怯寒衣。——王宾《江城子·清明》",
+        "笔架沾窗雨，书签映日曛。——杜甫"
+      ],
+      "traditional_char": "曛"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "傍晚，黄昏，日暮",
+      "examples": [
+        "一枕高眠到日曛。——张实居《山中即景》",
+        "踌躇日将曛。——李白《送崔度还吴》",
+        "曛雾蔽穷天，夕阴晦寒地。——鲍照《冬日》"
+      ],
+      "traditional_char": "曛"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "昏暗，天色暗淡",
+      "examples": [
+        "天地曛黑，仰视又无纤云。——《类说》",
+        "曛昧（曛晦。昏暗）"
+      ],
+      "traditional_char": "曛"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "赤黄色",
+      "examples": [
+        "少阴所至为高明，焰为曛。——《素问》"
+      ],
+      "traditional_char": "曛"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "酒醉的样子",
+      "examples": [
+        "楼中唱罢酒半曛，倒著儒冠高拂云。——徐渭《赠吕正宾长篇》"
+      ],
+      "traditional_char": "曛"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从日，熏声，表示“日落时的余光”，意符日表光明时间，‘熏’表达声音及部分意象。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“日落的余光”扩展为“傍晚、黄昏”等时间段名称，用于时间概念，魏晋南北朝起见。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由“傍晚、黄昏”环境引申至“昏暗”的状态，晚唐文献已见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "余光色彩感受引申为具体颜色“赤黄色”，见于医书及色彩形容。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "由‘昏暗’转喻为‘醉态’（神志不清），明清用法，有类比色态、状态之义。"
+    }
+  ]
+}

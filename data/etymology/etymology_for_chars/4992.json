@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "畏惧，害怕，怕麻烦",
+      "examples": [
+        "忌惮",
+        "肆无忌惮",
+        "过则不惮改"
+      ],
+      "traditional_char": "憚"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "劳苦，因劳成疾的人",
+      "examples": [
+        "哀我惮人"
+      ],
+      "traditional_char": "憚"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "震动，撼动",
+      "examples": [
+        "惮赫"
+      ],
+      "traditional_char": "憚"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从心，单声，表示心中有畏惧害怕之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由畏难转指因劳苦而产生畏惧之人，用于名词。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "unknown",
+      "note": "‘惮’用于震动、撼动的意义，或为音借后义，关系不明。"
+    }
+  ]
+}

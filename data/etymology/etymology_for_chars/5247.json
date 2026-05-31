@@ -1,0 +1,103 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "晚饭，傍晚的饭食，主要指夜间进食的正餐。",
+      "examples": [
+        "飧，餔也。——《说文》",
+        "吾小人辍飧饔以劳吏者，且不得暇。——柳宗元《种树郭橐驼传》",
+        "贤者与民并耕而食，饔飧而治。——《孟子·滕文公上》"
+      ],
+      "traditional_char": "飧"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "泛指熟食、饭食，不特指晚饭。",
+      "examples": [
+        "不素飧兮。——《诗·魏风·伐檀》",
+        "盘飧市远无兼味，樽酒家贫只旧醅。——杜甫《客至》"
+      ],
+      "traditional_char": "飧"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "简单的饭食、便宴。常指礼节较简、规模较小的宴食。",
+      "examples": [
+        "致飧如致積之禮。——《周禮·秋官·司儀》",
+        "宰夫朝服設飧。——《儀禮·聘禮》。注：“食不備禮曰飧。”"
+      ],
+      "traditional_char": "飧"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "吃晚饭，进晚餐。",
+      "examples": [
+        "賢者與民並耕而食，饔飧而治。——《孟子·滕文公上》",
+        "里克 辟奠， 不飧而寢。——《国语·晋语二》"
+      ],
+      "traditional_char": "飧"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "用水泡饭，或指泡饭吃，常用以指已饱之余再用汤泡饭。",
+      "examples": [
+        "君未覆手，不敢飧。——《礼记·玉藻》",
+        "客飧，主人辭以“疏”。——《礼记·玉藻》"
+      ],
+      "traditional_char": "飧"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "汤泡饭、泡饭（饭以水或汤浸泡后食用）。",
+      "examples": [
+        "山東人謂溼飯為飧。——《全唐詩·李處鬱語》原注"
+      ],
+      "traditional_char": "飧"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "从夕从食，会意字，表示晚上的饭食，强调时间与食物的结合。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由专指晚饭扩展为泛指熟食、饭食，见于《诗经》《杜甫诗》等。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_narrowing",
+      "note": "由泛指饭食语义引申出‘简单饭食、便宴’之意，多见于礼仪文献。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "conversion",
+      "note": "名词转化为动词，即‘进晚饭’、‘吃晚饭’。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "semantic_shift",
+      "note": "由‘饭食’语义发展出‘用水泡饭’用法，见于《礼记·玉藻》相关注解。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 5,
+      "evolution_type": "semantic_narrowing",
+      "note": "由动作扩展为名词，指‘泡饭’这种食物。"
+    }
+  ]
+}

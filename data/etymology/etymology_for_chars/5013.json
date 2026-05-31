@@ -1,0 +1,63 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "卖出谷物。",
+      "examples": [
+        "粜，出谷也。——《说文》",
+        "贩谷粜千钟。——《史记·货殖传》",
+        "二月卖新丝，五月粜新谷。——唐·聂夷中《咏田家》",
+        "不但全家饱一年，有余更上行家糶。——刘大白《收成好》"
+      ],
+      "traditional_char": "糶"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "泛指出卖（物品）。",
+      "examples": [
+        "想那粜风月的女娘，似饥狼饿狼。——《雍熙乐府》"
+      ],
+      "traditional_char": "糶"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "“糶”的简化字。",
+      "examples": [
+        "粜米。",
+        "粜谷。",
+        "平粜",
+        "赈粜"
+      ],
+      "traditional_char": "粜"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "糶为会意兼形声字，从出从䊮（或从‘粜’），声符为䊮或糶，表卖出谷物之意。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 2,
+      "note": "粜为简化字，米作意符，粜作声符，承袭‘糶’之音义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由专指卖谷物推广到泛指出卖各种物品。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "reanalysis",
+      "note": "‘粜’为现代简化字，承袭‘糶’之本义。"
+    }
+  ]
+}

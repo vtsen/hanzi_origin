@@ -1,0 +1,73 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "传说中的猛兽，有的说像虎，有的说像熊，毛色灰白。",
+      "examples": [
+        "书·牧誓：如虎如貔，如熊如羆。",
+        "诗·大雅：献其貔皮。",
+        "汉·司马相如《上林赋》：生貔豹，搏豺狼。"
+      ],
+      "traditional_char": "貔"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "黄鼬，一种动物，也称“貔子”。",
+      "examples": [
+        "尔雅：貔，白狐。",
+        "广雅：貔，狸貓也。"
+      ],
+      "traditional_char": "貔"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "（貔貅）传说中的神兽。",
+      "examples": [
+        "礼·曲礼：前有摯兽，则载貔貅。",
+        "兵车旌画貔貅，形象威猛，使众知警备。"
+      ],
+      "traditional_char": "貔"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "比喻勇猛的军士或军队。",
+      "examples": [
+        "唐韩愈《永贞行》：北军百万虎与貔，天子自将非他师。",
+        "宋王禹偁《贺圣驾还京表》：边人识龙凤之姿，胡马避虎貔之众。",
+        "貔虎之师"
+      ],
+      "traditional_char": "貔"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“貔”从豸，𣬉声，六书属形声字。最初表示一种猛兽。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "自传说猛兽扩展为神兽“貔貅”，因两者都为威猛象征。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由猛兽比喻勇猛的军士或军队，文献多见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_shift",
+      "note": "部分地区将‘貔’指为黄鼬或狐狸，为动物类指称的语义转移。"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "指“槟子”，一种类似小苹果的水果，成熟时紫红色，味酸甜略涩。",
+      "examples": [
+        "市上卖的槟子又新又甜。"
+      ],
+      "traditional_char": "檳"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "指“槟榔”，常绿乔木及其果实，果实可食或入药。",
+      "examples": [
+        "他喜欢嚼槟榔。"
+      ],
+      "traditional_char": "檳"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "檳为形声字，从木，賓声，本指槟榔树及其果。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "因形状类似，槟榔义扩展到“槟子”所指苹果类小果。"
+    }
+  ]
+}

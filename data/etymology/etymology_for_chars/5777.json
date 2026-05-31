@@ -1,0 +1,85 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "蔬菜歉收，蔬菜都吃不上。",
+      "examples": [
+        "蔬不熟曰馑。——《说文》",
+        "可食之菜，皆不熟为馑。——《尔雅·释天》"
+      ],
+      "traditional_char": "饉"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "庄稼、谷物歉收。",
+      "examples": [
+        "一谷不收谓之馑，二谷不收谓之旱。——《墨子·七患》",
+        "二谷不升谓之饥，三谷不升谓之馑。——《谷梁传·襄公二十四年》"
+      ],
+      "traditional_char": "饉"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "广泛指灾荒、饥荒、粮食短缺的情况。",
+      "examples": [
+        "或纷扰之际，或荒馑之余；威惠所加，罔不和辑。——唐·白居易《除李逊京兆尹制》",
+        "岁馑，则仕者大夫以下，皆损禄五分之一。——《墨子·七患》"
+      ],
+      "traditional_char": "饉"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "通“殣”。饿死或者饿死的人。",
+      "examples": [
+        "夫饿馑流隶，饥寒道路，思有短褐之袭，檐石之蓄。——《文选·班彪·王命论》"
+      ],
+      "traditional_char": "饉"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "缺乏、匮乏。",
+      "examples": [
+        "多者不独衍，少者不独馑。——《盐铁论》"
+      ],
+      "traditional_char": "饉"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从食，堇声，本义为蔬菜歉收。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由蔬菜歉收推广到谷物、庄稼等一般性农作物的歉收。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由谷物歉收推广为泛指粮食短缺、饥荒。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "以饥荒借代饿死的人。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 4,
+      "evolution_type": "grammaticalization",
+      "note": "由名词‘灾荒’发展为动词‘缺乏’。"
+    }
+  ]
+}

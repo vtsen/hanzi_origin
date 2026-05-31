@@ -1,0 +1,53 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "小路，路径",
+      "examples": [
+        "桃李不言，下自成蹊。",
+        "独辟蹊径"
+      ],
+      "traditional_char": "蹊"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "践踏，踏过",
+      "examples": [
+        "牵牛以蹊人之田而夺之牛"
+      ],
+      "traditional_char": "蹊"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "奇怪，可疑",
+      "examples": [
+        "这事有点儿蹊跷"
+      ],
+      "traditional_char": "蹊"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "形声字，从足，奚声，表示行走、践踏，与行走相关。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "由“践踏”引申为“被人踏出来的路”，汉代以前已见用。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由“道路”比喻为“奇特的、不同寻常的（蹊跷）”，误常见于现代汉语。"
+    }
+  ]
+}

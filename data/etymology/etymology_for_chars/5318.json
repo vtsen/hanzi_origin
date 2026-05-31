@@ -1,0 +1,115 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "八卦之一，代表风，亦指东南方。",
+      "examples": [
+        "巽为木，为风。——《易·说卦》",
+        "其上乌龙峰，独聳文笔于西南，木家院南峰，迴峙雄关于巽位。——《徐霞客游记》"
+      ],
+      "traditional_char": "巽"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "消散，扩散。",
+      "examples": [
+        "巽，散也，物皆生布散也。——《释名·释天》"
+      ],
+      "traditional_char": "巽"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "持、具备。",
+      "examples": [
+        "巽，具也。——《说文》"
+      ],
+      "traditional_char": "巽"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "谦让，退让，顺从。",
+      "examples": [
+        "巽，逊也。——《书·尧典》",
+        "顺以巽也。——《易·蒙》"
+      ],
+      "traditional_char": "巽"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "卑顺，谦逊，恭顺。",
+      "examples": [
+        "位望益尊，谦巽滋甚。——韩愈《答魏博田僕射书》",
+        "柔巽隐伏。——王安石《易泛论》"
+      ],
+      "traditional_char": "巽"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "履，践行。",
+      "examples": [
+        "朕在位七十载，汝能庸命巽朕位。——《书·尧典》"
+      ],
+      "traditional_char": "巽"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [
+        "鲁邽巽字子钦。——《史记·仲尼弟子传》"
+      ],
+      "traditional_char": "巽"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 2,
+      "note": "小篆作会意字，从丌，意指具备、持物，含有“具”的基本含义，后义扩展。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 2,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“具备”引申为“消散”，物质展布可理解为散布。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 0,
+      "evolution_type": "metaphor",
+      "note": "从“齐备、持”引申为“风”八卦，风能遍及、无处不在，有所包容之义。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "由“具备”转为“谦让、顺从”，似以物之顺应物以成备之意。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "从“谦让、顺从”引申为性格表述“卑顺、恭顺”。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 5,
+      "evolution_type": "metonymy",
+      "note": "“具备”引申为“履、践行”，即付诸实行。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 6,
+      "evolution_type": "unknown",
+      "note": "作为姓氏用，具体用法不详，属名词化转移。"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "欺诈，作弊，用诡计欺骗他人",
+      "examples": [
+        "譎，权诈也。——《说文》",
+        "晋文公谲而不正。——《论语》",
+        "而奸臣犹有所谲其辞矣。——《韩非子·定法》"
+      ],
+      "traditional_char": "譎"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "诡诈，狡猾，奸诈",
+      "examples": [
+        "谲计（奸计；诡计）",
+        "狡谲"
+      ],
+      "traditional_char": "譎"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "奇异，怪异，奇特多变",
+      "examples": [
+        "瑰异谲诡。——张衡《东京赋》",
+        "瑰姿谲起。——傅毅《舞赋》"
+      ],
+      "traditional_char": "譎"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "判断，判别（通“决”）",
+      "examples": [
+        "若夫谲德而定次，量能而授官。——《荀子·儒效》"
+      ],
+      "traditional_char": "譎"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "婉曲（尤指谏劝时不直言，而隐约其词）",
+      "examples": [
+        "《五噫》譎且正，可以见心曲。——唐皎然《咏史》",
+        "姑将譎言之，未言声又吞。——清龔自珍"
+      ],
+      "traditional_char": "譎"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "譎为形声字，从言，矞声，本义为欺诈、权诈。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "conversion",
+      "note": "由动词“欺诈”引申为形容人或行为“狡诈”，语法转类。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由奸诈转为诡谲奇异之意，形容变化多端、不可捉摸。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "unknown",
+      "note": "“谲”假借为“决”，即判别、判断，具体途径不明。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由“欺诈”引申为言语委婉、含蓄的用法。"
+    }
+  ]
+}

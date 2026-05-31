@@ -1,0 +1,69 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "城门上的台、平台。",
+      "examples": [
+        "闍是城上之臺，謂當門臺也。《詩·鄭風·出其東門》：“出其闉闍，有女如荼。”",
+        "阇谓之台。——《尔雅》"
+      ],
+      "traditional_char": "闍"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "泛指台。",
+      "examples": [
+        "南夷气如阇台。——《晋书》"
+      ],
+      "traditional_char": "闍"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "城市里的巷、街道。",
+      "examples": [
+        "阇里（街巷）"
+      ],
+      "traditional_char": "闍"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "梵文音译字，指佛教相关的人物或事物，如“阇梨”、“阇王”、“阇利”、“阇提”、“阇维”等。",
+      "examples": [
+        "阇梨：高僧称号",
+        "阇维：僧人的火化"
+      ],
+      "traditional_char": "闍"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "闍为形声字，从門（阝为门之简化），者声。本义为城门上的台。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由专门义“城门台”泛化为一般的“台”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由城门台转指城市中平台、街巷（可能因地形类似）。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "用作梵语音译字，“阇梨”等，因音近借用。"
+    }
+  ]
+}

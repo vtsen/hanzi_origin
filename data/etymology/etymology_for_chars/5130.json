@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "onomatopoeia",
+      "meaning": "形容低声连续不断地自言自语或唠叨的声音，如‘喃喃自语’。",
+      "examples": [
+        "喃喃自语",
+        "燕语呢喃"
+      ],
+      "traditional_char": "喃"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "particle",
+      "meaning": "语气词，用于疑问句末，相当于‘呢’。",
+      "examples": [
+        "今天不去，以后又如何喃？",
+        "這你又不要固執喃！"
+      ],
+      "traditional_char": "喃"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "品尝，尝一尝（古汉语或方言用法）。",
+      "examples": [
+        "喃了好些。——《金瓶梅》"
+      ],
+      "traditional_char": "喃"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘喃’为形声字，从口，南声，本义为低语声。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "grammaticalization",
+      "note": "低语象声意义演化为语气词用法，表现于口语发展。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "由低语（口中咀嚼）意义引申为口中品尝，常见于方言或古文。"
+    }
+  ]
+}

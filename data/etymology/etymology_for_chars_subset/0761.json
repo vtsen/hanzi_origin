@@ -1,0 +1,42 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "名词",
+      "meaning": "兵器，武器",
+      "examples": [
+        "甲骨文中的“我”象兵器形",
+        "《说文解字》：“我，施身自持兵也。”"
+      ],
+      "traditional_char": "我"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "代词",
+      "meaning": "第一人称，自己或自己一方",
+      "examples": [
+        "我是谁？",
+        "我们要努力。",
+        "自我",
+        "我见我闻",
+        "《尚书》：“予畏于天命。”（予：我）"
+      ],
+      "traditional_char": "我"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意字，从戈，从戈会兵器。甲骨文字形象兵器，后借指自称。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_shift",
+      "note": "由武器器具名称转义为第一人称代词，疑为兵器自持用，引申为“自我”。先秦至两汉语境演变。"
+    }
+  ]
+}

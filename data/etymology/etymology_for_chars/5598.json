@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "增益，补助，弥补",
+      "examples": [
+        "必能裨补阙漏，有所广益。",
+        "裨，接益也。"
+      ],
+      "traditional_char": "裨"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "古代祭祀时所穿的次等礼服",
+      "examples": [
+        "侯氏裨冕。",
+        "大夫裨冕。"
+      ],
+      "traditional_char": "裨"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "副的，辅佐的；偏、小",
+      "examples": [
+        "裨将军",
+        "前锋破敌，乃偏裨之事耳。"
+      ],
+      "traditional_char": "裨"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "小王，支王，较小的领主",
+      "examples": [
+        "得右贤裨王十余人。",
+        "于是有裨海王不之。"
+      ],
+      "traditional_char": "裨"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "从衣，卑声，表示古代次等礼服；形声字，‘衣’表意，‘卑’表音。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由礼服的等级转喻为职位、能力的副、佐、偏义。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "职位副、小的引申，转指为地位较低的王。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "metaphor",
+      "note": "由衣服‘接益’的补缀功能引申为‘补益’、‘增益’的抽象动词意义。"
+    }
+  ]
+}

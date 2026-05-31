@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "花言巧语，巧言令色，用好听但虚假的话语。",
+      "examples": [
+        "谝，便巧言也。——《说文》",
+        "友谝佞。——《论语》",
+        "惟截截善谝言。——《书·泰誓》"
+      ],
+      "traditional_char": "諞"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "夸耀，显示，炫耀或以自豪之态表现、说出。",
+      "examples": [
+        "他又谝上了。",
+        "就一面嘟嘟地吹着，跑到那边孩子群里谝她的柳笛去了。——魏巍《东方》"
+      ],
+      "traditional_char": "諞"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "欺骗，诈骗，以虚假的言语蒙骗他人。",
+      "examples": [
+        "指山盟是谝，则不如剪发然香竟儿远。——元·汤氏《赠王观音奴》",
+        "巧言。欺骗；诈骗。——《广韵》"
+      ],
+      "traditional_char": "諞"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从言，扁声。‘扁’表音，‘言’表义，最初指花言巧语。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由花言巧语引申为欺骗、诈骗，二者语义紧密相关。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由巧言花语引申出夸耀、显示，炫耀意味。"
+    }
+  ]
+}

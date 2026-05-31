@@ -1,0 +1,73 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "两条水流汇合或河流弯曲的地方",
+      "examples": [
+        "汭，水相入也。——《说文》",
+        "馆于洛汭。——《左传·昭公元年》",
+        "虢公败戎于渭汭。——《左传》"
+      ],
+      "traditional_char": "汭"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "水的北岸",
+      "examples": [
+        "弱水既西，泾属渭汭。——《书·禹贡》。孔传：“水北曰汭。”",
+        "五子之歌：徯于洛之汭。"
+      ],
+      "traditional_char": "汭"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "水滨、水涯",
+      "examples": [
+        "客绝水而来，勿迎之水汭，令半济而击之，利。——《孙子》。杜牧注：“水内乃汭也，误为内耳。”",
+        "昨发浦阳汭，今宿浙江湄。——谢惠连《西陵遇风献康乐》"
+      ],
+      "traditional_char": "汭"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "水名，用于指特定的河流或支流",
+      "examples": [
+        "泾属渭汭。",
+        "其川泾汭——《周礼·夏官·职方氏》郑玄注：“汭在豳地。”",
+        "在山西省永济县境，有舜纳二妃处"
+      ],
+      "traditional_char": "汭"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘汭’从水，内声。表示水流会合之处，‘水’表义，‘内’表音兼有包裹弯曲之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "从水汇合或弯曲处引申为水滨、水涯，用以指水边一带。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由河流弯曲或水汇合处进一步指向水流的北岸，用于地理分界。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "由表示水汇合或弯曲处的普通名词，引申至具体指称以‘汭’为名的水体或地名。"
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "水名。主指中国安徽省、河南省境内的淠河，古水名，注入淮河。",
+      "examples": [
+        "淠水出汝南弋阳垂山，东入淮。",
+        "淮水又东北，淠水注之。"
+      ],
+      "traditional_char": "淠"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "水声。",
+      "examples": [
+        "舟行水上，淠然有声。"
+      ],
+      "traditional_char": "淠"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "船行的样子。",
+      "examples": [
+        "淠彼涇舟，烝徒楫之。"
+      ],
+      "traditional_char": "淠"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "淹没。",
+      "examples": [
+        "膏腴皆淹淠。"
+      ],
+      "traditional_char": "淠"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "众多、茂盛的样子（常用于叠词“淠淠”）。",
+      "examples": [
+        "萑葦淠淠。"
+      ],
+      "traditional_char": "淠"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "adjective",
+      "meaning": "摇动、动作的样子（叠用：淠淠）。",
+      "examples": [
+        "其旂淠淠。"
+      ],
+      "traditional_char": "淠"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，畀声；初用于指水名。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由水名转指水流声，古汉语中常见。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由水声引申为船行貌，因船行水中有声。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由水声或水流，引申为水淹没之意。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "由水声众多、喧腾，引申为繁茂、众多的样子。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "metaphor",
+      "note": "由水的流动声，比喻动作、摇动。"
+    }
+  ]
+}

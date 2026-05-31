@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古国名，周文王子所封之国，在今山东省成武县东南，春秋时为宋所灭。",
+      "examples": [
+        "郜，周文王子所封国。从邑，告声。——《说文》",
+        "春秋·桓公二年：夏四月，取郜大鼎于宋。",
+        "左传·僖二十四年：郜、雍、曹、滕，文之昭也。"
+      ],
+      "traditional_char": "郜"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "古地名，在晋地，今山西省浮山县一带。",
+      "examples": [
+        "左传·成公十三年：入我河县，焚我箕郜。",
+        "高士奇《地名考略》：郜，濱河之邑，疑當距箕不遠。"
+      ],
+      "traditional_char": "郜"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [
+        "晋高昌长郜玖。",
+        "又姓，见《广韵》。"
+      ],
+      "traditional_char": "郜"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从邑，告声。表示古国名，与地名相关。‘邑’表地名，‘告’表音。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由古国名扩展为其他地名，皆源于地理名称传统。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由国名转为姓氏，依照中国古代以国名为姓的习俗。"
+    }
+  ]
+}

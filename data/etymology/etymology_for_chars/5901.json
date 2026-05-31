@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "窥视，偷偷地看",
+      "examples": [
+        "偷觑",
+        "面面相觑"
+      ],
+      "traditional_char": "覷"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "把眼睛合成一条细缝看；眯着眼睛仔细地看",
+      "examples": [
+        "觑着眼睛",
+        "他觑着眼打量我"
+      ],
+      "traditional_char": "覷"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "小看，轻视",
+      "examples": [
+        "小觑",
+        "不可小觑"
+      ],
+      "traditional_char": "覷"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从见，虚声，表示偷看、窥视的动作。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由一般偷看扩展为眯眼细看的动作，意指观察方式发生变化。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由‘偷看’引申为‘小看、轻视’，产生感情色彩上的转义。"
+    }
+  ]
+}

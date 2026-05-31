@@ -1,0 +1,53 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "马鞍拱起的地方，即安置于马鞍前后的弯起部分",
+      "examples": [
+        "白马金鞍碧玉鞒。——元·郑德辉《钏离春智勇定齐》"
+      ],
+      "traditional_char": "鞒"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "“鞽”的简化字",
+      "examples": [],
+      "traditional_char": "鞒"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "“鞒”的繁体字。义同“鞒”，即马鞍拱起之处",
+      "examples": [],
+      "traditional_char": "鞽"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“鞒”从革，乔声，表示与皮革有关的弯起部件"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 2,
+      "note": "“鞽”为“鞒”的繁体字，亦从革，乔声"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "reanalysis",
+      "note": "简化字政策，鞒通用为鞽的简体形"
+    },
+    {
+      "source_index": 2,
+      "target_index": 0,
+      "evolution_type": "reanalysis",
+      "note": "由繁体“鞽”到简体“鞒”，意义相同"
+    }
+  ]
+}

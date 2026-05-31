@@ -1,0 +1,88 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古代一种长颈瓶，短足，似盉，名为“鎣”或“蓥”，多为青铜或陶制器具。",
+      "examples": [
+        "伯百父鎣銘：伯百父乍孟姬朕鎣。"
+      ],
+      "traditional_char": "鎣"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "磨拭使光亮，使发光泽。",
+      "examples": [
+        "莹，磨也。——《广雅》",
+        "金鎚玉鎣千金地。——唐 蔡孚《打毬篇》"
+      ],
+      "traditional_char": "鎣"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "明亮。",
+      "examples": [
+        "昦冏于天，睛鎣于頁。——唐 蘇源明《元包經傳•仲陰》"
+      ],
+      "traditional_char": "鎣"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "采铁（冶炼铁矿）。",
+      "examples": [
+        "鎣，采铁。——《广韵•平清》"
+      ],
+      "traditional_char": "鎣"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "用作地名，如华蓥山。",
+      "examples": [
+        "四川有华蓥山。"
+      ],
+      "traditional_char": "蓥"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "鎣从金，熒省声，本义为器名，青铜制长颈瓶。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "蓥为“鎣”的简化字，从艸省取代金旁，音义同源，后用于地名。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由器物本身引申为对金属制品的磨拭使光亮。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由使金属光亮引申为明亮之意。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "由金属容器引申为采铁、冶炼行为。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由器物本义转借为地名用字，如华蓥山。"
+    }
+  ]
+}

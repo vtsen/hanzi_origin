@@ -1,0 +1,87 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "泥沼，烂泥，深泥",
+      "examples": [
+        "有淖于前。——《左传·成公十六年》",
+        "天雨淖。——《汉书·韦元成传》",
+        "濯淖污泥之中。——《资治通鉴·汉纪》",
+        "泥淖，污淖"
+      ],
+      "traditional_char": "淖"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "湖泊（多用于蒙语音译）",
+      "examples": [
+        "罗布淖尔（即罗布泊）"
+      ],
+      "traditional_char": "淖"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "湿润，柔和，柔弱",
+      "examples": [
+        "淖乎如在于海。——《管子·内业》",
+        "夫水，淖弱以清。——《管子·水地》",
+        "嘉荐普淖。——《仪礼·少牢礼》"
+      ],
+      "traditional_char": "淖"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "战国楚有淖齿"
+      ],
+      "traditional_char": "淖"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "宽绰（‘绰’义，通‘绰’用）",
+      "examples": [
+        "淖约如处子。——《庄子·逍遥游》"
+      ],
+      "traditional_char": "淖"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘淖’为形声字，从水，卓声，本指泥沼烂泥之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_narrowing",
+      "note": "从泥沼泥泞意义发展为具体指蒙古语中‘湖泊’，语境收窄。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由物理性质（湿烂）引申为形容湿润、柔和、柔弱，多见于古文。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "由‘柔和’进一步比喻为‘宽绰’，作为‘绰’义通用。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "reanalysis",
+      "note": "泥沼义的地名或氏族称谓演化为姓氏用法。"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "在制造皮革时，用栲胶、鱼油等使兽皮柔软。",
+      "examples": [
+        "鞣皮子",
+        "鞣制工艺"
+      ],
+      "traditional_char": "鞣"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "一种有机化合物，淡黄色粉末，有微臭，工业上用来制墨水和鞣皮革，亦称“单宁”或“单宁酸”。",
+      "examples": [
+        "鞣酸可用来制皮革",
+        "鞣酸亦称单宁"
+      ],
+      "traditional_char": "鞣"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从革，柔声；本意指使皮革柔软的工艺。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "皮革加工工艺所用主要化学物质以所用工艺的名称转称。"
+    }
+  ]
+}

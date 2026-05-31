@@ -1,0 +1,91 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "onomatopoeia",
+      "meaning": "形容鸟叫或低而细微的声音。",
+      "examples": [
+        "嘤嘤成韵。",
+        "鸟鸣嘤嘤。"
+      ],
+      "traditional_char": "嘤"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "鸟鸣，发出鸣叫声。",
+      "examples": [
+        "嘤其鸣矣，求其友声。",
+        "孤鸟嚶兮悲鸣。"
+      ],
+      "traditional_char": "嚶"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "低声哭泣或哽咽。",
+      "examples": [
+        "其声嘤，咽喉塞。",
+        "临别时，嘤泣不已。"
+      ],
+      "traditional_char": "嚶"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "借指鸣叫着的鸟。",
+      "examples": [
+        "流嚶复满枝。"
+      ],
+      "traditional_char": "嚶"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "比喻寻求志趣相投的朋友（如“嘤鸣相召”）。",
+      "examples": [
+        "“嘤鸣相召，友之义也。”",
+        "嘤嘤相和。"
+      ],
+      "traditional_char": "嚶"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“嘤”为形声字，从口，婴声，表示鸟鸣的声音。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "“嚶”为形声字，从言，婴声，其本义同“嘤”，为鸟鸣。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "conversion",
+      "note": "由象声词转为表示鸟鸣的动作。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "由‘鸣叫’转为‘鸣叫的鸟’。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由鸟鸣声比喻为人的低声哭泣、哽咽。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "由鸟相鸣引申比喻志同道合者互相召唤。"
+    }
+  ]
+}

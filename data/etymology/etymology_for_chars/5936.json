@@ -1,0 +1,85 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "onomatopoeia",
+      "meaning": "形容带动周围空气而起的声音，如火柴点燃或麻雀飞起等声响。",
+      "examples": [
+        "噌的一声，火柴划着了。",
+        "麻雀噌的一声飞上房。",
+        "老舍《二马》：“噌的一声划着一枝火柴。”"
+      ],
+      "traditional_char": "噌"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "onomatopoeia",
+      "meaning": "钟鼓声、市场喧闹等嘈杂声音。",
+      "examples": [
+        "噌吰，市人声。",
+        "文选·《长门赋》：“声噌吰而似钟音。”"
+      ],
+      "traditional_char": "噌"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "空旷嘈杂、空响之意。",
+      "examples": [
+        "泓噌，空囂。",
+        "晋书·王沈传：“空囂者，以泓噌为雅量。”"
+      ],
+      "traditional_char": "噌"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "叱责，斥责。",
+      "examples": [
+        "爸爸噌了他一顿。",
+        "张天翼《宝葫芦的秘密》：“我嘴里虽然噌他，我心里可觉着它的话对。”"
+      ],
+      "traditional_char": "噌"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "决裂。",
+      "examples": [],
+      "traditional_char": "噌"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "“噌”从“口”，声符“曾”，表示声音，与钟鼓声相关，属于形声字。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "由钟鼓或市场的嘈杂大声音泛化为一切猛然发出的响声，例如火柴划燃等。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "从市场等嘈杂大声音，进一步引申为空旷处的空响、空嚣。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "嘈杂、有冲击力量的声音喻为厉声斥责。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "unknown",
+      "note": "‘决裂’的义项可能与噪声相关，但具体机制不详，古籍多未阐释。"
+    }
+  ]
+}

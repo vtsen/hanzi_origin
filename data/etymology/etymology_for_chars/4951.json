@@ -1,0 +1,57 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "阻塞，壅塞，阻止流通。",
+      "examples": [
+        "阏塞",
+        "勿壅勿閼。",
+        "莫或阏之。"
+      ],
+      "traditional_char": "閼"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "遏止，抑制，禁绝。",
+      "examples": [
+        "阏绝",
+        "纵悬厉禁以阏之，民亦将进索政权而不顾。",
+        "未闻武王阏祷之命也。"
+      ],
+      "traditional_char": "閼"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "门扇，或用于指闸板（如水门、堤坝的隔板）。",
+      "examples": [
+        "起水门提阏，凡数十处。",
+        "阏，所以上壅水。"
+      ],
+      "traditional_char": "閼"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘閼’为形声字：从门，於声，最初义为遮拥、阻塞。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由阻塞引申为抑制、遏止，用于抽象事物。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "以阻塞的行为，转指执行阻塞功能的门扇、闸板。"
+    }
+  ]
+}

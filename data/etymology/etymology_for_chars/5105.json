@@ -1,0 +1,66 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "樹名，即靈壽樹，枝幹多腫節，可用作手杖。",
+      "examples": [
+        "椐，樻也。从木，居声。——《说文》",
+        "虢山，其下多桐椐。——《山海经·北山经》"
+      ],
+      "traditional_char": "椐"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "籬笆。",
+      "examples": [
+        "篱，…离也，青徐曰椐。——《释名》"
+      ],
+      "traditional_char": "椐"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "“櫸”樹的一種用法。",
+      "examples": [],
+      "traditional_char": "椐"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "other",
+      "meaning": "相继的样子，用于“椐椐强强”等叠字中。",
+      "examples": [
+        "椐椐强强"
+      ],
+      "traditional_char": "椐"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从木，居声，会意兼形声，表一种可作杖的肿节木，音义相关。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "因该木材质特征延伸指用于作篱笆的材料，东汉《释名》注。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "后世混用，成为‘櫸’的别名，义项转移。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "unknown",
+      "note": "语源不明，可能相关词义衍生或拟声用法，无明确文献记载。"
+    }
+  ]
+}

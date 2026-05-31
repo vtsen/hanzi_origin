@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古湖泊或水名、地名。指古代的澶淵、水名或與其相關的地點。",
+      "examples": [
+        "宋御遼于澶淵",
+        "澶淵聚卽其地"
+      ],
+      "traditional_char": "澶"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "水流平靜的樣子，水靜止不動。",
+      "examples": [
+        "澶湉漠而無涯",
+        "水澶湉然"
+      ],
+      "traditional_char": "澶"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "寬廣、廣大；形容事物的廣闊或長遠。",
+      "examples": [
+        "案衍澶漫",
+        "澶漫靡迤陵原之形"
+      ],
+      "traditional_char": "澶"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "放縱，豪放，縱逸的樣子。",
+      "examples": [
+        "澶漫為樂",
+        "性情澶蕩"
+      ],
+      "traditional_char": "澶"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从水，亶聲；本義指水名、湖名，用水部表意、亶表音。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由特指水名（澶淵）泛指水流平靜之貌。時間在先秦至漢代。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由水靜泛化比喻為寬廣無邊，形容抽象事物之闊大。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由水靜延伸比喻性情、行為的放縱，常見於文人詩賦。"
+    }
+  ]
+}

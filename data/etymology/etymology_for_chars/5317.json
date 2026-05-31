@@ -1,0 +1,86 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "矫正弓弩的器具",
+      "examples": [
+        "弼所以辅正弓弩者也。——《荀子·臣道》"
+      ],
+      "traditional_char": "弼"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "辅助，特指臣下辅佐君王",
+      "examples": [
+        "能弼宁晋室，辅予一人。——《晋书·元帝纪》",
+        "予违汝弼。——《书·益稷》",
+        "建立辅弼。——曹操《求言令》"
+      ],
+      "traditional_char": "弼"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "辅佐君王的大臣",
+      "examples": [
+        "梦帝赉予良弼。——《书·说命》",
+        "一日去良弼，如亡左右手。——《新唐书》"
+      ],
+      "traditional_char": "弼"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "违背，违逆",
+      "examples": [
+        "其梦如何？梦争王室，其争如何？梦王我弼。——《汉书·韦贤传》"
+      ],
+      "traditional_char": "弼"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "高、重叠、上（古义，见于方言和训诂）",
+      "examples": [
+        "弼，高也。——《方言十二》",
+        "弼，重也。——《尔雅·释诂》"
+      ],
+      "traditional_char": "弼"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从弜（弓之形），㐁声，本义为矫正弓弩的器具，后引申义多。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由矫正弓弩器具引申为辅助、辅正官员，比喻性移用；周秦至汉代。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由动词“辅佐”引申为“辅佐君王的大臣”，如“良弼”；汉晋以后。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "器具原用于纠偏——引申为“矫正”之意，后引申为“违背”，“相戾”；史籍中亦见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由辅助工具义派生为‘高’‘重叠’等抽象用法，出于古方言和训诂。"
+    }
+  ]
+}

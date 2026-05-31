@@ -1,0 +1,177 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古国名，夏代诸侯国，有扈氏。今陕西户县。",
+      "examples": [
+        "夏后同姓所封，战于甘者，在鄠有扈谷甘亭。——《说文》",
+        "有扈。——《书·甘誓序》"
+      ],
+      "traditional_char": "扈"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "侍从；随行人员，尤指帝王的护卫、养马的仆役。",
+      "examples": [
+        "厮役扈养。——《公羊传·宣公十二年》",
+        "八部之叟前导后扈，左右扶翼皇帝。——《辽史》"
+      ],
+      "traditional_char": "扈"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "随从，跟随，护卫，多指陪同帝王外出。",
+      "examples": [
+        "百官从驾，谓之扈从，或曰护之借字。——《封氏闻见记》",
+        "扈行在。"
+      ],
+      "traditional_char": "扈"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "披、佩戴。",
+      "examples": [
+        "扈江离与辟芷兮。——《楚辞·离骚》"
+      ],
+      "traditional_char": "扈"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "救护，爱护。",
+      "examples": [
+        "愁杀扈芳人。——唐·陆龟蒙《早春》",
+        "匪鳩及其身，又扈其子孙。——清·魏源"
+      ],
+      "traditional_char": "扈"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "止、制止。",
+      "examples": [
+        "扈民无淫者也。——《左传》"
+      ],
+      "traditional_char": "扈"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "adjective",
+      "meaning": "广大。",
+      "examples": [
+        "以储与扈冶。——《淮南子·要略》",
+        "尔母扈扈尔。——《礼记·檀弓》"
+      ],
+      "traditional_char": "扈"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "noun",
+      "meaning": "鸟名，一种食肉鸟，桑扈，或作鳸。",
+      "examples": [
+        "交交桑扈，有莺其羽。——《诗经·小雅·小宛》"
+      ],
+      "traditional_char": "扈"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [
+        "汉代有扈輒。见《汉书·彭越传》"
+      ],
+      "traditional_char": "扈"
+    },
+    {
+      "index": 9,
+      "part_of_speech": "noun",
+      "meaning": "古代管农事的官名。",
+      "examples": [
+        "九扈为九农正。——《左传·昭公十七年》"
+      ],
+      "traditional_char": "扈"
+    },
+    {
+      "index": 10,
+      "part_of_speech": "noun",
+      "meaning": "渔具名，后作“簄”。",
+      "examples": [
+        "有海上人于鱼扈中得一物。"
+      ],
+      "traditional_char": "扈"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从邑表示与地名有关，户为声旁，最初表古国名。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "古国名引申为该地的人，进而用于侍从、随从等官属人员。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由表示侍从的名词扩展为动词‘随从、护卫’。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "随从、护卫含有‘救护’之意，语义向‘爱护’发展。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 5,
+      "evolution_type": "semantic_shift",
+      "note": "‘随从、护卫’义在古文中发展出‘制止’的用法。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由随侍之义转喻为‘披、佩戴’（如披在身上）。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 9,
+      "evolution_type": "synecdoche",
+      "note": "随从人员类中具体指养马官、农事官的专称。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 6,
+      "evolution_type": "semantic_extension",
+      "note": "动词‘随从’引申为形容词‘广大’，形容随从队伍之壮大。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 8,
+      "evolution_type": "semantic_extension",
+      "note": "古国名衍生为姓氏。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 7,
+      "evolution_type": "unknown",
+      "note": "动物义来源未明，或为同名转借。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 10,
+      "evolution_type": "unknown",
+      "note": "渔具义来源不明，后作“簄”，可能源于古地名。"
+    }
+  ]
+}

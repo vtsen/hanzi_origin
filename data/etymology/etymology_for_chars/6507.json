@@ -1,0 +1,83 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "穿透、贯穿。（“貫”的古字，用于穿物）",
+      "examples": [
+        "毌，穿物持之也。——《说文》",
+        "疏束树木，令足以为柴摶，毌前面树。——《墨子·备城门》"
+      ],
+      "traditional_char": "毌"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "古地名，即“毌丘”，在今山东省曹县南。",
+      "examples": [
+        "宣公与郑会于西域，伐卫，取毌。——《史记·六国年表》"
+      ],
+      "traditional_char": "毌"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "姓氏，古姓氏“毌”。",
+      "examples": [
+        "魏有毌丘儉。"
+      ],
+      "traditional_char": "毌"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "使弯曲。通“弯”。",
+      "examples": [
+        "士力能毌弓，尽为甲骑。——《史记·匈奴列传》"
+      ],
+      "traditional_char": "毌"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "商代西南地区古国名。也见于“串夷”。",
+      "examples": [
+        "殷之毌国，当即《诗·皇矣篇》之‘串夷’。——杨树达《卜辞求义》"
+      ],
+      "traditional_char": "毌"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "pictograph",
+      "original_sense_index": 0,
+      "note": "象形，表示一横贯穿物体、宝货形象。‘毌’为原始的‘贯’字，用穿物之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "地名由‘穿过、贯通’引申，可能因水路地形得名。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "conversion",
+      "note": "地名转为姓氏，常见于中国古代姓氏来源机制。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由‘贯穿’扩展为‘使弯曲’，因弓弦穿梭、拉弯的动作相似。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "unknown",
+      "note": "用作商代古国族名，其具体关系机制不详，或与贯通、穿越有关。"
+    }
+  ]
+}

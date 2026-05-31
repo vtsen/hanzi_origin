@@ -1,0 +1,66 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "马、狮子等颈上的长毛",
+      "examples": [
+        "鬣鬃",
+        "刚鬣"
+      ],
+      "traditional_char": "鬣"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "鱼颔旁的小鳍",
+      "examples": [],
+      "traditional_char": "鬣"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "鬣狗，一种吃腐肉的哺乳动物",
+      "examples": [
+        "鬣狗成群觅食"
+      ],
+      "traditional_char": "鬣"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "扫帚的末端",
+      "examples": [
+        "用鬣扫地"
+      ],
+      "traditional_char": "鬣"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从髟声，猎声，表示有毛发之意。最早指动物颈部的长毛。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "鱼颔旁小鳍形似兽类的长毛，故以鬣称之。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "synecdoche",
+      "note": "以该动物颈部特征长毛为名，整体代指这种动物。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "扫帚末端形似动物颈鬃，转称其为鬣。"
+    }
+  ]
+}

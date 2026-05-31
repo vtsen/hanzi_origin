@@ -1,0 +1,38 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "装刀、剑的套子",
+      "examples": [
+        "刀鞘",
+        "剑鞘"
+      ],
+      "traditional_char": "鞘"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "拴在鞭子末端的细皮条",
+      "examples": [
+        "鞭鞘"
+      ],
+      "traditional_char": "鞘"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从革，肖声，本义为刀剑套；革表示与皮革制品有关，肖为声符。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由刀剑套引申指拴在鞭子末端的细皮条，两者皆为皮制保护或附属物。"
+    }
+  ]
+}

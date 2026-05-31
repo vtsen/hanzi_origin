@@ -1,0 +1,72 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "疾雷，霹雳；最猛烈的雷声。",
+      "examples": [
+        "畏之如雷霆。",
+        "雷霆万钧。",
+        "若疾霆转雷而激迅风也。"
+      ],
+      "traditional_char": "霆"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "闪电。",
+      "examples": [
+        "疾雷不及塞耳，疾霆不暇掩目。",
+        "雷霆电雹。"
+      ],
+      "traditional_char": "霆"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "雷神，雷公。",
+      "examples": [
+        "霆是天上靈物。",
+        "必我一鄉受禍。"
+      ],
+      "traditional_char": "霆"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "震动。",
+      "examples": [
+        "天冬雷，地冬霆，草木夏落而秋荣。",
+        "霆，震。"
+      ],
+      "traditional_char": "霆"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从雨，廷声，本义为疾雷、霹雳（强烈的雷声）"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_shift",
+      "note": "由“猛烈的雷声”泛指天空放电现象，古代‘霆、电’本为一词，后来二分。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "以“霆”泛指产生霆怒、发雷的神祇，即雷神。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "取雷霆震动大地、万物之象，引申作‘震动’义。"
+    }
+  ]
+}

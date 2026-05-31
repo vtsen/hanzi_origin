@@ -1,0 +1,102 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "衣服的前后襟，泛指衣服的大襟部分。",
+      "examples": [
+        "裾，衣袍也。从衣，居声。——《说文》",
+        "楚庄王裾衣博袍。——《淮南子·齐俗》",
+        "飘轻裾，翳长袖。——《送李愿归盘谷序》"
+      ],
+      "traditional_char": "裾"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "衣服宽大，衣物宽博的样子。",
+      "examples": [
+        "楚庄王裾衣博袍。——《淮南子·齐俗》",
+        "衣色純白，長袖寬博，裾長曳地。",
+        "裾裾（衣服华丽的样子）"
+      ],
+      "traditional_char": "裾"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "帽子周围下垂的幕帷。",
+      "examples": [
+        "帽之屠蘇垂者曰裾，亦曰裙。——《通雅·衣服一》"
+      ],
+      "traditional_char": "裾"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "被（被褥）。",
+      "examples": [
+        ""
+      ],
+      "traditional_char": "裾"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "通“倨”。傲慢、不逊。",
+      "examples": [
+        "彼浩裾自顺，不可以教下。——《晏子春秋·外篇》",
+        "禹为人廉裾。——《汉书·赵禹传》。颜师古注：“裙亦傲也。”"
+      ],
+      "traditional_char": "裾"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "通“據”。依據、凭依。",
+      "examples": [
+        "因長川之裾勢。——《文選·左思〈魏都賦〉》"
+      ],
+      "traditional_char": "裾"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从衣，居声，初指衣服的前后襟。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "衣襟宽大的服饰，从具体部位引申为衣服宽大之意。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由衣襟延伸称呼帽子下垂部分。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "由衣襟延伸借指被（被褥）。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "reanalysis",
+      "note": "古音、用法与“倨”通，被假借表达傲慢之义。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "reanalysis",
+      "note": "古音、用法与“據”通，假借为依据之义。"
+    }
+  ]
+}

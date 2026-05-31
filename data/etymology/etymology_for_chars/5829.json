@@ -1,0 +1,43 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "画眉亚科鸟类的统称，羽毛多为棕褐色，鸣声婉转好听。",
+      "examples": [
+        "林中鹛鸟啼鸣。",
+        "鶥鴰，鳥名。——《尔雅·释鸟》"
+      ],
+      "traditional_char": "鶥"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "“鶥”的简化字。",
+      "examples": [
+        "鹛是鶥的简体字。"
+      ],
+      "traditional_char": "鹛"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "鶥为形声字，从鳥，眉声，表示鸟类名称。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "鹛为鶥的简化字，从鸟，眉声。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "reanalysis",
+      "note": "简体字改革时期由鶥简化为鹛。"
+    }
+  ]
+}

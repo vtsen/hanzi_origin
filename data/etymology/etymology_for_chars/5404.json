@@ -1,0 +1,60 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "榉树，一种落叶乔木，木材坚硬，常用于家具、建筑、造船。",
+      "examples": [
+        "榉树，山中处处有之，皮似檀槐，叶如栎槲。——《本草纲目》",
+        "可做枕木、家具。"
+      ],
+      "traditional_char": "榉"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "櫸树，榉树的繁体写法，一种榆科落叶乔木，可用作药材及建筑材料。",
+      "examples": [
+        "櫸為落葉喬木，高數丈，葉作長卵形，端尖有鋸齒。",
+        "可作箱篋几案之用。俗作椐。"
+      ],
+      "traditional_char": "櫸"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "榉柳，一种柳树，枝条柔弱。",
+      "examples": [
+        "杜甫《田舍詩》：𣟱柳枝枝弱。",
+        "謂之柜柳。"
+      ],
+      "traditional_char": "櫸"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "櫸为形声字，从木，居声，本义为树名，见于《本草纲目》。《榉》为其简化字。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "榉为“櫸”的简化字，形声，从木，句声。简化沿用本义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "古文中櫸引申为櫸柳（柜柳），实为树种之间的泛称，汉代已见。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "reanalysis",
+      "note": "“榉”为“櫸”的简化字，两者意义相同，仅为字体转变，现代汉语通用。"
+    }
+  ]
+}

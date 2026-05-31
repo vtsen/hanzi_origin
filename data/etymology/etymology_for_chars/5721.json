@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "发出声音使狗行动（如咬人）。",
+      "examples": [
+        "公嗾夫獒焉——《左传·宣公二年》",
+        "嗾犬狺狺相索索，舐掌偏宜佩兰客。——唐·李贺《公无出门》"
+      ],
+      "traditional_char": "嗾"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "教唆、指使别人做坏事。",
+      "examples": [
+        "豪嗾家奴乱捶之…——《聊斋志异》",
+        "嗾台臣论劾。——查继佐《徐光启传》",
+        "这分明是嗾起学生子去鬧嘛。——张天翼《贝鬍子》"
+      ],
+      "traditional_char": "嗾"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "泛指使唤、驱使。",
+      "examples": [
+        "穿珠人把鹅嗾去，不久又复走来。——沈从文《月下小景》",
+        "嗾左右拽之出。——《夜谭随录·汪越》"
+      ],
+      "traditional_char": "嗾"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从口，族声。表示发声驱使犬只。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由本义‘使犬’引申为一般的使唤、驱使。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘使唤’进一步引申为‘教唆、指使他人做坏事’。"
+    }
+  ]
+}

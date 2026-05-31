@@ -1,0 +1,44 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "用手按",
+      "examples": [
+        "揿钮",
+        "揿电铃"
+      ],
+      "traditional_char": "揿"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "用手按",
+      "examples": [
+        "撳钮",
+        "撳电铃"
+      ],
+      "traditional_char": "撳"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘揿’为形声字，左‘扌’表与手有关，右‘禁’为声旁，初义为用手按。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "‘撳’为‘揿’的异体，结构和造字理据相同，左‘扌’表义，右‘禁’表声，初义亦为用手按。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "analogy",
+      "note": "‘撳’为‘揿’的异体，两字通用，意义一致。"
+    }
+  ]
+}

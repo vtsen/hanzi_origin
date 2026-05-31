@@ -1,0 +1,217 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "麦子",
+      "examples": [
+        "象形文字中表示麦子"
+      ],
+      "traditional_char": "來"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "由另一方面到这一方面",
+      "examples": [
+        "来往",
+        "来回"
+      ],
+      "traditional_char": "來"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "preposition",
+      "meaning": "从过去到现在",
+      "examples": [
+        "从来",
+        "向来"
+      ],
+      "traditional_char": "來"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "现在以后，未到的时间",
+      "examples": [
+        "来年",
+        "将来"
+      ],
+      "traditional_char": "來"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adverb",
+      "meaning": "表示约略估计",
+      "examples": [
+        "二百来斤"
+      ],
+      "traditional_char": "來"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "做某个动作",
+      "examples": [
+        "胡来"
+      ],
+      "traditional_char": "來"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "auxiliary",
+      "meaning": "用在动词前，表示要做某事",
+      "examples": [
+        "来动脑筋"
+      ],
+      "traditional_char": "來"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "auxiliary",
+      "meaning": "用在动词后，表示做过的动作",
+      "examples": [
+        "昨天他哭来"
+      ],
+      "traditional_char": "來"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "auxiliary",
+      "meaning": "用在动词后，表示动作的趋向",
+      "examples": [
+        "上来"
+      ],
+      "traditional_char": "來"
+    },
+    {
+      "index": 9,
+      "part_of_speech": "verb",
+      "meaning": "表示发生",
+      "examples": [
+        "暴风雨来了"
+      ],
+      "traditional_char": "來"
+    },
+    {
+      "index": 10,
+      "part_of_speech": "auxiliary",
+      "meaning": "表示列举理由",
+      "examples": [
+        "一来...二来..."
+      ],
+      "traditional_char": "來"
+    },
+    {
+      "index": 11,
+      "part_of_speech": "noun",
+      "meaning": "用作诗、歌词中的衬字",
+      "examples": [
+        "八月里来桂花香"
+      ],
+      "traditional_char": "來"
+    },
+    {
+      "index": 12,
+      "part_of_speech": "function word",
+      "meaning": "表示语气",
+      "examples": [
+        "归去来兮"
+      ],
+      "traditional_char": "來"
+    },
+    {
+      "index": 13,
+      "part_of_speech": "noun",
+      "meaning": "姓",
+      "examples": [],
+      "traditional_char": "來"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "pictograph",
+      "original_sense_index": 0,
+      "note": "甲骨文字形象化麦子形，表示最初为“麦”的意思。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "在部分用为指示动作的过程中，语音成分加入，使其与其他含义相关联。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "从麦子的收割过程，引申为移动过来的动作。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "从移动过来，引申为时间上的持续，从过去到现在。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "从移动过来，引申为未来时间的概念。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "从移动或到达的动作，表数量估计的用法。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "相对的动作用法，如“来做某事”。"
+    },
+    {
+      "source_index": 5,
+      "target_index": 6,
+      "evolution_type": "grammaticalization",
+      "note": "用作动词的前缀，表示做某事。"
+    },
+    {
+      "source_index": 6,
+      "target_index": 7,
+      "evolution_type": "grammaticalization",
+      "note": "作为动词后缀，指过去完成的动作。"
+    },
+    {
+      "source_index": 6,
+      "target_index": 8,
+      "evolution_type": "grammaticalization",
+      "note": "作为动词后缀，表示方向的趋向。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 9,
+      "evolution_type": "semantic_extension",
+      "note": "引申为一般的事件或现象的发生。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 10,
+      "evolution_type": "semantic_extension",
+      "note": "引申为列举的用法以强调逻辑。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 11,
+      "evolution_type": "function_word",
+      "note": "用作歌曲或诗词中的衬字。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 12,
+      "evolution_type": "function_word",
+      "note": "表示语气延续。"
+    }
+  ]
+}

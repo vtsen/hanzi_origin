@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "河流名，主要指浊漳水、清漳水及合流后的漳河，在中国山西、河北、河南等地。",
+      "examples": [
+        "漳，浊漳，出上党长子鹿谷山东入清漳。——《说文》",
+        "清漳，出沾山大要谷北入河。——《说文》",
+        "《书•禹贡》：覃怀底绩，至于衡漳。"
+      ],
+      "traditional_char": "漳"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "江河名，今指福建漳江。",
+      "examples": [
+        "〔漳江〕水名，在中国福建省。",
+        "唐垂拱二年置，治所在福建省漳浦县。",
+        "乾元初，移治龙溪，即今漳州市。"
+      ],
+      "traditional_char": "漳"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "古地名，漳州，唐代所设，今福建漳州市。",
+      "examples": [
+        "古州名。唐垂拱二年置，治所在福建省漳浦县，乾元初，移治龙溪，即今漳州市。"
+      ],
+      "traditional_char": "漳"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "通“障”，指水障、堤防。",
+      "examples": [
+        "参见“漳防”。"
+      ],
+      "traditional_char": "漳"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“漳”从“水”表示水流，与声旁“章”构成形声字，最初指特定的水名。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "漳原为中原河流名，后泛指南方其他同名水体。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "以河流名转指流域行政地名。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "reanalysis",
+      "note": "由地理水名借用于水障、防护设施，或受到同音词“障”的影响。"
+    }
+  ]
+}

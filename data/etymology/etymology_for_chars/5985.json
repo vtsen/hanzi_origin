@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "身体瘦弱",
+      "examples": [
+        "身体瘦瘠",
+        "形容人瘦弱"
+      ],
+      "traditional_char": "瘠"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "土地不肥沃",
+      "examples": [
+        "瘠土",
+        "瘠田",
+        "贫瘠"
+      ],
+      "traditional_char": "瘠"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "薄，简约",
+      "examples": [
+        "若是则瘠，瘠则不足欲"
+      ],
+      "traditional_char": "瘠"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从疒表意，脊表声，初指身体因病而瘦弱。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由形容人体瘦弱比喻土地贫瘠，见于古汉语语义迁移。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由土地贫瘠引申为“薄，简约”，语义扩展。"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "盛大，充满，旺盛的样子；形容繁盛或充盈。",
+      "examples": [
+        "飞龙在天，云雨阗阗。",
+        "宾客阗门。",
+        "闐城溢郭，旁流百廛。",
+        "琳琅古籍闐架而溢籤。"
+      ],
+      "traditional_char": "闐"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "充满；填塞。",
+      "examples": [
+        "宾客阗门。",
+        "闐五營之勁卒。"
+      ],
+      "traditional_char": "闐"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "声音大，喧闹。",
+      "examples": [
+        "喧阗。",
+        "轰轰阗阗。",
+        "怒涛泼地轰雷阗。"
+      ],
+      "traditional_char": "闐"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "于阗，古地名，今新疆和田。",
+      "examples": [
+        "于阗国。",
+        "见“于阗”。"
+      ],
+      "traditional_char": "闐"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从门，真声，本义为盛大、充满，闐为正体。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "conversion",
+      "note": "由形容词“盛大、充满”引申为动词“充满、填塞”，古今共存。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由盛大充满的状态比喻为声音盛大、喧闹，多用于鼓声、车马声等场景。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "以地理名称“于阗”，本意指繁盛、充满的地方，后专名化为地名。"
+    }
+  ]
+}

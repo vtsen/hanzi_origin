@@ -1,0 +1,51 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "划船用的短桨",
+      "examples": [
+        "舟楫",
+        "中流击楫而誓"
+      ],
+      "traditional_char": "楫"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "船工（泛指掌桨的人）",
+      "examples": [
+        "楫师"
+      ],
+      "traditional_char": "楫"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "聚集（古同“辑”）",
+      "examples": [],
+      "traditional_char": "楫"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从木，集声。本义为船桨。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "以“楫”指驾桨者，即船工。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "“楫”假借作“辑”，表示聚集，见于古文。"
+    }
+  ]
+}

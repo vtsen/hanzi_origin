@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "禽兽的骨头，引申为人或动物的骨骼。",
+      "examples": [
+        "禽兽之骨曰骼。《说文》",
+        "骨骼（亦作“骨胳”）"
+      ],
+      "traditional_char": "骼"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "枯骨，尸骨，特指死人的骨头。",
+      "examples": [
+        "掩骼埋胔。《礼记·月令》",
+        "请肆彼遗骼，存此招魂邱。——清·高其倬《碧云寺》诗"
+      ],
+      "traditional_char": "骼"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "股骨，牲畜后脛骨，或指腰骨。",
+      "examples": [
+        "膊骼，股骨。《仪礼·必牢馈食礼》郑玄注"
+      ],
+      "traditional_char": "骼"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从骨，各声。本义为禽兽之骨。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从泛指骨头引申为特指枯骨、死人骨，汉至六朝文献皆有用例。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_narrowing",
+      "note": "由骨头泛称发展为特指股骨或后脛骨，多见于礼仪、医典等专业用语。"
+    }
+  ]
+}

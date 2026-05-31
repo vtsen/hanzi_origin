@@ -1,0 +1,102 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "白色；白发或须发。",
+      "examples": [
+        "皤，老人白也。——《说文》",
+        "贲如皤如。——《易·贲》",
+        "皤皤国老。——《后汉书·樊准传》",
+        "潘令鬢先皤。"
+      ],
+      "traditional_char": "皤"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "大腹，肚子大。",
+      "examples": [
+        "皤其腹。——《左传·庄公二年》",
+        "皤皤（腹大貌）"
+      ],
+      "traditional_char": "皤"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "草名，白蒿。",
+      "examples": [
+        "蘩，皤蒿。",
+        "皤蒿白蒿也。"
+      ],
+      "traditional_char": "皤"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "动物腹部白色（指青蛙的白腹）。",
+      "examples": [
+        "帝箸下腹嘗其皤。——《韩愈·月蝕詩》"
+      ],
+      "traditional_char": "皤"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "丰盛、丰多的样子。",
+      "examples": [
+        "行庖皤皤。——《左思·魏都赋》"
+      ],
+      "traditional_char": "皤"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "马足横行。",
+      "examples": [
+        "马作足横行曰皤。——《易·贲卦》董遇注"
+      ],
+      "traditional_char": "皤"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从白，番声，表示白色，特指老人白发。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由白色形貌引申为腹部肥大常见于老人，大腹貌。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "以白色属性称呼白色的植物，白蒿。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "由白色含义指称动物腹下的白色区域（如青蛙）。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "由白发老人形象引申为丰盛、丰多的样子。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "unknown",
+      "note": "释义为马足横行，关系不明，古注有此用。"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "浅赤色或赤色的丝织品，指红色的帛。",
+      "examples": [
+        "缙，帛赤色也。——《说文》",
+        "济济多士，端魏缙綎。——《后汉书·蔡邕传》"
+      ],
+      "traditional_char": "縉"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "古代官名，缙云氏，为黄帝时官名。",
+      "examples": [
+        "缙云氏有不才子。——《左传·文公十八年》"
+      ],
+      "traditional_char": "縉"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "插。通“搢”，插笏于带。",
+      "examples": [
+        "缙绅而无钩带矣。——《荀子·礼论》"
+      ],
+      "traditional_char": "縉"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "官僚、士大夫。借指有官位或身份的人。",
+      "examples": [
+        "缙绅便览",
+        "其语不经见，缙绅者弗道。——《汉书·郊祀志上》"
+      ],
+      "traditional_char": "縉"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字。从糸，晋声。本义为“赤色丝帛”。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "以浅赤色丝帛为标志引申为官名，春秋及先秦礼仪文化中官名多以服色命名。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "缙假借为“搢”，本意与插有关，二者音同而互通。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "由插笏于绅的仪式装束，引申为专称官僚阶层。"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "形容山峰高峻重叠",
+      "examples": [
+        "西岳崚嶒竦处尊，诸峰罗列似儿孙。",
+        "崚嶒起靑嶂。"
+      ],
+      "traditional_char": "崚"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "（比喻）节操崇高坚贞",
+      "examples": [],
+      "traditional_char": "崚"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "（比喻）气势不凡",
+      "examples": [],
+      "traditional_char": "崚"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "左‘山’为意符，右‘夌/棱’为声符，形声字，初指山峻高貌。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "以山势高峻喻人格高尚，见于文人用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "以山势高峻喻气势不凡。"
+    }
+  ]
+}

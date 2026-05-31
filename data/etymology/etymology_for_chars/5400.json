@@ -1,0 +1,70 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "栏杆的横木，泛指栏杆。",
+      "examples": [
+        "楯类腾龙。——何晏《景福殿赋》",
+        "旧时栏楯，亦逆增胜。——明·归有光《项脊轩志》"
+      ],
+      "traditional_char": "楯"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "通“盾”，即盾牌；泛指防卫之物。",
+      "examples": [
+        "楚人有鬻楯与矛者。——《韩非子·难一》",
+        "左执楯而导之。——《新唐书》"
+      ],
+      "traditional_char": "楯"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "拔擢，提拔（引申义）。",
+      "examples": [
+        "引楯万物，群美萌生。——《淮南子·原道训》"
+      ],
+      "traditional_char": "楯"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "古代装载棺柩的车或泥路上的运输工具（即“輴”）。",
+      "examples": [
+        "死得于腞楯之上。——《庄子·达生》",
+        "不易者，不易以楯也。——《礼记·杂记上》"
+      ],
+      "traditional_char": "楯"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从木，盾声。本义为栏杆的横木。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由遮拦（栏杆横木）引申为防护工具——盾牌。二者遮蔽、保护的功能类似。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "栏杆横木引申为“拔擢”，“引楯”意为提升、引出。用障碍物引发新生或变化之意。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "栏杆木结构引申为运输棺柩的车，因其结构中有横木。古书也记为“輴”。"
+    }
+  ]
+}

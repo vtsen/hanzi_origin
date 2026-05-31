@@ -1,0 +1,44 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "锹，一种人力翻土的农具。",
+      "examples": [
+        "太平御览引《淮南子·齐俗训》：“修脚者使之蹠鏵。”",
+        "明 徐光启《农政全书》：“开垦生地宜用镵，翻转熟地宜用鏵。”"
+      ],
+      "traditional_char": "鏵"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "安装在犁上用来破土的铁片（犁头、犁铧）。",
+      "examples": [
+        "犁铧",
+        "铧式犁"
+      ],
+      "traditional_char": "鏵"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "鏵从‘金’（表示金属），声旁‘华’。本义为锹。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "铧为鏵的简化字，从‘钅’（表示金属），声旁‘华’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由泛指农用金属翻土工具（锹），引申为犁上专用于破土的铁片部件。"
+    }
+  ]
+}

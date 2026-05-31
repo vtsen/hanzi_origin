@@ -1,0 +1,40 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "竹名，一种竹子，产于南方，坚硬而有毒，可用为矛。",
+      "examples": [
+        "交趾有篥竹，實中，勁強，有毒，銳似刺，虎中之則死，亦此類也。",
+        "日南有篥竹，勁利，削爲矛。"
+      ],
+      "traditional_char": "篥"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "觱篥，一种古代管乐器，以竹为管，外形类似胡笳，声音高亢凄厉。",
+      "examples": [
+        "胡人吹葭管也。",
+        "蘆管數聲蠻瘴開，沙壙無人鬼吹篥。",
+        "宋大宗時三大宴皇帝升座宰相進酒庭中吹觱篥以眾樂和之。"
+      ],
+      "traditional_char": "篥"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从竹，栗声，原指一种竹，后引申为乐器名。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "因以篥竹制管，用来制作管乐器，乐器以原材料竹名得名，东汉魏晋后普及。"
+    }
+  ]
+}

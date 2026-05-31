@@ -1,0 +1,38 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "某些节肢动物摄取食物的器官。",
+      "examples": [
+        "蚂蚁的颚十分有力，用于切割食物。"
+      ],
+      "traditional_char": "顎"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "口腔内上部或下部的骨骼结构，即腭。",
+      "examples": [
+        "上颚",
+        "下颚"
+      ],
+      "traditional_char": "顎"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从页，咢声，本指节肢动物摄食器官。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "人体口腔骨骼结构形似节肢动物颚，语义由动物器官转指人类口腔结构。"
+    }
+  ]
+}

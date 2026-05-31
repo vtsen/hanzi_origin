@@ -1,0 +1,52 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "登山的小路，山间可攀登的小道。",
+      "examples": [
+        "青嶝崛起，丹樓間出。",
+        "雲縈九折嶝，風捲萬里波。",
+        "嶝石（山道上的石阶）"
+      ],
+      "traditional_char": "嶝"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "小山坡。",
+      "examples": [
+        "嶝，小坂也。——《玉篇·山部》"
+      ],
+      "traditional_char": "嶝"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "仰，仰望（借用义，通“隥”）。",
+      "examples": [],
+      "traditional_char": "嶝"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘嶝’从山，登声，形声字，最初指山路或山间可攀登的小道。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由山中小道义扩展为小山坡。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "通‘隥’，用作‘仰’的意思，属于借用。"
+    }
+  ]
+}

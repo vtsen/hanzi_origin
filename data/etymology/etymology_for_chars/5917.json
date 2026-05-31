@@ -1,0 +1,70 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "徘徊不前，来回走动。",
+      "examples": [
+        "踯于六闲。",
+        "踯躅焉。"
+      ],
+      "traditional_char": "踯"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "蹬踢，脚步用力踏踢。",
+      "examples": [
+        "喜则齐鼻，怒则奋踯。",
+        "踯踏跳跃。"
+      ],
+      "traditional_char": "踯"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "跳跃。",
+      "examples": [
+        "熊蹲豹躑爭低昂。",
+        "魚躑水禽鳴。"
+      ],
+      "traditional_char": "躑"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "徘徊不前，来回走动。（“躑”的用法）",
+      "examples": [
+        "躑躅焉。",
+        "得以數千躑躅三輔。"
+      ],
+      "traditional_char": "躑"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“踯”形声字；足为意符，戠表声，最初指徘徊不前。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 2,
+      "note": "“躑”形声字；足为意旁，戠为声旁，本义指跳跃。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "动作相关，徘徊引申为脚步蹬踢。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "跳跃动作常见于徘徊游移动作，义项转化。"
+    }
+  ]
+}

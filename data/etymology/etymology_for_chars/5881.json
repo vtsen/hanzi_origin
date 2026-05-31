@@ -1,0 +1,116 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "一种香草或药草",
+      "examples": [
+        "蕲茞（香草名。即“蘼芜”）",
+        "蕲艾"
+      ],
+      "traditional_char": "蘄"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "祈求，祷告",
+      "examples": [
+        "不蕲畜乎樊中。——《庄子·养生主》",
+        "所以蕲有道行有义者。——《吕氏春秋·振乱》",
+        "凡闻当世贤公卿大夫之名，则必蘄一见。"
+      ],
+      "traditional_char": "蘄"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "地名，今湖北省蕲春县一带",
+      "examples": [
+        "蕲艾、蕲蛇、蕲竹均为蕲春出产的药材",
+        "江夏有蘄春县。"
+      ],
+      "traditional_char": "蘄"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "边界，疆界",
+      "examples": [
+        "跨天下而无蕲。——《荀子·儒效》"
+      ],
+      "traditional_char": "蘄"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "马嚼子（马的口中铁器）",
+      "examples": [
+        "结驷方蕲。——张衡《东京赋》"
+      ],
+      "traditional_char": "蘄"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "汉有弘农太守蘄良。"
+      ],
+      "traditional_char": "蘄"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "古县名，战国楚邑，秦置蘄县，汉属沛郡",
+      "examples": [
+        "陈胜等起蘄，至陈而王。——《史记·高祖本纪》"
+      ],
+      "traditional_char": "蘄"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从艸，冀声。形声字，最初表香草义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "由香草本义借用同音通“祈”，用作祈求之意，见早期文献。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "以出产地（蕲春）代指当地特产，常见于地名用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "香草名称转化为姓氏，常见于汉姓形成机制。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "地名义进一步引申为边界、疆界之意。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "unknown",
+      "note": "马嚼子义，字书记载但义源不明，可能音近借用。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 6,
+      "evolution_type": "semantic_narrowing",
+      "note": "由较广的地名泛指，进一步专指古县名。"
+    }
+  ]
+}

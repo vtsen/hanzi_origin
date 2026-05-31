@@ -1,0 +1,120 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "草木枯干、干枯的状态",
+      "examples": [
+        "槁，木枯也。——《说文》",
+        "草木摇落，时槁悴兮。——《楚辞·九叹·远逝》",
+        "其子趋而往视之，苗则槁矣。——《孟子·公孙丑上》"
+      ],
+      "traditional_char": "槁"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "泛指干枯之物，如枯叶、枯木",
+      "examples": [
+        "及以燕赵起而攻之，若振槁然。——《荀子·王霸》",
+        "败槁布地。",
+        "举若振槁。——《史记·礼书》"
+      ],
+      "traditional_char": "槁"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "形容人羸瘦、憔悴、枯槁的样子",
+      "examples": [
+        "颜色憔悴，形容枯槁。——《史记·屈原列传》",
+        "槁项黄馘者，商之所短也。——《庄子·列御寇》",
+        "槁面（憔悴衰老的面容）"
+      ],
+      "traditional_char": "槁"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "死亡、枯死",
+      "examples": [
+        "文山负其马，立槁，至今马冢尚在。——明·高攀龙《三时记》",
+        "槁死（枯死；困死）"
+      ],
+      "traditional_char": "槁"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "敲打（通“考”）",
+      "examples": [
+        "颎如槁石火。——潘岳《河阳县诗》",
+        "袾子举揖而槁之，殪之坛上。——《墨子·明鬼下》"
+      ],
+      "traditional_char": "槁"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "以酒肉等慰劳（通“犒”）",
+      "examples": [
+        "槁禬，槁飫（古籍中作‘犒劳’义）"
+      ],
+      "traditional_char": "槁"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "撑船的竿（通“篙”）",
+      "examples": [
+        "槁工楫师，选自闽禺。——左思《吴都赋》"
+      ],
+      "traditional_char": "槁"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从木，高声，表示草木枯干。‘木’表义，‘高’表音。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由形容词‘枯干’转为泛指所有干枯之物，如枯叶、枯木，用于名词。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由植物‘枯槁’状态比喻为人形容憔悴、瘦弱。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "草木枯干引申为死亡、枯死。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "假借为‘考’，表示敲打的动作，古用通假。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "假借为‘犒’，用作‘犒劳’义，主要见于古籍。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "假借通‘篙’，表示撑船用的竹竿或木竿。"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "湖南省的一条河流名（溆水）",
+      "examples": [
+        "入溆浦余儃佪兮，迷不知吾所如。——《楚辞·屈原·涉江》"
+      ],
+      "traditional_char": "溆"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "水边，河岸",
+      "examples": [
+        "长飚落江树，秋月照沙溆。——南朝梁·何逊《赠江长史别》",
+        "说着已到了花溆的萝港之下，觉得阴森透骨，两滩上衰草残菱，更助秋兴。——《红楼梦》"
+      ],
+      "traditional_char": "溆"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "‘溆’为形声字，左‘氵’表意（水），右‘序’表声，原指水边，与‘漵’同用。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_narrowing",
+      "note": "专指湖南一条具体的水名，由一般水边之义转为地名专称。"
+    }
+  ]
+}

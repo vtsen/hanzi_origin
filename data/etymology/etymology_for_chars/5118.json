@@ -1,0 +1,60 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "车轮周围的框子，轮缘，辋。",
+      "examples": [
+        "车轮之中，内集轮辐，外接辋，圆转一圈者，是曰辅也。",
+        "辋幰（挂在车轮外的帷幔）",
+        "重辋縵轮，繆龙绕之。"
+      ],
+      "traditional_char": "輞"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "宫殿屋檐上的环状饰物。",
+      "examples": [
+        "铁輞星悬。",
+        "铜鐃月斥，铁輞星悬。"
+      ],
+      "traditional_char": "輞"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "“辋”为“輞”的简化字。",
+      "examples": [
+        "“辋川”即“輞川”"
+      ],
+      "traditional_char": "辋"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“輞”形声字，从车，罔声，指车轮外框（本义）。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 2,
+      "note": "“辋”为“輞”的简化字，结构仍为形声字，语音义承袭于輞。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由车轮外圈引申为宫殿檐下环状饰物，见唐代文献。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "reanalysis",
+      "note": "“辋”作为“輞”的简化字，字形变化但含义延续，语义承接。"
+    }
+  ]
+}

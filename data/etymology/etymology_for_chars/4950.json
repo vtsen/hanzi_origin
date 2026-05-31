@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "守门人，负责把守宫门或其他重要门禁的人。",
+      "examples": [
+        "吾令帝阍开关兮，倚阊阖而望予。",
+        "阍者，守门之贱者也。《礼记》"
+      ],
+      "traditional_char": "閽"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "宫门、门户，尤指王宫、天宫等的正门或重要门禁。",
+      "examples": [
+        "怀帝阍而不见，奉宣室以何年？",
+        "叫阍开天庭，延群神。"
+      ],
+      "traditional_char": "閽"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "阍寺，古代宫廷中掌守王宫门禁及杂务的官吏之称。",
+      "examples": [
+        "艮为阍寺。《易·说卦传》",
+        "阍门者，寺人也。《谷梁传》"
+      ],
+      "traditional_char": "閽"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "守门，执行守门职责。",
+      "examples": [
+        "阍犬（看门狗）；阍吏（守门小吏）；阍侍（守门的奴仆）",
+        "阍竪（守门的童仆）"
+      ],
+      "traditional_char": "閽"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“閽”形声字，从門（表示门与守卫有关），昏为声，兼取门禁昏暗、未明之象，原义为守门人。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由指守门人引申为所守之宫门或门户。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "从普通守门人引申到专指宫廷相关的守门官吏。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "conversion",
+      "note": "名词化为动词，表示执行守门职责。"
+    }
+  ]
+}

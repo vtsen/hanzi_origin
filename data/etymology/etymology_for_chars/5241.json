@@ -1,0 +1,87 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "众多，数量多",
+      "examples": [
+        "猥众",
+        "猥多"
+      ],
+      "traditional_char": "猥"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "琐碎而杂乱",
+      "examples": [
+        "猥杂",
+        "猥滥"
+      ],
+      "traditional_char": "猥"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "苟且随便，不加检点",
+      "examples": [
+        "猥随俗之毁誉",
+        "猥从"
+      ],
+      "traditional_char": "猥"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "卑鄙，下流",
+      "examples": [
+        "卑猥",
+        "猥亵",
+        "猥劣"
+      ],
+      "traditional_char": "猥"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "自谦之辞，表示低贱",
+      "examples": [
+        "猥自枉屈，三顾臣于草庐之中"
+      ],
+      "traditional_char": "猥"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘猥’从犬，畏声，本义为众多，犬群聚有众多之意，形声字。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从“众多”引申为“琐碎杂乱”，因事物多而杂乱。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "由“众多”引申为行为不检点，行动杂乱无章。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "pejoration",
+      "note": "由“杂多”进一步演变为“鄙陋、下流”等贬义。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "amelioration",
+      "note": "用于自谦，转义为自己地位低贱，礼貌用法。"
+    }
+  ]
+}

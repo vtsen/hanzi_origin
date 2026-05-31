@@ -1,0 +1,69 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古代一种肉刑，用刀在人的额面上刻字并涂墨，亦称墨刑。",
+      "examples": [
+        "黥，墨刑在面也。——《说文》",
+        "《书·吕刑》：爰始淫为劓、刵、椓、黥。"
+      ],
+      "traditional_char": "黥"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "受过黥刑的人，泛指罪犯。",
+      "examples": [
+        "自唐失其政，天下乘时，黥髡盗贼。——《新五代史》"
+      ],
+      "traditional_char": "黥"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "在人的脸上或身体上刺字、文身并涂墨，作为刑罚或标记，也指装饰性刺青。",
+      "examples": [
+        "景福元年，朱瑄叛于兖郓，募勇士数百，黥双雁于颊，立为雁子都。",
+        "隋书·东夷传·流求国：妇人以墨黥手，为虫蛇之文。"
+      ],
+      "traditional_char": "黥"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "雕刻，镌刻。",
+      "examples": [
+        "声明走百灵，结构黥幽谷。——清·魏源《白岳东崖》"
+      ],
+      "traditional_char": "黥"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘黥’为形声字，从黑，京声。‘黑’表义，指墨染面，‘京’表音。原指墨刑。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由刑罚本身转指受刑之人，汉魏六朝见多例。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "从特定刑罚动作引申至一般指刺青或在人体上刺字、作记号。南北朝至隋唐普遍。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由在皮肤上刻画引申至在其他物体上雕刻镌刻，出现于清代文学。"
+    }
+  ]
+}

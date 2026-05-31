@@ -1,0 +1,87 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "初生的芦苇",
+      "examples": [
+        "彼茁者葭， 壹发五豝。",
+        "沙洲葭苇。"
+      ],
+      "traditional_char": "葭"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "芦苇中的薄膜（葭莩）；比喻关系疏远的亲戚",
+      "examples": [
+        "非有葭莩之亲，鸿毛之重。",
+        "吹葭六琯动飞灰。"
+      ],
+      "traditional_char": "葭"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "古管乐器名（通“笳”）",
+      "examples": [
+        "发引和，校鸣葭。",
+        "鸣葭戾朱宫，兰卮献时哲。"
+      ],
+      "traditional_char": "葭"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "荷叶（通“蕸”或“茄”，用于“葭”音xiá）",
+      "examples": [
+        "荷，芙渠，其茎茄，其叶葭。",
+        "芙蕖其𫟒蕸或省葭。"
+      ],
+      "traditional_char": "葭"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "远（通“遐”，用于地名“葭萌”等）",
+      "examples": [
+        "见“葭萌”。",
+        "葭萌，远方的人民。"
+      ],
+      "traditional_char": "葭"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从艸，叚声，本义为初生芦苇。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由芦苇本体转指芦苇中的薄膜及相关亲属比喻，见汉代文献。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "芦苇制管乐器，由实物喻及器物，见先秦至汉代诗文。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "“葭”假借作荷叶（本作蕸）用，主要见于古籍释名。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "“葭”通“遐”，以音假义，常见于地名用法。"
+    }
+  ]
+}

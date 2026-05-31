@@ -1,0 +1,68 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "少，细微，微小。",
+      "examples": [
+        "戋微物，想太史亦当无所用。",
+        "为数戋戋",
+        "束帛戋戋"
+      ],
+      "traditional_char": "戔"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "伤害，损害，贼害（古义，见于《说文解字》）。",
+      "examples": [
+        "贼也。",
+        "伤也。"
+      ],
+      "traditional_char": "戔"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "剷除、削平（古义）。",
+      "examples": [
+        "禽姦戔猾"
+      ],
+      "traditional_char": "戔"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "“残”的古字。",
+      "examples": [],
+      "traditional_char": "戔"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 1,
+      "note": "从二戈，象二戈相交，表示攻击、伤害之意，后引申其他含义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "从“伤害、损害”义发展为一般的“残害”义，部分语境下通“残”。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由‘伤害/损害’义引申为‘铲除、削平’。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_shift",
+      "note": "由‘损害’转为‘微少、细小’义，反映事物损耗后之少量。"
+    }
+  ]
+}

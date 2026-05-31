@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "疥疮，皮肤病名，古代泛指疮疡。",
+      "examples": [
+        "瘙，疮瘙。——《广韵》",
+        "瘙，疮也。——《广雅》",
+        "调蚌粉，涂瘙痱。——《本草纲目》"
+      ],
+      "traditional_char": "瘙"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "（皮肤）发痒的感觉。",
+      "examples": [
+        "瘙痒病（仅有瘙痒感觉而无原发性病变的皮肤病，有全身性和局部性两种）",
+        "像长疥疮那样发痒：～痒。"
+      ],
+      "traditional_char": "瘙"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "用指甲搔抓发痒处。",
+      "examples": [
+        "瘙癢（搔抓发痒）"
+      ],
+      "traditional_char": "瘙"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘疒’表意，指病症；‘喿’表声，意指疥疮类皮肤病。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由具体的疥疮等皮肤病名称引申为一般的皮肤瘙痒。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "conversion",
+      "note": "由瘙痒的感觉转化为搔抓动作，现代动用。"
+    }
+  ]
+}

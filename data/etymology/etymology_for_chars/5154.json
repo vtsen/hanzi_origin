@@ -1,0 +1,89 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "小孩的哭叫声",
+      "examples": [
+        "啾，小儿声也。——《说文》",
+        "楚辞：蟪蛄鸣兮啾啾"
+      ],
+      "traditional_char": "啾"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "细小动物或虫类的鸣叫声，亦作象声词",
+      "examples": [
+        "～～鸟鸣",
+        "秋虫～～",
+        "鳴玉鸞之啾啾——《楚辞·离骚》"
+      ],
+      "traditional_char": "啾"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "众声杂沓，群体喧杂声",
+      "examples": [
+        "啾喧（犹喧嚣）",
+        "啾嘈（喧杂细碎的声音）",
+        "啾哗（喧闹）",
+        "文选•马融《长笛赋》：啾咋嘈啐似华羽兮，絞灼激以转切。"
+      ],
+      "traditional_char": "啾"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "吟唱、歌吟声",
+      "examples": [
+        "夫啾发投曲，感耳之声。——《文选·班固·答宾戏》",
+        "口吟。"
+      ],
+      "traditional_char": "啾"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "吹奏（笙、箫等乐器）",
+      "examples": [
+        "李咸用《远公亭牡丹》：平头奴子啾银笙。"
+      ],
+      "traditional_char": "啾"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘啾’从口，秋声，表示声音，形声字，最初指小儿的声音。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘小儿哭声’扩展为各种细碎的动物叫声，春秋战国时期文献可见。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由单一动物声音，引申为众声杂沓、群体喧杂声，见于汉魏六朝。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由众声喧杂比喻为人吟唱的声音，取其声音连绵、缭绕之意，见于《文选》。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "由歌吟声引申为‘吹奏器乐’，取“出声”之义，唐诗可见。"
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "分裂牲畜肢体以祭祀神明的仪式",
+      "examples": [
+        "季春之月九门磔攘。——《礼记·月令》",
+        "祭风曰磔。——《尔雅》"
+      ],
+      "traditional_char": "磔"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "以车裂等方式分裂人体的酷刑",
+      "examples": [
+        "吴子胥不磔姑苏东门外乎！——《荀子》",
+        "李嗣源遣使部送潞州叛将杨立等到阙，并磔于市。——《旧五代史》"
+      ],
+      "traditional_char": "磔"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "斩杀、捕杀或割裂动物、剖开、张开（如张开毛发）等动作",
+      "examples": [
+        "磔其枭狼，养以雨风。——韩愈《许国公神道碑铭》",
+        "毛发如磔蝟。——清·和邦额《夜谭随录》"
+      ],
+      "traditional_char": "磔"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "用钉钉住，固定",
+      "examples": [
+        "国王磔之十字架上。——俞正燮《癸巳类稿》",
+        "许迁切于除盗，嫉恶过当，或钉磔贼人。——《旧五代史》"
+      ],
+      "traditional_char": "磔"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "投掷、砸",
+      "examples": [
+        "磔石拄关，以为威胁。——唐·牛僧孺《玄怪录》",
+        "拔距磔石之夫。——《梁书·元帝纪》"
+      ],
+      "traditional_char": "磔"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "汉字书法中的“捺”笔（右下方的斜捺笔画）",
+      "examples": [
+        "八法者，永字八笔是矣。一曰侧，...八曰磔。——《书法通释·八法篇》",
+        "磔忆昔以迟移。——崔瑗《永字八法歌》"
+      ],
+      "traditional_char": "磔"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "onomatopoeia",
+      "meaning": "拟声词，模仿鸟鸣等高亢的声音",
+      "examples": [
+        "磔磔云霄间。——苏轼《石钟山记》"
+      ],
+      "traditional_char": "磔"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘磔’为形声字，从‘石’（意符，表示与石头裂开等动作有关），‘桀’为声旁。最初指分裂牲畜肢体祭祀，与“裂”之意相关。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由分裂牲畜祭神引申为分裂人体的酷刑，东周至秦汉时期形成。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由分裂、张开的动作进一步泛化为剖开、张开、捕杀等。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "从剖裂、分解延伸为用钉固定；动作关联。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "“分裂、抛开”的动作泛化为“投掷、砸”。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 5,
+      "evolution_type": "metaphor",
+      "note": "通过捺笔动作的展开、张开，与“分裂、张开”有动作形象上的隐喻。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 6,
+      "evolution_type": "metaphor",
+      "note": "鸟鸣声高亢且似张开，音响形象比附“裂开、展开”，形成拟声用法。"
+    }
+  ]
+}

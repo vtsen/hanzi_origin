@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古代一种剃去头发的刑罚。",
+      "examples": [
+        "髡，剃发也。——《说文》",
+        "髡者，使守积。——《周礼·掌戮》",
+        "乃髡钳季布。——《史记·季布栾布列传》"
+      ],
+      "traditional_char": "髡"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "剃去头发。",
+      "examples": [
+        "公自城上见己氏之妻发美，使髡之以为吕姜鬄。——《左传·哀公》",
+        "辩通凿颠者髡。——刘向《列女传》"
+      ],
+      "traditional_char": "髡"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "僧侣，和尚的代称。",
+      "examples": [
+        "巨以为残蠹于民者，群髡最大。——唐 孙樵《复佛寺奏》",
+        "望见一髡，大醉，吐穢于道。——宋 蔡绦《铁围山丛谈》"
+      ],
+      "traditional_char": "髡"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "剪去树木枝条，修剪树枝。",
+      "examples": [
+        "十年以后髡一树，得一载，岁髡二百树，五年一周。——《齐民要术》"
+      ],
+      "traditional_char": "髡"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从髟（与毛发有关）作意符，兀作声符，本义为剃发之刑。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由表示刑罚的名词引申为一般剃发的动词含义，较早出现在先秦文献。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "因僧尼剃发而以髡代称僧侣，唐宋时常见。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "比喻将树枝剪光，借剃发意引申为修剪树枝，《齐民要术》等农业书中见。"
+    }
+  ]
+}

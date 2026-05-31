@@ -1,0 +1,60 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "高大，尤其指门高大。",
+      "examples": [
+        "高门有闶。——张衡《西京赋》",
+        "閌閬閬其寥廓兮，似紫宮之崢嶸。——扬雄《甘泉赋》"
+      ],
+      "traditional_char": "閌"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "门限。",
+      "examples": [
+        "高门有閌，列坐金狄。——张衡《西京赋》",
+        "高门有閌。——左思《魏都赋》"
+      ],
+      "traditional_char": "閌"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "（方言）中空廊的部分，指建筑物中空长廊。",
+      "examples": [
+        "这井下面的闶阆真大。",
+        "闶阆子"
+      ],
+      "traditional_char": "闶"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，“门”表义，表示与门户有关，“亢”声，古作“閌”，本义为门高大。"
+    },
+    {
+      "formation_type": "simple_indicative",
+      "original_sense_index": 2,
+      "note": "“闶”为“閌”的简化字，但部分方言及名词用法所指空间与高大门含义略有差异，表方言用法。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_narrowing",
+      "note": "“高大之门”功能上引申为具体的门限（门的横木或下槛），属意义收缩。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "原本义为‘高大门’，在方言中语义转移至‘建筑物廊道空间’，机制不明，属于语义转变。"
+    }
+  ]
+}

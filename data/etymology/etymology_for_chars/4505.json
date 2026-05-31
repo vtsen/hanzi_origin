@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "穿鞋时把鞋后帮踩在脚后跟下，或只套脚尖。",
+      "examples": [
+        "趿拉着鞋子走路。",
+        "剛才叩門，有一個廣東人圓睜著眼，趿著鞋走將出來，開了門。"
+      ],
+      "traditional_char": "趿"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "只套着脚尖没有后帮的鞋，拖鞋。",
+      "examples": [
+        "趿拉儿是北方方言，意即拖鞋。",
+        "趿履"
+      ],
+      "traditional_char": "趿"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "行走。",
+      "examples": [
+        "西得諸侯棹錦水，欲向何門趿珠履。——杜甫《短歌行贈王郎司直》",
+        "趿趿，行也。《博雅》"
+      ],
+      "traditional_char": "趿"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 2,
+      "note": "形声字，从足，及声。本义与‘行走’有关，‘足’表义，‘及’表声。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 2,
+      "target_index": 0,
+      "evolution_type": "semantic_narrowing",
+      "note": "由一般‘行走’语义狭化为穿鞋拖着走、拖鞋行走的动作。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "从穿着（拖鞋的动作）转喻为拖鞋本身。"
+    }
+  ]
+}

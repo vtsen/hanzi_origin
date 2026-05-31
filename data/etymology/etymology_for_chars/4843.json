@@ -1,0 +1,108 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "哭泣，大声哭号，多用于形容儿童或成人因悲伤或疼痛而嚎叫。",
+      "examples": [
+        "嚎啕大哭",
+        "儿啕不止",
+        "号啕痛哭"
+      ],
+      "traditional_char": "啕"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "往来言语，喧哗争论或杂乱地说话。",
+      "examples": [
+        "啕，徃来言也。",
+        "多言。"
+      ],
+      "traditional_char": "啕"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "（古）小儿未能正言，指儿童哭声或言语未清。",
+      "examples": [
+        "小儿未能正言也。"
+      ],
+      "traditional_char": "啕"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "（古）祝告，祈祷。",
+      "examples": [
+        "一曰祝也。"
+      ],
+      "traditional_char": "啕"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "（后起）顽皮，调皮捣蛋。",
+      "examples": [
+        "啕气",
+        "啕到有一车气。"
+      ],
+      "traditional_char": "啕"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "（后起）招惹，惹事。",
+      "examples": [
+        "招惹",
+        "参见'啕气'。"
+      ],
+      "traditional_char": "啕"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "从口，兆声。表示言语、呼喊之意，最初为往来言语。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_narrowing",
+      "note": "自'往来言语'语义渐专为'放声大哭'（哭泣嚎叫）。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_narrowing",
+      "note": "由'往来言语'引申为小儿哭说，言语未清，多指小孩。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "自'小儿未能正言'进一步泛化到'大声哭号'。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由一般往来言语，引申为祝告祈祷。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_shift",
+      "note": "由小儿哭闹行为引申为'顽皮捣蛋'（近代方言用法）。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "'顽皮'进一步引申为'招惹，惹事'。"
+    }
+  ]
+}

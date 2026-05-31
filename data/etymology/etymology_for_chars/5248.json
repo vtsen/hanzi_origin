@@ -1,0 +1,43 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "一边煮一边搅拌（通常指煮粥或动物饲料等）",
+      "examples": [
+        "馇猪食",
+        "馇粥"
+      ],
+      "traditional_char": "餷"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "熬煮（如熬粥）",
+      "examples": [
+        "他早上喜欢自己馇一锅粥"
+      ],
+      "traditional_char": "餷"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘餷’从‘食’，‘査’声，会意兼形声，本意为边煮边搅拌食物。"
+    },
+    {
+      "formation_type": "loan_character",
+      "original_sense_index": 0,
+      "note": "‘馇’为‘餷’的简化字，仅简化形体，无新义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由专指边煮边搅的烹饪动作扩展为一般熬煮过程，多见于方言或口语。"
+    }
+  ]
+}

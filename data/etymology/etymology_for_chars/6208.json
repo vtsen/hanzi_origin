@@ -1,0 +1,53 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "草本植物香薷，一年生或多年生，茎和叶可提取芳香油，全草可入药。",
+      "examples": [
+        "香薷饮可解暑。",
+        "香薷气味芳香。"
+      ],
+      "traditional_char": "薷"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "木耳，一种可食用的真菌。",
+      "examples": [
+        "薷，木耳。——《集韵》"
+      ],
+      "traditional_char": "薷"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "“葇”的异体，用于指称部分植物名。",
+      "examples": [
+        "香葇，菜名。"
+      ],
+      "traditional_char": "薷"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "形声字，从艸，需声。最早训为木耳，后借指香薷。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_shift",
+      "note": "由指木耳转指唇形科草本植物香薷；约在中古以后逐渐转移。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "analogy",
+      "note": "因“薷”与“葇”通用，且均指相关植物，故成为“葇”的异体。"
+    }
+  ]
+}

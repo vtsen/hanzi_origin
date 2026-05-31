@@ -1,0 +1,86 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "低湿的地方，洼地或沼泽地。",
+      "examples": [
+        "山有榛，隰有苓。",
+        "上平曰原，下平曰隰。",
+        "平原之隰。"
+      ],
+      "traditional_char": "隰"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "新开垦的田地。",
+      "examples": [
+        "千耦其耘，徂隰徂畛。"
+      ],
+      "traditional_char": "隰"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "地名，用作县、州或古邑名。",
+      "examples": [
+        "春秋齐邑名，即犂丘。",
+        "古州名。在今山西省隰县。",
+        "重耳居蒲，卽隰川州。"
+      ],
+      "traditional_char": "隰"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [
+        "齐有大夫隰朋。"
+      ],
+      "traditional_char": "隰"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "人名、别体写法或为“濕”异体字。",
+      "examples": [
+        "蔡公子濕，本又作‘隰’。"
+      ],
+      "traditional_char": "隰"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从阜，㬎声，本义为低湿之地，与阜（地形）和㬎（声旁）相关。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由湿地、洼地之义扩展为新开垦的田，古代新垦多选低洼湿地。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "以地貌特征为地名，为县、州等地名的用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "由地名转为姓氏，是常见汉姓来源机制。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "unknown",
+      "note": "‘隰’通‘濕’用作人名、字；具体转换机制未详，或音通假所致。"
+    }
+  ]
+}

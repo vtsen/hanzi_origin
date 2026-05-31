@@ -1,0 +1,97 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "收藏兵器，收聚藏匿兵器。",
+      "examples": [
+        "载戢干戈。——《诗·周颂·时迈》",
+        "夫兵戢而时动。——《国语·周语》"
+      ],
+      "traditional_char": "戢"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "停止战争，罢兵息武。",
+      "examples": [
+        "弗戢，将自焚。——《左传·隐公四年》",
+        "当今兵戈未戢。——《旧唐书·代宗纪》"
+      ],
+      "traditional_char": "戢"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "收敛、约束自己的行为、情绪等。",
+      "examples": [
+        "戢其左翼。——《诗·小雅·鸳鸯》",
+        "愿将军少戢雷霆。",
+        "不戢不难。——《诗·小雅·桑扈》"
+      ],
+      "traditional_char": "戢"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "隐藏，藏匿，隐居。",
+      "examples": [
+        "身幽于无人之处，迹戢于胡塞之地。——汉·苏武《报李陵书》",
+        "戢景（藏匿行踪，比喻隐居）"
+      ],
+      "traditional_char": "戢"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "和睦、安辑（通“辑”）。",
+      "examples": [
+        "思戢用光。——《孟子·梁惠王下》引《诗》",
+        "民与和睦以显于时也。"
+      ],
+      "traditional_char": "戢"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [
+        "周戢黎，明戢如。"
+      ],
+      "traditional_char": "戢"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从‘戈’表义，表示兵器；‘咠’表音。造字本义为‘收藏兵器’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由收藏兵器引申为‘罢兵息武’，以藏兵象征停止战争。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由收聚兵器比喻为‘收敛、约束自身’。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "从‘收敛’进一步引申为‘藏匿、隐居’义。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "‘戢’假借为‘辑’（和睦、安辑），用法见《孟子》等。"
+    }
+  ]
+}

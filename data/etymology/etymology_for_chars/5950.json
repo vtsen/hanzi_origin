@@ -1,0 +1,83 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "以金泥涂饰，镀金。",
+      "examples": [
+        "镏金",
+        "范镏质良。——明·刘侗、于奕正《帝京景物略》"
+      ],
+      "traditional_char": "鎦"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "同“刘”，意为杀戮。",
+      "examples": [
+        "镏，杀也。——《说文》"
+      ],
+      "traditional_char": "鎦"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [
+        "宋有鎦文謨。"
+      ],
+      "traditional_char": "鎦"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "釜，古代的锅。",
+      "examples": [
+        "梁州谓釜曰镏。——《集韵》"
+      ],
+      "traditional_char": "鎦"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "戒指，方言称作镏子。",
+      "examples": [
+        "右手搬弄着自己用大铜元锤造的手鎦。"
+      ],
+      "traditional_char": "鎦"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘鎦’从金，留声，表意为金属工艺，表声为liu；最初表示涂饰金泥或镀金。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_narrowing",
+      "note": "以工艺事物之名衍为姓氏，常见于汉字。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "unknown",
+      "note": "“同刘（杀）”为转借或古训，不排除假借，关系不明确。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由金属工艺引申指用金属制成的锅具。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由锅具泛指金属制器，引申为戒指（方言），实为小型环状金属器物的比喻。"
+    }
+  ]
+}

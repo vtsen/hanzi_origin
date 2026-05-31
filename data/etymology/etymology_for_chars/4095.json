@@ -1,0 +1,147 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "打，敲打",
+      "examples": [
+        "鞭挝。",
+        "挝鼓。",
+        "令鼓吏挝鼓。——《三国演义》"
+      ],
+      "traditional_char": "撾"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "抓，用指或爪挠",
+      "examples": [
+        "挝挠。",
+        "挝乖。",
+        "那一片贪财心没乱煞，则他油锅内见钱也去撾。——元·郑廷玉《看钱奴》"
+      ],
+      "traditional_char": "撾"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "鼓槌，击鼓用的棒子",
+      "examples": [
+        "衡方为《渔阳》参撾，蹀跃而前。——《后汉书·文苑传下》",
+        "撾，击鼓杖也。参撾是击鼓之法。——李贤注",
+        "忝卿僚填词辨撾。——清·孔尚任《桃花扇》"
+      ],
+      "traditional_char": "撾"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "（音节）击鼓的音节",
+      "examples": [
+        "忝卿僚填词辨撾，备供奉诙谐风雅。——清·孔尚任《桃花扇》"
+      ],
+      "traditional_char": "撾"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "兵器名",
+      "examples": [
+        "端执撾以军礼见。——宋·周密《齐东野语》",
+        "那十八般武艺？……撾。——《水浒传》"
+      ],
+      "traditional_char": "撾"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "（俗）大腿",
+      "examples": [],
+      "traditional_char": "撾"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "贴，靠",
+      "examples": [
+        "就脸挝着脸儿哭。——《金瓶梅词话》"
+      ],
+      "traditional_char": "撾"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "verb",
+      "meaning": "摘（摘下物品）",
+      "examples": [
+        "左右的！挝去了！一条链子锁起来！——《儒林外史》"
+      ],
+      "traditional_char": "撾"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "noun",
+      "meaning": "国名，老挝",
+      "examples": [
+        "老挝，亚洲一国名。"
+      ],
+      "traditional_char": "撾"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘撾/挝’为形声字，从手，过声，本义为敲打，形成于表动作的需要。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由“敲打”动作转指击鼓用的器具，即“鼓槌”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "由“敲打”动作延伸为“击鼓的音节”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "由“敲打”义发展为作战用的器械名。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_shift",
+      "note": "由“敲打”转义为以手抓挠，动作近似但义有转变。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "unknown",
+      "note": "从‘敲打’义到‘大腿’义，演变机制不详，或方言用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "semantic_extension",
+      "note": "由“敲打”动作扩展为“贴靠”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 7,
+      "evolution_type": "semantic_extension",
+      "note": "由“敲打”扩展为“摘”，即用手去除某物。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 8,
+      "evolution_type": "reanalysis",
+      "note": "‘撾’音借转指国名‘老挝’，机制为音译用法，非义项派生。"
+    }
+  ]
+}

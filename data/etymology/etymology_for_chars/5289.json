@@ -1,0 +1,89 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古水名，湔水，在今四川，源出玉壘山入江。",
+      "examples": [
+        "湔水，出蜀郡緜虒玉壘山，東南入江。",
+        "湔水所出，灌縣西注入岷江。"
+      ],
+      "traditional_char": "湔"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "用水洗涤。",
+      "examples": [
+        "湔，濯也。《三蒼》",
+        "病若在肠中，便断肠湔洗。《三国志·华佗传》",
+        "湔浣肠胃，漱涤五藏。《史记》"
+      ],
+      "traditional_char": "湔"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "洗雪，洗刷冤屈、耻辱或罪名。",
+      "examples": [
+        "愿求南宗一勺水，往与屈贾湔余哀。《宋·苏轼》",
+        "近降赦恩，谋反大逆，皆蒙湔雪。《金史·张特立传》",
+        "以湔国耻。"
+      ],
+      "traditional_char": "湔"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "浸湿，浸润。",
+      "examples": [
+        "湔润（浸润）。",
+        "湔拂（浸染）。"
+      ],
+      "traditional_char": "湔"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "溅洒，液体飞射。",
+      "examples": [
+        "臣请以臣之血湔其衽。《战国策·齐策》",
+        "還是。苔痕湔雨，竹影留雲，待晴猶未。《宋·张樞》"
+      ],
+      "traditional_char": "湔"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，前声，表示川水名，声旁表音意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由水名引申为与水相关的‘用水洗涤’动作。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由‘洗涤’比喻为‘洗雪冤屈、罪名’。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "‘洗涤’含义扩展为‘浸润、浸湿’。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "‘洗’引申指液体溅洒之意，后常通‘濺’。"
+    }
+  ]
+}

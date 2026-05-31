@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "申时，下午三时至五时。",
+      "examples": [
+        "晡时，门坏。——《资治通鉴·唐纪》",
+        "贺发，晡时至定陶。——《汉书》"
+      ],
+      "traditional_char": "晡"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "傍晚，晚上。",
+      "examples": [
+        "牵马向渭桥，日落山头晡。——庾信《对酒》",
+        "闽语谓夜为晡。——《履园丛话》"
+      ],
+      "traditional_char": "晡"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "日落，太阳西沉。",
+      "examples": [
+        "申时晡而日落酉，戌黄昏而人定亥。——《西游记》",
+        "疏林外红日西晡，载吹笛牧童归去。——元·姚守中"
+      ],
+      "traditional_char": "晡"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从日，甫声，日指时间，甫表音，最初表示申时（下午三时至五时）。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由具体申时引申为傍晚、晚上时间段，出现于晚唐至宋。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由表示时间申时，因与日落时间接近，引申为日落的动作，古籍多有例证。"
+    }
+  ]
+}

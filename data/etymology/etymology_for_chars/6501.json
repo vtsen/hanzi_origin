@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "右脚小步；步止。",
+      "examples": [
+        "亍，步止也。——《说文》",
+        "泽马亍阜。——左思《魏都赋》",
+        "秀骐齐亍。——颜延之《赭白马赋》"
+      ],
+      "traditional_char": "亍"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "小步行走。",
+      "examples": [
+        "纤骊接趾，秀骐齐亍。——颜延之《赭白马赋》"
+      ],
+      "traditional_char": "亍"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [
+        "楚有大夫亍衡。"
+      ],
+      "traditional_char": "亍"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "simple_indicative",
+      "original_sense_index": 0,
+      "note": "从反彳，表示右脚小步之义，为指事字。《说文》记载“步止”即右步。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "conversion",
+      "note": "由表示“右脚小步”名词义，引申为小步行走的动词用法，见于《赭白马赋》。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "unknown",
+      "note": "用作姓氏，可能由其基本义转用，但具体机制不明。"
+    }
+  ]
+}

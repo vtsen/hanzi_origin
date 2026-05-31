@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "花木繁盛的样子；茂盛、繁密。",
+      "examples": [
+        "一枝秾艳露凝香，云雨巫山枉断肠。",
+        "何彼穠矣，唐棣之华。"
+      ],
+      "traditional_char": "穠"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "艳丽、华美。",
+      "examples": [
+        "看婿颜美玉，妇色秾桃。",
+        "穠姿秀色人皆爱，怨眉羞容我偏别。"
+      ],
+      "traditional_char": "穠"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "丰硕；丰满；肥大。",
+      "examples": [
+        "秾不短，纤不长。",
+        "柴门外遇一女郎，姿态妖娆，纤穠合度。"
+      ],
+      "traditional_char": "穠"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "浓郁；深厚。",
+      "examples": [
+        "知君却是为情秾，怕见此花撩动。",
+        "白简威犹凛，青山兴已穠。"
+      ],
+      "traditional_char": "穠"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘秾/穠’为形声字，从禾，农声，表示花木繁盛之意，强调植物的密集和繁茂。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "从植物的繁盛引申为人或物艳丽、华美，用于比喻色彩或外貌的美丽。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "繁盛、丰茂用于形容果实、身体等的丰硕、丰满，是形态特征的类推。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由物理上的疏密（繁茂）引申为抽象意义上的浓郁、深厚（如情感、气味）。"
+    }
+  ]
+}

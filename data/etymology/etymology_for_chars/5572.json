@@ -1,0 +1,70 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古水名，在今江苏省溧阳县，源出安徽省，别称永阳江、陵水、濑水",
+      "examples": [
+        "清 顾祖禹《读史方舆纪要•江南二•江宁府》：“溧水，县(溧阳县)西北四十里，即永阳江也。”",
+        "说文：水出丹阳溧阳县"
+      ],
+      "traditional_char": "溧"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "古水名，即今湖北省随州市的溧河",
+      "examples": [
+        "即今湖北省随州市的溧河"
+      ],
+      "traditional_char": "溧"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "地名，江苏省溧阳县，因溧水得名",
+      "examples": [
+        "江苏省溧阳县"
+      ],
+      "traditional_char": "溧"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "寒冷",
+      "examples": [
+        "汉 董仲舒《春秋繁露•暖燠熟多》：“是故非薰也，不能有育，非溧也，不能有熟。”",
+        "《文选•马融〈长笛赋〉》：“雷叩锻之岌峇兮，正瀏溧以风冽。”",
+        "李善注引毛萇《诗传》：“溧，寒也。”"
+      ],
+      "traditional_char": "溧"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，㮚声，水名为本义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "以水名转指周边地名，见江苏溧阳县。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "溧作为水名，引申用于湖北随州溧河。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "以江水寒冷之性，引申为“寒冷”。"
+    }
+  ]
+}

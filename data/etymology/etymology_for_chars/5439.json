@@ -1,0 +1,69 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "斜视，用眼斜着看。",
+      "examples": [
+        "睥睨一切",
+        "俾倪邪视",
+        "引燭窺洞穴，凌波睥天琛。"
+      ],
+      "traditional_char": "睥"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "窥视，偷偷地看。",
+      "examples": [
+        "侧睥又复心瑟缩。"
+      ],
+      "traditional_char": "睥"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "城上的小墙（垣），用于窥视或射击。",
+      "examples": [
+        "城上垣曰睥睨言於其孔中睥睨非常也。"
+      ],
+      "traditional_char": "睥"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "古代皇帝仪仗用的持葢杠者（仪仗的一种器物）。",
+      "examples": [
+        "俾倪㦸中環持葢杠者也。"
+      ],
+      "traditional_char": "睥"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从目，卑声，初表示“斜视”。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由斜视发展为窥视，常见语义引申。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由斜视转指城上可从孔斜看的部分，本体换指。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "unknown",
+      "note": "由斜视转为仪仗器物，具体语义演变路径不明。"
+    }
+  ]
+}

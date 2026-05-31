@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "结为婚姻，联姻。",
+      "examples": [
+        "婚媾",
+        "媾亲"
+      ],
+      "traditional_char": "媾"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "交合，结合。",
+      "examples": [
+        "交媾",
+        "媾合"
+      ],
+      "traditional_char": "媾"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "友好、修好，结为盟友或讲和。",
+      "examples": [
+        "媾和"
+      ],
+      "traditional_char": "媾"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从女，冓声；本义为联姻。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘联姻’意义扩展为‘交合、结合’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "将联姻的联合引申为‘友好、修好’之义。"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "红色或彩色丝带",
+      "examples": [
+        "佩纂以为饰。"
+      ],
+      "traditional_char": "纂"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "搜集资料编书",
+      "examples": [
+        "纂修地方志。",
+        "编纂词典。"
+      ],
+      "traditional_char": "纂"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "妇女梳在头后边的发髻",
+      "examples": [
+        "插一支簪在纂儿上。"
+      ],
+      "traditional_char": "纂"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "继承（古同“缵”）",
+      "examples": [
+        "纂承王位。"
+      ],
+      "traditional_char": "纂"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从糸，表示与丝相关，“算”作声旁，最初指赤色的丝带。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "妇女发髻形似丝带，形象比喻得名。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "丝结缠绕，引申为条理整理，进而泛指纂辑书籍。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "与“缵”同音借用，指继承。"
+    }
+  ]
+}

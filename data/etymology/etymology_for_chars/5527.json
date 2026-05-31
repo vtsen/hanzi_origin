@@ -1,0 +1,44 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "鲇鱼，一种头大尾圆，体表有黏液、无鳞的鱼，夜间活动，肉可食，鳔可入药。",
+      "examples": [
+        "鲇鱼上竹",
+        "宜興洞有四足鮎"
+      ],
+      "traditional_char": "鮎"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "“鮎”的简化字。",
+      "examples": [
+        "鲇鱼",
+        "行都北關有鮎魚"
+      ],
+      "traditional_char": "鲇"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“鮎”从魚，音占，形声字，表示一种鱼类（鲇鱼）。"
+    },
+    {
+      "formation_type": "simple_indicative",
+      "original_sense_index": 1,
+      "note": "“鲇”为“鮎”的简化字，鱼旁加“占”表音。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "function_word",
+      "note": "现代简化字改革，鮎简化为鲇，义不变。"
+    }
+  ]
+}

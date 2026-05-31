@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "用蒸汽在密闭容器中闷煮、烹饪食物。",
+      "examples": [
+        "盐焗鸡",
+        "焗咸鱼",
+        "他不是要请你上广州吃盐焗鸡？"
+      ],
+      "traditional_char": "焗"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "（粤方言）烘烤、焙烤食物。",
+      "examples": [
+        "焗饭",
+        "焗蛋糕"
+      ],
+      "traditional_char": "焗"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "（粤方言）闷热、憋闷。",
+      "examples": [
+        "屋里很焗",
+        "感觉很焗"
+      ],
+      "traditional_char": "焗"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从火，局声。本义指密闭加热烹饪。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由密闭闷煮的烹饪方式，扩展为粤语中所有烘焙类、烤制类的食物制作。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由食物在密闭空间被蒸闷的状态，比喻环境闷热不通风。"
+    }
+  ]
+}

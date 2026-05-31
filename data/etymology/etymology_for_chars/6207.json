@@ -1,0 +1,85 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "马上盛放弓箭的皮制器具",
+      "examples": [
+        "所以戢弓矢者。——《说文》",
+        "左执鞭弭，右属櫜鞬。——《左传·僖公二十三年》",
+        "鞬，箭服也。——《后汉书·西羌传》注"
+      ],
+      "traditional_char": "鞬"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "收藏、藏闭",
+      "examples": [
+        "所以藏弓谓之鞬。——《方言九》",
+        "鞬櫜干戈。——元稹《策》"
+      ],
+      "traditional_char": "鞬"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "古代博戏用语，指骰子戏中某种结果或负者",
+      "examples": [
+        "彬曰：‘掷五木子，十掷辄鞬，岂复是掷子之拙。’——《南齐书·文学传·卞彬》",
+        "伤心偿博进，十掷辄成鞬。——清黄遵宪《马关纪事》"
+      ],
+      "traditional_char": "鞬"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "束缚、缠束",
+      "examples": [
+        "鞬腰",
+        "鞬辀"
+      ],
+      "traditional_char": "鞬"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "来，缠来（古义，罕见）",
+      "examples": [],
+      "traditional_char": "鞬"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从革，建声，意指放置弓矢的皮革器具。《说文》与考古资料皆支持初义为盛弓箭之具。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "器物的‘收藏’功能外延至一般‘收藏、藏闭’之义，用于动词。汉魏用例。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由盛具固定弓箭的形象，引申为‘束缚、缠束’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "以鞬之盛装意比用于博戏，隐喻‘负者’需受束缚或收敛。用法见南齐书。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "unknown",
+      "note": "‘来，缠来’之义，具体来源未详，用法稀见，关联不明。"
+    }
+  ]
+}

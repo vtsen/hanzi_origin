@@ -1,0 +1,150 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "草木茂盛，旺盛",
+      "examples": [
+        "天地变化，草木蕃。——《周易·坤》",
+        "蕃茂。"
+      ],
+      "traditional_char": "蕃"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "繁殖，滋生，增多",
+      "examples": [
+        "其生不蕃。——《左传·僖公二十三年》",
+        "以蕃鸟兽。——《周礼·大司徒》"
+      ],
+      "traditional_char": "蕃"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "众多，繁多",
+      "examples": [
+        "水陆草木之花，可爱者甚蕃。——《爱莲说》",
+        "蕃庶（众多）"
+      ],
+      "traditional_char": "蕃"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "篱落、屏障",
+      "examples": [
+        "四国于蕃，四方于宣。——《诗·大雅·崧高》",
+        "蕃篱（篱笆）"
+      ],
+      "traditional_char": "蕃"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "藩屏、捍卫者",
+      "examples": [
+        "以蕃王室。——《书·微子之命》",
+        "蕃辅（捍卫辅助）"
+      ],
+      "traditional_char": "蕃"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "封建侯国、边地",
+      "examples": [
+        "威振八蕃。——《魏都赋》",
+        "分壤蕃帝华，列正藹皇宫。"
+      ],
+      "traditional_char": "蕃"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "古代对边境少数民族或外族的称呼，或国外，外族",
+      "examples": [
+        "吐蕃（Tǔbō）",
+        "蕃国",
+        "世掌诸蕃互市。——《清边郡王杨燕奇碑文》"
+      ],
+      "traditional_char": "蕃"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "noun",
+      "meaning": "面颊侧面",
+      "examples": [
+        "蕃者，颊侧也。——《灵枢经》"
+      ],
+      "traditional_char": "蕃"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "adjective",
+      "meaning": "白色（通“皤”）",
+      "examples": [
+        "黄马蕃鬣。——《礼记·明堂位》"
+      ],
+      "traditional_char": "蕃"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从艸，番声，原意指草木茂盛。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由草木茂盛引申为生长繁殖。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由植物茂盛进一步引申为数量众多。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 8,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "与“皤”通假，表白色，见于古籍用例。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "semantic_shift",
+      "note": "数量多与扩展，衍生边地（众多封国、诸侯）。"
+    },
+    {
+      "source_index": 5,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "由边地名指引申为边缘的屏障、篱落。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "篱落引申为护卫、防护。"
+    },
+    {
+      "source_index": 5,
+      "target_index": 6,
+      "evolution_type": "metonymy",
+      "note": "由边地引申为外国、外族。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 7,
+      "evolution_type": "metaphor",
+      "note": "由篱落（外侧）比喻脸颊侧面（外侧），见古医学文献。"
+    }
+  ]
+}

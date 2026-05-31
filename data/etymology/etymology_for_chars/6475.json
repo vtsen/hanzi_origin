@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "熟食，熟的食物。",
+      "examples": [
+        "有母之尸饔。《诗·小雅》",
+        "亲二宫之饔膳。《汉书·杜周传》"
+      ],
+      "traditional_char": "饔"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "早餐，早晨吃的一顿饭。",
+      "examples": [
+        "饔飧而治。《孟子·滕文公》",
+        "朝饔夕飧。"
+      ],
+      "traditional_char": "饔"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "烹调，做饭。",
+      "examples": [
+        "内饔，中士四人。《周礼·天官》",
+        "饔人掌切割烹调之事。"
+      ],
+      "traditional_char": "饔"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "（古）指烹煮后作为礼品的熟肉、熟食（宾礼或祭祀时所用）。",
+      "examples": [
+        "君使卿韦弁归饔饩五牢。《仪礼·聘礼》",
+        "酒车酌醴，方驾授饔。《张衡·西京赋》"
+      ],
+      "traditional_char": "饔"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从食，雝声，本指熟食。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_narrowing",
+      "note": "由泛指熟食转指特指早餐，文献至战国、两汉明确分化。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "conversion",
+      "note": "由名词“熟食”引申为动词“做熟食”，过程常见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由一般熟食发展为特指祭礼、宾礼等场合所用熟肉，出现在先秦礼制文献。"
+    }
+  ]
+}

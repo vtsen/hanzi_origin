@@ -1,0 +1,70 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "有力的样子；有力",
+      "examples": [
+        "以车伾伾。",
+        "伓，有力也。"
+      ],
+      "traditional_char": "伾"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "众多、势盛的样子",
+      "examples": [
+        "伾伾，众也。",
+        "～～：众多势盛的样子。"
+      ],
+      "traditional_char": "伾"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "重叠的山岭；山名（大伾山）",
+      "examples": [
+        "东过洛汭，至于大伾。",
+        "山再成曰伾。"
+      ],
+      "traditional_char": "伾"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "丑陋",
+      "examples": [
+        "貌儿伾。"
+      ],
+      "traditional_char": "伾"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从人，丕声，本义‘有力’。‘人’表示与人相关，‘丕’作声旁。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘有力’扩展为‘众多、势盛’。势力多本有力也。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由‘众多、势盛’喻为山岭重叠，形象化如人多势众。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "unknown",
+      "note": "丑陋义与‘有力’义词源不明，或为方言借用、音近义迁。"
+    }
+  ]
+}

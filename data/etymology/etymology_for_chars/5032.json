@@ -1,0 +1,41 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "母马。",
+      "examples": [
+        "骒马",
+        "一儿四骒",
+        "牝为骒马"
+      ],
+      "traditional_char": "騍"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "指雌性牲畜，如母骡、母驴、母骆驼等。",
+      "examples": [
+        "骒骡",
+        "骒驴",
+        "骒驼"
+      ],
+      "traditional_char": "騍"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘騍’从馬，客声，表示母马，属形声字。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由母马的专指义推广到一般雌性牲畜，见于中古及清代文献。"
+    }
+  ]
+}

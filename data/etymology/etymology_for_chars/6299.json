@@ -1,0 +1,110 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "口吃，说话不流利。",
+      "examples": [
+        "言不通利谓之謇吃。——《通俗文》",
+        "因謇而徐言。——《北史·李谐传》"
+      ],
+      "traditional_char": "謇"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "艰涩，言辞表达困难。",
+      "examples": [
+        "道重疑高謇，禅枯耐寂寥。——金·元好问《赠汴禅师》"
+      ],
+      "traditional_char": "謇"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "正直，直言不讳，忠贞。",
+      "examples": [
+        "外似謇正，内实谄谀。——《北史·徐纥传》",
+        "帝曰：‘当今忠謇贵重无踰徵。’——《新唐书·魏徵传》",
+        "余固知謇謇之为患兮。——《离骚》"
+      ],
+      "traditional_char": "謇"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "忠直之言，正直的言论。",
+      "examples": [
+        "广纳謇謇，以开四聪。——《后汉书·鲁丕传》",
+        "史文直敷，故得粲粲朝典，落落廷謇。——唐·来鹄《圣政纪颂》"
+      ],
+      "traditional_char": "謇"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "骄傲，傲慢。",
+      "examples": [
+        "大夫士或病其资性高謇，少所降屈，非危急之疾，不敢谒也。——《元史·方技传·李杲》"
+      ],
+      "traditional_char": "謇"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "particle",
+      "meaning": "用作句首语气词，无实际意义。",
+      "examples": [
+        "謇吾法夫前修兮，非世俗之所服。——《离骚》"
+      ],
+      "traditional_char": "謇"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [
+        "三国魏有謇姐。——繁钦《与魏文帝笺》"
+      ],
+      "traditional_char": "謇"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从言，寒省声，本义为口吃，言语不顺。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由说话不流利引申为言辞艰涩。用例见诗文。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由语言表达不畅转喻为心直口快、正直敢言。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "由人的品质引申为其言论（正直的话）。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 4,
+      "evolution_type": "semantic_shift",
+      "note": "正直可与刚直勇敢关联引申为高傲，语义演变部分见于元史。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "grammaticalization",
+      "note": "本义的虚化用作语气词，常见于楚辞等文献中。"
+    }
+  ]
+}

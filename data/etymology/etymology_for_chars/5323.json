@@ -1,0 +1,42 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "有机化合物中含有硫和氢的基团，通式为-SH，亦称“巯基”或“氢硫基”。",
+      "examples": [
+        "本化合物包含一个巯基。"
+      ],
+      "traditional_char": "巰"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "“巯”的简化字，用于同上述意义。",
+      "examples": [
+        "巯基化合物在有机化学中十分常见。"
+      ],
+      "traditional_char": "巯"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "巰为形声字，从“酉”声，最早用于表示-SH基的名称，形声结构较为典型。"
+    },
+    {
+      "formation_type": "unknown",
+      "original_sense_index": 1,
+      "note": "巯为巰的简化字，仅为简化字形，意义和用法完全承袭传统字。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "reanalysis",
+      "note": "作为简化过程，巯直接承袭巰的语义。"
+    }
+  ]
+}

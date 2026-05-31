@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古代一种有帷盖的载重大车，亦称“辎车”",
+      "examples": [
+        "乡师车辎造修文具，其缮何若?——《管子》",
+        "云辎蔽路，万有三千馀乘。——《后汉书·窦宪传》"
+      ],
+      "traditional_char": "輜"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "行军时随队运输的器械、粮草、帐幕、衣物等军用物资（亦称“辎重”）",
+      "examples": [
+        "隧路亟，行辎治，此司空之官也。——《淮南子》",
+        "终日不离其辎重。——《东京赋》",
+        "凡火攻有五：一曰火人，二曰火积，三曰火辎，四曰火库，五曰火队。——《孙子·火攻》"
+      ],
+      "traditional_char": "輜"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "泛指车辆",
+      "examples": [
+        "元戎轻武，长轂四分，云辎蔽路，万有三千余乘。——《后汉书·窦宪传》",
+        "李贤注：‘辎，车也。’"
+      ],
+      "traditional_char": "輜"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从车，甾声，表示有帷盖的载重大车之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由具体有帷盖的大车引申为泛指车辆的用法，见《后汉书》注。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "原义为运输之大车，后借指行军携带的军用物资，属器具与所载物的转用。"
+    }
+  ]
+}

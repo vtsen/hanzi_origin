@@ -1,0 +1,72 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "超越；逾越；不按次序越过。",
+      "examples": [
+        "学不躐等也。",
+        "天机信卓越，学等何足躐。",
+        "躐席（不依次进席）"
+      ],
+      "traditional_char": "躐"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "践踏，踩踏。",
+      "examples": [
+        "凌余阵兮躐余行。",
+        "遂躐乎王庭。"
+      ],
+      "traditional_char": "躐"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "越级提升，越级任用。",
+      "examples": [
+        "冒级躐阶。",
+        "遂从内降批，掌运篆，而其孝亦顿躐冏銜矣。"
+      ],
+      "traditional_char": "躐"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "持、拿（通“擸”）。",
+      "examples": [
+        "则躐缨整襟。",
+        "躐来躐去的，带了这东西，不怕累赘么？"
+      ],
+      "traditional_char": "躐"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从足，巤声，本义为逾越（跨越脚步），足表意，巤表声。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "从跨越脚步引申为践踏行动，二者动作相关联。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由“逾越”引申出升迁时‘越级’用法，见于官职晋级。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "‘躐’在部分文献中假借‘擸’（持、拿）之义，形近音近。"
+    }
+  ]
+}

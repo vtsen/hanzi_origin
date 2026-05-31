@@ -1,0 +1,58 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "蓍草，一種多年生草本植物，古時常用其莖占卜，亦可入藥。",
+      "examples": [
+        "冽彼下泉，浸彼苞蓍。——《詩·曹風·下泉》",
+        "蓍之德，圓而神。——《易·繫辭上》",
+        "朱熹集傳：蓍，筮草也。",
+        "明李時珍《本草綱目·草四·蓍》：蓍乃蒿屬，神草也。"
+      ],
+      "traditional_char": "蓍"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "用蓍草進行的占卜行為，特指筮法。",
+      "examples": [
+        "蓍龜，古時用蓍草與龜甲占卜。",
+        "蓍蔡，指卜筮。蓍草與大龜，是占卜吉凶的用具。",
+        "清陳康祺《燕下鄉脞錄》：大學士李文貞公蓍之，遇復之上六。"
+      ],
+      "traditional_char": "蓍"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "用作‘耆’的通假，指年老、長者或長壽之意（僅見於部分複合法或典故用法中）。",
+      "examples": [
+        "《白虎通》：蓍之言耆也，陽之老也。",
+        "蓍艾（指長壽或年高之意）。"
+      ],
+      "traditional_char": "蓍"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从艸，耆声，本义为蒿属植物蓍草，后引申诸义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "因以蓍草作為占卜工具，名稱泛指占卜行為或儀式，古已有之。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "部分典籍中借‘蓍’表‘耆’，屬通假用法，由聲音近似引致。"
+    }
+  ]
+}

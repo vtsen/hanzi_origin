@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "用手抚摸、摩挲。",
+      "examples": [
+        "摩挲：以手抚摸。",
+        "谢四望无人，近身侧，遽挲其腕。——《聊斋志异·黎氏》",
+        "粉茧连番手细挲。——曹寅《西轩同人将别用和蕉饮原韵》"
+      ],
+      "traditional_char": "挲"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "用手轻轻按着一下一下地移动。",
+      "examples": [
+        "摩挲：用手掌抚摩衣物，使其平贴。"
+      ],
+      "traditional_char": "挲"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "张开（如手、头发等）；形容手指分开。",
+      "examples": [
+        "他～～着手。",
+        "‘挓挲’：手、头发、树枝等张开。"
+      ],
+      "traditional_char": "挲"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从手，沙声。本义为抚摸、摩挲。'手'表意，'沙'表声。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从抚摸引申为用手轻按并移动，多见于复合词‘摩挲’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "因手抚摩时手指分散张开，引申为张开（如手、头发等），可见于‘挓挲’。"
+    }
+  ]
+}

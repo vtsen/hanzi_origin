@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "播种用的农具，可同时开沟和下种，如耧车、耧犁等。",
+      "examples": [
+        "耧车",
+        "耧犁",
+        "汉 崔寔《政论》：其法三犁共一牛，一人将之，下种挽耬皆取备焉。"
+      ],
+      "traditional_char": "耬"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "覆盖种子，即覆种。",
+      "examples": [
+        "王禎《農書》卷十二引汉服虔《通俗文》：覆種曰耬。"
+      ],
+      "traditional_char": "耬"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘耬’为形声字，从耒，娄声，表示与耕作农具有关，最初指播种农具。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由农具义发展到借指该农具进行的覆种动作，约汉代见文献。"
+    }
+  ]
+}

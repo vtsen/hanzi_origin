@@ -1,0 +1,37 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "由两个以上心皮构成，成熟后自然裂开的干果，内含许多种子，多用于植物分类。",
+      "examples": [
+        "棉花的蒴果成熟以后开裂散播种子。"
+      ],
+      "traditional_char": "蒴"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "蒴藋，一种高大草本或半灌木植物，全草可入药，又名陆芵、接骨草。",
+      "examples": [
+        "蒴藋可药用，民间称接骨草。"
+      ],
+      "traditional_char": "蒴"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘蒴’为形声字，从艸，肖声。最初用于植物相关的干果。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "以植物典型特征（有蒴果）指代具体植物，语义转指，常见于植物学命名。"
+    }
+  ]
+}

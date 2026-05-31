@@ -1,0 +1,51 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "泉水从侧面流出",
+      "examples": [
+        "氿，泉穴出，仄出也。——《尔雅·释水》",
+        "有冽氿泉，无浸获薪。——《诗·小雅·大东》"
+      ],
+      "traditional_char": "氿"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "湖名，指江苏宜兴的东氿湖或西氿湖",
+      "examples": [
+        "东氿、西氿均为江苏省宜兴市湖名"
+      ],
+      "traditional_char": "氿"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "水边的枯土，水厓",
+      "examples": [],
+      "traditional_char": "氿"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从水，九声，形声字；本义为泉从旁流出。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "湖名取自泉水特点，如同以泉命名地理名称。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由泉水涌出地带引申为水边枯土、水厓之义。"
+    }
+  ]
+}

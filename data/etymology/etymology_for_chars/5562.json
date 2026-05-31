@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "同“锻”，打铁，锤击金属等金属加工工艺。",
+      "examples": [
+        "煅铁",
+        "煅炼人"
+      ],
+      "traditional_char": "煅"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "中药等放在火中烧，减少药石的烈性（中药制法之一）。",
+      "examples": [
+        "煅石膏",
+        "煅粉"
+      ],
+      "traditional_char": "煅"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘煅’为形声字，从火，段声。本作‘锻’，后以‘煅’为俗字，多用于表示与火有关的煅烧、锻造之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由冶金锻造之意引申为中药材料的煅烧，均指在高温下加工。"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "继续，连续。",
+      "examples": [
+        "乃赓载歌曰：“元首明哉，股肱良哉，庶事康哉。”——《书·益稷》",
+        "宜事牵扰，卒卒尟暇，不知何日能赓此志。——薛福成"
+      ],
+      "traditional_char": "賡"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "酬答、应和（多指诗文唱和）。",
+      "examples": [
+        "赖有西邻好诗句，赓酬终日自忘饥。——宋·张耒",
+        "赓和旧韵"
+      ],
+      "traditional_char": "賡"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "抵偿，补偿。",
+      "examples": [
+        "智者有什倍人之功，愚者有不赓本之事。——《管子·国蓄》",
+        "赓本"
+      ],
+      "traditional_char": "賡"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [],
+      "traditional_char": "賡"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从贝，庚声，‘贝’表与财物相关，‘庚’表音，原义为‘连续，继续’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘连续，继续’引申为诗文等相继应和。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由‘连续’引申为‘补偿、抵偿’（对损失、付出做出持续性的补还）"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "function_word",
+      "note": "从动词意义演化为姓氏，用作专名，机制类似于其他动词取姓。"
+    }
+  ]
+}

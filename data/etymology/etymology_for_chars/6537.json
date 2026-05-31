@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "分離，離別，特指夫妻分離或女子被遺棄而離去。",
+      "examples": [
+        "有女仳離。",
+        "仳別。",
+        "仳離。"
+      ],
+      "traditional_char": "仳"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "區別，區分，分判。",
+      "examples": [
+        "仳，分判也。——《六書故》"
+      ],
+      "traditional_char": "仳"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "並、合、比連。",
+      "examples": [
+        "仳，兩有端而后可。——《墨子·經說上》",
+        "仳胁。"
+      ],
+      "traditional_char": "仳"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "古代醜女名，或指女子容貌醜。",
+      "examples": [
+        "仳倠，醜女。",
+        "仳倠，容貌醜。"
+      ],
+      "traditional_char": "仳"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从人，比声。本义为分離、別离，‘人’表义，‘比’表音。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从分离引申为区分、分判，语义拓展，见《六书故》。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "词义由分离转为联合，并有‘比’的通假用法，语义转化，见《墨子》。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "由分离、区别转为形容外貌不合常俗，引申为醜女，在人名与特指用法中的语义迁移。"
+    }
+  ]
+}

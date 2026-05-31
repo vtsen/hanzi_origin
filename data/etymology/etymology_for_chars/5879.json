@@ -1,0 +1,120 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "目不明，眼神昏花",
+      "examples": [
+        "目光瞢然。",
+        "青白其眼，瞢而前行。",
+        "垂喙蜿转，瞪瞢忘食。"
+      ],
+      "traditional_char": "瞢"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "昏暗、晦暗无光",
+      "examples": [
+        "冥昭瞢暗，谁能极之？",
+        "瞢，日月瞢瞢无光也。"
+      ],
+      "traditional_char": "瞢"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "烦闷，内心抑郁",
+      "examples": [
+        "不与于会，亦无瞢焉。",
+        "瞢，闷也。"
+      ],
+      "traditional_char": "瞢"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "惭愧",
+      "examples": [
+        "臣得其志，而使君瞢，是犯也。",
+        "瞢，惭也。"
+      ],
+      "traditional_char": "瞢"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "懵懂、迷糊不清、糊涂愚昧",
+      "examples": [
+        "意瞢如也。",
+        "瞢眊，形容老眼昏花。",
+        "至于顾问献替之臣，则不独于时事大势，瞢未有知。"
+      ],
+      "traditional_char": "瞢"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "做梦，梦见（通“梦”）",
+      "examples": [
+        "夜者公瞢与二日斗，不胜。",
+        "景公举兵将伐宋，师过泰山，公瞢见二丈夫，立而怒。"
+      ],
+      "traditional_char": "瞢"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "古地名，即云梦泽（通“梦”）",
+      "examples": [
+        "子文初生，弃于瞢中，而虎乳之。"
+      ],
+      "traditional_char": "瞢"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意字，从目，从䀏，表示双目不明。本义即目不明。小篆为标准字形。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由“眼不明”引申至光线昏暗，抽象化转用。见《周礼》《太玄》。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由“目不明”喻内心烦闷、蒙蔽不清。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "眼神呆滞引申为因羞愧而目不敢视，见《国语》。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "目不明喻思维糊涂，常和年迈、愚昧相关。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "以音通“梦”，用于做梦、梦见等义，出现于古文。"
+    },
+    {
+      "source_index": 5,
+      "target_index": 6,
+      "evolution_type": "metonymy",
+      "note": "梦（泽）为地名，取“梦”为专有名引申为古泽名。"
+    }
+  ]
+}

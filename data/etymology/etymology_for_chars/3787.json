@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "叹息，感慨",
+      "examples": [
+        "忾我寤叹。",
+        "忾然心有闻乎其叹息之声。"
+      ],
+      "traditional_char": "愾"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "愤怒，愤恨",
+      "examples": [
+        "诸侯敌王所忾而献其功。",
+        "同仇敌忾"
+      ],
+      "traditional_char": "愾"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "满，遍及，到达",
+      "examples": [
+        "身以及身，子以及子，妃以及妃，君行此三者，则忾乎天下矣。"
+      ],
+      "traditional_char": "愾"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从心，气声，表示心中叹息、感慨之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘叹息’的内心情感引申为‘愤怒、愤恨’，过程见于《左传》。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由情感遍及心中引申为‘满、遍及、到达’，语见《礼记》。"
+    }
+  ]
+}

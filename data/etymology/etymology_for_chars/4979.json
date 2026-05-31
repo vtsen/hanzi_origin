@@ -1,0 +1,85 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "水流聲，流水聲。",
+      "examples": [
+        "淙，水声也。——《说文》",
+        "千巖萬壑響松檜，懸崖巨石飛流淙。——宋 歐陽修",
+        "諦聽微淙，陟草披苔，猶堪彷彿。——清 吳錫麒"
+      ],
+      "traditional_char": "淙"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "瀑布。",
+      "examples": [
+        "萬仞倒危石，百丈注懸淙。——南朝梁 沈約",
+        "懸崖巨石飛流淙。——宋 歐陽修"
+      ],
+      "traditional_char": "淙"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "水流、流水的樣子。",
+      "examples": [
+        "水流貌。如：淙汩"
+      ],
+      "traditional_char": "淙"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "灌注；沖擊（水流湧出、沖擊）。",
+      "examples": [
+        "淙大壑與沃焦。——晉 郭璞《江賦》"
+      ],
+      "traditional_char": "淙"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "漬；灌。",
+      "examples": [
+        "同“漴”，漬；灌"
+      ],
+      "traditional_char": "淙"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，宗声，表示水流声。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "从抽象的水声扩展为水流的样子。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由水流之貌引申为流动之物，特指瀑布。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "由名词的水流之貌转为动词，指水流冲击、灌注。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由大水灌注义扩展到一般的灌、漬。"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "做鞋用的模型",
+      "examples": [
+        "鞋楦子",
+        "他专门制作各种鞋楦"
+      ],
+      "traditional_char": "楦"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "拿东西把物体中空的部分填满使物体鼓起来",
+      "examples": [
+        "楦鞋",
+        "把箱子楦好再装鸡蛋"
+      ],
+      "traditional_char": "楦"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘楦’为形声字，从木，宣声。最初指做鞋的木制模型。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "conversion",
+      "note": "由名词“做鞋用的模型”转为动词“用模型填充”；汉语常见的名动转换。"
+    }
+  ]
+}

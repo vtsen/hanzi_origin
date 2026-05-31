@@ -1,0 +1,72 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "怅惘，失意的样子",
+      "examples": [
+        "客出而君惝然若有亡也。",
+        "惝然若失。",
+        "谢眺《郡内登望》：惝魂屡迁。"
+      ],
+      "traditional_char": "惝"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "恍惚，不清楚；迷离",
+      "examples": [
+        "听惝而无闻。",
+        "惝恍，恍惚不清的样子。"
+      ],
+      "traditional_char": "惝"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "惊惧，惊恐的样子",
+      "examples": [
+        "惝惘：惊惧的样子。",
+        "惝罔。"
+      ],
+      "traditional_char": "惝"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "宏大，广大",
+      "examples": [
+        "廓惝而虚，清靖而无思虑。",
+        "正瀏濫以弘惝兮，指東西之漫漫。"
+      ],
+      "traditional_char": "惝"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从心，尚声，表示与心情相关之怅惘状态。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "从怅惘失意发展为精神恍惚不清之状态，二者常连用于诗文。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由怅惘引申为内心惊惧不安的状态，多见于部分文献。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "借怅惘的阔大心境引申为广大、宏大之貌，多见于赋、诗。"
+    }
+  ]
+}

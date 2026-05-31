@@ -1,0 +1,123 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "用话来表达意思",
+      "examples": [
+        "他说话很清楚。",
+        "她用语言表达了自己的想法。"
+      ],
+      "traditional_char": "説"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "介绍",
+      "examples": [
+        "他为我们说合了这场交易。",
+        "我们需要说和各自的观点。"
+      ],
+      "traditional_char": "說"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "言论，主张",
+      "examples": [
+        "他的学说受到广泛关注。",
+        "在这本书中包含了很多重要的著作与言论。"
+      ],
+      "traditional_char": "說"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "责备",
+      "examples": [
+        "老师数说了他几句。",
+        "你不能轻易数说他。"
+      ],
+      "traditional_char": "說"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "文体的一种",
+      "examples": [
+        "韩愈的《师说》是一篇经典。",
+        "这篇文章的体裁属于说文。"
+      ],
+      "traditional_char": "說"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "用话劝说别人",
+      "examples": [
+        "他想游说朋友支持他的计划。",
+        "她游说了委员会接受提案。"
+      ],
+      "traditional_char": "説"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "古同‘悦’",
+      "examples": [
+        "我们因他的成功而说。"
+      ],
+      "traditional_char": "説"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从‘言’部表示与语言相关，‘兑’音符指声。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "与‘说’字相同，表示发音与意义的结合。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "最初拒绝与引荐的语义扩展关系。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "表示言论的引申，自表达含义到主张。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_narrowing",
+      "note": "从表达向责备的特定语义回缩。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "semantic_shift",
+      "note": "引荐转变为某种特定文体。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "unknown",
+      "note": "游说与用语言表达的关系尚不明确。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "semantic_shift",
+      "note": "古义向现代解释的变化。"
+    }
+  ]
+}

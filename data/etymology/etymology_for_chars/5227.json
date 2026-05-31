@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "有机化合物的一类，以氰基为特征，通常为无色液体或固体，有特殊气味，遇酸或碱分解。",
+      "examples": [
+        "腈纶是一种化学纤维。",
+        "乙腈、苯腈属于腈类化合物。"
+      ],
+      "traditional_char": "腈"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "精肉，肉中的精华部分。",
+      "examples": [
+        "腈，肉之粹者。",
+        "腈肉。"
+      ],
+      "traditional_char": "腈"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "形声字，从肉，青声，最初表示精肉，后借指有机化合物。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_shift",
+      "note": "近现代化学术语发展，由‘精肉’音借至氰基类有机化合物，类比‘精’为纯粹、纯净，引申为化学纯净物。"
+    }
+  ]
+}

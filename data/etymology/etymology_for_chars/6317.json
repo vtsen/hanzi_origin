@@ -1,0 +1,101 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "审问犯人，审讯",
+      "examples": [
+        "鞫讯犯人",
+        "掌鞫狱"
+      ],
+      "traditional_char": "鞫"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "查究，穷究",
+      "examples": [
+        "鞫其罪",
+        "鞫于临安"
+      ],
+      "traditional_char": "鞫"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "贫穷，困窘",
+      "examples": [
+        "鞫哉庶正，疚哉冢宰",
+        "鞫为茂草"
+      ],
+      "traditional_char": "鞫"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "穷尽，极尽",
+      "examples": [
+        "鞫为茂草"
+      ],
+      "traditional_char": "鞫"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "水涯的末端",
+      "examples": [
+        "芮鞫之即"
+      ],
+      "traditional_char": "鞫"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "晋有鞫居",
+        "汉有鞫谭"
+      ],
+      "traditional_char": "鞫"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "从革，㚔声，形声字。原意为‘穷究、查问’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_narrowing",
+      "note": "由‘查究、穷究’狭义化为专指‘审问犯人’。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "从‘穷究’引申为‘穷尽、极尽’之义。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "‘极尽’（鞫）比喻为‘极度贫穷’。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "以‘究尽’转喻水流至极端之处（终点）。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "unknown",
+      "note": "以本义用作姓氏，具体机制不详。"
+    }
+  ]
+}

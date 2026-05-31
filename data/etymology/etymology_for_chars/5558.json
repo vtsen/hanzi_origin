@@ -1,0 +1,147 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "计谋，计划，谋划",
+      "examples": [
+        "各长于厥居，勉出乃力，听予一人之作猷。",
+        "尔有嘉谋嘉猷。",
+        "宏猷、鸿猷"
+      ],
+      "traditional_char": "猷"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "道、法则",
+      "examples": [
+        "秩秩大猷，圣人莫之。",
+        "若昔大猷，制治于未乱，保邦于未危。"
+      ],
+      "traditional_char": "猷"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "功业，功绩",
+      "examples": [
+        "总一大猷。",
+        "壮新猷。"
+      ],
+      "traditional_char": "猷"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "欺诈，弄虚作假",
+      "examples": [
+        "猷，诈也。"
+      ],
+      "traditional_char": "猷"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "虫名",
+      "examples": [
+        "黄軦生乎九猷。"
+      ],
+      "traditional_char": "猷"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "（古）猴属动物或犬子",
+      "examples": [
+        "一曰隴西謂犬子為猷。"
+      ],
+      "traditional_char": "猷"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "adjective",
+      "meaning": "顺；顺从",
+      "examples": [
+        "猷，顺也。",
+        "隴西謂犬子為猷。"
+      ],
+      "traditional_char": "猷"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "adverb",
+      "meaning": "还，尚且，犹如（通“犹”）",
+      "examples": [
+        "尚猷詢茲黃髮，則罔所愆。"
+      ],
+      "traditional_char": "猷"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "preposition",
+      "meaning": "于（於），（通“繇”）",
+      "examples": [
+        "猷大誥爾多邦。"
+      ],
+      "traditional_char": "猷"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 5,
+      "note": "‘猷’为形声字，从犬，酋声，本义可能为兽名（如隴西谓犬子为猷），后引申计谋等义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 5,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "由兽名转为计划、计谋义，或因古音通用和语义变迁"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘计谋’引申为‘道、法则’（计划可作治国之道）"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "法则、道路进一步引申为‘功业、功绩’"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "从计谋引申为欺诈之意（贬义发展）"
+    },
+    {
+      "source_index": 5,
+      "target_index": 4,
+      "evolution_type": "unknown",
+      "note": "‘虫名’用法仅典见于《庄子》，词源不明，可能与原始动物义相关"
+    },
+    {
+      "source_index": 5,
+      "target_index": 6,
+      "evolution_type": "unknown",
+      "note": "‘顺’义仅见古训，联系不明，或与兽顺主人之意有关"
+    },
+    {
+      "source_index": 5,
+      "target_index": 7,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "‘猷’通‘犹’，表示犹如、尚且、还，由同音假借"
+    },
+    {
+      "source_index": 5,
+      "target_index": 8,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "‘猷’通‘繇’，表示‘于’，由古籍音近假借"
+    }
+  ]
+}

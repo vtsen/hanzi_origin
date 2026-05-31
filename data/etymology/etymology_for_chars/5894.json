@@ -1,0 +1,160 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "吃饱，饱食。",
+      "examples": [
+        "其良人出，则必餍酒肉而后反。",
+        "士米籺不饜。"
+      ],
+      "traditional_char": "餍"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "满足（多指欲望、需求）。",
+      "examples": [
+        "以险徼幸者其求无餍。",
+        "不变之说，遂不足久饜学者之心也。",
+        "循良慈惠，深饜人心。"
+      ],
+      "traditional_char": "餍"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "饱、充盛（引申义）。",
+      "examples": [
+        "姦之食上也，取资乎众，籍信乎辩，而以类饰其私。人主不饜忿而待合参，其势下也。"
+      ],
+      "traditional_char": "餍"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "终止，止息（引申义）。",
+      "examples": [
+        "故虽治国，劝之无饜，然后可也。"
+      ],
+      "traditional_char": "餍"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "厌恶（罕见旧义）。",
+      "examples": [
+        "朕甚饜之，甚苦之。"
+      ],
+      "traditional_char": "餍"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "吃饱；满足。",
+      "examples": [
+        "《國語•晉語九》：主之既已食，願以小人之腹，為君子之心，屬饜而已。",
+        "《孟子•離婁下》：其良人出，則必饜酒肉而後反。"
+      ],
+      "traditional_char": "饜"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "满足，达到极点。",
+      "examples": [
+        "以險徼幸者，其求無饜。"
+      ],
+      "traditional_char": "饜"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "adjective",
+      "meaning": "盛，大（引申）。",
+      "examples": [
+        "人主不饜忿而待合參，其勢下也。"
+      ],
+      "traditional_char": "饜"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "verb",
+      "meaning": "止息，终止（引申）。",
+      "examples": [
+        "故雖治國，勸之無饜，然後可也。"
+      ],
+      "traditional_char": "饜"
+    },
+    {
+      "index": 9,
+      "part_of_speech": "verb",
+      "meaning": "厌恶。",
+      "examples": [
+        "朕甚饜之，甚苦之。"
+      ],
+      "traditional_char": "饜"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘餍’为形声字，从食，厌声，表示吃饱。本义为‘吃饱’。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 5,
+      "note": "‘饜’为形声字，从食，厌声，繁体字表义同‘餍’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由吃饱引申为满足多种欲望，古至今沿用。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "‘饱’进一步引申为‘盛’的意义。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "饱食——终止，有“到极点则止”之意。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_shift",
+      "note": "‘饱’转变为‘厌恶’，古义罕见，有学术争议。"
+    },
+    {
+      "source_index": 5,
+      "target_index": 6,
+      "evolution_type": "semantic_extension",
+      "note": "同‘餍’义的引申。"
+    },
+    {
+      "source_index": 5,
+      "target_index": 7,
+      "evolution_type": "semantic_extension",
+      "note": "饱引申为盛。"
+    },
+    {
+      "source_index": 5,
+      "target_index": 8,
+      "evolution_type": "semantic_extension",
+      "note": "饱至极则止，引申义。"
+    },
+    {
+      "source_index": 5,
+      "target_index": 9,
+      "evolution_type": "semantic_shift",
+      "note": "‘饱’转‘厌恶’，古义，存在学界争议。"
+    }
+  ]
+}

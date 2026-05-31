@@ -1,0 +1,53 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "雨雪下得很大，量多而猛烈的样子。",
+      "examples": [
+        "北风其凉，雨雪其雱。",
+        "雨雪雱雱。"
+      ],
+      "traditional_char": "雱"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "水盛大而漫流的样子。",
+      "examples": [
+        "滂，沛也。或作雱。——《说文》"
+      ],
+      "traditional_char": "雱"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "同“滂”，普遍、广大流布的样子。",
+      "examples": [
+        "同滂通，《诗北风》雨雪其雱与滂通。"
+      ],
+      "traditional_char": "雱"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从雨，旁声，形声字，最初表示雨雪盛大。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由雨雪盛大转喻到水势盛大，古汉语常见现象。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由具体的雨雪之盛扩展为普遍、流布之盛，同滂通用。"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "名词",
+      "meaning": "有土地、人民、主权的政体",
+      "examples": [
+        "国家",
+        "国土",
+        "国体"
+      ],
+      "traditional_char": "國"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "名词",
+      "meaning": "特指中国",
+      "examples": [
+        "国产",
+        "国货"
+      ],
+      "traditional_char": "國"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "名词",
+      "meaning": "姓",
+      "examples": [],
+      "traditional_char": "國"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "从“囗”，表示疆域。从或。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_narrowing",
+      "note": "特指中国"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "地名演变为姓氏"
+    }
+  ]
+}

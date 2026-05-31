@@ -1,0 +1,40 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "particle",
+      "meaning": "语气词，表示提醒、肯定，语气较轻快，常用于句末，作用类似于“喽”“啦”。",
+      "examples": [
+        "别玩了，咱们回家嘞！",
+        "他们心里明白嘞！",
+        "要哽死你嘞！吃了再说嘛。"
+      ],
+      "traditional_char": "嘞"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "〈方〉唠叨、啰嗦（如嘞嘞）。",
+      "examples": [
+        "瞎嘞。",
+        "嘞嘞叨叨。"
+      ],
+      "traditional_char": "嘞"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从口，力声。用于表达语气，现代为语气词，表感叹或提醒，多见于口语和方言。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由语气表达用途，延伸为方言中表达唠叨的动作，具体机制可能为音用或叠用表达反复动作。"
+    }
+  ]
+}

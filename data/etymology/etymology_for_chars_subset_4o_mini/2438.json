@@ -1,0 +1,88 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "外界事物所引起的喜、怒、爱、憎、哀、惧等心理状态",
+      "examples": [
+        "感情",
+        "感情绪",
+        "情怀"
+      ],
+      "traditional_char": "情"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "专指男女相爱的心理状态及有关的事物",
+      "examples": [
+        "爱情",
+        "情人",
+        "情书"
+      ],
+      "traditional_char": "情"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "对异性的欲望，性欲",
+      "examples": [
+        "欲望",
+        "发情期"
+      ],
+      "traditional_char": "情"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "私意",
+      "examples": [
+        "说情"
+      ],
+      "traditional_char": "情"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "状况",
+      "examples": [
+        "实情",
+        "情况"
+      ],
+      "traditional_char": "情"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，左边为心字旁，意指与情感相关，右边为青字，反映其发音特征。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "情感的广义扩展，引申为男女间的爱情状态。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "从感情引申至对性的欲望。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "情感与个人私意的关系。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "情感状态引申为状况和形势。"
+    }
+  ]
+}

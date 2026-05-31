@@ -1,0 +1,69 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "膀胱，腹中的储尿器官。",
+      "examples": [
+        "脬……膀胱也。《史记》张守节正义",
+        "风瘅客脬，难于大小溲，溺赤。《史记》"
+      ],
+      "traditional_char": "脬"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "称鼓起而松软之物，如鱼的气囊。",
+      "examples": [
+        "福州人谓之佩羹，即今鱼脬是也。《江邻几杂志》"
+      ],
+      "traditional_char": "脬"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "借指水聚积之处，如小湖。",
+      "examples": [
+        "断山出脉水纳脬。《黄景仁 塗山禹庙》"
+      ],
+      "traditional_char": "脬"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "measure_word",
+      "meaning": "量词，用于屎、尿。",
+      "examples": [
+        "一脬尿。",
+        "撒脬尿在里面。《气英布》"
+      ],
+      "traditional_char": "脬"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从肉，孚声，本义为膀胱，与身体组织相关。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "因膀胱形状鼓起而松软，转喻鼓起而松软之物。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由松软的气囊类物体，再比喻为水聚积形成鼓起之状。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "grammaticalization",
+      "note": "膀胱以盛尿，转为计量尿量的量词用法。"
+    }
+  ]
+}

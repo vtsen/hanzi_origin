@@ -1,0 +1,40 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "船的两侧部分",
+      "examples": [
+        "船舷",
+        "左舷",
+        "右舷"
+      ],
+      "traditional_char": "舷"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "飞机的两侧部分",
+      "examples": [
+        "舷窗",
+        "飞机的左舷"
+      ],
+      "traditional_char": "舷"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从舟，玄声，表示船的边侧。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由船的侧边义引申为飞机两侧，现代以来新用法。"
+    }
+  ]
+}

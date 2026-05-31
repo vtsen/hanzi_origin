@@ -1,0 +1,59 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "水名。潁河，源出河南省嵩山，流入淮河。",
+      "examples": [
+        "潁，潁水，出潁州陽城乾山東入淮。——《說文》",
+        "斸嵩開雲扃，壓潁抗風榭。——韓愈《縣齋有懷》"
+      ],
+      "traditional_char": "潁"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "古地名。位於河南省登封縣東，潁水以北。",
+      "examples": [
+        "天王使劉定公勞趙孟於潁。——《左傳》",
+        "定都潁邑。——《文選》"
+      ],
+      "traditional_char": "潁"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [
+        "春秋鄭有潁考叔。見《左傳·隱公元年》"
+      ],
+      "traditional_char": "潁"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘潁’为形声字，从水，頃声，表水名之义，古籍明见。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“颍”为‘潁’的简化字，采用头部‘页’，保留頃声，语音借用。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由指水名引申指流域地名，形成地名‘潁’。古地理文献常见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由地名引申为人的姓氏，古今常见由地望为姓。"
+    }
+  ]
+}

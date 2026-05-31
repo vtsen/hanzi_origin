@@ -1,0 +1,90 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "淘米，用水洗米",
+      "examples": [
+        "淅米而储之。",
+        "祝淅米于堂。",
+        "百姓开门而待之～，～米而储之，唯恐其不来也"
+      ],
+      "traditional_char": "淅"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "淘过的米，洗后控去水的米",
+      "examples": [
+        "孔子之去齐，接淅而行。",
+        "日日一接淅，釜甑恒生尘。"
+      ],
+      "traditional_char": "淅"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "水名。河南省西南部的淅水、淅川、淅河等",
+      "examples": [
+        "秦发兵击之，大破楚师于丹淅。",
+        "广舆记：属河南南阳府，汉淅县，后魏淅川。"
+      ],
+      "traditional_char": "淅"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "onomatopoeia",
+      "meaning": "象声词，形容风雨、雨雪、落叶、风等的声音",
+      "examples": [
+        "秋风淅淅吹我衣。",
+        "霰淅淅而先集，雪纷糅而遂多。",
+        "淅淅沥沥下起雨来。",
+        "皎然素色不因染，淅尔凉风非为秋。"
+      ],
+      "traditional_char": "淅"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "古邑名或古州名（也作“析”）",
+      "examples": [
+        "汉淅县，后魏淅川。",
+        "古州名，亦称析州。"
+      ],
+      "traditional_char": "淅"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，析声，本义为淘米。'水'表意义，'析'表声音。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "conversion",
+      "note": "动用作名，动作所产之物引申为名词。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "以淘米水、流水之意引申为水名，或因河流用于淘洗；见于地理应用。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "以淘米声喻细雨风声，形成象声义。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "由水名引申为所在古邑名或州名。"
+    }
+  ]
+}

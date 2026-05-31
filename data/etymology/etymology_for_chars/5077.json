@@ -1,0 +1,73 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古代官府中佐助官吏的通称，副官、属官。",
+      "examples": [
+        "为沛主吏掾。——《汉书·萧何传》",
+        "辟掾属百余人，时人谓之百六掾。——《晋书·元帝纪》"
+      ],
+      "traditional_char": "掾"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "衣物边缘的装饰，衣缘。",
+      "examples": [
+        "白绡乘云绣郭中絪度一赤掾。——《马王堆汉墓遣策》"
+      ],
+      "traditional_char": "掾"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "佐助，辅助。",
+      "examples": [],
+      "traditional_char": "掾"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "驰逐，奔走经营。",
+      "examples": [
+        "陈掾其间，得所欲。——《史记·货殖列传》（司马贞索隐：陈掾，犹经营驰逐也）"
+      ],
+      "traditional_char": "掾"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [],
+      "traditional_char": "掾"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 2,
+      "note": "形声字，从手，彖声。本义为佐助之义，因‘手’表施为、辅助之意，‘彖’表音。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 2,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "由‘佐助’的动作意引申为承担辅助事务之人，即官署属官。汉代已见。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由‘边缘辅佐’的观念，比喻为衣物上的边缘装饰。依据《说文》《马王堆汉墓遣策》。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "unknown",
+      "note": "‘驰逐’、‘经营’之义出自特殊用例，语义演变机制存疑，或与辅助、经营有关。"
+    }
+  ]
+}

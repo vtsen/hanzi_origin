@@ -1,0 +1,73 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "剥夺（衣服、官职等），强行夺去。",
+      "examples": [
+        "褫夺官职",
+        "褫魄",
+        "乃褫豪民衣自衣"
+      ],
+      "traditional_char": "褫"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "脱去，解下（衣服、佩带）。",
+      "examples": [
+        "念解佩而褫绅",
+        "终朝三褫"
+      ],
+      "traditional_char": "褫"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "废弛，松弛，去除、解除。",
+      "examples": [
+        "极礼而褫",
+        "褫散",
+        "褫落"
+      ],
+      "traditional_char": "褫"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "撕扯，扯住。",
+      "examples": [
+        "把他的长衫褫了下来，摔在路旁",
+        "把苟才褫住"
+      ],
+      "traditional_char": "褫"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从衣，虒声，初指剥夺衣服。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“强夺”扩展为“解下、脱去”，出现被动/自发语境。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由“剥夺”引申为“废弛、松弛”，强调取消、解除含义。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "“剥夺”与“撕扯”在动作上相关，语义发生转移。"
+    }
+  ]
+}

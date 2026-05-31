@@ -1,0 +1,82 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "鷦鹩，一种体型小、尾短的鸟，食虫，也称“桃虫”、“巧妇”。",
+      "examples": [
+        "肇允彼桃蟲，拚飛維鳥。（《詩經·周頌·小毖》）",
+        "有似鷦鳥集船悲鳴。（《南史·檀道濟傳》）"
+      ],
+      "traditional_char": "鷦"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "鷦莺，一种鸣声似猫叫、食虫，有益农作物的小鸟。",
+      "examples": [],
+      "traditional_char": "鷦"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "指“鷦明”、“鷦鸠”等带有“鷦”字的其它鸟类名称。",
+      "examples": [],
+      "traditional_char": "鷦"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "焦螟（通“焦”，即焦螟，一种对农作物有害的昆虫）。",
+      "examples": [
+        "鷦巢蚊睫"
+      ],
+      "traditional_char": "鷦"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "“鷦”的简化字形式。",
+      "examples": [],
+      "traditional_char": "鹪"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "鷦为形声字，从鳥，焦声，本义为小鸟（鷦鹩）。"
+    },
+    {
+      "formation_type": "simple_indicative",
+      "original_sense_index": 4,
+      "note": "鹪为鷦的简化字，形从‘鸟’与‘焦’合成，语素简化。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从鷦鹩引申为同属小型食虫鸣禽（如鷦莺），古今常见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由指代特指鸟类拓展为其它带鷦字的鸟名，汉语习惯。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "reanalysis",
+      "note": "因文字混用出现通“焦”，表昆虫焦螟，属于训借。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "reanalysis",
+      "note": "鹪为鷦的简化字，现代简化过程中产生，沿用原义。"
+    }
+  ]
+}

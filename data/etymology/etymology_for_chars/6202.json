@@ -1,0 +1,149 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古代量器名，容量為一斗二升，亦指用作容量單位的器皿",
+      "examples": [
+        "鬲實五觳。——《周礼·考工记·陶人》",
+        "觳讀為斛。"
+      ],
+      "traditional_char": "觳"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "盛酒器、射具或特定種類的器具",
+      "examples": [
+        "盛觵巵也。《说文》",
+        "觳簏，器名。《类篇》"
+      ],
+      "traditional_char": "觳"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "盡，全部，用盡",
+      "examples": [
+        "雖監門之養，不觳於此。《史记·秦始皇本纪》",
+        "觳，盡也。《尔雅·释诂》"
+      ],
+      "traditional_char": "觳"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "土地瘠薄、贫瘠、简陋、无润之意",
+      "examples": [
+        "剛而不觳。《管子·地员》",
+        "其道不觳。《庄子·天下》"
+      ],
+      "traditional_char": "觳"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "脚背或兽蹄",
+      "examples": [
+        "明衣不辟长及觳。《仪礼·既夕礼》",
+        "主妇俎觳折。《仪礼·特牲馈食礼》"
+      ],
+      "traditional_char": "觳"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "族，族群",
+      "examples": [
+        "族也。《玉篇》"
+      ],
+      "traditional_char": "觳"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "盛脂器",
+      "examples": [
+        "克角切，盛脂器也。《正韻》"
+      ],
+      "traditional_char": "觳"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "verb",
+      "meaning": "競技，較量，比賽（通“角”）",
+      "examples": [
+        "強弱不觳力。《韩非子·用人》",
+        "大觳抵出奇戏。《史记·大宛传》"
+      ],
+      "traditional_char": "觳"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "adjective",
+      "meaning": "恐惧颤抖、恐惧貌，多见于“觳觫”一词",
+      "examples": [
+        "君暴創之，吏咋而觳。《龚自珍》",
+        "觳觫，懼貌。"
+      ],
+      "traditional_char": "觳"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从角，𣪊声。本义为量器名，形声字。部分用法用作斛的假借，后多义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由容量器扩展为其他盛酒器或射具等器物名称"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "量器“盛满”概念引申为“尽、全部”之意"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "“尽”引申为“简陋、贫瘠、无润”"
+    },
+    {
+      "source_index": 1,
+      "target_index": 6,
+      "evolution_type": "semantic_extension",
+      "note": "器名类词汇扩展为具体“盛脂器”"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "器物形状比附脚背、兽蹄"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "unknown",
+      "note": "“族”用法与器名关联不明，或为词借"
+    },
+    {
+      "source_index": 0,
+      "target_index": 7,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "“觳”通“角”，用作比賽、較量义，属音近假借"
+    },
+    {
+      "source_index": 3,
+      "target_index": 8,
+      "evolution_type": "metaphor",
+      "note": "瘠薄、贫瘠引申为无力、无助以致恐惧之貌，多见于“觳觫”"
+    }
+  ]
+}

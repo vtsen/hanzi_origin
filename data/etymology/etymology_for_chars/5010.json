@@ -1,0 +1,100 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "随意行走；行步无拘束。",
+      "examples": [
+        "渾然而往，逯然而來。——《淮南子》",
+        "逯謂無所為忽然往來也。——高誘注"
+      ],
+      "traditional_char": "逯"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "行步谨慎。",
+      "examples": [
+        "行謹逯逯也。——《說文》"
+      ],
+      "traditional_char": "逯"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "群众，众人。",
+      "examples": [
+        "逯逯，衆也。——《博雅》",
+        "冲心幽被，奖逯无偏。——王僧令《皇太子释奠会》"
+      ],
+      "traditional_char": "逯"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "地名，古秦邑名。",
+      "examples": [
+        "逯，秦邑。其大夫封于逯，因氏焉。《風俗通》"
+      ],
+      "traditional_char": "逯"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [
+        "漢有逯並。《漢書·翟義傳》",
+        "金紫光祿大夫逯明。《後趙錄》"
+      ],
+      "traditional_char": "逯"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "及，达到，与“逮”同用。",
+      "examples": [
+        "逯及也。《廣雅釋詁一》"
+      ],
+      "traditional_char": "逯"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "形声字，从辵，彔声。原义为‘行步谨慎’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "由‘行步谨慎’扩展为‘随意行走’，历代文献多有记载。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由‘行步谨慎’喻指为‘众多的人’，见《博雅》。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "地名取自‘逯’，多指依地得名。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "姓氏由地名而来，风俗通明确记载。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "unknown",
+      "note": "‘及’义出现较晚，衍生机理不明。"
+    }
+  ]
+}

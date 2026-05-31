@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "竹名，实心、节高、质坚，适宜制作手杖。",
+      "examples": [
+        "筇竹杖（用筇竹所制的杖）",
+        "張騫言在大夏見蜀布、筇竹杖。"
+      ],
+      "traditional_char": "筇"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "手杖，由筇竹制成，或泛指手杖。",
+      "examples": [
+        "倚筇吟",
+        "筇扶老"
+      ],
+      "traditional_char": "筇"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“筇”从竹，音符“弓”，表示与竹类相关，初指一种竹子。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "因用筇竹制杖，转指手杖。出现于汉代后。"
+    }
+  ]
+}

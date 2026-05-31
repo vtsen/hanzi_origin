@@ -1,0 +1,38 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "腔肠动物，身体圆筒形，褐色，口周围有触手，附在水草或枯叶上的水生生物，如“水螅”",
+      "examples": [
+        "池塘里有许多水螅。"
+      ],
+      "traditional_char": "螅"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "毛虫、蠕虫等小虫子的总称，有时与“蛓”或“蟋”通用",
+      "examples": [
+        "螅蟀居壁。",
+        "螅，毛虫也。"
+      ],
+      "traditional_char": "螅"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "形声字，从虫，𢦒声。初指毛虫一类的小虫。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_narrowing",
+      "note": "后期专用于指‘水螅’等腔肠动物，用法缩小，约自近现代起。"
+    }
+  ]
+}

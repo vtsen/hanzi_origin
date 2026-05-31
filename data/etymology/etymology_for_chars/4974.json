@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古水名，在今山东省淄博市等地，亦称“渑水”或“澠水”。",
+      "examples": [
+        "有酒如渑，有肉如陵。——《左传·昭公十二年》",
+        "澠水，出齐国临淄县北入时水。——杜预注"
+      ],
+      "traditional_char": "澠"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "古水名，在今四川省一带。",
+      "examples": [
+        "巴国有巴遂山，澠水出焉。——《山海经·海内经》"
+      ],
+      "traditional_char": "澠"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "地名，指渑池，在中国河南省。",
+      "examples": [
+        "渑池之会。——《史记·苏秦列传》",
+        "渑池会，秦赵诸侯相见。"
+      ],
+      "traditional_char": "澠"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "澠为形声字，水为意旁，面为声旁，最初表古水名。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "水名用作多个不同地理位置的水体，地域扩展。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "以河流名代指因河流命名的地名‘渑池’。"
+    }
+  ]
+}

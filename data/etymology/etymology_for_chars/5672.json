@@ -1,0 +1,88 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "（饮品、液体）味道浓厚，汁液浓",
+      "examples": [
+        "酒酽春浓琼草齐。",
+        "酽酒",
+        "酽茶"
+      ],
+      "traditional_char": "酽"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "颜色深，色彩浓",
+      "examples": [
+        "北宋院本画，用笔工致，傅色明酽。",
+        "酽紫"
+      ],
+      "traditional_char": "酽"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "感情深厚",
+      "examples": [
+        "酽念",
+        "市壚沽酒，酒薄怎当愁釅！"
+      ],
+      "traditional_char": "酽"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "厉害，剧烈，程度深",
+      "examples": [
+        "只是他赌的不酽。",
+        "酽冷",
+        "酽冽"
+      ],
+      "traditional_char": "酽"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "动作猛烈，狠重",
+      "examples": [
+        "照着龙氏脸上两个酽巴掌，打的像劈竹似的响。"
+      ],
+      "traditional_char": "酽"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从酉，严声，酉表示与酒液相关，‘严’作声旁，初指饮品味浓。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由味道浓厚借喻到色彩深浓，汉至宋已见用例。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由“味浓”借喻为感情深厚，比喻转化常见于中古及以后。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由“浓厚”抽象化为“程度深烈”的引申，晚唐已见。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "由“程度剧烈”借喻为动作猛烈、狠重。明清小说用法。"
+    }
+  ]
+}

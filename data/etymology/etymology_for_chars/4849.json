@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "particle",
+      "meaning": "语气助词，用法类似“吧”，表轻微的疑问或建议语气。",
+      "examples": [
+        "你快走啵！",
+        "一起去吃饭啵？"
+      ],
+      "traditional_char": "啵"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "onomatopoeia",
+      "meaning": "象声词，表示轻微的碰撞、亲吻等发出的声音。",
+      "examples": [
+        "他亲了她一下，啵的一声。",
+        "气球爆开，发出啵的响声。"
+      ],
+      "traditional_char": "啵"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "形声字，从口，波声。本作拟声词，后引申为语气助词。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "grammaticalization",
+      "note": "由象声词用作语气助词，常见于方言或口语。"
+    }
+  ]
+}

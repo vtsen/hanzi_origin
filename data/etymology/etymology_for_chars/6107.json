@@ -1,0 +1,61 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "other",
+      "meaning": "用于化学名词中的音译字，表示分子中含硫团，通常是代替亚甲基CH₂的硫基团。例如：噻唑、噻啶、噻吩、噻嗪。",
+      "examples": [
+        "噻唑环",
+        "噻吩是重要的有机化合物"
+      ],
+      "traditional_char": "噻"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "噻唑类、噻吩类等有机化合物的总称。",
+      "examples": [
+        "噻唑是一种含硫杂环化合物"
+      ],
+      "traditional_char": "噻"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "other",
+      "meaning": "译音字，用于外来语的音译。",
+      "examples": [
+        "噻吩",
+        "噻啶"
+      ],
+      "traditional_char": "噻"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "闭口不言。",
+      "examples": [],
+      "traditional_char": "噻"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "loan_character",
+      "original_sense_index": 2,
+      "note": "‘噻’作为译音用字借用汉字，用于科学术语表示thia-音译，属于音译假借。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 2,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "从音译用字扩展为专业前缀，广泛用于含硫化学名。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由前缀义延伸为指称这一类有机化合物的名词性用法。"
+    }
+  ]
+}

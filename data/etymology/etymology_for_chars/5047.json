@@ -1,0 +1,70 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "美玉，珍贵的玉石。",
+      "examples": [
+        "沟浍之中，无宵朗之琦。——《抱朴子·博喻》",
+        "财货琦玮，珠玉璧白。——《鬼谷子·飞箝》"
+      ],
+      "traditional_char": "琦"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "非常美好，珍贵。",
+      "examples": [
+        "琦赂宝货。——《后汉书·仲长统传》",
+        "琦行（高尚的行为）"
+      ],
+      "traditional_char": "琦"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "奇异、怪异。",
+      "examples": [
+        "玩琦辞。——《荀子·非十二子》",
+        "琦珍（奇异的珍宝）"
+      ],
+      "traditional_char": "琦"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "大貌，气度卓犖。",
+      "examples": [
+        "卓犖貌。——《玉石埤倉》"
+      ],
+      "traditional_char": "琦"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从玉，奇声，形声字，表示美玉，属于形声字。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "以美玉的珍贵、完美引申为美好、珍贵的事物，汉代已见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由美玉的稀有珍奇，引申为奇异、怪异。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "美玉之大引申为气度卓犖之大貌。"
+    }
+  ]
+}

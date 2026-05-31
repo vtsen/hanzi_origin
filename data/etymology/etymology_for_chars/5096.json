@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "木柜、木匣，用于存放物品的容器。",
+      "examples": [
+        "郑人买其椟而还其珠。",
+        "龟玉毁于椟中。"
+      ],
+      "traditional_char": "櫝"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "盛饭菜的食盒。",
+      "examples": [
+        "椟食（以盒供食）"
+      ],
+      "traditional_char": "櫝"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "棺材。",
+      "examples": [
+        "公将为之椟。",
+        "昔人以窾木为櫝，葛虆为缄。"
+      ],
+      "traditional_char": "櫝"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从木，卖声，表示木制的柜匣。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由存放一般物品的柜匣引申为盛饭菜的盒子。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由存放物品的柜匣引申为存放遗体的棺材。"
+    }
+  ]
+}

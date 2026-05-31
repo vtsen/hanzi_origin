@@ -1,0 +1,38 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "上粗下锐、用于填充或固定的木橛或木片",
+      "examples": [
+        "楔子",
+        "用楔子将门固定住"
+      ],
+      "traditional_char": "楔"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "楔形文字，指古代楔状刻痕的文字系统",
+      "examples": [
+        "楔形文字是世界上最早的文字之一"
+      ],
+      "traditional_char": "楔"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从木，契声；表示木制的楔子，上粗下锐。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由物理楔子的形状比喻用于描述古代带楔形刻痕的文字。"
+    }
+  ]
+}

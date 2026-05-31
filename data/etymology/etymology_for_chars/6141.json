@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "鱼苗的总称",
+      "examples": [
+        "鲲，鱼子。——《尔雅·释鱼》",
+        "凡鱼之子摠名鯤。——郭璞注"
+      ],
+      "traditional_char": "鯤"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "传说中的大鱼",
+      "examples": [
+        "北冥有鱼，其名为鲲。——《庄子·逍遥游》",
+        "助汝五龙从九鲲。——唐 韩愈",
+        "鲲鹏展翅，九万里。"
+      ],
+      "traditional_char": "鯤"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "草鱼，一种淡水鱼",
+      "examples": [
+        "于是弛青鲲于网钜。——《文选·潘岳〈西征赋〉》"
+      ],
+      "traditional_char": "鯤"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从鱼，昆声，形声字，初指鱼苗的总称。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由鱼苗泛指转为古代神话中巨鱼，先见于《庄子·逍遥游》。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_narrowing",
+      "note": "专指某种淡水鱼（草鱼），出现于文献如《文选》等。"
+    }
+  ]
+}

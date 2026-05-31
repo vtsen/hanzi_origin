@@ -1,0 +1,82 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "缓，宽缓。",
+      "examples": [
+        "嬗，缓也。——《说文》"
+      ],
+      "traditional_char": "嬗"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "变迁，更替，演变。",
+      "examples": [
+        "形气转续，变化而嬗。——贾谊《鹏鸟赋》",
+        "五年之间，号令三嬗。——《史记·秦楚之际月表》",
+        "白光嬗为飞烟，已是影子。——朱自清《温州的踪迹》"
+      ],
+      "traditional_char": "嬗"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "传递，传与，传位（禅让）",
+      "examples": [
+        "堯嬗以天下。——《汉书·律历志下》",
+        "变化而嬗。——《汉书·贾谊传》注：“相传与也。”",
+        "留其人于京师，而无尺土以嬗其子孙。——龚自珍《答人问关内侯》"
+      ],
+      "traditional_char": "嬗"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "婢女。",
+      "examples": [],
+      "traditional_char": "嬗"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "美丽（美容，嬗娟），同“嬋”。",
+      "examples": [],
+      "traditional_char": "嬗"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从女，亶声。表形体缓慢、柔和之意，古以女旁指涉阴柔、温婉属性。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_shift",
+      "note": "由原义“缓”引申为“变迁、渐变”，体现在古汉语中事物渐变缓进的过程。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "从“变迁、更替”引申至“传递、传与”，含有逐步转移、权力更迭等含义，常与禅让通用。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "“缓”引申为“婢女”，古代常用于指动作柔婉的女子，故由形容词扩展为称谓。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "“缓”转义为“美丽”，体现外形秀美柔和之义，与“嬋娟”相关。"
+    }
+  ]
+}

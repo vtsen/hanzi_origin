@@ -1,0 +1,90 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "乡人相聚宴饮，以酒食招待宾客；设宴请客、款待。",
+      "examples": [
+        "朋酒斯飨，曰杀羔羊。",
+        "钟鼓既没，一朝飨之。",
+        "飨会、飨宴、以飨群臣"
+      ],
+      "traditional_char": "饗"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "祭祀，祭献；用酒食祭祀神灵或祖先。",
+      "examples": [
+        "神保是飨。",
+        "大飨先茔。",
+        "飨牢"
+      ],
+      "traditional_char": "饗"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "犒赏、慰劳；用酒食慰劳、赏赐士卒。",
+      "examples": [
+        "旦日飨士卒。",
+        "冯梦龙《智囊补》：悉取将军之资粮，饗士卒。"
+      ],
+      "traditional_char": "饗"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "享受、享用，通“享”；使人享受。",
+      "examples": [
+        "多飨大利，犹思不义。",
+        "飨德怀恩。",
+        "以飨读者"
+      ],
+      "traditional_char": "饗"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "接受酒食、受到款待。",
+      "examples": [
+        "神飨而民听。",
+        "受食亦曰飨。"
+      ],
+      "traditional_char": "饗"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "会意兼形声字，从食，从乡，乡亦声。本义为乡人相聚宴饮。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从宴饮活动语境扩展为祭祀宴请神灵，周秦两汉习见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由宴饮宾客引申为慰劳、赏赐酒食，多见军旅场合。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "“飨”由实体宴饮抽象为“享受”，与“享”通假，先秦以来互见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_shift",
+      "note": "由设宴请客转为接受饮食，突出受事方。"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "螳螂，一种昆虫；亦称“刀螂”、“天马”。",
+      "examples": [
+        "螳螂捕蝉，黄雀在后。",
+        "螳螂拒辙。"
+      ],
+      "traditional_char": "螂"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "蜣螂，一种以粪便为食的甲虫；粪金龟。",
+      "examples": [
+        "蜣螂转粪。",
+        "蜣螂滚粪球。"
+      ],
+      "traditional_char": "螂"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "蟑螂，昆虫纲，亦称“蜚蠊”。",
+      "examples": [
+        "家中有蟑螂。",
+        "蟑螂四处爬行。"
+      ],
+      "traditional_char": "螂"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "蚂螂，一种甲壳纲动物，雄蟹的别称。",
+      "examples": [
+        "雄蟹俗称蚂螂。"
+      ],
+      "traditional_char": "螂"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从虫，表与虫类有关，‘郎’作声符，本指螳螂等昆虫。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从螳螂泛指其他类似昆虫及甲虫，魏晋后语义扩展。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "‘螂’字用于复合词‘蟑螂’，转指不同种类的昆虫。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "蚂螂为甲壳类动物，因形近别称沿用‘螂’，见于方言用法中。"
+    }
+  ]
+}

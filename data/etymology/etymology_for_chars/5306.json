@@ -1,0 +1,53 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "脱衣露体，裸体的状态",
+      "examples": [
+        "虽袒裼裸裎于我侧，尔焉能浼我哉？",
+        "秦人捐甲徒裎以趋敌，左挈人头，右挟生虏。"
+      ],
+      "traditional_char": "裎"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "系玉佩的带子",
+      "examples": [
+        "佩紟谓之裎。"
+      ],
+      "traditional_char": "裎"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "古代一种对襟单衣",
+      "examples": [
+        "襌衣无袌者谓之裎衣，古谓之深衣。"
+      ],
+      "traditional_char": "裎"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘裎’从‘衣’表示衣物，从‘呈’表声，最初指裸裎、裸体。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由“裸体”引申为“无袌的单衣”，即对襟单衣，意义扩展"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由“裸体”的身体，借指玉佩贴身所用带子，器物借称"
+    }
+  ]
+}

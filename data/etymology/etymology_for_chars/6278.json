@@ -1,0 +1,62 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "海洋中小型魚類，體長三至十餘厘米，銀灰色，側扁，常群居於淺海；即鳀鱼，鯷魚。幼魚干制品稱“海蜒”。",
+      "examples": [
+        "黑背鳀",
+        "鲭鳀为海产经济鱼类。",
+        "幼鯷多加工製成魚乾，通稱海蜒。"
+      ],
+      "traditional_char": "鯷"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "大鯰魚；據古籍記載，體重大，可達千斤，以其皮為冠。",
+      "examples": [
+        "鯷冠秫縫",
+        "鯷，大鯰，以其皮爲冠。"
+      ],
+      "traditional_char": "鯷"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "我國古代東方海中之種族名，稱東鯷人。",
+      "examples": [
+        "會稽海外有東鯷人，分為二十餘國，以歲時來獻。",
+        "於是東鯷即序，西傾順軌。",
+        "鯷人潛處於菰汀。"
+      ],
+      "traditional_char": "鯷"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "鯷為形聲字，從魚，弟聲。原義為大鯰。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "鳀為簡化字，從魚，弟聲，形聲結構，用作鯷之簡化。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_narrowing",
+      "note": "由“大鯰”一義轉狹義指特定小型魚類，主要在現代分類應用中見。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "以物稱族，用魚名泛指東方海外部族，古代文獻用法。"
+    }
+  ]
+}

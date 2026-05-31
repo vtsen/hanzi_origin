@@ -1,0 +1,44 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "一种用面粉制成的块状面食，如馒头、烙饼等，大致为主食或甜食，亦称点心。",
+      "examples": [
+        "请给我买两个大饽饽。",
+        "家中做各色饽饽点心。"
+      ],
+      "traditional_char": "餑"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "茶上浮沫，煮茶时形成的厚泡沫，称为“餑”或“沫餑”。",
+      "examples": [
+        "凡酌，置诸碗，令沫餑均。",
+        "餑恐生烟翠。"
+      ],
+      "traditional_char": "餑"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“餑”从食，波声，形声字，初指面制块状食品。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“饽”为“餑”的简化字，简体与繁体意义一致。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "比喻义，形状类似块状面食品的茶汤浮沫，见唐代文献。"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "斜视，用眼角向侧面看。",
+      "examples": [
+        "目不正，曰眺。",
+        "他眺着远方，不发一语。"
+      ],
+      "traditional_char": "眺"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "远望，向远处眺望。",
+      "examples": [
+        "登高远眺，心旷神怡。",
+        "眺览风景。",
+        "遥山在望，可以闲眺。"
+      ],
+      "traditional_char": "眺"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从目，兆声。本义为斜视。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“斜视”引申为“远望”，因斜视多为向远方侧看，隋唐以降普通化。"
+    }
+  ]
+}

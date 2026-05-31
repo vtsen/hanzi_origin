@@ -1,0 +1,133 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "客人用酒回敬主人",
+      "examples": [
+        "進酒於客曰獻，客答之曰酢。",
+        "眾賓立飲，不酢而降。"
+      ],
+      "traditional_char": "酢"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "谢神的祭祀，报祭",
+      "examples": [
+        "秉璋以酢。",
+        "酢瓊漿以緬渺兮。"
+      ],
+      "traditional_char": "酢"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "回应，应对，报答",
+      "examples": [
+        "報以介福，萬壽攸酢。",
+        "對客輒坐睡，有問莫能酢。"
+      ],
+      "traditional_char": "酢"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "调味用的酸味液体（即醋），也作“醋”",
+      "examples": [
+        "四月四日可作酢。",
+        "久食麥屑，不噉鹽酢。"
+      ],
+      "traditional_char": "酢"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "酸味，酸涩味",
+      "examples": [
+        "酢味（酸味）；酢涩（味道又酸又涩）。",
+        "酸鹹酢淡辨濁清。"
+      ],
+      "traditional_char": "酢"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "变酸，腐败",
+      "examples": [
+        "主人酒常酢敗。"
+      ],
+      "traditional_char": "酢"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "制造、制作，通“作”",
+      "examples": [
+        "酢或為作。",
+        "四月四日可作酢。"
+      ],
+      "traditional_char": "酢"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "verb",
+      "meaning": "欺诈，通“詐”",
+      "examples": [
+        "酢偽。"
+      ],
+      "traditional_char": "酢"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从酉，乍声，初本意为客人回敬主人之酒。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由“以酒回敬主人”引申为“回应、应对、报答”，用在更广泛的应酬、回应情境。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "礼仪中由酒宴应酬引申为对神的回敬与祭祀。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "酢与醋混用，由饮酒仪节词转为指酸味调味品。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "调味品名再引申泛指酸味。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 5,
+      "evolution_type": "metonymy",
+      "note": "由“酢”指酸味品，引申为“变酸、腐败”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "reanalysis",
+      "note": "“酢”与“作”音近而通假，后用于表示制造制作。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 7,
+      "evolution_type": "reanalysis",
+      "note": "与“詐”音近通假，用于“欺诈”。"
+    }
+  ]
+}

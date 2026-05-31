@@ -1,0 +1,40 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "急流，湍急的水流。",
+      "examples": [
+        "湍急的河水",
+        "湍流",
+        "湍濑"
+      ],
+      "traditional_char": "湍"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "水流湍急的样子。",
+      "examples": [
+        "湍急",
+        "水势湍猛"
+      ],
+      "traditional_char": "湍"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，隹声。本义指急流。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由名词‘急流’引申为形容词‘水流急的’。"
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "牛的缰绳，牛轡。",
+      "examples": [
+        "縻，牛辔也。——《说文》",
+        "叟揽縻而对。——刘禹锡《叹牛》",
+        "马曰羁，牛曰縻。——应劭《汉官仪》"
+      ],
+      "traditional_char": "縻"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "泛指绳索。",
+      "examples": [
+        "乃奋长縻，是轡是鑣。——晋·刘琨《答卢谌诗》",
+        "縻锁之迹，仍今存焉。——《水经注》",
+        "广备縻索，多聚勇力。——《集异记》"
+      ],
+      "traditional_char": "縻"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "捆绑、拴系，牵制、束缚。",
+      "examples": [
+        "是谓縻举。——《孙子·谋攻》",
+        "吾当以长策縻之。——《晋书·文帝纪》",
+        "须知此身縻官籍。——明·沈鲸《双珠记》"
+      ],
+      "traditional_char": "縻"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "消耗、损失，浪费（通“靡”）。",
+      "examples": [
+        "坐縻廪粟。——明·刘基《卖柑者言》",
+        "今縻岁月，捐父母，弃室家。——宋·叶适《陈民表墓志铭》"
+      ],
+      "traditional_char": "縻"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "分散、散开（通“靡”）。",
+      "examples": [
+        "我有好爵，吾与尔靡之。——《易·中孚》",
+        "縻，散也。——晋灼注《汉书·律历志》"
+      ],
+      "traditional_char": "縻"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "碎烂、毁伤。",
+      "examples": [
+        "縻烂，犹靡烂。",
+        "縻漫，指畦堰损碎浸漫。"
+      ],
+      "traditional_char": "縻"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从糸（绳索义）与麻（声符）组成，本义为牛的缰绳。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从特指牛缰绳扩展为泛指一切绳索。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由名词“绳索”引申为“拴系、束缚”等动作。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "由“束缚”义转为“消耗、浪费”，形容被拘束导致资源耗费。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "semantic_shift",
+      "note": "“消耗、损失”进一步泛化为“分散、散开”。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "消耗、浪费之意引申为“碎烂、毁伤”。"
+    }
+  ]
+}

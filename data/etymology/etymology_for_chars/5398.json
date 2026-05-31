@@ -1,0 +1,70 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "椴树属植物的泛称。落叶乔木，木材细致，可制蒸笼、铅笔、火柴等。",
+      "examples": [
+        "大叶椴，华椴，黔椴",
+        "椴树似白杨，其材能湿。"
+      ],
+      "traditional_char": "椴"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "木槿。",
+      "examples": [
+        "《尔雅·释草》：‘椴，木槿。’郭璞注：‘别二名也，似李树，华朝生夕隕，可食。’"
+      ],
+      "traditional_char": "椴"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "短木桩，木橛子。",
+      "examples": [
+        "《方言》第五：‘橛，燕之东北朝鲜洌水之间谓之椴。’",
+        "《广雅·释宫》：‘椴，杙也。’"
+      ],
+      "traditional_char": "椴"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "形似竹箔的捕鱼用具，用于浅水中捕捉小鱼虾蟹。",
+      "examples": [
+        "宋陆游《冬晴闲步东村由故塘还舍作》：‘水落枯萍黏蟹椴，云开寒日上鱼梁。’",
+        "乡人植竹以取蟹，谓之曰椴。"
+      ],
+      "traditional_char": "椴"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘椴’左‘木’表义，右‘段’表声，造字本意为落叶乔木椴树。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "椴树义泛指其他相关木本植物如木槿，已见古籍对义扩展记载。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由椴树本体转指经常用椴木制作的木桩、木橛子，古文常见。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "由木桩义再引申为形似木桩的捕鱼竹具，宋代文献可见。"
+    }
+  ]
+}

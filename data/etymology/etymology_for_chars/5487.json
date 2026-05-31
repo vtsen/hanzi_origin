@@ -1,0 +1,53 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古代出产优质铁矿的山名，因其所产铁可造剑，也用作宝剑的代称，亦称“锟铻”或“昆吾”。",
+      "examples": [
+        "锟铻之剑",
+        "列子·汤问篇：'锟铻之剑。'"
+      ],
+      "traditional_char": "錕"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "一种优质赤铁，可用作制作宝剑。",
+      "examples": [
+        "元·徐善明《安南行记》：'度金间锟匣连契一口……'"
+      ],
+      "traditional_char": "錕"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "车轮上的金属部件（古称'车釭'）。",
+      "examples": [
+        "扬子·方言：'车釭，齐燕海岱之闲或谓之錕。'"
+      ],
+      "traditional_char": "錕"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“錕”为形声字，从金，昆声，初指产优质铁矿的山或剑。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从产铁的山名引申为山中所产的优质铁。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由宝剑材料引申至车轮金属部件，因材质相近。"
+    }
+  ]
+}

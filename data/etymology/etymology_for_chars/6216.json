@@ -1,0 +1,118 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "用羽毛做的华盖，舞具。",
+      "examples": [
+        "翳，华盖也。——《说文》",
+        "左手操翳。——《山海经》"
+      ],
+      "traditional_char": "翳"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "遮蔽，掩盖；障蔽。",
+      "examples": [
+        "翳，障也。——《广雅》",
+        "石嵯以翳日。——刘向《九叹·远逝》",
+        "树林阴翳。——宋·欧阳修《醉翁亭记》"
+      ],
+      "traditional_char": "翳"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "掩蔽物、屏障。",
+      "examples": [
+        "兵不解翳。——《国语·齐语》",
+        "翳，猶屏也。——《国语·周语下》"
+      ],
+      "traditional_char": "翳"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "眼角膜上或眼内障蔽视线的白斑、障膜（眼病名）。",
+      "examples": [
+        "翳，目病也。——《三苍》",
+        "日月是天之两目，忽然生翳无药瘳。——宋·梅尧臣《秋雨篇》"
+      ],
+      "traditional_char": "翳"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "五彩神鸟名，其翼遮蔽一乡。",
+      "examples": [
+        "北海之内有五采之鸟，飞蔽一乡，名曰翳鸟。——《山海经》"
+      ],
+      "traditional_char": "翳"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "（古同“殪”）树木枯死，倒伏于地。",
+      "examples": [
+        "其菑其翳。——《诗·大雅·皇矣》",
+        "自斃為翳。——《毛传》"
+      ],
+      "traditional_char": "翳"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "adjective",
+      "meaning": "晦暗不明。",
+      "examples": [
+        "翳昧（隐晦不明的样子）"
+      ],
+      "traditional_char": "翳"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从羽，嫛声，表示用羽毛为饰的华盖。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由羽盖物品的遮蔽功能转喻为动词遮蔽、掩盖，东汉以后用法普遍。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "指用作掩盖或屏障的物件，功能性转义。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由动词'遮蔽'比喻为眼病障蔽视线，汉代已有。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 6,
+      "evolution_type": "semantic_extension",
+      "note": "由遮蔽意义引申为晦暗、不明，见于后世。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 4,
+      "evolution_type": "analogy",
+      "note": "鸟名，借其羽翼可蔽一乡，与屏障义取相似之功能。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "‘翳’通‘殪’，表示树木枯死，古文借用，应为假借义。"
+    }
+  ]
+}

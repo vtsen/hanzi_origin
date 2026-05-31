@@ -1,0 +1,103 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "吸气，用鼻吸入气体。",
+      "examples": [
+        "歙，缩鼻也。《说文》",
+        "将欲歙之，必固张之。《老子》",
+        "口张而不歙，举舌而不下。《盐铁论》"
+      ],
+      "traditional_char": "歙"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "收缩，收敛。",
+      "examples": [
+        "张歙之。《庄子》",
+        "开阖张歙。《淮南子》",
+        "为之以歙，而应之以张。《淮南子》"
+      ],
+      "traditional_char": "歙"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "聚集，集合。",
+      "examples": [
+        "歙集"
+      ],
+      "traditional_char": "歙"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "和谐，融洽，安定。",
+      "examples": [
+        "郡中歙然。《汉书·韩延寿传》",
+        "歙然归仁。"
+      ],
+      "traditional_char": "歙"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "捉持（通“摄”用法）。",
+      "examples": [
+        "虨以手歙叔虎云：‘酷吏。’《世说新语》"
+      ],
+      "traditional_char": "歙"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "县名，在今安徽省东南部。",
+      "examples": [
+        "丹阳有歙县。《汉书·地理志》",
+        "徽墨、歙砚为其特产。"
+      ],
+      "traditional_char": "歙"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从欠，翕声；表示缩鼻吸气。本义为吸气、收敛，为形声字。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由吸气的动作引申为收缩、收敛。见《老子》《庄子》，语义扩展发生很早。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "收缩、收敛又引申为聚集之意，抽象化。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由收敛/收缩动作的和顺、协调引申为和谐、融洽。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "‘歙’通‘摄’，用作‘捉持’为借用异体，见南朝宋刘义庆《世说新语》。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "metonymy",
+      "note": "以‘歙’为地名，因地处歙溪，或相关自然地理得名，后专用为县名。"
+    }
+  ]
+}

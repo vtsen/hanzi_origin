@@ -1,0 +1,43 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "鸟名，鹁鸪，羽毛黑褐色，俗称“水鸪鸪”，亦称“鹁姑”、“鹁鸠”。",
+      "examples": [
+        "鹁鸪声声催人归。",
+        "田野里常见鹁鸪。"
+      ],
+      "traditional_char": "鵓"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "（泛指）鸠类鸟，亦称鴿，因其叫声得名。",
+      "examples": [
+        "鵓鳩、鵓鴣皆为鸠类。"
+      ],
+      "traditional_char": "鵓"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘鵓’形声字，从鳥声孛，最初指鹁鸪（一种鸟），意符“鳥”表义，‘孛’表音。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘鹁’为‘鵓’之简化字，形成方式相同，同本字。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "原指特定鸟种，后泛指鸠类鸟或鸽子。用法自《广韵》始见扩展。"
+    }
+  ]
+}

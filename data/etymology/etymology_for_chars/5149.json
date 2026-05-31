@@ -1,0 +1,44 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "金龟子的幼虫，亦称为蛴螬，身体白色、圆柱形，有褐色毛，生活于土中，啃食作物根茎，为害虫。",
+      "examples": [
+        "地里的蛴螬又多又大。",
+        "蛴螬害麦根。"
+      ],
+      "traditional_char": "蠐"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "通“蛴”，为蠐的简化字，指金龟子的幼虫。",
+      "examples": [
+        "蛴螬",
+        "蝤蛴"
+      ],
+      "traditional_char": "蛴"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "蠐：形声字，从虫，齊声，虫表示虫类，齐表音，原指金龟子幼虫。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "蛴：形声字，从虫，齐声，为蠐的简化字，意义与本字同。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "reanalysis",
+      "note": "现代简化字改革，将“蠐”简化为“蛴”，含义未变。"
+    }
+  ]
+}

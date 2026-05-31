@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "野鸡，一种雄羽美丽、尾长，善走但不能久飞的鸟，通称“野鸡”。",
+      "examples": [
+        "雉兔者，见则其时雨。（《礼记》）",
+        "野鸡驯服，可供食用。"
+      ],
+      "traditional_char": "雉"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "numeral",
+      "meaning": "古代计算城墙面积的单位，长三丈高一丈为一雉。",
+      "examples": [
+        "城高十雉。",
+        "汉有城雉。"
+      ],
+      "traditional_char": "雉"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "城墙。",
+      "examples": [
+        "城雉高峻。",
+        "雉堞森然。"
+      ],
+      "traditional_char": "雉"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从隹（表意，鸟类），矢为声旁，古本义为野鸡。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "以野鸡尾长比喻城墙的长度单位，两者有形态相关的转喻关系。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由用于形容单位转扩展指代城墙本体。"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "美玉，特指一种珍贵玉石。",
+      "examples": [
+        "瑾瑜美玉也。——《说文》",
+        "捐赤瑾于中庭。——《楚辞·愍命》",
+        "怀瑾握瑜兮穷不知所示。——《九章·怀沙》"
+      ],
+      "traditional_char": "瑾"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "赤色的玉。",
+      "examples": [
+        "捐赤瑾于中庭。——《楚辞·愍命》"
+      ],
+      "traditional_char": "瑾"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "比喻美德、美好的品德或贤才。",
+      "examples": [
+        "怀瑾握瑜兮，穷不得所示。——《史记·屈原贾生列传》",
+        "瑾瑜，比喻美德贤才。"
+      ],
+      "traditional_char": "瑾"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从玉，堇声，本义为美玉。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_narrowing",
+      "note": "美玉的语义缩小为特指赤色玉，见楚辞。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由美玉比喻为美德或贤才，常见于古典诗文。"
+    }
+  ]
+}

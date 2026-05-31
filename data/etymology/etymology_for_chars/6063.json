@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "常绿小乔木或灌木，开白色或暗黄色小花，有特殊香气。即桂花树的别名。",
+      "examples": [
+        "江南谓桂曰木樨。",
+        "木樨花香茶"
+      ],
+      "traditional_char": "樨"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "这种植物的花，通称“桂花”。",
+      "examples": [
+        "木樨花",
+        "樨花香"
+      ],
+      "traditional_char": "樨"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "加肉、木耳等烹调的鸡蛋，如“樨樨肉”。",
+      "examples": [
+        "樨樨肉"
+      ],
+      "traditional_char": "樨"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘樨’为形声字，从木，妻声，本指一种植物，后来用于食物名。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_narrowing",
+      "note": "由指整株木樨植物专指其花。见于传统分类的延申过程。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "以‘樨’的芳香、色泽，比喻鸡蛋菜肴名称，用于菜名借指。"
+    }
+  ]
+}

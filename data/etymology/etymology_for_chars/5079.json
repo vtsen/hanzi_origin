@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "蔬菜名，指蔓菁、芜菁等十字花科草本植物，根和叶均可食用。",
+      "examples": [
+        "采葑采菲。——《诗·邶风·谷风》",
+        "葑，须从也。从艸，封声。字亦作蘴、作菘。——《说文》"
+      ],
+      "traditional_char": "葑"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "菰根，即茭白的根部，多见于江南水泽地带。",
+      "examples": [
+        "四面湖泽，皆是菰葑。——《晋书·毛璩传》",
+        "湖水多葑，至是，葑积二十五万余丈，而水无几。《宋史·河渠志六》"
+      ],
+      "traditional_char": "葑"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从艸，封声，表蔬菜类植物名，原指蔓菁、芜菁等可食用植物。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_shift",
+      "note": "受地方用法或植物分类变化影响，由蔓菁（蔬菜）泛指转为菰根的新义，用于江南一带水生植物。"
+    }
+  ]
+}

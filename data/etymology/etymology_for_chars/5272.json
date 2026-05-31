@@ -1,0 +1,72 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "明亮，明彻，显明",
+      "examples": [
+        "焯见三有俊心。",
+        "公至无名臣，熏勋德焯著。",
+        "焯烁其陂。"
+      ],
+      "traditional_char": "焯"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "照耀",
+      "examples": [
+        "留得天章焯云汉。",
+        "焯辉（光耀）；焯耀（光耀；昭著）"
+      ],
+      "traditional_char": "焯"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "烧灼，火烧",
+      "examples": [
+        "错蓍焯龟，比光道也。"
+      ],
+      "traditional_char": "焯"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "把蔬菜等放在开水里略煮即捞出",
+      "examples": [
+        "焯菠菜",
+        "以刀逐箇劙去青皮，石灰湯焯過，入熬熟。",
+        "大者以湯焯過，少乾。"
+      ],
+      "traditional_char": "焯"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从火，卓声，本义为明亮或明彻。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“明亮”引申为“照耀”，常见形容词到动词的转变。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "由明亮相关转为火烧或烧灼，受‘火’部件的影响，本义和相关用法共存。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "由“烧灼”转为“短时间加热蔬菜”，动作相关的名词化用法。"
+    }
+  ]
+}

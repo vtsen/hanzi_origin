@@ -1,0 +1,101 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "一种多足虫，如“马蠲”、“马陆”，俗称“香油虫”。",
+      "examples": [
+        "腐草化为蠲。（《明堂月令》）"
+      ],
+      "traditional_char": "蠲"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "除去，免除。",
+      "examples": [
+        "十家租税九家毕，虚受吾君蠲免恩。——白居易《杜陵叟》",
+        "蠲除肉刑。——《史记·太史公自序》"
+      ],
+      "traditional_char": "蠲"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "清除，疏通。",
+      "examples": [
+        "应时而蠲。——扬雄《劇秦美新》",
+        "蠲浊而流清。——柳宗元《永州韦使君新堂记》"
+      ],
+      "traditional_char": "蠲"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "使清洁。",
+      "examples": [
+        "剖腹以蠲肠。——《晋书·皇甫谧传》",
+        "其中蠲洁。——《墨子·节用中》"
+      ],
+      "traditional_char": "蠲"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "明示，显示。",
+      "examples": [
+        "惠公蠲其大德。——《左传》"
+      ],
+      "traditional_char": "蠲"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "治愈疾病。",
+      "examples": [
+        "唯怀药饵蠲衰病。——李德裕《雨后净望河西连山》",
+        "芳追气邪，味蠲癘痟。——左思《蜀都赋》"
+      ],
+      "traditional_char": "蠲"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字。从虫，𦉶声，最初指多足虫“马蠲”或“香油虫”。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由具体虫体的“清理旧草腐植”行为引申为“除去、免除”。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "“除去”义进一步泛化为“清除、疏通”。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "“清除”义向“使清洁”发展，表达了更加主动的‘令…清洁’。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "由‘令清洁’引申出‘使明白、显示’之意，采用隐喻机制。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 5,
+      "evolution_type": "metaphor",
+      "note": "“清除”由具体外物转喻为‘去除疾病’，用比喻机制产生‘治愈’义。"
+    }
+  ]
+}

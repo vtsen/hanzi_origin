@@ -1,0 +1,69 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "筋肉结合处",
+      "examples": [
+        "技经肯綮之未尝。——《庄子·养生主》",
+        "终日摘剔，得微肉于牙綮间。——宋·苏轼《仇池笔记》"
+      ],
+      "traditional_char": "綮"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "比喻事物的关键",
+      "examples": [
+        "肯綮之处",
+        "要在肯綮"
+      ],
+      "traditional_char": "綮"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "细緻的缯帛",
+      "examples": [
+        "綮，致缯也。——《说文》"
+      ],
+      "traditional_char": "綮"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "（古同“棨”）古代官吏出行时前导仪仗所用之戟衣",
+      "examples": [
+        "如今百脚旗用以前导者，即有衣之戟谓之棨也。——朱骏声《说文通训定声》"
+      ],
+      "traditional_char": "綮"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 2,
+      "note": "形声字，从糸，啟声。本义为细腻缯帛，糸表示丝织物，啟取声。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "以缯帛为戟衣之用，用料指物，见古代官仪文化。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 0,
+      "evolution_type": "metaphor",
+      "note": "以丝缕细密引申为筋肉集合，因结构细密紧密。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "从筋肉结合处引申为事物关键，比喻义形成于先秦。"
+    }
+  ]
+}

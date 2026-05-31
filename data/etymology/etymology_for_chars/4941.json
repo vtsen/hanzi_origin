@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "飞的样子；飞翔的姿态",
+      "examples": [
+        "翊，飞貌。——《说文》",
+        "共翊翊合所思。——《汉书·礼乐志》"
+      ],
+      "traditional_char": "翊"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "辅佐，帮助",
+      "examples": [
+        "翊赞季兴。——《三国志·吕凯传》",
+        "翊天（辅佐天子）；翊戴（拥戴辅弼）"
+      ],
+      "traditional_char": "翊"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "明日，明年（通“翌”）",
+      "examples": [
+        "越若翊辛丑，诸生庶民大和会。——《汉书·王莽传上》",
+        "翊日（明日）"
+      ],
+      "traditional_char": "翊"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "恭敬的样子",
+      "examples": [
+        "翊翊，敬也。——《汉书·礼乐志》",
+        "日宣三德，蚤夜翊明有家。——《史记·夏本纪》"
+      ],
+      "traditional_char": "翊"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从“羽”表义，‘立’为声符，本义为飞的样子。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由飞翔展翼引申为辅佐、帮助（像鸟展翼辅助飞翔）"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "假借为通“翌”，表示明天。具体机制存在争议。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "amelioration",
+      "note": "辅佐引申为恭敬，表行为的礼仪色彩加强。"
+    }
+  ]
+}

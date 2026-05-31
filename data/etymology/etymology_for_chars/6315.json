@@ -1,0 +1,75 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "垫在马鞍下的毡子或布，用以保护马背和装饰马鞍（鞍垫、马鞯、鞍鞯）",
+      "examples": [
+        "东市买骏马，西市买鞍鞯。——《木兰诗》",
+        "暉置金於馬韉中，不欲逃走，何由爾也？——《魏書·段承根傳》"
+      ],
+      "traditional_char": "鞯"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "马鞍，有时用鞯泛指鞍具",
+      "examples": [
+        "东门人物乱如麻，想见新鞯照路华。——王安石《次杨乐道韵》",
+        "春冻晓韉露重，夜寒幽枕云生。——李真《丈人乐山诗》"
+      ],
+      "traditional_char": "鞯"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "借指马（罕用用法）",
+      "examples": [
+        "六街歌舞马头尘，最喜连韉是故人。——明《青衫记·郊游访兴》"
+      ],
+      "traditional_char": "鞯"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "鞯的繁体字，用于同上所有含义",
+      "examples": [
+        "暉置金於馬韉中，不欲逃走，何由爾也？——《魏書·段承根傳》",
+        "春凍曉韉露重，夜寒幽枕雲生。"
+      ],
+      "traditional_char": "韉"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘鞯’为形声字，从革，兼声，本指马鞍垫；‘韉’为后起繁体、异体字，左‘革’意指皮革，右‘兼’表音。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 3,
+      "note": "‘韉’为‘鞯’的传统繁体写法，结构同源，‘兼’表音，‘革’表义，意指与皮革有关的坐垫。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由特指马鞍的垫子引申为泛指鞍具，东汉至唐宋文本中见此类用法。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "以鞍具代指马本身，一种借代用法，在明清文献有零星用例。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "analogy",
+      "note": "‘韉’为‘鞯’的异体、繁体字，所涉含义与简体一致，属于字形演变。"
+    }
+  ]
+}

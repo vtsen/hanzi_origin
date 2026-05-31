@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "大雨",
+      "examples": [
+        "霈，大雨。——《玉篇》",
+        "嘉廩儲之望歲，喜甘霈之流滋。"
+      ],
+      "traditional_char": "霈"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "恩泽，帝王或上位者的赐予，比喻用法",
+      "examples": [
+        "霈恩（对罪犯的恩赦）",
+        "雨露深仁，霑霈及於蕭艾。"
+      ],
+      "traditional_char": "霈"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "雨、雪等盛大的样子",
+      "examples": [
+        "霈然作雨。",
+        "云油雨霈。——唐·李白《明堂赋》"
+      ],
+      "traditional_char": "霈"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "自满、自大的样子",
+      "examples": [
+        "霈然自得。",
+        "今王使霈然自得而不設備，臣竊惑焉。"
+      ],
+      "traditional_char": "霈"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从雨，沛声，表示‘大雨’之意，‘沛’表音。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由名词‘大雨’引申为雨、雪盛大的样子，东汉至唐常见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "‘大雨’喻为帝王的恩泽，唐宋文献中出现。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由‘盛大’引申为‘自满、自大’，形容人的气势如大雨，晋至宋可见。"
+    }
+  ]
+}

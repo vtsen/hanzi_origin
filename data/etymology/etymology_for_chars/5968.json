@@ -1,0 +1,102 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "鱼骨，鱼刺",
+      "examples": [
+        "骨鲠在喉，不吐不快",
+        "鲠，鱼骨也。——《说文》"
+      ],
+      "traditional_char": "鯁"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "鱼骨卡在喉咙里",
+      "examples": [
+        "他被鱼刺鲠住了",
+        "食之鲠人。"
+      ],
+      "traditional_char": "鯁"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "病患，祸害",
+      "examples": [
+        "除鲠而避强。——《国语·晋语》",
+        "祝噎在前，祝鲠在后。"
+      ],
+      "traditional_char": "鯁"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "阻塞，堵塞",
+      "examples": [
+        "睢河鲠其流。——《文选·刘孝标·辨命论》"
+      ],
+      "traditional_char": "鯁"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "（喉咙）哽咽，阻塞",
+      "examples": [
+        "鲠涕（哽咽流涕）",
+        "鲠塞（哽咽气塞）"
+      ],
+      "traditional_char": "鯁"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "adjective",
+      "meaning": "刚直，正直",
+      "examples": [
+        "鲠言直议，无所回隐。——《后汉书·任隗传》",
+        "骨鲠"
+      ],
+      "traditional_char": "鯁"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从鱼（或骨）为意符，更为声符，表鱼骨之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从鱼骨本义扩展为鱼骨卡于咽喉。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "由鱼骨卡喉引申为喉中哽咽、阻塞之意。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "喉咙被鱼骨堵塞引申为一般事物流被阻塞。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "鱼骨为病害之物，引申为泛指祸害。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "metaphor",
+      "note": "鱼骨坚直不屈之形，引申为刚直正直之品质。"
+    }
+  ]
+}

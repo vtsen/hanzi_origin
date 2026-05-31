@@ -1,0 +1,73 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "芳香，有香气",
+      "examples": [
+        "椒兰芬苾，所以养鼻也。",
+        "苾芬孝祀。",
+        "氣苾新城，味芳雲杜。",
+        "有苾其香。"
+      ],
+      "traditional_char": "苾"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "草名（苾芻、苾菜等），有时指苾芻（即比丘）",
+      "examples": [
+        "日下洲岛清，烟生苾芻碧。",
+        "苾芻，草名。",
+        "苾芻，具五義，生不背日，冬夏常青，體性柔韌，香氣遠騰，引蔓㫄布。"
+      ],
+      "traditional_char": "苾"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "古代民族名（契苾）",
+      "examples": [
+        "綱目集覽：突厥有契苾等十五部。"
+      ],
+      "traditional_char": "苾"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "菜名，与“蔤”义近，荷的地下茎",
+      "examples": [
+        "蒲結切，音蹩，菜名。",
+        "菜名，見《廣韻•入屑》。"
+      ],
+      "traditional_char": "苾"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从艸，必声；本义为“芳香”。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“芳香”引申为某类具有芳香特性的草名。在佛教译名中据草名转义为比丘，见隋唐等佛典。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "形容词“芳香”引申为以香气著称的蔬菜、菜名。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "以草名为族名，见中古突厥契苾部名称，族名可能来源于植物或其象征意义。"
+    }
+  ]
+}

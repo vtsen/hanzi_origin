@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "有土地、人民、主权的政体（古代指诸侯封的地域）",
+      "examples": [
+        "国家",
+        "国土",
+        "国策",
+        "国防"
+      ],
+      "traditional_char": "國"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "特指中国的",
+      "examples": [
+        "国产",
+        "国粹",
+        "国乐"
+      ],
+      "traditional_char": "國"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [],
+      "traditional_char": "國"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "从囗，表示疆域；从或，表示声音和含义，意指邦国。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_narrowing",
+      "note": "古代国家泛指诸侯封地，后特指中国。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "conversion",
+      "note": "由国家名称转用为姓氏。"
+    }
+  ]
+}

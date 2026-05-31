@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "困倦欲睡，打盹儿。",
+      "examples": [
+        "打瞌睡",
+        "体倦目已昏，瞌然遂成睡。——白居易",
+        "人劳倦，合眼坐睡曰瞌睡。"
+      ],
+      "traditional_char": "瞌"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "闭上（眼睛）。",
+      "examples": [
+        "有时他仰躺在客厅的藤椅上，微瞌着眼张开嘴，呼呼地打着鼾。"
+      ],
+      "traditional_char": "瞌"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "磕，碰头。",
+      "examples": [
+        "小柱儿一瞌头，突由微盹中醒来。",
+        "小柱儿头又往前一瞌，她扶住他。"
+      ],
+      "traditional_char": "瞌"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从目，盍声，含义与眼睛、困倦、欲合眼睡有关。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由昏困欲睡引申为闭上眼睛，因困而合眼。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由打盹低头，引申为磕头，动作相似。"
+    }
+  ]
+}

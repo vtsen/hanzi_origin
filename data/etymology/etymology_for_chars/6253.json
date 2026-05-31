@@ -1,0 +1,73 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "裂，开裂。",
+      "examples": [
+        "罅，裂也。——《说文》",
+        "其山甚薄， 上穹， 如合掌， 中罅。——《徐霞客游记》",
+        "罅裂（开裂）；罅发（爆裂；开裂）"
+      ],
+      "traditional_char": "罅"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "裂缝，缝隙。",
+      "examples": [
+        "徐而察之，则山下皆石穴罅。——宋·苏轼《石钟山记》",
+        "多松，生石罅，皆平顶。——清·姚鼐《登泰山记》",
+        "淡青色的天幕上停着几朵白云，月亮的笑脸从云罅中探视下界的秘密。——茅盾《子夜》"
+      ],
+      "traditional_char": "罅"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "漏洞，缺陷。",
+      "examples": [
+        "姑且修弊补罅，休劳息困，以与久疲之民相安。——王守仁《处置平复地方以图久安疏》",
+        "此游好补前游罅，挥手云声浩不闻。——清·龚自珍《此游》"
+      ],
+      "traditional_char": "罅"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "间隙（指机会、时间上的可利用空隙）。",
+      "examples": [
+        "乘罅切詆，辞旨疏躁。——《新唐书·萧瑀传》",
+        "往往谗夫出乘罅。——宋·陆游《送辛幼安殿撰造朝》"
+      ],
+      "traditional_char": "罅"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从缶，表义，虖声。原本指瓦裂，形声字。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_shift",
+      "note": "动作用作结果，裂—裂缝，早已见于古文。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由‘裂缝’引申为‘漏洞、缺陷’，比喻用法，多见于书面语。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由实体缝隙引申为抽象的‘间隙’、‘机会’，常见于政事、时间等语境。"
+    }
+  ]
+}

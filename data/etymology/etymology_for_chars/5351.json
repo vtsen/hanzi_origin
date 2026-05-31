@@ -1,0 +1,85 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "周代诸侯国名，在今河南省鄢陵县一带。",
+      "examples": [
+        "昔鄢之亡也由仲任。",
+        "妘姓，在今河南省鄢陵县西北，为郑武公所灭。"
+      ],
+      "traditional_char": "鄢"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "古邑名，春秋时期楚国的别都，汉惠帝时改为宜城，在今湖北省宜城县。",
+      "examples": [
+        "王沿夏，将欲入鄢。",
+        "楚灵王沿夏，围鄢。"
+      ],
+      "traditional_char": "鄢"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "春秋时期莒邑，又名鄢陵、安陵，在今山东省沂水县境。",
+      "examples": [
+        "及鄢陵，登城见之。",
+        "穆叔如莒及鄢陵，登鄢陵城。"
+      ],
+      "traditional_char": "鄢"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "水名，源出湖北省保康县西南，今名蠻河，流经南漳、宜城两县于汉水。",
+      "examples": [
+        "及鄢，乱次以进。"
+      ],
+      "traditional_char": "鄢"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [
+        "春秋卫国有鄢武子，名肸。"
+      ],
+      "traditional_char": "鄢"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从邑，焉声。表示国邑之名，声旁焉，义旁邑。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "诸侯国地名引申为楚国别都名，历史上地望迁移。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "从原国名泛用于其他同名邑的地名，地理迁移与类推。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "城市名字用以指代附近水体，古常见现象。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "以地名用作姓氏，中国姓氏多源于地名。"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "琵琶这一弹拨弦乐器中的“琶”字，常与“琵”联用，指代整个乐器。",
+      "examples": [
+        "推手向前曰琵，却手向后曰琶。",
+        "琵琶本自出胡中。"
+      ],
+      "traditional_char": "琶"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "弹琵琶的手法名。",
+      "examples": [
+        "推手向前曰琵，却手向后曰琶。"
+      ],
+      "traditional_char": "琶"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "明代酷刑名，錦衣衛刑罰之一。",
+      "examples": [
+        "三琶之。琶者，锦衣酷刑也。骨节皆寸解，绝而复苏。",
+        "棚琶拶压，不怕不招。"
+      ],
+      "traditional_char": "琶"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从王（玉），巴声。本义为琵琶乐器名的一部分，现常与“琵”联用指乐器。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由乐器部件、名称，扩展为演奏乐器的手法名称。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "因刑具形状或施刑动作类似弹奏琵琶，故以“琶”指明代酷刑。"
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "弯腰，曲背。",
+      "examples": [
+        "偻身而下声。",
+        "俯偻从命。"
+      ],
+      "traditional_char": "僂"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "驼背的人，曲背的人。",
+      "examples": [
+        "齐使秃者御秃者，使眇者御眇者，使跛者御跛者，使僂者御僂者。",
+        "伛偻提携，往来而不绝者，滁人游也。"
+      ],
+      "traditional_char": "僂"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "泛指弯曲、屈曲。",
+      "examples": [
+        "虽有圣人之知，未能偻指也。",
+        "义为丞相时年八十余，短小无须眉，貌似老媪，行步俛僂。"
+      ],
+      "traditional_char": "僂"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "速度快，迅速。",
+      "examples": [
+        "夫人不偻，不可使入。",
+        "卖之不可偻售也。"
+      ],
+      "traditional_char": "僂"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "绿林或盗贼的部下、仆从（用于“偻儸”）。",
+      "examples": [
+        "偻儸"
+      ],
+      "traditional_char": "僂"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "佝僂病（病症名，指脊梁弯曲的病）。",
+      "examples": [
+        "佝僂",
+        "佝偻病"
+      ],
+      "traditional_char": "僂"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从人，婁声，本义为弯腰。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "conversion",
+      "note": "由动词转为表示弯腰者的名词用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由“弯腰”本义扩大为泛指弯曲。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "古齐方言“偻”引申出“迅速”的义，与动作迅捷相联系。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "metonymy",
+      "note": "以“弯腰、驼背”之形借指相关病症。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "unknown",
+      "note": "“偻儸”中偻义为下属、仆从，具体词源关系不明，语义转移不详。"
+    }
+  ]
+}

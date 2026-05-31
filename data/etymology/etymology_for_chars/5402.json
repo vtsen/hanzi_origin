@@ -1,0 +1,60 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "热带或亚热带常绿乔木，如“棕榈”、“栟榈”，树干高大，叶大如扇。",
+      "examples": [
+        "棕榈树生长在南方。",
+        "庭前栟榈影。"
+      ],
+      "traditional_char": "櫚"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "花榈木，一种木材，紫红色，有花纹，质地坚硬，可作器皿、扇骨等。",
+      "examples": [
+        "花榈木可做家具和扇骨。",
+        "明 李时珍《本草纲目·木部二·櫚木》：“木性坚，紫红色，亦有花纹者谓之花榈木。”"
+      ],
+      "traditional_char": "櫚"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "榈（櫚）的简化字，用于现代汉语。",
+      "examples": [
+        "棕榈",
+        "栟榈"
+      ],
+      "traditional_char": "榈"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“櫚”形声字，从木，吕声，表示树木类；原指一种热带乔木。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 2,
+      "note": "“榈”为“櫚”的简化字，结构上从木，吕声，语音和义类同传统字。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由指整棵树扩展指其木材，古今并见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "analogy",
+      "note": "20世纪后新文字政策下，櫚简化为榈，两字义音同。"
+    }
+  ]
+}

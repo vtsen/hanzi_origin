@@ -1,0 +1,69 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "蝉，昆虫名，多指夏天鸣叫的昆虫。",
+      "examples": [
+        "五月鸣蜩。",
+        "如蜩如螗。",
+        "見佝僂者承蜩。"
+      ],
+      "traditional_char": "蜩"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "蝉脱落的外壳，亦称“蜩甲”。",
+      "examples": [
+        "予蜩甲也。"
+      ],
+      "traditional_char": "蜩"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "传说中的一种兽，形似猴，善于攀爬高木。",
+      "examples": [
+        "西方深山有兽，毛色如猴，能缘高木，其名曰蜩。"
+      ],
+      "traditional_char": "蜩"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "龙首摇动的样子（蜩蟉为连绵词，用于形容龙首动作）。",
+      "examples": [
+        "蜩蟉偃蹇怵𤟭以梁倚。"
+      ],
+      "traditional_char": "蜩"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从虫，周声，本义为蝉。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由整体蝉引申为蝉壳之义，见于庄子。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "因蝉形或鸣叫声，引申指形似蝉之兽，载于神异经等古籍。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "用蝉（蜩）灵活动作隐喻龙的首部动作，见于汉赋等。"
+    }
+  ]
+}

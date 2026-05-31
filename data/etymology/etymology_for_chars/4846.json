@@ -1,0 +1,87 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "水鸟或鱼吃食，形容捕食时嘴的动作和声音。",
+      "examples": [
+        "鳧雁皆唼夫粱藻兮。《楚辞·九辩》",
+        "唼喋菁藻。《司马相如·上林赋》",
+        "闲泛晴波唼绿萍。——宋·陆游"
+      ],
+      "traditional_char": "唼"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "泛指咬、吃。",
+      "examples": [
+        "唼，咬也。《玉篇》",
+        "唼食（咬，吞食）；唼啮（啃咬）"
+      ],
+      "traditional_char": "唼"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "吮吸；婴儿吸吮乳头的动作。",
+      "examples": [
+        "让他缓缓的唼着自己的乳头。——沙汀《困兽记》",
+        "唼着嘴唇。——丁玲《松子》"
+      ],
+      "traditional_char": "唼"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "饮牲血，特指古代歃血盟誓仪式时吸血。",
+      "examples": [
+        "与高帝唼血而盟。《汉书·王陵传》",
+        "唼血乘胜。《史记·魏豹传》"
+      ],
+      "traditional_char": "唼"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "谗言，说坏话。",
+      "examples": [
+        "灵修既信椒兰之唼佞兮。——扬雄《广离骚》"
+      ],
+      "traditional_char": "唼"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘唼’为形声字，从口，疌声，最初表示鸟、鱼的啄食声。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "水鸟或鱼的专指动作，推广为一般的咬、吃，见《玉篇》注释。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "一般‘咬、吃’进一步扩展为婴儿吮吸；现代作品中多见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "由水鸟摄食动作引申为‘吸血’行为，词例为‘唼血’（歃血盟誓）。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "以水鸟的啄食比喻人口舌譭毁、谗言，如‘唼佞’。"
+    }
+  ]
+}

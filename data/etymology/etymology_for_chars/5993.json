@@ -1,0 +1,70 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "杂饭，掺杂米饭或各类食物的总称",
+      "examples": [
+        "滋味杂陈，肴糅错该。"
+      ],
+      "traditional_char": "糅"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "混杂，混合在一起",
+      "examples": [
+        "杂糅。",
+        "糅莒。",
+        "邪正杂糅，忠讒並進。",
+        "肴糅错该。"
+      ],
+      "traditional_char": "糅"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "各类混杂的肉肴",
+      "examples": [
+        "搜龙籍，羅蜃府，莫不布雕俎，就臠切，具糅五味，腥膏饜飫。"
+      ],
+      "traditional_char": "糅"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "杂，错杂不纯",
+      "examples": [
+        "同糅玉石兮，一概而相量。"
+      ],
+      "traditional_char": "糅"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从米，柔声，本义为杂饭。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由具体的杂饭引申为‘混杂、混合’，见《儀禮》《汉书》等。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由杂饭引申为杂肴，以饭泛指混合的各类食物。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "conversion",
+      "note": "动词‘混杂’转为形容词‘杂，错杂’之义，用例如‘同糅玉石’等。"
+    }
+  ]
+}

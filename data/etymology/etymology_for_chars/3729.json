@@ -1,0 +1,57 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "地名用字，小山，土堆，墳墓；同“丘”。",
+      "examples": [
+        "邱，地名。——《说文》",
+        "孔子名丘，因避讳，清雍正三年上谕除四书五经外，凡遇“丘”字，并加“阝”旁为“邱”。",
+        "次七。出险登邱，或牵之牛。",
+        "死⼈积如邱。——杜甫《遣兴》"
+      ],
+      "traditional_char": "邱"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [
+        "齐太公封于营邱，子孙以地为姓。见《元和姓纂》卷五。",
+        "元有邱处机。见《元史•释老传》。"
+      ],
+      "traditional_char": "邱"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "丑，坏。",
+      "examples": [
+        "要好勿会好，要邱也勿会邱。——《海上花列传》",
+        "说你品行实在邱。——华广生《白雪遗音》"
+      ],
+      "traditional_char": "邱"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从邑，丠声，表示地名或小山、土堆（同“丘”），阝旁表地，属形声字。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "以地名为姓，见于古籍和历史用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "由“空、废墟”等义延伸贬义，方言中转为‘丑、坏’之形容。"
+    }
+  ]
+}

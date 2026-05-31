@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "长脚蜘蛛，蠨蛸，俗称“喜子”",
+      "examples": [
+        "蠨蛸在户。（《诗经·豳风》）",
+        "此虫来著人衣，当有亲客至，有喜也。"
+      ],
+      "traditional_char": "蛸"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "螳螂的卵块，常称“螵蛸”或“桑螵蛸”，可药用",
+      "examples": [
+        "桑螵蛸可入药。",
+        "螵蛸所在有之，以桑上者为佳。"
+      ],
+      "traditional_char": "蛸"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "乌贼鱼、章鱼的简称",
+      "examples": [
+        "海中乌贼鱼，亦有螵蛸之名。",
+        "章鱼亦称蛸。"
+      ],
+      "traditional_char": "蛸"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "齐武帝以巴东王子响叛，赐为蛸氏。",
+        "蛸氏，氏族名。"
+      ],
+      "traditional_char": "蛸"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从虫，肖声。表示一种虫类，初指长脚蜘蛛。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "因蜘蛛与螳螂卵块形状相似，名词转用于螳螂卵块。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "螳螂卵块与章鱼或乌贼外形类比，词义由虫名引申为软体动物。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "function_word",
+      "note": "此虫名转为姓氏，常见汉姓形成方式。"
+    }
+  ]
+}

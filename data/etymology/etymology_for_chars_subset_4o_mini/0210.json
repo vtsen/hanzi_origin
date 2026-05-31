@@ -1,0 +1,101 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "草木的根",
+      "examples": [
+        "无本之木",
+        "本草"
+      ],
+      "traditional_char": "本"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "事物的根源，与“末”相对",
+      "examples": [
+        "根本",
+        "根本原因"
+      ],
+      "traditional_char": "本"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "草的茎，树的干",
+      "examples": [
+        "草本植物"
+      ],
+      "traditional_char": "本"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "中心的，主要的",
+      "examples": [
+        "本部",
+        "本体"
+      ],
+      "traditional_char": "本"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adverb",
+      "meaning": "原来",
+      "examples": [
+        "本来"
+      ],
+      "traditional_char": "本"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "pronoun",
+      "meaning": "自己这方面的",
+      "examples": [
+        "本国",
+        "本身"
+      ],
+      "traditional_char": "本"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "pictograph",
+      "original_sense_index": 0,
+      "note": "小篆字形，字形源自“木”，下面的横线加上以指明树根之所在"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从物质的根(草木的根)延伸至抽象的根源(事物的根源)"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "概念的扩展，草的茎与根的关系"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "从主要部分(根)扩展到主要的内容"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "核心意义，引申为'原来'"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "引申为自身的方面"
+    }
+  ]
+}

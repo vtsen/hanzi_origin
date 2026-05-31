@@ -1,0 +1,53 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "昏昧無知，糊塗不明。",
+      "examples": [
+        "除讀書屬文外，其他懵然無知。",
+        "堤上的敵人，被這突如其來的打擊嚇懵了。"
+      ],
+      "traditional_char": "懵"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "一时的心乱迷糊，頭腦暈沉；迷糊的樣子。",
+      "examples": [
+        "懵頭懵腦（迷迷糊糊）"
+      ],
+      "traditional_char": "懵"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "欺骗；欺詐。",
+      "examples": [
+        "懵勁兒（蒙騙花樣）"
+      ],
+      "traditional_char": "懵"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从心，瞢（音符）声，表示内心昏昧无知之意，見《說文》、《廣韻》"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由持續昏昧衍生為一時心亂迷糊，見語境多用於暫時困惑。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由令人糊塗、無知引申為使人受騙，語義轉換為行為。"
+    }
+  ]
+}

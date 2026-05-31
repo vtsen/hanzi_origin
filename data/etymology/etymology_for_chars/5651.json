@@ -1,0 +1,117 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "蚕蔟，供蚕作茧的设备，多以稻草、麦秆等材料堆聚而成。",
+      "examples": [
+        "修成蚕蔟，分茧理丝。",
+        "行蚕蓐。——《说文》",
+        "蔟，行蚕蓐。——《说文》"
+      ],
+      "traditional_char": "蔟"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "巢，尤指鸟的巢。",
+      "examples": [
+        "读为爵蔟之蔟，谓巢也。——《周礼·哲蔟氏司农注》"
+      ],
+      "traditional_char": "蔟"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "聚集、丛聚之物；堆积物。",
+      "examples": [
+        "野绿蔟草树，眼界吞秦原。——白居易",
+        "柴蔟"
+      ],
+      "traditional_char": "蔟"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "聚集、堆积。",
+      "examples": [
+        "众官蔟张松见刘璋。——《三国志平话》",
+        "一樣樓臺圍佛寺，十分煙雨蔟漁鄉。——林逋"
+      ],
+      "traditional_char": "蔟"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "measure_word",
+      "meaning": "量词。用于成群、成堆的人或物，相当于“群”。",
+      "examples": [
+        "一蔟家僮侍卫多。——《敦煌变文集》"
+      ],
+      "traditional_char": "蔟"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "古代乐律名，十二律中的第三律，亦称“太蔟”、“大蔟”。",
+      "examples": [
+        "律中太蔟。——《礼记·月令》",
+        "大蔟者，寅之气也。"
+      ],
+      "traditional_char": "蔟"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "叉取，刺取，与“簎”通用。",
+      "examples": [
+        "翡翠不裂，玳瑁不蔟。——《文选·东京赋》"
+      ],
+      "traditional_char": "蔟"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从艹，族声，初指蚕蔟，供蚕作茧的用具。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由蚕作茧的‘巢’转指一般鸟巢，古籍已见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由具象的蚕蔟引申为堆积、聚集的事物，常用在杂物堆聚。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "conversion",
+      "note": "名词转为动词，表示聚集、堆积之动作。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 4,
+      "evolution_type": "grammaticalization",
+      "note": "堆积之物进一步虚化为量词用法，指一群一堆。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "metaphor",
+      "note": "由蚕蔟堆聚抽象到乐律阳气聚合、繁盛，遂名“太蔟”、“大蔟”。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 6,
+      "evolution_type": "unknown",
+      "note": "“蔟”与“簎”通假，表示叉取、刺取之意，具体联系不明。"
+    }
+  ]
+}

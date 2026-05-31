@@ -1,0 +1,87 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "姿态美好，形容女子或竹、花等形态优美",
+      "examples": [
+        "竹婵娟，笼晓烟。",
+        "花婵娟，泛春泉。"
+      ],
+      "traditional_char": "嬋"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "美女的代称",
+      "examples": [
+        "家家分影照婵娟。",
+        "妓婵，不长妍。"
+      ],
+      "traditional_char": "嬋"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "指月亮",
+      "examples": [
+        "但愿人长久，千里共婵娟。",
+        "月婵，真可怜。"
+      ],
+      "traditional_char": "嬋"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "牵连，牵持不舍，连绵相连",
+      "examples": [
+        "结根竦本，垂条婵媛。",
+        "扬灵兮未极，女婵兮为余太息。"
+      ],
+      "traditional_char": "嬋"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "牵连，亲族相连",
+      "examples": [
+        "云余肇祖于高阳兮，惟楚怀之婵连。",
+        "我姓婵，由古而蕃。"
+      ],
+      "traditional_char": "嬋"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘嬋’（嬋）为形声字，从女，单声，初指美好姿态。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由姿态美好引申为美丽女子。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "以美女、优美形态喻月亮之美，常用于诗文中。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由形好引申为事物间的关联连绵状态。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由牵连引申为亲族关系的牵连。"
+    }
+  ]
+}

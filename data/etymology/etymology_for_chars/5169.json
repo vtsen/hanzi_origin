@@ -1,0 +1,38 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "小孩子。",
+      "examples": [
+        "他是个机灵的崽。"
+      ],
+      "traditional_char": "崽"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "幼小的动物。",
+      "examples": [
+        "猪崽儿",
+        "狗崽子"
+      ],
+      "traditional_char": "崽"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从山，载声，本义为小孩子。今义扩展用于幼小的动物。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由指人类小孩转用于指动物幼崽，常见于方言和口语。"
+    }
+  ]
+}

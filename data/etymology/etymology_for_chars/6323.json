@@ -1,0 +1,57 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "汁滓混合的酒，指未完全澄清的浊酒或米酒，也称醪糟。",
+      "examples": [
+        "南朝梁 江淹《恨赋》：“浊醪夕引，素琴晨张。”",
+        "清 阮葵生《茶余客话》卷二十：“醪，浑汁酒也。”",
+        "汉书·袁盎传：“买二石醇醪。”"
+      ],
+      "traditional_char": "醪"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "酒的总称，泛指各种酒。",
+      "examples": [
+        "《后汉书·樊鯈传》：“又野王岁献甘醪、膏餳。”",
+        "《新唐书·郑从讜传》：“从讜以饩醪犒军。”",
+        "宋 苏轼《读孟郊诗》之一：“不如且置之，饮我玉色醪。”"
+      ],
+      "traditional_char": "醪"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "中药剂型之一，即药酒。",
+      "examples": [
+        "素问·血气形志论：“治之以按摩醪药。”",
+        "醪药（酒药）"
+      ],
+      "traditional_char": "醪"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从酉，表示与酒有关，翏（liào）声，初指汁滓未清的酒。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由浊酒等特指，扩展泛指一切酒类，汉代以后常见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由酒本身引申为以酒为载体的药（药酒），中医药领域。"
+    }
+  ]
+}

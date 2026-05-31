@@ -1,0 +1,45 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "用嘴咬；咬合。",
+      "examples": [
+        "虫咬鼠啮",
+        "啮齿动物",
+        "齿轮啮合"
+      ],
+      "traditional_char": "啮"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "用嘴咬；咬合。",
+      "examples": [
+        "嚙齿类",
+        "齿轮嚙合"
+      ],
+      "traditional_char": "嚙"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "啮为形声字，从口、齿，表示用嘴咬，齿为声符。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "嚙为形声字，从口、齿，表示咬，齿为声符，为啮的异体字。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "analogy",
+      "note": "啮与嚙为简繁体或异体关系，义同，仅字形演变。"
+    }
+  ]
+}

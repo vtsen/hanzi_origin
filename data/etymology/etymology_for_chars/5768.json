@@ -1,0 +1,38 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "鱼名，身体大，略呈纺锤形，鳞细而圆，种类很多。",
+      "examples": [
+        "鲑鱼可以溯河而上产卵。"
+      ],
+      "traditional_char": "鮭"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "古书上指鱼类的菜肴。",
+      "examples": [
+        "《说文》：鮭，鱼羹也。",
+        "《释名》：鮭，饵也。"
+      ],
+      "traditional_char": "鮭"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘鮭’形声字，从鱼，圭声，最初表示一种大体细鳞鱼类。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由鱼名转指鱼类菜肴，常见食材转为成品表示。"
+    }
+  ]
+}

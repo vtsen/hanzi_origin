@@ -1,0 +1,44 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "青白色杂毛的马。",
+      "examples": [
+        "骢，马青白杂毛也。从马，悤声。——《说文》",
+        "踯躅青骢马，流苏金镂鞍。——《玉台新咏·古诗为焦仲卿妻作》"
+      ],
+      "traditional_char": "驄"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "泛指马（有时特指御史所乘的马）。",
+      "examples": [
+        "隋 王由禮 《驄馬》詩： “行行苦不倦，唯當御史驄。”",
+        "闻道乘骢发，沙边待至今。——杜甫诗"
+      ],
+      "traditional_char": "驄"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从马，悤声，表示马青白杂毛之意，《说文解字》有明确记载。"
+    },
+    {
+      "formation_type": "loan_character",
+      "original_sense_index": 0,
+      "note": "骢为驄的简化字，结构简化，意义未变，用作后起通用俗字。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从特指定义（青白色杂毛马）扩大为泛指马或御史之马，唐隋以后常见。"
+    }
+  ]
+}

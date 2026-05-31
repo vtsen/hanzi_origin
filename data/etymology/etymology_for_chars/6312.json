@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "头发好，引申为美好",
+      "examples": [
+        "鬈鬟少女",
+        "鬈发如云"
+      ],
+      "traditional_char": "鬈"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "头发卷曲",
+      "examples": [
+        "鬈发",
+        "鬈毛"
+      ],
+      "traditional_char": "鬈"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从髟，劝声，表示美好头发。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘头发美好’引申至‘头发卷曲’；常以卷曲美貌为美。"
+    }
+  ]
+}

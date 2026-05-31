@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "河南省北部的古河流名称，古为黄河支流，今为卫河支流，亦称淇水。",
+      "examples": [
+        "淇水汤汤，渐车帷裳。——《诗经·卫风·氓》",
+        "淇水出河内隆虑县西大号山。——《水经注·淇水》"
+      ],
+      "traditional_char": "淇"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "古代州名、现县名，位于河南省，以淇水得名。",
+      "examples": [
+        "曹操于淇口作堰，注入白沟今卫河。",
+        "今按淇水出林县大号山，径淇县西北。"
+      ],
+      "traditional_char": "淇"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "山名，今称大号山、北山、淇山，为淇水发源地。",
+      "examples": [
+        "淇水出河内共北山，东入河。——《说文》",
+        "沮洳山，为淇水所出。"
+      ],
+      "traditional_char": "淇"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，其声，最初指水名淇水。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "以河流名指沿河区域、州县，古地名由河得名。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "以河流发源地的山称为淇山，地名转指山名。"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "美玉",
+      "examples": [
+        "瑜，不琢者也。——《说文》"
+      ],
+      "traditional_char": "瑜"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "玉的光泽，引申为优点",
+      "examples": [
+        "瑕瑜互见",
+        "瑕不掩瑜"
+      ],
+      "traditional_char": "瑜"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "瑜伽：佛教的大乘派别之一，或印度哲学重视调息静坐等的一个流派",
+      "examples": [
+        "瑜伽宗",
+        "修习瑜伽"
+      ],
+      "traditional_char": "瑜"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从玉，俞声，表示美玉。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由美玉引申为玉的光泽和比喻道德优点。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "“瑜伽”为梵语yoga的音译借用瑜作音节，与本义无关。"
+    }
+  ]
+}

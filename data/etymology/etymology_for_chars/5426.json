@@ -1,0 +1,44 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "上下牙齿对不上，牙齿不齐。",
+      "examples": [
+        "齟齬：上下牙齒對不上。",
+        "漢書•東方朔傳：令壺齟……齟者，齒不正也。"
+      ],
+      "traditional_char": "齟"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "比喻意见不合，彼此抵触。",
+      "examples": [
+        "双方发生龃龉。",
+        "方圆既龃，贫贱岂怨尤。"
+      ],
+      "traditional_char": "齟"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘齟’形声字，从齿，虘声，本义为牙齿不正。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "簡化字‘龃’承袭‘齟’形声结构，表本义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由牙齿不齐引申为双方意见不齐，比喻意义，见古今文献。"
+    }
+  ]
+}

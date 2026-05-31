@@ -1,0 +1,118 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "水潭、深池、洞穴",
+      "examples": [
+        "南有龙兮在山湫。",
+        "舟人指我极四望，黑处无底蛟龙湫。"
+      ],
+      "traditional_char": "湫"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "凉、清静",
+      "examples": [
+        "湫兮如风，凄兮如雨。",
+        "湫然清静者，衰絰之色也。"
+      ],
+      "traditional_char": "湫"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "凝集、积滞",
+      "examples": [
+        "勿使有所壅闭湫底。"
+      ],
+      "traditional_char": "湫"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "低下、低洼、狭小",
+      "examples": [
+        "湫宅闭门，不有椒房之势。",
+        "湫隘器尘，不可以居。"
+      ],
+      "traditional_char": "湫"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "地名、水名",
+      "examples": [
+        "有湫水，在周地。",
+        "楚子伐黄，還及湫。",
+        "夫差二年后伐越，败越于夫湫。"
+      ],
+      "traditional_char": "湫"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "通“愁”，忧愁、悲哀之状",
+      "examples": [
+        "恤恤乎，湫乎攸乎！",
+        "湫湫者，悲愁之状也。"
+      ],
+      "traditional_char": "湫"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "泄洪道、水流出口",
+      "examples": [
+        "若凿湫东注，则游宽缓，堰不可坏。"
+      ],
+      "traditional_char": "湫"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从水，秋声，形声字。本义为低洼处的水潭或池沼，意用声旁‘秋’表音，水旁表意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由水潭、池的凉爽引申出清凉之感，文学修辞用法。先秦、两汉见用。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由水体凝滞、聚集而引申为“积滞”之意，多见于先秦经籍。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由潭‘低下’的地势转喻环境、住宅等‘低下、低洼’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "池沼、低洼地形常为地名、水名之来源，地理命名转义。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "metaphor",
+      "note": "水潭幽深，比喻内心忧愁；古书常以‘湫湫’形容愁绪。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "semantic_extension",
+      "note": "由池沼引申为水流出之道、泄洪口，多见技术文献。"
+    }
+  ]
+}

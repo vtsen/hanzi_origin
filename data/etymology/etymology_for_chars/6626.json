@@ -1,0 +1,67 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古地名，春秋时郑地，在今河南省郑州、荥阳一带。",
+      "examples": [
+        "晋荀林父帅师及楚子，战于邲。——《春秋·宣公十二年》",
+        "邲，郑地。——杜预注"
+      ],
+      "traditional_char": "邲"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [
+        "又姓，见《姓苑》。"
+      ],
+      "traditional_char": "邲"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "古水名，即汴水。",
+      "examples": [],
+      "traditional_char": "邲"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "好看，有文采貌（通“斐”）。",
+      "examples": [
+        "邲美貌也。——《廣韻》",
+        "有邲君子。——见《韩诗》对《诗经》‘有匪君子’的异文"
+      ],
+      "traditional_char": "邲"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从邑，必声。本义为地名，形声字。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_shift",
+      "note": "地名称用作姓氏，这是汉字常见转变。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "地名引申为当地河流名，属于地名与水名的转借关系。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "因音通‘斐’，被借表示‘美貌、文采’义，见《诗经》异文。"
+    }
+  ]
+}

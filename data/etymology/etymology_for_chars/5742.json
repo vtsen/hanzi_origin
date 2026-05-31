@@ -1,0 +1,81 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "山间的大竹林，或指竹木丛生的山谷。",
+      "examples": [
+        "其地田少箐多，射獵為業。",
+        "大猿叫罢小猿啼，箐裏行人白晝迷。",
+        "麻比在山箐裏舀滿了水，慢慢走回家。"
+      ],
+      "traditional_char": "箐"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "小竹的一种，亦指细竹。",
+      "examples": [
+        "竹之細者，䉑，箐之流也。",
+        "細竹名。"
+      ],
+      "traditional_char": "箐"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "小笼子，用竹编制，也称“笭箐”。",
+      "examples": [
+        "園中築小屋，下懸一箐，令雞宿上。"
+      ],
+      "traditional_char": "箐"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "古代棺車上的覆蓋物。",
+      "examples": [],
+      "traditional_char": "箐"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "张开竹制的弓弩。",
+      "examples": [],
+      "traditional_char": "箐"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "“箐”从竹，青声，初指细竹。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "由细竹名称引申为竹林、山谷，因竹多生于山谷。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "用竹材编制器物，语义转指以细竹为材料的竹笼。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "以竹为材料制成的弓弩，引申为张弓弩动作。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由竹笼覆盖物义，借喻指覆盖棺车的物品。"
+    }
+  ]
+}

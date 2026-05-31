@@ -1,0 +1,72 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "盘旋，绕圈行走。",
+      "examples": [
+        "四野风来，左右乱踅。——《西厢记》",
+        "三娃在屋子里急急地踅圈子。"
+      ],
+      "traditional_char": "踅"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "转身，折回，掉头。",
+      "examples": [
+        "顾大嫂一踅，踅下亭心边去。——《水浒全传》",
+        "那跑堂儿的答应了一声，踅身就往外取壶去了。"
+      ],
+      "traditional_char": "踅"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "来回走动，反复走动。",
+      "examples": [
+        "顾大嫂拿了两把大刀在堂前踅。——《水浒全传》",
+        "这婆子正开门，在茶局子里整理茶锅，张见西门庆踅过几遍。——《金瓶梅》",
+        "次日清早，王婆却才开门，把眼看门外时，只见这西门庆又在门前两头来往踅。——《水浒传》",
+        "老残次日清晨起来，吃点儿点心，便摇着串铃满街踅了一趟，虚应一应故事。——《老残游记》"
+      ],
+      "traditional_char": "踅"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "一足行。",
+      "examples": [
+        "踅，一足行也。——《集韻》"
+      ],
+      "traditional_char": "踅"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 3,
+      "note": "形声字，从足，欮声。‘足’表示与脚步动作有关，‘欮’作声符。原义为‘一足行’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 3,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "从原指‘一足行’，引申为绕圈和旋转行走动作，晋元以降用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由盘旋动作引申为转身、掉头。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "从盘旋绕圈进一步引申为反复来回走动。"
+    }
+  ]
+}

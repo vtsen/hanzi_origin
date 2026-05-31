@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "螻蛄，一种穴居的昆虫，亦称“土狗”、“鼫鼠”。",
+      "examples": [
+        "嘹嘹湿蛄声，咽源惊溅起。",
+        "蛄，螻蛄也。"
+      ],
+      "traditional_char": "蛄"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "蟪蛄，蝉科昆虫，古代亦指蛁蟟和山蝉。",
+      "examples": [
+        "蟪蛄不知春秋。",
+        "蟪蛄鸣兮啾啾。"
+      ],
+      "traditional_char": "蛄"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "蝲蛄，一种甲壳类动物，形状似小龙虾。",
+      "examples": [
+        "蝲蛄能横行。",
+        "用蝲蛄做汤。"
+      ],
+      "traditional_char": "蛄"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从虫，古声，形声字，本义为螻蛄，表动物类别。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "因鸣叫或地下昆虫的特点引申指名为“蛄”的其他鸣虫如蟪蛄，战国至汉代用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "因形状、生活习性相似，后借指甲壳类动物“蝲蛄”，多见于近现代汉语。"
+    }
+  ]
+}

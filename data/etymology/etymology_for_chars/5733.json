@@ -1,0 +1,57 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "镰刀等一类农具",
+      "examples": [
+        "锲，镰也。——《说文》",
+        "刈钩，自关而西，或谓之锲。——《方言五》",
+        "刎镰，一曰小镰，南方用以乂谷。——《六书故》引蜀本"
+      ],
+      "traditional_char": "鍥"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "用刀刻、雕刻",
+      "examples": [
+        "锲而不舍，朽木不折。——《荀子·劝学》",
+        "锲其轴。——《左传·定公四年》",
+        "锲船求剑，未见其可。——《旧唐书·李百药传》"
+      ],
+      "traditional_char": "鍥"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "截断、剪断",
+      "examples": [
+        "尽借邑人之车，锲其轴，麻约而归之。——《左传》",
+        "五将锲头，阖庐未之应，五人之头墜于马前。——《说苑·指武》"
+      ],
+      "traditional_char": "鍥"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从金，契声，初指镰刀类农具，《说文》有载。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由镰刀农具之锋利，引申为用刀刻、雕刻，春秋以来。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由刀刻、雕刻的动作，进一步引申为截断、剪断。"
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "炒熟的米、麦等干粮；用以充饥、便于携带。",
+      "examples": [
+        "舜之饭糗茹草也。",
+        "糗饵粉飺。",
+        "备乃器械，持乃糗粮。",
+        "峙乃糗粮。"
+      ],
+      "traditional_char": "糗"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "凝结成块或糊状的饭或面食，或指冷粥。",
+      "examples": [
+        "糗，寒粥也。",
+        "盛馈具：肺盐羹、胾脯、枣酏、醢、鱼腊、糗、韭百物。"
+      ],
+      "traditional_char": "糗"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [
+        "汉有糗宗，为嬴长。"
+      ],
+      "traditional_char": "糗"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "形容当场出丑、不知所措的样子。",
+      "examples": [
+        "（近现代网络用法）",
+        "他当众糗了一下。"
+      ],
+      "traditional_char": "糗"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "黏在一起（多指饭或面食）。",
+      "examples": [
+        "（网络新义）",
+        "饭糗成一团。"
+      ],
+      "traditional_char": "糗"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从米，臭声。米为意符表‘粮食’，‘臭’作声符。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘干粮’引申为‘凝结成块或糊状的饭’、‘冷粥’，见于早期注释。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "function_word",
+      "note": "用作姓氏，常见于古代实词变姓。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "现代口语、网络中由‘食物糟糕’转喻为‘出丑、尴尬’。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由‘结块的饭食’引申为‘黏在一起’之意，见于网络及口语。"
+    }
+  ]
+}

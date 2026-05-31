@@ -1,0 +1,90 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "拾取，摘取，有选择地捡取或收集",
+      "examples": [
+        "犹拾遗于涂，摭弃于野。",
+        "乃摭于鱼腊俎。",
+        "摭紫贝，搏耆龟。",
+        "摭我华而不食我实。"
+      ],
+      "traditional_char": "摭"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "采集、选取（扩展为有选择地挑出、摘录）",
+      "examples": [
+        "往往摭《离骚》文而反之。",
+        "摭裂。",
+        "摭采。"
+      ],
+      "traditional_char": "摭"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "搜集，收罗（如搜集事实、材料）",
+      "examples": [
+        "摭其阴事以奏之，太祖遂疑之。",
+        "采经摭传。"
+      ],
+      "traditional_char": "摭"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "挑剔，指摘",
+      "examples": [
+        "摭赖。",
+        "摭罗。"
+      ],
+      "traditional_char": "摭"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "阻拦、遮蔽（“摭”通作“遮”）",
+      "examples": [
+        "摭说。",
+        "摭拦。"
+      ],
+      "traditional_char": "摭"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从手，庶声，本义为有选择地拾取。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由具体拾取扩展为选取、摘录。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由捡拾具体事物引申为搜集信息、材料。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由‘选取’引申为‘挑剔、指摘’意。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "摭假借为‘遮’，义为遮挡、阻拦。"
+    }
+  ]
+}

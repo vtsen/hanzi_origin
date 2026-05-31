@@ -1,0 +1,73 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "敦厚，笃实，诚实宽厚",
+      "examples": [
+        "惇德允元。——《书·舜典》",
+        "惇叙九族。——《书·皋陶谟》",
+        "惇悫纯信，用心怯言。——《韩非子·诡使》"
+      ],
+      "traditional_char": "惇"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "劝勉，勤勉",
+      "examples": [
+        "惇诲（殷勤劝导）",
+        "惇学（劝勉学习）",
+        "奉惇学不仕，好律历阴阳之占。——《汉书·翼奉传》"
+      ],
+      "traditional_char": "惇"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "推崇，尊重",
+      "examples": [
+        "惇信明义，崇德报功。——《书·武成》",
+        "惇任仁人，退远残贼。——《汉书·成帝纪》"
+      ],
+      "traditional_char": "惇"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "诚信，信实",
+      "examples": [
+        "惇，信也。燕曰惇。——《方言·七》",
+        "惇亦诚信貌。"
+      ],
+      "traditional_char": "惇"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从心，享声。本义为敦厚、笃实。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "由“敦厚”引申为“诚信”，古汉语常将诚信视作敦厚之德；大约战国至两汉。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "从形容人的品性敦厚引申为“劝勉”，即厚德而能勉励他人，语源《国语》《汉书》。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由对品德的崇尚引申为动词“推崇、尊重”，两汉用法显著。"
+    }
+  ]
+}

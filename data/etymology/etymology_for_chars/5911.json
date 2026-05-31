@@ -1,0 +1,89 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "践踏，踩踏。",
+      "examples": [
+        "小手直拍打，小脚直踔踔。",
+        "说文：踔，踶也。"
+      ],
+      "traditional_char": "踔"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "跳，跳跃，腾跃。",
+      "examples": [
+        "踔攳枝。——《后汉书·马融传》",
+        "捷垂条，踔稀间。——《史记·司马相如列传》",
+        "煮头，三日三夜不烂，头踔出汤中。"
+      ],
+      "traditional_char": "踔"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "逾越，超越，路远。",
+      "examples": [
+        "踔宇宙而遗俗兮。——《后汉书·蔡邕传》",
+        "日夜踔数舍。",
+        "颿风一日踔数千里。"
+      ],
+      "traditional_char": "踔"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "卓越，高超，卓然特立。",
+      "examples": [
+        "踔绝：卓越出众。",
+        "非有踔绝之能，不能踰越。"
+      ],
+      "traditional_char": "踔"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "跛行。",
+      "examples": [
+        "踸踔，跛者行也。",
+        "马兰踸踔而日加。——《楚辞·七谏》"
+      ],
+      "traditional_char": "踔"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从足，卓声。以‘卓’表声兼意，初指用脚践踏、蹬踏。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由踩踏动作引申为跳跃，东汉及更早文献可证。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "从跳跃引申为超越、逾越、路远，见《后汉书·蔡邕传》等。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由超越之意进一步比喻为卓越、高超。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_shift",
+      "note": "践踏相关义转变为行走不稳，特指跛行，出现在部分古籍。"
+    }
+  ]
+}

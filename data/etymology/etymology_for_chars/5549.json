@@ -1,0 +1,87 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "祭祀时神灵享受祭品的香气，嗅闻，飨。",
+      "examples": [
+        "其香始升，上帝居歆。——《诗·大雅》",
+        "鬼神非其族类，不歆其祀。——《左传》"
+      ],
+      "traditional_char": "歆"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "用食品祭祀神鬼或待客。",
+      "examples": [
+        "能歆神人，宜其先辅五君以为盟主也。——《左传·襄公二十七年》"
+      ],
+      "traditional_char": "歆"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "（情感上被）感动、触动。",
+      "examples": [
+        "履帝武敏歆。——《诗·大雅·生民》",
+        "歆，动也，犹惊异也。——朱熹集传"
+      ],
+      "traditional_char": "歆"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "喜爱，羡慕，贪图，钦慕。",
+      "examples": [
+        "无然歆羡。——《诗·大雅·皇矣》",
+        "楚必歆之。——《国语·楚语上》",
+        "士人歆其宠。——《新唐书·王綝传》"
+      ],
+      "traditional_char": "歆"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "悦服，欣喜，令人心悦诚服。",
+      "examples": [
+        "民歆而德之，则归心焉。——《国语·周语下》",
+        "歆，喜也。——《汉书·游侠列传》王念孙注"
+      ],
+      "traditional_char": "歆"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“歆”从欠，音辛，形声字，本指祭祀时神嗅闻祭品之气。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由神嗅闻祭品气味，引申为享受祭品、待客。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "神体会祭品之气，引申为内心被触动。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由神享受祭品的满足，引申为人之喜爱羡慕。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由喜爱羡慕进一步引申为心悦服、欣喜。"
+    }
+  ]
+}

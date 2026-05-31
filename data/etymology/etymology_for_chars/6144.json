@@ -1,0 +1,37 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "大鲵：大型两栖动物，身体长扁，生活在山溪中，叫声像婴儿，俗称“娃娃鱼”。",
+      "examples": [
+        "大鲵俗称娃娃鱼，是珍稀动物。"
+      ],
+      "traditional_char": "鯢"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "小鲵：小型两栖动物，体形与大鲵相似但较小，牙齿呈V形，生活在水边草地。",
+      "examples": [
+        "小鲵常见于湿润的草地。"
+      ],
+      "traditional_char": "鯢"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从鱼，兒声；表示两栖动物大鲵，属形声结构，早见于《说文解字》。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_narrowing",
+      "note": "由大鲵泛指扩展至相似但体型较小的品种，约近现代动物学分类所致。"
+    }
+  ]
+}

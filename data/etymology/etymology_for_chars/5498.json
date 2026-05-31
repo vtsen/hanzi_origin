@@ -1,0 +1,72 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "一年生禾本科杂草，生于稻田或湿地，形似稻，是稻田里的害草，名为稗草。",
+      "examples": [
+        "稗，禾别也。——《说文》",
+        "用秕稗也。——《左传·定公十年》",
+        "养稊稗者伤禾稼。——王符《潜夫论》"
+      ],
+      "traditional_char": "稗"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "微小的，琐碎的；多指职位或事物。",
+      "examples": [
+        "稗，小也。——《广雅》",
+        "盖出于稗官。——《汉书·艺文志》",
+        "汝来床前，为说稗官野史可喜可愕之事，聊资一欢。——清·袁枚《祭妹文》"
+      ],
+      "traditional_char": "稗"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "称杂记轶闻、小说家的著作为稗史。",
+      "examples": [
+        "稗官（古官名。后泛指记载轶闻琐事的文字为稗官野史、稗史）",
+        "诗里莺花稗情。——魏源《寰海后十首》"
+      ],
+      "traditional_char": "稗"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "精米，“粺”的通假字。",
+      "examples": [
+        "芳菰精粺。——《文选·曹植〈七启〉》注：稗与粺，古字通。"
+      ],
+      "traditional_char": "稗"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从禾，卑声，形声字。本义即稻田中的杂草。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "因稗草细小、无用，引申形容微小、琐碎的人事物。先秦两汉已见。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "用以指稗官，泛指记录琐事轶闻的著作、小说等，汉代流行。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "稗通假为“粺”，指精米，仅文献中通用，非主流本义。"
+    }
+  ]
+}

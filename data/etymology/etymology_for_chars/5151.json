@@ -1,0 +1,70 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "米谷中的小黑甲虫，米象。",
+      "examples": [
+        "米里有蛘子。"
+      ],
+      "traditional_char": "蛘"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "螞蟻，一種蟲名，北方方言或古語中對螞蟻的稱呼。",
+      "examples": [
+        "《爾雅·釋蟲》：齊人呼螘為蛘。",
+        "北燕人謂蚍蜉曰蛘。"
+      ],
+      "traditional_char": "蛘"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "皮膚受刺激後的癢感；搔癢。",
+      "examples": [
+        "《禮記》：‘蛘不敢搔。’",
+        "搔蛘。",
+        "揩蛘虎。"
+      ],
+      "traditional_char": "蛘"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "other",
+      "meaning": "同“養”；作“養”的通假字。",
+      "examples": [
+        "了你蛘親父母恩。"
+      ],
+      "traditional_char": "蛘"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "形声字，从虫，養声，本指一种虫（螞蟻），“蟲”表意，養表音。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "由泛指螞蟻类的小虫扩展为泛指米中的小黑甲虫——语义的具体化和外延变化。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由虫蚁在皮肤上爬动引申为搔痒、瘙痒感。与昆虫移动类似感发的感觉。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "conversion",
+      "note": "由表瘙痒之感引申为动作、状态名词，同“養”为通假使用。"
+    }
+  ]
+}

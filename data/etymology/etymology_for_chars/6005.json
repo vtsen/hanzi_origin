@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "水流的声音或水流流动的样子。",
+      "examples": [
+        "山行门七里，渐闻水声潺而泻出于两峰之间者，酿泉也。",
+        "雨潺，春意阑珊。",
+        "乘月弄潺湲。"
+      ],
+      "traditional_char": "潺"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "四川涪江上游一支流的名称（潺水）。",
+      "examples": [
+        "自此水上县，有潺水出潺山……历潺亭而下注涪水。"
+      ],
+      "traditional_char": "潺"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "涕泪横流的样子。",
+      "examples": [
+        "横流涕兮潺湲。"
+      ],
+      "traditional_char": "潺"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，孱声，表示水流的声音或（缓流）的样子。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "以水流貌的本义转指具体的水体名，用于四川地名。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "以水流的缓慢形态比喻涕泪横流，多见于诗文表达。"
+    }
+  ]
+}

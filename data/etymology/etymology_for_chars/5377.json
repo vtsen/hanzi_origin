@@ -1,0 +1,83 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "蓖麻，一年生或多年生草本植物，种子称“蓖麻子”，可榨油，广泛用于医药和工业。",
+      "examples": [
+        "蓖麻油是一种重要的工业原料。",
+        "蓖麻子可作药用。"
+      ],
+      "traditional_char": "蓖"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "蒿类植物名。古籍中指某种蒿草。",
+      "examples": [
+        "蓖，蒿也。——《说文》"
+      ],
+      "traditional_char": "蓖"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "雨衣、蓑衣。",
+      "examples": [
+        "雨衣，一曰蓑衣。——《玉篇》"
+      ],
+      "traditional_char": "蓖"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "草名，萆薢，为一种药草。",
+      "examples": [
+        "萆薢，药草。——《类篇》"
+      ],
+      "traditional_char": "蓖"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "通“蔽”，遮蔽，遮掩。",
+      "examples": [
+        "从閒道萆山而望赵军。——《汉书·韩信传》"
+      ],
+      "traditional_char": "蓖"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "从艸，卑声，会意兼形声，最初表植物名（蒿类）。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_narrowing",
+      "note": "从泛指蒿草类到特指蓖麻，见于植物分类细化过程中。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由一般野草泛指到特指作为药用的萆薢，属于同属植物的延伸。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "用草类（如蓖）制成的雨衣，以材料代成品。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "reanalysis",
+      "note": "“蓖”后假借作“蔽”，语音相近，义由遮蔽过渡。"
+    }
+  ]
+}

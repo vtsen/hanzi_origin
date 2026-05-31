@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "痈，小肿块，皮肤下的脓肿。",
+      "examples": [
+        "痤，小肿也。从疒，坐声。——《说文》",
+        "金星之山多天婴，可以已痤。——《山海经·中山经》"
+      ],
+      "traditional_char": "痤"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "疖子，一种皮肤病，俗称“粉刺”。",
+      "examples": [
+        "郁乃痤。——《素问·生桉通天论》。注：色赤瞋愤，内蕴血脓，形小而大如酸枣，或如按豆。",
+        "痤疮"
+      ],
+      "traditional_char": "痤"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "（古）族类的瘟疫、禽畜的病。",
+      "examples": [
+        "一曰族絫病。——《说文》",
+        "癤子。"
+      ],
+      "traditional_char": "痤"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "（古）果名，即麦李。",
+      "examples": [
+        "麥李，...一名痤。——《农政全书》卷二九",
+        "痤接慮李。——《尔雅·释木》"
+      ],
+      "traditional_char": "痤"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘痤’为形声字，从‘疒’表疾病义，‘坐’为声符，初指皮肤小肿或痈。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_narrowing",
+      "note": "由泛指皮肤小肿、痈，具体化为现代医学所指的‘疖’、‘粉刺’等皮肤病。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由人体病变引申为畜类的病，用病例以喻物类疫病，古文用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "因果实外形小而突出，借喻为麦李的果名，见于古文献。"
+    }
+  ]
+}

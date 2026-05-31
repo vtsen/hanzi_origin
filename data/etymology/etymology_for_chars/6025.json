@@ -1,0 +1,116 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "国都四周的广大地区，古代所称王畿或京畿。",
+      "examples": [
+        "邦畿方千里。——《周礼·大行人》",
+        "邦畿千里。——《诗·商颂·玄鸟》"
+      ],
+      "traditional_char": "畿"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "王畿之外的九畿，古代指周王朝疆域划分中的外层区域。",
+      "examples": [
+        "乃以九畿之籍。——《周礼·大司马》"
+      ],
+      "traditional_char": "畿"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "疆界、地界或边际。",
+      "examples": [
+        "畿，疆也。——《诗·商颂·玄鸟》",
+        "巡丘陵以经略兮，画墳衍而分畿。——《文选·潘岳〈射雉赋〉》"
+      ],
+      "traditional_char": "畿"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "门槛、门限或门内。",
+      "examples": [
+        "薄送我畿。——《诗·邶风·谷风》",
+        "白石为门畿。——唐·韩愈《谴瘧鬼》"
+      ],
+      "traditional_char": "畿"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "田野。",
+      "examples": [
+        "晨光照麦畿，平野度春翚。——南朝梁·简文帝《雉朝飞操》"
+      ],
+      "traditional_char": "畿"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "特指西汉末王莽新朝时期长安西市的名称。",
+      "examples": [
+        "东市称京，西市称畿。——《汉书·食货志上》"
+      ],
+      "traditional_char": "畿"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "唐代县的等级名。京城的旁邑为畿县。",
+      "examples": [
+        "京之旁邑为畿县。——《通典·职官十五》",
+        "咸阳，畿。——《新唐书·地理志一》"
+      ],
+      "traditional_char": "畿"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从田，幾省声。田表示与土地、疆域相关，聲旁表音，原指国都外围的区域。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由王畿千里进一步泛化为包括周边九畿，周代行政区划变化。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由具体地区泛指‘疆界、边界’，空间意义外延。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由疆界抽象引申为门槛、门限，比喻空間边界。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由区域土地之义通指田野，地域外延。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "metonymy",
+      "note": "以本为用，特指地名，如西市称“畿”，见王莽时期用例。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "metonymy",
+      "note": "由京畿之义引申为行政区‘畿县’，唐代制度用法。"
+    }
+  ]
+}

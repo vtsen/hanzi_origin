@@ -1,0 +1,40 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古代指门内东西两侧的堂屋",
+      "examples": [
+        "《说文解字》：‘塾，舍也。’"
+      ],
+      "traditional_char": "塾"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "旧时私人设立的教学的地方",
+      "examples": [
+        "家塾",
+        "私塾",
+        "塾师",
+        "《红楼梦》：‘去上学堂家塾’"
+      ],
+      "traditional_char": "塾"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从土，孰声，‘土’表示与建筑相关，‘孰’作声旁。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "建筑空间语义引申为教学场所，约始于宋元之后。"
+    }
+  ]
+}

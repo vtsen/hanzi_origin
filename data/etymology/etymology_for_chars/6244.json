@@ -1,0 +1,69 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "大腿，股部。",
+      "examples": [
+        "髀肉复生",
+        "帶，下毋厭髀",
+        "卻見一個凸顴骨，薄嘴唇，五十歲上下的女人站在我面前，兩手搭在髀間"
+      ],
+      "traditional_char": "髀"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "大腿骨，亦指髀骨的外侧部分。",
+      "examples": [
+        "堕而折其髀",
+        "髀枢，亦曰樞機者，髀骨之入樞者也"
+      ],
+      "traditional_char": "髀"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "古代測量日影的器具，即“髀表”。",
+      "examples": [
+        "周髀长八尺，夏至之日，晷尺六寸。髀者，股也；正晷者，句也",
+        "蔡邕所谓《周髀》者，即盖天之说也"
+      ],
+      "traditional_char": "髀"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "“脾”字的通假字。",
+      "examples": [],
+      "traditional_char": "髀"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从骨，卑声，本义为大腿，与骨体有关。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_narrowing",
+      "note": "由“大腿”具体化为“大腿骨”及相关部位，大约汉代已见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "以“大腿”为喻，假借为测量日影的工具名。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "与“脾”音近，用作通假字，见于部分文献。"
+    }
+  ]
+}

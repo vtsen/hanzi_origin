@@ -1,0 +1,53 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "事情繁忙、紧迫、匆促的样子",
+      "examples": [
+        "倥偬之间，不及细说。",
+        "戎马倥偬。"
+      ],
+      "traditional_char": "偬"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "困苦、窘迫",
+      "examples": [
+        "倥偬而困。"
+      ],
+      "traditional_char": "偬"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "众多",
+      "examples": [
+        "偬志众也。"
+      ],
+      "traditional_char": "偬"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 2,
+      "note": "形声字，“亻”为形旁，表人为主；“怱/总”为声旁，兼有意染“聚众”或“繁杂”之义。初本义为‘众多’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 2,
+      "target_index": 0,
+      "evolution_type": "semantic_shift",
+      "note": "由‘众多’引申为‘事务繁多而紧迫’。出现于中古以后‘倥偬’等词。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘繁忙紧迫’进一步引申为‘困苦’。语境中常与逆境并见。"
+    }
+  ]
+}

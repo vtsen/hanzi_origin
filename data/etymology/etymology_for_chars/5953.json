@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "精炼的铁；熟铁或锻铁。",
+      "examples": [
+        "三尺镔刀耀雪光。——洪昇《长生殿》",
+        "刀贵鑌，柄尚鸡舌木，黄黑相半。——《金史·舆服志下》"
+      ],
+      "traditional_char": "鑌"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "高质量的金属铁。",
+      "examples": [
+        "鑌铁为刀甚利。——《广韵》"
+      ],
+      "traditional_char": "鑌"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "“镔”的简化字。",
+      "examples": [],
+      "traditional_char": "镔"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘鑌’为形声字，从金，宾声。本义为精炼的铁。"
+    },
+    {
+      "formation_type": "simple_indicative",
+      "original_sense_index": 2,
+      "note": "‘镔’为‘鑌’的简化字，采用‘金’与‘兵’简化组合。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由特指精炼铁扩大为泛指高质量金属铁。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "reanalysis",
+      "note": "‘镔’为‘鑌’的简化字，现代汉语文字改革所致。"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "畏惧，害怕，胆怯的样子。",
+      "examples": [
+        "愼而無禮則葸。——《論語·泰伯》",
+        "畏葸不前",
+        "雖云優慎，無乃葸欤。——《後漢書·班固傳下》"
+      ],
+      "traditional_char": "葸"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "面無表情、不高興的樣子。",
+      "examples": [
+        "人言善而色葸焉，近於不悅其言。——《大戴禮·曾子立事篇》"
+      ],
+      "traditional_char": "葸"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "草名，一类香草或禾本科草本植物。",
+      "examples": [
+        "蘆、葦、葭、菼、薍、萑、葸、華之類，皆是也。——宋·沈括《夢溪補筆談·藥議》"
+      ],
+      "traditional_char": "葸"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 2,
+      "note": "形声字，从艸，思声。本作草名，后引申为畏惧等义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 2,
+      "target_index": 0,
+      "evolution_type": "metaphor",
+      "note": "由草本柔弱、易折的特性转喻引申为畏惧胆怯，见汉字义项分化例。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由畏惧的表情引申为面無表情或不高兴，见古礼用语语境。"
+    }
+  ]
+}

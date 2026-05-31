@@ -1,0 +1,58 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "雨雪停止，天放晴",
+      "examples": [
+        "霁，雨止也。——《说文》",
+        "雪霁。",
+        "霁色（像雨后晴空那样的颜色）。",
+        "旬日不霁。——《汉书·沟洫志》"
+      ],
+      "traditional_char": "霽"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "明朗，晴朗",
+      "examples": [
+        "霁日园林好，清明烟火新。——祖咏《清明宴司勋刘郎中别业》",
+        "胸中洒落，如光风霁月。——黄庭坚《濂溪诗序》"
+      ],
+      "traditional_char": "霽"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "怒气消散，脸色转和，威怒缓和",
+      "examples": [
+        "帝色霁，乃释寰。——《新唐书·裴度传》",
+        "色霁。",
+        "相心善其言，为霁威严。——《汉书·魏相传》"
+      ],
+      "traditional_char": "霽"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从雨，齐声。本义为雨止，表现自然界现象。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由雨雪停止天气放晴引申为明朗、晴朗之意，汉晋已见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "晴明由气象转喻为情绪和缓、怒气消散，见于中古及后世用法。"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "纺车；井上用来绞起水桶的机械装置，亦指机械上的绞盘。",
+      "examples": [
+        "辘轳打水",
+        "井上安一座辘轳。"
+      ],
+      "traditional_char": "轆"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "车轮滚动或辗轧的用具，如辘轴（石做的圆柱形农具）。",
+      "examples": [
+        "辘轴退皮",
+        "牛拉着辘轴在场上打麦。"
+      ],
+      "traditional_char": "轆"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "onomatopoeia",
+      "meaning": "车子滚动时的声音，形容车声。",
+      "examples": [
+        "车轮辘辘作响。",
+        "饥肠辘辘。"
+      ],
+      "traditional_char": "轆"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "other",
+      "meaning": "“辘”为“轆”的简化字。",
+      "examples": [],
+      "traditional_char": "轆"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从车，鹿声，表示与车有关的器具，尤指古代的纺车。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从纺车专指扩展到一般与车轮滚动相关的农具、机械。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由辘轴滚动产生的声音类比到车声或饥肠等声音。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "reanalysis",
+      "note": "现代汉字简化，“轆”简化为“辘”。"
+    }
+  ]
+}

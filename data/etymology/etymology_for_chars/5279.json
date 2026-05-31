@@ -1,0 +1,102 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "埋没，不被发现或显著",
+      "examples": [
+        "典章湮散。",
+        "黄花冈上一抔土，犹湮没于荒烟蔓草间。",
+        "湮没不彰。"
+      ],
+      "traditional_char": "湮"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "淹没，沉没（水淹覆盖之意）",
+      "examples": [
+        "漂民庐，湮田稼。",
+        "沈稼湮梁潁。",
+        "湮枯。"
+      ],
+      "traditional_char": "湮"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "堵塞，填塞",
+      "examples": [
+        "昔者禹之湮洪水，决江河。",
+        "鬱湮不育。",
+        "城高難平，湮之以土。"
+      ],
+      "traditional_char": "湮"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "液体渗透，向外扩散（同“洇”）",
+      "examples": [
+        "泪痕湮透香罗帕。",
+        "绢布上写字，用姜汁磨及粉，则不湮开。"
+      ],
+      "traditional_char": "湮"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "水名，湮水（地名；如河南省登封县西）",
+      "examples": [
+        "水出狂水東北湮谷。"
+      ],
+      "traditional_char": "湮"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [],
+      "traditional_char": "湮"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，垔声，最初意指‘埋没、不显著’，反映水流覆盖、埋藏之义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘埋没’引申为‘被水淹没’，发生于上古文献。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由水淹没引申至堵塞、填塞，常见于先秦到汉之用。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由‘水淹’引申为液体扩散（洇开），后多用‘洇’字代替。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "因河流埋没地貌，水名‘湮’以状其特性。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 5,
+      "evolution_type": "conversion",
+      "note": "水名派生为姓氏，见于古地望与氏族名。"
+    }
+  ]
+}

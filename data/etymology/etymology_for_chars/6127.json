@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古时候一种用竹管制成的乐器，形状类似笛子，通常有七至八孔，横吹。",
+      "examples": [
+        "伯氏吹壎，仲氏吹篪。——《诗·小雅·何人斯》",
+        "如塤如篪，不通不介。——《旧唐书·薛戎传论》",
+        "快马健儿，不知老妪吹篪。——《洛阳伽蓝记》"
+      ],
+      "traditional_char": "篪"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "泛指吹管乐器。",
+      "examples": [
+        "凡诸鄙事，裁衣、作帽，过目则能；未尝吹箎，执管便韵。——《资治通鉴·宋顺皇帝昇明元年》"
+      ],
+      "traditional_char": "篪"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "古书上所说的一种竹名。",
+      "examples": [
+        "君山东北对编山，山多篪竹。——《水经注》"
+      ],
+      "traditional_char": "篪"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从竹，取表义，虒（sī）声，指管乐器篪，汉代古籍有记载。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由特指古乐器扩展为泛指所有吹管乐器，出现于中晚古代。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由制作乐器的竹材料引申为竹的品种名，用法见古籍。"
+    }
+  ]
+}

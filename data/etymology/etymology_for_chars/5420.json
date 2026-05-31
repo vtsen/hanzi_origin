@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "石屋、石室。",
+      "examples": [
+        "頑雲垂翼山碉暗，喬麥饒花雪嶺開。",
+        "石碉碉房"
+      ],
+      "traditional_char": "碉"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "碉堡，軍事上用以防守、便於射擊瞭望的建築物。",
+      "examples": [
+        "但審度形勢，賊碉非盡當道。",
+        "碉堡碉卡"
+      ],
+      "traditional_char": "碉"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从石，周声，表示用石头建造的屋室。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由普通石室或石屋用法，语义扩大，泛指军用防御建筑。"
+    }
+  ]
+}

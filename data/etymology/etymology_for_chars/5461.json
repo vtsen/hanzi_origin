@@ -1,0 +1,52 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "蟾蜍的简称，一种两栖动物，皮肤粗糙，通常指癞蛤蟆。",
+      "examples": [
+        "蟾蜍多在人家下處，形大，背上多痱磊，行極遲緩，不能跳躍，亦不解鳴。"
+      ],
+      "traditional_char": "蜍"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "月亮的代称（源自神话，认为月中有蟾蜍）。",
+      "examples": [
+        "天邊蜍兔，去我堂堂。"
+      ],
+      "traditional_char": "蜍"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "蜘蛛的别名，亦称“蝳蜍”或作“蠩”。",
+      "examples": [
+        "北燕、朝鮮洌水之閒謂之蝳蜍。"
+      ],
+      "traditional_char": "蜍"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从虫，余声。本义指蟾蜍，动物名。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "因古代神话将蟾蜍与月亮联系，用作月的代称，起于先秦两汉。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "在北方方言区以‘蜍’借指南方常见的蜘蛛等，名称沿用推及。"
+    }
+  ]
+}

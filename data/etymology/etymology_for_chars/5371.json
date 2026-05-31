@@ -1,0 +1,130 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "套在辕马胸部的皮革，亦用作夹辕两马（服马、骖马）的代称",
+      "examples": [
+        "吾从子，如骖之靳。（《左传·定公九年》）",
+        "弸辕谓之靳。（《广雅》）"
+      ],
+      "traditional_char": "靳"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "皮环，车马装备中控制骖马的皮质环状物",
+      "examples": [
+        "游环谓之靳。（《诗小戎传》释文）"
+      ],
+      "traditional_char": "靳"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "吝惜，不肯给予",
+      "examples": [
+        "悔不小靳，可至千万。（《后汉书·崔寔传》）",
+        "初无少靳。"
+      ],
+      "traditional_char": "靳"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "讥笑，奚落，嘲弄",
+      "examples": [
+        "宋公靳之。（《左传·庄公十一年》）"
+      ],
+      "traditional_char": "靳"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "惋惜，遗憾",
+      "examples": [
+        "以不及为靳。（《新唐书·郑覃传》）"
+      ],
+      "traditional_char": "靳"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "拒绝，阻挠，固执",
+      "examples": [
+        "靳不与。",
+        "阻其入覲，是靳以客礼也。"
+      ],
+      "traditional_char": "靳"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "取得，取",
+      "examples": [
+        "少不得靳银几万。（《鸣凤记》）"
+      ],
+      "traditional_char": "靳"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "楚有大夫靳尚。（《广韵》）"
+      ],
+      "traditional_char": "靳"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从革，斤声。革表皮革相关，斤作声符，最初指马具上的胸皮革。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由胸部皮革扩展为马具相关其他皮质物，如皮环。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由皮制物保护、包裹，引申为心理上的吝啬、顾惜，见两汉已见。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 4,
+      "evolution_type": "semantic_shift",
+      "note": "由‘吝惜’进一步引申为‘惋惜’，表达遗憾。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "由吝惜转为拒绝、固执等动作。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由马具象征束缚或限制，引申为对人进行奚落、讥笑之意。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "unknown",
+      "note": "‘取得’义用法稀少，具体联系存疑，保守标记为不明。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 7,
+      "evolution_type": "conversion",
+      "note": "由物名转为姓氏用，常见汉字用法。"
+    }
+  ]
+}

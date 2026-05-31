@@ -1,0 +1,128 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "勺把；蠡柄。",
+      "examples": [
+        "斡，蠡柄也。——《说文》"
+      ],
+      "traditional_char": "斡"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "小车的轮子（轺车轮斡）。",
+      "examples": [
+        "斡…扬雄杜林说皆以为轺车轮斡也。——《说文》"
+      ],
+      "traditional_char": "斡"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "旋转，转动，运转。",
+      "examples": [
+        "斡，转也。——《广雅·释诂四》",
+        "倾河易回斡。——谢惠连《七月七日咏牛女》",
+        "力斡春回竟是誰？——陆游《落梅》"
+      ],
+      "traditional_char": "斡"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "调解（把弄僵了的局面扭转过来）。",
+      "examples": [
+        "斡旋天地。",
+        "斡流（流转）；斡运（旋转运行）；斡维（运转的枢纽）"
+      ],
+      "traditional_char": "斡"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "挑起，负担，挑担。",
+      "examples": [
+        "也强如斡担挑箩。——元·杨显之《酷寒亭》"
+      ],
+      "traditional_char": "斡"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "挖取，掏取。",
+      "examples": [
+        "武松口里銜着刀，雙手去斡開胸脯，取出心肝五臟，供養在靈前。——《水滸傳》"
+      ],
+      "traditional_char": "斡"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "车轂孔外围金属包裹的圆管状部分。",
+      "examples": [],
+      "traditional_char": "斡"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "verb",
+      "meaning": "主管，掌管（“斡”通“管”音guǎn）。",
+      "examples": [
+        "欲檀斡山海之货。——《汉书·食货志下》"
+      ],
+      "traditional_char": "斡"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从斗，倝声。本义为蠡柄（勺把），形旁表义，声旁表音。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由“勺把”引申为小车轮子，因形状与运作类似。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由“勺把”执柄能旋转，引申为“旋转、转动”之意。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "“旋转、运转”引申为“调解、扭转局面”意，常用作抽象运作。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "“运转”引申为“挑起、负担”等动作，取旋动作感。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 5,
+      "evolution_type": "metaphor",
+      "note": "旋动作转为“挖取、掏取”，动作由旋转而来。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 6,
+      "evolution_type": "semantic_extension",
+      "note": "由车轮部件义引申为轮轴上的金属套。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 7,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "‘斡’借音通‘管’，表示‘主管’、‘掌管’。音读guǎn。"
+    }
+  ]
+}

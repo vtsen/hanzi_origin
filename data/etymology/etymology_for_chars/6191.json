@@ -1,0 +1,89 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "额头",
+      "examples": [
+        "颡，额也。——《说文》",
+        "今夫水，搏而跃之，可使过颡。——《孟子》",
+        "颡，额也。——赵岐注",
+        "河目龙颡。——《孔子家语·困誓》"
+      ],
+      "traditional_char": "顙"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "头",
+      "examples": [
+        "修鳞脱远枝，巨颡拆老拳。——杜甫《义鹘》",
+        "顙，頭也。——范望注"
+      ],
+      "traditional_char": "顙"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "喉咙，嗓子",
+      "examples": [
+        "颡根（喉的后部）",
+        "颡子眼（喉咙眼）"
+      ],
+      "traditional_char": "顙"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "颊（面颊）",
+      "examples": [
+        "河目隆颡。——《孔子家语·困誓》 王肃注：顙，頰也。"
+      ],
+      "traditional_char": "顙"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "叩头，稽颡（以额触地行礼）",
+      "examples": [
+        "拜稽颡。——《仪礼·士丧礼》",
+        "再拜颡。——《左传·昭公二十五年》",
+        "重低顙，山呼萬歲拜君王。——《长生殿》"
+      ],
+      "traditional_char": "顙"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘顙’为形声字，从頁，桑声，最初指额头。‘颡’为‘顙’的简化字，承袭原意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "synecdoche",
+      "note": "由“额头”扩大为“头部”的整体，常见于汉字本义与引申间。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由面部部位名称，指称到喉咙或嗓子，有方言色彩，具体机制不详。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由额头旁迁移到颊，有释义上的混用且仅见于部分文献。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "以额头代表以额头触地（动作），即行稽颡礼仪。"
+    }
+  ]
+}

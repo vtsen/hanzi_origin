@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "measure_word",
+      "meaning": "古代重量单位，一说六铢为一锱，四锱为一两，数量有多种说法。",
+      "examples": [
+        "锱，六铢也。——《说文》",
+        "八铢为锱。——《广韵》",
+        "雖分國如錙銖。——《禮記·儒行》"
+      ],
+      "traditional_char": "錙"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "引申为少、细微。",
+      "examples": [
+        "锱毫（比喻细微处）",
+        "锱介（比喻微小）",
+        "锱铢不爽（分毫不差）"
+      ],
+      "traditional_char": "錙"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "通“緇”，指黑色。",
+      "examples": [
+        "錙徒（黑衣之人）"
+      ],
+      "traditional_char": "錙"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "通“菑”，见于“錙壇之宮”等词，指某种田地、坛庙。",
+      "examples": [
+        "錙壇之宮"
+      ],
+      "traditional_char": "錙"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘錙’（锱）为形声字，从金，甾声，表金属重量单位。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由具体重量单位引申为细微、少量，用于比喻。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "‘錙’假借义通‘緇’，因音同用为黑色之义。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "‘錙’通‘菑’用于‘錙壇之宮’，为音借字。"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "滹沱河的简称，河流名称，源出山西，流经河北",
+      "examples": [
+        "滹沱麦饭",
+        "滹沱北流",
+        "滹沱河在河北省"
+      ],
+      "traditional_char": "滹"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "水边，水岸",
+      "examples": [
+        "滹，水厓也。",
+        "滸或作滹，谓水边。"
+      ],
+      "traditional_char": "滹"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "前漢下摩侯滹毒泥"
+      ],
+      "traditional_char": "滹"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "‘滹’为形声字，从水，胡声，表示与水有关，原指水边。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "河流往往得名于其地理特征，由‘水边’引申为具体的河名。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由地理名词转为用作姓氏。"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "液体里下沉的杂质，渣子，沉淀物",
+      "examples": [
+        "渣滓",
+        "油滓",
+        "脉不粘肤，食不留滓。",
+        "滓方：以集诸滓，制如涤方，受五升。"
+      ],
+      "traditional_char": "滓"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "污垢，肮脏之物，污黑",
+      "examples": [
+        "垢滓",
+        "滓秽",
+        "太空无片滓"
+      ],
+      "traditional_char": "滓"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "指思想、感情等的污秽、低贱",
+      "examples": [
+        "瑩情无余滓，拂衣释尘务。",
+        "年十岁求学于里人，遂尽里人之情已之，滓十去其五六矣。"
+      ],
+      "traditional_char": "滓"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "污染，沾污，玷污",
+      "examples": [
+        "血滓太阿铓，看腥污髑髅囊。",
+        "皭然泥而不滓者。",
+        "滓秽太清"
+      ],
+      "traditional_char": "滓"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "用作“汁”，液体（主要为方言或古文用法）",
+      "examples": [
+        "目滓流落拭卖干"
+      ],
+      "traditional_char": "滓"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，宰声，表示液体（渣滓、沉淀）的意思"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由具体的液体渣子引申为广义的污垢、脏物"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "将液体渣子、污浊之意比喻为人思想感情上的污秽、低贱"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "conversion",
+      "note": "由名词污垢转为动词‘污染、玷污’"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "用作‘汁’的通假字，属声转用法"
+    }
+  ]
+}

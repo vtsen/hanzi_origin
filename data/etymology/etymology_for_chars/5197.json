@@ -1,0 +1,85 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "牛角或羊角等动物的角。",
+      "examples": [
+        "牛犄角",
+        "大牛前行角雙犄"
+      ],
+      "traditional_char": "犄"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "棱角，器物的角部位。",
+      "examples": [
+        "桌子犄角儿"
+      ],
+      "traditional_char": "犄"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "角落，隐蔽的小地方。",
+      "examples": [
+        "墙犄角儿",
+        "眼犄角儿"
+      ],
+      "traditional_char": "犄"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "牵制，对抗使不得自由行动。",
+      "examples": [
+        "犄角之势",
+        "步队犄之，敌益蹙，仓皇溃走。"
+      ],
+      "traditional_char": "犄"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "牛角或羊角对向的样子。",
+      "examples": [
+        "犄角子（亦作“犄角”。墙边角落）"
+      ],
+      "traditional_char": "犄"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从牛（义符），奇声。原义为牛等动物角。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由动物角形状引申指器物的棱角。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由角的外形比喻为物体或空间的角落。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由角的对立、夹击之势引申为牵制、对抗。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "描述牛角相对的状态，表示角对向的样子。"
+    }
+  ]
+}

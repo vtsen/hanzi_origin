@@ -1,0 +1,75 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "草木茂盛、繁密的样子",
+      "examples": [
+        "蓊，蓊郁，草木盛貌。——《广韵》",
+        "蓊茸萧瑟。——《文选·左思·吴都赋》",
+        "鬱蓊薆薱。——《文選•張衡〈西京賦〉》",
+        "蓊蔼（形容枝叶茂密多荫）"
+      ],
+      "traditional_char": "蓊"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "蒜、韭菜、油菜等植物生花的茎（薹）",
+      "examples": [
+        "蓊，薹也。——《广雅》",
+        "今世通谓草心抽茎作华者为薹矣。"
+      ],
+      "traditional_char": "蓊"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "草名，可用于染黄",
+      "examples": [
+        "草名，可染黄。——《集韵》",
+        "艸名，博雅蓊薹也。",
+        "可染黄。"
+      ],
+      "traditional_char": "蓊"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "聚集、密集的样子",
+      "examples": [
+        "蓊然聚貌。——《文选·高唐赋》",
+        "蓊湛湛而弗止。",
+        "或蓊若雲逗。——唐·韓愈《南山詩》"
+      ],
+      "traditional_char": "蓊"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，“艹”表意，指草木；“翁”表音，本义指草木茂盛。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由草木繁茂引申为聚集密集的样子，两者都指事物繁盛。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由草木繁茂引申为草抽茎开花形态，指薹。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_narrowing",
+      "note": "由泛指草木茂盛转用于特定一种可染色的草。"
+    }
+  ]
+}

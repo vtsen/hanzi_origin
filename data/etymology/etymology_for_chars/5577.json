@@ -1,0 +1,44 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "挡住渣滓，把液体轻轻倒出。",
+      "examples": [
+        "把汤滗出来。",
+        "壶里的茶水滗干了。"
+      ],
+      "traditional_char": "滗"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "挡住渣滓，把液体倒出。（同“滗”，为异体字）",
+      "examples": [
+        "去汁曰潷。",
+        "把药熬剩半罐儿了，就潷出来。"
+      ],
+      "traditional_char": "潷"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“滗”形声字，从水，笔声，意为将液体分离。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "“潷”为异体，形声字，从水，笔声，表示去汁。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "conversion",
+      "note": "“滗”为“潷”的简化字，用法和含义相同，现代多用简化字。"
+    }
+  ]
+}

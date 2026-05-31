@@ -1,0 +1,42 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "“猪猡”，方言中对猪的称呼。",
+      "examples": [
+        "他家养了三头猪猡。"
+      ],
+      "traditional_char": "猡"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "玀，见“玀玀”，古籍指一种动物，或借指野猪。",
+      "examples": [
+        "玀玀之类，形大而憨。"
+      ],
+      "traditional_char": "玀"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“猡”为形声字，从犭表示动物，罗作声旁，原指猪猡。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "“玀”形声，从犬，罗声，古书用以指大型野生动物，多认为指野猪。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_narrowing",
+      "note": "由古指大型野兽、野猪的“玀”语义转化为方言专指“猪”之用，主要见于吴地方言。"
+    }
+  ]
+}

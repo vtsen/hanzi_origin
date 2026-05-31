@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "蟛蜞，螃蟹的一种，体小呈方形，淡红色，常穴居海边或江河泥岸。",
+      "examples": [
+        "河边的泥岸上有许多蟛蜞。",
+        "蟛蜞对农作物有害。"
+      ],
+      "traditional_char": "蟛"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "小蟹的总称。",
+      "examples": [
+        "蟛蚎",
+        "蟛蚎为小蟹之类。"
+      ],
+      "traditional_char": "蟛"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "形声字，从虫，彭声。本义为小蟹属类，带虫表意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_narrowing",
+      "note": "从泛指小蟹发展为专指蟛蜞这一类特定的小螃蟹。"
+    }
+  ]
+}

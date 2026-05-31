@@ -1,0 +1,57 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "interjection",
+      "meaning": "表示感叹、悲痛、叹息或惊异之声，相当于“唉”或“啊”",
+      "examples": [
+        "噫！微斯人，吾谁与归。",
+        "噫！天丧予！",
+        "噫！那里来的这位太太？"
+      ],
+      "traditional_char": "噫"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "呼气；胃里的气体从口中出来发声，即打嗝",
+      "examples": [
+        "不敢噦噫、嚏咳。",
+        "脾善噫，脾不和，则食息迫逆于胃口而为噫也。"
+      ],
+      "traditional_char": "噫"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "conjunction",
+      "meaning": "表示转折，相当于“抑”或“或者”",
+      "examples": [
+        "噫，语辞。通作抑。",
+        "噫亦要存亡吉凶，則居可知矣。",
+        "噫可以進乎？"
+      ],
+      "traditional_char": "噫"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "形声字，从口，意声，本义为呼气、打嗝。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "metaphor",
+      "note": "由“呼气、发声”引申为发出感叹、悲痛或惊异的声音用于叹词，见《论语》《岳阳楼记》等。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "grammaticalization",
+      "note": "动词表达“呼气”声音演变为连词、语气词，用作转折或语助。通“抑”，见《集韵》《易》。"
+    }
+  ]
+}

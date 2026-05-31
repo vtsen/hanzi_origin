@@ -1,0 +1,105 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "地下室；地窖。",
+      "examples": [
+        "窨，地室也。——《说文》",
+        "舊大樓還帶地下室，可並不是地窨子。——朱自清《三家書店》",
+        "蚕室，窨室也。——《后汉书·光武纪下》注"
+      ],
+      "traditional_char": "窨"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "藏在地窨里；窖藏；深藏。",
+      "examples": [
+        "令眾香蒸過，入磁器，有油者，地窖窨一月。——宋·張邦基《墨莊漫錄》",
+        "新詩窗下吟，濁酒床頭窨。——元·汪元亨",
+        "趁墟窨酒擔，跳月竹枝聲。——清·赵翼《送人赴黔》"
+      ],
+      "traditional_char": "窨"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "思忖；揣度。",
+      "examples": [
+        "曾窨約，細評薄，將業兵功非小可。——元·馬謙齋《柳營曲》",
+        "窨忖（思忖；揣度）；窨附（思忖；揣度）"
+      ],
+      "traditional_char": "窨"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "封閉。",
+      "examples": [
+        "凡燒變塼瓦等之制，素白窯前一日裝窯，次日下火燒變，又次日土木窨，更三日開。——宋·李誡《營造法式》",
+        "窨口（闭嘴）"
+      ],
+      "traditional_char": "窨"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "深黑貌。",
+      "examples": [
+        "窨𥥍，黑也。——《集韻》",
+        "伊滛切 地室 又於金切 窨𥥛黑也"
+      ],
+      "traditional_char": "窨"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "熏。把花等放在茶叶中，使茶叶染上花香。",
+      "examples": [
+        "在喉乾欲裂的時候，即使給他龍井芽茶，珠蘭窨片，恐怕他喝起來也未必覺得和熱水有什麼大區別罷。——魯迅《准風月談·喝茶》",
+        "窨茶葉"
+      ],
+      "traditional_char": "窨"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从穴，音声，原指地窖。‘穴’表示地下、窖藏义，‘音’表音。六书学说主流观点。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由表示地窖的名词，引申为窖藏、深藏之动作。中古、近代汉语见用。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "从藏于地窖引申为内心思忖、深藏心中，元明文献可见。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "由‘藏’义引生为‘封闭’（使不能开启），宋代《營造法式》。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_shift",
+      "note": "‘深’由物理空间转为形容颜色深黑，声近义移，见《集韻》。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "将茶叶曝藏（窖藏）引申为‘茶叶熏香’工序，近现代用法。"
+    }
+  ]
+}

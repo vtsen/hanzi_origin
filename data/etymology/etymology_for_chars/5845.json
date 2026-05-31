@@ -1,0 +1,53 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "系在帽子、脖子等处的带子或穗状装饰，用于束缚或装饰。",
+      "examples": [
+        "帽缨子",
+        "红缨枪"
+      ],
+      "traditional_char": "纓"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "像缨子一样细长成穗的东西，尤指植物的细长根须或须状物。",
+      "examples": [
+        "萝卜缨子"
+      ],
+      "traditional_char": "纓"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "带子，绳子。",
+      "examples": [
+        "长缨在手"
+      ],
+      "traditional_char": "纓"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从糸，婴声，本义为用丝线做成的帽带或系带。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由具体的帽带、穗状装饰引申为类似形状的植物须或须状物。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由原指帽带、穗带扩展泛指各种带子和绳索。"
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "拍，拂过；用手挥动或轻轻拍击。",
+      "examples": [
+        "抨，掸也。——《说文》",
+        "翅抨流而起沫，翼鼓浪而成珠。——《梁书》"
+      ],
+      "traditional_char": "抨"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "弹响，弹击（多指弓弦等器具）。",
+      "examples": [
+        "抨，弹也。——《说文》",
+        "箭出方惊抨，连箱载已实。——韩愈、孟郊《城南联句》",
+        "长戈莫舂，强弩莫抨。——李贺《猛虎行》"
+      ],
+      "traditional_char": "抨"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "弹劾，检举罪状，对他人进行攻击或指责。",
+      "examples": [
+        "罪败而复抨弹之。——《前汉·杜周传赞》",
+        "其意不乐弹抨事。——《唐书·阳嶠传》",
+        "抨击驳斥",
+        "抨弹"
+      ],
+      "traditional_char": "抨"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "撞击，冲击。",
+      "examples": [
+        "一抨将矿子灰抨起，迷失二目。——《小五义》"
+      ],
+      "traditional_char": "抨"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "搅拌，击打搅动。",
+      "examples": [
+        "起手抨之，令杷子常至甕底。——贾思勰《齐民要术》",
+        "牛乳抨酥瀹茗芽。——陆游《戏咏山家食品》"
+      ],
+      "traditional_char": "抨"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "使，令；派遣、驱使。",
+      "examples": [
+        "抨，俾也。——《尔雅·释诂》",
+        "抨雄鴆以作媒兮，何百离而曾不壹耦！——《汉书·扬雄传上》"
+      ],
+      "traditional_char": "抨"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "跟随，随从。",
+      "examples": [
+        "抨，从也。——《尔雅·释诂》"
+      ],
+      "traditional_char": "抨"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从手，平声。‘手’表意，‘平’表声，本义为拍、拂过。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由手拍、拂动作类比为弹击弓弦等弹性物体，使用于声响。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由弹击动作引申为弹劾、攻击他人过失，见于汉代官场用语。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由拍、拂动作泛化为物体的撞击、冲击。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由拍拂动作发展为搅打、搅动。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "semantic_shift",
+      "note": "由手的驱动作引申为‘使’、‘令’，古文常见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "semantic_extension",
+      "note": "由手随动作引申为‘跟随’、‘随从’之意。"
+    }
+  ]
+}

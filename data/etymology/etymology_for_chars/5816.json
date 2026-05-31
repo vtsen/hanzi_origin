@@ -1,0 +1,53 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "睡醒，从睡眠中醒来",
+      "examples": [
+        "七日而寤",
+        "寤寐以求"
+      ],
+      "traditional_char": "寤"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "理解，明白",
+      "examples": [
+        "幡然寤悟"
+      ],
+      "traditional_char": "寤"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "违逆，抵触",
+      "examples": [
+        "言行相寤"
+      ],
+      "traditional_char": "寤"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从宀，吾声。本义指醒来，与‘觉’相近。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由‘睡醒’引申为‘觉悟、理解’，古汉语常见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "由‘寤’假借为‘牾’，用做‘违逆’的意义，见于古文。"
+    }
+  ]
+}

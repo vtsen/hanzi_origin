@@ -1,0 +1,73 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "河流名，指滦河，位于中国河北省东北部，古名濡水。",
+      "examples": [
+        "滦河发源于沽源县，上游北流入内蒙，折向东南流入河北省。",
+        "皇帝建上都于滦水之阳。"
+      ],
+      "traditional_char": "灤"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "以滦河命名的州名，历史地名。",
+      "examples": [
+        "五代的契丹分平州地置滦州，治所在义丰。",
+        "直隶永平府滦州，商孤竹国，汉海阳，五代滦州。"
+      ],
+      "traditional_char": "灤"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "以滦河命名的县名，历史地名。",
+      "examples": [
+        "河北省东部滦县，京沈铁路和滦河经过县内。",
+        "契丹置滦州，治所在义丰。1913年改为义丰县。"
+      ],
+      "traditional_char": "灤"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "other",
+      "meaning": "“灤”的简化字。",
+      "examples": [],
+      "traditional_char": "滦"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "灤为形声字，‘氵’表水义，‘鸞’为声旁，最初指河名。"
+    },
+    {
+      "formation_type": "simple_indicative",
+      "original_sense_index": 3,
+      "note": "滦为灤的简化字，‘氵’表水，‘亦简作兰’，依简化方案成字。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "以流经的河流名称转指所设的行政区—滦州，历史五代时期形成。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由河流名转为流域内县名，属地名引申。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "analogy",
+      "note": "现代简化字滦直接取代传统灤，用法与意义对应，无语义演变。"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "扬子鳄，一种生活在中国长江流域的爬行动物，背尾有鳞甲，皮可制鼓。",
+      "examples": [
+        "鱼鳖鼋鼍。",
+        "是月也，令渔师伐蛟取鼍。",
+        "江汉里的鱼鳖黿鼍之多，那里都赛不过。"
+      ],
+      "traditional_char": "鼉"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "“鼉”的简化字，用于代表同一种扬子鳄。",
+      "examples": [
+        "鼍鼓（鼍皮制成的鼓）",
+        "鼍龙（扬子鳄的别称）"
+      ],
+      "traditional_char": "鼍"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘鼉’从黽（表义，水生爬虫类），单声（表音），本义即扬子鳄。"
+    },
+    {
+      "formation_type": "simple_indicative",
+      "original_sense_index": 1,
+      "note": "‘鼍’为‘鼉’的简化字，简化自‘鼉’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "conversion",
+      "note": "简化字形对应，‘鼉’简化为‘鼍’；含义完全一致。"
+    }
+  ]
+}

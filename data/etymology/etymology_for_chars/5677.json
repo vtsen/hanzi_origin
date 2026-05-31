@@ -1,0 +1,114 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "小碎块、碎屑，如冰碴、玻璃碴",
+      "examples": [
+        "冰碴",
+        "玻璃碴"
+      ],
+      "traditional_char": "碴"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "器物破口上的残缺部分",
+      "examples": [
+        "杯子上有个新碴"
+      ],
+      "traditional_char": "碴"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "皮肉被碎片划破",
+      "examples": [
+        "碎玻璃碴了手"
+      ],
+      "traditional_char": "碴"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "嫌隙，引起争执的事由",
+      "examples": [
+        "她常常要找阿璉的碴"
+      ],
+      "traditional_char": "碴"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "指别人提到的事或刚说完的话",
+      "examples": [
+        "遇着她寻气的时候不搭她的碴"
+      ],
+      "traditional_char": "碴"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "（比喻）榫头",
+      "examples": [
+        "可是和实际的农林生产接不上碴"
+      ],
+      "traditional_char": "碴"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "剃后残余或复生的短毛发，胡子丛生的样子",
+      "examples": [
+        "你看他一脸的络腮胡子碴，像个十八九岁的人吗？",
+        "胡子拉碴"
+      ],
+      "traditional_char": "碴"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘石’表义（与石头、碎块相关），‘查’表音，最初表示小碎块。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从小碎块泛指到器物破口的残缺部分，语义扩展。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由小碎块引申为被碎片划破的动作。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由物理上的碎块引申为人与人之间的嫌隙或争执。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "从争执事由引申为谈话时的话头、话题，语义转移。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "metaphor",
+      "note": "碎块之意比喻为连接用的榫头。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "metaphor",
+      "note": "形容毛发稀疏、短小如碎块，引申为胡子丛生的样子。"
+    }
+  ]
+}

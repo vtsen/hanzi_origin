@@ -1,0 +1,102 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "盛大，兴盛，丰盛的样子。",
+      "examples": [
+        "奭，盛也。——《说文》",
+        "尔百姓其亦有安处，在彼宜在天命，囗及恻兴乱予保奭其介。——《逸周书》"
+      ],
+      "traditional_char": "奭"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "赤色，红色。",
+      "examples": [
+        "路车有奭。——《诗·小雅·采芑》",
+        "韎韐有奭，以作六师。——《诗·小雅·瞻彼洛矣》"
+      ],
+      "traditional_char": "奭"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "消散，消失的样子。",
+      "examples": [
+        "奭然四解。——《庄子·秋水》",
+        "帝奭然欲赦之。——《新唐书·崔群传》"
+      ],
+      "traditional_char": "奭"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "愤怒，恼怒。",
+      "examples": [
+        "有如两宫奭将军，则妻子无类矣。——《汉书·窦婴传》",
+        "奭，怒貌也。——颜师古注"
+      ],
+      "traditional_char": "奭"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "饮酒作乐，极度欢乐。",
+      "examples": [
+        "農不能喜酣奭，大臣不為荒飽。——《商君书·墾令》",
+        "奭， 又飲酒盛樂也。——《字彙補》"
+      ],
+      "traditional_char": "奭"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [
+        "汉有奭伟，因避汉元帝讳，改姓盛。——《正字通》"
+      ],
+      "traditional_char": "奭"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "会意兼形声字，从大表示盛大，从皕表示数量多，皕为声符，原意为盛大。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由盛大、浓烈引申为颜色浓烈的红色，古诗常用。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "由盛大、极盛之状转为极致以至于消散，述状态的转变过程。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由盛大引申为欢乐饮酒的盛况，用于形容宴饮热烈。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "盛大引申为强烈的情绪，转指愤怒。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "function_word",
+      "note": "作为姓氏来源于原意及古人名用字。"
+    }
+  ]
+}

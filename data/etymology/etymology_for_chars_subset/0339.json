@@ -1,0 +1,230 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "动词",
+      "meaning": "放箭，射出（物体）",
+      "examples": [
+        "百发百中",
+        "弦而发之"
+      ],
+      "traditional_char": "發"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "动词",
+      "meaning": "交付，送出",
+      "examples": [
+        "分发",
+        "发放",
+        "批发"
+      ],
+      "traditional_char": "發"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "动词",
+      "meaning": "表达，阐述",
+      "examples": [
+        "发表",
+        "发凡"
+      ],
+      "traditional_char": "發"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "动词",
+      "meaning": "散开，分散",
+      "examples": [
+        "发散"
+      ],
+      "traditional_char": "發"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "动词",
+      "meaning": "开展，扩展",
+      "examples": [
+        "发展",
+        "发扬"
+      ],
+      "traditional_char": "發"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "动词",
+      "meaning": "打开，揭露",
+      "examples": [
+        "发现",
+        "发掘"
+      ],
+      "traditional_char": "發"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "动词",
+      "meaning": "产生，出现",
+      "examples": [
+        "发生",
+        "发愤"
+      ],
+      "traditional_char": "發"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "动词",
+      "meaning": "食物发酵或澎涨",
+      "examples": [
+        "发面"
+      ],
+      "traditional_char": "發"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "动词",
+      "meaning": "显现，显出",
+      "examples": [
+        "发病",
+        "发抖",
+        "发憷"
+      ],
+      "traditional_char": "發"
+    },
+    {
+      "index": 9,
+      "part_of_speech": "动词",
+      "meaning": "开始动作",
+      "examples": [
+        "发动"
+      ],
+      "traditional_char": "發"
+    },
+    {
+      "index": 10,
+      "part_of_speech": "动词",
+      "meaning": "引起，开启",
+      "examples": [
+        "启发",
+        "发人深省"
+      ],
+      "traditional_char": "發"
+    },
+    {
+      "index": 11,
+      "part_of_speech": "动词",
+      "meaning": "公布，宣布",
+      "examples": [
+        "发布",
+        "发号施令"
+      ],
+      "traditional_char": "發"
+    },
+    {
+      "index": 12,
+      "part_of_speech": "量词",
+      "meaning": "用于枪弹、炮弹",
+      "examples": [
+        "开一发枪",
+        "发射三发炮弹"
+      ],
+      "traditional_char": "發"
+    },
+    {
+      "index": 13,
+      "part_of_speech": "名词",
+      "meaning": "人的前额、双耳和头颈部以上生长的毛发",
+      "examples": [
+        "头发",
+        "鬓发",
+        "怒发冲冠"
+      ],
+      "traditional_char": "髮"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘發’为形声字，发（殳声）表示放箭，‘殳’指兵器，声符‘癶’。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 13,
+      "note": "‘髮’为形声字，从‘髟’（表头发），‘發’声，最初表示头发。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由‘放箭’引申为‘送出’、‘交付’，比喻如箭离弦。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "从‘射’引申出‘发表’、‘阐述’，有“发言如箭”的喻义。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由集中射出引申为分散、散开。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由物体放射扩展为事物扩展、发展。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "metaphor",
+      "note": "由‘射’或‘放开’引申为‘打开’、‘揭露’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "semantic_extension",
+      "note": "由‘射出’进一步引申为‘产生’、‘出现’。"
+    },
+    {
+      "source_index": 6,
+      "target_index": 7,
+      "evolution_type": "metaphor",
+      "note": "‘出现’引申为发酵后食物膨胀、显现。"
+    },
+    {
+      "source_index": 6,
+      "target_index": 8,
+      "evolution_type": "semantic_extension",
+      "note": "‘出现’‘显出’意义相关，直接引申。"
+    },
+    {
+      "source_index": 6,
+      "target_index": 9,
+      "evolution_type": "semantic_extension",
+      "note": "由‘产生’引申为‘开始动作’。"
+    },
+    {
+      "source_index": 9,
+      "target_index": 10,
+      "evolution_type": "semantic_extension",
+      "note": "‘开始动作’进而引发、开启事物。"
+    },
+    {
+      "source_index": 10,
+      "target_index": 11,
+      "evolution_type": "semantic_extension",
+      "note": "由‘开启’引申为‘公布、宣布’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 12,
+      "evolution_type": "function_word",
+      "note": "‘发’作量词表示一次性的射击，来源清楚。"
+    }
+  ]
+}

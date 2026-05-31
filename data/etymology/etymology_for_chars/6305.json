@@ -1,0 +1,42 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "毁坏、崩毁（尤指城墙、建筑物等）；破坏。",
+      "examples": [
+        "隳名城。",
+        "一夫作难而七庙隳。",
+        "隳城千丈。",
+        "清河溢，隳城千丈。",
+        "父亲何故自隳志气耶？"
+      ],
+      "traditional_char": "隳"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "懒惰，怠惰。",
+      "examples": [
+        "是以贤者懈怠而不劝，有功者隳而简其业，此亡国之风也。",
+        "隳惰（懈怠）；隳慢（怠惰；怠慢）"
+      ],
+      "traditional_char": "隳"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从‘阜’表意（与土、地、城相关），‘隋’为声符，表示毁坏城墙、建筑等义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_shift",
+      "note": "‘毁坏’义抽象化为‘毁坏志气’、‘懒惰松懈’之义，古典文献有此用法。"
+    }
+  ]
+}

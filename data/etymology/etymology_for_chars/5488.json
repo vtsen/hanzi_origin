@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "用熔化的金属堵塞空隙。",
+      "examples": [
+        "锢漏",
+        "锢锅"
+      ],
+      "traditional_char": "錮"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "禁闭、牢固封闭。",
+      "examples": [
+        "禁锢",
+        "锢蔽"
+      ],
+      "traditional_char": "錮"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "久治不愈的病，古同“痼”。",
+      "examples": [
+        "锢疾"
+      ],
+      "traditional_char": "錮"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从金，固声。本义为用金属堵塞空隙。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由具体物理堵塞义引申为抽象的禁闭、封闭。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "与“痼”通用，义指久治不愈的病，语义演变机制不明。"
+    }
+  ]
+}

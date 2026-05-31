@@ -1,0 +1,53 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "忧虑恐惧，惶恐不安",
+      "examples": [
+        "人皆惴恐。",
+        "惴惴其栗。",
+        "小恐惴惴。",
+        "自返而不缩，虽褐宽博，吾不惴焉。"
+      ],
+      "traditional_char": "惴"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "惴耎：一种无足的小虫名",
+      "examples": [
+        "莊子：惴耎之虫"
+      ],
+      "traditional_char": "惴"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "性格多有阻碍（指性格拘谨、胆小）",
+      "examples": [],
+      "traditional_char": "惴"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从心，耑声。本义为忧惧、恐惧。《说文解字》明确记载。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "从对外事物的恐惧引申到内在性格上的拘谨、胆小。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "以惶恐的小虫形象命名，出自对恐惧、畏缩动物的类比。"
+    }
+  ]
+}

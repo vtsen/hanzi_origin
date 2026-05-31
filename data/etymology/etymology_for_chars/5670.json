@@ -1,0 +1,129 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "架在水上的横木，即独木桥。",
+      "examples": [
+        "榷，水榷横木，所以渡者也。《说文》",
+        "独木之桥曰榷。《初学记》"
+      ],
+      "traditional_char": "榷"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "税，尤其指专卖商品的税。",
+      "examples": [
+        "其擅加杂榷，率一切宜停。《文献通考》",
+        "荆州榷税，视他处最少。"
+      ],
+      "traditional_char": "榷"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "专营，专卖（国家或机关对某一商品实行垄断）",
+      "examples": [
+        "初榷酒酤。《汉书·武帝纪》",
+        "榷盐，糶与商人。"
+      ],
+      "traditional_char": "榷"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "征收、征税。",
+      "examples": [
+        "榷六路之饶，转江淮之粟，而用不屈。",
+        "榷收（征收）"
+      ],
+      "traditional_char": "榷"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "所征收之税。",
+      "examples": [
+        "其擅加杂榷，率一切宜停。《文献通考》"
+      ],
+      "traditional_char": "榷"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "商讨，研究。",
+      "examples": [
+        "商榷古今，间以嘲谑，听者忘疲。《北史·崔孝芬传》"
+      ],
+      "traditional_char": "榷"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "adjective",
+      "meaning": "确实，真实。",
+      "examples": [
+        "乐天知命，榷乎其不可拔也。《玄儒先生娄寿碑》"
+      ],
+      "traditional_char": "榷"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "noun",
+      "meaning": "木名，枳树，有实如柚。",
+      "examples": [],
+      "traditional_char": "榷"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从木，寉声，表示与木有关，原指用于渡水的独木桥。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "以独木桥供人通过、取利为喻，转指专卖权的独占与通行权。汉代起见"
+    },
+    {
+      "source_index": 2,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由专营引申为对专卖商品征收的税"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由对商品专卖引申为泛指征收、征税"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "征税动作为所征之税的实体"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "metaphor",
+      "note": "由过桥取意，引为“交流、商讨”的比喻"
+    },
+    {
+      "source_index": 0,
+      "target_index": 7,
+      "evolution_type": "unknown",
+      "note": "原义相关，‘木名’义来源不详，或为古名混用"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "unknown",
+      "note": "“确实”义通“确”，疑为音近假借"
+    }
+  ]
+}

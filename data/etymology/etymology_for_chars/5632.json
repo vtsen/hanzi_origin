@@ -1,0 +1,86 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "墙壁上的涂饰",
+      "examples": [
+        "有人於此，毀瓦畫墁。（《孟子•滕文公下》）",
+        "墁，牆壁之飾也。（朱熹集注）"
+      ],
+      "traditional_char": "墁"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "涂抹；粉饰（用于墙壁、地面等）",
+      "examples": [
+        "墁治壁，悉書前任人名氏。（唐·韓愈《藍田縣丞廳壁記》）",
+        "附而墁之，增其屋木。（宋·陳師道）"
+      ],
+      "traditional_char": "墁"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "泥墙的工具，即抹子",
+      "examples": [
+        "墁土覆或作墁。",
+        "同“鏝”、“槾”。"
+      ],
+      "traditional_char": "墁"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "用砖石等铺饰地面",
+      "examples": [
+        "正院裏墁着十字甬路，四角還有新種的四棵小松樹。（《兒女英雄傳》）",
+        "院子裏方磚墁地。（老舍《四世同堂》）"
+      ],
+      "traditional_char": "墁"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "平缓，坡度小",
+      "examples": [
+        "大部分像土崗似的，墁平，沒有懸崖峭壁。（陶爾夫《伐木者的旅行》）"
+      ],
+      "traditional_char": "墁"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从土，曼声，表示墙壁上的涂饰，与土工相关。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "conversion",
+      "note": "由名词作墙壁饰面之义，转为动词指代涂抹的动作。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由动作转指其所用工具（抹子），见于部分文献与通假用法。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由涂饰墙壁，扩展至铺饰于地面。两者皆为表面处理行为。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "由铺平之意比喻为地势平缓。"
+    }
+  ]
+}

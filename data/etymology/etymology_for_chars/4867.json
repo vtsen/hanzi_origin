@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "夹住金属器物的钳子，如铁钳，用于冶铸。",
+      "examples": [
+        "火铗",
+        "铁铗子",
+        "可以持冶器鑄熔者也。"
+      ],
+      "traditional_char": "鋏"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "剑；带有比喻或借代成分时，泛指剑。",
+      "examples": [
+        "带长铗之陆离兮。",
+        "长铗归来乎!"
+      ],
+      "traditional_char": "鋏"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "剑柄。",
+      "examples": [
+        "后有顷，复弹其剑铗。",
+        "鋏，劍把。"
+      ],
+      "traditional_char": "鋏"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "通“夾”，筷子。",
+      "examples": [
+        "粉一鋏，黍數粒，東瓜湯一甌而已。"
+      ],
+      "traditional_char": "鋏"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从金，夾声，表示用于夹持金属的工具。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "剑因形似夹子（有两刃合持），遂用铗指代剑，战国时期已有。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_narrowing",
+      "note": "由比喻剑的发展中，进一步特指剑柄或剑把。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "‘鋏’借为‘夾’，表示箸（筷子），多见于文献用字混通。"
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "青黑色、苍灰色。",
+      "examples": [
+        "缟衣綦巾。",
+        "綦文鹿子皮弁。"
+      ],
+      "traditional_char": "綦"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "鞋带；鞋上的系带、饰带。",
+      "examples": [
+        "夏葛履…，组綦系于踵。",
+        "屨，著綦。"
+      ],
+      "traditional_char": "綦"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "足迹、脚印。",
+      "examples": [
+        "履欃槍以為綦。"
+      ],
+      "traditional_char": "綦"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adverb",
+      "meaning": "极，非常，很。",
+      "examples": [
+        "言之綦详。",
+        "綦难。",
+        "目欲綦色，耳欲綦声。"
+      ],
+      "traditional_char": "綦"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "标准，基准。",
+      "examples": [
+        "是綦定也。"
+      ],
+      "traditional_char": "綦"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "顶点，极点，终极。",
+      "examples": [
+        "綦大而王。",
+        "綦小而亡。",
+        "目欲綦色，耳欲綦声。"
+      ],
+      "traditional_char": "綦"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "姓。",
+      "examples": [
+        "綦公（复姓）；後漢有將軍綦俊。"
+      ],
+      "traditional_char": "綦"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从糸（表示与丝相关），其声，原指帛的苍灰色。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由丝织品颜色引申为鞋带，因鞋带多为丝编制品。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由鞋带（与鞋密切相关）引申为足印。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由表示色彩之极，转为副词“极，非常”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由色彩或东西的极致，引申为“标准，基准”之义。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 5,
+      "evolution_type": "metaphor",
+      "note": "“标准”进一步抽象为“顶点、极点、终极”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "conversion",
+      "note": "颜色或器物名转为姓氏用法，属名词转换。"
+    }
+  ]
+}

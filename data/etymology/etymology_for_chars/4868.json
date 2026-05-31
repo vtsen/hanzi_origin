@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "铜质圆形的打击乐器，比钹大。",
+      "examples": [
+        "奏铙钹",
+        "大铙齐鸣"
+      ],
+      "traditional_char": "鐃"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "古代军中乐器，形状像铃铛，但没有中间的锤。",
+      "examples": [
+        "军中摇铙为号",
+        "执铙为令"
+      ],
+      "traditional_char": "鐃"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘鐃’形声字，从金，尧声，表示一种青铜打击乐器。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_narrowing",
+      "note": "由一般乐器义专指古代军用的特殊铙。"
+    }
+  ]
+}

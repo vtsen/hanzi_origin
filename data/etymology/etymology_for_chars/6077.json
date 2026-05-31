@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "雨、雪、雾、烟很盛、浓密、纷飞的样子",
+      "examples": [
+        "雨雪其霏。《诗经·北风》",
+        "烟霏云敛。"
+      ],
+      "traditional_char": "霏"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "弥漫的云气、雾气",
+      "examples": [
+        "若夫日出而林霏开，云归而岩穴暝。《醉翁亭记》",
+        "林壑敛暝色，云霞收夕霏。"
+      ],
+      "traditional_char": "霏"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "飘洒，飞扬，弥漫，笼罩",
+      "examples": [
+        "乘气以霏。",
+        "风前天棘舞青丝，湍浪瀉，万珠霏。"
+      ],
+      "traditional_char": "霏"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从‘雨’，‘非’声，表示雨雪浓密纷飞的样子。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由形容云雾浓密扩展为指称具体的云气雾气，语义名词化，见两汉至宋文献。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "conversion",
+      "note": "由形容词向动词转化，表示飘散、弥漫之动作，早见南北朝以后文献。"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "水分失去而干枯",
+      "examples": [
+        "池水涸竭"
+      ],
+      "traditional_char": "涸"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "指干涸的水域或状态",
+      "examples": [
+        "涸泽"
+      ],
+      "traditional_char": "涸"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "other",
+      "meaning": "比喻处境极为困难，需要急救的人（出自成语“涸辙之鲋”）",
+      "examples": [
+        "涸辙之鲋"
+      ],
+      "traditional_char": "涸"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，固声，表示因失去水分而干枯。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由动作延伸指干涸的水域或状态。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "用干涸地面上的鲋鱼比喻陷入困境的人，出处《庄子》。"
+    }
+  ]
+}

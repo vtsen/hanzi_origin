@@ -1,0 +1,62 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "鸟类整理自己的羽毛。",
+      "examples": [
+        "唰，鸟治毛也。——《集韵》"
+      ],
+      "traditional_char": "唰"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "onomatopoeia",
+      "meaning": "快速擦过或滑过的声音，也指下雨等声音。",
+      "examples": [
+        "唰一声，早变了个血脸的人。——《儿女英雄传》",
+        "唰唰",
+        "唰啦啦"
+      ],
+      "traditional_char": "唰"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "形容动作非常迅速。",
+      "examples": [
+        "唰地一下跳上墙。",
+        "脸上唰的一下绯红了。——《上海的早晨》"
+      ],
+      "traditional_char": "唰"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "小尝。",
+      "examples": [],
+      "traditional_char": "唰"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从口，刷声；‘鸟理毛’为本义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由鸟理毛发出的声音，引申为‘唰唰’等快速擦过的声响。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由声音表现进一步形容动作的迅速。"
+    }
+  ]
+}

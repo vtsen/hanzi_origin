@@ -1,0 +1,53 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "黄檗树，一种芸香科落叶乔木，木材坚硬，茎可制黄色染料，树皮入药。",
+      "examples": [
+        "桂椒木蘭，檗離朱楊。",
+        "古人寫書皆用黃紙，以檗染之。"
+      ],
+      "traditional_char": "檗"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "同“蘗”，也用于指“槃”（古书中又音bì，意同‘盘’，但用极罕见）。",
+      "examples": [
+        "檗，槃也。"
+      ],
+      "traditional_char": "檗"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "小檗树，亦可作染料、药用木，与黄檗相似而体形较小。",
+      "examples": [
+        "陶弘景曰：子檗，樹小，狀似石榴，皮黃而苦。"
+      ],
+      "traditional_char": "檗"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从木，辟声，本义即指黄色的树木，即黄檗树。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "以‘檗’泛指体形较小但功能相似的小檗树。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "unknown",
+      "note": "‘檗’假借作‘槃’，但具体语源联系不明，古籍罕用。"
+    }
+  ]
+}

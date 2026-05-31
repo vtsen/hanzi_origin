@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "水名。多指今安徽、江苏等地流入洪泽湖的濉河。",
+      "examples": [
+        "濉、漳、江、汉，楚之望也。——《韩诗外传》",
+        "史项羽击破汉军入谷泗及睢水，伐者二十余万人，水为不流。"
+      ],
+      "traditional_char": "濉"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "水名。在福建省西部称濉江，本名绥江。",
+      "examples": [
+        "濉江，在建宁县治南，本名绥江，以绥成县名。——《读史方舆纪要·福建四》"
+      ],
+      "traditional_char": "濉"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "“睢”的异体字，用作水名（原河南省睢水）。",
+      "examples": [
+        "睢水，首受浚仪县蒗荡渠水，东经临虑县入泗，经沛。",
+        "睢与濉同，旧注泛云水名，非。"
+      ],
+      "traditional_char": "濉"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘濉’为形声字，从水，隹声，表示与水有关的专名，如河流。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "因福建濉江亦命名为‘濉’，用作不同地名水名扩展。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "reanalysis",
+      "note": "‘濉’借作‘睢’的异体，用于原睢水或相关水名。"
+    }
+  ]
+}

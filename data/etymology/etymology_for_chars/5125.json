@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "斜着眼看，斜视。",
+      "examples": [
+        "既含睇兮又宜笑。",
+        "离娄微睇。"
+      ],
+      "traditional_char": "睇"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "看，望，注视。",
+      "examples": [
+        "龍睇大野，虎嘯六合。",
+        "獨上高樓三百尺，憑玉楯，睇層空。"
+      ],
+      "traditional_char": "睇"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "明察。",
+      "examples": [
+        "目睇毫末，心筭無垠。"
+      ],
+      "traditional_char": "睇"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从目，弟声，本义为斜着眼看。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“斜视”引申为一般的“看、望”，用法在南方方言及诗文中常见。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由“看、望”引申为“明察”，比喻目光敏锐、观察入微，多用于书面语。"
+    }
+  ]
+}

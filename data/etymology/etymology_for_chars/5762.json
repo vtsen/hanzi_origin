@@ -1,0 +1,86 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adverb",
+      "meaning": "突然，猝然",
+      "examples": [
+        "颜氏魆地里被他钻进来说这句话，到惊了一跳。——《醒世恒言》",
+        "魆死（猝死）",
+        "魆地（忽然）"
+      ],
+      "traditional_char": "魆"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adverb",
+      "meaning": "程度很深（常形容黑暗），非常黑暗的样子",
+      "examples": [
+        "满屋魆黑，并未点灯。——《脂砚斋重评石头记》",
+        "魆黑（形容非常黑暗的样子）"
+      ],
+      "traditional_char": "魆"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adverb",
+      "meaning": "悄悄地，暗暗地",
+      "examples": [
+        "谁家一俊豪，将奴魆地瞧。——明·叶宪祖《鸾鎞记》",
+        "魆魆地（暗暗地）"
+      ],
+      "traditional_char": "魆"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "詭詐，譎異（罕用，字書義）",
+      "examples": [
+        "【字彙補】許屈切，訓入聲。譎也。"
+      ],
+      "traditional_char": "魆"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "魖（一種神話中的怪異鬼神，本義借用同“魖”）",
+      "examples": [
+        "魆蜮"
+      ],
+      "traditional_char": "魆"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 4,
+      "note": "‘魆’从鬼，旭声，形声字，古作鬼神怪异之义，后引申为黑暗或突然。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 4,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由鬼神怪异，引申为‘譎、詭詐’。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由本义鬼神怪异，引申为形容阴暗、黑暗。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由‘黑暗’引申为‘暗暗地、悄悄地’。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "由‘黑暗’引申为突如其来、突然。"
+    }
+  ]
+}

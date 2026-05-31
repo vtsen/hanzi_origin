@@ -1,0 +1,58 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "年老，多指七十至九十歲的高齡。",
+      "examples": [
+        "老夫耄矣，無能為也。",
+        "八十九十曰耄。",
+        "匪我言耄。",
+        "亦聿既耄。"
+      ],
+      "traditional_char": "耄"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "年老昏亂，指老年時精神不清、思想糊塗。",
+      "examples": [
+        "吾家耄遜于荒。",
+        "耄期倦於勤。",
+        "諺所謂老將至而耄及之者。",
+        "縱欲不戒，匪愚伊耄。"
+      ],
+      "traditional_char": "耄"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "衰疲，年老而體力衰弱。",
+      "examples": [
+        "師耄，諸將無功，獨嗣業被堅數奮，為諸軍冠。"
+      ],
+      "traditional_char": "耄"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形聲字，從『老』表意，『毛』表聲，原指年高之人。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由表示年老引申為年老導致精神昏亂，先秦已有此義。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由年老引申為體力或精神衰疲、衰弱，與年紀相關的身體狀態擴展。"
+    }
+  ]
+}

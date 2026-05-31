@@ -1,0 +1,184 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "禾茎（稻、麦等）中白色柔软的部分，也指瓜果的肉",
+      "examples": [
+        "黍穰積中",
+        "又如：东瓜穰",
+        "色好梨胜颊，穰多栗过拳。"
+      ],
+      "traditional_char": "穰"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "黍稷稻麦等植物的茎秆，泛指草料",
+      "examples": [
+        "烧黍穰。",
+        "她又走出去拿穰柴。",
+        "场上所有穰、谷稖等，并须收贮一处。"
+      ],
+      "traditional_char": "穰"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "饱满的稻粒",
+      "examples": [
+        "凡稻最佳者九穰一秕。",
+        "则六穰四秕者容有之。"
+      ],
+      "traditional_char": "穰"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "庄稼丰收；丰盛",
+      "examples": [
+        "世之有饥穰，天之行也。",
+        "穰岁之秋。",
+        "某为县于此，幸岁大穰。"
+      ],
+      "traditional_char": "穰"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "饱满，充实；充填",
+      "examples": [
+        "性是里面穰肚馅草。",
+        "高抬在衣架上怕吹了颜色，乱穰在包袱中恐剉了折儿。"
+      ],
+      "traditional_char": "穰"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "adjective",
+      "meaning": "盛多，众多，繁盛，兴旺",
+      "examples": [
+        "人稠物穰。",
+        "浩穰。",
+        "汉世之论，自贾谊已繁穰。"
+      ],
+      "traditional_char": "穰"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "中国古代大数名，指万万秭",
+      "examples": [
+        "万万秭曰穰，万万穰曰沟。"
+      ],
+      "traditional_char": "穰"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "verb",
+      "meaning": "祈福；去邪除恶之祭（通“禳”）",
+      "examples": [
+        "见道旁有穰田者。",
+        "穰人（古代替人向神鬼禳祝致福者）。"
+      ],
+      "traditional_char": "穰"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "verb",
+      "meaning": "烦扰，纷乱，排除；排斥（通“攘”）",
+      "examples": [
+        "时益部扰穰。",
+        "又不是公事忙，不由咱心绪穰。"
+      ],
+      "traditional_char": "穰"
+    },
+    {
+      "index": 9,
+      "part_of_speech": "noun",
+      "meaning": "蒿草衣或草制之衣物",
+      "examples": [
+        "衣穰而提贄。"
+      ],
+      "traditional_char": "穰"
+    },
+    {
+      "index": 10,
+      "part_of_speech": "noun",
+      "meaning": "地名，古县名",
+      "examples": [
+        "其秋，复与秦王会穰。"
+      ],
+      "traditional_char": "穰"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从禾，表示与谷物有关；襄声。原指禾茎中柔软部分。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由禾茎的柔软部分扩展为泛指禾秆及相关草料。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "自秸秆扩展为饱满稻粒。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "以禾茎之物丰盛转指庄稼丰收。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "从丰盛转为充实、充填。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 5,
+      "evolution_type": "metaphor",
+      "note": "以丰收为喻，引申为盛多、繁盛等。"
+    },
+    {
+      "source_index": 5,
+      "target_index": 6,
+      "evolution_type": "semantic_extension",
+      "note": "繁盛概念引申用于大数，表示‘极大’。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 7,
+      "evolution_type": "reanalysis",
+      "note": "与‘禳’音近，出现“去邪祈福”义，文献中开始混用并分化。"
+    },
+    {
+      "source_index": 5,
+      "target_index": 8,
+      "evolution_type": "semantic_shift",
+      "note": "由繁盛引申为杂乱、烦扰等义。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 9,
+      "evolution_type": "metonymy",
+      "note": "草秆作衣，草衣义由禾秆义分化。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 10,
+      "evolution_type": "analogy",
+      "note": "地名缘于地多饶，意为丰盛，取自本义的转名用法。"
+    }
+  ]
+}

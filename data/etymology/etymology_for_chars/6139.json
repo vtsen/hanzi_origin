@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "鲮鱼，体侧扁，口小，有两对须，肉味鲜美，属于鲤科，是中国南方淡水重要养殖鱼种，又称土鲮鱼。",
+      "examples": [
+        "鲮鱼何所？——《楚辞·天问》",
+        "肉味鲜美，乃南方常见养殖种。"
+      ],
+      "traditional_char": "鯪"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "古代传说中的怪鱼，或有吞舟之大，或有人面鱼身，见则风涛大作，也作“陵鱼”。",
+      "examples": [
+        "鯪魚何所？鬿堆焉處？——《楚辞·天问》",
+        "吞舟之魚，其名曰鯪，背腹有刺。"
+      ],
+      "traditional_char": "鯪"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "穿山甲，哺乳动物，全身有角质鳞片，无牙齿，以蚂蚁为食。鳞片可入药。",
+      "examples": [
+        "其形肖鳢，穴陵而居，故曰鲮鳢，而俗称为穿山甲。——《本草纲目》",
+        "鯪鯉皮曰穿山甲。"
+      ],
+      "traditional_char": "鯪"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "鯉鱼的别称。",
+      "examples": [
+        "鯪，鯉也。——《广雅·释鱼》",
+        "廣澤潛鯪鱖。——清鄭鉽《送族弟瀛洲之官安縣七十韵》"
+      ],
+      "traditional_char": "鯪"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "‘鯪’为形声字，从鱼，令声，本指古怪鱼名。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "由古传说怪鱼意义扩展为具体淡水鱼名，用于现实鱼类。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_narrowing",
+      "note": "从泛指怪鱼转为专指鯉鱼等具体鱼类。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "因穿山甲体形覆鳞，犹如鱼鳞，故以鱼名喻之。"
+    }
+  ]
+}

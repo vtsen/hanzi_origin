@@ -1,0 +1,86 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "（足等）跌伤、扭伤、骨折",
+      "examples": [
+        "折臂踒足，不能进酒。",
+        "足屢踒而姿遊，目半盲而兢張。",
+        "此其為馬也，踒肩而腫膝。"
+      ],
+      "traditional_char": "踒"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "（使）彎曲回旋、曲折不直",
+      "examples": [
+        "踒踒跎跎，行步不直。",
+        "踒蛇"
+      ],
+      "traditional_char": "踒"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "踏踩，顿足",
+      "examples": [
+        "踒，躅也。《广韵》"
+      ],
+      "traditional_char": "踒"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "通“痿”，痿痺病，风痺病（肢体无力的病名）",
+      "examples": [
+        "踒人（患风痺病的人）"
+      ],
+      "traditional_char": "踒"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "用足踩张的弩名（即“踒踒”弩）",
+      "examples": [
+        "𨆌踒，兩足蹋也，張弩必以足，因爲弩名。",
+        "踒弩"
+      ],
+      "traditional_char": "踒"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从足，委声，表与足部动作相关，多数古文义与足部损伤有关。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由足部扭伤引申为一切弯曲不直的形态，见于“踒跎”等用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "本为足部受伤，后用于表示顿足、踏踩等强烈动作，《广韵》已有记载。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "由肢体扭伤引申为因伤致痿无力，和“痿”通假，属于借用。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "由用足踏踩的动作转喻为踒踒弩之名，见于古兵器文献。"
+    }
+  ]
+}

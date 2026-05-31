@@ -1,0 +1,70 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "说话，讲话（多指啰嗦、罗唆）",
+      "examples": [
+        "噜苏",
+        "噜嗦"
+      ],
+      "traditional_char": "嚕"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "训斥，批评",
+      "examples": [
+        "狠狠地噜他一顿"
+      ],
+      "traditional_char": "嚕"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "onomatopoeia",
+      "meaning": "形容持续的声音，如呼吸声、摩擦声等",
+      "examples": [
+        "打呼噜",
+        "汽车马达嚕嚕地吼叫起来",
+        "竹烟筒嚕嚕作响"
+      ],
+      "traditional_char": "嚕"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "particle",
+      "meaning": "语气助词（用于方言中，表示语气）",
+      "examples": [
+        "不嚕……！"
+      ],
+      "traditional_char": "嚕"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘嚕’为形声字，从口，鲁声。本义与说话、语言有关，依《玉篇》‘语也’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘说话’引申为‘训斥’，常见于方言与生活用语"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由‘说话（连续发声）’比喻其他持续的声响，如呼噜声等"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "grammaticalization",
+      "note": "由拟声词语化为语气助词，这种虚化常见于口语或方言"
+    }
+  ]
+}

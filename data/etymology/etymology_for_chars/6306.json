@@ -1,0 +1,42 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "老年妇女，老妇人。",
+      "examples": [
+        "这店家老嬷装得花簇簇地，将个盒盘盛了礼物，双手捧着，一径到妙观肆中来。——《二刻拍案惊奇》"
+      ],
+      "traditional_char": "嬷"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "母亲。",
+      "examples": [
+        "后来我掌起门户，他嬷便死了。——《花月痕》"
+      ],
+      "traditional_char": "嬤"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“嬷”为形声字，从女，莫声。本义为老妇，后作为母亲的俗称。"
+    },
+    {
+      "formation_type": "loan_character",
+      "original_sense_index": 1,
+      "note": "“嬤”本作“媽”的音转，因方言俗称“母亲”为‘嬤嬤’。“嬤”为“嬷”的正体。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由称老妇引申为母亲，受方言及俗称影响，见明清俗语。"
+    }
+  ]
+}

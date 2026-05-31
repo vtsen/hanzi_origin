@@ -1,0 +1,72 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "尽，消亡；消灭干净。",
+      "examples": [
+        "澌，水索也。——《说文》",
+        "澌灭",
+        "井田之废也，自春秋战国渐澌渐泯。"
+      ],
+      "traditional_char": "澌"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "冰块，特别指解冻时河中流动的冰。",
+      "examples": [
+        "候吏还白，河水流澌，无船，不可济。——《后汉书·王霸传》",
+        "流澌，解冰也。——王逸注《楚辞·九歌》"
+      ],
+      "traditional_char": "澌"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "死尸。",
+      "examples": [
+        "出见负豕于涂，腐澌于沟，不以为凶者。——《论衡》",
+        "沟有流澌，泽有枯骨。"
+      ],
+      "traditional_char": "澌"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "other",
+      "meaning": "同“嘶”，声音沙哑。",
+      "examples": [
+        "鸟皫色而沙鸣，狸。——《周礼·天官·内饔》 郑玄注：沙，澌也。",
+        "澌，即嘶字。——章炳麟《新方言·释形体》"
+      ],
+      "traditional_char": "澌"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，斯声。本义为‘水尽’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由水尽，引申为水中流冰，具体为冰块随水流动之景，汉魏时期已见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "‘尽’引申为‘生命尽’之尸体，用作死尸之称，见东汉文献。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "‘澌’假借为‘嘶’，用于表示声音嘶哑，因音近而产生。"
+    }
+  ]
+}

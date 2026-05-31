@@ -1,0 +1,72 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "下巴；颏部",
+      "examples": [
+        "相逢应不识，满颔白髭须。",
+        "夫千金之珠，必在九重之渊，而骊龙颔下。",
+        "绝其颔。"
+      ],
+      "traditional_char": "頷"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "下巴前部或下方的区域，尤指结喉的上方",
+      "examples": [
+        "热争则腰痛，不可用俯仰，腹满泄，两颔痛。"
+      ],
+      "traditional_char": "頷"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "点头（表示同意、认可等）",
+      "examples": [
+        "逆于门者，颔之而已。",
+        "但微颔之。",
+        "卫献公复国大夫逆于门者颔之而已。"
+      ],
+      "traditional_char": "頷"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "摇动（头部，下巴）",
+      "examples": [
+        "虯龙腾骧以蜿蟺，颔若动而躨跜。",
+        "颔颐（动动腮巴）"
+      ],
+      "traditional_char": "頷"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从‘页’表意（与头部相关），‘含’表声；本义为下巴。古文、篆文多有证据。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从下巴部位的名称扩展指向邻近、具体的解剖区域。医学语境增强。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "以颔（下巴）动作喻为点头的行为，《左传》等古籍中体现。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由点头动作泛用为摇动下巴或头部的动作，《文选》及注解可证。"
+    }
+  ]
+}

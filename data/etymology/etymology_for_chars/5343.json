@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "孔大边小的璧（一种中间孔大、边比较窄的玉器）",
+      "examples": [
+        "好倍肉謂之瑗，肉倍好謂之璧。——《爾雅·釋器》",
+        "瑗，大孔璧也。——《说文》",
+        "聘人以珪，問士以璧，召人以瑗。——《荀子·聘人》",
+        "瑗中五百。——《管子·輕重丁》"
+      ],
+      "traditional_char": "瑗"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "玉名，一种玉器名称（广义，包括但不限于以孔大为特征的璧）",
+      "examples": [
+        "玉篇：玉名。",
+        "集韻：玉名。",
+        "紆願切，音怨。玉名。"
+      ],
+      "traditional_char": "瑗"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "古县名",
+      "examples": [],
+      "traditional_char": "瑗"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "通“環”，一种带孔、肉好若一的环玉器",
+      "examples": [
+        "肉好若一謂之環。",
+        "或同“環”。"
+      ],
+      "traditional_char": "瑗"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从玉，爰声。最初指大孔的璧，即孔大边小的玉璧。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由具体指大孔璧扩展为泛指某类玉器的名。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "用玉器名作地名，一般为地理上的转义。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "analogy",
+      "note": "因形制相近，与“環”通用，具体指带孔而形状比例不同的玉器。"
+    }
+  ]
+}

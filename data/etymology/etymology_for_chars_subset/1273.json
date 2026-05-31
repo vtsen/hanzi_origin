@@ -1,0 +1,76 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "动词",
+      "meaning": "学习，效法，钻研知识，获得知识，读书",
+      "examples": [
+        "学而时习之，不亦说乎？",
+        "学生",
+        "学者"
+      ],
+      "traditional_char": "學"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "名词",
+      "meaning": "传授知识的地方，学校、学府等",
+      "examples": [
+        "上学",
+        "大学",
+        "中学"
+      ],
+      "traditional_char": "學"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "名词",
+      "meaning": "掌握的知识或学问",
+      "examples": [
+        "学问",
+        "才学",
+        "博学多才"
+      ],
+      "traditional_char": "學"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "名词",
+      "meaning": "分门别类的有系统的知识，学科",
+      "examples": [
+        "哲学",
+        "数学",
+        "文学",
+        "小学(古代指文学、音韵、训诂学)"
+      ],
+      "traditional_char": "學"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘學’由“爻”作屋形为声符，“子”表小孩为义符，指小孩在屋下学习，属于形声字。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由“学习”的动作转指“学习的场所”，约始于先秦两汉。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由“学习”动作引申为“所学之学问、知识”。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "从一般“学问”扩展为“有系统的分科知识”，见唐宋以后。"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "肮脏，不干净。",
+      "examples": [
+        "房间很龌龊。"
+      ],
+      "traditional_char": "齷"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "品质卑劣，品行不端。",
+      "examples": [
+        "卑鄙龌龊的小人。"
+      ],
+      "traditional_char": "齷"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "气量狭小，拘于小节。",
+      "examples": [
+        "心胸龌龊，难成大事。"
+      ],
+      "traditional_char": "齷"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "狭窄；小貌。",
+      "examples": [
+        "䠎𪘏，迫也。一曰小貌。——《集韵》"
+      ],
+      "traditional_char": "齷"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 3,
+      "note": "从齿，屋声，形声字。本义为狭窄、小貌。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 3,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由“狭小”本义比喻为气量狭小。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "由“狭小”引申为狭窄、肮脏不洁。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由“肮脏”引申喻为人的品质卑劣。"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古代包裹头发的头巾。",
+      "examples": [
+        "元帝额有壮发，不欲使人见，始进帻服之。",
+        "文武官皆免冠著帻。"
+      ],
+      "traditional_char": "幘"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "形状类似帽子的东西。",
+      "examples": [
+        "乃有秋花实，全如鸡帻丹。",
+        "前蜀韦庄《鸡公幘》诗：“石状虽如幘。”"
+      ],
+      "traditional_char": "幘"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "（帻、幘互为异体字）头巾，用以包裹发髻。",
+      "examples": [
+        "汉 蔡邕《独断》：幘者，古之卑贱执事不冠者之所服也。",
+        "《隋书·礼仪志六》：幘，尊卑贵贱皆服之。"
+      ],
+      "traditional_char": "帻"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "幘为形声字，从巾，𧵩声，表示包裹头发的头巾。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 2,
+      "note": "帻为形声字，从巾，责声，是幘的简化字，含义同头巾。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由头巾的本义引申为类似帽子的物品。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "analogy",
+      "note": "帻为幘的简化与异体，以声旁变化为依据，意义相通。"
+    }
+  ]
+}

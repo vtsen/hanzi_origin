@@ -1,0 +1,117 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "污浊，不干净",
+      "examples": [
+        "林木为之润黩。",
+        "先贞而后黩。",
+        "黩，握持垢也。"
+      ],
+      "traditional_char": "黷"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "黑色，黑而茂盛",
+      "examples": [
+        "林木为之润黩。——《文选·左思·吴都赋》"
+      ],
+      "traditional_char": "黷"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "轻慢，不敬，亵渎",
+      "examples": [
+        "敬而不黩。",
+        "亟则黩，黩则不敬。"
+      ],
+      "traditional_char": "黷"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "污辱，玷污，侮辱",
+      "examples": [
+        "进不党以赞己，退不黩于庸人。"
+      ],
+      "traditional_char": "黷"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "贪污，贪求",
+      "examples": [
+        "黩货病民。",
+        "及累为州郡，颇黩财贿。"
+      ],
+      "traditional_char": "黷"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "滥用，轻率多次",
+      "examples": [
+        "穷兵黩武。",
+        "黩于祭祀，时谓弗欽。"
+      ],
+      "traditional_char": "黷"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "adverb",
+      "meaning": "频繁，多次",
+      "examples": [
+        "鬼营诛荒梗，人境扫喧黩。"
+      ],
+      "traditional_char": "黷"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从黑，卖声，本义为污浊，黑代表颜色或肮脏。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由污浊引申为黑色，古汉语中常见色彩和状态的转变。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "内涵从不洁引申为行为上的轻慢亵渎。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "由不敬进而用于侮辱、玷污他人。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "由肮脏引申为操守上的腐败贪污。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 5,
+      "evolution_type": "semantic_shift",
+      "note": "由轻慢不敬再转为无节制的使用或滥用。"
+    },
+    {
+      "source_index": 5,
+      "target_index": 6,
+      "evolution_type": "grammaticalization",
+      "note": "动词‘滥用’发展为副词用法表示频繁多次。"
+    }
+  ]
+}

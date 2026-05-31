@@ -1,0 +1,43 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "耕地时开出的垄沟",
+      "examples": [
+        "墒垄",
+        "墒沟",
+        "耕地時開出的壟溝"
+      ],
+      "traditional_char": "墒"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "田地里土壤的湿度，尤其指适合种子发芽和作物生长的湿度",
+      "examples": [
+        "保墒",
+        "抢墒下种",
+        "验墒",
+        "够墒",
+        "墒情"
+      ],
+      "traditional_char": "墒"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从土，商声，初指耕地时的垄沟，与土有关。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由地沟之意引申为记录、保留土壤湿度，后专指适宜的土壤湿度。"
+    }
+  ]
+}

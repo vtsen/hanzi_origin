@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古代用五彩丝线贯穿玉块制成的冕冠装饰，形如水藻，悬挂于冕冠前。",
+      "examples": [
+        "璪，玉饰如水藻之文。从玉，璪声。——《说文》",
+        "祭之日，王被璪以象天，戴冠，璪十有二旒，则天数也。——《礼记》"
+      ],
+      "traditional_char": "璪"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "古代刻在玉饰或绣在衣裳上的水藻纹样。",
+      "examples": [
+        "《说文·玉部》：璪，玉饰如水藻文。",
+        "冕朱绿璪。——《礼·礼器》"
+      ],
+      "traditional_char": "璪"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "玉名，特指有水藻花纹的美玉。",
+      "examples": [
+        "雕有如水藻花纹的玉饰。"
+      ],
+      "traditional_char": "璪"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "形声字，从玉，喿声。'玉'表义，'喿'(zao)表声，最初表示刻有水藻花纹的玉。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_narrowing",
+      "note": "从泛指有水藻花纹的玉饰，后来也专指某种玉。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "metonymy",
+      "note": "由玉饰的花纹转借为冠冕上用玉饰和丝线做成的垂饰。"
+    }
+  ]
+}

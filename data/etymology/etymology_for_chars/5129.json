@@ -1,0 +1,85 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "形容失意、懊丧、忘怀的样子。",
+      "examples": [
+        "嗒然若失",
+        "嗒丧"
+      ],
+      "traditional_char": "嗒"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "onomatopoeia",
+      "meaning": "形容机枪、马蹄、钟表等连续作响的声音。",
+      "examples": [
+        "机关枪嗒嗒地响起来",
+        "马蹄嗒嗒紧响"
+      ],
+      "traditional_char": "嗒"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "舔（东西）的动作。",
+      "examples": [
+        "嗒舌",
+        "把水一嗒，那潭就干了一寸"
+      ],
+      "traditional_char": "嗒"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "无线电或电报码中的一长划（dah）。",
+      "examples": [
+        "发报员用“嗒”表示发送一长划"
+      ],
+      "traditional_char": "嗒"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "particle",
+      "meaning": "用作语气助词，相当于“了”。（方言用法）",
+      "examples": [
+        "梅花盛开嗒！"
+      ],
+      "traditional_char": "嗒"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 2,
+      "note": "‘口’为形旁指与口舌相关，‘荅’为声旁并亦表意（舐、舔），原义为‘舔’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 2,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由舌头舔食的连续动作比喻为连续的声音，属象声义上的转用。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 0,
+      "evolution_type": "metaphor",
+      "note": "舌头松弛无力引申为空虚、失落的神态，文献如《庄子·齐物论》；形容词用法。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由象声词延伸为技术领域代表长划的特指音。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "grammaticalization",
+      "note": "象声词虚化转为语气词，常见于方言口语用法。"
+    }
+  ]
+}

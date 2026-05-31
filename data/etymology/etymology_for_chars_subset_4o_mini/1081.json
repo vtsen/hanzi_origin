@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "有土地、人民、主权的政体",
+      "examples": [
+        "国家是一个重要的概念。",
+        "古代的诸侯国有自己的疆域。"
+      ],
+      "traditional_char": "國"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "特指中国的",
+      "examples": [
+        "国家的产品有很高的质量。",
+        "这部电影是中国产的。"
+      ],
+      "traditional_char": "國"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "姓",
+      "examples": [
+        "他的姓是国。",
+        "国先生是我的邻居。"
+      ],
+      "traditional_char": "國"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "通过‘囗’表示疆域的外部边界，结合‘或’表示国家的音形。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从国家的广义含义扩展到特指中国的相关概念。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_narrowing",
+      "note": "原有的国概念缩小到作为姓氏的特定用法。"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "美玉，质地优美的玉石。",
+      "examples": [
+        "璿，美玉也。——《说文》",
+        "璇、玉、瑶、珠，不知佩也。——《荀子·赋篇》"
+      ],
+      "traditional_char": "璇"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "次于玉的美石。",
+      "examples": [
+        "璇，美石次玉。——《说文》",
+        "若不能用玉，可用白璇珠。——《晋书》"
+      ],
+      "traditional_char": "璇"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "星名，北斗七星的第二星（亦泛指北斗星相关部位或为枢纽、关键的比喻）。",
+      "examples": [
+        "在璿、璣、玉衡，以齐七政。——《书·舜典》",
+        "北斗七星，第一天枢，第二璇，第三机，第四权。——《太平御览》卷五引《春秋运斗枢》"
+      ],
+      "traditional_char": "璇"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "珠类，珍珠或与珠有关的宝石。",
+      "examples": [
+        "璇源，产珠的水流；亦指皇族。",
+        "若不能用玉，可用白璇珠。"
+      ],
+      "traditional_char": "璇"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "指用玉装饰或装饰华美的宫室、闺房，后引申为美丽的居所。如“璇宫”“璇室”“璇闺”。",
+      "examples": [
+        "桀作璇室、象廊，纣为倾官、鹿台。——《三国志·杨阜传》"
+      ],
+      "traditional_char": "璇"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从玉，旋声；本义美玉。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从最精美的玉扩展为次一级的美石，《说文》《晋书》皆有记载。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "以美玉比喻北斗七星中明亮美丽的星名，古代天文典籍常见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "美玉之义引申为珠类，珠、玉常类属并举，见“璇源”等用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "以玉饰或美玉作为延伸，指代用美玉装饰的宫室和闺房，亦作美丽居所。"
+    }
+  ]
+}

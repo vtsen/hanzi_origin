@@ -1,0 +1,36 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "构成口腔上部和下部的骨头与肌肉等组织。",
+      "examples": [
+        "上颌",
+        "下颌"
+      ],
+      "traditional_char": "頜"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "口。",
+      "examples": [],
+      "traditional_char": "頜"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "“頜”从“页”表头部相关，“合”表音，本义为口。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_narrowing",
+      "note": "由“口”义专指为口腔骨骼等结构，语义变窄。"
+    }
+  ]
+}

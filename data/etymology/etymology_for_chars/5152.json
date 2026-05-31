@@ -1,0 +1,89 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "鱼口向上露出水面。",
+      "examples": [
+        "水浊则鱼喁。",
+        "鱏鱼喁于水裔。"
+      ],
+      "traditional_char": "喁"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "应和的声音，唱和。",
+      "examples": [
+        "前者唱于，而随者唱喁。"
+      ],
+      "traditional_char": "喁"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "仰望、归向、期待的样子或众人景仰归向的样子。",
+      "examples": [
+        "延颈举踵，喁喁然，皆争归义。",
+        "喁望"
+      ],
+      "traditional_char": "喁"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "低声细语，随声附和。",
+      "examples": [
+        "喁喁细语",
+        "喁喁相和"
+      ],
+      "traditional_char": "喁"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "蝉鸣声。",
+      "examples": [],
+      "traditional_char": "喁"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从口，禺声，本义为鱼口向上露出水面，'口'表意，'禺'表声。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "以鱼口出水发声比喻人的应和之声。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "鱼仰望出水，转为比喻人仰望期待的神态。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由鱼口出入之状，引申为低声细语。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由唱和之声引申为随声附和。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "以鱼口出入或响声比拟蝉鸣。"
+    }
+  ]
+}

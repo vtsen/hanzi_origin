@@ -1,0 +1,90 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "衣服狭小、紧窄。",
+      "examples": [
+        "褊，衣小也。——《说文》",
+        "带其褊矣。——《左传·昭公元年》",
+        "夫形大，衣不得褊。——《论衡》"
+      ],
+      "traditional_char": "褊"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "狭小、不宽广。",
+      "examples": [
+        "以敝邑褊小，不足以容从者。——《左传·昭公元年》",
+        "齐国虽褊小，吾何爱一牛？",
+        "中國地褊。——清·阮元《小滄浪筆談》"
+      ],
+      "traditional_char": "褊"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "气量狭小、心胸狭隘或性情急躁。",
+      "examples": [
+        "维是褊心，是以为刺。——《诗·卫风·葛履》",
+        "然卓性刚而褊。——《三国志·吕布传》",
+        "斯则仆之褊哉。——《报刘一丈书》"
+      ],
+      "traditional_char": "褊"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "匮乏、贫乏。",
+      "examples": [
+        "憐君為謫史，窮薄家貧褊。——唐·白居易《寄元九》詩",
+        "國用常褊。——《通典·食貨》"
+      ],
+      "traditional_char": "褊"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "物体厚度小于长度和宽度，扁平（通“扁”）。",
+      "examples": [
+        "兒生，便以石厭其頭，欲其褊。今辰韓人皆褊頭。——《三国志·魏志·东夷传》",
+        "極褊乃止。——《齊民要術》"
+      ],
+      "traditional_char": "褊"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从衣，'扁'声，初指衣服狭小。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由衣服窄小引申为一般空间狭小。晋、唐起普见。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由物理狭小转喻为心胸狭隘、气量小。先秦已见。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "狭小引申为资源、财富等匮乏。唐代白居易作例。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "semantic_shift",
+      "note": "狭小引申作物体为扁平（通‘扁’）。东汉三国始有。"
+    }
+  ]
+}

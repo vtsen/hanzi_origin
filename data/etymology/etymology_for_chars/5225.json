@@ -1,0 +1,66 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "一种蔓生植物，本义。又称葍、蔓，为蔓地连华之草。",
+      "examples": [
+        "舜，舜草也。楚谓之葍，秦谓之蔓，蔓地连华，象形。——《说文》"
+      ],
+      "traditional_char": "舜"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "木槿的别称，花朝开暮谢。",
+      "examples": [
+        "有女同车，颜如舜华。——《诗·郑风·有女同车》"
+      ],
+      "traditional_char": "舜"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "传说中的上古帝王名，虞舜，尧舜因以并称圣贤君主。",
+      "examples": [
+        "春风杨柳万千条，六亿神州尽舜尧。——毛泽东《送瘟神》",
+        "虞舜者，名曰重华。——《史记·五帝本纪》"
+      ],
+      "traditional_char": "舜"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [],
+      "traditional_char": "舜"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "小篆形体，从舛，象蔓连向背之形，舛亦声，表意兼表音，为形声字。最初本义为一种蔓草。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "本指蔓草，引申借指木槿，因花形花期类似植物间的类比。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "木槿华美以喻人名，借花喻人，同音假借为传说帝王名。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由上古帝王之名引申用为姓氏，为常见人名转姓现象。"
+    }
+  ]
+}

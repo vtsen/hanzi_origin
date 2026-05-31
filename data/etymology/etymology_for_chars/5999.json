@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "形容泪水流淌的样子",
+      "examples": [
+        "潸然泪下",
+        "潸焉出涕（《诗·小雅·大东》）",
+        "流涕长潸（《史记·扁仓传》）"
+      ],
+      "traditional_char": "潸"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "流泪",
+      "examples": [
+        "肠断离家泪暗潸",
+        "泪水潸然而下"
+      ],
+      "traditional_char": "潸"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "泪水",
+      "examples": [
+        "茵席留余潸",
+        "枕衾有余潸"
+      ],
+      "traditional_char": "潸"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，散声，初表示泪水流动的样子。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "conversion",
+      "note": "由形容词“流泪貌”转为表示动作“流泪”，历代使用中自然转化。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由泪水流淌的状态转化为泪水本身，用流泪之貌指代泪水。"
+    }
+  ]
+}

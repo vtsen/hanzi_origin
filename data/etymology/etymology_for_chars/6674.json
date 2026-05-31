@@ -1,0 +1,115 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "上升；升起。",
+      "examples": [
+        "日照水而東昇，山出波而隱沒。",
+        "日初昇，簾半捲。",
+        "如日方昇。",
+        "氣之昇降。"
+      ],
+      "traditional_char": "昇"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "登上；升登。",
+      "examples": [
+        "昇車兮命僕，將馳兮四荒。",
+        "洲沙厭晚坐，嶺壁窮晨昇。",
+        "天子北昇於舂山之上，以望四野。"
+      ],
+      "traditional_char": "昇"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "晉級；升官。",
+      "examples": [
+        "及昇大帥，持是道不變。"
+      ],
+      "traditional_char": "昇"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "（引申義）死亡（多用於文言或特殊語境）。",
+      "examples": [
+        "降生以後，未昇以前，無處不是誘惑之境，無時不生誘惑之心。"
+      ],
+      "traditional_char": "昇"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "（借用義）能承受，通“勝”。",
+      "examples": [
+        "王聞魏陵之語，喜不自昇。"
+      ],
+      "traditional_char": "昇"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "州名。唐代置，治所在今江蘇省南京市。",
+      "examples": [],
+      "traditional_char": "昇"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [
+        "毕昇"
+      ],
+      "traditional_char": "昇"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“昇”字从‘日’（意符，表明与太阳、上升有关），从‘升’（声符兼义符），本义为日之上升。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“升起”引申为“登上”或“升登”等抽象用法。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "从“登上”引申为职位、级别等方面的“晋级、升官”。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "“升登”到天，引申表示“死亡”或灵魂升天。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "通“勝”，指能承受，源自音近字混用。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "metonymy",
+      "note": "以“昇”为地名，借用本义‘升高’引伸为州名。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "function_word",
+      "note": "由本义发展为姓氏用字。"
+    }
+  ]
+}

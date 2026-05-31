@@ -1,0 +1,43 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "蠑螈，两栖动物，形似蜥蜴，头扁平，四肢细长，生活于池沼、湿地。",
+      "examples": [
+        "蝾螈生活在清冷的池沼里。",
+        "癭頸鬧鳩鴿，蜿垣亂蛷蠑。（韓愈詩）"
+      ],
+      "traditional_char": "蠑"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "“蠑”的简化字，用作蠑螈等词。",
+      "examples": [
+        "蝾螈是一种两栖动物。"
+      ],
+      "traditional_char": "蝾"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "蠑：形声字，从虫，荣声，表示虫类动物，指蠑螈。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "蝾：形声字，为“蠑”的简化字，从虫，荣声。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "reanalysis",
+      "note": "现代汉字简化运动，将“蠑”简化为“蝾”，意义完全对应。"
+    }
+  ]
+}

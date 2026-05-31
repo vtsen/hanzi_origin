@@ -1,0 +1,52 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "烧葦把以祓除不祥",
+      "examples": [
+        "湯得伊尹，祓之於廟，爝以爟火，釁以犧猳。"
+      ],
+      "traditional_char": "爝"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "小火；火把；火炬",
+      "examples": [
+        "日月出矣，而爝火不息。",
+        "餘若螢火爝。",
+        "載飛載揚，有爝者螢。"
+      ],
+      "traditional_char": "爝"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "照耀、點火",
+      "examples": [],
+      "traditional_char": "爝"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从火，爵声；本义系‘以火除祟’之义，为形声字。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由烧祓仪式的火把引申为一般的小火、火炬；先秦时期即见。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "conversion",
+      "note": "由小火（名）引申作动词作‘照耀’、‘点火’解，用用转换。"
+    }
+  ]
+}

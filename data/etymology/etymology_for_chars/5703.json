@@ -1,0 +1,73 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "跳跃、纵跃。",
+      "examples": [
+        "因跳踉大，断其喉，尽其肉乃去。（柳宗元《黔之驴》）",
+        "跳踉乎井幹之上。"
+      ],
+      "traditional_char": "踉"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "行走不稳或缓慢行走的样子。",
+      "examples": [
+        "他踉了一下，险些跌倒。",
+        "踉蹡而徐来。（潘岳《射雉赋》）",
+        "踉蹡乍行乍止不迅疾之貌也。",
+        "君来好呼出，踉越门限。（韩愈《赠张籍》）"
+      ],
+      "traditional_char": "踉"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "急行、行遽的样子。",
+      "examples": [
+        "踉踉䠙欲行也。",
+        "踉踉䠙行遽皃。",
+        "踉踉䠙行皃一曰欲行。"
+      ],
+      "traditional_char": "踉"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "踩踏（用于方言中）。",
+      "examples": [
+        "你想嘛，二畝地種的莊稼，給他們四邊一踉，還有啥呢？（柳青《創業史》）"
+      ],
+      "traditional_char": "踉"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，“足”为意符，表动作与脚有关，“良”为声符，本义为跳跃相关动作。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "跳跃的动作引申为步态不稳或摇晃；见于“踉跄”等搭配，汉魏六朝已见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "跳跃或激烈动作借指奔走、急行，形容行走情态——辞书与古籍可见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "动作意义扩展到踩踏（土地等），主要见于现代方言、近现代用法。"
+    }
+  ]
+}

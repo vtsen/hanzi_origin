@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "房顶伸出墙壁的部分，即屋檐。",
+      "examples": [
+        "房檐下有燕子筑巢。",
+        "他站在檐下避雨。"
+      ],
+      "traditional_char": "檐"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "覆盖物的边沿或伸出的部分。",
+      "examples": [
+        "她戴着宽檐帽。",
+        "帽檐上有露水。"
+      ],
+      "traditional_char": "檐"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从木，詹声，表示与房屋和木结构有关的‘屋檐’本义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由房屋檐部的意义，比喻引申为其它覆盖物或伸出部分的边沿。"
+    }
+  ]
+}

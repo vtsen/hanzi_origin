@@ -1,0 +1,91 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "吸吮，聚拢嘴唇吸取液体（如吸水、吸奶）；（嘴唇）翘起。",
+      "examples": [
+        "嘬水",
+        "嘬奶",
+        "他微微一笑就嘬起嘴唇，轻轻吹一支歌曲。",
+        "被点着的纸烟只嘬一口，就把他给呛住了。"
+      ],
+      "traditional_char": "嘬"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "一口吞食，贪婪地大口吃下。",
+      "examples": [
+        "毋嘬炙。——《礼记·曲礼》",
+        "併食之曰嘬，是贪食也。",
+        "嘬嘬（疾食貌）",
+        "凡印度、希腊……精英，吾已嘬之、饮之……"
+      ],
+      "traditional_char": "嘬"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "咬，叮，昆虫等用口器刺吸食物或血液。",
+      "examples": [
+        "蠅蚋姑嘬之。——《孟子·滕文公上》",
+        "蝨於是乃相与聚嘬其身而食之。——《韩非子·说林下》",
+        "夜夜恣嘬茹。",
+        "螞蟻嘬食"
+      ],
+      "traditional_char": "嘬"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "粗（口语方言用法，如指喉咙粗、舌尖锐利）。",
+      "examples": [
+        "他的喉嚨忒嘬，舌尖忒銳。"
+      ],
+      "traditional_char": "嘬"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "引申为“贪”，贪图、贪求。",
+      "examples": [
+        "於是嘬兵以爭之。"
+      ],
+      "traditional_char": "嘬"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从口，最声。本义为吸吮。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由吸吮行为引申出一口吞食、贪食之意，先秦已见。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "由贪食进一步比喻为贪图、贪求，宋代文献可见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "吸吮的行为引发对咬、叮吸的义项，用于昆虫等。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "unknown",
+      "note": "由吸吮拟态义扩展为形容词“粗”，用法较晚，关系不详。"
+    }
+  ]
+}

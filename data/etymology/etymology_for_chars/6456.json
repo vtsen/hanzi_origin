@@ -1,0 +1,66 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "一种哺乳动物，形似小鹿，体小，无角，雄性腹部有香腺，可分泌麝香，通称“香獐子”。",
+      "examples": [
+        "麞，麞如小麋。脐有香。——《说文》",
+        "武王 狩……麝五十，麋三十，鹿三千五百有八。——《逸周书·世俘》",
+        "蝨處頭而黑，麝食柏而香。——《養生論》"
+      ],
+      "traditional_char": "麝"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "麝香的简称，亦泛指香气。",
+      "examples": [
+        "鶯報簾前煖日紅，玉罏殘麝猶濃。——李珣《臨江仙》",
+        "裙前麝散，髻後龍盤。——張鷟《游仙窟》"
+      ],
+      "traditional_char": "麝"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "〔麝鼠〕一种生活于沼泽地带的啮齿动物，毛棕黑色，皮毛可作衣服。",
+      "examples": [],
+      "traditional_char": "麝"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "〔麝牛〕体形似牛而稍小的北美哺乳动物，皮下有腺体，分泌物有特殊气味。",
+      "examples": [],
+      "traditional_char": "麝"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从鹿，䠶声。表‘体小有香的鹿类动物’，六书属形声字。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由麝这种动物而指代其分泌的香及香气，用于日常和药用语境。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "以‘麝’泛指有香气或某些动物特征的哺乳类（麝鼠），近现代动物学命名扩大用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "用于称呼体形似牛而有特殊气味腺体的动物（麝牛），近现代用法引申。"
+    }
+  ]
+}

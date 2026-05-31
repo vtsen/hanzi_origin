@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "奔跑，奔驰。",
+      "examples": [
+        "骛而不息",
+        "骛驰千里"
+      ],
+      "traditional_char": "騖"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "急速地奔跑，比喻急速、急骤。",
+      "examples": [
+        "骛骤风雨",
+        "情势骛骤"
+      ],
+      "traditional_char": "騖"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "追求，追逐。",
+      "examples": [
+        "驰骛其外",
+        "骛名逐利"
+      ],
+      "traditional_char": "騖"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "务，致力于某事。（与“务”通用）",
+      "examples": [
+        "骛学",
+        "骛事"
+      ],
+      "traditional_char": "騖"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从马，敄声，表示在马背上奔驰。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“奔驰”引申出比喻急速、急骤。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由“奔驰”引申为追求、追逐。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "借用为“务”，义项引申。"
+    }
+  ]
+}

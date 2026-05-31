@@ -1,0 +1,67 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古县名。位于今湖南衡阳市东部。",
+      "examples": [
+        "汉书·地理志：﹝长沙国﹞县十三：临湘、罗……酃。",
+        "后汉·郡国志：酃属长沙郡。"
+      ],
+      "traditional_char": "酃"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "湖名。在今湖南衡阳市东，又名零湖。",
+      "examples": [
+        "宋·吴淑《事类赋》：尝美味于酃湖，酌不极于青田。"
+      ],
+      "traditional_char": "酃"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "酒名。以酃湖水酿制的美酒，如酃酒、酃渌。",
+      "examples": [
+        "晋·潘岳《笙赋》：披黄包以授甘，倾缥瓷以酌酃。",
+        "文选·吴都赋：飞轻轩而酌绿醽。"
+      ],
+      "traditional_char": "酃"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [],
+      "traditional_char": "酃"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从邑，霝声。本为地名，用邑表地相关。霝为声符。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "以酃县所在之湖为酃湖，地名转指湖名，发生于汉至宋。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "以湖水酿酒，湖名转指酒名，为地物转产品。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "地名转为姓氏，一般汉族姓氏起源之一。"
+    }
+  ]
+}

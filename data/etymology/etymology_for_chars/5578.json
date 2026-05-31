@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "酸臭的淘米水，泛指馊泔、污水。",
+      "examples": [
+        "兰槐之根是为芷，其渐之滫，君子不近，庶人不服。",
+        "兰根与白芷，渐之滫中。"
+      ],
+      "traditional_char": "滫"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "古代用澱粉拌和食物，使之柔软滑爽的方法，或指柔滑的食物。",
+      "examples": [
+        "滫瀡以滑之。",
+        "升堂奉萱滫。"
+      ],
+      "traditional_char": "滫"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "小便（尿）。",
+      "examples": [
+        "秦人谓溲曰滫。",
+        "其渐之滫，君子不近。"
+      ],
+      "traditional_char": "滫"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "浸泡淘洗。",
+      "examples": [
+        "滫滌",
+        "滫濯"
+      ],
+      "traditional_char": "滫"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘滫’从水，脩声，本指酸臭的淘米水。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从淘米水的滑爽特性引申为以澱粉调食、指食物柔滑的方法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "因淘米水的污浊、臭气比喻小便。先秦已见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "conversion",
+      "note": "从名词‘淘米水’引申为动词‘以水浸泡淘洗’。"
+    }
+  ]
+}

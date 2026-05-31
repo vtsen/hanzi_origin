@@ -1,0 +1,53 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "覆盖东西的巾（古代盖物用的布巾）",
+      "examples": [
+        "以幂覆之。"
+      ],
+      "traditional_char": "幂"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "覆盖，遮盖",
+      "examples": [
+        "幂其首而卧。"
+      ],
+      "traditional_char": "幂"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "数学上指某个数自乘若干次的形式",
+      "examples": [
+        "幂次",
+        "乘幂"
+      ],
+      "traditional_char": "幂"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从巾（表示与布巾有关），冥声，表示‘盖东西的巾’为本义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "conversion",
+      "note": "名词转动词，用‘幂’表示‘用布巾覆盖’或‘覆盖’。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "近现代数学引入，以‘覆盖’之意类比‘幂’为指数运算结果覆盖的次数。"
+    }
+  ]
+}

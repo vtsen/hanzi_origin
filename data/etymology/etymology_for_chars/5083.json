@@ -1,0 +1,53 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "草木繁茂、枝叶纷披下垂的样子。",
+      "examples": [
+        "兰叶春葳蕤，桂华秋皎洁。",
+        "上葳蕤而防露兮。"
+      ],
+      "traditional_char": "葳"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "指草名，葳蕤草，一种百合科多年生草本植物，亦称玉竹。",
+      "examples": [
+        "葳蕤，草名，也作“萎蕤”，即玉竹。"
+      ],
+      "traditional_char": "葳"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "用独木做成的船，称为葳瓠。",
+      "examples": [
+        "葳瓠，用独木做成的船。"
+      ],
+      "traditional_char": "葳"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从艹，威声。本义为草木茂盛貌。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_narrowing",
+      "note": "植物繁茂的形容词义被专指为某种具体植物，出现于后世本草书中。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "unknown",
+      "note": "‘葳瓠’义来历不详，原义向器物名称的引申机制存在争议。"
+    }
+  ]
+}

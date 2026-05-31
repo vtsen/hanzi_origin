@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "用石头做成的圆柱形压、轧用的器具，即石磙。",
+      "examples": [
+        "院子里放着一个石磙。",
+        "磙子压场院。"
+      ],
+      "traditional_char": "磙"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "用磙子轧、压地等。",
+      "examples": [
+        "农民用磙地准备播种。",
+        "把场地磙平。"
+      ],
+      "traditional_char": "磙"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从石，衮声。本义为石制滚压工具。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "conversion",
+      "note": "由名词“石磙”引申为动词“用磙子轧”，物转动作。"
+    }
+  ]
+}

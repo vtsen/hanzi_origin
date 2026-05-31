@@ -1,0 +1,116 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "interjection",
+      "meaning": "招呼用的叹词，用于引起别人的注意。",
+      "examples": [
+        "欸，你快来！",
+        "欸，你过来"
+      ],
+      "traditional_char": "欸"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "interjection",
+      "meaning": "表示诧异或忽然想起的叹词。",
+      "examples": [
+        "欸，他怎么走了？",
+        "欸，我三点钟还有一场电影呢！"
+      ],
+      "traditional_char": "欸"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "interjection",
+      "meaning": "表示不以为然或否定的叹词。",
+      "examples": [
+        "欸，这话可不对呀！"
+      ],
+      "traditional_char": "欸"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "interjection",
+      "meaning": "表示应声或同意的叹词。",
+      "examples": [
+        "欸，我就来！"
+      ],
+      "traditional_char": "欸"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "onomatopoeia",
+      "meaning": "象声词，指摇橹声（如“欸乃”）。",
+      "examples": [
+        "烟销日出不见人，欸乃一声山水绿",
+        "欸乃曲"
+      ],
+      "traditional_char": "欸"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "interjection",
+      "meaning": "叹息、感叹声（古文用法）。",
+      "examples": [
+        "欸秋冬之绪风",
+        "欸者，绝语叹声"
+      ],
+      "traditional_char": "欸"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "interjection",
+      "meaning": "呵斥或怒声。",
+      "examples": [
+        "始皇方猎六国，而翦牙欸！"
+      ],
+      "traditional_char": "欸"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 5,
+      "note": "从欠，矣声。本指叹息声，语气词。从“欠”表示与呼吸、叹息有关，矣为声符。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 5,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "叹息或感叹声发展为招呼的叹词，用于引起注意，属于语气词的语用扩展。"
+    },
+    {
+      "source_index": 5,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "感叹、叹息义引申为表达诧异或忽然想起的语气词。"
+    },
+    {
+      "source_index": 5,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "表达叹息时的不以为然情绪强化，形成反对、不认可的语气。"
+    },
+    {
+      "source_index": 5,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "感叹/应答之叹演化为答应、同意之用法。"
+    },
+    {
+      "source_index": 5,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "叹息声的模仿用作摇橹之声的拟声词，属于象声词的比拟。"
+    },
+    {
+      "source_index": 5,
+      "target_index": 6,
+      "evolution_type": "semantic_extension",
+      "note": "叹息之语气进一步发展为呵斥、怒气表达。"
+    }
+  ]
+}

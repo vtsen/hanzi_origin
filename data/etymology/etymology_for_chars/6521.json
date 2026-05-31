@@ -1,0 +1,73 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "说话迟钝缓慢，难以出口",
+      "examples": [
+        "讱，顿也。——《说文》",
+        "故名足以指实，辞足以见极，则舍之矣；外是者谓之訒，是君子之所弃，而愚者拾以为己宝。——《荀子·正名》"
+      ],
+      "traditional_char": "訒"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "说话谨慎、不轻易表达",
+      "examples": [
+        "仁者其言也訒。——《论语》",
+        "且缘心困而虑衡，更识言难而行訒。——宋·晁补之"
+      ],
+      "traditional_char": "訒"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "困难、迟滞",
+      "examples": [
+        "生也旷达，一命若訒。——元·欧阳玄",
+        "才周世用，世用则訒。——元·欧阳玄"
+      ],
+      "traditional_char": "訒"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "（讱为訒的简化字）同“訒”，即说话缓慢谨慎",
+      "examples": [],
+      "traditional_char": "讱"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "訒为形声字，从言，刃声，本意为说话迟钝缓慢。"
+    },
+    {
+      "formation_type": "loan_character",
+      "original_sense_index": 3,
+      "note": "讱为訒的简化字，部件减少，音义同源。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从迟钝缓慢语义扩展为为人谨慎不轻言。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由“迟钝缓慢”语义引申为“困难”“迟滞”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "reanalysis",
+      "note": "讱为訒的简化字，义同。"
+    }
+  ]
+}

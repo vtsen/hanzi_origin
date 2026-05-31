@@ -1,0 +1,36 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古代拨弦乐器（古琴或竖琴类），常用于“箜篌”。",
+      "examples": [
+        "箜篌，古之乐器。",
+        "王昭君持箜篌以自抚。"
+      ],
+      "traditional_char": "篌"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "竹名，一种竹子的名称。",
+      "examples": [],
+      "traditional_char": "篌"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "从竹，侯声，本义为竹名，后借指乐器。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "metonymy",
+      "note": "由竹名借指用竹制成的古代弦乐器。"
+    }
+  ]
+}

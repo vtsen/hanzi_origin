@@ -1,0 +1,57 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "水鸟名，鵜鶘，喜群居，捕食鱼类，又称“伽蓝鸟”、“淘河鸟”、“塘鹅”。",
+      "examples": [
+        "維鵜在梁，不濡其翼。",
+        "饑鵜拂浪翔。",
+        "鵜鶘"
+      ],
+      "traditional_char": "鵜"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "鸊鵜（鸊鷉），一种水鸟，常生活在水边。",
+      "examples": [
+        "銛鋒瑩鸊鵜，从鷉为正"
+      ],
+      "traditional_char": "鵜"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "“鹈”为“鵜”的简化字。",
+      "examples": [],
+      "traditional_char": "鹈"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "鵜为形声字，从鸟，题声，表示一种水鸟。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 2,
+      "note": "鹈为‘鵜’的简化字，从鸟，弟声，用于同一词义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由特指鵜鶘扩展至鸊鵜，皆为体型相似的水鸟。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "reanalysis",
+      "note": "由繁至简的文字简化，词义未变，仅字形变化。"
+    }
+  ]
+}

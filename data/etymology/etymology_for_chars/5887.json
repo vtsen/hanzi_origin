@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "支柱；支撑物。",
+      "examples": [
+        "樘，柱也。——《说文》",
+        "其用力支持谓之樘，病而强起亦谓之樘。"
+      ],
+      "traditional_char": "樘"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "门框或窗框。",
+      "examples": [
+        "门樘、窗樘。",
+        "门窗的框称为樘。"
+      ],
+      "traditional_char": "樘"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "measure_word",
+      "meaning": "量词，用于一套门（窗）框或门（窗）扇。",
+      "examples": [
+        "一樘玻璃门。",
+        "四樘双扇窗。"
+      ],
+      "traditional_char": "樘"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从木，堂声，本意为支柱。‘木’表意，‘堂’表音。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘支柱’本义引申为用作支撑的门窗框，形成具象化用法。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "grammaticalization",
+      "note": "名词‘门窗框’词义被用作量词，指一副门窗相关结构。"
+    }
+  ]
+}

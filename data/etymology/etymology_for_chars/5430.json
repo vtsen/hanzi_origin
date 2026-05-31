@@ -1,0 +1,145 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "神话传说中的兽名，即“驺虞”",
+      "examples": [
+        "《山海经》：其兽似虎而文，名曰‘驺虞’。"
+      ],
+      "traditional_char": "虞"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "预料，料想",
+      "examples": [
+        "不虞有变",
+        "未可虞料"
+      ],
+      "traditional_char": "虞"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "忧虑，担忧",
+      "examples": [
+        "无冻馁之虞",
+        "无后顾之虞"
+      ],
+      "traditional_char": "虞"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "欺骗，蒙骗",
+      "examples": [
+        "尔虞我诈"
+      ],
+      "traditional_char": "虞"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "古代诸侯国名，在今山西省平陆县东北",
+      "examples": [
+        "虞国灭于晋"
+      ],
+      "traditional_char": "虞"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "安乐，娱乐（古同“娱”）",
+      "examples": [
+        "虞乐",
+        "自虞其乐"
+      ],
+      "traditional_char": "虞"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "古代掌管山泽的官员",
+      "examples": [
+        "山虞、泽虞"
+      ],
+      "traditional_char": "虞"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "noun",
+      "meaning": "传说中的朝代名，舜所建立",
+      "examples": [
+        "尧舜禹虞"
+      ],
+      "traditional_char": "虞"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "虞世南"
+      ],
+      "traditional_char": "虞"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从“虍”表意、‘吴’表声。原指神话中的兽。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由兽的警觉引申为预料，古汉语比喻推测未来。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由“预料”向“忧虑”发展，忧虑常与对未来的预料相关。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "“预料”之意演变为“设想、设谋”，进而为“欺骗”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "semantic_shift",
+      "note": "古音通“娱”，后以同音假借为“安乐”。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 8,
+      "evolution_type": "conversion",
+      "note": "国名转用作姓氏，古汉语常见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "unknown",
+      "note": "地名和朝代名与本义联系不明，或取象征义。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 7,
+      "evolution_type": "unknown",
+      "note": "用作朝代名但具体引申机理难考。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "semantic_extension",
+      "note": "由兽名引申为负责山泽官职，或与“山虞”、“泽虞”关系。"
+    }
+  ]
+}

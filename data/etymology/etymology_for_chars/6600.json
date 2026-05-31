@@ -1,0 +1,53 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "山间隐僻处或山中平地，多用于地名，尤指浙江、福建等沿海一带的地名。",
+      "examples": [
+        "出南门三十里，宿于八岙。",
+        "一路遵海而南，踰窑岙岭，往乐清。"
+      ],
+      "traditional_char": "岙"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "水湾，可供船只停泊。",
+      "examples": [
+        "水仅得开山，无嶴可泊，至射洋湖之云梯关宿焉。"
+      ],
+      "traditional_char": "岙"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "水中小岛。",
+      "examples": [
+        "海中有暗嶴，亦半年无日。"
+      ],
+      "traditional_char": "岙"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘岙’为形声字，山为形，奥为声，本义为山间隐僻处或山中平地。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "因山间平地常与水流相连，意义由山中平地引申为可船泊的水湾，常见于地名演变中。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "因水湾地理特征，进一步以‘岙’指代水中小岛。清代地志体现该用法。"
+    }
+  ]
+}

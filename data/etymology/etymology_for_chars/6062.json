@@ -1,0 +1,85 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "盛酒的器具，古代盛酒用具",
+      "examples": [
+        "有酒盈樽。——晋·陶渊明《归去来兮辞》",
+        "金樽清酒斗十千。——唐·李白《行路难》",
+        "春风东来忽相过，金樽渌酒生微波。"
+      ],
+      "traditional_char": "樽"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "泛指各种杯盏、饮具",
+      "examples": [
+        "茶樽独对余。",
+        "樽桂（杯中的桂花酒）"
+      ],
+      "traditional_char": "樽"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "往酒器里倒酒",
+      "examples": [
+        "少倾，摆出酒席，四位樽酒论文。——《儒林外史》"
+      ],
+      "traditional_char": "樽"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "抑止、节约（通“撙”）",
+      "examples": [
+        "樽流遁之观。——《淮南子·要略》"
+      ],
+      "traditional_char": "樽"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "林木茂盛的样子",
+      "examples": [
+        "樽乃林木茂盛之字。"
+      ],
+      "traditional_char": "樽"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 4,
+      "note": "形声字，从木，尊声，据部分文献原指林木茂盛，后借为盛酒器。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 4,
+      "target_index": 0,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "由林木茂盛之义假借为盛酒的器具，‘尊’（声符）为本义。见《说文》及《韵会》分化。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由特指盛酒器扩展为各种饮具。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "conversion",
+      "note": "由名词“盛酒器”转为动词“往酒器里倒酒”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "‘樽’通‘撙’，从盛酒器假借为抑止、节约之义，属古汉语通假用法。"
+    }
+  ]
+}

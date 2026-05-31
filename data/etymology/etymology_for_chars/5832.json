@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "玩弄娼妓的行为。",
+      "examples": [
+        "嫖妓",
+        "嫖客",
+        "吃喝嫖赌"
+      ],
+      "traditional_char": "嫖"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "勇健轻捷的样子（用于“嫖姚”一词中）。",
+      "examples": [
+        "以嫖姚校尉再从大将军。"
+      ],
+      "traditional_char": "嫖"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "‘女’为意符，‘票’为声符。初用于形容勇健轻捷，后音转用作动词意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_shift",
+      "note": "由“轻快、勇健”引申至后世指男性流连妓院，意义发生转变，约自中古以后。"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "深明，通达。指智慧、聪明，思考深远通达。",
+      "examples": [
+        "睿，智也，明也，圣也。——《玉篇》",
+        "能为聪明睿知。——《礼记·中庸》",
+        "睿莫大乎自虑。——《中论·修本》"
+      ],
+      "traditional_char": "睿"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "古时臣下对君王、后妃等所用的敬词，颂扬帝王的圣明德智。",
+      "examples": [
+        "睿旨",
+        "睿览",
+        "睿鉴",
+        "睿藻"
+      ],
+      "traditional_char": "睿"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "特指孔子，作为孔子的尊称。",
+      "examples": [
+        "睿图（指孔子的画像）"
+      ],
+      "traditional_char": "睿"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "《说文》会意：从目，从谷省，表示明察通达，以‘目’喻明智，‘谷’为空虚畅通之义，组合体现深明、通达的原意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由形容人的深明通达转用于称颂帝王的明智、圣明。出现在先秦两汉，逐渐成为专用于帝王的敬辞。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_narrowing",
+      "note": "由帝王敬辞进一步特殊化，用于尊称孔子，见于后世文献中对孔子的“睿图”称法。"
+    }
+  ]
+}

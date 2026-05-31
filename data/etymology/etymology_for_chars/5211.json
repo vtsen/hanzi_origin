@@ -1,0 +1,87 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古代写字用的木片或木简",
+      "examples": [
+        "牍，书版也。长一尺，既书曰牍，未书曰椠。——《说文》",
+        "削牍为疏。——《史记·游侠原涉传》"
+      ],
+      "traditional_char": "牘"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "文书、公文等书面档案",
+      "examples": [
+        "无案牍之劳形。——唐·刘禹锡《陋室铭》",
+        "命中书十余人操牍以进。"
+      ],
+      "traditional_char": "牘"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "书信、信件",
+      "examples": [
+        "与人尺牍。",
+        "书牍往来。"
+      ],
+      "traditional_char": "牘"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "书籍、著作",
+      "examples": [
+        "所见篇牍，一览多能诵记。",
+        "史牍"
+      ],
+      "traditional_char": "牘"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "古代乐器名，用竹制成，敲打出声",
+      "examples": [
+        "舂牍、应、雅以教祴乐。《周礼·春官·笙师》",
+        "牍为之奏。——唐 皮日休《九夏歌》"
+      ],
+      "traditional_char": "牘"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从片，賣声；‘片’表意义指木片，‘賣’表音。创造初指古代书写材料的木简。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由木牍泛指写在木片上的文书，进而转指档案、公文等书面材料。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "书信为文书、公文的一种，语义扩展。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由公文进一步扩展指书籍、著作。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "因乐器用竹片制成，形状类似木牍，以形似得名。"
+    }
+  ]
+}

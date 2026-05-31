@@ -1,0 +1,53 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "空气中悬浮大量烟尘等微粒而形成的混浊现象",
+      "examples": [
+        "阴霾",
+        "城市中常见阴霾天气"
+      ],
+      "traditional_char": "霾"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "风中夹带沙土和尘土，尘土飞扬的现象",
+      "examples": [
+        "乱风时空中降下沙土，尘土飞扬，曰霾"
+      ],
+      "traditional_char": "霾"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "埋葬，与“埋”同",
+      "examples": [
+        "古书中‘霾’通‘埋’"
+      ],
+      "traditional_char": "霾"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "形声字，从雨，貍声，表示风夹着尘土。本义见《说文解字》。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "由原意风沙蔽空、尘土飞扬扩展指现代空气中烟尘造成的混浊现象。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "unknown",
+      "note": "‘霾’通‘埋’，用作埋葬义，疑为音近假借。"
+    }
+  ]
+}

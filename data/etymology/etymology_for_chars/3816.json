@@ -1,0 +1,99 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古地名，春秋时期晋邑，在今山西省垣曲县、河南省济源县一带。",
+      "examples": [
+        "邵，晋邑也。——《说文》",
+        "戌郫邵。——《左传·襄公二十三年》"
+      ],
+      "traditional_char": "邵"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "古州名，今福建省邵武县等地。",
+      "examples": [
+        "后魏改为邵郡，后周改为邵州。"
+      ],
+      "traditional_char": "邵"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "古郡名，即邵陵郡，相当于今湖南省邵阳市及新邵、邵阳县等地。",
+      "examples": [
+        "齐桓公伐楚，至邵陵。——《史记·秦本纪》"
+      ],
+      "traditional_char": "邵"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "水名，邵水，源于湖南省宝庆县东注入资水。",
+      "examples": [
+        "邵水发源龙山。西流会桐江、檀江，在湖南省宝庆县东注入资水。"
+      ],
+      "traditional_char": "邵"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [
+        "然则良臣如王成、黄霸、龚遂、邵信臣之徒，可比郡而得也。——《潜夫论·三式》"
+      ],
+      "traditional_char": "邵"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "adjective",
+      "meaning": "美好、高尚（与“劭”通用）。",
+      "examples": [
+        "公仪子、董仲舒之才之邵也。——《法言·修身》",
+        "斯皆不足邵也。——章炳麟《国故论衡·论式》"
+      ],
+      "traditional_char": "邵"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从邑，召声。本义为地名，以邑为意符，召为声符。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由原晋邑地名扩展为其他地方相关地名。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由地名扩展到相近地理区域（郡名）。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "以地名转称为当地的河流名。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由地名发展为姓氏，因人以邑为氏的通例。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "因与“劭”同音、意义美好借用，后作美好、高尚之意。"
+    }
+  ]
+}

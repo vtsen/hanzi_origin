@@ -1,0 +1,115 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "股骨，指大腿骨。",
+      "examples": [
+        "髁，髀骨也。——《说文》。段玉裁注：“髀骨，犹言股骨也。”",
+        "《医经》亦谓之股骨。"
+      ],
+      "traditional_char": "髁"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "尾骨。",
+      "examples": [
+        "髁，尻骨。——《一切经音义》引《三苍篇》"
+      ],
+      "traditional_char": "髁"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "膝骨，也指膝部。",
+      "examples": [
+        "髁，膝骨。——《广韵》",
+        "鲁迅《彷徨·示众》：车上的坐客依然坐着，车夫已经完全爬起，但还在摩自己的膝髁。"
+      ],
+      "traditional_char": "髁"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "踝骨，小腿和脚交接处左右两旁凸起的部分。也作“踝”。",
+      "examples": [
+        "群儿坌涌，各持砖瓦击其髁……次日，家人寻之归，两足青紫。——清·纪昀《阅微草堂笔记》"
+      ],
+      "traditional_char": "髁"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "膝端为髁，踵两旁圜骨为髁，泛指各种骨头上的突起部分（髁突、髁部）。",
+      "examples": [
+        "膝端为髁，踵两旁圜骨为髁。"
+      ],
+      "traditional_char": "髁"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "髖骨，胯骨。",
+      "examples": [
+        "胯骨即髖骨也。又名髁骨。——《医宗金鉴》"
+      ],
+      "traditional_char": "髁"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "不正貌，一说为谨刻。",
+      "examples": [
+        "謑髁，无任。——《庄子·天下篇》",
+        "髁，謑髁，不正貌；一曰谨刻。——《集韵》"
+      ],
+      "traditional_char": "髁"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从‘骨’，‘果’声，表示与骨头相关，最初本义为‘股骨’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由股骨（大腿骨）扩展指尾骨，见古籍语境。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "从大腿骨扩展指膝骨，因其解剖部位临近。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "将‘膝骨’之‘髁’扩展为泛指骨头的突出部（髁突）。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "从大腿骨扩展指踝骨，均为下肢大骨相关。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "从股骨进一步泛指近髖处的髖骨，常见于医书。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "unknown",
+      "note": "‘不正貌’义，或与骨形参差有关，但语源关系不明。"
+    }
+  ]
+}

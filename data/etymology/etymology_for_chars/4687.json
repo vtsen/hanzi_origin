@@ -1,0 +1,83 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古代的一种姓氏，始于上古母系社会。",
+      "examples": [
+        "姬姓为周朝王族。"
+      ],
+      "traditional_char": "姬"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "古代对妇女的美称。",
+      "examples": [
+        "西施乃国色天姬。"
+      ],
+      "traditional_char": "姬"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "汉代宫中的女官名。",
+      "examples": [
+        "汉宫姬列众多。"
+      ],
+      "traditional_char": "姬"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "旧时称妾或侍女。",
+      "examples": [
+        "大臣纳姬为妾。",
+        "姬侍绕床。"
+      ],
+      "traditional_char": "姬"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "旧时称以歌舞为业的女子。",
+      "examples": [
+        "歌姬翩舞。"
+      ],
+      "traditional_char": "姬"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从女，音声为‘姬’。本义为上古母系氏族之姓，‘女’表语义，‘㝵’为声符。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由高贵姓氏引申为对妇女的美称，早在先秦就存在。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_narrowing",
+      "note": "由泛指美称专指宫廷女官，多见于汉代。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由对妇女的美称引申为妾、侍女之称，见于古代文献。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由妾、侍女之义进一步引申为以歌舞为业的女子。"
+    }
+  ]
+}

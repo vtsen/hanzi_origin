@@ -1,0 +1,40 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "大石，层迭的山石",
+      "examples": [
+        "磐石",
+        "磐互",
+        "磐礴"
+      ],
+      "traditional_char": "磐"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "盘桓，徘徊不前",
+      "examples": [
+        "磐辟",
+        "磐桓"
+      ],
+      "traditional_char": "磐"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "左为“石”表义，右为“般”表音，最初指大石或层迭的山石。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由大石的稳重、留驻，引申为盘桓、徘徊，用作动词。"
+    }
+  ]
+}

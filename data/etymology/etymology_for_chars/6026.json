@@ -1,0 +1,82 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "用耬車或耩子播種。",
+      "examples": [
+        "耩棉花",
+        "耩種子",
+        "先以耬耩，然後散子。"
+      ],
+      "traditional_char": "耩"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "用耬車施肥。",
+      "examples": [
+        "耩糞"
+      ],
+      "traditional_char": "耩"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "耕耘土地。",
+      "examples": [
+        "耩得五遍，已上下不烦耩。",
+        "耕曰耩。",
+        "做豆將田耩。"
+      ],
+      "traditional_char": "耩"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "培土。",
+      "examples": [],
+      "traditional_char": "耩"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "田間除草。",
+      "examples": [],
+      "traditional_char": "耩"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 2,
+      "note": "‘耩’從‘耒’（表示與農耕相關），‘講’聲，本義為‘耕地’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 2,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "自通指耕耘之義，專指利用耬車進行播種，北魏、明代用法可見。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由用耬車播種引申為用耬車施肥，語義範圍擴展，見於現代農業用語。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "從‘耕’的義項衍生出‘培土’作業，操作方式相關。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由‘耕’引申為田間除草，也是田間管理的一環。"
+    }
+  ]
+}

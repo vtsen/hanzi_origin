@@ -1,0 +1,98 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "浅青黑色，灰黑色。",
+      "examples": [
+        "黪，浅青黑色也。——《说文》",
+        "其色灰黪。——《本草纲目》"
+      ],
+      "traditional_char": "黪"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "暗色、昏暗，尤指日光暗淡。",
+      "examples": [
+        "黪黪（暗淡）；黪澹（昏暗的样子）",
+        "茫茫宇宙，上黪下黩。——《文选·汉功臣表》"
+      ],
+      "traditional_char": "黪"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "（东西即将腐败时呈现的）浅黑色、败色。",
+      "examples": [
+        "今谓物将败时，颜色黲黲也。——《玉篇》"
+      ],
+      "traditional_char": "黪"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "浅青黑色；灰黑色。（“黲”的繁体写法）",
+      "examples": [
+        "淺靑黑色也。——《說文·黑部》"
+      ],
+      "traditional_char": "黲"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "暗色，尤指日暗色。（“黲”的繁体写法）",
+      "examples": [
+        "黲，日暗色。——《廣韻·上敢》"
+      ],
+      "traditional_char": "黲"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "adjective",
+      "meaning": "东西将败时的颜色，败色。（“黲”的繁体写法）",
+      "examples": [
+        "今謂物將敗時，顏色黲黲也。——《玉篇》"
+      ],
+      "traditional_char": "黲"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘黪’由‘黑’表义，‘参’表声，表示浅青黑色。现代简体字。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 3,
+      "note": "‘黲’由‘黑’表义，‘參’表声，意为浅青黑色，为正体字或异体。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由浅青黑色引申为一般暗色、昏暗的颜色。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由暗色进一步用于表示东西腐败变质时的颜色。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由浅青黑色引申为日暗色。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "由日暗色引申为物将败时的颜色。"
+    }
+  ]
+}

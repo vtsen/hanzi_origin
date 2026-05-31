@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "鸟鸣声、鸟类叫声，有时亦指凤皇等神鸟的叫声。",
+      "examples": [
+        "鸡鸣喈喈。",
+        "鶬鶊兮喈喈。",
+        "黄鸟于飞，其鸣喈喈。"
+      ],
+      "traditional_char": "喈"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "声音和谐、悦耳，泛指各种和谐美妙的声音，包括铃、钟等器物的声音。",
+      "examples": [
+        "鼓钟喈喈。",
+        "鐘鼓喈喈，制度之妙。"
+      ],
+      "traditional_char": "喈"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "疾速的样子，多形容风雨猛烈。",
+      "examples": [
+        "北风其喈，雨雪其霏。",
+        "喈，疾貌。"
+      ],
+      "traditional_char": "喈"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从口，表与声音有关，‘皆’为声旁，本指鸟的鸣叫声。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由鸟鸣声引申为一般和谐美妙的声音，用于各类物体如钟鼓。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "从鸟鸣等连续高响声形容，转用于风雨等自然界现象的急速猛烈。"
+    }
+  ]
+}

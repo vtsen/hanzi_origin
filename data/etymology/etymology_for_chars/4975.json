@@ -1,0 +1,118 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "水渗入船中。",
+      "examples": [
+        "淦，水入船中也。——《说文》",
+        "船被水淦。"
+      ],
+      "traditional_char": "淦"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "涂泥；覆盖泥土。",
+      "examples": [
+        "淦，泥也。——《说文》",
+        "以泥淦舟。"
+      ],
+      "traditional_char": "淦"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "河工术语，指河流中起伏很大的激浪。",
+      "examples": [
+        "河工称起伏甚大的激浪谓之淦。",
+        "黄河下游激溜成浪，起伏甚大者称为淦。"
+      ],
+      "traditional_char": "淦"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "河名，在江西省境内，即淦水。",
+      "examples": [
+        "淦水，在江西省境。",
+        "新淦，地名。"
+      ],
+      "traditional_char": "淦"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [
+        "江西多淦氏。",
+        "宋高宗为加点水，遂有淦姓。"
+      ],
+      "traditional_char": "淦"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "船舱中的水。",
+      "examples": [
+        "舱中之水曰淦。",
+        "船漏水则舱中有淦。"
+      ],
+      "traditional_char": "淦"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "沉没（水沉船、物沉水底）。",
+      "examples": [
+        "淦瀯，沉没。"
+      ],
+      "traditional_char": "淦"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘淦’从水，金声，形声字，初义为‘水渗入船中’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "由动作（水进入船内）引申为‘船舱中的水’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "船中进水之‘激’义转喻河流激浪。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "以‘淦’状水，名江西河流。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "function_word",
+      "note": "由地名继而成为姓氏。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_shift",
+      "note": "原为水入船，后泛指‘涂泥’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "semantic_extension",
+      "note": "从水侵入进而有‘沉没’义。"
+    }
+  ]
+}

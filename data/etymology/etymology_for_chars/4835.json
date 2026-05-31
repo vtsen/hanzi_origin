@@ -1,0 +1,53 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "蚰蜒，一种节肢动物，形似蜈蚣但较小，黄褐色，触角和脚很长，毒颚大，多见于阴湿环境。",
+      "examples": [
+        "墙角有一只蚰蜒。",
+        "《本草》：蚰蜒，长寸余，死亦蜷曲如环。"
+      ],
+      "traditional_char": "蚰"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "马蚰，即马陆，一种体型较大的多足类动物。",
+      "examples": [
+        "《方言》：马蚿，其大者谓之马蚰。"
+      ],
+      "traditional_char": "蚰"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "蚰蜓，俗称“草鞋虫”，与蚰蜒类似但触角和脚较细短。",
+      "examples": [
+        "草丛中有许多蚰蜓。"
+      ],
+      "traditional_char": "蚰"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘蚰’从虫，尤声。‘虫’表示与昆虫类相关，‘尤’表读音。最初指蚰蜒类节肢动物。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由对节肢动物蚰蜒的称呼，引申到体型较大的近缘多足动物，即马蚰。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由基本义‘蚰蜒’扩展用于相关的节肢动物‘蚰蜓’。"
+    }
+  ]
+}

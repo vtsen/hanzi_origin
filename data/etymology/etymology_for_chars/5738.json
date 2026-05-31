@@ -1,0 +1,72 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "onomatopoeia",
+      "meaning": "形容金属、玉石等相击时发出的清脆洪亮的声音。",
+      "examples": [
+        "锣鼓锵锵",
+        "锵鈜",
+        "锵喤"
+      ],
+      "traditional_char": "鏘"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "形容凤凰等鸟类鸣叫的声音。",
+      "examples": [
+        "是谓凤皇于飞，和鸣锵锵。——《左传》"
+      ],
+      "traditional_char": "鏘"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "通“斨”，斧钺类兵器。",
+      "examples": [
+        "鏘鉞"
+      ],
+      "traditional_char": "鏘"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "other",
+      "meaning": "“锵”的简化字形式，用于现代汉语。",
+      "examples": [],
+      "traditional_char": "锵"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "鏘为形声字，从金，將声，本意为金玉撞击之声。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 3,
+      "note": "锵为鏘的简化字，从金，将声，简化字沿袭原意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "以金玉撞击的清脆鸣响引申为凤鸟鸣叫之声。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "金属撞击声与金属制斧钺兵器相关，引申通用“斨”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "reanalysis",
+      "note": "现代汉语采简化字“锵”继承原音义。"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古代一种长刃矛，兵器名",
+      "examples": [
+        "不敌于鉤戟长铩也。",
+        "鉏櫌棘矜，非铦于钩戟长铩也。"
+      ],
+      "traditional_char": "鎩"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "铍有镡（带有护手的长矛）",
+      "examples": [
+        "铩，铍有镡也。"
+      ],
+      "traditional_char": "鎩"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "泛指兵器",
+      "examples": [
+        "长棘劲鎩，望飙而奋。"
+      ],
+      "traditional_char": "鎩"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "削除、剪除（鸟羽）；伤残",
+      "examples": [
+        "铩羽暴鳞，复见翻跃。",
+        "鸾羽有时铩，龙性谁能驯？"
+      ],
+      "traditional_char": "鎩"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "比喻摧残、伤害，使丧志、失意",
+      "examples": [
+        "铩羽（比喻人受摧残而失志）；铩翼（羽毛摧败）。",
+        "是以贾生怀琬琰而挫翮，冯子握玙璠而铩羽。"
+      ],
+      "traditional_char": "鎩"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "张翼（鸟张开翅膀）",
+      "examples": [
+        "铩，《字林》：“张翼也”。"
+      ],
+      "traditional_char": "鎩"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从“金”表示与兵器相关，声旁“杀”，最初指长刃矛。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从专指某种长矛扩展为带护手的铍。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "长矛义泛指为兵器类。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由兵器削除义引申为剪除鸟羽、伤残。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "由鸟羽伤残义进一步比喻为人失意、受挫。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "由羽翼剪除兼及鸟张翼、羽翼相关动作。"
+    }
+  ]
+}

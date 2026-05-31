@@ -1,0 +1,116 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "徘徊的样子，来回走动，不前进。",
+      "examples": [
+        "逡巡不进也。",
+        "体惭曰逡。"
+      ],
+      "traditional_char": "逡"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "退让，退却，向后撤退。",
+      "examples": [
+        "有功者上，无功者下，则群臣逡。",
+        "逡巢逗穴，命淮、汝戈船，遏其还径。"
+      ],
+      "traditional_char": "逡"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "复，往来（来回活动、流动）。",
+      "examples": [
+        "逡，复也。",
+        "往来即逡巡意。"
+      ],
+      "traditional_char": "逡"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "日月等天体运行一度叫逡。",
+      "examples": [
+        "日运为躔，月运为逡。"
+      ],
+      "traditional_char": "逡"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "狡兔名。",
+      "examples": [
+        "东郭逡者，海内之狡兔也。"
+      ],
+      "traditional_char": "逡"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "古县名（逡遒、逡道）。",
+      "examples": [
+        "逡道令，汉作逡遒。"
+      ],
+      "traditional_char": "逡"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "通“駿”。急速，疾走。",
+      "examples": [
+        "执籩豆，逡奔走。",
+        "逡奔走在庙。"
+      ],
+      "traditional_char": "逡"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从辵，夋声，表示徘徊、不前含义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "徘徊不前引申为退让、退却的动作。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "徘徊、来回行动引申为复、往来。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由来回运动比喻天体运动一度。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "semantic_shift",
+      "note": "徘徊/动作引申为急速、疾走（通假借用）。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "由徘徊、灵敏动作转指狡兔。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "unknown",
+      "note": "县名用字，具体引申关系不明。"
+    }
+  ]
+}

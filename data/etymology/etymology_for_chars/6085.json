@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "直视，瞪着眼睛看",
+      "examples": [
+        "瞠，直视也。《集韵》",
+        "夫子奔逸绝尘，而回瞠若乎后矣。《庄子·田子方》",
+        "忠烈乃瞠目曰：‘我史阁部也。’《梅花岭记》",
+        "可惜我去问他，他们都瞠着眼不说话。"
+      ],
+      "traditional_char": "瞠"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "惊视，吃惊地张眼看",
+      "examples": [
+        "众目亦益瞠，口亦益张。《鲁迅·集外集拾遗》",
+        "‘啊，吴嫗不几吓杀耶？’李媼又大惊叫，众目亦益瞠，口亦益张。《鲁迅·怀旧》"
+      ],
+      "traditional_char": "瞠"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "定视，专注地注视",
+      "examples": [
+        "定视也。与“𥊼”同。"
+      ],
+      "traditional_char": "瞠"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从目，甞声，本义为直视、瞪眼。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由原义‘直视’引申为因惊讶而直视，即‘惊视’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_narrowing",
+      "note": "专指‘定视’义，体现注视、凝视之义，语义收窄。"
+    }
+  ]
+}

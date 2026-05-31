@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "马棚，特指养马的棚舍。",
+      "examples": [
+        "马厩",
+        "厩肥"
+      ],
+      "traditional_char": "廏"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "泛指牲口棚，用于养其他家畜的棚舍。",
+      "examples": [
+        "牛厩",
+        "猪厩"
+      ],
+      "traditional_char": "廏"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从广，表示房屋、棚舍；从臼，表声；最初意义为马棚。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由特指马棚扩展为泛指各种牲口棚，出现于较晚汉语文献。"
+    }
+  ]
+}

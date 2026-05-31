@@ -1,0 +1,93 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "用茅草覆盖房屋",
+      "examples": [
+        "葺屋参分。——《考工记·匠人》",
+        "芷葺兮荷屋。——《楚辞·湘夫人》"
+      ],
+      "traditional_char": "葺"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "修理或修缮房屋",
+      "examples": [
+        "葺其墙屋。——《左传·昭公二十三年》",
+        "余稍为修葺。——明·归有光《项脊轩志》"
+      ],
+      "traditional_char": "葺"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "整理、整治、修饰",
+      "examples": [
+        "然皆句读不葺之诗尔。——李清照《词论》",
+        "自入京邑以來，隨加補葺。——《北史·许善心传》"
+      ],
+      "traditional_char": "葺"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "重叠、累积",
+      "examples": [
+        "鱼葺鳞以自别兮。——《楚辞·悲回风》",
+        "葺鱗鏤甲。——左思《吴都赋》"
+      ],
+      "traditional_char": "葺"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "通“缉”，搜捕",
+      "examples": [
+        "募人告葺，知得逐贼窟穴去处。——宋·苏轼",
+        "葺捕——《辞源》"
+      ],
+      "traditional_char": "葺"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从艸表意（草本植物），揖声，本义为‘用茅草覆盖房屋’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由特指‘用茅草覆盖房屋’扩展为泛指‘修理、修缮房屋’，语义推广，先秦已见。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由修缮房屋类推引申解释为整理、修饰、整治，常用于抽象用法。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "修饰、整理之意比喻为‘重叠、累积’（如鳞甲重叠），取实际叠加之状。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由‘覆盖房屋’引申为‘重叠、累积’（如鱼鳞重叠），形象比喻。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 4,
+      "evolution_type": "unknown",
+      "note": "‘葺’通‘缉’，疑由整治义借音通用，具体演变过程存疑。"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "伞菌类的真菌植物，生长在树林或草地上，有菌盖和菌柄，有些可以食用，有些有毒。",
+      "examples": [
+        "毒蝇蕈",
+        "香蕈",
+        "思乐葛藟，薄采其蕈。（陆云）",
+        "天平山僧得蕈一丛，煮食之，大吐......竟死。"
+      ],
+      "traditional_char": "蕈"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "一种常绿乔木，叶侧卵形，结蒴果。为优质木材。",
+      "examples": [
+        "蕈树"
+      ],
+      "traditional_char": "蕈"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "同“覃”，指蔓延、延及。",
+      "examples": [],
+      "traditional_char": "蕈"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从艸，覃声。本义为菌类植物。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由菌类泛指到具体树木名，或与地方用法相关，不常见"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "借为“覃”字用作蔓延义，见于古籍通假"
+    }
+  ]
+}

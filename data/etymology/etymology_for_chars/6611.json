@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "小水流蜿蜒流动的样子",
+      "examples": [
+        "汫濙，小水貌。",
+        "汫涏，小水名，漂流。"
+      ],
+      "traditional_char": "汫"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "陷阱，坑；“阱”的古字",
+      "examples": [
+        "籀文“阱”从水，篆作汫。"
+      ],
+      "traditional_char": "汫"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "地名用字，如广东饶平县有汫洲",
+      "examples": [
+        "广东省饶平县有汫洲。",
+        "萱野运械至汫洲港等处，起水接济。"
+      ],
+      "traditional_char": "汫"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "篆文作“汫”，从水，丼声，为“阱”的古体，含水意与声音。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "由原义陷阱、坑衍生为水流蜿蜒之貌，因水坑、水洼形态所致，东汉以后见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "地名多以地形或水貌命名，此义为地理专用。"
+    }
+  ]
+}

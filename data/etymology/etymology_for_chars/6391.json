@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "蠓科等小型飞虫，体小，褐色或黑色，雌虫吸人畜之血，可传播疾病。",
+      "examples": [
+        "《尔雅·释虫》：蠓，蠛蠓。",
+        "列子《汤问篇》：春夏之月有蠓蚋者，因雨而生，见阳而死。",
+        "现代例句：夏天傍晚常有蠓虫叮咬皮肤。"
+      ],
+      "traditional_char": "蠓"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "蜂的别称（方言用法）。",
+      "examples": [
+        "《广雅·释虫》：蠓螉，蜂也。",
+        "《方言十一》：蠭，燕赵之闲谓之蠓螉。"
+      ],
+      "traditional_char": "蠓"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "轻视，小看。",
+      "examples": [
+        "唐 皮日休《正尸祭》：“可以蠛汉蠓魏，岂不能守周孔礼制哉？”"
+      ],
+      "traditional_char": "蠓"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从虫，蒙声。本义为小型飞虫，结合声旁表音与义旁表类，结构上较为清晰。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "因同为小型飞虫，部分地区以“蠓”借指蜂，属方言现象，见《广雅》《方言》。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由小虫引申为小看、轻视，常见于文言中作贬义修辞。"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "大堂前东面的台阶，主人于此迎宾、承祭祀之所（东阶/主阶）",
+      "examples": [
+        "席主人于阼阶上。",
+        "乡人傩，朝服而立于阼阶。",
+        "故冠以阼。"
+      ],
+      "traditional_char": "阼"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "帝位，因天子践阼（登东阶）主持祭祀，遂以阼指帝位",
+      "examples": [
+        "皇帝即阼。",
+        "成王幼，不能莅阼。",
+        "践阼临祭祀。"
+      ],
+      "traditional_char": "阼"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "国运、国家之运势（引申义，通“祚”）",
+      "examples": [
+        "魏阼所以不长。",
+        "汉阼将湮于地。"
+      ],
+      "traditional_char": "阼"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "祭肉（通“胙”）",
+      "examples": [
+        "登自胙阶。",
+        "祝命彻阼俎。"
+      ],
+      "traditional_char": "阼"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从阜，表示与台阶、土有关，乍声；本义为大堂前东侧主阶。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "东阶为主阶，帝王即位行典均升阼，因阶代称帝位，先秦已见。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "帝位引申为国家命运，阼后泛指国运，与“祚”通。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "阼通“胙”，由主阶引申指祭肉（主人所祭之肉），义属旁通；战国秦汉已现。"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "用于水稻田中耕、除草、松土的农具。",
+      "examples": [
+        "田耥用于稻田松土除草。"
+      ],
+      "traditional_char": "耥"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "用耥耙松土、除草或弄平水田。",
+      "examples": [
+        "他在田里耥草松土。"
+      ],
+      "traditional_char": "耥"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘耥’为形声字，耳为形，尚为声，本义为农具名。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "conversion",
+      "note": "由表示农具名的名词转为表示使用该农具进行动作的动词。"
+    }
+  ]
+}

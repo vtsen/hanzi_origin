@@ -1,0 +1,72 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "鸟叫声，鸟类和虫鸣等各种清脆、杂乱的声音。",
+      "examples": [
+        "啁啾：禽鸟鸣声",
+        "啁唧：鸟虫鸣声",
+        "至于燕雀，犹有啁噍之顷焉"
+      ],
+      "traditional_char": "啁"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "声音杂乱细碎。",
+      "examples": [
+        "啁哳：形容声音繁杂细碎"
+      ],
+      "traditional_char": "啁"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "戏谑、嘲笑、调笑。",
+      "examples": [
+        "孙权性既滑稽，嘲啁无方",
+        "唯詼啁而已",
+        "或啁之"
+      ],
+      "traditional_char": "啁"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "多言、啰嗦。",
+      "examples": [
+        "嘐啁：话多",
+        "啁嘐也"
+      ],
+      "traditional_char": "啁"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从口，周声。本义为鸟叫声，口表声，周为声符。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由鸟叫声引申为一般杂乱、细碎的声音，用于拟声。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由鸟叫声喧哗引申比喻为说话嬉戏、戏谑、嘲笑，多见于古文。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由啁嘐表多鸟喧叫，转指人多言或啰嗦。"
+    }
+  ]
+}

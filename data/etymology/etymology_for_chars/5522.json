@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "田间的土埂；田地间起分隔作用的土堤。",
+      "examples": [
+        "塍，稻中畦也。——《说文》",
+        "田塍望如线，白水光参差。——刘禹锡《插田歌》"
+      ],
+      "traditional_char": "塍"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "田间小堤，用于拦水或分隔田地。",
+      "examples": [
+        "小堤曰塍。——《广雅》",
+        "塍岸（小堤；田堤）"
+      ],
+      "traditional_char": "塍"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "畦田，指田地间分割成块的田地。",
+      "examples": [
+        "塍畎（指田地）",
+        "圃百畦，田若干塍。——柳宗元《柳州复大云寺记》"
+      ],
+      "traditional_char": "塍"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从土，朕声，表示田间的土埂或田埂，是本义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由田间土埂扩展指田间的小堤，功能类似，语义延伸。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由田埂本义进一步引申为畦田、分块的田地单位。"
+    }
+  ]
+}

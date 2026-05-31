@@ -1,0 +1,101 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "雨水多，大雨的样子。",
+      "examples": [
+        "水潦降，不献鱼鳖。（《礼记》）",
+        "湖滨之田，待夏潦已过，六月方栽者。（明·宋应星《天工开物》）"
+      ],
+      "traditional_char": "潦"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "路上的流水，雨后积水。",
+      "examples": [
+        "潦水尽而寒潭清。（唐·王勃《滕王阁序》）",
+        "泂酌彼行潦。（《诗·大雅》）"
+      ],
+      "traditional_char": "潦"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "水淹没，因雨过多成灾。",
+      "examples": [
+        "禹之时，十年九潦。（《庄子·秋水》）",
+        "潦则疏泄。（《资治通鉴》）"
+      ],
+      "traditional_char": "潦"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "水名。如澇水、潦河、遼河等。",
+      "examples": [
+        "潦水出卫皋东，东南注渤海，入辽阳。（《山海经·海内东经》）",
+        "酆镐潦潏。（司马相如《上林赋》）"
+      ],
+      "traditional_char": "潦"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "潦倒，不羁，失意。",
+      "examples": [
+        "潦倒麤疏。（嵇康《绝交书》）"
+      ],
+      "traditional_char": "潦"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "adjective",
+      "meaning": "潦草，做事或书写粗率不精细。",
+      "examples": [
+        "潦草涂写。"
+      ],
+      "traditional_char": "潦"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘潦’从水，尞（音lǎo/ liáo）声，表雨水大的状态。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“雨水大”扩展为路上积水、雨后的流水。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由“大雨”引申为水灾、水淹。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "以“水多”引申为水名，指河流。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "由雨水混乱比喻为人的状态紊乱潦倒。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "metaphor",
+      "note": "由水势混乱引申比喻为做事、写字草率。"
+    }
+  ]
+}

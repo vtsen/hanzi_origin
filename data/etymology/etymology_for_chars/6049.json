@@ -1,0 +1,70 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "多年生草本植物，地下有鳞茎，叶似韭菜，可食用，亦作药用。",
+      "examples": [
+        "又不食酸薤野菜。——《宛如钓》",
+        "蔥薤之屬，食之止臥。——《儀禮·士相見禮》"
+      ],
+      "traditional_char": "薤"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "这种植物的鳞茎，又称藟头，常作为蔬菜或药材食用。",
+      "examples": [
+        "百合科。多年生草本。鱗莖作蔬菜。",
+        "新鮮鱗莖可作蔬菜，乾燥鱗莖可入藥。"
+      ],
+      "traditional_char": "薤"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "古代挽歌名，如《薤露》。",
+      "examples": [
+        "〔～露〕古代挽歌名。",
+        "挽曲方傳《薤》，行輀競奠椒。——梅堯臣《齊國大長公主輓詞》"
+      ],
+      "traditional_char": "薤"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "簟席的一种，因用薤叶或形似薤叶而名。",
+      "examples": [
+        "薤葉照人呈夏簟。——韩翃诗"
+      ],
+      "traditional_char": "薤"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从艸，㕢声。形声字，最初表示一种草本植物（即薤）。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_narrowing",
+      "note": "由指整个植物转指其可食用的鳞茎部分。发生于早期用药和食用语境。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "挽歌《薤露》以植物名转指特定类型的挽歌，因歌词‘薤上露’意象。汉魏六朝已见此用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "用薤叶形象比喻竹席，见于诗歌描写。"
+    }
+  ]
+}

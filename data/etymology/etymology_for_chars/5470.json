@@ -1,0 +1,50 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "interjection",
+      "meaning": "叹词，表示否定或不同意",
+      "examples": [
+        "嗳，别那么说。"
+      ],
+      "traditional_char": "噯"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "interjection",
+      "meaning": "叹词，表示懊恼、悔恨",
+      "examples": [
+        "嗳，我真不该来！"
+      ],
+      "traditional_char": "噯"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "interjection",
+      "meaning": "同“哎”，表示应答或引起注意",
+      "examples": [],
+      "traditional_char": "噯"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "噯由口字旁和爱（或哎）音旁组成，从声兼表音，口表声音相关，为形声字。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由否定/不同意的叹词意义扩展至懊恼或悔恨的感叹用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "与“哎”互通，用于普通的应答或注意，引申为语气词。"
+    }
+  ]
+}

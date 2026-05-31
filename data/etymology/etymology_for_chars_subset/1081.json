@@ -1,0 +1,61 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "名词",
+      "meaning": "有土地、人民、主权的政体，古代指诸侯所受封的地域。",
+      "examples": [
+        "国家",
+        "国土",
+        "国策",
+        "国法",
+        "国威"
+      ],
+      "traditional_char": "國"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "名词",
+      "meaning": "特指中国。",
+      "examples": [
+        "国产",
+        "国药",
+        "国乐"
+      ],
+      "traditional_char": "國"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "名词",
+      "meaning": "姓氏。",
+      "examples": [],
+      "traditional_char": "國"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "“囗”表示疆域包围，“或”本为“国”的本义及表音，合起来指有疆域的邦国。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "简化字“国”以“玉”为意符，借“囗”包围，简化自“國”，音、义与本义一致。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_narrowing",
+      "note": "“国”特指中国现象出现于近现代，范围收窄。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "conversion",
+      "note": "地名或族称转化为姓氏，常见于先秦后。"
+    }
+  ]
+}

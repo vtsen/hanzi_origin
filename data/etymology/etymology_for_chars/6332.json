@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "徘徊不前，猶豫不决。",
+      "examples": [
+        "世既卓兮遠眇眇，握佩玖兮中路躇。",
+        "哀裵回以躊躇。",
+        "蹇淹留而躊躇。"
+      ],
+      "traditional_char": "躇"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "踐踏、行走的樣子。",
+      "examples": [
+        "峭刻巖面穫，磴窮螺紋旋；徑裊珠絲躇，行具藤葛纏。",
+        "若躇步蹔蹈。"
+      ],
+      "traditional_char": "躇"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "超越階次，不按順序而進。",
+      "examples": [
+        "趙盾知之，躇階而走。",
+        "晉獒搏而躇。"
+      ],
+      "traditional_char": "躇"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "纏繞、盤旋的樣子。",
+      "examples": [
+        "徑裊珠絲躇，行具藤葛纏。"
+      ],
+      "traditional_char": "躇"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从足，著声，原表猶豫不前之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由‘猶豫不前’引申為‘徘徊行走，踐踏、移步’；動作相關。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "從‘行走’的纏繞，逐步轉為纏繞、盤旋之象。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由行動意義進一步引申為‘越級、不按階次’。"
+    }
+  ]
+}

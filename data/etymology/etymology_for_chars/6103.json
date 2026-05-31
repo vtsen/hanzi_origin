@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "螟蛾的幼虫，生活在稻等作物茎中，危害禾苗的害虫。",
+      "examples": [
+        "去其螟螣，及其蟊賊。",
+        "孰為邦蟊，節根之螟。",
+        "三化螟、玉米螟等均屬螟虫。"
+      ],
+      "traditional_char": "螟"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "螟蛉——一种绿色小虫，螟蛉蛾的幼虫。",
+      "examples": [
+        "螟蛉蛾的幼虫名为螟蛉。"
+      ],
+      "traditional_char": "螟"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "螟蛉——比喻义，指被抱养的孩子。",
+      "examples": [
+        "螟蛉有子，蜾蠃负之。"
+      ],
+      "traditional_char": "螟"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从虫，冥声。本义即指食禾苗心的害虫（螟蛾幼虫）。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_narrowing",
+      "note": "专指螟蛉蛾幼虫一类，属于螟虫的细分类。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "以螟蛉寄生借喻被抚养之子，文献中可见。"
+    }
+  ]
+}

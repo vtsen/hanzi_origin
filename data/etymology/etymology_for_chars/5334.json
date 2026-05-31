@@ -1,0 +1,60 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "细麻布，多用作制作丧服",
+      "examples": [
+        "《周礼•天官•典枲》：掌布、緦、縷，紵之麻草之物，以待时颁功而授齎。",
+        "郑玄注：緦，十五升布抽其半者。"
+      ],
+      "traditional_char": "緦"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "古代丧服名，五种丧服中最轻的一种，以细麻布为孝服，服丧三个月",
+      "examples": [
+        "《资治通鉴•晋穆帝永和十二年》：帝及群臣皆服緦，临于太极殿三日。",
+        "缌麻服（古代为期三个月的丧服）"
+      ],
+      "traditional_char": "緦"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "较为疏远的亲属关系",
+      "examples": [
+        "缌亲（较为疏远的亲属关系）",
+        "缌功（五种丧服中较轻的两种，由亲缘较疏者服之）"
+      ],
+      "traditional_char": "緦"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从糸，思声。本义为细麻布。"
+    },
+    {
+      "formation_type": "loan_character",
+      "original_sense_index": 0,
+      "note": "‘缌’为‘緦’的简化字，形体简化自緦，语义沿用。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "以细麻布用作丧服，称为‘缌麻（緦麻）’服，时间为先秦至两汉。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "因为服缌麻者多为关系较远的亲属，故用作亲属称谓，见于《礼记》等。"
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "粥，稀饭",
+      "examples": [
+        "鬻餬口，并日而食。",
+        "饘於是，鬻於是，餬屬。"
+      ],
+      "traditional_char": "鬻"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "卖，出售",
+      "examples": [
+        "市賤鬻貴。",
+        "人争鬻之。",
+        "明告鬻梅者。",
+        "賣兒鬻女。"
+      ],
+      "traditional_char": "鬻"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "买（较为罕见用法）",
+      "examples": [
+        "劉器之安世，晚在睢陽以鏹二十萬鬻一舊宅。",
+        "縉紳欣然鬻之。"
+      ],
+      "traditional_char": "鬻"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "使用",
+      "examples": [
+        "鬻狱（利用讼案而收受贿赂）",
+        "鬻举（使用钱财贿赂而登科第）"
+      ],
+      "traditional_char": "鬻"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "盗取，窃用",
+      "examples": [
+        "鬻事（盗取事名）",
+        "鬻权（弄权）"
+      ],
+      "traditional_char": "鬻"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "生育，养育",
+      "examples": [
+        "毛者孕鬻。",
+        "鬻，養；閔，憂也。",
+        "四者天鬻也，天鬻者，天食也。"
+      ],
+      "traditional_char": "鬻"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "adjective",
+      "meaning": "幼小，稚嫩",
+      "examples": [
+        "鬻子之閔斯。",
+        "鬻子（稚子）"
+      ],
+      "traditional_char": "鬻"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "noun",
+      "meaning": "水流溪谷之间（见“淫鬻”）",
+      "examples": [
+        "淫鬻（水流溪谷之间）"
+      ],
+      "traditional_char": "鬻"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘鬻’为形声字，从魚，从米，‘畜’声，表示粥或稠饭，音近‘粥’本义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_shift",
+      "note": "由‘粥’（用米做食物）引申为‘出售’（卖粥等食物，泛指出卖），自战国起流行。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "reanalysis",
+      "note": "动宾结构中语法角色不明反转，‘鬻’被解释为‘买’。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "卖→用/利用，卖出利益等于操纵或使用。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "卖→盗取，引申为为私利出卖、窃用。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "‘鬻’借为‘育’，通‘生养’义，主要出自“毛孕鬻”“天鬻”。"
+    },
+    {
+      "source_index": 5,
+      "target_index": 6,
+      "evolution_type": "semantic_extension",
+      "note": "‘养育’引申为‘幼小’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 7,
+      "evolution_type": "unknown",
+      "note": "‘水流溪谷之间’义出现在复合词‘淫鬻’，该义来源不明，或与原义隔绝。"
+    }
+  ]
+}

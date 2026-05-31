@@ -1,0 +1,37 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "厅堂前部的柱子",
+      "examples": [
+        "楹联高悬于柱上。"
+      ],
+      "traditional_char": "楹"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "measure_word",
+      "meaning": "古代计算房屋的单位，一说一列为一楹，一说一间为一楹",
+      "examples": [
+        "三楹大屋。"
+      ],
+      "traditional_char": "楹"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从木，盈声，‘木’表与柱子有关，‘盈’表声。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由原指柱子引申为以柱作为计量单位，古代建筑术语演变。"
+    }
+  ]
+}

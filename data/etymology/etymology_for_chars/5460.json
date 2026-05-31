@@ -1,0 +1,49 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "蛤蜊，贝类动物，常见于海中，亦称文蛤。",
+      "examples": [
+        "宋 梅堯臣《前日》：前日 揚州 去， 酒熟美蟹蜊。",
+        "且食蛤蜊。"
+      ],
+      "traditional_char": "蜊"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "接雨的器具，多为碗状，挂于屋檐下。",
+      "examples": [],
+      "traditional_char": "蜊"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "依照圆柱形状制成的木质对联，称“抱柱对”。",
+      "examples": [],
+      "traditional_char": "蜊"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从虫，利声。本义为海中的贝类“蛤蜊”。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由贝类外形引申，比喻接雨器具形状如蜊壳。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由贝类外形进一步引申，比喻木质圆柱形对联形状似蜊壳。"
+    }
+  ]
+}

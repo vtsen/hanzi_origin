@@ -1,0 +1,40 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "剖开晾干或腌制的鱼；干鱼；腊鱼",
+      "examples": [
+        "石首鲞，食之消瓜成水。",
+        "鲞铺（卖干鱼、腌腊食品的店铺）",
+        "鳗鲞"
+      ],
+      "traditional_char": "鮝"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "泛指成片的腌腊食品或加工精制的食品",
+      "examples": [
+        "凤姐儿听说，依言夹些茄鲞，送入刘姥姥口中。",
+        "鲞腊（干腊鱼肉）"
+      ],
+      "traditional_char": "鮝"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘鮝’为形声字，从‘魚’（意符）+‘想’（声符），本义为干鱼、腊鱼。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从具体的干鱼扩展泛指各种腌腊、加工成片的食品，见清至近现代用法。"
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "用水调和粉状物（如面粉）或浸泡。",
+      "examples": [
+        "溲，水调粉面也。",
+        "明齐溲酒。",
+        "溲面（以水拌面）"
+      ],
+      "traditional_char": "溲"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "淘洗，指用水清洗谷物等。",
+      "examples": [
+        "析薪溲米。",
+        "溲箕（竹编的淘米用具）"
+      ],
+      "traditional_char": "溲"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "排泄大小便，特指小便。",
+      "examples": [
+        "湛至朝堂，遗失溲便。",
+        "前溲谓小便；后溲，大便也。",
+        "溲溺"
+      ],
+      "traditional_char": "溲"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "尿（以及像尿一样的液体）。",
+      "examples": [
+        "至其矢溲，亦亲候其时节颜色所下。",
+        "地溲，沟涧流水。"
+      ],
+      "traditional_char": "溲"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "饭菜变质发出的酸臭味；陈旧不高明的。",
+      "examples": [
+        "硯水漱淨口， 去承官飯溲。",
+        "溲话（陈话；老话；旧话）"
+      ],
+      "traditional_char": "溲"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "古水名（溲水，今湖北、河南等地的一条河流）。",
+      "examples": [
+        "澧水 又西北合 溲水，水出 湖陽 北山。",
+        "古水名，在南阳。"
+      ],
+      "traditional_char": "溲"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "淘米声。",
+      "examples": [
+        "叟，叟叟，淅米声。通作“溲”。"
+      ],
+      "traditional_char": "溲"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，叟声。本义为用水调和；‘水’表意，‘叟’表声。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘用水调和’引申为‘淘洗’，因同包涵用水操作。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "以水流动作比喻排泄（尤其小便），语义转化古已有之。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "conversion",
+      "note": "由‘排泄小便’（动词）转为‘尿’（名词），词性转移。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "因食物变质后流液水状，产生酸臭，与本义‘水液’形成隐喻。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "metonymy",
+      "note": "以‘溲’命名水名，取其流水、湿润之意。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 6,
+      "evolution_type": "reanalysis",
+      "note": "‘溲’由淘洗动作转喻淘米时的声音，字义细化。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "unknown",
+      "note": "‘淘米声’与‘用水调和、浸泡’直接联系尚有疑点，疑为象声字借用。"
+    }
+  ]
+}

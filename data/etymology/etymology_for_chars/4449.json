@@ -1,0 +1,53 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "地名，指今中国湖南省郴州市一带，历史上为郴县、郴州等地名。",
+      "examples": [
+        "《漢書•地理志上》：“桂陽郡……縣十一：郴，耒山，耒水所出。”",
+        "《隋書•李子雄傳》：“歷郴江二州刺史，並有能名。”",
+        "毛澤東《井岡山的鬥爭》：“一部散在郴宜各地，不知所終。”"
+      ],
+      "traditional_char": "郴"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [
+        "《晉書音義下》：“郴姓也。”",
+        "晉江夏郴寶。"
+      ],
+      "traditional_char": "郴"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "other",
+      "meaning": "古代齊國方言用字（詳細義不詳）。",
+      "examples": [],
+      "traditional_char": "郴"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从邑，林声，最初用作地名。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "conversion",
+      "note": "由地名转为姓氏，典型用地名为氏的派生法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "unknown",
+      "note": "齊國方言读音用字，具体语义联系不明，多为音借。"
+    }
+  ]
+}

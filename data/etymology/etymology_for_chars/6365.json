@@ -1,0 +1,82 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "不整洁，不利索",
+      "examples": [
+        "他穿得很邋遢。"
+      ],
+      "traditional_char": "邋"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adverb",
+      "meaning": "形容行走不正或行走的样子",
+      "examples": [
+        "邋遢行皃"
+      ],
+      "traditional_char": "邋"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "念，诵，哼唱",
+      "examples": [
+        "是不是口邋着道词，一路的做鬼妆狐。"
+      ],
+      "traditional_char": "邋"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "越过，践踏，（通“躐”、“獵”）",
+      "examples": [
+        "故邋級而亡。"
+      ],
+      "traditional_char": "邋"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "前进，迈步",
+      "examples": [
+        "邋，迈也。《说文》"
+      ],
+      "traditional_char": "邋"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 3,
+      "note": "“邋”从辵，巤声，原指践踏、踰越，后用引申义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由“践踏、越过”扩展为“迈步、前进”；二者动词义相关。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "“迈步”引申为“行走的样子”。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "metaphor",
+      "note": "由“行走不正、不利索”喻指“不整洁”等抽象品质。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "unknown",
+      "note": "由行走延伸到“念、诵”的用法，义源不明，有待进一步考证。"
+    }
+  ]
+}

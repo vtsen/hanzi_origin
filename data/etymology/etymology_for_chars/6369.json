@@ -1,0 +1,67 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "用皮革制成的臂套，用以保护手臂，多用于射箭或操作时捍臂。",
+      "examples": [
+        "董君绿帻傅鞲。——《汉书·东方朔传》",
+        "鞲，射臂决也。——《说文》"
+      ],
+      "traditional_char": "鞲"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "用皮革制成的风箱，古代鼓风取火的工具。",
+      "examples": [
+        "肺枯似著爐鞲扇，腦熱如遭鎚鑿釘。——唐 顧云《池陽醉歌贈匡廬處士姚岩傑》",
+        "鼓鞲急隨，其焰亘天，積屍如坻。——清 魏源《聖武記》"
+      ],
+      "traditional_char": "鞲"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "（机件）活塞，即唧筒里或蒸气机、内燃机的气缸里往复运动的部件，将燃料压力转换成机械能。",
+      "examples": [],
+      "traditional_char": "鞲"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "给牲口加鞍具。",
+      "examples": [
+        "不免鞲上蹇驢，散心一會。——明 湯顯祖《邯鄲記·行田》"
+      ],
+      "traditional_char": "鞲"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从革，冓声，表示皮革制的臂套（射臂捍臂），《说文》、古文作“韝”。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由臂套引申为皮革制品，尤其是皮风箱，可能因材质与形状功能类比，出现在汉唐典籍。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "风箱作为动力装置，词义进一步扩展到机器部件——活塞，主要在近现代机械语境下出现。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由臂套/护具引申为给牲口加上鞍具，可能因鞍具亦有皮革包裹的功能与结构上的联系。"
+    }
+  ]
+}

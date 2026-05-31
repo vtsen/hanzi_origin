@@ -1,0 +1,87 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "草木茂盛的样子。",
+      "examples": [
+        "蓁，草盛貌。——《说文》",
+        "百谷蓁蓁。——《文选·班固·东都赋》",
+        "其叶蓁蓁。——《诗·周南·桃夭》"
+      ],
+      "traditional_char": "蓁"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "丛生的草木，泛指荆棘丛生之地；同“榛”。",
+      "examples": [
+        "逃于深蓁。——《庄子·徐无鬼》",
+        "蝮蛇蓁蓁。——《楚辞·招魂》",
+        "蓁子（榛子）；蓁莽（杂乱丛生的草木）"
+      ],
+      "traditional_char": "蓁"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "草名，亦指榛树，果实称为榛子，可食。",
+      "examples": [
+        "蓁子（榛子）",
+        "蓁与榛通，木丛生也。"
+      ],
+      "traditional_char": "蓁"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "（古）水名、地名。如蓁水、蓁谷。",
+      "examples": [
+        "蓁水发源蓁谷。——《水经注》"
+      ],
+      "traditional_char": "蓁"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "首戴物的样子。",
+      "examples": [
+        "蓁蓁，戴也。——《尔雅·释训》"
+      ],
+      "traditional_char": "蓁"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从艸，秦声。形声字，本义为草木茂盛貌。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由草木茂盛的状态引申为丛生的草木、荆棘之意。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_narrowing",
+      "note": "由泛指杂乱丛生之草木转为特指榛树、榛子。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "以丛生的草木为地名、水名之借用。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "unknown",
+      "note": "“首戴物貌”义与“茂盛”义的衍生机制不详，古训有载。"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "走动，跨越，行动。",
+      "examples": [
+        "骐骥一跞，不能千里。",
+        "灵胥怒兮蛟躒舟。"
+      ],
+      "traditional_char": "躒"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "（引申）达到、成就卓越。",
+      "examples": [
+        "惰者發憤以躒勤，懦者自強以齊壯。",
+        "英才卓躒。"
+      ],
+      "traditional_char": "躒"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "卓越；超绝。（用于“卓躒”、“卓跞”等词）",
+      "examples": [
+        "卓躒，絕異也。",
+        "连躒诸夏。"
+      ],
+      "traditional_char": "躒"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘躒’为形声字，从足，乐声，表示与走动相关。‘跞’为其简化字。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由跨越、行动引申为达到、成就，用于唐以后文献。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由成就引申为卓越、超绝，常用于复合词。"
+    }
+  ]
+}

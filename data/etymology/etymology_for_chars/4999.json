@@ -1,0 +1,90 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "两裤腿相连的地方；裤裆。",
+      "examples": [
+        "裤裆",
+        "横裆",
+        "直裆",
+        "动不敢出褌襠。——阮籍《大人先生传》"
+      ],
+      "traditional_char": "襠"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "两腿之间的部位。",
+      "examples": [
+        "腿裆",
+        "兜裆一脚"
+      ],
+      "traditional_char": "襠"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "坎肩儿，背心。",
+      "examples": [
+        "裲裆",
+        "襠襦"
+      ],
+      "traditional_char": "襠"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "裤子。",
+      "examples": [
+        "穿连裆裤"
+      ],
+      "traditional_char": "襠"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "“襠”的简化字形式。",
+      "examples": [],
+      "traditional_char": "裆"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，“衣”表义，“当”表声，最初表示两裤腿相连的地方。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“裆”为“襠”的简化字，结构保留形声成分。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由具体衣物部位转喻为人体两腿之间的空间，该义见于后世用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由裤裆延伸为带有裆部的相关衣物（如裲裆、襠襦等）。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "synecdoche",
+      "note": "以裆这一部分泛指整体裤子。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "reanalysis",
+      "note": "“裆”为“襠”的简化字，词义和用法继承自“襠”。"
+    }
+  ]
+}

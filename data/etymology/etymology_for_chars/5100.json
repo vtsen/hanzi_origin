@@ -1,0 +1,80 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "拿东西给人，送给，给予。",
+      "examples": [
+        "赍钱三百万。",
+        "共其财用之币齎。",
+        "齎其首赴于東都。"
+      ],
+      "traditional_char": "賫"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "携带；持，有时指旅行携物。",
+      "examples": [
+        "行者齎。",
+        "乃令入海者齎捕巨魚具。",
+        "惟齎《戰國策》而已。"
+      ],
+      "traditional_char": "賫"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "怀抱着（多指心志或情感）。",
+      "examples": [
+        "赍志没地，长怀无己。",
+        "遂齎見薄之決計， 秉翻然之成議。",
+        "齎我長恨意，歸為狐兔塵。"
+      ],
+      "traditional_char": "賫"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "费用，钱财，物资（古时“齎”通“資”用）。",
+      "examples": [
+        "歲終，則會其財齎。",
+        "票騎將軍去病率師躬將所獲葷允之士，約輕齎，絕大幕，涉獲單于章渠。",
+        "掌婦式之法，以授嬪婦及內人女功之事齎。"
+      ],
+      "traditional_char": "齎"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "賫：形声字，从貝（财物）为意符，齐为声符，表示与携财、赠与相关。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 3,
+      "note": "齎：形声字，从齊声，语源与“资”相关。本义与费用、财物有关，后义分化。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“送给”义扩展为“携带、拿着”，常用于旅行与随身之物。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由携带实物引申为心中携带（怀有、怀抱情感、志向）。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 0,
+      "evolution_type": "semantic_shift",
+      "note": "“齎”本指财物费用，后作为动词，泛指送给、持赠，义向动宾结构发展。"
+    }
+  ]
+}

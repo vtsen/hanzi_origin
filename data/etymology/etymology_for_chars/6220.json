@@ -1,0 +1,38 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "牙齿发生腐蚀病变，在牙齿表面形成龋洞，最终导致牙齿破坏的现象，俗称“虫牙”或“蛀齿”。",
+      "examples": [
+        "小明因为爱吃糖，长了龋齿。",
+        "医生建议定期检查口腔，预防龋齿发生。"
+      ],
+      "traditional_char": "齲"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "患有龋齿的牙齿本身。",
+      "examples": [
+        "他的龋齿已经需要补牙了。"
+      ],
+      "traditional_char": "齲"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘齲’为形声字，从齿，取义与牙齿有关，取‘取’声，其本义即为牙齿腐坏的病状。‘龋’为简化字，结构同理。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由指病变现象，转指患病的牙齿，属于现象到实体的转指。"
+    }
+  ]
+}

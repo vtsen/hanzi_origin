@@ -1,0 +1,68 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "效法，钻研知识，获得知识，读书",
+      "examples": [
+        "学生",
+        "学习"
+      ],
+      "traditional_char": "學"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "传授知识的地方",
+      "examples": [
+        "学校",
+        "学府"
+      ],
+      "traditional_char": "學"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "掌握的知识",
+      "examples": [
+        "学问",
+        "学术"
+      ],
+      "traditional_char": "學"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "分门别类的有系统的知识",
+      "examples": [
+        "哲学",
+        "数学"
+      ],
+      "traditional_char": "學"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，壆为声符，子为义符。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "壮大貌；形容巨大、有力量的样子。",
+      "examples": [
+        "苍官屭槐朋在庭，风虫日鸟声嘤咛。",
+        "奰屃（强大有力的样子）"
+      ],
+      "traditional_char": "屃"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "赑屃。传说中的龙生九子之一，形似龟，有负重之象，常用于碑座。",
+      "examples": [
+        "赑屃负碑多见于古代陵墓。",
+        "赑屃（bì xì）"
+      ],
+      "traditional_char": "屃"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "壮大貌（“屓”的本义，也作“屃”）。",
+      "examples": [
+        "‘屓’为‘屃’之异体，亦同义。"
+      ],
+      "traditional_char": "屓"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“屃”为形声字，从尸，表现与身体或动物相关；右部为声符“系”，表音。初本义为壮大貌。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 2,
+      "note": "“屓”与“屃”互为异体，结构同为形声。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由形容壮大引申为‘赑屃’，即具有巨大、承重力的龟状瑞兽，唐宋以后见于碑座。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 0,
+      "evolution_type": "reanalysis",
+      "note": "‘屓’、‘屃’互为异体，现代均作‘屃’，词义合流。"
+    }
+  ]
+}

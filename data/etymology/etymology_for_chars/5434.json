@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "onomatopoeia",
+      "meaning": "哀鸣声，表示极度悲伤的叫喊。",
+      "examples": [
+        "鸿雁于飞，哀鸣嗷嗷。",
+        "但闻中夜泽鸿嗷。"
+      ],
+      "traditional_char": "嗷"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "onomatopoeia",
+      "meaning": "愁叹声，表达悲伤、哀怨的叹息。",
+      "examples": [
+        "百姓嗷，道路以目。",
+        "众口愁也。"
+      ],
+      "traditional_char": "嗷"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "onomatopoeia",
+      "meaning": "嘈杂声，喧嚣或众人的骚动声。",
+      "examples": [
+        "众人徒嗷，安知彼所欢。",
+        "众声也。"
+      ],
+      "traditional_char": "嗷"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "onomatopoeia",
+      "meaning": "叫呼声，大喊大叫的声音。",
+      "examples": [
+        "声嗸儗以寂寥兮。",
+        "嗷然大喊大叫的样子。"
+      ],
+      "traditional_char": "嗷"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从口，敖声，表示哀鸣的声音。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由哀鸣声引申为表达悲哀、愁叹的感叹声。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由单独的哀鸣声发展为众人哀鸣、形成嘈杂声。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由嘈杂声又泛指为叫呼、大喊等人群发声现象。"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "辩论；争辩。",
+      "examples": [
+        "诐，辩论也。——《说文》",
+        "凡从皮之字，皆有分析之意，故诐为辩论也。"
+      ],
+      "traditional_char": "詖"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "偏颇；不正；邪僻。",
+      "examples": [
+        "不从俗而诐行兮。——《楚辞·刘向·离世》",
+        "诐辞知其所蔽，淫辞知其所陷，邪辞知其所离。——《孟子·公孙丑上》",
+        "其学足以正天下之诐。"
+      ],
+      "traditional_char": "詖"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "谄媚；巧言献媚。",
+      "examples": [
+        "险诐阴贼。——《汉书》",
+        "詖，佞也。——《文选·颜延之〈和谢监灵运〉》注引《苍颉篇》"
+      ],
+      "traditional_char": "詖"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字。从言，皮声。本义为辩论，‘皮’表示分析，有分解之意，《说文》明确指出。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_shift",
+      "note": "‘辩论’引申为‘偏颇’，因辩论多涉及偏袒、不正之意；汉至先秦用例证明。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由‘偏颇、不正’引申为‘谄媚’，即言行偏离正道后引申为阿谀奉承，见《汉书》《文选》。"
+    }
+  ]
+}

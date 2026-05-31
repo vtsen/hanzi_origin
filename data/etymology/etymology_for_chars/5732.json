@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "猛禽名，隼的一种。喙短宽有齿状突起，翅膀窄而尖，飞行迅速，能捕食其他鸟类。",
+      "examples": [
+        "而山上栖鶻，聞人聲亦驚起。",
+        "斯须领健鹘，痛愤寄所宣。"
+      ],
+      "traditional_char": "鶻"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "古书记载的一种鸟，短尾，青黑色。",
+      "examples": [
+        "鹘鶵"
+      ],
+      "traditional_char": "鶻"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "船的一种，形状前高后低，如旗。",
+      "examples": [
+        "飛車跨山鶻橫海，風枝露葉如新採。",
+        "海鶻頭低尾高，前大後小，如旂之狀。"
+      ],
+      "traditional_char": "鶻"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘鶻’从鳥，骨声，表示猛禽隼类，形声字。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_narrowing",
+      "note": "由泛指猛禽一类转为特指古书记载的一种短尾青黑色鸟，语义收缩，见于古籍。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由猛禽之飞翔敏捷、形态引申作船名称，形体、速度具象转喻。"
+    }
+  ]
+}

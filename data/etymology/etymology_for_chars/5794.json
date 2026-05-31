@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "用箬叶、苇叶等包裹糯米（或黏米）制成的食品，即粽子，常于端午节食用。",
+      "examples": [
+        "端午數日間，更約同解粽。——陸游《過鄰家》",
+        "唐 姚合《夏夜宿江驛》詩：“渚鬧漁歌響，風和角粽香。”",
+        "服玩果粽，足以致诚。——《南史》"
+      ],
+      "traditional_char": "粽"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "粽心草，端午节用以包裹或系粽子的草类植物。",
+      "examples": [
+        "以粽心草繫黍，卷以柊葉，以象陰陽包裹。——《廣東新語》"
+      ],
+      "traditional_char": "粽"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘粽’为形声字，从米宗声，初指用叶包裹糯米制的食品。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由食品粽子引申为制作粽子时所用的特定草类植物名称，用部分代表整体。"
+    }
+  ]
+}

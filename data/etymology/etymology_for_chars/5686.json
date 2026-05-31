@@ -1,0 +1,40 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "车前驾牲畜的两根直木",
+      "examples": [
+        "车辕折断",
+        "驾辕",
+        "辕马"
+      ],
+      "traditional_char": "轅"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "旧时指军营、官署的外门，借指衙署",
+      "examples": [
+        "辕门",
+        "行辕"
+      ],
+      "traditional_char": "轅"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从车，袁声。表示车前驾牲畜的两根直木。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "以“辕”为部队、衙署外门，源于古代军队以车营为制，门多以车布列。"
+    }
+  ]
+}

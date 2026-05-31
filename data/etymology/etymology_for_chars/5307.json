@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "衣服上的褶子",
+      "examples": [
+        "打裥",
+        "衣裙上的襇"
+      ],
+      "traditional_char": "裥"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "衣服上的斜縫",
+      "examples": [],
+      "traditional_char": "裥"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "褶子的異體字、見“襉”字",
+      "examples": [],
+      "traditional_char": "襇"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "裥从衣，兼声表音；表示衣服上的褶子。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 2,
+      "note": "襇从衣，兼声表音，为裥之异体，含义相同。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由衣服折褶引申为衣物斜缝，语义扩展。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "reanalysis",
+      "note": "裥、襇为异体字，本义同，后世视作分别使用。"
+    }
+  ]
+}

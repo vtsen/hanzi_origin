@@ -1,0 +1,116 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "用竹篾拧成的索；竹索。",
+      "examples": [
+        "负笮引文舟，饥渴常不饱。",
+        "以竹笮维战艦于河。"
+      ],
+      "traditional_char": "笮"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "竹竿。",
+      "examples": [
+        "植笮树表之类也，其何益哉?"
+      ],
+      "traditional_char": "笮"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "铺在椽上瓦下的苇席或竹席。",
+      "examples": [
+        "笮，迫也。在瓦之下，棼上。",
+        "重屋，复笮也。"
+      ],
+      "traditional_char": "笮"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "装箭的竹器；箭袋。",
+      "examples": [
+        "笮，矢箙也。"
+      ],
+      "traditional_char": "笮"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "压榨、压迫，使物体出汁液。",
+      "examples": [
+        "笮马粪汁而饮之。",
+        "笮取汁，合成膏，涂发不白。"
+      ],
+      "traditional_char": "笮"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [
+        "汉有笮融。"
+      ],
+      "traditional_char": "笮"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "我国古代少数民族笮都夷的简称，今四川汉源一带。",
+      "examples": [
+        "其居住的地方亦称“笮”，其地出产的名马史称“笮马”。",
+        "秦孝文王以李冰为蜀守……冰又通笮道。"
+      ],
+      "traditional_char": "笮"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从竹，乍声。形声字，本义为竹索，竹类器物。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从竹索扩展到同为竹制的竿。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由竹索引申为编竹、苇作成的建筑用席。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "由竹席等编竹器，借代为装箭的竹制器具。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_shift",
+      "note": "形如竹索紧缠，引申压迫、压榨之义。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "metonymy",
+      "note": "因西南民族用竹索及其特产，称其族、地区为“笮”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "function_word",
+      "note": "地名、器物名转为姓氏，常见姓氏形成路径。"
+    }
+  ]
+}

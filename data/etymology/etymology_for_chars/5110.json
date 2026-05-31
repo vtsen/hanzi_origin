@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "饮酒后脸色变红的样子。",
+      "examples": [
+        "美人既醉，朱颜酡些。（《楚辞·招魂》）",
+        "酡颜（饮酒红脸）",
+        "只一霎沉醉东风面已酡。"
+      ],
+      "traditional_char": "酡"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "泛指脸色因激动、醉酒等变红。",
+      "examples": [
+        "顏酡春暈顯，花月好難眠。",
+        "青史当前面易酡。"
+      ],
+      "traditional_char": "酡"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "将要醉的状态。",
+      "examples": [
+        "將醉謂之酡。",
+        "飲未微酡口先吟哦言不沈湎于酒也。"
+      ],
+      "traditional_char": "酡"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘酡’为形声字，从酉，佗声，本义为饮酒面红；酉表意，佗表声。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由专指酒后红脸扩展为泛指脸红，见明清用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由描述已醉（面红）扩展为将醉的状态，属语义引申。"
+    }
+  ]
+}

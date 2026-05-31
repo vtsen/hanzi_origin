@@ -1,0 +1,76 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "麻风病，一种慢性传染性皮肤病。",
+      "examples": [
+        "癞菌（麻风病的病原体）",
+        "癞可（指宋僧祖可，因身披恶疾，故称）"
+      ],
+      "traditional_char": "癩"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "癣疥等顽固性皮肤病，泛指恶疮。",
+      "examples": [
+        "癞皮（身患顽癣，毛秃皮厚）",
+        "癞疮（恶疮；顽癣）"
+      ],
+      "traditional_char": "癩"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "表皮凹凸不平或有斑点的，（尤指植物、动物外表）如患癞疮者。",
+      "examples": [
+        "癞瓜（即苦瓜）",
+        "癞蛤蟆"
+      ],
+      "traditional_char": "癩"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "比喻坏、低劣；脏。",
+      "examples": [
+        "癞子（俗指无耻、唯利是图的人）",
+        "早晚安歇，有两件事免不得，吃癞碗，睡死人床。——《水浒传》"
+      ],
+      "traditional_char": "癩"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从疒表示疾病，赖为声符，古本义为麻风病。"
+    },
+    {
+      "formation_type": "loan_character",
+      "original_sense_index": 0,
+      "note": "癞为癩的简化字，承袭本义和其它义项。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由专指麻风病引申为各种皮肤恶疾，见中古及近代用例。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由皮肤病状态比喻至其他表面不平或有点斑的现象，如癞瓜、癞蛤蟆。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "表面不洁、低劣引申为比喻品质恶劣或肮脏，多见于俗语。"
+    }
+  ]
+}

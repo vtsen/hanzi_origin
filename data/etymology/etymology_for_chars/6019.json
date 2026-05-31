@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "杀，斩杀",
+      "examples": [
+        "杀戮",
+        "戮尸"
+      ],
+      "traditional_char": "戮"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "合力，共同用力",
+      "examples": [
+        "戮力同心"
+      ],
+      "traditional_char": "戮"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "羞辱，侮辱",
+      "examples": [
+        "戮人",
+        "戮民",
+        "戮辱",
+        "戮笑"
+      ],
+      "traditional_char": "戮"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从“杀”为义符，“彔”为声符，最初表示斩杀。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "“杀戮”转喻为气力聚合，多见于文言与近现代书面语。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由处死罪人引申为侮辱、羞辱。多用于惩处、嘲弄含义。"
+    }
+  ]
+}

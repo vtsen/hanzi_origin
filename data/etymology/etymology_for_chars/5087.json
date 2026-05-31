@@ -1,0 +1,131 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "草木茂盛的样子，草木丛生的样子",
+      "examples": [
+        "头如蓬葆",
+        "芳草葆葆"
+      ],
+      "traditional_char": "葆"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "古书上说的一种菜",
+      "examples": [],
+      "traditional_char": "葆"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "（古代用以遮蔽的）车盖，羽葆",
+      "examples": [
+        "羽葆青车",
+        "葆盖"
+      ],
+      "traditional_char": "葆"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "藏，蔽，隐藏",
+      "examples": [
+        "葆光",
+        "葆志不渝"
+      ],
+      "traditional_char": "葆"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "保持，保存",
+      "examples": [
+        "永葆青春",
+        "葆真"
+      ],
+      "traditional_char": "葆"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "古同“宝”，珍贵",
+      "examples": [
+        "抱负葆真（珍重本真）"
+      ],
+      "traditional_char": "葆"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "古同“保”，保护",
+      "examples": [
+        "葆其身",
+        "葆卫周全"
+      ],
+      "traditional_char": "葆"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "other",
+      "meaning": "姓氏",
+      "examples": [
+        "葆子清",
+        "葆正人"
+      ],
+      "traditional_char": "葆"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从艹，保声，本义为草木茂盛。艸表意，保表音。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_narrowing",
+      "note": "材料由草木茂盛引申为特定的一种菜。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由茂密草木引申为以羽毛为饰、像茂盛草木的车盖。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由遮盖的草木引申为隐藏、遮蔽。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由遮蔽引申为保存、保持。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "古作“宝”，为借用，用音通写。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "古作“保”，音近通用，指保护。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 7,
+      "evolution_type": "conversion",
+      "note": "从描述转化为姓氏用法。"
+    }
+  ]
+}

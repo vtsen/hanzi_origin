@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "放下，搁置",
+      "examples": [
+        "他撂下饭碗走了。",
+        "把书撂在桌子上。"
+      ],
+      "traditional_char": "撂"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "弄倒，使摔倒",
+      "examples": [
+        "撂跤",
+        "手一使劲，就把他撂倒了。"
+      ],
+      "traditional_char": "撂"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "丢弃，抛弃",
+      "examples": [
+        "撂荒",
+        "撂挑子"
+      ],
+      "traditional_char": "撂"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从手，略声，表示‘撇开、搁下’之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘放下’引申为‘弄倒’，主要用于动作幅度更大。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由‘放下’引申为‘丢弃’，侧重彻底离开。"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "用上下门牙咬有壳的或硬的东西",
+      "examples": [
+        "嗑瓜子儿",
+        "嗑花生"
+      ],
+      "traditional_char": "嗑"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "闲谈，多话",
+      "examples": [
+        "嗑牙",
+        "我们几个坐那里嗑嗑牙"
+      ],
+      "traditional_char": "嗑"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "（方言）话",
+      "examples": [
+        "唠嗑儿",
+        "大家唠会儿嗑"
+      ],
+      "traditional_char": "嗑"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "形声字，从口，盍声，表示多话，后引申为用口咬东西。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "conversion",
+      "note": "动词名词化，现代方言用作“话”。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_shift",
+      "note": "由“多话”转为“用牙咬壳类物”，义项变迁，或许口部动作之联系。"
+    }
+  ]
+}

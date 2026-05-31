@@ -1,0 +1,105 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "未成年人，尤其指男童。",
+      "examples": [
+        "僮，未冠也。——《说文》",
+        "内无应门五尺之僮。——《陈情表》",
+        "僮子备官，而未之闻邪。——《国语·鲁语》"
+      ],
+      "traditional_char": "僮"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "奴仆，泛指受奴役者（少年或青少年为主）。",
+      "examples": [
+        "而卓王孙家僮数百人。——《史记·司马相如传》",
+        "今民卖僮者。——《汉书·贾谊传》",
+        "为两郎僮。——唐·柳宗元《童区寄传》"
+      ],
+      "traditional_char": "僮"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "无知、蒙昧。",
+      "examples": [
+        "僮昏不可使谋。——《国语·晋语》",
+        "物僮然未有知。——《太玄经》"
+      ],
+      "traditional_char": "僮"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "卑贱、低贱。",
+      "examples": [
+        "僮夫（犹言匹夫，指平民男子）",
+        "僮讼（民事诉讼）"
+      ],
+      "traditional_char": "僮"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "壮族（中国少数民族的旧称，今作“壮族”）。",
+      "examples": [
+        "僮族，中国少数民族，1965年改用“壮”作族名。"
+      ],
+      "traditional_char": "僮"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "同“童”，指儿童、少年。",
+      "examples": [
+        "僮，未冠也。《说文》。按：“十九以下，八岁以上也。”",
+        "《左传·哀公十一年》：公为与其嬖僮汪錡乘，皆死皆殡。",
+        "僮子，童子。"
+      ],
+      "traditional_char": "僮"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从人，童声，表人属未成年人，本义为未成年人。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从未成年人引申为未成年仆役，进而泛指仆役。《史记》时已见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "以未成年人少知引申为无知、蒙昧。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "未成年人社会地位较低，引申为低贱、卑贱。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "reanalysis",
+      "note": "后世常与“童”通用，相互借用。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "“僮”为壮族原字，取名民族，与未成年者有拟人化用法联系。1965年后官方用“壮”。"
+    }
+  ]
+}

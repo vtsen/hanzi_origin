@@ -1,0 +1,53 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "节肢动物，甲壳类，生活在海中，尾巴坚硬，形状像宝剑。肉可食。",
+      "examples": [
+        "鲎帆",
+        "海里有许多鲎。"
+      ],
+      "traditional_char": "鱟"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "〔鲎虫〕节肢动物。俗称“水鳖子”、“王八鱼”。",
+      "examples": [
+        "鲎虫体形独特。"
+      ],
+      "traditional_char": "鱟"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "虹的方言名。",
+      "examples": [
+        "雨后天上现鲎。"
+      ],
+      "traditional_char": "鱟"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘鱟’为形声字，鱼为形旁，侯为声旁，原指节肢动物鲎。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由原指本种动物扩展指类似的节肢动物。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "基于形状类比，因虹形似鲎体壳而得名（仅限于方言用法）。"
+    }
+  ]
+}

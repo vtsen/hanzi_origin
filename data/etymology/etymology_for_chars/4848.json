@@ -1,0 +1,64 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "吃，吃饭，咬着吃某物或吞食整块食物",
+      "examples": [
+        "啖饭",
+        "啖肉"
+      ],
+      "traditional_char": "啖"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "用利益引诱",
+      "examples": [
+        "啖以私利"
+      ],
+      "traditional_char": "啖"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "清淡（古义，同“淡”）",
+      "examples": [],
+      "traditional_char": "啖"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [],
+      "traditional_char": "啖"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从口，炎声，表“吃”的意思。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由“吃”引申为“用利益引诱”，比喻以好处引起欲望。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "古音通“淡”，形成借义。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "function_word",
+      "note": "作为姓氏，来源不明，一般常见于动词或形容词名词化。"
+    }
+  ]
+}

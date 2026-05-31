@@ -1,0 +1,79 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古水名，濮水，分别位于今山东、河南等地。",
+      "examples": [
+        "濮，濮水出东郡濮阳，南入钜野。（《说文》）",
+        "桑间濮上之音。（《礼记·乐记》）",
+        "钓于濮水。（《庄子·秋水》）",
+        "齊師及濮，雨，不涉。（《左传·哀公二十七年》）"
+      ],
+      "traditional_char": "濮"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "古地名、州名，如濮阳、濮州等地，今属河南、山东一带。",
+      "examples": [
+        "濮阳，地名，在中国河南省。",
+        "又州名。广舆记：属东昌府，春秋卫成公都此，汉鄄城，隋濮州。"
+      ],
+      "traditional_char": "濮"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "中国古代西南少数民族名，分布于江汉之间或楚国西南，即百濮等。",
+      "examples": [
+        "及庸、蜀、羌、髳、微、盧、彭、濮人。（《书·牧誓》）",
+        "麇人率百濮聚于选，将伐楚。（《左传·文公十六年》）"
+      ],
+      "traditional_char": "濮"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [
+        "明有濮英，见《明史》本传。",
+        "又姓。见《通志·氏族三》。"
+      ],
+      "traditional_char": "濮"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，僕声。本义指水名，强调‘水’义，‘僕’为声旁。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "地名、州名多因临濮水而得名，地理命名常以水系为据，汉代及隋代已见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "民族名与分布地的河流（濮水）有关，见《书·牧誓》《左传》，常以水域代族群。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "地名/部族名用作姓氏，常见于中国传统命名习惯。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "族名称亦可直接演化为姓氏，中国姓氏多来源于部落或地名。"
+    }
+  ]
+}

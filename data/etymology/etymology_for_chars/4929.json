@@ -1,0 +1,103 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古代量器名，也是容量单位，初为十斗一斛，南宋后为五斗一斛",
+      "examples": [
+        "十斗曰斛。——《仪礼》",
+        "故田常上请爵禄而行之群臣，下大斗斛而施于百姓。",
+        "是岁谷一斛五十万钱。——《三国志·魏书·武帝纪》"
+      ],
+      "traditional_char": "斛"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "measure_word",
+      "meaning": "远古与中古用于粮食等数量的计量单位，一斛合十斗（后为五斗）",
+      "examples": [
+        "十斗曰斛。——《仪礼》",
+        "莫道千金酬一笑，便明珠万斛须邀。——宋·柳永",
+        "是岁谷一斛五十万钱。——《三国志·魏书·武帝纪》"
+      ],
+      "traditional_char": "斛"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "measure_word",
+      "meaning": "古时弓力的计量单位",
+      "examples": [
+        "齐鱼复侯子响传：子响勇力绝人，开弓四斛力。——《南史》",
+        "三尺角弓两斛力。——杜甫《虎牙行》"
+      ],
+      "traditional_char": "斛"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "用于比喻事物形状小巧，如‘斛舟’指小舟",
+      "examples": [
+        "斛舟（小船）"
+      ],
+      "traditional_char": "斛"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "斛形的盆、缽等器皿",
+      "examples": [
+        "歸登尚書每浴，皆屏左右，自於浴斛中坐移時。——宋·孙光宪《北梦琐言》"
+      ],
+      "traditional_char": "斛"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "北齐有斛子慎。——《北史·恩幸传》",
+        "宋斛继善绍兴间判汀州事"
+      ],
+      "traditional_char": "斛"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从斗，角声，表示古代计量器及其单位"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "grammaticalization",
+      "note": "由量器名抽象为容量单位的量词用法，出现于先秦至汉"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "弓力的单位由容量单位引申，见于南北朝及唐"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "以器物指形状小巧的对象，多见于描写小舟"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "斛的器形泛指类似的盆缽等器皿用法"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "conversion",
+      "note": "器名转用作姓氏，常见于中国古姓氏来源"
+    }
+  ]
+}

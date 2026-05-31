@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "花，草木的花。",
+      "examples": [
+        "奇葩异草",
+        "花有重瓣葩"
+      ],
+      "traditional_char": "葩"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "华美，精美。",
+      "examples": [
+        "葩华",
+        "辞藻葩丽"
+      ],
+      "traditional_char": "葩"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，上“艹”表意指植物，下“巴”表音，最早表示花。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由具体的花引申为华美，起初用以形容文辞、器物等，见于文献自中古时期。"
+    }
+  ]
+}

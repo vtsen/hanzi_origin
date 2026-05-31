@@ -1,0 +1,92 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "有光泽的金属，尤指铸铁或生铁",
+      "examples": [
+        "銑铁"
+      ],
+      "traditional_char": "銑"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "小凿",
+      "examples": [],
+      "traditional_char": "銑"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "古代钟下的两角",
+      "examples": [],
+      "traditional_char": "銑"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "以金装饰弓的两头",
+      "examples": [],
+      "traditional_char": "銑"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "一种用圆形能旋转的多刃刀具切削金属的专用设备（如铣床、铣刀）",
+      "examples": [
+        "铣床",
+        "铣刀"
+      ],
+      "traditional_char": "銑"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "在铣床上加工金属工件",
+      "examples": [
+        "铣削"
+      ],
+      "traditional_char": "銑"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从金，先声，表示有光泽的金属。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "比喻由硬的金属延伸指用来刻凿的小凿。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "以金属特性指代钟的部件。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "以金属用作弓的装饰部位。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "从金属本义引申出金属加工工具。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 5,
+      "evolution_type": "conversion",
+      "note": "由名词“铣”转为动词“铣削”。"
+    }
+  ]
+}

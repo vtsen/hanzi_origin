@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "萱草，一种多年生草本植物，叶细长，花黄色或红黄色，又称“金针菜”，传说能使人忘忧。",
+      "examples": [
+        "萱草忘忧",
+        "愁梦全无蝶，离忧每愧萱。"
+      ],
+      "traditional_char": "萱"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "对母亲或母亲居住之处的代称，源自古人以萱草植于母亲房前以表忘忧之意。",
+      "examples": [
+        "北堂有萱兮，何以忘忧？",
+        "堂上椿萱雪满头。"
+      ],
+      "traditional_char": "萱"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "姓氏，用作中国人的姓。",
+      "examples": [
+        "萱姓人口分布广泛。"
+      ],
+      "traditional_char": "萱"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从艸，宣声，意为萱草植物。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "以萱草“忘忧”之意借指母亲或其居所，约自先秦、汉代以后。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "conversion",
+      "note": "植物名转为姓氏，用作人名或姓氏，机制未详。"
+    }
+  ]
+}

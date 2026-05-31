@@ -1,0 +1,57 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "意外相遇，不期而遇。",
+      "examples": [
+        "邂逅相遇。",
+        "幾邂死。",
+        "既邂逅于楚。"
+      ],
+      "traditional_char": "邂"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adverb",
+      "meaning": "偶然，一旦，萬一。",
+      "examples": [
+        "邂不如意，便還就孤。",
+        "邂逅發露，禍及知親。"
+      ],
+      "traditional_char": "邂"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "愉悅、怡悅的樣子或不堅固之貌。",
+      "examples": [
+        "悅邂之容。",
+        "志不邂然。",
+        "邂有喜色。"
+      ],
+      "traditional_char": "邂"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形聲字，從辵，解聲，表示行走中偶遇，原義為偶然相遇。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "從意外相遇引申為偶然、萬一，用於狀態的偶發性。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "從相遇的愉快引申為愉悅之貌或不堅固之態。"
+    }
+  ]
+}

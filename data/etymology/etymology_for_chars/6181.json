@@ -1,0 +1,107 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "水名，江西濂江的舊名。",
+      "examples": [
+        "濂江，江西南部之水。",
+        "濂水，今名濂江。"
+      ],
+      "traditional_char": "濂"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "湖南濂溪，水名。",
+      "examples": [
+        "濂溪，湖南之水。"
+      ],
+      "traditional_char": "濂"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "淺水，中流斷絕；小水流或薄水。",
+      "examples": [
+        "所謂濂，則水之淺薄者爾，故中絕也。",
+        "濂𣿙也。"
+      ],
+      "traditional_char": "濂"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "學派名，即“濂溪學派”，以宋代理學家周敦頤（號濂溪）為首。",
+      "examples": [
+        "濂洛關閩。",
+        "北宋周敦頤為首的“濂溪學派”。"
+      ],
+      "traditional_char": "濂"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [
+        "宋濂",
+        "濂洛"
+      ],
+      "traditional_char": "濂"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "adjective",
+      "meaning": "輕薄貌。",
+      "examples": [
+        "濂涑，輕薄兒也。"
+      ],
+      "traditional_char": "濂"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 2,
+      "note": "形声字，从水，兼声。表淺水、小水或水流中斷的意思。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 2,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "由一般淺水、小水引申為特定水名，如濂江。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由一般水義及地名引申為湖南濂溪等專有水名。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 5,
+      "evolution_type": "metaphor",
+      "note": "由水之輕薄、淺薄比喻性格或外表之輕薄。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "以濂溪為學派名，用地名稱指代表人物的學說。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "同以水名（或地名）代周敦頤之學派。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 4,
+      "evolution_type": "conversion",
+      "note": "由名詞轉用為姓。"
+    }
+  ]
+}

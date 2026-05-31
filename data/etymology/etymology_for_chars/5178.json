@@ -1,0 +1,72 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古代乐器名。",
+      "examples": [
+        "又【玉篇】樂器也。"
+      ],
+      "traditional_char": "鋙"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "不相称、不相合的事物；不协调。",
+      "examples": [
+        "鉏鋙，物不相當。【楚辭·九辯】圜鑿而方枘兮，吾固知其鉏鋙而難入。"
+      ],
+      "traditional_char": "鋙"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "山名，“錕鋙”之“鋙”。",
+      "examples": [
+        "錕鋙之劒。"
+      ],
+      "traditional_char": "鋙"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "铻的简化字。",
+      "examples": [
+        "“鋙”的简化字。"
+      ],
+      "traditional_char": "铻"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "鋙从金，吾声，初表示乐器。"
+    },
+    {
+      "formation_type": "simple_indicative",
+      "original_sense_index": 3,
+      "note": "铻为“鋙”的简化字，以形声兼省略表意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由乐器声音和谐引申为‘协调/不协调’的意义，汉魏六朝已见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "以地名借指著名之物，因地以名刀。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "reanalysis",
+      "note": "“铻”为“鋙”的简化字，现代汉字简化时期。"
+    }
+  ]
+}

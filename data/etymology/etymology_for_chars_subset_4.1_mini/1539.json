@@ -1,0 +1,157 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "用手加额遮目而远望",
+      "examples": [
+        "小篆字形，上面是“手”字的变形，下面是“目”，意思是用手遮住眼睛远望。"
+      ],
+      "traditional_char": "看"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "使视线接触人或物",
+      "examples": [
+        "～见。～书。～齐。"
+      ],
+      "traditional_char": "看"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "观察，判断",
+      "examples": [
+        "～病。观～。～好。～透。～风使舵。"
+      ],
+      "traditional_char": "看"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "访问，拜望",
+      "examples": [
+        "～望。～朋友。"
+      ],
+      "traditional_char": "看"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "照应，对待",
+      "examples": [
+        "～重。～轻。～待。"
+      ],
+      "traditional_char": "看"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "想，以为",
+      "examples": [
+        "～法。"
+      ],
+      "traditional_char": "看"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "先试试以观察它的结果",
+      "examples": [
+        "做做～。"
+      ],
+      "traditional_char": "看"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "verb",
+      "meaning": "提防，小心",
+      "examples": [
+        "别跑，～摔着。"
+      ],
+      "traditional_char": "看"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "verb",
+      "meaning": "安排",
+      "examples": [
+        "～茶。～酒。～座。"
+      ],
+      "traditional_char": "看"
+    },
+    {
+      "index": 9,
+      "part_of_speech": "verb",
+      "meaning": "守护，监视",
+      "examples": [
+        "～护。～押。～门。～青。"
+      ],
+      "traditional_char": "看"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "小篆字形由“手”的变体加“目”组成，表示用手遮目而远望的动作，属于会意"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘用手遮目远望’扩展到‘使视线接触对象’"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "从简单的视觉动作扩展到深入观察与判断"
+    },
+    {
+      "source_index": 2,
+      "target_index": 6,
+      "evolution_type": "semantic_extension",
+      "note": "由观察判断引申为先试探以观察结果"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "由看见引申为访问拜望"
+    },
+    {
+      "source_index": 2,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "从判断扩展到照应和对待"
+    },
+    {
+      "source_index": 2,
+      "target_index": 5,
+      "evolution_type": "metaphor",
+      "note": "从观察外在引申为‘想、以为’内心活动"
+    },
+    {
+      "source_index": 2,
+      "target_index": 7,
+      "evolution_type": "semantic_extension",
+      "note": "由观察延伸到提防小心"
+    },
+    {
+      "source_index": 4,
+      "target_index": 8,
+      "evolution_type": "semantic_extension",
+      "note": "由照应对待延伸到具体安排"
+    },
+    {
+      "source_index": 1,
+      "target_index": 9,
+      "evolution_type": "semantic_extension",
+      "note": "由观察引申为守护监视"
+    }
+  ]
+}

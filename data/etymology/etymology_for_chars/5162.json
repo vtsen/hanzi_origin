@@ -1,0 +1,40 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "鸟兽的嘴",
+      "examples": [
+        "长喙",
+        "短喙",
+        "鹰之喙锐利"
+      ],
+      "traditional_char": "喙"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "人的嘴（多用作借指）",
+      "examples": [
+        "百喙莫辩",
+        "不容置喙"
+      ],
+      "traditional_char": "喙"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从口，彖声，本指鸟兽之嘴。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "以动物之喙喻人之口，古代文献中已见借用。"
+    }
+  ]
+}

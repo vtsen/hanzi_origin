@@ -1,0 +1,72 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古代一种炊具，青铜制圆底敛口，反唇，类似釜或锅。",
+      "examples": [
+        "鍪，釜也。——《广雅》",
+        "铁鈇钻锥釜鍑鍪。——《急就篇》",
+        "鍪，似釜而反脣。——颜师古注"
+      ],
+      "traditional_char": "鍪"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "古代武士所戴的头盔，也叫兜鍪。",
+      "examples": [
+        "甲、盾、鞮、鍪、铁幕、革块，无不毕具。——《战国策·韩策一》",
+        "狻猊之鍪，连锁之甲。——赵雄《韩蘄王碑》",
+        "兜鍪，形似釜而反唇。——《正字通》"
+      ],
+      "traditional_char": "鍪"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "形似兜鍪的帽子。",
+      "examples": [
+        "荐器则冠有鍪而毋縰。——《荀子·礼论》",
+        "古者有鍪而綣领以王天下矣。——《淮南子·氾论训》"
+      ],
+      "traditional_char": "鍪"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "放髮。",
+      "examples": [
+        "鍪，放髮也。——《淮南子·氾论训注》"
+      ],
+      "traditional_char": "鍪"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从金，敄声；‘鍪’本指青铜炊器，后义扩展。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "因头盔形状类似鍪锅，故名。两者外形相似，语源常相通。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "形似军用兜鍪的帽子亦称‘鍪’，由实物转指外形类似之物。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由头盔遮发，引申为披发、放髮的动作。"
+    }
+  ]
+}

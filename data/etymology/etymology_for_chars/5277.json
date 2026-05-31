@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "清澈透明",
+      "examples": [
+        "清湛而见底"
+      ],
+      "traditional_char": "湛"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "深，深厚",
+      "examples": [
+        "精湛",
+        "湛恩",
+        "湛蓝"
+      ],
+      "traditional_char": "湛"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "湛氏"
+      ],
+      "traditional_char": "湛"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，甚声，表示水很清澈透明。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由清澈引申为深厚、深的意思，常见于水的深度到抽象深度的引申。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "unknown",
+      "note": "作为姓氏属传承用字，具体机制不详。"
+    }
+  ]
+}

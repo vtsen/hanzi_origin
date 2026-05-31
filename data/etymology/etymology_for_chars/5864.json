@@ -1,0 +1,104 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "用手顺着物体的表面捋下来，多指用手把树叶等捋下；或用手摸、抹。",
+      "examples": [
+        "把树枝上的叶子撸下来。",
+        "紫鵑又把鐲子連袖子輕輕的擼起，不叫壓住了脈息。——《紅樓夢》",
+        "從腦門上他擼下一把冷汗。"
+      ],
+      "traditional_char": "擼"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "撤职、解除职务。",
+      "examples": [
+        "把他的队长给撸了。",
+        "主任還是個副的，不定哪一天就擼下來了。",
+        "只有那些犯了錯誤的幹部才會連擼幾級。"
+      ],
+      "traditional_char": "擼"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "用手掌击打（多指轻打脸、身体等部位）。",
+      "examples": [
+        "那人恼羞成怒的狠狠撸了他几嘴巴子。",
+        "那人惱羞成怒的狠狠擼了他幾個嘴巴子。——《政治委員》"
+      ],
+      "traditional_char": "擼"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "批评或训斥。",
+      "examples": [
+        "挨了一顿撸。",
+        "我是大錯不犯，小錯不斷，有錯兒你只管擼我好咧。",
+        "我先狠擼他一頓，叫他清醒清醒。"
+      ],
+      "traditional_char": "擼"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "拿，取，用手取走。",
+      "examples": [
+        "你長大了也考個講武吧，可別再擼鋤把子了！"
+      ],
+      "traditional_char": "擼"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "磨练、锻炼（多指在实践中成长）。",
+      "examples": [
+        "在活计里头，才能撸出把好手来。"
+      ],
+      "traditional_char": "擼"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“擼”形声字，从手，卢声，表示与用手动作相关，初指用手捋物。简化字“撸”以手部代替攴部，语音、语义相同。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由“用手捋下”扩展为“拿取（东西）”，方言用法，属于常见的动作/结果类语义泛化。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "metaphor",
+      "note": "由“用手捋、抚”等动作引申为“磨炼、锻炼”，转为心理或技能层面（比喻义）。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由“用手动作”泛化至“用手掌击打”，保留肢体动作特征，语义扩展。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由“用手打”引申为“训斥、批评”，动作转为语言暴力，常见隐喻转化路径。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由手上的“撸下”转为职位的“撸下”，表示撤职，属于职务隐喻消解。"
+    }
+  ]
+}

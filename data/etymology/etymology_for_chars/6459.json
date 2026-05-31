@@ -1,0 +1,90 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "豆汁，豆浆。",
+      "examples": [
+        "灏，豆汁也。——《说文·水部》",
+        "释氏以灏浴身，故四月八日以豆汁浴佛。"
+      ],
+      "traditional_char": "灝"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "水势大，水势浩大无边。",
+      "examples": [
+        "灏溔，水势远也。",
+        "秋水连天灏。——明·陈汝元《金莲记》"
+      ],
+      "traditional_char": "灝"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "广大，宏大，空旷。",
+      "examples": [
+        "灏灏，夷旷也。",
+        "漫昔癸卯，新恩甫灏。——清·周亮工《巡抚山东都察院右副都御史彝初周公救荒碑》",
+        "灏漫（宏大）；灏噩（博大）。"
+      ],
+      "traditional_char": "灝"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "明净；白。",
+      "examples": [
+        "灏景沈清源。——唐·王建《从元太守夏宴西楼》",
+        "灏露。"
+      ],
+      "traditional_char": "灝"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "古人名用字。",
+      "examples": [],
+      "traditional_char": "灝"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从水，顥声。本义为‘豆汁’，与水相关。"
+    },
+    {
+      "formation_type": "simple_indicative",
+      "original_sense_index": 0,
+      "note": "‘灏’为‘灝’的简化字，保留同一用法。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由豆汁之流体属性引申为水势大，出现于后世文献。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由水势无边引申为广大、宏大，用于形容事物。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由水势的清澈引申为明净、白见于诗文修辞。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "conversion",
+      "note": "作为古人名用字，仅作字用，不涉及语义演变。"
+    }
+  ]
+}

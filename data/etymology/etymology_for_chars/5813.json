@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "懒惰，懒散",
+      "examples": [
+        "慵懒",
+        "他终日慵惰"
+      ],
+      "traditional_char": "慵"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "困倦，疲乏，无精打采",
+      "examples": [
+        "慵困",
+        "慵倦地躺着"
+      ],
+      "traditional_char": "慵"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从心，庸声，表示与心理、情绪相关，本义为懒惰、懒散。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由懒惰引申为因困倦导致的不愿行动，两者在长期用法中交叉。"
+    }
+  ]
+}

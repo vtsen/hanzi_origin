@@ -1,0 +1,57 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "生育，养育（同“育”），常指养育子女或草木等。",
+      "examples": [
+        "以毓草木。——《周礼·大司徒》",
+        "园圃毓草木。——《周礼·太宰》",
+        "丰圃草以毓兽。——班固《东都赋》",
+        "鸟鱼之毓川泽，得气者蕃滋，失时者零落。——《答宾戏》"
+      ],
+      "traditional_char": "毓"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "孕育、产生（事物的产生发展）。",
+      "examples": [
+        "黩则生怨，怨乱毓灾，灾毓灭姓。——《国语》",
+        "非毓其源而疏之，曷至是！——宋·叶适《夫人钱氏墓志铭》",
+        "详观其区土之所产毓。——《琴赋》"
+      ],
+      "traditional_char": "毓"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [
+        "毓，姓氏用字。"
+      ],
+      "traditional_char": "毓"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从每（声），母为意符，指养育、滋生。本义为生育、养育，和'育'同源。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由具体的生养引申为抽象的孕育、产生，用于事物的产生或发展。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "conversion",
+      "note": "由动词转为姓氏用字，汉字姓氏化的一般路径。"
+    }
+  ]
+}

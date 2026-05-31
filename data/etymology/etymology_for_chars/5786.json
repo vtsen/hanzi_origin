@@ -1,0 +1,38 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古代乐曲名，传说为虞舜时代的乐曲。",
+      "examples": [
+        "舜作五弦之琴，歌曰《南风》，舞曰《韶》。"
+      ],
+      "traditional_char": "韶"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "美好、清美。",
+      "examples": [
+        "韶光易逝。",
+        "玉树临风韶秀。"
+      ],
+      "traditional_char": "韶"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从音，‘召’声，与音乐相关，本义为乐曲名。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由美妙乐曲引申为美好、清美，出现于中古及近现代文献。"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "正直；敢于直言不讳，公正无私。",
+      "examples": [
+        "吾久不见班生，今日复闻谠言。",
+        "谠议。",
+        "谠论。"
+      ],
+      "traditional_char": "讜"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "敢于直言之人。",
+      "examples": [
+        "忠讜醢与葅。",
+        "谠人。"
+      ],
+      "traditional_char": "讜"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "确当，恰当（用法较罕见）。",
+      "examples": [
+        "然迁之以天子为本纪，诸侯为世家，斯诚讜矣。"
+      ],
+      "traditional_char": "讜"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从言，党声；‘讜’最初表示正直、言论正直。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由表示品质的形容词转为指具备此品质的人，唐代已见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由‘正直’引申为‘确当、恰当’之义，见于文献。"
+    }
+  ]
+}

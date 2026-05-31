@@ -1,0 +1,73 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "振翅疾飞，快速飞翔。",
+      "examples": [
+        "翚，大飞也。——《说文》",
+        "若夫游鹬高翚，绝翚逾斥。——《文选·张衡·西京赋》",
+        "其飞也翬。——《尔雅》"
+      ],
+      "traditional_char": "翚"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "舞动，挥动（通“挥”）。",
+      "examples": [
+        "翚终葵，扬关斧。——《后汉书·马融传》",
+        "翬亦挥也。——李贤注"
+      ],
+      "traditional_char": "翚"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "有五彩羽毛的山雉，锦鸡一类鸟。",
+      "examples": [
+        "五彩皆备成章曰翬。——《尔雅》郭璞注",
+        "如翬斯飞。——《诗·小雅·斯干》",
+        "聿采毛之英丽兮，有五色之名翬。——晋·潘岳《射雉赋》"
+      ],
+      "traditional_char": "翚"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "山雉的羽毛，泛指羽毛。",
+      "examples": [
+        "彩雉野伏朝扇翬。——唐 韩愈《送区弘南归》",
+        "如玉其翬，翯翯在文王之囿。——明 杨士奇《贺得白鹊表》"
+      ],
+      "traditional_char": "翚"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "pictograph",
+      "original_sense_index": 0,
+      "note": "‘翚’（同体：‘翬’）从羽，军声。造字本义指鸟类展翅疾飞的样子，象形鸟飞。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由鸟疾飞引申为舞动、挥动，动作均有挥展之意。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由飞翔动作扩展为具相关特征的鸟类——五彩山雉。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "由指鸟本体转为指鸟的羽毛，常见语义移动。"
+    }
+  ]
+}

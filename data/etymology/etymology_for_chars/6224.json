@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古代礼服上黑与青相间的花纹，多见于大夫以上贵族所用服饰。",
+      "examples": [
+        "君子至止，黻衣绣裳。（《诗·秦风·终南》）",
+        "画绩之事……黑与青谓之黻。（《考工记》）"
+      ],
+      "traditional_char": "黻"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "绣有黻纹饰的礼服，特别指大夫等级的礼服。",
+      "examples": [
+        "士服黻，大夫服黼。（《说苑》）",
+        "黻班（在宫廷中身穿黻衣的朝班行列。指显贵的地位）"
+      ],
+      "traditional_char": "黻"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "古代祭服的蔽膝，用熟皮或帛制成，通“韨”。",
+      "examples": [
+        "衮冕黻珽。（《左传·桓公二年》）",
+        "以黻冕命士会将中军。（《左传·宣公十六年》）"
+      ],
+      "traditional_char": "黻"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "系印的丝带，通“绂”。",
+      "examples": [
+        "云装信解黻。（江淹《杂体·谢光禄庄郊游》）",
+        "委荣轻举，投黻如遗。（《繁阳令杨君碑》）"
+      ],
+      "traditional_char": "黻"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从黹，表与刺绣有关，犮声；最初本义为古代礼服所用青黑相间之花纹。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由花纹名称引申指缀有该花纹的礼服。出现在先秦至汉代文献。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "根据实物与用途转用，特指祭服上的蔽膝。体现衣物部件的名物发展。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "读音相近且服饰相关，后通“绂”以指系印丝带，属假借字义的语音通用。"
+    }
+  ]
+}

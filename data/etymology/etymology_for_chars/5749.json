@@ -1,0 +1,53 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古代盛饭用的圆形竹器",
+      "examples": [
+        "一箪食，一豆羹，得之则生，弗得则死。",
+        "箪食与肉。"
+      ],
+      "traditional_char": "簞"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "盛物件的小筐",
+      "examples": [
+        "与之一箪珠，使问赵孟。"
+      ],
+      "traditional_char": "簞"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "瓢类盛器",
+      "examples": [
+        "箪瓢屡空。"
+      ],
+      "traditional_char": "簞"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从竹，单声，表示与竹制器物相关；最初本义为盛饭的竹器。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由专指盛饭的竹器泛化为盛放其他物品的小竹筐，发生于先秦至两汉。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由盛饭器物类推至其他类似的盛器，如瓢，属于同类替代关系。"
+    }
+  ]
+}

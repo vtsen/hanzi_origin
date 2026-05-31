@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "一种大型鹿类动物，俗称四不像，亦称驼鹿。",
+      "examples": [
+        "沈牛麈麋。——《上林赋》",
+        "庸旄貘犛，沈牛麈麋。——《上林赋》",
+        "西面者正北方稷慎大麈。——《逸周书·王会》"
+      ],
+      "traditional_char": "麈"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "麈尾，用麈的尾毛制成的拂尘。",
+      "examples": [
+        "抱琴不暇抚，挥麈无由停。——欧阳修《和圣俞聚蚊》",
+        "挥麈今登拜将台。——《桃花扇·修札》"
+      ],
+      "traditional_char": "麈"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "麈尾的省称，即拂尘。",
+      "examples": [
+        "日长秋馆罢抽毫，自在闲庭落麈毛。——李东阳《廷韶文敬联句见寄疊前韵一首》",
+        "对幽人松麈谈玄。——张可久《折桂令·游龙源寺》"
+      ],
+      "traditional_char": "麈"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从鹿，主声。本义为大型鹿类动物。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "以麈动物尾部特质借指其尾毛制成的拂尘器具"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "synecdoche",
+      "note": "从麈尾作为拂尘的专用器具转指拂尘本身"
+    }
+  ]
+}

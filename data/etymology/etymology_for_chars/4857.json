@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "山名，指崦嵫山，在今甘肃省，古代传说为太阳落山之处。",
+      "examples": [
+        "吾令羲和弭节兮，望崦嵫而勿迫。",
+        "一川虚月魄，万崦自芝苗。"
+      ],
+      "traditional_char": "崦"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "泛指山或山曲。",
+      "examples": [
+        "西崦斜陽，東江流水，物華不為人留。",
+        "東崦題詩西崦醉，等閑忘卻故人期。"
+      ],
+      "traditional_char": "崦"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "片、块（指田地等小块区域）。",
+      "examples": [
+        "賒買湖心一崦田。"
+      ],
+      "traditional_char": "崦"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从山，音弇（yān），本义为崦嵫山名，属地名用字。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由崦嵫具体山名扩展为泛指山或山曲，反映地名转为普通名词的用法，见《广韵》《山海经》。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由山、山曲引申为小片、块，体现地形转喻田地等区域，例见唐诗。"
+    }
+  ]
+}

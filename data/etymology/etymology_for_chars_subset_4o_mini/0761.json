@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "pronoun",
+      "meaning": "我自己，自己的一方",
+      "examples": [
+        "我们要团结自己。",
+        "我见（我自己的看法）。"
+      ],
+      "traditional_char": "我"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "兵器",
+      "examples": [
+        "古代的兵器都是自己制造的。",
+        "戈是古代的一种兵器。"
+      ],
+      "traditional_char": "我"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 1,
+      "note": "由两个戈组成，象征兵器，表示本义为兵器。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_shift",
+      "note": "从兵器的意义转变为自称的用法，体现了自我意识的形成。"
+    }
+  ]
+}

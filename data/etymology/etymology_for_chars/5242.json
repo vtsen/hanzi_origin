@@ -1,0 +1,44 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "一种发生在热带或亚热带洋面上的强烈风暴，风力极大且常伴有暴雨，称作“飓风”或“颶風”。",
+      "examples": [
+        "台风和飓风都是热带气旋的不同名称。",
+        "秋，臺灣颶作，滿保以聞。"
+      ],
+      "traditional_char": "颶"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "“飓”为“颶”的简化字，用于同样意义。",
+      "examples": [
+        "海飓风造成沿海地区严重灾害。",
+        "飓风登陆前需做好防御准备。"
+      ],
+      "traditional_char": "飓"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘颶’为形声字，从风，句声。本指强劲之风暴，与风相关。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "‘飓’为‘颶’的简化字，形声结构，保留了本义，简化自‘颶’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "reanalysis",
+      "note": "‘飓’由‘颶’简化，意义完全相同；现代通用。"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古代驛站专用的车",
+      "examples": [
+        "乘驲而见宣子。",
+        "楚子以驲至于罗汭。",
+        "乘驲自下。"
+      ],
+      "traditional_char": "馹"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "专用于驛站的马，驿马",
+      "examples": [
+        "親御驛馬，日行三百里，四皇后及文武侍衛數百人並乘馹以從。",
+        "驲马（用来拉驿车的马）；驲讣（通过驿车急传的讣闻）；驲书（通过驿车传送的书信）；驲递（驿车传递）；驲行（乘驿马疾行）"
+      ],
+      "traditional_char": "馹"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "驿站",
+      "examples": [
+        "馹站（驿站）；馹夫（驿站所用的差役）；馹丞（掌管驿站的官）",
+        "快去馹中催趲船夫，就此起程。"
+      ],
+      "traditional_char": "馹"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从马，日声，表示与马和日相关，表古代驿站专用的车。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "原指驿站专用车，后以车代马，指驿站所用之马，出现在两汉至六朝时期。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由表示交通工具（驿车）引申为交通设施（驿站），出现于中古汉语文献。"
+    }
+  ]
+}

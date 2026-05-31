@@ -1,0 +1,51 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "薏苡，一种草本植物，果实可食用或入药，常称为薏仁、薏米。",
+      "examples": [
+        "薏苡仁有健脾利湿之效。",
+        "南方薏苡实大，援军还，载之一车。"
+      ],
+      "traditional_char": "苡"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "芣苡，一种草本植物，学名锦葵。",
+      "examples": [
+        "芣苡采采，薄言采之。——《诗经·周南·芣苡》"
+      ],
+      "traditional_char": "苡"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "北方少数民族名，如婆苡、室韦等。",
+      "examples": [],
+      "traditional_char": "苡"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "pictograph",
+      "original_sense_index": 1,
+      "note": "从草，象形，最初表芣苡，自然草本形象。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "芣苡（锦葵）与薏苡（二者为不同植物），因形似或混用，意义扩展至后者。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "以植物名转用为部族名，常见用法。"
+    }
+  ]
+}

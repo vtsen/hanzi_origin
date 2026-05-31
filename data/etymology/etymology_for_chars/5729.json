@@ -1,0 +1,53 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "大腹小口的瓦器、瓶、缶等盛物器皿。",
+      "examples": [
+        "罂，缶也。——《说文》",
+        "用瓦木罂，容十升以上者，五十步而十，盛水且用之。——《墨子》"
+      ],
+      "traditional_char": "罌"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "泛指小口大腹的瓶类器物。",
+      "examples": [
+        "火药三百罂。——清·邵长蘅《青门剩稿》"
+      ],
+      "traditional_char": "罌"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "罂粟；多年生草本植物，果实为制鸦片原料，花可观赏。",
+      "examples": [
+        "罂粟科，罂粟属，二年生草本，高约 1.5米"
+      ],
+      "traditional_char": "罌"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘罌’从缶，賏声，指大腹小口之瓦器。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由专指瓦制之器，扩用为泛指同形状之各类瓶器。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "借器物形状比喻罂粟果实，形象转移。"
+    }
+  ]
+}

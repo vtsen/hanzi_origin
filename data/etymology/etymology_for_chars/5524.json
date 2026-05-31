@@ -1,0 +1,143 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "说话烦琐，喋喋不休",
+      "examples": [
+        "大言炎炎，小言詹詹。",
+        "詹詹炎炎"
+      ],
+      "traditional_char": "詹"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "至，到达",
+      "examples": [
+        "五日为期，六日不詹。"
+      ],
+      "traditional_char": "詹"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "供给，给与",
+      "examples": [
+        "詹事，秦官，掌皇后太子家。"
+      ],
+      "traditional_char": "詹"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "官名，詹事，掌皇后太子家务",
+      "examples": [
+        "长信詹事为长信少府。"
+      ],
+      "traditional_char": "詹"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "仰望；往前或往上看（同“瞻”）",
+      "examples": [
+        "泰山巖巖，魯邦所詹。"
+      ],
+      "traditional_char": "詹"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "“蟾”（蝦蟆）之假借",
+      "examples": [
+        "三五明月滿，四五詹兔缺。"
+      ],
+      "traditional_char": "詹"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "姓",
+      "examples": [
+        "周有詹父、詹恒伯。"
+      ],
+      "traditional_char": "詹"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "adjective",
+      "meaning": "足够，充足",
+      "examples": [
+        "不充则不詹，不詹则窕。"
+      ],
+      "traditional_char": "詹"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "verb",
+      "meaning": "畏惧（通“憺”，方言借用）",
+      "examples": [
+        "詹惶"
+      ],
+      "traditional_char": "詹"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "会意兼形声。从言，从八从厃，言多而散，表达话多烦琐。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_shift",
+      "note": "由“话多”转指“至”，楚语异用，史属方言移用。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "从‘到达’引申为‘供应、给与’。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "由‘供给’引申为掌管供给的官职。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "与‘瞻’同音通用，引申为仰望。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "通‘蟾’，音近假借，指蟾蜍。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 6,
+      "evolution_type": "reanalysis",
+      "note": "供给、官名派生姓氏，古氏族用官名为姓。"
+    },
+    {
+      "source_index": 7,
+      "target_index": 0,
+      "evolution_type": "unknown",
+      "note": "义项来源关系不明，但文献有‘足够’义。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 8,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "方言借音为‘憺’，指畏惧。"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "护城河",
+      "examples": [
+        "城壕深广",
+        "防御城池的壕"
+      ],
+      "traditional_char": "壕"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "沟，指用作军事防御或排水等目的的深沟",
+      "examples": [
+        "战壕",
+        "壕沟",
+        "防空壕",
+        "沟满壕平"
+      ],
+      "traditional_char": "壕"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从土，‘豪’声，本义为护城河。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从专指护城河扩展为泛指各种沟、壕等人工深沟，多用于军事、排水等场合。"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "门，小门，尤其指宫室、宅第、城门等处的小门或内门。",
+      "examples": [
+        "噲乃排闼直入。——《汉书·樊哙传》",
+        "在我闼兮，履我发兮。——《诗·齐风·东方之日》",
+        "不出房闼。——《前汉·高后纪》"
+      ],
+      "traditional_char": "闥"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "门楼上的小屋或阁室。",
+      "examples": [
+        "上飞闼而仰眺。——张衡《西京赋》",
+        "樓閣作房闥者，須回環窈窕。——明 文震亨《長物志•室廬》"
+      ],
+      "traditional_char": "闥"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "内房，闺房。",
+      "examples": [
+        "或求之幽閨繡闥，慧心默證者固亦不少。——清 沈覆《浮生六记•闺房记乐》"
+      ],
+      "traditional_char": "闥"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从门，达声，表示小门或门内。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由小门引申指门楼上的小屋。见张衡《西京赋》。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由门内（小门）引申指内房、闺房，约见明清文献。"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "河岸，水与草交接之处。",
+      "examples": [
+        "所谓伊人，在水之湄。",
+        "有菀者柳，在河之湄。",
+        "去复去兮长河湄。"
+      ],
+      "traditional_char": "湄"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "湖泊名，如湄湖。",
+      "examples": [
+        "淮水左迤为湄湖。"
+      ],
+      "traditional_char": "湄"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "温水（古注本，极少用，见于古籍特殊用例）",
+      "examples": [
+        "湄，温水也。——《考工记·㡛氏》司农注"
+      ],
+      "traditional_char": "湄"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "与“麋”通用，居于河岸草地处（古代文献异体假借用法）",
+      "examples": [
+        "居河之麋。——《诗·小雅》训释作湄",
+        "孟诸之麋，杜预注：湄也。"
+      ],
+      "traditional_char": "湄"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，眉声，表水边如眉状，原指水与草交界之地。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "以河岸之义泛指特定水滨湖名，如湄湖。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "由岸边延伸引申为温水，见古籍特殊注释，义有争议。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "因与“麋”音近，古代文献中作为通假字假借。"
+    }
+  ]
+}

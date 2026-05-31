@@ -1,0 +1,57 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古代帝王、贵族或大臣等死后，所加带有褒贬意义的称号，即谥号",
+      "examples": [
+        "谥，行之迹也。——《说文》",
+        "谥者，别尊卑，彰有德也。——《白虎通》",
+        "先王谥以尊名。——《礼记·表记》",
+        "赠谥美显，荣于身后。——《五人墓碑记》"
+      ],
+      "traditional_char": "謚"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "（死后）加上谥号；授予谥号",
+      "examples": [
+        "幸德谥为洞箫兮。——王褒《洞箫赋》",
+        "身死无名，谥为至愚，耻及父母，为天下笑。——《史记·司马相如列传》",
+        "谥君为忠武侯。——《三国志·诸葛亮传》"
+      ],
+      "traditional_char": "謚"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "号称；称为（多用于“谥为…”，引申为“称呼”）",
+      "examples": [
+        "身死无名，谥为至愚，耻及父母，为天下笑。——《史记·司马相如列传》"
+      ],
+      "traditional_char": "謚"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从言，益声，本义为死后给予的称号；表示以言评论而授名，‘益’为声符"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "conversion",
+      "note": "由名词‘谥号’转为动词‘加谥号’的用法，约战国至汉已见"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由授予称号转为一般的‘称为’、‘号称’，为后来的引申"
+    }
+  ]
+}

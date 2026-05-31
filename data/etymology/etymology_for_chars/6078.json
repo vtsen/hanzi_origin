@@ -1,0 +1,86 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "副虹，天空中出现的次于主虹的彩色弧形光带，红色在内，紫色在外",
+      "examples": [
+        "云披雾裂虹霓断——柳宗元《笼鹰词》",
+        "霓为衣兮风为马——李白《梦游天姥吟留别》"
+      ],
+      "traditional_char": "霓"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "彩云或云霞，用以形容天空中色彩斑斓的云，或仙人所穿的服装",
+      "examples": [
+        "霓为衣兮风为马——李白《梦游天姥吟留别》",
+        "霓旌（饰以五彩的旗帜）"
+      ],
+      "traditional_char": "霓"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "借指天空，高空",
+      "examples": [
+        "羽旄扫霓，云旗拂天——班固《东都赋》",
+        "飞宇承霓——何晏《景福殿赋》"
+      ],
+      "traditional_char": "霓"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "日傍或天际的气，比喻君主身边的奸佞或邪恶气象",
+      "examples": [
+        "氛霓郁以横厉兮，羲和忽以潜晖——《后汉书·崔駰传》",
+        "吐霓蔽日，腥浮云——唐·柳宗元《唐鐃歌鼓吹曲·奔鲸沛》"
+      ],
+      "traditional_char": "霓"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "比喻桥梁（因形状如霓虹）",
+      "examples": [
+        "褰裳拂涧霓——唐·殷遥《友人山亭》"
+      ],
+      "traditional_char": "霓"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从‘雨’表示与气象现象相关，‘兒’（ní）为声符，最初指副虹。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由副虹彩色之象引申为五彩云霞，多见于古典诗文。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由于副虹常见于高空，进而借指天空或高空。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "由霓为气象光带，引申为天边之气象，后比喻日傍之气。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "因副虹弯曲形状，诗文中用以比喻桥梁等弧形建筑物。"
+    }
+  ]
+}

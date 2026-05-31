@@ -1,0 +1,103 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "惊愕时所发出的声音；吮壳声",
+      "examples": [
+        "啐，惊也。《说文》",
+        "啐啄同时"
+      ],
+      "traditional_char": "啐"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "尝；小饮",
+      "examples": [
+        "啐，尝也。《广雅》",
+        "席末坐，啐酒。《仪礼·乡射礼》"
+      ],
+      "traditional_char": "啐"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "用力从嘴里吐出来；发出唾声",
+      "examples": [
+        "啐了一口痰",
+        "他啐出一口鲜红的血来"
+      ],
+      "traditional_char": "啐"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "唾人以表示鄙斥、愤怒",
+      "examples": [
+        "桂娘啐了一啐道：‘亏你不羞！’",
+        "啐骂"
+      ],
+      "traditional_char": "啐"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "interjection",
+      "meaning": "表示轻蔑、斥责的声音",
+      "examples": [
+        "啐！这算得什么？",
+        "啐！没良心的鬼！"
+      ],
+      "traditional_char": "啐"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "声音杂乱，喧闹（嘈啐）",
+      "examples": [
+        "嘈啐，众声也",
+        "嘈啐喧哗"
+      ],
+      "traditional_char": "啐"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从口，卒声，形声字，本义为惊声或吮壳之声，表现声音相关含义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由惊声（突然发声）引申为入口短促之动作，古代仪礼中的小饮。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由突然发声引申为骤然吐出，突出嘴巴的动作和声音。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "由吐出（唾）的动作，引申为以此动作表示蔑视或愤怒。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_shift",
+      "note": "由吮壳/惊声进一步语气化，成为口语感叹词。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "由声音本义引申为杂声、喧闹之意，多见于组合词。"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "有花纹的丝织品，细绫，文缯等。",
+      "examples": [
+        "绮，文缯也。——《说文》",
+        "织作冰纨绮绣纯丽之物。——《汉书·地理志》",
+        "缃绮为下裙。——《乐府诗集·陌上桑》",
+        "客從遠方來， 遺我一端綺。——《古詩十九首》"
+      ],
+      "traditional_char": "綺"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "光彩，色泽美丽。",
+      "examples": [
+        "流绮星连。——《七命》",
+        "流綺星連， 浮綵艷發。——《文選·張協〈七命〉》"
+      ],
+      "traditional_char": "綺"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "华丽，美丽，精美。",
+      "examples": [
+        "绮室。——《后汉书·宦者传》",
+        "来日绮窗前，寒梅著花未？——王维《杂诗》",
+        "嬙媛、侍兒、歌童、舞女之玩， 充備綺室。——《後漢書·宦者傳序》"
+      ],
+      "traditional_char": "綺"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "精妙，文辞华美。",
+      "examples": [
+        "新诗绮语亦安用?相与变灭随东风。——苏轼《登州海市》",
+        "绮语（美妙的语句）"
+      ],
+      "traditional_char": "綺"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "纵横交错。",
+      "examples": [
+        "疆场绮分。——班固《东都赋》",
+        "绮陌（纵横交错的道路）"
+      ],
+      "traditional_char": "綺"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从糸，表示与丝织品相关，‘奇’为声旁。初用于指有文彩的细绫。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从具体有花纹的丝织品引申为其色泽和光彩，晋至南北朝可见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由绮布之华美，喻指事物之华丽美丽，东汉以后普用。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由形容物品美丽转喻文辞、语言等的精妙华美。宋代常用。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "绮布纹理为纵横交错，借喻为物之分布结构如道路，汉至隋唐用法。"
+    }
+  ]
+}

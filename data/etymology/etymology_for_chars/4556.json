@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古代盘头发或别住帽子用的簪子",
+      "examples": [
+        "皮弁笄。爵弁笄。——《仪礼·士冠礼》",
+        "君子偕老，副笄六珈。",
+        "设笄珥，衣阿锡。——《列子·周穆王》"
+      ],
+      "traditional_char": "笄"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "女子十五岁可盘发插笄的年龄，即成年",
+      "examples": [
+        "及笄。——《国语·郑语》",
+        "女子十有五年而笄。——《礼记·内则》"
+      ],
+      "traditional_char": "笄"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "指女子举行插笄礼，表示成年",
+      "examples": [
+        "字而笄之。——《公羊传·僖公九年》"
+      ],
+      "traditional_char": "笄"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从竹，圭声；初义为竹制簪子。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "女子成年之年因插笄制发而用“笄”指此年龄，汉代已见。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "conversion",
+      "note": "由表示年龄名词转化为动词，指举行插笄礼，东周起。"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "interjection",
+      "meaning": "叹词，使人注意自己所指的事物。",
+      "examples": [
+        "喏，这不是我上周丢的钱包吗？",
+        "喏，就是这本书。"
+      ],
+      "traditional_char": "喏"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "interjection",
+      "meaning": "作揖致敬时口中同时发出的声音。",
+      "examples": [
+        "唱喏，古代作揖致敬时口中同时发出的声音。",
+        "宋·陆游《老学庵笔记》：然绍兴中，予造朝，已不复喏矣。"
+      ],
+      "traditional_char": "喏"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "应答、表示同意。",
+      "examples": [
+        "《淮南子·道应训》：子发曰：喏。不问其辞而遣之。",
+        "宋祁《宋景文公笔记·释俗》：尊者呼左右曰咄，左右必曰喏。"
+      ],
+      "traditional_char": "喏"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "‘喏’从口，声符为‘若’，表示发声致敬或应答。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "conversion",
+      "note": "从作揖致敬时的呼喊声音引申为应答、表示同意，发生于先秦至两宋。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "由应答/应允的用法引申为日常使人注意、强调的感叹词，受口语影响，为方言用法。"
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "动词",
+      "meaning": "休息，歇息",
+      "examples": [
+        "休息一会儿。",
+        "人倚树下以息曰休。（《说文解字》）"
+      ],
+      "traditional_char": "休"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "动词",
+      "meaning": "停止，中止",
+      "examples": [
+        "休业",
+        "休战"
+      ],
+      "traditional_char": "休"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "动词",
+      "meaning": "完结（多指失败或死亡）",
+      "examples": [
+        "你这样下去就休了。"
+      ],
+      "traditional_char": "休"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "动词",
+      "meaning": "（旧时）丈夫与妻子断绝关系，把妻赶回娘家",
+      "examples": [
+        "休妻"
+      ],
+      "traditional_char": "休"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "助词",
+      "meaning": "不要，不必（多用于祈使句）",
+      "examples": [
+        "休想",
+        "休提"
+      ],
+      "traditional_char": "休"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "形容词",
+      "meaning": "吉庆，美善，福禄",
+      "examples": [
+        "休咎"
+      ],
+      "traditional_char": "休"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "助词",
+      "meaning": "用于句末，表示语气，相当于“了”、“罢”",
+      "examples": [
+        "归休。"
+      ],
+      "traditional_char": "休"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "动词",
+      "meaning": "辞去官职",
+      "examples": [
+        "休官"
+      ],
+      "traditional_char": "休"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "形容词",
+      "meaning": "温和，温暖（通“煦”）",
+      "examples": [
+        "温休（煦）"
+      ],
+      "traditional_char": "休"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意字，从人从木，人依木息，义指休息。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "休息引申为一切停止。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由“停止”进一步引申为“结束”。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "由“停止关系”转义为“断绝夫妻关系”。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "grammaticalization",
+      "note": "“休”演变为“不要”义，为否定命令助词。"
+    },
+    {
+      "source_index": 5,
+      "target_index": 0,
+      "evolution_type": "unknown",
+      "note": "吉庆、美善义，由何义衍生存在争议，或由休息引生，具体路径不明。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 6,
+      "evolution_type": "grammaticalization",
+      "note": "“休”句末用作语气助词来源于动词“休”。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 7,
+      "evolution_type": "semantic_extension",
+      "note": "“休”引申为“辞去官职”。"
+    },
+    {
+      "source_index": 8,
+      "target_index": 5,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "“休”假借为“煦”，借音表“温和、温暖”。"
+    }
+  ]
+}

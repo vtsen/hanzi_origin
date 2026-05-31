@@ -1,0 +1,70 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古代乐器名，形如短笛，以竹制，常有三孔、六孔、七孔等，用于合奏众声。",
+      "examples": [
+        "龠，乐之竹管，三孔，以和众声也。——《说文》",
+        "左手执龠。"
+      ],
+      "traditional_char": "龠"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "古代容量单位，等于半合，用以度量谷物等（千二百黍为一龠，二龠为一合）。",
+      "examples": [
+        "量者，龠、合、升、斗、斛也。——《汉书·律历志》",
+        "千二百黍为一龠，二龠为一合。——《说苑·辨物》"
+      ],
+      "traditional_char": "龠"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "竹管、管子（形状像笛的竹制管状物）。",
+      "examples": [
+        "天地之间其犹橐龠乎"
+      ],
+      "traditional_char": "龠"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "钥匙。",
+      "examples": [
+        "启龠见书",
+        "城郭官府，门户关龠。——睡虎地秦墓竹简《为吏之道》"
+      ],
+      "traditional_char": "龠"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意字，从品仑，品表管孔，仑表排列，有竹管乐器之意，本义为古代乐器。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "容量单位取自制造乐器的竹管，用以计量盛物容积，始于汉代。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "synecdoche",
+      "note": "由整体乐器名泛指竹管、管子，属于局部代整体。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "钥匙形状似管，因形及义引申为‘钥匙’，多见于后世及通假用法。"
+    }
+  ]
+}

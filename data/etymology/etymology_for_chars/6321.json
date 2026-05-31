@@ -1,0 +1,38 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "藠头，薤的别称，一种百合科多年生草本植物，鳞茎可食用或腌制。",
+      "examples": [
+        "藠頭可以醃製成醬菜。",
+        "藠子味辛，可以當蔬菜食用。"
+      ],
+      "traditional_char": "藠"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "草名。指形似蔥且葉中空、莖有稜的植物，通常指藠屬相關植物。",
+      "examples": [
+        "藠，草名，亦見於本草文獻。"
+      ],
+      "traditional_char": "藠"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "形声字。从艸，乔声。本义为草名，后指特定食用植物。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_narrowing",
+      "note": "由泛指草名泛化到特指薤或藠头的食用植物；见明清本草类书。"
+    }
+  ]
+}

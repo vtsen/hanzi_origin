@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "鹮科鸟类的通称，体型大，喙细长弯曲，生活于水边，如白鹮、朱鹮。",
+      "examples": [
+        "朱鹮栖息于湿地。",
+        "白鹮在江边觅食。"
+      ],
+      "traditional_char": "䴉"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "“䴉”的简化字，用于表示同样的鸟类。",
+      "examples": [
+        "保护鹮类生态环境。"
+      ],
+      "traditional_char": "鹮"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "音作xuán，义未详，或为另一异读异义。",
+      "examples": [],
+      "traditional_char": "䴉"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "䴉从鳥，爰声，形声字，最初表示长喙水鸟。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "鹮为䴉的简化字，形声结构，从鸟，官声。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "analogy",
+      "note": "简化字演变，20世纪中叶汉字简化运动。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "unknown",
+      "note": "异读xuán用法，义未详，来源不明。"
+    }
+  ]
+}

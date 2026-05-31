@@ -1,0 +1,57 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "半璧形的玉，古代常用于礼器、装饰品或货币",
+      "examples": [
+        "璜，半璧也。——《说文》",
+        "以元璜礼北方。——《周礼·大宗伯》",
+        "夏后氏之璜。——《左传·定公四年》",
+        "下有双璜冲牙。——《大戴礼记·保傅》"
+      ],
+      "traditional_char": "璜"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "泛指美玉、玉石",
+      "examples": [
+        "璜台十成。——《楚辞·天问》",
+        "結琦璜些。——《楚辞·招魂》",
+        "璜佩泛指玉佩"
+      ],
+      "traditional_char": "璜"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "黄色的石头（有些土地名称因此得名）",
+      "examples": [
+        "黃石为璜，海虞有璜涇，涇底有石而黃，以石名水，以水名地。"
+      ],
+      "traditional_char": "璜"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从玉，黄声。形声字，本义为半璧形的玉。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由具体玉器形制泛指为玉器、美玉。见于战国至汉代文献。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由玉石泛指到黄色的石头，因色泽类比，部分用于地名。"
+    }
+  ]
+}

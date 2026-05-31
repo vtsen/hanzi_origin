@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "高大突起的坟墓",
+      "examples": [
+        "古冢未毁。",
+        "荒冢一丘。",
+        "衣冠冢。"
+      ],
+      "traditional_char": "冢"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "山顶",
+      "examples": [
+        "冢，山顶也。——《说文》"
+      ],
+      "traditional_char": "冢"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "长子，嫡长子",
+      "examples": [
+        "冢子。",
+        "冢嗣。"
+      ],
+      "traditional_char": "冢"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "大，首要",
+      "examples": [
+        "冢君。",
+        "冢祀。"
+      ],
+      "traditional_char": "冢"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从冖表覆盖，豖声；本义为高大之坟。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "坟墓高大突起，引申喻为山的顶部；见古籍。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "坟墓为宗族之根，高大为首，引申指长子。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由高大之坟，引申为大、首要之意，在称号或祭祀中用。"
+    }
+  ]
+}

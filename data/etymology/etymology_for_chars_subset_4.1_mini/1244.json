@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "黄河，中国的主要河流之一",
+      "examples": [
+        "黄河在中国古代被尊为‘母亲河’。"
+      ],
+      "traditional_char": "河"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "水道的通称，泛指各种河流或水渠",
+      "examples": [
+        "河道宽阔。",
+        "河沟里有水。",
+        "内河航运十分发达。"
+      ],
+      "traditional_char": "河"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "银河系，夜空中的星河",
+      "examples": [
+        "天河灿烂。",
+        "牛郎织女的故事发生在银河边。"
+      ],
+      "traditional_char": "河"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘河’字形声字，从水（表意），可（表音）。其本义指中国黄河。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由特指黄河，扩展为泛指水道。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "借用‘河’形象比喻银河，因银河如河流悬挂天际。"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古代盛熟食的器皿，形似高足盘或有盖，也称瓦豆。",
+      "examples": [
+        "实于镫，宰右执镫，左执盖，由门入。"
+      ],
+      "traditional_char": "鐙"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "照明用具，灯，油灯。",
+      "examples": [
+        "兰膏明烛，华镫错些。",
+        "青鐙獨照暗壁，胍胍羈魂寂。"
+      ],
+      "traditional_char": "鐙"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "挂在鞍两旁的脚踏，马镫。",
+      "examples": [
+        "龙驹雕镫白玉鞍。",
+        "金鐙下山紅日晚。"
+      ],
+      "traditional_char": "鐙"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "听骨之一，形状像马镫。",
+      "examples": [],
+      "traditional_char": "鐙"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字。从金，登声，本义为盛熟食的金属或陶制器皿。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由盛食器引申为盛膏照明用具，因器形近似或用途转变，见于汉晋之际。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "因灯具/器皿造型与马鞍两旁脚踏相似，形象比拟演变为马镫，出现于魏晋以后。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "因听骨形状类似马镫，以本义喻指生理结构，属医学领域引申。"
+    }
+  ]
+}

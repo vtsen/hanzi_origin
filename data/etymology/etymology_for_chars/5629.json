@@ -1,0 +1,143 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "云彩浓盛、密布的样子",
+      "examples": [
+        "云覆日为叆叇。——《通俗文》",
+        "叆叇云布。——木华《海赋》",
+        "欧阳修《和徐生假山》：“叆若气融结，突如鬼镌镵。”"
+      ],
+      "traditional_char": "叆"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "云；乌云",
+      "examples": [
+        "王夫之《九昭·汩征》：“骇哀吟之宵鼯兮，郁薄霄乎夕叆。”"
+      ],
+      "traditional_char": "叆"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "香烟缭绕的样子",
+      "examples": [
+        "苏轼《满庭芳》：“香叆雕盘寒生冰箸。”"
+      ],
+      "traditional_char": "叆"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "不明晰、昏暗模糊的样子、依稀不清",
+      "examples": [
+        "陆葇《游白云山记》:“望城中越秀山，林木叆。”",
+        "木华《海赋》：“故可仿像其色，叆叆其形。”"
+      ],
+      "traditional_char": "叆"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "眼镜的别称",
+      "examples": [
+        "赵希鹄《洞天清禄集》：“叆，老人不辨细书以此掩目则明。”"
+      ],
+      "traditional_char": "叆"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "adjective",
+      "meaning": "云气浓盛、云彩密布的样子（繁体“靉”用法，义同“叆”）",
+      "examples": [
+        "宋欧阳修《和徐生假山》： “靉若气融结，突如鬼镌镵。”"
+      ],
+      "traditional_char": "靉"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "云；乌云（繁体“靉”用法，义同“叆”）",
+      "examples": [
+        "清王夫之《九昭》： “駭哀吟之宵鼯兮，鬱薄霄乎夕靉。”"
+      ],
+      "traditional_char": "靉"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "adjective",
+      "meaning": "香烟缭绕的样子（繁体“靉”用法，义同“叆”）",
+      "examples": [
+        "苏轼《满庭芳》词： “香靉雕盘，寒生冰箸。”",
+        "明汤显祖《紫箫记•纳聘》： “满光辉，银花锦烛香云靉。”"
+      ],
+      "traditional_char": "靉"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "adjective",
+      "meaning": "不明晰、昏暗模糊的样子、依稀不清（繁体“靉”用法，义同“叆”）",
+      "examples": [],
+      "traditional_char": "靉"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "叆由音符“口”+意符“云气”组合，表云气浓盛貌，为形声字。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 5,
+      "note": "靉由雨和爱组成，形声字，意指云气浓郁。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_shift",
+      "note": "由形容词‘云盛’转为具体指代‘云’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由‘云气浓盛’比喻香烟缭绕。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由‘云气浓密’引申为‘昏暗、不明晰’。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "由‘不明晰’引申眼前模糊，引申指眼镜。"
+    },
+    {
+      "source_index": 5,
+      "target_index": 6,
+      "evolution_type": "semantic_shift",
+      "note": "繁体‘靉’，形容词到名词，指‘云’。"
+    },
+    {
+      "source_index": 5,
+      "target_index": 7,
+      "evolution_type": "metaphor",
+      "note": "由‘云气’比喻香烟缭绕。"
+    },
+    {
+      "source_index": 5,
+      "target_index": 8,
+      "evolution_type": "semantic_extension",
+      "note": "由‘云气浓密’引申为‘昏暗模糊’。"
+    }
+  ]
+}

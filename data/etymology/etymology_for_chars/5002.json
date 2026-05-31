@@ -1,0 +1,86 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "禀告，陈述。",
+      "examples": [
+        "请谒其故。",
+        "谒曰：‘臣有本奏。’"
+      ],
+      "traditional_char": "謁"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "拜见，上见（上级、长辈）。",
+      "examples": [
+        "进谒。",
+        "拜谒领导。"
+      ],
+      "traditional_char": "謁"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "请求（多指请辞、请医等）。",
+      "examples": [
+        "谒归。",
+        "谒医。"
+      ],
+      "traditional_char": "謁"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "名帖，用于通报身份以便拜见。",
+      "examples": [
+        "跪拾谒。",
+        "失谒。"
+      ],
+      "traditional_char": "謁"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "掌管晋见的近待（官名）。",
+      "examples": [
+        "谒者。"
+      ],
+      "traditional_char": "謁"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字。从言，曷声，表“禀告、陈述”义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“禀告、陈述”义扩展为“进见、拜见”义。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由“禀告、陈述”引申为“请求”。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "由“拜见”引申为“名帖”，以拜见凭证代指拜见行为。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "由“拜见”引申为“掌管晋见的近待（官名）”。"
+    }
+  ]
+}

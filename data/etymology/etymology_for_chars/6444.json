@@ -1,0 +1,53 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "鳟鱼，体侧扁，形略似鲑鱼，全身有显著的黑点。常栖海中，夏季上溯于河产卵，秋末又入海。肉可食，为养殖的名贵鱼种。",
+      "examples": [
+        "鳟鱼是受欢迎的淡水鱼。",
+        "鳟，赤目鱼也。——《说文》"
+      ],
+      "traditional_char": "鱒"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "赤眼鱒。亦名红眼鱼，鱼纲鲤科，银灰色，眼上缘红色，每鳞片后具一小黑斑。为生活于淡水中的常见食用鱼类，可供养殖。",
+      "examples": [
+        "鞏洛之鱒，割以為鮮。——张衡《七辩》"
+      ],
+      "traditional_char": "鱒"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "虹鱒。鱼纲鲑科，体延长，侧扁，色鲜艳，背面和鳍暗绿色或褐色，有小黑斑，中央有一红色纵带。原产美国，后移殖于中国东北及朝鲜、日本与欧洲各国。",
+      "examples": [
+        "虹鳟生活在河流湖泊中。"
+      ],
+      "traditional_char": "鱒"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从鱼，尊声。本义为鳟鱼鱼名。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "本义泛指鳟鱼，后指特定种类的赤眼鱒，鱼种分类细化。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "随着外来种传入，“鳟”字借指虹鳟等相关鱼类。"
+    }
+  ]
+}

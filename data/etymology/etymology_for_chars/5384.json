@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "红藻的一种，生长于江河、海湾的浅水中，又名龙须菜，可用于制造琼脂。",
+      "examples": [
+        "江蓠，红藻，为制造琼脂之用。",
+        "千里江蘺春，故人今不见。——刘禹锡《重至衡阳伤柳仪曹》"
+      ],
+      "traditional_char": "蘺"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "古书中记载的一种香草，有芳香气味，常用于佩戴。",
+      "examples": [
+        "怀芬香而挟蕙兮，佩江蘺之婓婓。——刘向《九叹•惜贤》",
+        "《说文》：江蘺蘼蕪。"
+      ],
+      "traditional_char": "蘺"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "水稗，一种水生草本植物，《淮南子》以其与稻伴生但无益田收。",
+      "examples": [
+        "蘺先稻熟，而农夫薅之者，不以小利害大获。——《淮南子·秦族训》"
+      ],
+      "traditional_char": "蘺"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从艸，离声，本义为一种江中红藻。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "以“江蘺”本义引申为各种具香气的草本，总指芳草，先秦两汉文献多见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "水生植物义的迁移，可能因植物生态习性类似而发生。"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "沾湿，润泽",
+      "examples": [
+        "濡笔",
+        "濡染",
+        "耳濡目染",
+        "相濡以沫"
+      ],
+      "traditional_char": "濡"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "停留，迟滞",
+      "examples": [
+        "濡滞"
+      ],
+      "traditional_char": "濡"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "含忍",
+      "examples": [
+        "濡忍"
+      ],
+      "traditional_char": "濡"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，需声，本义指沾湿、润泽。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_shift",
+      "note": "古人因湿重易滞，引申为停留、迟滞之意。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由润泽引申，比喻心中含忍，情感如浸润般压抑。"
+    }
+  ]
+}

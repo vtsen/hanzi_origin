@@ -1,0 +1,134 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "习惯，习以为常",
+      "examples": [
+        "狃于寒暑之变。",
+        "狃，狎也。",
+        "一夫不可狃。"
+      ],
+      "traditional_char": "狃"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "因袭，拘泥",
+      "examples": [
+        "狃于习俗。",
+        "不狃近卑。"
+      ],
+      "traditional_char": "狃"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "贪图，贪爱",
+      "examples": [
+        "嗛嗛之食，不足狃也。",
+        "狃近功而忘远略。"
+      ],
+      "traditional_char": "狃"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "恃，倚仗",
+      "examples": [
+        "狃恩（习于恩宠。即恃恩）"
+      ],
+      "traditional_char": "狃"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "担任，充当",
+      "examples": [
+        "使臣狃中军之司马。"
+      ],
+      "traditional_char": "狃"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "adjective",
+      "meaning": "骄傲",
+      "examples": [
+        "狃，犬性骄也。",
+        "与之彼狃。"
+      ],
+      "traditional_char": "狃"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "狐狸等野兽；野兽足迹",
+      "examples": [
+        "又狐貍也。",
+        "獸名。",
+        "闕洩多狃。"
+      ],
+      "traditional_char": "狃"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "verb",
+      "meaning": "迷惑",
+      "examples": [
+        "是狃我也。"
+      ],
+      "traditional_char": "狃"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 5,
+      "note": "从犬，丑声。本意为犬性骄傲，形声字。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 5,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "由犬类‘骄傲’引申为习惯、习以为常，体现行为习性。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由习惯引申为‘受习惯所拘泥、因袭’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由习惯常做，引申为贪图、贪爱某物的习惯。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "习惯于恩宠，引申为倚仗、依赖。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "unknown",
+      "note": "习惯或恪守职责引申作‘担任’。义项联系不甚明确，较为孤证。"
+    },
+    {
+      "source_index": 5,
+      "target_index": 6,
+      "evolution_type": "semantic_shift",
+      "note": "与犬相关的字形及义类联想，转为指兽名（狐狸/野兽足迹）。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 7,
+      "evolution_type": "semantic_shift",
+      "note": "由习惯、成性引申为迷惑、为习见遮蔽。"
+    }
+  ]
+}

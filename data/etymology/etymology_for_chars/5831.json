@@ -1,0 +1,43 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古代宫廷中位于妃以下、嫔以上的女官或女妾之称",
+      "examples": [
+        "宿有妃嫱嫔御焉。",
+        "妃嫔媵嫱，王子皇孙。"
+      ],
+      "traditional_char": "嫱"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "古代女子的名字用字，多指美女或特定佳人",
+      "examples": [
+        "毛嬙、麗姬，人之所美也。"
+      ],
+      "traditional_char": "嬙"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "嫱：从女，墙声，形声字。本义为宫廷女官。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "嬙：从女，墙声，形声字。用作女子名时与嫱同音，结构略有差异。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由官名义泛化为美女名用字或佳人专称，用作人名。"
+    }
+  ]
+}

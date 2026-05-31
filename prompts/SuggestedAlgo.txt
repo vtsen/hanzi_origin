@@ -1,0 +1,381 @@
+## Problem Overview
+
+We are given:
+
+* A set of **$K$ lessons**.
+* Each lesson $i$ has:
+
+  * an **importance weight** $I_i$,
+  * a **set of prerequisites** $\text{Pre}(i)$.
+* Dependencies may contain **cycles**.
+* Each day $d$ we can study **at most $M$ lessons**.
+* If lesson $i$ is studied on day $d$, then every prerequisite $j \in \text{Pre}(i)$ must satisfy:
+
+  * either $j$ was studied on a previous day, or
+  * $j$ is studied **on the same day**.
+
+We must produce a **study plan**:
+
+```
+day_index → subset of lessons
+```
+
+### Objective
+
+We maximize a weighted objective:
+
+`wA + (1-w)B`
+
+where:
+
+* `w ∈ [0,1]` is given.
+* `A` = total importance of lessons studied in the **first N days**:
+
+`A = \sum_{d=1}^{N} \sum_{i \in S_d} I_i`
+
+* `B` = average **cosine similarity of prerequisite vectors** among lessons studied on the same day.
+
+Let `v_i` be the prerequisite vector of lesson `i`.
+
+Daily similarity:
+
+`\text{sim}(i,j) = \frac{v_i \cdot v_j}{\|v_i\|\|v_j\|}`
+
+Daily coherence:
+
+`\text{coh}(S_d) = \frac{1}{|S_d|(|S_d|-1)} \sum_{i \neq j \in S_d} \text{sim}(i,j)`
+
+Overall:
+
+`B = \frac{1}{D} \sum_d \text{coh}(S_d)`
+
+---
+
+# Practical Constraints
+
+Typical parameters:
+
+* `K ≈ 3500`
+* `M ≈ 20`
+* `N ≈ 100`
+* prerequisites per lesson: **0–4 (sparse)**
+
+The algorithm must:
+
+* respect precedence constraints
+* scale to thousands of nodes
+* avoid `O(K^2)` global computations
+* still capture clustering for similarity
+
+---
+
+# Recommended Algorithm
+
+The algorithm consists of **four phases**:
+
+1. Collapse cyclic dependencies
+2. Prepare similarity computation
+3. Construct schedule greedily day-by-day
+4. Improve schedule with local search
+
+---
+
+# Step 1 — Collapse Cycles (Strongly Connected Components)
+
+Because prerequisites may contain cycles, a group of lessons may mutually depend on each other.
+
+If lessons form a cycle, they **must be studied on the same day**.
+
+### Procedure
+
+1. Run **Tarjan’s algorithm** to compute **strongly connected components (SCCs)**.
+
+2. For each SCC:
+
+   * merge all lessons into a **super-lesson**
+
+3. Define:
+
+* new importance:
+
+`I'_c = \sum_{i \in c} I_i`
+
+* prerequisites:
+
+all external prerequisites of members.
+
+4. Construct the **condensed graph**.
+
+Properties:
+
+* It is a **DAG**.
+* Node count typically remains close to `K` because cycles are rare.
+
+---
+
+# Step 2 — Represent Prerequisites Compactly
+
+Each lesson has ≤4 prerequisites.
+
+Instead of dense vectors:
+
+```
+Pre(i) = sorted list of prerequisite ids
+```
+
+Cosine similarity becomes:
+
+`\text{sim}(i,j) = \frac{|\text{Pre}(i) ∩ \text{Pre}(j)|}{\sqrt{|\text{Pre}(i)|} \sqrt{|\text{Pre}(j)|}}`
+
+Because each list is tiny, intersection cost is **O(1)**.
+
+We **do not precompute all similarities**.
+
+We compute them **on demand**.
+
+---
+
+# Step 3 — Build the Schedule (Greedy Topological Batching)
+
+We construct the schedule **day by day**.
+
+### Data structures
+
+Maintain:
+
+* `completed` = lessons already scheduled
+* `available` = lessons whose prerequisites are satisfied
+* `in_degree` counters
+* max-heap keyed by importance
+
+---
+
+## 3.1 Initialize Available Lessons
+
+A lesson becomes **available** when all prerequisites have been completed.
+
+Use **Kahn’s topological procedure**:
+
+```
+for each node:
+    compute in_degree
+
+available = nodes with in_degree = 0
+```
+
+---
+
+# Step 4 — Construct Each Day
+
+Repeat for days `d = 1 ... N`.
+
+---
+
+## 4.1 Restrict Candidate Pool
+
+Instead of evaluating all available nodes:
+
+1. Select the **top L lessons by importance** from available.
+
+Typical choice:
+
+`L = 3M to 5M`
+
+Example:
+
+```
+M = 20
+L ≈ 80
+```
+
+This drastically reduces computation.
+
+---
+
+## 4.2 Greedy Selection Within Day
+
+We build the daily set incrementally.
+
+Initialize:
+
+```
+T = {}
+```
+
+While:
+
+```
+|T| < M
+and candidate pool not empty
+```
+
+Evaluate each candidate `i` using:
+
+`score(i) = w I_i + (1-w) \sum_{j \in T} \text{sim}(i,j)`
+
+Interpretation:
+
+* first term prioritizes importance
+* second term groups lessons with similar prerequisite structure
+
+Select lesson with **maximum score**.
+
+Add it to `T`.
+
+---
+
+## 4.3 Finalize the Day
+
+After selecting up to `M` lessons:
+
+```
+S_d = T
+```
+
+Update graph:
+
+For each lesson scheduled:
+
+```
+for each child:
+    decrease in_degree
+    if in_degree = 0:
+        add to available
+```
+
+Add lesson to `completed`.
+
+---
+
+# Step 5 — Stop After N Days
+
+Because `A` only counts the **first N days**, we stop scheduling once day `N` is finished.
+
+Lessons beyond this horizon do not affect the objective.
+
+---
+
+# Step 6 — Local Optimization (Schedule Improvement)
+
+The greedy schedule is good but not optimal.
+
+We improve it with **local search**.
+
+---
+
+## 6.1 Candidate Moves
+
+For each lesson `i`:
+
+Try:
+
+1. **Move earlier**
+
+   * if prerequisites allow
+
+2. **Move later**
+
+3. **Swap with lesson in adjacent day**
+
+Each move must respect:
+
+```
+|S_d| ≤ M
+```
+
+and prerequisite feasibility.
+
+---
+
+## 6.2 Objective Delta
+
+When moving lesson `i` from day `d_1` to `d_2`:
+
+### Importance change
+
+If both days ≤ `N`:
+
+```
+ΔA = 0
+```
+
+If moving outside horizon:
+
+```
+ΔA = ± I_i
+```
+
+---
+
+### Similarity change
+
+Only two days are affected.
+
+For day `d`:
+
+`\Delta B_d = \pm \sum_{j \in S_d \setminus i} \text{sim}(i,j)`
+
+So computation is extremely cheap.
+
+---
+
+## 6.3 Accept Improvements
+
+If:
+
+`Δ(wA + (1-w)B) > 0`
+
+accept the move.
+
+Repeat until no improvements are found.
+
+---
+
+# Step 7 — Output Plan
+
+Return:
+
+```
+plan = {
+    day_1 : S_1,
+    day_2 : S_2,
+    ...
+    day_N : S_N
+}
+```
+
+Each `S_d` contains ≤ `M` lessons.
+
+---
+
+# Computational Cost
+
+Approximate complexity:
+
+| Stage             | Cost                    |
+| ----------------- | ----------------------- |
+| SCC detection     | `O(K + E)`              |
+| Scheduling        | `~O(N M L)`             |
+| Similarity checks | `~10^5`                 |
+| Local search      | low millions operations |
+
+With the given parameters this runs **comfortably in seconds**.
+
+---
+
+# Why This Algorithm Works Well
+
+The problem combines three difficult elements:
+
+* precedence constraints
+* capacity constraints
+* clustering objective
+
+The algorithm succeeds because it:
+
+1. **respects the DAG structure** through topological scheduling
+2. **prioritizes high-importance lessons early**
+3. **clusters lessons with similar prerequisites within days**
+4. **limits computation using candidate pools**
+
+This yields near-optimal schedules even for thousands of lessons.

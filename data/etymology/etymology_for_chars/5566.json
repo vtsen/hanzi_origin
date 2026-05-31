@@ -1,0 +1,75 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "水面波光閃爍、光亮的樣子",
+      "examples": [
+        "水光瀲滟晴方好。",
+        "今日北池邊，漾漾輕舟，波光瀲灩柳條柔。"
+      ],
+      "traditional_char": "灧"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "水面浮動、波動的樣子",
+      "examples": [
+        "花影灩金樽，酒泉生浪。",
+        "湖光灩，湖光灩，雪浪翻空，見汪洋出沒魚龍。"
+      ],
+      "traditional_char": "灧"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "水滿溢、盈溢的樣子",
+      "examples": [
+        "澹灩九折池，縈迴十餘里。",
+        "月滿還虧，杯盈自灩。"
+      ],
+      "traditional_char": "灧"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "滟滪堆，江中的巨石名（地名）",
+      "examples": [
+        "滟滪堆位於四川奉節縣東五公里瞿塘峽出口處。"
+      ],
+      "traditional_char": "滟"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "灧為形聲字，从水，艳聲，本義為水光閃爍。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 3,
+      "note": "滟為灧的簡化字，用於地名如滟滪堆。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由描述水光的閃爍延伸為水面波動的狀態。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "水面波動進一步引申為水的盈溢。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "水光瀲滟之意引申為著名水中巨石地名。"
+    }
+  ]
+}

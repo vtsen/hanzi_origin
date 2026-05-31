@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "〔琵琶〕弦乐器名，一种用手弹拨的乐器。",
+      "examples": [
+        "忽闻水上琵琶声，主人忘归客不发。",
+        "马上弦索推手为琵，引手为琶。"
+      ],
+      "traditional_char": "琵"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "琵琶鱼，一种鱼名，因形状似琵琶得名。",
+      "examples": [
+        "鮫鯔琵琶。",
+        "会稽琵琶鱼无鳞，形似琵琶。"
+      ],
+      "traditional_char": "琵"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "other",
+      "meaning": "弹琵琶的手法名。",
+      "examples": [
+        "推手为琵，引手为琶。"
+      ],
+      "traditional_char": "琵"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从玉，比声，最初用于弦乐器琵琶的名称。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "以乐器名转指演奏该乐器的手法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "因鱼的形状像琵琶乐器，故以乐器名指鱼名。"
+    }
+  ]
+}

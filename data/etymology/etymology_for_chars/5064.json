@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "堵塞，填塞物体的通道、孔洞等",
+      "examples": [
+        "井堙木刊。——《左传·襄公二十五年》",
+        "欲不出纳，以堙其源。——唐 韩愈《剥啄行》"
+      ],
+      "traditional_char": "堙"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "埋没，泯灭（多指事物消失于世）",
+      "examples": [
+        "绝后无主堙替隶圉。——《国语·周语下》",
+        "金玉本光莹，浮沙岂能堙。——宋·王安石《东方朔》",
+        "有事其末，而忘其源，切近昧陋，道由是堙。——唐 韩愈《太原王公神道碑铭》"
+      ],
+      "traditional_char": "堙"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "为攻城而堆积的土山、土台",
+      "examples": [
+        "地狭而人众者，则筑大堙以临之。——《尉缭子》",
+        "乘堙而窥宋城。——《公羊传·宣公十五年》"
+      ],
+      "traditional_char": "堙"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从土，垔声，本义为堵塞，用土堵塞孔洞。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由堵塞引申为使事物消失、埋没，多见文献为抽象之‘消灭’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由堵塞物（如土）引申指为攻城所筑的土山，因其为堵塞、防御用土堆。"
+    }
+  ]
+}

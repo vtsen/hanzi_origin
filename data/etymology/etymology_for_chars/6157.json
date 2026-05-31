@@ -1,0 +1,87 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "疾病，尤指消耗性疾病如痨病",
+      "examples": [
+        "邦靡有定，士民其瘵。——《诗·大雅·瞻卬》",
+        "念其服劳之久，悯其撄瘵之深。——宋·王安石《乞退表》",
+        "久病痨疾而名曰瘵。"
+      ],
+      "traditional_char": "瘵"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "灾害、祸患，指造成疾苦的灾难",
+      "examples": [
+        "大军载草草，凋瘵满膏肓。——唐·杜甫《壮游》",
+        "天纲浡潏，为凋为瘵。——晋·木华《海赋》"
+      ],
+      "traditional_char": "瘵"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "疾苦，困顿，指人民因外部或内部原因遭受的苦难",
+      "examples": [
+        "邦靡有定，士民其瘵。——《诗·大雅·瞻卬》",
+        "会澧州缺，袞盛言南方凋瘵。——《新唐书·李泌传》"
+      ],
+      "traditional_char": "瘵"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "伤害，损害",
+      "examples": [
+        "上帝甚蹈，无自瘵焉。——《诗·小雅·菀柳》",
+        "亦弗瘵也。——清·龚自珍《乙丙之际著议第一》"
+      ],
+      "traditional_char": "瘵"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "接近，接触（少见用法，通“际”）",
+      "examples": [
+        "瘵，接也。——郑笺《诗·小雅·菀柳》"
+      ],
+      "traditional_char": "瘵"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从疒（病）表意，祭表声，本义为疾病、劳病。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由具体疾病引申指造成疾苦或灾害的情况，汉晋开始。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由灾害进一步泛指人的疾苦与困顿，常见于古诗文。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由身体现象疾病转为抽象表示伤害、损害的行为。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "小部分文献中用作“际”，音近借用，义为接近接触。"
+    }
+  ]
+}

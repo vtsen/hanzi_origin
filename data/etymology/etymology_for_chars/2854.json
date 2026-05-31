@@ -1,0 +1,115 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "帐篷顶部的覆盖物",
+      "examples": [
+        "幕天席地",
+        "夜幕降临"
+      ],
+      "traditional_char": "幕"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "舞台前部的帷帐；遮挡物",
+      "examples": [
+        "帷幕",
+        "开幕",
+        "幕布"
+      ],
+      "traditional_char": "幕"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "古代战争期间将帅办公的地方",
+      "examples": [
+        "幕府",
+        "幕僚",
+        "幕宾"
+      ],
+      "traditional_char": "幕"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "戏剧中较完整的段落，转喻生活情景",
+      "examples": [
+        "序幕",
+        "结幕",
+        "独幕剧"
+      ],
+      "traditional_char": "幕"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "古代作战时用的铁制臂甲和腿甲",
+      "examples": [],
+      "traditional_char": "幕"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "覆盖",
+      "examples": [
+        "解朝服而幕之"
+      ],
+      "traditional_char": "幕"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "沙漠（古同“漠”）",
+      "examples": [],
+      "traditional_char": "幕"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从巾，莫声，表示帐篷顶部的覆盖布。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由帐顶的覆盖物引申为舞台前的帷幕等遮挡物。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由实际的帐篷引作军营和将帅办公场所。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由舞台帷幕引申为戏剧段落与生活情景。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "unknown",
+      "note": "用作铁制护具，语源机制不明，或指覆布之意引申。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "conversion",
+      "note": "名词转为动词，表示覆盖。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "假借用为“漠”，专用于指沙漠。"
+    }
+  ]
+}

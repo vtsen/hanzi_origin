@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古代礼服、礼器上所绘、绣的黑白相间的斧形花纹",
+      "examples": [
+        "白与黑谓之黼，黑与青谓之黻。《考工记》",
+        "玄衮及黼。《诗·小雅·采菽》"
+      ],
+      "traditional_char": "黼"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "绣有黑白斧形花纹的礼服或衣物",
+      "examples": [
+        "美者黼绣，是古天子之服。《汉书·贾谊传》",
+        "黼衣黻裳不茹荤。《荀子·哀公》"
+      ],
+      "traditional_char": "黼"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "比喻华美的辞藻或花纹",
+      "examples": [
+        "黼黻章。",
+        "黼藻（指华美的辞藻）。"
+      ],
+      "traditional_char": "黼"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "绣，刺绣",
+      "examples": [
+        "雕琢刻鏤黼黻文章。《荀子·富国》",
+        "身拖黼绘。（指刺绣）"
+      ],
+      "traditional_char": "黼"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从黹，甫声，字形示意缝纫和黑白斧文相间，最初表指黑白相间斧形花纹。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "原指花纹，后引申为饰有黼纹的礼服、衣物，汉代普遍用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由指花纹引申为动词‘绣’，因制作黼纹需刺绣。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "以礼服斧文的精美华丽，比喻辞藻华美。早见于文学用法。"
+    }
+  ]
+}

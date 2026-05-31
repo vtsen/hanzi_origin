@@ -1,0 +1,69 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古地名，周代公劉所居之地，在今陕西省旬邑县西南，亦为后世州名。",
+      "examples": [
+        "篤公劉，于豳斯館。",
+        "公劉卒，子慶節立，國於豳。",
+        "豳州（州名。西魏时设置，隋废，唐仍为州，开元间改称邠州）"
+      ],
+      "traditional_char": "豳"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "指豳地的诗歌或乐曲，特指《诗经·豳风》中的诗篇。",
+      "examples": [
+        "歌《豳》。",
+        "吹《豳》息蠟，音並於《籥章》。"
+      ],
+      "traditional_char": "豳"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [],
+      "traditional_char": "豳"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "通“斑”、“斒”，指斑纹、杂色花纹。",
+      "examples": [
+        "玢豳文磷。",
+        "被豳文。"
+      ],
+      "traditional_char": "豳"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘豳’为形声字，从豩（表示声）从山，原意为地名，表明与山与豕部有关。古与‘邠’通，仅读音、结构有所变化。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "以地名代指流传于该地的诗歌与乐曲，《诗经·豳风》即以地名借指诗歌类属。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由地名引申为姓氏，常见于中国古代姓氏来源。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "‘豳’假借为‘斑’、‘斒’用，表示斑纹、杂色花纹，见于汉赋等文献。音近通假。"
+    }
+  ]
+}

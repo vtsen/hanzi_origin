@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "池塘，水池。",
+      "examples": [
+        "溏有萬穴。",
+        "池溏多魚蝦。"
+      ],
+      "traditional_char": "溏"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "泥浆，稀泥。",
+      "examples": [
+        "滒溏，淖也。",
+        "稀泥溏濁。"
+      ],
+      "traditional_char": "溏"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "未凝固的，半流动的，像糊状的。",
+      "examples": [
+        "大便溏。",
+        "蛋黄未全凝结者俗谓“溏心蛋”。"
+      ],
+      "traditional_char": "溏"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，唐声，本义为水池。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由池塘的含水性引申为泥浆、稀泥。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由稀泥的流动性和未凝固的特性，比喻半流动、未凝结之物的状态。"
+    }
+  ]
+}

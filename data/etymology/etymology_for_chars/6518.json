@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "忧愁，忧伤的样子",
+      "examples": [
+        "心焉忉忉。《诗经·齐风·甫田》",
+        "痛忉怛以摧心。——潘岳《寡妇赋》",
+        "无思远人，劳心忉忉。"
+      ],
+      "traditional_char": "忉"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "啰嗦，唠叨的样子",
+      "examples": [
+        "忉咄（啰嗦）",
+        "客多，偷隙作此简，鄙怀欲述者多，不觉忉。——欧阳修《与王懿敏公书》"
+      ],
+      "traditional_char": "忉"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "佛教称“忉利天”，即欲界六天中的第二天",
+      "examples": [
+        "忉利天宫"
+      ],
+      "traditional_char": "忉"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从心，刀声。表示忧愁、忧伤的样子，‘刀’表声也或有忧如刀割之意会。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘忧愁’引申为‘唠叨、啰嗦’，表现因忧虑而反复絮叨。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "忉利天中的‘忉’取由忧愁引申，佛教梵语音译用此字，成为专有名词。"
+    }
+  ]
+}

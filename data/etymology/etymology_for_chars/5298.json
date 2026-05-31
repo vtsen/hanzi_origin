@@ -1,0 +1,88 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "容色改变，(多指面容变得悲伤、严肃)",
+      "examples": [
+        "愀然变容",
+        "愀然作色",
+        "感旧色已愀"
+      ],
+      "traditional_char": "愀"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "忧愁、悲伤貌",
+      "examples": [
+        "愀戚",
+        "愀悲",
+        "主人笑而歌，客子叹以愀"
+      ],
+      "traditional_char": "愀"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "恭谨、严肃貌",
+      "examples": [
+        "愀如也",
+        "愀然正襟危坐"
+      ],
+      "traditional_char": "愀"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "萧条冷落的样子",
+      "examples": [
+        "原野嵺愀",
+        "山谷蕭條，原野嵺愀"
+      ],
+      "traditional_char": "愀"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "通“瞅”，看、注视（罕用）",
+      "examples": [
+        "愀问"
+      ],
+      "traditional_char": "愀"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从心，秌声，表示情感相关，初义为颜色变化，尤指脸色变化。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_narrowing",
+      "note": "由一般的脸色变化，专指忧愁等消极情绪之变。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由脸色变化引申为神情严肃、恭谨之状。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由人脸色变化的肃穆，转喻为自然环境的萧条。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "借音通“瞅”，表示看、注视（罕用）。"
+    }
+  ]
+}

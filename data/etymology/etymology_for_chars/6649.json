@@ -1,0 +1,81 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古地名。为春秋时期秦邑名、汉代有上邽、下邽县，今甘肃省天水市及陕西省渭南县等地名使用。",
+      "examples": [
+        "秦武公十年，伐邽、冀戎，初县之。（《史记·秦本纪》）",
+        "徙于下邽，今为下邽人焉。（《旧唐书·白居易传》）"
+      ],
+      "traditional_char": "邽"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [
+        "孔子弟子有邽巽。（《史记·仲尼弟子列传》）"
+      ],
+      "traditional_char": "邽"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "通“圭”。玉器名，宝玉。",
+      "examples": [
+        "郕伯卒，郕人立君。太子以夫钟与郕邽来奔。（《左传·文公十二年》）"
+      ],
+      "traditional_char": "邽"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "鸟名，即子规，杜鹃鸟。",
+      "examples": [
+        "南方鸟名曰邽，生而食其翼。（《太平御览》引《鲁连子》）"
+      ],
+      "traditional_char": "邽"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "“邦”的异体字（见于古籍用字习惯，不算独立普遍用法）。",
+      "examples": [],
+      "traditional_char": "邽"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从邑，圭声，古地名，表示与邑（城市、地域）有关；‘圭’表音。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由地名转为姓氏，常见于中国姓氏演化史。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "通“圭”，以音近借用于宝玉名称，古文互通。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "unknown",
+      "note": "鸟名用法出现机制不明，古籍有见但义源不详。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "analogy",
+      "note": "作为“邦”之异体，来源于古文字形体混用，与本义地名有类推，见于古籍异体使用。"
+    }
+  ]
+}

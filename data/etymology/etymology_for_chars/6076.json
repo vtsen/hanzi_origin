@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "久下不停的雨",
+      "examples": [
+        "霖雨连绵",
+        "甘霖普降"
+      ],
+      "traditional_char": "霖"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "对农作物有利的雨，甘霖（引申为恩泽）",
+      "examples": [
+        "久旱逢甘霖",
+        "泽被苍生如甘霖"
+      ],
+      "traditional_char": "霖"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从雨，林声，本义为久下不停的雨"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由实际久雨引申为有利于农作物的雨，进而喻为恩泽"
+    }
+  ]
+}

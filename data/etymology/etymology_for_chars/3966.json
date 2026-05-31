@@ -1,0 +1,99 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "pronoun",
+      "meaning": "我，用于吴语等方言或古诗文中，表示自称。",
+      "examples": [
+        "人道横江好，侬道横江恶。——李白《横江词》",
+        "卿自早醒侬自梦，更更。——纳兰性德《南乡子——为亡妇题照》"
+      ],
+      "traditional_char": "儂"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "pronoun",
+      "meaning": "你，表示对称单数“你”或“您”，用于部分方言中。",
+      "examples": [
+        "劝郎莫上南高峰，劝侬莫上北高峰。——杨维桢《西湖竹枝集》",
+        "侬为中国人吐出一口气，应该谢谢侬。——汪曾祺《星期天》"
+      ],
+      "traditional_char": "儂"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "pronoun",
+      "meaning": "他（她），古时吴越一带用“侬”称他人。",
+      "examples": [
+        "鸡亭故侬去，九里新侬还。——《乐府诗集》",
+        "葳蕤当忆我，莫持艳他侬。——《西曲歌·孟珠曲》"
+      ],
+      "traditional_char": "儂"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "人，泛指一般人。",
+      "examples": [
+        "赫赫盛阳月，无侬不握扇。——《乐府诗集》",
+        "比闻此州囚，亦在生还侬。——韩愈《泷吏》"
+      ],
+      "traditional_char": "儂"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "侬人，广西云南交界地区的壮族民族名。",
+      "examples": [],
+      "traditional_char": "儂"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [
+        "唐朝有儂金意。——《新唐书·南蛮传下·西原蛮》"
+      ],
+      "traditional_char": "儂"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从人，农声，本义为自称代词“我”，今简作‘侬’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "自指‘我’的代词在吴方言等中扩展用作对称‘你’。具体方言语境发展，中古以后见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "‘我’的指代可进一步泛化为‘他’，为部分吴越方言、民歌旧用，见中古时用例。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "synecdoche",
+      "note": "用‘我’泛指‘人’，即以一称泛称全体。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "semantic_narrowing",
+      "note": "由泛指‘人’专指‘侬族’民族。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "‘人’的意义抽象为姓氏用。"
+    }
+  ]
+}

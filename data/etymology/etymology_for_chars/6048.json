@@ -1,0 +1,57 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "糊涂，不明事理",
+      "examples": [
+        "他为人颟顸，常常做事糊涂。"
+      ],
+      "traditional_char": "顢"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "漫不经心，做事不认真",
+      "examples": [
+        "做事情不能颟顸大意。"
+      ],
+      "traditional_char": "顢"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "大面，脸大（古义，多见于成语“顢頇”）",
+      "examples": [
+        "顢頇，大面。——《玉篇》"
+      ],
+      "traditional_char": "顢"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 2,
+      "note": "‘顢’形声字，从頁（头/面部）作意符，‘瞞’作声符，初指脸大。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘颟’为‘顢’的简化字，形声结构，承继‘顢’之义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 2,
+      "target_index": 0,
+      "evolution_type": "semantic_shift",
+      "note": "由‘大面’衍变为形容人糊涂，可能因‘大面无知’引申（古代辞书所见）。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从‘糊涂’进一步引申为‘漫不经心、不认真’。"
+    }
+  ]
+}

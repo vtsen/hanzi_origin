@@ -1,0 +1,69 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古代用麻、葛等制成的鞋，后泛指鞋。",
+      "examples": [
+        "掌王及后之服屦。——《周礼·屦人》",
+        "纠纠葛屦，可以履霜。——《诗·魏风·葛屦》",
+        "列子提屦，跣而走。——《庄子·列御寇》"
+      ],
+      "traditional_char": "屦"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "践踏，踩踏。",
+      "examples": [
+        "身屦典军。——《史记·季布栾布传》",
+        "屦般首，带脩蛇。——扬雄《羽猎赋》"
+      ],
+      "traditional_char": "屦"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "穿鞋。",
+      "examples": [
+        "不冠屦来往也。——韩愈《孔公墓志铭》",
+        "袒裼不冠屦。——洪迈《夷坚乙志·皇甫自牧》"
+      ],
+      "traditional_char": "屦"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "古同“屡”，有多次、频繁之意（仅属古用）。",
+      "examples": [],
+      "traditional_char": "屦"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从履省与婁声会意兼形声，本义为草履、麻鞋。简化字与繁体字结构一致。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "conversion",
+      "note": "名词转动词，由“鞋”引申为“穿鞋”，历经汉语早期。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "从鞋引申为“践踏”，即用鞋踩踏，意象转喻。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "在古代文献中音近“屡”，引申为多次、频繁，属音假用。"
+    }
+  ]
+}

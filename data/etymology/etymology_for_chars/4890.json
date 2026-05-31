@@ -1,0 +1,38 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "老鸹，乌鸦的俗称。",
+      "examples": [
+        "老鸹在树上叫。"
+      ],
+      "traditional_char": "鴰"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "鴰，古代文献所指的麋鴰，一种似雁而黑的水鸟，有时也泛指乌鸦。",
+      "examples": [
+        "鶬鴰，似雁而黑。——《西京赋》",
+        "炙鴰烝鳧，煔鶉敶只。——《楚辞·大招》"
+      ],
+      "traditional_char": "鴰"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "‘鴰’为形声字，从鳥，𠯑（括）声，最初用于指代麋鴰等鸟类。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_shift",
+      "note": "古代‘鴰’指麋鴰，后泛指普通乌鸦并成为俗称‘老鸹’。"
+    }
+  ]
+}

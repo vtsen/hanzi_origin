@@ -1,0 +1,101 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古代驾驭马车时套在马颈或马腹上的皮带",
+      "examples": [
+        "绣鞅璁珑走钿车",
+        "抽剑断鞅"
+      ],
+      "traditional_char": "鞅"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "牛拉东西时架在脖子上的器具",
+      "examples": [
+        "牛鞅"
+      ],
+      "traditional_char": "鞅"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "借指车马、车驾",
+      "examples": [
+        "穷巷寡轮鞅",
+        "斜阳归鞅促"
+      ],
+      "traditional_char": "鞅"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "羁绊，束缚",
+      "examples": [
+        "未能脱尘鞅",
+        "百物困尘鞅"
+      ],
+      "traditional_char": "鞅"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "郁郁不乐、不满的样子，通“怏”",
+      "examples": [
+        "心常鞅鞅",
+        "居常鞅鞅"
+      ],
+      "traditional_char": "鞅"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "士鞅"
+      ],
+      "traditional_char": "鞅"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从革，央声。表示革制品，指系在马颈或马腹的皮带。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "synecdoche",
+      "note": "由马的驾具泛指到牛的驾具，使用部分转整体的修辞。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由具体驾具引申为车马整体。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "以驾具之束缚功能喻为人生羁绊。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "conversion",
+      "note": "器物名转用为姓氏，中文常见。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 3,
+      "evolution_type": "unknown",
+      "note": "“鞅鞅”（不满）与“羁绊”义，在古文常交叠，具体语义演化路径不详。"
+    }
+  ]
+}

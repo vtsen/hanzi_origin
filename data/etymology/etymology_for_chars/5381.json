@@ -1,0 +1,53 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "用草或棕毛做成的防雨用具（蓑衣）",
+      "examples": [
+        "何蓑何笠。——《诗·小雅·无羊》",
+        "地里还有工作的农民，披着蓑戴着笠。——《春》"
+      ],
+      "traditional_char": "蓑"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "用草覆盖、掩盖",
+      "examples": [
+        "仲几之罪何？不蓑城也。——《公羊传》"
+      ],
+      "traditional_char": "蓑"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "蓑蓑：草木、花蕊下垂的样子",
+      "examples": [
+        "敷华蕊之蓑蓑。——张衡《南都赋》"
+      ],
+      "traditional_char": "蓑"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从艸，衰声。本义为草制雨衣，构形体现‘艸雨衣’之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "conversion",
+      "note": "由名词（雨衣）引申为用草覆盖的动作；古今常见名动转化"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由草制雨披的‘下垂’外形比喻花蕊或叶片等下垂的形态。"
+    }
+  ]
+}

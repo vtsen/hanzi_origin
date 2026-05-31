@@ -1,0 +1,85 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "一种猴，猿类动物，身体便捷，善于攀援。又名“狨”或“猕猴”。",
+      "examples": [
+        "毋教猱升木。——《诗·小雅·角弓》",
+        "仰手接飞猱，俯身散马蹄。——曹植《白马篇》"
+      ],
+      "traditional_char": "猱"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "形容轻捷、轻快。",
+      "examples": [
+        "猱进鸷击。——清·徐珂《清稗类钞·战事类》",
+        "猱援（轻捷攀援）"
+      ],
+      "traditional_char": "猱"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "搔，揉搓。",
+      "examples": [
+        "教我心痒难猱。——《南曲·正宫过曲·小桃红》"
+      ],
+      "traditional_char": "猱"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "旧时杂剧中的一种角色名，多指妓女之总称。",
+      "examples": [
+        "杂剧院本，皆有正末、副末、狚、孤、靚、鴇、猱、捷讥、引戏九色之名……猱，妓女之总称。——明·朱权《太和正音谱》"
+      ],
+      "traditional_char": "猱"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "古琴弹奏的一种指法，左手按弦往复移动，使琴声微颤且圆润。",
+      "examples": [
+        "吟猱",
+        "猱法是在徽分的下方作较大距离的往复摆动。"
+      ],
+      "traditional_char": "猱"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从犬，孝声，指灵敏灵巧善攀援的猿猴类动物，初义为猴、猿属。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由猴的灵活属性引申为形容动作轻捷灵快，汉代已见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "因猴常搔抓身体，引申为‘搔、揉搓’之意，明清用法见于文学。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "以猱喻杂剧诸色妓女，因其灵巧善变，元明戏曲专业角色分类用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "古琴指法“猱”借喻猴类手部动作的敏捷灵活，宋元琴书已见。"
+    }
+  ]
+}

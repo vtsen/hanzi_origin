@@ -1,0 +1,104 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "有花纹的丝织品或通过印染工艺制成的彩色花纹织物。",
+      "examples": [
+        "衣绫绮缬。《魏书》",
+        "奴婢悉不得衣綾綺纈。",
+        "請發左藏惡繒染為綵纈。"
+      ],
+      "traditional_char": "纈"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "中国古代的一种印染工艺，用丝线缚扎丝织物后染色，拆线处呈现花纹，称为缬。",
+      "examples": [
+        "缬，谓以丝缚缯染之，解丝成文曰缬也。——唐·玄应《一切经音义》"
+      ],
+      "traditional_char": "纈"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "色彩斑斓的物品（比喻用法）。",
+      "examples": [
+        "水晶簾外東風起，卷不盡滿庭春雪。畫欄小斜鋪亂颭，翠苔成纈。",
+        "朔風凜冽利於刀，愁雲合沓繁如纈。"
+      ],
+      "traditional_char": "纈"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "眼花时见到的星星点点；多形容醉眼所见。",
+      "examples": [
+        "花鬟醉眼纈，龍子細文紅。",
+        "神迷耳熱眼生纈，嚼盡寶墨狂酲消。",
+        "眼花迷纈心苗損。"
+      ],
+      "traditional_char": "纈"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "两颊泛起的红晕或一般意义上的红晕。",
+      "examples": [
+        "有酒作臉纈，無愁供鬢霜。",
+        "臉銷殘纈膩春紅。",
+        "鏡勻嬌面粉，燈泛高籠纈。"
+      ],
+      "traditional_char": "纈"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "纈草，一种植物。",
+      "examples": [
+        "湘州紅纈鄂州花。——參見“纈草”。"
+      ],
+      "traditional_char": "纈"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "‘纈’（缬）为形声字，糸为意（与丝织品相关），吉为声。最初表示印染工艺——用丝线缚扎丝织物后染色成花纹。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "由印染工艺名称扩大指称由该方法制得的有花纹织物。见魏书、唐代文献。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "通过色彩斑斓印染工艺的特征，比喻一般颜色斑斓的物品。见元、清诗文。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由印染出花、点的视觉形象，比喻醉眼看到的斑点、星点。见中古诗词。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "以印染而成的花纹色块，比喻脸颊或物体表面出现的红晕。作品多见于唐宋明清。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "metonymy",
+      "note": "因植物纈草可用于染色，故借用‘纈’指代该植物。"
+    }
+  ]
+}

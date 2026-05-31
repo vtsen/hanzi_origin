@@ -1,0 +1,90 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "筷子。",
+      "examples": [
+        "停杯投箸不能食。",
+        "纣为象箸而箕子唏。",
+        "举起箸来取菜，提起杯来喝酒。"
+      ],
+      "traditional_char": "箸"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "一种生在南海岸边沙中的竹子。",
+      "examples": [
+        "南海人爱其色，以为酒筹。凡欲采者，须轻步向前拔之，闻行声，遽缩入沙中不可得。"
+      ],
+      "traditional_char": "箸"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "明显；显著（古同“著”）。",
+      "examples": [
+        "致忠信，箸仁义。",
+        "夫类之相从也，如此之箸也。",
+        "霸者之善箸焉。"
+      ],
+      "traditional_char": "箸"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "撰写，写作（后作“著”）。",
+      "examples": [
+        "箸《论衡》八十五篇，二十余万言。",
+        "及稍定汉诸仪法，皆叔孙生为太常所论箸也。",
+        "箸书则未，日与小儿编排齐整之。"
+      ],
+      "traditional_char": "箸"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "穿戴；附着（通“着”）。",
+      "examples": [
+        "此手那可使箸贼？",
+        "兵箸晋阳三年矣，且暮当拔之。",
+        "箸于身。"
+      ],
+      "traditional_char": "箸"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从竹，者声。‘竹’表意指竹制工具，‘者’为声符。最早本义为‘筷子’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "因用作筷子的竹，转指用于制作筷子的特殊竹子。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由筷子细长显明，引申为‘明显、显著’。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由‘明显’发展为‘著述’。衍生为‘著作’、‘写作’。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由‘著/明’引申为‘附着、穿着’。与‘着’同本义。"
+    }
+  ]
+}

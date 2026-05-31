@@ -1,0 +1,38 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "凿金石用的工具",
+      "examples": [
+        "工匠手握錾子雕刻玉石。"
+      ],
+      "traditional_char": "錾"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "在金石上雕刻",
+      "examples": [
+        "在玉器上錾花。",
+        "他在铜器上錾字。"
+      ],
+      "traditional_char": "錾"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘錾’形声字，从金，赞声，表示雕刻金属之器，工具义最早。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "conversion",
+      "note": "由工具名转化为相关动作；中古已见。"
+    }
+  ]
+}

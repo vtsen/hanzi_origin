@@ -1,0 +1,134 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "巡行，巡视",
+      "examples": [
+        "王乃徇师而誓。",
+        "刘隗军于金城，帝亲被甲徇六师于郊外。"
+      ],
+      "traditional_char": "徇"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "（攻取、抚慰地方）攻占，招抚",
+      "examples": [
+        "将兵徇蕲以东。",
+        "张良徇韩地。"
+      ],
+      "traditional_char": "徇"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "巡行示众，对众宣示",
+      "examples": [
+        "杀颠颉以徇于师。",
+        "遂斩队长二人以徇。"
+      ],
+      "traditional_char": "徇"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "顺从、依从、曲从",
+      "examples": [
+        "知县又徇了顾佥事人情。",
+        "徇世"
+      ],
+      "traditional_char": "徇"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "谋求（私利），营求",
+      "examples": [
+        "今不恤士卒而徇其私，非社稷之臣。",
+        "士徇利禄，守阙残，无独辟之虑。"
+      ],
+      "traditional_char": "徇"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "牺牲生命（多作“徇名”、“徇利”、“徇国”等），同“殉”",
+      "examples": [
+        "陛下舍万乘之躯，而徇小义，古人所不取也。",
+        "以徇国家之急。"
+      ],
+      "traditional_char": "徇"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "adjective",
+      "meaning": "迅速，敏捷（通“侚”）",
+      "examples": [
+        "黄帝幼而徇齐。",
+        "年逾五十则聪明思虑徇通矣。"
+      ],
+      "traditional_char": "徇"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "verb",
+      "meaning": "夸示，炫耀",
+      "examples": [
+        "徇蹲鸱之沃，则以为世济阳九。"
+      ],
+      "traditional_char": "徇"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从彳（与行走有关），旬声，表示“巡行”，这是最早的基本义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从一地行至一地巡查引申为攻取、抚慰某地。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "巡行扩展为巡行示众，含当众展示义。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 7,
+      "evolution_type": "metonymy",
+      "note": "由当众宣示引申为夸示、炫耀。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "“巡行”在动作上与“顺从、依从”相关，义项有演变。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "从“依从”进一步引申为“营求、谋求私利”。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 5,
+      "evolution_type": "metaphor",
+      "note": "顺从到为名（或目的）牺牲，用顺从生命隐喻牺牲生命。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "“徇”假借为“侚”（迅疾），在古文中通用。"
+    }
+  ]
+}

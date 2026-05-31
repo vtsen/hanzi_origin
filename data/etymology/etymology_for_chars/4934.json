@@ -1,0 +1,86 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "传说中的神鸟，凤凰的一类，雄性的长生鸟，赤色五采，鸡形，鸣中五音，见则天下安宁。",
+      "examples": [
+        "女床之山，有鸟名曰鸾鸟。——《山海经》",
+        "鸾鸟，凤皇属也。——《广雅》"
+      ],
+      "traditional_char": "鸞"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "系于帝王车驾衡上的金属铃，形似鸾鸟，故名鸾铃，亦作“鑾”。",
+      "examples": [
+        "君子至止，鸾声将将。——《诗·小雅·庭燎》",
+        "四牡彭彭，八鸾锵锵。——《诗·大雅·丞民》"
+      ],
+      "traditional_char": "鸞"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "装饰有鸾铃或鸾鸟的帝王或贵族乘车（鸾车、鸾辂、鸾驾等）。",
+      "examples": [
+        "天子居青阳左个，乘鸾辂，驾苍龙。——《逸周书·月令》",
+        "鸾车速风电，龙马无鞭策。——李白《草创大还赠柳官迪》"
+      ],
+      "traditional_char": "鸞"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "比喻贤能美好的人，或比喻夫妻、佳侣（多与“凤”连用，如“鸾凤和鸣”）。",
+      "examples": [
+        "鸾凤和鸣（形容夫妻和谐）",
+        "鸾俦（佳侣）"
+      ],
+      "traditional_char": "鸞"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "（借）镜名，鸾镜，借指女子妆台用镜。",
+      "examples": [
+        "一声长叹，临鸾不画眉山。——元·李致远《天净沙·离愁》"
+      ],
+      "traditional_char": "鸞"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从鸟，羉（luán）声，最初表示神鸟鸾。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "因帝王车衡上的铃多制成鸾鸟状，取其吉祥美好，汉代早见。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "以鸾铃、装饰泛指帝王或贵族乘车，历史可见隋唐。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "借鸾凤喻义人才、夫妻、佳侣，先秦两汉已见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "“鸾镜”借喻美好、妆台用具，宋元常见。"
+    }
+  ]
+}

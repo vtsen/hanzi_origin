@@ -1,0 +1,70 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古代酒器，初用兽角制作，后亦用铜、玉、木、陶等材料，腹椭圆，有圈足和兽头形器盖，或作兽形，常用于盛酒或酒宴。",
+      "examples": [
+        "我姑酌彼兕觥。——《诗经·周南·卷耳》",
+        "举觥独酌。——清·钮琇《觚賸·物觚》",
+        "百觥也不敢辞。——《二刻拍案惊奇》"
+      ],
+      "traditional_char": "觥"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "大，丰盛。",
+      "examples": [
+        "觥饭不及壶食。——《国语·越语》",
+        "觥羊之毅。——扬雄《太玄·毅》"
+      ],
+      "traditional_char": "觥"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "刚直、壮健的样子。",
+      "examples": [
+        "关中觥觥郭子横。——《后汉书·郭宪传》"
+      ],
+      "traditional_char": "觥"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "onomatopoeia",
+      "meaning": "形容玉器、木板撞击等的声响。",
+      "examples": [
+        "杖撞玉版声彭觥。——韩愈《记梦》"
+      ],
+      "traditional_char": "觥"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从角，黄声。本义指用兽角制成的酒器。《说文》作“觵”，后借光声写作觥。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由盛酒大器转喻为“大、丰盛”，如觥羊、觥饭。见《太玄·毅》《国语·越语》。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由厚重大器引申为刚直、壮健的风貌，如觥觥郭子横。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "因酒宴嘈杂热闹，转指玉木撞击的响亮声音，用作象声词。见韩愈用法。"
+    }
+  ]
+}

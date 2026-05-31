@@ -1,0 +1,133 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "痴呆的样子",
+      "examples": [
+        "佁，痴貌。——《说文》",
+        "佁，痴也。——《广韵》"
+      ],
+      "traditional_char": "佁"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "静止不动的样子",
+      "examples": [
+        "佁然不动",
+        "～～不动"
+      ],
+      "traditional_char": "佁"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "危险",
+      "examples": [
+        "复守其母，没身不佁。——《马王堆汉墓帛书》"
+      ],
+      "traditional_char": "佁"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "停滞不前、犹豫不决",
+      "examples": [
+        "佁儗：a.停滞不前；b.犹豫不决"
+      ],
+      "traditional_char": "佁"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "至，致使",
+      "examples": [
+        "佁蹶之机"
+      ],
+      "traditional_char": "佁"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "adjective",
+      "meaning": "深思貌",
+      "examples": [
+        "佁美然后有煇。——《管子•侈靡》"
+      ],
+      "traditional_char": "佁"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "像，类似（通“似”）",
+      "examples": [
+        "佁万物之宗（今本作“似”）"
+      ],
+      "traditional_char": "佁"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "noun",
+      "meaning": "开始，起始（通“始”）",
+      "examples": [],
+      "traditional_char": "佁"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从人，台声。以‘痴呆貌’为本义，属于形声字。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "痴呆引申为呆滞、静止不动。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由痴呆引申为行动迟缓、停滞不前。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "由呆滞、痴呆比喻危险（意志失守导致危险）。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "静止引申为不前进、停顿犹豫。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "metonymy",
+      "note": "痴呆引申为专注、深思。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "用作‘似’的通假。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "用作‘至’、‘致使’的通假字。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 7,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "用作‘始’的通假字。"
+    }
+  ]
+}

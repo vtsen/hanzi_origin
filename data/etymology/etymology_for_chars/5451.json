@@ -1,0 +1,68 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "日落，太阳下山。",
+      "examples": [
+        "暌，日入也。——《古今韵会举要》"
+      ],
+      "traditional_char": "暌"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "分离，隔开，不在一起。",
+      "examples": [
+        "伊余本羁客，重暌复心赏。——何逊《入西塞示南府同僚》",
+        "暌违数载。"
+      ],
+      "traditional_char": "暌"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "违背。",
+      "examples": [
+        "或文丽而义暌。——《文心雕龙•杂文》"
+      ],
+      "traditional_char": "暌"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "张目注视。",
+      "examples": [
+        "暌暌，张目注视的样子。"
+      ],
+      "traditional_char": "暌"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从日，癸声，本义为日落，日入。‘日’表意，‘癸’表声。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由太阳西落象征对象分离，引申为分离、隔开。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由分离义进一步引申出‘违背’之义。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "unknown",
+      "note": "‘张目注视’义与分离隔开义古书多通‘睽’，具体演化路径不明，按现有文献以未知处理。"
+    }
+  ]
+}

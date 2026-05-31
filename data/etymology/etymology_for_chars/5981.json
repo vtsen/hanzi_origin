@@ -1,0 +1,86 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古代平民一家在城市中所居的房地。",
+      "examples": [
+        "願受一廛而為氓。（《孟子·滕文公上》）",
+        "廛，一亩半，一家之居。（《说文》）",
+        "闐城溢郭，旁流百廛。（《汉·班固〈西都赋〉》）"
+      ],
+      "traditional_char": "廛"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "泛指居民的房屋、房地。",
+      "examples": [
+        "閒廛未盡居也。（清·洪亮吉《治平篇》）",
+        "映山春晻曖，下有魚樵廛。（清·厲鶚）"
+      ],
+      "traditional_char": "廛"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "市中存儲、堆積和出售貨物的地方，店铺、市邸。",
+      "examples": [
+        "廓三市而開廛。（左思《魏都赋》）",
+        "市，廛而不稅。（《禮記·王制》）"
+      ],
+      "traditional_char": "廛"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "numeral",
+      "meaning": "古代一夫所耕之田，即百畝（量詞用法，有异文作“缠”）。",
+      "examples": [
+        "胡取禾三百廛兮！（《詩·魏風·伐檀》）"
+      ],
+      "traditional_char": "廛"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "通“缠”，束，捆。",
+      "examples": [
+        "不稼不穑，胡取禾三百廛兮？（《詩·魏風·伐檀》）"
+      ],
+      "traditional_char": "廛"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意字，从广表示屋宇，从八土表示分配的田地，体现‘一家之地’之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由特指城市中一家之地推及泛指民居、房屋及其区域。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由居民之居延伸为城市中货物堆放、交易的场所，常见于古代市集。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "从民居用地数量及单位，引申为量词用法，指一定面积的田地。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "因音近假借为‘缠’，用作‘束’、‘捆’等义，文学古籍中可见。"
+    }
+  ]
+}

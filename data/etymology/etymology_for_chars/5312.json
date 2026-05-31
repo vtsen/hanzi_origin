@@ -1,0 +1,45 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "起立；起身。",
+      "examples": [
+        "尸謖，祝前，主人降。",
+        "若夫沒人，則未嘗見舟而謖操之者也。",
+        "驚沙卷旍旗，烏尾城角謖。"
+      ],
+      "traditional_char": "謖"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "肃敬的样子。",
+      "examples": [
+        "公子謖然斂袂而興。",
+        "世目李元禮，謖謖如勁松下風。"
+      ],
+      "traditional_char": "謖"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘謖’为形声字，从言，宿声，本义为起、起立。"
+    },
+    {
+      "formation_type": "loan_character",
+      "original_sense_index": 0,
+      "note": "‘谡’为‘謖’的简化字，结构承袭。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘起立’引申为‘肃敬的样子’，常见于肃立时礼节。"
+    }
+  ]
+}

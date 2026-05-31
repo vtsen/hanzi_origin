@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "蚱蜢，一种危害农作物的昆虫，属于蝗科。",
+      "examples": [
+        "田间常见蚱蜢啃食庄稼。",
+        "蝗虫蜢类为害农事。"
+      ],
+      "traditional_char": "蜢"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "小船名，取其小巧之意，后也作“舴艋”。",
+      "examples": [
+        "舴艋舟，江南小船也。",
+        "舴艋小蜢，行于浅水。"
+      ],
+      "traditional_char": "蜢"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "泛指蛤蟆、青蛙和蟾蜍等两栖动物。",
+      "examples": [
+        "胡蜢，蛤蟆也。",
+        "蝦䗫蜢通称蛙类。"
+      ],
+      "traditional_char": "蜢"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从虫，孟声，本指蚱蜢等类昆虫。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "以蜢虫体小灵活，比喻小舟，汉代已见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由昆虫蜢类引申泛指两栖动物，主要在古籍方言中。"
+    }
+  ]
+}

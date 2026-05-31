@@ -1,0 +1,79 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "嗓音嘶哑，声音沙哑。",
+      "examples": [
+        "终日嚎而嗌不嗄。——《老子》",
+        "月苦蝉声嗄，钟清柿叶干。",
+        "长太爷的肺脏差点儿没给爆破，他嗄着嗓子咆哮：‘再打！’"
+      ],
+      "traditional_char": "嗄"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "interjection",
+      "meaning": "旧时仆役对主人、下级对上级的应诺声。",
+      "examples": [
+        "‘带进来’。两边军士应一声‘嗄’，即将牛皋推至面前。——《说岳全传》",
+        "吩咐各营将校，摆齐阵伍，就此前行。[众：]嗄！"
+      ],
+      "traditional_char": "嗄"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "pronoun",
+      "meaning": "什么，代词。表示否定或疑问。",
+      "examples": [
+        "我要丢个干干净，看你嗄法把我治。——《聊斋俚曲集》",
+        "今年没有生意，家里也要吃用，没奈何卖了，又老远的路来告诉我做嗄？——《儒林外史》"
+      ],
+      "traditional_char": "嗄"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "interjection",
+      "meaning": "表示反诘、醒悟或惊奇，同“啊”（á），语气词。",
+      "examples": [
+        "嗄！难道这里是没有地方官的么？——《新编五代史平话》",
+        "嗄！好怪，好怪，连我白须胡子那里去了？——《邯郸记》",
+        "嗄！几败乃事！——《新编五代史平话》"
+      ],
+      "traditional_char": "嗄"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从‘口’，表与口语或声音相关，‘壹’为声旁，本义为声音嘶哑。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "grammaticalization",
+      "note": "从描写声音嘶哑到语气词，演变为应答或呼应之用，清代大量文献可证。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "由嘶哑、变音引申作疑问、否定代词，语音弱化和语法化。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "grammaticalization",
+      "note": "记述实际声音变化，同时发展为语气词，表示疑问、惊讶、反诘。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 1,
+      "evolution_type": "unknown",
+      "note": "二者在实际语境中交叠，用法有交叉，关系可逆。"
+    }
+  ]
+}

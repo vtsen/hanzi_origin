@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "尽兴地游乐",
+      "examples": [
+        "尽情谑乐"
+      ],
+      "traditional_char": "謔"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "开玩笑",
+      "examples": [
+        "戏谑",
+        "谐谑",
+        "谑而不虐"
+      ],
+      "traditional_char": "謔"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "other",
+      "meaning": "玩笑、开玩笑的话",
+      "examples": [
+        "此言纯属谑浪"
+      ],
+      "traditional_char": "謔"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从言，虐声，表示尽情游乐之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_shift",
+      "note": "由“尽兴游乐”引申为“开玩笑”，义项转移，起始于先秦至汉。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "conversion",
+      "note": "动词转名词，表示“玩笑”本身。"
+    }
+  ]
+}

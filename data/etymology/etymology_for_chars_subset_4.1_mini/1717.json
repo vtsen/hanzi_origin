@@ -1,0 +1,129 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "用言语解说，开导，说明",
+      "examples": [
+        "演说",
+        "说明"
+      ],
+      "traditional_char": "說"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "用话来表达意思",
+      "examples": [
+        "说话",
+        "解说"
+      ],
+      "traditional_char": "說"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "介绍",
+      "examples": [
+        "说合",
+        "说媒"
+      ],
+      "traditional_char": "說"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "言论，主张",
+      "examples": [
+        "学说",
+        "著书立说"
+      ],
+      "traditional_char": "說"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "责备",
+      "examples": [
+        "数说"
+      ],
+      "traditional_char": "說"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "文体的一种",
+      "examples": [
+        "韩愈的《师说》"
+      ],
+      "traditional_char": "說"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "用话劝说别人，使他听从自己的意见",
+      "examples": [
+        "游说"
+      ],
+      "traditional_char": "說"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "verb",
+      "meaning": "古同“悦”",
+      "examples": [],
+      "traditional_char": "說"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从言，兑声。言示语言，兑表声符，本义为用言语解说和说明。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "原义解说延伸为一般的用话表达意思。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "表达意思引申至中介介绍和牵线搭桥。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "表达意思引申为言论和主张。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "用话表达引申为责备或数落。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "言论引申为一种文体名称。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 6,
+      "evolution_type": "semantic_narrowing",
+      "note": "用话表达意思发展为专指劝说别人。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 7,
+      "evolution_type": "semantic_shift",
+      "note": "古义同‘悦’，意义转变不明。"
+    }
+  ]
+}

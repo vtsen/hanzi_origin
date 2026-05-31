@@ -1,0 +1,57 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "捆东西的绳索。",
+      "examples": [
+        "束以缄绳",
+        "缄以束物"
+      ],
+      "traditional_char": "緘"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "书信。",
+      "examples": [
+        "缄素未启",
+        "手持缄书"
+      ],
+      "traditional_char": "緘"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "封，闭；密封。",
+      "examples": [
+        "缄口不言",
+        "缄封信件",
+        "缄默不语",
+        "缄制消息"
+      ],
+      "traditional_char": "緘"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从糸，表与线丝相关，咸声，原本指捆束用之绳索。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "书信以绳索缄封，遂用‘缄’指代信件。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由绳索封束，引申为封闭、密封等抽象意义。"
+    }
+  ]
+}

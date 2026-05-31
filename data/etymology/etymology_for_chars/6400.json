@@ -1,0 +1,70 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "熟睡或喘息时发出的鼻息声、鼾声。",
+      "examples": [
+        "夫齁声起。——《虞初新志·秋声诗自序》",
+        "齁如雷吼。——《聊齋志异》"
+      ],
+      "traditional_char": "齁"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "哮喘病。",
+      "examples": [
+        "齁齁齃齃（喘急的样子）"
+      ],
+      "traditional_char": "齁"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "吃过咸或过甜的东西后感到喉咙不舒服。",
+      "examples": [
+        "这咸菜真齁人。",
+        "吃起來就齁得难受了。"
+      ],
+      "traditional_char": "齁"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adverb",
+      "meaning": "（方言）很，非常。",
+      "examples": [
+        "齁苦。",
+        "天气齁冷。"
+      ],
+      "traditional_char": "齁"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字。从鼻，侯声；‘鼻’表义，‘侯’表音，最初表示鼻息大声。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由鼻息声，引申指喘息相关的病症，如哮喘。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "通过对喉咙不适（如鼻息沉重感）的形象比喻，引申为因味道过重致喉咙难受。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由味觉上的强烈不适引申为方言中‘很，非常’的用法。"
+    }
+  ]
+}

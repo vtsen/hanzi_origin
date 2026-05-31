@@ -1,0 +1,73 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "注释，解释疑义的文字",
+      "examples": [
+        "笺注",
+        "经传有笺释"
+      ],
+      "traditional_char": "箋"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "小幅华贵的纸张，古时常用于书写诗文或书信",
+      "examples": [
+        "信笺",
+        "便笺",
+        "诗笺纸"
+      ],
+      "traditional_char": "箋"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "书信",
+      "examples": [
+        "笺札",
+        "华笺",
+        "寄笺无数"
+      ],
+      "traditional_char": "箋"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "文体名，一类文书如书札、奏记等",
+      "examples": [
+        "奏笺",
+        "笺奏"
+      ],
+      "traditional_char": "箋"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "“箋”为形声字，竹为形，戔为声，原指竹制或纸制的短小文书或信纸"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由特指信纸引申为“书信”，古代实际书写即是此纸"
+    },
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "metaphor",
+      "note": "以“短札”引申为“注释”，因“笺释”本为附于主文后之简短文书"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由“书信”扩展为书札、奏记一类的文体"
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "用手抓东西或颗粒状、粉末状食物放入口中。",
+      "examples": [
+        "唵了一口炒米",
+        "偷米唵之"
+      ],
+      "traditional_char": "唵"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "含在口中。",
+      "examples": [
+        "满口中米，都不应和。"
+      ],
+      "traditional_char": "唵"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "低声斂气地说话。",
+      "examples": [
+        "她低声唵气地说。"
+      ],
+      "traditional_char": "唵"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "捱，困难地度过。",
+      "examples": [
+        "鬼胡由眼下唵光陰。"
+      ],
+      "traditional_char": "唵"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "佛教咒语用字，为梵文音译（“om”）。",
+      "examples": [
+        "唵字咒语"
+      ],
+      "traditional_char": "唵"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "interjection",
+      "meaning": "叹词，用作应答。",
+      "examples": [
+        "‘唵，是的。’"
+      ],
+      "traditional_char": "唵"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "pronoun",
+      "meaning": "通“俺”，我（方言用法）。",
+      "examples": [
+        "唵送爾燈，唵送小番隨着不妨事。"
+      ],
+      "traditional_char": "唵"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从口，音‘晻’。本义与口腔动作相关，为形声字。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从用手进食义引申为含在口中。见古诗文用法。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由‘含’引申为‘低声斂气’，喻含而不出声。见现代文学用例。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由‘含’引申为‘捱’，如‘唵光阴’喻忍受、度过。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "佛教用音借‘唵’表梵语‘om’音，义为咒语用字。汉传佛教吸纳外来音义。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "从口相关义扩展为应答词。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "方言中‘唵’音、借为第一人称‘我’的用法。"
+    }
+  ]
+}

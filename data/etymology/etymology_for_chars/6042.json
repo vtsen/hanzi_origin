@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "抖动、摇动，尤指使身体或物体快速颤动。",
+      "examples": [
+        "精神抖擞",
+        "抖抖擞擞",
+        "抖擞辞贫里"
+      ],
+      "traditional_char": "擻"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "用通条插进火炉抖动，使炉灰落下。",
+      "examples": [
+        "把炉子擞一擞",
+        "用通条擞炉灰"
+      ],
+      "traditional_char": "擞"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "通、通达（多为方言或罕用义）。",
+      "examples": [
+        "香气儿直擞人的鼻孔儿哩。"
+      ],
+      "traditional_char": "擞"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘擻’形声字，从手，叟声，本义为抖动或摇动。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由一般的抖动动作引申为特指用通条抖炉灰，多见于近现代。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "‘抖动’动作转义为气味等通过而达，引申为‘通’的方言或罕用义。"
+    }
+  ]
+}

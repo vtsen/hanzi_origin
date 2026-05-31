@@ -1,0 +1,94 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "沉迷於酒，耽于饮酒。",
+      "examples": [
+        "罔敢湎于酒。——《书·酒诰》",
+        "天不湎尔以酒。——《诗·大雅·荡》",
+        "舜有不孝之行，禹有淫湎之意。——《吕氏春秋·当务》"
+      ],
+      "traditional_char": "湎"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "沉迷；沉溺于某事物（引申为广义的沉迷不返）。",
+      "examples": [
+        "多言无法，而流湎然，虽辩，小人也。——《荀子·非十二子》",
+        "国家喜音湛湎，则语之非乐非命。——《墨子·鲁命》",
+        "君湎于酒，淫于色。——《汉书·五行志中》"
+      ],
+      "traditional_char": "湎"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "背，背向（通“偭”）。",
+      "examples": [
+        "湎，背也。",
+        "曠流始毖泉，湎塗猶跬跡。——谢灵运《种桑》"
+      ],
+      "traditional_char": "湎"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "水流的样子。",
+      "examples": [
+        "湎演（水流的样子）",
+        "湎湎，流移的样子。"
+      ],
+      "traditional_char": "湎"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "紊乱，混乱。",
+      "examples": [
+        "湎乱（紊乱）"
+      ],
+      "traditional_char": "湎"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，面声，表示沉溺于酒中的状态，水表意义，面表音。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由饮酒引申为一切沉迷、沉溺，对象范围扩展，汉代已见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由液体沉溺转借为水流视觉形象，形成“水流貌”。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "水流紊乱扩展为一般意义的‘紊乱’。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "unknown",
+      "note": "沉溺意也可能影响‘紊乱’义，具体路径未明。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "通“偭”（背、背向），以音近假借。"
+    }
+  ]
+}

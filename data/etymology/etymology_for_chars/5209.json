@@ -1,0 +1,37 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "我国少数民族之一，多分布于云南省，见“傈僳族”。",
+      "examples": [
+        "傈僳族是中国的一个主要少数民族，主要在云南分布。"
+      ],
+      "traditional_char": "傈"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "古代制作庙堂神主所用的木材。",
+      "examples": [
+        "古庙主木用栗，未用称傈为庙主者。——《正字通》"
+      ],
+      "traditional_char": "傈"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "形声字，从人，栗声；本义为‘庙堂神主用木’，早期可能为‘栗’的异体或派生。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_shift",
+      "note": "由本义‘庙堂用材’转移指涉民族名称，用于音译外族名，现代特指傈僳族。"
+    }
+  ]
+}

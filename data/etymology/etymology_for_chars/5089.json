@@ -1,0 +1,53 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "一年生草本植物“葶藶”，种子可入药，亦称‘葶藶子’。",
+      "examples": [
+        "葶藶死於盛夏。",
+        "葶藶性急善逐水走泄。"
+      ],
+      "traditional_char": "葶"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "植物从地下部分抽出的无叶花茎，称为‘花葶’。",
+      "examples": [
+        "葉間攛葶，開花如葦。"
+      ],
+      "traditional_char": "葶"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "毒草名，用于某些古籍，如《山海经》，可用以毒鱼。",
+      "examples": [
+        "熊耳山有草，狀如蘇而赤華，名葶䔭，可以毒魚。"
+      ],
+      "traditional_char": "葶"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从艸，亭声，最初指植物‘葶藶’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由原本特指‘葶藶’植物扩展至泛指植物学中花茎。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "由原意植物名借指、讹用于其他有毒植物名；古籍用法。"
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "沾湿，沾润",
+      "examples": [
+        "既优既渥。——《诗·小雅·信南山》",
+        "其形渥。——《易·鼎》。注：“沾濡也。”"
+      ],
+      "traditional_char": "渥"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "浓厚；优厚；丰盛",
+      "examples": [
+        "渥恩（厚恩）；渥惠；渥盛",
+        "蒙圣皇之渥惠兮，当日月之盛明。——《汉书·班倢伃传》"
+      ],
+      "traditional_char": "渥"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "光润，光泽",
+      "examples": [
+        "颜如渥丹。——《诗·秦风·终南》",
+        "透叶红梨渥。——宋·曾巩"
+      ],
+      "traditional_char": "渥"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "浸泡，久渍（与“漚”通）",
+      "examples": [
+        "诸林木渥水中，无过一茷。——《墨子·杂守》"
+      ],
+      "traditional_char": "渥"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "水名（渥水、渥洼水，地名）",
+      "examples": [
+        "又东渥水注之。——《水经注》"
+      ],
+      "traditional_char": "渥"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "因遮盖或封闭而致暖（方言，用同“焐”）",
+      "examples": [
+        "快进被来渥渥罢。——《红楼梦》第五一回"
+      ],
+      "traditional_char": "渥"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "陷入泥中（方言）",
+      "examples": [
+        "车子慢慢地走着，在一个泥洼子里渥住了。——周立波《暴风骤雨》"
+      ],
+      "traditional_char": "渥"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，屋声，表示沾湿、润泽之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由具体的沾润引申为抽象的优厚、丰盛。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由表面润泽、湿润转喻为色泽光润。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由沾湿引申为浸泡，后与“漚”通用。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "以沾润之水作地名、水名。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "semantic_shift",
+      "note": "地方用法，由渗润引申为用热物使变暖（“焐”）。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "semantic_shift",
+      "note": "地方用法，形容陷入泥泞，含有湿润、泥泞之意。"
+    }
+  ]
+}

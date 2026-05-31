@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "马、猪等动物颈部生长的又长又密的毛。",
+      "examples": [
+        "鬃白似披梁苑雪，颈肥如扑杏园花。",
+        "紅泉駘宕自然麗，丹鬃滅沒何其都。",
+        "還要豬鬃、豬毛、豬尾巴、大腸頭。"
+      ],
+      "traditional_char": "鬃"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "高髻，头髮髻起形成的高发髻。",
+      "examples": [
+        "高髻也。",
+        "《西游记》第四四回：“且莫说是和尚，就是剪鬃、禿子、毛稀的，都也难逃。”"
+      ],
+      "traditional_char": "鬃"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "头髮。",
+      "examples": [
+        "《西游记》第四四回：“且莫说是和尚，就是剪鬃、禿子、毛稀的，都也难逃。”"
+      ],
+      "traditional_char": "鬃"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从髟，宗声，本指动物颈上的长毛。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "以动物鬃毛之高耸喻指人的高发髻，古代用法。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由高髻进而泛指头髮，见《西游记》等文献。"
+    }
+  ]
+}

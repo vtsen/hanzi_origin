@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "onomatopoeia",
+      "meaning": "形容细碎、低声的说话声，常叠用，如“嘁嘁喳喳”。",
+      "examples": [
+        "屋里嘁嘁喳喳，不知在议论什么。",
+        "小孩们嘁哩喀喳讲个不停。"
+      ],
+      "traditional_char": "嘁"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "慚愧、忸怩的样子；感到羞愧。",
+      "examples": [
+        "嘁咨慚也。",
+        "嘁，忸怩慙愧貌。"
+      ],
+      "traditional_char": "嘁"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "叹息。",
+      "examples": [
+        "戚嗟若，子夏傳作嘁。"
+      ],
+      "traditional_char": "嘁"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "‘嘁’从口，戚声。本义为慚愧、忸怩。后引申为象声、叹息。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由形容羞愧忸怩引申为叹息，多用于情感流露情境。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "由情感内敛（慚愧、羞涩）引申为低声细语的象声词，表现微弱不明之音。"
+    }
+  ]
+}

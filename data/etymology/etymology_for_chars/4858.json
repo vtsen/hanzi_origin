@@ -1,0 +1,59 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古代妇女的头巾、头饰",
+      "examples": [
+        "中国有簂步摇帼。",
+        "巾帼英雄"
+      ],
+      "traditional_char": "幗"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "古代妇女的丧冠",
+      "examples": [
+        "婦女覆於髮上的飾物。",
+        "翦氂蔮，簪珥。"
+      ],
+      "traditional_char": "幗"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "“帼”的簡化字。",
+      "examples": [
+        "幗是帼的繁体字。"
+      ],
+      "traditional_char": "帼"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "幗为形声字，从巾，或声，表示头部布饰与发饰相关。"
+    },
+    {
+      "formation_type": "simple_indicative",
+      "original_sense_index": 2,
+      "note": "帼为幗的简化字，沿用原义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_narrowing",
+      "note": "原指妇女头饰，后专指丧服用冠，语义收窄。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "reanalysis",
+      "note": "简化字设立，帼承袭幗的原意。"
+    }
+  ]
+}

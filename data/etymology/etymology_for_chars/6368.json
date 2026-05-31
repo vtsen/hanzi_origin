@@ -1,0 +1,41 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "积聚，积蓄",
+      "examples": [
+        "攒钱",
+        "积攒"
+      ],
+      "traditional_char": "攢"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "聚集，凑集，拼凑",
+      "examples": [
+        "攒凑",
+        "攒集",
+        "攒眉",
+        "攒三聚五"
+      ],
+      "traditional_char": "攢"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "形声字，从手，赞声，‘手’表动作，与‘赞’同音，本义为‘聚集’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "由‘聚集’引申为‘积蓄、积聚’，历代文献均可见。"
+    }
+  ]
+}

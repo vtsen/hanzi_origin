@@ -1,0 +1,40 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古代春秋两季在水边举行的清除不祥的祭祀",
+      "examples": [
+        "會三月上巳，帝親觀禊，乘肩輿，具威儀。——《晉書·王導傳》",
+        "三月三日曲水會，古禊祭也。——《南齊書·禮儀志上》",
+        "武帝禊霸上還。——《史記》"
+      ],
+      "traditional_char": "禊"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "洗濯，指在水邊洗净身體以祓除不祥",
+      "examples": [
+        "猶當洗業障，更作臨水禊。——蘇軾《游羅浮道院及栖禪精舍》",
+        "灌濯以祓妖邪"
+      ],
+      "traditional_char": "禊"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从‘示’表祭祀义，‘契’声，初指在水边以祭扫仪式祓除不祥。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由祭祀仪式引申为洗濯、清洁身心的动作。清代以降，实际行事与祭祀礼仪关联逐渐弱化，对应动词用法。"
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "庄稼成熟",
+      "examples": [
+        "岁比登稔。",
+        "吴兴频岁失稔。",
+        "风比登稔。"
+      ],
+      "traditional_char": "稔"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "年，一熟，为年；收获季节",
+      "examples": [
+        "不可以五稔。",
+        "鲜不五稔。",
+        "稔，年也。"
+      ],
+      "traditional_char": "稔"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "事物酝酿成熟或积久养成",
+      "examples": [
+        "恶积衅稔。",
+        "亲旧侧目，逆相之毒必稔。",
+        "稔恶不悛。"
+      ],
+      "traditional_char": "稔"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "熟悉，习知",
+      "examples": [
+        "予出入其门最稔。",
+        "随所遇，若素稔。",
+        "稔悉"
+      ],
+      "traditional_char": "稔"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adverb",
+      "meaning": "素来，素常",
+      "examples": [
+        "稔闻是说。",
+        "稔究。",
+        "吾当局诸公已筹之稔矣。"
+      ],
+      "traditional_char": "稔"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "adjective",
+      "meaning": "艳美，美好细腻",
+      "examples": [
+        "稔色（美色；美貌）",
+        "稔稔腻腻（艳美）"
+      ],
+      "traditional_char": "稔"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从禾，念声，表示庄稼成熟的本义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "以庄稼成熟为基础引申为‘年’，因古人以一熟为一年。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由庄稼成熟引申为事物酝酿成熟或积久养成。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由事物成熟转喻为‘熟悉’、‘习知’。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "从‘熟悉’引申为‘素来、素常’。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "由酝酿成熟或美好引申出‘艳美’，与‘成熟美好’相关。"
+    }
+  ]
+}

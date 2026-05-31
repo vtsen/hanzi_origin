@@ -1,0 +1,150 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "言语钝拙，嘴笨",
+      "examples": [
+        "辩于心而诎于口。",
+        "詘，辞塞。——《广韵》"
+      ],
+      "traditional_char": "詘"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "弯曲",
+      "examples": [
+        "诎五指而顿之。",
+        "诎要桡腘。"
+      ],
+      "traditional_char": "詘"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "屈服，折服",
+      "examples": [
+        "公输盘诎。",
+        "詘敌国。"
+      ],
+      "traditional_char": "詘"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "屈辱，冤屈",
+      "examples": [
+        "宋王因怒而诎杀之。",
+        "身诎何伤？"
+      ],
+      "traditional_char": "詘"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "尽，穷尽",
+      "examples": [
+        "其兵不诎。",
+        "谁疑吾道诎，偏系客心愁。"
+      ],
+      "traditional_char": "詘"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "声音戛然而止的样子",
+      "examples": [
+        "其终诎然。",
+        "詘然声尽疑刀截。"
+      ],
+      "traditional_char": "詘"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "短缩，缺少",
+      "examples": [
+        "公赋诎。",
+        "往者诎，来者信也。"
+      ],
+      "traditional_char": "詘"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "verb",
+      "meaning": "贬退，贬黜",
+      "examples": [
+        "秦势能诎之。",
+        "可谓能诎免变化以致之。"
+      ],
+      "traditional_char": "詘"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "汉代有詘强。"
+      ],
+      "traditional_char": "詘"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从言，出声，表示言语钝拙。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由嘴笨引申为动作上的钝拙与弯曲。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由弯曲，比喻为屈服、折服，常见于古汉语。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由屈服进一步引申为屈辱、冤屈。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由屈服进一步引申为尽、穷尽之意。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "metaphor",
+      "note": "由弯曲比喻声音突然中止，形容戛然而止。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 6,
+      "evolution_type": "semantic_narrowing",
+      "note": "由弯曲引申为短缩、缺少，偏向具体物理变化。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 7,
+      "evolution_type": "conversion",
+      "note": "由屈服转为贬退、贬黜，语义功能上转化。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 8,
+      "evolution_type": "unknown",
+      "note": "由本义转为用作姓氏，具体机制不详，多见于汉姓用法。"
+    }
+  ]
+}

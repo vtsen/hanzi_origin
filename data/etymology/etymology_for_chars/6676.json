@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "天将明而未明之时；清晨，黎明时分",
+      "examples": [
+        "冬至昒爽。",
+        "昒昕寤而仰思兮。"
+      ],
+      "traditional_char": "昒"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "昏暗，光线昏昧不明",
+      "examples": [
+        "昒黑",
+        "昒漠"
+      ],
+      "traditional_char": "昒"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "昏昧，不明白，模糊不清",
+      "examples": [
+        "然则昔吾昭然，而今昒然，何也？"
+      ],
+      "traditional_char": "昒"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从“日”表意，表示与日光有关；“勿”作声符。本义指天将明而未明之时。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_shift",
+      "note": "由拂晓未明，引申为整体光线昏暗，历代文献均见。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由具体昏暗转为比喻思维、认识不明，抽象义。"
+    }
+  ]
+}

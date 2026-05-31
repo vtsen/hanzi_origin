@@ -1,0 +1,53 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "用剪刀的两刃相夹切，用剪刀剪",
+      "examples": [
+        "把绳子铰开。"
+      ],
+      "traditional_char": "鉸"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "一种金属切削工具，称“铰刀”（方言，亦指剪刀）",
+      "examples": [
+        "剪刀在一些方言中也称为铰。",
+        "请递给我那把铰刀。"
+      ],
+      "traditional_char": "鉸"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "用绞刀切削",
+      "examples": [
+        "师傅正在铰孔。"
+      ],
+      "traditional_char": "鉸"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从金，交声，本义为用剪刀剪。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "conversion",
+      "note": "动词转为对工具的名词化，如“剪刀”。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "工具含义扩展至专指金属切削工具及其操作（铰孔）。"
+    }
+  ]
+}

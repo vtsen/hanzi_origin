@@ -1,0 +1,51 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "机器上圆柱形能旋转的东西",
+      "examples": [
+        "辊轴",
+        "皮辊"
+      ],
+      "traditional_char": "輥"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "像车轮般很快转动",
+      "examples": [
+        "满城飞絮辊轻尘"
+      ],
+      "traditional_char": "輥"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "车毂整齐均匀一的样子",
+      "examples": [],
+      "traditional_char": "輥"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“輥”为形声字，车为形旁表示与车辆相关，昆为声旁；初意为可旋转的轮状物。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "conversion",
+      "note": "名词动用，用“辊”表示像车轮一样旋转。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由‘圆柱状物体’的形态，引申为轮毂整齐均匀之形容。"
+    }
+  ]
+}

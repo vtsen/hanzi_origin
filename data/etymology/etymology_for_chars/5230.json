@@ -1,0 +1,149 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "丰厚；厚实；多而美好",
+      "examples": [
+        "腆，设膳腆腆多也。——《说文》",
+        "寡君有不腆之酒。——《仪礼·燕礼》",
+        "嘉贶益腆，敢不钦承。——曹丕《与钟大理书》"
+      ],
+      "traditional_char": "腆"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "善；美好；平善",
+      "examples": [
+        "币必诚，辞无不腆。——《礼记·郊特牲》",
+        "不腆先君之祧。——《仪礼·聘礼》"
+      ],
+      "traditional_char": "腆"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "（胸部或腹部）挺起，向前凸出",
+      "examples": [
+        "屠户横披了衣服，腆着肚子去了。——《儒林外史》",
+        "她的怀已显了形，而且爱故意的往外腆着。——老舍《骆驼祥子》"
+      ],
+      "traditional_char": "腆"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "厚颜，脸皮厚",
+      "examples": [
+        "腆冒（厚颜冒昧）",
+        "腆不畏人也。——《夜谭随录·张五》"
+      ],
+      "traditional_char": "腆"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "羞愧，害羞的神色",
+      "examples": [
+        "腆然（羞涩）",
+        "朋知来问腆我颜，杖藜强起依僮仆。——杜甫《醉为马坠诸公携酒相看》"
+      ],
+      "traditional_char": "腆"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "小国；国主",
+      "examples": [
+        "殷小腆，诞敢纪其叙。——《书·大诰》"
+      ],
+      "traditional_char": "腆"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "至；到达（古义）",
+      "examples": [
+        "腆，至也。——《广雅》",
+        "殷小腆，诞敢纪其叙。——《书·大诰》"
+      ],
+      "traditional_char": "腆"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "verb",
+      "meaning": "忘记（古义）",
+      "examples": [
+        "声腆，忘也。——《方言》"
+      ],
+      "traditional_char": "腆"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "adjective",
+      "meaning": "久远，长久（古义）",
+      "examples": [
+        "腆，久也。——《广雅》"
+      ],
+      "traditional_char": "腆"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从肉（表示与身体或丰厚相关），典为声，最初本义为‘丰厚’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "‘丰厚’意义引申为‘善、美好’等抽象品质。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由‘丰厚’形容物质之多，引申喻指身体凸出。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由‘厚’喻为脸皮厚，指人厚颜。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "semantic_shift",
+      "note": "由‘厚颜’进一步引申为‘羞愧、害羞’等近反义表述。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "‘丰厚’与‘重要、殷实’关联，引申为‘国主’或‘小国’（以‘典’义主）。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "semantic_extension",
+      "note": "古籍中‘腆’引申为‘至’，即到达，有量多之意。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 7,
+      "evolution_type": "unknown",
+      "note": "‘忘记’义，推测遥远引申，词源关系不明。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 8,
+      "evolution_type": "semantic_extension",
+      "note": "‘丰厚’引申为‘长久’之意，作为物量之多的延续。"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古代地积单位，三十亩、一说二十亩、一说十二亩为一畹（量词义）。",
+      "examples": [
+        "余既滋兰之九畹兮。（《离骚》）",
+        "畹，三十亩也。（《魏都赋》注引班固）"
+      ],
+      "traditional_char": "畹"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "泛指花圃或园地。",
+      "examples": [
+        "下畹高堂。（《魏都赋》）",
+        "畹静风吹乱，亭秋雨引长。（唐·无可《兰》）"
+      ],
+      "traditional_char": "畹"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "帝王戚属居住的地方，或指皇亲国戚。",
+      "examples": [
+        "幸联戚畹之贵。（《宋史·李处耘传论》）",
+        "结中贵戚畹，上下壅隔。（《明史·彭时传》）"
+      ],
+      "traditional_char": "畹"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "地名，畹町，在中国云南省西部边境。",
+      "examples": [],
+      "traditional_char": "畹"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从田，宛声，形声字，表示田地单位。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“地面积单位”泛化为“园地、花圃”，见用于花园、水池等处；晋、唐用例。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "以园府象征或称皇家亲属及其住地，典型帝王文化语境下引申。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "以“地积名”或“地名”作为专名用法，见云南地名“畹町”。"
+    }
+  ]
+}

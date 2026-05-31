@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "劈成细条的竹片，用于编制席、篮等，也泛指劈成条的芦苇、高粱秆皮等",
+      "examples": [
+        "竹篾",
+        "苇篾儿",
+        "篾席"
+      ],
+      "traditional_char": "篾"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "竹子的外皮，质地柔韧，称为“篾青”",
+      "examples": [
+        "篾青"
+      ],
+      "traditional_char": "篾"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "竹子的内层，质地较脆，称为“篾黄”或“篾白”",
+      "examples": [
+        "篾黄，也称篾白"
+      ],
+      "traditional_char": "篾"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从竹，‘蔑’省声，表示薄竹片，可用于编制物品。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从‘薄竹片’引申为专指‘竹子的外皮’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "从‘薄竹片’引申为专指‘竹子的内层’。"
+    }
+  ]
+}

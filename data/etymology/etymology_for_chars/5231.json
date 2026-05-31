@@ -1,0 +1,69 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "腹下的肥肉",
+      "examples": [
+        "桀纣之君，垂腴尺余。"
+      ],
+      "traditional_char": "腴"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "肥胖，肥美",
+      "examples": [
+        "丰腴",
+        "身材腴润"
+      ],
+      "traditional_char": "腴"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "土地肥沃，肥美",
+      "examples": [
+        "膏腴之地",
+        "腴润"
+      ],
+      "traditional_char": "腴"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "丰裕，丰富",
+      "examples": [
+        "资源腴裕"
+      ],
+      "traditional_char": "腴"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从“肉”，表示与肉有关，‘臾’为声旁，初指腹下的肥肉。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由具体的肥肉引申为肥胖、肥美；这一转变发生在早期汉语。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "以人体“肥腴”比喻土地肥沃，形成对土壤肥美的形容。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由土地肥沃进一步引申为丰裕、丰富，见于较晚期用法。"
+    }
+  ]
+}

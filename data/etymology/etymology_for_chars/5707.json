@@ -1,0 +1,51 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "昆虫，身体绿色或褐色，翅短，腹大，善于跳跃。雄的前翅根部有发声器，能振翅发声。常指蝈蝈。",
+      "examples": [
+        "蝈蝈在田间鸣叫。"
+      ],
+      "traditional_char": "蝈"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "蛙，青蛙的别名，尤指小形而长股的绿色青蛙。",
+      "examples": [
+        "蝈氏，下士一人，徒二人。——《周礼》。郑玄注：“蝈，今御所食蛙也。”"
+      ],
+      "traditional_char": "蟈"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "“蜮”的通假字。古时亦指水中有毒气的神怪。",
+      "examples": [
+        "蟈，郑司农云，‘蟈读为蜮，蜮，蝦蟆也。’"
+      ],
+      "traditional_char": "蟈"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘蝈’为形声字，从虫，郭声，初指蝈蝈类昆虫。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "‘蟈’为形声字，从虫，國声，古用指青蛙，亦借指为‘蜮’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "古文中‘蟈’假借为‘蜮’，两者同音而泛指有毒水生动物。"
+    }
+  ]
+}

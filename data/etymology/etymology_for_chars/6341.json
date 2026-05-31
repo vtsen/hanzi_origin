@@ -1,0 +1,69 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "黑木，即乌木等色黑的木材。",
+      "examples": [
+        "《说文•黑部》： “黟，黑木也。”",
+        "《古今注》： “乌木出波斯国。”"
+      ],
+      "traditional_char": "黟"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "黑，乌黑。",
+      "examples": [
+        "黟然黑者为星星。——宋·欧阳修《秋声赋》",
+        "“其烟为煤，必黔而緇，因以晓夫巧繒之弃铅朱，亦惧夫既久漫漶而为黟。”——元·姚燧《乌木杖赋》"
+      ],
+      "traditional_char": "黟"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "山名，即黟山，今黄山。",
+      "examples": [
+        "携归傲嵩岱，何独小黟台。——清·魏源《华山西谷》"
+      ],
+      "traditional_char": "黟"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "地名，县名，在今安徽省，因境内有黟山得名。",
+      "examples": [
+        "是岁，使贺齐讨黟歙。——《三国志·吴主传》"
+      ],
+      "traditional_char": "黟"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从黑，声多。以‘黑’表示颜色义，‘多’为声符，原指黑色的木材。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由具体指黑色木材泛指黑、乌黑的颜色，比喻、引申义明显。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "因山得名于地名，黟县因境内有黟山而得名，地名与山名关系。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "unknown",
+      "note": "黟山名的字形缘由与黑色相关，但与黑、黑木的直接语义联系不明，待考。"
+    }
+  ]
+}

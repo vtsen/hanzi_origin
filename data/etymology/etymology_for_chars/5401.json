@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "皮肤白净，肤色洁白",
+      "examples": [
+        "其民皙而瘠。",
+        "白皙疏眉目。",
+        "为人洁白皙。"
+      ],
+      "traditional_char": "皙"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "泛指白色",
+      "examples": [
+        "皙帻而衣狸制。"
+      ],
+      "traditional_char": "皙"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "一种只开花不结果的枣树",
+      "examples": [
+        "皙，無實棗。"
+      ],
+      "traditional_char": "皙"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从白，析声，表示皮肤白净。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由描述肤色的白净扩展为泛指白色，发生在较早期。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "因枣树花白而无实，名称借指此类枣树，见《尔雅》。"
+    }
+  ]
+}

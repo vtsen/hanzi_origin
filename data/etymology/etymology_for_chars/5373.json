@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "上马，骑马。",
+      "examples": [
+        "蓦然回首",
+        "驀然上马"
+      ],
+      "traditional_char": "驀"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adverb",
+      "meaning": "突然，意外地。",
+      "examples": [
+        "蓦地停下",
+        "驀地响起"
+      ],
+      "traditional_char": "驀"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "超越。",
+      "examples": [
+        "驀过前方",
+        "蓦然超越"
+      ],
+      "traditional_char": "驀"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从马，莫声；本意为骑马。‘马’表义，‘莫’表声。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由骑马动作之迅速引申为‘突然，意外地’。见于中古、近现代。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由骑越、骑上引申为‘超越’。用于文言、近现代语境。"
+    }
+  ]
+}

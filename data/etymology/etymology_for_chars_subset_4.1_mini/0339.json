@@ -1,0 +1,229 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "放箭，发射箭矢的动作",
+      "examples": [
+        "形声。本义：放箭。"
+      ],
+      "traditional_char": "發"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "交付，送出",
+      "examples": [
+        "分发。发放。发行（批发）。"
+      ],
+      "traditional_char": "發"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "放，射",
+      "examples": [
+        "发射。百发百中。焕发。"
+      ],
+      "traditional_char": "發"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "表达，阐述",
+      "examples": [
+        "发表。发凡（陈述某一学科或一本书的要旨）。阐发。"
+      ],
+      "traditional_char": "發"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "散开，分散",
+      "examples": [
+        "发散。"
+      ],
+      "traditional_char": "發"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "开展，张大，扩大",
+      "examples": [
+        "发展。发扬。"
+      ],
+      "traditional_char": "發"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "打开，揭露",
+      "examples": [
+        "发现。发掘。"
+      ],
+      "traditional_char": "發"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "verb",
+      "meaning": "产生，出现",
+      "examples": [
+        "发生。发愤。奋发。"
+      ],
+      "traditional_char": "發"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "verb",
+      "meaning": "食物因发酵或水浸而膨胀",
+      "examples": [
+        "发面。"
+      ],
+      "traditional_char": "發"
+    },
+    {
+      "index": 9,
+      "part_of_speech": "verb",
+      "meaning": "显现，显出",
+      "examples": [
+        "发病。发抖。发憷。"
+      ],
+      "traditional_char": "發"
+    },
+    {
+      "index": 10,
+      "part_of_speech": "verb",
+      "meaning": "开始动作",
+      "examples": [
+        "发动。"
+      ],
+      "traditional_char": "發"
+    },
+    {
+      "index": 11,
+      "part_of_speech": "verb",
+      "meaning": "引起，开启",
+      "examples": [
+        "启发。发人深省。"
+      ],
+      "traditional_char": "發"
+    },
+    {
+      "index": 12,
+      "part_of_speech": "verb",
+      "meaning": "公布，宣布",
+      "examples": [
+        "发布。发号施令。"
+      ],
+      "traditional_char": "發"
+    },
+    {
+      "index": 13,
+      "part_of_speech": "measure word",
+      "meaning": "用于枪弹、炮弹的量词",
+      "examples": [],
+      "traditional_char": "發"
+    },
+    {
+      "index": 14,
+      "part_of_speech": "noun",
+      "meaning": "人体头部生长的毛发",
+      "examples": [
+        "头发。鬓发。怒发冲冠。"
+      ],
+      "traditional_char": "髮"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“發”为形声字，本义为“放箭”，形旁“弓”表义，声旁“癶”表音。使用於放箭动作之意。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 14,
+      "note": "“髮”字为形声字，形旁“髟”（毛发），声旁“發”，指人的头发，后来与“发”字分化为不同用法。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "从放箭（本义）扩展到一般的“放”、“射”行为。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由放射义引申为交付、发送。因“放出”与“交付”在行为上的相似。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 11,
+      "evolution_type": "semantic_extension",
+      "note": "交付引申为引发、启发的意义。"
+    },
+    {
+      "source_index": 11,
+      "target_index": 7,
+      "evolution_type": "semantic_extension",
+      "note": "引发进一步发展为产生、出现。"
+    },
+    {
+      "source_index": 7,
+      "target_index": 9,
+      "evolution_type": "semantic_extension",
+      "note": "产生意延伸为事物的显现。"
+    },
+    {
+      "source_index": 9,
+      "target_index": 6,
+      "evolution_type": "semantic_extension",
+      "note": "显现引申为打开、揭露。"
+    },
+    {
+      "source_index": 6,
+      "target_index": 10,
+      "evolution_type": "semantic_extension",
+      "note": "打开、揭露引申为开始动作。"
+    },
+    {
+      "source_index": 7,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "由产生、出现引申为开展、扩大等抽象义。"
+    },
+    {
+      "source_index": 5,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "开展引申为表达、阐述。"
+    },
+    {
+      "source_index": 5,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "开展义引申为散开、分散。"
+    },
+    {
+      "source_index": 7,
+      "target_index": 8,
+      "evolution_type": "semantic_extension",
+      "note": "产生、出现引伸为食物发酵后的膨胀状态。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 13,
+      "evolution_type": "semantic_extension",
+      "note": "放箭动作引申为量词，用于枪弹、炮弹。"
+    },
+    {
+      "source_index": 14,
+      "target_index": 14,
+      "evolution_type": "unknown",
+      "note": "髮字作为人体毛发的专用字，演变系统独立于“發”。"
+    }
+  ]
+}

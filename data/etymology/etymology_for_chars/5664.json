@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "建在高台或水面上的木结构房屋，多用于游观、休憩。",
+      "examples": [
+        "湖旁筑几条长堤，堤上百步一亭，五十步一榭。",
+        "舞榭歌台。"
+      ],
+      "traditional_char": "榭"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "古代无室的厅堂，用作讲武、习武等场所。",
+      "examples": [
+        "三郤将谋于榭。",
+        "榭者讲武之坐屋。"
+      ],
+      "traditional_char": "榭"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "古代藏器物或乐器的房屋。",
+      "examples": [
+        "榭者所以藏乐器。",
+        "以为台榭。"
+      ],
+      "traditional_char": "榭"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "古代指没有房间（无内室）的庙堂。",
+      "examples": [
+        "大殿无内室谓之榭。",
+        "但有大殿无室名曰榭。"
+      ],
+      "traditional_char": "榭"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "榭为形声字，从木，音旁为“谢”。‘木’表与木结构建筑有关，‘谢’表音，最初指高台上的木屋。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "建筑形态的泛化，引申为古无室厅堂、讲武之所。汉至六朝文献可见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "从木结构高台屋的功能引申为藏器物之用，已见汉代用例。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "自高台木屋抽象化为无房间的庙堂，‘厅堂无内室’的专称，见于先秦、两汉。"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "践踏，踩踏。",
+      "examples": [
+        "贼骑飙至，蹄踺而踣，仆者鳞叠，横尸山委。"
+      ],
+      "traditional_char": "踺"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "行，行走的样子。",
+      "examples": [
+        "行貌。"
+      ],
+      "traditional_char": "踺"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "踺子，体操运动及舞蹈的一个翻身动作。",
+      "examples": [],
+      "traditional_char": "踺"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "从足，建声，表示与行走动作相关。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_narrowing",
+      "note": "由“行走的样子”引申出具体“践踏、踩踏”之意。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由“行走动作”衍生为体操、舞蹈的翻身动作名。"
+    }
+  ]
+}

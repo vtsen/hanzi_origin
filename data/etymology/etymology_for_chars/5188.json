@@ -1,0 +1,53 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "用以锁犯人的铁链，枷锁",
+      "examples": [
+        "鋃鐺入獄",
+        "琅當其頸"
+      ],
+      "traditional_char": "鋃"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "（引申）钟声、金属撞击的声音",
+      "examples": [
+        "鋃鐺作响"
+      ],
+      "traditional_char": "鋃"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "形容物体笨重、沉重",
+      "examples": [
+        "困重不舉為鋃鐺"
+      ],
+      "traditional_char": "鋃"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从金，良声，形声字。本义为锁犯人的铁链。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由铁链撞击声比喻为钟声或金属声，见广韵注。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "铁链多而重，引申为物体沉重、笨重。"
+    }
+  ]
+}

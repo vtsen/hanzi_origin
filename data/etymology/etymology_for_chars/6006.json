@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "觉悟，醒悟",
+      "examples": [
+        "憬然有悟。",
+        "忽然憬悟。"
+      ],
+      "traditional_char": "憬"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adverb",
+      "meaning": "远行，远行的样子",
+      "examples": [
+        "憬彼淮夷，来献其琛。",
+        "憬彼遥远。"
+      ],
+      "traditional_char": "憬"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "遥远的样子，远",
+      "examples": [
+        "荒憬尽怀忠。"
+      ],
+      "traditional_char": "憬"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从心，景声；形声字，最初表觉悟或觉醒之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_shift",
+      "note": "由觉悟引申为思想或行动的觉醒，后用于描述远行或出发状态，见《诗经》。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由远行的样子引申为遥远、远的意涵。"
+    }
+  ]
+}

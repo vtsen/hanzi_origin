@@ -1,0 +1,52 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "多年生或二年生的草本植物“牛蒡”，根和嫩叶可食，种子（牛蒡子）可入药。",
+      "examples": [
+        "牛蒡根可以食用。",
+        "牛蒡子具有药用价值。"
+      ],
+      "traditional_char": "蒡"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "植物名，一名“隱荵”，类似紫苏，有毛，可腌制为菜，也可煮食。",
+      "examples": [
+        "《爾雅•釋草》：“蒡，隱荵。”",
+        "今江东呼为隱荵，藏以为菹，亦可瀹食。"
+      ],
+      "traditional_char": "蒡"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "薺苨（甜桔梗）的苗。",
+      "examples": [],
+      "traditional_char": "蒡"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "‘蒡’为形声字，从艸，旁声；本义为草名，引申至多种草本植物。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "‘蒡’原指一类草，后专指牛蒡，见于唐宋以后。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由本义‘蒡’泛指草本，后用于‘薺苨’等植物。"
+    }
+  ]
+}

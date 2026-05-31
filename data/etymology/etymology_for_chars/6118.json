@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "箭头",
+      "examples": [
+        "箭镞",
+        "雕镞",
+        "弩有劲，镞有锋"
+      ],
+      "traditional_char": "鏃"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "形容箭的锋利或轻捷",
+      "examples": [
+        "所为贵镞矢者，为其应声而至"
+      ],
+      "traditional_char": "鏃"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘鏃’为形声字，从金属‘金’，声旁‘族’。初指箭头。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由实物‘箭头’喻作‘锐利、轻捷’的形容，用于描写箭矢的性质。"
+    }
+  ]
+}

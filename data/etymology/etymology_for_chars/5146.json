@@ -1,0 +1,37 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "蟋蟀的俗称。",
+      "examples": [
+        "蛐蛐儿在草丛里叫。"
+      ],
+      "traditional_char": "蛐"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "蚯蚓的别称。",
+      "examples": [
+        "蛐蟮在泥土中穿行。"
+      ],
+      "traditional_char": "蛐"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "形声字，从虫，曲声。本义为“蚯蚓”，曲为声符且与蚯蚓动作相关。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "由指蚯蚓扩展用于指对小型节肢动物如蟋蟀的俗称，因虫鸣类似，出现类比转用，形成俗称。"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "頸部等處淋巴結因結核菌等感染而腫大的疾病，即瘰癧（俗稱癧子頸、老鼠瘡等）。",
+      "examples": [
+        "頸項間瘰癧。",
+        "瘰癧多見於耳後、頤項。"
+      ],
+      "traditional_char": "瘰"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "泛指皮膚筋結處發生腫瘍或癧塊之疾。",
+      "examples": [
+        "筋結病也。",
+        "瘍繞頸項絫絫也。"
+      ],
+      "traditional_char": "瘰"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "肌膚肥厚病或疥病等皮膚病。",
+      "examples": [
+        "瘯瘰，皮肥也。",
+        "一曰疥病。"
+      ],
+      "traditional_char": "瘰"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "同“𤻳”，一類皮膚病。",
+      "examples": [],
+      "traditional_char": "瘰"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "“瘰”從疒，絫聲。‘疒’示病，‘絫’表音兼有累積、連串之意，初指皮膚筋結病或腫瘍癧塊。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_narrowing",
+      "note": "由泛指皮膚筋結病，專指頸項處的淋巴結核病。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由筋結腫塊泛指為一類皮膚病，包括皮肥、疥病等。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "reanalysis",
+      "note": "與“𤻳”關係為訓詁互通，語義上類推用於皮膚病同義。"
+    }
+  ]
+}

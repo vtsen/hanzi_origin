@@ -1,0 +1,74 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "浅黄色，近似于桑叶初生时的颜色",
+      "examples": [
+        "缃绮为下裙。",
+        "緗麗碧巘，紅豔桂洲。",
+        "缃苞带叶擎。"
+      ],
+      "traditional_char": "緗"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "浅黄色的丝织品、帛，多用作书写材料或书的封套",
+      "examples": [
+        "缃帙",
+        "緗縹而已。",
+        "我拓古文璆琳瑯，熏以桂椒襲以緗。"
+      ],
+      "traditional_char": "緗"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "书卷的代称（多因包以浅黄色绸而称之）",
+      "examples": [
+        "缃帙（后也作书卷的代称）",
+        "缃轴",
+        "缃图"
+      ],
+      "traditional_char": "緗"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "缃核桃：结浅红色果实的树，或指其花、果实",
+      "examples": [
+        "枇杷緗苞帶葉擎。",
+        "緗核桃"
+      ],
+      "traditional_char": "緗"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从糸，襄声；表示浅黄色的丝织品，与桑叶初生的浅黄色有关。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由表示浅黄色（形容词）引申为浅黄色的丝织品（名词），强调颜色属性。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由包裹书卷的浅黄色丝织品引申为书卷的代称，出现于古代文献习惯。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "因浅红至浅黄色为主色，转用于同色果实的树或其果实、花的名称，比喻取名。"
+    }
+  ]
+}

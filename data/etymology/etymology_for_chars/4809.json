@@ -1,0 +1,101 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "目光深注的样子",
+      "examples": [
+        "今人之所以眭然能视，營然能聽……明是非者何也？氣為之充，而神為之使也。",
+        "眭然能视"
+      ],
+      "traditional_char": "眭"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "深目，眼睛深凹的样子",
+      "examples": [
+        "弘字深目",
+        "深目皃"
+      ],
+      "traditional_char": "眭"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "目深恶视，形容眼神凶狠",
+      "examples": [
+        "目深惡視",
+        "目㴱惡貌"
+      ],
+      "traditional_char": "眭"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "仰目，抬头望",
+      "examples": [
+        "仰目也。與睢同。"
+      ],
+      "traditional_char": "眭"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "目小怒貌，眼睛微小，愤怒的神情",
+      "examples": [
+        "目小怒貌。同𥉖省。"
+      ],
+      "traditional_char": "眭"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "漢有眭固。",
+        "眭，姓也。出赵郡。"
+      ],
+      "traditional_char": "眭"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "形声字，从目，隹声。初义为‘深目’或‘眼窝深’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "由‘深目’引申为‘目光深注的样子’，见《淮南子》用法。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由‘深目’引申为‘目深恶视’，通过外貌特征延伸至神态。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由‘深目’引申为‘仰目’，古人对眼神、眼部位置描述的外延变。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "‘目小怒貌’为‘深目’的外貌神态引申，带感情色彩。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "function_word",
+      "note": "古人以外貌特征为姓氏来源，“眭”由描述深目成为姓氏。"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "褙子，短外衣或古代用作上衣的一种衣物。",
+      "examples": [
+        "把一領皂褙穿着， 上面著一領紫道服。",
+        "女妓冠褙， 不與庶民妻同。"
+      ],
+      "traditional_char": "褙"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "袼褙，用作辅料或衬里的布料，常用于制鞋或做衣物内部加厚。",
+      "examples": [
+        "袼褙（用碎布或旧布加衬纸裱成的厚片，多用来制布鞋）"
+      ],
+      "traditional_char": "褙"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "把布或纸一层一层地粘在一起，以加厚或作裱托，如裱褙书画。",
+      "examples": [
+        "她的褙锡箔比较的是快的，并且褙的是大锡箔。",
+        "裱褙（用纸、布或丝织品为襯底，将书画等粘糊起来，以便于收藏或展示）"
+      ],
+      "traditional_char": "褙"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘褙’从衣，北声。本义指贴身短衣，结构表意与声符结合。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由上衣的内衬材料引申，古代服饰结构发展。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由作内衬的物料引申为具体叠黏纸布的动作，明清常见。"
+    }
+  ]
+}

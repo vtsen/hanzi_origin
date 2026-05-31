@@ -1,0 +1,38 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "碎米",
+      "examples": [
+        "碓下糠粞幸不乏，何妨相倚过余生。——陆游《老鸡》",
+        "米碎曰粞。"
+      ],
+      "traditional_char": "粞"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "糙米碾轧时脱掉的皮，可做饲料",
+      "examples": [
+        "方言。糙米輾壓時脫掉的皮，可作飼料。"
+      ],
+      "traditional_char": "粞"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“米”为意符，表与米相关，右侧“西”作声符；本作表示碎米。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由指“碎米”引申为糙米碾轧时脱落的皮，二者均为米在加工中的下脚料。"
+    }
+  ]
+}

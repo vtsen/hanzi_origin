@@ -1,0 +1,72 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "光明，明亮。",
+      "examples": [
+        "蟬冕熲以灼灼兮，碧色肅其芊芊。",
+        "无思百忧，不出于熲。"
+      ],
+      "traditional_char": "熲"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "警枕，用圆木做的枕头，便于睡觉时易醒。",
+      "examples": [
+        "《礼记·少仪》：菌、席、枕、几、熲、杖。",
+        "熲，警枕也。（郑玄注）"
+      ],
+      "traditional_char": "熲"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "忧虑不安的样子。",
+      "examples": [
+        "饮恨无控之民，颎然伤之。"
+      ],
+      "traditional_char": "颎"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "充实。",
+      "examples": [],
+      "traditional_char": "颎"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从火，頃声，表示火光明亮之意。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘颎’为‘熲’之简化字，形成简化时将‘熲’的‘火’旁改为‘页’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由‘明亮’（光）引申为‘警枕’，以便睡时易感知光亮而易醒。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "由‘明亮’转为‘忧虑不安’，因古文中‘熲’指耿耿于怀，即心中明亮难安，产生心理义。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由‘光明’引申为‘充实’之义，指内部充盈如光照。"
+    }
+  ]
+}

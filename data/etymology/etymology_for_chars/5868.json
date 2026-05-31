@@ -1,0 +1,53 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古代殿堂上经过涂饰的地面",
+      "examples": [
+        "墀，涂地也。——《说文》",
+        "以丹漆地，故称丹墀。——《汉典职仪》"
+      ],
+      "traditional_char": "墀"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "台阶上面的空地，也指台阶",
+      "examples": [
+        "青琐丹墀。——《文选·张衡·西京赋》",
+        "願少立於階墀之際，望見君子之威儀也。——《唐 韓愈》",
+        "瑞雪盈墀一尺高，霏霏竟日又連霄。——郭沫若《喜雨》詩"
+      ],
+      "traditional_char": "墀"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "水中高地（通“坻”）",
+      "examples": [],
+      "traditional_char": "墀"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从土，犀声，‘土’表与地面相关，‘犀’表音，初指殿堂上涂饰的地面。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由殿堂涂饰地面推广到台阶上的空地和台阶，见东汉、唐等文献。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "作为‘坻’的通假字，用于指水中高地，见古籍，属音近借用。"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "食品或物品经火烧后变焦发黑、变黄。",
+      "examples": [
+        "锅煳了。",
+        "馒头烤煳了。"
+      ],
+      "traditional_char": "煳"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "热水煮米或面成的稠粥状物，糊状食物。",
+      "examples": [
+        "饘于是，粥于是，以糊余口。——《宋正考父鼎铭》"
+      ],
+      "traditional_char": "煳"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "形容模糊不清、混沌不明（常用于形容颜色、图案等不清楚）。",
+      "examples": [
+        "骆驼背上的锦模糊。——杜甫诗"
+      ],
+      "traditional_char": "煳"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "‘煳’为形声字，从火，胡声。本义为糊状食物，即热水煮米面之稠物。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_shift",
+      "note": "由原指稠粥状物，因其常见烧焦变黑，引申为焦黑之色和状态。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由粥状物黏糊不清，引申为事物不清楚、模糊。"
+    }
+  ]
+}

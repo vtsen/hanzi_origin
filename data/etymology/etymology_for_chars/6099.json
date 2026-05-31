@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "蠑螈，一種兩棲動物，形狀像蜥蜴，對水陸兩棲，尾側扁，色黑腹紅，古亦指蜥蜴。",
+      "examples": [
+        "蠑螈，析易也。",
+        "水有蠑螈，卵生。"
+      ],
+      "traditional_char": "螈"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "螈蠶，一年二收的蠶，或指不交而生的蠶。",
+      "examples": [
+        "螈蠶，一歲再收。",
+        "往往為螈蠶。"
+      ],
+      "traditional_char": "螈"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "蚖（古代毒蛇名），‘螈’通‘蚖’。",
+      "examples": [
+        "同蚖蠑螈。",
+        "與蚖同。"
+      ],
+      "traditional_char": "螈"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从虫，元声，初作表示‘蠑螈’类水生动物。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "因蠑螈再生，喻一年二熟蠶，古代比附。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "字形声转借通‘蚖’，古籍互见。"
+    }
+  ]
+}

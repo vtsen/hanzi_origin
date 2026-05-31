@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古代周朝的诸侯国名，在今河南沁阳市西北，亦作为古邑名。",
+      "examples": [
+        "周武王子邘叔之封地。",
+        "《左传·隐公十一年》：王取鄔、劉、蒍、邘之田于鄭。"
+      ],
+      "traditional_char": "邘"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "姓氏，源于邘国，周武王子孙以国为氏。",
+      "examples": [
+        "汉上谷太守邘侯。",
+        "《通志·氏族二》：周武王子邘叔封于邘，子孙以国为氏。"
+      ],
+      "traditional_char": "邘"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从邑，亏声，表示与地邑有关，音符‘亏’表读音，最初用于指代周朝的邘国。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "以国名为姓，周王朝诸侯国的后人以国为氏，形成姓氏用法。"
+    }
+  ]
+}

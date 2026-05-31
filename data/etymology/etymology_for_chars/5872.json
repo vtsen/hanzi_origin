@@ -1,0 +1,82 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "香草名，蕙草，亦称佩兰。古人佩带或作香焚以避疫。",
+      "examples": [
+        "余既滋兰之九畹兮，又树蕙之百亩。",
+        "采蕙遵大薄，搴若履长洲。"
+      ],
+      "traditional_char": "蕙"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "蘭科兰属的多年生草本植物，蕙兰。叶丛生，狭长而尖，初夏开淡黄绿色花，香气，供观赏。",
+      "examples": [
+        "蕙本兰之族，依然臭味同。"
+      ],
+      "traditional_char": "蕙"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "零陵香豆的古别称。",
+      "examples": [],
+      "traditional_char": "蕙"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "比喻芳美、芳香。",
+      "examples": [
+        "蕙色（比喻美色）"
+      ],
+      "traditional_char": "蕙"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "比喻女子高洁、纯美、高雅。",
+      "examples": [
+        "蕙心纨质",
+        "蕙质兰心"
+      ],
+      "traditional_char": "蕙"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从艸，惠声，本指香草之名。‘艸’表示植物类，‘惠’作声旁，古音huì。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_narrowing",
+      "note": "原为香草泛称，后特指兰属观赏植物，汉魏以来用作专名。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "因气味相近，转称零陵香豆为‘蕙’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由香草之芳香，引申为芳美、芳香。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "由芳香之意比喻人之品质纯美高雅，多用于女子。"
+    }
+  ]
+}

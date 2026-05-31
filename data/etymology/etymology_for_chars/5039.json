@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "驾于车前两侧的马（车队中的两侧马匹）",
+      "examples": [
+        "左骖殪兮右刃伤。",
+        "两骖如舞。"
+      ],
+      "traditional_char": "驂"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "驾单辕车的三匹马（统称一组三匹拉车的马）",
+      "examples": [
+        "载骖载驷。",
+        "骖，驾三马也。"
+      ],
+      "traditional_char": "驂"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "泛指马或马车",
+      "examples": [
+        "明日疲骖去，萧条过古城。",
+        "归骖欲动，别马将前。"
+      ],
+      "traditional_char": "驂"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "乘，驾驭（陪乘或负责驾车）",
+      "examples": [
+        "而使职骖乘。",
+        "驾青虬兮骖白螭。"
+      ],
+      "traditional_char": "驂"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "形声字，从马，参声。本义为驾三匹马的组合。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_narrowing",
+      "note": "由整体三马组合，语义逐渐专指车队两侧的马。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由具体的驾三马组合，扩大到泛指马或马车。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "conversion",
+      "note": "由名词‘三马’转化为动词‘乘，驾’。"
+    }
+  ]
+}

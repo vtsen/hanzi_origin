@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "门扇",
+      "examples": [
+        "柴扉",
+        "荆扉"
+      ],
+      "traditional_char": "扉"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "作用与门扇相似的东西",
+      "examples": [
+        "扉页",
+        "心扉"
+      ],
+      "traditional_char": "扉"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从“户”表示与门有关，“非”作声符；本义为‘门扇’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由具体物理门扇意义比喻引申到具有类似开闭、控制或界限作用的事物，如书页或心灵的‘门’。"
+    }
+  ]
+}

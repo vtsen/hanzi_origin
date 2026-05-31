@@ -1,0 +1,53 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "仰卧、仰面倒下，放倒",
+      "examples": [
+        "偃卧",
+        "偃仆",
+        "偃旗息鼓"
+      ],
+      "traditional_char": "偃"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "停止",
+      "examples": [
+        "偃息",
+        "偃武修文"
+      ],
+      "traditional_char": "偃"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "堤坝（同“堰”）",
+      "examples": [],
+      "traditional_char": "偃"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从人，匽声，形声字，本义为仰卧或仰倒。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由“仰卧、倒下”引申为“结束、停止”，如旗帜倒下表示终止。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "“偃”假借为“堰”（堤坝）用，见古籍用例。"
+    }
+  ]
+}

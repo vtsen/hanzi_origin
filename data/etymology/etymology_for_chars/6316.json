@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "鞋子，履。",
+      "examples": [
+        "鞨，履也。——《广雅》",
+        "鞨履也【广雅释器】"
+      ],
+      "traditional_char": "鞨"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "治皮，制作皮革。",
+      "examples": [
+        "治皮也，亦作㓭。",
+        "治革。"
+      ],
+      "traditional_char": "鞨"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "古代东北少数民族名，特指靺鞨。",
+      "examples": [
+        "靺鞨，蕃人名。【唐书·北狄传】",
+        "中国东北古代少数民族名。五代时称女真"
+      ],
+      "traditional_char": "鞨"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "束发的巾帕，头巾。",
+      "examples": [
+        "鞨巾，俗人帕头是也。",
+        "北国之人，鞨巾而裘。——《列子·天问》"
+      ],
+      "traditional_char": "鞨"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘鞨’从革，曷声，会意形声字，初本为鞋（履）之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从鞋履引申为治制皮革，因制作鞋需用皮。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "由鞋履为衣物部件，引申为与衣饰相关之头巾。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "以‘鞨’名族，因该民族以制作或穿着特别鞋履著称。"
+    }
+  ]
+}

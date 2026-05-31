@@ -1,0 +1,115 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古河名，在今中国河南省、湖南省等地均有称溱的水流。",
+      "examples": [
+        "溱与洧，方涣涣兮。（《诗经·郑风·溱洧》）",
+        "褰裳涉溱。（《诗经·郑风·褰裳》）"
+      ],
+      "traditional_char": "溱"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "州名，历史上的溱州，位于河南等地。",
+      "examples": [
+        "河南汝宁府，汉曰汝南，后周曰溱州。"
+      ],
+      "traditional_char": "溱"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "众多，繁盛的样子。",
+      "examples": [
+        "百谷溱溱，庶卉蕃芜。",
+        "室家溱溱。"
+      ],
+      "traditional_char": "溱"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "舒展的样子。",
+      "examples": [
+        "物出溱溱。"
+      ],
+      "traditional_char": "溱"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "出汗的样子。",
+      "examples": [
+        "汗出溱溱。"
+      ],
+      "traditional_char": "溱"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "至、到，通“臻”。",
+      "examples": [
+        "万祥毕溱。",
+        "暴风三溱，拔树折木。"
+      ],
+      "traditional_char": "溱"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "地名用字，如“溱潼”，江苏省镇名。",
+      "examples": [
+        "溱潼（镇名，在江苏）"
+      ],
+      "traditional_char": "溱"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从水，秦声。形旁示水义，声旁秦表音。首义为河流名。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "以河流名借指其沿岸地区或州名。常见地名用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由水流众多，引申为众多、繁盛。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "繁盛、舒展由“众多”的形象进一步引申。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "“溱溱”形容汗水涌出之多，形象由“众多”引申。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "通“臻”，声假用，义为至、到。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "metonymy",
+      "note": "用水名为地名，如江苏“溱潼”。"
+    }
+  ]
+}

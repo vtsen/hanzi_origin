@@ -1,0 +1,191 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "明亮，清晰明亮",
+      "examples": [
+        "明亮的月光",
+        "日月交辉，天下更加明亮"
+      ],
+      "traditional_char": "明"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "亮，与“暗”相对",
+      "examples": [
+        "明媚的春光",
+        "明净的湖水",
+        "明灭的星光"
+      ],
+      "traditional_char": "明"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "清楚，明白",
+      "examples": [
+        "明白事理",
+        "说明确的道理"
+      ],
+      "traditional_char": "明"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "懂得，了解",
+      "examples": [
+        "深明大义",
+        "不明事理"
+      ],
+      "traditional_char": "明"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "公开，不隐蔽",
+      "examples": [
+        "明说",
+        "明讲"
+      ],
+      "traditional_char": "明"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "能够看清事物",
+      "examples": [
+        "耳聪目明",
+        "明察秋毫",
+        "眼明手快"
+      ],
+      "traditional_char": "明"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "adjective",
+      "meaning": "睿智，有智慧",
+      "examples": [
+        "英明的君主",
+        "贤明的人"
+      ],
+      "traditional_char": "明"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "noun",
+      "meaning": "视觉，眼力",
+      "examples": [
+        "失明"
+      ],
+      "traditional_char": "明"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "noun",
+      "meaning": "神灵，泛指祭神供神之物",
+      "examples": [
+        "明器"
+      ],
+      "traditional_char": "明"
+    },
+    {
+      "index": 9,
+      "part_of_speech": "noun",
+      "meaning": "次，专指日或年",
+      "examples": [
+        "明日",
+        "明年"
+      ],
+      "traditional_char": "明"
+    },
+    {
+      "index": 10,
+      "part_of_speech": "proper noun",
+      "meaning": "中国历史朝代名",
+      "examples": [
+        "明代的文化"
+      ],
+      "traditional_char": "明"
+    },
+    {
+      "index": 11,
+      "part_of_speech": "proper noun",
+      "meaning": "姓",
+      "examples": [
+        "明先生"
+      ],
+      "traditional_char": "明"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "‘明’字会意字，甲骨文以‘日’和‘月’组合表示光明，取二者发光之义。小篆形体进一步以‘月’和‘囧’表示窗户的光亮，核心含义即为明亮清晰。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘明亮’引申出与‘暗’相对的‘亮’义。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "‘亮’义进一步引申为‘清楚、明白’。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "‘清楚’含义引申为‘懂得、了解’。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由‘清楚’引申为‘公开、不隐蔽’的含义。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "‘明亮’引申为‘能够看清事物’。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 6,
+      "evolution_type": "semantic_extension",
+      "note": "‘懂得、了解’引申为‘睿智’。"
+    },
+    {
+      "source_index": 5,
+      "target_index": 7,
+      "evolution_type": "semantic_narrowing",
+      "note": "由‘能够看清’引申具体为‘视觉，眼力’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 8,
+      "evolution_type": "metonymy",
+      "note": "‘光明’引申指祭神供神之物‘明器’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 9,
+      "evolution_type": "metonymy",
+      "note": "‘明’字用以表示时间的‘次’（日、年）。"
+    },
+    {
+      "source_index": 9,
+      "target_index": 10,
+      "evolution_type": "function_word",
+      "note": "‘明日’、‘明年’的‘明’字引申为中国历史朝代名称。"
+    }
+  ]
+}

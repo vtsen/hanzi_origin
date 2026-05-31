@@ -1,0 +1,73 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "（古代帝王自称受命于天用以统治天下的符命文书）天命符书",
+      "examples": [
+        "高祖膺箫受图，顺天行诛。——张衡《东京赋》",
+        "朕秉籙御天，握樞臨極。"
+      ],
+      "traditional_char": "籙"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "簿籍；名册",
+      "examples": [
+        "公姓名已著谣箓。——《新唐书·许世绪传》",
+        "浩浩支干名，漫漫人鬼籙。"
+      ],
+      "traditional_char": "籙"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "道教关涉上天神明的秘文或法籍",
+      "examples": [
+        "其受道之法，初受《五千文籙》，次受《三洞籙》，次受《洞玄籙》，次受《上清籙》。",
+        "受籙於龍虎山張靜應天師。"
+      ],
+      "traditional_char": "籙"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "竹制高篋",
+      "examples": [],
+      "traditional_char": "簏"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "籙为形声字，从竹，录声，本义为竹制文书或册；后借指符命之书、道教籍册等"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 3,
+      "note": "簏为形声字，从竹，录声，本义为竹高篋"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 3,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由竹篋引申为竹制记载簿册"
+    },
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "由簿籍引申为神命文册"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由簿籍引申为道教所用神祇册籍"
+    }
+  ]
+}

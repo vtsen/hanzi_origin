@@ -1,0 +1,69 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "刀剑等柄上所缠的绳",
+      "examples": [
+        "缑蒯（即蒯缑。指以草绳缠绕剑柄）",
+        "冯先生甚贫，犹有一剑耳，又蒯缑。"
+      ],
+      "traditional_char": "緱"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "借指刀剑",
+      "examples": [
+        "泥途敛翮，空自望丹霄，愁睹青霜点鬓毛，蒯缑长夜气萧萧。"
+      ],
+      "traditional_char": "緱"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "山名，如缑氏山、缑山、缑峰（多指修道成仙之处）",
+      "examples": [
+        "缑氏山",
+        "缑山鹤"
+      ],
+      "traditional_char": "緱"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "周卿士食采于缑，因以为氏。"
+      ],
+      "traditional_char": "緱"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘緱’从糸，矦声；表意为与绳索相关，音从‘矦’。简化字‘缑’承袭。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "绳缠剑柄引申为借指刀剑整体，见明代文献。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "地名用法可能取自古地名或音借，见缑氏山等。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "synecdoche",
+      "note": "地名用作氏族姓氏，周代采邑得姓。"
+    }
+  ]
+}

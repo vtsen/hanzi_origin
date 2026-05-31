@@ -1,0 +1,72 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "比方，比喻，用于形象说明事理",
+      "examples": [
+        "能近取譬。《论语》",
+        "譬彼舟流。《诗·小雅·小弁》",
+        "譬如、譬犹"
+      ],
+      "traditional_char": "譬"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "打比方，进行比喻",
+      "examples": [
+        "能近取譬。《论语》",
+        "譬之若良医，病万变，药亦万变。《察今》"
+      ],
+      "traditional_char": "譬"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "晓谕、使人明白",
+      "examples": [
+        "羽请往譬降之。《后汉书》",
+        "譬称（用譬喻的言辞解说）"
+      ],
+      "traditional_char": "譬"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "明白，领悟，通晓",
+      "examples": [
+        "言之者虽诚，而闻之者未譬。《后汉书·鲍永传》",
+        "唯匈奴未譬圣德。《后汉书·杜诗传》"
+      ],
+      "traditional_char": "譬"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从言，辟声，本义为比喻、打比方，见《说文》；‘言’表意义，‘辟’表音。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "conversion",
+      "note": "从名词“比喻”转为动词“打比方”，古今通用。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由“打比方”引申出“用比喻使人明白”，语义扩展过程，汉代已见。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "由“使人明白”抽象化演变为“明白，领悟”，多见于理解层面。"
+    }
+  ]
+}

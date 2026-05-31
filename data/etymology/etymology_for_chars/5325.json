@@ -1,0 +1,87 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "皮肤因寒冷、风吹等原因而裂开或变得粗糙起皱。",
+      "examples": [
+        "冬不皴。",
+        "手脚冻皴皮肉死。",
+        "面色风皴。"
+      ],
+      "traditional_char": "皴"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "物体表面粗糙、有皱褶。",
+      "examples": [
+        "皮笑荔枝皴。",
+        "枝干怪鳞皴，烟梢山涧新。"
+      ],
+      "traditional_char": "皴"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "打皱；紧缩；皱缩。",
+      "examples": [
+        "客皴眉而俯，不复抽言。"
+      ],
+      "traditional_char": "皴"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "皮肤上的积垢或脱落的表皮（方言用法）。",
+      "examples": [
+        "几天没洗澡，满身是皴了。",
+        "手上全是皴。"
+      ],
+      "traditional_char": "皴"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "中国画的一种技法，用淡干墨涂染以表现山石纹理、峰峦褶痕及树身表皮的脉络、形态。",
+      "examples": [
+        "皴法。",
+        "董元画山石，作麻皮皴。"
+      ],
+      "traditional_char": "皴"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从皮，夋声，本义为皮肤细小皱起。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由描写皮肤裂开、起皱扩展到物体表面粗糙起皱。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由皮肤起皱引申为打皱、皱缩等动作。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "因皮肤皲裂进而代指由此产生的表皮积垢等。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "由物体表面皱褶转喻为国画描画山石树木纹理的技法。"
+    }
+  ]
+}

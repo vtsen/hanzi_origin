@@ -1,0 +1,58 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "天色昏暗，幽暗",
+      "examples": [
+        "云归而岩穴暝。",
+        "正昼皆暝。",
+        "闇然而暝，忽不知處。"
+      ],
+      "traditional_char": "暝"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "日落，天黑，夜幕降临",
+      "examples": [
+        "山暝行人断。",
+        "晻晻日欲暝，愁思出门啼。",
+        "日将暝。"
+      ],
+      "traditional_char": "暝"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "黄昏、暮色，日落时分",
+      "examples": [
+        "暝色。",
+        "夕陽度西嶺，群壑倏已暝。",
+        "薄暝，秋鴻復來慰。"
+      ],
+      "traditional_char": "暝"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从日，冥声，表示天色昏暗，又与‘冥’通用。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由形容词“昏暗”发展为描述动作“天黑、日落”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由“昏暗”的状态引申为黄昏、暮色的具体时段名。"
+    }
+  ]
+}

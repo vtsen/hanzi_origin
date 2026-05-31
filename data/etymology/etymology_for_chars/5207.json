@@ -1,0 +1,101 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "捕鱼的竹制器具",
+      "examples": [
+        "筌者所以在鱼，得鱼而忘筌。",
+        "夹潨罗筌。——郭璞《江赋》"
+      ],
+      "traditional_char": "筌"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "捕鱼工具的总称",
+      "examples": [
+        "緡而竿者，总谓之筌。——陆龟蒙《渔具》诗序"
+      ],
+      "traditional_char": "筌"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "比喻牢笼、羁绊",
+      "examples": [
+        "濁骨不能超濁世，凡心怎得出凡筌。——《封神演义》",
+        "筌象（指未超脱尘世的景象）"
+      ],
+      "traditional_char": "筌"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "引申为工具、手段",
+      "examples": [
+        "豈不以一者道之本，式者治之筌。——范仲淹《圣人抱一为天下式赋》",
+        "筌蹄（比喻达到目的的手段或工具）"
+      ],
+      "traditional_char": "筌"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "同“荃”，指香草",
+      "examples": [
+        "既可习为鲍，亦可薰为筌。——元稹《和乐天感鹤》",
+        "荃者所以在鱼，得鱼而忘荃。——庄子"
+      ],
+      "traditional_char": "筌"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "同“铨”或“詮”，指序次、解释",
+      "examples": [
+        "夢中頻得句，拈筆又忘筌。——唐庚《醉眠》"
+      ],
+      "traditional_char": "筌"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从竹，全声，初指捕鱼竹器。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由具体捕鱼竹器扩展为所有捕鱼工具。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由捕鱼器具转喻为牢笼、束缚之意。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由捕捉的工具引申为达到目的的工具或手段。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "因同音假借“铨（序次）”“詮（解释）”，属假借用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "假借为“荃”指香草，因音近文字用法混淆。"
+    }
+  ]
+}

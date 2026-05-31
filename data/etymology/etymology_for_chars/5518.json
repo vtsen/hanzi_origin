@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "干肉、脯肉。",
+      "examples": [
+        "腩，脯也。——《广雅》"
+      ],
+      "traditional_char": "腩"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "牛肚子上或近肋骨处的松软肌肉，或用这种肉做成的菜肴。",
+      "examples": [
+        "牛腩",
+        "牛腩饭"
+      ],
+      "traditional_char": "腩"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "用调味品浸渍肉类以备炙食。",
+      "examples": [
+        "亦以盐、豉汁腩之。——《齐民要术》",
+        "羊、牛、獐、鹿肉皆得，和盐豉汁，僅令相淹，少時便炙。"
+      ],
+      "traditional_char": "腩"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“腩”从“肉”旁表示与肉体有关，“南”作声旁，最早指干肉、脯肉。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由干肉义扩展为腌渍、调味处理肉类的动作，见于《齐民要术》。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由泛指干肉逐渐用于指牛肚及近肋骨处的软肉、特指菜肴，方言义。"
+    }
+  ]
+}

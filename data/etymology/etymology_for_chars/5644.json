@@ -1,0 +1,73 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "蔷薇科植物，多刺灌木，夏初开花，花有多种颜色，可制香料，果实可入药。",
+      "examples": [
+        "一支红蔷拥翠筠，罗窗不识绕街尘。",
+        "蔷薇盛开。"
+      ],
+      "traditional_char": "薔"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "蔷薇科这种植物的花。",
+      "examples": [
+        "院中蔷薇盛放。",
+        "采摘蔷薇。"
+      ],
+      "traditional_char": "薔"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "水蓼，一种水生植物，亦称虞蓼。",
+      "examples": [
+        "薔，虞蓼。",
+        "其草兢与薔。"
+      ],
+      "traditional_char": "薔"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "“薔”的简化字。",
+      "examples": [],
+      "traditional_char": "蔷"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "薔从艸，嗇声，表示一种植物（蔷薇科灌木）。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 3,
+      "note": "蔷为薔的简化字，艸表义，将“嗇”简化为“将”，保留发音和语义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_narrowing",
+      "note": "植物本体引申为其花。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "古籍中亦指“水蓼”、虞蓼，语义迁移。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "analogy",
+      "note": "字形简化，蔷为薔的简化字，用于同义。"
+    }
+  ]
+}

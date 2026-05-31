@@ -1,0 +1,69 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "onomatopoeia",
+      "meaning": "马蹄踏地的声音。",
+      "examples": [
+        "役马的鼻孔喷着白气，四蹄踏得铁硬的冻土嘚嘚山响。"
+      ],
+      "traditional_char": "嘚"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "onomatopoeia",
+      "meaning": "赶驴、骡等牲口前进的吆喝声。",
+      "examples": [
+        "赶骡子的师傅一面走一面吆喝着：‘嘚儿！’"
+      ],
+      "traditional_char": "嘚"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "interjection",
+      "meaning": "表示招呼，引起对方注意，多用於戏曲中。",
+      "examples": [
+        "嘚，你每是那里来的？",
+        "嘚，关羽明日可战？"
+      ],
+      "traditional_char": "嘚"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "说话絮絮叨叨。",
+      "examples": [
+        "他一天到晚嘚嘚个没完。",
+        "嘚嘚嘚，怎么说个不停。"
+      ],
+      "traditional_char": "嘚"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "pictograph",
+      "original_sense_index": 0,
+      "note": "‘嘚’从口，形声构造，最早表拟马蹄声。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由马蹄的喧响声，引申为吆喝牲口前进的声音。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "借马蹄持续响动形容人说话啰嗦。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "conversion",
+      "note": "由吆喝牲口前进的声音转为招呼人的感叹用法，见于戏曲口语。"
+    }
+  ]
+}

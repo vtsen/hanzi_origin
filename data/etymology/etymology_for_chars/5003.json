@@ -1,0 +1,66 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "正直的话，直言进谏的话",
+      "examples": [
+        "无谔然之节，而有狂瞽之言。",
+        "忠谔。"
+      ],
+      "traditional_char": "諤"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "说话正直，敢于直言的样子",
+      "examples": [
+        "谔然直言。",
+        "谔谔然不可夺其志。"
+      ],
+      "traditional_char": "諤"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "谔的简化字（“谔”用作“諤”的简化字）",
+      "examples": [
+        "谔然敢言。",
+        "忠谔之心难得。"
+      ],
+      "traditional_char": "谔"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“諤”为形声字，从言，咢声，表示正直的话。"
+    },
+    {
+      "formation_type": "simple_indicative",
+      "original_sense_index": 2,
+      "note": "“谔”为“諤”的简化字，由‘言’和‘咢’简化而成，含义与‘諤’一致。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "conversion",
+      "note": "由名词“正直的话”引申为可形容人的直言特质。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "reanalysis",
+      "note": "现代汉字简化，由传统‘諤’变为‘谔’，含义等同。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "reanalysis",
+      "note": "现代形容词义在简体字系统下也用‘谔’表达。"
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "使两物胶合、附着在一起",
+      "examples": [
+        "黏，相着也。从黍，占声。——《说文》",
+        "黏补（修补）；黏接（黏合连接）",
+        "她和大嫂在那陽光處黏鞋底。"
+      ],
+      "traditional_char": "黏"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "贴近、靠近、接贴",
+      "examples": [
+        "两崖相黏，中止通一线。",
+        "看黏天浪擺，盤渦雉堞排， 只剩危墻三版遮住蒿萊。",
+        "自家此心都不曾與他相黏，所以眊燥，無汁漿。"
+      ],
+      "traditional_char": "黏"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "具有胶状、糨糊样的性质；黏性强",
+      "examples": [
+        "土黏曰埴。",
+        "雪霜頓銷釋，土脈膏且黏。",
+        "黏米、黏土、黏液"
+      ],
+      "traditional_char": "黏"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "围棋术语，指连子",
+      "examples": [
+        "圍棋義例•詮釋：黏，連也。彼欲以子斷之，我即以子連之，故曰黏。"
+      ],
+      "traditional_char": "黏"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "诗句上下联平仄协调",
+      "examples": [
+        "凡表、啟之類，近代聲律尤嚴，或乖平仄，則謂之失黏。",
+        "上一聯的對句如係仄頭，下一聯的出句必須也是仄頭。這叫做‘黏’。"
+      ],
+      "traditional_char": "黏"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘黏’为形声字，从黍，‘占’声，本义指像黍胶一样把两物粘合。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由胶合引申为紧贴、靠近，多见于空间或关系贴合。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由动作动词表示的‘使粘合’引申为‘具有粘性的（形容词）’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "比喻用在围棋术语中表示连接棋子，约宋代见于棋谱用语。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "诗律中‘黏’比喻上下联紧密连接，平仄相粘附（平仄协调），约宋代律诗格律用语。"
+    }
+  ]
+}

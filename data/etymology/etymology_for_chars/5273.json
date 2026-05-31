@@ -1,0 +1,69 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "明亮，光辉，辉耀",
+      "examples": [
+        "焜耀寡人之望。",
+        "焜乎煌煌。",
+        "色焜朝日，宁同沈郎之钱。"
+      ],
+      "traditional_char": "焜"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "色彩衰落的样子，枯黄，指色衰貌",
+      "examples": [
+        "焜黄华叶衰。"
+      ],
+      "traditional_char": "焜"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "火光，光焰",
+      "examples": [
+        "焜如星火。"
+      ],
+      "traditional_char": "焜"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "other",
+      "meaning": "通“昆”，指同、共同之意",
+      "examples": [
+        "樵烝焜上，配藜四施。"
+      ],
+      "traditional_char": "焜"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从火，昆声，表示明亮、辉煌之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘明亮’引申为色彩衰退之意，古今皆有记载。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由‘明亮’引申指具体的火光、焰光。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "借音通‘昆’，表示‘同、共同’。汉赋、方言资料可见。"
+    }
+  ]
+}

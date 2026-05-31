@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "山名，在浙江省嵊县东。",
+      "examples": [
+        "嵊，山名。在剡县也。——《广韵》",
+        "剡縣有嵊山。"
+      ],
+      "traditional_char": "嵊"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "地名，嵊县，位于中国浙江省东部，古为嵊州。",
+      "examples": [
+        "嵊縣，今浙江紹興府會稽縣。",
+        "漢稱剡縣，吳越改為瞻縣，宋始名嵊縣。"
+      ],
+      "traditional_char": "嵊"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "亭名，嵊亭，吴地地名。",
+      "examples": [
+        "嵊亭名在吳。"
+      ],
+      "traditional_char": "嵊"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘嵊’为形声字，山为形，声旁‘乘’。本指山名，后引申为地名等。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由山名借指以该山命名之地，形成县名。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "以嵊山为名，延伸为亭名。"
+    }
+  ]
+}

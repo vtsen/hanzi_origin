@@ -1,0 +1,51 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古地名，今浙江省鄞县",
+      "examples": [
+        "春秋时属越，即今浙江省鄞县",
+        "《国语·越语上》：“句践之地……东至于鄞。”"
+      ],
+      "traditional_char": "鄞"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [],
+      "traditional_char": "鄞"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "通“垠”，边界、界限",
+      "examples": [
+        "鄞鄂（同“垠堮”，边际；界限）"
+      ],
+      "traditional_char": "鄞"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从邑，堇声，表示地名，属于形声字。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "地名用作姓氏，为常见语义扩展。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "用音通‘垠’引申为边界义。"
+    }
+  ]
+}

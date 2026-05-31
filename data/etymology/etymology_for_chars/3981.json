@@ -1,0 +1,144 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "面颊，颧骨部位。",
+      "examples": [
+        "肫，面颊也。——《说文》",
+        "肫，俗谓之两颧也。——朱骏声《说文通训定声》"
+      ],
+      "traditional_char": "肫"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "禽类的胃（胗）。",
+      "examples": [
+        "鸡肫",
+        "鹅肫",
+        "妃索煮肫，帐下咨刘暄，暄曰：‘旦已煮鵝，不烦复此。’——《资治通鉴》"
+      ],
+      "traditional_char": "肫"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "臀部。",
+      "examples": [
+        "胯大肫高，决片牛唇口，粗能饮村酒。——《刘知远诸宫调》"
+      ],
+      "traditional_char": "肫"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "恳切，真挚。",
+      "examples": [
+        "肫肫其仁，渊渊其渊，浩浩其天。——《礼记·中庸》"
+      ],
+      "traditional_char": "肫"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "古代祭祀用牲畜后体的一部分。",
+      "examples": [
+        "尸俎，右肩臂臑肫胳。——《仪礼·特牲馈食礼》",
+        "后髀股骨去体离为二，曰肫、胳。——《宋史·礼志》"
+      ],
+      "traditional_char": "肫"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "adjective",
+      "meaning": "精细致密。",
+      "examples": [
+        "缪缪肫肫，其事不可循。"
+      ],
+      "traditional_char": "肫"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "adjective",
+      "meaning": "整体，完全。",
+      "examples": [
+        "腊一，肫。——《仪礼·士昏礼》"
+      ],
+      "traditional_char": "肫"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "noun",
+      "meaning": "小猪（通“豚”）。",
+      "examples": [
+        "食一蒸肫，饮二斗酒，然后临诀。——《晋书·阮籍传》"
+      ],
+      "traditional_char": "肫"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "noun",
+      "meaning": "馄饨（通“飩”）。",
+      "examples": [],
+      "traditional_char": "肫"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“肫”从肉，屯声。肉部表身体部位，原指面颊部位，后义扩展。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由面部部位泛指至禽类内脏部位，或因形状类比。汉代已见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由面颊为外部突出之处借指臀部，也属身体部位类比。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "面颊丰满引申为性情厚实、真挚之义，《礼记》用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "由面颊等身体部位指称祭祀用牲体部分。多见于古代礼仪文献。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 6,
+      "evolution_type": "semantic_extension",
+      "note": "祭祀用牲体“肫”引申为整体、完全之意。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "由真挚、诚恳引申为精细致密的赞誉。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 7,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "“肫”音近“豚”，借作小猪用名。见于晋书。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 8,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "“肫”又借为“馄饨”之“飩”，因音之转借。"
+    }
+  ]
+}

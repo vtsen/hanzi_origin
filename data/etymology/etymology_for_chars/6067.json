@@ -1,0 +1,99 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "鸟羽毛中间的硬管，即羽茎或翎管",
+      "examples": [
+        "翮，羽茎也。——《说文》",
+        "柳宗元《跂乌词》：“左右六翮利如刀。”"
+      ],
+      "traditional_char": "翮"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "指鸟的翅膀",
+      "examples": [
+        "愿为比翼鸟，施翮起高翔。——曹植《送应氏》",
+        "习习笼中鸟，举翮触四隅。——左思《咏史》"
+      ],
+      "traditional_char": "翮"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "泛指羽毛",
+      "examples": [
+        "南海则有羽翮齿革。——《荀子·王制》"
+      ],
+      "traditional_char": "翮"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "借指鸟类",
+      "examples": [
+        "肯似林间翮，飞倦始知还。——胡寅《水调歌头》"
+      ],
+      "traditional_char": "翮"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "古代管乐器名，笙管",
+      "examples": [
+        "纤翮以震幽簧。"
+      ],
+      "traditional_char": "翮"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "空足的鼎，通“鬲”，古炊具",
+      "examples": [
+        "吞三翮六翼，以高世主。——《史记·楚世家》"
+      ],
+      "traditional_char": "翮"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从羽，鬲声；“羽”表义，“鬲”为声符，表示羽毛中部的硬管。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由羽毛中的翎管引申为鸟的翅膀，常见器官部分代表整体的转用。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由翎管泛指羽毛，语义范围扩大。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "synecdoche",
+      "note": "以‘翮’（翅膀）作为鸟类整体的代称。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "因笙管形状似翮，故用‘翮’借指管乐器。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "‘翮’通用为‘鬲’（古炊具、空足的鼎），属音假借用。"
+    }
+  ]
+}

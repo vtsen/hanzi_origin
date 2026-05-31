@@ -1,0 +1,120 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "积水池、池塘、低洼积水处。",
+      "examples": [
+        "潢，积水池也。——《说文》",
+        "蓄水谓之潢。——《左传·隐公三年》"
+      ],
+      "traditional_char": "潢"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "港汊，分流的水道。",
+      "examples": [
+        "海道多潢，犹陆地多歧。——朱彝尊《日下旧闻补遗》",
+        "猶航斷港絕潢以望至於海也。——韩愈《送王秀才序》"
+      ],
+      "traditional_char": "潢"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "古水名（如潢河、潢水等）。",
+      "examples": [
+        "潢河，出南阳分水岭。",
+        "潢水，源出湖北麻城，东流经河南入淮。"
+      ],
+      "traditional_char": "潢"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "天潢星，星名。转义为天子之池，借指皇室、皇族。",
+      "examples": [
+        "天潢贵胄。",
+        "弄兵潢池。"
+      ],
+      "traditional_char": "潢"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "染纸（后引申为装饰、装裱、装璜）。",
+      "examples": [
+        "潢，染书也。——《广韵》",
+        "凡潢纸灭白便是。——贾思勰《齐民要术》",
+        "书籍的装潢。"
+      ],
+      "traditional_char": "潢"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "adjective",
+      "meaning": "水深广貌，水大至之貌。",
+      "examples": [
+        "潢然兼覆之，养长之，如保赤子。——《荀子·富国》",
+        "扬流波之潢潢兮。——《楚辞·九叹》"
+      ],
+      "traditional_char": "潢"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "adjective",
+      "meaning": "威武、浩大的样子（主要见于叠用“潢潢”）。",
+      "examples": [
+        "武夫潢潢。",
+        "潢潢大貌。"
+      ],
+      "traditional_char": "潢"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，黄声，本义为积水池；‘水’表意义，‘黄’为声符。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从积水池引申为分流水道，多见于水域地理用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由水池作为专用地名，指古地名和水名。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由池水、星名演变为天潢、皇族的象征。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "metaphor",
+      "note": "由水池之大，引申为水势浩大、深广的形容。"
+    },
+    {
+      "source_index": 5,
+      "target_index": 6,
+      "evolution_type": "metaphor",
+      "note": "由水势深广形容引申为人之威武浩大。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "池水、浸染引申为染纸、装饰（以水色浸染纸书卷等）。"
+    }
+  ]
+}

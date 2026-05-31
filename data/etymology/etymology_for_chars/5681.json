@@ -1,0 +1,163 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "男奴隶；古代对奴仆的贱称",
+      "examples": [
+        "臧与谷二人相马牧羊——《庄子·骈拇》",
+        "臧聚（仆隶役夫）；臧获（古代对奴婢的贱称）"
+      ],
+      "traditional_char": "臧"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "善，好",
+      "examples": [
+        "不忮不求，何用不臧？——《诗·邶风·雄雉》",
+        "臧否（褒贬，评论，说好说坏）"
+      ],
+      "traditional_char": "臧"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "成功",
+      "examples": [
+        "执事顺成为臧，逆为否。——《左传》",
+        "师出以律，否臧凶。——《易·师卦》"
+      ],
+      "traditional_char": "臧"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "赃物；通过不正当手段获得的财物",
+      "examples": [
+        "家尽没入偿臧。——《史记·王温舒传》",
+        "盗有臧者罚。——《盐铁论·刑德》"
+      ],
+      "traditional_char": "臧"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "贪污，受贿",
+      "examples": [
+        "其羞辱甚于贪污坐臧。——《汉书·尹赏传》"
+      ],
+      "traditional_char": "臧"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "臧姓，见于《百家姓》"
+      ],
+      "traditional_char": "臧"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "古地名",
+      "examples": [
+        "文王观于臧。——《庄子·田子方》"
+      ],
+      "traditional_char": "臧"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "verb",
+      "meaning": "收藏，隐藏（通“藏”）",
+      "examples": [
+        "臧于理宫。——《汉书·礼乐志》",
+        "繁启蕃长于春夏，畜积收臧于秋冬。——《荀子·天论》"
+      ],
+      "traditional_char": "臧"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "noun",
+      "meaning": "库存，储存的东西（通“藏”）",
+      "examples": [
+        "出御府之臧以赡之。——《汉书·食货志》",
+        "府臧空虚。——《后汉书·张禹传》"
+      ],
+      "traditional_char": "臧"
+    },
+    {
+      "index": 9,
+      "part_of_speech": "noun",
+      "meaning": "内脏，五脏（通“脏”）",
+      "examples": [
+        "吸新吐故以练臧。——《汉书·王吉传》"
+      ],
+      "traditional_char": "臧"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从臣，戕声，本义为男奴隶。‘臣’表示与奴仆相关的语义，‘戕’表音。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "amelioration",
+      "note": "由‘奴隶’引申为‘美好、善’出现语义转变，常见于历史上贱称词语褒义化。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "‘善’引申为‘成功’，即善事达成即为成就善果，语义带移。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "synecdoche",
+      "note": "由贱称或族属衍生为姓氏，历代常见，可能先有‘臧获’一类，后取其为姓。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "unknown",
+      "note": "古地名多取族名或官名，可能与‘臧’为奴仆相关，但具体不得而知。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "‘臧’假借为‘赃’，因语音通用，成为贪污受贿等含义的记号。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "conversion",
+      "note": "名词‘赃’，转为动词‘贪污、受贿’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 7,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "‘臧’假借为‘藏（cáng）’，意为收藏、隐藏。"
+    },
+    {
+      "source_index": 7,
+      "target_index": 8,
+      "evolution_type": "semantic_extension",
+      "note": "动词‘收藏’引伸为名词‘收藏的物品、库存’。"
+    },
+    {
+      "source_index": 7,
+      "target_index": 9,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "‘臧’假借为‘脏’，表示人体内脏。"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "拔除田地里的杂草。",
+      "examples": [
+        "以薅荼蓼。（《诗经·周颂》）",
+        "每县则薅，以劝南偽。（《汉书·王莽传》）",
+        "稻苗渐长，复须薅；拔草曰薅。（《齐民要术》）"
+      ],
+      "traditional_char": "薅"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "泛指拔去、拔除（物体）。",
+      "examples": [
+        "薅胡子（拔胡须）",
+        "薅菜苗儿",
+        "薅秧（拔秧苗）",
+        "自吾舅歿，五乱于汴者，吾苗薅而发櫛之。（韩愈）"
+      ],
+      "traditional_char": "薅"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "揪，抓住（多为方言用法）。",
+      "examples": [
+        "薅住领子",
+        "薅下几根头发",
+        "薅走了军帽",
+        "薅你师傅的胡子好不好？（《儿女英雄传》）"
+      ],
+      "traditional_char": "薅"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从艹（植物类），‘好’声。本义为拔除田草。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘拔除田草’引申为一般意义上的拔除或拔去。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由‘拔除’动作转喻为‘揪’（用力抓拉），多见于方言。"
+    }
+  ]
+}

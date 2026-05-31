@@ -1,0 +1,119 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "两眼不能集中视线于同一地方，斜视或目不相视。",
+      "examples": [
+        "睽，目不相视也。——《说文》",
+        "睽，目少精也。——《广苍》"
+      ],
+      "traditional_char": "睽"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "分离，背离，乖离。",
+      "examples": [
+        "睽者，乖也。——《易·序卦》",
+        "曩者胶漆契，迩来云雨睽。——白居易《伤友》"
+      ],
+      "traditional_char": "睽"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "孤独，独处。",
+      "examples": [
+        "睽孤见豕负涂。——《汉书·五行志》",
+        "天下孤睽。——扬雄《法言》"
+      ],
+      "traditional_char": "睽"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "违背，不合，意见相异。",
+      "examples": [
+        "守失其微，天下孤睽。——扬雄《法言》",
+        "兹理庶无睽。——谢眺《游敬亭山》"
+      ],
+      "traditional_char": "睽"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "张大眼睛注视，怒目而视。",
+      "examples": [
+        "众目睽睽。",
+        "反目；怒目而视貌。——《唐·柳宗元》"
+      ],
+      "traditional_char": "睽"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "《易经》六十四卦之一（兑下离上），卦名。",
+      "examples": [
+        "睽，小事吉。——《易·睽卦》",
+        "取《睽》之妙，流睇未足称奇。——沈约"
+      ],
+      "traditional_char": "睽"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "地名，春秋时楚国地名。",
+      "examples": [
+        "楚子将围宋，使子文治兵于睽。——《左传·僖公二十七年》",
+        "睽，楚邑。——杜预注"
+      ],
+      "traditional_char": "睽"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘睽’从目，癸声，本指两眼不看一地方，属于形声字。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由两眼不向同一方向引申为分离、乖离之意，先秦已见。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "从分离、背离引申为孤独独处，语义发展顺理成章。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "由分离、背离引申为意见不合、违背。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "由斜视、两眼不能同视引申为张目注视、怒目而视。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "synecdoche",
+      "note": "以乖离、背离之意，取卦名，用部分义作整体卦象。"
+    },
+    {
+      "source_index": 6,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "地名以乖离、背离之义得名，具体因缘待考。"
+    }
+  ]
+}

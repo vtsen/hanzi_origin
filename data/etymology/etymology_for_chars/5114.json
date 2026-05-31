@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "杀死、诛杀",
+      "examples": [
+        "殛，诛也。——《说文》",
+        "明神殛之。——《左传·襄公十一年》",
+        "有夏多罪，天命殛之。——《书·汤誓》",
+        "乃殛鲧于羽山。——《史记·夏本纪》"
+      ],
+      "traditional_char": "殛"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "惩罚",
+      "examples": [
+        "爽惟天其罚殛我，我其不怨。——《书·康诰》"
+      ],
+      "traditional_char": "殛"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "流放、放逐（通“极”）",
+      "examples": [
+        "我不负神兮，神何殛我越荒州？——汉·蔡琰《胡笳十八拍》",
+        "殛鲧于羽山。——《书·舜典》"
+      ],
+      "traditional_char": "殛"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从歹（与死亡相关）作意符，亟作声符，表示杀死、诛杀之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘杀死’引申为‘惩罚’，古代处刑可泛指严厉惩处。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由‘诛杀’进一步泛化为‘流放、放逐’，因古代对罪大恶极者有杀、流等重罚，语文叙述出现通假用法。"
+    }
+  ]
+}

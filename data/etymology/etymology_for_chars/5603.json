@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "指摘，责备。",
+      "examples": [
+        "众人交谪。",
+        "受人谪责。"
+      ],
+      "traditional_char": "謫"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "（封建时代）官吏因过失被贬低官职，调往远地。",
+      "examples": [
+        "贬谪。",
+        "谪迁。",
+        "谪居。"
+      ],
+      "traditional_char": "謫"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "（古代用法）变异。",
+      "examples": [
+        "庚午之日，日始有谪。"
+      ],
+      "traditional_char": "謫"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从言，啻声，本义为指摘、责备。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由一般的责备扩展为封建时代贬谪官吏的专门用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "本义引申为表示特定的天象变异，见于古籍用法。"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "一种油炸的面制食品，如馃子。",
+      "examples": [
+        "手提一篮子香油馃子，在道上叫卖。——周立波《暴风骤雨》"
+      ],
+      "traditional_char": "馃"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "旧式点心的统称，如荞麦馃。",
+      "examples": [
+        "荞麦馃",
+        "各色馃点俱备。"
+      ],
+      "traditional_char": "馃"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "一种用面制成的糕饼、饼类食品。",
+      "examples": [
+        "餜，餠也。《玉篇》"
+      ],
+      "traditional_char": "餜"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 2,
+      "note": "“餜”为形声字，从食，果声，表示以面为主制成的食品。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“馃”为“餜”的简化字，形声，从饣，果声，意指面食类食品。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 2,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由专指面制品的糕点，扩展为各类旧式点心的统称。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 0,
+      "evolution_type": "semantic_narrowing",
+      "note": "由泛指面制糕饼，专指油炸面食，如馃子等。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 0,
+      "evolution_type": "reanalysis",
+      "note": "简化字“馃”承袭“餜”的语义，特指油炸面食。"
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "妆饰，修饰",
+      "examples": [
+        "靓妆刻蚀。——司马相如《上林赋》",
+        "靓粉黛于胸臆。"
+      ],
+      "traditional_char": "靚"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "召见，邀请；请",
+      "examples": [
+        "靓，召也。——《说文》"
+      ],
+      "traditional_char": "靚"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "艳丽，美好",
+      "examples": [
+        "昭君丰容靓饰，光明汉宫。——《后汉书》",
+        "桃李晨粧靓。"
+      ],
+      "traditional_char": "靚"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "嫻静、淑静，（通“静”）幽静、清静",
+      "examples": [
+        "淡乎若深渊之靓。——《汉书·贾谊传》",
+        "意态闲且靓，气若兰蕙芳。——元·贡师泰《拟古二首》",
+        "稍暗暗而靓深。——扬雄《甘泉赋》"
+      ],
+      "traditional_char": "靚"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "（通“靖”）思量，思考",
+      "examples": [
+        "靓杪秋之遙夜兮，心繚悷而有哀。——《楚辞·九辩》"
+      ],
+      "traditional_char": "靚"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "adjective",
+      "meaning": "漂亮，好看（方言用法）",
+      "examples": [
+        "靓女",
+        "新到原子玻璃褲帶！五元一條，又平又靓。"
+      ],
+      "traditional_char": "靚"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从彡，靑声。本义为妆饰、修饰，属形声字，历史文献支持。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "从“妆饰”引申为“艳丽、美好”，表面特征到性质，东汉文献即有例。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "由“艳丽、美好”在近现代及方言中转为“漂亮”，词义扩大并口语化。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "以外在装饰引申至性格或气质的静美，形象转为抽象，多见于文言诗文。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "semantic_shift",
+      "note": "“靜”发展为“思量”，语音通“靖”，语义联系为平静而思。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "unknown",
+      "note": "“召见、请”的意义与“妆饰”本义关系不详，或为古文中的假借，学界有争议。"
+    }
+  ]
+}

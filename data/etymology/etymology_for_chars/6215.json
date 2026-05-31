@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "用肉、鱼等制成的酱，尤指肉酱。",
+      "examples": [
+        "醓醢以荐，或燔或炙。——《诗·大雅》",
+        "脯醢菜羹。——汉·司马光《训俭示康》"
+      ],
+      "traditional_char": "醢"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "酱的泛称，调味品之一。",
+      "examples": [
+        "自酒米至于盐醢百有余品，皆尽时味。——《魏书》"
+      ],
+      "traditional_char": "醢"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "古代一种酷刑，将人剁成肉酱。",
+      "examples": [
+        "杀梅伯而醢之，杀鬼侯而脯之。——《吕氏春秋·慎行论》",
+        "孔子哭子路于中庭……使者曰：‘醢之矣。’——《礼记·檀弓》",
+        "九侯女不喜淫，杀之，而醢九侯。——《史记·殷本纪》"
+      ],
+      "traditional_char": "醢"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从酉，表示与酿造、液体相关，𥁓（音海）为声符，表示读音，与肉酱本义相关。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由专指肉酱扩展为泛指各种酱。该用法见于《广雅》《魏书》等。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由肉酱之义引申为将人剁成肉酱的刑罚，早见于古代典籍。"
+    }
+  ]
+}

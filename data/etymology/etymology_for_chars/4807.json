@@ -1,0 +1,53 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古代车箱两旁的板上向外翻出的部分，也叫“车耳”。",
+      "examples": [
+        "车辄旁出，如耳垂然。"
+      ],
+      "traditional_char": "輒"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adverb",
+      "meaning": "总是，就。",
+      "examples": [
+        "浅尝辄止。",
+        "动辄得咎。"
+      ],
+      "traditional_char": "輒"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "仗恃胡作非为。",
+      "examples": [
+        "甘受专辄之罪。"
+      ],
+      "traditional_char": "輒"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“輒”为形声字，从车，聂声，本义指车箱两旁向外翻出的部分。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "古人以“车耳”易动，喻举动容易，进而引出‘总是、随即’义。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "由‘动辄’引申出‘仗势胡为’之义，汉代即已见用。"
+    }
+  ]
+}

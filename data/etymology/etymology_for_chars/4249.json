@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "母牛。",
+      "examples": [
+        "《玉篇•牛部》： “牯，牝牛。”",
+        "四牸三牯，中一去乳。"
+      ],
+      "traditional_char": "牯"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "（俗稱）閹割過的公牛。",
+      "examples": [
+        "明 李時珍 《本草綱目•獸一•牛》： “牛之牡者曰牯曰特。”",
+        "小孩不愛騎牯牛。"
+      ],
+      "traditional_char": "牯"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "泛指牛。",
+      "examples": [
+        "那裏吊着一條大水牯，正在嚼枯草。",
+        "牯子，泛指牛。"
+      ],
+      "traditional_char": "牯"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "左形右声，左‘牛’表意指牛类，右‘古’表音。初指母牛。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由母牛引申称阉割后的公牛，俗称习用所致。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由专指阉牛进一步泛指牛，见于口语和方言。"
+    }
+  ]
+}

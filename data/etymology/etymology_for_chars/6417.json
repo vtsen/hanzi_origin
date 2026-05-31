@@ -1,0 +1,85 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "折叠衣裙或其他织物。",
+      "examples": [
+        "固不如襞而幽之离房。——《汉书·扬雄传》",
+        "灌襞以数，质象以呈。——汉·王粲《刀铭》"
+      ],
+      "traditional_char": "襞"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "衣物或织物上的褶子、皱纹。",
+      "examples": [
+        "画裙朝彩襞，芳鬓晓云融。——明·汤显祖《紫箫记》",
+        "张遂寘钩于巾襞中。——唐·段成式《酉阳杂俎》"
+      ],
+      "traditional_char": "襞"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "比喻皮肤、器官等表面的皱褶。",
+      "examples": [
+        "场坪中便只剩下些空莲蓬，翠绿起襞的表皮，翻着白中微绿的软瓤。——沈从文《生》",
+        "胃襞"
+      ],
+      "traditional_char": "襞"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "裂开，剖分。",
+      "examples": [
+        "襞笺（裁纸作画。又作擘笺、劈笺）"
+      ],
+      "traditional_char": "襞"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "measure_word",
+      "meaning": "用于称布条等的量词。",
+      "examples": [
+        "将军数十年来出入必偕之深赤外套，为热狂崇拜者所摸竊、所横夺，撕裂为百数十襞，各宝其一寸一缕以相炫耀。——梁启超《意大利建国三杰传》"
+      ],
+      "traditional_char": "襞"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从衣，辟声。表示折叠衣物之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“折叠”的动作引申为衣物上的褶子，此为物化结果转变，东汉用例已见。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "从衣物褶子比喻到生物体（皮肤、器官等）上的皱褶，近现代用法更普遍。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "折叠动作部分转义为“剖分、裂开”，见于裁纸等专用词。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "reanalysis",
+      "note": "由衣物褶子具体化为可以计数的单位，故转为量词用法，近代出现。"
+    }
+  ]
+}

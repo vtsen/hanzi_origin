@@ -1,0 +1,103 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "长尾山雉（野鸡）",
+      "examples": [
+        "山鸡翟雉来相劝。",
+        "羽畎夏翟。"
+      ],
+      "traditional_char": "翟"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "古代乐舞用的雉羽",
+      "examples": [
+        "右手秉翟。",
+        "冠华秉翟，列举八佾。"
+      ],
+      "traditional_char": "翟"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "用野鸡羽毛装饰的衣服、车子等器物",
+      "examples": [
+        "其之翟也。",
+        "翟茀以朝。"
+      ],
+      "traditional_char": "翟"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "古代乐吏，教羽舞的低级官吏",
+      "examples": [
+        "翟者，乐吏之贱者也。",
+        "夫祭有畀煇胞翟閽者。"
+      ],
+      "traditional_char": "翟"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "古同“狄”，中国北方的民族或国名",
+      "examples": [
+        "象胥每翟上士一人。",
+        "赵襄子使新稚穆子攻翟。"
+      ],
+      "traditional_char": "翟"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "翟方进",
+        "翟璜"
+      ],
+      "traditional_char": "翟"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从羽，从隹，形声字，‘隹’表声，‘羽’表义，本指长尾山雉。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "以雉羽作为舞具，因物用名。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由乐器推广到用于装饰衣服、车等器物之羽饰。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "执雉羽的舞官以所持代其职官名。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "“翟”借作“狄”，作为民族名，属于通假借用。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "conversion",
+      "note": "由名词转为姓氏用法，常见汉姓来源。"
+    }
+  ]
+}

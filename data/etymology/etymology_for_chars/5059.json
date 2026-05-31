@@ -1,0 +1,98 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "用锤打等方式把楔子、钉子等嵌入物体。",
+      "examples": [
+        "要往墙上揳钉子，比往木头上揳个钉子花费的力气要大得多。"
+      ],
+      "traditional_char": "揳"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "弹奏（尤其指弹瑟、琴等乐器）。",
+      "examples": [
+        "鏗鍾搖虡，揳梓瑟些。",
+        "趙女鄭姬設形容，揳鳴琴。"
+      ],
+      "traditional_char": "揳"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "敲打，打击（泛指捶击动作）。",
+      "examples": [
+        "尚書近臣至乃捶揳牽曳於前。"
+      ],
+      "traditional_char": "揳"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "堵塞（塞住孔隙、堵住）。",
+      "examples": [
+        "揳，塞也。"
+      ],
+      "traditional_char": "揳"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "度量，比较大小。",
+      "examples": [
+        "不揣長，不揳大。"
+      ],
+      "traditional_char": "揳"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "楔形的东西。",
+      "examples": [
+        "霹靂處得揳，如斧，謂之霹靂揳。"
+      ],
+      "traditional_char": "揳"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从『手』表示动作意，『屑』声。初义为锤打使物入内。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "conversion",
+      "note": "由表示‘嵌入’的动作发展为被嵌入之物。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由锤打嵌入引申为‘堵塞’之意。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "以‘弹奏’乐器动作类比‘敲入’物体，源见《楚辞》。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "从‘锤打使入’引申为一般‘敲打’动作。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_shift",
+      "note": "由实物操作动词引申为‘度量比较’（见古注同‘絜’）。"
+    }
+  ]
+}

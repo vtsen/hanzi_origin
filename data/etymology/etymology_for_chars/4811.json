@@ -1,0 +1,38 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "议论声杂，口中作出表示议论或不满的声音。",
+      "examples": [
+        "啧有烦言",
+        "众人啧啧称奇"
+      ],
+      "traditional_char": "嘖"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "深奥，难以理解。",
+      "examples": [
+        "理之嘖然难明"
+      ],
+      "traditional_char": "嘖"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "嘖由‘口’表示与声音相关，‘則’为声旁，表示与发声、杂音相关。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由混杂多议的声音引申为事理复杂、深奥。用法见于古籍。"
+    }
+  ]
+}

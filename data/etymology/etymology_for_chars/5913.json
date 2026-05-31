@@ -1,0 +1,49 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "徘徊不前，行走迟疑，犹豫的样子。",
+      "examples": [
+        "搔首踟蹰",
+        "五马立踟"
+      ],
+      "traditional_char": "踟"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "古代刻漏承水器的名称。",
+      "examples": [],
+      "traditional_char": "踟"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "梭的别名。",
+      "examples": [],
+      "traditional_char": "踟"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从足，知声，形声字，本义指止步不前、犹豫。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "因徘徊停滞的状态引申为水流缓慢的器具。出处较早，具体机制有争议。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "梭动作往复，似徘徊、迟疑，故名。用法少见。"
+    }
+  ]
+}

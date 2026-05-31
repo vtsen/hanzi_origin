@@ -1,0 +1,68 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "髂骨，腰部下面腹部两侧的骨，人体骨盆组成部分。亦称肠骨、腰骨。",
+      "examples": [
+        "清 沈彤《释骨》：“其旁临两股者曰监骨，曰大骨，曰髂。一身之伸屈司焉。”",
+        "《汉书·扬雄传下》：“范雎，魏之亡命也，折脅拉髂，免于徽索。”"
+      ],
+      "traditional_char": "髂"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "指腰部。",
+      "examples": [
+        "唐 韩愈《县斋有怀》诗：“朝食不盈腸，冬衣纔掩髂。”"
+      ],
+      "traditional_char": "髂"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "捕捉。",
+      "examples": [
+        "《五灯会元•谷隐聪禅师法嗣•金山曇颖禅师》：“劝人放开髂(枯驾切，蛇手，与汝斫却系驴橛。”"
+      ],
+      "traditional_char": "髂"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "同“骼”，指骨或动物的骨。",
+      "examples": [
+        "《汉书·扬雄传下》：“范雎，魏之亡命也，折脅拉髂，免于徽索。” 注：“髂，骨也。髂音格。”"
+      ],
+      "traditional_char": "髂"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘髂’为形声字，从骨，各声，表示与骨骼相关，原指髂骨（人体腰部骨骼）。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由特指髂骨，引申为腰部。语境见唐诗。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由人骨髂骨泛指骨类，用作“骼”。《汉书》用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "unknown",
+      "note": "“捕捉”义见于禅宗典籍，义源不明，可能为音近假借或引申义，历史语境不详。"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古代一种用以穿戴在耳朵上的玉制环形饰品，耳环。",
+      "examples": [
+        "璩，环属。——《说文新附》",
+        "凡节，守国用玉节……战斗用璩。——《酉阳杂俎·礼异》"
+      ],
+      "traditional_char": "璩"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "玉名，泛指特定类型的玉器。",
+      "examples": [
+        "绡绮为席，犀璩为镇。——邹阳《酒赋》"
+      ],
+      "traditional_char": "璩"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "other",
+      "meaning": "姓氏。",
+      "examples": [
+        "唐有璩抱朴，见《奇姓通》。",
+        "应璩，魏侍中大将军长史。"
+      ],
+      "traditional_char": "璩"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "左‘王’为形旁，表玉类，右‘瞿’为声旁；最初指环形玉制耳饰。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由具体的玉制耳饰泛指同类玉器，出现于汉代文献。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "function_word",
+      "note": "玉器名转为作姓用，属于姓名来源的常见现象。"
+    }
+  ]
+}

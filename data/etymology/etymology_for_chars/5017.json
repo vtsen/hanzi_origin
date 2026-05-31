@@ -1,0 +1,36 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "妓女，婊子，具有侮辱意味的称呼。",
+      "examples": [
+        "今日社會中，婊子一詞用以貶義稱呼女性。",
+        "俗稱妓女為婊子。"
+      ],
+      "traditional_char": "婊"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "女子人名用字（非专指妓女）。",
+      "examples": [],
+      "traditional_char": "婊"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "从女，表声。本为女性名用字，后用于侮辱性称谓。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "pejoration",
+      "note": "由人名用字演变为带有侮辱意义的妓女称呼，俗用、贬义，发生于较晚历史时期。"
+    }
+  ]
+}

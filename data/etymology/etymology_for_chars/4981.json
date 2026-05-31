@@ -1,0 +1,100 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "水清澈。",
+      "examples": [
+        "渌水荡漾清猿啼。",
+        "蓼花被堤岸，陂水寒更渌。"
+      ],
+      "traditional_char": "渌"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "水名。在今中国湖南省，湘江支流。",
+      "examples": [
+        "〔渌水〕水名，在中国湖南省。"
+      ],
+      "traditional_char": "渌"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "美酒名。即“醁”的省称。",
+      "examples": [
+        "江碧不如村酒渌，女儿每被桃花妒。",
+        "寄言世上諸少年，平生且盡杯中渌。"
+      ],
+      "traditional_char": "渌"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "滤，渗过滤水。",
+      "examples": [
+        "",
+        "与“漉”同。"
+      ],
+      "traditional_char": "渌"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "玉的样子。",
+      "examples": [
+        "路边何所有，磊磊青渌石。"
+      ],
+      "traditional_char": "渌"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "福分（通“禄”）。",
+      "examples": [
+        ""
+      ],
+      "traditional_char": "渌"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，彔声，初义为水清澈。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "以“渌”形容词义延伸为专名，指清澈的水体——河流名。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由清澈的水引申喻为清亮美酒。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "与“漉”通用，指水的流滤、渗透。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "玉有质地光洁透明，引申为玉的澄澈貌。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "借‘渌’表‘禄’，福分，用作通假。"
+    }
+  ]
+}

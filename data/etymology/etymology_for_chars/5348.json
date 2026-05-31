@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "收藏；蕴藏；包含；怀有",
+      "examples": [
+        "石韫玉而山辉。",
+        "有美玉于斯，韫匵而藏诸。",
+        "韫奇才而莫用。"
+      ],
+      "traditional_char": "韞"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "赤黄色；赤色",
+      "examples": [
+        "韞韍（赤黄色的服饰）"
+      ],
+      "traditional_char": "韞"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "弓袋",
+      "examples": [
+        "韞，弓袋也。"
+      ],
+      "traditional_char": "韞"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘韞’形声字，从韋，员声，本义为包裹、收藏。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由“包裹”“收藏”的动作转为实际包裹物（弓袋）之名。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "unknown",
+      "note": "由包裹、收藏义转为颜色义，机制不详，可能因染皮革而得名。"
+    }
+  ]
+}

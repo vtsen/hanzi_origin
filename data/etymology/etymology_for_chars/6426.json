@@ -1,0 +1,98 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古地名，周文王所都，后为周武王之弟的封国，地在今陕西省户县一带。",
+      "examples": [
+        "酆，周文王所都，在京兆杜陵西南。——《说文》",
+        "毕原酆郇。——《左传·僖公二十四年》"
+      ],
+      "traditional_char": "酆"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "古国名，为周武王之弟的封国，地点同上。",
+      "examples": [
+        "康有酆宫之朝。——《左传·昭公四年》"
+      ],
+      "traditional_char": "酆"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "水名。亦作“灃”、“豐”，在今陕西一带。",
+      "examples": [
+        "西顾酆、鄗。——《后汉·馮衍传》"
+      ],
+      "traditional_char": "酆"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "传说中阴间的地名，如“酆都城”。",
+      "examples": [
+        "酆都城"
+      ],
+      "traditional_char": "酆"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "丰收、丰富，比喻多、盛。",
+      "examples": [
+        "德酆政得，灾犹至者，无妄也。——《论衡·明雩》"
+      ],
+      "traditional_char": "酆"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [
+        "春秋时有酆舒。"
+      ],
+      "traditional_char": "酆"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "酆为形声字，从邑，豐声，最初指地名酆（周文王都邑）。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由邑名泛化为以此地为封国名，先后相承。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "地名、国名转指流水经此而得名。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "地名被神话化，转指阴间名；出现于道教等传说。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "用“酆”来表示‘丰盛’、‘丰富’之义，为‘豐’的异体或通假字。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "以地名、国名为姓，古代习惯。"
+    }
+  ]
+}

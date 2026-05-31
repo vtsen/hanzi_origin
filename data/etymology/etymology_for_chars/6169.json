@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古代炊具，底部有许多透蒸汽的小孔，放在鬲上蒸煮食物的陶制器具。",
+      "examples": [
+        "甑，甗也。——《说文》",
+        "荷甑堕地，不顾而去。——《后汉书·孟敏传》",
+        "许子以釜甄爨，以铁耕乎?——《孟子·滕文公上》"
+      ],
+      "traditional_char": "甑"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "现代以木制为主的蒸饭用桶状器具，有屉而无底，亦称“甑子”。",
+      "examples": [
+        "他到灶屋抓了一把甑边饭。",
+        "〔甑子〕现在蒸饭用的木制桶状物，有屉而无底。"
+      ],
+      "traditional_char": "甑"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "蒸馏或使物体分解用的器皿，如曲颈甑等。",
+      "examples": [
+        "曲颈甑。",
+        "蒸馏或使物体分解用的器皿。"
+      ],
+      "traditional_char": "甑"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从瓦（表陶器），声旁为曾，表声音，造字本义为有孔透气的陶制蒸饭器。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由古代陶制蒸炊器泛指至现代多为木制的蒸器用具。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由烹食用途扩展至化工、蒸馏专用器皿。"
+    }
+  ]
+}

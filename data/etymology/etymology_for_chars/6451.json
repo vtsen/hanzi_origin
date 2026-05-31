@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "撞擊；沖擊（水流、波浪衝擊的樣子）",
+      "examples": [
+        "浪相礴而起千狀，波獨湧乎驚萬谷。",
+        "潮到塘，盡力一礴，水擊射，濺起數丈。"
+      ],
+      "traditional_char": "礴"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "廣泛覆蓋、彌漫、延展（如磅礴、旁礴）",
+      "examples": [
+        "旁礴萬物。",
+        "磅礴萬里。"
+      ],
+      "traditional_char": "礴"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "混同、遍布、充塞",
+      "examples": [
+        "旁礴混同也。",
+        "旁礴群生。"
+      ],
+      "traditional_char": "礴"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "箕坐（槃礴）；放鬆身心的坐姿",
+      "examples": [
+        "畫史解衣槃礴。",
+        "箕踞槃礴。"
+      ],
+      "traditional_char": "礴"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "左石為意符，表“石、水流衝撞”，右薄（音符）表音兼意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由水流撞擊引申為氣勢浩大、廣泛覆蓋，多見於磅礴、旁礴等組合。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由廣泛覆蓋進一步引申為混同、遍及、充塞。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "由“遍布、充塞”引申，借指身體舒展、無拘無束的坐姿。"
+    }
+  ]
+}

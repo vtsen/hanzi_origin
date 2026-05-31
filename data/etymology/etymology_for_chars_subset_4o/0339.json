@@ -1,0 +1,208 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "放箭",
+      "examples": [
+        "古时射箭比赛中讲究百发百中。"
+      ],
+      "traditional_char": "發"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "交付，送出",
+      "examples": [
+        "分发礼物",
+        "发放工资"
+      ],
+      "traditional_char": "發"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "放，射",
+      "examples": [
+        "发射导弹",
+        "百发百中"
+      ],
+      "traditional_char": "發"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "表达，阐述",
+      "examples": [
+        "发表意见",
+        "发凡"
+      ],
+      "traditional_char": "發"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "散开，分散",
+      "examples": [
+        "风把种子发散到各地。"
+      ],
+      "traditional_char": "發"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "开展，张大，扩大",
+      "examples": [
+        "发展事业",
+        "发扬光大"
+      ],
+      "traditional_char": "發"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "打开，揭露",
+      "examples": [
+        "发现新大陆",
+        "发掘珍宝"
+      ],
+      "traditional_char": "發"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "verb",
+      "meaning": "产生，出现",
+      "examples": [
+        "发生变化",
+        "激发灵感"
+      ],
+      "traditional_char": "發"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "verb",
+      "meaning": "食物因发酵或水浸而澎涨",
+      "examples": [
+        "发面包子"
+      ],
+      "traditional_char": "發"
+    },
+    {
+      "index": 9,
+      "part_of_speech": "verb",
+      "meaning": "显现，显出",
+      "examples": [
+        "发病",
+        "发抖"
+      ],
+      "traditional_char": "發"
+    },
+    {
+      "index": 10,
+      "part_of_speech": "verb",
+      "meaning": "开始动作",
+      "examples": [
+        "发动机器"
+      ],
+      "traditional_char": "發"
+    },
+    {
+      "index": 11,
+      "part_of_speech": "verb",
+      "meaning": "引起，开启",
+      "examples": [
+        "启发思维"
+      ],
+      "traditional_char": "發"
+    },
+    {
+      "index": 12,
+      "part_of_speech": "verb",
+      "meaning": "公布，宣布",
+      "examples": [
+        "发布通知"
+      ],
+      "traditional_char": "發"
+    },
+    {
+      "index": 13,
+      "part_of_speech": "measure word",
+      "meaning": "用于枪弹、炮弹",
+      "examples": [
+        "一发子弹"
+      ],
+      "traditional_char": "發"
+    },
+    {
+      "index": 14,
+      "part_of_speech": "noun",
+      "meaning": "人的前额、双耳和头颈部以上生长的毛",
+      "examples": [
+        "头发",
+        "怒发冲冠"
+      ],
+      "traditional_char": "髮"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，由弓部和发声的发声成分 '弓' 表示意义。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 14,
+      "note": "形声字，由髟部和声符發。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "从放箭扩展到一般‘放，射’。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "引申为交付、送出之意。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 13,
+      "evolution_type": "metonymy",
+      "note": "从动作到测量单位。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "从物理放出到表达。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "从放射到开展扩张。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 6,
+      "evolution_type": "semantic_extension",
+      "note": "‘放’ 引申为打开、揭露。"
+    },
+    {
+      "source_index": 7,
+      "target_index": 9,
+      "evolution_type": "semantic_shift"
+    },
+    {
+      "source_index": 7,
+      "target_index": 8,
+      "evolution_type": "semantic_extension",
+      "note": "食品发酵现象引申。"
+    }
+  ]
+}

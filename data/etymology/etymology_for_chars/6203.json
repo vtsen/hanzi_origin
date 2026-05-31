@@ -1,0 +1,84 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "器皿中空的（器中空）",
+      "examples": [
+        "罄，器中空也。——《说文》"
+      ],
+      "traditional_char": "罄"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "尽、用尽",
+      "examples": [
+        "罄其所有",
+        "告罄",
+        "罄竹难书"
+      ],
+      "traditional_char": "罄"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "古同“磬”，一种打击乐器",
+      "examples": [
+        "罄，乐器名。"
+      ],
+      "traditional_char": "罄"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "显现，陈列",
+      "examples": [
+        "犬马旦暮罄于前。——《孟子》"
+      ],
+      "traditional_char": "罄"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "严整的样子",
+      "examples": [
+        "师旷罄然"
+      ],
+      "traditional_char": "罄"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从缶，殸声，所表示的本义为‘器皿中空’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘器中已空’引申为‘用尽’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_narrowing",
+      "note": "引申为可发声的空心乐器，即磬。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由‘中空’引申为‘显现、陈列’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "由‘空而严整有序’隐喻‘严整的样子’。"
+    }
+  ]
+}

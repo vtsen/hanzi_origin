@@ -1,0 +1,44 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "鲳鱼，一种体侧扁而高、无腹鳍、肉味鲜美的名贵食用鱼类，又称银鲳、镜鱼、平鱼。",
+      "examples": [
+        "鲳鱼生南海，状如鲫，身正圆无硬骨，作炙食至美。",
+        "体扁圆，头小项缩，头背及鳍皆苍色，腹淡，鳞至细，肉白，骨软，多脂。"
+      ],
+      "traditional_char": "鯧"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "鲳（鯧）的简化字，用于同上述鱼名。",
+      "examples": [
+        "河里捕到了一条大鲳。",
+        "银鲳肉质细嫩。"
+      ],
+      "traditional_char": "鲳"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "鯧为形声字，从鱼，昌声，造字本义即为一种鱼名。"
+    },
+    {
+      "formation_type": "simple_indicative",
+      "original_sense_index": 1,
+      "note": "鲳为鯧的简化字，以“鱼”旁表示鱼类，‘昌’表示音，含义未变。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "reanalysis",
+      "note": "现代简化字改革，鲳取代鯧作为通用写法，意义与鯧相同。"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "急迫，匆忙不安",
+      "examples": [
+        "墨子遑遑，闵世也。",
+        "遑急，遑遽"
+      ],
+      "traditional_char": "遑"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "空闲，闲暇",
+      "examples": [
+        "自朝至于日中昃，不遑暇食。",
+        "不遑假寝"
+      ],
+      "traditional_char": "遑"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "恐惧，惊惧（通“惶”）",
+      "examples": [
+        "侍坐者莫不遑遽。",
+        "遑遽"
+      ],
+      "traditional_char": "遑"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "徘徊不定，回旋不安（通“徨”）",
+      "examples": [
+        "满堂变容，回遑如失。",
+        "迥遑如失"
+      ],
+      "traditional_char": "遑"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "other",
+      "meaning": "何，怎能（用于反问语境）",
+      "examples": [
+        "遑恤我后？",
+        "遑复为图？"
+      ],
+      "traditional_char": "遑"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从辵（表示“行走、奔走”意，含动态紧迫意），‘皇’作声符，本义为“急迫”。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_shift",
+      "note": "“急迫”与“暇”语义相互转换，出自对“忙”和“闲”心境的对立，战国秦汉已可互用。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由“急迫不安”引申为“恐惧惊惧”，汉魏用例见通假‘惶’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由“急迫不安”引申为精神上的徘徊不定。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "grammaticalization",
+      "note": "由“闲暇”引申为反问义“哪有（时间/理由）”，多见于古文。"
+    }
+  ]
+}

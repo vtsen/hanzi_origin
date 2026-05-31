@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "猪，尤其指野猪或大猪，以及古代楚人对猪的称呼。",
+      "examples": [
+        "言则称于汤文，行则譬于狗豨。——《墨子》",
+        "莽遣使者分赦城中诸狱囚徒，皆授兵，杀豨饮其血。——《汉书·王莽传下》",
+        "梁州以豕为猪，河南谓之彘，吴楚谓之豨。"
+      ],
+      "traditional_char": "豨"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "一年生草本植物“豨莶”，茎上有灰白色的毛，叶对生，椭圆形或卵形。",
+      "examples": [
+        "豨莶，一年生草本，茎上有灰白色的毛。"
+      ],
+      "traditional_char": "豨"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "onomatopoeia",
+      "meaning": "表示叹息声或象声词。",
+      "examples": [
+        "妃呼豨！秋风肃肃晨风颸，东方须臾高知之。——《乐府诗集·鼓吹曲辞一》"
+      ],
+      "traditional_char": "豨"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从‘豕’（表义，猪），‘希’（表声）；古书多作猪的大种或东方楚地对猪的专称。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "因豨莶此草气味辛烈且有特殊气味，借‘豨’比喻其如猪之臭；常用作药草名。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由动物名称引申为象声词，模仿猪叫或叹息之声见于文献。"
+    }
+  ]
+}

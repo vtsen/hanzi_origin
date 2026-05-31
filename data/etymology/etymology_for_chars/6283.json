@@ -1,0 +1,40 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "昆虫名，体色绿色或褐色，善于跳跃，叫声响亮，常见于田野草丛，对农作物有害，包括螽斯、草螽、阜螽、蜤螽、土螽等，古为蝗类总称，今主要指螽斯科与蝗科昆虫。",
+      "examples": [
+        "螽斯羽。",
+        "趯趯阜螽是也。",
+        "今人谓蝗子为螽子。"
+      ],
+      "traditional_char": "螽"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "阜螽，即“蚱蜢”，属于蝗虫科的害虫。",
+      "examples": [
+        "阜螽，今谓之蚱蜢。",
+        "诗曰：趯趯阜螽。"
+      ],
+      "traditional_char": "螽"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘螽’为形声字，从虫，终声。表示与昆虫相关，声部指读音。最初用于指蝗类昆虫之总称。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_narrowing",
+      "note": "由蝗类总称逐渐专指阜螽（蚱蜢等），见于古今文献意义演变。"
+    }
+  ]
+}

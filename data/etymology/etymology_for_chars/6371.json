@@ -1,0 +1,70 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "豆科植物的叶子，嫩时可食。",
+      "examples": [
+        "皎皎白駒，食我場藿。",
+        "牛藿。"
+      ],
+      "traditional_char": "藿"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "多年生香草，常指藿香，茎叶有芳香，可入药。",
+      "examples": [
+        "掘荃蕙與射干兮，耘藜藿與蘘荷。",
+        "異物志曰：藿香，交阯有之。"
+      ],
+      "traditional_char": "藿"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "粗劣的食物，引申指百姓、平民所食，常与“肉食”相对。",
+      "examples": [
+        "藿食（以豆叶为食物。指吃的东西很粗劣。古代常以藿食者指平民，而以肉食者指贵族）；藿羹（豆叶煮成的菜羹）。"
+      ],
+      "traditional_char": "藿"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "肉羹，通“臛”，如“藿肉”。",
+      "examples": [
+        "漿酒藿肉者，故不可稱紀。",
+        "漿酒藿肉，瀾翻其家，根本大壞矣。"
+      ],
+      "traditional_char": "藿"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从艸，靃声，形声字。本义为豆叶（豆类植物的叶子）。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由豆叶转指以豆叶为粗劣食物，古代指平民所食，常与“肉食”对举，用经、礼文献可证。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由豆叶泛指具有强烈香气的香草类植物，后专指“藿香”；古籍与异物志有载。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "“藿”借用为音近字，表示“臛”（肉羹），见于宋书等，实为假借。"
+    }
+  ]
+}

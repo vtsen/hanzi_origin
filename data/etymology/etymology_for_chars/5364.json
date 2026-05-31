@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "车轮中心，有洞可以插轴的部分",
+      "examples": [
+        "车毂",
+        "轮毂"
+      ],
+      "traditional_char": "轂"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "借指车轮或整辆车",
+      "examples": [
+        "毂击肩摩",
+        "毂下"
+      ],
+      "traditional_char": "轂"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘轂’为形声字，从车，‘毂’声，本义为车轮中心。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由车轮中心部分借指车轮或整车，常见于古代地名、成语中用法。"
+    }
+  ]
+}

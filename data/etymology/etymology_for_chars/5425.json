@@ -1,0 +1,84 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "车轮的辐条内端集中于毂上。",
+      "examples": [
+        "辐辏而轮转，出入更卷舒。——《参同契》",
+        "四方辐辏。——《汉书·叔孙通传》"
+      ],
+      "traditional_char": "輳"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "聚集，聚合。",
+      "examples": [
+        "四方辐辏。——《汉书·叔孙通传》",
+        "端的是辏集人烟，骈阗市井。"
+      ],
+      "traditional_char": "輳"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "添加；增益。",
+      "examples": [
+        "辏富（为富有的人增添财富）"
+      ],
+      "traditional_char": "輳"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "靠近，接近。",
+      "examples": [
+        "那人便把舡略攏來，輳在岸邊。——《水滸傳》"
+      ],
+      "traditional_char": "輳"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "碰巧，恰逢。",
+      "examples": [
+        "今日輳個滿懷，輳成十分。——《清平山堂話本·刎頸鴛鴦會》"
+      ],
+      "traditional_char": "輳"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从车，‘奏’声，本义为‘车轮的辐条集中于毂上’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由‘辐条聚集于毂’比喻事物的聚集，东汉《汉书》已见。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "‘聚集’引申为‘添加，增益’，表达聚合导致数量增。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "‘聚集’义泛化为‘靠近，接近’，来源于近物聚合。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "‘靠近’进一步引申为‘碰巧’、偶然相遇。"
+    }
+  ]
+}

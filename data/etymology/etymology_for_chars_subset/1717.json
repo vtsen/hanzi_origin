@@ -1,0 +1,119 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "动词",
+      "meaning": "用话来表达意思，解说，说明。",
+      "examples": [
+        "说话",
+        "说明",
+        "解释"
+      ],
+      "traditional_char": "說"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "动词",
+      "meaning": "介绍，撮合。",
+      "examples": [
+        "说合",
+        "说媒"
+      ],
+      "traditional_char": "說"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "名词",
+      "meaning": "言论，主张，见解。",
+      "examples": [
+        "学说",
+        "著书立说"
+      ],
+      "traditional_char": "說"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "动词",
+      "meaning": "责备，指责。",
+      "examples": [
+        "数说",
+        "被人说了几句"
+      ],
+      "traditional_char": "說"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "名词",
+      "meaning": "文体的一种，如议论文。",
+      "examples": [
+        "韩愈《师说》"
+      ],
+      "traditional_char": "說"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "动词",
+      "meaning": "用话劝说别人，使他听从自己的意见。",
+      "examples": [
+        "游说",
+        "说客"
+      ],
+      "traditional_char": "說"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "动词",
+      "meaning": "高兴，喜悦。（古同“悦”）",
+      "examples": [
+        "说然",
+        "欣然自说"
+      ],
+      "traditional_char": "說"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从言，兑声，表示用言语表达、解说。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“解说、表达”扩展为“介绍、撮合”等人际沟通行为。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由“说”的动作为出发，进一步引申为名词“言论、主张”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "“说”由陈述转为批评、责备，语义变化。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "由“具体主张、言论”引申为“表达主张的文体名”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "从“一般说明”发展为“说服他人”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "“说”借用为“悦”（喜悦）同音字，语音通假。"
+    }
+  ]
+}

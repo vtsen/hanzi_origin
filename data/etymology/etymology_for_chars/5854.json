@@ -1,0 +1,86 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "似玉的美石",
+      "examples": [
+        "璎，璎琅，石似玉也。——《玉篇》"
+      ],
+      "traditional_char": "瓔"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "以珠玉串成、戴在颈项上的古代装饰品，璎珞",
+      "examples": [
+        "即解颈众宝珠璎珞，价直百千两金而以与之。——《妙法莲华经普门品》",
+        "鋀石打臂釧，糯米吹項瓔。——元稹《估客樂》"
+      ],
+      "traditional_char": "瓔"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "玉珠、珍珠等用作饰物",
+      "examples": [
+        "璎珠（玉珠。用作饰物）；璎玑（珠玑。形容珍贵）"
+      ],
+      "traditional_char": "瓔"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "同“缨”，指帽冠等上的垂饰",
+      "examples": [
+        "軒盖蟬联，冠瓔万代。——《唐故骁骑尉杜君墓志铭》"
+      ],
+      "traditional_char": "瓔"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "“瓔”的简化字形式。",
+      "examples": [],
+      "traditional_char": "璎"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘瓔’为形声字，从玉，婴声，初指类玉之美石。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 4,
+      "note": "‘璎’为‘瓔’的简化字，承袭义及构形方式。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由本义‘美石’引申为用美玉等串成的颈饰。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "具体珠串饰物的名称引申为所用珠玉的总称。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "由串饰泛指类似垂饰（如缨）的名称。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "reanalysis",
+      "note": "‘璎’为‘瓔’之简化字，直接对应其原始语义。"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "田园中分成的小区",
+      "examples": [
+        "菜畦",
+        "畦田"
+      ],
+      "traditional_char": "畦"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "古代称田五十亩为一畦",
+      "examples": [
+        "五十亩为一畦"
+      ],
+      "traditional_char": "畦"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从田，圭声。本义为田间分割成的小区，圭表示声旁。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_narrowing",
+      "note": "以一个具体面积标准来特指田地单位，发生于古代土地制度。"
+    }
+  ]
+}

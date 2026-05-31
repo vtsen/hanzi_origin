@@ -1,0 +1,132 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "踩；踏，用脚踩在地上或物体上。",
+      "examples": [
+        "蹴其芻者有罰。",
+        "蹴爾而與之，乞人不屑也。",
+        "蹴罢秋千，起来慵整纖纖手。"
+      ],
+      "traditional_char": "蹴"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "踢，用脚踢。",
+      "examples": [
+        "蹴鞠刻鏤。",
+        "王蹴之以足。",
+        "蹴球"
+      ],
+      "traditional_char": "蹴"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "追逐，追赶。",
+      "examples": [
+        "騎蹴我，走將安往？",
+        "可以御狡謀，蹴橫奔。"
+      ],
+      "traditional_char": "蹴"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "不安，局促的样子。",
+      "examples": [
+        "子貢蹴然立不安。",
+        "陽子蹴變容曰：‘敬聞命矣。’"
+      ],
+      "traditional_char": "蹴"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "促，使聚集、靠近或催促（通“蹙”）。",
+      "examples": [
+        "浸淫蹴部。",
+        "潮蹴青天海入吳。"
+      ],
+      "traditional_char": "蹴"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "折断（方言义）。",
+      "examples": [
+        "早把兩三個長指甲一齊蹴斷了。"
+      ],
+      "traditional_char": "蹴"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "蹲（方言，“圪蹴”）。",
+      "examples": [],
+      "traditional_char": "蹴"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "adjective",
+      "meaning": "恭敬的样子。",
+      "examples": [
+        "孔子蹴然避席而對。"
+      ],
+      "traditional_char": "蹴"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从足，就声，表示用脚踩踏；足表义，就表声。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“踩踏”动作发展为“踢”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由用脚行动引申为“追逐”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由动作引申为精神状态，形容局促不安。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "conversion",
+      "note": "与“蹙”通用，由动作动词转为“促”之意。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "semantic_shift",
+      "note": "动作引申为折断（方言用法），关系具体机制未详。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "semantic_shift",
+      "note": "与“圪蹴”（蹲）相关，具体机制未详，方言色彩。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 7,
+      "evolution_type": "amelioration",
+      "note": "由“不安”引申为恭敬之意，多见于文言、古典语境。"
+    }
+  ]
+}

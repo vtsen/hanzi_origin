@@ -1,0 +1,69 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "模糊不清，隱約難辨，恍惚不明。",
+      "examples": [
+        "惚兮恍兮，其中有象。——《老子》",
+        "神心惚怳。——《揚子·法言》",
+        "心神恍惚，不知所措。"
+      ],
+      "traditional_char": "惚"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "心神不定或失意、恍惚、精神渙散。",
+      "examples": [
+        "恍恍惚惚，似有似無。",
+        "衣惚了楊柳腰。——《金瓶梅詞話》"
+      ],
+      "traditional_char": "惚"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "作為“惱”的異體字，表示憂愁、困擾之意。",
+      "examples": [],
+      "traditional_char": "惚"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "通假字，通“沕”“曶”“忽”“芴”“昒”，表示消失、無形、模糊。",
+      "examples": [
+        "惚怳，無形無象也。",
+        "曶怳，神心之不可見。"
+      ],
+      "traditional_char": "惚"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，心为意符，忽为声符，表示心意模糊不定、恍惚不明。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "形容词指不清晰，转而表示精神状态恍惚。先秦以来有此演变。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "reanalysis",
+      "note": "作为通假，借用原本‘模糊、不見’意延伸至通‘沕’‘曶’等异体字。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "unknown",
+      "note": "‘惚’作‘惱’的异体字，疑由用法混淆所致，具体机制不明。"
+    }
+  ]
+}

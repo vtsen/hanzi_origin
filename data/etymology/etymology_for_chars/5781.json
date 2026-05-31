@@ -1,0 +1,53 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "痛，受药物刺激或毒害导致的疼痛或辛辣感。",
+      "examples": [
+        "楚人谓药毒曰痛瘌。",
+        "凡饮药傅药而毒，南楚之外谓之瘌。"
+      ],
+      "traditional_char": "瘌"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "瘌痢，头上生疮引起秃发的皮肤病，亦称疥疮、癩。",
+      "examples": [
+        "瘌子（淮汉一带称因头生疮而发秃的人为瘌子）"
+      ],
+      "traditional_char": "瘌"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "疤瘌，疤、瘡痕。",
+      "examples": [
+        "疤瘌"
+      ],
+      "traditional_char": "瘌"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从疒，剌声。本义指因药毒等引起的疼痛。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由形容痛感，扩展为头部皮肤病、疥疮等具体疾病名。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由头部皮肤病引申为疤痕、瘡痕等衍生物。"
+    }
+  ]
+}

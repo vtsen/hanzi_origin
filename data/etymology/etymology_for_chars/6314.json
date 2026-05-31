@@ -1,0 +1,75 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "盲人，眼睛失明的人。",
+      "examples": [
+        "离娄微睇兮，瞽以为无明。",
+        "两瞽相扶，不触墙木，不陷井阱，则其幸也。",
+        "君佐出寻瞽人善词话者数十辈。"
+      ],
+      "traditional_char": "瞽"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "眼瞎，失明。",
+      "examples": [
+        "瞽者仰视而不见星。",
+        "阿松有衰母，聋且瞽。",
+        "瞽者无以与平文章之观。"
+      ],
+      "traditional_char": "瞽"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "古代乐师，因多由盲人为之，故称乐官为瞽。",
+      "examples": [
+        "瞽奏鼓，啬夫驰，庶人走。",
+        "有瞽有瞽，在周之庭。",
+        "瞽献曲，史献书。"
+      ],
+      "traditional_char": "瞽"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "不达事理；没有见识。",
+      "examples": [
+        "未见颜色而言，谓之瞽。",
+        "弃老取少谓之瞽。",
+        "真瞽说也。"
+      ],
+      "traditional_char": "瞽"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "形声字，从目，声旁为鼓，‘鼓’亦通‘瞎’音，最初义为眼瞎。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "conversion",
+      "note": "由形容词‘眼瞎’名化为‘盲人’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "古时多由盲人为乐官，‘瞽’转指‘古代乐师’。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "‘眼瞎’喻为‘没有见识’，用作形容缺乏判断力。"
+    }
+  ]
+}

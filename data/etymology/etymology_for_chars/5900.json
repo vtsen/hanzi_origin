@@ -1,0 +1,74 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "整治，整顿",
+      "examples": [
+        "龊灯",
+        "龊茶"
+      ],
+      "traditional_char": "齪"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "戒备",
+      "examples": [
+        "龊巷"
+      ],
+      "traditional_char": "齪"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "局促，拘谨",
+      "examples": [
+        "龊龊",
+        "齪齪"
+      ],
+      "traditional_char": "齪"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "肮脏、卑鄙（主要见于“龌龊”）",
+      "examples": [
+        "卑鄙龌龊"
+      ],
+      "traditional_char": "齪"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘齪’形声字，从齿，足声，本义为整治、整顿。"
+    },
+    {
+      "formation_type": "loan_character",
+      "original_sense_index": 0,
+      "note": "‘龊’为‘齪’的简化字，沿袭本义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "整顿引申为戒备，用于防护、警戒场合。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "整治、收拢引申为拘谨、局促，用于形容人的举止。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "局促、拘谨进一步演变为品性肮脏下作，用于‘龌龊’等词，义涵贬义。"
+    }
+  ]
+}

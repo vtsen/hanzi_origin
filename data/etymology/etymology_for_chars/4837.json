@@ -1,0 +1,87 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "养马的地方或养马的人",
+      "examples": [
+        "马有圉，牛有牧。《左传》",
+        "圉人浴马。《仪礼》"
+      ],
+      "traditional_char": "圉"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "边境，边陲",
+      "examples": [
+        "亦聊以固吾圉也。《左传》",
+        "孔棘我圉。《诗·大雅》"
+      ],
+      "traditional_char": "圉"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "防御，抵御，禁止",
+      "examples": [
+        "其来不可圉。《庄子》",
+        "圉，禁也。《尔雅》"
+      ],
+      "traditional_char": "圉"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "监狱、牢狱",
+      "examples": [
+        "囹圉，所以拘罪人也。《说文》",
+        "小圉不下十数。《尉缭子》"
+      ],
+      "traditional_char": "圉"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "古代乐器名（亦写作“敔”）",
+      "examples": [
+        "柷磬柷圉。《诗·周颂》",
+        "书益稷：作柷敔。"
+      ],
+      "traditional_char": "圉"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 3,
+      "note": "“圉”从囗（囚禁、围），与“禦”声，初指囚禁、牢狱，引申义较多。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 3,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由‘拘禁’引申为‘防御、禁止’，《尔雅》《庄子》等皆有用例。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "防御边境——边境，引申地理名词。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 0,
+      "evolution_type": "semantic_shift",
+      "note": "由防御、禁养转指控制、管理牲畜，再专指养马及其人。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "unknown",
+      "note": "乐器义，多通“敔”，或为形声转借，机制不明。"
+    }
+  ]
+}

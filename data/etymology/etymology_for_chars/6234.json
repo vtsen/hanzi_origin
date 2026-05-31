@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "螳螂，昆虫名，头三角形，前足如镰刀，常捕食害虫。",
+      "examples": [
+        "螳，螳螂也。——《说文新附》",
+        "螳螂有斧虫。——《玉篇》",
+        "螳臂当车。——《庄子·天地》",
+        "螳螂执翳而搏之。——《庄子·山木》"
+      ],
+      "traditional_char": "螳"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "水名，螳螂水，见于古地理。",
+      "examples": [
+        "沂水又东南，螳螂水入焉。——《水经注》"
+      ],
+      "traditional_char": "螳"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "县名，螳螂县，古地名。",
+      "examples": [
+        "螳螂县出银、铅、白铜、杂药，有螳螂附子。——《华阳国志》"
+      ],
+      "traditional_char": "螳"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从虫，党声；会意兼形声，表示一种昆虫。‘虫’表意指虫类，‘党’表音。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "以动物名称转指地理水名，用于河流命名是古代常见现象。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "地名多以当地特产或物产命名，此处以螳螂名县。"
+    }
+  ]
+}

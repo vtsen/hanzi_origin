@@ -1,0 +1,119 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "遮蔽，遮擋；保護，衛護。",
+      "examples": [
+        "若手臂之扞頭目而覆胸腹也。",
+        "扞我于艱。",
+        "親帥扞之，送致諸竟。"
+      ],
+      "traditional_char": "扞"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "抵禦，抵抗，抵擋。",
+      "examples": [
+        "吳楚反時，孝王使安國及張羽為將，扞吳兵於東界。",
+        "儒進攻行密，行密復入揚州，北結時溥扞儒。"
+      ],
+      "traditional_char": "扞"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "觸犯，違犯。",
+      "examples": [
+        "白刃扞乎胸，則目不見流矢。",
+        "時扞當世之文罔。"
+      ],
+      "traditional_char": "扞"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "古代射箭時用的皮製臂套（臂衣）。",
+      "examples": [
+        "被鎧扞，持刀兵。",
+        "扞，臂衣也。"
+      ],
+      "traditional_char": "扞"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "勇猛，剽悍（通“悍”）。",
+      "examples": [
+        "扞將",
+        "疆場有艱虞，遣之扞王事。"
+      ],
+      "traditional_char": "扞"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "碾壓，將物展平；用棍展平物體。",
+      "examples": [
+        "研麵謂之扞麵。",
+        "她也沒法子把它扞成薄片。"
+      ],
+      "traditional_char": "扞"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "戈矛柄下端圓錐形的金屬套，可以插入土地中。",
+      "examples": [
+        "矛鐏謂之銲，施刃其端。"
+      ],
+      "traditional_char": "扞"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从手，干聲；意指以手遮蔽、護衛最初義，符合形聲字構成。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由護衛義引申為抵禦、抵抗，多見於戰事文獻。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "從抵禦發展出“觸犯、違犯”義，用於違抗、抵觸。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "由保護義轉為指提供保護的臂衣。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "抵禦義引申為剽悍、勇猛，語義加強。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "metonymy",
+      "note": "指防護相關器物部件。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "unknown",
+      "note": "“展平、碾壓”義，多見於方言，歷史關係不明，可能因動作相似。"
+    }
+  ]
+}

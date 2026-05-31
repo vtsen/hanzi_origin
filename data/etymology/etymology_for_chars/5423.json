@@ -1,0 +1,72 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "食物中夹杂着沙子或异物，咀嚼时感觉不适。",
+      "examples": [
+        "牙碜",
+        "倒睫拳毛內刺眼，皮松弦緊癢兼疼，磣澀難開胞臉爛，肝風脾熱兩相壅。"
+      ],
+      "traditional_char": "磣"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "丑陋，难看，令人难堪。",
+      "examples": [
+        "寒碜",
+        "你別磣了！",
+        "寨兒令•戒嫖蕩：若提着娶呵我到磣。"
+      ],
+      "traditional_char": "磣"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "用作“惨”，凄惨可怕。",
+      "examples": [
+        "碜可可",
+        "宝剑记：比梅花又瘦的磣。"
+      ],
+      "traditional_char": "磣"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adverb",
+      "meaning": "很，表示程度加深。",
+      "examples": [
+        "碜大",
+        "宝剑记：比梅花又瘦的磣。"
+      ],
+      "traditional_char": "磣"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "磣为形声字，从石，音声‘忱’（或‘甚’），本义为石中有杂质（沙粒），即食物夹沙发音近‘疵’；简化字‘碜’承袭字形及音义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由夹沙令人不适、难受，引申为丑陋、难看。汉宋已见用。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由‘丑陋难堪’进一步引申为‘惨’的意思，多见于方言及俚语，时间较晚。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "reanalysis",
+      "note": "‘碜’用作副词‘很’，源于‘丑陋’语意程度化，明清以来口语常见。"
+    }
+  ]
+}

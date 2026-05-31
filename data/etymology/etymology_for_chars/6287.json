@@ -1,0 +1,87 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "稠粥，煮烂的饭食",
+      "examples": [
+        "肉糜",
+        "菜糜"
+      ],
+      "traditional_char": "糜"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "烂，碎",
+      "examples": [
+        "糜烂",
+        "糜灭",
+        "糜躯"
+      ],
+      "traditional_char": "糜"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "浪费",
+      "examples": [
+        "糜费"
+      ],
+      "traditional_char": "糜"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "不粘的黍（一种谷类作物，亦称“穄”）",
+      "examples": [
+        "糜子",
+        "糜黍",
+        "糜子面"
+      ],
+      "traditional_char": "糜"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "糜竺"
+      ],
+      "traditional_char": "糜"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘糜’形声字，从米，麻声，初本指煮烂如粥的饭食。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由粥的特点引申为烂、碎，用于形容物质状态。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由事物破碎不堪，引申出耗费、浪费的抽象义。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "function_word",
+      "note": "名物用作姓氏，属常规转用，无语义演变。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "reanalysis",
+      "note": "历史上‘糜’亦用作‘不黏的黍’、实属借用，后成专用名。"
+    }
+  ]
+}

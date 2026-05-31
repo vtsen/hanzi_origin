@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "说话多，语言烦琐，喋喋不休",
+      "examples": [
+        "岂效此啬夫喋喋利口捷口哉?",
+        "他每天喋喋不休地讲话。"
+      ],
+      "traditional_char": "喋"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "流血貌，血流满地（如喋血）",
+      "examples": [
+        "喋血沙场",
+        "今已诛诸吕，新喋血京师。"
+      ],
+      "traditional_char": "喋"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "形容成群的鱼、水鸟等吃东西发出的声音（如喋呷）",
+      "examples": [
+        "唼喋菁藻",
+        "水禽唼喋而食。"
+      ],
+      "traditional_char": "喋"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从口，葉声，初指说话多。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由话多扩展为血流（喋血），表现密集流动之意，汉代已见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由说话声音转喻为鱼鸟进食的连续声音，如唼喋等，古籍有用。"
+    }
+  ]
+}

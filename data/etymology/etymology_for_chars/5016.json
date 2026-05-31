@@ -1,0 +1,116 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "纤弱苗条、美好（多指女子体态美）",
+      "examples": [
+        "舒妙婧之纤腰兮",
+        "婧，妍婧也。"
+      ],
+      "traditional_char": "婧"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "有才德、才品（多指女子）",
+      "examples": [
+        "婧，女贞也。",
+        "有才品也。"
+      ],
+      "traditional_char": "婧"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "女子贞洁",
+      "examples": [
+        "婧，女贞也。"
+      ],
+      "traditional_char": "婧"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "美女",
+      "examples": [
+        "宫婧（宫中美女）",
+        "指美女。"
+      ],
+      "traditional_char": "婧"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "女子名（用于人名）",
+      "examples": [
+        "齐相管仲妾也。——《列女传》",
+        "齐人衍之女名婧。"
+      ],
+      "traditional_char": "婧"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "adjective",
+      "meaning": "竦立，站立的样子",
+      "examples": [
+        "竦立也。"
+      ],
+      "traditional_char": "婧"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "adjective",
+      "meaning": "健美的样子（婧婧，健貌）",
+      "examples": [
+        "婧婧，健貌。"
+      ],
+      "traditional_char": "婧"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从女，靑声，会意兼形声，表示女子体态美好或苗条。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由外在美好引申至有才德，常见褒义修饰女子。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "conversion",
+      "note": "由描述美好体态的形容词转为美女的名词用法。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "function_word",
+      "note": "美女义进一步用作女子的名字专称。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由才品延伸为女子贞洁品德。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "由苗条美好进一步描述站立时的优美体态，表示竦立貌。"
+    },
+    {
+      "source_index": 5,
+      "target_index": 6,
+      "evolution_type": "semantic_extension",
+      "note": "由站立之姿延伸为健美的样子（如婧婧，健貌）。"
+    }
+  ]
+}

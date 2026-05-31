@@ -1,0 +1,78 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "踩踏，蹈足。",
+      "examples": [
+        "蹀，履也。——《广雅》",
+        "足蹀陽阿之舞。——《淮南子·俶真訓》"
+      ],
+      "traditional_char": "蹀"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "用力顿足，跺脚。",
+      "examples": [
+        "宋康王蹀足疾言。——《列子·黄帝篇》",
+        "蹀足"
+      ],
+      "traditional_char": "蹀"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "小步走路，蹀躞；徘徊不前。",
+      "examples": [
+        "蹀躞（往来徘徊，小步走路）",
+        "立刻有幾個閑人慢慢地蹀過來，圍成半個圈子。——茅盾《動搖》"
+      ],
+      "traditional_char": "蹀"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "（马）行走（特指小步或起舞的姿态）。",
+      "examples": [
+        "冀馬依風蹀，邊簫當夜聞。——谢庄《從駕頓上》",
+        "蹀马"
+      ],
+      "traditional_char": "蹀"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [],
+      "traditional_char": "蹀"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从足，葉声；表‘踩踏、蹈足’之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从‘踩踏’引申为‘用力顿足’，动作强度特指化。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "从‘踩踏’扩展为‘小步走动、蹀躞’。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "以人的‘小步走’形象喻‘马行貌’。"
+    }
+  ]
+}

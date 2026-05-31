@@ -1,0 +1,66 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "中医称霍乱、中暑、肠炎等急性病。",
+      "examples": [
+        "他两个又在路上中了暑，发了痧，不能赶路。——《文明小史》",
+        "霍亂、絞腸痧及諸痰喘，並用薑湯磨服。——《外科正宗》"
+      ],
+      "traditional_char": "痧"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "疹子，皮肤出现红点如粟的症状。",
+      "examples": [
+        "痧者，疹之通称，有头粒如粟。——《临证指南医案》"
+      ],
+      "traditional_char": "痧"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "痧子，麻疹的俗称。",
+      "examples": [],
+      "traditional_char": "痧"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "方言，指瘧疾。",
+      "examples": [
+        "這裏的老百姓把瘧疾一概稱作痧，有泥鰍痧、蛤蟆痧、羊毛痧、青痧、紅痧等等。——《太陽的家鄉》"
+      ],
+      "traditional_char": "痧"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“痧”从“疒”（病）表意，‘沙’表声，最初表示急性的热疾、霍乱等急病。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由泛指急性病扩大为特指皮肤出现疹症。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "疹症（皮疹）为麻疹的特定表现，用以俗称麻疹。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "急性病义在部分方言中指向瘧疾等流行病。"
+    }
+  ]
+}

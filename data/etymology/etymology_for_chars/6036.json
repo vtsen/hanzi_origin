@@ -1,0 +1,57 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "盘在头顶或脑后的发结。",
+      "examples": [
+        "头上倭堕髻。",
+        "椎髻仰面。",
+        "汝梳双髻。",
+        "在頭頂或腦後盤成各種形狀的髮髻。"
+      ],
+      "traditional_char": "髻"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "美丽山峰的比喻。",
+      "examples": [
+        "晴空浮五髻，晻靄卿雲間。",
+        "前山俱失，香爐、鵝鼻、天柱諸峰，僅露髻尖而已。"
+      ],
+      "traditional_char": "髻"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "灶神，古代传说中灶神的别称。",
+      "examples": [
+        "沈有履，灶有髻。",
+        "髻，灶神，著赤衣，狀如美女。"
+      ],
+      "traditional_char": "髻"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从髟，吉声；髟表与头发相关，吉作声旁，初义为盘发。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "以发髻的形状喻山峰，宋至清多用。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "以发髻象征灶神形象，《庄子》已见，可为专有文化用法。"
+    }
+  ]
+}

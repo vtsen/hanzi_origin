@@ -1,0 +1,62 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "寂静，没有声响",
+      "examples": [
+        "阒无一人。",
+        "林塘阒寂偏宜夜，烟火稀疏便似村。",
+        "夜闃無人到。"
+      ],
+      "traditional_char": "闃"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "空虚，空荡无人",
+      "examples": [
+        "窥其户，阒其无人。",
+        "闃其無人。",
+        "闃無睹。"
+      ],
+      "traditional_char": "闃"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "断绝，中断",
+      "examples": [
+        "君平、子雲闃不嗣，江汉英灵信已衰。",
+        "自君闃芳蹝，青阳四五遒。"
+      ],
+      "traditional_char": "闃"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘闃’为形声字，从门，肃声，表示门内静无声，初本义为寂静。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘阒’为‘闃’的简化字，从门，肃声，形声。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘寂静’引出‘空虚、空荡无人’，《易·丰》用法，两义常交替。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由‘寂静’进一步引申为‘断绝、中断’，用于比喻交往、声息的断绝。"
+    }
+  ]
+}

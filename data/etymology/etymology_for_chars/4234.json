@@ -1,0 +1,87 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "山洞、石洞；山穴（常用于地名）。",
+      "examples": [
+        "明 田汝成《炎徼纪闻•断藤峡》：“峡以北，巢峒屋列，不可殚名。”",
+        "清 李斗《扬州画舫录•蜀冈录》：“两山中为峒，今峒中激出一片假水，漩于万折栈道之下，湖山之气至此愈壮。”"
+      ],
+      "traditional_char": "峒"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "矿井下专为安装各种机械设备或存放材料、矿石和供其他辅助作业的巷道。",
+      "examples": [
+        "峒室"
+      ],
+      "traditional_char": "峒"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "旧时对南方少数民族的泛称，或指其聚居地、部族组织等，后来多指今侗族。",
+      "examples": [
+        "苗族的苗峒、侗族的十峒、壮族的黄峒",
+        "峒丁（峒人；峒兵）",
+        "清史稿·土司传五·广西：“上映峒。宋置州，明初，废为峒，以许尚爵袭。”"
+      ],
+      "traditional_char": "峒"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "特指地名“崆峒”（山名，在甘肃），或借指南北各地某些山、岛名。",
+      "examples": [
+        "崆峒山",
+        "崆峒岛"
+      ],
+      "traditional_char": "峒"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "山谷深邃、山嵾嵳不齐、山貌。",
+      "examples": [
+        "山谷深邃之处称为峒。",
+        "崆峒一带，层岩峒壑。"
+      ],
+      "traditional_char": "峒"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“峒”为形声字，从山，音符同（tóng/dòng），本指山中之洞穴或山间地形。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "矿井巷道“峒室”以山洞为喻，语义旁生，明清时期用作矿用术语。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "古代南方少数民族或聚居地多居于山谷、洞穴，‘峒’引申为民族单位、聚落组织。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "山洞地形进而用作山名、岛名。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "泛指山谷深邃、山体嵾嵳等复杂山貌。"
+    }
+  ]
+}

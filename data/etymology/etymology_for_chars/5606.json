@@ -1,0 +1,85 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "匹配，相配，作配偶之义",
+      "examples": [
+        "媲，配也。——《五经文字》",
+        "媲，妃也。——《说文》",
+        "克媲德门。——韩愈《河南府法曹参军卢府君夫人苗氏墓志铭》"
+      ],
+      "traditional_char": "媲"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "匹敌，比得上，能比拟",
+      "examples": [
+        "媲隆（兴盛之景况相当）",
+        "高词媲《皇墳》。——韩愈《醉赠张秘书》"
+      ],
+      "traditional_char": "媲"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "比，比较，比拟",
+      "examples": [
+        "媲美",
+        "媲迹",
+        "与规规然在于媲青对白者。——葛立方《韵语阳秋》"
+      ],
+      "traditional_char": "媲"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "女子人名用字",
+      "examples": [],
+      "traditional_char": "媲"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "小貌，形容小巧之貌（如“嫛媲”）",
+      "examples": [
+        "嫛媲小貌"
+      ],
+      "traditional_char": "媲"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从女，𣬉声。本义为配偶、婚配，女表意，𣬉表音。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“配偶”、“相配”引申为“匹敌、对等”。早在中古典籍可见。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "从“相匹敌”引申为一般“比较、比拟”、现代词如“媲美”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "conversion",
+      "note": "由配偶义作女子名用字，多见于人名用字的转用。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "与‘嫛’联合用作形容词“小巧貌”，属音义相关引申。"
+    }
+  ]
+}

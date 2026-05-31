@@ -1,0 +1,79 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "骏马，良马，千里马。",
+      "examples": [
+        "良马期乎千里，不期乎骥骜。",
+        "驁，千里馬名也。"
+      ],
+      "traditional_char": "驁"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "马奔驰，放纵奔驰。",
+      "examples": [
+        "服偃蹇以低昂兮，骖连蜷以骄骜。",
+        "马行纵恣也。"
+      ],
+      "traditional_char": "驁"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "傲慢，不驯顺，狂妄，自大，轻视。",
+      "examples": [
+        "夫智伯之为人也，好利而骜愎。",
+        "士骜爵禄者，固轻其主。",
+        "始皇刚暴而骜狠。",
+        "甚驁無道，非約也。",
+        "桀骜不驯"
+      ],
+      "traditional_char": "驁"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "古乐章名，《驁夏》。",
+      "examples": [
+        "卿大夫皆出，公不送，公入，《驁》。",
+        "《驁夏》亦樂章也。"
+      ],
+      "traditional_char": "驁"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘驁’为形声字，从马，敖声，本义为骏马。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘骜’为‘驁’的简化字，从马，敖声，与‘驁’同源。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由指‘良马’引申为‘马奔驰、纵骋’，早见楚辞。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由马跑得放纵、不受拘束，比喻人傲慢、不驯，汉及先秦渐见。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "乐章以‘驁’名，或本於形容马奔放、豪迈之意，不指具体之马。"
+    }
+  ]
+}

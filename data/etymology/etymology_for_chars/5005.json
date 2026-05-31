@@ -1,0 +1,86 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "欺诈，欺骗",
+      "examples": [
+        "虚造诈谖之策。",
+        "谖，诈也。《说文》"
+      ],
+      "traditional_char": "諼"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "忘记，遗忘",
+      "examples": [
+        "永矢弗谖。",
+        "有匪君子，终不可谖兮。"
+      ],
+      "traditional_char": "諼"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "合欢草（萱草）的别名，食之令人忘忧",
+      "examples": [
+        "焉得谖草，言树之背。",
+        "谖草，合欢，食之令人忘忧者。"
+      ],
+      "traditional_char": "諼"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "引申为停止",
+      "examples": [
+        "酒尽情犹在，更残乐已谖。"
+      ],
+      "traditional_char": "諼"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "喧哗，嘈杂（通“諠”）",
+      "examples": [
+        "国外浮諼。",
+        "諼，詐也；或云諼譁。"
+      ],
+      "traditional_char": "諼"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从言，爰声；本义为欺诈、欺骗。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由欺骗引申为遗忘，遗忘如对自己‘欺骗’记忆，典型诗经用法。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由‘忘记’引申为能令人忘忧的植物名（合欢草/萱草），取其遗忘忧愁之意。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "‘停止’用法为少量诗文中引申，语义机制不详，可能为词义重分。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "reanalysis",
+      "note": "因声近形近，与‘諠’（喧哗）发生混用。中古以后出通假。"
+    }
+  ]
+}

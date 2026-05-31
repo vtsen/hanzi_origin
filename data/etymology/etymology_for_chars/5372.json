@@ -1,0 +1,115 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "陈草复生；旧草重新生长。",
+      "examples": [
+        "蓐，陈草复生也。——《说文》",
+        "陈根更生繁缛也。——徐锴注"
+      ],
+      "traditional_char": "蓐"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "草席，草垫，用草编织而成，可作卧具。",
+      "examples": [
+        "左追蓐。——《左传·宣公十二年》注：“在左者追求草蓐为宿备。”",
+        "蓐谓之兹。——《尔雅》注：“兹者，蓐席也。”"
+      ],
+      "traditional_char": "蓐"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "用麦秆等做成的蚕蔟，蚕在上面作茧的小草束。",
+      "examples": [
+        "蓐，蔟也。——《说文》",
+        "用细切捣软稈草勻铺为蓐。——《农书》"
+      ],
+      "traditional_char": "蓐"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "褥子，坐卧时铺在床椅等上面的垫子。",
+      "examples": [
+        "有重疾，卧蓐七年。——《后汉书·赵岐传》",
+        "而刘夙婴疾病，常在床蓐。——《陈情表》"
+      ],
+      "traditional_char": "蓐"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "吃饱，饱餐。",
+      "examples": [
+        "范乃令军中蓐食。——《后汉书·廉范传》",
+        "秣马蓐食，潜师夜起。——《左传·文公七年》"
+      ],
+      "traditional_char": "蓐"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "古国名，春秋时在汾水流域，后为晋所灭。",
+      "examples": [
+        "沈、姒、蓐、黄，实守其祀。——《左传·昭公元年》"
+      ],
+      "traditional_char": "蓐"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [],
+      "traditional_char": "蓐"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从艸，辱声，本义‘陈草复生’；‘艸’显义，‘辱’表音。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“陈草复生”引申为做成席垫的草，后专指草席。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由草席涵盖通‘褥’，泛指各种寝具上的垫子。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "草席、草垫比喻为蚕蔟，其形态和用途类似。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "“蓐食”本指在席上吃，引申为吃饱、饱餐。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 6,
+      "evolution_type": "unknown",
+      "note": "姓氏来源不明，可能为地名、物名化。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "unknown",
+      "note": "古国名，多由地理或物名称谓抽象为地名。"
+    }
+  ]
+}

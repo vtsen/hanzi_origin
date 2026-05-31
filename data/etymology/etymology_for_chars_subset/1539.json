@@ -1,0 +1,168 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "动词",
+      "meaning": "用手遮住额头以眺望远处。",
+      "examples": [
+        "他看远方。"
+      ],
+      "traditional_char": "看"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "动词",
+      "meaning": "使视线接触人或物，观看。",
+      "examples": [
+        "看书",
+        "看见"
+      ],
+      "traditional_char": "看"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "动词",
+      "meaning": "观察，判断，了解，认识。",
+      "examples": [
+        "看病",
+        "看透",
+        "看好"
+      ],
+      "traditional_char": "看"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "动词",
+      "meaning": "访问，拜望。",
+      "examples": [
+        "看望朋友"
+      ],
+      "traditional_char": "看"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "动词",
+      "meaning": "照应，照顾，对待。",
+      "examples": [
+        "看重",
+        "看轻",
+        "看待"
+      ],
+      "traditional_char": "看"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "动词",
+      "meaning": "认为，觉得。",
+      "examples": [
+        "看法",
+        "我看他很聪明。"
+      ],
+      "traditional_char": "看"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "动词",
+      "meaning": "先试试以观察结果。",
+      "examples": [
+        "做做看",
+        "试试看"
+      ],
+      "traditional_char": "看"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "动词",
+      "meaning": "提防，小心。",
+      "examples": [
+        "看摔着",
+        "看别出错。"
+      ],
+      "traditional_char": "看"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "动词",
+      "meaning": "安排，料理。",
+      "examples": [
+        "看茶",
+        "看座"
+      ],
+      "traditional_char": "看"
+    },
+    {
+      "index": 9,
+      "part_of_speech": "动词",
+      "meaning": "守护，监视（kān 读音）。",
+      "examples": [
+        "看护",
+        "看门",
+        "看押"
+      ],
+      "traditional_char": "看"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "“看”会意，上为“手”，下为“目”，表示手遮额以远望。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从遮额远望扩展为一般意义的观看（先秦到两汉）。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "观看引申为观察、判断。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "由看望事物引申为看望人（访问、拜望）。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "指观看进一步引申为照料、照应。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 5,
+      "evolution_type": "metaphor",
+      "note": "由观察判断引申为“认为”。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 6,
+      "evolution_type": "semantic_extension",
+      "note": "观察发展出“试试看”的义项。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 7,
+      "evolution_type": "semantic_extension",
+      "note": "看引申为提防、小心。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 8,
+      "evolution_type": "semantic_extension",
+      "note": "照应发展为安排、料理。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 9,
+      "evolution_type": "semantic_narrowing",
+      "note": "由一般观看引申为守护、监视（后专作kān）。"
+    }
+  ]
+}

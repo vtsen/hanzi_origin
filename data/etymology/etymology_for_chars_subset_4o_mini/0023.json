@@ -1,0 +1,222 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "触犯，冒犯，冲犯",
+      "examples": [
+        "～扰。",
+        "森然～霄。"
+      ],
+      "traditional_char": "干"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "追求，求取",
+      "examples": [
+        "～禄。",
+        "～仕。"
+      ],
+      "traditional_char": "干"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "关连，涉及",
+      "examples": [
+        "互不相～。"
+      ],
+      "traditional_char": "干"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "盾，古代抵御刀枪的兵器",
+      "examples": [
+        "大动～戈。"
+      ],
+      "traditional_char": "干"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "古代用以记年、记月、记日、记时的十个字",
+      "examples": [
+        "天～。"
+      ],
+      "traditional_char": "干"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "涯岸，水边",
+      "examples": [
+        "河之～兮。"
+      ],
+      "traditional_char": "干"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "个数",
+      "examples": [
+        "若～。"
+      ],
+      "traditional_char": "干"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "adjective",
+      "meaning": "没有水分或水分少",
+      "examples": [
+        "～燥。",
+        "豆腐～。"
+      ],
+      "traditional_char": "干"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "verb",
+      "meaning": "枯竭，尽净",
+      "examples": [
+        "～尽。",
+        "～杯。"
+      ],
+      "traditional_char": "干"
+    },
+    {
+      "index": 9,
+      "part_of_speech": "adverb",
+      "meaning": "徒然，白白地",
+      "examples": [
+        "～着急。"
+      ],
+      "traditional_char": "干"
+    },
+    {
+      "index": 10,
+      "part_of_speech": "noun",
+      "meaning": "指没有血缘或婚姻关系，拜认的亲属",
+      "examples": [
+        "～亲。"
+      ],
+      "traditional_char": "干"
+    },
+    {
+      "index": 11,
+      "part_of_speech": "noun",
+      "meaning": "古剑名",
+      "examples": [
+        "～将。"
+      ],
+      "traditional_char": "干"
+    },
+    {
+      "index": 12,
+      "part_of_speech": "noun",
+      "meaning": "姓",
+      "examples": [],
+      "traditional_char": "干"
+    },
+    {
+      "index": 13,
+      "part_of_speech": "noun",
+      "meaning": "事物的主体或重要部分",
+      "examples": [
+        "树～。",
+        "躯～。"
+      ],
+      "traditional_char": "幹"
+    },
+    {
+      "index": 14,
+      "part_of_speech": "verb",
+      "meaning": "做",
+      "examples": [
+        "～事。"
+      ],
+      "traditional_char": "幹"
+    },
+    {
+      "index": 15,
+      "part_of_speech": "adjective",
+      "meaning": "有才能的，善于办事的",
+      "examples": [
+        "～才。"
+      ],
+      "traditional_char": "幹"
+    },
+    {
+      "index": 16,
+      "part_of_speech": "adjective",
+      "meaning": "坏、糟",
+      "examples": [
+        "事情要～。"
+      ],
+      "traditional_char": "幹"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "pictograph",
+      "original_sense_index": 3,
+      "note": "该字体现了原意与盾牌相关的象形文字特征，表示一种用于防御的工具或兵器。"
+    },
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 13,
+      "note": "幹为复合字，从字义变化可看出是基于干的不同语境生成新的意义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 3,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "从古代军械的意义扩展到涉及的概念。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由触犯演变为追求相关之事的引申。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "从涉及冲犯扩展至一般的关系涉及。"
+    },
+    {
+      "source_index": 5,
+      "target_index": 7,
+      "evolution_type": "semantic_shift",
+      "note": "从表示水边的具体概念转为干燥的特性。"
+    },
+    {
+      "source_index": 7,
+      "target_index": 8,
+      "evolution_type": "semantic_shift",
+      "note": "由干燥延伸至枯竭、尽净的意义演变。"
+    },
+    {
+      "source_index": 13,
+      "target_index": 14,
+      "evolution_type": "semantic_extension",
+      "note": "由事物的主体引申至动词形式的使用。"
+    },
+    {
+      "source_index": 14,
+      "target_index": 15,
+      "evolution_type": "semantic_shift",
+      "note": "从做的意义扩展到描述人的才能。"
+    },
+    {
+      "source_index": 15,
+      "target_index": 16,
+      "evolution_type": "semantic_narrowing",
+      "note": "从有才能的引申为负面语境的糟糕之意。"
+    }
+  ]
+}

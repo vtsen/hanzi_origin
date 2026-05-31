@@ -1,0 +1,53 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "顆粒飽滿的好穀物。",
+      "examples": [
+        "稞，穀之善者。——《說文》"
+      ],
+      "traditional_char": "稞"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "無皮榖。",
+      "examples": [
+        "一曰無皮穀。——《說文》"
+      ],
+      "traditional_char": "稞"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "青稞，一種麥類作物，粒大皮薄，主產於西藏、青海、新疆等地。",
+      "examples": [
+        "青稞是藏族人民的主要食品。",
+        "稞麥可做糌粑，又可酿酒。"
+      ],
+      "traditional_char": "稞"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从禾，果声。本义为优秀的谷物，后泛指某种麦类。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由指好谷物引申为无皮谷，属于词义的泛化过程。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_narrowing",
+      "note": "由无皮谷泛指转为专指青稞麦类（主要在青藏高原地区），历史语义收窄。"
+    }
+  ]
+}

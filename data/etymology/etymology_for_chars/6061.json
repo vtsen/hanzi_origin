@@ -1,0 +1,38 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "大盾牌，用于防御。",
+      "examples": [
+        "持橹以御敌。"
+      ],
+      "traditional_char": "櫓"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "拨水使船前进的工具，置于船边，比桨长，用于摇动。",
+      "examples": [
+        "摇橹过江。",
+        "他用橹划船。"
+      ],
+      "traditional_char": "櫓"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字。从木，取物体，用于防护或工具，鲁声，最初指大盾牌。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_shift",
+      "note": "由大盾形状延伸指形状相似、同为木制的大型船桨，语义转变。"
+    }
+  ]
+}

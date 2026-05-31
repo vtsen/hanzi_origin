@@ -1,0 +1,53 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "能制造和使用工具进行劳动的动物",
+      "examples": [
+        "人类的发展",
+        "现代人类"
+      ],
+      "traditional_char": "人"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "别人，他人",
+      "examples": [
+        "人为刀俎，我为鱼肉",
+        "待人热诚"
+      ],
+      "traditional_char": "人"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "人的品质、性情、名誉",
+      "examples": [
+        "丢人",
+        "文如其人"
+      ],
+      "traditional_char": "人"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "pictograph",
+      "original_sense_index": 0,
+      "note": "象形。甲骨文字形，象侧面站立的人形。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension"
+    }
+  ]
+}

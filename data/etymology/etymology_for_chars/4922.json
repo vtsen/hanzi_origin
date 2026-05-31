@@ -1,0 +1,65 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "胃的内腔",
+      "examples": [
+        "胃之受水谷者曰脘。——《正字通·肉部》",
+        "食不下者，胃脘隔也。——《素問·評熱病論》"
+      ],
+      "traditional_char": "脘"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "腌制的肉，肉脯",
+      "examples": [
+        "脘脯也。——《廣雅》",
+        "卽胃脯。——《集韻》"
+      ],
+      "traditional_char": "脘"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "肉",
+      "examples": [],
+      "traditional_char": "脘"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "骨脂",
+      "examples": [],
+      "traditional_char": "脘"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从肉，完声，表示与身体器官有关。最初指胃的内腔。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由胃的内腔转指来源于胃的腌制肉食品，见博雅、集韻等古文。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "synecdoche",
+      "note": "由腌制肉（脘脯）泛指普通肉类，语义外延扩大。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "由肉的意味进一步演变为指骨脂，具体细节不详。《集韻》有载。"
+    }
+  ]
+}

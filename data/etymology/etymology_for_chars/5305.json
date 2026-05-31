@@ -1,0 +1,42 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "一种中间开口、两头装东西的口袋，常用于“褡裢”。",
+      "examples": [
+        "他把钱装在褡裢里。"
+      ],
+      "traditional_char": "褳"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "“褳”的简化字，用于“裢”形式下；意义同上。",
+      "examples": [
+        "褡裢"
+      ],
+      "traditional_char": "裢"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“褳”形声字，从衣，连声，指衣服相关物品。"
+    },
+    {
+      "formation_type": "loan_character",
+      "original_sense_index": 1,
+      "note": "“裢”为简化字，借用“褳”的意义，仅字形变化。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "reanalysis",
+      "note": "“裢”为“褳”的简化字，现代简化字改革所致。"
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "盛水以供淬火的器具",
+      "examples": [
+        "淬，灭火器也。——《说文》"
+      ],
+      "traditional_char": "淬"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "把烧红的金属器物迅速浸入水或其他液体中以增强硬度",
+      "examples": [
+        "使工以药淬之。——《战国策·燕策》",
+        "清水淬其锋。——王褒《圣主得贤臣颂》"
+      ],
+      "traditional_char": "淬"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "浸、染上（通常指液体、颜色等）",
+      "examples": [
+        "脟割轮淬，自以为娱。——《史记·司马相如列传》",
+        "以药淬之。——《史记·刺客传》"
+      ],
+      "traditional_char": "淬"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "磨、砺，亦指通过锻炼获得进步，比喻自励自勉",
+      "examples": [
+        "淬砺（如：越剑性利，非淬而不铦。——《新论·崇学》）",
+        "淬勉（师事徐齐聃，淬自强。——《新唐书》）"
+      ],
+      "traditional_char": "淬"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "浸入或沉入水中",
+      "examples": [
+        "那妖遮架不住，打个花，又淬于水里。——《西游记》"
+      ],
+      "traditional_char": "淬"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "冒犯、浴、经受（多指艰难、寒冷等）",
+      "examples": [
+        "久淬冰雪，激乎风霆。——方以智《东西均·开章》",
+        "淬霜露。——《淮南子·修务训》"
+      ],
+      "traditional_char": "淬"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "adjective",
+      "meaning": "寒冷",
+      "examples": [
+        "淬，寒也。——《方言》"
+      ],
+      "traditional_char": "淬"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "noun",
+      "meaning": "水流的样子",
+      "examples": [
+        "淬，没水貌。——《集韵》"
+      ],
+      "traditional_char": "淬"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "verb",
+      "meaning": "中药制法的一种：把药物烧红后迅速浸入水或醋中",
+      "examples": [
+        "纪文远师曰：折骨伤者，以开通元宝钱烧而醋淬。——清·梁章钜《归田琐记》"
+      ],
+      "traditional_char": "淬"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，卒声。本义为盛水供灭火之器，后义发展。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由盛水灭火器具，引申为把器物烧红后迅速浸入水中。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由淬火比喻砥砺、磨炼、勉励。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由“迅速浸入液体”引申为“浸染”。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "从“把烧红器物浸入水”引申出“沉入水中”。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 7,
+      "evolution_type": "semantic_extension",
+      "note": "被动沉没，引申为水流、没入水中的样子。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "metonymy",
+      "note": "由水火淬炼的过程，比喻冒犯、经受困苦或自然之艰。"
+    },
+    {
+      "source_index": 5,
+      "target_index": 6,
+      "evolution_type": "semantic_extension",
+      "note": "从经受严寒等困苦，产生“寒冷”义。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 8,
+      "evolution_type": "semantic_extension",
+      "note": "从金属热处理方法引申为中药制法中的类似工序。"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "扭伤脚腕，走路跛行或瘸，或指踢、旋行。",
+      "examples": [
+        "不小心蹩痛了脚。",
+        "种师道蹩着右脚。",
+        "幼天王马蹩断了一条腿，不能跑了。"
+      ],
+      "traditional_char": "蹩"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "跛的，瘸的，歪斜的。",
+      "examples": [
+        "马足蹩，车轴折。",
+        "歪锅配蹩灶。"
+      ],
+      "traditional_char": "蹩"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "躲躲闪闪地走动，行走不正。",
+      "examples": [
+        "蹩到临街的壁角的桌边。",
+        "蹩到爹娘房前，侧耳一听，寂无声色。",
+        "他便退了几步，寻到一家关着门的铺子，蹩进檐下，靠门立住了。"
+      ],
+      "traditional_char": "蹩"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "克制，忍住，勉强压抑（感情或言语等）。",
+      "examples": [
+        "蹩气（憋气，使气），满囤嫂用襖袖擦把汗，刚要说：‘从鸡叫……’，满囤瞪她一眼，就蹩了回去。",
+        "邵立本只是呷茶，喉咙里咳咳，蹩着一肚皮话，就是理不出个头绪来。",
+        "谈话中夹带着蹩不住的笑声。"
+      ],
+      "traditional_char": "蹩"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "通假为“敝”，引申为“坏、破损”。",
+      "examples": [],
+      "traditional_char": "蹩"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从足，敝声，初本指走路扭伤脚，跛行。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由具体跛行引申为形容事物歪斜或不正，已见于近现代用例。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由跛行、行走不正引申为躲闪、鬼祟地走动。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "跛行动作为对感情或言语的压抑、克制之比喻，现代口语‘蹩气’即由此。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "‘蹩’通假为‘敝’，用于‘坏、破损’义见于古籍。"
+    }
+  ]
+}

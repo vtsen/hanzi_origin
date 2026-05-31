@@ -1,0 +1,53 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "食物堵住喉咙，难以吞咽或呼吸",
+      "examples": [
+        "吃饭太急容易噎着。",
+        "因噎废食。"
+      ],
+      "traditional_char": "噎"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "因为迎风或异物而呼吸困难",
+      "examples": [
+        "这风真噎人。"
+      ],
+      "traditional_char": "噎"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "说话顶撞人，使人无言以对",
+      "examples": [
+        "他说话能把人噎死。"
+      ],
+      "traditional_char": "噎"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从口，壹声，本义指食物堵塞喉咙。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由吞咽受阻扩展指呼吸受阻，见于口语扩展。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由生理阻塞喉咙比喻为语言使人无言，汉语常见用法。"
+    }
+  ]
+}

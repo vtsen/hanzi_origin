@@ -1,0 +1,86 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "筛，用筛子过滤或过滤谷物等。",
+      "examples": [
+        "簌米",
+        "簌面"
+      ],
+      "traditional_char": "簌"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "垂落，低垂的样子。",
+      "examples": [
+        "繡簾櫳低簌下金鉤",
+        "紫袍簌地"
+      ],
+      "traditional_char": "簌"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "抖动，摇动。",
+      "examples": [
+        "待月簾微簌，迎風戶半開。",
+        "簌簌发抖"
+      ],
+      "traditional_char": "簌"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "onomatopoeia",
+      "meaning": "象声词，形容风吹树叶、花瓣等沙沙作响的声音，或眼泪纷纷落下的声音。",
+      "examples": [
+        "风动落花红簌簌",
+        "她的眼泪扑簌簌落了下来"
+      ],
+      "traditional_char": "簌"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "茂密貌。",
+      "examples": [
+        "风动落花红簌簌"
+      ],
+      "traditional_char": "簌"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从竹，宿声，表示与竹器（如筛子）有关，原指筛或用竹器筛分。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "从用筛子筛的动作引申为一般的抖动、摇动。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "以抖动时发出的声音来做象声词。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "筛动作中物体低垂下落，故‘垂’义由此生。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "由声音形容词引申为形容花叶繁茂纷落的样子。"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "满足，快意，心意感到顺畅",
+      "examples": [
+        "未有惬志。",
+        "思意不惬。",
+        "寡人聞大夫之言，不覺情愜於中。"
+      ],
+      "traditional_char": "愜"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "恰当，合适，正好符合要求",
+      "examples": [
+        "词愜事当。",
+        "文省而事愜。",
+        "意亦不愜也。"
+      ],
+      "traditional_char": "愜"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "心服，真心信服",
+      "examples": [
+        "愜，心伏也。",
+        "參見“愜服”。"
+      ],
+      "traditional_char": "愜"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "“愜”的簡化字（用于现代汉语），义同愜",
+      "examples": [
+        "惬意。",
+        "惬心。"
+      ],
+      "traditional_char": "惬"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘愜’为形声字，从心，匧声，表示心情满足、快意。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 3,
+      "note": "‘惬’为‘愜’的简化字，形成方式沿用形声结构。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从“满足”引申出“恰当、合适”，语义拓展。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "从心意满足引申为心服，扩展含义。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "reanalysis",
+      "note": "‘惬’为‘愜’的简化字，全部意义沿袭。"
+    }
+  ]
+}

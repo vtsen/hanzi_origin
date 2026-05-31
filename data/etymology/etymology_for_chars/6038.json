@@ -1,0 +1,69 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "以漆涂物；涂刷漆在器物上",
+      "examples": [
+        "木器髹者千枚。",
+        "寺前的照壁上，‘寒山寺’三個大字，新髹了金，光彩耀目，字體蒼勁而古朴。"
+      ],
+      "traditional_char": "髹"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "赤黑色、生漆、漆器",
+      "examples": [
+        "髹，赤黑漆也。",
+        "閨人時妝，鬒髮覆額，如黝髹可鑑。"
+      ],
+      "traditional_char": "髹"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "赤多黑少的颜色",
+      "examples": [
+        "髹，赤黑漆也。"
+      ],
+      "traditional_char": "髹"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "other",
+      "meaning": "乱发",
+      "examples": [
+        "菱鏡秋窺訝鬢髹。"
+      ],
+      "traditional_char": "髹"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从桼，髟声。以漆涂物为本义，指事与声旁结合。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由涂漆的行为引申至所用的漆及漆器实体，商周至汉代用例。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由具体漆色引申为色彩属性，古籍颜色词多有此现象。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "unknown",
+      "note": "‘乱发’义，多见于古诗，有待进一步考证其联系。"
+    }
+  ]
+}

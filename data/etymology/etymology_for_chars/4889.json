@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "相逢，遇见",
+      "examples": [
+        "重华不可牾兮，孰知余之从容。——《史记·屈原贾生列传》"
+      ],
+      "traditional_char": "牾"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "背逆，不顺从，违逆，抵触",
+      "examples": [
+        "牾，逆也。——《说文》",
+        "自郡吏以下皆畏避之，莫敢与牾。——《汉书·严延年传》",
+        "莫不知其多冤，无敢牾陛下言者。——《资治通鉴·汉明帝永平十四年》"
+      ],
+      "traditional_char": "牾"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "兽名，一种野兽",
+      "examples": [
+        "穆天子传：白鹿一牾。",
+        "《集韵》：牾，兽名。"
+      ],
+      "traditional_char": "牾"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 2,
+      "note": "从“牛”表意，吾为声，本指野兽名，后引申义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 2,
+      "target_index": 0,
+      "evolution_type": "metaphor",
+      "note": "由野兽出没引申为相逢、遇见，用于文言例句。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_shift",
+      "note": "从“相遇”转为“违逆”，古义推演义项顺序，具体机制存争议。"
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "毁谤，非议，指责。",
+      "examples": [
+        "不苟訾。——《礼记》",
+        "口毁曰訾。——《礼记·丧服》",
+        "訾行者不容于众。——《淮南子》",
+        "无誉无訾。——《庄子》"
+      ],
+      "traditional_char": "訾"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "衡量，计量，估量。",
+      "examples": [
+        "訾功丈而知人数。——《吕氏春秋》",
+        "訾相其质，足以比成事。——《国语·齐语》",
+        "訾粟而税。"
+      ],
+      "traditional_char": "訾"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "希求，思虑，考虑。",
+      "examples": [
+        "不訾重器。——《礼记·少仪》",
+        "心悁忿而不訾前后者，可亡也。——《韩非子》"
+      ],
+      "traditional_char": "訾"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "放纵，恣纵，狂放（通“恣”）。",
+      "examples": [
+        "离纵而跂訾者也。——《荀子》",
+        "訾行者不容于众。——《淮南子》"
+      ],
+      "traditional_char": "訾"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "钱财，财产（通“貲”、“资”）。",
+      "examples": [
+        "家訾累数巨万矣。——《史记》",
+        "以訾为骑郎。——《史记》",
+        "江含海畜，其富无訾。"
+      ],
+      "traditional_char": "訾"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "疾病，缺点（通“疵”）。",
+      "examples": [
+        "岁凶，庸人訾厉，多死丧。——《管子》",
+        "亦非礼之訾也。——《礼记·檀弓》"
+      ],
+      "traditional_char": "訾"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "古地名。",
+      "examples": [
+        "单子取訾。——《左传》"
+      ],
+      "traditional_char": "訾"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [
+        "訾顺。——《汉书》"
+      ],
+      "traditional_char": "訾"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "interjection",
+      "meaning": "嗟叹声（通“咨”）。",
+      "examples": [
+        "訾，天下之主，有侵君者。——《战国策》",
+        "訾黄其何不徠下。——《汉书·礼乐志》"
+      ],
+      "traditional_char": "訾"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从言，此声。‘言’表意，表示与言语行为有关，‘此’表音，初义为毁谤、非议。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "metonymy",
+      "note": "由毁谤、批评引申为缺点、毛病，用语带贬义，先秦起已见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "由批评、不合礼制逐渐转为表示放纵行为，语义转移明确，汉代前后。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_shift",
+      "note": "由责难、指摘义发展为衡量、计量之义，古已有双向用法，见于《国语》《吕氏春秋》。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "conversion",
+      "note": "由衡量、计量义转为直接表示钱财数量，‘訾’与‘貲’音义通用，西汉用例丰富。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由衡量转为思虑、希求，‘考虑’为‘度量’的心理抽象，常见于儒家典籍。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 8,
+      "evolution_type": "grammaticalization",
+      "note": "毁谤、不满之意虚化，发展为嗟叹感叹声，古今皆有用例。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 7,
+      "evolution_type": "unknown",
+      "note": "钱财义借用为姓氏，具体机制不明，古代姓氏多取用形声义。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "unknown",
+      "note": "地名取用，或与义项有关，但机制未详，常见于古地名与官职。"
+    }
+  ]
+}

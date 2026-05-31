@@ -1,0 +1,41 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "白鹇，一种尾长、雄白雌棕的观赏鸟，主要产于中国南部",
+      "examples": [
+        "山中多有白鹇。",
+        "白鹇羽色华美。"
+      ],
+      "traditional_char": "鷳"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "“鷳”的简化字，通指鹇属各种鸟",
+      "examples": [],
+      "traditional_char": "鹇"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "鷳为形声字，从鳥，閒声，表示鸟类的一种。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "鹇为簡化字，从鸟，闲声，本义承袭于鷳。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "reanalysis",
+      "note": "汉字简化过程中由“鷳”变为“鹇”，意义未变，写法省略。"
+    }
+  ]
+}

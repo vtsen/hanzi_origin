@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "薹草，莎草科薹草属的植物，叶片可制蓑衣或斗笠。",
+      "examples": [
+        "薹笠聚東葘。",
+        "薹草，夫須也。"
+      ],
+      "traditional_char": "薹"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "油菜，十字花科一年生草本植物，主要用作油料作物，又称“芸薹”。",
+      "examples": [
+        "薹菜，俗呼薹芥。",
+        "芸薹，菜名。"
+      ],
+      "traditional_char": "薹"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "蔬菜如蒜、韭菜、油菜等的花茎，即花芽茎，可供食用。",
+      "examples": [
+        "韭薹、蒜薹。",
+        "蔬菜和草開花時抽出的莖。"
+      ],
+      "traditional_char": "薹"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，“艸”为义符，表草本植物，“台”为声符，最初用以指薹草。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由原本特指薹草泛化为其他可制蓑衣等的类似草本植物及油菜。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由草本植物名称引申为其花茎（薹）之义，见于蔬菜等。"
+    }
+  ]
+}

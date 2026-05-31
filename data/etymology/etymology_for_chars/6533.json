@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "秃山，无树木覆盖的山。",
+      "examples": [
+        "屼山名一曰𡼿屼童山。",
+        "屼秃山也。"
+      ],
+      "traditional_char": "屼"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "高耸、直立的山貌。",
+      "examples": [
+        "有石峰屼立。",
+        "嵬嶷峣屼。——左思《吴都赋》",
+        "山屹屼兮水淪漣。"
+      ],
+      "traditional_char": "屼"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "山名；五屼，指犍為郡的一座名为“五屼”的山。",
+      "examples": [
+        "躡五屼之𡾰嵼。——《蜀都赋》"
+      ],
+      "traditional_char": "屼"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "从山，兀声。形符“山”表示与山相关，声符“兀”表音并具象指秃、突出之形。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从秃山涵义到引申为高耸、突出之山貌。见《吴都赋》、《广韵》等文献。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由名词“秃山”引申为具体山名。见《蜀都赋》‘五屼’。"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "山名，指湖南省的嵛山。",
+      "examples": [
+        "嵛山，在永州府南二十里，以高秀逾众山而名。"
+      ],
+      "traditional_char": "嵛"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "山名，指山东省的昆嵛山。",
+      "examples": [
+        "昆嵛山在中国山东省。"
+      ],
+      "traditional_char": "嵛"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "山名，指山西省榆次县的崳次山（崳、嵛通用）。",
+      "examples": [
+        "山西省榆次县有崳次山。"
+      ],
+      "traditional_char": "嵛"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从山，禺声，最初用于山名。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "地名泛用，山名用字扩展到其他地区的山。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "地名泛用，嵛亦作崳，用于山西崳次山。"
+    }
+  ]
+}

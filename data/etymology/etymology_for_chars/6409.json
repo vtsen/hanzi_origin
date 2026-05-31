@@ -1,0 +1,79 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "金属制的温器或铜盆",
+      "examples": [
+        "鏖，器也。亦銅盆也。"
+      ],
+      "traditional_char": "鏖"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "激烈地战斗；苦战",
+      "examples": [
+        "合短兵，鏖皋兰下。",
+        "鏖战沙场。",
+        "鏖杀敌寇。"
+      ],
+      "traditional_char": "鏖"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "喧扰、嘈杂",
+      "examples": [
+        "市声鏖午枕。"
+      ],
+      "traditional_char": "鏖"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "长时间熬煮、烧炼",
+      "examples": [
+        "九蒸暴而日燥，百上下而汤鏖。",
+        "因鏖為金銀。"
+      ],
+      "traditional_char": "鏖"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "地名，津名（在匈奴地方）",
+      "examples": [
+        "鏖津名在匈奴中。"
+      ],
+      "traditional_char": "鏖"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从金，鏕声。属于形声字，本指铜制温器，有金属义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_shift",
+      "note": "由金属容器用作兵器、战斗，后引申为激烈战斗，汉代发展。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "激烈战斗转及为喧扰、嘈杂，比喻声音激烈。宋代开始。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "借容器煎熬之意，引申为久煎、烧炼，宋代见用。"
+    }
+  ]
+}

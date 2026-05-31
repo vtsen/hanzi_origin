@@ -1,0 +1,85 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "传说中的一种动物，状如鹿，独角，全身生鳞甲，尾象牛，多用作吉祥的象征。又名“麒麟”，又单称“麟”。",
+      "examples": [
+        "麒，仁兽也，麋身，牛尾，一角。——《说文》",
+        "麒之于走兽，凤凰之于飞鸟。——《孟子·公孙丑上》"
+      ],
+      "traditional_char": "麒"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "喻指杰出人物或有高尚道德的人。",
+      "examples": [
+        "应图求骏马，惊代得麒麟。——唐·杜甫《上韦左相二十韵》",
+        "麒麟冢（名臣贵人的坟墓）",
+        "麒麟客（称有高尚道德的人）"
+      ],
+      "traditional_char": "麒"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "汉代宫殿名，如麒麟阁。",
+      "examples": [
+        "金华玉堂，白虎麒麟。——班固《西都赋》",
+        "麒麟阁（汉代未央宫中名阁）"
+      ],
+      "traditional_char": "麒"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [],
+      "traditional_char": "麒"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "雄麒麟，特指麒麟中的雄性。",
+      "examples": [
+        "张揖云：牡曰麒，牝曰麟。",
+        "雄麒麟"
+      ],
+      "traditional_char": "麒"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从鹿，其声，其为声旁，鹿表示与兽类相关。本义即为传说中的吉祥瑞兽。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_narrowing",
+      "note": "张揖等古注区分雄为‘麒’，雌为‘麟’，此为对原始意义的性别细化。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "麒麟由祥瑞之兽引申比喻杰出或德高望重的人，唐宋皆有用例。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由瑞兽名借指汉代宫殿名，‘麒麟阁’等以瑞兽代表尊贵场所。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "conversion",
+      "note": "动植物名常转化为姓氏。"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "山势高峻，陡峭",
+      "examples": [
+        "循溪行山下，一带峭壁巉崖。",
+        "碧峰巉然孤起，上干云霄。",
+        "高木森森，巉石嵯峨。"
+      ],
+      "traditional_char": "巉"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "嶙峋突兀，山石形状突起不平",
+      "examples": [
+        "乱峰巉似槊，一水淡如油。",
+        "巉屼重叠，望之如画。"
+      ],
+      "traditional_char": "巉"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "锐利、尖锐（引申为言辞尖刻）",
+      "examples": [
+        "巉刻严峻，直指人心。",
+        "言词巉刻，不留情面。"
+      ],
+      "traditional_char": "巉"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从山，斩声，表示山形高峻陡峭。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "高峻可引申为山石突兀、嶙峋之形，宋明文献可见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "以高峻、险恶喻言辞或器物的锋利、尖锐，文人比兴中常见。"
+    }
+  ]
+}

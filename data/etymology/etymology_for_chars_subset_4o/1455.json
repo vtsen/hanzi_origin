@@ -1,0 +1,181 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "头的前部，脸",
+      "examples": [
+        "脸面",
+        "颜面",
+        "面目"
+      ],
+      "traditional_char": "面"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "用脸对着，向着",
+      "examples": [
+        "面对",
+        "面壁"
+      ],
+      "traditional_char": "面"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "事物的外表",
+      "examples": [
+        "地面",
+        "面友",
+        "面额"
+      ],
+      "traditional_char": "面"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "方位，部分",
+      "examples": [
+        "前面",
+        "反面",
+        "片面",
+        "全面"
+      ],
+      "traditional_char": "面"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "measure word",
+      "meaning": "量词，多用于扁平的物件",
+      "examples": [
+        "一面鼓"
+      ],
+      "traditional_char": "面"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "会见，直接接头的",
+      "examples": [
+        "当面",
+        "面议",
+        "面晤",
+        "耳提面命"
+      ],
+      "traditional_char": "面"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "几何学上的形迹",
+      "examples": [
+        "平面",
+        "曲面"
+      ],
+      "traditional_char": "面"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "noun",
+      "meaning": "粮食磨成的粉，特指小麦磨成的粉",
+      "examples": [
+        "面粉",
+        "面食",
+        "面包"
+      ],
+      "traditional_char": "麵"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "noun",
+      "meaning": "粉末",
+      "examples": [
+        "药面儿"
+      ],
+      "traditional_char": "麵"
+    },
+    {
+      "index": 9,
+      "part_of_speech": "noun",
+      "meaning": "由面粉和水做成的条状食物",
+      "examples": [
+        "面条"
+      ],
+      "traditional_char": "麵"
+    },
+    {
+      "index": 10,
+      "part_of_speech": "adjective",
+      "meaning": "食物含纤维少而柔软",
+      "examples": [
+        "这种瓜很面"
+      ],
+      "traditional_char": "麵"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "pictograph",
+      "original_sense_index": 0,
+      "note": "甲骨文字形，里面是“目”字，外面表示面庞。古代指人的整个面部。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 7,
+      "note": "由“面”和“米”构成，表示与粮食有关的意义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由头部的“面”引申至事物的部分或方位。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "semantic_extension"
+    },
+    {
+      "source_index": 2,
+      "target_index": 4,
+      "evolution_type": "semantic_shift"
+    },
+    {
+      "source_index": 2,
+      "target_index": 6,
+      "evolution_type": "metaphor",
+      "note": "由外表引申至几何学上的形迹。"
+    },
+    {
+      "source_index": 7,
+      "target_index": 9,
+      "evolution_type": "semantic_extension",
+      "note": "由小麦粉引申到用面粉制成的食物。"
+    },
+    {
+      "source_index": 7,
+      "target_index": 8,
+      "evolution_type": "semantic_extension",
+      "note": "由面粉引申到粉末。"
+    },
+    {
+      "source_index": 7,
+      "target_index": 10,
+      "evolution_type": "semantic_extension",
+      "note": "由面粉引申至食物的质地。"
+    }
+  ]
+}

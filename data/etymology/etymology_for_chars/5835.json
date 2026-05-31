@@ -1,0 +1,38 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "传说中黄帝的正妃嫘祖，发明养蚕，后被奉为蚕神。",
+      "examples": [
+        "黄帝娶于西陵氏之女，是为嫘祖。",
+        "嫘祖好远游，死于道，后人祀以为行神。"
+      ],
+      "traditional_char": "嫘"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [
+        "嫘，姓也。黄帝娶于西陵氏之女，是为嫘祖。"
+      ],
+      "traditional_char": "嫘"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "左边“女”表意，与女性相关，右边“畾”表音，最早用于指传说中的女性嫘祖。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "conversion",
+      "note": "从专名转化为姓氏用法，汉代及以后常见。"
+    }
+  ]
+}

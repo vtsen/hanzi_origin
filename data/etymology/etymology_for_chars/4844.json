@@ -1,0 +1,53 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "把手指放在嘴里吹出哨音，发出口哨声",
+      "examples": [
+        "他打了个唿哨。"
+      ],
+      "traditional_char": "唿"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "onomatopoeia",
+      "meaning": "象声词，表示风声、气流声等",
+      "examples": [
+        "唿唿作响。",
+        "唿噜声。"
+      ],
+      "traditional_char": "唿"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "other",
+      "meaning": "同“啒”，忧愁的意思（罕用）",
+      "examples": [
+        "唿唿忧也。"
+      ],
+      "traditional_char": "唿"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从口，乎声。《说文》本作\"外息也\"，形声字，表示口中气息或声音。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由实际的口哨声引申为风等的象声词，音响相近。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "unknown",
+      "note": "“唿”同“啒”作忧愁，义源存疑，可能为借用。"
+    }
+  ]
+}

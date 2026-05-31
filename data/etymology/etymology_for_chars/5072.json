@@ -1,0 +1,116 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "蝗虫的别名",
+      "examples": [
+        "飞蛩满野。——《淮南子》"
+      ],
+      "traditional_char": "蛩"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "蟋蟀的别名",
+      "examples": [
+        "秋蛩扶户吟，寒妇晨夜织。——鲍照《拟古》",
+        "满耳新蛩声。——白居易《禁中闻蛩》"
+      ],
+      "traditional_char": "蛩"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "传说中的异兽名",
+      "examples": [
+        "北海内有素兽焉，状如马，名曰蛩蛩。——《山海经》",
+        "蛩蛩见人将来，必负蟨以走。——《说苑》"
+      ],
+      "traditional_char": "蛩"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "蚰蜒、马陆（百足虫）的别名",
+      "examples": [
+        "江东呼蚰蜓为蛩。——《方言》晋郭璞注",
+        "马陆又名蛩。——《本草纲目》"
+      ],
+      "traditional_char": "蛩"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "忧思、忧惧的样子",
+      "examples": [
+        "志蛩蛩而怀顾兮，魂眷眷而独逝。——《九歌》",
+        "蛩蛩，忧思貌。——《字汇补》"
+      ],
+      "traditional_char": "蛩"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "蝉蜕（蝉脱壳）的别名（秦地方言）",
+      "examples": [
+        "秦谓蝉蛻为蛩。——《说文》"
+      ],
+      "traditional_char": "蛩"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "onomatopoeia",
+      "meaning": "象声词，形容足步声或昆虫鸣声",
+      "examples": [
+        "蛩声（蟋蟀的鸣声）"
+      ],
+      "traditional_char": "蛩"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从虫，𢀜（卭）声，原指蝗虫，用昆虫通名做语素。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由泛指蝗虫扩展为能鸣叫的昆虫如蟋蟀，古今多义并存。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由真实昆虫名称转喻为传说中的异兽。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "由蝗虫转指其它体形细长多足的昆虫如蚰蜒、马陆，有地区差异。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "由昆虫的惶惧形象引申为忧思忧惧的样子。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "semantic_shift",
+      "note": "在秦地，蝗虫通称或因类比而借指蝉蜕。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 6,
+      "evolution_type": "metonymy",
+      "note": "由蟋蟀的鸣声转作象声词用于形容昆虫声或步声。"
+    }
+  ]
+}

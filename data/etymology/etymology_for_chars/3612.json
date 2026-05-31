@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "将食物放入开水中稍微煮一下。",
+      "examples": [
+        "汆丸子",
+        "把青菜汆一下"
+      ],
+      "traditional_char": "汆"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "加热烧水用的金属器具，可以快速将水煮开（方言用法）。",
+      "examples": [
+        "水汆儿",
+        "用汆烧水"
+      ],
+      "traditional_char": "汆"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘汆’为形声字，从水，撰声。本义与水有关，指将食物在水中略煮。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "因与水和烹煮有关，名称转用于加热烧水的器具（方言）。"
+    }
+  ]
+}

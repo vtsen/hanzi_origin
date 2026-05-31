@@ -1,0 +1,44 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "颜色杂而美丽，灿烂多彩。",
+      "examples": [
+        "斓裙裾之烁烁兮",
+        "斑斓相映。"
+      ],
+      "traditional_char": "斓"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "颜色杂而美丽，灿烂多彩。",
+      "examples": [
+        "斕斑",
+        "色彩斕斕。"
+      ],
+      "traditional_char": "斕"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "斕为形声字，“文”表意，象色彩斑斓之意，“闌”表音。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "斓为斕的简化字，保留原义，形声结构。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "reanalysis",
+      "note": "斓为斕的简化字，意义未变，20世纪简化字运动。"
+    }
+  ]
+}

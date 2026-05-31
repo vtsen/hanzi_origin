@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "船尾",
+      "examples": [
+        "船艄",
+        "坐在艄上"
+      ],
+      "traditional_char": "艄"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "舵",
+      "examples": [
+        "掌艄",
+        "艄公"
+      ],
+      "traditional_char": "艄"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从舟，少声。初指船尾。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由表示船尾转指舵，因舵常设于船尾。"
+    }
+  ]
+}

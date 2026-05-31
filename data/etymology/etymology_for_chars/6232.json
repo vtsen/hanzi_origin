@@ -1,0 +1,50 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "螳螂的卵块，常用于“螵蛸”，产在桑树上的叫“桑螵蛸”，可入药。",
+      "examples": [
+        "桑螵蛸味甘，能益肾补脑。"
+      ],
+      "traditional_char": "螵"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "乌贼鱼体内的骨状硬壳，常用于“海螵蛸”，可入药。",
+      "examples": [
+        "中药海螵蛸有止血之效。"
+      ],
+      "traditional_char": "螵"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "茧、蛹。",
+      "examples": [],
+      "traditional_char": "螵"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从虫，票声，最初表螳螂卵块，和虫类相关。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "因乌贼骨状硬壳形似螳螂卵块，名“海螵蛸”，结构类比。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "从螳螂卵块引申为泛指茧、蛹等虫类的包裹阶段。"
+    }
+  ]
+}

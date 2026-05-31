@@ -1,0 +1,90 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "野鸭",
+      "examples": [
+        "落霞与孤鹜齐飞，秋水共长天一色。",
+        "凫，家鸭名；鹜，野鸭名。",
+        "鶩，野凫也。"
+      ],
+      "traditional_char": "鶩"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "家鸭",
+      "examples": [
+        "鸡鹜自成群。",
+        "鳧，野名也；鶩，家名也。",
+        "效伯高不得，犹为谨敕之士，所谓刻鵠不成尚类鶩者也。"
+      ],
+      "traditional_char": "鶩"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "游水（如鸭子游水）",
+      "examples": [
+        "领水兵十余人，鹜水直抵南岸。"
+      ],
+      "traditional_char": "鶩"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "奔驰、疾驰",
+      "examples": [
+        "猿得木而捷，鱼得水而鶩。",
+        "五言才骨，难与争鶩。",
+        "禽托薮以思鹜，兽安林而获骋。"
+      ],
+      "traditional_char": "鶩"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "追求，奔向（多含贬义，如“趋之若鹜”）",
+      "examples": [
+        "趋之若鹜。",
+        "好高鹜远。",
+        "一时延赏虚声及阀阅子弟之鶩名者。"
+      ],
+      "traditional_char": "鶩"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从鸟，敄声，最初表示野鸭，见《说文解字》释义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由野鸭引申为家鸭，归纳鸟类名的普及。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由野鸭善游水，转喻为“游水”这一动作。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由野鸭迅速移动、奔驰，引申为“疾驰”之意。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由“奔驰”进一步引申为“奔向、追求”，多含贬义。"
+    }
+  ]
+}

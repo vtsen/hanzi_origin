@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "牡蛎，一种生活在海中、可食用的贝类动物，又称蚝或海蛎子。",
+      "examples": [
+        "蚝油以蛎为原料提炼。",
+        "海滩上养殖着大量牡蛎。"
+      ],
+      "traditional_char": "蠣"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "蛎鹬，一种嘴和脚鲜红的鸟，主要以贝类为食。",
+      "examples": [
+        "蛎鹬常常在滨海沙滩觅食蚌类。",
+        "黑白相间的蛎鹬十分显眼。"
+      ],
+      "traditional_char": "蠣"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "石蠣，即海鷂魚的別名，见于古籍。",
+      "examples": [
+        "石蠣，海鷂魚也。《本草綱目·鱗四·海鷂魚》记载：‘石蠣者，海鷂魚’。",
+        "石蠣为海产鱼类之一。"
+      ],
+      "traditional_char": "蠣"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘蠣’为形声字，从虫，万声，本指牡蛎这种贝类动物。后简化为‘蛎’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "因‘蛎鹬’以牡蛎为食，鸟名借用贝类名。见于近现代动物分类。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "‘石蠣’因外部形态或生态相似，借用贝类之名称呼海洋鱼类，见明代《本草纲目》。"
+    }
+  ]
+}

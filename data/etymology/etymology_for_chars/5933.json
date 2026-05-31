@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "interjection",
+      "meaning": "表示醒悟、領會、驚訝、同意、答應等語氣，如“噢，原來如此”。",
+      "examples": [
+        "噢，原來他是個當兵的！",
+        "噢，西安。西安真是個好地方。",
+        "站開，站開，知縣大老爺來了，噢。"
+      ],
+      "traditional_char": "噢"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "interjection",
+      "meaning": "表示痛苦、悲傷時發出的語聲，如“噢咻”、“噢咿”。",
+      "examples": [
+        "噢咿，內心悲傷。",
+        "噢咻，病痛之聲。"
+      ],
+      "traditional_char": "噢"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "叫喊，大聲叫。用於“叫”之義。",
+      "examples": [
+        "於到切，叫也。"
+      ],
+      "traditional_char": "噢"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 2,
+      "note": "形聲字，口為形，奧聲，表示發聲（叫喊）之義，最初用於叫喊或聲音相關。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 2,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "古代用於叫喊，衍生出表示痛苦、悲傷而發出的聲音。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "從表達痛苦及情感聲音引申為一般性語氣詞，常用於驚訝、醒悟、同意等語境。"
+    }
+  ]
+}

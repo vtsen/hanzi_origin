@@ -1,0 +1,118 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "往锅里添水",
+      "examples": [
+        "市丘之鼎以烹鸡，多洎之则淡而不可食，少洎之则焦而不熟。",
+        "水而洎之。"
+      ],
+      "traditional_char": "洎"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "肉汁，汤汁",
+      "examples": [
+        "御者知之，则去其肉而以其洎馈。",
+        "肥如煮肉洎，如石凝膏，谓之石漆。"
+      ],
+      "traditional_char": "洎"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "浸润，渗透",
+      "examples": [
+        "越之水，浊重而洎。",
+        "阴冥倏忽，沛泽咸洎。"
+      ],
+      "traditional_char": "洎"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "至，及，到达",
+      "examples": [
+        "吾及亲仕，三釜而心乐；后仕，三千钟而不洎，吾心悲。",
+        "洎乎晚节，秽乱春宫。"
+      ],
+      "traditional_char": "洎"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "preposition",
+      "meaning": "等到，自从，及；表示时间或起止，相当于“至”、“自从”",
+      "examples": [
+        "洎牧以谗诛，邯郸为郡。",
+        "自古洎今。",
+        "洎日午达于明旦，口喑尚未能语。"
+      ],
+      "traditional_char": "洎"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "conjunction",
+      "meaning": "和，及；连词用法，相当于“暨”",
+      "examples": [
+        "其在高宗，时旧劳于外，爰洎小人。"
+      ],
+      "traditional_char": "洎"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "水名（沁水的别称）",
+      "examples": [
+        "沁水，即洎水。"
+      ],
+      "traditional_char": "洎"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，自声，本义为往锅里加水。‘水’表意，‘自’表音。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘往锅里加水’引申为锅中之‘汁’（汤汁）；见左传注。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "添水、润物引申作‘浸润’，‘水’动作的形象推及。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "‘及（到）’本为‘添加至某处’，后直接引申抽象到‘达到’。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "grammaticalization",
+      "note": "‘及、到’虚化为介词表示时间起点或终点，如‘自古洎今’。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 5,
+      "evolution_type": "function_word",
+      "note": "‘及、到’进一步虚化为连接关系，相当于‘暨’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "metonymy",
+      "note": "以‘水流及处’引申为水名。"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "煮茧抽丝，将蚕茧中丝抽出。",
+      "examples": [
+        "夫人蚕缫，以为衣服。——《孟子·滕文公》",
+        "缫车（缫丝用的器具）"
+      ],
+      "traditional_char": "繅"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "五彩丝绳，用以修饰的色彩丝带。",
+      "examples": [
+        "五采缫，十有二就。——《周礼·夏官·弁师》",
+        "繅，杂文之名也，合五采丝为之绳，垂于延之前后。——郑玄注"
+      ],
+      "traditional_char": "繅"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "玉器的彩色垫板。",
+      "examples": [
+        "圭与繅皆九寸。——《仪礼·聘礼》",
+        "所以荐玉。——郑玄注"
+      ],
+      "traditional_char": "繅"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘繅’为形声字，从糸，巢声，古代本义为煮茧抽丝，与缫丝相关。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由抽丝本义，扩展为以多彩丝绳作装饰，见先秦、两汉典籍。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由彩色丝绳引申为玉器上作垫板的彩绳或其名称，汉代文献可考。"
+    }
+  ]
+}

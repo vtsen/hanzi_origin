@@ -1,0 +1,89 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "蹲坐；两腿分开坐，或指席地而坐并伸开腿",
+      "examples": [
+        "箕踞见贾。",
+        "沛公方踞床，使两女子洗足。",
+        "既免，复踞转而鼓琴。"
+      ],
+      "traditional_char": "踞"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "盘踞，占据（如占据重要地势或控制地区）",
+      "examples": [
+        "雄踞一方。",
+        "俄罗丝踞我伊犁，索重赂。",
+        "江东孙郎，久踞石头城。"
+      ],
+      "traditional_char": "踞"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "倚靠，依靠",
+      "examples": [
+        "据渭踞泾。",
+        "汉王下马踞鞍而问曰：‘吾欲捐关以东等弃之，谁可与共功者？’"
+      ],
+      "traditional_char": "踞"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "傲慢，不谦逊（通“倨”）",
+      "examples": [
+        "乃用妇人之言，何有踞肆于朝？",
+        "捐贫贱之故旧，轻人士而踞傲也。",
+        "单于骄踞，自比冒顿。"
+      ],
+      "traditional_char": "踞"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "形容如锯齿状",
+      "examples": [
+        "踞齿（锯牙）；踞牙（形如锯齿之牙）。"
+      ],
+      "traditional_char": "踞"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从足，居声。本义为蹲坐，足表意，居表声。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由蹲坐或盘踞的形态引申为盘踞、占据某地。早见于方位或势力扩展用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由坐、蹲转为倚靠，比喻身体或势力依托某物而存。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由随意坐（不拘礼节）引申为态度傲慢。与“倨”互通，出现于东汉以降文献。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由蹲、张开（腿、形）比喻用于形容形如锯齿，多见于后世技术描写。"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "喂马或饮马用的竹制器具。",
+      "examples": [
+        "篼，食马器也。——《说文》",
+        "饮马橐，自关而西或谓之掩兜，或谓之㡞篼。"
+      ],
+      "traditional_char": "篼"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "盛放东西用的竹器，也有用藤或柳条编成的容器，如背篼。",
+      "examples": [
+        "背的背背篼；提的提簍簍－－一伙儿上坡去。（康白情《朝气》诗）"
+      ],
+      "traditional_char": "篼"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "竹制的小轿，多用于走山路，通称“篼子”。",
+      "examples": [
+        "篼，音兜，今入闽，度仙霞者必乘竹篼子。",
+        "則知竹篼之制，漢已有之矣。"
+      ],
+      "traditional_char": "篼"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从竹，兜声；表示用竹编制的马厩用具，最早为喂马器。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由专指马具扩展为泛指盛物竹器，汉唐以降形成。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "因形状或用途相似，由盛物竹器引申为竹制小轿，伴随民间用法。"
+    }
+  ]
+}

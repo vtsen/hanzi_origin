@@ -1,0 +1,81 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "蚱蜢，一种身体绿色或褐色的昆虫，属蝗科，触角短，善于跳跃，对农作物有害。",
+      "examples": [
+        "田里有很多蚱蜢在跳。",
+        "一条线儿拴俩蚂蚱。"
+      ],
+      "traditional_char": "蚱"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "蚱蝉，蝉的一种。",
+      "examples": [
+        "夏天树上鸣叫的蚱蝉。"
+      ],
+      "traditional_char": "蚱"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "海蜇，水母之一种，亦作“鮓”。",
+      "examples": [
+        "蚱，海蜇也，南人治而食之。"
+      ],
+      "traditional_char": "蚱"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "蟾蜍的别名。",
+      "examples": [
+        "蚱蜢，淮南名去父也卽蟾蠩也。"
+      ],
+      "traditional_char": "蚱"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "小船名。",
+      "examples": [],
+      "traditional_char": "蚱"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从虫，乍声；本义指蚱蜢（蝗科昆虫）。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由昆虫泛指扩展至与其形态或叫声相近的蚱蝉。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "因地方语言或习俗，将‘蚱蜢’一词借称为蟾蜍。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "因蚱蜢行动敏捷，将小船比作蚱蜢。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "后用作海蜇之名，古书有记载，形状类比推移。"
+    }
+  ]
+}

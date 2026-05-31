@@ -1,0 +1,36 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "傈僳族，中华人民共和国的一个少数民族，主要分布在云南省。",
+      "examples": [
+        "傈僳族有着丰富的民族文化。",
+        "云南有大量傈僳族人民。"
+      ],
+      "traditional_char": "僳"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "other",
+      "meaning": "用于“傈僳”中，单独词义未详，仅作为音译用字。",
+      "examples": [],
+      "traditional_char": "僳"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "loan_character",
+      "original_sense_index": 1,
+      "note": "“僳”为音译字，主要用于民族名称“傈僳”，本身义未详，疑为借用音。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_narrowing",
+      "note": "由模糊音译字专指为“傈僳族”民族名称，现代语境下语义收窄。"
+    }
+  ]
+}

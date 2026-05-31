@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "从高处往下看，俯视",
+      "examples": [
+        "鸟瞰全城",
+        "站在山顶上可以瞰见全村"
+      ],
+      "traditional_char": "瞰"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "窥看",
+      "examples": [
+        "他从门缝中瞰房内动静"
+      ],
+      "traditional_char": "瞰"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "远望",
+      "examples": [
+        "东瞰目尽",
+        "登高可以远瞰四野"
+      ],
+      "traditional_char": "瞰"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从目，敢声；表示用眼从高处俯视，下观。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由俯视引申为远望，因高处远眺意相关。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由俯视引申为窥看，小范围观察含义强化。"
+    }
+  ]
+}

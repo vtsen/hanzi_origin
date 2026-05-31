@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "水名，淄河，中国山东省的一条河流。",
+      "examples": [
+        "嵎夷既略，濰淄其道。——《书·禹贡》",
+        "禹理水功毕，土石黑，数里之中波若漆，故谓之淄水也。——《括地志》"
+      ],
+      "traditional_char": "淄"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "古州名，以淄水得名，治所在今山东省淄博市。",
+      "examples": [
+        "隋置，治所在今山东省淄博市。",
+        "春秋时属齐，汉为济南郡，隋置淄州。"
+      ],
+      "traditional_char": "淄"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "黑色，通“缁”。",
+      "examples": [
+        "不曰白乎？涅而不淄。——《史记·孔子世家》",
+        "化白于泥淄。——《太玄·更》",
+        "在涅贵不淄。——崔瑗《座右铭》"
+      ],
+      "traditional_char": "淄"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "染黑、污染。",
+      "examples": [
+        "塵情良易著，道性故難淄。——明 梅鼎祚《玉合记·嗣音》"
+      ],
+      "traditional_char": "淄"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，菑声，本义为水名。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "以河名借指沿河设立的行政区域。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "因淄水色黑，引申为黑色义。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "grammaticalization",
+      "note": "由形容词“黑色”转为动词“使变黑、染黑”。"
+    }
+  ]
+}

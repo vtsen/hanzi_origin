@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "赤羽雀，一种雄鸟羽毛呈赤色的鸟，雌鸟为“翠”",
+      "examples": [
+        "翡，赤羽雀也。出郁林。——《说文》",
+        "雄赤曰翡，雌青曰翠，出郁林。——唐·玄应《一切经音义》"
+      ],
+      "traditional_char": "翡"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "用其羽毛或代指以赤羽雀羽毛为饰品",
+      "examples": [
+        "翡帷翠帐，饰高堂些。——《楚辞·招魂》"
+      ],
+      "traditional_char": "翡"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "翡翠，指可用作装饰品的矿物，绿色、蓝绿色、白色带绿色斑纹，也指硬玉",
+      "examples": [
+        "饰以翡翠。——《汉书·贾山传》",
+        "翡翠"
+      ],
+      "traditional_char": "翡"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从羽，非声，最初表示赤羽雀的雄鸟。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由赤羽雀本体引申为以其羽毛作饰品的用法，见于《楚辞》。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "因翡翠矿物的色泽、珍贵比拟同名鸟的羽毛（雄赤、雌青），后专指玉石，常与“翠”对举。"
+    }
+  ]
+}

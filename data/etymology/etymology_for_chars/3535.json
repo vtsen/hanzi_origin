@@ -1,0 +1,106 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "大，宏大，伟大",
+      "examples": [
+        "丕，大也。——《说文》",
+        "嘉乃丕绩。《尚书·大禹谟》",
+        "弼我丕丕基。《书·大诰》"
+      ],
+      "traditional_char": "丕"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "奉，尊奉，继承",
+      "examples": [
+        "丕天之大律。——《汉书·郊祀志下》",
+        "未丕扬先帝之盛功。——《汉书·匡衡传》",
+        "丕视功载。——《书·洛誥》"
+      ],
+      "traditional_char": "丕"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "conjunction",
+      "meaning": "乃，於是（起承上启下之意）",
+      "examples": [
+        "三危既宅，三苗丕敘。《尚书·禹贡》",
+        "先后丕降与汝罪疾。《尚书·盘庚》"
+      ],
+      "traditional_char": "丕"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "particle",
+      "meaning": "助词（无实义，用于句首或句中）",
+      "examples": [
+        "女丕远惟商耇成人。《尚书·康诰》",
+        "丕惟曰。《书·酒诰》",
+        "其丕能諴於小民。《书·召诰》"
+      ],
+      "traditional_char": "丕"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "春秋晋有丕郑。",
+        "太医令吉丕。——《后汉书·耿秉传》"
+      ],
+      "traditional_char": "丕"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "通“不”，表示否定",
+      "examples": [
+        "是有丕子之责于天。《书·金縢》",
+        "以丕为负。《史记·鲁周公世家》"
+      ],
+      "traditional_char": "丕"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "simple_indicative",
+      "original_sense_index": 0,
+      "note": "从一，不声，表示大、广大之意，为会意或指事构形，强调“一”之上为广大。《说文》释为大，学界多认为古文字与“大”相关。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由“大”的本义引申为尊奉、承继，因奉之事必大。汉、晋及后世用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "grammaticalization",
+      "note": "由“大”的意义虚化为连接上下文的连词，表结果或转折。先秦文献常见。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "grammaticalization",
+      "note": "由连词进一步虚化成无实义的助词，常置于句首或句中。多见于《书经》等古籍。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "conversion",
+      "note": "由形容词“大”转用为姓氏。中国古姓多由美称、形容词转化。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "古文中以“丕”借为“不”，同音通假，见《书·金縢》。后世专用“不”。"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "脚底用力猛踢",
+      "examples": [
+        "把门踹开",
+        "用力踹球"
+      ],
+      "traditional_char": "踹"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "失足踩下",
+      "examples": [
+        "没注意一脚踹在烂泥里"
+      ],
+      "traditional_char": "踹"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘踹’为形声字，从足，串声，本义为用脚猛踢。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“用脚猛踢”引申为“失足踩下”，意义拓展"
+    }
+  ]
+}

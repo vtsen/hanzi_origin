@@ -1,0 +1,40 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "竹席，用竹编成的席子。",
+      "examples": [
+        "铺设筵席",
+        "筵上设座"
+      ],
+      "traditional_char": "筵"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "酒席，宴席。",
+      "examples": [
+        "喜筵",
+        "寿筵",
+        "宴开十桌筵"
+      ],
+      "traditional_char": "筵"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从竹，延声；本义为竹席。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由“竹席”引申为“酒席、宴席”，因盛宴多设于席上。"
+    }
+  ]
+}

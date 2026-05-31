@@ -1,0 +1,41 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "胸，胸部",
+      "examples": [
+        "直抒胸臆",
+        "胸中块垒，郁结于臆"
+      ],
+      "traditional_char": "臆"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "主观臆断，主观的想法或意见",
+      "examples": [
+        "臆测",
+        "臆断",
+        "臆见",
+        "臆度"
+      ],
+      "traditional_char": "臆"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从“肉”表示与身体相关，“意”为声旁，表示本义为胸骨或胸部。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由胸部引申为发自内心的思想或主观看法，语义联系表现为心理与胸的文化关联，汉代已见。"
+    }
+  ]
+}

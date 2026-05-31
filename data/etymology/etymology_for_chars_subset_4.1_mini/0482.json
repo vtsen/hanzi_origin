@@ -1,0 +1,150 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "上古称君主",
+      "examples": [
+        "商之先后（先王）"
+      ],
+      "traditional_char": "后"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "帝王的妻子",
+      "examples": [
+        "皇后",
+        "太后"
+      ],
+      "traditional_char": "后"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "指空间在背面，反面的，与“前”相对",
+      "examples": [
+        "后窗户",
+        "后面",
+        "后学",
+        "后缀",
+        "后进"
+      ],
+      "traditional_char": "后"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "时间较晚，与“先”相对",
+      "examples": [
+        "日后",
+        "后来",
+        "后期"
+      ],
+      "traditional_char": "后"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "指次序，与“前”相对",
+      "examples": [
+        "后排",
+        "后十名"
+      ],
+      "traditional_char": "后"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "子孙",
+      "examples": [
+        "后辈",
+        "后嗣",
+        "后裔",
+        "后昆",
+        "无后（没有子孙）"
+      ],
+      "traditional_char": "后"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [],
+      "traditional_char": "后"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "noun",
+      "meaning": "君主，帝王（旧义）",
+      "examples": [],
+      "traditional_char": "後"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 7,
+      "note": "‘後’从‘人’与‘口’，象征君主发号施令，是君主的象形和会意字，代表帝王的本义。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘后’为‘君’的简化字，用作表示古代君主，含有从‘口’的象征，表达命令的含义。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "‘后’用以指帝王的妻子，意义由君主义引申而来，形成音义兼备的形声结构。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 2,
+      "note": "‘后’表示空间方位（背面），从空间位置意义引申，结构具有指示性意义成分。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 7,
+      "target_index": 0,
+      "evolution_type": "semantic_narrowing",
+      "note": "‘後’古义为君主，后来‘后’简化用以指代古代君主。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "君主义引申为帝王的妻子，如皇后、太后。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由君主位置引申为空间背面、后方，与‘前’相对。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "空间后方意义引申为时间较晚。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "时间顺序的“后”进一步引申为次序上的后。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "metonymy",
+      "note": "君主的后代转义为子孙后裔。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "conversion",
+      "note": "君主相关用字转用为姓氏。"
+    }
+  ]
+}

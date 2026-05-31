@@ -1,0 +1,73 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "情意缠绵，感情好得离不开。",
+      "examples": [
+        "缱绻难舍。",
+        "观之不足由他缱，便赏遍了十二亭台是枉然。"
+      ],
+      "traditional_char": "繾"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "紧束；牵住。",
+      "examples": [
+        "偶然间心似缱，梅树边。——明·汤显祖《牡丹亭》"
+      ],
+      "traditional_char": "繾"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "拉船用的绳索；拖索。",
+      "examples": [
+        "来往不凭风力，归舟挽缱多至二十余人。——《天工开物》"
+      ],
+      "traditional_char": "繾"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "简化字“缱”的用法，与“繾”同。",
+      "examples": [
+        "现代用法如缱绻。"
+      ],
+      "traditional_char": "缱"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "繾由纟（糸）作形旁，蹇为声旁，表示与丝线相关的动作（紧束、缠绕）。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 3,
+      "note": "“缱”为“繾”的简化字，用糸旁与声符“欠”简化为“缱”。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "metaphor",
+      "note": "由“紧束、牵住”比喻感情难解、情意缠绵，见古文例句。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由“紧束、牵住”引申为具体的绳索工具，即拉船用的绳索。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "reanalysis",
+      "note": "“缱”为“繾”的简化字，现代书写用法发生转换。"
+    }
+  ]
+}

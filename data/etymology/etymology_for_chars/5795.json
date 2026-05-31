@@ -1,0 +1,135 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "米粒；饭粒",
+      "examples": [
+        "厨乏聚蝇之糁。",
+        "炊秔米饭为糁。",
+        "云重寒空思寂寥，玉尘如糝满春朝。"
+      ],
+      "traditional_char": "糝"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "谷类磨成的碎粒，谷物碎渣",
+      "examples": [
+        "一人一碗玉茭、高粱糁糊糊，里边煮着几块山药。",
+        "玉米糁"
+      ],
+      "traditional_char": "糝"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "散粒，碎粒，粒状物",
+      "examples": [
+        "红糁铺地，门外荆桃如菽。",
+        "糁糁（粒粒，颗颗）"
+      ],
+      "traditional_char": "糝"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "以米和羹，煮饭时将米与羹调和",
+      "examples": [
+        "七日不食，藜羹不糁。",
+        "和糝不蓼。",
+        "羹糁也。"
+      ],
+      "traditional_char": "糝"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "洒，散落，撒下碎粒",
+      "examples": [
+        "糁径杨花铺白毡，点溪荷叶叠青钱。",
+        "雪花攙，一半儿旋销，一半儿糝。",
+        "飘洒米粒。"
+      ],
+      "traditional_char": "糝"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "涂抹；粘附细末",
+      "examples": [
+        "石青糁之。",
+        "又传寿星散，专治恶疮，痛不可当者，糁之不痛。"
+      ],
+      "traditional_char": "糝"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "杂，混和",
+      "examples": [
+        "冬瓜切碎者，以石灰糝之则不烂。",
+        "肉里多糁些。"
+      ],
+      "traditional_char": "糝"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "noun",
+      "meaning": "米粒（指煮熟的，方言用法）",
+      "examples": [],
+      "traditional_char": "糁"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 3,
+      "note": "“糝”从“食”表义，朁声，本义为以米和羹。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 3,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "由“以米和羹”的动作引申为“米粒、饭粒”等具体物。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由“米粒”推广至任何粒状、碎状物。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“米粒”引申为谷类磨成的碎粒。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 4,
+      "evolution_type": "semantic_shift",
+      "note": "从“粒状物”转为“洒、散落”动作。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "“散落”引申为“撒细末于物体表面”，即涂抹之义。"
+    },
+    {
+      "source_index": 5,
+      "target_index": 6,
+      "evolution_type": "semantic_extension",
+      "note": "由“涂抹细末”进一步引申为“混和、杂和”的动作。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 7,
+      "evolution_type": "semantic_narrowing",
+      "note": "方言中专指煮熟的米粒。"
+    }
+  ]
+}

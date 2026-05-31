@@ -1,0 +1,87 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "水名，即湟水，源出青海省海晏县，流经西宁，注入黄河。",
+      "examples": [
+        "湟，湟水也。出金城临羌塞外，东入河。——《说文》",
+        "北则湟水所出，东至允吾入河。——《汉书·地理志下》"
+      ],
+      "traditional_char": "湟"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "城池，护城河。",
+      "examples": [
+        "湟池纡曲。——枚乘《七发》。注：“城池也。”",
+        "新李新弃马踰城，二人者遽命将追及，堕湟水中，斩其首。——《归潜志》"
+      ],
+      "traditional_char": "湟"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "低洼积水的地方。",
+      "examples": [
+        "湟潦生苹。",
+        "湟，下处也。——《太戴记·夏小正》"
+      ],
+      "traditional_char": "湟"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "寒水，冷水。（古音通“況”）",
+      "examples": [
+        "湟，寒水也，一曰益也。——《说文》",
+        "许放切，音貺。与況同，寒水也。"
+      ],
+      "traditional_char": "湟"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "大波浪、流水汹涌貌。",
+      "examples": [
+        "潏湟，水波漂疾之貌。《郭璞·江赋》：潏湟淴泱。",
+        "汨湟，絞槩汨湟，五音代转。——《马融·长笛赋》"
+      ],
+      "traditional_char": "湟"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从‘水’（表意），‘皇’（表音），本义为水名湟水。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由河流（湟水）引申为河流环绕之城池，即护城河之意。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由特指湟水，扩大为泛指低洼积水的地方。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由低洼积水之意，引申为寒水，清寒之地偏义。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "由河水引申为水波湍急、汹涌的状态，形象性修辞。"
+    }
+  ]
+}

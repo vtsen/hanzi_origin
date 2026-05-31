@@ -1,0 +1,53 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "黄河",
+      "examples": [
+        "河套",
+        "河防"
+      ],
+      "traditional_char": "河"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "水道的通称",
+      "examples": [
+        "河道",
+        "河流"
+      ],
+      "traditional_char": "河"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "银河系",
+      "examples": [
+        "天河",
+        "河汉"
+      ],
+      "traditional_char": "河"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声。从水，可声。本义：黄河"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor"
+    }
+  ]
+}

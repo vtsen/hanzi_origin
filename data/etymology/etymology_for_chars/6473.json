@@ -1,0 +1,160 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "锐器，尖锐锋利的金属器具",
+      "examples": [
+        "石子比刀鑱。",
+        "鑱，銳也。——《說文》"
+      ],
+      "traditional_char": "鑱"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "犁头、犁铁，古代一种农具，用于开垦土地",
+      "examples": [
+        "犁铁，即犁头。与铧相类而形制不同，锐利厚重，适宜开垦生地。",
+        "手长镵，为除不洁者。——方苞《左忠毅公逸事》",
+        "長鑱長鑱白木柄，我生託子以為命。——杜甫"
+      ],
+      "traditional_char": "鑱"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "长柄挖掘器具，长柄带尖的掘土工具",
+      "examples": [
+        "掘土用的长柄器具，称长鑱。",
+        "斸雪荷長鑱。——顧炎武"
+      ],
+      "traditional_char": "鑱"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "利锥，锥形金属器具",
+      "examples": [
+        "施铁鑱。",
+        "鐵鑱，云破城得質，當坐之此上。——《宋書》"
+      ],
+      "traditional_char": "鑱"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "刺、扎，以器具刺物",
+      "examples": [
+        "鑱血脈，投毒藥。——《鶡冠子》",
+        "鑱臂血寫浮屠書。——《新唐書》"
+      ],
+      "traditional_char": "鑱"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "凿、雕刻、刻凿石头等",
+      "examples": [
+        "鑱大硯以著《漢春秋》。——宋敏求",
+        "鑱山出石門，可通輓道。——《新唐書》"
+      ],
+      "traditional_char": "鑱"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "掘、挖，用器具掘地或掘物",
+      "examples": [
+        "不暇鑱黃獨。——許有壬"
+      ],
+      "traditional_char": "鑱"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "verb",
+      "meaning": "消失（文学性用法）",
+      "examples": [
+        "有修，以言說說其無言說，必有悉檀焉，烏有一切鑱者乎？——龔自珍"
+      ],
+      "traditional_char": "鑱"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "noun",
+      "meaning": "锐器、刺针，针灸用的石针或金属针",
+      "examples": [
+        "镵石（治病用的石针）"
+      ],
+      "traditional_char": "镵"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "『鑱』为形声字，从金，毚声，表示锐利的金属工具。"
+    },
+    {
+      "formation_type": "simple_indicative",
+      "original_sense_index": 8,
+      "note": "『镵』为『鑱』的简化字，字形简化自传统字，基本意义承袭。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由泛指锐利金属器具专指到农具犁头。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "泛指锐器向长柄掘土工具的具体化。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_narrowing",
+      "note": "从锐器泛指到专指利锥。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "conversion",
+      "note": "名词作动词用，表示用锐器刺。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "metonymy",
+      "note": "指用器物进行凿刻的动作。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 6,
+      "evolution_type": "conversion",
+      "note": "器名作动词用，指用镵掘地。"
+    },
+    {
+      "source_index": 5,
+      "target_index": 6,
+      "evolution_type": "semantic_extension",
+      "note": "从雕刻、凿延伸到掘、挖，一类动作工具转换。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 7,
+      "evolution_type": "metaphor",
+      "note": "由器物动作转化为文学性‘消失’之意，极为罕见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 8,
+      "evolution_type": "semantic_extension",
+      "note": "由‘锐器’义引申为医用刺针、石针。"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "小毛病，微小的病症或瑕疵",
+      "examples": [
+        "吹毛求疵",
+        "此物微有细疵"
+      ],
+      "traditional_char": "疵"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "缺点或过错",
+      "examples": [
+        "瑕疵",
+        "疵咎",
+        "疵点"
+      ],
+      "traditional_char": "疵"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "诽谤，非议",
+      "examples": [
+        "疵毁",
+        "疵物"
+      ],
+      "traditional_char": "疵"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从疒表与疾病相关，“此”作声符，表示小病、微小毛病。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“身体的小病”引申为“一般事物的缺点、过失”。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由“缺点”转指“揭人缺点，从而引申为诽谤”。"
+    }
+  ]
+}

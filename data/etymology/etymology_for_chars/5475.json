@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "讥笑，嘲笑他人。",
+      "examples": [
+        "人皆嗤吾固陋，吾不以为病。",
+        "但欲愚者悦，不思贤者嗤。"
+      ],
+      "traditional_char": "嗤"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "onomatopoeia",
+      "meaning": "形容布等扯裂或撕开的声音。",
+      "examples": [
+        "嗤嗤嗤扯碎布袍，支支支顿断麻絛。",
+        "晴雯没的说，‘嗤’的又笑了。",
+        "天上的星辰，骤雨般落在大海上，嗤嗤繁响。"
+      ],
+      "traditional_char": "嗤"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "interjection",
+      "meaning": "表示唾弃和惊异。",
+      "examples": [
+        "嗤，这话才叫怪。没了命，倒说没有什么恨。",
+        "这新来的家伙，看他的模样就知道是个等着糊口的货色，却也说得这样好听。嗤！无非迎合校长的意思。"
+      ],
+      "traditional_char": "嗤"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从口，蚩声，形声字；本义为讥笑、嘲笑，与发声行为相关。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由嘲笑的发声行为引申为模仿撕裂等尖锐声音的象声词。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "grammaticalization",
+      "note": "由表示讥笑、轻蔑行为演变为表达唾弃或惊异的感叹词。"
+    }
+  ]
+}

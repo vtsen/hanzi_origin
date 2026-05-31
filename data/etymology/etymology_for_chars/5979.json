@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "陈设或准备饮食",
+      "examples": [
+        "盛馔",
+        "陈馔"
+      ],
+      "traditional_char": "饌"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "饮食，食物",
+      "examples": [
+        "玉馔",
+        "嘉馔"
+      ],
+      "traditional_char": "饌"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "食用，吃饮食",
+      "examples": [
+        "有酒食，先生馔"
+      ],
+      "traditional_char": "饌"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从‘食’表示与食物相关，‘巽’为声旁，本意指陈设或准备食物。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘陈设饮食’引申为‘饮食、食物’之意，常见于汉晋文献。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由‘陈设饮食’进一步引申为‘食用、吃’的行为，见于古文实际用法。"
+    }
+  ]
+}

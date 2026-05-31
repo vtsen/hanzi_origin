@@ -1,0 +1,70 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "水边，指离水稍远的岸上平地",
+      "examples": [
+        "绵绵葛藟，在河之浒。",
+        "万人凿盘石，无由达江浒。",
+        "岸上平地，去水稍远者名浒。"
+      ],
+      "traditional_char": "滸"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "淮水溢出所形成的小水",
+      "examples": [
+        "淮为浒。——《尔雅》。郭璞注：“皆大水溢出，别为小水之名。”"
+      ],
+      "traditional_char": "滸"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "伐木的声音（如浒浒）",
+      "examples": [
+        "伐木浒浒。——《诗·小雅》"
+      ],
+      "traditional_char": "滸"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "地名用字，如“浒墅关”“浒浦”（江苏省）",
+      "examples": [
+        "浒墅关为苏州市西北门户。",
+        "浒浦位于常熟市东北。"
+      ],
+      "traditional_char": "滸"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，许声，表水边之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘水边’引申为‘水溢出的分支小水’，见《尔雅》。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由水边的声响，引申为‘伐木声’，取声响象似。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "因‘水边’等地理特征，用作地名。"
+    }
+  ]
+}

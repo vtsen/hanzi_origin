@@ -1,0 +1,96 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "水名。即千河，今甘肃、陕西间的河流。",
+      "examples": [
+        "汧水，出右扶風汧縣西北，入渭。"
+      ],
+      "traditional_char": "汧"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "水泉出而汇聚为沼泽，或河水溢为沼泽。",
+      "examples": [
+        "汧，出不流。",
+        "水决之泽为汧。"
+      ],
+      "traditional_char": "汧"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "古县名。在今陕西省千阳县，古称“汧阳”。",
+      "examples": [
+        "汧阳，县名，在陕西省。今作千阳。"
+      ],
+      "traditional_char": "汧"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "古山名。即岍山，在今陕西省陇县西南。",
+      "examples": [
+        "汧及岐至于荆山，踰于河。"
+      ],
+      "traditional_char": "汧"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "漂，冲击。",
+      "examples": [
+        "淋或为汧。‘汧，漂也。’"
+      ],
+      "traditional_char": "汧"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "adjective",
+      "meaning": "净，清洁。",
+      "examples": [],
+      "traditional_char": "汧"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从水，幵声，表示水相关的地理实体，最初专指水名。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由专指某条河流扩展为泛指水泉聚集处、沼泽。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "以河流名借指流域古邑、县名。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "以水域地名引申为附近的山名。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "河水流动引申为漂、冲击之意。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "semantic_shift",
+      "note": "水之净，引申为清洁之义。"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "门槛；门下的横木、石条或金属条",
+      "examples": [
+        "亡马，不发户辚。",
+        "虽欲谨，亡马不发户辚。"
+      ],
+      "traditional_char": "轔"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "车轮",
+      "examples": [
+        "迁于祖用轴，轴状如转轔。",
+        "轔，轮也。"
+      ],
+      "traditional_char": "轔"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "onomatopoeia",
+      "meaning": "象声词，形容车行走时的轧轧声",
+      "examples": [
+        "车辚辚，马萧萧。",
+        "有车鄰鄰，有马白颠。",
+        "肃肃习习，隐隐辚辚。"
+      ],
+      "traditional_char": "轔"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "车轮碾轧，践踏",
+      "examples": [
+        "虏自相辚藉，死者千余人。",
+        "以轔乌合之众，如摧枯折腐耳。",
+        "掩兔轔鹿。"
+      ],
+      "traditional_char": "轔"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 2,
+      "note": "形声字，从车，粦声。最初表车行声。形声法明确。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 2,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由车轮的声音转指发声器——车轮本身，汉代前有例。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "由车轮引申为车轮碾轧之动作。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "metaphor",
+      "note": "门槛形状如车轮的横材，引申为门槛义。"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "迷茫不知所措的样子",
+      "examples": [
+        "伥伥然无所适从。",
+        "人无法则伥伥然。——《荀子·修身》"
+      ],
+      "traditional_char": "倀"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "古代传说中被老虎咬死的人变成的鬼，会引导老虎伤人（伥鬼）",
+      "examples": [
+        "为虎作伥。",
+        "号为“伥子”。——《资治通鉴》"
+      ],
+      "traditional_char": "倀"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "指为盗贼察情探路的人，或帮凶、助纣为虐的人",
+      "examples": [
+        "其为响马贼之伥无疑。——清·酉阳《女盗侠传》",
+        "为虎作伥"
+      ],
+      "traditional_char": "倀"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "迷茫不知所措、无所适从",
+      "examples": [
+        "无所适从。又称伥伥。",
+        "倀无所适。"
+      ],
+      "traditional_char": "倀"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "狂（本义）",
+      "examples": [
+        "伥，狂也。俗字作猖。——《说文》",
+        "号为“伥子”。——《资治通鉴》。胡三省注：“伥，狂。”"
+      ],
+      "traditional_char": "倀"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 4,
+      "note": "‘倀’为形声字，从人，长声，‘长’表示音读，‘人’表人在狂乱行为。最初本义为‘狂’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 4,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "‘狂’引申为迷茫、不知所措的状态，出现在先秦典籍。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "conversion",
+      "note": "由形容词状态转为动词用法，仍指迷茫无措。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "‘狂乱失据’的状态比喻为丧命后游魂，进而引申为传说中被虎吃人成‘伥鬼’的灵魂。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "‘伥鬼’引申比喻为帮凶、助恶者，常用‘为虎作伥’比拟助纣为虐。"
+    }
+  ]
+}

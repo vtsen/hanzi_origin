@@ -1,0 +1,86 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古水名（渚水）",
+      "examples": [
+        "渚水在常山中丘逢山，東入湡。"
+      ],
+      "traditional_char": "渚"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "水中的小块陆地，小洲",
+      "examples": [
+        "小洲曰渚。——《说文》引《尔雅》",
+        "两涘渚涯之间。——《庄子·秋水》",
+        "江有渚，之子归，不我与。——《诗·召南·江有渚》",
+        "汛洲清川渚，遥望高山阴。——晋·陆机《豫章行》"
+      ],
+      "traditional_char": "渚"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "海中之岛",
+      "examples": [
+        "东海之渚中神，人机鸟身。——《山海经·大荒东经》"
+      ],
+      "traditional_char": "渚"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "水边，水涯",
+      "examples": [
+        "朝骋骛兮江皋，夕弭节兮北渚。——《楚辞·湘君》",
+        "渚莲（水边荷花）"
+      ],
+      "traditional_char": "渚"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "蓄水处，池塘（通“瀦”）",
+      "examples": [
+        "导水潦，利陂沟，决潘渚。——《管子·五辅》"
+      ],
+      "traditional_char": "渚"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，者声。本义为古水名“渚水”，后义多由此引申。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "以本义古水名为基础，引申为水中小块陆地。此为地名义到通类名词的自然语义推广。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "从水中小洲之义引申为海中之岛。见《山海经》，属小洲的进一步拓展。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由水中小块陆地转指水边、水涯，谓义延伸。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由小洲义借用为蓄水池塘之义，也作“瀦”。属语义侧重转用。"
+    }
+  ]
+}

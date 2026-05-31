@@ -1,0 +1,77 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "狠毒，强悍",
+      "examples": [
+        "长安险固，风俗豪忮。",
+        "忮，很也。从心，支声。——《说文》"
+      ],
+      "traditional_char": "忮"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "嫉妒；忌恨",
+      "examples": [
+        "不忮不求，何用不臧？——《诗·邶风·雄雉》",
+        "鞫人忮忒。——《诗·大雅·瞻卬》"
+      ],
+      "traditional_char": "忮"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "固执",
+      "examples": [
+        "其貞忮若此。",
+        "猶強忮堅忍以冀其成者。"
+      ],
+      "traditional_char": "忮"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "违逆，违抗",
+      "examples": [
+        "不忮于众。",
+        "天下不忮于众。——《庄子·达生》"
+      ],
+      "traditional_char": "忮"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从心，支声，初表‘狠毒、强悍’之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由强悍、狠毒之意引申出嫉妒、忌恨，多见于文献引申。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "‘强悍’引申为‘固执’，因个性过强而转义。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "固执引伸为违逆、违抗，见于论述个性或行为的语境。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "unknown",
+      "note": "‘狠毒、强悍’与‘违逆’之间存在语义关联，常见训诂但演变机制不详。"
+    }
+  ]
+}

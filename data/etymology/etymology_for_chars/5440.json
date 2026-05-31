@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "嘴向前突出，撅着。",
+      "examples": [
+        "她擺出一副長馬臉，嘟着嘴，悶悶地坐着。",
+        "嘴巴雖嘟得多高，可是嘴角上還是忍不住挂着笑。"
+      ],
+      "traditional_char": "嘟"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "低声自言自语（含抱怨），常与“囔”连用。",
+      "examples": [
+        "别瞎嘟囔了。",
+        "他一个人在屋里嘟囔。"
+      ],
+      "traditional_char": "嘟"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "onomatopoeia",
+      "meaning": "形容管乐器、汽车喇叭等发出的短促声音。",
+      "examples": [
+        "汽车喇叭嘟嘟响。",
+        "‘嘟！嘟！’汽管子嘶着尖锐的喉咙，接连的叫着。"
+      ],
+      "traditional_char": "嘟"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "interjection",
+      "meaning": "用于申斥，多见于戏曲台词中。",
+      "examples": [
+        "嘟！你身为七品知县，竟然殴打国公的差官。",
+        "嘟！胆大的张彪，竟敢假借老夫之名，如此的胡为。"
+      ],
+      "traditional_char": "嘟"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“嘟”为形声字，从口，音都，‘口’表示与口或发声有关，本义为嘴向前突出。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由嘴撅起引申为嘴里低声自语，带有嘟囔含义。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "撅嘴或鼓起嘴发出的声音形象比喻为管乐器等发出的嘟嘟声。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "function_word",
+      "note": "由象声词引申为戏曲中表示申斥的叹词，用音模拟管乐器或警告声。"
+    }
+  ]
+}

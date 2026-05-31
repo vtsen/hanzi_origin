@@ -1,0 +1,60 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "浅水中的沙石或沙石浅滩",
+      "examples": [
+        "碛，水渚有石者。——《说文》",
+        "吴越谓之濑，中国谓之碛。——《汉书·元帝纪》注",
+        "僵禽毙兽，烂若碛砾。——张衡《西京赋》",
+        "激水為湍，積石為磧。——《唐律疏议》",
+        "玩其碛砾而不窥玉渊者。——左思《吴都赋》"
+      ],
+      "traditional_char": "磧"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "沙漠；不生草木的沙石地",
+      "examples": [
+        "暮云空碛时驱马，秋日平原好射雕。——王维《出塞作》",
+        "冬十月戊戌，北征蠕蠕，追破之于大磧南商山下。——《北史·魏纪一》",
+        "今君渡沙磧，絫月断人烟。——杜甫《送人从军诗》",
+        "磧中万骑骄嘶雪，头挂金鞍敌初灭。——明 高启"
+      ],
+      "traditional_char": "磧"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "急流；湍急的水流",
+      "examples": [
+        "吳越謂之瀨，中國謂之磧。——《漢書·元帝紀》注",
+        "甲为下瀨将军……瀨，湍也，吳越謂之瀨，中國謂之磧。"
+      ],
+      "traditional_char": "磧"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "磧为形声字，从石，責声。最初指水中沙石。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由水中沙石的意象引申为广大的沙石地或沙漠，出现于较晚文献。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "synecdoche",
+      "note": "急流附近常有沙石浅滩，以局部代整体，用于指急流本身。"
+    }
+  ]
+}

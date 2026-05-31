@@ -1,0 +1,53 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "买卖货物时延期付款或收款",
+      "examples": [
+        "赊账",
+        "赊购",
+        "赊欠"
+      ],
+      "traditional_char": "賒"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "长，远",
+      "examples": [
+        "长笛起谁家，秋凉夜漏赊",
+        "万里休言道路赊"
+      ],
+      "traditional_char": "賒"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "古同“奢”，奢侈",
+      "examples": [],
+      "traditional_char": "賒"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从贝，表示与货财相关，佘声。最初含义为赊欠，即货物赊卖。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由买卖赊欠引申为时间、空间延长，古诗中常见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "unknown",
+      "note": "‘赊’与‘奢’音近而义通，用为奢侈义，具体机制存疑。"
+    }
+  ]
+}

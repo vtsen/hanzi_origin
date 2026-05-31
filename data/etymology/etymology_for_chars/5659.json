@@ -1,0 +1,88 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "蓼科植物的泛称，一年生或多年生草本，叶披针形，花小，多生水边或水中，味辛辣，可作调味料或药用。",
+      "examples": [
+        "李贺《春归昌谷》：“逸目骈甘华，羁心如荼蓼。”",
+        "《礼记·内则》： “濡豚，包苦实蓼；濡鸡，醢酱实蓼。”",
+        "《诗经·周颂·良耜》： “以薅荼蓼。”"
+      ],
+      "traditional_char": "蓼"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "比喻辛苦、艰难。",
+      "examples": [
+        "《诗经·周颂·小毖》：“未堪家多难，予又集于蓼。”",
+        "《新唐书·李景略传》：“节用约己，与士同甘蓼。”"
+      ],
+      "traditional_char": "蓼"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "春秋时期诸侯国名及古地名、古县名，地在今河南省一带。",
+      "examples": [
+        "《左传·桓公十一年》：“鄖人军于蒲骚，将与随、絞、州、蓼伐楚师。”",
+        "《左传·文公五年》：“冬，楚公子燮灭蓼。”"
+      ],
+      "traditional_char": "蓼"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [
+        "《通志·氏族二》：“莒蓼皆皋陶之后也。”",
+        "唐羽林将军蓼崇业。"
+      ],
+      "traditional_char": "蓼"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "形容植物高大。",
+      "examples": [
+        "《诗经·小雅·蓼萧》：“蓼蓼者莪。”",
+        "蓼蓼（长大的样子）。"
+      ],
+      "traditional_char": "蓼"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字。从艸，“翏”为声。表示一种味辛的水生植物。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "因水蓼味辛，转而比喻生活艰辛，见《诗经》。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "地名和国名多因地多蓼草而得名。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "reanalysis",
+      "note": "以地名为氏，形成姓氏。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "synecdoche",
+      "note": "蓼茎干高大，故引申为高大的样貌。《诗经》中用以形容。"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "马快速奔驰的样子",
+      "examples": [
+        "骠，马行疾貌。——《集韵》",
+        "骠骑（中国汉代将军的名号）"
+      ],
+      "traditional_char": "驃"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "勇猛，矫健",
+      "examples": [
+        "骠悍（勇猛）",
+        "骠壮（刚烈健壮）"
+      ],
+      "traditional_char": "驃"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "黄毛夹杂白点的马，特指黄骠马",
+      "examples": [
+        "黄骠马",
+        "妻子山中哭向天，须公枥上追风骠。——杜甫《徒步归行》"
+      ],
+      "traditional_char": "驃"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "古国名，骠国，今缅甸境内",
+      "examples": [
+        "骠信（古国骠国的国君）"
+      ],
+      "traditional_char": "驃"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 2,
+      "note": "“驃”为形声字，从马，票声，最早指黄色夹白的马。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 2,
+      "target_index": 0,
+      "evolution_type": "metonymy",
+      "note": "由特指马的品种引申为马快速奔跑的样子，用马种的形象特征指代动作状态。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由形容马奔跑迅速，比喻人的勇猛矫健，常用于褒义人的勇敢。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "用代表性动物名称借指国家名称，进入地名用法，如骠国。"
+    }
+  ]
+}

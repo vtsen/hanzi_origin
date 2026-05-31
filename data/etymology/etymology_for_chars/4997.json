@@ -1,0 +1,53 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "皮肤因寒冷或干燥而裂开。",
+      "examples": [
+        "足胅皲裂而不知。",
+        "冬日手皲，日沃湯數次。",
+        "士皸寒，反為虜襲。"
+      ],
+      "traditional_char": "皲"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "皮膚因寒冷、乾燥而裂口（同“皲”，僅為傳統寫法）。",
+      "examples": [
+        "手足之皮皸裂，痛不可忍。"
+      ],
+      "traditional_char": "皸"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "瘃足，足部因寒冷腫脹之病。",
+      "examples": [
+        "瘃足也。"
+      ],
+      "traditional_char": "皸"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“皲”形声字，从“皮”表意，表示与皮肤相关，本义为皮肤开裂，囷声。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "“皸”乃“皲”之异体字，形声结构，同样从‘皮’表意，囷声。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由皮肤开裂之意引申至因冻导致的足部肿胀疾病（瘃足），反映实际生活中相关症状的连带。"
+    }
+  ]
+}

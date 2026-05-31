@@ -1,0 +1,72 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "正妻，在封建宗法制度中指正式妻子",
+      "examples": [
+        "嫡母",
+        "嫡妻"
+      ],
+      "traditional_char": "嫡"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "正妻所生的（如嫡子、嫡出）",
+      "examples": [
+        "嫡子",
+        "嫡出"
+      ],
+      "traditional_char": "嫡"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "亲的，血统最近的，封建宗法制度下的正支",
+      "examples": [
+        "嫡亲",
+        "嫡嗣"
+      ],
+      "traditional_char": "嫡"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "系统最近的，正统的",
+      "examples": [
+        "嫡系",
+        "嫡派",
+        "嫡传"
+      ],
+      "traditional_char": "嫡"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从“女”表示与女性相关，“啇”表声，最初表示正妻。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由指正妻推广为正妻所生的儿子、子嗣，用于形容正统血统。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "嫡子指正妻所生，进一步泛指亲的、血统最近的。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由家族正支转喻为系统最近、正统的分支、传承。"
+    }
+  ]
+}

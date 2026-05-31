@@ -1,0 +1,84 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古水名。指多条中国古代著名的河流，如（1）今河南省之漯河（2）山东省之漯河（3）今桑干河、永定河、海河（古称漯）。",
+      "examples": [
+        "天子饮于漯水之上，官人膳鹿，献之。——《穆天子传》",
+        "《书·禹贡》：浮于济漯，达于河。",
+        "漯水，为古黄河的支流。"
+      ],
+      "traditional_char": "漯"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "指地名，如河南省漯河市。",
+      "examples": [
+        "河南省有漯河市。"
+      ],
+      "traditional_char": "漯"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "低湿，潮湿。",
+      "examples": [
+        "是故春袭葛，夏居密阴，秋避沙风，冬避重漯。——《春秋繁露·天地之行》"
+      ],
+      "traditional_char": "漯"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "other",
+      "meaning": "水聚集的样子。",
+      "examples": [
+        "澒濆淪而滀漯。——《海赋》"
+      ],
+      "traditional_char": "漯"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "other",
+      "meaning": "汗流的样子。",
+      "examples": [
+        "漯漯然汗流。"
+      ],
+      "traditional_char": "漯"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘漯’从水，壘声，本意为水名，是形声字，水边之意明显。与“濕”有音、义历史演变关系。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "以河流名转为地名用字，汉至现代沿用。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由“多水之地”引申指“低湿、潮湿”之地。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由水流、河流引申为水聚集之象。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "由水象征汗水充沛，引申出汗流的样子。"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "墙壁危急欲倒，比喻濒临危险。",
+      "examples": [
+        "阽，壁危也。——《说文》",
+        "阽余身而危死兮。——《离骚》"
+      ],
+      "traditional_char": "阽"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "危险，陷入险境。",
+      "examples": [
+        "阽，危也。——《广雅》",
+        "安有为天下阽危者若是而上不惊者?——《汉书·食货志》"
+      ],
+      "traditional_char": "阽"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "临近，濒临（危险）。",
+      "examples": [
+        "或阽于死亡。——《汉书·文帝纪》",
+        "阽危者若是。——《汉书·食货志》"
+      ],
+      "traditional_char": "阽"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "病危，疾病严重濒死。",
+      "examples": [
+        "疾甚谓之阽。——《小尔雅》",
+        "官部色脉，五病交参，上逆下顺，左右反阽。"
+      ],
+      "traditional_char": "阽"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从阜，表示与高地、陡坡相关；声旁“占”，表音，原指墙壁临近倒塌之险状。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由具体墙壁危欲倒，扩展为一般的危险。汉至六朝常见。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "conversion",
+      "note": "由“危险”转为动词“濒临（危险）”，文本中频见泛用。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由危险情境比喻延伸至病重近死。"
+    }
+  ]
+}

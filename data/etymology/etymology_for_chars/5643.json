@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "植物因失水而枯萎，萎缩",
+      "examples": [
+        "花蔫了。",
+        "菜叶蔫了。"
+      ],
+      "traditional_char": "蔫"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "精神不振，不活泼",
+      "examples": [
+        "他这几天蔫了。",
+        "蔫头耷脑。"
+      ],
+      "traditional_char": "蔫"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adverb",
+      "meaning": "不声不响，悄悄地，有点鬼祟",
+      "examples": [
+        "蔫不声。",
+        "蔫溜儿。",
+        "蔫儿拱。"
+      ],
+      "traditional_char": "蔫"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘蔫’为形声字，‘艹’表意，指植物，‘焉’表音，原义为植物枯萎。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由植物萎缩引申至人精神状态低落。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由精神不振引申至形容行为低调、不声不响。"
+    }
+  ]
+}

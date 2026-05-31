@@ -1,0 +1,38 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "物理学上指热能除以温度所得的商，标志热量转化为功的程度。",
+      "examples": [
+        "热力学第二定律表明，孤立系统的熵只能增加，不能减少。"
+      ],
+      "traditional_char": "熵"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "泛指某些物质系统状态的一种量度，或某些系统状态可能出现的程度，也被社会科学等用以比喻人类社会的一些状态。",
+      "examples": [
+        "信息熵描述了信息的不确定性。",
+        "社会熵反映了社会系统的混乱程度。"
+      ],
+      "traditional_char": "熵"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，‘火’为意旁，表与热或能量有关，‘商’为声旁，取其音。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "20世纪后期，物理学专用语扩展至信息学、社会学等领域，用于表示广义的不确定性和混乱度。"
+    }
+  ]
+}

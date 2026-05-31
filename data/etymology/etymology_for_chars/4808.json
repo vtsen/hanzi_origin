@@ -1,0 +1,53 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "防御用的壕沟，护城河",
+      "examples": [
+        "堑壕",
+        "修堑以拒敌"
+      ],
+      "traditional_char": "塹"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "陷坑，亦比喻挫折",
+      "examples": [
+        "吃一堑，长一智"
+      ],
+      "traditional_char": "塹"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "挖掘壕沟",
+      "examples": [
+        "环而堑之，及泉"
+      ],
+      "traditional_char": "塹"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从土，斩声；表示壕沟、护城河"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由壕沟引申为陷坑，进一步用于比喻挫折，见近现代用法"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "conversion",
+      "note": "名词转动词，即挖壕沟"
+    }
+  ]
+}

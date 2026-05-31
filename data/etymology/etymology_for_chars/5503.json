@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "用竹子编成的盛饭器具，类似竹筐，可指各种尺寸的竹制容器。",
+      "examples": [
+        "斗筲之人，何足算也。",
+        "苞二筲三。"
+      ],
+      "traditional_char": "筲"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "水桶，用于盛水的竹制或木制容器。",
+      "examples": [
+        "他担了满满的两筲水，往道北走。",
+        "水筲。"
+      ],
+      "traditional_char": "筲"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "筷筒、刷锅用的竹制作具，或用于淘米、洗菜的竹器。",
+      "examples": [
+        "用筲淘米。",
+        "筲用作刷锅。"
+      ],
+      "traditional_char": "筲"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从竹，肖声，会意兼形声，表示用竹制的盛饭器具。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由竹筐泛指到盛水容器，约中古及以后。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "从一般竹制盛器引申至其他以竹制成的家用器具，常见于方言及实际用途变化。"
+    }
+  ]
+}

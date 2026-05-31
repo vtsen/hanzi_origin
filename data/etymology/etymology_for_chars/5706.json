@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "传说中生活在水里的、有害人的怪物，能含沙射人。",
+      "examples": [
+        "为鬼为蜮。——《诗·小雅·何人斯》",
+        "水涉愁蜮射，林行忧虎猛。——欧阳修《自歧江山行至至平陆驿》",
+        "蜮伤躬只。——《楚辞·大招》"
+      ],
+      "traditional_char": "蜮"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "专指食害禾苗的害虫。",
+      "examples": [
+        "大草不生，又无螟蜮。——《吕氏春秋》",
+        "高诱注：蜮或作螣。食心曰螟，食叶曰蜮。"
+      ],
+      "traditional_char": "蜮"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "蛙、蝦蟆等动物的别称，与“蟈”通用。",
+      "examples": [
+        "《周禮·秋官·序官》蟈氏 鄭玄注：‘蜮读为蜮。蜮，蝦蟆也。’",
+        "章炳麟《新方言·釋動物》：‘蜮也者，屈造之屬也…黃者通言蝦蟆。’"
+      ],
+      "traditional_char": "蜮"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从虫，或声。‘虫’表义，指与虫类相关，‘或’表音。最初指水中怪物。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由传说怪物泛指实际危害农作物的昆虫。古今皆有，演变得很早。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "因与形态或生态相似，名称推广到青蛙、蝦蟆一类动物，用作通称，与‘蟈’通假。"
+    }
+  ]
+}

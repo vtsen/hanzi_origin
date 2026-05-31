@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "行贿，用财物贿赂使人违法。",
+      "examples": [
+        "尊私行以贰主威，行赇纳以疑法。——《韩非子·八法》",
+        "操舟者賕諸吏，得詣富饒郡市賤貿貴，以趨京師。——《宋史》"
+      ],
+      "traditional_char": "賕"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "受贿，接受贿赂。",
+      "examples": [
+        "官暗而吏赇，故冤不得直也。——《齐东野语》",
+        "韋溫始為汴州司倉參軍，以賕被杖。——《新唐書》"
+      ],
+      "traditional_char": "賕"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "非理而求，强求。",
+      "examples": [
+        "非理而求之也。——徐锴释《说文》",
+        "百姓窮弊，侵賕無已。——《晉書》"
+      ],
+      "traditional_char": "賕"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "贿赂，用来贿赂他人的财物。",
+      "examples": [
+        "吏坐受赇枉法。——《汉书·刑法志》",
+        "又恐受賕枉法，為姦觸大罪，身死而家滅。——《史记·滑稽列传》"
+      ],
+      "traditional_char": "賕"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从贝，求声，表示以财物求取（贿赂）含义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "conversion",
+      "note": "从行贿（施动）转为受贿（受动）；动作用法互转，历代用例显示。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由正常贿赂引申为不合理的强求，见先秦注释与后世扩展。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "conversion",
+      "note": "由动作用法（行贿）转为实体（贿赂之物），名物关系，汉语常见。"
+    }
+  ]
+}

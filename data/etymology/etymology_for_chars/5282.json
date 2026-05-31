@@ -1,0 +1,58 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "渭河，源出甘肃省，流经陕西，注入黄河，是黄河最大支流。",
+      "examples": [
+        "渭水泱泱，横贯关中。",
+        "隘地黄河吞渭水，炎天白雪压秦山。",
+        "画地成川，流渭通泾。"
+      ],
+      "traditional_char": "渭"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "古州名，多以“渭”为名的行政区域，因临渭河得名。",
+      "examples": [
+        "北魏庄帝置渭州。",
+        "渭源县，渭南县。",
+        "汉张衡《西京赋》：'船循渭而下，首尾相继不绝。'"
+      ],
+      "traditional_char": "渭"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "“渭濩”等词中的用法，指水流大、波涛众多。",
+      "examples": [
+        "瀖泋濩渭。",
+        "若雷霆輘鞫，佚豫以沸渭。",
+        "渭之为言布也。"
+      ],
+      "traditional_char": "渭"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，胃声，表示与水相关；本义为河流名。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "以河流名为流域行政区命名，常见地理转移；起于秦汉，贯通古今。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由具体河流名扩展为泛指水流、水势波涛等，用法见于文学及典籍。"
+    }
+  ]
+}

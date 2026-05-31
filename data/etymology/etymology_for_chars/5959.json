@@ -1,0 +1,57 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "汉字的一种书体，通常包括大篆、小篆，一般指小篆",
+      "examples": [
+        "小篆",
+        "大篆",
+        "篆书始于秦代"
+      ],
+      "traditional_char": "篆"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "书写篆体的字",
+      "examples": [
+        "篆额",
+        "其题皆篆之"
+      ],
+      "traditional_char": "篆"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "印章，多用篆文，故为官印的代称，以及对别人名字的敬称",
+      "examples": [
+        "台篆",
+        "摄篆",
+        "篆刻艺术"
+      ],
+      "traditional_char": "篆"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字。从竹，彖声。‘竹’表意，与简册有关，‘彖’表声，本用于篆书。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "conversion",
+      "note": "由表示字体的名词，转为表示书写该字体的动作。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "印章多用篆文，借指印章、官印等，汉魏后期语义发展。"
+    }
+  ]
+}

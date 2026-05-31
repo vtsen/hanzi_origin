@@ -1,0 +1,72 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "短时间浸泡，沤。",
+      "examples": [
+        "浸渍",
+        "淹渍",
+        "渍麻"
+      ],
+      "traditional_char": "漬"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "积在物体表面难以去除的油、泥等污迹。",
+      "examples": [
+        "油渍",
+        "茶渍"
+      ],
+      "traditional_char": "漬"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "染，沾染。",
+      "examples": [
+        "渍染",
+        "渐渍"
+      ],
+      "traditional_char": "漬"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "地面积水。",
+      "examples": [
+        "渍水",
+        "渍涝"
+      ],
+      "traditional_char": "漬"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，責声，本指短时间浸泡。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“浸泡”引申，为浸泡后留下的污迹或痕迹。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由“浸泡”引申出“染”、“沾染”之义。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "由“浸泡”引申表示地面的积水。"
+    }
+  ]
+}

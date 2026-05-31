@@ -1,0 +1,67 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "横褡，小被。",
+      "examples": [
+        "褡，横褡，小被。——《广韵》"
+      ],
+      "traditional_char": "褡"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "一种中间开口，两端可装东西的长形布袋，可搭在肩上或挂于腰间，如摔跤用的“褡裢”。",
+      "examples": [
+        "褡裢用在旅行时携带物品。"
+      ],
+      "traditional_char": "褡"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "长而宽，用布或绸作成的腰带，系在衣服外面，称“褡包”。",
+      "examples": [
+        "他腰上系着一条褡包。"
+      ],
+      "traditional_char": "褡"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "衣服破旧。",
+      "examples": [
+        "褡，衣敝也。——《集韵》"
+      ],
+      "traditional_char": "褡"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从衣声，合声。表示横放的布类物品，‘衣’旁指与衣物有关，‘合/答’表音。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘小被’引申为带状、覆盖且可盛物的布条，汉、唐以来见于旅行携物。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "从口袋类用途扩展到腰上系着的大布带。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由‘旧被’喻及衣服破旧。见于《集韵》、《类篇》。"
+    }
+  ]
+}

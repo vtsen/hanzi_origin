@@ -1,0 +1,116 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "仓颉：上古人名，相传为汉字创造者。",
+      "examples": [
+        "仓颉造字"
+      ],
+      "traditional_char": "頡"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "（与“颃”连用）鸟向上或向下飞，引申为比较高低、相抗衡或不相上下。",
+      "examples": [
+        "燕燕于飞，颉之颃之",
+        "他的画与名家相颉颃",
+        "颉颃作用"
+      ],
+      "traditional_char": "頡"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "颈项僵直，强硬。",
+      "examples": [
+        "王公大人有严志颉颃之行",
+        "颉佷（强项凶狠）"
+      ],
+      "traditional_char": "頡"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "减克、克扣。",
+      "examples": [
+        "以我为盗颉资粮，诬也",
+        "盗颉其半"
+      ],
+      "traditional_char": "頡"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "传说中像青狗的怪兽。",
+      "examples": [
+        "其中多人鱼，多蛟，多颉"
+      ],
+      "traditional_char": "頡"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "有花纹的缯布（通“纈”）。",
+      "examples": [
+        "穿绿颉布短衫"
+      ],
+      "traditional_char": "頡"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "古代姓氏。",
+      "examples": [
+        "古贤人颉卫"
+      ],
+      "traditional_char": "頡"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 2,
+      "note": "‘頡’从頁（头部/颈项），吉声，表‘颈项直’之意，形声字。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 2,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由‘颈项僵直’喻为鸟飞的姿势，古训“飞而上曰颉，飞而下曰颃”，形成‘鸟飞’义。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "metonymy",
+      "note": "‘仓颉’为人名，所用字取其高远或突出之意，用作专名。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "unknown",
+      "note": "‘减克’义由‘上下’引申机制不明，古书用字疑为借用或通假。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "怪兽‘颉’名取其形态特征如脖颈直强。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 5,
+      "evolution_type": "unknown",
+      "note": "‘颉’通‘纈’，可能因形声近或借用，具体机制不明。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 6,
+      "evolution_type": "function_word",
+      "note": "用作姓氏，取字为氏常见。"
+    }
+  ]
+}

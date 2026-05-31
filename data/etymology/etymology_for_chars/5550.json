@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古代旌旗下边悬垂的饰物",
+      "examples": [
+        "旌旗垂旒。",
+        "旗十有二旒。"
+      ],
+      "traditional_char": "旒"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "古代帝王礼帽前后悬垂的玉串",
+      "examples": [
+        "冕而前旒。",
+        "天子玉藻，十有二旒。"
+      ],
+      "traditional_char": "旒"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "泛指旌旗",
+      "examples": [
+        "邊風卷畫旒。"
+      ],
+      "traditional_char": "旒"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从方，流声。最早表示旌旗下垂的饰物。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由旌旗的垂饰喻指冕冠上同样悬垂的玉串，早见于《礼记》。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "synecdoche",
+      "note": "以旌旗上的旒泛指整个旌旗之意，常见于诗文中。"
+    }
+  ]
+}

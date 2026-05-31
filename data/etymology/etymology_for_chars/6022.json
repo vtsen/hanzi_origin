@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "修补，修整",
+      "examples": [
+        "修缮旧房",
+        "缮治器物"
+      ],
+      "traditional_char": "繕"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "抄写",
+      "examples": [
+        "缮写文件",
+        "缮校书籍"
+      ],
+      "traditional_char": "繕"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从糸，表示与丝线相关，善为声，古义为修补织物等。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由修补实物引申为修缮文书，语义转移见于文书的抄写、润饰用法。"
+    }
+  ]
+}

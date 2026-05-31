@@ -1,0 +1,67 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "旌旗隨風飄揚的樣子",
+      "examples": [
+        "旖旎：旌旗從風貌"
+      ],
+      "traditional_char": "旖"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "柔和美麗、柔順的樣子",
+      "examples": [
+        "她舉止旖旎"
+      ],
+      "traditional_char": "旖"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "雲彩柔和飄動的樣子",
+      "examples": [
+        "乘雲霓之旖旎"
+      ],
+      "traditional_char": "旖"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "茂盛貌",
+      "examples": [
+        "旖旎盛皃"
+      ],
+      "traditional_char": "旖"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从㫃表意，表示与旗、日光相关，奇为聲，表示读音。原初意思为旗随风飘扬之貌。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "旗随风飘扬引申为柔和美丽，形态由具体到抽象。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "旗飘扬之貌抽象化比喻云彩柔和飘动。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "旗盛大飘扬引申为盛大、茂盛之貌。"
+    }
+  ]
+}

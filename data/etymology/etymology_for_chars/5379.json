@@ -1,0 +1,84 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "蒯草，多年生草本植物，生长在水边或阴湿的地方，茎可编席、造纸或制绳",
+      "examples": [
+        "雖有絲麻，無棄菅蒯。——《左传·成公九年》",
+        "草則葴、莎、菅、蒯，薇、蕨、荔、苀。——《文选·西京赋》"
+      ],
+      "traditional_char": "蒯"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "古地名，春秋时期周畿内地，在今河南省洛阳市西南",
+      "examples": [
+        "尹辛攻蒯，蒯潰。——《左传·昭公二十三年》"
+      ],
+      "traditional_char": "蒯"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "蒯通，范陽人。——《前汉·蒯通传》"
+      ],
+      "traditional_char": "蒯"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "土块",
+      "examples": [
+        "其土苴，以治天下。——《吕氏春秋·贵生》汉高诱注：“土，瓦砾也。苴，草蒯也。”"
+      ],
+      "traditional_char": "蒯"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "用指甲挠，抓",
+      "examples": [
+        "我绰着经儿，只望着他那痒处替他蒯。——《醒世恒言》",
+        "抓腸蒯腹。——《西游记》第六六回"
+      ],
+      "traditional_char": "蒯"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从艸，㕟声。形声字，本义为草名，即蒯草。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "古地名以盛产蒯草或该物命名，见《左传》。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "以地名为氏，姓氏来源于地名。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "因蒯草用于束缚土块作引申，见《吕氏春秋》注。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_shift",
+      "note": "吸收方言用法，从草的形状或作用引申为‘抓挠’，义类变化。"
+    }
+  ]
+}

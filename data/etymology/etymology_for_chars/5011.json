@@ -1,0 +1,52 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古地名，周时郿邑，今陕西省眉县东北一带，亦作眉县。",
+      "examples": [
+        "王餞于郿。——《诗·大雅·崧高》",
+        "葬卓于郿。——《三国志·魏志·董卓传》"
+      ],
+      "traditional_char": "郿"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "春秋时鲁国的地名，今山东省东平县西或寿张废县一带。",
+      "examples": [
+        "冬，築郿。——《春秋·庄公二十八年》",
+        "郿，魯下邑。——《左传》杜预注"
+      ],
+      "traditional_char": "郿"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "乡名，在今陕西省合阳县境内。",
+      "examples": [],
+      "traditional_char": "郿"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从邑，睂声，表示邑地名，以‘邑’表地名类别，‘睂’作声符。初用于周时邑名。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由周地名扩展为其他同名地名，见于春秋鲁地名，史书记载"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由最初的郿邑之名进一步泛化为其他同名地名，包括乡名等"
+    }
+  ]
+}

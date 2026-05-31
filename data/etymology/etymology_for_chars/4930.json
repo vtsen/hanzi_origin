@@ -1,0 +1,43 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "猕猴，一种哺乳动物，亦简称猕，体毛灰褐色，尾短，四肢似人，常见于亚洲各地，亦用作实验动物。",
+      "examples": [
+        "猕猴成群结队于树林间跳跃。",
+        "动物园里有许多猕。"
+      ],
+      "traditional_char": "獼"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "‘猕’为‘獼’的简化字。",
+      "examples": [
+        "猕猴桃的‘猕’是‘獼’的简化字。"
+      ],
+      "traditional_char": "猕"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘獼’为形声字，‘犬’表义，指动物，‘彌’表音，初义为一种猴。"
+    },
+    {
+      "formation_type": "simple_indicative",
+      "original_sense_index": 1,
+      "note": "‘猕’为‘獼’的简化字，采用形旁‘犭’与‘弥’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "reanalysis",
+      "note": "20世纪简化字改革中由‘獼’简化为‘猕’。"
+    }
+  ]
+}

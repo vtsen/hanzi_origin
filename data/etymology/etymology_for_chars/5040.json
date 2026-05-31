@@ -1,0 +1,40 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "黑色，黑色的丝织品或衣服",
+      "examples": [
+        "缁衣",
+        "缁帷",
+        "緇衣"
+      ],
+      "traditional_char": "緇"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "僧侣（因身穿黑衣而代称僧人）",
+      "examples": [
+        "缁素（借指僧人与俗人）",
+        "缁黄（和尚与道士，分穿黑衣、黄衣）"
+      ],
+      "traditional_char": "緇"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘緇’为形声字，从糸，‘甾’声，最初表示黑色的丝织品。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由“黑衣”代指僧侣，因僧侣常穿黑色衣服，见中古及近现代佛教用法。"
+    }
+  ]
+}

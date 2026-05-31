@@ -1,0 +1,86 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "咀嚼，吃东西",
+      "examples": [
+        "小饭而亟之，数噍毋为口容。——《礼记·少仪》",
+        "亦呥呥而噍，乡乡而饱。——《荀子·荣辱》",
+        "口齿以噍食。——《论衡》"
+      ],
+      "traditional_char": "噍"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "活着的人或动物，生存者",
+      "examples": [
+        "襄城无噍类。——《汉书·高帝纪》",
+        "使尔万噍同一朽。——宋 王令《梦蝗》"
+      ],
+      "traditional_char": "噍"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "责备，谴责",
+      "examples": [
+        "噍让（谴责）",
+        "噍骂（责骂）"
+      ],
+      "traditional_char": "噍"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "声音急促",
+      "examples": [
+        "其声噍以杀。——《礼记·乐记》"
+      ],
+      "traditional_char": "噍"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "onomatopoeia",
+      "meaning": "鸟细小的叫声",
+      "examples": [
+        "燕雀猶有啁噍之頃。——《礼》"
+      ],
+      "traditional_char": "噍"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从口，焦声。本义为咀嚼。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由“吃东西的人”泛称为“活着的人”，取能进食为尚存者。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "以‘咀嚼’引申比喻为‘责备’，如品评他人言行。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "‘咀嚼’动作引申为‘声音急促’，可能因嘴部快速动作。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "synecdoche",
+      "note": "语音急促进一步专指鸟类细微急促的叫声。"
+    }
+  ]
+}

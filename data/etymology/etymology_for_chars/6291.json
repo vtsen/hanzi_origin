@@ -1,0 +1,103 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "麋鹿，一种哺乳动物，体型比牛大，毛淡褐色，雄性有角，尾像驴，蹄像牛，颈像骆驼，原产中国，俗称“四不像”。",
+      "examples": [
+        "麋何食兮庭中。",
+        "吾子取其麋鹿，以闲敝邑，若何？"
+      ],
+      "traditional_char": "麋"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "通“眉”，指眉毛，或借指老年。",
+      "examples": [
+        "伊尹之状，面无须麋。",
+        "孔子愀然扬麋曰：参！女以明主为劳乎？"
+      ],
+      "traditional_char": "麋"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "通“湄”，水边或岸旁。",
+      "examples": [
+        "彼何人斯，居河之麋。",
+        "余赐女孟诸之麋。"
+      ],
+      "traditional_char": "麋"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "通“糜”，粥。",
+      "examples": [
+        "慕彼糠麋。",
+        "麋沸而不可止些。"
+      ],
+      "traditional_char": "麋"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "通“蘪”，草名。",
+      "examples": [
+        "秋兰兮麋芜。",
+        "有麋。"
+      ],
+      "traditional_char": "麋"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [
+        "三国蜀有麋竺。",
+        "蜀将东海麋竺。"
+      ],
+      "traditional_char": "麋"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从“鹿”表义，“米”表声，原指麋鹿这种动物。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "以动物突出特征喻眉毛；古训多指‘麋’通‘眉’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "由兽类“麋”迁移至水草丰茂之地，后借指水边地带。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "‘麋’假借为‘糜’，指粥。源于古汉字用假。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "‘麋’假借为‘蘪’，草名，为同音假借。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "conversion",
+      "note": "由动物名演变为姓氏，有据于史书。"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古代战船名，常与“艨”连用为“艨艟”，指狭长、专用于冲撞敌船的战船。",
+      "examples": [
+        "艨艟，战船也，以冲突敌船。",
+        "狹而長曰艨艟，以衝突敵船。",
+        "艟舻（战船）"
+      ],
+      "traditional_char": "艟"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "短船名，一种短小的船。",
+      "examples": [
+        "艟，短船。",
+        "艟，博雅：舟也。"
+      ],
+      "traditional_char": "艟"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "泛指船只，与“舟”义通。",
+      "examples": [
+        "艟，舟也。",
+        "艟，與“舟”同。"
+      ],
+      "traditional_char": "艟"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从舟，充声，原指狭长战船。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_narrowing",
+      "note": "由特指战船义转为短船，出现专指某种体型船只。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由短船之名扩展为泛指一切船只，与“舟”通。"
+    }
+  ]
+}

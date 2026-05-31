@@ -1,0 +1,50 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "豆蔻，一种芳香植物的果实，常用于调味、中药或作芳香剂；后也指代十三、四岁的少女。",
+      "examples": [
+        "豆蔻年华",
+        "草則藿蒳荳𦸅。",
+        "白豆蔻、红豆蔻、肉荳蔻"
+      ],
+      "traditional_char": "蔻"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "“蔻丹”，染指甲的油。",
+      "examples": [],
+      "traditional_char": "蔻"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "“可可”，即～蔻，植物名，可食部分为可可豆，用于制成可可制品。",
+      "examples": [],
+      "traditional_char": "蔻"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从艹，寇声。本义为豆蔻（一种芳香植物的果实）。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "因蔻用于制作染指甲的油，名称因原植物而来。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "unknown",
+      "note": "“蔻蔻”借指“可可”，用法来源不详，机制不明。"
+    }
+  ]
+}

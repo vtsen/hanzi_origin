@@ -1,0 +1,79 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "背负，用背扛运。",
+      "examples": [
+        "文先生那里又跎了纤来？——《初刻拍案惊奇》",
+        "跎回和你受用。——《清平山堂话本》"
+      ],
+      "traditional_char": "跎"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "驼背的人。",
+      "examples": [
+        "跎汉（驼背的男子）",
+        "跎子（驼背的人）",
+        "腰跎背曲，老病谁怜悯。——《双雄记·公庭初枉》"
+      ],
+      "traditional_char": "跎"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "（蹉跎）虚度光阴，时光白白流逝。",
+      "examples": [
+        "年已蹉跎。——《晋书·周处传》",
+        "日月蹉跎。"
+      ],
+      "traditional_char": "跎"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "失足，比喻人生失意、经历坎坷。",
+      "examples": [
+        "驥垂兩耳兮中坂蹉跎。——《楚辞·九怀》",
+        "嗚呼吾意其蹉跎言不遂其意也。——韩愈",
+        "淮海莫蹉跎。——杜甫"
+      ],
+      "traditional_char": "跎"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从足，佗声，形声字，本义与腿足行走或背负有关。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由背负动作引申为驼背的人，见于明清日常用语。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由步履迟缓、负重引申为虚度时光，常见于成语“蹉跎”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由步履踉跄引申为人生失意、失足。先秦文献有用例。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "analogy",
+      "note": "虚度、蹉跎与失足失意语义间有类比关系，常混用。"
+    }
+  ]
+}

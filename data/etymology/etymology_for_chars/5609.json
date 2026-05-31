@@ -1,0 +1,65 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "容貌丑陋，与“妍”相对",
+      "examples": [
+        "妍媸自别",
+        "情不怡，艳色媸",
+        "善恶不分，妍媸永灭者矣"
+      ],
+      "traditional_char": "媸"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "侮辱",
+      "examples": [],
+      "traditional_char": "媸"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "痴呆，愚蠢",
+      "examples": [
+        "媸，痴也。——《集韵》"
+      ],
+      "traditional_char": "媸"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "淫荡",
+      "examples": [],
+      "traditional_char": "媸"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从女，蚩声，本义为‘丑’，以‘女’表女性相关，‘蚩’为声符。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由‘丑陋’引申为‘侮辱’，因丑常含贬义。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "‘丑陋’引申为‘痴呆’，由对容貌的贬损转为对智力的贬损。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "‘丑陋’含道德贬义，引申为‘淫荡’。"
+    }
+  ]
+}

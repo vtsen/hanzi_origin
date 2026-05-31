@@ -1,0 +1,40 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "落叶灌木或小乔木，结榛子，果仁可食，木材可做器物。",
+      "examples": [
+        "榛子",
+        "榛树"
+      ],
+      "traditional_char": "榛"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "丛杂的草木，泛指草木丛生的地方或幽僻之处。",
+      "examples": [
+        "榛芜",
+        "莽榛",
+        "榛薄"
+      ],
+      "traditional_char": "榛"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从木，秦声，表示木本植物，古本义为榛树（落叶灌木或小乔木）。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由具体树种义引申为草木丛生的地方，出现在文言用法。"
+    }
+  ]
+}

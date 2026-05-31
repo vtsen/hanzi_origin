@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "山名，位于今河南省西部，亦称崤山、崤陵、嶔崟山。",
+      "examples": [
+        "崤，晋要塞也。——《玉篇》",
+        "推穀二崤道。——《沈約·應詔詩》",
+        "二崤山，又名嶔崟山。"
+      ],
+      "traditional_char": "崤"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "水名，古代称崤水，发源于崤山，流经河南西部。",
+      "examples": [
+        "崤水出河南盤崤山，西北流，水上有梁，俗謂之鴨橋也。《水经注》"
+      ],
+      "traditional_char": "崤"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从山，殳声，本义为山名，地理名词。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "山名引申为发源于该山的水名，两者地理关系密切。"
+    }
+  ]
+}

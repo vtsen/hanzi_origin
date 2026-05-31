@@ -1,0 +1,53 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "腰部下面、尾骨上面的部分，即骶骨或骶椎",
+      "examples": [
+        "骶骨",
+        "脊窮之謂骶"
+      ],
+      "traditional_char": "骶"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "背部、脊背",
+      "examples": [
+        "背謂之骶"
+      ],
+      "traditional_char": "骶"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "臀部",
+      "examples": [
+        "臀也"
+      ],
+      "traditional_char": "骶"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "从骨，低声，形声字。本义为背部，‘低’表音，‘骨’表义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_narrowing",
+      "note": "由泛指背部（脊背）专指脊椎末端区域（骶骨）；医学用语发展，见于古医经。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "背部与臀部紧邻，通过部位相关转指臀部。"
+    }
+  ]
+}

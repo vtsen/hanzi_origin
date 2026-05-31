@@ -1,0 +1,103 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古代盛行于商代和西周的一种青铜酒器，喇叭形口，细腰，高足，腹和足部各有四条棱角。",
+      "examples": [
+        "子曰：“觚不觚，觚哉!觚哉!”",
+        "汝窑美人觚"
+      ],
+      "traditional_char": "觚"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "古代用来写字的木简，有棱角，多为六面或八面。",
+      "examples": [
+        "或操觚以率尔，或含毫而邈然。",
+        "觚牍"
+      ],
+      "traditional_char": "觚"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "有棱角的器物或直角。",
+      "examples": [
+        "破觚而为圜。",
+        "甘泉泰畤紫坛，八觚宣通象八方"
+      ],
+      "traditional_char": "觚"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "剑柄。",
+      "examples": [
+        "操其觚，招其末，则庸人能以制胜。",
+        "令提劍鋒而掉劍觚，必刎其指。"
+      ],
+      "traditional_char": "觚"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "法则，规则。",
+      "examples": [
+        "自削以觚。",
+        "占之以其觚。"
+      ],
+      "traditional_char": "觚"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "adjective",
+      "meaning": "通“孤”，独特、特立不群。",
+      "examples": [
+        "与乎其觚而不坚也，张乎其虚而不华也。",
+        "言行奇觚，为世希有。"
+      ],
+      "traditional_char": "觚"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从角，瓜声。本为酒器，部首角象器物形，瓜为声旁。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "因原酒器有多棱，‘觚’泛指有棱角之物。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "以多棱之形引申至同样有棱角的木简。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "由有棱角的物体借指剑柄（部位佩带棱角）。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "器物有方、棱之象，引申为规则、法度。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 5,
+      "evolution_type": "metaphor",
+      "note": "由棱角引申为特立独行（突出、不随众）的性质。"
+    }
+  ]
+}

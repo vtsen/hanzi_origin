@@ -1,0 +1,76 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "抵赖，拒不承认错误或事实",
+      "examples": [
+        "王阳病抵谰置辞。",
+        "谰，诋谰也。"
+      ],
+      "traditional_char": "讕"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "诬赖、诬陷，用虚假的言辞陷害他人",
+      "examples": [
+        "无耻谰言。",
+        "满谰诬天。"
+      ],
+      "traditional_char": "讕"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "欺骗，以虚假言辞蒙蔽他人",
+      "examples": [
+        "使者十辈临按，余庆谩谰。",
+        "不可以相谰已。"
+      ],
+      "traditional_char": "讕"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "（讕的简化字）同“讕”，即抵赖、诬赖、欺骗",
+      "examples": [
+        "谰言",
+        "谰辞"
+      ],
+      "traditional_char": "谰"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从言，阑声，表示抵赖，与言语相关。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 3,
+      "note": "‘谰’为‘讕’的简化字，结构上同为形声，简化自讕。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "抵赖由自身辩解引申为对他人加以诬陷，汉代文献用作诬赖。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "从诬陷引申为广义的欺骗，古籍有所佐证。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "analogy",
+      "note": "‘谰’为‘讕’的简体，含义沿用；现代简化演变。"
+    }
+  ]
+}

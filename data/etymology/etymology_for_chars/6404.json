@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "鱼类体内能调节浮沉的气囊，俗称“鱼泡”。",
+      "examples": [
+        "鲤鱼的鳔很大。",
+        "利用鳔调节浮力。"
+      ],
+      "traditional_char": "鰾"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "用鱼鳔或猪皮熬制的胶。",
+      "examples": [
+        "鳔胶用于粘合物品。",
+        "老式家具常用鳔胶粘合。"
+      ],
+      "traditional_char": "鰾"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "用鳔胶粘上。",
+      "examples": [
+        "把椅子腿鳔上。"
+      ],
+      "traditional_char": "鰾"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从鱼，票声，最初表示鱼体内的气囊。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "指用于熬胶的鱼鳔，后借指由其制成的胶。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "conversion",
+      "note": "名词转动词，用鳔胶粘合。"
+    }
+  ]
+}

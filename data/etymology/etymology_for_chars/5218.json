@@ -1,0 +1,61 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "楚地用以称呼姐姐的词",
+      "examples": [
+        "楚人谓姊为媭。——《说文》"
+      ],
+      "traditional_char": "媭"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "女子名字用字",
+      "examples": [
+        "女嬃之嬋媛。"
+      ],
+      "traditional_char": "媭"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "“嬃”的简化字",
+      "examples": [],
+      "traditional_char": "嬃"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从女，须声，本义为楚地称姐姐。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 2,
+      "note": "‘嬃’为繁体，同为形声字，从女，須声。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由对姐姐的称呼引申为女子名用字。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 0,
+      "evolution_type": "reanalysis",
+      "note": "现代以‘媭’为‘嬃’的简化字，意义与‘嬃’相合。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 1,
+      "evolution_type": "reanalysis",
+      "note": "现代以‘媭’为‘嬃’的简化字，意义与‘嬃’相合。"
+    }
+  ]
+}

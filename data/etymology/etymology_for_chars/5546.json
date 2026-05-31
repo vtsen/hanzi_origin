@@ -1,0 +1,44 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "病而寒战，感到身体发冷发抖。",
+      "examples": [
+        "瘆疴难愈。",
+        "身体发热忽又瘆得发抖。"
+      ],
+      "traditional_char": "瘮"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "使人害怕，令人感到可怕或惊恐。",
+      "examples": [
+        "古庙里阴森森的，真瘆人。",
+        "听他说的那些话，怪瘆得慌。"
+      ],
+      "traditional_char": "瘮"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘疒’表意，表示疾病、寒战；‘甚’表声，并有程度加深之意，初义为因病寒战、发抖。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘瘆’为‘瘮’的简化字，字形结构变化，结构原则同。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由‘寒战发抖’的生理反应比喻为‘因惊恐而发抖’，明清以后常见。"
+    }
+  ]
+}

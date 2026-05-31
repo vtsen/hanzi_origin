@@ -1,0 +1,60 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "缂丝，中国特有的一种丝织工艺品，亦称“刻丝”。",
+      "examples": [
+        "缂丝是一种著名的中国丝织工艺。",
+        "明清时期，缂丝广泛用于宫廷服饰。"
+      ],
+      "traditional_char": "緙"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "织纬；用来指织造丝织品纬线的制作过程。",
+      "examples": [
+        "缂绣是一种特殊的缂织方法。",
+        "缂，织也。——《玉篇》"
+      ],
+      "traditional_char": "緙"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "other",
+      "meaning": "“緙”的简化字。",
+      "examples": [
+        "缂丝在大陆一般写作‘缂’。",
+        "‘缂’为‘緙’的简化字。"
+      ],
+      "traditional_char": "缂"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "緙由‘糸’（丝）为意符，‘各’为声符，表示与丝织相关，最初本义为织纬。"
+    },
+    {
+      "formation_type": "simple_indicative",
+      "original_sense_index": 2,
+      "note": "‘缂’为‘緙’的简化字，由‘纟’（简化糸）+‘各’组成，简化于20世纪。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "先由织纬之动作用于特定工艺品，引申为名词‘缂丝’等，宋元以后成专有名词。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "reanalysis",
+      "note": "20世纪汉字简化，‘緙’简化为‘缂’，两者意义一致，仅字形变化。"
+    }
+  ]
+}

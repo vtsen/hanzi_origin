@@ -1,0 +1,92 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "大蛤，一种大型的蛤类软体动物",
+      "examples": [
+        "雉入海化为蜃。《说文》",
+        "春献鳖蜃。《周礼·天官·鳖人》"
+      ],
+      "traditional_char": "蜃"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "画有蜃形的漆尊等祭器",
+      "examples": [
+        "凡山川四方，用蜃。《周礼·春官·鬯人》"
+      ],
+      "traditional_char": "蜃"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "用蜃壳烧成的灰（蜃灰）",
+      "examples": [
+        "白蜃。《考工记·匠人》注：灰也。"
+      ],
+      "traditional_char": "蜃"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "传说中能吐气成海市蜃楼的蛟属怪物",
+      "examples": [
+        "黑蜃之气成云。《太平广记》",
+        "蛟之属有蜃，其状亦是蛇而大，有角如龙状……能吁气成楼台城郭之状，将雨即见，名蜃楼，亦曰海市。《本草纲目》"
+      ],
+      "traditional_char": "蜃"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "海市蜃楼，海上蜃气所成的幻景",
+      "examples": [
+        "蜃阁化城重。《杨巨源·供奉定法师归安南》",
+        "《天官书》所谓蜃也。"
+      ],
+      "traditional_char": "蜃"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "县名",
+      "examples": [],
+      "traditional_char": "蜃"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声。从虫，辰声，表示与软体动物有关，最初义为大蛤。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "用蜃壳或蜃形装饰的祭器，以动物名指其形象装饰物。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由大蛤特指其壳制成的灰，属原物及其制品关系。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由实际蛤类动物，延伸为神话生物，二者在自然属性上有关联。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "由怪物蜃能吐气致幻，转为海市蜃楼的代称。"
+    }
+  ]
+}

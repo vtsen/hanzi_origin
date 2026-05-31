@@ -1,0 +1,69 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "后右蹄白色的马。",
+      "examples": [
+        "后右足白骧。——《尔雅·释畜》"
+      ],
+      "traditional_char": "驤"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "泛指马，特指骏马。",
+      "examples": [
+        "《诗》云：“两服，上骧”。注云：“骧，马”。"
+      ],
+      "traditional_char": "驤"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "马奔驰、腾跃。",
+      "examples": [
+        "乃奋翅而腾骧。——张衡《西京赋》",
+        "载车奔兮马繁骧。——曹植《离友》"
+      ],
+      "traditional_char": "驤"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "头高昂，上举。",
+      "examples": [
+        "臣父骧眉扼腕，恨不从杨涟诸臣后。——清·彭定求《周端孝先生传》",
+        "驤眉識往，俛首知來。——曹植《平原懿公主誄》"
+      ],
+      "traditional_char": "驤"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从马，襄声，指马类特征（后右蹄白的马）。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由特定的马种（右后蹄白）泛指为马或骏马，用于文学中。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "以特定马的特征引申为马奔驰、腾跃的动作，多见于描述骏马英姿。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由马昂首奔驰引申为“高昂”至“人头高昂、上举”，形象比喻。"
+    }
+  ]
+}

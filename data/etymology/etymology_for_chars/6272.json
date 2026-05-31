@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "胀大，鼓胀。身上某部分凸起或浮肿。",
+      "examples": [
+        "他的脸臌满起来一些，可是不像原先那么红扑扑的了。",
+        "在挤着的人众里站出一个瘦小的人来……浇薄多皱的腮皮一边臌起，像含着个青果在口里。"
+      ],
+      "traditional_char": "臌"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "中医指肚子因病膨胀的症状，如“水臌”、“气臌”，也称为“臌胀”。",
+      "examples": [
+        "水臌、气臌",
+        "dropsical swelling; puffy bloated"
+      ],
+      "traditional_char": "臌"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘臌’为形声字，从肉，鼓声，意为身体部位鼓胀或肿起。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_narrowing",
+      "note": "从“身体部位胀起”专指为医学上腹部病理性胀大的症状。"
+    }
+  ]
+}

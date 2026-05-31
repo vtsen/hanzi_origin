@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "面颊，腮",
+      "examples": [
+        "支颐而笑",
+        "解颐"
+      ],
+      "traditional_char": "頤"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "休养，保养",
+      "examples": [
+        "颐神",
+        "颐养天年"
+      ],
+      "traditional_char": "頤"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "particle",
+      "meaning": "文言助词，无义",
+      "examples": [
+        "夥颐！涉之为王沈沈者"
+      ],
+      "traditional_char": "頤"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从页，殹声。本义为面颊，与面部相关的身体部位。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由面颊引申出颐养，即保养身体，取口部为养的象征，见先秦语境。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "function_word",
+      "note": "由本义充作语气助词，属于古汉语常见虚化现象，具体机制存争议。"
+    }
+  ]
+}

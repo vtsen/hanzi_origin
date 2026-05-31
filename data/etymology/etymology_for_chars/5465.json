@@ -1,0 +1,38 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "昆虫从幼虫过渡到成虫时的中间形态。",
+      "examples": [
+        "蚕蛹。",
+        "蛹化。"
+      ],
+      "traditional_char": "蛹"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "比喻隐居的状态（如蚕蛹蜷伏茧中）。",
+      "examples": [
+        "蛹卧。"
+      ],
+      "traditional_char": "蛹"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从虫，甬声。初指昆虫‘蛹’的形态。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由虫蛹状态的形象引申为隐居（如蜷伏茧中），用作比喻。"
+    }
+  ]
+}

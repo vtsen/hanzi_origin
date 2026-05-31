@@ -1,0 +1,97 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "谷物丰盛，多谷",
+      "examples": [
+        "亶，多谷也。——《说文》",
+        "擇三有事，亶侯多藏。——《诗·小雅·十月之交》"
+      ],
+      "traditional_char": "亶"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "厚道，忠实，淳厚",
+      "examples": [
+        "亶，信也；又，誠也。——《尔雅》",
+        "不實於亶。——《诗·大雅·板》",
+        "於緝熙，亶厥心。——《国语·周语下》"
+      ],
+      "traditional_char": "亶"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adverb",
+      "meaning": "实在，确实，诚然",
+      "examples": [
+        "亶其然乎？——《诗·小雅·常棣》",
+        "一阳将萌，亶其时乎！——《桯史·杨艮议命》"
+      ],
+      "traditional_char": "亶"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "广大，平坦",
+      "examples": [
+        "亶亶，平坦也。",
+        "逶迤至山门，奇植亶异质。——黄鷟来《雨晴游弘济寺访蒲庵和尚》"
+      ],
+      "traditional_char": "亶"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adverb",
+      "meaning": "仅，只；通“但”",
+      "examples": [
+        "非亶倒县（悬）而已。——《汉书·贾谊传》",
+        "亶辨其所记载，犹未敢以荆公为非。——岳珂《桯史·尊尧集表》"
+      ],
+      "traditional_char": "亶"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "东汉有亶诵，善律历。——《后汉书·律历志中》"
+      ],
+      "traditional_char": "亶"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从㐭，且声。本义为多谷，‘㐭’表意，‘且’表声。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由谷物丰盛引申为品质的丰富，进而引申为为人厚道、忠实。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "grammaticalization",
+      "note": "由‘厚道、诚实’引申出作副词表达‘诚然、实在’，为语法化用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "synecdoche",
+      "note": "‘多谷’引申为大、广，整体代部分作地理形容。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "‘亶’假借为‘但’，用于仅、只等副词义。"
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "斑蝥，一种有毒的甲虫，腿细长，鞘翅上有黄色和黑色斑纹，可用于入药。",
+      "examples": [
+        "斑蝥具毒，可入药。",
+        "螌蝥，甲蟲。"
+      ],
+      "traditional_char": "蝥"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "吃农作物根系的害虫。本为“蟊”的本字，食苗根等，常用以指代危害农作物的害虫。",
+      "examples": [
+        "及其蝥賊。（《詩經·小雅》）",
+        "食根曰蝥，食節曰賊。（《詩經·傳》）",
+        "蝥贼，食禾稼的两种害虫。"
+      ],
+      "traditional_char": "蝥"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "军旗名。即“蝥弧”，春秋时期郑伯之旗，后借指军旗。",
+      "examples": [
+        "潁考叔取鄭伯之旗，蝥弧以先登。（《左传·隐公十一年》）"
+      ],
+      "traditional_char": "蝥"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "蜘蛛的别称。",
+      "examples": [
+        "鼄蝥，蜘蛛別名。（《爾雅·釋蟲》）"
+      ],
+      "traditional_char": "蝥"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "蠡（一种汲水用具）的别称。",
+      "examples": [],
+      "traditional_char": "蝥"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "蛷蝥，蛷螋的别称。",
+      "examples": [],
+      "traditional_char": "蝥"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "形声字，从虫，敄声。本义为一种吃作物根的害虫，后引申义丰富。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_narrowing",
+      "note": "“蝥”本泛指食根害虫，后专指斑蝥（特定甲虫）；两者在古籍中常并用。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "取象征意义，由害虫引申指旗名，以寓义‘如蝥贼一般勇猛’。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "依据《尔雅》，“蝥”又可指蜘蛛，因同属虫类。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "unknown",
+      "note": "‘蠡’义来源不详，或受音通影响，义流变未详。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "“蝥蛷”义，本指蛷螋，系虫名通称之引申。"
+    }
+  ]
+}

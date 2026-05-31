@@ -1,0 +1,57 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "继续，继承（如：继承王位或前人事业）",
+      "examples": [
+        "武王缵太王、王季文王之绪。",
+        "载缵武功。",
+        "缵禹之绪。",
+        "缵绪（继承前人的事业）；缵业（继承事业）"
+      ],
+      "traditional_char": "纘"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "撰写，集合（通“纂”）",
+      "examples": [
+        "读书以为学，缵言以为文。",
+        "纘成《水利图经》二卷。"
+      ],
+      "traditional_char": "纘"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "聚集，丛聚（通“欑”）",
+      "examples": [
+        "于时以竹为灯纘照夜。",
+        "此纘宿昔枝叶大茂。"
+      ],
+      "traditional_char": "纘"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从糸，赞声；本义为继续、继承，结构显示糸表‘绳索’义，赞为声符。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由‘继承、继续’引申为‘撰写、集合’，因集合他人言论或前言传承而成。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "将‘绳索连接’的动作比喻为‘聚集、丛聚’。"
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "切除男性或雄性動物的生殖器",
+      "examples": [
+        "阉鸡",
+        "宦官悉用阉人。——《后汉书》"
+      ],
+      "traditional_char": "閹"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "宦官，古代被閹割並侍奉宮廷之人",
+      "examples": [
+        "逆阉防伺甚严，虽家仆不得近。——方苞《左忠毅公逸事》",
+        "則閹擅國柄時，自營生壙已久。——王士禛《香祖筆記》"
+      ],
+      "traditional_char": "閹"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "掩閉，壓抑陽氣",
+      "examples": [
+        "春行冬政，肅；行秋政，雷；行夏政，閹。——《管子·幼官》"
+      ],
+      "traditional_char": "閹"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "曲意逢迎",
+      "examples": [],
+      "traditional_char": "閹"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "門戶，門扇（通“闔”）",
+      "examples": [
+        "設守門，二人掌右閹，二人掌左閹，四人掌閉，百甲坐之。——《墨子·迎敵祠》"
+      ],
+      "traditional_char": "閹"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "盡；氣息微弱（通“奄”）",
+      "examples": [
+        "公曰：‘吾聞女少長乎其所，女其閹知之。’——《大戴禮記·衛將軍文子》"
+      ],
+      "traditional_char": "閹"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "“閹”為形聲字，从門，奄聲，原指被閹割的宦官或宮廷守門者。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_shift",
+      "note": "動詞“閹割”發展為被閹割者之稱謂，即“宦官”，歷見秦漢以後。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由“宦官”多逢迎諂媚引申出“曲意逢迎”的義項，語義轉移見於文人用典。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由“割除生殖器”引申為“壓制陽氣”，見於戰國時期典籍。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "由宮門守衛人身份，轉指門戶、門扇，古文“閹=闔”用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "metaphor",
+      "note": "“閹”與“奄”通，用於“盡、將盡”、“氣息微弱”等抽象義，見於古典文獻。"
+    }
+  ]
+}

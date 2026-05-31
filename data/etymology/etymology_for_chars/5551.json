@@ -1,0 +1,148 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "和谐，和睦",
+      "examples": [
+        "雍睦亲族。",
+        "雍，和也。",
+        "雍熙于变。"
+      ],
+      "traditional_char": "雍"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "遮蔽，壅塞，堵塞（通“壅”）",
+      "examples": [
+        "上下雍隔故也。",
+        "雍以沙幕。",
+        "维尘雍兮。"
+      ],
+      "traditional_char": "雍"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "拥有（通“拥”）",
+      "examples": [
+        "雍天下之国。"
+      ],
+      "traditional_char": "雍"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "鸟和鸣声或乐声和谐（如“雍雍”）",
+      "examples": [
+        "听庙中之雍雍。",
+        "～～鸣雁。"
+      ],
+      "traditional_char": "雍"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "雍容，文雅大方，从容不迫的样子",
+      "examples": [
+        "雍容大雅。",
+        "雍容尔雅。"
+      ],
+      "traditional_char": "雍"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "水被壅塞形成的池沼",
+      "examples": [
+        "振鹭于飞，于彼西雍。"
+      ],
+      "traditional_char": "雍"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "古代掌烹饪之官",
+      "examples": [
+        "雍人（古代掌宰杀烹饪之人）"
+      ],
+      "traditional_char": "雍"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "noun",
+      "meaning": "古天子祭祀宗庙毕撤俎豆时所奏的乐章",
+      "examples": [
+        "三家者以《雍》彻。"
+      ],
+      "traditional_char": "雍"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "雍姓。"
+      ],
+      "traditional_char": "雍"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 5,
+      "note": "从隹，邕声，表示水被壅塞成池沼（‘邕’暗示水流积聚）；后引申多义"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 5,
+      "target_index": 1,
+      "evolution_type": "semantic_shift",
+      "note": "由水壅塞之义转为一般的壅塞、遮蔽"
+    },
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "metaphor",
+      "note": "由水流壅塞转喻为人际和谐融洽"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "以和谐引申为声音、音乐的和谐"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "由和谐引申为人的气度文雅大方"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "通‘拥’，声音借用于拥有义"
+    },
+    {
+      "source_index": 5,
+      "target_index": 6,
+      "evolution_type": "semantic_extension",
+      "note": "由壅水成池，引申为‘雍人’掌饮食"
+    },
+    {
+      "source_index": 0,
+      "target_index": 7,
+      "evolution_type": "semantic_extension",
+      "note": "和谐引申为宗庙撤膳时所奏乐章"
+    },
+    {
+      "source_index": 5,
+      "target_index": 8,
+      "evolution_type": "unknown",
+      "note": "地名或本义演变为族氏用名，细节难考"
+    }
+  ]
+}

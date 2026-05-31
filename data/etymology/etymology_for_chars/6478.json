@@ -1,0 +1,102 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "赶路，快走，加紧前行",
+      "examples": [
+        "星夜趱行。",
+        "我急忙忙取得文移，趱程途不敢耽迟。",
+        "朱子語類：便須急急躡蹤趲鄉前去。"
+      ],
+      "traditional_char": "趲"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "催促，催逼",
+      "examples": [
+        "皂隶挥鞭趱行路，躜尔今朝入关去。",
+        "朱子語類：如人在背後只管來相趲，如何住得。"
+      ],
+      "traditional_char": "趲"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "积聚，积攒",
+      "examples": [
+        "你积趱的金银过北斗。",
+        "幾年上偷銀子做私房，身邊積趲有餘了。"
+      ],
+      "traditional_char": "趲"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "缩，耷拉（方言义）",
+      "examples": [
+        "他一邊說着，拔腳就走出來，抱着兩條胳膊，趲着腦袋走回家裏。"
+      ],
+      "traditional_char": "趲"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "钻入，移动",
+      "examples": [
+        "見個人床底下趲將出來，手提一包兒。",
+        "轎夫前後兩名，後頭的一名先趲到皮條底下。"
+      ],
+      "traditional_char": "趲"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "使，鼓励（使劲、鼓励他人）",
+      "examples": [
+        "趲劲"
+      ],
+      "traditional_char": "趲"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘趲’为形声字，从走，赞声，表‘赶路加快’之意，走表示行动相关，赞为声旁。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘加紧快走’引申出‘催促，催逼’义。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "与‘攒’同音，由‘攒’义借用作‘积聚’"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "unknown",
+      "note": "‘缩，耷拉’义，方言发展，具体演变机制未详。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "conversion",
+      "note": "由‘加紧行动’义转为‘钻入，移动’义。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "由‘催促’义引申为‘使，鼓励（使劲）’之义。"
+    }
+  ]
+}

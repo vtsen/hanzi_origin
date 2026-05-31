@@ -1,0 +1,40 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "胸腔，动物或人的胸部内部空腔",
+      "examples": [
+        "胸膛",
+        "开膛破肚"
+      ],
+      "traditional_char": "膛"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "器物中空的部分",
+      "examples": [
+        "炉膛",
+        "枪膛",
+        "膛线"
+      ],
+      "traditional_char": "膛"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从“肉”表义，与身体有关，以“堂”为声旁，表音；本义为胸腔。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由动物或人的胸腔比喻器物中空部分，历代文献皆有使用，语义转化清晰。"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "较清的浅红色酒。",
+      "examples": [
+        "粢醍在堂。",
+        "酒成而红赤色也。"
+      ],
+      "traditional_char": "醍"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "从牛奶中提炼出来的最精纯的酥酪（奶油）。",
+      "examples": [
+        "酥上如油者为醍醐，甚甘美。",
+        "从乳出酪，从酪出酥，从生酥出熟酥，从熟酥出醍醐也。"
+      ],
+      "traditional_char": "醍"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "佛教用醍醐喻指佛性或最高的佛法，引申为精辟的言论或深刻的智慧。",
+      "examples": [
+        "醍醐灌顶。",
+        "佛教以醍醐喻佛性。"
+      ],
+      "traditional_char": "醍"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“醍”为形声字，从酉（与酒相关）是声，本义为浅红色清酒。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_shift",
+      "note": "后因音近借用于指乳制品精华，与酒色之精纯有类比。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "佛教以醍醐（奶油中最精华）作为比喻，喻佛法或智慧的最高境界。"
+    }
+  ]
+}

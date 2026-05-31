@@ -1,0 +1,74 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "开门；打开。",
+      "examples": [
+        "开户，楚谓之闿。——《方言六》",
+        "今欲与汉闿大关。——《汉书·匈奴传》",
+        "藏竭则主权衰，法伤则奸门闓。——《管子·七臣七主》"
+      ],
+      "traditional_char": "闓"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "启发，开导。",
+      "examples": [
+        "闿导（启发引导）",
+        "闿阐（解说；开导）"
+      ],
+      "traditional_char": "闓"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "开阔；明朗。",
+      "examples": [
+        "闿，明也。——《广雅》",
+        "闉隍爽闿，踰百雉之制。——《南齐书·萧遥光传》",
+        "闿明（开阔明朗）",
+        "闿爽（开朗）"
+      ],
+      "traditional_char": "闓"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "和乐，欢乐。（通“恺”）",
+      "examples": [
+        "昆虫闿懌，回首面内。——《汉书·司马相如传》",
+        "吏逡民闿，边境静谧。——明·赵南星"
+      ],
+      "traditional_char": "闓"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从门，豈声，初造义为‘开门’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由‘打开门’引申为‘启发、开导’；比喻心智开通，或领会的启发。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "‘开’引申为‘开阔、明朗’；空间感到抽象感的扩展。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "心境开阔明朗引申为‘和乐’（通“恺”）；抽象转义。"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "胸腔，胸部",
+      "examples": [
+        "义愤填膺",
+        "赤膊露膺"
+      ],
+      "traditional_char": "膺"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "接受，承当",
+      "examples": [
+        "膺选",
+        "膺赏",
+        "膺受",
+        "荣膺"
+      ],
+      "traditional_char": "膺"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "讨伐，打击",
+      "examples": [
+        "膺惩"
+      ],
+      "traditional_char": "膺"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从肉，表示与身体有关，音义兼顾，本义为胸腔。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "以胸部承载压力喻接受、承当责任，义项发展自汉代。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由承当职责进一步引申为承担讨伐、打击等具体行动，见于近现代用法。"
+    }
+  ]
+}

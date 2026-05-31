@@ -1,0 +1,53 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "恭敬，庄重",
+      "examples": [
+        "望之俨然",
+        "举止俨然"
+      ],
+      "traditional_char": "儼"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "整齐的样子",
+      "examples": [
+        "屋舍俨然"
+      ],
+      "traditional_char": "儼"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "很像真的，仿佛（多指神态、样子）",
+      "examples": [
+        "俨然是个大人"
+      ],
+      "traditional_char": "儼"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从人，严声，表示人的恭敬庄重。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从人的神态庄重引申为整齐有序，多见于文人笔记和古文。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "俨然作为比喻，形容极像真的模样，语义发展见于近现代汉语。"
+    }
+  ]
+}

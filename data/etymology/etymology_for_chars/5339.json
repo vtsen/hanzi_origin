@@ -1,0 +1,58 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "用荆条或藤条编成的长方形农具，用来平整土地，松土保墒。又名“耱”或“盖”。",
+      "examples": [
+        "橯，摩田器。或从耒。——《集韵》",
+        "农民用耢平整土地。"
+      ],
+      "traditional_char": "耮"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "用耢平整土地。",
+      "examples": [
+        "耖之然后耢之。——清·倪倬《农雅·释器》"
+      ],
+      "traditional_char": "耮"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "“耮”的简化字。",
+      "examples": [
+        "见“耮”。"
+      ],
+      "traditional_char": "耢"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“耮”形声字，从“耒”表示与农具相关，声旁“劳”（勞）表音，最初本义为平整土地的农具。"
+    },
+    {
+      "formation_type": "simple_indicative",
+      "original_sense_index": 2,
+      "note": "“耢”为“耮”的简化字，根据简化部首原则，由“耮”省略“劳”为“耢”。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "conversion",
+      "note": "名词作动词用，指用此工具操作土地。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "reanalysis",
+      "note": "简化字运动中将“耮”简化为“耢”，两字意义完全一致。"
+    }
+  ]
+}

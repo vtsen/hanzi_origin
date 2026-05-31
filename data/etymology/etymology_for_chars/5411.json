@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "制造陶器的转轮",
+      "examples": [
+        "以甄为陶",
+        "甄陶轮转"
+      ],
+      "traditional_char": "甄"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "制造陶器",
+      "examples": [
+        "甄陶自立",
+        "巧匠甄陶"
+      ],
+      "traditional_char": "甄"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "审查，鉴别",
+      "examples": [
+        "甄别人才",
+        "甄选优良"
+      ],
+      "traditional_char": "甄"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "甄氏家族",
+        "三国时甄氏"
+      ],
+      "traditional_char": "甄"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从瓦，臻声。‘瓦’表意，与陶器有关，最早指陶轮。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由指物（转轮）扩展为制造陶器之动作。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由制造陶器引申为对人的审查、鉴别，有陶冶、选拔之意。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "conversion",
+      "note": "器物名转为姓氏用。"
+    }
+  ]
+}

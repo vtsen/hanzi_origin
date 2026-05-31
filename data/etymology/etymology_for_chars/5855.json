@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "似玉的美石，多作装饰品",
+      "examples": [
+        "玉笥山万寿承天宫碑：“霓旌羽节何当降，霞衣飘飘珮琅璁。”",
+        "璁珩（玉佩）"
+      ],
+      "traditional_char": "璁"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "明亮光洁的样子",
+      "examples": [
+        "璁璁珑珑（明洁的样子）",
+        "璁珑"
+      ],
+      "traditional_char": "璁"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "玉石碰击时发出的声音",
+      "examples": [
+        "璁琤（玉声）"
+      ],
+      "traditional_char": "璁"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“璁”从“王”（玉）为意符，“悤”为声符，表示似玉的美石。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由似玉的美石引申为明亮光洁的样子，玉常用以比喻光洁。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由玉（美石）引申为玉石碰击所发出的声音，以物及其声。"
+    }
+  ]
+}

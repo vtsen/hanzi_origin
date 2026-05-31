@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "迅速，快",
+      "examples": [
+        "遄，速也。——《尔雅》",
+        "已事遄往。——《易·损卦》",
+        "胡不遄死？——《诗·鄘风·相鼠》",
+        "遥吟俯畅，逸兴遄。——王勃《滕王阁序》"
+      ],
+      "traditional_char": "遄"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "往来频繁迅速",
+      "examples": [
+        "往來數也。——《说文》",
+        "理棹遄還期。——谢灵运《初去郡诗》"
+      ],
+      "traditional_char": "遄"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "怯弱（通“巽”，见“遄耎”）",
+      "examples": [
+        "遄耎"
+      ],
+      "traditional_char": "遄"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从辵（表示行走、快），耑声。本义为迅速、快。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由表示‘快’引申为‘往来频繁且快’，见《说文》、《易·损卦》等。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "古音通“巽”，借指怯弱，后用于遄耎。"
+    }
+  ]
+}

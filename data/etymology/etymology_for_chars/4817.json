@@ -1,0 +1,41 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "厕所，茅厕",
+      "examples": [
+        "圊厕",
+        "新唐书•叛臣传下•高骈：匿于圊，求不得。",
+        "圊土",
+        "圊粪"
+      ],
+      "traditional_char": "圊"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "清除（污秽）",
+      "examples": [
+        "汉 张仲景《伤寒论•辨厥阴病》：必圊脓血，以有热故也。",
+        "圊头（禅院负责清扫厕所者）"
+      ],
+      "traditional_char": "圊"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字；囗为形，青为声。以‘青’音表声，‘囗’表‘围闭之处’，指设于室内的厕所。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由厕所引申为清除污秽，因厕所需常加以打扫，使其清洁。"
+    }
+  ]
+}

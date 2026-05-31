@@ -1,0 +1,52 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "疮痕，疤痕，伤口愈合后留下的痕迹。",
+      "examples": [
+        "刀瘢",
+        "疮瘢",
+        "汗瘢"
+      ],
+      "traditional_char": "瘢"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "皮肤上的一点或斑点。",
+      "examples": [
+        "美玉可以减瘢"
+      ],
+      "traditional_char": "瘢"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "缺点或过失。",
+      "examples": [],
+      "traditional_char": "瘢"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘疒’表意，指疾病、皮肤相关；‘般’表声。古义为疮痕、疤痕。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由具体的疮痕意义扩展为泛指皮肤上的斑点，常用于比喻或描述。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "抽象化，比喻皮肤斑点为人的缺点、过失。"
+    }
+  ]
+}

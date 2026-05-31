@@ -1,0 +1,37 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "湖名，用于“汈汊”，指湖北省汉川县的一座湖泊。",
+      "examples": [
+        "汈汊湖位于汉川市。"
+      ],
+      "traditional_char": "汈"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "地名用字，特指湖北省的汈汊湖。",
+      "examples": [
+        "湖北省有汈汊湖。"
+      ],
+      "traditional_char": "汈"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "左形旁‘氵’表水，右声旁‘刁’表音，最初为水名地名用字。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由具体湖名泛指作为地区地名的用字，机制为地名专用词的扩展。"
+    }
+  ]
+}

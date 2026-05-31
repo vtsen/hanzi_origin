@@ -1,0 +1,100 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "行不进；欲行又止的样子",
+      "examples": [
+        "趑趄也。从走。且声。——《说文》",
+        "趄趄趔趔，脚步歪斜踉跄的样子"
+      ],
+      "traditional_char": "趄"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "倾斜；歪斜；身斜靠",
+      "examples": [
+        "宋江已有八分酒，脚步趄了，只顾踏去。——《水浒全传》",
+        "昨夜个翠被香浓薰兰麝，欹珊枕把身軀儿趄。——《西厢记》"
+      ],
+      "traditional_char": "趄"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "翘起；高起（主要为方言用法）",
+      "examples": [
+        "趄，翘起也。昆明俗语指把屁股趄着。——徐嘉瑞《金元戏曲方言考》"
+      ],
+      "traditional_char": "趄"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "残破，缺损",
+      "examples": [
+        "其铁以耕刀之趄，炼而铸之。——《茶经》"
+      ],
+      "traditional_char": "趄"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "阻隔，阻挡",
+      "examples": [
+        "经匣…上用趄尘盝顶，陷顶开带，四角打卯。——《营造法式》"
+      ],
+      "traditional_char": "趄"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "（心、神）动摇、偏离初心、忐忑、慌乱",
+      "examples": [
+        "我佯呆，一向志诚，不道他心趄。——《西厢记诸宫调》",
+        "被娘间阻郎心趄，离恨满怀何处说。——元·曾瑞"
+      ],
+      "traditional_char": "趄"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，“走”表意，表示与行走有关，“且”表音，初指行不进貌。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由行止不定引申为姿态不稳、倾斜。早期文献中开始出现。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由歪斜引申为部分部位翘起，用于方言俗语。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "由倾斜、歪斜引申为事物残破缺损。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "由行动不便比喻为阻挡、阻隔事物。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "metaphor",
+      "note": "由行止不定转喻情绪、思想的动摇或忐忑。"
+    }
+  ]
+}

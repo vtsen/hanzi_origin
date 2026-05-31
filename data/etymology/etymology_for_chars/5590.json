@@ -1,0 +1,72 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "嫌疑；疑惑",
+      "examples": [
+        "慊，嫌疑也。——《说文》",
+        "媮得避慊之便。——《汉书·赵充国传》"
+      ],
+      "traditional_char": "慊"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "不满，怨恨，遗憾",
+      "examples": [
+        "贵不慊于上者。——《礼记·坊记》",
+        "衣若县衰而意不慊。——《淮南子·齐俗》",
+        "吾何慊乎哉?——《孟子·公孙丑下》"
+      ],
+      "traditional_char": "慊"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "不足，缺少",
+      "examples": [
+        "慊，贫也。——《广雅》",
+        "宫室舆服，盖慊如也。——陆机《辩亡论》"
+      ],
+      "traditional_char": "慊"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "快心，满意，满足",
+      "examples": [
+        "行有不慊于心。——《孟子·公孙丑上》",
+        "今取猿狙而衣以周公之服，彼必齕齧挽裂，尽去而后慊。——《庄子·天运》"
+      ],
+      "traditional_char": "慊"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从心，兼声，表示内心的疑虑。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_shift",
+      "note": "由‘嫌疑’转为‘不满、怨恨’之意，见于先秦用法。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由‘不满’引申为‘不足、缺少’。两者在古文中常互通。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "amelioration",
+      "note": "由‘不满’产生‘满足、快心’的反义发展，先秦即有用法。"
+    }
+  ]
+}

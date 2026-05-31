@@ -1,0 +1,130 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "诚实，不欺骗",
+      "examples": [
+        "信用",
+        "信守"
+      ],
+      "traditional_char": "信"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "相信，认为可靠",
+      "examples": [
+        "信任",
+        "信托"
+      ],
+      "traditional_char": "信"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "崇奉",
+      "examples": [
+        "信仰",
+        "信徒"
+      ],
+      "traditional_char": "信"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "消息",
+      "examples": [
+        "信息",
+        "杳无音信"
+      ],
+      "traditional_char": "信"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "函件",
+      "examples": [
+        "信件",
+        "信笺"
+      ],
+      "traditional_char": "信"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "adjective",
+      "meaning": "随便，放任",
+      "examples": [
+        "信手",
+        "信步"
+      ],
+      "traditional_char": "信"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "古同“芯”",
+      "examples": [],
+      "traditional_char": "信"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "noun",
+      "meaning": "姓",
+      "examples": [],
+      "traditional_char": "信"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "verb",
+      "meaning": "古同“伸”",
+      "examples": [],
+      "traditional_char": "信"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "从人，从言。表示人的言论应当是诚实的。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "从诚实引申出相信"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "从相信引申到崇奉"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "从诚实引申为消息的可信度"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_shift",
+      "note": "从诚实引申为书信的可靠性"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "metaphor",
+      "note": "从诚实引申为随便的决定是诚实随性"
+    },
+    {
+      "source_index": 0,
+      "target_index": 7,
+      "evolution_type": "unknown",
+      "note": "用作姓氏"
+    }
+  ]
+}

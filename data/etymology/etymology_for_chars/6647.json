@@ -1,0 +1,53 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "玉器相击的清脆声音",
+      "examples": [
+        "玱，玉声。——《说文》",
+        "有玱葱珩。——《诗·小雅·采芑》",
+        "风前玉树瑲金韵，碧落佳期近。——宋·谢逸《虞美人》"
+      ],
+      "traditional_char": "瑲"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "乐器的声音，泛指清脆、响亮的乐声",
+      "examples": [
+        "钟鼓喤喤，管磬玱玱。",
+        "八鸞瑲瑲。——《诗·小雅》"
+      ],
+      "traditional_char": "瑲"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "玉的颜色",
+      "examples": [],
+      "traditional_char": "瑲"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从玉，倉声；本义为玉器相击之声，形声字。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由玉相击之声引申为泛指乐器等清脆、响亮的声音，见诗经用例。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由玉声转指玉的色泽，一种同类转换，见类篇等古籍记载。"
+    }
+  ]
+}

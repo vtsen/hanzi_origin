@@ -1,0 +1,152 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "用手击、捶，捶胸。",
+      "examples": [
+        "寤辟有摽。",
+        "长木之斃，无不摽也。",
+        "雷歎穨息，掐膺擗摽。"
+      ],
+      "traditional_char": "摽"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "落下，坠落。",
+      "examples": [
+        "摽有梅，其實七兮。",
+        "摽落灼灼之花。"
+      ],
+      "traditional_char": "摽"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "捆绑、紧紧地缠绕、使物体相连。",
+      "examples": [
+        "椅子腿活动了，用铁丝摽住。",
+        "把口袋摽在车架子上。"
+      ],
+      "traditional_char": "摽"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "用胳膊紧紧地勾住，互相搂抱或团结在一起。",
+      "examples": [
+        "他俩摽着胳膊走。",
+        "咱们摽着劲干。"
+      ],
+      "traditional_char": "摽"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "亲近，依附，多含贬义。",
+      "examples": [
+        "他们摽在一块儿。",
+        "駱明和金廠長摽成把了。"
+      ],
+      "traditional_char": "摽"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "对比，较量，用力比拼。",
+      "examples": [
+        "摽着劲干。",
+        "那是他存心和拖拉机摽着劲儿种的。"
+      ],
+      "traditional_char": "摽"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "挥之使动，使出去，驱逐、抛出。",
+      "examples": [
+        "摽使者出诸大门之外。",
+        "曹子摽剑而去之。"
+      ],
+      "traditional_char": "摽"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "verb",
+      "meaning": "高扬，高举貌。",
+      "examples": [
+        "摽然若秋云之远。",
+        "帆长摽越甸。"
+      ],
+      "traditional_char": "摽"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "verb",
+      "meaning": "古通“标”，标志、标榜。",
+      "examples": [
+        "摽能擅美。",
+        "指摽幟。"
+      ],
+      "traditional_char": "摽"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从手，票声，本义为击、捶胸。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由击物引申为果实等坠落，古已有之。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "从击、捶发展为用力捆绑缠绕。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由缠绕发展为用胳膊勾住。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由身体连接引申为人际依附。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 5,
+      "evolution_type": "metonymy",
+      "note": "由缠绕勾住引申为较量、对比。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "conversion",
+      "note": "击、挥发展为挥手驱逐、抛出。"
+    },
+    {
+      "source_index": 6,
+      "target_index": 7,
+      "evolution_type": "semantic_extension",
+      "note": "由挥发展为高举。"
+    },
+    {
+      "source_index": 6,
+      "target_index": 8,
+      "evolution_type": "semantic_extension",
+      "note": "由“摽”通“标”，发展出标志义。"
+    }
+  ]
+}

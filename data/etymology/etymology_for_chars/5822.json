@@ -1,0 +1,60 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "衣襟；衣服前幅。",
+      "examples": [
+        "褸，衽也。（《说文解字》）",
+        "衣襟也。（《玉篇》）"
+      ],
+      "traditional_char": "褸"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "破旧、破裂的衣服。",
+      "examples": [
+        "襤褸：破衣服",
+        "褸裂：衣服破裂"
+      ],
+      "traditional_char": "褸"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "（现代汉语）指“褴褛”，衣衫破烂，多用作形容词性修饰。",
+      "examples": [
+        "筚路蓝褛",
+        "衣衫褴褛"
+      ],
+      "traditional_char": "褛"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从衣，婁声。本义为‘衣襟’。"
+    },
+    {
+      "formation_type": "simple_indicative",
+      "original_sense_index": 2,
+      "note": "‘褛’为‘褸’的简化字，部首从衣；原义取自‘褸’，简化自‘褸’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘衣襟’引申为衣服整体，再特指破旧、破裂的衣服。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "function_word",
+      "note": "现代汉语中‘褛’作为‘褴褛’等词的组成部分，语义转化为对衣衫破烂的形容。"
+    }
+  ]
+}

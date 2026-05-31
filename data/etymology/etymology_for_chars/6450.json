@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "醉；微醉",
+      "examples": [
+        "微醺",
+        "醺醺然"
+      ],
+      "traditional_char": "醺"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "熏染，烟熏",
+      "examples": [
+        "醺染",
+        "醺衣"
+      ],
+      "traditional_char": "醺"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从酉，表示与酒有关，‘熏’作声旁，原意为酒醉。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从‘酒醉’的状态进一步引申为‘熏染’，与‘熏’通用，演变途径有争议。"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "死，死亡，灭绝",
+      "examples": [
+        "左骖殪兮右刃伤。",
+        "暴逆并殪，以渐冰消。",
+        "賢者之於義……曰：生乎義乎？曰：義。是故務光投水而殪。",
+        "黎明，遼軍潰圍出，逐北至阿嚕岡，遼部卒盡殪。"
+      ],
+      "traditional_char": "殪"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "杀死，使死亡，致命",
+      "examples": [
+        "遂舉手助先生操刃，共殪狼。",
+        "王乃大命文王殪戎殷。",
+        "殪此大兕。",
+        "殪敵（将敌人致于死地）；殪仆（杀伤）"
+      ],
+      "traditional_char": "殪"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "仆倒，跌倒",
+      "examples": [
+        "奔殪百余里间。",
+        "莽兵大潰，走者相騰踐，奔殪百餘里閒。",
+        "蓺殪仆。"
+      ],
+      "traditional_char": "殪"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "埋葬；通“瘞”",
+      "examples": [
+        "祭地瘞。漢鄭玄注：古文瘞作“殪”。"
+      ],
+      "traditional_char": "殪"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从歺（与死亡、尸骨有关）表意，壹表声，本义为死。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "conversion",
+      "note": "由“死亡”向“使死亡”转变，转换机制，古今并行。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "比喻死亡为仆倒，语义隐喻且常用于描述士兵等倒下。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "作为“瘞”（埋葬）的借用，字体通假，汉儒郑玄注出，字形声借。"
+    }
+  ]
+}

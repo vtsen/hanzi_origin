@@ -1,0 +1,57 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "脚后跟",
+      "examples": [
+        "举踵",
+        "接踵而至"
+      ],
+      "traditional_char": "踵"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "走到，前往",
+      "examples": [
+        "踵见",
+        "踵谢",
+        "踵门相告"
+      ],
+      "traditional_char": "踵"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "追随，继承",
+      "examples": [
+        "踵继",
+        "踵武",
+        "踵事增华"
+      ],
+      "traditional_char": "踵"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 2,
+      "note": "形声字，从足，重声，最初本义为追逐，现代多表继承、追随之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 2,
+      "target_index": 0,
+      "evolution_type": "metonymy",
+      "note": "由“追随”引申为“脚后跟”，以人跟随人脚步形象转义。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由脚后跟引申为行动、走到（用脚后跟象征行动）。"
+    }
+  ]
+}

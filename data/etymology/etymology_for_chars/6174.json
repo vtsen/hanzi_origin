@@ -1,0 +1,110 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "水流经过沙石所形成的浅滩之水，常指水流湍急处",
+      "examples": [
+        "石濑兮浅浅。",
+        "北揭石濑。",
+        "沙濑清且浅，水底见竹色。",
+        "控清引濁，混濤并濑。",
+        "沙石上流过的水。"
+      ],
+      "traditional_char": "瀨"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "急流，湍急的水流",
+      "examples": [
+        "抑淢怒濑，以扬激波。",
+        "涖涖下濑。",
+        "混涛并濑。",
+        "瀨，急流也。"
+      ],
+      "traditional_char": "瀨"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "浅水沙石滩",
+      "examples": [
+        "东驰土山兮，北揭石濑。",
+        "自县至於潜，凡十有六濑，第二是严陵濑。"
+      ],
+      "traditional_char": "瀨"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "水名。如广西的瀨水、江苏瀨水（溧水的别名）",
+      "examples": [
+        "瀨水，出苍梧荔浦县西北鲁山之东。",
+        "瀨水，在江蘇省，溧水的別名。"
+      ],
+      "traditional_char": "瀨"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "简化字“濑”的含义同“瀨”",
+      "examples": [],
+      "traditional_char": "濑"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "other",
+      "meaning": "通“厉”，用于“下濑将军”一词，此处作借用字",
+      "examples": [
+        "故归义越侯二人为戈船、下厲将军。（史记）",
+        "汉书作“下瀨将军”。"
+      ],
+      "traditional_char": "瀨"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘瀨’从水，賴声，表示水流沙石上，为形声字。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 4,
+      "note": "‘濑’为‘瀨’的简化字，从水，賴声，简化形声结构。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由指水流沙石上之水引申为湍急水流。汉代已见此用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "从水流本身转指沙石滩地，为地形、地貌名称。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "以某地著名的濑处作为水名。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "古文中通“厉”，主要作借用字，多见于职官名中。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "reanalysis",
+      "note": "‘濑’为‘瀨’的简化字，各义通用。"
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "停柩待葬，将灵柩暂时安放，等待出殡或下葬",
+      "examples": [
+        "晋文公卒，庚辰，将殡于曲沃。",
+        "死者殡在屋内。"
+      ],
+      "traditional_char": "殯"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "被停放的灵柩",
+      "examples": [
+        "使杜洩告於殡曰：‘子固欲毁中军，既毁之矣，故告。’"
+      ],
+      "traditional_char": "殯"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "殡葬事务，泛指丧葬之事",
+      "examples": [
+        "道秩长殡，法筵久埋。",
+        "群以为烈，谋敛资作殡。"
+      ],
+      "traditional_char": "殯"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "运送灵柩出葬的队伍",
+      "examples": [
+        "命手下人掩乐停音，将殡过完，方让北静王过去。"
+      ],
+      "traditional_char": "殯"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "通“宾”，指宾客",
+      "examples": [
+        "而后辞于殡，遂修葬事。（郑玄注：殡，当为宾，声之误也。）"
+      ],
+      "traditional_char": "殯"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "通“擯”，摒弃",
+      "examples": [
+        "道帙长殡，法筵久埋。（殡，一本作“擯”）"
+      ],
+      "traditional_char": "殯"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从歹，宾声，表示与死亡相关，‘歹’为义部，‘宾’为声部"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由停柩待葬引申为被停放的灵柩，先秦用例"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由具体行为引申为泛指丧葬事务"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "由灵柩引申为出殡队伍，明清小说用例"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "古籍少部分作宾客用，文献标注为音近转用"
+    },
+    {
+      "source_index": 2,
+      "target_index": 5,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "‘殡’通‘擯’，仅见于个别用例，属音近假借"
+    }
+  ]
+}

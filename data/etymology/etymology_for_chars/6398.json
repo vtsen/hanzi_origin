@@ -1,0 +1,57 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古代汉字的一种字体，亦称“大篆”，流行于秦国，今存石鼓文为其代表",
+      "examples": [
+        "周宣王史名籀，其所著文字曰籀文。亦曰大篆。",
+        "晋·左思《魏都赋》：仇校篆籀，篇章毕觌。",
+        "南朝·梁·刘勰《文心雕龙·练字》：及李斯删籀而秦篆兴。"
+      ],
+      "traditional_char": "籀"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "读书，诵读并理解书文",
+      "examples": [
+        "籀，读书也。——《说文》",
+        "重籀《论语》诸书。——章炳麟《检论·订孔下》",
+        "学僮十七以上始试，讽籀书九千字。"
+      ],
+      "traditional_char": "籀"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "抽取，引申为整理、演绎",
+      "examples": [
+        "挥兔豪而匪固，籀鱼网而终灭。——唐·李俨《益州多宝寺道因法师碑文》序",
+        "鲁迅《坟·科学史教篇》：而一偏于内籀，则其不崇外籀之事，固非得已矣。"
+      ],
+      "traditional_char": "籀"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "从竹，㩅声。声符㩅带有‘抽取’意义，整体表意与阅读竹简有关。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "“诵读”义引申为“抽取、整理”，有文献支持其转注关系。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "metonymy",
+      "note": "由“诵读书文”引申为“可供读的字体体式”，以用途称字体。"
+    }
+  ]
+}

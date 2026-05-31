@@ -1,0 +1,88 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "颓败，损坏，败坏的样子。",
+      "examples": [
+        "儡，相败也。——《说文》",
+        "然而不免于儡身。——《淮南子·俶真》",
+        "儡然（破败的样子）"
+      ],
+      "traditional_char": "儡"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "疲困，疲倦。",
+      "examples": [
+        "寮位儡其隆替。——潘岳《西征赋》",
+        "“身猶不能行也，又況所教乎？”许慎注：儡，读雷同之雷。"
+      ],
+      "traditional_char": "儡"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "羸弱，憔悴。",
+      "examples": [
+        "容貌儡以顿悴兮，左右凄其相愍。——《文选·潘岳·寡妇赋》",
+        "“儡，羸貌。”——李善注引郑玄"
+      ],
+      "traditional_char": "儡"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "木偶、傀儡，指傀儡戏中被操纵的木偶。",
+      "examples": [
+        "傀儡木偶戏。",
+        "周穆王时巧人有偃师者，为木人，能歌舞，此傀儡之始也。——《列子·殷汤篇》",
+        "傀儡，木偶。"
+      ],
+      "traditional_char": "儡"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "堆砌，垒积。",
+      "examples": [
+        "参见“儡塊”。"
+      ],
+      "traditional_char": "儡"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从人，畾声，表示‘人败坏’之意，属于形声字。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由‘败坏’引申形容人因疲困而精神或状态败坏。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由‘败坏’进一步指身体状况羸弱、憔悴。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由‘败坏’抽象义转为无主见者、被操纵如木偶，进而专指傀儡木偶。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "reanalysis",
+      "note": "结构被借用于表示‘堆砌、垒积’义项，可能因与“塊”合用产生新义。"
+    }
+  ]
+}

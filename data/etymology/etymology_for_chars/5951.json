@@ -1,0 +1,41 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古代的重量单位，合二十两或二十四两",
+      "examples": [
+        "黄金四十镒。——《国语》",
+        "贈金累十鎰，深哀猶未匱。——清 方文 《四令君詩•張武進環生》"
+      ],
+      "traditional_char": "鎰"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "鎰的简化字",
+      "examples": [],
+      "traditional_char": "镒"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘鎰’为形声字，从金，益声。本义为古重量单位。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "‘镒’为‘鎰’的简化字，保留原义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "analogy",
+      "note": "汉字简化中由‘鎰’转为‘镒’，含义未变。"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "名词",
+      "meaning": "中国黄河的专称。",
+      "examples": [
+        "河防",
+        "河套"
+      ],
+      "traditional_char": "河"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "名词",
+      "meaning": "水道的通称，泛指河流。",
+      "examples": [
+        "河道",
+        "河沟",
+        "河流",
+        "河滩",
+        "河网"
+      ],
+      "traditional_char": "河"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "名词",
+      "meaning": "指银河系，天上的河流（天河）。",
+      "examples": [
+        "天河",
+        "河汉"
+      ],
+      "traditional_char": "河"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，可声。本义指黄河。水表义，“可”表音。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由黄河的专称扩大，泛指一切水道。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由地上的河流转喻为天上的“河”，指银河。"
+    }
+  ]
+}

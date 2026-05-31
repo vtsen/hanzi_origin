@@ -1,0 +1,123 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "收存、储存（谷物或物品）",
+      "examples": [
+        "藏粟于仓",
+        "收藏",
+        "储藏"
+      ],
+      "traditional_char": "藏"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "隐蔽、躲藏起来",
+      "examples": [
+        "藏身之处",
+        "隐蔽藏匿",
+        "埋藏",
+        "蕴藏"
+      ],
+      "traditional_char": "藏"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "储存物品的地方、库房",
+      "examples": [
+        "府藏",
+        "宝藏",
+        "藏府"
+      ],
+      "traditional_char": "藏"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "佛教、道教的典籍总称",
+      "examples": [
+        "大藏经",
+        "道藏",
+        "三藏"
+      ],
+      "traditional_char": "藏"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "藏族，主要居住于西藏自治区等地的民族",
+      "examples": [
+        "藏族",
+        "汉藏对话"
+      ],
+      "traditional_char": "藏"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "西藏，西藏自治区的简称",
+      "examples": [
+        "进藏",
+        "西藏风光"
+      ],
+      "traditional_char": "藏"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "古同“臟”，指内脏器官",
+      "examples": [
+        "五藏六府"
+      ],
+      "traditional_char": "藏"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，臧为声旁，艹和臣表示储存、积聚之意，最初主要指储藏谷物。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "从储存发展为隐蔽储存，引申为隐藏。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由动作引申为储物的场所。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "由储藏的地方引申为书籍、典籍的总称，类似“库”的概念扩展。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 5,
+      "evolution_type": "metonymy",
+      "note": "“藏”为地名，取“藏府”或“西藏”等行政区域、地理意义。"
+    },
+    {
+      "source_index": 5,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "由地名引申为该地区的民族。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "reanalysis",
+      "note": "异体字，本为“臟”，后混用，表示内脏器官。"
+    }
+  ]
+}

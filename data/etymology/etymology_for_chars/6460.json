@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古代祭祀名，指为祈求消灾去邪而举行的祭祀。",
+      "examples": [
+        "禳乃入。——《仪礼·聘礼》。注：“祭名也。”",
+        "齐有彗星，齐侯使禳之。——《左传·昭公二十六年》"
+      ],
+      "traditional_char": "禳"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "祈祷或祭祀以消除灾祸、去邪。",
+      "examples": [
+        "萧艾以为人，悬门户上，以禳毒气。——《荆楚岁时记》",
+        "天且降殃，當遠避宮以禳之。——《史记·李斯列传》"
+      ],
+      "traditional_char": "禳"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "去除、驱除（邪恶、灾异等）。",
+      "examples": [
+        "一善自足禳千灾。——唐 韩愈《忆昨行和张十一》"
+      ],
+      "traditional_char": "禳"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从‘示’为意旁，表示祭祀，‘襄’为声旁，表音。最早用作指特定祭祀（祈祷消灾）名。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由具体祭祀名扩展为指进行该祀事的动作，如祈祷消灾。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "将‘祈祷消灾’之意进一步泛化为‘去除、驱除灾害或邪恶’。"
+    }
+  ]
+}

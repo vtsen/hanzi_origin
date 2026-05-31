@@ -1,0 +1,107 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "学习，练习，演习",
+      "examples": [
+        "君命，大夫与士肄。——《礼记·曲礼》",
+        "兵官皆肄孙吴兵法。——《后汉书》",
+        "作玄武池以肄舟师。——《三国志》"
+      ],
+      "traditional_char": "肄"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "检阅，查验，检查",
+      "examples": [
+        "关吏税肄郡国出入关者。——《汉书·义纵传》",
+        "肄仪（古代王者因事举行祭祀，例须预习威仪，谓之“肄仪”）"
+      ],
+      "traditional_char": "肄"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "树木再生的嫩枝，树木被砍后再生的新枝，或引申为剩余、后裔",
+      "examples": [
+        "伐其条肄。——《诗经·周南·汝坟》",
+        "悴叶更辉，枯条以肄。——陆机《汉高祖功臣颂》",
+        "而夏肄是屏。——《左传·襄公二十九年》"
+      ],
+      "traditional_char": "肄"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "劳苦，辛劳",
+      "examples": [
+        "莫知我肄。——《左传·昭公十六年》",
+        "昔君文王、武王宣重光，奠丽陈教则肄 ——《书·顾命》"
+      ],
+      "traditional_char": "肄"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "水名（肄水，即溱水）",
+      "examples": [
+        "肄水，出临晉西南，而东南注海。——《山海经》"
+      ],
+      "traditional_char": "肄"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "后裔，子孙后代",
+      "examples": [
+        "夏肄是屏。——《左传·襄公二十九年》"
+      ],
+      "traditional_char": "肄"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "other",
+      "meaning": "通“肆”，同“肆”字义（如放纵、铺陈等），为通假用法",
+      "examples": [
+        "講肄即講肆。《左传》",
+        "禘、祫、时享及温成皇后祭饗乐章，肄于太常。"
+      ],
+      "traditional_char": "肄"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从聿，冓声，表示学习、练习等行为。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由学习、练习义引申为复习、检阅、查验，属语义扩展。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "从反复练习引申出劳苦、疲劳之义，属转喻。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 5,
+      "evolution_type": "metaphor",
+      "note": "由树木再生的新枝（余、后续）比喻人的后裔。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "古文中‘肄’通‘肆’，属音近假借，常见于礼乐、祭祀等用语。"
+    }
+  ]
+}

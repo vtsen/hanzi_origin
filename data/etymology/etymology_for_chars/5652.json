@@ -1,0 +1,107 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "多年生草本植物，茎细圆而长，中有白髓，可编席，亦称“灯心草”。",
+      "examples": [
+        "蔺席。",
+        "莖可編席和蓑衣。"
+      ],
+      "traditional_char": "藺"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "马蔺（马莲、马兰），多年生草本植物，叶坚韧可系物，根可制刷子，可造纸。",
+      "examples": [
+        "马蔺，根茎粗，叶线形，花蓝紫色。",
+        "亦称马莲、马兰。"
+      ],
+      "traditional_char": "藺"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "用于垫席、帐帷、幢等编织物的植物总称（包括马蔺、灯心草等）。",
+      "examples": [
+        "蒲蒻藺席帳帷幢。"
+      ],
+      "traditional_char": "藺"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "蔺石，指城墙上的石雷。",
+      "examples": [
+        "具蔺石。",
+        "城上雷石也。"
+      ],
+      "traditional_char": "藺"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "通“躏”，指车辆碾压，践踏。",
+      "examples": [
+        "徒车之所蔺轹。",
+        "耕輒藺之。"
+      ],
+      "traditional_char": "藺"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [
+        "战国赵有蔺相如。",
+        "廉颇蔺相如列传。"
+      ],
+      "traditional_char": "藺"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘藺’从艸（意符），閵（音符），最初表示灯心草一类草本植物。"
+    },
+    {
+      "formation_type": "simple_indicative",
+      "original_sense_index": 0,
+      "note": "‘蔺’为‘藺’的简化字，笔画减少，但本义未变，仍代表草本植物。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由灯心草一类扩展为马蔺等相似草类。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "synecdoche",
+      "note": "由具体植物灯心草代指可用作席材的所有植物。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "以‘蔺’为名称的植物名引申为‘蔺石’（名称借用）。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "‘蔺’通‘躏’，为音近假借用，表示碾压、践踏。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "metonymy",
+      "note": "以地望、植物名为姓氏，古例。"
+    }
+  ]
+}

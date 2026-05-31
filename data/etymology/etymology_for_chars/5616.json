@@ -1,0 +1,70 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "用丝装饰鞋头",
+      "examples": [
+        "縭，以絲介履也。《说文》"
+      ],
+      "traditional_char": "縭"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "古代妇女佩戴在身前的大佩巾，尤其指婚礼佩带的巾饰",
+      "examples": [
+        "亲结其缡。——《诗·豳风·东山》",
+        "施衿缡，虔恭中馈。《女史箴》"
+      ],
+      "traditional_char": "縭"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "带子，指系冠的带子或装饰带",
+      "examples": [
+        "缡，婑也。——《尔雅》",
+        "献环琨与琛縭兮，申厥好之玄黄。《文选·张衡〈思玄赋〉》"
+      ],
+      "traditional_char": "縭"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "维系，系缚（与“纚”通假）",
+      "examples": [
+        "紼縭維之。《詩·小雅·采菽》",
+        "縭，緌也……緌，繫。"
+      ],
+      "traditional_char": "縭"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘縭’从糸，离声，会意兼形声，以丝装饰鞋头为本义。‘缡’为‘縭’简化字。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由装饰鞋头的丝引申为妇女结婚所佩丝巾，因用途和装饰对象转变。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由婚礼佩巾进一步泛指各种带子。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "reanalysis",
+      "note": "因与‘纚’通假，带子的功能被引申为系缚、维系。"
+    }
+  ]
+}

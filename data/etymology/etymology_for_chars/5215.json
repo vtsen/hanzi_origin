@@ -1,0 +1,70 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "行走有节度，步伐柔美。",
+      "examples": [
+        "佩玉之傩。——《诗经·卫风·竹竿》",
+        "巧笑之瑳，佩玉之傩。"
+      ],
+      "traditional_char": "儺"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "古代腊月驱逐疫鬼的仪式，也泛指迎神赛会活动。",
+      "examples": [
+        "乡人傩，朝服而立于阼阶。——《论语·乡党》",
+        "命有司大儺…以送寒氣。——《吕氏春秋·季冬纪》"
+      ],
+      "traditional_char": "儺"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "扮演驱傩仪式、戴面具表演的人。",
+      "examples": [
+        "市井迎儺，以锣鼓遍至人家。——《武林旧事·岁晚节物》",
+        "带面儺。——《送正仲都官知睦州》"
+      ],
+      "traditional_char": "儺"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "傩舞、傩戏：一种中国地方戏曲剧种，演员戴木面具，多用程式化动作表现请神驱邪、祈福或战斗故事。",
+      "examples": [
+        "傩戏（中国地方戏曲剧种之一，演员戴木面具，多用反复的、大幅度的程式动作表现请神驱邪、祈福及简单的战斗故事）。"
+      ],
+      "traditional_char": "儺"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘儺’为形声字，从人，难声，表人步行有节；结构反映带人义与音旁，先有行为本义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由‘步态有节，行走’义引申为特定节日队列步行驱邪的习俗，约《论语》起。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由仪式活动义指称参与该活动、进行表演的人，宋以前已见。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "从古仪式发展为具有表演性质的戏曲、舞蹈艺术。"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "高而险，像屏障一样的山峰",
+      "examples": [
+        "重岩叠嶂，隐天蔽日。",
+        "千嶂里，长烟落日孤城闭。",
+        "聳立如屏障的山峰。"
+      ],
+      "traditional_char": "嶂"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "通“瘴”，指山中的瘴气及因之而生的疾病",
+      "examples": [
+        "嶂疠，同“瘴疠”。因中嶂气而生的病。"
+      ],
+      "traditional_char": "嶂"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从山，章声。本义为高险如屏障的山。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "由于音近，后通用为“瘴”，指瘴气及相关疾病。"
+    }
+  ]
+}

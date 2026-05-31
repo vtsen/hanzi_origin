@@ -1,0 +1,73 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "包裹、包覆物品用的布单或巾帕",
+      "examples": [
+        "幞巾",
+        "衣襆裹而納之。",
+        "呼兒襆衣辦舟楫。"
+      ],
+      "traditional_char": "幞"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "古代男子用的一种头巾，即幞头",
+      "examples": [
+        "高幞广带。",
+        "殿上判官，无幞头不成礼数。",
+        "幞头起于后周。"
+      ],
+      "traditional_char": "幞"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "用作包裹、包袱的量词或代表行李、被褥等包被物",
+      "examples": [
+        "以皁紗全幅向後襆髮。",
+        "津邏咸疑焉。",
+        "州佐解襆出函。"
+      ],
+      "traditional_char": "幞"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "古深衣的下裳（古服制名）",
+      "examples": [
+        "裳削幅為之纀。"
+      ],
+      "traditional_char": "幞"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从糸，表示与布帛有关，声旁为僕，表示读音，用作包裹之布。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由“包裹物的布”转为特指古人用于包裹头发的头巾（幞头）。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "从包裹物引申为量词及泛指一切包被之物，如包袱、被褥、行李等。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由“包裹之布”引申为衣服（古深衣）下裳的名词。"
+    }
+  ]
+}

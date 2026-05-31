@@ -1,0 +1,38 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "一种毒蛇，生活在森林或草地上，常指蝰蛇科的毒蛇，如竹根蛇、白蝰等。",
+      "examples": [
+        "青蝰、白蝰、三角之类，皆毒之猛烈者。——《本草纲目》",
+        "又有靑蝰，即竹根蛇，白蝰……之类。——《本草纲目·鱗二·諸蛇》"
+      ],
+      "traditional_char": "蝰"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "蠶蛹的名称。",
+      "examples": [
+        "【唐韻】苦圭切【集韻】傾畦切，𠀤音奎。蟲名。蠶蛹也。"
+      ],
+      "traditional_char": "蝰"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "形声字，“虫”为意符，表与虫类有关，“奎”为声符。最初用于指蠶蛹，后指毒蛇。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_shift",
+      "note": "由泛指昆虫蛹名转为特指毒蛇名，具体机制不详，或受动物名称转移影响，汉魏以后常用为蛇。"
+    }
+  ]
+}

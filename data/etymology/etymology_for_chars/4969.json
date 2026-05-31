@@ -1,0 +1,102 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "水滴，液体滴下的样子。",
+      "examples": [
+        "涿，流下滴也。——《说文》",
+        "今俗谓一滴为一涿。"
+      ],
+      "traditional_char": "涿"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "指用水名涿水，源出河北省涿鹿县涿鹿山。",
+      "examples": [
+        "涿水出上谷涿鹿县。——《汉书·地理志》"
+      ],
+      "traditional_char": "涿"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "地名，如涿鹿、涿州等，均在今中国河北省。",
+      "examples": [
+        "与蚩尤战于涿鹿之野。——《庄子·盗跖》",
+        "汉置涿县，为涿郡治所，唐改范阳县，明为涿州。"
+      ],
+      "traditional_char": "涿"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "敲击、击打之意，特指敲打瓦鼓。",
+      "examples": [
+        "壶涿氏，掌除水虫。——《周礼·秋官》",
+        "壶，谓瓦鼓。涿，击之也。——郑玄注"
+      ],
+      "traditional_char": "涿"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "阴器名，通“燭”或“屬”，江南称呼女性生殖器用名。",
+      "examples": [
+        "夫惟涿为阴器，故毁阴曰椓。——《新方言·释形体》",
+        "今江南运河而东皆谓阴器为涿。"
+      ],
+      "traditional_char": "涿"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "通“琢”，雕琢之意。",
+      "examples": [
+        "刊鑿涿摩。——《张公神碑》",
+        "琢作涿。"
+      ],
+      "traditional_char": "涿"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从水，豖声，表水滴滴落之意，形声字。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "以水滴引申为以水滴命名的河流及流域。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "以河流名用作地名，沿河设郡。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "水滴声引申为击打声，后用于表示敲击。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "unknown",
+      "note": "作为阴器名用，语源关系不明，有学者认为借音假借。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "通“琢”，借用为雕琢义，形音相近。"
+    }
+  ]
+}

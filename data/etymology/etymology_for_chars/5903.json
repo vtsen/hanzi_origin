@@ -1,0 +1,85 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "睁大眼睛，张目多指愤怒时的神情。",
+      "examples": [
+        "士皆瞋目，发尽上指冠。",
+        "哙遂入，披帷西向立，瞋目视项王。",
+        "画出瞋目而不见丘山。"
+      ],
+      "traditional_char": "瞋"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "怒，生气，愤怒或责怪。",
+      "examples": [
+        "瞋，怒也。",
+        "炙手可热势绝伦，慎莫近前丞相瞋。",
+        "因瞋恚，吐黑血数升而愈。"
+      ],
+      "traditional_char": "瞋"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "盛大之貌，形容气势盛大。",
+      "examples": [],
+      "traditional_char": "瞋"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "视，瞪视、注视。",
+      "examples": [
+        "禽经曰：鴨以怒瞋视也。"
+      ],
+      "traditional_char": "瞋"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "佛教术语，三毒之一——瞋（嗔），指愤怒、嗔恚、怨恨之心。",
+      "examples": [
+        "佛教以贪、瞋、痴为三毒。",
+        "佛言：瞋习交冲，发于相忤。"
+      ],
+      "traditional_char": "瞋"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从目，真声。表示睁大眼睛之义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由愤怒时张目神态转喻为愤怒、恼怒本义，西汉已见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "张目动作引申为注视、瞪视等动作，属语义延伸。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由张目形态引申为盛大的外貌，见于文献多带有情绪色彩。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "semantic_narrowing",
+      "note": "情绪意义进一步专用于佛教中“瞋（嗔）”指三毒之一的愤怒、嗔恚心。"
+    }
+  ]
+}

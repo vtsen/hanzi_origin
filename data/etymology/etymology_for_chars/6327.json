@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "贪食，极其贪婪（常指食欲极大）",
+      "examples": [
+        "斯民乃食餮。——苏舜钦《悲二字联句》",
+        "贪食为餮。——《左传·文公十八年》"
+      ],
+      "traditional_char": "餮"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "传说中的一种贪食的怪兽，四凶之一",
+      "examples": [
+        "山海经所纪：混沌、穷奇、檮杌、饕餮，皆恶兽名，故取以为四凶之号。",
+        "周鼎饕餮，有首无身。食人未咽，害及其身。——《吕氏春秋》"
+      ],
+      "traditional_char": "餮"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从食，㐱声，本义为贪食。相关古文如《左传》，初指贪食或极度贪婪。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由贪食的形容转指极其贪食的怪兽，历史相关记载见于古代神话与典籍。"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "中国古代对北方或东北方民族的称呼，多指濊貊、扶余、高句丽等部族。",
+      "examples": [
+        "华夏蛮貊。——《书·武成》",
+        "其追其貊，奄受北国。——《诗·大雅·韩奕》"
+      ],
+      "traditional_char": "貊"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "古代中国北方或东北方的古国名，如扶余国、高丽、濊貊等。",
+      "examples": [
+        "貊国在汉水东北，地近于燕。——《山海经·海内西经》",
+        "句驪，一名貊。——《后汉书·东夷传》"
+      ],
+      "traditional_char": "貊"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "一种野兽，或作“貘”，形大如驴，状似熊，皮色苍白。",
+      "examples": [
+        "哀牢夷，出貊兽。——《后汉书·西南夷传》",
+        "貊大如驴，状颇似熊，多力，食铁，所触无不拉。——李贤注"
+      ],
+      "traditional_char": "貊"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "安定，安静，清静。",
+      "examples": [
+        "貊其德音， 其德克明。——《诗·大雅·皇矣》",
+        "貊，静也。——《毛传》"
+      ],
+      "traditional_char": "貊"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [
+        "明正统内黄知县貊安。",
+        "弘治潁州判貊廷用。"
+      ],
+      "traditional_char": "貊"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "始喪之服（即初丧时的丧服）。",
+      "examples": [],
+      "traditional_char": "貊"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从豸，舟声。《说文》以豸为形旁，舟为声旁，表指北方少数民族；早期也用于兽名，形成声义结合结构。学界认为原初多指少数民族。本字与“貉”有分流异读情况。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由民族名引申为北方古国名，因部族、国家混用常见于古文献。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "民族名称泛化为姓氏，属于中国古代常见的姓氏来源。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "unknown",
+      "note": "与‘始丧之服’一义联系不明，疑似音转或借用。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "“貊”表“静、安定”，古文有训释，多认为是由民族属性或音近通假而来，具体机制存疑。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "从民族名或类名转指特定野兽，早期‘貊’亦作‘貘’，义混；属名实转用。"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "多年生草本植物，地下茎为球状，可食，亦可制淀粉，亦称“魔芋”、“鬼芋”。",
+      "examples": [
+        "蒟蒻，根大如椀，至秋葉滴露，隨滴生苗。",
+        "蒟蒻一名鬼芋。"
+      ],
+      "traditional_char": "蒟"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "用胡椒科植物制作的调味酱，味香，称为“蒟酱”。",
+      "examples": [
+        "蒟醬，緣樹而生，其子如桑椹，熟時正靑，長二三寸，以蜜藏而食之。",
+        "致邛蒟其奚難，惟余欲而是恣。"
+      ],
+      "traditional_char": "蒟"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "蔞葉，胡椒科之藤本植物，果实可作酱，分布于南方。",
+      "examples": [
+        "蒟，果也。",
+        "蔞葉，生于番禺，小而青，謂之蒟。"
+      ],
+      "traditional_char": "蒟"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 2,
+      "note": "从艸，竘聲。本指南方蔞葉類藤本或其果實，後借指其它相關植物。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 2,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由蔞葉（整体）转指用其果实制成的调味酱。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 0,
+      "evolution_type": "semantic_shift",
+      "note": "古本义泛指蔞葉藤本及其果，后专指可食地下茎植物（蒟蒻/魔芋）。"
+    }
+  ]
+}

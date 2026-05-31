@@ -1,0 +1,76 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "行走有节奏或合乎礼节的样子",
+      "examples": [
+        "巧趋跄兮，射则臧兮。《诗·齐风·猗嗟》",
+        "跄，动也。《说文》"
+      ],
+      "traditional_char": "蹌"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "动作不稳，摇晃、行走不正的样子",
+      "examples": [
+        "蹌踉。",
+        "走不稳，踉踉跄跄。"
+      ],
+      "traditional_char": "蹌"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "起舞或像起舞般动作",
+      "examples": [
+        "始连轩以凤蹌，终宛转而龙跃。——鲍照《舞鹤赋》",
+        "广乐初蹌凤，神山欲忭鼇。——李德裕《寒食日三殿侍宴奉进》诗"
+      ],
+      "traditional_char": "蹌"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "急走，疾驰",
+      "examples": [
+        "蹡，走也。或从仓。《集韵》",
+        "郑氏不知利害，逕蹌上船来。《警世通言·苏知县罗衫再合》"
+      ],
+      "traditional_char": "蹡"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘蹌’形声字，从足，仓声，最早本义为行走有节奏的样子。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 3,
+      "note": "‘蹡’亦为形声字，从足，仓声，含义为急走，与‘蹌’音、义相关。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_shift",
+      "note": "由‘有节奏’、礼仪行走之正→动作不稳之偏义，可能因动作对比产生语义移变。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由‘行走有节奏’引申为‘起舞’或舞步之形，见诗赋用法。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘急走’引申为移动不稳、急促摇晃等本义。史料中‘蹡’与‘蹌’多混用。"
+    }
+  ]
+}

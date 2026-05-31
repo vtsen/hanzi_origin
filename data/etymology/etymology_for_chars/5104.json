@@ -1,0 +1,86 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "落叶灌木，常棣（白棣），果实可食或供观赏。",
+      "examples": [
+        "山有苞棣，隰有树檖。",
+        "梅、杏、郁、棣之属。"
+      ],
+      "traditional_char": "棣"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "比喻兄弟，常用于“棣友”、“棣萼”、“棣华”等词中。",
+      "examples": [
+        "贤棣",
+        "棣友（兄弟友爱）",
+        "棣萼（喻兄弟）"
+      ],
+      "traditional_char": "棣"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [
+        "汉有棣立。"
+      ],
+      "traditional_char": "棣"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "文雅安闲的样子，形容威仪、仪态雍容从容。如“威仪棣棣”。",
+      "examples": [
+        "威仪棣棣， 不可选也。",
+        "穆穆棣。"
+      ],
+      "traditional_char": "棣"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "通达，贯通。常用于“棣通”。",
+      "examples": [
+        "万物棣通。"
+      ],
+      "traditional_char": "棣"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从木，隶声，本义为落叶灌木；‘木’表义，‘隶’表声。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由落叶灌木（常棣）并列生长、花繁盛，用以比喻兄弟和睦，见于《诗经》用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "植物名引申为姓氏，常见于中国古代地名与姓氏来源。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由植物花叶繁盛、从容有致，引申为人的姿态文雅安闲。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由植物枝叶自然贯通，引申为事物相通、通达，多见于文献词组。"
+    }
+  ]
+}

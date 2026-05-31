@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "龙蛇等动物盘曲行走的样子，蜿蜒曲折。",
+      "examples": [
+        "玄武缩于殼中兮，腾蛇蜿而自纠。（汉·张衡《思玄赋》）",
+        "或蜿若藏龙，或翼若搏鹫。（唐·韩愈《南山诗》）",
+        "山林险隘，虎豹蜿只。（《楚辞·大招》）"
+      ],
+      "traditional_char": "蜿"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "弯弯曲曲地延伸、不直，形容道路、河流等曲折延展的样子。",
+      "examples": [
+        "蛇行蜿蜒，不能上阪。（《焦氏·易林》）",
+        "颺翠旗之冤延。（《汉书·扬雄传》）",
+        "如鹤如鹄如龙蜿，詰屈不作人间言。（明·刘基《为韩克铭题画石鼎联句图》）"
+      ],
+      "traditional_char": "蜿"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "蚯蚓的别称。",
+      "examples": [
+        "蜿蟮，蚯蚓。（《博雅》）"
+      ],
+      "traditional_char": "蜿"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从虫，宛声。本义为龙蛇蟠行的样子，虫旁表义，宛表声。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由动物曲折爬行动作，引申比喻河流、道路等弯曲延展的状态。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由龙蛇蟠行之意，扩展泛指蜿蜒爬行的小动物，如蚯蚓。"
+    }
+  ]
+}

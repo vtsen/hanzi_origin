@@ -1,0 +1,113 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "刺伤，划伤。",
+      "examples": [
+        "廉而不刿。——《老子》",
+        "刺人者刿己，揭人者负其咎。"
+      ],
+      "traditional_char": "刿"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "割开，切口。",
+      "examples": [
+        "是以圣人方而不割，廉而不刿。——《老子》"
+      ],
+      "traditional_char": "刿"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "刺眼，触目，形容视觉上的直接冲击。",
+      "examples": [
+        "刿目。"
+      ],
+      "traditional_char": "刿"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "聚合，汇合。",
+      "examples": [
+        "天地相对，日月相刿。——《太玄·玄告》"
+      ],
+      "traditional_char": "刿"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "刺伤；划伤。（劌为正体字）",
+      "examples": [
+        "廉而不劌，义也。——《礼记·聘义》",
+        "其廉可劌。——宋·苏轼《顺济王庙新获石砮记》"
+      ],
+      "traditional_char": "劌"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "聚合，交会。",
+      "examples": [
+        "天地相对，日月相劌。——《太玄·玄告》"
+      ],
+      "traditional_char": "劌"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "昏暗，暗昧。",
+      "examples": [
+        "則見以為劌而不辯。——《韩非子·难言》"
+      ],
+      "traditional_char": "劌"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘刿’为形声字，从刀，岁声，本义为刺伤、划伤，刀表意、岁表音"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 4,
+      "note": "‘劌’为‘刿’之正体，结构与义同，亦为形声字，从刀，岁声"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由刺伤义自然扩大为割开、切口"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "从割或刺的实体动作比喻为视觉的刺激、直接冲击"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "‘刿’借用于表示会合、聚合，与原义无直接语义联系"
+    },
+    {
+      "source_index": 4,
+      "target_index": 5,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "‘劌’借用作“会”，本义转为假借义"
+    },
+    {
+      "source_index": 4,
+      "target_index": 6,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "‘劌’又用于“昧、暗昧”之义，属于音近假借"
+    }
+  ]
+}

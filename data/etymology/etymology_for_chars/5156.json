@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "哑，不能说话",
+      "examples": [
+        "喑哑难言",
+        "他因病而喑"
+      ],
+      "traditional_char": "喑"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "缄默，不说话",
+      "examples": [
+        "众人喑然无声",
+        "喑口无言"
+      ],
+      "traditional_char": "喑"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从口，音声，‘音’为声旁。最初指小儿哭泣声嘶不能发音，引申为哑。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘不能说话’引申为‘缄默不言’。常用于书面表达。"
+    }
+  ]
+}

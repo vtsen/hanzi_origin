@@ -1,0 +1,118 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古代用來送信的快馬或驛車",
+      "examples": [
+        "士曰傳遽之臣。",
+        "且使遽告於鄭。"
+      ],
+      "traditional_char": "遽"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "迅速、急促、快速",
+      "examples": [
+        "老至何遽。",
+        "本乎疾者其勢遽。"
+      ],
+      "traditional_char": "遽"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adverb",
+      "meaning": "立即、馬上、立刻",
+      "examples": [
+        "遽以不變名之。",
+        "遽興姜戎。"
+      ],
+      "traditional_char": "遽"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "匆忙、倉猝",
+      "examples": [
+        "遽數之不能終其物。",
+        "遽此為別，豈勝區區愧恨。"
+      ],
+      "traditional_char": "遽"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "驚惶、恐懼、慌張",
+      "examples": [
+        "駭遽以離心兮。",
+        "色並遽。"
+      ],
+      "traditional_char": "遽"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "adjective",
+      "meaning": "貧困、窘迫",
+      "examples": [
+        "令於是大遽，不敢移公。"
+      ],
+      "traditional_char": "遽"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "adverb",
+      "meaning": "就、竟，常用以表語氣強調或意外",
+      "examples": [
+        "此何遽不能為福乎？",
+        "北亦未敢遽輕吾國。"
+      ],
+      "traditional_char": "遽"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从辵（表示与行走、奔驰有关），豦为声符，表示古代递送信件的快车或快马"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由指快马（迅速）的性质，引申为迅速、急促"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "grammaticalization",
+      "note": "形容词‘迅速’虚化为表示‘立即’的副词"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "迅速延申为匆忙、仓猝"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "匆忙常伴随慌张，引申为惊惶、恐惧"
+    },
+    {
+      "source_index": 3,
+      "target_index": 5,
+      "evolution_type": "semantic_shift",
+      "note": "窘迫本义为急促，转指贫困、困窘"
+    },
+    {
+      "source_index": 2,
+      "target_index": 6,
+      "evolution_type": "function_word",
+      "note": "副词'立即'进一步虚化为连词或语气加强用法"
+    }
+  ]
+}

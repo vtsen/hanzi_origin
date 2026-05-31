@@ -1,0 +1,43 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "口腔的上膛，前部称硬腭，后部为软腭",
+      "examples": [
+        "余循龟之南，见其腭中沸水，其上唇覆出，为人击缺。——《徐霞客游记》"
+      ],
+      "traditional_char": "腭"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "齦，齒齦，口里的牙龈部位",
+      "examples": [
+        "齶，口中齗也。——錢仲聯引祝充",
+        "齒牙嚼齧舌齶反。——韩愈《陸渾山火一首和皇甫湜用其韻》"
+      ],
+      "traditional_char": "齶"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘腭’为形声字，从肉，咢声，本义为口腔上膛。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "‘齶’为形声字，从齒，咢声，早期常表示齦，后兼指腭。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "由齦泛指口腔部位，语义扩大至整个口腔上膛。"
+    }
+  ]
+}

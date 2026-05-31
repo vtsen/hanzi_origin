@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "白铜或白色金属。",
+      "examples": [
+        "《說文·金部》：鋈，白金也。",
+        "《廣雅·釋器》：白銅謂之鋈。",
+        "南朝梁簡文帝《金錞賦》：採赤鋈於蜀壘。"
+      ],
+      "traditional_char": "鋈"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "用一种金属镀在另一种金属或物体的表面（鍍）。",
+      "examples": [
+        "《詩·秦風·小戎》：龍盾之合，鋈以觼軜。",
+        "鋈器（鍍上金銀等金屬的器物）",
+        "《元史·成宗紀三》：賜諸王也滅干鋈金印。"
+      ],
+      "traditional_char": "鋈"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "戴脚镣（古刑罚中的脛鉗）。",
+      "examples": [
+        "睡虎地秦墓竹簡《法律答問》：其罪當刑城旦，耐以為鬼薪而鋈足。"
+      ],
+      "traditional_char": "鋈"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从金，沃声。本义为白色金属，如白铜或白银。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由白色金属引申为以金属覆饰、镀。东周至汉已有此义。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "因古代刑罚用器常为镀（鋈）金属品，词义移用作“戴脛鉗”。"
+    }
+  ]
+}

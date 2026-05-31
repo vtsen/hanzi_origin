@@ -1,0 +1,43 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "牙齿突露在唇外。",
+      "examples": [
+        "龅牙",
+        "齙齒"
+      ],
+      "traditional_char": "齙"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "作为“齙”的简化字，含义同上，指牙齿突露在唇外。",
+      "examples": [
+        "龅牙"
+      ],
+      "traditional_char": "龅"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "齙：形声字，形旁‘齒’，声旁‘包’。本义为牙齿外突。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "龅：‘齙’的简化字，由‘齒’的简化形‘龅’加声旁‘包’组成，意义与‘齙’相同。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "reanalysis",
+      "note": "由传统字‘齙’简化为‘龅’，意义未变，属于现代汉字简化过程。"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "害禾苗的杂草，类似于莠，狼尾草等。",
+      "examples": [
+        "既坚既好，不稂不莠。",
+        "浸彼苞稂。"
+      ],
+      "traditional_char": "稂"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "禾粟的癟子，指谷物发育不良、未能饱满的颗粒。",
+      "examples": [
+        "禾粟之癟生而不成者谓之稂。"
+      ],
+      "traditional_char": "稂"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [],
+      "traditional_char": "稂"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘稂’从禾，良声，本指害苗杂草。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由指恶草引申指禾粟形态异常的癟谷，先见传统注疏。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "conversion",
+      "note": "由物名转用为姓氏。"
+    }
+  ]
+}

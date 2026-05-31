@@ -1,0 +1,40 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "兵器",
+      "examples": [
+        "甲骨文字形象兵器形。"
+      ],
+      "traditional_char": "我"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "pronoun",
+      "meaning": "第一人称代词，用来自称自己，亦指自己一方",
+      "examples": [
+        "我们一起努力。",
+        "自我反省。",
+        "我见，认为此事不可。",
+        "我辈当自强。"
+      ],
+      "traditional_char": "我"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "从戈，从戈。会意造字，象征兵器，甲骨文中形象兵器形状。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "兵器引申为己方标志，进一步发展为第一人称代词“我”，用于自称自己及自身一方。"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "山名，指嵖岈山，位于中国山东省或河南省。",
+      "examples": [
+        "嵖岈山位于河南省遂平县。"
+      ],
+      "traditional_char": "嵖"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "山势嵯峨、高峻的样子。",
+      "examples": [
+        "嵖岈，山势嵯峨。"
+      ],
+      "traditional_char": "嵖"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "形声字，从山，差声。表示山势嵯峨高峻之义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "metonymy",
+      "note": "以地貌特征代指地名，见于地名‘嵖岈山’。"
+    }
+  ]
+}

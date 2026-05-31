@@ -1,0 +1,86 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "水边深处，水体边缘的陆地（如河边、海边）",
+      "examples": [
+        "浔，厓深也。《说文》",
+        "弭节乎江浔。——枚乘《七发》",
+        "吴蜀成婚此水浔，明珠步障屋黄金。——《三国演义》"
+      ],
+      "traditional_char": "潯"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "泛指边际、极限",
+      "examples": [
+        "销神躬于壤末，散灵魄于天潯。——南朝宋谢庄《宋孝武宣贵妃誄》"
+      ],
+      "traditional_char": "潯"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "江西省九江市的别称，因长江流经九江市北的一段称浔阳江",
+      "examples": [
+        "浔阳是江西九江市的别名",
+        "九江市有浔阳楼"
+      ],
+      "traditional_char": "潯"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "水名，例如山东省莒县东南的浔水，以及广西境内西江中游的浔江",
+      "examples": [
+        "浔水，在山东省莒县东南，西南流注入沭水",
+        "浔江，在广西东部，即西江中游桂平县至梧州市段"
+      ],
+      "traditional_char": "潯"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "measure_word",
+      "meaning": "海洋测量中计算水深的单位，一浔等于1.852米",
+      "examples": [
+        "海洋测量中使用“浔”为水深单位"
+      ],
+      "traditional_char": "潯"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘潯’为形声字，从水，尋声，表示水边或旁深。‘浔’为‘潯’的简化字。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由具体的水边深处引申为边际、极限，见南朝宋用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "因地理特征，水边之地（浔阳）成为九江市别名和地名。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "水边、旁深用于命名具体的河流、江段。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "水边深度相关概念用作海洋测量的量词单位。"
+    }
+  ]
+}

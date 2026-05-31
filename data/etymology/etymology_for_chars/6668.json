@@ -1,0 +1,86 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "辛勤不懈的样子，勤劳努力貌。",
+      "examples": [
+        "终日矻矻",
+        "矻矻穷年",
+        "区区矻矻"
+      ],
+      "traditional_char": "矻"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "石头，坚硬的石。",
+      "examples": [
+        "矻，石也"
+      ],
+      "traditional_char": "矻"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "坚硬的样子。",
+      "examples": [
+        "石坚貌"
+      ],
+      "traditional_char": "矻"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "高耸的样子。",
+      "examples": [
+        "浪如山矻",
+        "秋至莫言长矻立"
+      ],
+      "traditional_char": "矻"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "onomatopoeia",
+      "meaning": "象声词，模仿敲打石头等的声音。",
+      "examples": [
+        "矻磴",
+        "矻齐"
+      ],
+      "traditional_char": "矻"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "从石，吉声。本义为石头，属于形声字。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由具体之石，扩展为坚硬之意，见于《集韵》释义。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由坚硬之状，引申比喻为高耸挺立之意，用以形容山浪等。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 0,
+      "evolution_type": "metaphor",
+      "note": "由石的坚固、坚韧，进一步比喻为人的勤勉不懈。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "石头相击之声转为象声词，模仿敲击石头。"
+    }
+  ]
+}

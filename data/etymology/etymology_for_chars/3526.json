@@ -1,0 +1,86 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "劈开的成片的木柴、竹木等。",
+      "examples": [
+        "柴爿",
+        "爿，判木也。从反片。——《说文》"
+      ],
+      "traditional_char": "爿"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "numeral",
+      "meaning": "量词，指一块（片）田地、树林等。",
+      "examples": [
+        "听说踏满一爿田就要一块多钱!——茅盾《秋收》",
+        "当那洋水车灌好了第二爿田的时候，老通宝决定主意请教这‘泥鳅精’。"
+      ],
+      "traditional_char": "爿"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "numeral",
+      "meaning": "量词，指一家商店、工厂等。",
+      "examples": [
+        "一爿水果店",
+        "见有一爿旧书坊，他却踱将进去，随手翻阅。——蔡东藩《清史通俗演义》"
+      ],
+      "traditional_char": "爿"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "numeral",
+      "meaning": "量词，用于整体的部分，相当于“边”、“段儿”、“截儿”等。",
+      "examples": [
+        "走上前，一斧将荷香砍做两半爿。——《说岳全传》",
+        "花瓶摔到地上，碎成几爿。"
+      ],
+      "traditional_char": "爿"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "preposition",
+      "meaning": "（方言）相当于“间”，用于特定时间或空间内。",
+      "examples": [
+        "正月爿，瓜子壳丢门前。——《中国歌谣资料·福建民谣》"
+      ],
+      "traditional_char": "爿"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "simple_indicative",
+      "original_sense_index": 0,
+      "note": "象形字，表示劈开的木片，即木之左半，形状取象于劈开的木头。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘木片’之本义引申为成块状的田地、树木作为量词用法；形成汉语通行量词习惯。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "量词由‘木片’本义引申至指称商店、工厂等‘一块、一片’。体现量词化常规。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "量词进一步适用于事物的局部‘边、段、截儿’，本义片状之意系统延展。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_shift",
+      "note": "方言中由‘木片’抽象出时间或空间的‘间’，用作介词。含义跨域，语法化。"
+    }
+  ]
+}

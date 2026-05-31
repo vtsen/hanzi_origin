@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "割去牲畜的生殖器，阉割。",
+      "examples": [
+        "劁猪",
+        "劁羊"
+      ],
+      "traditional_char": "劁"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "割草，收割。",
+      "examples": [
+        "劁刈",
+        "刈草"
+      ],
+      "traditional_char": "劁"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "割、切断。",
+      "examples": [
+        "劁折",
+        "博雅：断也"
+      ],
+      "traditional_char": "劁"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 2,
+      "note": "‘劁’为形声字，从刀，肖声。本义为割、切断（断也），声符表示声读，刀表示与割、切断有关。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 2,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘割、切断’本义扩展为‘割草，收割’。时间不详，常见于早期文献。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 0,
+      "evolution_type": "semantic_narrowing",
+      "note": "由一般‘割、切断’语义转为特指‘割去牲畜生殖器，阉割’。主要见于后世使用。"
+    }
+  ]
+}

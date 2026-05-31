@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "温暖",
+      "examples": [
+        "春日煊然",
+        "煊和的阳光"
+      ],
+      "traditional_char": "煊"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "光明，灿烂",
+      "examples": [
+        "煊烂夺目",
+        "煊赫一时"
+      ],
+      "traditional_char": "煊"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "形容名声很大，声势很盛",
+      "examples": [
+        "煊赫",
+        "名声煊赫"
+      ],
+      "traditional_char": "煊"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "同“暄”，指天气暖和",
+      "examples": [
+        "春日煊和",
+        "煊风和畅"
+      ],
+      "traditional_char": "煊"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从火，爰声。本作表示温暖，与火、暄义相关，形声字。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由温暖引申为光明与灿烂，可能因暖与光常伴随。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "analogy",
+      "note": "与同音字“暄”意义类通，后常通用，温暖义转为气候暖和。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由光明、灿烂比喻到声势、名声显赫，成固定搭配“煊赫”。"
+    }
+  ]
+}

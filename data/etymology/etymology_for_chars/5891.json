@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "醉饱；酒后满足的状态。",
+      "examples": [
+        "醅，醉飽也。——《说文》"
+      ],
+      "traditional_char": "醅"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "未经过滤的酒，泛指酿成但未滤去酒糟的原酒。",
+      "examples": [
+        "盘飧市远无兼味，樽酒家贫只旧醅。——杜甫",
+        "恰似葡萄初醱醅。——李白"
+      ],
+      "traditional_char": "醅"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "泛指酒。",
+      "examples": [
+        "醅酎（美酒）",
+        "醅瓮（酒坛子）",
+        "醅面（浮在酒面上的绿色泡沫）"
+      ],
+      "traditional_char": "醅"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从酉，咅声；“酉”表与酒相关，“咅”表声，最初表示醉饱。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_shift",
+      "note": "由“醉饱”的状态转为指代造成醉饱的酒，尤其指未滤过的酒。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由“未过滤的酒”进一步泛指一切酒。"
+    }
+  ]
+}

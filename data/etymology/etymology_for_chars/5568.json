@@ -1,0 +1,110 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adverb",
+      "meaning": "忽然，突然",
+      "examples": [
+        "宁溘死以流亡兮，余不忍为此态也。",
+        "溘逝"
+      ],
+      "traditional_char": "溘"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "死亡，突然去世",
+      "examples": [
+        "溘然长逝",
+        "溘谢"
+      ],
+      "traditional_char": "溘"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "水声（如流水声）",
+      "examples": [
+        "飞下双鸳鸯，塘水声溘溘"
+      ],
+      "traditional_char": "溘"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "寒冷的样子",
+      "examples": [
+        "沙堤十里寒溘溘"
+      ],
+      "traditional_char": "溘"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "依凭，附着；覆盖",
+      "examples": [
+        "香露溘蒙菉"
+      ],
+      "traditional_char": "溘"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "水波；波浪（稀用义）",
+      "examples": [],
+      "traditional_char": "溘"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "船搁浅在沙上（稀用义）",
+      "examples": [],
+      "traditional_char": "溘"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，盍声，本义为‘忽然’或‘奄忽’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "‘忽然’之意引申为‘突然死去’，多用于书面语。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "unknown",
+      "note": "本义与‘水声’的联系不明，机制存疑。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "水声寒冷，引申为‘寒冷的样子’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "unknown",
+      "note": "‘忽然’义与‘依凭，覆盖’义联系机制不明。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "从‘水声’扩展为‘水波’。"
+    },
+    {
+      "source_index": 5,
+      "target_index": 6,
+      "evolution_type": "semantic_extension",
+      "note": "由‘水波’引申为‘船搁浅在沙上’。"
+    }
+  ]
+}

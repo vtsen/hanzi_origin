@@ -1,0 +1,62 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "鲫鱼，也称为鲋鱼，一种常见的淡水鱼。",
+      "examples": [
+        "涸辙之鲋（喻处在困难中急待援助的人）",
+        "魚用鮒，必殽全。",
+        "鮒魚也。"
+      ],
+      "traditional_char": "鮒"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "蛤蟆，即青蛙。",
+      "examples": [
+        "井谷射鲋。——《易·井》",
+        "無異射鮒於井谷。",
+        "鮒、附通……"
+      ],
+      "traditional_char": "鮒"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "通“附”，依附、附着之意。",
+      "examples": [
+        "鮒、附通……《周禮•大司徒》鄭注云：‘附，麗也。’",
+        "鮒同——《墨子•大取》"
+      ],
+      "traditional_char": "鮒"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“鮒”形声字，从鱼，付声，本义为鲫鱼，代表鱼类。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“鲋”为“鮒”的简化字，形声结构，简化自鮒。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由名字像鱼，转喻为形态相似的蛤蟆，出现于先秦典籍。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "reanalysis",
+      "note": "“鮒”假借为“附”，基于音近用法，见于先秦典籍。"
+    }
+  ]
+}

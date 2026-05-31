@@ -1,0 +1,147 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "与嬴而不助六国。",
+        "嬴，少昊氏之姓。"
+      ],
+      "traditional_char": "嬴"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "古邑名，在今山东省莱芜县西北",
+      "examples": [
+        "孟子自齐葬于鲁，反于齐，止于嬴。"
+      ],
+      "traditional_char": "嬴"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "秦国或秦王朝的代称",
+      "examples": [
+        "嬴氏（嬴秦。称秦国或秦王朝）",
+        "嬴女（指传说中的秦穆公之女弄玉。秦，嬴姓，故称秦女为“嬴女”）"
+      ],
+      "traditional_char": "嬴"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "获胜，胜过",
+      "examples": [
+        "一胜人必嬴。",
+        "嬴则兼欺舅与母。"
+      ],
+      "traditional_char": "嬴"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "增益，增加",
+      "examples": [
+        "是维嬴土之国。"
+      ],
+      "traditional_char": "嬴"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "担负，承担",
+      "examples": [
+        "嬴粮（担粮）",
+        "嬴育（孕育）"
+      ],
+      "traditional_char": "嬴"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "环绕，围绕",
+      "examples": [
+        "俶真者，穷逐终始之化，嬴垀有无之精。"
+      ],
+      "traditional_char": "嬴"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "adjective",
+      "meaning": "有余，满，盈余",
+      "examples": [
+        "与世偃仰，缓急嬴绌。",
+        "曾无我嬴！"
+      ],
+      "traditional_char": "嬴"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "adjective",
+      "meaning": "土地肥美",
+      "examples": [
+        "有柔仆民，是维嬴土之国。"
+      ],
+      "traditional_char": "嬴"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "《说文解字》：“嬴，帝少昊之姓也。从女，贏省声。”‘女’示女性，'贏'作声符。最早造字为古族姓氏。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "秦国因君族为嬴姓而得名，本义的引申。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "古邑由嬴姓族所居而得名，春秋战国见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "与‘赢’同用。因嬴族昌盛，引申为‘胜利’。见古籍假借。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 7,
+      "evolution_type": "semantic_extension",
+      "note": "与‘盈’音同，古多通用，引申为‘有余’、‘满’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "semantic_shift",
+      "note": "义同‘担负’，源自族人作用的动词化。"
+    },
+    {
+      "source_index": 7,
+      "target_index": 8,
+      "evolution_type": "metaphor",
+      "note": "盈余之义转指土地肥美，见古地名解。"
+    },
+    {
+      "source_index": 7,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "盈余引申为增益、增加。"
+    },
+    {
+      "source_index": 7,
+      "target_index": 6,
+      "evolution_type": "semantic_extension",
+      "note": "盈满、包容义再扩为环绕，见《淮南子》。"
+    }
+  ]
+}

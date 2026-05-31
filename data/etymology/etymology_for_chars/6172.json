@@ -1,0 +1,75 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "焚烧，点火使物体烧毁或焚毁。",
+      "examples": [
+        "燔诗书而明法度。",
+        "抱木而燔死。",
+        "燔其茏城。",
+        "人民饥饿，相燔烧以求食。",
+        "不若燔土。"
+      ],
+      "traditional_char": "燔"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "烤熟、炙烤（使肉类等熟），尤指古代祭祀时烤整只牲畜。",
+      "examples": [
+        "有兔斯首，炮之燔之。",
+        "为俎孔硕，或燔或炙。",
+        "燔柴（将玉帛、牺牲等置于积柴上而焚之以祭天）。"
+      ],
+      "traditional_char": "燔"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "古代祭祀用的烤肉（“膰”的通假字）。",
+      "examples": [
+        "与执燔焉。",
+        "腥曰脤，熟曰燔。",
+        "燔肉不至。"
+      ],
+      "traditional_char": "燔"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "（方言或古籍中）茂盛。",
+      "examples": [
+        "如燔如卒，事之反也。"
+      ],
+      "traditional_char": "燔"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从火，番声。原义为焚烧。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从“焚烧”引申为“烤熟”之意，因烤肉为以火烧制。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "祭祀用烤熟的肉，以动作指代所获食物，形成“烤肉”的名词义。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "古籍中“燔”借用为“蕃”，表示茂盛，为音近通假。"
+    }
+  ]
+}

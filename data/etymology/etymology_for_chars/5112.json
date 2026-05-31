@@ -1,0 +1,80 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "气闭，昏倒",
+      "examples": [
+        "昏厥",
+        "痰厥"
+      ],
+      "traditional_char": "厥"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "pronoun",
+      "meaning": "其他的，那个的",
+      "examples": [
+        "厥父",
+        "厥后"
+      ],
+      "traditional_char": "厥"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "conjunction",
+      "meaning": "乃，于是",
+      "examples": [
+        "左丘失明，厥有《国语》"
+      ],
+      "traditional_char": "厥"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "掘，挖掘",
+      "examples": [],
+      "traditional_char": "厥"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "断木，折断木头",
+      "examples": [],
+      "traditional_char": "厥"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 3,
+      "note": "‘厥’本为形声字，从厂，厥声，最初义为掘、挖掘。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "从挖掘引申为断木，为古义的分化。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 1,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "借用作代词义‘其他的，那个的’，属假借现象。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "grammaticalization",
+      "note": "从代词进一步虚化为连词‘乃，于是’。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 0,
+      "evolution_type": "semantic_shift",
+      "note": "从‘掘’引申为气机运行失常，引申为‘气闭，昏倒’。"
+    }
+  ]
+}

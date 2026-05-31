@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "冻疮，因寒冷引起的皮肤肿胀和溃烂。",
+      "examples": [
+        "手足皸瘃。——《汉书》",
+        "童仆苦病瘃，庭户无与杴。——宋·梅尧臣《对残雪怀欧阳永叔》"
+      ],
+      "traditional_char": "瘃"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "因冷冻而凝结、干燥（如肉类、鱼类等）。",
+      "examples": [
+        "经冬令瘃。——《齐民要术》",
+        "瘃脯（冻肉干）。"
+      ],
+      "traditional_char": "瘃"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从疒，豖声，表示与疾病相关，最初表示因寒冷导致的肿胀（冻疮）之意，是形声字。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由表示冻疮、因冷而肿（原意）引申为“物品因冻而凝结、干燥”，常用于腊肉、鱼肉加工描述。"
+    }
+  ]
+}

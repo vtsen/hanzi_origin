@@ -1,0 +1,103 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "虫子蛀食木头，引申为器物因磨损或腐蚀即将断裂的样子。",
+      "examples": [
+        "蠡，虫啮木中也。——《说文》",
+        "以追蠡。——《孟子》"
+      ],
+      "traditional_char": "蠡"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "用葫芦或贝类壳制成的瓢、水勺。",
+      "examples": [
+        "以蠡测海。——《汉书·东方朔传》",
+        "蠡帽（防矢石的盔帽。其形似瓠瓢，故名）",
+        "蠡酌管窥"
+      ],
+      "traditional_char": "蠡"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "蜾蠃或螺，特指螺壳、螺号（螺类的贝壳）。通“蠃”。",
+      "examples": [
+        "谅不登樔而椓蠡兮，得不陈力而相追。——班昭《东征赋》",
+        "鸣金、击鼓、吹蠡为乐。——《新唐书·南蛮传》"
+      ],
+      "traditional_char": "蠡"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "分割、分开的意思（方言义），也指虫名。",
+      "examples": [
+        "参、蠡，分也。齐曰参，楚曰蠡。——《方言》",
+        "蠡，虫名。"
+      ],
+      "traditional_char": "蠡"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "地名或人名用字，如“范蠡”、“蠡县”、“彭蠡”。",
+      "examples": [
+        "范蠡（春秋末年越国大夫）",
+        "彭蠡，泽名。——《书·禹贡》"
+      ],
+      "traditional_char": "蠡"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "牲畜皮肥或是生疥癣。（瘯蠡，亦作“族蠡”）",
+      "examples": [
+        "左传：为其不疾瘯蠡也。"
+      ],
+      "traditional_char": "蠡"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从虫，彖声。《说文》：虫齧木为本义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由虫蛀木头，本义引申为器物表面被蛀掉后中空壳体，转指瓢状器皿，如葫芦壳等。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由瓢形器具泛指与瓢状类似的贝壳、螺壳等，形体转移。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "“蠡”用于分割义，源自虫蛀木、分成两半或分裂的意象。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "unknown",
+      "note": "“瘯蠡”义系皮肤病，词源学机制不明。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "地名或人名多取用“蠡”为美好或特殊意义，常源自地理形体或借代义。"
+    }
+  ]
+}

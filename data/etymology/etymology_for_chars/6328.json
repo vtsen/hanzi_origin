@@ -1,0 +1,86 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "惊视，惊恐地看，形容吃惊、警惕的样子",
+      "examples": [
+        "瞿，隼之视也。",
+        "见似目瞿，闻名心瞿。",
+        "公瞿然失席曰。",
+        "子綦瞿然。"
+      ],
+      "traditional_char": "瞿"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "古代戟一类的兵器",
+      "examples": [
+        "一人冕执瞿，立于西垂。"
+      ],
+      "traditional_char": "瞿"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "四通八达的道路；大道（通“衢”）",
+      "examples": [
+        "有瞿地，有重地，有冷地。"
+      ],
+      "traditional_char": "瞿"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "瞿昙氏，为佛教创始人释迦牟尼的姓，后作为佛教的代称及佛陀的称号",
+      "examples": [
+        "瞿曇，佛姓也。",
+        "瞿聃，佛、道二教宗主。"
+      ],
+      "traditional_char": "瞿"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "汉有汉南太守瞿茂。"
+      ],
+      "traditional_char": "瞿"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从隹，䀠声，本指隼之视，形声会意结构，表现为锐利或惊视。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "兵器名可能因锐利如鸟之视而得名，或形态象形。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "‘瞿’作‘衢’，取四通八达之意，喻鸟警觉四顾。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "conversion",
+      "note": "用作人名姓氏（瞿昙），再引伸为佛教用名。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "conversion",
+      "note": "由形容词‘惊视貌’转为姓氏用法。"
+    }
+  ]
+}

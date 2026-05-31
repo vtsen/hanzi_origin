@@ -1,0 +1,82 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "原西藏地方政府的主要官员（噶伦）。",
+      "examples": [
+        "噶伦是西藏地方政府的高官。"
+      ],
+      "traditional_char": "噶"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "藏语‘发布命令的机关’，即中国原西藏地方政府（噶厦）。",
+      "examples": [
+        "噶厦由四位噶伦共同治理。"
+      ],
+      "traditional_char": "噶"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "用于音译，如个人名、地名、宗教术语等。",
+      "examples": [
+        "噶布伦，萨噶达娃节。"
+      ],
+      "traditional_char": "噶"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "赌咒（如‘噶点儿’）。",
+      "examples": [
+        "我噶点儿要是真有这回事！"
+      ],
+      "traditional_char": "噶"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "onomatopoeia",
+      "meaning": "象声词，模仿某种声音。",
+      "examples": [
+        "弄只鹅，噶啊噶的。"
+      ],
+      "traditional_char": "噶"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 2,
+      "note": "‘口’表声义相关，‘曷’表音。从‘口’，用作译音字，为藏语等名词音译。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 2,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "由音译通名延伸指称藏地特定官职。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由译音用字延伸指称原西藏地方政府机关。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "‘噶点儿’为译音结构后词义扩展用作赌咒。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "用为象声词，由音译旁借作拟声。"
+    }
+  ]
+}

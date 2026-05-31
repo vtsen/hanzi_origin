@@ -1,0 +1,51 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "温暖，暖和",
+      "examples": [
+        "春风和煦",
+        "煦暖"
+      ],
+      "traditional_char": "煦"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "恩惠，仁爱",
+      "examples": [
+        "煦煦为仁"
+      ],
+      "traditional_char": "煦"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "日出，太阳刚升起",
+      "examples": [],
+      "traditional_char": "煦"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从火，昫声，本义为温暖。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由“温暖”引申为“恩惠”，如阳光给予人的温暖比喻为人的关怀。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由“温暖”用以指代带来温暖的“日出”或“太阳初升”。"
+    }
+  ]
+}

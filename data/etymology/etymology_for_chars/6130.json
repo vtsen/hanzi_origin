@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "割鼻，古代五刑之一，用刀割掉犯人鼻子的刑罚。",
+      "examples": [
+        "惟作五虐之刑曰法，殺戮無辜，爰始淫為劓刵椓黥。（《書·呂刑》）",
+        "劓鼻盈蔂。（《鹽鐵論·詔聖》）",
+        "昔 周 用肉刑， 刖足劓鼻。（《抱樸子·用刑》）"
+      ],
+      "traditional_char": "劓"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "泛指割除、削除，引申为剪除、斩断（不限于鼻子）。",
+      "examples": [
+        "我乃劓殄滅之，無遺育。（《書·盤庚中》）",
+        "劓割夏邑。（《尚書·多方》）"
+      ],
+      "traditional_char": "劓"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "泛指鼻子受到毁伤的状态。",
+      "examples": [
+        "其人天且劓，無初有終。（《易·睽》）"
+      ],
+      "traditional_char": "劓"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意字，从刀从鼻，表示用刀割鼻之刑，形符为鼻，意符为刀。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由狭义割鼻刑罚引申为一般的割除、剪除等动作，见《书·盘庚中》用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由刑罚义泛化为指鼻子受伤的状态，见《易·睽》注释。"
+    }
+  ]
+}

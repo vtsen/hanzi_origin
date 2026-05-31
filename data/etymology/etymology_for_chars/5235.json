@@ -1,0 +1,44 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "头足纲软体动物，形状略似乌贼，生活在海洋中，可食，味鲜美。亦称枪乌贼、柔鱼。",
+      "examples": [
+        "鱿鱼干",
+        "炒鱿鱼"
+      ],
+      "traditional_char": "鱿"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "同“鱿”，指头足纲软体动物，形状略似乌贼，生活在海洋中，可食，味鲜美。",
+      "examples": [
+        "魷魚丸",
+        "魷魚絲"
+      ],
+      "traditional_char": "魷"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "魷为形声字，从魚，酋声，表示一种海洋动物。"
+    },
+    {
+      "formation_type": "simple_indicative",
+      "original_sense_index": 0,
+      "note": "鱿为“魷”的简化字，鱼旁指动物类别，尤侧从。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "reanalysis",
+      "note": "鱿为“魷”的简化字，义同。"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "缝制衣服边或带子时，把布边往里卷藏针脚缝起来的方法。",
+      "examples": [
+        "缲边儿",
+        "她正在给裤脚缲边。"
+      ],
+      "traditional_char": "繰"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "抽丝，缫丝。",
+      "examples": [
+        "天子亲舂禘郊之盛，王后亲繰其服。",
+        "絲細繰多女手疼。"
+      ],
+      "traditional_char": "繰"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "深青带红色的丝帛。",
+      "examples": [
+        "繰，帛如紺色。",
+        "深繒。"
+      ],
+      "traditional_char": "繰"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "冕旒的绳子。",
+      "examples": [
+        "冕旒的繩子。"
+      ],
+      "traditional_char": "繰"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 2,
+      "note": "‘糸’为意符，表与丝织相关；‘喿’为声符。最初本义为一种特定颜色的丝帛。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "由特定颜色的丝帛，用于指制作冕旒的绳子，依材料的转用。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由丝帛色彩扩展为丝的加工抽取丝线之意，见古代缲丝之用。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "由抽丝动作，引申为缝纫中线缠藏、卷边缝等方法。"
+    }
+  ]
+}

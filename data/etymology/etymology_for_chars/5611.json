@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "细致，周密",
+      "examples": [
+        "累居显职，性缜密，未尝言禁中事。",
+        "缜密以栗。"
+      ],
+      "traditional_char": "縝"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "麻线，细麻绳",
+      "examples": [
+        "纑謂之縝。",
+        "捫蘿引縝而陟其上，則嘉樹列植，間以名花。"
+      ],
+      "traditional_char": "縝"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "黑（通“鬒”，多指头发浓黑）",
+      "examples": [
+        "谁能缜不变。"
+      ],
+      "traditional_char": "縝"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "形声字，从糸，表示与丝麻类相关，声旁真。最初指细麻线。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "从细麻线引申为细致、周密。汉魏六朝以来常见。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "以细密的麻线比喻头发浓黑，属形象化比喻，见南朝诗文。"
+    }
+  ]
+}

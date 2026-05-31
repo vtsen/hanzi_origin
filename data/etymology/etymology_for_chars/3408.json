@@ -1,0 +1,69 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "脚踩，践踏；用脚踩在物体上。",
+      "examples": [
+        "舞辄数十人相随，蹋地为节。",
+        "蹋，践也。——《说文》"
+      ],
+      "traditional_char": "蹋"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "踢（如踢球）。",
+      "examples": [
+        "穿域蹋鞠",
+        "王傅萨都喇以足蹋人而死。——《续资治通鉴》"
+      ],
+      "traditional_char": "蹋"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "落下；下坠。",
+      "examples": [
+        "堇父从半空中蹋将下来。——《东周列国志》第六十回"
+      ],
+      "traditional_char": "蹋"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "下垂的样子。",
+      "examples": [
+        "蹋翼（翅膀下垂的样子）"
+      ],
+      "traditional_char": "蹋"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从足，沓声，表示与脚步动作相关。‘蹋’本义为用脚践踏。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘踩、践踏’之动作引申为‘踢’，皆为脚的动作。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "从脚踩（压下）引申为‘落下’的动作，有下压、下降之意。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由‘落下’引申为‘物体下垂’的形态。"
+    }
+  ]
+}

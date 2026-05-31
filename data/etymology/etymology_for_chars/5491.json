@@ -1,0 +1,72 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古代蒸食物的器具，有无足两说",
+      "examples": [
+        "以锭盛饭",
+        "蒸之以錠"
+      ],
+      "traditional_char": "錠"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "纺车或纺纱机上绕纱的机件",
+      "examples": [
+        "纱锭高速旋转",
+        "换锭子"
+      ],
+      "traditional_char": "锭"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "金属或药物等制成的块状物",
+      "examples": [
+        "银锭",
+        "墨锭",
+        "钢锭"
+      ],
+      "traditional_char": "锭"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "measure_word",
+      "meaning": "用于成块的金属、墨等的量词",
+      "examples": [
+        "一锭金",
+        "三锭银"
+      ],
+      "traditional_char": "锭"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从金，定声；‘金’表义，‘定’表声，原指盛食物的金属器具。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "由金属制器泛化为指金属制成的块状物，约自中古以后。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "grammaticalization",
+      "note": "由名词转化为量词，表示‘一块’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "因器物形状类似，借喻为纺纱机件。"
+    }
+  ]
+}

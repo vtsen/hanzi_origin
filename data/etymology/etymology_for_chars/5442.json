@@ -1,0 +1,70 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "小聲在耳邊說話，耳語。",
+      "examples": [
+        "附耳囁囁。",
+        "乃效女兒呫囁耳語！"
+      ],
+      "traditional_char": "囁"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "說話吞吞吐吐，猶豫不決。",
+      "examples": [
+        "囁嚅不言。",
+        "或訿白翁囁。"
+      ],
+      "traditional_char": "囁"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "多言，喋喋不休。",
+      "examples": [
+        "囁囁不休。",
+        "呫囁連聲。"
+      ],
+      "traditional_char": "囁"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "口唇蠕動的樣子。",
+      "examples": [
+        "囁唲之貌。"
+      ],
+      "traditional_char": "囁"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘囁’为形聲字，口為形，聶為聲，初本指附耳耳語。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由低聲耳語延伸為說話猶豫、吞吞吐吐。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由耳語延伸為反覆多言。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "由耳語引申为口唇動作之貌。"
+    }
+  ]
+}

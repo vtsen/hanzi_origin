@@ -1,0 +1,53 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "把鞋帮与鞋底缝合成鞋",
+      "examples": [
+        "绱鞋",
+        "他会绱鞋的手艺。"
+      ],
+      "traditional_char": "緔"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "用作鞋底或补鞋的皮革片",
+      "examples": [
+        "用一块绱修补破了的鞋底。"
+      ],
+      "traditional_char": "緔"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "扇安皮，装饰用的皮革（古义）",
+      "examples": [
+        "緔，扇安皮也。——《玉篇》"
+      ],
+      "traditional_char": "緔"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 2,
+      "note": "緔为形声字，从革，尚声，表示与皮革加工相关，原始含义为装饰用的皮革。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 2,
+      "target_index": 1,
+      "evolution_type": "semantic_narrowing",
+      "note": "由泛指皮革转为特指鞋用皮革片。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_shift",
+      "note": "由表示鞋用皮革片的名词，转为‘缝合鞋底与鞋帮’的动作。"
+    }
+  ]
+}

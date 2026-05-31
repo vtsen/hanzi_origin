@@ -1,0 +1,93 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "缝衣用的工具，后作“针”。",
+      "examples": [
+        "衣裳破绽，纫箴请补缀。——《礼记》"
+      ],
+      "traditional_char": "箴"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "中医用以刺入人体经穴以治疗疾病的针形器具。",
+      "examples": [
+        "医经者……用度箴石。——《汉书·艺文志》"
+      ],
+      "traditional_char": "箴"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "劝告，规劝，告诫。",
+      "examples": [
+        "贤袭人娇嗔箴宝玉，俏平儿软语救贾琏。——《红楼梦》",
+        "箴之曰：“民生在勤，勤则不匱。”——《左传》"
+      ],
+      "traditional_char": "箴"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "文体名，以规劝、告戒为宗旨的韵文。",
+      "examples": [
+        "箴顿挫而清壮。——晋·陆机《文赋》",
+        "箴莫善于《虞箴》，作《州箴》。——《汉书·扬雄传赞》"
+      ],
+      "traditional_char": "箴"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "量词，用于计算鸟雀的羽数。",
+      "examples": [
+        "一羽谓之箴，十羽谓之縳。——《尔雅·释器》"
+      ],
+      "traditional_char": "箴"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [
+        "卫有大夫箴庄子。——《风俗通》"
+      ],
+      "traditional_char": "箴"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从竹，咸声，表制作竹制缝衣工具的竹针，‘竹’为意符。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从缝衣用针扩展到医学刺入用针，均为细长工具。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由针能刺入、纠正同类之缺陷，引申为言语行为的劝告、规劝。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "conversion",
+      "note": "劝告动作实体化为专门的告诫韵文体裁。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "unknown",
+      "note": "词义流变机制不明，由工具义转为羽毛计量单位，仅见于部分古籍。"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "竹子的青皮；竹皮",
+      "examples": [
+        "其在人也，如竹箭之有筠也。《礼记》",
+        "筠，竹皮之美质也。《广韵》",
+        "手握青筠之杖。《拾遗记》"
+      ],
+      "traditional_char": "筠"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "竹子",
+      "examples": [
+        "柴门空闭锁松筠。",
+        "黛叶轻筠绿，金花笑菊秋。——唐·钱起",
+        "目才到三眠半月强，即时懒意满筠筐。——清·周煌"
+      ],
+      "traditional_char": "筠"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "竹制的笛类管乐器",
+      "examples": [
+        "大禹吹筠，风云为之动。——北周·庾信",
+        "窃闻平阳击石，山谷为之调；大禹吹筠，风云为之动。"
+      ],
+      "traditional_char": "筠"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "地名，古州名，现用作四川省及江西省等地名（如筠连、筠州）",
+      "examples": [
+        "唐武德七年置。以地产筠篁得名。",
+        "其地即今四川省南部的筠连县"
+      ],
+      "traditional_char": "筠"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从竹，均声，表示竹子的青皮。本义与初文相关。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由竹皮引申为整株竹子，汉至唐常见。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由竹子转指竹制乐器，以原材料代指制品。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "以竹产地丰盛代指地名，唐代建州命名。"
+    }
+  ]
+}

@@ -1,0 +1,184 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "随行，跟随",
+      "examples": [
+        "愿从其后",
+        "跟随其步伐"
+      ],
+      "traditional_char": "從"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "依顺，顺从",
+      "examples": [
+        "顺从长辈",
+        "盲从"
+      ],
+      "traditional_char": "從"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "采取，按照",
+      "examples": [
+        "从优待人",
+        "从实际情况出发"
+      ],
+      "traditional_char": "從"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "跟随的人",
+      "examples": [
+        "侍从",
+        "随从"
+      ],
+      "traditional_char": "從"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "参与",
+      "examples": [
+        "从政",
+        "从业"
+      ],
+      "traditional_char": "從"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "preposition/adverb",
+      "meaning": "由，自",
+      "examples": [
+        "从古至今",
+        "从我做起"
+      ],
+      "traditional_char": "從"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "adjective",
+      "meaning": "次要的",
+      "examples": [
+        "主从关系",
+        "从犯"
+      ],
+      "traditional_char": "從"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "noun",
+      "meaning": "宗族中次于至亲的亲属",
+      "examples": [
+        "从父即伯父、叔父"
+      ],
+      "traditional_char": "從"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "noun",
+      "meaning": "古代官品中的次一等级品级",
+      "examples": [
+        "从二品"
+      ],
+      "traditional_char": "從"
+    },
+    {
+      "index": 9,
+      "part_of_speech": "noun",
+      "meaning": "姓",
+      "examples": [],
+      "traditional_char": "從"
+    },
+    {
+      "index": 10,
+      "part_of_speech": "adjective/verb",
+      "meaning": "古同“纵”，竖直",
+      "examples": [
+        "古书中‘从’作纵"
+      ],
+      "traditional_char": "從"
+    },
+    {
+      "index": 11,
+      "part_of_speech": "verb",
+      "meaning": "古同“纵”，放任",
+      "examples": [],
+      "traditional_char": "從"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "甲骨文象两人并行，表现随行意象，会意造字，表示“跟随”“随行”的基本意义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从‘跟随’发展为‘依顺’的引申义，符合从属关系的语义扩展。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "synecdoche",
+      "note": "由行为派生出行为者，即‘跟随的人’。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "‘依顺’进一步引申为‘采取’、‘按着某法则行事’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "‘跟随’延伸为‘参与’某事如‘从政’、‘从业’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "表示起始点‘由、自’，由跟随行为语义延伸而来。"
+    },
+    {
+      "source_index": 6,
+      "target_index": 8,
+      "evolution_type": "semantic_narrowing",
+      "note": "‘次要的’义引申至官品等级中的‘从品’，含次一级的具体指称。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "semantic_extension",
+      "note": "‘从属’含义演变为‘次要’的意思。"
+    },
+    {
+      "source_index": 6,
+      "target_index": 7,
+      "evolution_type": "semantic_extension",
+      "note": "由‘次要’引申指亲属中次于至亲的成员。"
+    },
+    {
+      "source_index": 9,
+      "target_index": 0,
+      "evolution_type": "unknown",
+      "note": "‘姓’义与其他语义关系不明，可能为名字借用或其他途径。"
+    },
+    {
+      "source_index": 10,
+      "target_index": 11,
+      "evolution_type": "semantic_extension",
+      "note": "‘竖直’义延伸出‘放任’义，古代用法。"
+    }
+  ]
+}

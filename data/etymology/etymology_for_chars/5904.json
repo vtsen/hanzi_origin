@@ -1,0 +1,93 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "闭上眼睛，尤指死时闭眼。",
+      "examples": [
+        "死不瞑目",
+        "然后得瞑些。——《楚辞·招魂》",
+        "迅雷不及掩耳，迅電不及瞑目。——《六韬·龙韬·军势》"
+      ],
+      "traditional_char": "瞑"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "睡觉，打瞌睡（通“眠”）。",
+      "examples": [
+        "神农隐几阖户昼瞑。——《庄子·知北游》",
+        "内怀殷忧，则达旦不瞑。——嵇康《养生论》"
+      ],
+      "traditional_char": "瞑"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "眼睛昏花，视觉模糊。",
+      "examples": [
+        "臣耳目聋瞑，不能自励。——房玄龄《晋书》"
+      ],
+      "traditional_char": "瞑"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "昏暗，光线昏昧不明。",
+      "examples": [
+        "草木尽偃伏，道路瞑不分。——宋 陆游《风云昼晦夜遂大雪》",
+        "瞑目。——《素问·气厥论》"
+      ],
+      "traditional_char": "瞑"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "暮色，黄昏时分（通“暝”）。",
+      "examples": [
+        "明 徐弘祖《徐霞客游记》：“抵舟，已入瞑矣。”",
+        "唐 韩愈《春雪》：“瞑见迷巢鸟，朝逢失轍车。”"
+      ],
+      "traditional_char": "瞑"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从目，冥声，本义为闭眼。据《说文》：“翕目也。”"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由闭眼发展为睡觉，因睡觉常闭眼，东汉已见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由闭眼引申为视觉模糊，形象比喻。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "昏暗引申为眼睛昏花，二者常互为形象。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由闭眼引申为昏暗，视觉不明，如闭目。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "昏暗进一步专指傍晚的昏暗，遂指暮色，黄昏。"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "多年生草本植物，叶似荞麦，生湿地，有腥味，称作“蕺菜”或“鱼腥草”，可入药或作蔬菜。",
+      "examples": [
+        "蕺菜，莖和葉有魚腥氣味，全草入藥，嫩莖葉可作蔬菜。",
+        "張衡《南都賦》：若其園囿，則有蓼蕺蘘荷。"
+      ],
+      "traditional_char": "蕺"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "山名。指“蕺山”，因长有蕺菜而得名。",
+      "examples": [
+        "會稽志：蕺山在府西六里，越王採蕺于此。"
+      ],
+      "traditional_char": "蕺"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "other",
+      "meaning": "小折聲。用于象声或表达折断声音的字。",
+      "examples": [],
+      "traditional_char": "蕺"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从艸，戢声。最初用以表示蕺菜（一种有特殊气味的野菜）。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "因该山多生长蕺菜，故得名“蕺山”——地名取自物名，汉魏六朝已见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "unknown",
+      "note": "“小折声”为后世具音义借用，机制未详。"
+    }
+  ]
+}

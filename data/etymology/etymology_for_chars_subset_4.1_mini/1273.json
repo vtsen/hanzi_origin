@@ -1,0 +1,91 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "学习，效法，钻研知识，获得知识，读书",
+      "examples": [
+        "学生",
+        "学徒",
+        "学习",
+        "学业",
+        "学友",
+        "学者",
+        "学阀",
+        "学制",
+        "学历",
+        "学步邯郸"
+      ],
+      "traditional_char": "學"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "传授知识的地方，学校",
+      "examples": [
+        "学校",
+        "学院",
+        "学府",
+        "中学",
+        "大学",
+        "上学"
+      ],
+      "traditional_char": "學"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "掌握的知识",
+      "examples": [
+        "学问",
+        "学术",
+        "学位",
+        "学士",
+        "才学",
+        "治学",
+        "学识",
+        "博学多才"
+      ],
+      "traditional_char": "學"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "分门别类的有系统的知识",
+      "examples": [
+        "学说",
+        "哲学",
+        "数学",
+        "小学"
+      ],
+      "traditional_char": "學"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "原作“壆”，象双手构木为屋形，后加“子”作为义符，表学习之人；形声字，声符“壆”，义符“子”"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由学习行为引申为传授知识之场所"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由学习行为引申为所掌握的知识"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_narrowing",
+      "note": "由广义知识狭义化为分门别类的系统知识"
+    }
+  ]
+}

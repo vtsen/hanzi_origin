@@ -1,0 +1,69 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "水名。在四川、陕西、安徽等地皆有‘潼水’。",
+      "examples": [
+        "潼，潼水也，出广汉梓潼北界，南入垫江。——《说文》",
+        "发閿乡而警策，愬黄巷以济潼。——《文选·潘岳〈西征赋〉》"
+      ],
+      "traditional_char": "潼"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "关名。在陕西潼关县，古著名要隘。",
+      "examples": [
+        "马超、成宜，同恶相济，滨据河潼，求逞所欲。——《文选·潘勖·册魏公九锡文》"
+      ],
+      "traditional_char": "潼"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "高的样子；高大。",
+      "examples": [
+        "沫潼潼而高厉。——宋玉《高唐赋》"
+      ],
+      "traditional_char": "潼"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "潮湿、溼润的样子（如“潼滃”）；水流灌注、水力冲击。",
+      "examples": [
+        "潼滃蔚荟，林木来会，津液下降，流潦霈。——汉·焦赣《易林》",
+        "潼……水坏道。——《集韵》"
+      ],
+      "traditional_char": "潼"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，童声，表示水名。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "以水名引申为以水得名之地名与关隘名。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由水势高大引申为‘高’的样子。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由水流特性，引申为潮湿、水流灌注等义。"
+    }
+  ]
+}

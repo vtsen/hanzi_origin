@@ -1,0 +1,87 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "onomatopoeia",
+      "meaning": "呕吐、咳嗽的声音，或形容其他类似的响声（如折断的声音）",
+      "examples": [
+        "喀，吐声，又欬声。——《篇海类编》",
+        "两手据地而欧之不出，喀喀然遂伏而死。——《列子·说符》",
+        "喀的一声，把树枝折成两截。",
+        "喀啦、喀嚓等词中的'喀'"
+      ],
+      "traditional_char": "喀"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "呕吐、咳血，用力吐出体内之物",
+      "examples": [
+        "弟偕行喀血，隐而不言，血气遂大耗。——清·方苞《弟椒涂墓志铭》",
+        "遂得喀血疾，未预院试而卒。——清·王端履《重论文斋笔录》"
+      ],
+      "traditional_char": "喀"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "onomatopoeia",
+      "meaning": "形容笑声",
+      "examples": [
+        "二房东太太又鸭子叫似的笑起来了：“喀喀，张先生，莫怪。”——茅盾《第一阶段的故事》"
+      ],
+      "traditional_char": "喀"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "particle",
+      "meaning": "方言中的语气词",
+      "examples": [
+        "高增福不知怎么感激是好，说：‘我一百个放心喀。’——柳青《创业史》"
+      ],
+      "traditional_char": "喀"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "other",
+      "meaning": "译音用字，用于外来地名、人名等音译",
+      "examples": [
+        "喀秋莎（Katyusha）",
+        "喀什（Kashgar）"
+      ],
+      "traditional_char": "喀"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘喀’为形声字，从口，客声，最初表达呕吐或咳声一类的拟声。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_shift",
+      "note": "由拟声词引申为相关动作，即呕吐、咳出体内之物的行为；见古籍与《广韵》等。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由呕吐、咳嗽的声音引申为形容笑声，拟声用法扩大。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "unknown",
+      "note": "方言中语气词的出现机制不明，或为音用延伸。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "function_word",
+      "note": "作为音译字使用，是根据字音在新语境（外来词）下的转用。"
+    }
+  ]
+}

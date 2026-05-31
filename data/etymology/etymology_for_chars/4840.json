@@ -1,0 +1,44 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "蛏子，一种生活在近岸泥沙中的贝类，介壳狭长，味美可食。",
+      "examples": [
+        "蛏子肉很鲜美。",
+        "閩中以田種之，謂之蟶田。",
+        "兩頭開，味頗鮮美。"
+      ],
+      "traditional_char": "蟶"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "“蛏”的简化字形式，用于指代同一种贝类。",
+      "examples": [
+        "蛏干、蛏田皆为料理。"
+      ],
+      "traditional_char": "蛏"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“蟶”为形声字，从虫，青声。本义为贝类‘蛏子’。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "“蛏”为“蟶”的简化字，虫表义，青省声，形声结构，原指贝类‘蛏子’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "conversion",
+      "note": "现代汉字简化，将‘蟶’简化为‘蛏’，本义不变。"
+    }
+  ]
+}

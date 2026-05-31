@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "叙述死者的生前事迹，表示哀悼（多用于上对下）",
+      "examples": [
+        "贱不诔贵，幼不诔长。",
+        "鲁君之嬖人死，鲁君为之诔。"
+      ],
+      "traditional_char": "誄"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "哀悼死者的文章，悼词",
+      "examples": [
+        "做诔。",
+        "诔文。"
+      ],
+      "traditional_char": "誄"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "祈祷文（此用法古代偶见，与“讄”本为一字）",
+      "examples": [
+        "子路对曰：‘有之；诔曰：禱爾於上下神祇。’"
+      ],
+      "traditional_char": "誄"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从言，耒声，本表示追述死者行迹以表哀悼，结构与声旁耒相关。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "conversion",
+      "note": "由动词‘叙述、悼念’转为名词‘悼词、诔文’，古今皆用。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "与‘讄’音义混用，并发生意义转移为‘祈祷文’，仅古籍偶见。"
+    }
+  ]
+}

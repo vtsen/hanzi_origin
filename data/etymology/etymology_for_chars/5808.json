@@ -1,0 +1,105 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "使干涸，竭尽",
+      "examples": [
+        "毋漉陂池。——《礼记·月令》",
+        "林焚池漉。——王充《论衡》",
+        "夫渊竭池漉，则蛟龙不游。——《抱朴子》"
+      ],
+      "traditional_char": "漉"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "液体慢慢地渗下，渗漏",
+      "examples": [
+        "漉汁洒地，白汗交流。——《战国策·楚策》",
+        "滋液渗漉。——《卦禅文》",
+        "防坚则水无漉弃之费。——《抱朴子》"
+      ],
+      "traditional_char": "漉"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "过滤",
+      "examples": [
+        "家家养豚漉清酒，朝祈暮赛依巫口。——白居易《黑潭龙》",
+        "漉巾",
+        "漉洒",
+        "漉酪"
+      ],
+      "traditional_char": "漉"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "用网捞取",
+      "examples": [
+        "家僮漉小鱼。——白居易《寄皇甫七》",
+        "又岸上渔人布网漉鱼者。——钱泳《履园丛话》"
+      ],
+      "traditional_char": "漉"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "山脚，通“麓”",
+      "examples": [
+        "其林其漉，其槐其楝。——《管子·地员》"
+      ],
+      "traditional_char": "漉"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "水名。湖南醴陵一带的漉水",
+      "examples": [
+        "漉水出醴陵县东漉山，西过其县南。——《水经注·漉水》"
+      ],
+      "traditional_char": "漉"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从水，鹿声，形声字。本义为‘使水干涸’、‘浚’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘使水干涸’引申为‘水渗下、渗漏’，见《说文》《方言》两义并存"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "从‘渗下’泛化至‘过滤’，因液体通过物体慢慢渗出的过程"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由水渗下引申为通过网等物捞取、滤取，形成操作手段的类比"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "metonymy",
+      "note": "水名‘漉水’源自描述‘渗透、流淌’的特征"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "unknown",
+      "note": "‘漉’通‘麓’，疑为音近借用，义无明确定义演化链"
+    }
+  ]
+}

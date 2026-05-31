@@ -1,0 +1,52 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "织成的带子。",
+      "examples": [
+        "青绲素提（宋·周密《武林旧事》）"
+      ],
+      "traditional_char": "緄"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "绳。",
+      "examples": [
+        "一绲系舟（明·冯梦龙《喻世明言》）"
+      ],
+      "traditional_char": "緄"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "一种缝纫方法，沿着衣服等的边缘缝上布条、带子等（亦称“滚边”）。",
+      "examples": [
+        "绲边缀饰，雍容典雅。"
+      ],
+      "traditional_char": "緄"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“緄”为形声字，从糸，昆声，最初本义为织成的带子。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘织成的带子’泛指为‘绳’，时间约在中古以后。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由‘带子’转指‘用带子缝边的工艺’。"
+    }
+  ]
+}

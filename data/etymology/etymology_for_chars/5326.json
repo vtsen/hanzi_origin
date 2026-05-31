@@ -1,0 +1,121 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "不顺从（古义）。",
+      "examples": [
+        "婺，不繇也。——《说文》"
+      ],
+      "traditional_char": "婺"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "星名，即婺女，二十八宿之一，玄武七宿的第三宿。",
+      "examples": [
+        "婺，婺女，星名。——《广韵·遇韵》",
+        "明周圣楷《张居正本传》：“是时彗出斗女间，尾指婺，长数十丈。”"
+      ],
+      "traditional_char": "婺"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "水名，江西省乐安江上游，别称婺江，流经婺源县西南。",
+      "examples": [
+        "〔婺水〕水名，在中国江西省。"
+      ],
+      "traditional_char": "婺"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "古州名，隋开皇十三年由吴州更名，治所在今浙江省金华县。",
+      "examples": [
+        "〔婺州〕隋开皇十三年由吴州更名。"
+      ],
+      "traditional_char": "婺"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "女子的容貌（古义）。",
+      "examples": [
+        "女皃。——《集韵》",
+        "美皃。——《集韵》"
+      ],
+      "traditional_char": "婺"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "美貌（古义）。",
+      "examples": [],
+      "traditional_char": "婺"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "浙江地方戏曲剧种，如“婺剧”。",
+      "examples": [
+        "〔婺剧〕中国浙江省地方戏曲剧种之一。"
+      ],
+      "traditional_char": "婺"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "noun",
+      "meaning": "产于江西省婺源县的绿茶，如“婺绿”。",
+      "examples": [
+        "〔婺绿〕产于中国江西省婺源县的茶叶，是绿茶中的珍品。"
+      ],
+      "traditional_char": "婺"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从女，敄声。《说文》：‘不繇也’。声旁敄表示音，形旁女表义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由‘不顺从’引申为女性的容貌。古人常以顺从和容貌作连带评判。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "由‘女貌’进一步引申为‘美貌’。双方古籍并存。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "以星名用作水名，因地理或天文对应而名。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "以星名指地区、州名，属中国古代天文分野习惯。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 6,
+      "evolution_type": "metonymy",
+      "note": "以地名‘婺州’引申为地方剧种名。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 7,
+      "evolution_type": "metonymy",
+      "note": "以地名‘婺水、婺源’转指产地产品，如‘婺绿’茶。"
+    }
+  ]
+}

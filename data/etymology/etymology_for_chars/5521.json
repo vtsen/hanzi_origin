@@ -1,0 +1,70 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "人体上的穴道，特指医学上的腧穴或俞穴。",
+      "examples": [
+        "腧穴",
+        "肾腧",
+        "胃腧",
+        "五腧"
+      ],
+      "traditional_char": "腧"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "同“腴”，丰满；丰腴的样子。",
+      "examples": [
+        "觀子膚極腧，體胖無恙。（《太平廣記·呂翁》）"
+      ],
+      "traditional_char": "腧"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "姿态美好，美丽貌。",
+      "examples": [
+        "腧腧，媚貌。"
+      ],
+      "traditional_char": "腧"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "与“輸”通用，作为通假字，指输送。",
+      "examples": [
+        "“腧”作“輸”的通假字。"
+      ],
+      "traditional_char": "腧"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从肉，俞声。‘腧’本义指人体穴道，与身体相关。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "‘腧’作为‘輸’的通假用法，仅因音近借用，语义无直接联系。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由医学穴道引申为‘丰腴’，大概因穴道部位肉多，汉字常有此类引申。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由‘丰腴’引申为‘美好、媚貌’，较自然的语义拓展。"
+    }
+  ]
+}

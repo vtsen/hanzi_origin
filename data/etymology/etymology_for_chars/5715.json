@@ -1,0 +1,69 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "慢慢地吐气，呵气",
+      "examples": [
+        "嘘寒问暖",
+        "仰天而嘘"
+      ],
+      "traditional_char": "噓"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "叹气",
+      "examples": [
+        "仰天而嘘",
+        "嘘唏"
+      ],
+      "traditional_char": "噓"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "用火或气的热力熏炙",
+      "examples": [
+        "这点菜放到锅里嘘嘘"
+      ],
+      "traditional_char": "噓"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "interjection",
+      "meaning": "叹词，表示反对或制止（如“嘘，别出声！”）",
+      "examples": [
+        "嘘，别出声！"
+      ],
+      "traditional_char": "噓"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从口，虚声，表示缓缓吐气的声音。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从“慢慢地吐气”引申为“叹气”，动作相关。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由“吐气”转为“用气或火熏炙”，以气流作用类比。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由吐气声音引申为劝止和制止时发出的“嘘”声。"
+    }
+  ]
+}

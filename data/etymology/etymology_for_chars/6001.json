@@ -1,0 +1,70 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "泔水、猪食等臭水（用作饲料）",
+      "examples": [
+        "潲，豕食。——《广韵》",
+        "温姐把一大桶临时凑成的潲提进圈。"
+      ],
+      "traditional_char": "潲"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "雨斜着落下；雨点被风吹得斜洒",
+      "examples": [
+        "雨往南潲。",
+        "像长得高出丛林的一棵树，招致风来摇，雨来潲。"
+      ],
+      "traditional_char": "潲"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "洒水（尤指准备用于其它用途时的洒水动作）",
+      "examples": [
+        "熨衣服前先潲点水。",
+        "下水前，先往身上潲点水。"
+      ],
+      "traditional_char": "潲"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "往后挣挫、滑退",
+      "examples": [
+        "[骡子]一见炮就往后潲，怎么也套不上去。"
+      ],
+      "traditional_char": "潲"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "形声字，从水，肖声。初作表水势斜激、斜洒之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由雨斜洒的动作引申为一般洒水动作，方言中常用。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "metonymy",
+      "note": "因泔水等常被泼洒，借指烹煮剩水为猪饲料。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由水势斜激，引申比喻动物或人退缩滑退动作。"
+    }
+  ]
+}

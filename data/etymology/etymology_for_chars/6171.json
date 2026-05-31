@@ -1,0 +1,100 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "温暖；暖和。",
+      "examples": [
+        "安且燠兮。（《诗·唐风·无衣》）",
+        "问衣燠寒。（《礼记·内则》）"
+      ],
+      "traditional_char": "燠"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "炎热，闷热。",
+      "examples": [
+        "燠热（闷热）。",
+        "南土地燠，北人居之，虑生疾疫。（《续资治通鉴》）"
+      ],
+      "traditional_char": "燠"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "使温暖；使热。",
+      "examples": [
+        "凉疾至，燠之。（清·龚自珍《凉燠》）",
+        "及暖，内甕中……燠之。（《齐民要术》）"
+      ],
+      "traditional_char": "燠"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "用作烹调方法，将肉类在油中熬熟以备食。",
+      "examples": [
+        "至晚，即有燠爆熟食上市。（《东京梦华录》）"
+      ],
+      "traditional_char": "燠"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "other",
+      "meaning": "古同“隩”，入屋室。",
+      "examples": [
+        "其民燠，鸟兽氄毛。（《史记·五帝本纪》）"
+      ],
+      "traditional_char": "燠"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "other",
+      "meaning": "燠休：慰劳病痛者或辛劳者的声调，也作“噢咻”、“奥休”。",
+      "examples": [
+        "民人痛疾，而或燠休之。（《左传·昭公三年》）"
+      ],
+      "traditional_char": "燠"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从火，奥声，表温暖之火气。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由温暖义扩大至炎热、闷热，见于夏日描述。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "conversion",
+      "note": "由形容词“温暖”转为动词“使温暖”。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由使热延伸为以加热方式进行食品保存与烹调。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "‘燠’古通‘隩’，借音用于表示进入屋室义。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "unknown",
+      "note": "“燠休”之声调慰劳义路径不详，疑似由‘厚’、‘温暖’引申。"
+    }
+  ]
+}

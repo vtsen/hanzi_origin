@@ -1,0 +1,98 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古代以玉制成的管状吹奏乐器，六孔，似笛，律管也用于测定节气。",
+      "examples": [
+        "西王母来献其白琯。",
+        "吹葭六琯动浮灰。",
+        "黄帝作律，以玉为管，长尺，六孔，为十二月音。"
+      ],
+      "traditional_char": "琯"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "以玉制成的空心管状物，泛指如管状的器物。",
+      "examples": [
+        "根虽割而琯彻。",
+        "柯既解而丝缨。"
+      ],
+      "traditional_char": "琯"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "治金玉使其发光。",
+      "examples": [
+        "治金玉使莹曰琯。"
+      ],
+      "traditional_char": "琯"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "石似玉者。",
+      "examples": [
+        "琯，石似玉。"
+      ],
+      "traditional_char": "琯"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "贯玉之饰。",
+      "examples": [
+        "琯，贯玉饰也。"
+      ],
+      "traditional_char": "琯"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [],
+      "traditional_char": "琯"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从玉，官声，表示以玉为材的管乐器。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由乐器专指扩展为泛指玉制管状器物。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "因管状工具常用于加工金玉，衍生为治金玉使莹。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由玉管泛指形似玉的石头。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由管状物衍生为以管状玉做的饰品。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "function_word",
+      "note": "器物名用为姓氏，用字借用。"
+    }
+  ]
+}

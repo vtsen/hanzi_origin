@@ -1,0 +1,69 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "黑中带黄的颜色",
+      "examples": [
+        "黧牛之黃也似虎。",
+        "其色黧黑而黃，因名。",
+        "顏黴黧以沮敗兮"
+      ],
+      "traditional_char": "黧"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "黑斑；色斑",
+      "examples": [
+        "斑黑謂之黧黮也"
+      ],
+      "traditional_char": "黧"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "淺黑",
+      "examples": [
+        "黳黧：淺黑"
+      ],
+      "traditional_char": "黧"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "老人（借指）",
+      "examples": [
+        "黧老（指老人）"
+      ],
+      "traditional_char": "黧"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从黑，利声，表示黑中带黄的颜色，语音与“利”相近。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由颜色描述引申为表示带黑的斑痕或色斑，见于古文用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_narrowing",
+      "note": "从黑黄引申泛指较浅的黑色，用于词组如“黳黧”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "用肤色暗淡泛黄形容老人，以颜色特征代指年老的人。"
+    }
+  ]
+}

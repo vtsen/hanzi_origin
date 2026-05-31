@@ -1,0 +1,68 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "洗涤，清洗",
+      "examples": [
+        "濯足",
+        "濯吾缨于沅湘兮——《楚辞》"
+      ],
+      "traditional_char": "濯"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "光秃秃（用于“濯濯”叠词）",
+      "examples": [
+        "濯濯童山"
+      ],
+      "traditional_char": "濯"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "祓除罪恶，清除污秽",
+      "examples": [
+        "濯其大咎（意为清除大的过失）"
+      ],
+      "traditional_char": "濯"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "船桨（古通“棹”）",
+      "examples": [
+        "濯舟（棹舟）"
+      ],
+      "traditional_char": "濯"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，翟声，表示与水相关的动作。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "洁净无物引申为山地光秃秃的，引申关系明显。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "“洗”义引申为“祓除罪恶”，语义扩大。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "古“濯”通“棹”，因音同借用，义无直接语义联系。"
+    }
+  ]
+}

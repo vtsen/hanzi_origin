@@ -1,0 +1,52 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "粗心，马虎",
+      "examples": [
+        "他太啷了，做侦察工作是不行的"
+      ],
+      "traditional_char": "啷"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "onomatopoeia",
+      "meaning": "摇铃的声音，铃声",
+      "examples": [
+        "当啷，上课铃响了"
+      ],
+      "traditional_char": "啷"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "onomatopoeia",
+      "meaning": "器物撞击的声音",
+      "examples": [
+        "他回身把门哐啷一声关上了"
+      ],
+      "traditional_char": "啷"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "口作声旁，郎作声符，形声字，表拟声。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由铃声的拟声扩展到一般器物撞击的声音。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "metaphor",
+      "note": "由声音的杂乱转喻为人的处事粗心、马虎。"
+    }
+  ]
+}

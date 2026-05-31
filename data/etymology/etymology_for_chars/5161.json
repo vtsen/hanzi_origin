@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "鸡的叫声",
+      "examples": [
+        "鸡初喔，鸟再啼，北斗阑干月沉西。",
+        "喔喔晓鸡鸣。"
+      ],
+      "traditional_char": "喔"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "鸡鸣（发出鸡叫声）",
+      "examples": [
+        "雄鸡喔喔啼。",
+        "鸡初喔，鸟再啼。"
+      ],
+      "traditional_char": "喔"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "interjection",
+      "meaning": "叹词，表示理解、省悟、惊讶等",
+      "examples": [
+        "喔，我知道了。",
+        "喔，原来是这么回事！",
+        "～～，摔得好痛！"
+      ],
+      "traditional_char": "喔"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从口，屋声；‘口’表声音义，‘屋’表音。最初表示鸡鸣之声。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "conversion",
+      "note": "由指鸡叫的名词转用作动词，表示鸡发出叫声。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "鸡叫声引申为人表达突然领悟、惊讶等感叹之语，见于近现代汉语。"
+    }
+  ]
+}

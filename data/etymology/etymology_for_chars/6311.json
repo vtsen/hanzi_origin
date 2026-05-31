@@ -1,0 +1,41 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "传说中海里的大龟或大鳖",
+      "examples": [
+        "断鳌足以立四极。——《淮南子·览里》",
+        "鳌里夺尊"
+      ],
+      "traditional_char": "鰲"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "“鰲”的简化字",
+      "examples": [],
+      "traditional_char": "鳌"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "鰲：形声字，从鱼，敖声，指巨龟。"
+    },
+    {
+      "formation_type": "simple_indicative",
+      "original_sense_index": 1,
+      "note": "鳌为鰲的简化字，用鱼旁和敖音保留了本义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "reanalysis",
+      "note": "现代汉字简化，鰲简化为鳌，义无变化。"
+    }
+  ]
+}

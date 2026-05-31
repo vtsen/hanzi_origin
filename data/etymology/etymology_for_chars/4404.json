@@ -1,0 +1,87 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古代妇女戴在耳垂上的玉质或金属饰品，耳饰。",
+      "examples": [
+        "腰若流纨素，耳著明月珰。",
+        "无微情以效爱兮，献江南之明璫。"
+      ],
+      "traditional_char": "璫"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "屋椽头或檐头的装饰物，常用玉或金属制成，又称“瓦当”。",
+      "examples": [
+        "华榱壁珰。",
+        "华榱璧璫，辇道纚矚。"
+      ],
+      "traditional_char": "璫"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "汉代宦官帽子上的装饰物，后借指宦官。",
+      "examples": [
+        "宦冠用珰和貂尾为饰。",
+        "假貂珰之饰，处常伯之任。"
+      ],
+      "traditional_char": "璫"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "泛指各类装饰品。",
+      "examples": [
+        "明珰满身。",
+        "佩珰内珰华珰。"
+      ],
+      "traditional_char": "璫"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "onomatopoeia",
+      "meaning": "形容金玉等物相击时的清亮声响。",
+      "examples": [
+        "夜深殿突兀，风动金琅璫。",
+        "丁璫，玉佩声。"
+      ],
+      "traditional_char": "璫"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“璫/珰”形声字，从玉，當声，本义为耳饰，以玉为材料，左玉旁表义、右当表音。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由特指耳饰推广为各种装饰品，见唐代及以后文学用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "因形似及装饰位置，耳饰义转指为屋椽头的饰品。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "源自汉代宦官帽子的装饰品，多用耳饰形制，后借指宦官。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "因玉器碰撞声清亮，象声词引申自玉珰声音。"
+    }
+  ]
+}

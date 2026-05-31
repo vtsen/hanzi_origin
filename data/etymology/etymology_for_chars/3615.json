@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "角落，狭窄的空间，如“墙旮旯”、“门旮旯”",
+      "examples": [
+        "他把垃圾扫到墙旮旯里。",
+        "门旮旯里堆满了杂物。"
+      ],
+      "traditional_char": "旮"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "偏僻的地方，远离中心的地域",
+      "examples": [
+        "他住在山旮旯。",
+        "这地方太偏，是个旮旯。"
+      ],
+      "traditional_char": "旮"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "“旭”的俗字，用于表示旭日、晨光",
+      "examples": [
+        "旭日東昇，晨光初照。"
+      ],
+      "traditional_char": "旮"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 2,
+      "note": "从日，九声，读若好。最初为‘旭’的俗字，形声兼表晨光意义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 2,
+      "target_index": 0,
+      "evolution_type": "semantic_shift",
+      "note": "由表示旭日、晨光演变为指代角落，具体机制不明，或因俗用、讹用等语言现象。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由角落的意思进一步引申为偏僻的地方。"
+    }
+  ]
+}

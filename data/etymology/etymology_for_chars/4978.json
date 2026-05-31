@@ -1,0 +1,81 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "水名，涪江，位于四川省中部，流入嘉陵江。",
+      "examples": [
+        "今日重在涪江滨。——杜甫《九日》",
+        "涪水，出广汉刚邑道徼外，南入汉。——《水经注》"
+      ],
+      "traditional_char": "涪"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "古州名，治所在今四川省涪陵市。",
+      "examples": [
+        "又涪陵，汉县名，今为州属重庆府。"
+      ],
+      "traditional_char": "涪"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [],
+      "traditional_char": "涪"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "通“浮”，漂浮之意，用于“涪湛”。",
+      "examples": [
+        "涪湛，浮湛。"
+      ],
+      "traditional_char": "涪"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "水泡（用于“涪漚”）。",
+      "examples": [
+        "涪漚，水泡之意。"
+      ],
+      "traditional_char": "涪"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，㕻声，最早用于指四川地区的涪江。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "因涪江而得名，周边地名以江名命名州。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "地名用作姓氏，见于古代用地名为姓习惯。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "以江水衍生出水泡的意义，多见于“涪漚”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "与‘浮’音近，后用于通假义引申为‘漂浮’意。"
+    }
+  ]
+}

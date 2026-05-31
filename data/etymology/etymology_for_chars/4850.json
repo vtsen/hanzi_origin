@@ -1,0 +1,38 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "有机化合物中的一种含氮杂环的名称，常见于译音词，如“吡啶”或“嘧啶”。",
+      "examples": [
+        "吡啶是一种重要的有机化合物。",
+        "嘧啶为DNA和RNA的组成部分。"
+      ],
+      "traditional_char": "啶"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "other",
+      "meaning": "译音用字，用于借指外来语的音译。",
+      "examples": [
+        "唛啶是一种化学品名。"
+      ],
+      "traditional_char": "啶"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从口，定声，最初用于有机化学相关的新名词音译。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "现代化学用字从化学物名称进一步扩展为音译借字用法，20世纪以来普遍采用。"
+    }
+  ]
+}

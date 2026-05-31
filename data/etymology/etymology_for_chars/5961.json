@@ -1,0 +1,117 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "肩挑，肩挑背负，担负。",
+      "examples": [
+        "令婢路上担粪。",
+        "王喜，遂行，購鶉盈儋，復入都。"
+      ],
+      "traditional_char": "儋"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "抬，两人合力用肩抬物。",
+      "examples": [
+        "上人著百尺樓上，儋梯而去。"
+      ],
+      "traditional_char": "儋"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "一种有肩挑能力的计量单位，即“担”，如“儋石”。",
+      "examples": [
+        "儋石不储，饥寒交至。",
+        "家無儋石之儲。"
+      ],
+      "traditional_char": "儋"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "一种陶器，小口大腹，多用于盛物（同“甔”）。",
+      "examples": [
+        "醯醬千瓨，漿千儋。",
+        "所謂家無儋石之餘也。"
+      ],
+      "traditional_char": "儋"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "耳下垂貌，指耳垂大而下垂。",
+      "examples": [
+        "其人耳大下儋，垂在肩上。"
+      ],
+      "traditional_char": "儋"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "地名。今海南省儋州市（儋县）。本为古州、郡名。",
+      "examples": [
+        "汉置儋耳郡，唐改为儋州。",
+        "自徐闻渡海，历琼至儋。"
+      ],
+      "traditional_char": "儋"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [
+        "周大夫儋翩。",
+        "三国吴有儋萌。"
+      ],
+      "traditional_char": "儋"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从人，詹声。本义为“肩挑背负”，属于形声字。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“单独肩挑”扩展为“两人抬负”的动作用法，见《世说新语》用例。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由动作为“用肩挑”，引申为成担货物之计量单位。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "由“担”引申为可担之器皿，即大腹小口的陶器，多装盛物。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "形态联想：肩部宽大下垂，引申为耳下垂之形貌。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 5,
+      "evolution_type": "metonymy",
+      "note": "以人种身体特征（耳下垂）命名其部族及所在地。"
+    },
+    {
+      "source_index": 5,
+      "target_index": 6,
+      "evolution_type": "function_word",
+      "note": "由地名、族名转用为姓氏，常见于中国古姓演变。"
+    }
+  ]
+}

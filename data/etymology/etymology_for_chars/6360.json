@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "用面粉等调成的可粘贴东西的糊状物，如糨糊、糨子。",
+      "examples": [
+        "他用糨糊把纸粘在墙上。",
+        "这桶糨子还剩一半。"
+      ],
+      "traditional_char": "糨"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "[液体]很稠，粘的。",
+      "examples": [
+        "粥太糨了，吃着口感不好。",
+        "这汤有些糨，不能喝。"
+      ],
+      "traditional_char": "糨"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "用粉浆或米汤浸纱、布或衣服，使干后变得坚挺（与“漿”同）。",
+      "examples": [
+        "他把衬衣拿去糨过，穿起来很挺括。",
+        "新刷来的头巾，恰糨来的绸衫。"
+      ],
+      "traditional_char": "糨"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘糨’为形声字，从米，声旁为‘强’（其亮切），初指用米谷制作的糊状物。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由糨糊（物质稠密状）扩展为形容任何稠、粘的液体，见于元明以降俗语。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "表示把糨（水糊）作为加工处理纺织品的动词，引申用法，古代同‘漿’。"
+    }
+  ]
+}

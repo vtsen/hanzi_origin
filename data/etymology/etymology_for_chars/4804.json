@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "饿死的人，尤其指饿死后无人收尸的尸体。",
+      "examples": [
+        "野有饿殍。",
+        "有布縷之征，粟米之征，力役之征，君子用其一，緩其二。用其二而民有殍。",
+        "立望饿殍之满道。",
+        "饿殍遍野。"
+      ],
+      "traditional_char": "殍"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "饿死。",
+      "examples": [
+        "吾妻子已殍矣。",
+        "河東平陽大蝗，民流殍者什五六。"
+      ],
+      "traditional_char": "殍"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "草木枯落。",
+      "examples": [],
+      "traditional_char": "殍"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从歹（与死亡相关）表义，孚表声，本义为饿死后暴露的尸体。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "conversion",
+      "note": "由饿死之人的名词义转为动词‘饿死’之义，语义游移，自汉而后固定用法。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由生命枯竭义类推至草木枯落，义项极为罕见，或属文人用典。"
+    }
+  ]
+}

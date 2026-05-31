@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "寡妇，指丧失丈夫的女性。",
+      "examples": [
+        "嫠也何害，先夫当之矣。（《左传·襄公二十五年》）",
+        "泣孤舟兮嫠妇。（苏轼《赤壁赋》）",
+        "嫠不恤纬。"
+      ],
+      "traditional_char": "嫠"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "寡妇的节操，特指封建社会中夫死不再改嫁的节烈。",
+      "examples": [
+        "嫠节（指封建社会寡妇的节操，夫死不再改嫁）"
+      ],
+      "traditional_char": "嫠"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "忧国忘家的寡妇，因典故“嫠不恤纬”引申，喻忧国忘家之人。",
+      "examples": [
+        "嫠不恤纬（喻忧国忘家）",
+        "嫠忧"
+      ],
+      "traditional_char": "嫠"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从女，釐声。本义为丧夫之妇。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "以本义\"寡妇\"引申为寡妇的节操，出现于封建礼教兴盛时期。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由“寡妇”转喻为忧国忘家之人，源于典故“嫠不恤纬”，汉以后出现。"
+    }
+  ]
+}

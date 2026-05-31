@@ -1,0 +1,88 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "踩，踏，用脚踩在地上",
+      "examples": [
+        "脚下跐的是砖地。",
+        "将抗足而跐之。",
+        "且彼方跐黄泉而登大皇。"
+      ],
+      "traditional_char": "跐"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "脚下滑动，脚打滑",
+      "examples": [
+        "脚一下跐，摔倒了。",
+        "登跐了。"
+      ],
+      "traditional_char": "跐"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "（脚尖着地）抬起脚后跟，踮脚",
+      "examples": [
+        "跐着脚往前头看。",
+        "跐起脚来。"
+      ],
+      "traditional_char": "跐"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "站着不动",
+      "examples": [
+        "跐住（停止，站着不动）。",
+        "跐在这儿。"
+      ],
+      "traditional_char": "跐"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "靠、依赖",
+      "examples": [
+        "你犯不上跐着人借光儿问我。",
+        "跐着人"
+      ],
+      "traditional_char": "跐"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从足，此声；表示‘脚踩、踏’的动作。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“脚踩”引申为“脚下打滑”，古今并见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由‘踩’引申为‘脚尖着地’抬脚后跟，结构接近，动作相关。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由‘站立踩’扩展为‘站着不动’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "由脚踩引申作‘依靠’抽象义，常见于口语用法。"
+    }
+  ]
+}

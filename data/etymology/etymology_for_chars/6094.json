@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "独自行走、孤独的样子",
+      "examples": [
+        "独行踽踽",
+        "踽踽凉凉"
+      ],
+      "traditional_char": "踽"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adverb",
+      "meaning": "慢步行走的样子，小步慢行",
+      "examples": [
+        "踽步",
+        "踽踽小行"
+      ],
+      "traditional_char": "踽"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "弯腰行走，通“伛”（伛僂）",
+      "examples": [
+        "踽偻"
+      ],
+      "traditional_char": "踽"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从足，禹声，形声字。本义为疏行、独自行走的样子。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由独自行走引申为慢步、小步行走，与孤独相关的步态扩展。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由缓慢步态引申为弯腰步行，与“伛僂”含义通用，基于动作特征的转用。"
+    }
+  ]
+}

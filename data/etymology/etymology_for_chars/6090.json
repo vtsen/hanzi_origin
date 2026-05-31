@@ -1,0 +1,70 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "刚升起的太阳，朝阳。",
+      "examples": [
+        "海暾红处谒仙山，不管刚风客棹寒。",
+        "杜甫诗：绝壁上朝暾"
+      ],
+      "traditional_char": "暾"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "日初升时的景象或状态，渐出之貌。",
+      "examples": [
+        "暾出苗以入场，愈情骇而神悚。",
+        "雨过秋山日欲暾，白云如雪拥山根。"
+      ],
+      "traditional_char": "暾"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "和暖，温暖。",
+      "examples": [
+        "宁爱寒切烈，不爱暘温暾。",
+        "午时庵内坐，始觉日头暾。"
+      ],
+      "traditional_char": "暾"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "明亮，光亮。",
+      "examples": [
+        "三光弛隳不复暾，虎熊麋猪逮猴猿。"
+      ],
+      "traditional_char": "暾"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘暾’为形声字，从日，豚声，日表意义，豚表音，初义指‘初升之太阳’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由具体太阳转指其升起的状态、景象，汉魏六朝皆见。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由太阳初升温暖的感觉引申为‘温暖’，唐诗常见。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由日初升明亮之貌引申为‘明亮’，常用于自然景色描写。"
+    }
+  ]
+}

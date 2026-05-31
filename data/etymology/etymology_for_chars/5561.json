@@ -1,0 +1,104 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "盆中的火；热灰；余烬。",
+      "examples": [
+        "煨，盆中火也。——《说文》",
+        "热灰谓之煻煨。——《通俗文》",
+        "仰希霖雨，洒宝炎煨。——唐·李白",
+        "煨燼也。——《廣雅釋言》"
+      ],
+      "traditional_char": "煨"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "用热灰或火慢慢烧烤（或焖煮）食物，使其熟。",
+      "examples": [
+        "芋当去皮，湿纸包煨之。——宋·吕祖谦",
+        "两個初煨黃栗子，半抄新炒白芝麻。——《清平山堂话本》"
+      ],
+      "traditional_char": "煨"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "用微火慢慢炖煮或加热（尤指食物或茶等）。",
+      "examples": [
+        "尝大雪薪尽，以马矢然火煨面食之。——《宋史·洪皓传》",
+        "就在石中敲出火来，拾些枯枝，把牛煨得半生不熟的。——《说岳全传》"
+      ],
+      "traditional_char": "煨"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "焚烧；烧毁。",
+      "examples": [
+        "时宫室煨残，驻尚书省。——《新唐书·沙陀传》",
+        "一夕，煨尽无遗。——宋·周煇《清波别志》"
+      ],
+      "traditional_char": "煨"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "中药炮制法之一：将药材包裹于湿润面粉后在炒热滑石粉中加热至焦黄；或隔纸加热以除去部分油分。",
+      "examples": [
+        "煨木香。",
+        "中药制法之一，将药材用湿润面粉包裹，在锅内炒热的滑石粉中加热至外皮焦黄为度。"
+      ],
+      "traditional_char": "煨"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "畜养火；保存火种。",
+      "examples": [
+        "煨，畜火也。——《集韻》"
+      ],
+      "traditional_char": "煨"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从火，畏声，表示火或灰烬，初指盆中有火。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "热灰为食物加热，指代用热灰慢烤食物。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由具体热灰，拓展为用微火慢煮的动作。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "火与灰剩下的残迹，引申为焚烧、烧毁。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "引申为中药炮制法，用热加温至焦黄。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "由火、热灰，引申为畜养火、保留火种。"
+    }
+  ]
+}

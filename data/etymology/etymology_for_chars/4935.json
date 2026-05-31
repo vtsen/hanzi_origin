@@ -1,0 +1,86 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "熟，煮熟（食物熟透）",
+      "examples": [
+        "孰为汤饼。",
+        "食不孰则不可食。"
+      ],
+      "traditional_char": "孰"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "pronoun",
+      "meaning": "谁，哪个",
+      "examples": [
+        "孰是孰非。",
+        "孰为汝多知乎？"
+      ],
+      "traditional_char": "孰"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "pronoun",
+      "meaning": "什么（表示事物或情况）",
+      "examples": [
+        "是可忍，孰不可忍？",
+        "后之视今，亦由今之视昔，孰短孰长乎？"
+      ],
+      "traditional_char": "孰"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "other",
+      "meaning": "用于抉择比较的反问，表示“谁更……”，哪一个更……",
+      "examples": [
+        "孰与秦哉？",
+        "孰若二人者乎？"
+      ],
+      "traditional_char": "孰"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "程度深",
+      "examples": [
+        "古之学者必有师。师者，所以传道受业解惑也。人非生而知之者，孰能无惑？"
+      ],
+      "traditional_char": "孰"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意，从‘享’（羊肉熟食）、‘丮’（手持），合表‘煮熟的食物’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由食物‘熟’义，泛指‘程度深’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_shift",
+      "note": "用作疑问代词，疑义学界有争，或由‘深究’引申为问‘谁、哪个’。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "‘谁’义进一步泛指‘什么’。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "grammaticalization",
+      "note": "用于抉择反问，功能化。"
+    }
+  ]
+}

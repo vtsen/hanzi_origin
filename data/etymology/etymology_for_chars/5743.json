@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "用竹子编成的床席，床垫。",
+      "examples": [
+        "箦，如今北道以暠鞨荐床，古人质素如此，后加以席，其席示谓之箦，床亦谓之箦。",
+        "雎详死，即卷以箦，置厕中。"
+      ],
+      "traditional_char": "簀"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "用粗竹篾编成的席子或垫子。",
+      "examples": [
+        "于屋下悬箦，令鸡宿上。",
+        "《史记·范雎蔡泽列传》：雎详死，即卷以箦，置厕中。"
+      ],
+      "traditional_char": "簀"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "通“积”，堆积。",
+      "examples": [
+        "瞻彼淇奥，绿竹如簀。——《诗·卫风·淇奥》",
+        "簀，积也。——《毛传》"
+      ],
+      "traditional_char": "簀"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从竹，责声，表示以竹制成的床席，材料义明确。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由特指床席泛指为粗篾席或其他竹编垫子，出现于经典文献用例。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由具体物体（竹席、垫子）发展为“堆积”“重叠”的比喻义。"
+    }
+  ]
+}

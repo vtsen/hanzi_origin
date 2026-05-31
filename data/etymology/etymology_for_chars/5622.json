@@ -1,0 +1,85 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "似玉的美石；泛指美玉",
+      "examples": [
+        "何以舟之，维玉及瑶。",
+        "瑶，石之美者。"
+      ],
+      "traditional_char": "瑤"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "形容珍贵美好，用为赞美之词",
+      "examples": [
+        "瑶宫贝阙",
+        "瑶台",
+        "瑶章花札"
+      ],
+      "traditional_char": "瑤"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "中国少数民族名，即瑶族",
+      "examples": [
+        "瑶族主要分布于广西、湖南、云南、广东、贵州等省。"
+      ],
+      "traditional_char": "瑤"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "一种香草名（如“瑶草”）",
+      "examples": [
+        "瑶草离根"
+      ],
+      "traditional_char": "瑤"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "通“珧”，如“瑶柱”",
+      "examples": [
+        "瑶柱"
+      ],
+      "traditional_char": "瑤"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从玉，䍃声，表示美玉之意，为玉类之美石。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "以美玉比喻珍贵美好，演化为赞美之义。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "以“瑶”喻称少数民族名，用其珍贵美好的涵义。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "以“瑶”美玉喻香草名，取其珍贵美好之意。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "“瑶”借为“珧”（贝类名），属于同音通假。"
+    }
+  ]
+}

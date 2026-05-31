@@ -1,0 +1,44 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "鲻鱼，一种体型延长、前部圆筒形、后部侧扁，主要生活于海水与淡水交界处、常见的食用鱼。",
+      "examples": [
+        "吴主共论脍鱼何者最美，象曰：‘鯔鱼脍为上。’",
+        "鯔，体圆头扁，状类青鱼而色黑，口小，骨软如鲳，有黄脂，长者尺许。产近海。"
+      ],
+      "traditional_char": "鯔"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "鲻的简化字，用作“鯔”的现代简体。",
+      "examples": [
+        "鲻鱼是世界各地港养主要鱼种。",
+        "鲻，体长五十余厘米，稍侧扁，背部黑绿色，腹部白色。"
+      ],
+      "traditional_char": "鲻"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘鯔’为形声字，从鱼，甾声，初指鲻鱼。"
+    },
+    {
+      "formation_type": "simple_indicative",
+      "original_sense_index": 1,
+      "note": "‘鲻’为‘鯔’的简化字，形声结构简化。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "reanalysis",
+      "note": "20世纪简化字运动中，‘鯔’简化为‘鲻’。"
+    }
+  ]
+}

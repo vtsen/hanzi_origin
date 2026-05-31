@@ -1,0 +1,67 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "onomatopoeia",
+      "meaning": "形容跳动或爆裂的声音。",
+      "examples": [
+        "心嘣嘣直跳",
+        "绳子嘣的一声断了"
+      ],
+      "traditional_char": "嘣"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adverb",
+      "meaning": "表示程度，相当于“很”。",
+      "examples": [
+        "嘣脆",
+        "嘣甜"
+      ],
+      "traditional_char": "嘣"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "（方言）指用枪杀死（枪毙）。",
+      "examples": [
+        "把他拉出去嘣了！"
+      ],
+      "traditional_char": "嘣"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "（方言）叱责。",
+      "examples": [],
+      "traditional_char": "嘣"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从口，崩声。本为象声词，形声字，表示爆裂或跳动之声。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由表示声音引申为强调程度，多用于口语中，如“嘣脆”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由爆裂声音引申比喻用枪杀死（枪毙），即“嘣”的声音暗指开枪。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "声音感受转为情绪表达，用于斥责，近方言用法。"
+    }
+  ]
+}

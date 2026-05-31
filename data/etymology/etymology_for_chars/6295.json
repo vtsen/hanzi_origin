@@ -1,0 +1,70 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "水流突然涌到时發出的聲音。",
+      "examples": [
+        "濞洶洶其無聲兮，潰淡淡而並入。——《文選·高唐賦》",
+        "濞焉洶洶，隱焉磕磕。——《吳都賦》"
+      ],
+      "traditional_char": "濞"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "水名，漾濞水，在云南省，注入澜沧江。",
+      "examples": [
+        "漾濞縣，中國云南省的一个县。",
+        "吐蕃有可跋海，東南流入西洱河，合流而東，號曰漾濞水。《通典》"
+      ],
+      "traditional_char": "濞"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "云南漾濞县名，因濞水得名。",
+      "examples": [
+        "漾濞县，位于云南大理白族自治州。"
+      ],
+      "traditional_char": "濞"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "onomatopoeia",
+      "meaning": "形容水势浩大、蘊積或深邃的样子（如滂濞、彭濞、懿濞等叠用）。",
+      "examples": [
+        "譬若周雲之蘢蓯，遼巢彭濞而爲雨。——《淮南子·俶真訓》",
+        "屑黶翳以懿濞。——《鲁灵光殿赋》"
+      ],
+      "traditional_char": "濞"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从水，鼻聲，表示水的声音；形声字，初指水险急奔腾的声响。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由具体指水声扩展为形容水的状态、蘊積或深邃的用法，常见于叠词。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "用以表示发出此类水声的水体，即水名。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "以水名命名流域的县；专指地名。"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "槭树，一类落叶乔木或灌木，树叶对生，掌状分裂，有翅果，木材坚韧。",
+      "examples": [
+        "槭木可作大车轮。",
+        "鸡爪槭为常见树种。"
+      ],
+      "traditional_char": "槭"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "树枝光秃、树叶凋落的样子。",
+      "examples": [
+        "庭树槭以洒落兮。",
+        "孤阁临寒溪，松壑莽萧槭。"
+      ],
+      "traditional_char": "槭"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "丧落、树木叶落，草木凋落。",
+      "examples": [
+        "木叶落也。",
+        "陈柯槭以改旧。"
+      ],
+      "traditional_char": "槭"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "到达（此义较为罕见）。",
+      "examples": [
+        "槭，到也。",
+        "槭至也。"
+      ],
+      "traditional_char": "槭"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "悲伤（通“慽”，借用义，较少见）。",
+      "examples": [
+        "用同“慽”。悲伤。"
+      ],
+      "traditional_char": "槭"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "'槭'为形声字，从木，戚声，最初表‘槭树’等落叶树木名。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由‘槭树’秋冬凋落等特征，以树本体喻指枝叶枯落之貌，文献中常见，晋代前后。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由‘形容词’派生为‘凋落’的动作，形容转为动词。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "unknown",
+      "note": "用作‘到达’之义，义源不明，有待进一步考证。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "‘槭’借音通‘慽’，表示‘悲伤’，见古籍记载，系假借义。"
+    }
+  ]
+}

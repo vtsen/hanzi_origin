@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "告诉；以言语告知（尤指上告下）",
+      "examples": [
+        "伊尹申诰于王。（《书·太甲下》）",
+        "诰，告也。（《说文》）"
+      ],
+      "traditional_char": "誥"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "告诫，劝勉",
+      "examples": [
+        "舆人颂，以自诰也。（《国语·楚语上》）",
+        "诰毖（告诫）；诰教（告诫教育）"
+      ],
+      "traditional_char": "誥"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "帝王赐给官员或后妃的命令或文书（诰命）",
+      "examples": [
+        "一品至五品，皆授以诰命，六品至九品，皆授以敕命。（《清会典事例》）",
+        "又如：诰敕（旧制官吏受封的文书）；诰券（皇帝任命和封赠的文书）"
+      ],
+      "traditional_char": "誥"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "用于典籍中劝勉、告戒、训讲等体例的文体名称（如《书》中“誥”体）",
+      "examples": [
+        "《书》有《仲虺之誥》、《洛誥》等。",
+        "刘勰《文心雕龙·辨骚》：典诰之体也。"
+      ],
+      "traditional_char": "誥"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从言，告声，表示‘告知’之义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "‘告知’之义引申为‘劝诫、劝勉’；常见于古汉语。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_narrowing",
+      "note": "‘上告下’义专指帝王对臣下以文书颁布命令，语义收缩。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "从‘告知/宣示命令’引申为‘特定文体名’（书体之一）。"
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "欺骗，蒙蔽",
+      "examples": [
+        "谩欺",
+        "谩语",
+        "谩诞",
+        "是面谩也。"
+      ],
+      "traditional_char": "謾"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "抵赖",
+      "examples": [
+        "民或祝诅上，以相约结而后相谩，吏以为大逆。"
+      ],
+      "traditional_char": "謾"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "毁谤、谩骂",
+      "examples": [
+        "乡则不若，偝则谩之。",
+        "媠谩亡状。"
+      ],
+      "traditional_char": "謾"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "莫，不要",
+      "examples": [
+        "谩叹息，谩悒怏。",
+        "谩言天上有姮娥。"
+      ],
+      "traditional_char": "謾"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "轻慢，对人不尊重",
+      "examples": [
+        "轻谩宰相。",
+        "长书有誖谩。",
+        "桀纣暴谩。"
+      ],
+      "traditional_char": "謾"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "adjective",
+      "meaning": "不切实、散漫（通“漫”）",
+      "examples": [
+        "太谩，愿闻其要。"
+      ],
+      "traditional_char": "謾"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从言，曼声；最初本义为“欺骗、蒙蔽”。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“欺骗、蒙蔽”引申为“抵赖”；见《史记》用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "从“欺骗”扩展至“毁谤、谩骂”，涉及言语侮辱。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "“谩”作副词，‘莫’或‘不要’，推测由否定言辞引申。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "由欺骗的行为引申为对人不尊重或轻慢。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "synecdoche",
+      "note": "由“欺骗”扩展为“不切实、散漫”，即整体缺乏实在。"
+    }
+  ]
+}

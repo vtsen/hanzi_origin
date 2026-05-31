@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "美丽，美好",
+      "examples": [
+        "静女其姝，俟我于城隅。",
+        "姝丽"
+      ],
+      "traditional_char": "姝"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "美女",
+      "examples": [
+        "使君遣吏往，问是谁家姝。",
+        "名姝"
+      ],
+      "traditional_char": "姝"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "柔顺（多用于叠用“姝姝”）",
+      "examples": [
+        "暖暖姝姝。",
+        "姝姝其顺也。"
+      ],
+      "traditional_char": "姝"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从女，朱声；本义为美好，多指女性美丽。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "conversion",
+      "note": "由美好的形容词性意义转换为指美女，用于人。先秦至汉代已有。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由美好的形容意义扩展出顺从、柔顺的引申义，多用于姝姝。出现在先秦至两汉文献。"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "盘曲；屈曲；环绕；盘结",
+      "examples": [
+        "蟠木不雕饰。",
+        "龙蟠于泥。",
+        "蒲团蟠两膝，竹几阁双肘。"
+      ],
+      "traditional_char": "蟠"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "盘曲地伏着；盘踞；环绕",
+      "examples": [
+        "潜龙蟠于沮泽。",
+        "龙蟠虎踞。",
+        "凤舞龙蟠。"
+      ],
+      "traditional_char": "蟠"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "遍及；充满；环绕",
+      "examples": [
+        "天子之势，蟠于天下而结于民心者甚厚。",
+        "旍旗缤纷，下蟠于地。",
+        "蟠满胸怀。"
+      ],
+      "traditional_char": "蟠"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "鼠妇（学名：Armadillidium vulgare等），一种生活在潮湿处的小虫，又名蛜蝛",
+      "examples": [
+        "蟠，鼠妇。",
+        "色如蚯蚓，生水瓨底或墙根湿处。"
+      ],
+      "traditional_char": "蟠"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从虫，番声，会意形声兼有，表示与虫类或曲状相关，最初表盘曲、屈曲义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "conversion",
+      "note": "由形容词义‘盘曲’转为动词‘盘绕、盘踞’，用法转换，早在先秦可见。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由具体‘盘绕’引申为‘遍及、充满’等抽象义，主要用作修饰范围与充实。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "因虫类常见盘曲姿态，故以‘蟠’借指鼠妇小虫，见于《尔雅》。"
+    }
+  ]
+}

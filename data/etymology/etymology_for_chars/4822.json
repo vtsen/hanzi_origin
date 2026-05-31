@@ -1,0 +1,137 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "晒干，使物体因日照而干燥",
+      "examples": [
+        "白露未晞。",
+        "蒹葭凄凄，白露未晞。",
+        "发晞用象栉。",
+        "朝露待日晞。"
+      ],
+      "traditional_char": "晞"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "暴露于阳光下；晒",
+      "examples": [
+        "朝濯髮於湯谷，夕晞余身兮九陽。",
+        "暴五穀之類秦晉之間謂之曬，東齊、北燕、海岱之郊謂之晞。"
+      ],
+      "traditional_char": "晞"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "干燥，变干",
+      "examples": [
+        "母附书至妻寄衣，开书拆衣泪痕晞。",
+        "明唐寅《七夕赋赠织女》：灵津驾鹊将言就，咸池沐髮会令晞。"
+      ],
+      "traditional_char": "晞"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "消散，消失",
+      "examples": [
+        "时昢昢兮旦旦，尘漠漠兮未晞。",
+        "灵幽体翳，邈哉晞矣！"
+      ],
+      "traditional_char": "晞"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "天亮，破晓，太阳初升",
+      "examples": [
+        "东方未晞，颠倒裳衣。",
+        "日昕曰晞。"
+      ],
+      "traditional_char": "晞"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "明亮，光明",
+      "examples": [
+        "心惝惘而遙思兮，眇迴目而弗晞。",
+        "如彼重闇自晞，无假火日。"
+      ],
+      "traditional_char": "晞"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "仰望，远望（通“睎”）",
+      "examples": [
+        "晞白日兮皎皎，彌遠路兮悠悠。",
+        "晞高仰峻，企远怀幽。"
+      ],
+      "traditional_char": "晞"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "verb",
+      "meaning": "希求，向往（通“希”）",
+      "examples": [
+        "晞冀（希求、希望之意）",
+        "晞避（希望避开的意思）"
+      ],
+      "traditional_char": "晞"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从日，希声，表示因日照而干燥。本义为晒干。‘日’表意义，‘希’表音。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由晒干引申为阳光晒的动作，东齐北燕之语义扩展。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由阳光暴晒引申为物体变干、干燥。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由干燥进一步引申为消散、消失的抽象意义。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "由晒/日照喻指日出、天亮，古文“明之始升”。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "从破晓引申为光明、明亮。"
+    },
+    {
+      "source_index": 5,
+      "target_index": 6,
+      "evolution_type": "metaphor",
+      "note": "由明亮喻意仰望、远望，借光明之感转为视觉动作。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 7,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "古通“希”，用作‘希求，向往’，为假借义。"
+    }
+  ]
+}

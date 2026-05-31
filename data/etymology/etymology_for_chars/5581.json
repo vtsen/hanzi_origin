@@ -1,0 +1,99 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "云气腾涌、青烟弥漫的样子",
+      "examples": [
+        "鬱蕭條其幽藹兮，滃泛沛以豐隆。",
+        "滃然（云气腾涌、烟雾弥漫的样子）",
+        "滃滃翳翳（云烟笼罩、昏暗晦冥的样子）"
+      ],
+      "traditional_char": "滃"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "大水沸涌的样子",
+      "examples": [
+        "水耗初而釜治，火增壮而力均，滃嘈杂而廉清。",
+        "山水聪明气，发为泉石滃。"
+      ],
+      "traditional_char": "滃"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "浓烈，颜色或气味浓厚",
+      "examples": [
+        "拿出一本册来，揭开看时，只见这首页上画的，既非人物，亦非山水，不过水墨滃染，满纸乌云浊雾而已。",
+        "十一曰滃淡失宜。"
+      ],
+      "traditional_char": "滃"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "浓染、染色浓烈",
+      "examples": [
+        "难滃（纸面油光，难以染上颜色）"
+      ],
+      "traditional_char": "滃"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "水名，滃江，在中国广东省",
+      "examples": [
+        "滃江，水名。在广东省。"
+      ],
+      "traditional_char": "滃"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "浙江省定海县滃州的简称",
+      "examples": [],
+      "traditional_char": "滃"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘滃’从水，翁声，本义指云气涌起、流动（水气和形声结合），为形声字。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由形容云气腾涌之貌，比喻水沸涌之势。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由云气浓厚之义，抽象化到色彩和气味浓重的义项。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "conversion",
+      "note": "由“浓”形容词义转为“浓染”动词义。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "以云水盛的本义，借用作河流之名。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "metonymy",
+      "note": "以盛气水名，借为地名简称。"
+    }
+  ]
+}

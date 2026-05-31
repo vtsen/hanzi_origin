@@ -1,0 +1,107 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "拉，拽，牵引。",
+      "examples": [
+        "见舆曳，其牛掣。——《易·睽》",
+        "风掣红旗冻不翻。——唐·岑参《白雪歌送武判官归京》",
+        "羌女轻烽燧，胡儿掣骆驼。——杜甫"
+      ],
+      "traditional_char": "掣"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "牵制，控制。",
+      "examples": [
+        "掣肘",
+        "外胁群臣，内掣侮天子。——《新唐书·刘蕡传》",
+        "则当要之于终，不宜掣于其间也。——《旧唐书·陆贽传》"
+      ],
+      "traditional_char": "掣"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "抽取，抽出，拔。",
+      "examples": [
+        "掣签",
+        "羲之密从后掣其笔不得。——《晋书·王献之传》",
+        "掣开，掣身"
+      ],
+      "traditional_char": "掣"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "疾行，疾飞。",
+      "examples": [
+        "流火掣空飞。——袁宏道《雪夜感怀同黄道元作》",
+        "半空光冷掣电火，平地声走轰雷车。——许衡",
+        "走过掣倾城知。——杜甫《高都护骢马行》"
+      ],
+      "traditional_char": "掣"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "抽搐，肌肉抽动。",
+      "examples": [
+        "瘛瘲，谓小儿风惊，乍掣乍纵。——《六书故》",
+        "掣，搐也。——《说文》"
+      ],
+      "traditional_char": "掣"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "举起，拿起（兵器等）。",
+      "examples": [
+        "劉玄德掣雙股劍，驟黃鬃馬，刺斜裏也來助戰。——《三国演义》",
+        "掣仗躲閃。——《水滸傳》"
+      ],
+      "traditional_char": "掣"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从手，制声，表示与手有关的动作，初义为拉、拽。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由具体拉拽引申为对人的牵制或限制，见于汉唐文献。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由牵引、拉发展为抽取、拔出物体，如抽签、拔笔等使用。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "从拉拽产生急速运动、飞驰之意，如“掣电”，比喻速度快。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "从动作的拉拽延伸至肌肉抽搐的现象，医学古籍已见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "由拉、拽动作引申为举起兵器等，常见于古典小说。"
+    }
+  ]
+}

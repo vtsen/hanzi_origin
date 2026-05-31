@@ -1,0 +1,68 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "竹笋的外壳、竹皮",
+      "examples": [
+        "箬，楚谓竹皮曰箬。——《说文》",
+        "緗箬素筍，彤竿綠筒。——王彪之《閩中賦》"
+      ],
+      "traditional_char": "箬"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "箬竹，一种竹子，叶大而宽，可编物用",
+      "examples": [
+        "以伐樵採箬為業。——《宋書·朱百年傳》",
+        "箬竹"
+      ],
+      "traditional_char": "箬"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "箬竹的叶子",
+      "examples": [
+        "蒻篷覆之。——魏学洢《核舟记》",
+        "青箬裹鹽歸峒客，綠荷包飯趁虛人。——柳宗元《柳州峒氓》"
+      ],
+      "traditional_char": "箬"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "竹病",
+      "examples": [],
+      "traditional_char": "箬"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从竹，若声，最初指竹皮或竹笋的壳。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由指竹皮扩展为指产出这种竹皮的竹种，即箬竹。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由箬竹引申为其叶子，以材料指部件。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "unknown",
+      "note": "“竹病”为较罕用义，义变路径不明。"
+    }
+  ]
+}

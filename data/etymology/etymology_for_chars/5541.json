@@ -1,0 +1,69 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "中风病，偏瘫或风引起的慢性疾病。",
+      "examples": [
+        "《史记·魏其武安侯列传》：病痱，不食欲死。",
+        "《汉书·贾谊传》：且病痱。"
+      ],
+      "traditional_char": "痱"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "痱子，因出汗过多汗腺发炎导致的小红疹（一种皮肤病），常见于夏天。",
+      "examples": [
+        "痱疮是一种夏令常见的皮肤病。",
+        "热天出汗多，容易长痱子。"
+      ],
+      "traditional_char": "痱"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "鬼痛病，一种古代称谓的病症。",
+      "examples": [
+        "痱，鬼痛病。（出自古籍音义注释）"
+      ],
+      "traditional_char": "痱"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "同“腓”，为避讳用字。",
+      "examples": [
+        "腓，亦作痱，见古籍注。"
+      ],
+      "traditional_char": "痱"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘痱’从‘疒’表疾病，‘非’为声符，最初表风病或中风，也指偏瘫。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由身体风病等慢性疾患引申为皮肤病小肿或疹状疾病，约汉至隋唐时出现。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "部分古文释义指代‘鬼痛病’，语义有偏移。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "function_word",
+      "note": "作为‘腓’的避讳用字，取其音近，字形借用。"
+    }
+  ]
+}

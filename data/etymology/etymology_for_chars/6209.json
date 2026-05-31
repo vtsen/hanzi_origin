@@ -1,0 +1,157 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "香草名，即蕙草，亦称零陵香。",
+      "examples": [
+        "一薰一蕕，十年尚犹有臭。",
+        "浮山有草焉，名曰薰。麻叶而方茎，赤华而黑实，臭如蘼芜，佩之可以已疠。"
+      ],
+      "traditional_char": "薰"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "香气，花草的香味。",
+      "examples": [
+        "陌上草薰。",
+        "五香薰鼻。"
+      ],
+      "traditional_char": "薰"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "烟气。",
+      "examples": [
+        "薰歇烬灭。",
+        "燎薰炉兮炳明烛。"
+      ],
+      "traditional_char": "薰"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "用气味或烟气烤制、熏蒸或感化。",
+      "examples": [
+        "薰以香自烧。",
+        "薰衣睹妆。",
+        "薰陶薰染。"
+      ],
+      "traditional_char": "薰"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "烧灼，熏炙。",
+      "examples": [
+        "薰心。",
+        "能不忧心如薰。"
+      ],
+      "traditional_char": "薰"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "adjective",
+      "meaning": "温暖，和煦，温和的样子。",
+      "examples": [
+        "蕙风如薰。",
+        "薰然慈仁。",
+        "南风之薰兮，可以解吾民之慍兮。"
+      ],
+      "traditional_char": "薰"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "有刺激气味的蔬菜，通“葷”。",
+      "examples": [
+        "膳葷，谓食之葷辛物蔥薤之屬……古文葷作薰。",
+        "或时疾病，公辄累月不茹薰。"
+      ],
+      "traditional_char": "薰"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "noun",
+      "meaning": "通“勳”，功勋。",
+      "examples": [
+        "策薰著于王室。"
+      ],
+      "traditional_char": "薰"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [
+        "明薰成见姓苑。"
+      ],
+      "traditional_char": "薰"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从艸表植物，‘熏’为声符，初指香草蕙草。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由香草引申为气味、香气，见先秦用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由香草经熏烧过程引申为烟气。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "用香草、香气作为动词表示熏蒸、感化。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "用烟气进一步引申为熏蒸动作。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "semantic_shift",
+      "note": "由熏蒸引申为烧灼、熏炙。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "metaphor",
+      "note": "由香气温和引申出和暖、温和的形容。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "“薰”假借为“葷”，指辛辣蔬菜。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 7,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "“薰”假借为“勳”，指功勋。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 8,
+      "evolution_type": "unknown",
+      "note": "姓氏用法，起源不详，或来自本义。"
+    }
+  ]
+}

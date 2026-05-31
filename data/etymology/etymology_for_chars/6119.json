@@ -1,0 +1,59 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "純美的黃金，含金量高的金子，又稱紫磨金。",
+      "examples": [
+        "出大庭之显服，束以精镠。——王安石《谢赐对衣鞍马表》",
+        "黃金之美者謂之鏐。——《史記•夏本紀》引鄭玄",
+        "鳧曰予肖，以璗與鏐。——宋 姜夔《越九歌》"
+      ],
+      "traditional_char": "鏐"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "精純；純粹（用於金屬等詞語中，如“鏐鐵”、“鏐橇”）。",
+      "examples": [
+        "歷試不折，千鎔之鏐。——清 毛奇齡《張大司空傳贊》"
+      ],
+      "traditional_char": "鏐"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "“鏐”的簡化字，意同“鏐”。",
+      "examples": [
+        "“镠”为“鏐”的简化字。"
+      ],
+      "traditional_char": "镠"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "鏐：从金，翏聲，表示与金属（金）有关，翏音表读音，最初指纯美的黄金。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 2,
+      "note": "镠：从金，翏聲，为“鏐”的简化字，用于表示现代汉字，意义与繁体一致。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由指純美的黃金引申为泛指精纯、純粹（如金屬等），见于词汇如“鏐鐵”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "reanalysis",
+      "note": "“镠”作为“鏐”的简化字出现，意义不变，仅形体变化。"
+    }
+  ]
+}

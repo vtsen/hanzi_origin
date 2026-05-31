@@ -1,0 +1,59 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "传说中的古代帝王名，即五帝之一的高辛氏。",
+      "examples": [
+        "帝喾高辛者，黄帝之曾孙也。——《史记·五帝本纪》",
+        "殷人禘嚳而郊冥。《礼记·祭法》"
+      ],
+      "traditional_char": "喾"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "极、至极。",
+      "examples": [
+        "釋玄應說，‘嚳’與‘酷’音義皆同。按……嚳者，極也，教令窮極也。——段玉裁 注《说文》",
+        "言其考明法度醇美嚳然，若酒之芬香也。《尚书大传》卷五"
+      ],
+      "traditional_char": "嚳"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "犬名。",
+      "examples": [
+        "臣闻周氏之嚳，韩氏之卢，天下疾狗也。《说苑·善说》"
+      ],
+      "traditional_char": "嚳"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "嚳为形声字，从吿，學(音kù)为声，原义为极、至极。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "喾为形声字，简化自嚳，用於帝喾名，自商周已见，用作传说帝王名。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_narrowing",
+      "note": "由表极、至极的通用义专指为古帝名，用于人名专用化，上古语境。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "unknown",
+      "note": "用作犬名，义源不明，或为比喻、借名。"
+    }
+  ]
+}

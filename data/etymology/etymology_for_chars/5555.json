@@ -1,0 +1,53 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "碳酸失去氢氧原子团而成的一价基（-COOH），用于化学名词。",
+      "examples": [
+        "羧基",
+        "羧酸"
+      ],
+      "traditional_char": "羧"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "指羊病的一种（古义）。",
+      "examples": [
+        "羊羧"
+      ],
+      "traditional_char": "羧"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "羊毛织物的一种（古义）。",
+      "examples": [
+        "冉駹夷，其人能作旄氈，班𦋺，靑頓，𣭁毲，羊羧之屬。"
+      ],
+      "traditional_char": "羧"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "unknown",
+      "original_sense_index": 1,
+      "note": "字形从羊，原义与羊相关，但具体造字方式及本义尚不明，可能为借用。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "古义“羊病”引申为与羊相关的羊毛织品名称。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "reanalysis",
+      "note": "现代化学用义为音译造字，取“羧”音‘suō’，与古义无直接语义关联，仅为名词专用字。"
+    }
+  ]
+}

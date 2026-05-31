@@ -1,0 +1,61 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "昏乱，头脑不清楚",
+      "examples": [
+        "发聋振愦",
+        "昏愦",
+        "愦愦"
+      ],
+      "traditional_char": "愦"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "糊涂，不明事理",
+      "examples": [
+        "愦愦",
+        "糊涂懵懂"
+      ],
+      "traditional_char": "愦"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "昏乱，不安定",
+      "examples": [
+        "昏愦",
+        "心神憒乱"
+      ],
+      "traditional_char": "憒"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘愦’从心，贵声，表示内心昏乱，属形声字。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 2,
+      "note": "‘憒’从心，贵声，表示昏乱，也是形声字，为愦的繁体，语源一致。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘昏乱’引申为‘糊涂’义，义项具体化过程。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "reanalysis",
+      "note": "‘愦’与‘憒’繁简对应，意义于历史书写标准转变，汉字繁简分化。"
+    }
+  ]
+}

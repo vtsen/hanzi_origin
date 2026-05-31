@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "含怒，怨恨，内心不满。",
+      "examples": [
+        "人不知而不愠，不亦君子乎。",
+        "忧心悄悄，愠于群小。",
+        "愠而不出。"
+      ],
+      "traditional_char": "慍"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "郁结，心中积郁不舒。",
+      "examples": [
+        "南风之薰兮，可以解吾民之愠兮。",
+        "心所蕰积也。",
+        "我心蘊结兮。"
+      ],
+      "traditional_char": "慍"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "害羞，羞涩。",
+      "examples": [
+        "引得些鸳鸯儿交颈和鸣，忽的见了，愠的面赤，兜的心疼。"
+      ],
+      "traditional_char": "慍"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从心，昷声，表示与情感有关，最早表示含怒、郁结等意味。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由情绪上的愤怒引申为内心的郁结、积压，出现自先秦文献。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由怒容面红喻及因羞涩而面红，元代用法，义项通过脸部表情发展。"
+    }
+  ]
+}

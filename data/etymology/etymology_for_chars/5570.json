@@ -1,0 +1,63 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "水清澈的樣子，透明澄淨。",
+      "examples": [
+        "滢渟（水清澈的樣子）",
+        "晶滢",
+        "水滢滢"
+      ],
+      "traditional_char": "滢"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "水清澈的樣子，透明澄淨。（「瀅」作正體）",
+      "examples": [
+        "汀瀅",
+        "瀅渟",
+        "瀅瀅",
+        "瀅熒"
+      ],
+      "traditional_char": "瀅"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "小水，水名，在襄陽。",
+      "examples": [
+        "涓熒切，扃上聲。水名，在襄陽。",
+        "曲江汀瀅水平盃。"
+      ],
+      "traditional_char": "瀅"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘滢’為形聲字，形旁‘氵’表意（水），聲旁‘熒’表音。簡化自‘瀅’。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "‘瀅’為形聲字，‘氵’表意（水），‘嬴/熒’表音。原指水清澈之貌。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由水清澈之義及地名義擴展。水名因形狀與特徵引申名號，多見於古文記載。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "reanalysis",
+      "note": "‘滢’為‘瀅’之簡化字，詞義傳承未變，20世紀簡化運動定型。"
+    }
+  ]
+}

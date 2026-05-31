@@ -1,0 +1,160 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "露天的谷堆、露天的谷仓",
+      "examples": [
+        "曾孫之庾，如坻如京。——《詩·小雅·甫田》",
+        "钉头磷磷，多于在庾之粟粒。——唐·杜牧《阿房宫赋》"
+      ],
+      "traditional_char": "庾"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "储存水路转运粮食的仓库",
+      "examples": [
+        "發倉庾以振貧民，民得賣爵。——《史記·孝文本紀》",
+        "粟粮漕庾，不下十万。——《战国策》"
+      ],
+      "traditional_char": "庾"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "泛指粮库",
+      "examples": [
+        "囹圄寂寥，京庾流衍。——《文選·左思〈魏都賦〉》"
+      ],
+      "traditional_char": "庾"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "储积、积聚、屯积",
+      "examples": [
+        "以防貴庾者。——《漢書·食貨志下》"
+      ],
+      "traditional_char": "庾"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "numeral",
+      "meaning": "古代容量单位，一庾等于十六斗或二斗四升",
+      "examples": [
+        "粟五千庾。——《左傳》",
+        "與之庾。——《論語·雍也》"
+      ],
+      "traditional_char": "庾"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "大庾岭的简称（岭名）",
+      "examples": [
+        "湘瑟声沉，庾梅信断。——宋·秦观《青门饮》"
+      ],
+      "traditional_char": "庾"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "晋有庾亮。见《晋书·庾亮传》。"
+      ],
+      "traditional_char": "庾"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "noun",
+      "meaning": "弓名，古代六弓之一（弱弓，用于近射）",
+      "examples": [
+        "凡弩、夾、庾，利攻守。——《周禮·夏官·司弓矢》"
+      ],
+      "traditional_char": "庾"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "noun",
+      "meaning": "用同“瘐”，旧指囚犯患病而死",
+      "examples": [
+        "百姓庾獄中，斃杖下者，十而九矣。——明·馮夢龍《古今譚概》"
+      ],
+      "traditional_char": "庾"
+    },
+    {
+      "index": 9,
+      "part_of_speech": "noun",
+      "meaning": "草名（薛庾）",
+      "examples": [
+        "薜庾，草。——《爾雅·釋草》"
+      ],
+      "traditional_char": "庾"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从广（表示与房屋、仓储有关），臾声。最早指露天堆放的谷物或谷仓。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从最初的露天谷堆引申为有结构的储粮仓库，用于水路转运。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "仓库意义进一步泛化，指代一切粮库。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "conversion",
+      "note": "由‘粮库’名词义转换为‘储积’动词义。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "以储粮所的容量转喻为容量名词单位。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "metonymy",
+      "note": "以谷仓名为岭地名，大庾岭。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "function_word",
+      "note": "地名/官职衍为姓氏，常见汉文化命名方式。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 7,
+      "evolution_type": "unknown",
+      "note": "“庾”为弓名，具体转义路径不明，或与储藏、合聚形象相关。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 8,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "“庾”“瘐”音近通假，用作囚犯病死义。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 9,
+      "evolution_type": "unknown",
+      "note": "草名义（薛庾），可能因音近借用或地方方言习惯，具体机制未详。"
+    }
+  ]
+}

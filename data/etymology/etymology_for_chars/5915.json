@@ -1,0 +1,116 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "被东西绊倒，跌倒",
+      "examples": [
+        "杜回踬而颠。",
+        "不踬于山，而踬于垤。",
+        "举之过一钧，则踬仆矣。"
+      ],
+      "traditional_char": "躓"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "事情不顺利，受挫折",
+      "examples": [
+        "僧孺硕学，而中年遭踬。",
+        "事踬两如直，心惬三避贤。"
+      ],
+      "traditional_char": "躓"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "被阻碍，受到阻挡",
+      "examples": [
+        "踬于中道。",
+        "踬顿，受到阻碍而停顿不前。"
+      ],
+      "traditional_char": "躓"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "文辞晦涩，不畅达",
+      "examples": [
+        "意深则词躓。"
+      ],
+      "traditional_char": "躓"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "低劣、疲困",
+      "examples": [
+        "塗遙力躓，傾蹶必然。"
+      ],
+      "traditional_char": "躓"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "古代腰斩用具的墊座（通“鑕”）",
+      "examples": [
+        "訢 解衣伏躓。"
+      ],
+      "traditional_char": "躓"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "手足生胝（同“胝”）",
+      "examples": [
+        "駢躓。"
+      ],
+      "traditional_char": "躓"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从足，质声；表示被东西绊倒、跌倒"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由物理跌倒比喻为事业挫折，汉魏以后常见"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由本义引申为被阻碍，阻挡。春秋战国已出现"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由阻碍引申为文辞不畅，南朝用例"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "unknown",
+      "note": "与原义的联系尚不明，疑为类推或隐喻"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "通“鑕”，用为腰斩刑具之名；属于借音"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "用作“胝”，指手足生茧。见《孟子》注释"
+    }
+  ]
+}

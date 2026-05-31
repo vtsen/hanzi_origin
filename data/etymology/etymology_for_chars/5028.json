@@ -1,0 +1,84 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "青黑色、有如棋盘格子状斑纹的马。",
+      "examples": [
+        "骐，马青骊文如博棋也。——《说文》",
+        "差其毛物，则有蒼白驪黃……騧騏騽騝。——唐 张说《大唐开元十三年隴右监牧颂德碑》"
+      ],
+      "traditional_char": "騏"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "骏马，良马。",
+      "examples": [
+        "乘骐骥以驰骋兮。——《楚辞·离骚》",
+        "骐骥一毛。"
+      ],
+      "traditional_char": "騏"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "麒麟；传说中的神兽（通“麒”）。",
+      "examples": [
+        "而骐麟不至。——《战国策·赵策四》"
+      ],
+      "traditional_char": "騏"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "如棋的意思（通“棋”）。",
+      "examples": [
+        "弊騏，疑奕棋之误。——孙诒让《墨子间诂》"
+      ],
+      "traditional_char": "騏"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "姓氏。",
+      "examples": [
+        "周之时有騏期。——唐 韩愈《讳辨》"
+      ],
+      "traditional_char": "騏"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“騏”是形声字，从马，其声，表示有青黑斑文的马。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由具体花纹的马泛指骏马、良马，古今文献皆有。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "借骏马形象比神兽麒麟，古代有用法混同。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "利用音近假借，表示棋盘或棋；见《墨子》。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "conversion",
+      "note": "从动物概念转为姓氏用法，典型专有名词化。"
+    }
+  ]
+}

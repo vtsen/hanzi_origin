@@ -1,0 +1,50 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "金属铸成的小锭，形状像小馒头，重量多为一二两到三五两，用作金银的度量或货币。",
+      "examples": [
+        "锞，金银锭也。——《五方元音》",
+        "宝玉和贾兰是金银项圈二个，金银锞二对。——《红楼梦》",
+        "富贵之家，暗以金银小錁及宝石等藏之餑餑中，以卜顺利。"
+      ],
+      "traditional_char": "錁"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "化学元素“鎵”（gallium）的旧译名。",
+      "examples": [],
+      "traditional_char": "錁"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "车辋的一种器具（见于古籍异读，罕用）。",
+      "examples": [],
+      "traditional_char": "錁"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘錁’从金，果声，表示金属制品，最初指小锭（金银锞）。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "近现代以‘錁’新指代新发现之金属元素（鎵），因形状或性质类似。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "unknown",
+      "note": "古书异读，车膏器的含义起源机制不明。"
+    }
+  ]
+}

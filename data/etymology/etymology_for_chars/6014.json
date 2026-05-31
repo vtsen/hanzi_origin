@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "多言；说话多，喜欢唠叨",
+      "examples": [
+        "耄喜谵谆语，衰常踸踔行。——宋·陆游《霜晴》",
+        "清 曹寅《書院述事三十韻》：時豪侈狂譫，犄角自枝柱。"
+      ],
+      "traditional_char": "譫"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "胡言乱语，特指病中说胡话",
+      "examples": [
+        "谵妄烦乱，啼笑骂詈。——李时珍《本草纲目·序例上》",
+        "如：谵妄、谵言、谵语"
+      ],
+      "traditional_char": "譫"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "石名，一种药石（极罕用义）",
+      "examples": [
+        "【篇海】都敢切，音膽。石𥕔，藥名。"
+      ],
+      "traditional_char": "譫"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘譫’形声字，从言，詹声，原意‘多言’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_narrowing",
+      "note": "从泛指‘多言’转指病中‘胡言乱语’，语义范围缩小；宋元之后常特指病中。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "unknown",
+      "note": "‘石名’义源流不详，极可能来源于通用字借用或地名，秦汉以后罕见。"
+    }
+  ]
+}

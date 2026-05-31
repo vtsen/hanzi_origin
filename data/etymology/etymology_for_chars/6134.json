@@ -1,0 +1,119 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "边界，边境",
+      "examples": [
+        "复寻金沙江，极于牦徼外。",
+        "南至牂柯为徼。"
+      ],
+      "traditional_char": "徼"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "巡查，巡逻",
+      "examples": [
+        "几为巡徼所陵迫死。",
+        "常夜从走卒行徼邯郸中。"
+      ],
+      "traditional_char": "徼"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "要求、求取、谋求（通“邀”、“侥”）",
+      "examples": [
+        "寡君愿徼福于周公鲁公。",
+        "小人行险以徼幸。"
+      ],
+      "traditional_char": "徼"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "遮拦，拦截",
+      "examples": [
+        "徼其衰也。",
+        "徼极而取之。"
+      ],
+      "traditional_char": "徼"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "抄袭，窃取",
+      "examples": [
+        "恶徼以为知者。",
+        "徼，抄也。"
+      ],
+      "traditional_char": "徼"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "纠缠，徼绕不明（通“缴”）",
+      "examples": [
+        "徼绕（缠绕；错综）。",
+        "据徼乘邪以求一日之富贵。"
+      ],
+      "traditional_char": "徼"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "激发，激励",
+      "examples": [
+        "发士卒佐之以徼其志。",
+        "以徼其志。"
+      ],
+      "traditional_char": "徼"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "形声字，从彳，敫声，表示巡行、巡逻之意，是最早的本义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "metonymy",
+      "note": "巡察守边引申为边界、边境，古今常见。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "从巡查义扩展为“求取”，与通假字“邀”“侥”相关。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "由求取/谋求引申为遮拦、拦截，已有古训。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "由求取、缠绕义（通“缴”）扩展为纠缠错综。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 6,
+      "evolution_type": "metaphor",
+      "note": "用求取比喻激发、激励他人。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由巡查、察举扩展为揭发、抄袭义。"
+    }
+  ]
+}

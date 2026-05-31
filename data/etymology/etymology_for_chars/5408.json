@@ -1,0 +1,38 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "放在檩上、支撑屋顶的木条",
+      "examples": [
+        "屋架上铺着许多椽子。",
+        "椽笔挥洒"
+      ],
+      "traditional_char": "椽"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "古代房屋间数的代称",
+      "examples": [
+        "东宇西房数十椽。"
+      ],
+      "traditional_char": "椽"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从木，耑声。表示屋顶木条之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "以‘椽’为屋顶支条，引申为房屋间数的代称，见于古籍。"
+    }
+  ]
+}

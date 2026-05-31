@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "欲言，想说又不敢说出。",
+      "examples": [
+        "口将言而嗫嚅。",
+        "嚅忍（欲言而止）"
+      ],
+      "traditional_char": "嚅"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "细语貌，说话吞吞吐吐或低语的样子。",
+      "examples": [
+        "嚅嚅（私语貌）",
+        "嗫嚅（说话吞吞吐吐的样子）"
+      ],
+      "traditional_char": "嚅"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从口，朱声。意指与口语有关，朱表声。最初本义为‘欲言而未言’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从‘欲言’扩展到‘说话吞吞吐吐、低语’等细微语态。"
+    }
+  ]
+}

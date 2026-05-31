@@ -1,0 +1,70 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "绳圈；绞索，用于套在颈上加以勒杀或自缢。",
+      "examples": [
+        "投缳自缢",
+        "投缳道路",
+        "虹蜺为缳"
+      ],
+      "traditional_char": "繯"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "用绳索缠绕、系结、围绕。",
+      "examples": [
+        "缳山于有牢",
+        "缳橐"
+      ],
+      "traditional_char": "繯"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "系在旗上的结或饰带。",
+      "examples": [
+        "青云为纷，虹蜺为缳"
+      ],
+      "traditional_char": "繯"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "捕兽网，与罗网同类。",
+      "examples": [
+        "繯网罝罦不敢出於门"
+      ],
+      "traditional_char": "繯"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "从糸，瞏声。以糸表与绳索相关，瞏表音，最初本义为缠绕、包络。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_narrowing",
+      "note": "从一般的缠绕发展为特指用绳圈进行勒杀或自缢。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "卷结、缠绕之意引申为旗上的结饰。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "用绳索缠绕义转指以绳为主的捕兽工具。"
+    }
+  ]
+}

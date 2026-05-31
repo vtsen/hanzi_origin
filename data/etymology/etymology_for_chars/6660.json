@@ -1,0 +1,44 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "苧麻，一種草本植物，可剝皮紡織成布或繩，也作“紵”、“芧”。",
+      "examples": [
+        "多取蒲苧，益作繩索。",
+        "苧，皮麻屬也。",
+        "其草則藨苧薠莞。"
+      ],
+      "traditional_char": "苧"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "一種有香味的有機化合物（一種存在於柑橘果皮的液體，用於製香料），學名為limonene。",
+      "examples": [
+        "苧，存在於柑橘類果皮中的芳香液體，供製香料。"
+      ],
+      "traditional_char": "薴"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "苧由“艸”表示植物義，“宁”作聲符，表音亦帶隱義。最早用於苧麻等草本植物。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "薴亦為形聲字，“艸”示意草本植物或植物提取物，“寧”為聲符。後用指柑橘類有機成分。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由指具體植物拓展為植物所含有的有機化合物，用於命名新識別的香料成分。"
+    }
+  ]
+}

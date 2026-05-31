@@ -1,0 +1,135 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "跌倒，仆倒。",
+      "examples": [
+        "毅恐蹶仆地。",
+        "善基者致高而不蹶。",
+        "小人之行，不蹶于山。"
+      ],
+      "traditional_char": "蹶"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "遭受挫折，失败。",
+      "examples": [
+        "一蹶不振。",
+        "蹶上将军。"
+      ],
+      "traditional_char": "蹶"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "竭尽，枯竭。",
+      "examples": [
+        "天下财产，何得不蹶。",
+        "生之者甚少而靡之甚多，天下财产何得不蹶。"
+      ],
+      "traditional_char": "蹶"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "用脚踩踏，蹈。",
+      "examples": [
+        "蹶泥则没足灭跗。",
+        "子胥两祛高蹶而出于廷。"
+      ],
+      "traditional_char": "蹶"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "用脚踢（尤指骡马等用后腿向后踢）。",
+      "examples": [
+        "尥蹶子。",
+        "那马尥蹶把人踢翻了。"
+      ],
+      "traditional_char": "蹶"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "疾行，跑。",
+      "examples": [
+        "蹶而趋之，唯恐弗及。"
+      ],
+      "traditional_char": "蹶"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "挖掘，拔出。",
+      "examples": [
+        "蹶穴其中。",
+        "是谓蹶其本。"
+      ],
+      "traditional_char": "蹶"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "adjective",
+      "meaning": "急遽、突然的样子；受惊而疾起。",
+      "examples": [
+        "蹶然起。",
+        "蹶蹶，敏也。"
+      ],
+      "traditional_char": "蹶"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从足，厥声，本义为跌倒。足表意，厥表音，常见于表示动作的足部形声字。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由实体跌倒喻为事业或人生的失败、受挫，汉代前已见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "跌倒引申为事情耗尽、竭绝，见于《汉书·食货志》。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "从仆倒扩展到用脚踏、踩等动作。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "semantic_narrowing",
+      "note": "由一般踏扩展为动物用后腿踢的专用义，现代口语常见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "由跌倒→剧烈动作，引申为疾行、奔跑。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 6,
+      "evolution_type": "semantic_shift",
+      "note": "践踏动作为基础，引申为掘取、拔出。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 7,
+      "evolution_type": "semantic_extension",
+      "note": "跌倒、行动突然而急剧，形容急遽或突然。"
+    }
+  ]
+}

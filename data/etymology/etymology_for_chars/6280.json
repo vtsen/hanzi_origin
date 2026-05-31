@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "鰍科鱼类的统称，体圆尾侧扁，栖于淡水河湖等泥中，俗称泥鳅。",
+      "examples": [
+        "泥鳅",
+        "《莊子•齊物論》： “麋與鹿交， 鰍與魚游。”",
+        "明 梁辰魚 《浣紗記•問疾》： “你道像些甚麼？黑流鰍好像個灶王。”"
+      ],
+      "traditional_char": "鰍"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "海鰍，即露骨鲸，一种体型巨大的海生动物。",
+      "examples": [
+        "唐 許渾 《歲暮自廣江至新興》詩之一： “海鰍潮上見， 江鵠霧中聞。”",
+        "《宋史•五行志一下》： “﹝ 紹興 ﹞二十四年四月， 海鹽縣 海洋有巨鰍， 群蝦從之， 聲若謳歌。”"
+      ],
+      "traditional_char": "鰍"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "通“蝤”，指某些其他细小水生动物（如“鰍蛑”等）。",
+      "examples": [
+        "鰍蛑"
+      ],
+      "traditional_char": "鰍"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘鰍’从魚，酋声，表示鱼类，最初本义指鳅科鱼；‘鳅’为其简化字，保留声旁‘酋’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由淡水鳅类鱼引申比喻体型巨大的海生动物（因形体特征或滑腻特性），约见于唐代以后。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "‘鰍’假借用于其他细小水生动物，属类项扩展。"
+    }
+  ]
+}

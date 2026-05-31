@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "美好的样子，形容姿态优美、雅致。",
+      "examples": [
+        "婷婷袅袅",
+        "娉婷",
+        "不嫁惜娉婷",
+        "婷，和色也。——《玉篇》"
+      ],
+      "traditional_char": "婷"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "颜色和悦，色彩柔和好看。",
+      "examples": [
+        "婷，和色也。——《玉篇》"
+      ],
+      "traditional_char": "婷"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "女子患病的样子。",
+      "examples": [
+        "一曰女出病。"
+      ],
+      "traditional_char": "婷"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "同“娗”，容貌美好的女子。",
+      "examples": [
+        "娉婷，美好貌。",
+        "杜甫诗：不嫁惜娉婷"
+      ],
+      "traditional_char": "婷"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从女，亭声，本义为美好的样子，左女表义，右亭表声。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "“美好”引申为色彩柔和好看，时代早期已有例。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由美好之意引申为容貌美好的女子。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "部分字书释为“女出病”，可能为音近义移用，具体机理不明。"
+    }
+  ]
+}

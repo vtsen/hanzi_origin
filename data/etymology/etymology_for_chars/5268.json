@@ -1,0 +1,179 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "事毕而闭门，比喻事情结束",
+      "examples": [
+        "阕，事已闭门也。——《说文》",
+        "祭事阕而归。"
+      ],
+      "traditional_char": "闋"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "止息；终了",
+      "examples": [
+        "俾民心阕。——《诗·小雅·节南山》",
+        "乐阕。"
+      ],
+      "traditional_char": "闋"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "尽，无剩余",
+      "examples": [
+        "物物卬市，日阕亡储。——《汉书》",
+        "繁肴既阕，亦有寒羞。——张协《七命》"
+      ],
+      "traditional_char": "闋"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "服丧期满",
+      "examples": [
+        "于是三年礼阕，乃相与刊勒金石。——《山阳太守祝睦后碑》",
+        "服阕除丧。"
+      ],
+      "traditional_char": "闋"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "乐曲结束",
+      "examples": [
+        "曲终为阕。——《古今韵会举要》",
+        "乐阕。——《仪礼》"
+      ],
+      "traditional_char": "闋"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "歌曲或词的一首或一段",
+      "examples": [
+        "歌数阕。——《史记·留侯世家》",
+        "弹琴一阕。"
+      ],
+      "traditional_char": "闋"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "numeral",
+      "meaning": "用作量词，指乐曲、词一首或一段",
+      "examples": [
+        "填一阕词",
+        "前一段称“上阕”，后一段称“下阕”"
+      ],
+      "traditional_char": "闋"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "noun",
+      "meaning": "空隙，空虚",
+      "examples": [
+        "瞻彼阕者，虚室生白。——《庄子》"
+      ],
+      "traditional_char": "闋"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "noun",
+      "meaning": "官位、职事的空缺（通“缺”）",
+      "examples": [
+        "各取一阕。——《潜夫论·边议》"
+      ],
+      "traditional_char": "闋"
+    },
+    {
+      "index": 9,
+      "part_of_speech": "noun",
+      "meaning": "短少、缺少（通“缺”）",
+      "examples": [
+        "志闋从政。——梁 江淹 《拜中书郎表》"
+      ],
+      "traditional_char": "闋"
+    },
+    {
+      "index": 10,
+      "part_of_speech": "noun",
+      "meaning": "戟类兵器（同“戣”，方音借用）",
+      "examples": [
+        "公孙接用铁阕一条，约至一百五十斤，杀入秦兵之内。——《古今小说》"
+      ],
+      "traditional_char": "闋"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字。从门，癸声，表示祭毕闭门之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘事毕闭门’泛指‘终止、止息’。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "‘终了’引申为‘全部结束、尽’。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "‘止息’引申为丧服期满。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "‘终了’指乐曲终止，多见于礼仪音乐相关上下文。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "‘乐曲终止’发展为名词，指歌曲或词一首。"
+    },
+    {
+      "source_index": 5,
+      "target_index": 6,
+      "evolution_type": "function_word",
+      "note": "名词指量，衍生出量词义‘一阕’。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 7,
+      "evolution_type": "metonymy",
+      "note": "‘终了’引申为空隙、空虚，见于哲理语境。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 8,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "‘闋’假作‘缺’，指职位空缺、短少。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 9,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "‘闋’通‘缺’，引申为短少、缺少。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 10,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "‘闋’借音用作‘戣’，即戟类兵器，方音借用，语源无直接语义联系。"
+    }
+  ]
+}

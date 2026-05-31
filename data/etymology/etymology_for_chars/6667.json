@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "用石头搭成的桥，或石路、石级等石制通道",
+      "examples": [
+        "登村度石矼。",
+        "石渠通斜阁，交枝覆断矼。",
+        "竹傘遮雲徑，藤鞋踏蘚矼。",
+        "沉檀金四柱，玳瑁壓階矼。",
+        "由此更上一峰，至天平矼，矼之兀突獨聳者，為光明頂。"
+      ],
+      "traditional_char": "矼"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "坚实，结实",
+      "examples": [
+        "德厚信矼。"
+      ],
+      "traditional_char": "矼"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "诚实",
+      "examples": [
+        "且德厚信矼。"
+      ],
+      "traditional_char": "矼"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "被坚硬的东西碰伤",
+      "examples": [
+        "媽媽很嚼不動那個，倒沒的矼了他的牙。"
+      ],
+      "traditional_char": "矼"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘矼’为形声字，从石，冈声，本指石桥或用石砌成的步道。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由石桥、石路坚固引申为坚实，引申机制为比喻。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "坚实的事物比喻为诚实，形容人的品德。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由石头坚硬、撞击产生的损伤引申为被硬物碰伤的动作。"
+    }
+  ]
+}

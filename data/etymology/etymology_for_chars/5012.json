@@ -1,0 +1,72 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "山或水弯曲的地方",
+      "examples": [
+        "山隈、水隈、城隈",
+        "大山之隈",
+        "渔者不侵隈。——《淮南子》"
+      ],
+      "traditional_char": "隈"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "角落、边角处",
+      "examples": [
+        "考之四隈。——左思《魏都赋》",
+        "墙隈小翻动，屋角盛呼号。——宋·王安石《秋风》"
+      ],
+      "traditional_char": "隈"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "深曲之处、隐蔽之处",
+      "examples": [
+        "秦人过析隈，隈入而係輿人。——《左传·僖公二十五年》",
+        "曲深处，鱼所聚也。——《淮南子》"
+      ],
+      "traditional_char": "隈"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "弓把两边的弯曲处",
+      "examples": [
+        "大射正执弓，以袂顺左右隈。——《仪礼》",
+        "恒当弓之畏。"
+      ],
+      "traditional_char": "隈"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从阜表示与地势相关，‘畏’为声符，初指山或水弯曲处。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "从表层弯曲处泛指到深曲、隐蔽之处扩展，汉代用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由地形转指建筑或空间的角落、边角。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "借喻弓的弯曲部位为‘隈’。"
+    }
+  ]
+}

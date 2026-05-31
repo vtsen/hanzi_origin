@@ -1,0 +1,43 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "鸟类用嘴啄东西",
+      "examples": [
+        "别让鸡把地里的嫩苗鹐了。",
+        "别让鸡鹐了地里的麦穗。"
+      ],
+      "traditional_char": "鵮"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "用言语讥讽他人",
+      "examples": [
+        "悲歌慷慨匪鹐。——明·康海《一枝花》"
+      ],
+      "traditional_char": "鵮"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘鵮’为形声字，从鸟，兼声，本义为鸟啄物。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘鹐’为‘鵮’的简化字，形声结构，简化自‘鵮’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "以鸟用喙啄物引申为用言语讥讽，见于明代文献。"
+    }
+  ]
+}

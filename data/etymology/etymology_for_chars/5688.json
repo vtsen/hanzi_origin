@@ -1,0 +1,69 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "长衣下垂、衣服宽大貌",
+      "examples": [
+        "裴，长衣貌。——《说文》",
+        "衯衯裶裶。——司马相如《子虚赋》"
+      ],
+      "traditional_char": "裴"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "三国魏有裴潜。见《三国志·魏志》本传"
+      ],
+      "traditional_char": "裴"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "汉代县名，在今河北省肥乡县西",
+      "examples": [
+        "《汉书·王子侯表上》：“揤裴戴侯道。”",
+        "《汉书·地理志上》：魏郡县十八：…即裴。"
+      ],
+      "traditional_char": "裴"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "犹豫不决，徘徊（通“徘”）",
+      "examples": [
+        "裴回两渠间兮，君子独安居。——《前汉·燕刺王传》"
+      ],
+      "traditional_char": "裴"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从衣，非声，本义为长衣下垂貌；‘衣’表意，‘非’表声。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由衣服下垂之形转为用作姓氏的表征；常见以器物为姓的习惯。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "本义引申为地名，常见以器物形状或特征命名地名。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "function_word",
+      "note": "‘裴回’引申为徘徊，表示动作回旋反复，由形容衣物飘动而转喻动作。"
+    }
+  ]
+}

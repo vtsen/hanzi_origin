@@ -1,0 +1,81 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "用手掌用力揉或压物体。",
+      "examples": [
+        "搋面；搋衣服",
+        "拳手挃曰搋也",
+        "以手用力揉物"
+      ],
+      "traditional_char": "搋"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "藏物于怀或衣中。",
+      "examples": [
+        "把那见钱怀中便搋。——《警世通言》",
+        "教酒肉搋，待覓厭飫的新黃菜。——《青衫淚》"
+      ],
+      "traditional_char": "搋"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "〔搋子〕疏通下水道的工具。",
+      "examples": [
+        "厕所堵了，用搋子通一下。"
+      ],
+      "traditional_char": "搋"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "拽，拉扯。",
+      "examples": [],
+      "traditional_char": "搋"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "偷笑，嘲弄（如‘搋瘉’一词中所见）。",
+      "examples": [],
+      "traditional_char": "搋"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“搋”形声字，从手，隹声，本义为用手揉压之意，手旁表意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由揉压动作引申为藏物于怀，因为动作相似，宋元已见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "揉压义引申到疏通工具，因其动作为对物体用力压揉通畅，现代义。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由物理动作引申为拉拽、扯的动作，见于较早文献。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "由揉压状借喻为笑的动作（搋瘉），属于动作转义。"
+    }
+  ]
+}

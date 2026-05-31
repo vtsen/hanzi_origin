@@ -1,0 +1,67 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "手反覆摆动；反手的动作。",
+      "examples": [
+        "攉，手反覆也。摇手曰挥，反手曰攉。——《字汇》",
+        "感君三尺铁，挥攉鬼神惊。——唐·牟融《谢惠剑》"
+      ],
+      "traditional_char": "攉"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "盘手戏。",
+      "examples": [],
+      "traditional_char": "攉"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "把堆在一起的东西铲起或甩到一边，特指铲煤、矿石等。",
+      "examples": [
+        "都是党的好领导，矿工攉煤直起腰。"
+      ],
+      "traditional_char": "攉"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "专利，壟断（古文中通“榷”）。",
+      "examples": [
+        "如令豪吏滑民辜而攉之，小民弗蒙，非予意也。——《汉书•王莽传下》",
+        "奏罢两税外山泽盐井攉率之籍，夷人歌之。——唐·李翱《故东川节度使卢公传》"
+      ],
+      "traditional_char": "攉"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从手，隺声。本义为手反覆动作，采用形声结构。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "手反复动作引申为盘手游戏动作，具体化。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "手的反复动作比喻为把东西铲起并甩到一边，尤用于劳动场景。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "‘攉’古文中借作‘榷’（专利、壟断），属声音借用而义转变。"
+    }
+  ]
+}

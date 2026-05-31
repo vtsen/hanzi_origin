@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "pronoun",
+      "meaning": "你，“你”的古字。",
+      "examples": [
+        "伲，汝也。或作你。——《集韵》"
+      ],
+      "traditional_char": "伲"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "pronoun",
+      "meaning": "（方言）我们。",
+      "examples": [
+        "廿一年前，伲在此地開過刀，住過院。",
+        "小趙眞是好榜樣，替伲大家爭了光。"
+      ],
+      "traditional_char": "伲"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "pronoun",
+      "meaning": "（方言）我的；我们的。",
+      "examples": [
+        "伲帐還勿曾付過呢！",
+        "伲金梅 這個囡，一個農民的女兒，今天辦起了個人畫展，上了報，上了電視!"
+      ],
+      "traditional_char": "伲"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘伲’为形声字，‘亻’表义指人，与‘尼’声，原用于‘你’的本字。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_shift",
+      "note": "在吴语及部分方言中，‘伲’发音及用法发生变化，由第二人称演变为第一人称复数。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由第一人称复数进一步引申为第一人称单数和所有格。"
+    }
+  ]
+}

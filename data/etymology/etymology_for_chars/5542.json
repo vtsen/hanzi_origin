@@ -1,0 +1,135 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "经久难以治愈的疾病，久病。",
+      "examples": [
+        "邓太后以皇子胜有痼疾。",
+        "余婴沉痼疾。",
+        "痼，久病也。"
+      ],
+      "traditional_char": "痼"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "经久难愈的疾病。",
+      "examples": [
+        "京师醴泉湧出，飲之者痼疾皆愈。",
+        "余婴沉痼疾。"
+      ],
+      "traditional_char": "痼"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "根深蒂固，长期难以改变。",
+      "examples": [
+        "烟霞成痼癖。",
+        "嗜酒好睡，其癖已痼。",
+        "痼习；痼癖。"
+      ],
+      "traditional_char": "痼"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "长期养成不易克服的癖好或习惯。",
+      "examples": [
+        "痼癖。",
+        "痼习。"
+      ],
+      "traditional_char": "痼"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "积久、积累（书面用法）。",
+      "examples": [
+        "病又痼而留之。",
+        "病日深日痼。"
+      ],
+      "traditional_char": "痼"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "禁闭，通“錮”（古文、罕用）。",
+      "examples": [
+        "必爲錮疾。",
+        "痼没。"
+      ],
+      "traditional_char": "痼"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "小儿口生疮。",
+      "examples": [
+        "一曰小儿口生疮。"
+      ],
+      "traditional_char": "痼"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "verb",
+      "meaning": "干涸（水枯竭），引申用法。",
+      "examples": [
+        "舟不病痼。"
+      ],
+      "traditional_char": "痼"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从疒，固声，疒表疾病，固表顽固的意思并兼表声，表现“疾病长久难愈”之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "conversion",
+      "note": "由形容词“久病的”转为名词“久病”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "对人的习性、癖好等，形容根深难改，借用指“积久难改”之意。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "conversion",
+      "note": "由形容词“根深难改”转为名词“已成为积习的癖好”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "从“经久难愈”引申为“积久”的一般意义。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "痼通‘錮’，用于‘禁闭’之义，见古文用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "semantic_narrowing",
+      "note": "特殊指小儿口疮，是久病的具体化用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 7,
+      "evolution_type": "metaphor",
+      "note": "由“久病”比喻引申为“干涸”，见宋文。"
+    }
+  ]
+}

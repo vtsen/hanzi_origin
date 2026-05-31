@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "靺鞨：古代中国东北方的民族名。",
+      "examples": [
+        "靺鞨，蕃人，出北土。",
+        "红靺鞨靺。"
+      ],
+      "traditional_char": "靺"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "袜子，足衣。",
+      "examples": [
+        "赤舄，絳靺。",
+        "履靺縛褲入。",
+        "寶靺裴回處。"
+      ],
+      "traditional_char": "靺"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "赤黄色（染皮革成赤黄色）。",
+      "examples": [
+        "緹顏靺股豹兩鞬。",
+        "靺， 一本作“韎”。"
+      ],
+      "traditional_char": "靺"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "音乐名，古代中国东方少数民族的音乐。",
+      "examples": [
+        "東方曰《靺》，南方曰《任》。"
+      ],
+      "traditional_char": "靺"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "从韋（皮革），蔑声，《說文》足衣也，表示鞋袜，用作衣物名。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "袜子采用赤黄色染色，词义由袜子扩展指赤黄色。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "以民族服饰、习俗转指民族音乐。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "metonymy",
+      "note": "以特色服饰或足衣为族名特征，转指该民族。"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "死亡",
+      "examples": [
+        "殒命",
+        "为国殒身"
+      ],
+      "traditional_char": "殞"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "坠落",
+      "examples": [
+        "殒石坠地",
+        "殒星陨落"
+      ],
+      "traditional_char": "殞"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从歺（“歹”）表示与死亡有关，员声。本义是死亡，见《说文解字》。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由死亡引申为坠落，古人常以星辰陨落比喻死亡，义项可互通。"
+    }
+  ]
+}

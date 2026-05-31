@@ -1,0 +1,40 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "刀剑鞘末端的铜饰物。",
+      "examples": [
+        "刀鞘上有精美的镖。"
+      ],
+      "traditional_char": "鏢"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "旧时投掷用的武器，形状像长枪的头。",
+      "examples": [
+        "飞镖",
+        "保镖",
+        "镖师",
+        "镖客"
+      ],
+      "traditional_char": "鏢"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从金，票声，最初表示刀剑鞘末端的铜制饰件。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由金属饰物引申为金属制投掷武器，见于中古以后语境。"
+    }
+  ]
+}

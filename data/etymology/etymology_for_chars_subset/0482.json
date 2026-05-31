@@ -1,0 +1,128 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "名词",
+      "meaning": "古代称君主，帝王。",
+      "examples": [
+        "商之先后",
+        "君后"
+      ],
+      "traditional_char": "後"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "名词",
+      "meaning": "帝王的妻子。",
+      "examples": [
+        "皇后",
+        "太后"
+      ],
+      "traditional_char": "後"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "名词/方位词",
+      "meaning": "空间在背面，反面的，与“前”相对。",
+      "examples": [
+        "后窗户",
+        "后面"
+      ],
+      "traditional_char": "後"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "名词/时间词",
+      "meaning": "时间较晚，与“先”相对。",
+      "examples": [
+        "日后",
+        "后期",
+        "后福"
+      ],
+      "traditional_char": "後"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "名词",
+      "meaning": "次序上的后面，与“前”相对。",
+      "examples": [
+        "后排",
+        "后十名"
+      ],
+      "traditional_char": "後"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "名词",
+      "meaning": "子孙，后代。",
+      "examples": [
+        "后裔",
+        "无后"
+      ],
+      "traditional_char": "後"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "名词",
+      "meaning": "姓氏。",
+      "examples": [],
+      "traditional_char": "後"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "compound_ideograph",
+      "original_sense_index": 0,
+      "note": "会意字，古字形从人在座，从口，表示发号施令之人，指君主。"
+    },
+    {
+      "formation_type": "loan_character",
+      "original_sense_index": 0,
+      "note": "‘后’为‘後’的简化，后世通用，多由本义及其引申义发展为多义字。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "synecdoche",
+      "note": "皇后为君主之配偶，特指帝王妻子，先秦即有。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "metonymy",
+      "note": "由君主引申为王的子孙后代。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由“坐于人后”引申为空间的后面。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由空间的‘后’引申为时间顺序的后。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "由空间后延伸为排列顺序的后。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "analogy",
+      "note": "时间顺序与排列顺序类比，常并存用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "unknown",
+      "note": "姓氏由官称、地名等转化，具体路径不详。"
+    }
+  ]
+}

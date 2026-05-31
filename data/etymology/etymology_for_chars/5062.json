@@ -1,0 +1,52 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "用手指抓取、拿取物品。",
+      "examples": [
+        "一味揸钱。",
+        "大把价揸来只顾吃。"
+      ],
+      "traditional_char": "揸"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "把手指伸张开。",
+      "examples": [
+        "揸开五个指头。",
+        "赶上前揸开五指，把黄贵妃一个巴掌。"
+      ],
+      "traditional_char": "揸"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "用同“搽”，意为涂抹。",
+      "examples": [],
+      "traditional_char": "揸"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从手（扌）表动作，与‘摣’同，‘虘’声，表示手指抓取之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由抓取动作引申为手指张开的动作，因两者常相关联。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "部分方言中由抓取动作转指手部动作引申为‘涂抹’。"
+    }
+  ]
+}

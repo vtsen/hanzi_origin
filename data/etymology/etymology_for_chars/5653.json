@@ -1,0 +1,68 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "铲除，歼灭",
+      "examples": [
+        "实始戬商。——《诗·鲁颂·閟宫》"
+      ],
+      "traditional_char": "戩"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "尽，至",
+      "examples": [
+        "戬谷（尽善，吉祥语）"
+      ],
+      "traditional_char": "戩"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "幸福，吉祥，福祉",
+      "examples": [
+        "方凭戬福，伫咏丰年。——《隋书·音乐志下》",
+        "人生大戩"
+      ],
+      "traditional_char": "戩"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "完美，无瑕",
+      "examples": [
+        "人生大戬"
+      ],
+      "traditional_char": "戩"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从戈，晋声，本义为灭绝、歼灭。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘灭绝’引申为‘尽、至’。古汉语常有此类用法。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "‘至’（终极）引申为‘极致的幸福、吉祥’，美好事物的极致。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "从‘幸福、吉祥’引申为‘完美无瑕’。"
+    }
+  ]
+}

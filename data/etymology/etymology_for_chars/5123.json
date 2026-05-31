@@ -1,0 +1,69 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "看，視覺地注視，與“瞧”同。",
+      "examples": [
+        "手提兔毫，錦片片的文字寫的高，寫罷擱筆自己睄。",
+        "晚生的棋是不堪睄的。"
+      ],
+      "traditional_char": "睄"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "小視，眼光掠過，匆匆一看，略看一眼。",
+      "examples": [
+        "又帶睄著鋪子裡的兩個夥計。",
+        "林先生坐在帳臺上……又帶睄著自己鋪子裡的兩個夥計、兩個學徒。"
+      ],
+      "traditional_char": "睄"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "幽暗（用於詞語“睄窕”中）。",
+      "examples": [
+        "睄窕"
+      ],
+      "traditional_char": "睄"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "一目盲，眼睛有障礙（通“眇”）。",
+      "examples": [
+        "睄，當從小宋音‘眇’，云：‘一目盲也。’"
+      ],
+      "traditional_char": "睄"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "形声字，从目，肖声。声旁肖表音，小視、略看引申自视线短暂。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "小視/略看引申為一般的看、瞧，見於明清以降。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由視覺匆匆一瞥引申至幽暗、不明，用於睄窕。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "由匆匆一眼，進一步因視覺不全而指一目盲，通“眇”。"
+    }
+  ]
+}

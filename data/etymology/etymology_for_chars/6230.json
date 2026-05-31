@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "水蛭，也称蚂蟥，一种吸血环节动物，常生活在水中。",
+      "examples": [
+        "蚂蟥吸血。",
+        "池中多蚂蟥。"
+      ],
+      "traditional_char": "蟥"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "甲虫的一种，古书中提及。",
+      "examples": [
+        "《尔雅·释虫》：蛂，蟥蛢。",
+        "蟥蛢，甲虫也。"
+      ],
+      "traditional_char": "蟥"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "从虫，黃声，最初指甲虫。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_shift",
+      "note": "由最初“甲虫”义转为主要指“水蛭”，见于文献中动物类泛化。"
+    }
+  ]
+}

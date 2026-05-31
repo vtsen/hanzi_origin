@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "大醉的样子，醉得迷迷糊糊",
+      "examples": [
+        "酩酊大醉",
+        "山公酩酊"
+      ],
+      "traditional_char": "酩"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "醴酒，或煮米麦为酩的古代饮品",
+      "examples": [
+        "食肉而饮酩",
+        "寒食为醴酩"
+      ],
+      "traditional_char": "酩"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adverb",
+      "meaning": "暗地里，暗中",
+      "examples": [
+        "酩子里"
+      ],
+      "traditional_char": "酩"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "形声字，从酉，名声，酉表与酒有关。原指酒类饮品。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "由酒饮品引申为饮酒后大醉的状态，发生于古汉语语义扩展。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "unknown",
+      "note": "‘酩’用于‘酩子里’表示暗中，可能与饮酒后行为隐秘相关，但机制不明。"
+    }
+  ]
+}

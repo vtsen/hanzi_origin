@@ -1,0 +1,86 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "衣服的边缘",
+      "examples": [
+        "衣有裔。",
+        "裔，裳也。——《说文》"
+      ],
+      "traditional_char": "裔"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "边，边远的地方",
+      "examples": [
+        "四海之裔",
+        "四裔来王。——《书·尧典》"
+      ],
+      "traditional_char": "裔"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "后代子孙",
+      "examples": [
+        "子孙后裔",
+        "华裔"
+      ],
+      "traditional_char": "裔"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "other",
+      "meaning": "形容四散流布或舞姿婀娜（用于叠字‘～～’）",
+      "examples": [
+        "淫淫～～，缘陵流泽",
+        "翩跹跹以～～"
+      ],
+      "traditional_char": "裔"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "裔姓"
+      ],
+      "traditional_char": "裔"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从衣，聲意兼表，『衣』表形，『冏』表音，本义为衣服的边缘。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由衣服边缘引申为地域边缘，意象转变。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "边远之地之民，引申为后代子孙或族裔。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由衣边引申为飘带舞动，以叠字形式表达动作形态。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "conversion",
+      "note": "本义转为姓氏用，是常见用法。"
+    }
+  ]
+}

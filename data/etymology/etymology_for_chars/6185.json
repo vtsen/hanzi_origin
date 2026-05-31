@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "衣服折叠而形成的印痕",
+      "examples": [
+        "百褶裙",
+        "衣服上的褶"
+      ],
+      "traditional_char": "褶"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "泛指摺皱重复的部分",
+      "examples": [
+        "褶子",
+        "褶皱"
+      ],
+      "traditional_char": "褶"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从衣，习声。本义为衣服折叠形成的印痕。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由专指衣服上的褶印泛化到所有折皱重复的部分。"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "照耀，发光。",
+      "examples": [
+        "日以煜乎昼，月以煜乎夜。",
+        "煜耀天庭。"
+      ],
+      "traditional_char": "煜"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "明亮，光辉灿烂的样子。",
+      "examples": [
+        "岭上疏星明煜煜。",
+        "煜明（光亮）；煜耀（光彩照射）"
+      ],
+      "traditional_char": "煜"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "火光，火焰。",
+      "examples": [
+        "飞烽戢煜而泱漭。",
+        "光焰；火焰。"
+      ],
+      "traditional_char": "煜"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "盛大、盛貌。",
+      "examples": [
+        "钟鼓铿鎗，管弦晔煜。",
+        "华煜声之盛。"
+      ],
+      "traditional_char": "煜"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从火，昱声，最早本义为照耀。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由动词“照耀”引申为形容词“明亮、光辉”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由“发光”之义引申为名词“火焰、火光”。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由“光辉明亮”进一步引申为“盛大、繁盛的样子”。"
+    }
+  ]
+}

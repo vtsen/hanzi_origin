@@ -1,0 +1,171 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "头的前部，即人的整个面部",
+      "examples": [
+        "脸面。颜面。面目。面对相觑。"
+      ],
+      "traditional_char": "面"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "用脸对着，向着",
+      "examples": [
+        "面对。面壁（面对墙壁）。"
+      ],
+      "traditional_char": "面"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "事物的外表或表面",
+      "examples": [
+        "地面。面友（表面的朋友）。面额（票面的数额）。"
+      ],
+      "traditional_char": "面"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "方位或部分",
+      "examples": [
+        "前面。反面。片面。全面。多数方面。"
+      ],
+      "traditional_char": "面"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "measure word",
+      "meaning": "用于扁平物件的量词",
+      "examples": [
+        "一面鼓。"
+      ],
+      "traditional_char": "面"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "会见，直接接头的行为",
+      "examples": [
+        "当面。面议。面晤。耳提面命。"
+      ],
+      "traditional_char": "面"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "几何学上指线移动所生成的有长有宽无厚的形迹",
+      "examples": [
+        "平面。曲面。"
+      ],
+      "traditional_char": "面"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "noun",
+      "meaning": "粮食磨成的粉，特指小麦粉",
+      "examples": [
+        "面粉。面食。面包。"
+      ],
+      "traditional_char": "麵"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "noun",
+      "meaning": "粉末",
+      "examples": [
+        "药面儿。"
+      ],
+      "traditional_char": "麵"
+    },
+    {
+      "index": 9,
+      "part_of_speech": "noun",
+      "meaning": "由面粉和水制成的条状食物",
+      "examples": [
+        "面条。"
+      ],
+      "traditional_char": "麵"
+    },
+    {
+      "index": 10,
+      "part_of_speech": "adjective",
+      "meaning": "食物含纤维少而柔软",
+      "examples": [
+        "这种瓜很面。"
+      ],
+      "traditional_char": "面"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "pictograph",
+      "original_sense_index": 0,
+      "note": "甲骨文形象表示人的面部，中间‘目’表示眼睛，表示面部整体"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 7,
+      "note": "“麵”字用“面”表意，麦字旁表音及义，专指小麦制品和粉状物"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从‘面部’引申为‘面向、用脸对着’的动作"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "人的‘面’转指事物的表面"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "从表面引申为方位和部分概念"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "synecdoche",
+      "note": "由‘面’指方位进一步作为扁平物件的量词"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "metonymy",
+      "note": "由‘面’指人面，转为‘会面、接见’的意义"
+    },
+    {
+      "source_index": 3,
+      "target_index": 6,
+      "evolution_type": "semantic_narrowing",
+      "note": "从方位或面向引申出几何学概念中的‘面’"
+    },
+    {
+      "source_index": 7,
+      "target_index": 8,
+      "evolution_type": "semantic_extension",
+      "note": "‘面’磨成的粉扩展为泛指各种粉末"
+    },
+    {
+      "source_index": 8,
+      "target_index": 9,
+      "evolution_type": "semantic_extension",
+      "note": "粉末演变为由面粉制的食品如面条"
+    },
+    {
+      "source_index": 0,
+      "target_index": 10,
+      "evolution_type": "semantic_shift",
+      "note": " ‘面’食物柔软细腻的特质引申为形容词‘含纤维少而柔软’"
+    }
+  ]
+}

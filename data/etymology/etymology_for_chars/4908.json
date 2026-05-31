@@ -1,0 +1,73 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "伟大，高大。",
+      "examples": [
+        "傀，伟也。——《说文》",
+        "达生之情者傀。——《庄子·列御寇》",
+        "傀然独立。"
+      ],
+      "traditional_char": "傀"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "怪异，奇异。",
+      "examples": [
+        "大傀异灾。——《周礼·大司乐》",
+        "傀奇。",
+        "傀怪。"
+      ],
+      "traditional_char": "傀"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "木偶戏里的木头人。",
+      "examples": [
+        "傀儡。",
+        "段綸徵巧匠，楊思齊造傀儡。"
+      ],
+      "traditional_char": "傀"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "比喻徒有虚名，被人操纵的人或组织。",
+      "examples": [
+        "傀儡政权。",
+        "他不过是个傀儡。"
+      ],
+      "traditional_char": "傀"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从人，鬼声。本义为伟大或高大，象人形魁梧，用“鬼”作声符。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "“伟大”向“怪异、奇异”发展，古代巨大与特异常有关联。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "以高大木人比拟木偶，转喻为木偶戏中的角色。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由“木偶”比喻为被人操纵的人或集体。"
+    }
+  ]
+}

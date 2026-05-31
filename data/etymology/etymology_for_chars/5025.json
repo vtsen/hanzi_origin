@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "勇气，勇敢。“勇”的古文字形，后来泛指勇气、力量。",
+      "examples": [
+        "恿能屈，剛能柔，仁能忍。",
+        "亂生於治，脅(怯)生於恿，弱生於強。"
+      ],
+      "traditional_char": "恿"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "煽动，怂恿、鼓动他人做某事。",
+      "examples": [
+        "怂恿他人犯法。",
+        "不要被人怂恿。"
+      ],
+      "traditional_char": "恿"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "（古义）痛，呻吟；同“恫”。",
+      "examples": [
+        "恿，痛也。",
+        "呻吟或作恿恫。"
+      ],
+      "traditional_char": "恿"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“恿”最初作‘勇’的古文字形，从“心”，表示勇敢之心，六书属形声字。‘恿’亦记作‘勇’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“勇气”引申为“鼓动、激发”的行为，常指鼓动他人产生勇气去做事，后泛为“怂恿”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "部分古书混用‘恿’为‘恫’，义为“痛、呻吟”，但学界有歧见，疑为方音或文献讹变，保留不确定性。"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "眼睛分泌出来的液体凝结成的淡黄色的东西，俗称“眼屎”。",
+      "examples": [
+        "膠睫乾眵綴，粘髭冷涕懸。",
+        "癡童睡醒驚抹眵，似有神廚運倏忽。"
+      ],
+      "traditional_char": "眵"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "眼眶有病，眼部疾病的状态。",
+      "examples": [
+        "兩目眵昏。——韩愈文",
+        "日高腹枵眼眥眵，邂逅獲見何言疲。"
+      ],
+      "traditional_char": "眵"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "指眼睛本身。",
+      "examples": [
+        "秋堂風露聲吾伊，青鐙一點昏兩眵。"
+      ],
+      "traditional_char": "眵"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "从目，多声（音符为多），意指目部疾病；后扩展为由眼部病变产生的分泌物。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "由“眼眶有病”引申为“病态时分泌的眼屎”，义项扩展。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "以病患部位代指“眼睛”本身，出现名词化指代。"
+    }
+  ]
+}

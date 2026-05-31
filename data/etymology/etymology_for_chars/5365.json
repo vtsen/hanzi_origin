@@ -1,0 +1,118 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "用力按压，压住。",
+      "examples": [
+        "搦，按也。——《说文》",
+        "因五藏之输，乃割皮解肌，诀脉结筋，搦髓脑。——《史记•扁鹊仓公列传》"
+      ],
+      "traditional_char": "搦"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "摩擦，磨动。",
+      "examples": [
+        "搦朽磨钝，铅刀皆能一断。——班固《答宾戏》"
+      ],
+      "traditional_char": "搦"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "握住，拿在手中。",
+      "examples": [
+        "舟子于是搦棹。——郭璞《江南赋》",
+        "君手无由搦。——唐 韩愈 孟郊《纳凉联句》",
+        "搦管（执笔）。"
+      ],
+      "traditional_char": "搦"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "捕捉。",
+      "examples": [
+        "猫儿不识主，傍家搦老鼠。——唐 郑棨《开天传信记》",
+        "士文闻之，令人捕搦，捶楚盈前。——《北齐书•厙狄士文传》"
+      ],
+      "traditional_char": "搦"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "挑衅，挑战，惹事。",
+      "examples": [
+        "又下将战书来，搦俺十八路诸侯相持。——元 郑光祖《三战吕布》",
+        "单搦尉迟敬德出马。——元 无名氏《小尉迟》"
+      ],
+      "traditional_char": "搦"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "measure_word",
+      "meaning": "量词，一搦，相当于“一把”、“一握”。",
+      "examples": [
+        "柳腰儿勾一搦。——元 王实甫《西厢记》",
+        "他一搦身形，瘦的龐儿没了四星。——明 汤显祖《牡丹亭》"
+      ],
+      "traditional_char": "搦"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "adjective",
+      "meaning": "纤细、轻盈（引申用法）。",
+      "examples": [
+        "搦搦（形容纤细轻盈）"
+      ],
+      "traditional_char": "搦"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从手，‘弱’声，本义为用力按压。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由按压引申为持、握，由物理动作的延展。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由按压引申为摩擦、磨动，动作相近。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "从按压动作再引申为捕捉。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "由直接动作转为引申为挑惹、挑战。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 5,
+      "evolution_type": "grammaticalization",
+      "note": "由“握”的动作再抽象为量词用法。"
+    },
+    {
+      "source_index": 5,
+      "target_index": 6,
+      "evolution_type": "semantic_extension",
+      "note": "由‘一搦’量词引申为形容纤细、轻盈之意。"
+    }
+  ]
+}

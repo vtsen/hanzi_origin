@@ -1,0 +1,51 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "地名用字，常用于表示地名，如重庆北碚、湖北宜昌虾蟆碚等。",
+      "examples": [
+        "重庆北碚",
+        "湖北省宜昌市西北蝦蟆碚"
+      ],
+      "traditional_char": "碚"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "岩石、石堆等，比喻或指称具体山石（多见于复合词如“碚磊”“碚礧”）。",
+      "examples": [
+        "清王士禛《登蝦蟆碚》詩：三峽欲盡尚迤邐，云十二碚紛鉤連"
+      ],
+      "traditional_char": "碚"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "〔碚𥗬〕即蓓蕾，未开的花，花骨朵儿。",
+      "examples": [],
+      "traditional_char": "碚"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "‘碚’为形声字，石为意符，‘咅’为声符，最初意为山岩、石头聚集，后用于地名。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "metonymy",
+      "note": "以有石头、山岩景观的地方为地名，地名转由‘碚’标示。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "山石堆聚的形象比喻未开的花蕾形态，形成‘碚𥗬’指蓓蕾之义。"
+    }
+  ]
+}

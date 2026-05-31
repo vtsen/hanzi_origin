@@ -1,0 +1,74 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古代妇女的环形发髻",
+      "examples": [
+        "香雾云鬟湿，清浑玉臂寒。",
+        "绿云扰扰，梳晓鬟也。",
+        "头上蓝田玉，耳后大秦珠。两鬟何窈窕，一世良所无。"
+      ],
+      "traditional_char": "鬟"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "婢女（多指古代服侍妇人的侍女）",
+      "examples": [
+        "欲买小鬟试教之，教坊供奉谁知音？",
+        "分付小鬟合双镜，要从三面看梳头。",
+        "醉倚歌鬟，吟断寒窗。"
+      ],
+      "traditional_char": "鬟"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "形容山峦的形状（像发鬟一样的山形）",
+      "examples": [
+        "只嫌雨里不仔细，仿佛隔帘青山鬟。",
+        "世外空青秋一色，窗中远黛晓千鬟。",
+        "山浮四面窗户，七十二湘鬟。"
+      ],
+      "traditional_char": "鬟"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "环曲、环绕（通“环”用）",
+      "examples": [
+        "大禹鬟河而导之九牧。",
+        "鬟本发名，义取环曲。"
+      ],
+      "traditional_char": "鬟"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从髟表发髻相关，睘为声符，最初指环形发髻。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由发髻引申，指代梳发髻的婢女，此用法见宋诗。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "以环形发髻比喻形状相似的山峦。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "synecdoche",
+      "note": "以‘鬟’（盘绕之物）引申为‘环绕’义，见《新书》。"
+    }
+  ]
+}

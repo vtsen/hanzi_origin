@@ -1,0 +1,89 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "从有水、积雪、泥泞等地方走过去，多指涉水而过；踩踏。",
+      "examples": [
+        "蹚水过河。",
+        "他咬上了牙，蹚着水不管高低深浅的跑起来。",
+        "他往西走，往北拐，走着，盘算着，忘了淋着雨，也忘了蹚着泥水。"
+      ],
+      "traditional_char": "蹚"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "翻地除草，用犁、锄等把土翻开，把杂草锄掉。",
+      "examples": [
+        "蹚地。",
+        "八月末尾，铲蹚才完，正是东北农村挂锄的时候。"
+      ],
+      "traditional_char": "蹚"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "引申为探路、闯荡、试探、开创新路。",
+      "examples": [
+        "蹚路。",
+        "闯社会叫蹚。",
+        "我们想回老家另蹚一条路子。"
+      ],
+      "traditional_char": "蹚"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "特指为当土匪，混迹于社会各阶层。",
+      "examples": [
+        "他曾几次起心下去蹚。",
+        "蹚家（指土匪）。"
+      ],
+      "traditional_char": "蹚"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "试验、尝试、试做。",
+      "examples": [
+        "蹚一蹚",
+        "蹚一次"
+      ],
+      "traditional_char": "蹚"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从足，昜声。形声字，本指在泥水、草地等地行走或踩踏。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由实际涉水走路引申为探路或开创新路，多见于现代口语。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由踩踏引申为用工具翻地、锄草。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "探路、闯荡进一步指混社会（如当土匪）——北方方言用法。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "从“探路、尝试”进一步泛化为一般意义上的试验、尝试。"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "大笑，笑出声。",
+      "examples": [
+        "谈笑大噱。",
+        "可发一噱。",
+        "白下门东春水流，相看一噱散千忧。"
+      ],
+      "traditional_char": "噱"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "口腔，指嘴部上下部分。",
+      "examples": [
+        "遥噱乎紘中。",
+        "口之上下名为噱。"
+      ],
+      "traditional_char": "噱"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "（方言）笑，笑料。",
+      "examples": [
+        "发噱",
+        "这段很有噱头。"
+      ],
+      "traditional_char": "噱"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从口，豦声。本义为大笑，与‘笑声’相关。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由大笑动作转指口部，因笑需张口而生。汉代用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由大笑动作引申为引人发笑的事物、笑料。"
+    }
+  ]
+}

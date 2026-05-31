@@ -1,0 +1,87 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "onomatopoeia",
+      "meaning": "金属或玉石撞击发出的声音。",
+      "examples": [
+        "铮，金声也。——《说文》",
+        "冲牙铮鎗。——潘岳《藉田赋》",
+        "铮鏦然有京都声。——白居易《琵琶行》",
+        "却好那一鞭打将下来，正在刀口上，铮地一声响，火光迸散。——《水浒传》"
+      ],
+      "traditional_char": "錚"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "磨擦器物使其发亮或磨利。",
+      "examples": [
+        "錚刀，用白馬蹄或羊角一兩，煆頭髮五錢，煆灰水銀三錢，共為細末，錚之即明。——舊題宋蘇軾《格物麤談》"
+      ],
+      "traditional_char": "錚"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "小钲，一种金属乐器（通“鉦”）。",
+      "examples": [
+        "錚鐸金鼓，雷震動地。——《文獻通考》"
+      ],
+      "traditional_char": "錚"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "器物表面光亮耀眼。",
+      "examples": [
+        "玻璃擦得铮亮。",
+        "銀錚了斧。——元 睢景臣 《哨遍•高祖還鄉》"
+      ],
+      "traditional_char": "錚"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "形容人或事物刚正不阿、突出。",
+      "examples": [
+        "铁中铮铮。",
+        "铮铮铁骨。"
+      ],
+      "traditional_char": "錚"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从金，争声，形声字。本义为金属撞击声。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由声音的本义引申为磨擦发声，即磨擦器物。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "以模仿声命名金属乐器，声转指器。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由金属清脆响亮引申为表面光亮。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "由金属声响清脆突出，比喻人或事物坚硬突出、刚正。"
+    }
+  ]
+}

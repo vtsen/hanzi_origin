@@ -1,0 +1,43 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "用于地名，如广西壮族自治区的“岽罗”、“岽王”等。",
+      "examples": [
+        "广西岽罗",
+        "广西岽王"
+      ],
+      "traditional_char": "崬"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "山脊。",
+      "examples": [
+        "高山崠上一兜茶，郎当红军唔会差。"
+      ],
+      "traditional_char": "崠"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "“崬”形声字，从“山”，东声，原指山脊。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“岽”为“崬”的简化字，用于地名，承自“崬”。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "由“山脊”之意引申为用于山地地名，尤见于广西、江西等地。"
+    }
+  ]
+}

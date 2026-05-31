@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "传说中的神兽，貌似羊或鹿，通常一角，能辨曲直，见有人争斗时以角顶坏人，亦用作御史等法官“獬冠”之象征。",
+      "examples": [
+        "獬豸能觸邪，楚文王好服獬冠。",
+        "見人門則觸不直者，楚文王好服獬冠。"
+      ],
+      "traditional_char": "獬"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "一种古代冠名（帽子），以獬豸为象征，或简称“獬”。",
+      "examples": [
+        "楚文王好服獬冠。",
+        "漢以獬冠為法冠，御史冠之。"
+      ],
+      "traditional_char": "獬"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "哈巴狗的别称（獬𤜞狗）。",
+      "examples": [
+        "獬𤜞狗，即哈巴狗。",
+        "獬叭，哈叭狗。"
+      ],
+      "traditional_char": "獬"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "形容豪强、强横的样子（𤢒獬）。",
+      "examples": [
+        "𤢒獬，豪強貌。",
+        "𤢒獬，形容強橫。"
+      ],
+      "traditional_char": "獬"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘獬’为形声字，从‘犭’（表兽类），‘解’为声符，最初指神兽‘獬豸’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "以神兽名作为官帽名，取其辨曲直之义，汉代以后形成。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由神兽名扩展为犬名，具体机制不详，见于近现代辞典。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由神兽辨直邪、触犯的特征，喻指豪强、强横的样子。"
+    }
+  ]
+}

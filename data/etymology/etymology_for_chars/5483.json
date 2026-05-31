@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "木工用的一种平斧工具，用于削平木料，称为锛子。",
+      "examples": [
+        "不是用木匠的斧和錛，用的是受苦人的手。",
+        "拉过那块木头，闭上一只眼睛照了照，放在脚底，举起了錛。"
+      ],
+      "traditional_char": "錛"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "用锛子砍削木头等物体。",
+      "examples": [
+        "以硬木贴树身，去地半指，一斧截断，快錛更妙。",
+        "其間但有芽葉不旺者，以硬木貼樹身，去地半指，一斧截斷，快錛更妙。"
+      ],
+      "traditional_char": "錛"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "一种挖掘的方式，用锛子一类器具剖开、劈开土壤等。",
+      "examples": [
+        "一鎬刨進縫裏，從旁邊一錛，可以錛下一大塊土。",
+        "原來鋤刃子錛到一塊瓦片子上，硌疼了手心。"
+      ],
+      "traditional_char": "錛"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "錛：金字旁，表示金属工具；本，表音，语音兼有义素‘本根、砍削’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "conversion",
+      "note": "名词锛子用作动词，表示用锛子砍削木头。用法泛见明清及现代汉语。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "从‘用锛子砍削’引申泛指用锛类器具进行挖掘、剖开土壤。用法出现在近现代文献。"
+    }
+  ]
+}

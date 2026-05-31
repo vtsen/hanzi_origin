@@ -1,0 +1,87 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "聚集，收集，汇聚。",
+      "examples": [
+        "裒集。",
+        "裒刻。",
+        "原隰裒矣，兄弟求矣。",
+        "裒录。"
+      ],
+      "traditional_char": "裒"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "减少，减去多余部分。",
+      "examples": [
+        "裒多益寡。",
+        "君子以裒多益寡。"
+      ],
+      "traditional_char": "裒"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "俘获，捕捉（通“俘”）。",
+      "examples": [
+        "裒荆之旅。",
+        "深入其阻，裒荆之旅。"
+      ],
+      "traditional_char": "裒"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "众多，数量多。",
+      "examples": [
+        "敷天之下，裒时之对。"
+      ],
+      "traditional_char": "裒"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "衣襟宽大（通“褒”）。",
+      "examples": [
+        "文学裒衣博带。"
+      ],
+      "traditional_char": "裒"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从“衣”表示与衣物相关，本义为聚集，有聚合衣物之意。声旁“咅”给音。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从聚集义引申为减少，多用于‘裒多益寡’，意为减去多余部分以补不足。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由聚集引申为俘获，捕捉敌人或物品即聚拢战利品，多见于古文。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由聚集引申为‘众多’，聚集则为多。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "‘裒’假借为‘褒’用，衣襟宽大，属于同音通假。"
+    }
+  ]
+}

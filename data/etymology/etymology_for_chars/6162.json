@@ -1,0 +1,85 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "獐，一种似鹿而较小的哺乳动物，毛色黄褐腹白，无角。",
+      "examples": [
+        "野有死麇，白茅包之。（《诗经·召南·野有死麇》）",
+        "逢泽有介麇焉。（《左传·哀公十四年》）"
+      ],
+      "traditional_char": "麇"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "古国名，春秋时国，在今湖北郧县西。",
+      "examples": [
+        "楚子伐麇。（《左传·文公十一年》）"
+      ],
+      "traditional_char": "麇"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "古地名，春秋时楚邑，在今湖南省岳阳东南等地。",
+      "examples": [
+        "楚王使由于城麇。（《左传》）",
+        "吴师居麇。（《左传·定公五年》）"
+      ],
+      "traditional_char": "麇"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "成群，群集。",
+      "examples": [
+        "求诸侯而麇至。（《左传·昭公五年》）",
+        "麇集。"
+      ],
+      "traditional_char": "麇"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "捆绑，束缚（通“稛”）。",
+      "examples": [
+        "罗无勇，麇之。（《左传·哀公二年》）"
+      ],
+      "traditional_char": "麇"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从鹿，囷省声。形声字，本义为獐。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "以动物名作为国家名称，因该地多獐得名。春秋时期文献有据。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由国名引申为地名，地以国名称。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "因獐多群居，喻为成群、聚集之意。古注有此引申。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "unknown",
+      "note": "“捆绑”义古书通用，继承假借用法，历代字书记载有分歧。"
+    }
+  ]
+}

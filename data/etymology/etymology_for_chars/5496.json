@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "轻饮；微吸，用口吸取液体",
+      "examples": [
+        "古人云此水，一歃怀千金。",
+        "歃而忘。"
+      ],
+      "traditional_char": "歃"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "饮血，特指古人盟誓时以嘴唇微沾牲畜血以示诚意",
+      "examples": [
+        "宋之盟，楚人固请先歃。",
+        "王当歃血而定从。",
+        "杀白马盟，令曰：‘违者斩！’众莫敢仰视，各以次歃。"
+      ],
+      "traditional_char": "歃"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "尝（同“𦦕”）；试味",
+      "examples": [
+        "博雅：歃，尝也。"
+      ],
+      "traditional_char": "歃"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从“欠”与口、气息有关，臿声，原义为微吸或饮。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_narrowing",
+      "note": "原本为轻饮之意，狭义化为仪式性歃血盟誓。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "由‘吸饮’引申为‘尝、试味’。"
+    }
+  ]
+}

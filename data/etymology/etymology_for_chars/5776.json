@@ -1,0 +1,84 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "深；夜深",
+      "examples": [
+        "夤夜深思。"
+      ],
+      "traditional_char": "夤"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "攀缘上升，比喻攀附、巴结",
+      "examples": [
+        "夤缘钻刺，向上巴结。"
+      ],
+      "traditional_char": "夤"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "敬畏，恭敬",
+      "examples": [
+        "夤畏照临，亦宜谨肃。",
+        "夤，敬惕也。"
+      ],
+      "traditional_char": "夤"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "夹脊肉",
+      "examples": [
+        "列其夤。——《易·艮》",
+        "夤，夹脊肉也。"
+      ],
+      "traditional_char": "夤"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "远处，远方",
+      "examples": [
+        "九州之外，乃有八夤。——《淮南子》"
+      ],
+      "traditional_char": "夤"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 3,
+      "note": "从夕，寅声，原义为夹脊肉，后假借为敬、深等义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 3,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由夹脊肉本义引申为紧密、恭敬（身体挺直）等抽象意味，见于《说文》。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "敬畏、恭敬引申为夜深敬畏、专注，出现“夤夜”用法。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由恭敬（对上级）引申比喻为攀附、巴结。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "夹脊肉本义引申为“中间、夹处”，再引申为“远处”。此过程见于古文献。"
+    }
+  ]
+}

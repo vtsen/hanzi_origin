@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "濠水，位于中国安徽省的河流名称。",
+      "examples": [
+        "游于濠梁之上。——《庄子·秋水》",
+        "濠是水名，在淮南钟离郡。"
+      ],
+      "traditional_char": "濠"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "护城河，城池外挖掘的护卫用水沟。",
+      "examples": [
+        "饮马出城濠，北望沙漠路。——江淹《效刘琨〈伤乱〉》",
+        "清兵亦掘濠，不复出。——刘献廷《广阳杂记》"
+      ],
+      "traditional_char": "濠"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "古州名，濠州，今安徽省凤阳县东。",
+      "examples": [
+        "濠州真人。",
+        "濠水之滨。"
+      ],
+      "traditional_char": "濠"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘濠’为形声字，‘水’为意符表水流，‘豪’为声符。初指水名。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由具体的濠水之名引申至所有护城河，因形制相似。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "以濠水得名的行政区，水名代指地方。"
+    }
+  ]
+}

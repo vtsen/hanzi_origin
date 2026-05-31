@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "慢慢走，散步。",
+      "examples": [
+        "下午去公园遛一圈。",
+        "闲时遛大街。"
+      ],
+      "traditional_char": "遛"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "牵着牲畜或带着鸟慢慢走，使其解除疲劳或增加活力。",
+      "examples": [
+        "清晨他去遛马。",
+        "老人喜欢在小区遛鸟。"
+      ],
+      "traditional_char": "遛"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从辵表示与行走有关，留为声符，原指慢慢走、散步。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由人慢慢走引申为牵动物、带鸟慢慢走。"
+    }
+  ]
+}

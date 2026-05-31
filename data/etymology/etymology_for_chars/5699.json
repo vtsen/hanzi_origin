@@ -1,0 +1,86 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "onomatopoeia",
+      "meaning": "形容短促而响亮的声音，如鸭、鹅等禽鸟的叫声，或器物撞击、刹车等短促响声。",
+      "examples": [
+        "汽车嘎的一声刹住了。",
+        "不防廊上的鹦哥见林黛玉来了，嘎的一声扑了下来。",
+        "鸭子嘎嘎叫。"
+      ],
+      "traditional_char": "嘎"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "（方言）指儿童玩具“尜尜”，一种两头尖中间大的儿童玩具，同“尜”。",
+      "examples": [
+        "两个孩子在地上玩嘎嘎。"
+      ],
+      "traditional_char": "嘎"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "（方言）脾气坏，乖僻，性格怪异。",
+      "examples": [
+        "这个孩子有点嘎。",
+        "张金龙是个不正经过日子的嘎小子。"
+      ],
+      "traditional_char": "嘎"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "（方言）调皮，常含有喜爱的意味。",
+      "examples": [
+        "又淘又嘎又皮的小孩。"
+      ],
+      "traditional_char": "嘎"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "卡住，夹在中间不能活动。",
+      "examples": [
+        "鱼刺嘎了喉咙。",
+        "似鱼刺嘎了喉咙。"
+      ],
+      "traditional_char": "嘎"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从口，取‘戛’声，表示发出嘎然短促响亮的声音。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "synecdoche",
+      "note": "以玩具发出的嘎嘎声命名玩具本体，取部分代整体，常用于方言。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由“嘎”的生硬、不柔和之声，比喻性格乖僻，出现于北方方言语境。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "amelioration",
+      "note": "由贬义性格怪异引申含有喜爱的调皮，义项语感有变化。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "由声音嘎然而止比喻卡住、夹住之意，用于物理阻断状态。"
+    }
+  ]
+}

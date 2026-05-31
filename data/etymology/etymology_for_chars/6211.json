@@ -1,0 +1,70 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "禾秆，草本植物的茎干，干草。",
+      "examples": [
+        "儿馁嗔郎罢，妻寒望稾砧。",
+        "但见空藁。"
+      ],
+      "traditional_char": "藁"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "药用植物名（如藁本），茎直立中空，根可入药。",
+      "examples": [
+        "五臭疇生蓮與蘼蕪、藁本、白芷。"
+      ],
+      "traditional_char": "藁"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "草稿、初稿。",
+      "examples": [
+        "屬草藁。",
+        "創制憲令之本。"
+      ],
+      "traditional_char": "藁"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "干枯，枯萎。",
+      "examples": [
+        "藁草",
+        "木枯也"
+      ],
+      "traditional_char": "藁"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“藁”从艸，‘高’声，最初表示禾秆、枯草，与形声字成分相符。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "由禾秆、干草的本义引申为干枯。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "禾秆概念引申到特定药材植物‘藁本’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "以禾秆之轻盈、不定，比拟为草稿的‘初成未定’。"
+    }
+  ]
+}

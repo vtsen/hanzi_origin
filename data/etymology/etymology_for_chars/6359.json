@@ -1,0 +1,50 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "对事物的偏爱成为习惯",
+      "examples": [
+        "洁癖",
+        "癖好",
+        "癖性"
+      ],
+      "traditional_char": "癖"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "中医指饮水不消的病",
+      "examples": [],
+      "traditional_char": "癖"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "古同“痞”，痞块",
+      "examples": [],
+      "traditional_char": "癖"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 2,
+      "note": "形声字；疒为意符，辟为声符，最初表示身体有痞块。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 2,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由痞块引申为中医指饮水不消的病。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 0,
+      "evolution_type": "metaphor",
+      "note": "由身体痞块引申为心理、习惯上的固执或癖好。"
+    }
+  ]
+}

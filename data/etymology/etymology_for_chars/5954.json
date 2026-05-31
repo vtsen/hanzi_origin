@@ -1,0 +1,37 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古代一种粮食作物，指粟或黍属。",
+      "examples": [
+        "《诗经·小雅·信南山》：'俾稷、俾粟、俾麦、俾稻。'"
+      ],
+      "traditional_char": "稷"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "古代以稷为百谷之长，因此帝王奉祀为谷神。",
+      "examples": [
+        "《左传·昭公二十九年》：“古者，社稷不相为谋也。”"
+      ],
+      "traditional_char": "稷"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从禾，畟声。表与农作物（禾类）有关，最初指谷物之名。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由谷物名转指谷神，因稷为谷类代表，作为百谷之长奉祀。"
+    }
+  ]
+}

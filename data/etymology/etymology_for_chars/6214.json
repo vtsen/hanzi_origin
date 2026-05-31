@@ -1,0 +1,103 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "勉励，劝勉，使人努力上进",
+      "examples": [
+        "懋，勉也。——《说文》",
+        "懋建大命。——《书·盘庚》",
+        "懋穑劝分，省用足财。——《国语·晋语四》"
+      ],
+      "traditional_char": "懋"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "勤奋努力，极用力，尽力而为",
+      "examples": [
+        "咸懋力以耘耔。——张衡《东京赋》",
+        "其尔众士懋戒哉。——《尚书·胤征》"
+      ],
+      "traditional_char": "懋"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "交易，买卖（通“贸”）",
+      "examples": [
+        "懋迁有无化居。——《书·益稷》"
+      ],
+      "traditional_char": "懋"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "盛大，宏大（通“茂”）",
+      "examples": [
+        "予懋乃德，嘉乃丕绩。——《书·大禹谟》",
+        "厚爵以答懋勋。——《晋书·王导传》"
+      ],
+      "traditional_char": "懋"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "美好",
+      "examples": [
+        "呜呼懋哉。——《后汉书·章帝纪》",
+        "懋化（美盛的化育）"
+      ],
+      "traditional_char": "懋"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "adjective",
+      "meaning": "高兴，喜悦",
+      "examples": [
+        "四灵懋而允怀。——《文选·张衡〈东京赋〉》",
+        "懋，悦也。——薛综注"
+      ],
+      "traditional_char": "懋"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从心，楙声，表示‘勉励’之意，‘心’表语义，‘楙’表声。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘勉励’引申为‘勤奋努力’、‘极用力’，古代即有用例。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "‘懋’假借为‘贸’，表示交易、买卖，韵近义通。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "本义‘勉励’发展为‘盛大’，与‘茂’义通用，文献记载古有此转变。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由‘盛大’引申为‘美好’。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "由‘美好’引申为‘高兴，喜悦’，含有赞美之情。"
+    }
+  ]
+}

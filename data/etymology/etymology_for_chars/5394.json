@@ -1,0 +1,115 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "落叶乔木，果实球形，红色有白点，味酸，可食，也作“山楂”",
+      "examples": [
+        "云山得伴松桧老，霜雪自困楂梨粗。",
+        "桃、李、梅、杏，楂、梨、姜、桂。"
+      ],
+      "traditional_char": "楂"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "山楂这种植物的果实",
+      "examples": [
+        "傖父馈酸楂。",
+        "卖楂梨"
+      ],
+      "traditional_char": "楂"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "水中木筏",
+      "examples": [
+        "穷岸有盘楂。",
+        "回楂急碍浪，群飞争戏广。"
+      ],
+      "traditional_char": "楂"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "树木砍伐后剩下的根株、残株；农作物收割后留下的根茬",
+      "examples": [
+        "掘土见根……将周围根楂，细锯子截成砧盘。",
+        "地里雪化了，露出旧年的陈庄稼楂。"
+      ],
+      "traditional_char": "楂"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "树的杈枝",
+      "examples": [
+        "大象以鼻揭楂，群象皆揭。",
+        "待更添、两树枯楂，三十六鸥浮拍。"
+      ],
+      "traditional_char": "楂"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "短而硬的头发或胡子，多指剪落的、剪而未尽的或刚长出的",
+      "examples": [],
+      "traditional_char": "楂"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "measure_word",
+      "meaning": "量词，指遍、次",
+      "examples": [
+        "你还不吃饭，又等烧二楂火啊！"
+      ],
+      "traditional_char": "楂"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从木，査声。本义为果木名，与‘山楂’相关。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "树木义引申为其果实。古今广泛见于山楂/楂梨用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "‘楂’用于“水中木筏”，与‘槎’音近借用，文献流传中古常见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由树木引申为砍伐后留下的根株或农作物收割剩下的根茬。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由树木引申为树的分枝、树杈。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 5,
+      "evolution_type": "metaphor",
+      "note": "根株、残株状若短发、短须，故借喻剪短的头发或胡须。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 6,
+      "evolution_type": "unknown",
+      "note": "量词义派生机制不明，或与木头段落、块次相关，文献用例说明为‘次’。"
+    }
+  ]
+}

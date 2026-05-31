@@ -1,0 +1,70 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "栏杆；障碍物。",
+      "examples": [
+        "倚遍阑干，只是无情绪。",
+        "梦啼妆泪红阑干。"
+      ],
+      "traditional_char": "闌"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "拦截，阻拦。",
+      "examples": [
+        "不得阑入。",
+        "守门以阑敌。"
+      ],
+      "traditional_char": "闌"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "混进，进入不应进入的地方。",
+      "examples": [
+        "无票不得阑入。"
+      ],
+      "traditional_char": "闌"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "（时间、事物）将尽、残余、末尾。",
+      "examples": [
+        "夜阑人静。",
+        "春事阑珊。"
+      ],
+      "traditional_char": "闌"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘闌’从‘門’，‘柬’聲，表与门相关的障碍，用作名词“栏杆”是本义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_shift",
+      "note": "由名词“栏杆”转为动词表示拦截、阻止动作，汉及以后用例。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "从表示障碍物引申为“混进”、“闯入”，表动作方式。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由障碍物引申，比喻时间将尽、事物到尽头，多用于诗文。"
+    }
+  ]
+}

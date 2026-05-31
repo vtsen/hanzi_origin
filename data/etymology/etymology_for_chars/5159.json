@@ -1,0 +1,84 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "interjection",
+      "meaning": "嗟叹声，感叹用的叹词。",
+      "examples": [
+        "嗞，嗟也。——《说文》",
+        "平原令见诸公，必为言之曰：“嗟嗞乎，司马空!”——《战国策·秦策》"
+      ],
+      "traditional_char": "嗞"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "露牙，咧嘴。",
+      "examples": [
+        "你倒嗞了这张嘴，说道：“姑娘，莫不是爹爹说王嗞。”——元·柯丹邱《荆钗记》"
+      ],
+      "traditional_char": "嗞"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "细尖刺耳的响声，象声词。",
+      "examples": [
+        "老鼠嗞嗞地叫。",
+        "刘长德用烙铁‘嗞’地蘸了一下硝水。"
+      ],
+      "traditional_char": "嗞"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "哭声，啼不止。",
+      "examples": [
+        "一曰啼不止。——《集韻》"
+      ],
+      "traditional_char": "嗞"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "笑出声。",
+      "examples": [
+        "嗞，听笑也。——《广雅》"
+      ],
+      "traditional_char": "嗞"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从口，兹声，表示叹声；表示与口相关的声音。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由叹声引申为持续不断的哭声，见《集韵》"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "由叹声引申为笑声，《广雅》释为“听笑也”"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由叹声引申为各种尖锐、刺耳的象声词"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由因叹或叫而咧嘴形象，比喻到实际的露牙"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "停船时沉入水底用以稳定船身的石块或系船的石礅",
+      "examples": [
+        "至操寨边，瑜命下碇石。——《三国演义》",
+        "祖橫兩蒙衝挾守沔口，以栟閭大紲繫石為碇。——《三國志》",
+        "碇，錘舟石，與碇同。——马其昶注"
+      ],
+      "traditional_char": "碇"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "任何一种像锚那样用来把船固定在一个地方的东西（如石头或水泥块）",
+      "examples": [
+        "碇铁（系船于碇石的铁索）"
+      ],
+      "traditional_char": "碇"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "船停泊，下碇",
+      "examples": [
+        "是日六月晦，无月，碇宿大海中。——苏轼《东坡志林》",
+        "維舟未解碇舟牢，盡日彎篙仰天視。——元 袁桷《吳船行》"
+      ],
+      "traditional_char": "碇"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "柱石",
+      "examples": [],
+      "traditional_char": "碇"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，石为意旁，定为声旁，最初指沉于水中的石块，用于系船。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由专指“用于缆船的大石”推广至任何可起固定作用的锚状物，含现代延伸义。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "conversion",
+      "note": "由名词“碇”转用为动词，表停泊系船的动作。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由“稳定船身之石”引申为柱石，比喻或实指有支撑、固定作用之石。"
+    }
+  ]
+}

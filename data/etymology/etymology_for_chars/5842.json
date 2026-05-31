@@ -1,0 +1,109 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "青白色，淡青色。",
+      "examples": [
+        "水皆缥碧，千丈见底。",
+        "缥，帛青白色也。——《说文》"
+      ],
+      "traditional_char": "縹"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "青白色的丝织品，常指淡青色的帛或书衣。",
+      "examples": [
+        "求古散缥帙。",
+        "古时常用缥与缃的丝帛作书衣或书囊。"
+      ],
+      "traditional_char": "縹"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "（借指）淡青色的酒、玉、粉末等事物。",
+      "examples": [
+        "缥玉（浅青色的玉）",
+        "缥粉（淡青色的粉末）",
+        "缥酒（酒名，一种绿色而微白的美酒）"
+      ],
+      "traditional_char": "縹"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "（形容词性用法）隐隐约约，若有若无；虚无缥缈。",
+      "examples": [
+        "虚无缥缈",
+        "片片征云，五色旌旗缥缈。"
+      ],
+      "traditional_char": "縹"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "飞扬、轻轻飘起。",
+      "examples": [
+        "凤缥缥其高逝兮。",
+        "縹乎忽忽，若神仙之仿佛。"
+      ],
+      "traditional_char": "縹"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "adjective",
+      "meaning": "（借用“标”之义）相貌、姿态美好。",
+      "examples": [
+        "缥致（标致。相貌姿态美好）。"
+      ],
+      "traditional_char": "縹"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从糸，票声；糸表示与丝织品相关，初义为丝织物淡青色。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由颜色义引申为以该色制成的实物，如书衣、丝帛。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由颜色义引申为泛指各种淡青色或青白色的具体物品。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "淡青色给人以虚无、稀薄、不实在的联想，故用作形容隐隐约约。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "飞扬引申为缥缈、若有若无之意，常用词组缥缈。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "semantic_extension",
+      "note": "色彩美引申为美丽、标致等抽象美感。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 0,
+      "evolution_type": "unknown",
+      "note": "部分文献认为“飞扬”义与“淡青色”义有关，亦有认为脱胎自同音“飘”，关系未明。"
+    }
+  ]
+}

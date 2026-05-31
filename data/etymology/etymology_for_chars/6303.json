@@ -1,0 +1,98 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "大拇指",
+      "examples": [
+        "於齊國之士，吾必以仲子為巨擘焉。",
+        "又如：擘指（大拇指）"
+      ],
+      "traditional_char": "擘"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "分開；剖裂",
+      "examples": [
+        "炮之，塗皆乾，擘之。",
+        "巨靈咆哮擘兩山。"
+      ],
+      "traditional_char": "擘"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "撥彈琴弦，用大拇指抬弦稱擘，引申為彈奏",
+      "examples": [
+        "若論彈琴擘阮，前後絕倫。",
+        "十三初學擘箜篌，弟子名中被點留。"
+      ],
+      "traditional_char": "擘"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "砍，劈擊",
+      "examples": [
+        "口裏恨着一聲，照過遷頂門擘將去。"
+      ],
+      "traditional_char": "擘"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "分配",
+      "examples": [
+        "不叫他參加貧雇農大會，擘果實是三等三級，他懷恨在心。"
+      ],
+      "traditional_char": "擘"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "同“掰”，用力分開",
+      "examples": [],
+      "traditional_char": "擘"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从手，辟声，初指大拇指。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "大拇指用于分开物品，引申为分开、剖裂。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "从“分开”进一步引申为“劈击、砍”。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "用大拇指分开弦，引申为琴瑟乐器的指法。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "从物理分裂引申为“分配”事物。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "analogy",
+      "note": "与“掰”类似，用力分开事物。"
+    }
+  ]
+}

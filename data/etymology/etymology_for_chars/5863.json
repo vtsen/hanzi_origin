@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "红褐色",
+      "examples": [
+        "赭石",
+        "赭色"
+      ],
+      "traditional_char": "赭"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "赭石，一种土状赤铁矿，可做颜料",
+      "examples": [
+        "赭石"
+      ],
+      "traditional_char": "赭"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "罪人所穿的红褐色衣服，引申指罪人",
+      "examples": [
+        "赭衣",
+        "赭衣塞路"
+      ],
+      "traditional_char": "赭"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从赤，者声，表达红褐色之意"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "用颜色指代出产该色的矿物"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "以红褐色衣服转指古代罪人"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "一种长针，用于做衣服时插在四周，使衣服铺展张平。",
+      "examples": [
+        "锸，郭衣针也。——《说文》。",
+        "其针曰锸。"
+      ],
+      "traditional_char": "鍤"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "铁锹，挖土用的工具。",
+      "examples": [
+        "父子兄弟负笼荷锸。——《汉书·王莽传上》",
+        "禹身执耒锸。"
+      ],
+      "traditional_char": "鍤"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "簪子（一种插在发髻上的长针饰物）。",
+      "examples": [
+        "玉鍤朝扶鬢，金梯晚下臺。——唐·陆龟蒙《洞房怨》"
+      ],
+      "traditional_char": "鍤"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从金，臿声，表示与金属器物（针、锹）相关，最初指长针。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "繁体“鍤”与简体“锸”同源，均为形声结构。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由长针引申为挖土用的工具，因形状类似，见于两汉至六朝用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由用于缝衣的长针引申为簪子，两者皆为插入物，唐代诗文可见。"
+    }
+  ]
+}

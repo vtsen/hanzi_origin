@@ -1,0 +1,87 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "抒发，表达（思想、感情等）",
+      "examples": [
+        "摅怀旧之蓄念。",
+        "各摅己见。",
+        "摅之无穷。"
+      ],
+      "traditional_char": "攄"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "舒展，展开",
+      "examples": [
+        "卒不能摅首尾，奋翼鳞。",
+        "攄羽翮兮超俗。"
+      ],
+      "traditional_char": "攄"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "散布，传播，扩展",
+      "examples": [
+        "摅道以被民。",
+        "外攄巷族，谓外张布其巷族以备举事也。"
+      ],
+      "traditional_char": "攄"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "腾跃",
+      "examples": [
+        "八乘摅而超骧。",
+        "龙摅（龙腾）"
+      ],
+      "traditional_char": "攄"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "撕，撕裂",
+      "examples": [
+        "我将衫儿摅下一块来。"
+      ],
+      "traditional_char": "攄"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "‘攄’为形声字，从手，余声。本义‘舒展，展开’，后引申多义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由‘舒展’引申为‘散布，传播’，比喻动作的扩展。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "metaphor",
+      "note": "由‘舒展’引申为‘抒发，表达’，表现为内心情感像展开一样释放出来。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由‘舒展’引申为‘腾跃’，形容动作的舒展后向上跳跃。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "semantic_shift",
+      "note": "‘舒展’义在口语和方言中出现‘撕裂’的新义，语义发生转变。"
+    }
+  ]
+}

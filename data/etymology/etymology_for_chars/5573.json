@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "湿润；湿热；闷热。",
+      "examples": [
+        "溽暑",
+        "溽热",
+        "土润溽暑。——《礼记·月令》",
+        "林无不溽，岸无不津。——《文选·郭璞〈江赋〉》"
+      ],
+      "traditional_char": "溽"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "味浓厚（尤指美味）。",
+      "examples": [
+        "其饮食不溽。——《礼记·儒行》"
+      ],
+      "traditional_char": "溽"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "古水名，溽水，在今江苏省溧阳县。",
+      "examples": [
+        "己酉，天子饮于溽水之上。——《穆天子传》"
+      ],
+      "traditional_char": "溽"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，辱声，本指湿润、湿热。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由潮湿引申为味道浓厚，因味觉体验丰富如湿润感。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "用以指称多水而湿热之地的水名。"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "鳙鱼，头大体黑，产于江湖的淡水鱼，又名胖头鱼、花鲢、黑鲢。",
+      "examples": [
+        "鳙，产于江湖，似鲢而黑，头甚大。俗呼黑鲢，又称鲢胖头。——徐珂《清稗类钞》",
+        "鱅鱼也。——《说文》",
+        "鱅似鲢而黑。——郭璞注《史记·司马相如传》"
+      ],
+      "traditional_char": "鱅"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "海鱼，肉如猪肉，也称鱅。",
+      "examples": [
+        "海鱼，肉如彘。亦名鱅。——《正字通》"
+      ],
+      "traditional_char": "鱅"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "大型水生鱼类（神话或见于《山海经》），状如犁牛，叫声如猪啼。",
+      "examples": [
+        "食水多鱅鱅之鱼，其状如犂牛，其音如彘鸣。——《山海经》"
+      ],
+      "traditional_char": "鱅"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "“鳙”的简化字，现代汉语指代淡水大头胖头鱼。",
+      "examples": [
+        "胖头鱼又称鳙，广泛分布于中国淡水水域。"
+      ],
+      "traditional_char": "鳙"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "鱅：形声字，从鱼，庸声，最初指一种体黑头大的淡水鱼。"
+    },
+    {
+      "formation_type": "simple_indicative",
+      "original_sense_index": 3,
+      "note": "鳙：由鱼和庸组成，简化自鱅，现代多指胖头鱼。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从淡水鱼的专指语义扩展到类似外貌的海鱼；见于明清文献。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "以古籍记载虚构或传说中的大型鱼名，也用于音声描写。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "function_word",
+      "note": "由鱅的简化所致，现代汉语标准中用鳙表该鱼。"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古代人在泥路上行走所乘的东西。",
+      "examples": [
+        "古人以橇行于泥泞之地。"
+      ],
+      "traditional_char": "橇"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "在冰雪上滑行的工具，如雪橇、冰橇。",
+      "examples": [
+        "冬季奥运会上有雪橇比赛。",
+        "他乘坐冰橇滑下雪坡。"
+      ],
+      "traditional_char": "橇"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从木，毳声。本义与“木”有关，指泥地滑行的小车。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由泥路滑行工具扩展称用于冰雪上滑行的器具，约明清以后。"
+    }
+  ]
+}

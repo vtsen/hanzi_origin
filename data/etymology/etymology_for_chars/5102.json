@@ -1,0 +1,82 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "套在棺材外的大棺材（外椁、槨）",
+      "examples": [
+        "不树者无椁。——《周礼·地官·闾师》",
+        "有棺无椁。——《史记·张汤列传》",
+        "臣请以彫玉为棺，文梓为槨。——《史记·滑稽列传》"
+      ],
+      "traditional_char": "椁"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "外加其他材料使之坚固",
+      "examples": [
+        "则以木槨之。——《墨子·杂守》"
+      ],
+      "traditional_char": "椁"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "加在外面之物（泛指外部包覆）",
+      "examples": [
+        "有的砌着简陋的砖槨，有的就只泥土贴着棺木，腐朽的木头显露在外面。——叶圣陶《倪焕之》"
+      ],
+      "traditional_char": "椁"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "古代木名",
+      "examples": [],
+      "traditional_char": "椁"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "度量、测量",
+      "examples": [
+        "椁其漆内而中詘之，以为之毂长。——《周礼·考工记·轮人》"
+      ],
+      "traditional_char": "椁"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从木，郭声。本义为套在棺材外的大棺材。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由葬具外棺之义引申为外加材料以增强保护，仍有包覆含义。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "语义继续泛化为任何加在外部的东西，例见于现代文学。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "unknown",
+      "note": "指木名的义，可能与制槨用材有关但具体关联不详。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "“椁”为度量器具之义，多见于古代文献，或因包覆外层有度量作用。"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "捆绑犯人的黑色绳索。",
+      "examples": [
+        "虽在缧絏之中。——《论语·公冶长》",
+        "缧绁，捆绑犯人的绳索。"
+      ],
+      "traditional_char": "縲"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "监狱。",
+      "examples": [
+        "虽在缧之中，非其罪也。——《论语·公冶长》",
+        "冤狱平反解缧。——陈基《乌夜啼引》"
+      ],
+      "traditional_char": "縲"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "捆绑，拘禁。",
+      "examples": [
+        "縲囚（捆绑囚犯）",
+        "縲絷（捆绑）"
+      ],
+      "traditional_char": "縲"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "缠绕。",
+      "examples": [
+        "縲縲（缠绕的样子）"
+      ],
+      "traditional_char": "縲"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从糸表示与绳索相关，累为声，最初表示捆绑犯人的黑色绳索。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由实物名转为捆绑、拘禁的动作，引申用法。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "从专指捆绑引申为缠绕，扩大动作对象。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由捆绑犯人的绳索引申为囚禁场所即监狱。"
+    }
+  ]
+}

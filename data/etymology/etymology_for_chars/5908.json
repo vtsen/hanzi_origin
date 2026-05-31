@@ -1,0 +1,83 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "大头。",
+      "examples": [
+        "颙，大头也。——《说文》"
+      ],
+      "traditional_char": "顒"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "大的样子；宏大、庄重。",
+      "examples": [
+        "四牡修广，其大有颙。——《诗·小雅·六月》"
+      ],
+      "traditional_char": "顒"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "肃敬的样子；温和庄重。",
+      "examples": [
+        "有孚颙若。——《易·观》",
+        "颙颙夘夘。——《诗·大雅·卷阿》"
+      ],
+      "traditional_char": "顒"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "仰望；仰慕；盼望。",
+      "examples": [
+        "颙望",
+        "某顒若望风，惠然入国。——宋·范仲淹《上张侍郎启》",
+        "苍生颙然，莫不欣戴。——《文选·劉琨〈勸進表〉》"
+      ],
+      "traditional_char": "顒"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "传说中的怪鸟（见《字汇补》）。",
+      "examples": [],
+      "traditional_char": "顒"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从页（意符，头），禺声，初本指大头。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“大头”引申为“大的样子”，见《诗经》用法。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由形容巨大、庄重引申出“肃敬”的仪态与神情。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由“肃敬”的神情引申为“仰慕、仰望”的动作及情感。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "unknown",
+      "note": "动物义‘怪鸟’来源不明，疑为假借或本义演变，缺直接证据。"
+    }
+  ]
+}

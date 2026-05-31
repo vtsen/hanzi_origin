@@ -1,0 +1,88 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古代演习朝会礼仪时捆扎茅草立放做标志的物体。",
+      "examples": [
+        "致茅蕞表坐。——《春秋国语》",
+        "立表为蕞。——《史记·刘敬叔孙通列传》"
+      ],
+      "traditional_char": "蕞"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "地名。秦地，位于今陕西省临潼县东北。",
+      "examples": [
+        "蕞，地名。在秦，一曰在新丰。——《集韵》"
+      ],
+      "traditional_char": "蕞"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "小的，微小的。",
+      "examples": [
+        "蕞，小貌。——《广韵》",
+        "夫以蕞尔之驱，攻之者非一涂。——嵇康《养生论》",
+        "蕞国，而三世执其政柄。——《左传·昭公七年》"
+      ],
+      "traditional_char": "蕞"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "丛聚的、聚集的样子。",
+      "examples": [
+        "綿蕞野外。——《史记·刘敬叔孙通列传》",
+        "艸聚貌。",
+        "蕞芮于城隅者，百不处一。——《西征赋》"
+      ],
+      "traditional_char": "蕞"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "other",
+      "meaning": "通“蕝”，同义于古代朝会束茅以表位次之物。",
+      "examples": [
+        "朝㑹束茅表位曰蕝。",
+        "致茅蕝表坐。"
+      ],
+      "traditional_char": "蕞"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从艸，聲为‘絕’；本义为捆草立表，后引申义丰富。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "reanalysis",
+      "note": "本义（捆茅表位）与通假字“蕝”互通，后归并为一。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "由实物‘表位标志’引申为‘聚集的’、‘丛聚貌’。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "由‘聚集貌’引申为‘小貌’（因多数聚集物体较微小）。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 1,
+      "evolution_type": "synecdoche",
+      "note": "以‘小’的特征称呼地名‘蕞’，指其地域微小。"
+    }
+  ]
+}

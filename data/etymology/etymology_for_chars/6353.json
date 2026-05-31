@@ -1,0 +1,50 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "鳎科鱼类，体形似舌头，两眼在一侧，常称“鳎目鱼”。",
+      "examples": [
+        "条鳎分布于中国沿海浅海区。"
+      ],
+      "traditional_char": "鰨"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "古书中指“鲵”，一种似鲶、有四足、发声如婴儿的水生动物。",
+      "examples": [
+        "李贤注引郭璞曰：“鰨，鯢鱼也，似鲶，有四足，声如婴儿。”"
+      ],
+      "traditional_char": "鰨"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "同“鲽”（比目鱼）。",
+      "examples": [],
+      "traditional_char": "鰨"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "鰨（鳎）字从鱼，𦐇声，为形声字，最早见于古籍指鯢（一种水生两栖动物）。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_shift",
+      "note": "后世转用于指鳎科鱼类，比古义范围更狭窄。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "analogy",
+      "note": "因形态相似，与比目鱼（鲽）类通用，发生词义类推。"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "美好的银子，精良的银子。",
+      "examples": [
+        "此纵得鐐，犹不足言贵。",
+        "以鐐为币。"
+      ],
+      "traditional_char": "鐐"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "戴在罪犯脚踝上的刑具，即脚铐。",
+      "examples": [
+        "脚镣",
+        "带着铁镣走路。"
+      ],
+      "traditional_char": "鐐"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从金，尞声，表示金属相关，本义是精良的银子。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由美好的银子引申指用金属（银或铁）制成的刑具，后用于脚铐。"
+    }
+  ]
+}

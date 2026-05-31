@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "羊肉气味，臊气。",
+      "examples": [
+        "膻气",
+        "膻味",
+        "腥膻"
+      ],
+      "traditional_char": "膻"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "像羊肉的气味，腥臊的。",
+      "examples": [
+        "这种肉有点膻",
+        "腥膻难闻"
+      ],
+      "traditional_char": "膻"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "袒露。",
+      "examples": [
+        "膻露其体"
+      ],
+      "traditional_char": "膻"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "胸中，中医指胸腔中央，心包所在处；也指针灸穴位，位于前胸部正中。",
+      "examples": [
+        "膻中穴在胸部正中",
+        "调理心气可按膻中"
+      ],
+      "traditional_char": "膻"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从肉，亶声。本义为羊的臊气，与羊肉有关。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由指具体的羊肉味扩展为一切似羊肉臊气的性质。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "unknown",
+      "note": "“袒露”义来源不明，学界存在争议，或为借用、音近假借。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由“袒露”引申为胸部相关，后专指胸中穴位。"
+    }
+  ]
+}

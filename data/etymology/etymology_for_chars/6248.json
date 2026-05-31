@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "矛戟柄末端的平底金属套，用于固定和加固武器柄端。",
+      "examples": [
+        "進矛戟者前其鐓。",
+        "矛𢧢柲下銅鐏也。"
+      ],
+      "traditional_char": "鐓"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "打夯用的大型重锤。",
+      "examples": [
+        "鐓，下一曰千斤椎。",
+        "秦始皇造橋，鐵鐓重不能勝。"
+      ],
+      "traditional_char": "鐓"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "冲压金属板使其成形，不加热为“冷镦”，加热为“热镦”。",
+      "examples": [
+        "冷镦",
+        "热镦"
+      ],
+      "traditional_char": "鐓"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "阉割，去畜生生殖能力。",
+      "examples": [
+        "鐓雞",
+        "凡牡而去勢者曰淨貓、善狗、鐓雞。"
+      ],
+      "traditional_char": "鐓"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从金，敦声，本义为矛戟末端金属套。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "形状和作用类似，由兵器金属末端套延伸为打夯重锤。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由兵器柄端受力变形，引申为金属冲压工艺。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由金属冲压引申为对生物进行强力处理，即阉割，常见于方言俗用。"
+    }
+  ]
+}

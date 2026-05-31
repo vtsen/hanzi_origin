@@ -1,0 +1,40 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "河流名称，指灞水，位于中国陕西省，是渭河的支流。",
+      "examples": [
+        "挾灃灞，據龍首。",
+        "龍飛灞水上，鳳集岐山陽。",
+        "南有玄灞素滻。"
+      ],
+      "traditional_char": "灞"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "地名，指灞城或灞陵，因临灞水得名。",
+      "examples": [
+        "金狄遷於灞川。",
+        "魏明帝欲徙詣洛，載到霸城，重不可致，今在霸城次道南。"
+      ],
+      "traditional_char": "灞"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘灞’从水，霸声。最初用于表水名（灞水），为形声字。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "因临灞水而以水名指相关地名，常见于古地名命名方式。"
+    }
+  ]
+}

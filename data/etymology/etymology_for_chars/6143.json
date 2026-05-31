@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "黄鲴，一种鲤科鱼，体长侧扁，银白带黄色，生活于江河湖泊中。",
+      "examples": [
+        "漁人煉取黃鯝油然燈，甚鯹也。",
+        "黃鯝魚，魚腸肥曰鯝。"
+      ],
+      "traditional_char": "鯝"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "鱼肠，古时对鱼肚肠的称呼。",
+      "examples": [
+        "魚腸曰鯝，曰乙。",
+        "杭越之閒謂魚胃為鯝。"
+      ],
+      "traditional_char": "鯝"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "形声字，从鱼，固声，本指鱼肠，后引申为鱼名。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "由指鱼肠扩展为特指一种鱼类，因该鱼腸腹多脂而得名。"
+    }
+  ]
+}

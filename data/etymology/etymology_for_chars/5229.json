@@ -1,0 +1,53 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "胫骨后的肉，亦称‘腓肠肌’，俗称‘腿肚子’。",
+      "examples": [
+        "腓肠肌发达",
+        "他的小腿腓很结实"
+      ],
+      "traditional_char": "腓"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "覆庇，倚庇。",
+      "examples": [
+        "牛羊腓字之"
+      ],
+      "traditional_char": "腓"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "草木枯萎。",
+      "examples": [
+        "百卉具腓"
+      ],
+      "traditional_char": "腓"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘腓’为形声字，从‘月’（肉部）表意，‘非’表声，最初指腿部肌肉。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由腿部肌肉包覆、支持的形象引申为覆盖、庇护。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "‘腓’草木枯萎，或因声转引申，具体机制存在争议。"
+    }
+  ]
+}

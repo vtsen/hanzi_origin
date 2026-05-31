@@ -1,0 +1,87 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "心神不定，意念摇摆不定。",
+      "examples": [
+        "心憧憧若涉大川，遭风而未薄。",
+        "意不定也。——《说文》",
+        "憧憧意未定也。——《易·咸卦》"
+      ],
+      "traditional_char": "憧"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "往来不定或摇曳不定的样子。",
+      "examples": [
+        "人影憧憧。",
+        "憧憧往來。——《易·咸》"
+      ],
+      "traditional_char": "憧"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "对未来的向往、憧憬。",
+      "examples": [
+        "憧憬未来。",
+        "心中满是对美好生活的憧憬。"
+      ],
+      "traditional_char": "憧"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "愚笨，愚昧（通“憃”）。",
+      "examples": [
+        "作起不敬以欺惑憧愚。",
+        "愚憧而不逮事。——《史记·三王世家》"
+      ],
+      "traditional_char": "憧"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "直上，向上冲（通“冲”）。",
+      "examples": [
+        "发棺时，臭憧于天。——《论衡·死伪》"
+      ],
+      "traditional_char": "憧"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从心，童声，表示心神波动不定。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“心神不定”引申为外在“往来或摇曳不定”的形态，表现内心状态的外化。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由内心不定进一步比喻出对未来“向往、憧憬”的心理动作。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_shift",
+      "note": "意义由心神不定转变为愚蠢迟钝（与“憃”通假），具体机制不明。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "通“冲”字，义为向上冲，多为声借，后固定用法。"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "天门；传说中的天界之门，也指皇宫的正门。",
+      "examples": [
+        "阊阖——传说中的天门",
+        "阊阖风"
+      ],
+      "traditional_char": "閶"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "风名，尤其指西风、秋风。也简称“阊风”。",
+      "examples": [
+        "阊阖风"
+      ],
+      "traditional_char": "閶"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "倡导，带头做事。",
+      "examples": [
+        "《史记·律书》：“閶者，倡也；闔者，藏也。”"
+      ],
+      "traditional_char": "閶"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "（古音tāng）鼓声。",
+      "examples": [
+        "汉 刘向《说苑·指武》：“閶不及鞈，呼不及吸。”"
+      ],
+      "traditional_char": "閶"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从门，昌声。最初表达'天门'或重要门的含义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "天门有时以风为特征，风名'阊风'来源于天门方向来的风，属于部分代整体。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由‘天门开阖’引申为‘倡导’，即为事物开启、起始。史记注解。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "unknown",
+      "note": "“閶”为“鼓声”（古音tāng）义来历不明，或为假借，未明。"
+    }
+  ]
+}

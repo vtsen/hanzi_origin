@@ -1,0 +1,71 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "烦闷，心情郁结不畅通。",
+      "examples": [
+        "广陵太守陈登得病，胸中烦懑。",
+        "故济北王阿母自言足热而懑。",
+        "烦懑不乐。"
+      ],
+      "traditional_char": "懣"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "气愤、不平，愤慨。",
+      "examples": [
+        "惟烦懑而盈匈。",
+        "目睹其事，犹怀愤懑。"
+      ],
+      "traditional_char": "懣"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "昏乱的样子（记忆模糊、神志不清）。",
+      "examples": [
+        "其视七代损益终懣然也。"
+      ],
+      "traditional_char": "懣"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "other",
+      "meaning": "同“们”，用于代词或名词后，表示复数（方言、古俗用法）。",
+      "examples": [
+        "娘子懣更各自好将息。",
+        "我部领你懣廝逐去深州。"
+      ],
+      "traditional_char": "懣"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘懣’为形声字，从心，满声，表示心满则烦闷；后来简化为‘懑’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由烦闷义引申至气愤不平、愤慨，古书多作为感情加剧的表现。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "由心中烦闷、郁结发展出精神昏乱、神志不清的形容。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "conversion",
+      "note": "由表示心理烦闷的动词，转用为表复数（音近‘们’）的虚词，属于方言口语用法。"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "屋檐口椽端的横板",
+      "examples": [
+        "屋楣上挂着灯笼。"
+      ],
+      "traditional_char": "楣"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "门框上的横木",
+      "examples": [
+        "门楣高大。"
+      ],
+      "traditional_char": "楣"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "房屋的横梁，即二梁",
+      "examples": [
+        "屋内横有一根楣。"
+      ],
+      "traditional_char": "楣"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从木，眉声，最初指屋檐口椽端的横板。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由屋檐横板，转指门框上的横木，因结构相似。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "意义扩展到屋内横梁，用于更广泛的横木构件。"
+    }
+  ]
+}

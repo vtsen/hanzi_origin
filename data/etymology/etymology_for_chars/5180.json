@@ -1,0 +1,58 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "onomatopoeia",
+      "meaning": "形容金石、钟、琴等撞击或碰撞发出的清脆洪亮的声音。",
+      "examples": [
+        "鍾聲鏗，鏗以立號。《禮記·樂記》",
+        "大皮鞋走在石板路上～～地響。",
+        "鲁殿鏗寒玉，苔山激碎金。",
+        "琴瑟不鏗，鍾鼓不抎。"
+      ],
+      "traditional_char": "鏗"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "用器物敲击、撞击（使发声）。",
+      "examples": [
+        "鏗鍾搖虡，揳梓瑟兮。《楚辭·招魂》",
+        "於是發鯨魚，鏗華鐘。",
+        "積潤未妨鏗畫瑟。"
+      ],
+      "traditional_char": "鏗"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "onomatopoeia",
+      "meaning": "象声词：指咳嗽发出的声音。",
+      "examples": [
+        "其動鏗禁瞀厥。《素問》",
+        "鏗，欬聲也。"
+      ],
+      "traditional_char": "鏗"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "鏗为形声字，从金，坚声。本作象声词，形容金属等硬物撞击声。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "conversion",
+      "note": "由形容声音的象声词引申为动词，表示发出此声的动作，见于先秦、两汉文献。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由金石撞击的清脆响声喻为咳嗽等清脆鸣响之声，见于医学古籍。"
+    }
+  ]
+}

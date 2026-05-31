@@ -1,0 +1,40 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "interjection",
+      "meaning": "叹词，表示赞叹或惊讶",
+      "examples": [
+        "嚯，好高的楼！",
+        "嚯，原来你在这儿！"
+      ],
+      "traditional_char": "嚯"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "onomatopoeia",
+      "meaning": "象声词，形容快速动作或笑声",
+      "examples": [
+        "嚯地站起身。",
+        "嚯、嚯、嚯！好一个狗头军师。",
+        "嚯地一板斧砍下来。"
+      ],
+      "traditional_char": "嚯"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "‘嚯’为形声字，从口，霍声，本指笑声或动作声。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "grammaticalization",
+      "note": "由象声用法转为感叹词用法，现代汉语常见，机制为语用引申。"
+    }
+  ]
+}

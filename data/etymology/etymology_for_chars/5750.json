@@ -1,0 +1,69 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "用竹、苇、秫秸等编成的帘子。",
+      "examples": [
+        "苇箔覆盖",
+        "席箔遮窗"
+      ],
+      "traditional_char": "箔"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "养蚕时使用的竹制或类似席子的器具，又称“蚕帘”。",
+      "examples": [
+        "蚕至三眠，须备箔以供其上箔。"
+      ],
+      "traditional_char": "箔"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "金属薄片，如金箔、铜箔。",
+      "examples": [
+        "贴金箔",
+        "铜箔导电"
+      ],
+      "traditional_char": "箔"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "祭祀时用以焚化、敷有金属薄层或粉末的纸，作阴间钱使用。",
+      "examples": [
+        "锡箔焚烧以祭祖"
+      ],
+      "traditional_char": "箔"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从竹，'泊'为声，表示用竹制成的帘子。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "蚕具形状如帘，结构相似，语义由帘子转为蚕帘。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由竹帘之薄广，转指薄状金属片。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "因用金属箔贴于祭奠用纸上，语义转指这种用作祭祀的纸。"
+    }
+  ]
+}

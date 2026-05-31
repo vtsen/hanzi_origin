@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "行走时一瘸一拐的样子，跛行的样子。",
+      "examples": [
+        "蹒跚而行",
+        "行步蹒跚",
+        "天禄行蹒。"
+      ],
+      "traditional_char": "蹣"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "走路缓慢、摇摆或旋转之态。",
+      "examples": [
+        "蹒连（旋行的样子）",
+        "蹒马（驰马盘旋）"
+      ],
+      "traditional_char": "蹣"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "盘曲、盘旋的样子。",
+      "examples": [
+        "蹒马（驰马盘旋）"
+      ],
+      "traditional_char": "蹣"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，“足”表意，表示与行走有关，“䩄（音攀）”表声，字体最早见于楷书结构。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由跛行的基本意义引申为缓慢、摇摆或旋转行走的样子，汉及中古文献均有体现。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "摇摆、旋转进一步引申为“盘曲、盘旋”的动作形态，常用于描述驰马等动作。"
+    }
+  ]
+}

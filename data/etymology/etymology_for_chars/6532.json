@@ -1,0 +1,65 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "喊叫，呼喊。",
+      "examples": [
+        "不索你没来由这般叫天吖地。",
+        "为甚麽适纔间吖天叫地？"
+      ],
+      "traditional_char": "吖"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "onomatopoeia",
+      "meaning": "形容喊叫的声音。",
+      "examples": [
+        "叫叫吖吖。",
+        "巡院家高声的叫吖吖。"
+      ],
+      "traditional_char": "吖"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "interjection",
+      "meaning": "叹词，相当于“呵”。",
+      "examples": [],
+      "traditional_char": "吖"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "other",
+      "meaning": "用于外来词，主要用于有机化学名称的音译（如“吖嗪”）。",
+      "examples": [],
+      "traditional_char": "吖"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从口，丫声，初用以表示喊叫之声。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_shift",
+      "note": "由表示动作“喊叫”转为表示“喊叫的声音”，中古戏曲文献可证。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "grammaticalization",
+      "note": "象声词语法化为叹词，用于话尾感叹或引起注意。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "现代为音译外来词用，主要见于化学术语，非本义引申。"
+    }
+  ]
+}

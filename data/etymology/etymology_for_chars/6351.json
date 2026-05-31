@@ -1,0 +1,124 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "应答，对答，回应别人的言语或行动",
+      "examples": [
+        "无言不雠。——《诗经·大雅·抑》",
+        "雠，对也。——《三苍》"
+      ],
+      "traditional_char": "雠"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "校对，核查文字的准确性",
+      "examples": [
+        "雠定（校对考正）",
+        "诣东观雠校传记。——《后汉书·和熹邓皇后纪》",
+        "雠校"
+      ],
+      "traditional_char": "雠"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "售，出卖",
+      "examples": [
+        "酒雠数倍。——《史记·高祖本纪》"
+      ],
+      "traditional_char": "雠"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "应酬，互相敬酒",
+      "examples": [
+        "著之盘盂，属之雠柞。——《战国策·赵策一》"
+      ],
+      "traditional_char": "雠"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "相等，同等，相匹敌",
+      "examples": [
+        "皆雠有功。——《汉书·霍光传》",
+        "讎，等也。"
+      ],
+      "traditional_char": "雠"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "仇人，敌人，敌对一方",
+      "examples": [
+        "众兆之所雠。——《楚辞·惜诵》",
+        "反以我为雠。——《诗·邶风·谷风》",
+        "与民为雠者，有迟有速，而民必胜之。"
+      ],
+      "traditional_char": "讎"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "仇恨，怨恨",
+      "examples": [
+        "雠怨（仇恨，憎怨）",
+        "雠隙（猜忌、仇恨）"
+      ],
+      "traditional_char": "讎"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“雠”为形声字，从言，雔声，原义为‘应答’。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 5,
+      "note": "“讎”为形声字，从言，雔声，后来用于‘仇敌’义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从‘应答’扩展为‘校对’文字（审查与回应），汉代用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由‘应答’引申为应酬等宴席礼仪的交际。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "由‘对应’比喻为‘相等、匹敌’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "‘应答’在特定语境下发展为‘销售’之义，具体机制未详。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "semantic_shift",
+      "note": "‘应答’义转变为‘敌对、仇人’，由双方对立应答引起。"
+    },
+    {
+      "source_index": 5,
+      "target_index": 6,
+      "evolution_type": "semantic_extension",
+      "note": "从‘仇人’名词发展出‘仇恨’情感词。"
+    }
+  ]
+}

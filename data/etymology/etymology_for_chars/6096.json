@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "走路脚不正的样子；步态歪斜。",
+      "examples": [
+        "蹁，足不正也。——《说文》",
+        "行走蹁跹。"
+      ],
+      "traditional_char": "蹁"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "旋转舞蹈，常用作“蹁跹”。",
+      "examples": [
+        "䠥𨇨蹁躚。——张衡《东都赋》",
+        "舞者蹁跹。"
+      ],
+      "traditional_char": "蹁"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "膝盖，大腿和小腿相连的关节前部。",
+      "examples": [
+        "膝头曰蹁；蹁，扁也，亦因形而名之也。——《释名》"
+      ],
+      "traditional_char": "蹁"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从足，扁声，本义为‘足不正’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由行走姿态不正，引申为舞蹈旋转的动态形象，东汉《东都赋》等作品可见。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由‘足不正’之形，转喻至膝盖部位，因形似而名。见《释名》相关记载。"
+    }
+  ]
+}

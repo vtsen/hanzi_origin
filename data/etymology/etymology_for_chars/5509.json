@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "罪过，过失",
+      "examples": [
+        "无愆无尤",
+        "罪愆",
+        "愆忒"
+      ],
+      "traditional_char": "愆"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "耽误",
+      "examples": [
+        "愆期不至",
+        "愆滞"
+      ],
+      "traditional_char": "愆"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "出错，超出（多指时间、气候等发生异常变化）",
+      "examples": [
+        "愆伏",
+        "岁有愆伏"
+      ],
+      "traditional_char": "愆"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从心，衍声，表示和心意、过错有关；本义为‘罪过，过失’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘罪过’引申为‘耽误’，古汉语常将延误视作一种错误。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由‘罪过’引申为‘出错、超出’，表示出现异常或偏差。"
+    }
+  ]
+}

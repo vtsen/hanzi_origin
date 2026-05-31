@@ -1,0 +1,57 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "美玉，一种玉名，泛指优质美玉",
+      "examples": [
+        "琰，玉名也。",
+        "冰鍔含彩，雕琰表飾。",
+        "琬琰"
+      ],
+      "traditional_char": "琰"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "圭上端斜削成尖锐形者，亦称“琰圭”",
+      "examples": [
+        "琰圭，圭之上端斜削成尖锐形者。",
+        "四方玄繚璧琰十二。",
+        "琰圭有锋芒，为诛讨之象。"
+      ],
+      "traditional_char": "琰"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "璧上起美色或泛指有美丽光泽的样子",
+      "examples": [
+        "璧上起美色也。",
+        "黛玄眉之～～"
+      ],
+      "traditional_char": "琰"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从玉，炎声，本义为美玉，‘炎’兼表音与‘玉’义。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由美玉名称扩展为特指圭上端尖形的玉器。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由美玉名称泛指美色和玉器的光泽。"
+    }
+  ]
+}

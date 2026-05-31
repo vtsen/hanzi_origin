@@ -1,0 +1,64 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "是，对，正确",
+      "examples": [
+        "犯五不韪。——《左传·隐公十一年》",
+        "人韪其言。——《明史》",
+        "冒天下之大不韪"
+      ],
+      "traditional_char": "韙"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "善，美好，安好",
+      "examples": [
+        "京室密清，罔有不韪。——《文选·东京赋》",
+        "衣冠光韪。——《新唐书》",
+        "皇风载韪，时圣道淳。——晋·张协《七命》"
+      ],
+      "traditional_char": "韙"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "认为正确，同意，赞赏",
+      "examples": [
+        "君子韪之。——《左传·昭公二十年》",
+        "代宗不韪其言。——《新唐书》",
+        "深韪其说。"
+      ],
+      "traditional_char": "韙"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从是，表示意义，韦作声旁，最初表示“是、对”。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由“正确”引申为“善、美好”是典型褒义扩展，见东汉及魏晋文献。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "conversion",
+      "note": "从形容词“是，对”转为动词“认为正确”，为品类转换。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "reanalysis",
+      "note": "善、美好含义在词义演变中与“赞赏、同意”等动词用法发生再分析，故连通。"
+    }
+  ]
+}

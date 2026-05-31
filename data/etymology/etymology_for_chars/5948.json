@@ -1,0 +1,70 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "破木的工具，凿具。",
+      "examples": [
+        "镌，破木之器。（《说文》）"
+      ],
+      "traditional_char": "鎸"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "雕刻、镂刻。",
+      "examples": [
+        "镌刻铭文。",
+        "镌石立碑。"
+      ],
+      "traditional_char": "鎸"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "规劝，劝告。",
+      "examples": [
+        "镌说良多。",
+        "耳提面镌。"
+      ],
+      "traditional_char": "鎸"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "降级，削职，淘汰。",
+      "examples": [
+        "镌级处分。",
+        "镌汰冗员。"
+      ],
+      "traditional_char": "鎸"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从金，隽声，表示与金属器具相关，原指破木的器具。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由破木工具引申为“雕刻、镂刻”这一动作，因工具用途而生。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由雕刻引申，比喻在言语上规劝、雕饰，语义比喻，见晚古汉语。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由“镌刻”引申，比喻消减、削弱、裁减（如职级），为抽象意义。"
+    }
+  ]
+}

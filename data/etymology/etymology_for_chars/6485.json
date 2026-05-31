@@ -1,0 +1,117 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "大鹿，特指大型的雌鹿或雄鹿",
+      "examples": [
+        "射麋脚麟。——《子虚赋》",
+        "解罘放麟。——《东京赋》"
+      ],
+      "traditional_char": "麟"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "麒麟，古代传说中的神兽，象征吉祥瑞应",
+      "examples": [
+        "西狩获麟。——《春秋·哀公十四年》",
+        "麟之趾，振振公子。——《诗经·周南·麟之趾》"
+      ],
+      "traditional_char": "麟"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "比喻卓越或贵族人物",
+      "examples": [
+        "麟子凤雏",
+        "麟阁功臣"
+      ],
+      "traditional_char": "麟"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "稀有之物、珍宝的比喻",
+      "examples": [
+        "凤毛麟角",
+        "麟角凤毛"
+      ],
+      "traditional_char": "麟"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "通“鱗”，鳞甲",
+      "examples": [
+        "其状如儵而赤麟。——《山海经·北山经》"
+      ],
+      "traditional_char": "麟"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "地方名，指麟州，今陕西省神木一带",
+      "examples": [
+        "麟州的省称。故治在今陕西省神木县北。",
+        "宜敕二帅率麟、府、银、夏、绥五州，张其掎角。——《续资治通鉴》"
+      ],
+      "traditional_char": "麟"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "adjective",
+      "meaning": "光明；明亮的样子（通“燐”）",
+      "examples": [
+        "炳炳麟麟。——《剧秦美新文》"
+      ],
+      "traditional_char": "麟"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从鹿，粦声，最初表示大鹿。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由大鹿被神话，转指传说中的神兽麒麟，属于语义扩展。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "因麒麟象征吉祥与非凡，引申作为比喻卓越或皇族人物。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "因麒麟极为稀有，进一步比喻稀世之物或珍宝。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "因与“鱗”同音，后借指鳞甲。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "metonymy",
+      "note": "以动物名作为地名，典型转喻。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "用作“燐”，指光明，基于读音借用。"
+    }
+  ]
+}

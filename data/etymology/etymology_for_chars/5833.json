@@ -1,0 +1,38 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "神话中住在月亮里的仙女，指嫦娥。",
+      "examples": [
+        "嫦娥奔月",
+        "嫦娥应悔偷灵药"
+      ],
+      "traditional_char": "嫦"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "月亮的别称，用以借指月亮。",
+      "examples": [
+        "举头望明月，低头思故乡。夜色苍茫看嫦娥。"
+      ],
+      "traditional_char": "嫦"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从女，常声，造字本指女性，与神话人物嫦娥相关。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "以嫦娥代指月亮，古代文学中常见。"
+    }
+  ]
+}

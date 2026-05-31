@@ -1,0 +1,83 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "肿毒，毒疮。",
+      "examples": [
+        "石之為藥精悍，公服之不得數溲，亟勿服。色將發臃。（《史記·倉公傳》）",
+        "腫也。或作臃。（《說文解字》）"
+      ],
+      "traditional_char": "臃"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "身体肥大臃肿，动转不灵便。",
+      "examples": [
+        "臃肿难动。"
+      ],
+      "traditional_char": "臃"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "衣服穿得厚重，行动不便。",
+      "examples": [
+        "衣服穿得很臃肿。"
+      ],
+      "traditional_char": "臃"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "比喻机构庞大、运转不灵。",
+      "examples": [
+        "机构臃臃肿肿，妨碍工作。"
+      ],
+      "traditional_char": "臃"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "树木癭节多、不平直（臃肿的引申）。",
+      "examples": [
+        "树木臃肿不平。"
+      ],
+      "traditional_char": "臃"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从肉，雍声，表示与肉体相关的肿胀或毒疮。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "肿毒引申为因肥大而形体胀满的状态。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "身体臃肿转喻衣物过多使行动迟缓（形态类似）。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "人的臃肿引申为机构等组织臃肿，行动不便。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "臃肿也描述树木因癭节而不平直的状态。"
+    }
+  ]
+}

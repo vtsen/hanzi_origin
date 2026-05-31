@@ -1,0 +1,127 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "树类植物的通称",
+      "examples": [
+        "树木",
+        "乔木",
+        "灌木"
+      ],
+      "traditional_char": "木"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "木料、木制品",
+      "examples": [
+        "木材",
+        "木器",
+        "木刻"
+      ],
+      "traditional_char": "木"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "棺材",
+      "examples": [
+        "棺木"
+      ],
+      "traditional_char": "木"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "质朴",
+      "examples": [
+        "木讷"
+      ],
+      "traditional_char": "木"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "adjective",
+      "meaning": "呆笨",
+      "examples": [
+        "木鸡"
+      ],
+      "traditional_char": "木"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "adjective",
+      "meaning": "感觉不灵敏，失去知觉",
+      "examples": [
+        "麻木"
+      ],
+      "traditional_char": "木"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "中国古代乐器八音之一",
+      "examples": [],
+      "traditional_char": "木"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "proper noun",
+      "meaning": "姓",
+      "examples": [],
+      "traditional_char": "木"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "pictograph",
+      "original_sense_index": 0,
+      "note": "象形，甲骨文字形，象树木形，上为枝叶，下为树根。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "从树木到木制品的扩展"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "木材在棺材中的使用"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "树木的质朴用于形容人的质朴"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "semantic_shift",
+      "note": "木音器的使用"
+    },
+    {
+      "source_index": 0,
+      "target_index": 7,
+      "evolution_type": "unknown",
+      "note": "姓氏的一种来源"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "从质朴到呆笨的扩展"
+    },
+    {
+      "source_index": 4,
+      "target_index": 5,
+      "evolution_type": "metaphor",
+      "note": "由呆笨到失去知觉"
+    }
+  ]
+}

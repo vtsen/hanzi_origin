@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "山林中的精怪、山神，古代传说中能祸害人的鬼怪。",
+      "examples": [
+        "魑魅魍魉（指各种各样的坏人或精怪）",
+        "始经魑魅之涂，卒践无人之境。——孙绰《游天台山赋》"
+      ],
+      "traditional_char": "魑"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "泛指鬼怪、妖怪。",
+      "examples": [
+        "攙槍發光天狗吠，迷離毒霧奔群魑。——《水滸傳》第八七回",
+        "鬼者，物也……或謂之鬼，或謂之凶，或謂之魅，或謂之魑。——王充《論衡•訂鬼》"
+      ],
+      "traditional_char": "魑"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "引申指作祟害人的坏人。",
+      "examples": [
+        "“魑魅魍魉”本为山怪水神，引申为各式各样的坏人"
+      ],
+      "traditional_char": "魑"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从‘鬼’表示鬼怪，‘离’作声旁，表示最初的意为山林精怪或山神。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由山林精怪扩大泛指为一切鬼怪、妖怪，见于汉代以后文献。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "以鬼怪作喻称作祟或害人的坏人，转为贬义人物。"
+    }
+  ]
+}

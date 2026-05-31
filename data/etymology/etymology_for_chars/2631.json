@@ -1,0 +1,103 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "奔跑，两脚交替迅速向前移动",
+      "examples": [
+        "他在操场上奔跑。",
+        "跑步比赛"
+      ],
+      "traditional_char": "跑"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "很快地移动",
+      "examples": [
+        "汽车跑得很快。",
+        "水流得很急，像在跑。"
+      ],
+      "traditional_char": "跑"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "逃脱、逃走",
+      "examples": [
+        "小鸟跑出笼子。",
+        "逃跑"
+      ],
+      "traditional_char": "跑"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "泄漏",
+      "examples": [
+        "跑电",
+        "煤气跑了"
+      ],
+      "traditional_char": "跑"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "为某种事物奔走",
+      "examples": [
+        "跑买卖",
+        "跑堂"
+      ],
+      "traditional_char": "跑"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "（páo）走兽用脚刨地",
+      "examples": [
+        "跑糟",
+        "虎跑泉"
+      ],
+      "traditional_char": "跑"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "左形右声，'足'表意指与脚有关，'包'为声旁，与‘pǎo’同音。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由两脚奔跑引申为广义的快速移动。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由奔跑引申为逃脱逃走，有动作上的隐喻关联。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由很快移动引申至泄漏，水、电、气如流体快速移动。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "由奔走、跑步，转义为为事务四处奔波。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "‘跑（páo）’表示刨地，本为另一义，现在多用于方言或专用词，借音用义。"
+    }
+  ]
+}

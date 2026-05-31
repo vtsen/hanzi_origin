@@ -1,0 +1,51 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "interjection",
+      "meaning": "表示伤感、惋惜或感慨的叹词",
+      "examples": [
+        "嗐，别提他啦！",
+        "嗐！我的老老，告诉不得你了！",
+        "嗐，这都怨我们车间主任哪！",
+        "嗐！这几天几夜，把人眼睛都熬红了。"
+      ],
+      "traditional_char": "嗐"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "大开口；张大嘴之意",
+      "examples": [],
+      "traditional_char": "嗐"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "声音，嘈杂之声",
+      "examples": [],
+      "traditional_char": "嗐"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "“嗐”从口，害声，表张口、发声，与“害”音义相关。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由张大口引申为发出较大声音。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 0,
+      "evolution_type": "grammaticalization",
+      "note": "由“声”义用作感叹词，表示伤感、惋惜等情感，多见于口语或文学作品。"
+    }
+  ]
+}

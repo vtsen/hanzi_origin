@@ -1,0 +1,38 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "疾病，困病",
+      "examples": [
+        "鞠躬尽瘁，死而后已。"
+      ],
+      "traditional_char": "瘁"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "劳累极度，疲倦不堪",
+      "examples": [
+        "心力交瘁",
+        "鞠躬尽瘁"
+      ],
+      "traditional_char": "瘁"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从疒（与疾病相关），卒声，初义为困病。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘疾病、困病’扩展为‘极度劳累’。两义常见于文献并存。"
+    }
+  ]
+}

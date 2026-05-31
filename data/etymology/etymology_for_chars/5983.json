@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "病，疾病。",
+      "examples": [
+        "瘼，病也。——《说文》",
+        "亂離瘼矣，爰其適歸。——《詩·小雅·四月》",
+        "東齊海岱之閒曰瘼。——《方言》"
+      ],
+      "traditional_char": "瘼"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "疾苦，苦难。",
+      "examples": [
+        "求民之瘼。——《三国志·蜀书·马超传》",
+        "能除疾瘼似良医。——方干《上杭州姚郎中》",
+        "不惜民瘼的， 一併准他一體奏參。"
+      ],
+      "traditional_char": "瘼"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "弊害。",
+      "examples": [
+        "原斯瘼之攸興，寔執政之匪賢。——《後漢書·文苑傳下·趙壹》"
+      ],
+      "traditional_char": "瘼"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从疒，莫声，表示与疾病相关，是‘病’的本义；疒表意，莫表声。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由具体的生理疾病比喻引申为人民的疾苦和苦难，先秦已见用法。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "从人民疾苦进一步转用来指社会或政治上的弊害，汉代已有。"
+    }
+  ]
+}

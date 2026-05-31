@@ -1,0 +1,59 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "帝王出行时开路清道，禁止行人来往",
+      "examples": [
+        "大祭祀、丧祀之事，设门燎，跸宫门庙门。",
+        "警跸"
+      ],
+      "traditional_char": "跸"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "帝王出行时的车驾",
+      "examples": [
+        "驻跸",
+        "县人来，闻跸，匿桥下。"
+      ],
+      "traditional_char": "跸"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "站立不正或倾斜",
+      "examples": [
+        "古者婦人妊子，寢不側，坐不邊，立不蹕。"
+      ],
+      "traditional_char": "蹕"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘跸’为形声字，从足，‘毕’声，表示清道、禁止通行之意"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘蹕’为形声字，从足，‘畢’声，古作繁体，意义同‘跸’"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由清道动作引申为帝王出行的车驾，汉代已见用法"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "义项‘站立不正’语源关系不明，或为古音相关引申"
+    }
+  ]
+}

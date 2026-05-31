@@ -1,0 +1,88 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古代长度单位，周制八寸，合今市尺六寸二分二厘。",
+      "examples": [
+        "中妇人手长八寸谓之咫，周尺也。——《说文》",
+        "天威不违颜咫尺。——《左传·僖公九年》",
+        "其长尺有咫。——《国语·鲁语下》"
+      ],
+      "traditional_char": "咫"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "极短的距离，引申作“咫尺”意为距离很近。",
+      "examples": [
+        "晋视道如咫。——《周书·太子》",
+        "咫尺之书"
+      ],
+      "traditional_char": "咫"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "形容距离极近、短；比喻微小、短暂。",
+      "examples": [
+        "咫步",
+        "咫见",
+        "咫尺千里"
+      ],
+      "traditional_char": "咫"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "conjunction",
+      "meaning": "连词，用法相当于“则”、“就”。",
+      "examples": [
+        "墙薄咫亟坏，缯薄咫亟裂，器薄咫亟毁，酒薄咫亟酸。——汉 贾谊《新书·连语》"
+      ],
+      "traditional_char": "咫"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "particle",
+      "meaning": "助词，通“只”，用于句末。",
+      "examples": [
+        "吾不能行也咫，闻则多矣。——《国语·晋语》",
+        "是知天咫，安知民则？——《国语·楚语》"
+      ],
+      "traditional_char": "咫"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从‘尺’表意，‘只’声。本义为长度单位。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由具体的长度单位引申为极短距离，汉代前已见。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由短距离进一步引申为形容词，指距离极近或事物微小。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "unknown",
+      "note": "由名词用法演变为连词用法，转换过程机制不明，已见于汉代。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "unknown",
+      "note": "由名词用法转换为助词（通‘只’），文言晚期使用，转换机制不明。"
+    }
+  ]
+}

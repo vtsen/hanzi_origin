@@ -1,0 +1,42 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "鳊鱼，一种淡水鱼类，身体侧扁，头尖，尾小，鳞细，属于经济鱼类，也称武昌鱼、鲂。",
+      "examples": [
+        "湖中多鳊鱼。"
+      ],
+      "traditional_char": "鯿"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "“鳊”的简化字，用作表示同前义。",
+      "examples": [
+        "长江流域产鳊。"
+      ],
+      "traditional_char": "鳊"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "鯿：形声字，从魚，便声，表示鱼名本义。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "鳊：形声字，为鯿的简化字，从魚，便声。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "conversion",
+      "note": "简化字“鳊”由繁体“鯿”演变而来，字义不变，20世纪简化。"
+    }
+  ]
+}

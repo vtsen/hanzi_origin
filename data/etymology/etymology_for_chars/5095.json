@@ -1,0 +1,87 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "复屋的栋梁，阁楼的梁木。",
+      "examples": [
+        "棼，复屋栋也。——《说文》",
+        "增桴重棼，鍔鍔列列。——汉·张衡《西京赋》",
+        "虹霓回带于棼楣。"
+      ],
+      "traditional_char": "棼"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "阁楼。",
+      "examples": [
+        "棼，阁也。——《广雅》",
+        "贼於屯里缘楼上行詈，以手持楼棼。——《三国志·吴志·太史慈传》"
+      ],
+      "traditional_char": "棼"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "麻布；麻类织物。",
+      "examples": [
+        "素车，棼蔽。——《周礼·春官·巾车》"
+      ],
+      "traditional_char": "棼"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "纷乱，杂乱无序。",
+      "examples": [
+        "犹治丝而棼之也。——《左传·隐公四年》",
+        "治丝而益棼之。",
+        "泯泯棼棼。——《书·吕刑》"
+      ],
+      "traditional_char": "棼"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "众多、交错杂乱的样子。",
+      "examples": [
+        "林棼彩仗明初日，瑞气满晴空。——宋·无名氏《南郊恭谢·导引》"
+      ],
+      "traditional_char": "棼"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字。从林，表示与木结构相关，分声表音。最初表阁楼或复屋的栋梁。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "synecdoche",
+      "note": "由栋梁引申为整体阁楼结构，见《广雅》相关用例。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "由木梁众多交错引申为众多、交错的意思。"
+    },
+    {
+      "source_index": 4,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由杂乱交错进一步引申为一般“纷乱、无序”。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "由木材建构引申为与纺织、麻相关（如麻布），语源见《周礼》解释。"
+    }
+  ]
+}

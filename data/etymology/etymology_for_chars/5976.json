@@ -1,0 +1,78 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "夜间打猎，泛指打猎",
+      "examples": [
+        "于是乃相与獠于蕙圃。",
+        "宵田为獠。",
+        "獠猎毕戈。"
+      ],
+      "traditional_char": "獠"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "凶恶的样子，面貌粗野丑陋",
+      "examples": [
+        "獠牙",
+        "獠面"
+      ],
+      "traditional_char": "獠"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "中国古族名，泛指南方各少数民族",
+      "examples": [
+        "初，蜀土无獠，至此，始从山而出。",
+        "獠者，盖南蛮之别种。"
+      ],
+      "traditional_char": "獠"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "古时对南方人的詈词",
+      "examples": [
+        "你这獠子，好不达时务。",
+        "何不扑杀此獠？"
+      ],
+      "traditional_char": "獠"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从犬，尞声，本义为‘夜猎’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由夜猎活动转喻为凶恶或野蛮的形象，汉末至南北朝已见"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "pejoration",
+      "note": "由‘凶恶之貌’进一步引申为侮辱性的名词，作为骂人的话"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metonymy",
+      "note": "因夜猎习俗常见于南方民族，遂用以指代民族名称，魏晋南北朝用法"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "pejoration",
+      "note": "由族名引申为带有贬义的称呼，作为詈词"
+    }
+  ]
+}

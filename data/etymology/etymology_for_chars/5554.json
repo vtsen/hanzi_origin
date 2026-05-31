@@ -1,0 +1,187 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "古代宫殿、祠庙或陵墓前的高台楼观，通常左右各一，二阙之间有道路",
+      "examples": [
+        "挑兮达兮，在城阙兮。",
+        "萧丞相营作未央宫，立东阙、北阙。"
+      ],
+      "traditional_char": "闕"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "借指皇帝居处，朝廷、京城、宫殿",
+      "examples": [
+        "诣阙止书，书久不报。",
+        "城阙辅三秦，风烟望五津。",
+        "朝天阙。"
+      ],
+      "traditional_char": "闕"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "墓前、神庙前所立的石雕、石牌坊",
+      "examples": [
+        "音尘绝，西风残照，汉家陵阙。",
+        "双阙宝阙。"
+      ],
+      "traditional_char": "闕"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "缺口、空隙",
+      "examples": [
+        "昔者女娲氏练五色石以补其阙。",
+        "两岸连山，略无阙处。"
+      ],
+      "traditional_char": "闕"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "缺点、错误、过错",
+      "examples": [
+        "必能裨补阙漏，有所广益。",
+        "次之又不能拾遗补阙。"
+      ],
+      "traditional_char": "闕"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "削减、削弱、毁坏",
+      "examples": [
+        "又欲阙翦我公室，倾覆我社稷。",
+        "阙更减赋，尽休力役。"
+      ],
+      "traditional_char": "闕"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "空缺、缺少、遗漏",
+      "examples": [
+        "三纲之道，天地之纪，毋乃有阙？",
+        "今鈔本卷七外制全阙。"
+      ],
+      "traditional_char": "闕"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "verb",
+      "meaning": "去除、失去",
+      "examples": [
+        "以待会而考之，亡者阙之。",
+        "夫随廝养之役者，失万乘之权；守儋石之禄者，阙卿相之位。"
+      ],
+      "traditional_char": "闕"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "verb",
+      "meaning": "挖掘、掘地",
+      "examples": [
+        "若阙地及泉。",
+        "闕为深沟。"
+      ],
+      "traditional_char": "闕"
+    },
+    {
+      "index": 9,
+      "part_of_speech": "noun",
+      "meaning": "官职的空缺，待补的名额",
+      "examples": [
+        "吏部郎阙，文帝问其人于钟会。",
+        "适有美阙，二人争竞得之。"
+      ],
+      "traditional_char": "闕"
+    },
+    {
+      "index": 10,
+      "part_of_speech": "adjective",
+      "meaning": "残缺，不完善",
+      "examples": [
+        "而四夷未宾，制度多阙。",
+        "夫德意志为学术渊藪，抱残守阙之辈。"
+      ],
+      "traditional_char": "闕"
+    },
+    {
+      "index": 11,
+      "part_of_speech": "noun",
+      "meaning": "姓氏",
+      "examples": [
+        "汉代有阙栩。"
+      ],
+      "traditional_char": "闕"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从门，欮声，表示门外高台观楼之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "由宫门两侧高台引申为宫殿、宫廷、京城。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "synecdoche",
+      "note": "由宫门建筑之“阙”泛指墓前或庙前两侧石阙。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "因两阙间有道路，‘阙’引申为豁口、缺口。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 4,
+      "evolution_type": "metaphor",
+      "note": "由空隙引申为人的缺点、错误。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 9,
+      "evolution_type": "semantic_extension",
+      "note": "缺口引申为官职空缺、名额。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 10,
+      "evolution_type": "semantic_extension",
+      "note": "由空隙引申为事物的残缺、不完善。"
+    },
+    {
+      "source_index": 3,
+      "target_index": 6,
+      "evolution_type": "semantic_extension",
+      "note": "由空缺引申为缺少、遗漏及相关动词意。"
+    },
+    {
+      "source_index": 5,
+      "target_index": 7,
+      "evolution_type": "semantic_extension",
+      "note": "由削减、毁坏进一步泛指去除、失去。"
+    },
+    {
+      "source_index": 7,
+      "target_index": 8,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "同音通用为‘掘’，挖掘义。"
+    }
+  ]
+}

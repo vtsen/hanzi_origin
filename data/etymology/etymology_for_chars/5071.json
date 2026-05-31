@@ -1,0 +1,121 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "引，拉；挥动（手、衣袖等）",
+      "examples": [
+        "孙子曰：鼓而坐之，十而揄之。",
+        "御者因揄刀而劓美人。",
+        "被发揄袂。",
+        "揄长袂以自翳兮。"
+      ],
+      "traditional_char": "揄"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "提出，拿出",
+      "examples": [
+        "揄策于庙堂之上，未必可用。",
+        "孙子曰：鼓而坐之，十而揄之。"
+      ],
+      "traditional_char": "揄"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "宣扬，称赞（今多用于“揄扬”）",
+      "examples": [
+        "极口揄扬",
+        "雍容揄扬，著于后嗣。"
+      ],
+      "traditional_char": "揄"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "逗引，戏弄（如“揄弄”、“揶揄”）",
+      "examples": [
+        "市人皆大笑，举手邪揄之。",
+        "揄弄"
+      ],
+      "traditional_char": "揄"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "舀取（与“舀”通）",
+      "examples": [
+        "或舂或揄，或簸或蹂。",
+        "揄者，舀之假借。"
+      ],
+      "traditional_char": "揄"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "古代王后祭服和夫人命服（如“揄狄”）",
+      "examples": [
+        "夫人揄狄。",
+        "揄翟"
+      ],
+      "traditional_char": "揄"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "脱，抛弃（通“输”）",
+      "examples": [
+        "揄，脱也。",
+        "《方言》：“输，挩也。”"
+      ],
+      "traditional_char": "揄"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从手，俞声，本义为‘引；挥动’。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由‘引’引申为‘提出，拿出’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "从‘引、挥动（手）’比喻‘宣扬、扬举’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由‘引’引申为‘逗引，戏弄’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "‘揄’假借为‘舀取’，通‘舀’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "metonymy",
+      "note": "‘揄’指‘衣袖挥动’，借指古服‘揄狄’。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "通‘输’，义为脱、抛弃。"
+    }
+  ]
+}

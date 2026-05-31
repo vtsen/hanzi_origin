@@ -1,0 +1,40 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "忧郁、患忧郁病。",
+      "examples": [
+        "瘐瘐（忧郁之病）",
+        "贤人失志，怀忧病也。"
+      ],
+      "traditional_char": "瘐"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "囚犯因饥饿、寒冷、疾病而在狱中生病或死亡。",
+      "examples": [
+        "囚以饥寒而死曰瘐。",
+        "瘐死狱中。",
+        "汉律：囚以饥寒而死曰瘐。"
+      ],
+      "traditional_char": "瘐"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从疒（病）旁，声符为俞（音近于yǔ），本义与疾病相关。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_narrowing",
+      "note": "疾病义狭化为特指囚犯因饥寒而病、死的情形，见于汉代法律用语。"
+    }
+  ]
+}

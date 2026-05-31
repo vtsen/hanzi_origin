@@ -1,0 +1,119 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "水波起伏、摇动的样子",
+      "examples": [
+        "澹，水摇也。——《说文》",
+        "澹兮其若海。——《老子》",
+        "澹淡浮。——班固《西都赋》"
+      ],
+      "traditional_char": "澹"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "淡薄，颜色、味道、情感等浅淡",
+      "examples": [
+        "塞城朝烟澹。——杜甫《两当县吴十侍御江上宅》",
+        "辛而不烈，澹而不薄。——《吕氏春秋·本味》"
+      ],
+      "traditional_char": "澹"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "恬静、安然、淡泊的样子",
+      "examples": [
+        "澹泊明志。",
+        "澹然离言说，悟悦心自足。——柳宗元《晨诣超师院读禅经》",
+        "澹乎若深渊之静。——贾谊《鹏乌赋》"
+      ],
+      "traditional_char": "澹"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "减轻、消除（如灾害、忧愁等）",
+      "examples": [
+        "洒沈澹灾，东归之于海。——《汉书·司马相如传下》",
+        "得雨，灾渐澹。——《清史稿·施世纶传》"
+      ],
+      "traditional_char": "澹"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "古水名或地名，如澹水",
+      "examples": [
+        "澹水承澧水于作唐县。——《水经注》"
+      ],
+      "traditional_char": "澹"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "姓氏，如澹台、澹文昇",
+      "examples": [
+        "孔子有弟子叫澹台灭明。"
+      ],
+      "traditional_char": "澹"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "verb",
+      "meaning": "满足、供给（与“赡”通）",
+      "examples": [
+        "物不能澹则必争。——《荀子·王制》",
+        "未澹下兵也。——《战国策·魏策三》"
+      ],
+      "traditional_char": "澹"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从水，詹声，表示水波摇动的状态。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由水波起伏转为颜色、味道等淡薄，引申为浅淡"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "水的平静比喻人的恬静、安然"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "原指水波渐平，后引申为灾害等减轻、消除"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "metonymy",
+      "note": "以水波特性名河流、地名"
+    },
+    {
+      "source_index": 4,
+      "target_index": 5,
+      "evolution_type": "synecdoche",
+      "note": "以地名为氏，形成姓氏用法"
+    },
+    {
+      "source_index": 0,
+      "target_index": 6,
+      "evolution_type": "reanalysis",
+      "note": "与‘赡’通假，语义转为“满足、供给”"
+    }
+  ]
+}

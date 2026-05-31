@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "大蚂蚁，蚍蜉。",
+      "examples": [
+        "蚍蜉撼大树，可笑不自量。",
+        "蚍蜉戴盆"
+      ],
+      "traditional_char": "蜉"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "蜉蝣，一种昆虫，生存在水边，成虫生存期极短，常用以比喻生命短暂。",
+      "examples": [
+        "寄蜉蝣于天地，渺沧海之一粟。",
+        "蜉蝣之羽，衣裳楚楚。"
+      ],
+      "traditional_char": "蜉"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从虫，孚声。最初本指大蚂蚁（蚍蜉）。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_shift",
+      "note": "古文中出现语义转换，蜉由指大蚂蚁转指另一类短命水生昆虫（蜉蝣），可能因分类混淆与同音借用。"
+    }
+  ]
+}

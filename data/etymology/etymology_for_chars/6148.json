@@ -1,0 +1,52 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "哺乳动物，脚短，趾间有蹼，体长七十余厘米。昼伏夜出，善游水，食鱼、蛙等，毛棕褐色，是珍贵的袭皮。（水獭）",
+      "examples": [
+        "水獭生活在江河湖泊附近。"
+      ],
+      "traditional_char": "獺"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "哺乳动物，前肢发达善掘土，毛皮可制衣帽。是鼠疫的传播者。亦称“土拨鼠”。（旱獭）",
+      "examples": [
+        "旱獭常常在草原上打洞。"
+      ],
+      "traditional_char": "獺"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "哺乳动物，体圆而长，毛皮很珍贵。生活在近岸的海洋中。通称“海龙”。（海獭）",
+      "examples": [
+        "海獭喜欢在海上仰泳。"
+      ],
+      "traditional_char": "獺"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从犬，独声，表示一种特定的兽类。最初指水獭（即今水獭）。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由最初专指水獭，后引申指形态、生活习性类似的旱獭。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由最初专指水獭，后引申指生活在海洋中的海獭。"
+    }
+  ]
+}

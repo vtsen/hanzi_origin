@@ -1,0 +1,54 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "日影。",
+      "examples": [
+        "晷度（太阳的影子）",
+        "日晷测定时刻"
+      ],
+      "traditional_char": "晷"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "按照日影测定时刻的仪器，即日晷。",
+      "examples": [
+        "日晷是古代测量时间的工具。"
+      ],
+      "traditional_char": "晷"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "时间。",
+      "examples": [
+        "日无暇晷",
+        "寸晷难得"
+      ],
+      "traditional_char": "晷"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从日，咎声，本义为日影。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "以日影作为计时工具的代指，‘晷’转指太阳影子仪器。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由日影随时间移动，进而引申为时间。"
+    }
+  ]
+}

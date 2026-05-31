@@ -1,0 +1,55 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "疾速，迅疾。",
+      "examples": [
+        "匪车嘌兮。",
+        "嘌嘌，無節度也。"
+      ],
+      "traditional_char": "嘌"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "念唱、说（多指曲折柔曼的唱法或带贬义的不正经说唱）。",
+      "examples": [
+        "胡嘌，胡念亂唱。",
+        "教他有人問著休胡嘌。",
+        "嘌唱——宋时民间一种音调曲折柔曼的唱法"
+      ],
+      "traditional_char": "嘌"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "〔嘌呤〕一种有机化合物，为无色结晶，在人体内气化而成尿酸。",
+      "examples": [
+        "嘌呤是一种有机化合物。"
+      ],
+      "traditional_char": "嘌"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从口，票声，表示疾速之义。现代多认为为形声字，声符“票”表达疾速声音，口旁表与口语、声音相关。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "形容疾速之声转用于形容曲折柔曼、快速的说唱或歌唱语音特征。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "reanalysis",
+      "note": "化学专名“嘌呤”借用古字用于新义，取快速、灵动属性，属于19世纪西学东渐时期造词扩展。"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "一种大型硬鳞鱼类，体长，口在腹下，常指鲟属淡水或咸水鱼，如鲟鱼（sturgeon）。",
+      "examples": [
+        "伯牙鼓琴鱏魚出聽。",
+        "鱘生江中，背如龍，長一二丈。",
+        "鲟鱼的嘴",
+        "江南仲秋天，鱘鼻大如船。"
+      ],
+      "traditional_char": "鱘"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "白鱘的古称，一种大型淡水鱼。",
+      "examples": [
+        "橫江湖之鱣鱘兮，固將制於蟻螻。",
+        "鱘魚無鱗，口近腹下。",
+        "醉鱘骨如白玉。"
+      ],
+      "traditional_char": "鱘"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "“鱘”的简化字，用作鲟鱼的通用名称。",
+      "examples": [
+        "江鲟",
+        "鲟鳇"
+      ],
+      "traditional_char": "鲟"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "“鱘”为形声字，从魚，尋声，表鱼类名，最初指大型硬鳞鱼。"
+    },
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 2,
+      "note": "“鲟”为“鱘”的简化字，鱼旁表类别，存音符“旬”，语义承继。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_narrowing",
+      "note": "古意泛指大型鲟属鱼，后专指白鱘，有历史文献区分。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "conversion",
+      "note": "“鲟”为“鱘”的简化转写，语义与字形随简化演变，20世纪施行。"
+    }
+  ]
+}

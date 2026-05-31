@@ -1,0 +1,70 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "丝缕编成的线或丝缕的组合物。",
+      "examples": [
+        "上有仙人长命绺，中看玉女迎欢绣。",
+        "緯十縷为綹。"
+      ],
+      "traditional_char": "綹"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "一束理顺了的丝、线、须、发等（量词意义）。",
+      "examples": [
+        "五绺须",
+        "一绺青丝",
+        "青丝一綹墮雲鬟，金翦刀鳴不忍看。"
+      ],
+      "traditional_char": "綹"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "衣服因下垂形成的直皱。",
+      "examples": [
+        "打绺儿"
+      ],
+      "traditional_char": "綹"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "用手将髭须、头发等缕缕拢理的动作。",
+      "examples": [
+        "盡着伸着三個指頭在那裏綹鬍子似的不住手的綹。"
+      ],
+      "traditional_char": "綹"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从糸，咎声；最初表丝缕合成的线之意。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由具体‘线/丝缕组合’引申为量词，表示一束丝、线、须、发等。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "因丝缕成束状，类比为衣物上的条状下垂皱纹。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "conversion",
+      "note": "名词转为动词，‘将丝/须成束/缕’动作化。"
+    }
+  ]
+}

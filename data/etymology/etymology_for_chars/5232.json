@@ -1,0 +1,56 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "指中医理论中的六腑（胃、胆、三焦、膀胱、大肠、小肠），也泛指内脏器官。",
+      "examples": [
+        "五脏六腑",
+        "肺腑之言",
+        "腑脏"
+      ],
+      "traditional_char": "腑"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "比喻人的内心、心怀。",
+      "examples": [
+        "走不及回旋，荡摇其心腑。",
+        "保大殚襟腑"
+      ],
+      "traditional_char": "腑"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "通“腐”，指腐烂的。",
+      "examples": [
+        "腑冷（腐烂散落）",
+        "腑水（腐水，臭水）"
+      ],
+      "traditional_char": "腑"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从肉，府声，表示与身体内部器官有关。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由腑为内脏器官引申比喻为人的内心或心怀，常见于文学语境。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "因与“腐”同音，借用表示腐烂的意思，见于部分方言与俗用。"
+    }
+  ]
+}

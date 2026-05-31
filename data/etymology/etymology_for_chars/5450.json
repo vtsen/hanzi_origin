@@ -1,0 +1,70 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "行走時不穩重、不整齊的樣子",
+      "examples": [
+        "邋遢行皃",
+        "遢伎儿"
+      ],
+      "traditional_char": "遢"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "急促行走的樣子",
+      "examples": [
+        "遢邋遢行皃",
+        "文一"
+      ],
+      "traditional_char": "遢"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "輕薄、不謹慎，形容為人不修邊幅",
+      "examples": [
+        "邋遢，不謹事也",
+        "邋遢本"
+      ],
+      "traditional_char": "遢"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "adjective",
+      "meaning": "凹陷的樣子（通“塌”）",
+      "examples": [
+        "粉底靴兒根頭遢（明·孫柚《琴心記·夜亡成都》）"
+      ],
+      "traditional_char": "遢"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "从辶（辵）表行走义，塔声旁，形声字，原指稳行之状。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由穩行擴展至急行，同属动作方式描述。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "因行为不稳重引申为做人不谨慎，形容不修边幅。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "“遢”假借为“塌”，指凹陷貌，音近通用。"
+    }
+  ]
+}

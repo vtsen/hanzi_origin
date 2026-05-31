@@ -1,0 +1,85 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "妇女梳头时抹油用的小刷子",
+      "examples": [
+        "她用抿子梳理头发。"
+      ],
+      "traditional_char": "抿"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "刷，抹",
+      "examples": [
+        "抿头发",
+        "用布抿桌子"
+      ],
+      "traditional_char": "抿"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "（嘴、翅膀等）收敛，稍稍合拢",
+      "examples": [
+        "她抿嘴微笑。",
+        "鸟儿抿着翅膀"
+      ],
+      "traditional_char": "抿"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "收敛嘴唇，少量沾取",
+      "examples": [
+        "轻轻抿酒",
+        "她抿了一口水"
+      ],
+      "traditional_char": "抿"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "verb",
+      "meaning": "擦拭（如抿泣，揩拭眼泪）",
+      "examples": [
+        "她用手帕抿泣。"
+      ],
+      "traditional_char": "抿"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "形声字，从手，岷声。本义与手的动作相关，指用手刷或抹。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "metonymy",
+      "note": "表示动作的器具，动作名转为工具名。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由抹的动作引申为嘴、翅膀等收拢动作。"
+    },
+    {
+      "source_index": 2,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由嘴收敛动作引申为轻轻地沾取液体。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "刷、抹动作进一步用于擦拭泪水。"
+    }
+  ]
+}

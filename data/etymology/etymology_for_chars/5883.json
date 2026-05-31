@@ -1,0 +1,68 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "木槿，一种落叶灌木，花有白、紫、红等色，茎的纤维可造纸，花和种子可入药，常作观赏植物或篱笆。",
+      "examples": [
+        "插槿作籬新。",
+        "顏如花落槿，鬢似雪飄蓬。"
+      ],
+      "traditional_char": "槿"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "木槿的花。",
+      "examples": [
+        "山中習靜觀朝槿。",
+        "槿墜蓬疏池館清。"
+      ],
+      "traditional_char": "槿"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "舊时通“蓳”或“堇”，一种菜名。",
+      "examples": [
+        "聲得鹽梅，響滑榆槿。",
+        "此文‘槿’是‘堇’之假字。"
+      ],
+      "traditional_char": "槿"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "柄，把手。",
+      "examples": [],
+      "traditional_char": "槿"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘槿’为形声字，从‘木’表示义，‘堇’表示声，本义为一种木本植物。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "synecdoche",
+      "note": "以树名指其花，属于部分代整体。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "古籍偶通‘堇’、‘蓳’为菜名，用作借音字，语源上属于假借。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "unknown",
+      "note": "‘柄’义源流不详，见于部分古籍，演变过程存疑。"
+    }
+  ]
+}

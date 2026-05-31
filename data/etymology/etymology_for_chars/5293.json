@@ -1,0 +1,37 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "滁河，水名，源出安徽省，流经滁县至江苏省入长江。",
+      "examples": [
+        "滁河源自安徽东部，东流入江苏境内。"
+      ],
+      "traditional_char": "滁"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "滁州，古州名，今为安徽省滁州市。",
+      "examples": [
+        "环滁皆山也。——欧阳修《醉翁亭记》"
+      ],
+      "traditional_char": "滁"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘滁’从水，余声，为形声字，初造用于表示水名（滁河）;"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metonymy",
+      "note": "州名得名于所流经的滁河，以水代地，见于唐以后地名演变。"
+    }
+  ]
+}

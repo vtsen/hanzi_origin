@@ -1,0 +1,58 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "interjection",
+      "meaning": "表示惊讶的叹词。",
+      "examples": [
+        "嚄，够高的！",
+        "嚄!好大的鱼!",
+        "武帝下车泣曰：“嚄!大姊，何藏之深也!”"
+      ],
+      "traditional_char": "嚄"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "大声呼喊或大笑的声音；多言；鸟叫声。",
+      "examples": [
+        "嚄唶（大笑，大呼。形容气势很盛）",
+        "看的众人齐打夯儿的喝彩，就中也有‘嚄’的一声的，也有‘唶’的一声的，都悄悄的说道：‘这纔是劲头儿呢！’",
+        "韩愈《陆浑山火诗》：‘攒杂啾嚄沸箎埙’"
+      ],
+      "traditional_char": "嚄"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "无味（意为食物没有味道）。",
+      "examples": [
+        "甘而不䬼，肥而不嚄。",
+        "嚄，無味也。",
+        "同“𩟓”，没有味道。"
+      ],
+      "traditional_char": "嚄"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "从口，霍声，表与口语呼喊相关的声音，最初用于表示大声呼喊。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "由大声呼喊的声音，引申为表示惊讶的叹词，如古代文献所见。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "unknown",
+      "note": "大量文献仅记载‘嚄’表示声音，后见‘无味’用法，具体语义演变机制不明。"
+    }
+  ]
+}

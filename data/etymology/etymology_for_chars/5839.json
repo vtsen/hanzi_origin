@@ -1,0 +1,148 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "眼睛昏花，目眩，视觉模糊",
+      "examples": [
+        "予少而游于六合之内，予适有瞀病。——《庄子·徐无鬼》",
+        "既壮而肤革不丰盈，未老而齿发早衰白，瞀然如飞蝇垂珠在眸子中者，动以万数。"
+      ],
+      "traditional_char": "瞀"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "adjective",
+      "meaning": "昏沉混乱，思绪紊乱，心中迷乱",
+      "examples": [
+        "中闷瞀瞀忳忳。——屈原《惜诵》",
+        "厥咎瞀。——《尚书大传》"
+      ],
+      "traditional_char": "瞀"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "愚昧无知，迟钝",
+      "examples": [
+        "世俗之沟犹瞀儒。——《荀子·非十二子》",
+        "惟有其实而不克既其实，使人反瞀于名实之为苦。"
+      ],
+      "traditional_char": "瞀"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "俯视，低头谨慎地看",
+      "examples": [
+        "瞀，低目谨视也。——《说文》",
+        "汤又因瞀光而谋。——《庄子·让王》"
+      ],
+      "traditional_char": "瞀"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "昏暗的样子，昏沉",
+      "examples": [
+        "云连昼已瞀，风助宵仍洶。——宋·王安石《和吴冲卿雪诗》",
+        "阴风振凉野，飞雪瞀穷天。——南朝宋·颜延之《北使洛》"
+      ],
+      "traditional_char": "瞀"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "verb",
+      "meaning": "被发（披散头发）",
+      "examples": [
+        "于是乃去其瞀而载之木，解其剑而带之笏。——《淮南子·道应训》"
+      ],
+      "traditional_char": "瞀"
+    },
+    {
+      "index": 6,
+      "part_of_speech": "noun",
+      "meaning": "头盔，通“鍪”",
+      "examples": [
+        "剑、甲、鞮瞀。——《墨子·备水》",
+        "于 是乃 去 其 瞀 而 载 之 木。——《淮南子·道应训》（假借为“鍪”）"
+      ],
+      "traditional_char": "瞀"
+    },
+    {
+      "index": 7,
+      "part_of_speech": "noun",
+      "meaning": "地名，如“雊瞀”汉代县名",
+      "examples": [
+        "雊瞀，汉县名，属上谷郡。——《汉书·地理志》"
+      ],
+      "traditional_char": "瞀"
+    },
+    {
+      "index": 8,
+      "part_of_speech": "verb",
+      "meaning": "看望（方言用法）",
+      "examples": [
+        "好，我瞀我妹妹去。"
+      ],
+      "traditional_char": "瞀"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从目，敄声，传达‘眼睛昏花’之意。目表意，敄表音。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "眼睛昏花比喻头脑思绪紊乱，先秦时期已见。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由‘混乱’引申为‘愚昧无知’，古书如《荀子》用法。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "因眼花不敢正视或俯视，产生‘低目谨视’义。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "semantic_extension",
+      "note": "‘昏花’引申为‘昏暗’的状态，多现于诗文。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 5,
+      "evolution_type": "unknown",
+      "note": "‘被发’或许从形象延伸，具体路径存疑，见于部分文献。"
+    },
+    {
+      "source_index": 5,
+      "target_index": 6,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "‘瞀’假借为‘鍪’（头盔），主要为声用假借。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 7,
+      "evolution_type": "unknown",
+      "note": "‘雊瞀’地名借音为用，语源关系不明。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 8,
+      "evolution_type": "semantic_shift",
+      "note": "方言义‘看望’源自关注注视，然具体演变链条不详。"
+    }
+  ]
+}

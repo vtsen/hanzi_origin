@@ -1,0 +1,104 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "甜酒。",
+      "examples": [
+        "為酒為醴。《詩·周頌·豐年》",
+        "醴，酒一宿孰也。《说文》",
+        "元王每置酒，常為穆生設醴。《漢書·楚元王交傳》"
+      ],
+      "traditional_char": "醴"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "甘甜的泉水。",
+      "examples": [
+        "地出醴泉。《礼记·礼运》",
+        "醴泉出山。《尚书·中候》",
+        "醴泉涌于清室。《文选·扬雄〈甘泉赋〉》"
+      ],
+      "traditional_char": "醴"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "液汁（如植物流出的汁液）。",
+      "examples": [
+        "仰攀青青枝，木醴何所直？《宋·王安石》",
+        "冬日恒出木醴。《建康实录》"
+      ],
+      "traditional_char": "醴"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "中药剂型之一（药酒）。",
+      "examples": [
+        "早就有了汤、丸、散、醴、饮、膏等药剂制备和应用的记载。《新华半月刊》"
+      ],
+      "traditional_char": "醴"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "通“礼”，礼法、规范、仪式。",
+      "examples": [
+        "出请醴宾。《仪礼·士昏礼》",
+        "若不醴，则醮用酒。《仪礼·士冠礼》"
+      ],
+      "traditional_char": "醴"
+    },
+    {
+      "index": 5,
+      "part_of_speech": "noun",
+      "meaning": "水名（如醴泉、醴水等）。",
+      "examples": [
+        "醴泉县本汉谷口县也。",
+        "又东至于醴。《史记·夏本纪》"
+      ],
+      "traditional_char": "醴"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从酉（表示与酒有关）+豊（lǐ，表音），本义为甜酒。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由甜美的酒比喻甘美的泉水，早见于《礼记》《尔雅》。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由甜酒引申比喻任何甘美的液体，如木汁。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "由原意的甜酒，扩展为中药剂型之一即药酒。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "phonetical_loan_shift",
+      "note": "‘醴’通‘礼’，为同音借用，见于古文仪礼名词。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 5,
+      "evolution_type": "metonymy",
+      "note": "以‘醴泉’为地名（泉水名）及泛指水名。"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "割去牲畜的睾丸或卵巢，使其失去生殖能力。",
+      "examples": [
+        "骟马。",
+        "骟割。",
+        "骟猫。"
+      ],
+      "traditional_char": "騸"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "割去马的睾丸，使马失去生殖能力。",
+      "examples": [
+        "去势曰騸。",
+        "大叔，你騸驢騸馬是行家。"
+      ],
+      "traditional_char": "騸"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "泛指其他动物被阉割。",
+      "examples": [
+        "騸割。",
+        "騸了的獅子。"
+      ],
+      "traditional_char": "騸"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "截去树木的主根以促进生长。",
+      "examples": [
+        "騸諸色果木樹。",
+        "謂之騸樹。"
+      ],
+      "traditional_char": "騸"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 1,
+      "note": "‘騸’形声字，从馬，單声，表示与马类相关，最初指割去马的睾丸。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 1,
+      "target_index": 0,
+      "evolution_type": "semantic_extension",
+      "note": "由专指马被阉割扩展为指牲畜去势，时间与地域扩展。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由专指马扩展为用于其他动物。中古以后文献可证。"
+    },
+    {
+      "source_index": 1,
+      "target_index": 3,
+      "evolution_type": "metaphor",
+      "note": "由对动物阉割引申为对树木主根的去除，比喻断去主根帮助生长。见元人农业书。"
+    }
+  ]
+}

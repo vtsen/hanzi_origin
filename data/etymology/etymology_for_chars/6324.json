@@ -1,0 +1,57 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "adjective",
+      "meaning": "紧迫，急促",
+      "examples": [
+        "穷蹙",
+        "大事已蹙"
+      ],
+      "traditional_char": "蹙"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "皱，收缩",
+      "examples": [
+        "蹙眉",
+        "蹙额",
+        "蹙皱",
+        "蹙缩",
+        "蹙金"
+      ],
+      "traditional_char": "蹙"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "adjective",
+      "meaning": "局促不安",
+      "examples": [
+        "蹙蹙不安"
+      ],
+      "traditional_char": "蹙"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从足表行动、紧迫，戚为声符，原指紧迫、急促。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "metaphor",
+      "note": "由紧迫引申为物体收缩、皱起，常用于眉、额等。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_extension",
+      "note": "由紧迫引伸为心理或空间上的局促不安。"
+    }
+  ]
+}

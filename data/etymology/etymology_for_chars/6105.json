@@ -1,0 +1,39 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "咬，咬食",
+      "examples": [
+        "蛇噬其尾",
+        "狼噬羊"
+      ],
+      "traditional_char": "噬"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "吞食，引申为侵害、残害",
+      "examples": [
+        "吞噬",
+        "嫉贤噬能"
+      ],
+      "traditional_char": "噬"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "形声字，从口，筮声，本义指咬。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "由具体“咬食”引申为“吞食”及抽象的侵害、残害，约见先秦及文献多例。"
+    }
+  ]
+}

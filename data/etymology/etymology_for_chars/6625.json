@@ -1,0 +1,69 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "verb",
+      "meaning": "侦察、刺探、探听，密告。",
+      "examples": [
+        "反间为诇。——《汉书》孟康注",
+        "为中诇长安服虔。——《史记·淮南王传》"
+      ],
+      "traditional_char": "詗"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "verb",
+      "meaning": "求，向人索取。",
+      "examples": [
+        "诇诸史乘，历历可稽。——梁启超文",
+        "明汤显祖有《牡丹亭•詗药》"
+      ],
+      "traditional_char": "詗"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "verb",
+      "meaning": "明悟，了知。",
+      "examples": [
+        "今民儇诇智慧，欲自用，不听上。——《韩非子》"
+      ],
+      "traditional_char": "詗"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "verb",
+      "meaning": "问候。",
+      "examples": [
+        "帝城分不入，书札诇何人？——宋 陈师道《寄答李方叔》诗"
+      ],
+      "traditional_char": "詗"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "‘詗’为形声字，从言，冋声，表示与言语、侦查探听相关，声符冋表音。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_extension",
+      "note": "侦察、探听（原义）可引申为搜求、向人求取，已见明代、近现代文献。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "metaphor",
+      "note": "由‘侦察、探听’喻用为‘明悟、了知’，即抽象认知探究。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "semantic_extension",
+      "note": "侦察之意引申为‘问候’，体现通过探问以关心、打听。"
+    }
+  ]
+}

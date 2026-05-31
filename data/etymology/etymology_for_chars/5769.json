@@ -1,0 +1,93 @@
+{
+  "senses": [
+    {
+      "index": 0,
+      "part_of_speech": "noun",
+      "meaning": "鲟鱼和鳇鱼的古称",
+      "examples": [
+        "《诗经·周颂·潜》：有鱣有鮪，鰷鱨鰋鯉。",
+        "陆璣疏：鮪鱼，形似鱣而色青黑，头小而尖，似铁兜鍪，口在颔下。",
+        "《周礼》：春献王鮪。"
+      ],
+      "traditional_char": "鮪"
+    },
+    {
+      "index": 1,
+      "part_of_speech": "noun",
+      "meaning": "白鲟的古称，又名象鱼、剑鱼、琴鱼。鱼体梭形，裸露无鳞，吻突出如象鼻，为中国特产。",
+      "examples": [
+        "明李时珍《本草纲目·鲟鱼》：其状如鱣，而背上无甲，其鼻长与身等，口在颔下。",
+        "鼻长如象鼻，鳃盖膜如象耳。"
+      ],
+      "traditional_char": "鮪"
+    },
+    {
+      "index": 2,
+      "part_of_speech": "noun",
+      "meaning": "鮪鱼。体呈纺锤形，背部蓝黑色，腹部灰白，尾鳍深分叉，生活于热带或温带海洋，为重要经济鱼类。",
+      "examples": [
+        "今东莱辽东谓之尉鱼。",
+        "现代汉语中所称“鲔鱼”。"
+      ],
+      "traditional_char": "鮪"
+    },
+    {
+      "index": 3,
+      "part_of_speech": "noun",
+      "meaning": "水名，古地名。",
+      "examples": [
+        "鞏县西北临河有周武山，武王伐纣，使胶革御之鮪水上。",
+        "今为河所侵，不知穴之所在。"
+      ],
+      "traditional_char": "鮪"
+    },
+    {
+      "index": 4,
+      "part_of_speech": "noun",
+      "meaning": "“鮪”的简化字。",
+      "examples": [
+        "《现代汉语词典》：鲔，见鮪。",
+        "鲔鱼罐头。"
+      ],
+      "traditional_char": "鲔"
+    }
+  ],
+  "formations": [
+    {
+      "formation_type": "phono_semantic_compound",
+      "original_sense_index": 0,
+      "note": "『鮪』形声字，从鱼，韦声，本义为鱼名（鲟鱼属类）；出现于战国竹简、先秦文献，结构为“鱼”表义，“韦”表音。"
+    },
+    {
+      "formation_type": "simple_indicative",
+      "original_sense_index": 4,
+      "note": "『鲔』为『鮪』的简化字，结构仍为形声，仅将繁体简化。"
+    }
+  ],
+  "edges": [
+    {
+      "source_index": 0,
+      "target_index": 1,
+      "evolution_type": "semantic_shift",
+      "note": "古代“鮪”为鲟鱼类名，后部分地区称白鲟为鮪，分类细化或所指不同；汉晋以降用例。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 2,
+      "evolution_type": "semantic_shift",
+      "note": "近现代，鮪义泛指海洋大型经济鱼类（鮪鱼），本为同属或相似鱼种，地域/物种认知变化。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 3,
+      "evolution_type": "metonymy",
+      "note": "以产鲟鱼之水域称为“鮪水”，水名因物得名。出现于古代典籍。"
+    },
+    {
+      "source_index": 0,
+      "target_index": 4,
+      "evolution_type": "analogy",
+      "note": "简化字“鲔”直接承袭“鮪”所有语义，义项完全等同，现代书写惯例。"
+    }
+  ]
+}

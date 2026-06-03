@@ -212,6 +212,9 @@ function selectChar(ch, card, rank, dayNum) {
     rank ? `Frequency rank: #${rank.toLocaleString()} out of ${freqList.length.toLocaleString()}` : 'Rank: unknown';
   document.getElementById('detail-day-text').textContent = `Scheduled on: Day ${dayNum}`;
 
+  // Historical script images (async — hides itself if none load)
+  renderHistoricalForms(ch);
+
   // Populate etymology fields from charInfo
   const info = charInfo && charInfo[ch];
 
@@ -250,6 +253,71 @@ function selectChar(ch, card, rank, dayNum) {
 
   detail.classList.add('visible');
   detail.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+}
+
+// ---- Historical script forms (Track-A: char-based Wikimedia URLs) ----
+
+const HIST_SCRIPTS = [
+  { suffix: '-oracle',         label: '甲骨文', title: 'Oracle bone script (Shang)' },
+  { suffix: '-bronze-shang',   label: '金文',   title: 'Bronze inscription (Shang)' },
+  { suffix: '-bronze-warring', label: '战国金文', title: 'Bronze inscription (Warring States)' },
+  { suffix: '-silk',           label: '帛书',   title: 'Silk script (Chu)' },
+  { suffix: '-slip',           label: '竹简',   title: 'Slip script' },
+];
+const WIKIMEDIA_PATH = 'https://commons.wikimedia.org/wiki/Special:FilePath/';
+const WIKIMEDIA_FILE_PAGE = 'https://commons.wikimedia.org/wiki/File:';
+
+function renderHistoricalForms(ch) {
+  const el = document.getElementById('detail-historical');
+  el.innerHTML = '';
+  el.style.display = 'none';
+
+  const strip = document.createElement('div');
+  strip.className = 'hist-strip';
+
+  let pending = HIST_SCRIPTS.length;
+  let loaded = 0;
+
+  HIST_SCRIPTS.forEach(({ suffix, label, title }) => {
+    const filename = ch + suffix + '.svg';
+    const imgUrl = WIKIMEDIA_PATH + encodeURIComponent(filename);
+    const pageUrl = WIKIMEDIA_FILE_PAGE + encodeURIComponent(filename);
+
+    const form = document.createElement('a');
+    form.className = 'hist-form';
+    form.href = pageUrl;
+    form.target = '_blank';
+    form.rel = 'noopener noreferrer';
+    form.title = title;
+    form.style.display = 'none'; // shown only on successful load
+
+    const img = new Image();
+    img.className = 'hist-img';
+    img.alt = label;
+
+    img.addEventListener('load', () => {
+      form.style.display = 'flex';
+      loaded++;
+      if (loaded === 1) {
+        // Show section heading + strip on first hit
+        el.innerHTML = '<span class="hist-heading">古文字</span>';
+        el.appendChild(strip);
+        el.style.display = '';
+      }
+    });
+
+    img.addEventListener('error', () => {
+      pending--;
+      // All resolved with no hits — section stays hidden
+    });
+
+    img.src = imgUrl;
+    form.appendChild(img);
+    form.appendChild(Object.assign(document.createElement('span'), {
+      className: 'hist-label', textContent: label,
+    }));
+    strip.appendChild(form);
+  });
 }
 
 // Navigate to search page and run a search for a dependency character

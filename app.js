@@ -69,9 +69,11 @@ function route() {
     showPage('page-home');
     renderHome();
   } else if (hash.startsWith('day/')) {
-    const n = parseInt(hash.split('/')[1], 10);
+    const parts = hash.split('/');
+    const n = parseInt(parts[1], 10);
+    const focusChar = parts[2] ? decodeURIComponent(parts[2]) : null;
     showPage('page-day');
-    renderDay(n);
+    renderDay(n, focusChar);
   } else if (hash === 'search') {
     showPage('page-search');
     focusSearch();
@@ -117,7 +119,7 @@ function renderHome() {
 // ---- Day View ----
 let selectedChar = null;
 
-function renderDay(dayNum) {
+function renderDay(dayNum, focusChar = null) {
   if (!plan) return;
   const days = plan.stats.days_used;
 
@@ -188,6 +190,21 @@ function renderDay(dayNum) {
     card.addEventListener('click', () => selectChar(ch, card, rank, dayNum));
     grid.appendChild(card);
   });
+
+  // Auto-open detail for focusChar if specified in the hash
+  if (focusChar) {
+    const idx = chars.indexOf(focusChar);
+    if (idx !== -1) {
+      // Small delay to let DOM settle, then programmatically select the char
+      setTimeout(() => {
+        const cards = grid.querySelectorAll('.char-card');
+        if (cards[idx]) {
+          cards[idx].click();
+          cards[idx].scrollIntoView({ behavior: 'smooth', block: 'center' });
+        }
+      }, 80);
+    }
+  }
 }
 
 function selectChar(ch, card, rank, dayNum) {
@@ -340,7 +357,7 @@ function renderDepCard(dep) {
   const day = getDayForChar(dep);
   if (day !== undefined) {
     // In plan — navigate directly to that day
-    return `<a class="dep-card" href="#day/${day}" title="Day ${day}">
+    return `<a class="dep-card" href="#day/${day}/${encodeURIComponent(dep)}" title="Day ${day}">
       <span class="dep-card-glyph">${dep}</span>
       <span class="dep-card-day">Day ${day}</span>
     </a>`;

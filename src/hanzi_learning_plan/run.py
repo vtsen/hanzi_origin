@@ -275,7 +275,7 @@ if __name__ == "__main__":
         output_dir=project_root / "data" / "learning_plan",
         w=0.3,
         lambda_val=0.001,
-        L_factor=200,
+        L_factor=30,
         embedding_model="text-embedding-3-small",
         add_phantom_deps=True,
         radical_map_path=project_root / "data" / "radical_map_proposal.json",

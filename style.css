@@ -370,6 +370,87 @@ main {
   font-size: 0.9rem;
 }
 
+/* Meaning snippet on character cards */
+.char-meaning-snippet {
+  display: block;
+  font-size: 0.68rem;
+  color: var(--text-light);
+  line-height: 1.3;
+  margin-top: 0.25rem;
+  /* Keep snippet from overflowing narrow cards */
+  overflow: hidden;
+  word-break: break-all;
+}
+
+/* Meanings list in detail panel */
+.detail-meanings {
+  list-style: none;
+  margin-top: 0.5rem;
+  padding: 0;
+}
+
+.detail-meanings li {
+  font-size: 0.88rem;
+  color: var(--text);
+  line-height: 1.5;
+  padding: 0.1rem 0;
+}
+
+.detail-meanings li + li {
+  border-top: 1px solid var(--border);
+}
+
+/* Formation note — italic, muted, smaller */
+.detail-formation {
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  font-style: italic;
+  margin-top: 0.6rem;
+  line-height: 1.5;
+}
+
+/* Dependencies row */
+.detail-deps {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-top: 0.65rem;
+}
+
+.deps-label {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin-right: 0.15rem;
+}
+
+/* Clickable dep glyph buttons — compact char-card style */
+.dep-glyph {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.4rem;
+  height: 2.4rem;
+  font-size: 1.3rem;
+  background: var(--bg);
+  border: 1.5px solid var(--border);
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  transition: border-color 0.15s, background 0.15s, transform 0.1s;
+  font-family: inherit;
+  color: var(--text);
+  line-height: 1;
+}
+
+.dep-glyph:hover {
+  border-color: var(--accent);
+  background: var(--accent-light);
+  transform: translateY(-1px);
+}
+
 /* ===== Search page ===== */
 .search-bar {
   display: flex;

@@ -9,6 +9,7 @@
 let plan = null;       // the loaded plan JSON
 let rankMap = null;    // char -> 1-based rank (from char_freq_rank.json)
 let freqList = null;   // raw array from char_freq_rank.json
+let charInfo = null;   // char -> {meanings, formation, deps} from char_info.json
 
 // ---- Bootstrap ----
 document.addEventListener('DOMContentLoaded', () => {
@@ -22,13 +23,16 @@ document.addEventListener('DOMContentLoaded', () => {
 async function loadData() {
   showLoading(true);
   try {
-    const [planRes, rankRes] = await Promise.all([
+    const [planRes, rankRes, infoRes] = await Promise.all([
       fetch('data/learning_plan/learning_plan_50days_additive_gap0.3.json'),
       fetch('data/char_freq_rank.json'),
+      fetch('data/char_info.json'),
     ]);
 
     if (!planRes.ok) throw new Error('Failed to load learning_plan_50days_additive_gap0.3.json');
     if (!rankRes.ok) throw new Error('Failed to load char_freq_rank.json');
+    // char_info is optional — don't hard-fail if missing
+    if (infoRes.ok) charInfo = await infoRes.json();
 
     plan = await planRes.json();
     freqList = await rankRes.json();
@@ -166,9 +170,20 @@ function renderDay(dayNum) {
     const rank = rankMap[ch] ?? null;
     const card = document.createElement('div');
     card.className = 'char-card';
+
+    // Build meaning snippet: first meaning, truncated to ~30 chars
+    let snippetHtml = '';
+    const info = charInfo && charInfo[ch];
+    if (info && info.meanings && info.meanings.length > 0) {
+      let snippet = info.meanings[0];
+      if (snippet.length > 30) snippet = snippet.slice(0, 30) + '…';
+      snippetHtml = `<span class="char-meaning-snippet">${snippet}</span>`;
+    }
+
     card.innerHTML = `
       <span class="char-glyph">${ch}</span>
       <span class="char-rank">${rank ? '#' + rank.toLocaleString() : '—'}</span>
+      ${snippetHtml}
     `;
     card.addEventListener('click', () => selectChar(ch, card, rank, dayNum));
     grid.appendChild(card);
@@ -190,14 +205,65 @@ function selectChar(ch, card, rank, dayNum) {
   card.classList.add('selected');
   selectedChar = ch;
 
-  // Populate detail panel
+  // Populate detail panel — core fields
   document.getElementById('detail-glyph').textContent = ch;
   document.getElementById('detail-char-text').textContent = `Character: ${ch}`;
   document.getElementById('detail-rank-text').textContent =
     rank ? `Frequency rank: #${rank.toLocaleString()} out of ${freqList.length.toLocaleString()}` : 'Rank: unknown';
   document.getElementById('detail-day-text').textContent = `Scheduled on: Day ${dayNum}`;
+
+  // Populate etymology fields from charInfo
+  const info = charInfo && charInfo[ch];
+
+  const meaningsEl = document.getElementById('detail-meanings');
+  const formationEl = document.getElementById('detail-formation');
+  const depsEl = document.getElementById('detail-deps');
+
+  if (info && info.meanings && info.meanings.length > 0) {
+    meaningsEl.innerHTML = info.meanings
+      .map(m => `<li>${m}</li>`)
+      .join('');
+    meaningsEl.style.display = '';
+  } else {
+    meaningsEl.innerHTML = '';
+    meaningsEl.style.display = 'none';
+  }
+
+  if (info && info.formation) {
+    formationEl.textContent = info.formation;
+    formationEl.style.display = '';
+  } else {
+    formationEl.textContent = '';
+    formationEl.style.display = 'none';
+  }
+
+  if (info && info.deps && info.deps.length > 0) {
+    // Label + clickable dep glyphs that trigger a search
+    depsEl.innerHTML = `<span class="deps-label">Builds on:</span>` +
+      info.deps.map(dep =>
+        `<button class="dep-glyph" onclick="searchDep('${dep}')">${dep}</button>`
+      ).join('');
+    depsEl.style.display = '';
+  } else {
+    depsEl.innerHTML = '';
+    depsEl.style.display = 'none';
+  }
+
   detail.classList.add('visible');
   detail.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+}
+
+// Navigate to search page and run a search for a dependency character
+function searchDep(ch) {
+  window.location.hash = 'search';
+  // Small delay to let the page render before filling the input
+  setTimeout(() => {
+    const input = document.getElementById('search-input');
+    if (input) {
+      input.value = ch;
+      runSearch(ch);
+    }
+  }, 60);
 }
 
 function goToDay(n) {

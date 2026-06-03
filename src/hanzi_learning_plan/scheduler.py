@@ -229,41 +229,71 @@ def greedy_schedule(
     # Prereq sets for dependency-overlap similarity (built once, reused per day)
     prereq_sets: Dict[int, set] = {n.id: set(n.prereqs) for n in nodes}
 
-    # Max-heap keyed by (-importance, id) for stable ordering
-    heap: List[Tuple[float, int]] = []
+    # Separate ready queues: phantoms are free (no quota); reals count toward M
+    phantom_ready: deque = deque()
+    real_heap: List[Tuple[float, int]] = []
     for n in nodes:
         if in_degree[n.id] == 0:
-            heapq.heappush(heap, (-n.importance, n.id))
+            if n.is_phantom:
+                phantom_ready.append(n.id)
+            else:
+                heapq.heappush(real_heap, (-n.importance, n.id))
 
     completed: set = set()
     schedule: List[List[int]] = []
 
+    def _mark_ready(nid: int) -> None:
+        """Called when in_degree[nid] hits 0."""
+        n = node_map[nid]
+        if n.is_phantom:
+            phantom_ready.append(nid)
+        else:
+            heapq.heappush(real_heap, (-n.importance, nid))
+
     for _day in range(N):
-        if not heap:
+        if not phantom_ready and not real_heap:
             break
 
-        # --- Pull top-L candidates (lazy-delete completed) ---
+        # --- Auto-schedule all ready phantoms for free (no quota impact) ---
+        today_ids: List[int] = []
+        while phantom_ready:
+            nid = phantom_ready.popleft()
+            if nid in completed:
+                continue
+            today_ids.append(nid)
+            completed.add(nid)
+            for child_id in children[nid]:
+                in_degree[child_id] -= 1
+                if in_degree[child_id] == 0:
+                    _mark_ready(child_id)
+
+        if not real_heap:
+            if today_ids:
+                schedule.append(today_ids)
+            break
+
+        # --- Pull top-L real candidates (lazy-delete completed) ---
         candidates: List[CondensedNode] = []
         temp: List[Tuple[float, int]] = []
-        while heap and len(candidates) < L:
-            neg_imp, nid = heapq.heappop(heap)
+        while real_heap and len(candidates) < L:
+            neg_imp, nid = heapq.heappop(real_heap)
             if nid in completed:
                 continue
             candidates.append(node_map[nid])
             temp.append((neg_imp, nid))
-        # Restore unconsumed candidates to heap
         for item in temp:
-            heapq.heappush(heap, item)
+            heapq.heappush(real_heap, item)
 
         if not candidates:
+            if today_ids:
+                schedule.append(today_ids)
             break
 
-        # --- Greedy selection within day ---
-        today_ids: List[int] = []
+        # --- Greedy selection of up to M real nodes ---
         today_nodes: List[CondensedNode] = []
         remaining = list(candidates)
 
-        while len(today_ids) < M and remaining:
+        while len(today_nodes) < M and remaining:
             best_score = -1e18
             best_idx = -1
             n_today = len(today_nodes)
@@ -306,12 +336,12 @@ def greedy_schedule(
             today_nodes.append(chosen)
             completed.add(chosen.id)
 
-        # Update in-degrees for children
-        for nid in today_ids:
-            for child_id in children[nid]:
+        # Update in-degrees for children of newly scheduled real nodes
+        for node in today_nodes:
+            for child_id in children[node.id]:
                 in_degree[child_id] -= 1
                 if in_degree[child_id] == 0:
-                    heapq.heappush(heap, (-node_map[child_id].importance, child_id))
+                    _mark_ready(child_id)
 
         schedule.append(today_ids)
 
@@ -486,7 +516,9 @@ def swap_local_search(
     """
     node_map = {n.id: n for n in nodes}
     scheduled_set = {nid for day in schedule for nid in day}
-    scheduled_list = sorted(scheduled_set)
+    # Phantoms are free structural nodes — exclude from swaps and coherence
+    real_set = {nid for nid in scheduled_set if not node_map[nid].is_phantom}
+    scheduled_list = sorted(real_set)
     D = len(schedule)
     prereq_sets: Dict[int, set] = {n.id: set(n.prereqs) for n in nodes}
 
@@ -537,16 +569,22 @@ def swap_local_search(
         def _sim_lookup(nid_a: int, nid_b: int) -> float:
             return float(sim_matrix[idx_of[nid_a], idx_of[nid_b]])
 
-    # Per-day pairwise similarity sums (using cache)
+    # Per-day real-node lists (exclude phantoms from coherence calculation)
+    real_day: Dict[int, List[int]] = {
+        d: [nid for nid in day if nid in real_set]
+        for d, day in enumerate(schedule)
+    }
+
+    # Per-day pairwise similarity sums (real nodes only)
     pair_sums: Dict[int, float] = {}
-    for d, day in enumerate(schedule):
-        if len(day) < 2:
+    for d, rday in real_day.items():
+        if len(rday) < 2:
             pair_sums[d] = 0.0
         else:
             pair_sums[d] = sum(
-                _sim_lookup(day[i], day[j])
-                for i in range(len(day))
-                for j in range(i + 1, len(day))
+                _sim_lookup(rday[i], rday[j])
+                for i in range(len(rday))
+                for j in range(i + 1, len(rday))
             )
 
     improved = True
@@ -568,7 +606,7 @@ def swap_local_search(
                 if d2 == d1:
                     continue
 
-                for nid_b in list(schedule[d2]):
+                for nid_b in list(real_day[d2]):  # only swap real nodes
                     # Feasibility: A can go to D2
                     if not all(node_day[p] < d2 for p in prereqs_of[nid_a]):
                         continue
@@ -588,17 +626,17 @@ def swap_local_search(
                     elif d2 < N <= d1:
                         dA = node_map[nid_a].importance - node_map[nid_b].importance
 
-                    day1 = schedule[d1]
-                    day2 = schedule[d2]
-                    n1, n2 = len(day1), len(day2)
+                    rday1 = real_day[d1]
+                    rday2 = real_day[d2]
+                    n1, n2 = len(rday1), len(rday2)
 
                     # Coherence delta using precomputed cache — O(M) lookups
-                    sim_a_in_d1 = sum(_sim_lookup(nid_a, j) for j in day1 if j != nid_a)
-                    sim_b_in_d1 = sum(_sim_lookup(nid_b, j) for j in day1 if j != nid_a)
+                    sim_a_in_d1 = sum(_sim_lookup(nid_a, j) for j in rday1 if j != nid_a)
+                    sim_b_in_d1 = sum(_sim_lookup(nid_b, j) for j in rday1 if j != nid_a)
                     ps1_new = pair_sums[d1] - sim_a_in_d1 + sim_b_in_d1
 
-                    sim_b_in_d2 = sum(_sim_lookup(nid_b, j) for j in day2 if j != nid_b)
-                    sim_a_in_d2 = sum(_sim_lookup(nid_a, j) for j in day2 if j != nid_b)
+                    sim_b_in_d2 = sum(_sim_lookup(nid_b, j) for j in rday2 if j != nid_b)
+                    sim_a_in_d2 = sum(_sim_lookup(nid_a, j) for j in rday2 if j != nid_b)
                     ps2_new = pair_sums[d2] - sim_b_in_d2 + sim_a_in_d2
 
                     coh_d1_old = _coh_from_sum(pair_sums[d1], n1)
@@ -609,11 +647,15 @@ def swap_local_search(
                     dB = (coh_d1_new - coh_d1_old + coh_d2_new - coh_d2_old) / D
 
                     if w * dA + (1 - w) * dB > 1e-9:
-                        # Execute swap
+                        # Execute swap in schedule and real_day
                         schedule[d1].remove(nid_a)
                         schedule[d1].append(nid_b)
                         schedule[d2].remove(nid_b)
                         schedule[d2].append(nid_a)
+                        real_day[d1].remove(nid_a)
+                        real_day[d1].append(nid_b)
+                        real_day[d2].remove(nid_b)
+                        real_day[d2].append(nid_a)
                         node_day[nid_a] = d2
                         node_day[nid_b] = d1
                         pair_sums[d1] = ps1_new

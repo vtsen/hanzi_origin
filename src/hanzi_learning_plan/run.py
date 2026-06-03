@@ -68,7 +68,7 @@ def run(
     freq_threshold   : base-importance gate for additive_freq_gated (default=exp(-0.001*2000)≈0.135)
     freq_boost_cap   : linear importance bonus for top-N chars (0 to disable)
                        I = exp(-λ×rank) + max(0, (cap-rank)/cap)
-    dep_beta         : weight of dependency-overlap within coherence score [0,1]
+    dep_beta         : weight of dependency-overlap within coherence score [0,1]; default 0.3
                        coherence = (1-dep_beta)*embedding_sim + dep_beta*dep_overlap_sim
     """
     print("=== Hanzi Learning Plan Generator ===")
@@ -81,7 +81,7 @@ def run(
               f"radical_map={len(radical_map)} entries)...")
     else:
         print(f"\n[1] Loading data (max_chars={max_chars}, phantoms={add_phantom_deps})...")
-    char_deps, char_meanings, char_ranks = build_char_dataset(
+    char_deps, char_meanings, char_ranks, phantom_chars = build_char_dataset(
         dep_forest_dir, chars_json, max_chars=max_chars, freq_json=freq_json,
         add_phantom_deps=add_phantom_deps, radical_map=radical_map,
     )
@@ -106,7 +106,8 @@ def run(
 
     # 4. Condensed graph
     print(f"\n[4] Building condensed dependency graph...")
-    nodes, _ = build_condensed_graph(char_deps, importances, embeddings, char_ranks=char_ranks)
+    nodes, _ = build_condensed_graph(char_deps, importances, embeddings,
+                                     char_ranks=char_ranks, phantom_chars=phantom_chars)
     n_merged = sum(1 for n in nodes if len(n.chars) > 1)
     print(f"    {len(nodes)} nodes ({n_merged} merged SCCs from cycles)")
 
@@ -154,15 +155,18 @@ def run(
     schedule = swap_local_search(schedule, nodes, M=M, N=N, w=w, dep_beta=dep_beta,
                                  max_iters=_swap_max_iters, day_window=_day_window)
 
-    # 7. Build output
+    # 7. Build output (exclude phantom nodes from schedule and coherence)
     print(f"\n[7] Building output...")
     output_schedule: dict = {}
     per_day_stats = []
 
     for d, day_node_ids in enumerate(schedule, 1):
-        day_chars = [ch for nid in day_node_ids for ch in node_map[nid].chars]
+        real_node_ids = [nid for nid in day_node_ids if not node_map[nid].is_phantom]
+        if not real_node_ids:
+            continue  # skip days that only have phantom nodes (dependency-only days)
+        day_chars = [ch for nid in real_node_ids for ch in node_map[nid].chars]
         output_schedule[str(d)] = day_chars
-        coh, _ = day_coherence(day_node_ids, node_map)
+        coh, _ = day_coherence(real_node_ids, node_map)
         per_day_stats.append({
             "day": d,
             "n_chars": len(day_chars),
@@ -276,7 +280,7 @@ if __name__ == "__main__":
         add_phantom_deps=True,
         radical_map_path=project_root / "data" / "radical_map_proposal.json",
         freq_boost_cap=3000,
-        dep_beta=0.1,
+        dep_beta=0.3,
         deadline_factor=5.0,
         deadline_weight=0.5,
     )

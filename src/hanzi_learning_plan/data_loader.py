@@ -190,4 +190,7 @@ def build_char_dataset(
     else:
         print(f"    {len(char_meanings)} real chars loaded")
 
-    return char_deps, char_meanings, char_ranks
+    # Phantom chars: present in char_deps but absent from char_meanings (no freq rank)
+    phantom_chars: set = set(char_deps.keys()) - set(char_meanings.keys())
+
+    return char_deps, char_meanings, char_ranks, phantom_chars

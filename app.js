@@ -325,6 +325,70 @@ function renderHistoricalForms(ch, formation) {
     }));
     strip.appendChild(form);
   });
+
+  // Jiaguwen fallback: if this char has no oracle image, show deps' oracle images
+  // so the learner can see how the components were originally written
+  const deps = charInfo && charInfo[ch] && charInfo[ch].deps || [];
+  if (deps.length === 0) return; // no deps to fall back to
+
+  // Create fallback strip (hidden until at least one dep oracle loads)
+  const fallbackStrip = document.createElement('div');
+  fallbackStrip.className = 'hist-strip hist-fallback-strip';
+
+  let oracleLoaded = false;   // set true if the main char's oracle loads
+  let fallbackLoaded = 0;
+
+  // Intercept the oracle img's load/error to decide whether to show dep fallback
+  const oracleForm = strip.querySelector('a[title="Oracle bone script (Shang)"]');
+  if (oracleForm) {
+    const oracleImg = oracleForm.querySelector('img');
+    if (oracleImg) {
+      oracleImg.addEventListener('load', () => { oracleLoaded = true; });
+      // On error: attempt to show oracle images for each direct dependency
+      oracleImg.addEventListener('error', () => {
+        deps.forEach(dep => {
+          if (dep === ch) return; // skip self-reference cycles
+
+          const filename = dep + '-oracle.svg';
+          const imgUrl = WIKIMEDIA_PATH + encodeURIComponent(filename);
+          const pageUrl = WIKIMEDIA_FILE_PAGE + encodeURIComponent(filename);
+
+          const form = document.createElement('a');
+          form.className = 'hist-form hist-dep-form';
+          form.href = pageUrl;
+          form.target = '_blank';
+          form.rel = 'noopener noreferrer';
+          form.title = `${dep} oracle bone script`;
+          form.style.display = 'none';
+
+          const img = new Image();
+          img.className = 'hist-img';
+          img.alt = dep;
+
+          img.addEventListener('load', () => {
+            form.style.display = 'flex';
+            fallbackLoaded++;
+            if (fallbackLoaded === 1) {
+              // First successful dep oracle — add section heading and strip
+              const heading = document.createElement('span');
+              heading.className = 'hist-heading hist-fallback-heading';
+              heading.textContent = '部件甲骨文';
+              el.appendChild(heading);
+              el.appendChild(fallbackStrip);
+              el.style.display = '';
+            }
+          });
+
+          img.src = imgUrl;
+          form.appendChild(img);
+          form.appendChild(Object.assign(document.createElement('span'), {
+            className: 'hist-label', textContent: dep,
+          }));
+          fallbackStrip.appendChild(form);
+        });
+      });
+    }
+  }
 }
 
 // Navigate to search page and run a search for a dependency character

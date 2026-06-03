@@ -326,29 +326,38 @@ function renderHistoricalForms(ch, formation) {
     strip.appendChild(form);
   });
 
-  // Jiaguwen fallback: if this char has no oracle image, show deps' oracle images
-  // so the learner can see how the components were originally written
-  const deps = charInfo && charInfo[ch] && charInfo[ch].deps || [];
-  if (deps.length === 0) return; // no deps to fall back to
+  // Jiaguwen fallback: if this char has no oracle image, show oracle images of its
+  // component parts.  We go two levels deep (deps + deps-of-deps) so that a dep
+  // like 然 with no oracle of its own still contributes its sub-parts (月, 火).
+  const directDeps = (charInfo && charInfo[ch] && charInfo[ch].deps) || [];
+  if (directDeps.length === 0) return;
 
-  // Create fallback strip (hidden until at least one dep oracle loads)
+  // Collect unique candidate chars: direct deps first, then their deps (deduped)
+  const seen = new Set([ch]); // exclude the char itself
+  const candidates = [];
+  directDeps.forEach(dep => {
+    if (!seen.has(dep)) { seen.add(dep); candidates.push(dep); }
+  });
+  directDeps.forEach(dep => {
+    const subDeps = (charInfo && charInfo[dep] && charInfo[dep].deps) || [];
+    subDeps.forEach(sd => {
+      if (!seen.has(sd)) { seen.add(sd); candidates.push(sd); }
+    });
+  });
+
+  if (candidates.length === 0) return;
+
   const fallbackStrip = document.createElement('div');
   fallbackStrip.className = 'hist-strip hist-fallback-strip';
-
-  let oracleLoaded = false;   // set true if the main char's oracle loads
   let fallbackLoaded = 0;
 
-  // Intercept the oracle img's load/error to decide whether to show dep fallback
   const oracleForm = strip.querySelector('a[title="Oracle bone script (Shang)"]');
   if (oracleForm) {
     const oracleImg = oracleForm.querySelector('img');
     if (oracleImg) {
-      oracleImg.addEventListener('load', () => { oracleLoaded = true; });
-      // On error: attempt to show oracle images for each direct dependency
+      // Only show dep fallback if the main char itself has no oracle image
       oracleImg.addEventListener('error', () => {
-        deps.forEach(dep => {
-          if (dep === ch) return; // skip self-reference cycles
-
+        candidates.forEach(dep => {
           const filename = dep + '-oracle.svg';
           const imgUrl = WIKIMEDIA_PATH + encodeURIComponent(filename);
           const pageUrl = WIKIMEDIA_FILE_PAGE + encodeURIComponent(filename);
@@ -369,7 +378,6 @@ function renderHistoricalForms(ch, formation) {
             form.style.display = 'flex';
             fallbackLoaded++;
             if (fallbackLoaded === 1) {
-              // First successful dep oracle — add section heading and strip
               const heading = document.createElement('span');
               heading.className = 'hist-heading hist-fallback-heading';
               heading.textContent = '部件甲骨文';

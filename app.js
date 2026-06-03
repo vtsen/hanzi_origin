@@ -212,15 +212,14 @@ function selectChar(ch, card, rank, dayNum) {
     rank ? `Frequency rank: #${rank.toLocaleString()} out of ${freqList.length.toLocaleString()}` : 'Rank: unknown';
   document.getElementById('detail-day-text').textContent = `Scheduled on: Day ${dayNum}`;
 
-  // Historical script images (async — hides itself if none load)
-  renderHistoricalForms(ch);
-
   // Populate etymology fields from charInfo
   const info = charInfo && charInfo[ch];
 
   const meaningsEl = document.getElementById('detail-meanings');
-  const formationEl = document.getElementById('detail-formation');
   const depsEl = document.getElementById('detail-deps');
+
+  // Formation text + historical script images rendered together
+  renderHistoricalForms(ch, info && info.formation || '');
 
   // 2b: Render full meaning forest from senses + edges
   if (info && info.senses && info.senses.length > 0) {
@@ -229,14 +228,6 @@ function selectChar(ch, card, rank, dayNum) {
   } else {
     meaningsEl.innerHTML = '';
     meaningsEl.style.display = 'none';
-  }
-
-  if (info && info.formation) {
-    formationEl.textContent = info.formation;
-    formationEl.style.display = '';
-  } else {
-    formationEl.textContent = '';
-    formationEl.style.display = 'none';
   }
 
   // 2a: Dep cards with day links
@@ -267,16 +258,22 @@ const HIST_SCRIPTS = [
 const WIKIMEDIA_PATH = 'https://commons.wikimedia.org/wiki/Special:FilePath/';
 const WIKIMEDIA_FILE_PAGE = 'https://commons.wikimedia.org/wiki/File:';
 
-function renderHistoricalForms(ch) {
+function renderHistoricalForms(ch, formation) {
   const el = document.getElementById('detail-historical');
   el.innerHTML = '';
   el.style.display = 'none';
 
+  // Formation text (construction logic) — always show if present, images appear below
+  if (formation) {
+    const formEl = document.createElement('p');
+    formEl.className = 'hist-formation';
+    formEl.textContent = formation;
+    el.appendChild(formEl);
+    el.style.display = '';
+  }
+
   const strip = document.createElement('div');
   strip.className = 'hist-strip';
-
-  let pending = HIST_SCRIPTS.length;
-  let loaded = 0;
 
   HIST_SCRIPTS.forEach(({ suffix, label, title }) => {
     const filename = ch + suffix + '.svg';
@@ -297,18 +294,11 @@ function renderHistoricalForms(ch) {
 
     img.addEventListener('load', () => {
       form.style.display = 'flex';
-      loaded++;
-      if (loaded === 1) {
-        // Show section heading + strip on first hit
-        el.innerHTML = '<span class="hist-heading">古文字</span>';
+      // Append strip to container on first successful image
+      if (!strip.parentNode) {
         el.appendChild(strip);
         el.style.display = '';
       }
-    });
-
-    img.addEventListener('error', () => {
-      pending--;
-      // All resolved with no hits — section stays hidden
     });
 
     img.src = imgUrl;

@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hanzi Learning Plan</title>
+  <meta name="description" content="A structured 150-day plan to learn 3,000 Chinese characters, scheduled by frequency and coherence." />
+
+  <!-- Noto Sans SC from Google Fonts — renders Chinese characters cleanly -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700;800&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- ===== Navigation ===== -->
+<nav>
+  <a class="nav-brand" href="#home">汉字 <span>Learning Plan</span></a>
+  <ul class="nav-links">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#day/1">Days</a></li>
+    <li><a href="#search">Search</a></li>
+    <li><a href="#overview">Overview</a></li>
+  </ul>
+</nav>
+
+<!-- ===== Loading screen ===== -->
+<div id="loading-screen" style="display:flex;align-items:center;justify-content:center;height:calc(100vh - 52px);">
+  <p class="loading">Loading learning plan</p>
+</div>
+
+<!-- ===== Tooltip (shared) ===== -->
+<div class="tooltip" id="grid-tooltip"></div>
+
+<!-- ===== Page: Home ===== -->
+<div id="page-home" class="page">
+  <main>
+    <div class="hero">
+      <h1><span class="hanzi-title">汉字</span> Learning Plan</h1>
+      <p class="subtitle">
+        A data-driven, frequency-ordered schedule for learning Chinese characters —
+        optimized so each day's characters share meaningful connections.
+      </p>
+
+      <div class="stats-grid">
+        <div class="stat-card">
+          <div class="stat-value" id="stat-chars">3,189</div>
+          <div class="stat-label">Characters</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-value" id="stat-days">150</div>
+          <div class="stat-label">Days</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-value" id="stat-avg">~20</div>
+          <div class="stat-label">Per day</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-value" id="stat-coherence">—</div>
+          <div class="stat-label">Avg coherence</div>
+        </div>
+      </div>
+
+      <div style="display:flex;gap:.75rem;justify-content:center;flex-wrap:wrap;">
+        <a href="#day/1" class="btn btn-primary">Start Learning — Day 1</a>
+        <a href="#overview" class="btn btn-secondary">See Full Overview</a>
+      </div>
+    </div>
+
+    <!-- About section -->
+    <div style="max-width:660px;margin:0 auto;padding-top:1rem;">
+      <div class="section-header">
+        <h2>About this plan</h2>
+      </div>
+      <div style="background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:1.5rem;box-shadow:var(--shadow);">
+        <p style="margin-bottom:1rem;color:var(--text-muted);font-size:.95rem;">
+          Characters are ordered by <strong>frequency</strong> (most-used first) with a
+          <strong>coherence bonus</strong> — each day's batch is grouped so characters share
+          semantic or structural connections, making them easier to memorize together.
+        </p>
+        <p style="color:var(--text-muted);font-size:.95rem;">
+          The <strong>coherence score</strong> (0–1) measures how semantically related
+          the characters in a given day's batch are to each other. Higher means more
+          tightly clustered; lower means more diverse.
+        </p>
+      </div>
+    </div>
+  </main>
+</div>
+
+<!-- ===== Page: Day View ===== -->
+<div id="page-day" class="page">
+  <main>
+    <div class="day-header">
+      <h2 id="day-title">Day 1</h2>
+      <div class="day-nav">
+        <button id="btn-prev-day" class="btn btn-secondary btn-sm">← Prev</button>
+        <input type="number" id="day-input" min="1" max="150" value="1" />
+        <button id="btn-next-day" class="btn btn-secondary btn-sm">Next →</button>
+      </div>
+    </div>
+
+    <div class="day-meta">
+      <span id="coherence-badge" class="coherence-badge"></span>
+      <span id="char-count-badge" class="char-count-badge"></span>
+    </div>
+
+    <!-- Expanded detail for selected character -->
+    <div id="char-detail" class="char-detail">
+      <div class="char-detail-glyph" id="detail-glyph"></div>
+      <div class="char-detail-info">
+        <h3 id="detail-char-text"></h3>
+        <p class="detail-rank" id="detail-rank-text"></p>
+        <p class="detail-rank" id="detail-day-text"></p>
+      </div>
+    </div>
+
+    <!-- Character grid -->
+    <div id="char-grid" class="char-grid"></div>
+
+    <p style="font-size:.82rem;color:var(--text-muted);margin-top:.5rem;">
+      Click a character to see its frequency rank.
+    </p>
+  </main>
+</div>
+
+<!-- ===== Page: Search ===== -->
+<div id="page-search" class="page">
+  <main>
+    <div class="section-header">
+      <h2>Search</h2>
+      <span class="muted">Find a character or jump to a day</span>
+    </div>
+
+    <form id="search-form" class="search-bar" autocomplete="off">
+      <input
+        type="text"
+        id="search-input"
+        class="search-input"
+        placeholder="Type a character (e.g. 人) or a day number (e.g. 42)"
+        maxlength="20"
+      />
+      <button type="submit" class="btn btn-primary">Search</button>
+    </form>
+
+    <div id="search-results"></div>
+
+    <div style="margin-top:2rem;padding:1.25rem 1.5rem;background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);font-size:.88rem;color:var(--text-muted);">
+      <strong>Tips:</strong>
+      <ul style="margin-top:.5rem;padding-left:1.25rem;line-height:2;">
+        <li>Type a single Chinese character to find which day it is scheduled.</li>
+        <li>Paste multiple characters (e.g. 人口日) to look up several at once.</li>
+        <li>Type a number (1–150) to see all characters for that day.</li>
+      </ul>
+    </div>
+  </main>
+</div>
+
+<!-- ===== Page: Overview ===== -->
+<div id="page-overview" class="page">
+  <main>
+    <div class="section-header">
+      <h2>150-Day Overview</h2>
+      <span class="muted">Each cell = one day. Click to open.</span>
+    </div>
+
+    <div class="overview-legend">
+      <span>Coherence:</span>
+      <div class="legend-strip">
+        <div class="legend-swatch" style="background:hsl(120,38%,88%)"></div>
+        <span>Low</span>
+      </div>
+      <div class="legend-strip">
+        <div class="legend-swatch" style="background:hsl(133,56%,57%)"></div>
+        <span>Mid</span>
+      </div>
+      <div class="legend-strip">
+        <div class="legend-swatch" style="background:hsl(145,74%,26%)"></div>
+        <span>High</span>
+      </div>
+      <span style="margin-left:.5rem;font-size:.78rem;">(hover for details)</span>
+    </div>
+
+    <div id="overview-grid" class="days-grid"></div>
+
+    <div style="margin-top:1.5rem;padding:1.1rem 1.4rem;background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);font-size:.88rem;color:var(--text-muted);">
+      <strong>Coherence</strong> measures how semantically related the characters in a day's
+      batch are — darker green indicates a more tightly grouped day.
+      The average across all days is shown on the home page.
+    </div>
+  </main>
+</div>
+
+<!-- ===== Footer ===== -->
+<footer>
+  Hanzi Learning Plan &mdash; built with frequency data and semantic coherence scoring.
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>

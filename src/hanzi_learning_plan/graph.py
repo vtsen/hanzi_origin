@@ -79,12 +79,14 @@ class CondensedNode:
     importance: float
     embedding: Optional[np.ndarray]
     prereqs: List[int] = field(default_factory=list)   # ids of prerequisite nodes
+    base_rank: float = 99999.0  # min rank among all chars in SCC (most important char)
 
 
 def build_condensed_graph(
     char_deps: Dict[str, List[str]],
     importances: Dict[str, float],
     embeddings: Dict[str, np.ndarray],
+    char_ranks: Optional[Dict[str, int]] = None,
 ) -> Tuple[List[CondensedNode], Dict[str, int]]:
     """
     Build a condensed DAG from raw char dependencies.
@@ -136,12 +138,19 @@ def build_condensed_graph(
             if char_to_scc.get(dep, scc_id) != scc_id
         })
 
+        # base_rank = min rank among SCC members (lower rank = more important)
+        if char_ranks:
+            br = min(char_ranks.get(ch, 99999) for ch in scc)
+        else:
+            br = 99999.0
+
         nodes.append(CondensedNode(
             id=scc_id,
             chars=scc,
             importance=imp,
             embedding=emb,
             prereqs=prereq_ids,
+            base_rank=float(br),
         ))
 
     return nodes, char_to_scc

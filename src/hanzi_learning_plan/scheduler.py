@@ -203,16 +203,21 @@ def greedy_schedule(
     dep_beta: float = 0.0,
     deadline_factor: float = 0.0,   # 0 = disabled; try 5.0
     deadline_weight: float = 0.5,   # how hard the penalty hits
+    importance_cap_factor: float = 0.0,
 ) -> List[List[int]]:
     """
     Greedy topological batching.
     Returns schedule: list of up to N day-lists, each containing node ids.
 
-    dep_beta : weight of dependency-overlap similarity within the coherence term.
-               coherence = (1-dep_beta)*embedding_sim + dep_beta*dep_overlap_sim
-               Higher values cluster chars that share the same immediate
-               prerequisite; 0.5 gives dep-overlap equal weight to embeddings.
-               0.3–0.5 is a good range; above 0.7 may over-cluster rare radicals.
+    dep_beta             : weight of dependency-overlap similarity within the coherence term.
+                           coherence = (1-dep_beta)*embedding_sim + dep_beta*dep_overlap_sim
+                           Higher values cluster chars sharing the same immediate prereq;
+                           0.5 gives dep-overlap equal weight to embeddings.
+    importance_cap_factor: heap priority = min(propagated_importance, cap × raw_importance).
+                           Caps how much additive_gap propagation can boost rare chars.
+                           A node with low raw importance (e.g. rank 8000) cannot displace
+                           frequent chars in the candidate pool even if it unlocks something
+                           common.  0 disables the cap (full propagated importance used).
     """
     L = L_factor * M
     node_map = {n.id: n for n in nodes}
@@ -229,6 +234,12 @@ def greedy_schedule(
     # Prereq sets for dependency-overlap similarity (built once, reused per day)
     prereq_sets: Dict[int, set] = {n.id: set(n.prereqs) for n in nodes}
 
+    def _heap_priority(n: CondensedNode) -> float:
+        """Propagated importance, optionally capped to cap_factor × raw_importance."""
+        if importance_cap_factor > 0 and n.raw_importance > 0:
+            return min(n.importance, importance_cap_factor * n.raw_importance)
+        return n.importance
+
     # Separate ready queues: phantoms are free (no quota); reals count toward M
     phantom_ready: deque = deque()
     real_heap: List[Tuple[float, int]] = []
@@ -237,7 +248,7 @@ def greedy_schedule(
             if n.is_phantom:
                 phantom_ready.append(n.id)
             else:
-                heapq.heappush(real_heap, (-n.importance, n.id))
+                heapq.heappush(real_heap, (-_heap_priority(n), n.id))
 
     completed: set = set()
     schedule: List[List[int]] = []
@@ -248,7 +259,7 @@ def greedy_schedule(
         if n.is_phantom:
             phantom_ready.append(nid)
         else:
-            heapq.heappush(real_heap, (-n.importance, nid))
+            heapq.heappush(real_heap, (-_heap_priority(n), nid))
 
     for _day in range(N):
         if not phantom_ready and not real_heap:

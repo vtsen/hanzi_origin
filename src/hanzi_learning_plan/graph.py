@@ -81,6 +81,7 @@ class CondensedNode:
     prereqs: List[int] = field(default_factory=list)   # ids of prerequisite nodes
     base_rank: float = 99999.0  # min rank among all chars in SCC (most important char)
     is_phantom: bool = False    # True when every char in the SCC lacks a freq rank
+    raw_importance: float = 0.0  # importance BEFORE propagation; used to cap scheduler priority
 
 
 def build_condensed_graph(

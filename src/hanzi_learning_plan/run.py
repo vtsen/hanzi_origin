@@ -45,6 +45,7 @@ def run(
     deadline_factor: float = 5.0,
     deadline_weight: float = 0.5,
     freq_early_weight: float = 0.0,
+    importance_cap_factor: float = 0.0,
 ) -> dict:
     """
     Full pipeline: load data → embed → build graph → schedule → local search → save.
@@ -76,9 +77,15 @@ def run(
     dep_beta          : dependency-overlap weight in coherence [0, 1]
                         coherence = (1-dep_beta)×embedding_sim + dep_beta×dep_overlap_sim
                         0.5 gives equal weight to structural and semantic similarity
-    freq_early_weight : swap bias that rewards moving high-importance chars earlier:
-                        Δ = (imp_B − imp_A) × (d2 − d1) / D added to swap score.
-                        Values in [0.1, 0.5] are effective; 0 disables the term.
+    freq_early_weight   : swap bias that rewards moving high-importance chars earlier:
+                          Δ = (imp_B − imp_A) × (d2 − d1) / D added to swap score.
+                          Values in [0.1, 0.5] are effective; 0 disables the term.
+    importance_cap_factor: greedy heap priority = min(propagated, cap × raw_importance).
+                          Prevents additive_gap from pulling rare prereqs into early
+                          days — e.g. rank-8000 chars can't compete with rank-100 chars
+                          even if they unlock something common.
+                          0 disables the cap (pure propagated importance).
+                          20–30 is a good range for plan50.
     """
     print("=== Hanzi Learning Plan Generator ===")
 
@@ -120,14 +127,21 @@ def run(
     n_merged = sum(1 for n in nodes if len(n.chars) > 1)
     print(f"    {len(nodes)} nodes ({n_merged} merged SCCs from cycles)")
 
-    # 4b. Importance propagation (not used in JIT mode — urgency is dynamic)
+    # 4b. Snapshot raw importance BEFORE propagation so the greedy scheduler can
+    # cap heap priority at (importance_cap_factor × raw_importance).  This prevents
+    # rare prereqs (e.g. rank-8000 radicals) from being pulled into early days purely
+    # because additive_gap propagation boosted them to unlock a common char.
+    for n in nodes:
+        n.raw_importance = n.importance
+
+    # 4c. Importance propagation (not used in JIT mode — urgency is dynamic)
     if importance_mode != "jit":
-        print(f"\n[4b] Importance propagation: mode={importance_mode}" +
+        print(f"\n[4c] Importance propagation: mode={importance_mode}" +
               (f", decay={importance_decay}" if importance_mode == "decayed" else ""))
         propagate_importance(nodes, mode=importance_mode, decay=importance_decay,
                              freq_threshold=freq_threshold)
     else:
-        print(f"\n[4b] JIT mode: skipping static propagation (urgency computed dynamically)")
+        print(f"\n[4c] JIT mode: skipping static propagation (urgency computed dynamically)")
 
     # 5. Greedy schedule
     print(f"\n[5] Greedy scheduling (M={M}, N={N}, w={w}, L={L_factor}*M={L_factor*M})...")
@@ -138,7 +152,8 @@ def run(
                                        deadline_factor=deadline_factor, deadline_weight=deadline_weight)
     else:
         schedule = greedy_schedule(nodes, M=M, N=N, w=w, L_factor=L_factor, dep_beta=dep_beta,
-                                   deadline_factor=deadline_factor, deadline_weight=deadline_weight)
+                                   deadline_factor=deadline_factor, deadline_weight=deadline_weight,
+                                   importance_cap_factor=importance_cap_factor)
     n_scheduled = sum(len(d) for d in schedule)
     print(f"    {n_scheduled} nodes across {len(schedule)} days")
 
@@ -294,6 +309,7 @@ if __name__ == "__main__":
         deadline_factor=5.0,
         deadline_weight=0.5,
         freq_early_weight=0.3,
+        importance_cap_factor=20.0,
     )
 
     results = {}

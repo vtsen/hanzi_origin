@@ -210,9 +210,9 @@ def greedy_schedule(
 
     dep_beta : weight of dependency-overlap similarity within the coherence term.
                coherence = (1-dep_beta)*embedding_sim + dep_beta*dep_overlap_sim
-               Encourages chars sharing the same immediate prerequisite to be
-               grouped on the same day.  Keep small (e.g. 0.1) so embeddings
-               remain the dominant coherence signal.
+               Higher values cluster chars that share the same immediate
+               prerequisite; 0.5 gives dep-overlap equal weight to embeddings.
+               0.3–0.5 is a good range; above 0.7 may over-cluster rare radicals.
     """
     L = L_factor * M
     node_map = {n.id: n for n in nodes}
@@ -505,14 +505,33 @@ def swap_local_search(
     max_iters: int = 200,
     dep_beta: float = 0.0,
     day_window: int = 15,
+    freq_early_weight: float = 0.0,
 ) -> List[List[int]]:
     """
     Improve schedule via pairwise swaps: pick nodes A (on day D1) and B (on day D2),
-    swap if it improves the objective w*importance_term + (1-w)*coherence_term.
-    Swaps keep day sizes constant, so the capacity constraint is always satisfied.
+    swap if it improves the combined objective:
 
-    Uses a precomputed pairwise similarity cache for O(1) per-pair lookups, making
-    large plans tractable.  day_window limits the search to ±day_window days.
+        w * dA  +  (1-w) * dB  +  freq_early_weight * d_freq_early  > 0
+
+    where:
+      dA            — importance delta (non-zero only when crossing the N-day boundary)
+      dB            — normalised coherence delta across both affected days
+      d_freq_early  — (imp_B − imp_A) × (d2 − d1) / D
+                      Positive when the swap moves the higher-importance node to an
+                      earlier day; drives frequent chars toward the front of the plan
+                      independent of the N-boundary crossing.
+
+    Swaps keep day sizes constant (capacity constraint always satisfied).
+    Uses a precomputed pairwise similarity cache for O(1) per-pair lookups.
+    day_window limits the search to ±day_window days around each node.
+    Phantoms are excluded from swaps and from coherence calculations.
+
+    Parameters
+    ----------
+    dep_beta         : weight of dependency-overlap within the mixed similarity
+                       coherence = (1-dep_beta)*embedding_sim + dep_beta*dep_overlap_sim
+    freq_early_weight: bonus weight for moving high-importance chars earlier.
+                       Values in [0.1, 0.5] are effective; 0 disables the term.
     """
     node_map = {n.id: n for n in nodes}
     scheduled_set = {nid for day in schedule for nid in day}
@@ -646,7 +665,14 @@ def swap_local_search(
 
                     dB = (coh_d1_new - coh_d1_old + coh_d2_new - coh_d2_old) / D
 
-                    if w * dA + (1 - w) * dB > 1e-9:
+                    # Frequency-earliness bonus: reward moving higher-importance
+                    # chars to earlier days regardless of N-boundary crossing.
+                    d_freq_early = (
+                        (node_map[nid_b].importance - node_map[nid_a].importance)
+                        * (d2 - d1) / D
+                    ) if freq_early_weight > 0 else 0.0
+
+                    if w * dA + (1 - w) * dB + freq_early_weight * d_freq_early > 1e-9:
                         # Execute swap in schedule and real_day
                         schedule[d1].remove(nid_a)
                         schedule[d1].append(nid_b)

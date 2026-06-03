@@ -44,32 +44,41 @@ def run(
     dep_beta: float = 0.1,
     deadline_factor: float = 5.0,
     deadline_weight: float = 0.5,
+    freq_early_weight: float = 0.0,
 ) -> dict:
     """
     Full pipeline: load data → embed → build graph → schedule → local search → save.
 
     Parameters
     ----------
-    dep_forest_dir   : directory containing dep_forest chunk JSONs
-    chars_json       : path to data/chars.json (fallback rank source)
-    embeddings_path  : where to cache/load OpenAI embeddings
-    output_dir       : where to write the learning plan JSON
-    M                : max chars per day
-    N                : number of days to plan
-    w                : weight for importance vs. semantic coherence [0,1]
-    lambda_val       : decay coefficient for importance = exp(-lambda * rank)
-    L_factor         : candidate pool size = L_factor * M
-    max_chars        : if set, only use the top-max_chars by frequency rank
-    embedding_model  : OpenAI embedding model name
-    freq_json        : path to char_freq_rank.json (ordered list of chars by frequency)
-    importance_mode  : "raw" | "max_descendant" | "decayed" | "additive" | "additive_freq_gated"
-    importance_decay : decay factor / α coefficient for propagation modes
-    add_phantom_deps : inject phantom nodes for deps missing from the universe
-    freq_threshold   : base-importance gate for additive_freq_gated (default=exp(-0.001*2000)≈0.135)
-    freq_boost_cap   : linear importance bonus for top-N chars (0 to disable)
-                       I = exp(-λ×rank) + max(0, (cap-rank)/cap)
-    dep_beta         : weight of dependency-overlap within coherence score [0,1]; default 0.3
-                       coherence = (1-dep_beta)*embedding_sim + dep_beta*dep_overlap_sim
+    dep_forest_dir    : directory containing dep_forest chunk JSONs
+    chars_json        : path to data/chars.json (fallback rank source)
+    embeddings_path   : where to cache/load OpenAI embeddings
+    output_dir        : where to write the learning plan JSON
+    M                 : max chars per day (phantoms are free and don't count)
+    N                 : number of days to plan
+    w                 : importance vs. coherence balance [0,1]; higher → prioritise
+                        frequent chars over same-topic clustering
+    lambda_val        : exponential decay for base importance = exp(-λ × rank)
+    L_factor          : greedy candidate pool = L_factor × M nodes per day
+    max_chars         : if set, only use the top-max_chars by frequency rank
+    embedding_model   : OpenAI embedding model name
+    freq_json         : path to char_freq_rank.json (ordered list of chars by frequency)
+    importance_mode   : "raw" | "max_descendant" | "decayed" | "additive" |
+                        "additive_freq_gated" | "additive_gap" | "jit"
+    importance_decay  : decay factor / α coefficient for propagation modes
+    add_phantom_deps  : inject phantom nodes for deps missing from the universe
+    freq_threshold    : base-importance gate for additive_freq_gated
+                        (default ≈ exp(-0.001×2000) ≈ 0.135)
+    freq_boost_cap    : top-N linear ramp bonus: I += max(0, (cap-rank)/cap)
+                        gives rank-1 chars an extra +1.0 tapering to 0 at cap;
+                        set to 0 to disable
+    dep_beta          : dependency-overlap weight in coherence [0, 1]
+                        coherence = (1-dep_beta)×embedding_sim + dep_beta×dep_overlap_sim
+                        0.5 gives equal weight to structural and semantic similarity
+    freq_early_weight : swap bias that rewards moving high-importance chars earlier:
+                        Δ = (imp_B − imp_A) × (d2 − d1) / D added to swap score.
+                        Values in [0.1, 0.5] are effective; 0 disables the term.
     """
     print("=== Hanzi Learning Plan Generator ===")
 
@@ -153,7 +162,8 @@ def run(
     _swap_max_iters = max(10, min(200, 600 // max(1, N // 10)))
     _day_window = min(15, max(5, N // 10))
     schedule = swap_local_search(schedule, nodes, M=M, N=N, w=w, dep_beta=dep_beta,
-                                 max_iters=_swap_max_iters, day_window=_day_window)
+                                 max_iters=_swap_max_iters, day_window=_day_window,
+                                 freq_early_weight=freq_early_weight)
 
     # 7. Build output (exclude phantom nodes from schedule and coherence)
     print(f"\n[7] Building output...")
@@ -280,9 +290,10 @@ if __name__ == "__main__":
         add_phantom_deps=True,
         radical_map_path=project_root / "data" / "radical_map_proposal.json",
         freq_boost_cap=3000,
-        dep_beta=0.3,
+        dep_beta=0.5,
         deadline_factor=5.0,
         deadline_weight=0.5,
+        freq_early_weight=0.3,
     )
 
     results = {}

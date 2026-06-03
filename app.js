@@ -23,11 +23,11 @@ async function loadData() {
   showLoading(true);
   try {
     const [planRes, rankRes] = await Promise.all([
-      fetch('data/plan.json'),
+      fetch('data/learning_plan/learning_plan_50days_additive_gap0.3.json'),
       fetch('data/char_freq_rank.json'),
     ]);
 
-    if (!planRes.ok) throw new Error('Failed to load plan.json');
+    if (!planRes.ok) throw new Error('Failed to load learning_plan_50days_additive_gap0.3.json');
     if (!rankRes.ok) throw new Error('Failed to load char_freq_rank.json');
 
     plan = await planRes.json();

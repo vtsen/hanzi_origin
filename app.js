@@ -9,7 +9,7 @@
 let plan = null;       // the loaded plan JSON
 let rankMap = null;    // char -> 1-based rank (from char_freq_rank.json)
 let freqList = null;   // raw array from char_freq_rank.json
-let charInfo = null;   // char -> {meanings, formation, deps} from char_info.json
+let charInfo = null;   // char -> {senses, edges, formation, deps} from char_info.json
 
 // ---- Bootstrap ----
 document.addEventListener('DOMContentLoaded', () => {
@@ -171,11 +171,11 @@ function renderDay(dayNum) {
     const card = document.createElement('div');
     card.className = 'char-card';
 
-    // Build meaning snippet: first meaning, truncated to ~30 chars
+    // Build meaning snippet from first sense (2c: use new senses[0].m schema)
     let snippetHtml = '';
     const info = charInfo && charInfo[ch];
-    if (info && info.meanings && info.meanings.length > 0) {
-      let snippet = info.meanings[0];
+    if (info && info.senses && info.senses.length > 0) {
+      let snippet = info.senses[0].m;
       if (snippet.length > 30) snippet = snippet.slice(0, 30) + '…';
       snippetHtml = `<span class="char-meaning-snippet">${snippet}</span>`;
     }
@@ -219,10 +219,9 @@ function selectChar(ch, card, rank, dayNum) {
   const formationEl = document.getElementById('detail-formation');
   const depsEl = document.getElementById('detail-deps');
 
-  if (info && info.meanings && info.meanings.length > 0) {
-    meaningsEl.innerHTML = info.meanings
-      .map(m => `<li>${m}</li>`)
-      .join('');
+  // 2b: Render full meaning forest from senses + edges
+  if (info && info.senses && info.senses.length > 0) {
+    meaningsEl.innerHTML = renderMeaningForest(info.senses, info.edges || []);
     meaningsEl.style.display = '';
   } else {
     meaningsEl.innerHTML = '';
@@ -237,12 +236,12 @@ function selectChar(ch, card, rank, dayNum) {
     formationEl.style.display = 'none';
   }
 
+  // 2a: Dep cards with day links
   if (info && info.deps && info.deps.length > 0) {
-    // Label + clickable dep glyphs that trigger a search
     depsEl.innerHTML = `<span class="deps-label">Builds on:</span>` +
-      info.deps.map(dep =>
-        `<button class="dep-glyph" onclick="searchDep('${dep}')">${dep}</button>`
-      ).join('');
+      `<div class="dep-cards">` +
+      info.deps.map(dep => renderDepCard(dep)).join('') +
+      `</div>`;
     depsEl.style.display = '';
   } else {
     depsEl.innerHTML = '';
@@ -264,6 +263,129 @@ function searchDep(ch) {
       runSearch(ch);
     }
   }, 60);
+}
+
+// ---- Dep day lookup (2a) ----
+function getDayForChar(ch) {
+  // Build reverse map on first use
+  if (!window._dayForChar) {
+    window._dayForChar = {};
+    Object.entries(plan.schedule).forEach(([day, chars]) => {
+      chars.forEach(c => { window._dayForChar[c] = parseInt(day, 10); });
+    });
+  }
+  return window._dayForChar[ch]; // undefined if not in plan
+}
+
+// Render a dep card: shows glyph + day badge. Clicking navigates to day or search.
+function renderDepCard(dep) {
+  const day = getDayForChar(dep);
+  if (day !== undefined) {
+    // In plan — navigate directly to that day
+    return `<a class="dep-card" href="#day/${day}" title="Day ${day}">
+      <span class="dep-card-glyph">${dep}</span>
+      <span class="dep-card-day">Day ${day}</span>
+    </a>`;
+  } else {
+    // Not in plan — search for it
+    return `<button class="dep-card dep-card-unscheduled" onclick="searchDep('${dep}')" title="Not in plan">
+      <span class="dep-card-glyph">${dep}</span>
+      <span class="dep-card-day">—</span>
+    </button>`;
+  }
+}
+
+// ---- Meaning forest renderer (2b) ----
+
+// Color map for POS badges
+const POS_COLORS = {
+  verb:        '#3b82f6', // blue
+  noun:        '#16a34a', // green
+  adjective:   '#ea580c', // orange
+  adverb:      '#7c3aed', // purple
+  conjunction: '#0891b2', // cyan
+  preposition: '#b45309', // amber
+  particle:    '#db2777', // pink
+  numeral:     '#059669', // emerald
+  pronoun:     '#dc2626', // red
+  interjection:'#65a30d', // lime
+};
+
+function posColor(pos) {
+  return POS_COLORS[pos] || '#6b7280'; // gray fallback
+}
+
+// Color map for evolution edge types
+const EDGE_COLORS = {
+  semantic_extension: '#0d9488', // teal
+  semantic_shift:     '#7c3aed', // purple
+  metaphor:           '#9333ea', // violet
+  metonymy:           '#d97706', // amber
+  amelioration:       '#16a34a', // green
+  pejoration:         '#dc2626', // red
+  function_word:      '#0891b2', // cyan
+  grammaticalization: '#2563eb', // blue
+  synecdoche:         '#f59e0b', // yellow
+  unknown:            '#9ca3af', // gray
+};
+
+function edgeColor(type) {
+  return EDGE_COLORS[type] || '#6b7280';
+}
+
+// Render sense node HTML recursively
+function renderSenseNode(sense, children, allSenses, depth) {
+  const posCol = posColor(sense.pos);
+  const exHtml = sense.ex && sense.ex.length > 0
+    ? `<span class="sense-examples">例：${sense.ex.join('；')}</span>`
+    : '';
+
+  let childrenHtml = '';
+  if (children && children.length > 0) {
+    childrenHtml = `<div class="sense-children">` +
+      children.map(({ target, type, note }) => {
+        const childSense = allSenses.find(s => s.i === target);
+        if (!childSense) return '';
+        const col = edgeColor(type);
+        const edgeHtml = `<div class="sense-edge">
+          <span class="edge-type" style="color:${col}">→ ${type.replace(/_/g, ' ')}</span>
+          ${note ? `<span class="edge-note">${note}</span>` : ''}
+        </div>`;
+        return edgeHtml + renderSenseNode(childSense, childSense._children, allSenses, depth + 1);
+      }).join('') +
+      `</div>`;
+  }
+
+  return `<div class="sense-node">
+    <span class="sense-pos" style="background:${posCol}">${sense.pos || '?'}</span>
+    <span class="sense-meaning">${sense.m}</span>
+    ${exHtml}
+    ${childrenHtml}
+  </div>`;
+}
+
+// Build and return the full forest HTML from senses + edges arrays
+function renderMeaningForest(senses, edges) {
+  if (!senses || senses.length === 0) return '';
+
+  // Build a set of sense indices that have incoming edges (not roots)
+  const hasIncoming = new Set(edges.map(e => e.t));
+
+  // Attach children list to each sense for easy traversal
+  const childrenMap = {};
+  edges.forEach(e => {
+    if (!childrenMap[e.s]) childrenMap[e.s] = [];
+    childrenMap[e.s].push({ target: e.t, type: e.type, note: e.note || '' });
+  });
+  senses.forEach(s => { s._children = childrenMap[s.i] || []; });
+
+  // Roots: senses with no incoming edges
+  const roots = senses.filter(s => !hasIncoming.has(s.i));
+  // Fallback: if all have incoming edges (cycle), show all as roots
+  const renderRoots = roots.length > 0 ? roots : senses;
+
+  const html = renderRoots.map(s => renderSenseNode(s, s._children, senses, 0)).join('');
+  return `<div class="meaning-forest">${html}</div>`;
 }
 
 function goToDay(n) {

@@ -382,22 +382,90 @@ main {
   word-break: break-all;
 }
 
-/* Meanings list in detail panel */
+/* Meanings container in detail panel (now a div, not ul) */
 .detail-meanings {
-  list-style: none;
   margin-top: 0.5rem;
-  padding: 0;
 }
 
-.detail-meanings li {
-  font-size: 0.88rem;
+/* ===== Meaning forest ===== */
+.meaning-forest {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+/* Individual sense node */
+.sense-node {
+  display: flex;
+  flex-direction: column;
+  gap: 0.18rem;
+  padding: 0.45rem 0.6rem;
+  background: #f9f8f6;
+  border-radius: var(--radius-sm);
+  border-left: 3px solid var(--border);
+  font-size: 0.86rem;
+  line-height: 1.45;
+}
+
+/* POS badge — small pill with dynamic background color set inline */
+.sense-pos {
+  display: inline-block;
+  color: #fff;
+  font-size: 0.68rem;
+  font-weight: 600;
+  padding: 0.1rem 0.4rem;
+  border-radius: 4px;
+  letter-spacing: 0.03em;
+  width: fit-content;
+  margin-bottom: 0.1rem;
+}
+
+.sense-meaning {
   color: var(--text);
-  line-height: 1.5;
-  padding: 0.1rem 0;
+  font-size: 0.88rem;
 }
 
-.detail-meanings li + li {
-  border-top: 1px solid var(--border);
+.sense-examples {
+  color: var(--text-muted);
+  font-size: 0.78rem;
+  font-style: italic;
+}
+
+/* Nested children — indented with a vertical line */
+.sense-children {
+  margin-left: 0.85rem;
+  margin-top: 0.35rem;
+  padding-left: 0.75rem;
+  border-left: 2px solid var(--border);
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+/* Edge connector label between parent and child sense */
+.sense-edge {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.4rem;
+  padding: 0.1rem 0;
+  font-size: 0.75rem;
+}
+
+/* Evolution type label — color set inline */
+.edge-type {
+  font-weight: 600;
+  font-size: 0.73rem;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+}
+
+/* Explanatory note for the edge — very small, muted */
+.edge-note {
+  color: var(--text-muted);
+  font-size: 0.72rem;
+  font-style: italic;
+  line-height: 1.3;
 }
 
 /* Formation note — italic, muted, smaller */
@@ -409,12 +477,11 @@ main {
   line-height: 1.5;
 }
 
-/* Dependencies row */
+/* Dependencies section */
 .detail-deps {
   display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 0.4rem;
+  flex-direction: column;
+  gap: 0.3rem;
   margin-top: 0.65rem;
 }
 
@@ -427,28 +494,67 @@ main {
   margin-right: 0.15rem;
 }
 
-/* Clickable dep glyph buttons — compact char-card style */
-.dep-glyph {
+/* Dep cards row */
+.dep-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin-top: 0.25rem;
+}
+
+/* Each dep card — small card with glyph + day tag */
+.dep-card {
   display: inline-flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 2.4rem;
-  height: 2.4rem;
-  font-size: 1.3rem;
+  gap: 0.1rem;
+  min-width: 3rem;
+  padding: 0.35rem 0.5rem 0.3rem;
   background: var(--bg);
   border: 1.5px solid var(--border);
   border-radius: var(--radius-sm);
   cursor: pointer;
-  transition: border-color 0.15s, background 0.15s, transform 0.1s;
+  text-decoration: none;
   font-family: inherit;
   color: var(--text);
+  transition: border-color 0.15s, background 0.15s, box-shadow 0.15s, transform 0.1s;
+}
+
+.dep-card:hover {
+  border-color: var(--accent);
+  background: var(--accent-light);
+  box-shadow: var(--shadow);
+  transform: translateY(-2px);
+}
+
+/* Unscheduled dep — slightly dimmer */
+.dep-card-unscheduled {
+  opacity: 0.7;
+}
+
+.dep-card-unscheduled:hover {
+  opacity: 1;
+}
+
+/* Large character glyph inside dep card */
+.dep-card-glyph {
+  font-size: 1.45rem;
+  line-height: 1;
+  color: var(--text);
+}
+
+/* Small day badge below the glyph */
+.dep-card-day {
+  font-size: 0.65rem;
+  font-weight: 600;
+  color: var(--accent);
+  letter-spacing: 0.02em;
   line-height: 1;
 }
 
-.dep-glyph:hover {
-  border-color: var(--accent);
-  background: var(--accent-light);
-  transform: translateY(-1px);
+.dep-card-unscheduled .dep-card-day {
+  color: var(--text-muted);
 }
 
 /* ===== Search page ===== */

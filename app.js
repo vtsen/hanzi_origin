@@ -229,6 +229,9 @@ function selectChar(ch, card, rank, dayNum) {
     rank ? `Frequency rank: #${rank.toLocaleString()} out of ${freqList.length.toLocaleString()}` : 'Rank: unknown';
   document.getElementById('detail-day-text').textContent = `Scheduled on: Day ${dayNum}`;
 
+  // Populate etymology fields from charInfo
+  const info = charInfo && charInfo[ch];
+
   // Traditional form(s) — shown when they differ from the simplified char
   const trad = info && info.trad;
   const tradEl = document.getElementById('detail-trad-text');
@@ -238,9 +241,6 @@ function selectChar(ch, card, rank, dayNum) {
   } else {
     tradEl.style.display = 'none';
   }
-
-  // Populate etymology fields from charInfo
-  const info = charInfo && charInfo[ch];
 
   const meaningsEl = document.getElementById('detail-meanings');
   const depsEl = document.getElementById('detail-deps');

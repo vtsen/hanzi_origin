@@ -370,6 +370,14 @@ main {
   font-size: 0.9rem;
 }
 
+/* Traditional form(s) line below character heading */
+.detail-trad {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  margin-bottom: 0.15rem;
+  letter-spacing: 0.04em;
+}
+
 /* Meaning snippet on character cards */
 .char-meaning-snippet {
   display: block;
@@ -429,6 +437,18 @@ main {
   color: var(--text-muted);
   font-size: 0.78rem;
   font-style: italic;
+}
+
+/* Per-sense traditional char badge — shown only when char has multiple traditionals */
+.sense-trad {
+  display: inline-block;
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 0.05rem 0.35rem;
+  width: fit-content;
 }
 
 /* Nested children — indented with a vertical line */

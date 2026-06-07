@@ -10,10 +10,11 @@ INPUT_DIR = os.path.join(os.path.dirname(__file__), 'data', 'dep_forest', 'dep_f
 OUTPUT_PATH = os.path.join(os.path.dirname(__file__), 'data', 'char_info.json')
 MAX_FORMATION_LEN = 300
 
-def extract_entry(char_data):
+def extract_entry(char, char_data):
     """Extract display fields from a single character's dep_forest entry."""
     # All senses with short keys to keep file size down
     senses = []
+    trad_ordered = []  # unique traditional chars, in order of first appearance
     for sense in char_data.get('senses', []):
         m = sense.get('meaning', '').strip()
         if not m:
@@ -27,6 +28,12 @@ def extract_entry(char_data):
         exs = [e for e in sense.get('examples', []) if e.strip()]
         if exs:
             entry['ex'] = exs
+        # Traditional char — only include per-sense if it differs from the simplified char
+        tc = sense.get('traditional_char', '').strip()
+        if tc and tc != char:
+            entry['tc'] = tc
+            if tc not in trad_ordered:
+                trad_ordered.append(tc)
         senses.append(entry)
 
     # Edges: semantic evolution links between senses (short keys)
@@ -54,7 +61,13 @@ def extract_entry(char_data):
     # Dependencies
     deps = char_data.get('dependencies', [])
 
-    return {'senses': senses, 'edges': edges, 'formation': formation, 'deps': deps}
+    result = {'senses': senses, 'edges': edges, 'formation': formation, 'deps': deps}
+    # trad: list of unique traditional chars that differ from the simplified char.
+    # If all senses map to the same traditional, it's a single-element list.
+    # If senses have different traditionals (e.g. 发->發/髮), multiple entries.
+    if trad_ordered:
+        result['trad'] = trad_ordered
+    return result
 
 
 def main():
@@ -67,7 +80,7 @@ def main():
         with open(fpath, encoding='utf-8') as f:
             chunk = json.load(f)
         for char, data in chunk.items():
-            char_info[char] = extract_entry(data)
+            char_info[char] = extract_entry(char, data)
 
     print(f'Extracted {len(char_info)} characters')
 

@@ -229,6 +229,16 @@ function selectChar(ch, card, rank, dayNum) {
     rank ? `Frequency rank: #${rank.toLocaleString()} out of ${freqList.length.toLocaleString()}` : 'Rank: unknown';
   document.getElementById('detail-day-text').textContent = `Scheduled on: Day ${dayNum}`;
 
+  // Traditional form(s) — shown when they differ from the simplified char
+  const trad = info && info.trad;
+  const tradEl = document.getElementById('detail-trad-text');
+  if (trad && trad.length > 0) {
+    tradEl.textContent = '繁體：' + trad.join(' / ');
+    tradEl.style.display = '';
+  } else {
+    tradEl.style.display = 'none';
+  }
+
   // Populate etymology fields from charInfo
   const info = charInfo && charInfo[ch];
 
@@ -240,7 +250,8 @@ function selectChar(ch, card, rank, dayNum) {
 
   // 2b: Render full meaning forest from senses + edges
   if (info && info.senses && info.senses.length > 0) {
-    meaningsEl.innerHTML = renderMeaningForest(info.senses, info.edges || []);
+    // Pass trad so sense nodes can show per-sense traditional when there are multiple
+    meaningsEl.innerHTML = renderMeaningForest(info.senses, info.edges || [], info.trad);
     meaningsEl.style.display = '';
   } else {
     meaningsEl.innerHTML = '';
@@ -481,10 +492,15 @@ function edgeColor(type) {
 }
 
 // Render sense node HTML recursively
-function renderSenseNode(sense, children, allSenses, depth) {
+// showTc: whether to show per-sense traditional char badge (only when char has multiple traditionals)
+function renderSenseNode(sense, children, allSenses, depth, showTc) {
   const posCol = posColor(sense.pos);
   const exHtml = sense.ex && sense.ex.length > 0
     ? `<span class="sense-examples">例：${sense.ex.join('；')}</span>`
+    : '';
+  // Show traditional badge only when multiple traditionals exist for this char
+  const tradHtml = (showTc && sense.tc)
+    ? `<span class="sense-trad">繁：${sense.tc}</span>`
     : '';
 
   let childrenHtml = '';
@@ -498,7 +514,7 @@ function renderSenseNode(sense, children, allSenses, depth) {
           <span class="edge-type" style="color:${col}">→ ${type.replace(/_/g, ' ')}</span>
           ${note ? `<span class="edge-note">${note}</span>` : ''}
         </div>`;
-        return edgeHtml + renderSenseNode(childSense, childSense._children, allSenses, depth + 1);
+        return edgeHtml + renderSenseNode(childSense, childSense._children, allSenses, depth + 1, showTc);
       }).join('') +
       `</div>`;
   }
@@ -506,14 +522,20 @@ function renderSenseNode(sense, children, allSenses, depth) {
   return `<div class="sense-node">
     <span class="sense-pos" style="background:${posCol}">${sense.pos || '?'}</span>
     <span class="sense-meaning">${sense.m}</span>
+    ${tradHtml}
     ${exHtml}
     ${childrenHtml}
   </div>`;
 }
 
 // Build and return the full forest HTML from senses + edges arrays
-function renderMeaningForest(senses, edges) {
+// trad: the char's trad array from char_info (may be undefined)
+function renderMeaningForest(senses, edges, trad) {
   if (!senses || senses.length === 0) return '';
+
+  // Only show per-sense traditional badge when char has multiple different traditionals
+  // (e.g. 发->發/髮). If all senses share one traditional, the header already shows it.
+  const showTc = trad && trad.length > 1;
 
   // Build a set of sense indices that have incoming edges (not roots)
   const hasIncoming = new Set(edges.map(e => e.t));
@@ -531,7 +553,7 @@ function renderMeaningForest(senses, edges) {
   // Fallback: if all have incoming edges (cycle), show all as roots
   const renderRoots = roots.length > 0 ? roots : senses;
 
-  const html = renderRoots.map(s => renderSenseNode(s, s._children, senses, 0)).join('');
+  const html = renderRoots.map(s => renderSenseNode(s, s._children, senses, 0, showTc)).join('');
   return `<div class="meaning-forest">${html}</div>`;
 }
 

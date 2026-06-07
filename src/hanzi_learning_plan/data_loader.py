@@ -132,6 +132,7 @@ def build_char_dataset(
     freq_json: Optional[Path] = None,
     add_phantom_deps: bool = True,
     radical_map: Optional[Dict[str, str]] = None,
+    max_real_dep_rank: Optional[int] = None,
 ) -> Tuple[Dict[str, List[str]], Dict[str, str], Dict[str, int]]:
     """
     Load and return:
@@ -144,6 +145,10 @@ def build_char_dataset(
     If freq_json is given, ranks come from that frequency list instead of chars.json index.
     If add_phantom_deps is True, missing dependencies are injected as phantom nodes
     bundled (same day) with the chars that need them.
+    If max_real_dep_rank is set, dependency edges to chars ranked beyond that threshold
+    are stripped — those rare prereqs become non-blocking (they remain learnable chars
+    but are no longer hard prerequisites). Useful for short plans where rare components
+    would otherwise permanently block common chars like 家 or 得.
     """
     etym_data = load_dep_forest(dep_forest_dir)
     ranks = load_char_ranks(chars_json, freq_json=freq_json)
@@ -164,6 +169,16 @@ def build_char_dataset(
         text = _meaning_text(ed)
         char_meanings[ch] = text if text else ch
         char_ranks[ch] = ranks.get(ch, 99999)
+
+    # Strip dep edges to rare chars that would permanently block common chars in short plans.
+    # The rare char remains a learnable node; it just loses its hard-prerequisite status.
+    if max_real_dep_rank is not None:
+        n_stripped = 0
+        for ch in char_deps:
+            before = len(char_deps[ch])
+            char_deps[ch] = [d for d in char_deps[ch] if ranks.get(d, 99999) <= max_real_dep_rank]
+            n_stripped += before - len(char_deps[ch])
+        print(f"    {n_stripped} dep edges stripped (rank > {max_real_dep_rank})")
 
     # Apply radical map: normalise variant/traditional dep forms to canonical chars
     # before phantom injection so 艹->草, 辵->走, 來->来, etc. resolve to real chars.

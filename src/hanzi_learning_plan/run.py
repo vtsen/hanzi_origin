@@ -41,11 +41,13 @@ def run(
     freq_threshold: float = 0.135,
     radical_map_path: Optional[Path] = None,
     freq_boost_cap: int = 3000,
+    linear_boost_weight: float = 1.0,
     dep_beta: float = 0.1,
     deadline_factor: float = 5.0,
     deadline_weight: float = 0.5,
     freq_early_weight: float = 0.0,
     importance_cap_factor: float = 0.0,
+    max_real_dep_rank: Optional[int] = None,
 ) -> dict:
     """
     Full pipeline: load data → embed → build graph → schedule → local search → save.
@@ -71,9 +73,11 @@ def run(
     add_phantom_deps  : inject phantom nodes for deps missing from the universe
     freq_threshold    : base-importance gate for additive_freq_gated
                         (default ≈ exp(-0.001×2000) ≈ 0.135)
-    freq_boost_cap    : top-N linear ramp bonus: I += max(0, (cap-rank)/cap)
-                        gives rank-1 chars an extra +1.0 tapering to 0 at cap;
+    freq_boost_cap    : top-N linear ramp bonus: I += linear_boost_weight × max(0, (cap-rank)/cap)
+                        gives rank-1 chars an extra +linear_boost_weight tapering to 0 at cap;
                         set to 0 to disable
+    linear_boost_weight: multiplier on the linear frequency bonus (default 1.0);
+                        >1.0 amplifies raw frequency signal relative to graph topology
     dep_beta          : dependency-overlap weight in coherence [0, 1]
                         coherence = (1-dep_beta)×embedding_sim + dep_beta×dep_overlap_sim
                         0.5 gives equal weight to structural and semantic similarity
@@ -86,6 +90,10 @@ def run(
                           even if they unlock something common.
                           0 disables the cap (pure propagated importance).
                           20–30 is a good range for plan50.
+    max_real_dep_rank     : if set, dep edges to chars ranked beyond this are stripped,
+                          making them non-blocking. Rare components stay learnable but
+                          no longer block common chars (e.g. 豕 rank 4922 blocking 家).
+                          Good range: 2×(N×M) so only deps outside the plan window block.
     """
     print("=== Hanzi Learning Plan Generator ===")
 
@@ -100,6 +108,7 @@ def run(
     char_deps, char_meanings, char_ranks, phantom_chars = build_char_dataset(
         dep_forest_dir, chars_json, max_chars=max_chars, freq_json=freq_json,
         add_phantom_deps=add_phantom_deps, radical_map=radical_map,
+        max_real_dep_rank=max_real_dep_rank,
     )
 
     # 2. Embeddings
@@ -113,10 +122,11 @@ def run(
     print(f"    {len(embeddings)} vectors loaded")
 
     # 3. Importance
-    boost_desc = f" + max(0, ({freq_boost_cap}-rank)/{freq_boost_cap})" if freq_boost_cap > 0 else ""
+    boost_desc = f" + {linear_boost_weight}×max(0, ({freq_boost_cap}-rank)/{freq_boost_cap})" if freq_boost_cap > 0 else ""
     print(f"\n[3] Importance: I = exp(-{lambda_val} * rank){boost_desc}")
     importances = {
-        ch: compute_importance(rank, lambda_val, freq_boost_cap=freq_boost_cap)
+        ch: compute_importance(rank, lambda_val, freq_boost_cap=freq_boost_cap,
+                               linear_boost_weight=linear_boost_weight)
         for ch, rank in char_ranks.items()
     }
 
@@ -208,6 +218,8 @@ def run(
             "w": w,
             "lambda": lambda_val,
             "freq_boost_cap": freq_boost_cap,
+            "linear_boost_weight": linear_boost_weight,
+            "max_real_dep_rank": max_real_dep_rank,
             "dep_beta": dep_beta,
             "importance_mode": importance_mode,
             "importance_decay": importance_decay if importance_mode == "decayed" else None,
@@ -304,12 +316,14 @@ if __name__ == "__main__":
         embedding_model="text-embedding-3-small",
         add_phantom_deps=True,
         radical_map_path=project_root / "data" / "radical_map_proposal.json",
-        freq_boost_cap=3000,
+        freq_boost_cap=1000,
+        linear_boost_weight=2.0,
+        importance_cap_factor=10.0,
+        max_real_dep_rank=2000,
         dep_beta=0.5,
         deadline_factor=5.0,
         deadline_weight=0.5,
         freq_early_weight=0.3,
-        importance_cap_factor=20.0,
     )
 
     results = {}

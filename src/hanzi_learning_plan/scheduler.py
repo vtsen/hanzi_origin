@@ -16,19 +16,20 @@ def compute_importance(
     rank: int,
     lambda_val: float = 0.001,
     freq_boost_cap: int = 3000,
+    linear_boost_weight: float = 1.0,
 ) -> float:
     """
-    I(rank) = exp(-λ × rank) + max(0, (freq_boost_cap - rank) / freq_boost_cap)
+    I(rank) = exp(-λ × rank) + linear_boost_weight × max(0, (freq_boost_cap - rank) / freq_boost_cap)
 
-    The second term is a linear ramp that gives an extra bonus up to +1.0 for
+    The second term is a linear ramp that gives an extra bonus up to +linear_boost_weight for
     rank-1 chars, tapering to 0 at rank == freq_boost_cap and beyond.
-    Combined effect: the top-3000 chars are pulled strongly ahead of the long tail,
-    making it much less likely that obscure components crowd out common words.
+    Combined effect: the top-freq_boost_cap chars are pulled ahead of the long tail.
     Set freq_boost_cap=0 to disable the linear term (pure exponential decay).
+    linear_boost_weight > 1.0 amplifies the frequency signal relative to the graph topology.
     """
     exp_term = math.exp(-lambda_val * rank)
     linear_bonus = max(0.0, (freq_boost_cap - rank) / freq_boost_cap) if freq_boost_cap > 0 else 0.0
-    return exp_term + linear_bonus
+    return exp_term + linear_boost_weight * linear_bonus
 
 
 ImportanceMode = Literal["raw", "max_descendant", "decayed", "additive", "additive_freq_gated", "additive_gap", "jit"]

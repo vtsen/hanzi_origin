@@ -303,111 +303,120 @@ function renderHistoricalForms(ch, formation) {
   const strip = document.createElement('div');
   strip.className = 'hist-strip';
 
-  HIST_SCRIPTS.forEach(({ suffix, label, title }) => {
-    const filename = ch + suffix + '.svg';
-    const imgUrl = WIKIMEDIA_PATH + encodeURIComponent(filename);
-    const pageUrl = WIKIMEDIA_FILE_PAGE + encodeURIComponent(filename);
+  // Try simplified form first, then traditional form(s).
+  // Historical scripts predate the simplified/traditional split, so the Wikimedia
+  // file may exist under the traditional character name rather than the simplified one.
+  const tradForms = (charInfo && charInfo[ch] && charInfo[ch].trad) || [];
+  const scriptCandidates = [ch, ...tradForms.filter(t => t !== ch)];
 
+  // For each script type, try each candidate in order until one loads.
+  // onAllFailed is called when every candidate fails (used for oracle fallback).
+  function makeHistForm({ suffix, label, title }, onAllFailed) {
     const form = document.createElement('a');
     form.className = 'hist-form';
-    form.href = pageUrl;
     form.target = '_blank';
     form.rel = 'noopener noreferrer';
     form.title = title;
-    form.style.display = 'none'; // shown only on successful load
+    form.style.display = 'none';
 
     const img = new Image();
     img.className = 'hist-img';
     img.alt = label;
 
+    form.appendChild(img);
+    form.appendChild(Object.assign(document.createElement('span'), {
+      className: 'hist-label', textContent: label,
+    }));
+
+    let idx = 0;
+    function tryNext() {
+      if (idx >= scriptCandidates.length) {
+        if (onAllFailed) onAllFailed();
+        return;
+      }
+      const candidate = scriptCandidates[idx++];
+      const filename = candidate + suffix + '.svg';
+      form.href = WIKIMEDIA_FILE_PAGE + encodeURIComponent(filename);
+      img.src = WIKIMEDIA_PATH + encodeURIComponent(filename);
+    }
+
     img.addEventListener('load', () => {
       form.style.display = 'flex';
-      // Append strip to container on first successful image
       if (!strip.parentNode) {
         el.appendChild(strip);
         el.style.display = '';
       }
     });
+    img.addEventListener('error', tryNext);
 
-    img.src = imgUrl;
-    form.appendChild(img);
-    form.appendChild(Object.assign(document.createElement('span'), {
-      className: 'hist-label', textContent: label,
-    }));
-    strip.appendChild(form);
+    tryNext(); // kick off with first candidate
+    return form;
+  }
+
+  // Build the strip; wire oracle's onAllFailed to the dep fallback
+  let oracleAllFailed = null; // set below
+  HIST_SCRIPTS.forEach(script => {
+    const onFail = script.suffix === '-oracle' ? () => { if (oracleAllFailed) oracleAllFailed(); } : null;
+    strip.appendChild(makeHistForm(script, onFail));
   });
 
-  // Jiaguwen fallback: if this char has no oracle image, show oracle images of its
-  // component parts.  We go two levels deep (deps + deps-of-deps) so that a dep
-  // like 然 with no oracle of its own still contributes its sub-parts (月, 火).
+  // Jiaguwen fallback: if oracle image fails for ALL candidates (simplified + traditional),
+  // show oracle images of component parts, two levels deep.
   const directDeps = (charInfo && charInfo[ch] && charInfo[ch].deps) || [];
   if (directDeps.length === 0) return;
 
-  // Collect unique candidate chars: direct deps first, then their deps (deduped)
-  const seen = new Set([ch]); // exclude the char itself
-  const candidates = [];
+  const seen = new Set([ch, ...scriptCandidates]);
+  const depCandidates = [];
   directDeps.forEach(dep => {
-    if (!seen.has(dep)) { seen.add(dep); candidates.push(dep); }
+    if (!seen.has(dep)) { seen.add(dep); depCandidates.push(dep); }
   });
   directDeps.forEach(dep => {
     const subDeps = (charInfo && charInfo[dep] && charInfo[dep].deps) || [];
     subDeps.forEach(sd => {
-      if (!seen.has(sd)) { seen.add(sd); candidates.push(sd); }
+      if (!seen.has(sd)) { seen.add(sd); depCandidates.push(sd); }
     });
   });
 
-  if (candidates.length === 0) return;
+  if (depCandidates.length === 0) return;
 
   const fallbackStrip = document.createElement('div');
   fallbackStrip.className = 'hist-strip hist-fallback-strip';
   let fallbackLoaded = 0;
 
-  const oracleForm = strip.querySelector('a[title="Oracle bone script (Shang)"]');
-  if (oracleForm) {
-    const oracleImg = oracleForm.querySelector('img');
-    if (oracleImg) {
-      // Only show dep fallback if the main char itself has no oracle image
-      oracleImg.addEventListener('error', () => {
-        candidates.forEach(dep => {
-          const filename = dep + '-oracle.svg';
-          const imgUrl = WIKIMEDIA_PATH + encodeURIComponent(filename);
-          const pageUrl = WIKIMEDIA_FILE_PAGE + encodeURIComponent(filename);
+  oracleAllFailed = () => {
+    depCandidates.forEach(dep => {
+      const filename = dep + '-oracle.svg';
+      const form = document.createElement('a');
+      form.className = 'hist-form hist-dep-form';
+      form.href = WIKIMEDIA_FILE_PAGE + encodeURIComponent(filename);
+      form.target = '_blank';
+      form.rel = 'noopener noreferrer';
+      form.title = `${dep} oracle bone script`;
+      form.style.display = 'none';
 
-          const form = document.createElement('a');
-          form.className = 'hist-form hist-dep-form';
-          form.href = pageUrl;
-          form.target = '_blank';
-          form.rel = 'noopener noreferrer';
-          form.title = `${dep} oracle bone script`;
-          form.style.display = 'none';
-
-          const img = new Image();
-          img.className = 'hist-img';
-          img.alt = dep;
-
-          img.addEventListener('load', () => {
-            form.style.display = 'flex';
-            fallbackLoaded++;
-            if (fallbackLoaded === 1) {
-              const heading = document.createElement('span');
-              heading.className = 'hist-heading hist-fallback-heading';
-              heading.textContent = '部件甲骨文';
-              el.appendChild(heading);
-              el.appendChild(fallbackStrip);
-              el.style.display = '';
-            }
-          });
-
-          img.src = imgUrl;
-          form.appendChild(img);
-          form.appendChild(Object.assign(document.createElement('span'), {
-            className: 'hist-label', textContent: dep,
-          }));
-          fallbackStrip.appendChild(form);
-        });
+      const img = new Image();
+      img.className = 'hist-img';
+      img.alt = dep;
+      img.addEventListener('load', () => {
+        form.style.display = 'flex';
+        fallbackLoaded++;
+        if (fallbackLoaded === 1) {
+          const heading = document.createElement('span');
+          heading.className = 'hist-heading hist-fallback-heading';
+          heading.textContent = '部件甲骨文';
+          el.appendChild(heading);
+          el.appendChild(fallbackStrip);
+          el.style.display = '';
+        }
       });
-    }
-  }
+      img.src = WIKIMEDIA_PATH + encodeURIComponent(filename);
+      form.appendChild(img);
+      form.appendChild(Object.assign(document.createElement('span'), {
+        className: 'hist-label', textContent: dep,
+      }));
+      fallbackStrip.appendChild(form);
+    });
+  };
 }
 
 // Navigate to search page and run a search for a dependency character

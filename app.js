@@ -9,7 +9,8 @@
 let plan = null;       // the loaded plan JSON
 let rankMap = null;    // char -> 1-based rank (from char_freq_rank.json)
 let freqList = null;   // raw array from char_freq_rank.json
-let charInfo = null;   // char -> {senses, edges, formation, deps} from char_info.json
+let charInfo = null;        // char -> {senses, edges, formation, deps} from char_info.json
+let formationNotes = null;  // char -> {verdict, note, wiktionary_url, ...} from formation_notes.json
 
 // ---- Bootstrap ----
 document.addEventListener('DOMContentLoaded', () => {
@@ -23,16 +24,18 @@ document.addEventListener('DOMContentLoaded', () => {
 async function loadData() {
   showLoading(true);
   try {
-    const [planRes, rankRes, infoRes] = await Promise.all([
+    const [planRes, rankRes, infoRes, notesRes] = await Promise.all([
       fetch('data/learning_plan/learning_plan_50days_additive_gap0.3.json'),
       fetch('data/char_freq_rank.json'),
       fetch('data/char_info.json'),
+      fetch('data/formation_audit/formation_notes.json'),
     ]);
 
     if (!planRes.ok) throw new Error('Failed to load learning_plan_50days_additive_gap0.3.json');
     if (!rankRes.ok) throw new Error('Failed to load char_freq_rank.json');
-    // char_info is optional — don't hard-fail if missing
+    // char_info and formation_notes are optional — don't hard-fail if missing
     if (infoRes.ok) charInfo = await infoRes.json();
+    if (notesRes.ok) formationNotes = await notesRes.json();
 
     plan = await planRes.json();
     freqList = await rankRes.json();
@@ -297,6 +300,22 @@ function renderHistoricalForms(ch, formation) {
     formEl.className = 'hist-formation';
     formEl.textContent = formation;
     el.appendChild(formEl);
+    el.style.display = '';
+  }
+
+  // Formation note: alternative/debated analysis from Wiktionary
+  const fn = formationNotes && formationNotes[ch];
+  if (fn) {
+    const noteEl = document.createElement('div');
+    noteEl.className = 'formation-note' + (fn.verdict === 'SIGNIF' ? ' formation-note--signif' : '');
+    const label = fn.verdict === 'SIGNIF' ? '⚑ Debated' : '○ Note';
+    const multiNote = fn.multi_simplified
+      ? '<span class="formation-note-multi">Simplified char covers multiple traditional forms</span>'
+      : '';
+    noteEl.innerHTML =
+      `<span class="formation-note-label">${label}</span> ${fn.note}${multiNote}` +
+      ` <a href="${fn.wiktionary_url}" target="_blank" rel="noopener noreferrer" class="formation-note-link">Wiktionary ↗</a>`;
+    el.appendChild(noteEl);
     el.style.display = '';
   }
 

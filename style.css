@@ -807,6 +807,41 @@ footer {
   line-height: 1.6;
   margin-bottom: .6rem;
 }
+.formation-note {
+  font-size: .82rem;
+  color: var(--text-muted);
+  line-height: 1.55;
+  margin-bottom: .6rem;
+  padding: .45rem .65rem;
+  background: #f5f4f0;
+  border-left: 3px solid var(--border);
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+}
+.formation-note--signif {
+  border-left-color: #e09c3a;
+  background: #fdf8f0;
+}
+.formation-note-label {
+  font-weight: 600;
+  margin-right: .3rem;
+  color: var(--text);
+}
+.formation-note-multi {
+  display: inline-block;
+  margin-left: .35rem;
+  font-size: .76rem;
+  color: var(--accent);
+  font-style: italic;
+}
+.formation-note-link {
+  margin-left: .4rem;
+  color: var(--accent);
+  text-decoration: none;
+  white-space: nowrap;
+}
+.formation-note-link:hover {
+  text-decoration: underline;
+}
 .hist-strip {
   display: flex;
   flex-wrap: wrap;

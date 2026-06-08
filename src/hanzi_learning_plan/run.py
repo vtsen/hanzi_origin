@@ -267,7 +267,9 @@ if __name__ == "__main__":
 
     mvp = "--mvp" in sys.argv
     plan30 = "--plan30" in sys.argv
+    plan30s = "--plan30s" in sys.argv   # 30 days, 15/day — tuned small plan
     plan50 = "--plan50" in sys.argv
+    plan100 = "--plan100" in sys.argv   # 100 days, 40/day — tuned large plan
     plan150 = "--plan150" in sys.argv
 
     project_root = Path(__file__).resolve().parent.parent.parent
@@ -285,12 +287,27 @@ if __name__ == "__main__":
         modes = [("raw", 0.5), ("max_descendant", 0.5), ("additive", 0.3),
                  ("additive_freq_gated", 0.3), ("additive_gap", 0.3), ("jit", 0.5)]
         print("Running plan30 (all chars, 30 days, 20/day) — 6 modes")
+    elif plan30s:
+        # 30 days, 15/day = 450 chars — small focused plan, aggressive freq weighting
+        # max_real_dep_rank=900 ≈ 2×450 so only in-plan chars can hard-block
+        # freq_boost_cap=500, linear_boost_weight=2.5 for sharper frequency priority
+        params = dict(max_chars=None, N=30, M=15)
+        emb_file = "embeddings_full.json"
+        modes = [("additive_gap", 0.3)]
+        print("Running plan30s (all chars, 30 days, 15/day) — additive_gap, small plan")
     elif plan50:
         # 50 days, 20/day = 1000 chars — additive_gap as best mode
         params = dict(max_chars=None, N=50, M=20)
         emb_file = "embeddings_full.json"
         modes = [("additive_gap", 0.3)]
         print("Running plan50 (all chars, 50 days, 20/day) — additive_gap")
+    elif plan100:
+        # 100 days, 40/day = 4000 chars — large plan covering most frequent chars
+        # Looser dep constraint, higher freq_boost_cap to cover the wider range
+        params = dict(max_chars=None, N=100, M=40)
+        emb_file = "embeddings_full.json"
+        modes = [("additive_gap", 0.3)]
+        print("Running plan100 (all chars, 100 days, 40/day) — additive_gap, large plan")
     elif plan150:
         # 150 days, 20/day = 3000 chars — additive_gap as best mode
         params = dict(max_chars=None, N=150, M=20)
@@ -304,7 +321,8 @@ if __name__ == "__main__":
         modes = [("raw", 0.5)]
         print("Running full scale (all chars, 200 days, 15/day)")
 
-    common = dict(
+    # Base params shared across all plans
+    base_common = dict(
         dep_forest_dir=project_root / "data" / "dep_forest" / "dep_forest_for_chars",
         chars_json=project_root / "data" / "chars.json",
         freq_json=project_root / "data" / "char_freq_rank.json",
@@ -316,15 +334,26 @@ if __name__ == "__main__":
         embedding_model="text-embedding-3-small",
         add_phantom_deps=True,
         radical_map_path=project_root / "data" / "radical_map_proposal.json",
-        freq_boost_cap=1000,
-        linear_boost_weight=2.0,
-        importance_cap_factor=10.0,
-        max_real_dep_rank=2000,
         dep_beta=0.5,
         deadline_factor=5.0,
         deadline_weight=0.5,
         freq_early_weight=0.3,
     )
+
+    # Plan-specific tuning: smaller plans need sharper freq weighting and tighter dep constraints
+    # so that the limited slots go to the most frequent chars and rare deps don't block them.
+    # Larger plans can afford broader coverage and looser constraints.
+    if plan30s:
+        # 450 chars total; max_real_dep_rank=900 ≈ 2×450 — only in-plan chars can hard-block
+        plan_overrides = dict(freq_boost_cap=500, linear_boost_weight=2.5, importance_cap_factor=8.0, max_real_dep_rank=900)
+    elif plan100:
+        # 4000 chars total; max_real_dep_rank=8000 ≈ 2×4000 covers the full target range
+        plan_overrides = dict(freq_boost_cap=3000, linear_boost_weight=1.5, importance_cap_factor=15.0, max_real_dep_rank=8000)
+    else:
+        # plan50 (and any other plan): 1000 chars; tuned params from experiment log
+        plan_overrides = dict(freq_boost_cap=1000, linear_boost_weight=2.0, importance_cap_factor=10.0, max_real_dep_rank=2000)
+
+    common = {**base_common, **plan_overrides}
 
     results = {}
     for imp_mode, imp_decay in modes:

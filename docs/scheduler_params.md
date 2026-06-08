@@ -64,3 +64,5 @@ Track parameter changes and outcomes here to avoid re-running experiments.
 | 2026-06-07 | plan50 | baseline: `freq_boost_cap=3000, importance_cap_factor=20, linear_boost_weight=1.0` | 12 top-200 freq chars missing (得发家成实使点将代通原声), all blocked by rare deps or low slot priority |
 | 2026-06-07 | plan50 | `freq_boost_cap=1000, importance_cap_factor=10, linear_boost_weight=2.0` | 4 of 12 now appear (成使点原); 8 still missing — root cause: rare deps (豕 rank 4922, 殳 rank 5914 etc.) are hard prereqs that never get scheduled |
 | 2026-06-07 | plan50 | + `max_real_dep_rank=2000` | All 12 now appear; zero top-200 freq chars missing. Total 1000 chars scheduled. |
+| 2026-06-07 | plan30s | `freq_boost_cap=500, linear_boost_weight=2.5, importance_cap_factor=8, max_real_dep_rank=900` | 450 chars, 30 days, 15/day. max_real_dep_rank=900≈2×450 so only in-plan chars can hard-block. Avg coherence 0.29. |
+| 2026-06-07 | plan100 | `freq_boost_cap=3000, linear_boost_weight=1.5, importance_cap_factor=15, max_real_dep_rank=8000` | 4000 chars, 100 days, 40/day. max_real_dep_rank=8000≈2×4000 for broad coverage. |

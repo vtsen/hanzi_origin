@@ -12,26 +12,63 @@ let freqList = null;   // raw array from char_freq_rank.json
 let charInfo = null;        // char -> {senses, edges, formation, deps} from char_info.json
 let formationNotes = null;  // char -> {verdict, note, wiktionary_url, ...} from formation_notes.json
 
+// Plan variants available; key is stored in localStorage
+const PLAN_OPTIONS = [
+  { key: 'plan30s', label: '30 days · 15/day',  file: 'data/learning_plan/learning_plan_30days_additive_gap0.3.json' },
+  { key: 'plan50',  label: '50 days · 20/day',  file: 'data/learning_plan/learning_plan_50days_additive_gap0.3.json' },
+  { key: 'plan100', label: '100 days · 40/day', file: 'data/learning_plan/learning_plan_100days_additive_gap0.3.json' },
+];
+const DEFAULT_PLAN_KEY = 'plan50';
+
+function getActivePlanKey() {
+  const saved = localStorage.getItem('activePlanKey');
+  return PLAN_OPTIONS.find(p => p.key === saved) ? saved : DEFAULT_PLAN_KEY;
+}
+
 // ---- Bootstrap ----
 document.addEventListener('DOMContentLoaded', () => {
+  initPlanSwitcher();
   loadData().then(() => {
     initRouter();
     initSearch();
   });
 });
 
+// ---- Plan switcher ----
+function initPlanSwitcher() {
+  const container = document.getElementById('plan-switcher');
+  if (!container) return;
+  const activeKey = getActivePlanKey();
+  PLAN_OPTIONS.forEach(opt => {
+    const btn = document.createElement('button');
+    btn.className = 'plan-btn' + (opt.key === activeKey ? ' plan-btn--active' : '');
+    btn.textContent = opt.label;
+    btn.title = opt.file.split('/').pop();
+    btn.addEventListener('click', () => {
+      if (opt.key === getActivePlanKey()) return;
+      localStorage.setItem('activePlanKey', opt.key);
+      // Reload page to reinitialize with new plan
+      window.location.reload();
+    });
+    container.appendChild(btn);
+  });
+}
+
 // ---- Data loading ----
 async function loadData() {
   showLoading(true);
   try {
+    const activeKey = getActivePlanKey();
+    const activePlan = PLAN_OPTIONS.find(p => p.key === activeKey) || PLAN_OPTIONS[1];
+
     const [planRes, rankRes, infoRes, notesRes] = await Promise.all([
-      fetch('data/learning_plan/learning_plan_50days_additive_gap0.3.json'),
+      fetch(activePlan.file),
       fetch('data/char_freq_rank.json'),
       fetch('data/char_info.json'),
       fetch('data/formation_audit/formation_notes.json'),
     ]);
 
-    if (!planRes.ok) throw new Error('Failed to load learning_plan_50days_additive_gap0.3.json');
+    if (!planRes.ok) throw new Error(`Failed to load ${activePlan.file}`);
     if (!rankRes.ok) throw new Error('Failed to load char_freq_rank.json');
     // char_info and formation_notes are optional — don't hard-fail if missing
     if (infoRes.ok) charInfo = await infoRes.json();

@@ -11,6 +11,7 @@ let rankMap = null;    // char -> 1-based rank (from char_freq_rank.json)
 let freqList = null;   // raw array from char_freq_rank.json
 let charInfo = null;        // char -> {senses, edges, formation, deps} from char_info.json
 let formationNotes = null;  // char -> {verdict, note, wiktionary_url, ...} from formation_notes.json
+let tradToSimp = null;      // traditional char -> simplified char (built from charInfo.trad fields)
 
 // Plan variants available; key is stored in localStorage
 const PLAN_OPTIONS = [
@@ -80,6 +81,18 @@ async function loadData() {
     // Build char -> rank map (1-based)
     rankMap = {};
     freqList.forEach((ch, i) => { rankMap[ch] = i + 1; });
+
+    // Build traditional -> simplified reverse map so dep cards resolve trad forms correctly
+    tradToSimp = {};
+    if (charInfo) {
+      for (const [simp, info] of Object.entries(charInfo)) {
+        if (info.trad) {
+          for (const t of info.trad) {
+            if (t !== simp) tradToSimp[t] = simp;
+          }
+        }
+      }
+    }
 
     showLoading(false);
   } catch (err) {
@@ -502,17 +515,20 @@ function getDayForChar(ch) {
 
 // Render a dep card: shows glyph + day badge. Clicking navigates to day or search.
 function renderDepCard(dep) {
-  const day = getDayForChar(dep);
+  // deps in char_info may use traditional forms; resolve to simplified for plan lookup
+  // deps in char_info may store traditional forms; resolve to simplified for plan/search lookup
+  const simp = (tradToSimp && tradToSimp[dep]) || dep;
+  const day = getDayForChar(simp);
   if (day !== undefined) {
-    // In plan — navigate directly to that day
-    return `<a class="dep-card" href="#day/${day}/${encodeURIComponent(dep)}" title="Day ${day}">
-      <span class="dep-card-glyph">${dep}</span>
+    // In plan — navigate directly to that day using the simplified char
+    return `<a class="dep-card" href="#day/${day}/${encodeURIComponent(simp)}" title="Day ${day}">
+      <span class="dep-card-glyph">${simp}</span>
       <span class="dep-card-day">Day ${day}</span>
     </a>`;
   } else {
-    // Not in plan — search for it
-    return `<button class="dep-card dep-card-unscheduled" onclick="searchDep('${dep}')" title="Not in plan">
-      <span class="dep-card-glyph">${dep}</span>
+    // Not in plan — search using simplified form
+    return `<button class="dep-card dep-card-unscheduled" onclick="searchDep('${simp}')" title="Not in plan">
+      <span class="dep-card-glyph">${simp}</span>
       <span class="dep-card-day">—</span>
     </button>`;
   }

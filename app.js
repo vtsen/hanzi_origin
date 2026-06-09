@@ -280,11 +280,19 @@ function selectChar(ch, card, rank, dayNum) {
   if (wasSelected) {
     detail.classList.remove('visible');
     selectedChar = null;
+    // Collapse: remove char from hash, keep plan param
+    const u = new URL(window.location.href);
+    u.hash = `day/${dayNum}`;
+    history.replaceState(null, '', u.toString());
     return;
   }
 
   card.classList.add('selected');
   selectedChar = ch;
+  // Reflect open char in URL so the link is shareable/bookmarkable
+  const u = new URL(window.location.href);
+  u.hash = `day/${dayNum}/${encodeURIComponent(ch)}`;
+  history.replaceState(null, '', u.toString());
 
   // Populate detail panel — core fields
   document.getElementById('detail-glyph').textContent = ch;

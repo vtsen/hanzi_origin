@@ -431,7 +431,9 @@ function renderHistoricalForms(ch, formation) {
 
   // Jiaguwen fallback: if oracle image fails for ALL candidates (simplified + traditional),
   // show oracle images of component parts, two levels deep.
-  const directDeps = (charInfo && charInfo[ch] && charInfo[ch].deps) || [];
+  // Resolve trad forms in deps to simplified so charInfo lookups and filenames are correct.
+  const rawDeps = (charInfo && charInfo[ch] && charInfo[ch].deps) || [];
+  const directDeps = rawDeps.map(d => (tradToSimp && tradToSimp[d]) || d);
   if (directDeps.length === 0) return;
 
   const seen = new Set([ch, ...scriptCandidates]);
@@ -440,7 +442,8 @@ function renderHistoricalForms(ch, formation) {
     if (!seen.has(dep)) { seen.add(dep); depCandidates.push(dep); }
   });
   directDeps.forEach(dep => {
-    const subDeps = (charInfo && charInfo[dep] && charInfo[dep].deps) || [];
+    const subRaw = (charInfo && charInfo[dep] && charInfo[dep].deps) || [];
+    const subDeps = subRaw.map(d => (tradToSimp && tradToSimp[d]) || d);
     subDeps.forEach(sd => {
       if (!seen.has(sd)) { seen.add(sd); depCandidates.push(sd); }
     });

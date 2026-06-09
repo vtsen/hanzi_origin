@@ -168,10 +168,20 @@ Total chars: **6,515** across 4 tiers (see `data/formation_audit/audit_priority.
 
 Within each tier, chars are sorted by **frequency rank** (most frequent first).
 
-**Already audited:** 100 chars (days 1–5 of plan50 — basic radicals). These are structurally
-important but not the most frequent; most top-100 frequency chars remain unaudited.
+**Audit progress (2026-06-09):**
 
-**Remaining:** ~6,415 chars.
+| Phase | Chars | Notes |
+|-------|------:|-------|
+| Days 1–5 pilot (plan50 schedule order) | 100 | Basic radicals; not highest freq |
+| Tier-1 first half (freq ranks 1–225) | 209 | Top frequency chars in plan30s |
+| **Total audited** | **309** | of 6,515 |
+
+**Results so far:** 92 SIGNIF entries, 11 MINOR entries in `formation_notes.json`.
+Common error pattern: `compound_ideograph` ↔ `phono_semantic_compound` confusion is the most
+frequent mismatch (~40% of SIGNIF). Several `trad` field errors also found (了→瞭, 面→麵,
+出→齣, 表→錶, 气→氣, 几→幾 — trad field points to an unrelated character).
+
+**Remaining in tier 1:** ~225 chars (ranks 226–450). See `audit_priority.json` for the ordered list.
 
 ### Batching plan
 

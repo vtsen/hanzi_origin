@@ -394,4 +394,56 @@ Embeddings are computed from the character's `meaning_text` — the concatenated
 
 ---
 
-*Document generated: 2026-06-01*
+---
+
+## 8. Production Configuration (Current)
+
+The comparisons in §6 use the original 30-day, M=20 exploration runs. The live site uses
+**`additive_gap`** mode, which was added after that comparison and outperforms all five modes above.
+
+### 8.1 `additive_gap` — Gap-Filling Additive Propagation
+
+**Formula (reverse-topological):**
+```
+eff[prereq] += α × max(0, best_child_eff − own[prereq])
+```
+
+The boost is proportional to how much the prereq *lags* its best descendant. If the prereq is
+already close in importance to its best child, the boost is small. Only large gaps trigger large
+boosts. This prevents well-ranked prereqs from being pushed further above their natural position
+while still rescuing deeply-buried rare prerequisites.
+
+With `importance_cap_factor=10` the heap priority is capped at `10 × raw_importance`, preventing
+any single prerequisite from dominating at the expense of high-frequency characters with no deep
+dependency chains.
+
+### 8.2 `max_real_dep_rank` — Rare Dependency Pruning
+
+After all importance propagation was tuned, 12 top-200 frequency characters were still missing
+from the 50-day plan because their prerequisite chains included characters with ranks >4000
+(e.g. 豕 rank 4922, 殳 rank 5914). These are genuine etymological components but are so rare
+that they would never be scheduled in a 1,000-char plan, permanently blocking their descendants.
+
+Setting `max_real_dep_rank = 2 × (N × M)` strips dependency edges to characters ranked beyond
+the plan's natural coverage window. The rare character remains in the universe and is still
+learnable if it appears in the plan, but it no longer acts as a hard prerequisite. This
+resolved all 12 missing characters with zero tuning of other parameters.
+
+### 8.3 Three-Plan Parameter Summary
+
+Each plan size uses different parameter values — smaller plans need sharper frequency weighting
+and tighter dependency constraints to pack the most important characters into fewer slots.
+
+| Parameter | plan30s (450 chars) | plan50 (1,000 chars) | plan100 (4,015 chars) |
+|-----------|--------------------:|---------------------:|----------------------:|
+| `freq_boost_cap` | 500 | 1,000 | 3,000 |
+| `linear_boost_weight` | 2.5 | 2.0 | 1.5 |
+| `importance_cap_factor` | 8 | 10 | 15 |
+| `max_real_dep_rank` | 900 | 2,000 | 8,000 |
+
+The `max_real_dep_rank` values follow the `2 × total_chars` rule of thumb.
+Full parameter reference: `docs/scheduler_params.md`.
+
+---
+
+*Document last updated: 2026-06-09*

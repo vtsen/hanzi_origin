@@ -17,6 +17,27 @@ Each day's batch is chosen to balance three goals:
 3. **Semantic coherence** — characters within a day share structural or thematic connections,
    making them easier to memorize together.
 
+### Dependency-rigorous scheduling
+
+The defining feature of this plan is that it enforces **hard etymological dependencies**.
+Chinese characters are not arbitrary symbols — most are built from smaller components
+(radicals, phonetics, semantic elements) that carry meaning or sound. For example:
+
+- 明 (bright) is composed of 日 (sun) + 月 (moon) → 日 and 月 must appear before 明
+- 的 (the most frequent character in Chinese) depends on 勺, which depends on 日
+- 语 (language) depends on 吾, which depends on 五 and 口
+
+The scheduler builds a full dependency graph from etymology data, runs Tarjan's SCC
+algorithm to resolve cycles, and produces a topologically valid schedule — meaning every
+character's components are guaranteed to appear on an earlier day. When you encounter
+a character for the first time, you have already seen everything it is made of.
+
+This is in contrast to most frequency-ordered lists (HSK, etc.), which treat characters
+as independent items. Here, Day 1 is not just "the most common characters" but specifically
+the foundational building blocks that unlock the largest number of high-frequency characters
+downstream. The detail panel for every character shows exactly which components it builds on
+and which characters it in turn unlocks.
+
 Three plan sizes are available (switchable via the nav bar):
 
 | Plan | Days | Chars/day | Total chars |

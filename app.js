@@ -22,12 +22,21 @@ const PLAN_OPTIONS = [
 const DEFAULT_PLAN_KEY = 'plan50';
 
 function getActivePlanKey() {
+  // URL query param ?plan=planXX takes precedence over localStorage
+  const urlParam = new URLSearchParams(window.location.search).get('plan');
+  if (urlParam && PLAN_OPTIONS.find(p => p.key === urlParam)) return urlParam;
   const saved = localStorage.getItem('activePlanKey');
   return PLAN_OPTIONS.find(p => p.key === saved) ? saved : DEFAULT_PLAN_KEY;
 }
 
 // ---- Bootstrap ----
 document.addEventListener('DOMContentLoaded', () => {
+  // Ensure ?plan= is always present in the URL so links are shareable
+  const url = new URL(window.location.href);
+  if (!url.searchParams.get('plan')) {
+    url.searchParams.set('plan', getActivePlanKey());
+    history.replaceState(null, '', url.toString());
+  }
   initPlanSwitcher();
   loadData().then(() => {
     initRouter();
@@ -48,8 +57,10 @@ function initPlanSwitcher() {
     btn.addEventListener('click', () => {
       if (opt.key === getActivePlanKey()) return;
       localStorage.setItem('activePlanKey', opt.key);
-      // Reload page to reinitialize with new plan
-      window.location.reload();
+      // Put plan key in URL so links are shareable, then reload
+      const url = new URL(window.location.href);
+      url.searchParams.set('plan', opt.key);
+      window.location.href = url.toString();
     });
     container.appendChild(btn);
   });

@@ -170,18 +170,9 @@ def build_char_dataset(
         char_meanings[ch] = text if text else ch
         char_ranks[ch] = ranks.get(ch, 99999)
 
-    # Strip dep edges to rare chars that would permanently block common chars in short plans.
-    # The rare char remains a learnable node; it just loses its hard-prerequisite status.
-    if max_real_dep_rank is not None:
-        n_stripped = 0
-        for ch in char_deps:
-            before = len(char_deps[ch])
-            char_deps[ch] = [d for d in char_deps[ch] if ranks.get(d, 99999) <= max_real_dep_rank]
-            n_stripped += before - len(char_deps[ch])
-        print(f"    {n_stripped} dep edges stripped (rank > {max_real_dep_rank})")
-
-    # Apply radical map: normalise variant/traditional dep forms to canonical chars
-    # before phantom injection so 艹->草, 辵->走, 來->来, etc. resolve to real chars.
+    # Apply radical map FIRST: normalise variant/traditional dep forms to canonical chars
+    # before any rank-based stripping, so traditional forms (e.g. 賈→贾) are resolved to
+    # their simplified equivalents and their ranks are looked up correctly.
     if radical_map:
         n_replaced = 0
         for ch in list(char_deps.keys()):
@@ -198,6 +189,16 @@ def build_char_dataset(
                 if d != ch and not (d in seen or seen.add(d))  # type: ignore[func-returns-value]
             ]
         print(f"    {n_replaced} dependency references normalised via radical map")
+
+    # Strip dep edges to rare chars that would permanently block common chars in short plans.
+    # Runs after radical map so traditional forms are already resolved to simplified ranks.
+    if max_real_dep_rank is not None:
+        n_stripped = 0
+        for ch in char_deps:
+            before = len(char_deps[ch])
+            char_deps[ch] = [d for d in char_deps[ch] if ranks.get(d, 99999) <= max_real_dep_rank]
+            n_stripped += before - len(char_deps[ch])
+        print(f"    {n_stripped} dep edges stripped (rank > {max_real_dep_rank})")
 
     if add_phantom_deps:
         n_phantoms = _inject_phantom_deps(char_deps, char_ranks)

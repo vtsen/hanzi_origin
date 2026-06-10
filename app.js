@@ -449,63 +449,63 @@ function renderHistoricalForms(ch, formation) {
   });
 
   // Jiaguwen fallback: if oracle image fails for ALL candidates (simplified + traditional),
-  // show oracle images of component parts, two levels deep.
+  // show oracle images of component parts.
+  // Per direct dep: try its oracle first; only fall to its sub-deps if that fails.
+  // This prevents sub-deps from showing when a shallower dep already has an image.
   // Resolve trad forms in deps to simplified so charInfo lookups and filenames are correct.
   const rawDeps = (charInfo && charInfo[ch] && charInfo[ch].deps) || [];
   const directDeps = rawDeps.map(d => (tradToSimp && tradToSimp[d]) || d);
   if (directDeps.length === 0) return;
 
   const seen = new Set([ch, ...scriptCandidates]);
-  const depCandidates = [];
-  directDeps.forEach(dep => {
-    if (!seen.has(dep)) { seen.add(dep); depCandidates.push(dep); }
-  });
-  directDeps.forEach(dep => {
-    const subRaw = (charInfo && charInfo[dep] && charInfo[dep].deps) || [];
-    const subDeps = subRaw.map(d => (tradToSimp && tradToSimp[d]) || d);
-    subDeps.forEach(sd => {
-      if (!seen.has(sd)) { seen.add(sd); depCandidates.push(sd); }
-    });
-  });
-
-  if (depCandidates.length === 0) return;
-
   const fallbackStrip = document.createElement('div');
   fallbackStrip.className = 'hist-strip hist-fallback-strip';
   let fallbackLoaded = 0;
 
-  oracleAllFailed = () => {
-    depCandidates.forEach(dep => {
-      const filename = dep + '-oracle.svg';
-      const form = document.createElement('a');
-      form.className = 'hist-form hist-dep-form';
-      form.href = WIKIMEDIA_FILE_PAGE + encodeURIComponent(filename);
-      form.target = '_blank';
-      form.rel = 'noopener noreferrer';
-      form.title = `${dep} oracle bone script`;
-      form.style.display = 'none';
+  function addDepForm(dep, imgEl) {
+    // Reuse the already-loaded Image element to avoid a second network fetch
+    const filename = dep + '-oracle.svg';
+    const form = document.createElement('a');
+    form.className = 'hist-form hist-dep-form';
+    form.href = WIKIMEDIA_FILE_PAGE + encodeURIComponent(filename);
+    form.target = '_blank';
+    form.rel = 'noopener noreferrer';
+    form.title = `${dep} oracle bone script`;
+    imgEl.className = 'hist-img';
+    imgEl.alt = dep;
+    fallbackLoaded++;
+    if (fallbackLoaded === 1) {
+      const heading = document.createElement('span');
+      heading.className = 'hist-heading hist-fallback-heading';
+      heading.textContent = '部件甲骨文';
+      el.appendChild(heading);
+      el.appendChild(fallbackStrip);
+      el.style.display = '';
+    }
+    form.appendChild(imgEl);
+    form.appendChild(Object.assign(document.createElement('span'), {
+      className: 'hist-label', textContent: dep,
+    }));
+    fallbackStrip.appendChild(form);
+  }
 
-      const img = new Image();
-      img.className = 'hist-img';
-      img.alt = dep;
-      img.addEventListener('load', () => {
-        form.style.display = 'flex';
-        fallbackLoaded++;
-        if (fallbackLoaded === 1) {
-          const heading = document.createElement('span');
-          heading.className = 'hist-heading hist-fallback-heading';
-          heading.textContent = '部件甲骨文';
-          el.appendChild(heading);
-          el.appendChild(fallbackStrip);
-          el.style.display = '';
-        }
+  function tryDep(dep, onFail) {
+    if (seen.has(dep)) { if (onFail) onFail(); return; }
+    seen.add(dep);
+    const img = new Image();
+    img.addEventListener('load', () => addDepForm(dep, img));
+    img.addEventListener('error', () => { if (onFail) onFail(); });
+    img.src = WIKIMEDIA_PATH + encodeURIComponent(dep + '-oracle.svg');
+  }
+
+  oracleAllFailed = () => {
+    directDeps.forEach(dep => {
+      // Only try sub-deps if the direct dep itself has no oracle image
+      tryDep(dep, () => {
+        const subRaw = (charInfo && charInfo[dep] && charInfo[dep].deps) || [];
+        subRaw.map(d => (tradToSimp && tradToSimp[d]) || d)
+              .forEach(sd => tryDep(sd, null));
       });
-      img.src = WIKIMEDIA_PATH + encodeURIComponent(filename);
-      form.appendChild(img);
-      form.appendChild(Object.assign(document.createElement('span'), {
-        className: 'hist-label', textContent: dep,
-      }));
-      fallbackStrip.appendChild(form);
     });
   };
 }

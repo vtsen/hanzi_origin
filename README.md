@@ -23,9 +23,9 @@ The defining feature of this plan is that it enforces **hard etymological depend
 Chinese characters are not arbitrary symbols — most are built from smaller components
 (radicals, phonetics, semantic elements) that carry meaning or sound. For example:
 
-- 明 (bright) is composed of 日 (sun) + 月 (moon) → 日 and 月 must appear before 明
-- 的 (the most frequent character in Chinese) depends on 勺, which depends on 日
-- 语 (language) depends on 吾, which depends on 五 and 口
+- 明 (bright) = 日 (sun) + 月 (moon) — both must appear before 明
+- 的 (the most frequent character in Chinese) = 日 (semantic: bright) + 勺 (phonetic) — even the most common character has two prerequisites
+- 语 (language) depends on 言 and 吾; 吾 in turn depends on 五 and 口 — a two-level chain where scheduling 语 requires four earlier characters
 
 The scheduler builds a full dependency graph from etymology data, runs Tarjan's SCC
 algorithm to resolve cycles, and produces a topologically valid schedule — meaning every
@@ -44,7 +44,7 @@ Three plan sizes are available (switchable via the nav bar):
 |------|-----:|----------:|------------:|
 | Small | 30 | 15 | 450 |
 | Medium (default) | 50 | 20 | 1,000 |
-| Large | 100 | 40 | 4,015 |
+| Large | 100 | 40 | 4,013 |
 
 ---
 
@@ -127,7 +127,7 @@ Characters with significant discrepancies are shown in-app with a ⚑ badge.
 **Current progress** (as of 2026-06-09):
 - 309 / 6,515 chars audited
 - 103 entries in `formation_notes.json` (92 SIGNIF, 11 MINOR)
-- Tier-1 first half complete (top 225 frequency-rank chars in plan30s)
+- Tier 1 in progress: 264 / 450 audited (plan30s chars, sorted by frequency rank)
 
 See `docs/formation_audit_plan.md` for methodology, batch structure, and next steps.
 
